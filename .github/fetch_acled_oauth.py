@@ -2,35 +2,42 @@ import requests
 import json
 import os
 
+# ACLED изискват вашия Email и API Key (който те наричат "Key")
 email = os.environ.get("ACLED_EMAIL")
-password = os.environ.get("ACLED_PASSWORD")
+key = os.environ.get("ACLED_PASSWORD") # Ще използваме същия secret за ключа
 
-token_resp = requests.post(
-    "https://acleddata.com/oauth/token",
-    data={"username": email, "password": password, "grant_type": "password", "client_id": "acled"}
-)
-token_resp.raise_for_status()
-access_token = token_resp.json().get("access_token")
+# Директно правим заявка към API-то (без сложния OAuth процес)
+# Тук добавяме параметри, за да вземем последните 500 събития
+api_url = f"https://api.acleddata.com/acled/read?email={email}&key={key}&limit=500"
 
-headers = {"Authorization": f"Bearer {access_token}"}
-api_url = "https://api.acleddata.com/acled/read?limit=500"
-response = requests.get(api_url, headers=headers)
-response.raise_for_status()
-data = response.json()
+try:
+    print("Опит за изтегляне на данни от ACLED...")
+    response = requests.get(api_url)
+    response.raise_for_status()
+    data = response.json()
 
-events = []
-for item in data.get("data", []):
-    events.append({
-        "country": item.get("country"),
-        "date": item.get("event_date"),
-        "fatalities": item.get("fatalities") or 0,
-        "actor1": item.get("actor1"),
-        "actor2": item.get("actor2"),
-        "lat": item.get("geo_lat"),
-        "lon": item.get("geo_lon")
-    })
+    events = []
+    # ACLED връща данните в обект "data"
+    for item in data.get("data", []):
+        events.append({
+            "country": item.get("country"),
+            "date": item.get("event_date"),
+            "fatalities": int(item.get("fatalities") or 0),
+            "type": item.get("event_type"),
+            "actor1": item.get("actor1"),
+            "actor2": item.get("actor2"),
+            "lat": float(item.get("latitude")),
+            "lon": float(item.get("longitude"))
+        })
 
-with open("conflicts.json", "w", encoding="utf-8") as f:
-    json.dump(events, f, indent=2)
+    with open("conflicts.json", "w", encoding="utf-8") as f:
+        json.dump(events, f, indent=2, ensure_ascii=False)
 
-print(f"Fetched {len(events)} events from ACLED.")
+    print(f"Успех! Изтеглени са {len(events)} събития.")
+
+except Exception as e:
+    print(f"Грешка при изтеглянето: {e}")
+    # Създаваме празен файл, за да не гърми сайта, ако API-то откаже
+    if not os.path.exists("conflicts.json"):
+        with open("conflicts.json", "w") as f:
+            json.dump([], f)
