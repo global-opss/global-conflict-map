@@ -1,35 +1,11 @@
-name: Update ACLED Conflicts
+import json
 
-on:
-  schedule:
-    - cron: '0 0 * * *' # всеки ден в полунощ
-  workflow_dispatch:
+data = [
+    {"country": "Ukraine", "date": "2024-05-20", "fatalities": 5, "type": "Explosion", "lat": 48.37, "lon": 38.01},
+    {"country": "Gaza", "date": "2024-05-20", "fatalities": 12, "type": "Airstrike", "lat": 31.5, "lon": 34.4},
+    {"country": "Sudan", "date": "2024-05-19", "fatalities": 3, "type": "Armed clash", "lat": 15.5, "lon": 32.5}
+]
 
-jobs:
-  fetch_conflicts:
-    runs-on: ubuntu-latest
-    env:
-      ACLED_EMAIL: ${{ secrets.ACLED_EMAIL }}
-      ACLED_PASSWORD: ${{ secrets.ACLED_PASSWORD }}
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@v3
-
-      - name: Setup Python
-        uses: actions/setup-python@v4
-        with:
-          python-version: '3.x'
-
-      - name: Install dependencies
-        run: pip install requests
-
-      - name: Fetch ACLED data
-        run: python ./fetch_acled_oauth.py
-
-      - name: Commit and push if changed
-        run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
-          git add conflicts.json
-          git commit -m "Update conflict data" || exit 0
-          git push
+with open("conflicts.json", "w", encoding="utf-8") as f:
+    json.dump(data, f, indent=2, ensure_ascii=False)
+print("Файлът conflicts.json е готов!")
