@@ -1,1 +1,11 @@
-[]
+[
+    {
+        "country": "World Update",
+        "date": "2026-02-19",
+        "fatalities": 0,
+        "type": "Other",
+        "lat": 0.0,
+        "lon": 0.0,
+        "title": "No conflict news found in the last hour."
+    }
+]
