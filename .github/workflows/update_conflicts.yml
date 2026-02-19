@@ -2,6 +2,8 @@ name: Update ACLED Conflicts
 
 on:
   workflow_dispatch:
+  schedule:
+    - cron: '0 0 * * *' # Това ще пуска скрипта автоматично всяка нощ
 
 jobs:
   fetch_conflicts:
@@ -17,7 +19,11 @@ jobs:
         with:
           python-version: '3.x'
 
-      - name: Fetch ACLED data
+      # ЕТО ТУК ДОБАВЯМЕ НУЖНИТЕ БИБЛИОТЕКИ
+      - name: Install dependencies
+        run: pip install requests feedparser geopy
+
+      - name: Fetch data
         run: python fetch_acled_oauth.py
 
       - name: Commit and push if changed
