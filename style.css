@@ -1,0 +1,34 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #1c1c1c;
+    color: #f0f0f0;
+}
+
+header {
+    padding: 10px;
+    background-color: #111;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+#dashboard {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    font-weight: bold;
+}
+
+#filters label {
+    margin-right: 20px;
+}
+
+.leaflet-popup-content {
+    background-color: #222;
+    color: #fff;
+}
+
+.leaflet-container {
+    background: #111;
+}
