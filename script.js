@@ -9,6 +9,22 @@ window.onload = function() {
         attribution: '&copy; CartoDB'
     }).addTo(map);
 
+    // --- НОВО: Добавяне на зелени очертания на границите ---
+    fetch('https://raw.githubusercontent.com/datasets/geo-boundaries-world-110m/master/countries.geojson')
+        .then(response => response.json())
+        .then(geojsonData => {
+            L.geoJson(geojsonData, {
+                style: {
+                    color: '#00ff00', // Ярко зелено за границите
+                    weight: 1,        // Дебелина на линията
+                    opacity: 0.4,     // Леко прозрачно, за да не пречи на точките
+                    fillOpacity: 0    // Без запълване, за да останат държавите черни
+                }
+            }).addTo(map);
+        })
+        .catch(err => console.error("Грешка при зареждане на границите:", err));
+    // -------------------------------------------------------
+
     // 2. Функция за цветовете
     function getColor(type) {
         const colors = {
@@ -64,15 +80,4 @@ window.onload = function() {
             });
 
             // Обновяване на броячите
-            document.getElementById('active-events').innerText = `Active events: ${data.length}`;
-            document.getElementById('total-fatalities').innerText = `Total fatalities: ${totalFatalities}`;
-            document.getElementById('countries-affected').innerText = `Countries affected: ${countries.size}`;
-            document.getElementById('last-update').innerText = `Last update: ${new Date().toLocaleDateString()}`;
-        })
-        .catch(err => console.error("Грешка:", err));
-
-    // 4. Поправка за черния екран
-    setTimeout(function() {
-        map.invalidateSize();
-    }, 500);
-};
+            document.getElementById('active-
