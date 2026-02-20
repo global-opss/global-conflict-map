@@ -5,10 +5,10 @@
         "lon": -76.602191,
         "date": "2026-02-20",
         "type": "Naval",
-        "title": "Why the supreme court’s tariffs ruling is a win for world trade – but also tricky",
-        "description": "pThe decision adds to economic uncertainty, as deals Donald Trump struck with other countries are upended/ppIt is refreshing to witness the US supreme court recover its spine and stand up to a href=\"https://www.theguardian.com/us-news/donaldtrump\"Donald Trump/a’s most extreme caprices. The a href=\"https://www.theguardian.com/us-news/2026/feb/20/trump-supreme-court-tariffs-ruling\"6-3 decision/a on Friday to strike down his barrage of tariffs on imports from virtually everywhere based on the preposterous argument that they addressed national emergencies will reassure the world that the US’s system of government – based on the separation of powers, checks and balances, and the rule of law – has not collapsed entirely./ppBut let’s hold the (imported) champagne. The court’s ruling will not restore the United States to its former place as a reasonable, trustworthy player in the world economy. The rules-based economic architecture that underpinned the integration of the world economy over the decades that followed the second world war remains fractured. Trump is still intent on its disintegration. And he retains power to do so./p a href=\"https://www.theguardian.com/us-news/2026/feb/20/supreme-court-tariffs-ruling-world-trade-trump\"Continue reading.../a",
+        "title": "‘I feel like a ghost’: new father deported by ICE to Bhutan that exiled his family",
+        "description": "pMohan Karki – one of many people ICE has deported to countries with which they have little connection – leaves behind his wife and seven-month-old baby he has yet to hold/ppTika Basnet sat facing the glow of her iPhone, a red emtika/em pressed into the center of her forehead. Seven-month-old Briana slept on her lap, her breathing soft and uneven. On the other side of the screen was Mohan Karki, Basnet’s husband, who had yet to hold his daughter./ppFor Karki, nearly 9,000 miles (14,500km) away, it was already morning. He was in hiding in south Asia, his exact location withheld for his safety, his face breaking into pixels as he watched his daughter sleep./p a href=\"https://www.theguardian.com/us-news/2026/feb/15/bhutanese-nepali-refugee-ice-trump-immigration\"Continue reading.../a",
         "fatalities": "0",
-        "link": "https://www.theguardian.com/us-news/2026/feb/20/supreme-court-tariffs-ruling-world-trade-trump"
+        "link": "https://www.theguardian.com/us-news/2026/feb/15/bhutanese-nepali-refugee-ice-trump-immigration"
     },
     {
         "country": "Middle East",
@@ -42,17 +42,6 @@
         "description": "pReport details harrowing 18-month occupation of North Darfur capital, showing destruction aimed at ethnic communities/ppThe a href=\"https://www.theguardian.com/world/2025/oct/27/fears-civilians-sudan-paramilitary-rsf-capture-el-fasher\"siege and capture/a of the Sudanese city of El Fasher by the paramilitary Rapid Support Forces group last October bore “the hallmarks of genocide”, a UN-mandated fact-finding mission has said./ppIn a report detailing the harrowing 18-month occupation of the capital of North Darfur, investigators concluded that the RSF and allied militias deliberately inflicted conditions calculated to bring about the physical destruction of the Zaghawa and Fur ethnic communities./p a href=\"https://www.theguardian.com/world/2026/feb/19/rsf-siege-el-fasher-sudan-hallmarks-of-genocide-un-mission-north-darfur\"Continue reading.../a",
         "fatalities": "0",
         "link": "https://www.theguardian.com/world/2026/feb/19/rsf-siege-el-fasher-sudan-hallmarks-of-genocide-un-mission-north-darfur"
-    },
-    {
-        "country": "Middle East",
-        "lat": 32.6475314,
-        "lon": 54.5643516,
-        "date": "2026-02-20",
-        "type": "Naval",
-        "title": "Iranian regime escalates hostilities with US, hardens negotiating position",
-        "description": "Latest report regarding Iranian regime escalates hostilities with US, hardens negotiating position.",
-        "fatalities": "0",
-        "link": "https://www.longwarjournal.org/archives/2026/02/iranian-regime-escalates-hostilities-with-us-hardens-negotiating-position.php"
     },
     {
         "country": "Venezuela",
@@ -99,6 +88,17 @@
         "link": "https://www.theguardian.com/us-news/2026/feb/20/azerbaijan-trump-board-peace-protestors"
     },
     {
+        "country": "Middle East",
+        "lat": 32.6475314,
+        "lon": 54.5643516,
+        "date": "2026-02-20",
+        "type": "Naval",
+        "title": "Iranian regime escalates hostilities with US, hardens negotiating position",
+        "description": "Latest report regarding Iranian regime escalates hostilities with US, hardens negotiating position.",
+        "fatalities": "0",
+        "link": "https://www.longwarjournal.org/archives/2026/02/iranian-regime-escalates-hostilities-with-us-hardens-negotiating-position.php"
+    },
+    {
         "country": "USA",
         "lat": 40.7127281,
         "lon": -74.0060152,
@@ -108,16 +108,5 @@
         "description": "pPhilanthropist and mother of Elisabeth, James and Lachlan Murdoch died at home in Palm Beach, Florida/ppThe author and philanthropist Anna Murdoch-Mann, the ex-wife of the Australian media tycoon Rupert Murdoch, died at her home in Palm Beach, Florida, on Tuesday. She was 81./ppMurdoch-Mann’s death was reported Friday by a href=\"https://nypost.com/2026/02/20/world-news/author-and-philanthropist-anna-murdoch-mann-dies-at-81/\"the New York Post/a, one of her ex-husband’s media properties./p a href=\"https://www.theguardian.com/us-news/2026/feb/20/anna-murdoch-mann-dies\"Continue reading.../a",
         "fatalities": "0",
         "link": "https://www.theguardian.com/us-news/2026/feb/20/anna-murdoch-mann-dies"
-    },
-    {
-        "country": "Middle East",
-        "lat": 10.77544,
-        "lon": 47.50766,
-        "date": "2026-02-20",
-        "type": "Naval",
-        "title": "Rafah crossing opens days after IDF says Hamas violated ceasefire, conducts strikes",
-        "description": "Latest report regarding Rafah crossing opens days after IDF says Hamas violated ceasefire, conducts strikes.",
-        "fatalities": "0",
-        "link": "https://www.longwarjournal.org/archives/2026/02/rafah-crossing-opens-days-after-idf-says-hamas-violated-ceasefire.php"
     }
 ]
