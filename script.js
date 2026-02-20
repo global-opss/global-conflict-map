@@ -41,7 +41,8 @@ window.onload = function() {
         if (type === 'Airstrike' || type === 'Explosion') return iconExplosion;
         return iconAlert;
     }
-    // --- 4. ГЕОПОЛИТИЧЕСКИ ГРАНИЦИ (ЗЕЛЕН КОНТУР) ---
+
+    // --- 3. ГЕОПОЛИТИЧЕСКИ ГРАНИЦИ ---
     fetch('https://raw.githubusercontent.com/datasets/geo-boundaries-world-110m/master/countries.geojson')
         .then(res => res.json()).then(data => {
             L.geoJson(data, {
@@ -53,15 +54,20 @@ window.onload = function() {
             }).addTo(map);
         });
 
-    // --- 5. ТАКТИЧЕСКИ ЗОНИ (УКРАЙНА) ---
+    // --- 4. ТАКТИЧЕСКИ ЗОНИ (УКРАЙНА) ---
     var fLine = [[46.5, 32.3], [48.0, 37.6], [50.1, 37.8]];
     L.polyline(fLine, { color: '#ff0000', weight: 3, opacity: 0.5, dashArray: '10, 15' }).addTo(map);
 
     var oZone = [[46.0, 33.0], [47.2, 37.8], [50.0, 38.5], [44.0, 40.0], [44.0, 33.0]];
     L.polygon(oZone, { color: '#ff4d4d', fillColor: '#ff0000', fillOpacity: 0.08, weight: 1 }).addTo(map);
-    // --- 6. ЗАРЕЖДАНЕ НА ДАННИ (conflicts.json) ---
+
+    // --- 5. ЗАРЕЖДАНЕ НА ДАННИ И ТЪРСАЧКА ---
+    let allConflictData = []; 
+
     fetch('conflicts.json').then(res => res.json()).then(data => {
+        allConflictData = data;
         let deaths = 0, countries = new Set();
+        
         data.forEach(p => {
             let marker = L.marker([p.lat, p.lon], { icon: getTacticalIcon(p.type) }).addTo(map);
             
@@ -92,28 +98,25 @@ window.onload = function() {
 
                 if (window.twttr) { window.twttr.widgets.load(); }
             });
+
             deaths += (parseInt(p.fatalities) || 0);
             countries.add(p.country);
         });
-fetch('conflicts.json')
-    .then(response => response.json())
-    .then(data => {
-        allConflictData = data; // <--- ДОБАВИ ТОЗИ РЕД ТУК
-        // ... останалият ти код за активни събития, новини и т.н.
+
+        // Обновяване на Dashboard
         document.getElementById('active-events').innerText = "Active events: " + data.length;
         document.getElementById('total-fatalities').innerText = "Total fatalities: " + deaths;
         document.getElementById('countries-affected').innerText = "Countries affected: " + countries.size;
         document.getElementById('news-ticker').innerText = data.map(p => `[${p.country.toUpperCase()}: ${p.title}]`).join(' +++ ');
         document.getElementById('last-update').innerText = "Last update: " + new Date().toLocaleDateString();
-    }); 
-                                                         // 1. ПРИНУДИТЕЛНО ПУСКАНЕ НА КАРТАТА (Фикс за черния екран)
-    setTimeout(() => { 
-        if (typeof map !== 'undefined') {
-            map.invalidateSize(); 
-        }
-    }, 800);
 
-    // 2. ЛОГИКА НА ТЪРСАЧКАТА
+        // Фикс за черния екран
+        setTimeout(() => { 
+            if (typeof map !== 'undefined') { map.invalidateSize(); }
+        }, 800);
+    });
+
+    // --- 6. ЛОГИКА НА ТЪРСАЧКАТА ---
     const searchInput = document.getElementById('map-search');
     const resultsDiv = document.getElementById('search-results');
 
@@ -127,7 +130,6 @@ fetch('conflicts.json')
                 return;
             }
 
-            // Търсим в allConflictData, който напълнихме на ред 101
             const matches = allConflictData.filter(p => 
                 p.country.toLowerCase().includes(term) || 
                 p.title.toLowerCase().includes(term)
@@ -140,18 +142,20 @@ fetch('conflicts.json')
                     div.className = 'suggestion-item';
                     div.innerText = `${match.country}: ${match.title}`;
                     div.onclick = () => {
-                        map.flyTo([match.lat, match.lng], 8);
+                        map.flyTo([match.lat, match.lon], 8);
                         searchInput.value = match.country;
                         resultsDiv.style.display = 'none';
                     };
                     resultsDiv.appendChild(div);
                 });
-    } else {
-        resultsDiv.style.display = 'none';
+            } else {
+                resultsDiv.style.display = 'none';
+            }
+        });
     }
-});
-}
-};
+}; // Край на window.onload
+
+// --- 7. ЧАСОВНИК (Извън всичко за стабилност) ---
 setInterval(() => {
     const clockEl = document.getElementById('utc-clock');
     if (clockEl) {
