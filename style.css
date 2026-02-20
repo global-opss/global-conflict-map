@@ -359,3 +359,8 @@ header h1 {
     font-weight: bold;
     font-size: 12px;
 }
+@keyframes pulse {
+    0% { transform: scale(0.8); opacity: 0.7; }
+    50% { transform: scale(1.2); opacity: 1; text-shadow: 0 0 15px #ff4d4d; }
+    100% { transform: scale(0.8); opacity: 0.7; }
+}
