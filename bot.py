@@ -6,11 +6,23 @@ import time
 
 # Твоят списък с емисии
 FEEDS = [
-    "https://www.politico.eu/rss", "https://rss.cnn.com/rss/edition_world.rss",
-    "http://feeds.bbci.co.uk/news/world/rss.xml", "https://www.aljazeera.com/xml/rss/all.xml",
-    "https://www.theguardian.com/world/rss", "https://www.kyivpost.com/feed",
-    "https://www.militarytimes.com/arc/outboundfeeds/rss/", "https://www.longwarjournal.org/feed",
-    "https://rss.nytimes.com/services/xml/rss/nyt/World.xml"
+    "https://www.politico.eu/rss", 
+    "https://rss.cnn.com/rss/edition_world.rss",
+    "http://feeds.bbci.co.uk/news/world/rss.xml", 
+    "https://www.aljazeera.com/xml/rss/all.xml",
+    "https://www.theguardian.com/world/rss", 
+    "https://www.kyivpost.com/feed",
+    "https://www.militarytimes.com/arc/outboundfeeds/rss/", 
+    "https://www.longwarjournal.org/feed",
+    "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
+    "https://www.reutersagency.com/feed/?best-topics=political-general&post_type=best",
+    "https://www.france24.com/en/rss", 
+    "https://www.dw.com/en/top-stories/s-9097", 
+    "https://www.voanews.com/api/z_p-itevi-",
+    "https://www.voanews.com/api/z_p-itevi-", 
+    "https://news.un.org/feed/subscribe/en/news/all/rss.xml",
+    "https://news.un.org/feed/subscribe/en/news/all/rss.xml",  
+    "https://www.almasdarnews.com/article/category/syria/feed/",
 ]
 
 geolocator = Nominatim(user_agent="conflict_map_final_v12")
@@ -126,3 +138,4 @@ def run_bot():
 
 if __name__ == "__main__":
     run_bot()
+
