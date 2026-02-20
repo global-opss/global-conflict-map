@@ -6,31 +6,52 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
     <style>
-        /* Бърза корекция за подредбата: Лента вляво, Карта вдясно */
+        /* Фиксираме размерите, за да не изглежда разхвърляно */
         .main-container {
             display: flex;
-            flex-direction: row-reverse; /* Това разменя местата им визуално */
-            height: calc(100vh - 120px);
-        }
-        #map { flex: 1; }
-        #news-sidebar {
-            width: 350px;
-            background: #111;
-            border-right: 2px solid #39FF14; /* Линията вече е отдясно на панела */
-            border-left: none;
-            display: flex;
-            flex-direction: column;
+            flex-direction: row-reverse; /* Панел вляво, Карта вдясно */
+            height: calc(100vh - 100px);
             overflow: hidden;
         }
-        #news-content {
-            padding: 15px;
-            flex: 0 0 auto;
-            max-height: 40%;
-            overflow-y: auto;
+
+        #map { 
+            flex: 1; 
+            position: relative; 
         }
+
+        #news-sidebar {
+            width: 380px; /* Фиксирана ширина, за да не е твърде голям */
+            min-width: 380px;
+            background: #111;
+            border-right: 2px solid #39FF14;
+            display: flex;
+            flex-direction: column;
+            z-index: 10;
+        }
+
+        #news-content {
+            flex: 1; /* Заема горната част */
+            overflow-y: auto;
+            padding: 15px;
+            border-bottom: 2px solid #333;
+        }
+
         #cbox-wrapper {
-            flex: 1;
-            border-top: 2px solid #39FF14;
+            height: 400px; /* Чатът ще е с фиксирана височина отдолу */
+            background: #000;
+        }
+
+        /* Връщаме легендата в долния десен ъгъл върху картата */
+        .map-legend {
+            position: absolute;
+            bottom: 20px;
+            right: 20px;
+            z-index: 1000;
+            background: rgba(0, 0, 0, 0.85);
+            padding: 15px;
+            border: 1px solid #39FF14;
+            border-radius: 5px;
+            pointer-events: none;
         }
     </style>
 </head>
@@ -38,71 +59,41 @@
     <header>
         <h1>🌐 Global Conflict Dashboard</h1>
         <div id="dashboard">
-            <span id="active-events">Active events: 0</span>
-            <span id="total-fatalities">Total fatalities: 0</span>
-            <span id="countries-affected">Countries affected: 0</span>
-            <span id="last-update">Last update: N/A</span>
-
-            <div class="header-ticker">
-                <div class="ticker-content" id="news-ticker">ЗАРЕЖДАНЕ НА ТАКТИЧЕСКИ ДАННИ...</div>
-            </div>
-
-            <div class="live-clock">
-                <span id="utc-clock">00:00:00 UTC</span> | <span id="online-users" style="color: #39FF14;">USERS ONLINE: 1</span>
-            </div>
+            <span id="active-events">Active events: 0</span> | 
+            <span id="total-fatalities">Total fatalities: 0</span> | 
+            <span id="online-users" style="color: #39FF14;">USERS ONLINE: 1</span>
         </div>
     </header>
 
-    <div class="search-container">
-        <input type="text" id="map-search" placeholder="Търсене на държава или събитие...">
-        <div id="search-results" class="search-suggestions"></div>
-    </div>
-
     <div class="main-container">
-        <div id="map"></div>
+        <div id="map">
+            <div class="map-legend" id="legend">
+                <h4 style="margin-top:0; color:#39FF14; border-bottom:1px solid #39FF14;">ЛЕГЕНДА</h4>
+                <div style="font-size: 14px; line-height: 1.6;">
+                    ⚔️ Сражения / Война<br>
+                    🚀 Ракети / Удари<br>
+                    🚢 Флот / Море<br>
+                    ☢️ Ядрена заплаха<br>
+                    💻 Кибер атака<br>
+                    ⚠️ Други инциденти
+                </div>
+            </div>
+        </div>
         
         <div id="news-sidebar">
-            <h3 style="padding: 10px; margin: 0; background: #222; font-size: 16px;">📑 ТАКТИЧЕСКИ ДЕЙТА ФИЙД</h3>
+            <h3 style="padding: 10px; margin: 0; background: #222; font-size: 14px; color: #39FF14;">📑 ТАКТИЧЕСКИ ДЕЙТА ФИЙД</h3>
+            
             <div id="news-content">
                 <p>Изберете инцидент от картата...</p>
             </div>
 
             <div id="cbox-wrapper">
-                <iframe src="https://www5.cbox.ws/box/?boxid=961439&boxtag=rRC1cC" width="100%" height="100%" allowtransparency="yes" allow="autoplay" frameborder="0" marginheight="0" marginwidth="0" scrolling="auto"></iframe>
+                <iframe src="https://www5.cbox.ws/box/?boxid=961439&boxtag=rRC1cC" width="100%" height="100%" allowtransparency="yes" frameborder="0" marginheight="0" marginwidth="0" scrolling="auto"></iframe>
             </div>
-        </div>
-    </div>
-
-    <div class="map-legend" id="legend" style="color: #39FF14; font-weight: bold; left: 370px; right: auto;">
-        <h4 style="color: #39FF14; border-bottom: 1px solid #39FF14; padding-bottom: 5px;">ЛЕГЕНДА</h4>
-        <div class="legend-item" style="display: flex; align-items: center; margin-bottom: 8px;">
-            <span style="margin-right: 10px; font-size: 20px;">⚔️</span>
-            <span>Сражения / Война</span>
-        </div>
-        <div class="legend-item" style="display: flex; align-items: center; margin-bottom: 8px;">
-            <span style="margin-right: 10px; font-size: 20px;">🚀</span>
-            <span>Ракети / Удари</span>
-        </div>
-        <div class="legend-item" style="display: flex; align-items: center; margin-bottom: 8px;">
-            <span style="margin-right: 10px; font-size: 20px;">🚢</span>
-            <span>Флот / Море</span>
-        </div>
-        <div class="legend-item" style="display: flex; align-items: center; margin-bottom: 8px;">
-            <span style="margin-right: 10px; font-size: 20px;">☢️</span>
-            <span>Ядрена заплаха</span>
-        </div>
-        <div class="legend-item" style="display: flex; align-items: center; margin-bottom: 8px;">
-            <span style="margin-right: 10px; font-size: 20px;">💻</span>
-            <span>Кибер атака</span>
-        </div>
-        <div class="legend-item" style="display: flex; align-items: center; margin-bottom: 8px;">
-            <span style="margin-right: 10px; font-size: 20px;">⚠️</span>
-            <span>Други инциденти</span>
         </div>
     </div>
 
     <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
     <script src="script.js"></script>
-    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </body>
 </html>
