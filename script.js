@@ -7,11 +7,11 @@ window.onload = function() {
     // --- 1. ИНИЦИАЛИЗАЦИЯ НА КАРТАТА И ОСНОВНИТЕ СЛОЕВЕ ---
     // Настройваме центъра и зуума за глобален преглед
     const map = L.map('map', {
-    worldCopyJump: true,
-    minZoom: 2,
-    zoomControl: true,
-    attributionControl: false // ТОВА ПРЕМАХВА НАДПИСИТЕ, КЪДЕТО БЯХА СТРЕЛКИТЕ
-}).setView([30.0, 15.0], 3);
+        worldCopyJump: true,
+        minZoom: 2,
+        zoomControl: true,
+        attributionControl: false // ТОВА ПРЕМАХВА НАДПИСИТЕ, КЪДЕТО БЯХА СТРЕЛКИТЕ
+    }).setView([30.0, 15.0], 3);
 
     // Слой за маркерите - чистим го и го пълним динамично
     const markersLayer = L.layerGroup().addTo(map);
@@ -77,6 +77,12 @@ window.onload = function() {
         }
         if (text.includes('aid') || text.includes('food') || text.includes('humanitarian')) {
             return createCustomIcon('📦', '#2ecc71'); // Зелено за помощ
+        }
+        if (text.includes('nuclear') || text.includes('atomic') || text.includes('radiation')) {
+            return createCustomIcon('☢️', '#ffea00'); // Ядрена заплаха
+        }
+        if (text.includes('cyber') || text.includes('hack') || text.includes('it army')) {
+            return createCustomIcon('💻', '#00ff00'); // Кибер атака
         }
         if (text.includes('war') || text.includes('village') || text.includes('clash') || text.includes('lost men')) {
             return createCustomIcon('⚔️', '#ff4d4d'); // Червено за бой
@@ -208,7 +214,21 @@ window.onload = function() {
                 // Обновяване на тикера (Зеления текст)
                 const ticker = document.getElementById('news-ticker');
                 if (ticker) {
-                    ticker.innerText = tickerContent.join('   •   ');
+                    ticker.innerText = tickerContent.join('    •   ');
+                }
+
+                // АВТОМАТИЧНО ОБНОВЯВАНЕ НА ЛЕГЕНДАТА
+                const legend = document.getElementById('legend');
+                if (legend) {
+                    legend.innerHTML = `
+                        <div style="margin-bottom:10px; font-weight:bold; border-bottom:1px solid #444; padding-bottom:5px; color:#fff;">Легенда:</div>
+                        <div style="display:flex; align-items:center; margin-bottom:8px;"> <span style="width:25px; text-align:center; margin-right:10px;">⚔️</span> Сражения / Война</div>
+                        <div style="display:flex; align-items:center; margin-bottom:8px;"> <span style="width:25px; text-align:center; margin-right:10px;">🚀</span> Ракети / Удари</div>
+                        <div style="display:flex; align-items:center; margin-bottom:8px;"> <span style="width:25px; text-align:center; margin-right:10px;">🚢</span> Флот / Море</div>
+                        <div style="display:flex; align-items:center; margin-bottom:8px;"> <span style="width:25px; text-align:center; margin-right:10px;">☢️</span> Ядрена заплаха</div>
+                        <div style="display:flex; align-items:center; margin-bottom:8px;"> <span style="width:25px; text-align:center; margin-right:10px;">💻</span> Кибер атака</div>
+                        <div style="display:flex; align-items:center; margin-bottom:8px;"> <span style="width:25px; text-align:center; margin-right:10px;">⚠️</span> Други инциденти</div>
+                    `;
                 }
             })
             .catch(err => console.error("Data Fetch Error:", err));
