@@ -20,17 +20,21 @@ window.onload = function() {
         opacity: 0.5, pane: 'shadowPane'
     }).addTo(map);
 
-    // --- 2. СТИЛИЗИРАНИ ИКОНИ ---
-    const createLiveIcon = (svgPath, bgColor) => {
+    // --- ВРЪЩАНЕ НА СТАРИТЕ ИКОНИ ---
+    const createOldIcon = (symbol, color) => {
         return L.divIcon({
-            html: `<div class="live-icon-container" style="background-color: ${bgColor};">
-                    <svg viewBox="0 0 24 24" width="16" height="16" fill="white">
-                        ${svgPath}
-                    </svg>
-                   </div>`,
-            className: '', iconSize: [26, 26], iconAnchor: [13, 13]
+            html: `<div style="color: ${color}; font-size: 20px; text-shadow: 0 0 5px #000; font-weight: bold;">${symbol}</div>`,
+            className: '', 
+            iconSize: [24, 24], 
+            iconAnchor: [12, 12]
         });
     };
+
+    // Дефиниране според твоята легенда
+    const iconClash = createOldIcon('✖', '#ff4d4d');     // Червен хикс
+    const iconExplosion = createOldIcon('⚠️', '#ffcc00'); // Жълт триъгълник
+    const iconNaval = createOldIcon('🚢', '#3498db');     // Син кораб
+    const iconMissile = createOldIcon('🚀', '#8e44ad');   // Лилава ракета
 
     const paths = {
         clash: '<path d="M21 7L17 3L13.5 6.5L14.5 7.5L11 11L9 9L3 15L5 17L9 13L11 15L15.5 10.5L16.5 11.5L21 7Z"/>',
