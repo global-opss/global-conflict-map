@@ -162,7 +162,15 @@ function displayNewsDetails(data) {
         let cleanDescription = (data.description || "Няма допълнително описание.")
             .replace(/<\/?[^>]+(>|$)/g, "") // Премахва <a href...>, <p> и т.н.
             .trim();
+    // Добави това в началото на HTML-а в скрипта
+let statusTag = "";
+if (data.link.includes("zerohedge") || data.link.includes("halturner")) {
+    statusTag = `<span style="background: #ff0000; color: white; padding: 2px 5px; font-weight: bold; font-size: 10px; margin-left: 10px;">⚠️ Unconfirmed</span>`;
+}
 
+// И го вмъкни в заглавието
+panel.innerHTML = `<h3>${data.title} ${statusTag}</h3> ...`;
+        
         // 2. Съкращаване, ако е твърде дълго
         if (cleanDescription.length > 400) {
             cleanDescription = cleanDescription.substring(0, 400) + "...";
