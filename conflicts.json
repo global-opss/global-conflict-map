@@ -5,10 +5,10 @@
         "lon": -76.602191,
         "date": "2026-02-20",
         "type": "Breaking News",
-        "title": "Why did the US Supreme Court strike down Trump’s global tariff policy?",
+        "title": "Who made the cut on Trump’s ‘Board of Peace’ and what they want",
         "description": "",
         "fatalities": "0",
-        "link": "https://www.aljazeera.com/video/newsfeed/2026/2/20/why-did-the-us-supreme-court-strike-down-trumps-global-tariff-policy?traffic_source=rss"
+        "link": "https://www.aljazeera.com/video/the-take-2/2026/2/20/aje-onl-glb_boardofpeacemeeting_av_v1-190226?traffic_source=rss"
     },
     {
         "country": "Middle East",
@@ -37,21 +37,43 @@
         "lat": 30.8124247,
         "lon": 34.8594762,
         "date": "2026-02-20",
-        "type": "Airstrike",
-        "title": "Israeli attacks across Lebanon kill at least eight people",
-        "description": "",
+        "type": "Naval",
+        "title": "Inside Israel’s plan to turn West Bank land into ‘state property’",
+        "description": "Latest report regarding Inside Israel’s plan to turn West Bank land into ‘state property’.",
         "fatalities": "0",
-        "link": "https://www.aljazeera.com/news/2026/2/20/one-killed-in-israeli-strike-on-largest-palestinian-refugee-camp-in-lebanon?traffic_source=rss"
+        "link": "https://www.aljazeera.com/video/the-take-2/2026/2/20/aje-onl-pal_wblandregistration_av_v3-1-180226?traffic_source=rss"
     },
     {
         "country": "Middle East",
         "lat": 32.6475314,
         "lon": 54.5643516,
         "date": "2026-02-20",
-        "type": "Airstrike",
-        "title": "Trump ‘considering’ limited strikes on Iran",
+        "type": "Clashes",
+        "title": "Iran says US military build-up ‘unnecessary and unhelpful’, deal achievable",
         "description": "",
         "fatalities": "0",
-        "link": "https://www.aljazeera.com/video/newsfeed/2026/2/20/trump-considering-limited-strikes-on-iran?traffic_source=rss"
+        "link": "https://www.aljazeera.com/news/2026/2/20/iran-says-us-military-build-up-unnecessary-and-unhelpful-deal-achievable?traffic_source=rss"
+    },
+    {
+        "country": "Venezuela",
+        "lat": 8.0018709,
+        "lon": -66.1109318,
+        "date": "2026-02-20",
+        "type": "Breaking News",
+        "title": "A fragile freedom for Venezuela’s released political prisoners",
+        "description": "",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/news/longform/2026/2/20/a-fragile-freedom-for-venezuelas-released-political-prisoners?traffic_source=rss"
+    },
+    {
+        "country": "Middle East",
+        "lat": 33.8750629,
+        "lon": 35.843409,
+        "date": "2026-02-20",
+        "type": "Breaking News",
+        "title": "Residents in northern Lebanon terrified their buildings will collapse",
+        "description": "",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/video/newsfeed/2026/2/20/residents-in-northern-lebanon-terrified-their-buildings-will-collapse?traffic_source=rss"
     }
 ]
