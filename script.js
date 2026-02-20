@@ -150,9 +150,9 @@ fetch('conflicts.json')
                 resultsDiv.style.display = 'none';
             }
         });
-    }
-
-}; // ТАЗИ СКОБА Е КРИТИЧНА - тя затваря window.onload от началото на файла!
+   }); // Затваря searchInput.addEventListener
+    } // Затваря if (searchInput)
+}; // ТАЗИ СКОБА ЗАТВАРЯ window.onload (твоят нов ред 155)
 
 // 3. ЧАСОВНИК (Извън onload, за да е независим)
 setInterval(() => {
