@@ -4,64 +4,80 @@ import re
 from geopy.geocoders import Nominatim
 import time
 
-# Списък с резервни портали за X (Twitter)
-INSTANCES = ["https://nitter.net", "https://nitter.cz", "https://nitter.privacydev.net", "https://nitter.unixfox.eu", "https://nitter.poast.org", "https://nitter.moomoo.me", "https://nitter.no-logs.com"]
-SOURCE_X = "OSINTtechnical" 
-geolocator = Nominatim(user_agent="my_war_tracker_v1")
+# 1. Списък с портали (Instances)
+INSTANCES = [
+    "https://nitter.net", "https://nitter.cz", "https://nitter.privacydev.net", 
+    "https://nitter.unixfox.eu", "https://nitter.poast.org", "https://nitter.moomoo.me"
+]
+
+# 2. Твоите 10 OSINT източника за постоянни новини
+SOURCES = [
+    "OSINTtechnical", "DeepStateUA", "UAWeapons", "Liveuamap", 
+    "IAPonomarenko", "war_noir", "EuromaidanPress", "Gerashchenko_en",
+    "clashreport", "Tendar"
+]
+
+geolocator = Nominatim(user_agent="global_war_tracker_v2")
 
 def get_latest_tweet(username):
+    """ Пробва да вземе пост от конкретен акаунт през наличните портали """
     for instance in INSTANCES:
-        print(f"📡 Опит през: {instance}...")
         url = f"{instance}/{username}/rss"
         try:
-            response = requests.get(url, timeout=10)
+            response = requests.get(url, timeout=8)
             if response.status_code == 200:
-                # Извличаме текста на последния пост
                 titles = re.findall(r'<title>(.*?)</title>', response.text)
                 if len(titles) > 1:
-                    return titles[1] # Връщаме съдържанието на поста
+                    return titles[1]
         except:
-            continue 
+            continue
     return None
 
 def extract_location(text):
-    # Разширен списък за по-добър тест
-    cities = ["Kyiv", "Kharkiv", "Odesa", "Bakhmut", "Avdiivka", "Donetsk", "Lviv", "Zaporizhzhia", "Kherson"]
+    """ Търси име на град в текста """
+    cities = [
+        "Kyiv", "Kharkiv", "Odesa", "Bakhmut", "Avdiivka", "Donetsk", 
+        "Lviv", "Zaporizhzhia", "Kherson", "Dnipro", "Mariupol", "Luhansk",
+        "Belgorod", "Crimea", "Sevastopol", "Sudzha", "Kursk"
+    ]
     for city in cities:
         if city.lower() in text.lower():
             return city
     return None
 
 def run_bot():
-    tweet = get_latest_tweet(SOURCE_X)
-    
-    if not tweet:
-        print("❌ Всички портали са претоварени в момента. Изчакай 1 минута.")
-        return
+    all_events = []
+    print(f"🚀 Стартирам сканиране на {len(SOURCES)} акаунта...")
 
-    print(f"💬 Пост: {tweet[:60]}...")
-    city = extract_location(tweet)
-    
-    if city:
-        print(f"📍 Намерен град: {city}. Вземам координати...")
-        location = geolocator.geocode(city)
-        if location:
-            new_entry = {
-                "country": "Ukraine",
-                "lat": location.latitude,
-                "lon": location.longitude,
-                "date": time.strftime("%Y-%m-%d"),
-                "type": "Airstrike",
-                "title": tweet[:100],
-                "link": f"https://x.com/{SOURCE_X}"
-            }
-            
-            # Записваме в локалния файл
-            with open('conflicts.json', 'w', encoding='utf-8') as f:
-                json.dump([new_entry], f, indent=4, ensure_ascii=False)
-            print(f"✅ Успех! Картата е обновена за {city}.")
+    for user in SOURCES:
+        print(f"🔎 Проверявам: {user}...")
+        tweet = get_latest_tweet(user)
+        
+        if tweet:
+            city = extract_location(tweet)
+            if city:
+                print(f"📍 Намерен град: {city} в пост на {user}")
+                location = geolocator.geocode(city)
+                if location:
+                    all_events.append({
+                        "country": "Ukraine/Region",
+                        "lat": location.latitude,
+                        "lon": location.longitude,
+                        "date": time.strftime("%Y-%m-%d"),
+                        "type": "Update",
+                        "title": f"[{user}]: {tweet[:90]}...",
+                        "link": f"https://x.com/{user}"
+                    })
+        # Малка пауза, за да не ни блокират порталите
+        time.sleep(1)
+
+    if all_events:
+        # Записваме ВСИЧКИ намерени точки в файла
+        with open('conflicts.json', 'w', encoding='utf-8') as f:
+            json.dump(all_events, f, indent=4, ensure_ascii=False)
+        print(f"✅ Готово! Картата е обновена с {len(all_events)} активни точки.")
     else:
-        print("ℹ️ Роботът прочете поста, но не откри познато име на град.")
+        print("ℹ️ Този път не бяха открити нови локации в последните постове.")
 
 if __name__ == "__main__":
     run_bot()
