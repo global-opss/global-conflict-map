@@ -1,368 +1,37 @@
-/* 1. Пълно запълване на екрана */
+/* 1. ОСНОВЕН ТЕРМИНАЛЕН СТИЛ */
 html, body {
     height: 100%;
     margin: 0;
     padding: 0;
     overflow: hidden; 
     background-color: #050505;
-    font-family: 'Segoe UI', sans-serif;
+    font-family: 'Segoe UI', Tahoma, sans-serif;
 }
 
-/* 2. Хедър */
-header {
-    height: 60px; /* Намаляваме го за повече място за картата */
-    background: rgba(0, 0, 0, 0.9);
-    color: white;
-    padding: 0 20px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    border-bottom: 1px solid rgba(57, 255, 20, 0.2);
-    position: relative;
-    z-index: 2000;
-}
-
-/* 3. Картата - СЕГА Е ФОН НА ЦЕЛИЯ ЕКРАН */
+/* 2. КАРТАТА - ПЪЛЕН ЕКРАН */
 #map {
     position: absolute;
     top: 60px;
     left: 0;
     width: 100%;
     height: calc(100vh - 60px) !important;
-    z-index: 1; /* Остава най-отдолу */
+    z-index: 1;
 }
 
-/* 4. СТЪКЛЕНИТЕ ПАНЕЛИ (Ефектът от Glint) */
-#left-chat-floating, #news-floating {
-    position: absolute;
-    z-index: 1000; /* Над картата */
-    background: rgba(10, 10, 10, 0.6) !important; /* Прозрачно */
-    backdrop-filter: blur(12px); /* Замъгляване на фона */
-    border: 1px solid rgba(57, 255, 20, 0.2) !important;
-    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.8);
-    border-radius: 4px;
-}
-/* 5. Панелът за новини (25% от ширината) */
-#news-sidebar {
-    flex: 1;
-    background: #1c1c1c;
-    color: #e0e0e0;
-    padding: 20px;
-    overflow-y: auto; 
-    border-left: 2px solid #333;
-    box-sizing: border-box;
-    box-shadow: inset 10px 0 20px rgba(0,0,0,0.5); /* Добавя дълбочина */
+/* 3. ХЕДЪР В СТИЛ GLINT */
+header {
+    height: 60px;
+    background: rgba(0, 0, 0, 0.95);
+    border-bottom: 1px solid rgba(57, 255, 20, 0.3);
+    position: relative;
+    z-index: 2000;
 }
 
-#news-sidebar h3 {
-    border-bottom: 1px solid #444;
-    padding-bottom: 10px;
-    color: #fff;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-}
-
-#news-content {
-    line-height: 1.6;
-}
-
-/* --- НОВИ ЕФЕКТИ И АНИМАЦИИ --- */
-
-/* Пулсираща анимация за точките (War Room Effect) */
-.pulse {
-    stroke-width: 2px;
-    stroke-dasharray: 2, 2;
-    animation: pulsate 2s infinite ease-out;
-}
-
-@keyframes pulsate {
-    0% {
-        stroke-width: 2px;
-        stroke-opacity: 1;
-        fill-opacity: 0.8;
-    }
-    50% {
-        stroke-width: 12px;
-        stroke-opacity: 0.2;
-        fill-opacity: 1;
-    }
-    100% {
-        stroke-width: 2px;
-        stroke-opacity: 1;
-        fill-opacity: 0.8;
-    }
-}
-
-/* Стил за бутона в страничния панел */
-.news-btn {
-    display: block;
-    text-align: center;
-    background: #007bff;
-    color: white;
-    padding: 12px;
-    text-decoration: none;
-    border-radius: 8px;
-    font-weight: bold;
-    margin-top: 15px;
-    transition: all 0.3s ease;
-    box-shadow: 0 4px 15px rgba(0, 123, 255, 0.2);
-}
-
-.news-btn:hover {
-    background: #0056b3;
-    transform: translateY(-2px);
-    box-shadow: 0 6px 20px rgba(0, 123, 255, 0.4);
-}
-
-/* Легендата на картата */
-.legend {
-    padding: 10px;
-    background: rgba(0, 0, 0, 0.85);
-    color: white;
-    border-radius: 5px;
-    line-height: 24px;
-    border: 1px solid #444;
-    box-shadow: 0 0 15px rgba(0,0,0,0.5);
-}
-
-.legend i {
-    width: 12px;
-    height: 12px;
-    float: left;
-    margin: 6px 10px 0 0;
-    border-radius: 50%;
-    border: 1px solid #fff;
-}
-
-/* Текст върху картата (Tooltips) */
-.leaflet-tooltip {
-    background: #222 !important;
-    color: #00ff00 !important;
-    border: 1px solid #00ff00 !important;
-    font-weight: bold;
-    box-shadow: 0 0 10px rgba(0, 255, 0, 0.2);
-}
-/* Стил за бутона "ДЕТАЙЛИ" */
-.news-btn {
-    display: block;
-    width: 100%;
-    box-sizing: border-box; /* Предотвратява излизането от рамките */
-    margin-top: 15px;
-    padding: 12px;
-    text-align: center;
-    text-decoration: none;
-    background: rgba(255, 77, 77, 0.05);
-    color: #ff4d4d !important;
-    border: 1px solid #ff4d4d;
-    border-radius: 4px;
-    font-weight: bold;
-    letter-spacing: 2px;
-    transition: all 0.3s ease;
-    box-shadow: 0 0 5px rgba(255, 77, 77, 0.2);
-}
-
-.news-btn:hover {
-    background: #ff4d4d;
-    color: #000 !important;
-    box-shadow: 0 0 15px #ff4d4d;
-    transform: translateY(-2px);
-}
-
-/* Скрол бар за Twitter панела (ако се появи) */
-#news-content div::-webkit-scrollbar {
-    width: 5px;
-}
-
-#news-content div::-webkit-scrollbar-thumb {
-    background: #333;
-    border-radius: 10px;
-}
-.map-legend {
-    position: absolute;
-    bottom: 30px;
-    right: 30px;
-    background: rgba(10, 10, 10, 0.9);
-    padding: 15px;
-    border: 1px solid #333;
-    border-radius: 4px;
-    z-index: 1000;
-    font-family: 'Segoe UI', sans-serif;
-}
-
-.map-legend h4 {
-    color: #666;
-    margin: 0 0 10px 0;
-    font-size: 12px;
-    letter-spacing: 2px;
-    text-align: center;
-}
-
-.legend-item {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    margin-bottom: 8px;
-    color: #ccc;
-    font-size: 13px;
-}
-
-.legend-item svg {
-    filter: drop-shadow(0 0 3px currentColor);
-}
-/* --- ФИКС ЗА ХЕДЪРА --- */
-#dashboard {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 15px;
-    width: 100%;
-    padding: 10px 15px;
-    box-sizing: border-box;
-}
-
-#dashboard > span {
-    white-space: nowrap;
-    font-size: 12px;
-    color: #888;
-    flex-shrink: 0;
-}
-
-.header-ticker {
-    flex: 1;
-    overflow: hidden;
-    white-space: nowrap;
-    border-left: 1px solid #333;
-    border-right: 1px solid #333;
-    margin: 0 10px;
-}
-
-.ticker-content {
-    display: inline-block;
-    padding-left: 100%;
-    animation: ticker 60s linear infinite;
-    color: #00ff00;
-    font-weight: bold;
-    font-size: 13px;
-    text-transform: uppercase;
-}
-
-@keyframes ticker {
-    0% { transform: translate3d(0, 0, 0); }
-    100% { transform: translate3d(-100%, 0, 0); }
-}
-
-.live-clock {
-    color: #00ff00;
-    font-family: 'Courier New', monospace;
-    font-size: 14px;
-    min-width: 105px;
-    text-align: right;
-    flex-shrink: 0;
-    text-shadow: 0 0 5px rgba(0, 255, 0, 0.5);
-}
-/* Позициониране на търсачката над картата */
-.search-container {
-    position: absolute;
-    top: 90px; /* Веднага под черната лента */
-    left: 60px; /* До бутоните за мащабиране (+/-) */
-    z-index: 1000;
-    width: 280px;
-}
-
-#map-search {
-    width: 100%;
-    padding: 10px 15px;
-    background: rgba(15, 15, 15, 0.85); /* Полупрозрачно черно */
-    border: 1px solid #333;
-    border-left: 3px solid #00ff00; /* Зелен тактически акцент */
-    color: #00ff00;
-    font-family: 'Courier New', monospace;
-    font-size: 13px;
-    outline: none;
-    backdrop-filter: blur(5px); /* Модерен стъклен ефект */
-}
-
-#map-search:focus {
-    border-color: #00ff00;
-    box-shadow: 0 0 15px rgba(0, 255, 0, 0.2);
-}
-
-/* Списъкът с резултати */
-.search-suggestions {
-    background: rgba(10, 10, 10, 0.95);
-    border: 1px solid #333;
-    margin-top: 5px;
-    max-height: 250px;
-    overflow-y: auto;
-    display: none;
-}
-
-.suggestion-item {
-    padding: 10px;
-    cursor: pointer;
-    color: #aaa;
-    border-bottom: 1px solid #222;
-    font-size: 12px;
-}
-
-.suggestion-item:hover {
-    background: #00ff00;
-    color: #000;
-}
-/* Liveuamap Стил икони */
-.live-icon-container {
-    width: 26px;
-    height: 26px;
-    border-radius: 50%;
-    border: 2px solid #fff;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    box-shadow: 0 0 8px rgba(0,0,0,0.5);
-    transition: transform 0.2s;
-}
-
-.live-icon-container:hover {
-    transform: scale(1.2);
-}
-
-/* Надписи върху картата */
-.front-text-label {
-    color: #ffffff;
-    font-weight: bold;
-    font-size: 11px;
-    text-shadow: 2px 2px 4px #000;
-    text-align: center;
-    pointer-events: none;
-    border: none !important;
-    background: none !important;
-}
-
-/* Стил за информационната карта */
-.news-card {
-    padding: 10px;
-    background: #1a1a1a;
-    border-left: 4px solid #ff4d4d;
-}
-
-.news-link {
-    display: block;
-    margin-top: 10px;
-    color: #ff4d4d;
-    text-decoration: none;
-    font-weight: bold;
-    font-size: 12px;
-}
-@keyframes pulse {
-    0% { transform: scale(0.8); opacity: 0.7; }
-    50% { transform: scale(1.2); opacity: 1; text-shadow: 0 0 15px #ff4d4d; }
-    100% { transform: scale(0.8); opacity: 0.7; }
-}
-/* Общ стил за панелите тип "Стъкло" */
+/* 4. ТАКТИЧЕСКИ ПАНЕЛИ (СТЪКЛЕН ЕФЕКТ) */
 .tactical-panel {
     position: fixed !important;
-    z-index: 3000;
-    background: rgba(10, 10, 10, 0.4) !important;
+    z-index: 1000;
+    background: rgba(10, 10, 10, 0.2) !important; /* Ултра прозрачно */
     backdrop-filter: blur(15px) saturate(160%);
     -webkit-backdrop-filter: blur(15px);
     border: 1px solid rgba(57, 255, 20, 0.2);
@@ -373,23 +42,22 @@ header {
     flex-direction: column;
 }
 
-/* Позиция на ЧАТА - ДОЛУ ВЛЯВО */
-#left-chat-floating {
+/* Специфични позиции за контейнерите */
+#chat-container, #left-chat-floating {
     bottom: 20px;
     left: 20px;
     width: 300px;
     height: 38%;
 }
 
-/* Позиция на НОВИНИТЕ - ГОРЕ ВДЯСНО */
-#news-floating {
+#news-container, #news-floating {
     top: 80px;
     right: 20px;
     width: 320px;
     max-height: 55%;
 }
 
-/* Стил за заглавните ленти */
+/* 5. ЗАГЛАВИЯ И СЪДЪРЖАНИЕ */
 .panel-header {
     background: rgba(57, 255, 20, 0.1);
     color: #39FF14;
@@ -399,4 +67,60 @@ header {
     text-transform: uppercase;
     border-bottom: 1px solid rgba(57, 255, 20, 0.2);
     letter-spacing: 1px;
+}
+
+#news-content {
+    padding: 12px;
+    overflow-y: auto;
+    color: #eee;
+    font-size: 13px;
+}
+
+/* 6. ЛЕГЕНДА (КАПСУЛА) */
+.map-legend {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+    background: rgba(10, 10, 10, 0.7);
+    backdrop-filter: blur(5px);
+    padding: 6px 15px;
+    border: 1px solid rgba(57, 255, 20, 0.3);
+    border-radius: 20px;
+    font-size: 10px;
+    display: flex;
+    gap: 10px;
+    color: #39FF14;
+}
+
+/* 7. ТЪРСАЧКА (ТАКИЧЕСКА) */
+.search-container {
+    position: absolute;
+    top: 80px;
+    left: 60px;
+    z-index: 1000;
+}
+
+#map-search {
+    background: rgba(15, 15, 15, 0.8);
+    border: 1px solid #333;
+    border-left: 3px solid #39FF14;
+    color: #39FF14;
+    padding: 8px 12px;
+    font-family: monospace;
+    backdrop-filter: blur(5px);
+}
+
+/* 8. АНИМАЦИИ (ПУЛСИРАНЕ) */
+@keyframes pulse {
+    0% { transform: scale(0.9); opacity: 0.7; }
+    50% { transform: scale(1.1); opacity: 1; }
+    100% { transform: scale(0.9); opacity: 0.7; }
+}
+
+/* Филтър за чата (важно!) */
+iframe {
+    filter: invert(1) hue-rotate(180deg) brightness(0.9) contrast(1.1);
+    mix-blend-mode: screen;
+    background: transparent !important;
 }
