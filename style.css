@@ -183,3 +183,35 @@ header h1 {
     background: #333;
     border-radius: 10px;
 }
+.map-legend {
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+    background: rgba(10, 10, 10, 0.9);
+    padding: 15px;
+    border: 1px solid #333;
+    border-radius: 4px;
+    z-index: 1000;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.map-legend h4 {
+    color: #666;
+    margin: 0 0 10px 0;
+    font-size: 12px;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+.legend-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 8px;
+    color: #ccc;
+    font-size: 13px;
+}
+
+.legend-item svg {
+    filter: drop-shadow(0 0 3px currentColor);
+}
