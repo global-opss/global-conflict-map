@@ -106,61 +106,58 @@ fetch('conflicts.json')
         document.getElementById('news-ticker').innerText = data.map(p => `[${p.country.toUpperCase()}: ${p.title}]`).join(' +++ ');
         document.getElementById('last-update').innerText = "Last update: " + new Date().toLocaleDateString();
     });
-
-    setTimeout(() => map.invalidateSize(), 600);
-};
-// Функция за часовник в реално време
-setInterval(() => {
-    const now = new Date();
-    const timeStr = now.getUTCHours().toString().padStart(2, '0') + ":" + 
-                    now.getUTCMinutes().toString().padStart(2, '0') + ":" + 
-                    now.getUTCSeconds().toString().padStart(2, '0') + " UTC";
-    document.getElementById('utc-clock').innerText = timeStr;
-}, 1000);
-// 1. ПУСКАНЕ НА КАРТАТА (Фикс за черния екран)
+// Край на зареждането на конфликтите
     setTimeout(() => { 
         if (typeof map !== 'undefined') {
             map.invalidateSize(); 
         }
-    }, 500);
+    }, 600);
+}; // ТОВА ЗАТВАРЯ window.onload (твоят ред 111)
 
-    // 2. ЛОГИКА НА ТЪРСАЧКАТА
-    const searchInput = document.getElementById('map-search');
-    const resultsDiv = document.getElementById('search-results');
+// ФУНКЦИЯ ЗА ЧАСОВНИК (Извън onload, за да е независима)
+setInterval(() => {
+    const now = new Date();
+    const timeStr = now.getUTCHours().toString().padStart(2, '0') + ":" +
+                  now.getUTCMinutes().toString().padStart(2, '0') + ":" +
+                  now.getUTCSeconds().toString().padStart(2, '0') + " UTC";
+    const clockEl = document.getElementById('utc-clock');
+    if (clockEl) clockEl.innerText = timeStr;
+}, 1000);
 
-    if (searchInput) {
-        searchInput.addEventListener('input', (e) => {
-            const term = e.target.value.toLowerCase();
-            resultsDiv.innerHTML = '';
-            
-            if (term.length < 2) {
-                resultsDiv.style.display = 'none';
-                return;
-            }
+// ЛОГИКА НА ТЪРСАЧКАТА
+const searchInput = document.getElementById('map-search');
+const resultsDiv = document.getElementById('search-results');
 
-            // Търсене в данните, които заредихме на ред 101
-            const matches = allConflictData.filter(p => 
-                p.country.toLowerCase().includes(term) || 
-                p.title.toLowerCase().includes(term)
-            );
+if (searchInput) {
+    searchInput.addEventListener('input', (e) => {
+        const term = e.target.value.toLowerCase();
+        resultsDiv.innerHTML = '';
+        
+        if (term.length < 2) {
+            resultsDiv.style.display = 'none';
+            return;
+        }
 
-            if (matches.length > 0) {
-                resultsDiv.style.display = 'block';
-                matches.forEach(match => {
-                    const div = document.createElement('div');
-                    div.className = 'suggestion-item';
-                    div.innerText = `${match.country}: ${match.title}`;
-                    div.onclick = () => {
-                        // Използваме flyTo за плавно местене на картата
-                        map.flyTo([match.lat, match.lng], 8);
-                        searchInput.value = match.country;
-                        resultsDiv.style.display = 'none';
-                    };
-                    resultsDiv.appendChild(div);
-                });
-            } else {
-                resultsDiv.style.display = 'none';
-            }
-        });
-    }
-}; // КРАЙ НА WINDOW.ONLOAD
+        const matches = allConflictData.filter(p => 
+            p.country.toLowerCase().includes(term) || 
+            p.title.toLowerCase().includes(term)
+        );
+
+        if (matches.length > 0) {
+            resultsDiv.style.display = 'block';
+            matches.forEach(match => {
+                const div = document.createElement('div');
+                div.className = 'suggestion-item';
+                div.innerText = `${match.country}: ${match.title}`;
+                div.onclick = () => {
+                    map.flyTo([match.lat, match.lng], 8);
+                    searchInput.value = match.country;
+                    resultsDiv.style.display = 'none';
+                };
+                resultsDiv.appendChild(div);
+            });
+        } else {
+            resultsDiv.style.display = 'none';
+        }
+    });
+}
