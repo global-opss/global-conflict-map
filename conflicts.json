@@ -73,4 +73,62 @@
         "type": "Alert",
         "title": "Japan Coast Guard on high alert after missile debris falls",
         "description": "Maritime safety warnings issued for all vessels in the Sea of Japan.",
-        "fatalities
+        "fatalities": "0",
+        "link": "https://www.japantimes.co.jp/"
+    },
+    {
+        "country": "Venezuela",
+        "lat": 10.4806,
+        "lon": -66.9036,
+        "date": "2026-02-20",
+        "type": "Unrest",
+        "title": "Border military build-up causes regional tension",
+        "description": "Troop movements reported near the border as diplomatic talks stall.",
+        "fatalities": "12",
+        "link": "https://www.aljazeera.com/where/venezuela/"
+    },
+    {
+        "country": "Middle East",
+        "lat": 31.7683,
+        "lon": 35.2137,
+        "date": "2026-02-20",
+        "type": "Conflict",
+        "title": "Israel blocks access to Al-Aqsa for Friday prayers",
+        "description": "Tensions rise in Jerusalem as thousands are prevented from entering the holy site.",
+        "fatalities": "3",
+        "link": "https://www.aljazeera.com/news/"
+    },
+    {
+        "country": "Africa",
+        "lat": 15.3229,
+        "lon": 32.5277,
+        "date": "2026-02-20",
+        "type": "Genocide Alert",
+        "title": "UN warns of genocide signs in Sudan killings",
+        "description": "International observers call for immediate intervention as civilian casualties rise.",
+        "fatalities": "420",
+        "link": "https://www.aljazeera.com/news/africa"
+    },
+    {
+        "country": "Russia",
+        "lat": 44.7194,
+        "lon": 37.7628,
+        "date": "2026-02-20",
+        "type": "Navy",
+        "title": "Black Sea Fleet ship movements detected near Novorossiysk",
+        "description": "Increased naval activity reported in the southern ports.",
+        "fatalities": "0",
+        "link": "https://www.reuters.com/"
+    },
+    {
+        "country": "China",
+        "lat": 35.0,
+        "lon": 124.0,
+        "date": "2026-02-20",
+        "type": "Maritime",
+        "title": "Tensions rise in Yellow Sea after coast guard encounter",
+        "description": "Brief standoff reported between regional maritime forces.",
+        "fatalities": "0",
+        "link": "https://www.scmp.com/"
+    }
+]
