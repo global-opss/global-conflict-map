@@ -95,7 +95,11 @@ window.onload = function() {
             deaths += (parseInt(p.fatalities) || 0);
             countries.add(p.country);
         });
-
+fetch('conflicts.json')
+    .then(response => response.json())
+    .then(data => {
+        allConflictData = data; // <--- ДОБАВИ ТОЗИ РЕД ТУК
+        // ... останалият ти код за активни събития, новини и т.н.
         document.getElementById('active-events').innerText = "Active events: " + data.length;
         document.getElementById('total-fatalities').innerText = "Total fatalities: " + deaths;
         document.getElementById('countries-affected').innerText = "Countries affected: " + countries.size;
@@ -113,3 +117,43 @@ setInterval(() => {
                     now.getUTCSeconds().toString().padStart(2, '0') + " UTC";
     document.getElementById('utc-clock').innerText = timeStr;
 }, 1000);
+}, 1000); // Ред 119
+
+    // --- ЛОГИКА НА ТЪРСАЧКАТА ---
+    const searchInput = document.getElementById('map-search');
+    const resultsDiv = document.getElementById('search-results');
+
+    if (searchInput) {
+        searchInput.addEventListener('input', (e) => {
+            const term = e.target.value.toLowerCase();
+            resultsDiv.innerHTML = '';
+            
+            if (term.length < 2) {
+                resultsDiv.style.display = 'none';
+                return;
+            }
+
+            const matches = allConflictData.filter(p => 
+                p.country.toLowerCase().includes(term) || 
+                p.title.toLowerCase().includes(term)
+            );
+
+            if (matches.length > 0) {
+                resultsDiv.style.display = 'block';
+                matches.forEach(match => {
+                    const div = document.createElement('div');
+                    div.className = 'suggestion-item';
+                    div.innerText = `${match.country}: ${match.title}`;
+                    div.onclick = () => {
+                        map.flyTo([match.lat, match.lng], 8);
+                        searchInput.value = match.country;
+                        resultsDiv.style.display = 'none';
+                    };
+                    resultsDiv.appendChild(div);
+                });
+            } else {
+                resultsDiv.style.display = 'none';
+            }
+        });
+    }
+}; // Тази последна скоба затваря целия файл
