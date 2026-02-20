@@ -155,24 +155,24 @@ window.onload = function() {
         });
     }
 
-    // Показване на новината в десния панел
-    function displayNewsDetails(data) {
-        const panel = document.getElementById('news-content');
-        if (panel) {
-            panel.innerHTML = `
-                <div class="news-card animated-fade-in">
-                    <div class="tag-row">
-                        <span class="country-tag">${data.country}</span>
-                        <span class="date-tag">${new Date().toLocaleDateString()}</span>
-                    </div>
-                    <h3>${data.title}</h3>
-                    <p>${data.description || "Няма допълнително описание."}</p>
-                    <hr style="border:0; border-top:1px solid #333; margin:15px 0;">
-                    <div class="meta-info">Жертви: <strong>${data.fatalities || 0}</strong></div>
-                    <a href="${data.link}" target="_blank" class="news-link-btn">ВИЖ ПЪЛНИЯ ДОКЛАД</a>
+   function displayNewsDetails(data) {
+    const panel = document.getElementById('news-content');
+    if (panel) {
+        panel.innerHTML = `
+            <div class="news-card animated-fade-in">
+                <div class="tag-row">
+                    <span class="country-tag">${data.country}</span>
+                    <span class="date-tag">${data.date || new Date().toLocaleDateString()}</span>
+                </div>
+                <h3>${data.title}</h3>
+                <p style="line-height: 1.6; font-size: 14px; color: #ddd;">
+                    ${data.description || "Няма допълнително описание."}
+                </p>
+                <hr style="border:0; border-top:1px solid #333; margin:15px 0;">
+                <div class="meta-info">Жертви: <strong style="color: #ff4d4d;">${data.fatalities || 0}</strong></div>
                 </div>`;
-        }
     }
+}
 
     // --- 5. ФУНКЦИЯ ЗА ОПРЕСНЯВАНЕ НА ДАННИТЕ И СТАТИСТИКАТА ---
     function fetchAndSyncData() {
