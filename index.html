@@ -7,59 +7,51 @@
     <style>
         body { margin: 0; padding: 0; background: #000; color: #39FF14; font-family: 'Courier New', monospace; overflow: hidden; }
         
-        /* Основен контейнер с три колони */
-        .main-container {
-            display: flex;
-            height: calc(100vh - 60px); /* Напасване спрямо хедъра */
-            width: 100vw;
-        }
-
-        /* 1. ЛЯВО: ЧАТ (Много тесен) */
-        #left-chat-sidebar {
-            width: 250px;
-            min-width: 250px;
-            background: #050505;
-            border-right: 1px solid #39FF14;
-            display: flex;
-            flex-direction: column;
-        }
-
-        /* 2. ЦЕНТЪР: КАРТА (Заема всичко останало) */
+        /* КАРТАТА Е НА ЦЕЛИЯ ЕКРАН */
         #map {
-            flex: 1; /* Това разпъва картата максимално */
-            position: relative;
+            position: absolute;
+            top: 60px;
+            bottom: 0;
+            left: 0;
+            right: 0;
             z-index: 1;
         }
 
-        /* 3. ДЯСНО: НОВИНИ (Вече е много по-малък) */
-        #news-sidebar {
-            width: 300px; /* Намален от 350px на 300px */
-            min-width: 300px;
-            background: #111;
-            border-left: 1px solid #39FF14;
+        /* ЧАТЪТ - Плаващ вляво, отрязан наполовина */
+        #left-chat-floating {
+            position: absolute;
+            top: 80px; /* Малко под хедъра */
+            left: 20px;
+            width: 280px;
+            height: 45%; /* Ето тук го режем на половина */
+            background: rgba(5, 5, 5, 0.85); /* Полупрозрачен, за да е малко по-яко */
+            border: 1px solid #39FF14;
             display: flex;
             flex-direction: column;
+            z-index: 1000; /* Над картата */
+            box-shadow: 0 0 15px rgba(0,0,0,0.5);
+        }
+
+        /* НОВИНИТЕ - Плаващи вдясно */
+        #news-floating {
+            position: absolute;
+            top: 80px;
+            right: 20px;
+            width: 300px;
+            max-height: 60%;
+            background: rgba(17, 17, 17, 0.9);
+            border: 1px solid #39FF14;
+            display: flex;
+            flex-direction: column;
+            z-index: 1000;
+            overflow: hidden;
         }
 
         #news-content {
-            flex: 1;
             padding: 12px;
             overflow-y: auto;
             color: #ccc;
             font-size: 13px;
-        }
-
-        /* ЛЕГЕНДА */
-        .map-legend {
-            position: absolute;
-            bottom: 20px;
-            right: 20px;
-            z-index: 1000;
-            background: rgba(0, 0, 0, 0.9);
-            padding: 10px;
-            border: 1px solid #39FF14;
-            font-size: 11px;
-            pointer-events: none;
         }
 
         header {
@@ -70,6 +62,19 @@
             flex-direction: column;
             align-items: center;
             justify-content: center;
+            position: relative;
+            z-index: 1001;
+        }
+
+        .map-legend {
+            position: absolute;
+            bottom: 20px;
+            right: 20px;
+            z-index: 1000;
+            background: rgba(0, 0, 0, 0.9);
+            padding: 10px;
+            border: 1px solid #39FF14;
+            font-size: 11px;
         }
     </style>
 </head>
@@ -77,31 +82,28 @@
 
     <header>
         <div style="font-size: 18px; font-weight: bold;">🌐 Global Conflict Dashboard</div>
-        <div style="font-size: 11px; color: #888; margin-top: 4px;">
+        <div style="font-size: 11px; color: #888;">
             Active events: <span id="active-events" style="color:#39FF14">0</span> | 
-            Fatalities: <span id="total-fatalities" style="color:#ff4d4d">0</span> | 
-            ONLINE: <span style="color:#39FF14">1</span>
+            Fatalities: <span id="total-fatalities" style="color:#ff4d4d">0</span> | ONLINE: <span style="color:#39FF14">1</span>
         </div>
     </header>
 
-    <div class="main-container">
-        <div id="left-chat-sidebar">
-            <div style="padding: 8px; background: #222; text-align: center; font-size: 11px; border-bottom: 1px solid #333;">📡 ТАКТИЧЕСКИ ЧАТ</div>
-            <iframe src="https://www5.cbox.ws/box/?boxid=961439&boxtag=rRC1cC" width="100%" height="100%" allowtransparency="yes" frameborder="0" marginheight="0" marginwidth="0" scrolling="auto"></iframe>
+    <div id="map">
+        <div class="map-legend">
+            <div style="border-bottom: 1px solid #39FF14; margin-bottom: 5px; font-weight: bold;">ЛЕГЕНДА</div>
+            ⚔️ Сражения<br>🚀 Удари<br>🚢 Флот<br>☢️ Ядрена<br>💻 Кибер<br>⚠️ Инциденти
         </div>
+    </div>
 
-        <div id="map">
-            <div class="map-legend">
-                <div style="border-bottom: 1px solid #39FF14; margin-bottom: 5px; font-weight: bold;">ЛЕГЕНДА</div>
-                ⚔️ Сражения<br>🚀 Удари<br>🚢 Флот<br>☢️ Ядрена<br>💻 Кибер<br>⚠️ Инциденти
-            </div>
-        </div>
-        
-        <div id="news-sidebar">
-            <div style="padding: 8px; background: #222; font-size: 12px; border-bottom: 1px solid #333;">📑 ТАКТИЧЕСКИ ДЕЙТА ФИЙД</div>
-            <div id="news-content">
-                <p style="font-style: italic; color: #666;">Изберете инцидент...</p>
-            </div>
+    <div id="left-chat-floating">
+        <div style="padding: 5px; background: #222; text-align: center; font-size: 11px; border-bottom: 1px solid #39FF14; color: #39FF14;">📡 ТАКТИЧЕСКИ ЧАТ</div>
+        <iframe src="https://www5.cbox.ws/box/?boxid=961439&boxtag=rRC1cC" width="100%" height="100%" allowtransparency="yes" frameborder="0" marginheight="0" marginwidth="0" scrolling="auto"></iframe>
+    </div>
+
+    <div id="news-floating">
+        <div style="padding: 8px; background: #222; font-size: 12px; border-bottom: 1px solid #333; color: #39FF14;">📑 ТАКТИЧЕСКИ ДЕЙТА ФИЙД</div>
+        <div id="news-content">
+            <p style="font-style: italic; color: #666;">Изберете инцидент...</p>
         </div>
     </div>
 
