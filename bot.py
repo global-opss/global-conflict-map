@@ -5,7 +5,12 @@ from geopy.geocoders import Nominatim
 import time
 
 # 1. По-стабилни портали
-INSTANCES = ["https://nitter.net", "https://nitter.cz", "https://nitter.privacydev.net", "https://nitter.poast.org"]
+INSTANCES = [
+    "https://nitter.net", "https://nitter.cz", "https://nitter.privacydev.net", 
+    "https://nitter.unixfox.eu", "https://nitter.poast.org", "https://nitter.moomoo.me",
+    "https://nitter.no-logs.com", "https://nitter.perennialte.ch", "https://nitter.rawbit.ninja",
+    "https://nitter.ca", "https://nitter.projectrenard.tv", "https://nitter.on-t.me"
+]
 
 # 2. 10 ТОП OSINT Акаунта
 SOURCES = [
@@ -75,3 +80,4 @@ def run_bot():
 
 if __name__ == "__main__":
     run_bot()
+
