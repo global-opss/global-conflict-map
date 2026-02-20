@@ -7,6 +7,18 @@ window.onload = function() {
     L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_nolabels/{z}/{x}/{y}{r}.png').addTo(map);
     L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_only_labels/{z}/{x}/{y}{r}.png', { opacity: 0.5, pane: 'shadowPane' }).addTo(map);
 
+ // --- ВРЪЩАМ ЧЕРВЕНИЯ БУФЕР (ОКУПИРАНА ЗОНА) ---
+    var occupiedArea = [
+        [46.1, 32.9], [44.4, 33.5], [44.5, 34.2], [45.4, 36.5], 
+        [47.1, 37.6], [48.1, 39.5], [49.6, 40.1], [50.2, 38.5], [46.1, 32.9]
+    ];
+    L.polygon(occupiedArea, {
+        color: '#ff0000',
+        weight: 1,
+        fillColor: '#ff0000',
+        fillOpacity: 0.2
+    }).addTo(map);
+    
     // 2. НОВИ СТИЛОВЕ (БЕЗ Х-ОВЕ)
     const createNeonIcon = (symbol, color, isPulsing = false) => L.divIcon({
         html: `<div style="color: ${color}; font-size: 22px; text-shadow: 0 0 10px ${color}; font-weight: bold; display: flex; align-items: center; justify-content: center; ${isPulsing ? 'animation: pulse 1.5s infinite;' : ''}">${symbol}</div>`,
