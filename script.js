@@ -151,6 +151,7 @@ setInterval(() => {
                     div.className = 'suggestion-item';
                     div.innerText = `${match.country}: ${match.title}`;
                     div.onclick = () => {
+                        // Използваме flyTo за плавно местене на картата
                         map.flyTo([match.lat, match.lng], 8);
                         searchInput.value = match.country;
                         resultsDiv.style.display = 'none';
@@ -162,4 +163,4 @@ setInterval(() => {
             }
         });
     }
-}; // ТАЗИ СКОБА Е КРАЯТ НА ВСИЧКО (затваря window.onload)
+}; // КРАЙ НА WINDOW.ONLOAD
