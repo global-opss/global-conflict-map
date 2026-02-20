@@ -1,1 +1,92 @@
-[]
+[
+    {
+        "country": "Africa",
+        "lat": 14.5844444,
+        "lon": 29.4917691,
+        "date": "2026-02-20",
+        "type": "Breaking News",
+        "title": "RSF siege of El Fasher in Sudan has ‘hallmarks of genocide’, UN mission finds",
+        "link": "https://www.theguardian.com/world/2026/feb/19/rsf-siege-el-fasher-sudan-hallmarks-of-genocide-un-mission-north-darfur"
+    },
+    {
+        "country": "Middle East",
+        "lat": -23.328398,
+        "lon": 32.8066057,
+        "date": "2026-02-20",
+        "type": "Breaking News",
+        "title": "Israeli forces recover body of last hostage held in Gaza",
+        "link": "https://www.longwarjournal.org/archives/2026/01/israeli-forces-recover-body-of-last-hostage-held-in-gaza.php"
+    },
+    {
+        "country": "Middle East",
+        "lat": 35.6892523,
+        "lon": 51.3896004,
+        "date": "2026-02-20",
+        "type": "Breaking News",
+        "title": "If Tehran Shakes, Moscow Could Sway",
+        "link": "https://www.kyivpost.com/opinion/69831"
+    },
+    {
+        "country": "Middle East",
+        "lat": 16.3471243,
+        "lon": 47.8915271,
+        "date": "2026-02-20",
+        "type": "Breaking News",
+        "title": "One killed, 11 injured in Yemen after security forces disperse STC storming",
+        "link": "https://www.aljazeera.com/news/2026/2/20/one-killed-11-injured-in-yemen-after-security-forces-disperse-stc-storming?traffic_source=rss"
+    },
+    {
+        "country": "Middle East",
+        "lat": 31.2752047,
+        "lon": 34.2558269,
+        "date": "2026-02-20",
+        "type": "Breaking News",
+        "title": "Rafah crossing opens days after IDF says Hamas violated ceasefire, conducts strikes",
+        "link": "https://www.longwarjournal.org/archives/2026/02/rafah-crossing-opens-days-after-idf-says-hamas-violated-ceasefire.php"
+    },
+    {
+        "country": "Africa",
+        "lat": 16.3700359,
+        "lon": -2.2900239,
+        "date": "2026-02-20",
+        "type": "Breaking News",
+        "title": "How to Counter the Kremlin’s Maximalist Negotiating Strategy",
+        "link": "https://www.kyivpost.com/post/70376"
+    },
+    {
+        "country": "Ukraine",
+        "lat": 50.4500336,
+        "lon": 30.5241361,
+        "date": "2026-02-20",
+        "type": "Breaking News",
+        "title": "Amber Heart Award for Kyiv Post Contributor",
+        "link": "https://www.kyivpost.com/post/70184"
+    },
+    {
+        "country": "Ukraine",
+        "lat": 49.9923181,
+        "lon": 36.2310146,
+        "date": "2026-02-20",
+        "type": "Breaking News",
+        "title": "Russia Launches 37 Drones Overnight, Hits Critical Infrastructure in Kharkiv Region",
+        "link": "https://www.kyivpost.com/post/70357"
+    },
+    {
+        "country": "Ukraine",
+        "lat": 45.2835044,
+        "lon": 34.2008188,
+        "date": "2026-02-20",
+        "type": "Breaking News",
+        "title": "Special Ops Hit Russian Iskander Missile System in Crimea, Destroy 10+ Military Targets in One Week",
+        "link": "https://www.kyivpost.com/post/70218"
+    },
+    {
+        "country": "Ukraine",
+        "lat": 46.4843023,
+        "lon": 30.7322878,
+        "date": "2026-02-20",
+        "type": "Breaking News",
+        "title": "Russia Pounds Odesa, Launches Missiles Across Ukraine Hours Before Geneva Peace Talks",
+        "link": "https://www.kyivpost.com/post/70182"
+    }
+]
