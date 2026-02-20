@@ -148,3 +148,38 @@ header h1 {
     font-weight: bold;
     box-shadow: 0 0 10px rgba(0, 255, 0, 0.2);
 }
+/* Стил за бутона "ДЕТАЙЛИ" */
+.news-btn {
+    display: block;
+    width: 100%;
+    box-sizing: border-box; /* Предотвратява излизането от рамките */
+    margin-top: 15px;
+    padding: 12px;
+    text-align: center;
+    text-decoration: none;
+    background: rgba(255, 77, 77, 0.05);
+    color: #ff4d4d !important;
+    border: 1px solid #ff4d4d;
+    border-radius: 4px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    transition: all 0.3s ease;
+    box-shadow: 0 0 5px rgba(255, 77, 77, 0.2);
+}
+
+.news-btn:hover {
+    background: #ff4d4d;
+    color: #000 !important;
+    box-shadow: 0 0 15px #ff4d4d;
+    transform: translateY(-2px);
+}
+
+/* Скрол бар за Twitter панела (ако се появи) */
+#news-content div::-webkit-scrollbar {
+    width: 5px;
+}
+
+#news-content div::-webkit-scrollbar-thumb {
+    background: #333;
+    border-radius: 10px;
+}
