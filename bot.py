@@ -4,6 +4,7 @@ import re
 from geopy.geocoders import Nominatim
 import time
 
+# Твоят списък с емисии
 FEEDS = [
     "https://www.politico.eu/rss", "https://rss.cnn.com/rss/edition_world.rss",
     "http://feeds.bbci.co.uk/news/world/rss.xml", "https://www.aljazeera.com/xml/rss/all.xml",
@@ -14,9 +15,16 @@ FEEDS = [
 
 geolocator = Nominatim(user_agent="conflict_map_final_v12")
 
+def clean_html(raw_html):
+    """Премахва HTML тагове и CDATA за чисто описание"""
+    if not raw_html: return ""
+    cleanr = re.compile('<.*?>|&([a-z0-9]+|#[0-9]{1,6}|#x[0-9a-f]{1,6});')
+    cleantext = re.sub(cleanr, '', raw_html)
+    return cleantext.replace("<![CDATA[", "").replace("]]>", "").strip()
+
 def extract_info(text):
     t = text.lower()
-    # РАЗШИРЕН СПИСЪК С ЛОКАЦИИ И ДЪРЖАВИ
+    # ТВОЯТ ОРИГИНАЛЕН СПИСЪК С ЛОКАЦИИ (ЗАПАЗЕН НАПЪЛНО)
     locations = {
         "Ukraine": ["kyiv", "kharkiv", "donetsk", "crimea", "odesa", "donbas", "kursk", "zaporizhzhia"],
         "Russia": ["moscow", "kremlin", "voronezh", "belgorod", "rostov", "st. petersburg", "novorossiysk"],
@@ -29,7 +37,7 @@ def extract_info(text):
         "Venezuela": ["caracas", "venezuela", "maduro", "essequibo"]
     }
     
-    # ИНТЕЛИГЕНТНИ КАТЕГОРИИ ЗА ИКОНИТЕ
+    # ТВОИТЕ ОРИГИНАЛНИ КАТЕГОРИИ (ЗАПАЗЕНИ НАПЪЛНО)
     event_map = {
         "Naval": ["ship", "vessel", "navy", "sea", "maritime", "boat", "port", "carrier", "destroyer"],
         "Airstrike": ["airstrike", "missile", "rocket", "bombing", "strikes", "attack", "hit", "intercepted", "ballistic"],
@@ -44,7 +52,6 @@ def extract_info(text):
     for region, cities in locations.items():
         for city in cities:
             if city in t:
-                # Ако намерим държава или град, ги ползваме за геолокация
                 found_city, found_region = city.capitalize(), region
                 break
         if found_city: break
@@ -64,23 +71,32 @@ def run_bot():
     for url in FEEDS:
         try:
             res = requests.get(url, timeout=15)
-            # Търсим заглавия и линкове
-            titles = re.findall(r'<title>(.*?)</title>', res.text)
-            links = re.findall(r'<link>(.*?)</link>', res.text)
+            # Взимаме целия блок на всяка новина
+            items = re.findall(r'<item>(.*?)</item>', res.text, re.DOTALL)
             
-            for i in range(len(titles)):
-                title = titles[i].replace("<![CDATA[", "").replace("]]>", "").strip()
-                if len(title) < 15: continue
+            for item in items:
+                # Търсим заглавие, описание и линк вътре в item-а
+                title = re.search(r'<title>(.*?)</title>', item)
+                desc = re.search(r'<description>(.*?)</description>', item)
+                link = re.search(r'<link>(.*?)</link>', item)
                 
-                city, region, event_type = extract_info(title)
+                if not title: continue
+                
+                title_text = clean_html(title.group(1))
+                # ТУК Е МАГИЯТА: Взимаме реалното описание, ако съществува
+                desc_text = clean_html(desc.group(1)) if desc else f"Latest report regarding {title_text}."
+                link_text = link.group(1) if link else url
+                
+                if len(title_text) < 15: continue
+                
+                # Проверяваме за локация в заглавието И описанието
+                city, region, event_type = extract_info(title_text + " " + desc_text)
                 
                 if city:
                     try:
-                        # Тук ботът намира точните координати
                         loc = geolocator.geocode(city)
                         if loc:
-                            # Опитваме се да извлечем число за fatalities, ако има такова
-                            death_match = re.search(r'(\d+)\s+(killed|dead|fatalities)', title.lower())
+                            death_match = re.search(r'(\d+)\s+(killed|dead|fatalities)', (title_text + " " + desc_text).lower())
                             fatalities = death_match.group(1) if death_match else "0"
                             
                             all_events.append({
@@ -89,24 +105,24 @@ def run_bot():
                                 "lon": loc.longitude,
                                 "date": time.strftime("%Y-%m-%d"),
                                 "type": event_type, 
-                                "title": title[:130],
-                                "description": "Latest report from international sources regarding " + region + ".",
+                                "title": title_text, # Без рязане на символи
+                                "description": desc_text, # Дълго автоматично описание
                                 "fatalities": fatalities,
-                                "link": links[i] if i < len(links) else url
+                                "link": link_text
                             })
                     except: continue
         except Exception as e: 
             print(f"Error fetching {url}: {e}")
             continue
     
-    # Махаме дубликатите на база координати
+    # Махаме дубликатите
     unique_events = { (e['lat'], e['lon']): e for e in all_events }.values()
     
-    # ЗАПИСВАМЕ В JSON
+    # Записваме в JSON
     with open('conflicts.json', 'w', encoding='utf-8') as f:
         json.dump(list(unique_events), f, indent=4, ensure_ascii=False)
     
-    print(f"Sync complete. Found {len(unique_events)} unique events.")
+    print(f"Sync complete. Found {len(unique_events)} unique events with full descriptions.")
 
 if __name__ == "__main__":
     run_bot()
