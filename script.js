@@ -1,80 +1,64 @@
 window.onload = function() {
-    // 1. ИНИЦИАЛИЗАЦИЯ
-    var map = L.map('map', { 
-        worldCopyJump: true, 
-        minZoom: 2 
-    }).setView([48.0, 37.0], 5);
-
+    // 1. ИНИЦИАЛИЗАЦИЯ НА КАРТАТА
+    var map = L.map('map', { worldCopyJump: true }).setView([20.0, 10.0], 3);
     var markersLayer = L.layerGroup().addTo(map);
 
-    // Базов слой - Тъмен
     L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_nolabels/{z}/{x}/{y}{r}.png').addTo(map);
 
-    // 2. ЧЕРВЕНА ЗОНА (УКРАЙНА) - ПОДРЕДЕНА ПРАВИЛНО
-    var ukraineZone = [
-        [51.5, 34.0], [50.1, 38.5], [48.5, 39.5], [47.1, 38.2], 
-        [45.3, 36.6], [44.3, 33.5], [45.2, 33.0], [46.3, 32.2], 
-        [48.5, 36.0], [51.5, 34.0]
-    ];
+    // 2. ЧЕРВЕНА ЗОНА (УКРАЙНА)
+    var zone = [[51.5, 34.0], [50.1, 38.5], [47.1, 38.2], [44.3, 33.5], [46.3, 32.2], [48.5, 36.0], [51.5, 34.0]];
+    L.polygon(zone, { color: '#ff3333', weight: 1, fillOpacity: 0.15, interactive: false }).addTo(map);
 
-    L.polygon(ukraineZone, {
-        color: '#ff3333',
-        weight: 1,
-        fillColor: '#ff0000',
-        fillOpacity: 0.15,
-        interactive: false
-    }).addTo(map);
+    L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_only_labels/{z}/{x}/{y}{r}.png', { opacity: 0.4, pane: 'shadowPane' }).addTo(map);
 
-    // Имената на държавите отгоре
-    L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_only_labels/{z}/{x}/{y}{r}.png', { opacity: 0.5, pane: 'shadowPane' }).addTo(map);
+    // 3. ТАКТИЧЕСКИ ИКОНИ (🚀, 🚢, ⚔️, ⚠️)
+    function getTacticalIcon(title, desc) {
+        let text = (title + " " + (desc || "")).toLowerCase();
+        let sym = '●', col = '#ff4d4d';
 
-    // 3. ФУНКЦИЯ ЗА СЪЗДАВАНЕ НА ИКОНИ (С ПОПРАВКА)
-    function makeIcon(symbol, color, pulse = false) {
+        if (text.includes('missile') || text.includes('strike')) { sym = '🚀'; col = '#a366ff'; }
+        else if (text.includes('ship') || text.includes('sea')) { sym = '🚢'; col = '#3498db'; }
+        else if (text.includes('aid') || text.includes('food')) { sym = '📦'; col = '#2ecc71'; }
+        else if (text.includes('war') || text.includes('village') || text.includes('lost')) { sym = '⚔️'; col = '#ff4d4d'; }
+        else if (text.includes('warning') || text.includes('alert')) { sym = '⚠️'; col = '#ffcc00'; }
+
         return L.divIcon({
-            html: `<div style="color: ${color}; font-size: 22px; text-shadow: 0 0 10px ${color}; ${pulse ? 'animation: pulse 1.5s infinite;' : ''}">${symbol}</div>`,
-            className: '', iconSize: [30, 30], iconAnchor: [15, 15]
+            html: `<div style="color:${col}; font-size:20px; text-shadow:0 0 8px ${col}; animation: pulse 1.5s infinite;">${sym}</div>`,
+            className: '', iconSize: [25, 25], iconAnchor: [12, 12]
         });
     }
 
-    const iconSet = {
-        missile: makeIcon('🚀', '#a366ff'),
-        ship:    makeIcon('🚢', '#3498db'),
-        aid:     makeIcon('📦', '#2ecc71'),
-        warn:    makeIcon('⚠️', '#ffcc00'),
-        clash:   makeIcon('⚔️', '#ff4d4d', true),
-        dot:     makeIcon('●', '#ff4d4d', true)
-    };
-
-    function getIcon(title, desc) {
-        const text = (title + " " + (desc || "")).toLowerCase();
-        if (text.includes('missile') || text.includes('strike') || text.includes('drone')) return iconSet.missile;
-        if (text.includes('ship') || text.includes('sea') || text.includes('navy')) return iconSet.ship;
-        if (text.includes('aid') || text.includes('food') || text.includes('hunger')) return iconSet.aid;
-        if (text.includes('war') || text.includes('battle') || text.includes('village')) return iconSet.clash;
-        if (text.includes('warning') || text.includes('threat')) return iconSet.warn;
-        return iconSet.dot;
+    // 4. ТЪРСАЧКА (ENTER ЗА ТЪРСЕНЕ)
+    const searchInput = document.querySelector('input[placeholder*="Търсене"]');
+    if (searchInput) {
+        searchInput.addEventListener('keypress', function (e) {
+            if (e.key === 'Enter') {
+                const query = searchInput.value;
+                if (query.length < 2) return;
+                fetch(`https://nominatim.openstreetmap.org/search?format=json&q=${query}`)
+                    .then(res => res.json())
+                    .then(data => {
+                        if (data && data.length > 0) {
+                            map.flyTo([data[0].lat, data[0].lon], 6);
+                        }
+                    });
+            }
+        });
     }
 
-    // 4. ЗАРЕЖДАНЕ НА ДАННИ
-    function loadData() {
+    // 5. ДАННИ И СТАТИСТИКА
+    function refresh() {
         fetch('conflicts.json?t=' + Date.now())
-            .then(res => res.json())
+            .then(r => r.json())
             .then(data => {
                 markersLayer.clearLayers();
-                let deaths = 0;
-                let countries = new Set();
-                let tickerArr = [];
-
+                let deaths = 0, countries = new Set();
+                
                 data.forEach(p => {
-                    // Статистика
-                    let pFatalities = parseInt(p.fatalities) || 0;
-                    deaths += pFatalities;
+                    deaths += (parseInt(p.fatalities) || 0);
                     if (p.country) countries.add(p.country);
-                    
-                    tickerArr.push(`[${p.country.toUpperCase()}]: ${p.title}`);
 
-                    // Маркер
-                    L.marker([p.lat, p.lon], { icon: getIcon(p.title, p.description) })
+                    L.marker([p.lat, p.lon], { icon: getTacticalIcon(p.title, p.description) })
                         .addTo(markersLayer)
                         .on('click', () => {
                             document.getElementById('news-content').innerHTML = `
@@ -87,24 +71,21 @@ window.onload = function() {
                         });
                 });
 
-                // Обновяване на UI
                 document.getElementById('active-events').innerText = "Active events: " + data.length;
                 document.getElementById('total-fatalities').innerText = "Total fatalities: " + deaths;
                 document.getElementById('countries-affected').innerText = "Countries affected: " + countries.size;
-                document.getElementById('last-update').innerText = new Date().toLocaleTimeString();
                 
-                const ticker = document.getElementById('news-ticker');
-                if (ticker) ticker.innerText = tickerArr.join('   •   ');
-            })
-            .catch(err => console.error("Грешка:", err));
+                let ticker = document.getElementById('news-ticker');
+                if (ticker) ticker.innerText = data.map(p => `[${p.country}]: ${p.title}`).join(' • ');
+            });
     }
 
-    loadData();
-    setInterval(loadData, 60000);
+    refresh();
+    setInterval(refresh, 60000);
 };
 
 // ЧАСОВНИК
 setInterval(() => {
-    const clock = document.getElementById('utc-clock');
-    if (clock) clock.innerText = new Date().toUTCString().split(' ')[4] + " UTC";
+    let clk = document.getElementById('utc-clock');
+    if (clk) clk.innerText = new Date().toUTCString().split(' ')[4] + " UTC";
 }, 1000);
