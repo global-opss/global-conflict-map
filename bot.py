@@ -59,7 +59,21 @@ LOCATION_CACHE = {
     "belgorod": [50.5937, 36.5858],
     "engels": [51.4822, 46.1214],
     "damascus": [33.5138, 36.2765],
-    "taipei": [25.0330, 121.5654]
+    "taipei": [25.0330, 121.5654],
+    "washington": [38.8951, -77.0364],
+    "pentagon": [38.8719, -77.0563],
+    "warsaw": [52.2297, 21.0122],
+    "rzeszow": [50.0412, 21.9991],
+    "bucharest": [44.4268, 26.1025],
+    "taiwan strait": [24.4786, 119.3490],
+    "south china sea": [12.0000, 113.0000],
+    "vovchansk": [50.2839, 36.9358],
+    "pokrovsk": [48.2819, 37.1762],
+    "raleigh": [35.7796, -78.6382],
+    "norfolk": [36.8508, -76.2859],
+    "san diego": [32.7157, -117.1611],
+    "poland": [52.0000, 19.0000],
+    "romania": [46.0000, 25.0000]
 }
 
 def clean_html(raw_html):
@@ -173,17 +187,17 @@ def run_bot():
     existing_events = load_existing_events()
     new_found_events = []
     
-   # ГЕОГРАФСКА БАЗА ДАННИ (ЗАМЕНИ СТАРИЯ БЛОК С ТОЗИ)
+# ГЕОГРАФСКА БАЗА ДАННИ - ПЪЛЕН ГЛОБАЛЕН ОБХВАТ
     locations_db = {
-        "Iran": ["Tehran", "Isfahan", "Bushehr", "Tabriz", "Mashhad", "Shiraz"],
-        "Ukraine": ["Kyiv", "Kharkiv", "Odesa", "Lviv", "Donetsk", "Zaporizhzhia", "Pokrovsk", "Vovchansk"],
-        "Russia": ["Moscow", "Sevastopol", "Belgorod", "Engels", "Kursk", "Rostov"],
-        "Israel": ["Tel Aviv", "Jerusalem", "Haifa", "Gaza", "Ashdod"],
-        "Syria": ["Damascus", "Aleppo", "Latakia"],
-        "Lebanon": ["Beirut", "Tyre", "Sidon"],
-        "USA": ["Washington", "New York", "Pentagon", "Norfolk", "San Diego"],
-        "China": ["Beijing", "Shanghai", "Taiwan Strait", "South China Sea", "Hainan"],
-        "Europe": ["Brussels", "Warsaw", "Rzeszow", "Bucharest", "Berlin", "Paris", "London", "Poland", "Romania", "Bulgaria"]
+        "Ukraine": ["Kyiv", "Kharkiv", "Odesa", "Lviv", "Donetsk", "Zaporizhzhia", "Pokrovsk", "Vovchansk", "Kramatorsk", "Sumy"],
+        "Russia": ["Moscow", "Sevastopol", "Belgorod", "Engels", "Kursk", "Rostov", "Novorossiysk", "St. Petersburg"],
+        "Israel": ["Tel Aviv", "Jerusalem", "Haifa", "Gaza", "Ashdod", "Rafah", "Eilat"],
+        "Iran": ["Tehran", "Isfahan", "Bushehr", "Tabriz", "Mashhad", "Shiraz", "Bandar Abbas"],
+        "USA": ["Washington", "New York", "Pentagon", "Norfolk", "San Diego", "Alaska", "Hawaii"],
+        "China": ["Beijing", "Shanghai", "Taiwan Strait", "South China Sea", "Hainan", "Fujian"],
+        "Europe": ["Brussels", "Warsaw", "Rzeszow", "Bucharest", "Berlin", "Paris", "London", "Poland", "Romania", "Finland", "Sweden" "Bulgaria"],
+        "Middle East": ["Beirut", "Tyre", "Sidon", "Damascus", "Aleppo", "Latakia", "Red Sea", "Yemen", "Sanaa"],
+        "Asia": ["Tokyo", "Seoul", "Pyongyang", "Manila", "South China Sea"]
     }
 
     print(f"📡 --- STARTING GLOBAL INTELLIGENCE SCAN ---")
@@ -235,7 +249,7 @@ def run_bot():
         unique_events[event['title']] = event
     
     # ФИНАЛНО СОРТИРАНЕ И ОГРАНИЧАВАНЕ ДО 20 НОВИНИ
-    final_list = sorted(list(unique_events.values()), key=lambda x: x['date'], reverse=True)[:20]
+    final_list = sorted(list(unique_events.values()), key=lambda x: x['date'], reverse=True)[:50]
 
     try:
         with open('conflicts.json', 'w', encoding='utf-8') as f:
@@ -249,6 +263,7 @@ if __name__ == "__main__":
     run_bot()
     print(f"⏱️ Cycle Finished in {round(time.time() - start_time, 2)}s.")
     # Край на скрипта. Всички 250 реда са генерирани.
+
 
 
 
