@@ -351,7 +351,7 @@ setInterval(() => {
  * =============================================================================
  */
 
-// 1. Добавяме памет за броя събития (извън основната функция за обновяване)
+// 354 | 1. Добавяме памет за броя събития (извън функцията)
 let lastCount = 0; 
 
 function updateDashboardStats() {
@@ -360,19 +360,19 @@ function updateDashboardStats() {
         .then(data => {
             const count = data.length; // Взема реалния брой новини
             
-            // 2. ПРОВЕРКА ЗА ЗВУК: Ако има нова новина, пусни тактическия сигнал
+            // 2. ПРОВЕРКА ЗА ЗВУК: Използвай !== за правилна проверка
             if (count > lastCount && lastCount !== 0) {
                 playTacticalPing(); 
             }
-            lastCount = count; // Обновяваме паметта
+            lastCount = count; 
 
-            // 1. Обновява числото в хедъра
+            // Обновява числото в хедъра
             const eventCounter = document.getElementById('active-events');
             if (eventCounter) {
                 eventCounter.innerText = count;
             }
 
-            // 2. БОНУС: Автоматична промяна на THREAT LEVEL
+            // Автоматична промяна на THREAT LEVEL
             const threatLevel = document.querySelector('header span[style*="#ff3131"]');
             if (threatLevel) {
                 if (count > 20) {
@@ -388,11 +388,12 @@ function updateDashboardStats() {
                 }
             }
         })
-        .catch(err => console.error("Грешка при обновяване на статистиката:", err));
+        .catch(err => console.error("Грешка при статистиката:", err));
 }
 
-// Извиквай функцията на всеки 30 секунди, за да е винаги актуално
+// Извикване на функциите
 setInterval(updateDashboardStats, 30000);
-updateDashboardStats(); // Първоначално извикване
+updateDashboardStats(); 
 
-}; // ТАЗИ СКОБА ЗАТВАРЯ WINDOW.ONLOAD ОТ РЕД 33
+// ВАЖНО: ТАЗИ СКОБА ЗАТВАРЯ WINDOW.ONLOAD, КОЙТО ОТВОРИ НА РЕД 33
+};
