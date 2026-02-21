@@ -88,6 +88,11 @@ LOCATION_CACHE = {
     "libya": [26.3351, 17.2283],
     "tripoli": [32.8872, 13.1913],
     "djibouti": [11.5721, 43.1456]
+    "kabul": [34.5553, 69.1770],
+    "islamabad": [33.6844, 73.0479],
+    "karachi": [24.8607, 67.0011],
+    "peshawar": [34.0151, 71.5249],
+    "kandahar": [31.6289, 65.7372]
 }
 
 def clean_html(raw_html):
@@ -211,7 +216,7 @@ def run_bot():
         "China": ["Beijing", "Shanghai", "Taiwan Strait", "South China Sea", "Hainan", "Fujian"],
         "Europe": ["Brussels", "Warsaw", "Rzeszow", "Bucharest", "Berlin", "Paris", "London", "Poland", "Romania", "Finland", "Sweden" "Bulgaria"],
         "Middle East": ["Beirut", "Tyre", "Sidon", "Damascus", "Aleppo", "Latakia", "Red Sea", "Yemen", "Sanaa"],
-        "Asia": ["Tokyo", "Seoul", "Pyongyang", "Manila", "South China Sea"],
+        "Asia": ["Tokyo", "Seoul", "Pyongyang", "Manila", "South China Sea", "Afghanistan", "Pakistan"],
         "Africa": ["Khartoum", "Mogadishu", "Niamey", "Bamako", "Ouagadougou", "Sudan", "Somalia", "Mali", "Niger", "Burkina Faso", "Libya", "Tripoli"],
         "Red Sea Region": ["Bab el-Mandeb", "Djibouti", "Eritrea"]
     }
@@ -279,6 +284,7 @@ if __name__ == "__main__":
     run_bot()
     print(f"⏱️ Cycle Finished in {round(time.time() - start_time, 2)}s.")
     # Край на скрипта. Всички 250 реда са генерирани.
+
 
 
 
