@@ -359,7 +359,7 @@ setInterval(() => {
 let lastCount = 0; 
 
 function updateDashboardStats() {
-    fetch('conflicts.json')
+    fetch('conflicts.json?v=' + Date.now())
         .then(response => response.json())
         .then(data => {
             const count = data.length; // Взема реалния брой новини
