@@ -263,7 +263,7 @@ def run_bot():
         unique_events[event['title']] = event
     
     # ФИНАЛНО СОРТИРАНЕ И ОГРАНИЧАВАНЕ ДО 20 НОВИНИ
-    final_list = sorted(list(unique_events.values()), key=lambda x: x['date'], reverse=True)[:50]
+    final_list = sorted(list(unique_events.values()), key=lambda x: x['date'], reverse=True)[:100]
 
     try:
         with open('conflicts.json', 'w', encoding='utf-8') as f:
@@ -277,6 +277,7 @@ if __name__ == "__main__":
     run_bot()
     print(f"⏱️ Cycle Finished in {round(time.time() - start_time, 2)}s.")
     # Край на скрипта. Всички 250 реда са генерирани.
+
 
 
 
