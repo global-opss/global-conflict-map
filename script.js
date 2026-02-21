@@ -301,14 +301,16 @@ function createAssetIcon(type) {
             const sidebar = document.getElementById('intel-list');
             if (sidebar) sidebar.innerHTML = '';
 
-            // Проверка за нови събития и активиране на alert.mp3
-            if (data.length > 0 && data[0].title !== globalLastEventTitle) {
-                if (data[0].critical === true || data[0].type === "Evacuation") {
-                    const audio = new Audio('alert.mp3');
-                    audio.play().catch(e => console.log("User interaction required for audio."));
-                }
-                globalLastEventTitle = data[0].title;
-            }
+           // --- ОБНОВЕНА СЕКЦИЯ СЪС СИСТЕМЕН ЗВУК ---
+if (data.length > 0 && data[0].title !== globalLastEventTitle) {
+    if (data[0].critical === true || data[0].type === "Evacuation") {
+        
+        // Вместо да търсим alert.mp3, викаме нашата функция
+        playTacticalPing(); 
+        
+    }
+    globalLastEventTitle = data[0].title;
+}
 
    // Обработка на всяка новина
             data.forEach(item => {
@@ -393,8 +395,16 @@ function updateDashboardStats() {
         .catch(err => console.error("Грешка при статистиката:", err));
 }
 
-// Извикване на функциите
-setInterval(updateDashboardStats, 30000);
-updateDashboardStats(); 
+// --- ИЗВИКВАНЕ НА ФУНКЦИИТЕ ---
 
+// 1. Първоначално зареждане при пускане на сайта
+updateDashboardStats();
+syncTacticalData();
+
+// 2. Автоматично обновяване на всеки 30 секунди
+setInterval(() => {
+    console.log("Системата се обновява..."); // За да виждаш в F12, че работи
+    updateDashboardStats(); 
+    syncTacticalData();     
+}, 30000);
 
