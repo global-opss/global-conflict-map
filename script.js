@@ -39,20 +39,17 @@ window.onload = function() {
         crossOrigin: true
     }).addTo(map);
 
-    // --- СЕКЦИЯ 2: ГЕОПОЛИТИЧЕСКИ ДАННИ И ГРАНИЦИ ---
-// Списък на държави според техния текущ статус
+// --- СЕКЦИЯ 2: ГЕОПОЛИТИЧЕСКИ ДАННИ И ГРАНИЦИ ---
 const warZones = ['Russia', 'Ukraine', 'Israel', 'Palestine', 'Sudan', 'Syria', 'Yemen', 'Iraq', 'Lebanon'];
 const blueZone = ['France', 'Germany', 'United Kingdom', 'Italy', 'Poland', 'Bulgaria', 'Romania', 'Greece', 'Norway'];
 const tensionZones = ['Iran', 'North Korea', 'China', 'Taiwan', 'Venezuela', 'USA', 'United States', 'Turkey', 'Saudi Arabia'];
 
-// Зареждане на GeoJSON данни за държавите
 fetch('https://raw.githubusercontent.com/datasets/geo-boundaries-world-110m/master/countries.geojson')
     .then(res => res.json())
     .then(geoData => {
         L.geoJson(geoData, {
             style: function(feature) {
                 const countryName = feature.properties.name;
-                // Цветово кодиране на териториите
                 if (warZones.includes(countryName)) return { fillColor: "#ff0000", weight: 2.2, color: '#ff3333', fillOpacity: 0.3 };
                 if (blueZone.includes(countryName)) return { fillColor: "#0055ff", weight: 2.0, color: '#00a2ff', fillOpacity: 0.25 };
                 if (tensionZones.includes(countryName)) return { fillColor: "#ff8c00", weight: 1.8, color: '#ff8c00', fillOpacity: 0.2 };
@@ -60,16 +57,39 @@ fetch('https://raw.githubusercontent.com/datasets/geo-boundaries-world-110m/mast
             },
             onEachFeature: function(feature, layer) {
                 const n = feature.properties.name;
-                // ФИКСИРАН НАДПИС С БЯЛА РАМКА (2px solid #ccc)
-                layer.bindTooltip(`<div style="background:#000; color:#39FF14; border:2px solid #ccc; padding:6px 10px; font-family:monospace; font-weight:bold;">${n.toUpperCase()}</div>`, { sticky: true, offset: [0, -10] });
+                let statusText = "";
+                let statusColor = "#39FF14"; // Зелено по подразбиране
+
+                // ЛОГИКА ЗА АВТОМАТИЧЕН СТАТУС В НАДПИСА
+                if (warZones.includes(n)) {
+                    statusText = " - IN WAR";
+                    statusColor = "#ff3131"; 
+                } else if (tensionZones.includes(n)) {
+                    statusText = " - CRITICAL";
+                    statusColor = "#ff8c00"; 
+                } else if (blueZone.includes(n)) {
+                    statusText = " - MONITORING";
+                    statusColor = "#00a2ff"; 
+                }
+
+                layer.bindTooltip(`
+                    <div style="
+                        background: #000; 
+                        color: ${statusColor}; 
+                        border: 2px solid #ccc; 
+                        padding: 6px 10px; 
+                        font-family: monospace; 
+                        font-weight: bold;
+                        text-transform: uppercase;
+                    ">
+                        ${n}${statusText}
+                    </div>`, { sticky: true, offset: [0, -10] });
                 
-                // Визуални ефекти при посочване
                 layer.on('mouseover', function() { this.setStyle({ fillOpacity: 0.45, weight: 3 }); });
                 layer.on('mouseout', function() { 
-                    const name = feature.properties.name;
                     this.setStyle({ 
-                        fillOpacity: warZones.includes(name) ? 0.3 : tensionZones.includes(name) ? 0.2 : 0.1, 
-                        weight: warZones.includes(name) ? 2.2 : 0.6 
+                        fillOpacity: warZones.includes(n) ? 0.3 : tensionZones.includes(n) ? 0.2 : 0.1, 
+                        weight: warZones.includes(n) ? 2.2 : 0.6 
                     }); 
                 });
             }
