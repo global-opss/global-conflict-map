@@ -76,7 +76,7 @@ def extract_info(text, locations_map):
     """
     t = text.lower()
     
-  # ОБНОВЕН ВОЕНЕН ФИЛТЪР - ГЛОБАЛЕН ОБХВАТ
+ # ГЛОБАЛЕН ВОЕНЕН ФИЛТЪР (ВКЛЮЧИТЕЛНО ЕВРОПА И НАТО)
     event_map = {
         "Evacuation": [
             "evacuate", "leave now", "citizens must leave", "evacuation", "emergency departure", 
@@ -86,12 +86,12 @@ def extract_info(text, locations_map):
         "Naval": [
             "ship", "vessel", "navy", "maritime", "carrier", "destroyer", "frigate", "naval base", 
             "black sea", "baltic", "mediterranean", "red sea", "houthi", "strait", "carrier group",
-            "freedom of navigation", "destroyer squadron", "submarine", "warship"
+            "freedom of navigation", "destroyer squadron", "submarine", "warship", "north sea"
         ],
         "Airstrike": [
             "airstrike", "missile", "rocket", "bombing", "strikes", "attack", "ballistic", 
             "kinzhal", "iskander", "kalibr", "kh-101", "storm shadow", "himars", "patriot",
-            "intercepted", "air defense", "scramble", "bomber"
+            "intercepted", "air defense", "scramble", "bomber", "airspace violation"
         ],
         "Explosion": [
             "explosion", "blast", "shelling", "artillery", "detonation", "shook", "smoke", 
@@ -105,11 +105,12 @@ def extract_info(text, locations_map):
             "clashes", "fighting", "battle", "siege", "frontline", "tank", "combat", "soldiers", 
             "infantry", "offensive", "counter-offensive", "war", "invasion", "occupied",
             "military drills", "war games", "troop deployment", "readiness", "military aid",
-            "nato task force", "pentagon", "mobilization", "maneuvers", "joint exercise"
+            "nato task force", "pentagon", "mobilization", "maneuvers", "joint exercise",
+            "eastern flank", "nato alliance", "border security", "suwalki gap", "deployment"
         ],
         "Nuclear": [
             "nuclear", "atomic", "radiation", "npp", "icbm", "uranium", "reactor", "plutonium", 
-            "zaporizhzhia npp", "iaea", "fallout", "deterrence"
+            "zaporizhzhia npp", "iaea", "fallout", "deterrence", "strategic forces"
         ]
     }
 
@@ -245,6 +246,7 @@ if __name__ == "__main__":
     run_bot()
     print(f"⏱️ Cycle Finished in {round(time.time() - start_time, 2)}s.")
     # Край на скрипта. Всички 250 реда са генерирани.
+
 
 
 
