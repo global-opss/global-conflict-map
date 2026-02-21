@@ -4,11 +4,22 @@
         "lat": 39.6823264,
         "lon": -76.602191,
         "date": "2026-02-21",
-        "type": "Naval",
-        "title": "US says 11 people killed in latest strikes on alleged drug boats",
-        "description": "pThree boats targeted in eastern Pacific and Caribbean as Trump continues pursuit of alleged ‘narco-terrorists’/ppUS military officials have said American forces launched assaults on three alleged drug-smuggling boats, killing 11 in one of the deadliest days of the a href=\"https://www.theguardian.com/us-news/trump-administration\"Trump administration’s/a months-long campaign against alleged traffickers./ppThe military action on Monday brought the number of fatalities caused by US strikes to 145 since September, when a href=\"https://www.theguardian.com/us-news/donaldtrump\"Donald Trump/a called on American armed forces to attack people deemed “narco-terrorists” on small vessels. There have been 42 known strikes in notorious drug-trafficking routes such as the Caribbean Sea and eastern Pacific Ocean, according to the Associated Press a href=\"https://www.military.com/daily-news/2026/02/17/strikes-3-more-alleged-drug-boats-kill-11-people-us-military-says.html\"reported/a./p a href=\"https://www.theguardian.com/us-news/2026/feb/17/us-military-boats-strikes\"Continue reading.../a",
+        "type": "Breaking News",
+        "title": "Can Trump still impose tariffs after the Supreme Court ruling?",
+        "description": "",
         "fatalities": "0",
-        "link": "https://www.theguardian.com/us-news/2026/feb/17/us-military-boats-strikes"
+        "link": "https://www.aljazeera.com/economy/2026/2/20/can-trump-still-impose-tariffs-after-the-supreme-court-ruling?traffic_source=rss"
+    },
+    {
+        "country": "USA",
+        "lat": 38.8976387,
+        "lon": -77.0365528,
+        "date": "2026-02-21",
+        "type": "Airstrike",
+        "title": "Trump to make three-day visit to China next month, White House says",
+        "description": "",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/news/2026/2/21/trump-to-make-three-day-visit-to-china-next-month-white-house-says?traffic_source=rss"
     },
     {
         "country": "Venezuela",
@@ -26,11 +37,11 @@
         "lat": 30.8124247,
         "lon": 34.8594762,
         "date": "2026-02-21",
-        "type": "Naval",
-        "title": "Kenyan authorities used Israeli tech to crack activist’s phone, report claims",
-        "description": "pCitizen Lab report suggests Cellebrite software was used to break into Boniface Mwangi’s phone while he was under arrest/ppWhen Boniface Mwangi, the prominent Kenyan pro-democracy activist who plans to run a href=\"https://www.reuters.com/world/africa/kenyan-rights-activist-plans-run-president-2027-2025-08-27/\"for president in 2027/a, had his phones returned to him by Kenyan authorities after his a href=\"https://www.theguardian.com/world/2025/jul/20/arrested-kenyan-activist-boniface-mwangi-faces-terror-charges\"controversial arrest last July/a, he immediately noticed a problem: one of the phones was no longer password protected and could be opened without one./ppIt was Mwangi’s personal phone, which he used to communicate with friends and mentors, and contained photos of private family moments with his wife and children. Knowing that its contents could be in the hands of the Kenyan government made Mwangi – who has described harassment and a href=\"https://www.theguardian.com/world/2025/jun/29/activists-boniface-mwangi-agather-atuhaire-tanzania\"even torture/a – feel unsafe and “exposed”, he told the Guardian./p a href=\"https://www.theguardian.com/world/2026/feb/17/trim-slugs-to-kenya-authorities-israel-tech-crack-activists-phone-report\"Continue reading.../a",
+        "type": "Breaking News",
+        "title": "US envoy suggests it would be ‘fine’ if Israel expands across Middle East",
+        "description": "",
         "fatalities": "0",
-        "link": "https://www.theguardian.com/world/2026/feb/17/trim-slugs-to-kenya-authorities-israel-tech-crack-activists-phone-report"
+        "link": "https://www.aljazeera.com/news/2026/2/20/us-envoy-suggests-it-would-be-fine-if-israel-expands-across-middle-east?traffic_source=rss"
     },
     {
         "country": "Middle East",
@@ -42,27 +53,5 @@
         "description": "",
         "fatalities": "0",
         "link": "https://www.aljazeera.com/video/inside-story/2026/2/20/whats-next-for-gaza-after-trumps-board-of-peace-meets-in-washington?traffic_source=rss"
-    },
-    {
-        "country": "Africa",
-        "lat": 14.5844444,
-        "lon": 29.4917691,
-        "date": "2026-02-21",
-        "type": "Naval",
-        "title": "RSF siege of El Fasher in Sudan has ‘hallmarks of genocide’, UN mission finds",
-        "description": "pReport details harrowing 18-month occupation of North Darfur capital, showing destruction aimed at ethnic communities/ppThe a href=\"https://www.theguardian.com/world/2025/oct/27/fears-civilians-sudan-paramilitary-rsf-capture-el-fasher\"siege and capture/a of the Sudanese city of El Fasher by the paramilitary Rapid Support Forces group last October bore “the hallmarks of genocide”, a UN-mandated fact-finding mission has said./ppIn a report detailing the harrowing 18-month occupation of the capital of North Darfur, investigators concluded that the RSF and allied militias deliberately inflicted conditions calculated to bring about the physical destruction of the Zaghawa and Fur ethnic communities./p a href=\"https://www.theguardian.com/world/2026/feb/19/rsf-siege-el-fasher-sudan-hallmarks-of-genocide-un-mission-north-darfur\"Continue reading.../a",
-        "fatalities": "0",
-        "link": "https://www.theguardian.com/world/2026/feb/19/rsf-siege-el-fasher-sudan-hallmarks-of-genocide-un-mission-north-darfur"
-    },
-    {
-        "country": "Middle East",
-        "lat": 32.6475314,
-        "lon": 54.5643516,
-        "date": "2026-02-21",
-        "type": "Airstrike",
-        "title": "Trump ‘considering’ limited strikes on Iran",
-        "description": "",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/video/newsfeed/2026/2/20/trump-considering-limited-strikes-on-iran?traffic_source=rss"
     }
 ]
