@@ -151,7 +151,18 @@ fetch('https://raw.githubusercontent.com/datasets/geo-boundaries-world-110m/mast
         { name: "USS Carney (Destroyer - Red Sea)", type: "us-naval", lat: 15.50, lon: 41.20 },
         { name: "Nevatim Airbase (Israel F-35)", type: "us-air", lat: 31.20, lon: 35.01 },
     ];
-
+// --- СЕКЦИЯ: ВРЕДНИ ЗОНИ (ОБХВАТ НА УДАР) ---
+strategicAssets.forEach(asset => {
+    // Проверяваме за ирански ядрени и ракетни обекти
+    if (asset.type === 'ir-pvo' || asset.type === 'ir-missile' || asset.type === 'ir-air') {
+        L.circle([asset.lat, asset.lon], {
+            color: '#ff4444',      // Червен контур
+            fillColor: '#ff4444',  // Червено запълване
+            fillOpacity: 0.1,     // Много прозрачно, за да не пречи
+            radius: 80000          // 80 км обхват (можеш да го промениш)
+        }).addTo(map);
+    }
+});
     // --- СЕКЦИЯ 4: РАЗШИРЕН CSS СТИЛ (UI ОПТИМИЗАЦИЯ) ---
     const customStyles = document.createElement("style");
     customStyles.innerText = `
