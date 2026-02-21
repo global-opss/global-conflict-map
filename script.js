@@ -392,3 +392,4 @@ function updateDashboardStats() {
 // Извиквай функцията на всеки 30 секунди, за да е винаги актуално
 setInterval(updateDashboardStats, 30000);
 updateDashboardStats(); // Първоначално извикване
+};
