@@ -11,7 +11,26 @@
  * - Пълна съвместимост с bot.py и conflicts.json.
  * =============================================================================
  */
+/* ... края на твоя коментар на ред 13 ... */
+ */
 
+// ТУК СЛАГАШ ЗВУКОВАТА ФУНКЦИЯ
+function playTacticalPing() {
+    const audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+    const oscillator = audioCtx.createOscillator();
+    const gainNode = audioCtx.createGain();
+
+    oscillator.type = 'sine'; 
+    oscillator.frequency.setValueAtTime(880, audioCtx.currentTime); 
+    
+    gainNode.gain.setValueAtTime(0.1, audioCtx.currentTime);
+    gainNode.gain.exponentialRampToValueAtTime(0.0001, audioCtx.currentTime + 0.5); 
+
+    oscillator.connect(gainNode);
+    gainNode.connect(audioCtx.destination);
+
+    oscillator.start();
+    oscillator.stop(audioCtx.currentTime + 0.5);
 window.onload = function() {
     
     // ПАМЕТ НА СИСТЕМАТА ЗА ГОРЕЩИ СЪБИТИЯ
@@ -332,12 +351,22 @@ setInterval(() => {
  * ВСИЧКИ МОДУЛИ СА ЗАРЕДЕНИ УСПЕШНО.
  * =============================================================================
  */
+
+// 1. Добавяме памет за броя събития (извън функцията)
+let lastCount = 0; 
+
 function updateDashboardStats() {
     fetch('conflicts.json')
         .then(response => response.json())
         .then(data => {
             const count = data.length; // Взема реалния брой новини
             
+            // 2. ПРОВЕРКА ЗА ЗВУК: Ако има нова новина, пусни тактическия сигнал
+            if (count > lastCount && lastCount !== 0) {
+                playTacticalPing(); 
+            }
+            lastCount = count; // Обновяваме паметта
+
             // 1. Обновява числото в хедъра
             const eventCounter = document.getElementById('active-events');
             if (eventCounter) {
