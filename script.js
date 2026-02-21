@@ -111,6 +111,9 @@ fetch('https://raw.githubusercontent.com/datasets/geo-boundaries-world-110m/mast
         { name: "Diego Garcia Base", type: "us-naval", lat: -7.31, lon: 72.41 },
         { name: "Kaliningrad HQ", type: "ru-hq", lat: 54.71, lon: 20.45 },
         { name: "Muwaffaq Salti Air Base (Jordan)", type: "us-air", lat: 31.83, lon: 36.78 },
+        { name: "USS Abraham Lincoln (CVN-72) Strike Group", type: "us-naval", lat: 21.00, lon: 61.50 }, 
+        { name: "USS Gerald R. Ford (CVN-78) Strike Group", type: "us-naval", lat: 35.50, lon: 15.00 },  
+        { name: "USS George H.W. Bush (CVN-77)", type: "us-naval", lat: 37.00, lon: -75.00 },         
     ];
 
     // --- СЕКЦИЯ 4: РАЗШИРЕН CSS СТИЛ (UI ОПТИМИЗАЦИЯ) ---
