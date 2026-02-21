@@ -648,5 +648,18 @@
         "fatalities": "0",
         "link": "https://www.bbc.com/news/articles/cdxzk4gvzp0o?at_medium=RSS&at_campaign=rss",
         "critical": false
-    }
+    },
+]
+        "country": "Iran",
+        "city": "Tehran",
+        "lat": 35.6892,
+        "lon": 51.389,
+        "date": "2026-02-21 16:58:43",
+        "type": "Nuclear",
+        "title": "Trump decide to strike iran in next 48 hours",
+        "description": "Trump's new threat came a day after he appeared to give Iran about 10 days to agree to a deal to curb its nuclear programme.",
+        "fatalities": "0",
+        "link": "https://www.bbc.com/news/articles/cdxzk4gvzp0o?at_medium=RSS&at_campaign=rss",
+        "critical": false
+    },
 ]
