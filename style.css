@@ -11,10 +11,10 @@ html, body {
 /* 2. КАРТАТА - ПЪЛЕН ЕКРАН */
 #map {
     position: absolute;
-    top: 60px;
+    top: 90px;
     left: 0;
     width: 100%;
-    height: calc(100vh - 60px) !important;
+    height: calc(100vh - 90px) !important;
     z-index: 1;
 }
 
@@ -123,4 +123,33 @@ iframe {
     filter: invert(1) hue-rotate(180deg) brightness(0.9) contrast(1.1);
     mix-blend-mode: screen;
     background: transparent !important;
+}
+/* 9. НОВИНАРСКА ЛЕНТА (TICKER) */
+.news-ticker-container {
+    position: absolute;
+    top: 60px; /* Веднага под хедъра */
+    left: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.9);
+    border-bottom: 1px solid #ff4444; /* Червена линия за опасност */
+    overflow: hidden;
+    padding: 5px 0;
+    z-index: 2001; /* Над всичко останало */
+}
+
+.news-ticker {
+    white-space: nowrap;
+    display: inline-block;
+    padding-left: 100%;
+    animation: marquee 35s linear infinite;
+    color: #ff4444;
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+@keyframes marquee {
+    0% { transform: translate(0, 0); }
+    100% { transform: translate(-100%, 0); }
 }
