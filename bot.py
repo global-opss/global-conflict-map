@@ -75,7 +75,7 @@ LOCATION_CACHE = {
     "norfolk": [36.8508, -76.2859],
     "san diego": [32.7157, -117.1611],
     "poland": [52.0000, 19.0000],
-    "romania": [46.0000, 25.0000]
+    "romania": [46.0000, 25.0000],
     "khartoum": [15.5007, 32.5599],
     "mogadishu": [2.0469, 45.3182],
     "niamey": [13.5116, 2.1254],
@@ -277,6 +277,7 @@ if __name__ == "__main__":
     run_bot()
     print(f"⏱️ Cycle Finished in {round(time.time() - start_time, 2)}s.")
     # Край на скрипта. Всички 250 реда са генерирани.
+
 
 
 
