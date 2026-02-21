@@ -178,30 +178,41 @@ fetch('https://raw.githubusercontent.com/datasets/geo-boundaries-world-110m/mast
     document.head.appendChild(customStyles);
 
     // --- СЕКЦИЯ 5: ГЕНЕРИРАНЕ НА ТАКТИЧЕСКИ ИКОНИ ---
-    function createAssetIcon(type) {
-        let symbol = '✈️'; 
-        let styleClass = 'mil-icon-box ';
-       
-        function createAssetIcon(type) {
-    let symbol = '⚪'; 
+function createAssetIcon(type) {
+    let symbol = '⚪'; // Символ по подразбиране
     let styleClass = 'mil-icon-box ';
-    
-    if (type === 'ua-infantry') { 
-        symbol = '🪖'; 
+
+    // 1. ПРОВЕРКА ЗА ПЕХОТА (ВОЙНИЦИ)
+    if (type === 'ua-infantry') {
+        symbol = '🪖';
         styleClass += 'icon-us-nato'; // Синьо/Зелено за Украйна
     } 
-    else if (type === 'ru-infantry') { 
-        symbol = '🪖'; 
+    else if (type === 'ru-infantry') {
+        symbol = '🪖';
         styleClass += 'icon-ru-ua'; // Червено за Русия
     }
-    else if (type === 'ir-nuclear') { symbol = '☢️'; styleClass += 'icon-iran-tension'; }
-    else if (type === 'ir-missile') { symbol = '🚀'; styleClass += 'icon-iran-tension'; }
-    else if (type.includes('naval')) { symbol = '⚓'; }
-    else if (type.includes('air')) { symbol = '🦅'; }
+    // 2. ПРОВЕРКА ЗА ИРАНСКИ СПЕЦИАЛНИ ОБЕКТИ
+    else if (type === 'ir-nuclear') {
+        symbol = '☢️';
+        styleClass += 'icon-iran-tension';
+    } 
+    else if (type === 'ir-missile') {
+        symbol = '🚀';
+        styleClass += 'icon-iran-tension';
+    }
+    // 3. ПРОВЕРКА ЗА ВЪЗДУШНИ И МОРСКИ БАЗИ
+    else if (type.includes('naval')) {
+        symbol = '⚓';
+        styleClass += (type.startsWith('us-')) ? 'icon-us-nato' : 'icon-ru-ua';
+    } 
+    else if (type.includes('air')) {
+        symbol = '🦅';
+        styleClass += (type.startsWith('us-')) ? 'icon-us-nato' : 'icon-iran-tension';
+    }
 
-    return L.divIcon({ 
-        html: `<div class="${styleClass}" style="font-size:18px;">${symbol}</div>`, 
-        iconSize: [32, 32] 
+    return L.divIcon({
+        html: `<div class="${styleClass}" style="font-size:18px; display:flex; align-items:center; justify-content:center;">${symbol}</div>`,
+        iconSize: [32, 32]
     });
 }
 
