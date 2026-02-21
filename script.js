@@ -332,3 +332,35 @@ setInterval(() => {
  * ВСИЧКИ МОДУЛИ СА ЗАРЕДЕНИ УСПЕШНО.
  * =============================================================================
  */
+function updateDashboardStats() {
+    fetch('conflicts.json')
+        .then(response => response.json())
+        .then(data => {
+            const count = data.length; // Взема реалния брой новини
+            
+            // 1. Обновява числото в хедъра
+            const eventCounter = document.getElementById('active-events');
+            if (eventCounter) {
+                eventCounter.innerText = count;
+            }
+
+            // 2. БОНУС: Автоматична промяна на THREAT LEVEL
+            const threatLevel = document.querySelector('header span[style*="#ff3131"]');
+            if (threatLevel) {
+                if (count > 20) {
+                    threatLevel.innerText = "CRITICAL";
+                    threatLevel.style.textShadow = "0 0 10px #ff3131";
+                } else if (count > 10) {
+                    threatLevel.innerText = "ELEVATED";
+                } else {
+                    threatLevel.innerText = "LOW";
+                    threatLevel.style.color = "#39FF14";
+                }
+            }
+        })
+        .catch(err => console.error("Грешка при обновяване на статистиката:", err));
+}
+
+// Извиквай функцията на всеки 30 секунди, за да е винаги актуално
+setInterval(updateDashboardStats, 30000);
+updateDashboardStats(); // Първоначално извикване
