@@ -40,8 +40,8 @@ window.onload = function() {
     }).addTo(map);
 
 // --- СЕКЦИЯ 2: ГЕОПОЛИТИЧЕСКИ ДАННИ И ГРАНИЦИ ---
-const warZones = ['Russia', 'Ukraine', 'Syria',];
-const blueZone = ['France', 'Germany', 'United Kingdom', 'Italy', 'Poland', 'Bulgaria', 'Romania', 'Greece', 'Norway', 'Jordan', 'Lebanon' 'Turkey', 'Saudi Arabia'];
+const warZones = ['Russia', 'Ukraine', 'Syria'];
+const blueZone = ['France', 'Germany', 'United Kingdom', 'Italy', 'Poland', 'Bulgaria', 'Romania', 'Greece', 'Norway', 'Jordan', 'Lebanon', 'Turkey', 'Saudi Arabia'];
 const tensionZones = ['Iran', 'North Korea', 'China', 'Taiwan', 'Venezuela', 'USA', 'United States', 'Iraq'];
 
 fetch('https://raw.githubusercontent.com/datasets/geo-boundaries-world-110m/master/countries.geojson')
