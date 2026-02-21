@@ -397,5 +397,4 @@ function updateDashboardStats() {
 setInterval(updateDashboardStats, 30000);
 updateDashboardStats(); 
 
-// ВАЖНО: ТАЗИ СКОБА ЗАТВАРЯ WINDOW.ONLOAD, КОЙТО ОТВОРИ НА РЕД 33
-};
+
