@@ -26,7 +26,7 @@ window.onload = function() {
     }).addTo(map);
 
     // --- 2. ГЕОПОЛИТИЧЕСКИ ЗОНИ ---
-    const warZones = ['Russia', 'Ukraine', 'Israel', 'Palestine', 'Sudan', 'Syria', 'Yemen'];
+    const warZones = ['Russia', 'Ukraine', 'Israel', 'Palestine', 'Sudan', 'Syria', ];
     
     // Нова Синя Зона за Европа
     const blueZone = [
@@ -36,7 +36,7 @@ window.onload = function() {
 
     const highTension = [
         'Iran', 'North Korea', 'China', 'Taiwan', 'Venezuela', 
-        'United States', 'United States of America', 'USA', 'Turkey'
+        'United States', 'United States of America', 'USA', 'Turkey' 'Yemen'
     ];
 
     fetch('https://raw.githubusercontent.com/datasets/geo-boundaries-world-110m/master/countries.geojson')
