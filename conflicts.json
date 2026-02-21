@@ -3,29 +3,29 @@
         "country": "USA",
         "lat": 39.6823264,
         "lon": -76.602191,
-        "date": "2026-02-20",
+        "date": "2026-02-21",
         "type": "Breaking News",
-        "title": "US President Trump promises new tariffs, slams Supreme Court decision",
+        "title": "Trump suggests he won’t refund tariffs after Supreme Court ruling",
         "description": "",
         "fatalities": "0",
-        "link": "https://www.aljazeera.com/news/2026/2/20/us-president-trump-promises-new-tariffs-slams-supreme-court-decision?traffic_source=rss"
+        "link": "https://www.aljazeera.com/video/newsfeed/2026/2/20/trump-suggests-he-wont-refund-tariffs-after-supreme-court-ruling?traffic_source=rss"
     },
     {
         "country": "Middle East",
         "lat": 30.8124247,
         "lon": 34.8594762,
-        "date": "2026-02-20",
-        "type": "Breaking News",
-        "title": "US envoy suggests it would be ‘fine’ if Israel expands across Middle East",
+        "date": "2026-02-21",
+        "type": "Airstrike",
+        "title": "Israeli attacks across Lebanon kill at least eight people",
         "description": "",
         "fatalities": "0",
-        "link": "https://www.aljazeera.com/news/2026/2/20/us-envoy-suggests-it-would-be-fine-if-israel-expands-across-middle-east?traffic_source=rss"
+        "link": "https://www.aljazeera.com/news/2026/2/20/one-killed-in-israeli-strike-on-largest-palestinian-refugee-camp-in-lebanon?traffic_source=rss"
     },
     {
         "country": "Middle East",
         "lat": -23.328398,
         "lon": 32.8066057,
-        "date": "2026-02-20",
+        "date": "2026-02-21",
         "type": "Breaking News",
         "title": "What’s next for Gaza after Trump’s Board of Peace meets in Washington?",
         "description": "",
@@ -36,11 +36,22 @@
         "country": "Africa",
         "lat": 14.5844444,
         "lon": 29.4917691,
-        "date": "2026-02-20",
+        "date": "2026-02-21",
         "type": "Drone",
         "title": "How are killer drones reshaping the conflict in Sudan",
         "description": "",
         "fatalities": "0",
         "link": "https://www.aljazeera.com/video/the-take-2/2026/2/20/aje-onl-aj_tt_sdn_alfashir_av_v1-200226?traffic_source=rss"
+    },
+    {
+        "country": "Middle East",
+        "lat": 32.6475314,
+        "lon": 54.5643516,
+        "date": "2026-02-21",
+        "type": "Airstrike",
+        "title": "Trump ‘considering’ limited strikes on Iran",
+        "description": "",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/video/newsfeed/2026/2/20/trump-considering-limited-strikes-on-iran?traffic_source=rss"
     }
 ]
