@@ -1,5 +1,18 @@
 [
     {
+        "country": "Israel",
+        "city": "Tel Aviv",
+        "lat": 32.0853,
+        "lon": 34.7818,
+        "date": "2026-02-21 19:04:06",
+        "type": "Airstrike",
+        "title": "At Least 10 Killed in Lebanon, Officials Say, After Israel Strikes Hezbollah",
+        "description": "The Lebanese militant group said eight of its members were among those killed late Friday. The attacks threaten to further destabilize an already tenuous cease-fire.",
+        "fatalities": "0",
+        "link": "https://www.nytimes.com/2026/02/21/world/middleeast/israel-strikes-lebanon-hezbollah.html",
+        "critical": false
+    },
+    {
         "country": "Ukraine",
         "city": "Kyiv",
         "lat": 50.4501,
@@ -156,19 +169,6 @@
         "critical": false
     },
     {
-        "country": "Israel",
-        "city": "Tel Aviv",
-        "lat": 32.0853,
-        "lon": 34.7818,
-        "date": "2026-02-21 18:41:07",
-        "type": "Airstrike",
-        "title": "Palestinian-American Teenager Killed in West Bank Is Laid to Rest",
-        "description": "Nasrallah Abu Siyam, 19, was shot dead by an Israeli settler, according to a witness and Palestinian health officials, amid rising violent settler attacks in the Israeli-occupied territory.",
-        "fatalities": "0",
-        "link": "https://www.nytimes.com/2026/02/20/world/middleeast/palestinian-american-teenager-killed-west-bank.html",
-        "critical": false
-    },
-    {
         "country": "Russia",
         "city": "Moscow",
         "lat": 55.7558,
@@ -309,6 +309,19 @@
         "description": "Brazilian President Lula called the critical minerals and rare earths deal the core of the pioneering agreement.",
         "fatalities": "0",
         "link": "https://www.aljazeera.com/news/2026/2/21/india-brazil-sign-critical-minerals-deal-as-partners-seek-trade-growth?traffic_source=rss",
+        "critical": false
+    },
+    {
+        "country": "Israel",
+        "city": "Tel Aviv",
+        "lat": 32.0853,
+        "lon": 34.7818,
+        "date": "2026-02-21 18:41:07",
+        "type": "Airstrike",
+        "title": "Palestinian-American Teenager Killed in West Bank Is Laid to Rest",
+        "description": "Nasrallah Abu Siyam, 19, was shot dead by an Israeli settler, according to a witness and Palestinian health officials, amid rising violent settler attacks in the Israeli-occupied territory.",
+        "fatalities": "0",
+        "link": "https://www.nytimes.com/2026/02/20/world/middleeast/palestinian-american-teenager-killed-west-bank.html",
         "critical": false
     },
     {
