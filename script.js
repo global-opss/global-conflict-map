@@ -301,16 +301,16 @@ function createAssetIcon(type) {
             const sidebar = document.getElementById('intel-list');
             if (sidebar) sidebar.innerHTML = '';
 
-           // --- ОБНОВЕНА СЕКЦИЯ СЪС СИСТЕМЕН ЗВУК ---
+   // --- ОБНОВЕНА СЕКЦИЯ СЪС СИСТЕМЕН ЗВУК (Auto-Alert при всяка нова новина) ---
 if (data.length > 0 && data[0].title !== globalLastEventTitle) {
-    if (data[0].critical === true || data[0].type === "Evacuation") {
-        
-        // Вместо да търсим alert.mp3, викаме нашата функция
-        playTacticalPing(); 
-        
-    }
+    
+    // Премахнахме проверката за 'critical', за да чуваш сигнал винаги
+    playTacticalPing(); 
+    
+    // Обновяваме последното заглавие, за да не свири повторно за същата новина
     globalLastEventTitle = data[0].title;
 }
+
 
    // Обработка на всяка новина
             data.forEach(item => {
