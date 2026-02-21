@@ -27,7 +27,7 @@ window.onload = function() {
 
     // --- 2. ГЕОПОЛИТИЧЕСКИ ЗОНИ (War Zones, Tension) ---
     const warZones = ['Russia', 'Ukraine', 'Israel', 'Palestine', 'Sudan', 'Syria', 'Yemen'];
-    const highTension = ['Iran', 'North Korea', 'China', 'Taiwan', 'Venezuela'];
+    const highTension = ['Iran', 'North Korea', 'China', 'Taiwan', 'Venezuela', 'USA', 'Germany', 'Turkey'];
 
     fetch('https://raw.githubusercontent.com/datasets/geo-boundaries-world-110m/master/countries.geojson')
         .then(res => res.json())
