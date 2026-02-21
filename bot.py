@@ -76,7 +76,7 @@ def extract_info(text, locations_map):
     """
     t = text.lower()
     
-  # ВНИМАНИЕ: Копирай от тук до долу и замени стария блок
+  # ОБНОВЕН ВОЕНЕН ФИЛТЪР - ГЛОБАЛЕН ОБХВАТ
     event_map = {
         "Evacuation": [
             "evacuate", "leave now", "citizens must leave", "evacuation", "emergency departure", 
@@ -85,27 +85,31 @@ def extract_info(text, locations_map):
         ],
         "Naval": [
             "ship", "vessel", "navy", "maritime", "carrier", "destroyer", "frigate", "naval base", 
-            "black sea", "baltic", "mediterranean", "red sea", "houthi"
+            "black sea", "baltic", "mediterranean", "red sea", "houthi", "strait", "carrier group",
+            "freedom of navigation", "destroyer squadron", "submarine", "warship"
         ],
         "Airstrike": [
             "airstrike", "missile", "rocket", "bombing", "strikes", "attack", "ballistic", 
-            "kinzhal", "iskander", "kalibr", "kh-101", "storm shadow", "himars", "patriot"
+            "kinzhal", "iskander", "kalibr", "kh-101", "storm shadow", "himars", "patriot",
+            "intercepted", "air defense", "scramble", "bomber"
         ],
         "Explosion": [
             "explosion", "blast", "shelling", "artillery", "detonation", "shook", "smoke", 
-            "grad", "mlrs", "howitzer", "mortar", "vovchansk", "pokrovsk"
+            "grad", "mlrs", "howitzer", "mortar", "vovchansk", "pokrovsk", "bombardment"
         ],
         "Drone": [
             "drone", "uav", "shahed", "fpv", "kamikaze", "unmanned aerial", "reconnaissance", 
-            "electronic warfare", "jamming"
+            "electronic warfare", "jamming", "loitering munition"
         ],
         "Clashes": [
             "clashes", "fighting", "battle", "siege", "frontline", "tank", "combat", "soldiers", 
-            "infantry", "offensive", "counter-offensive", "war", "invasion", "occupied"
+            "infantry", "offensive", "counter-offensive", "war", "invasion", "occupied",
+            "military drills", "war games", "troop deployment", "readiness", "military aid",
+            "nato task force", "pentagon", "mobilization", "maneuvers", "joint exercise"
         ],
         "Nuclear": [
             "nuclear", "atomic", "radiation", "npp", "icbm", "uranium", "reactor", "plutonium", 
-            "zaporizhzhia npp", "iaea", "fallout"
+            "zaporizhzhia npp", "iaea", "fallout", "deterrence"
         ]
     }
 
@@ -241,6 +245,7 @@ if __name__ == "__main__":
     run_bot()
     print(f"⏱️ Cycle Finished in {round(time.time() - start_time, 2)}s.")
     # Край на скрипта. Всички 250 реда са генерирани.
+
 
 
 
