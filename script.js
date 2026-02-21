@@ -155,6 +155,22 @@ window.onload = function() {
                 });
             }).catch(err => console.error("INTEL ERROR: JSON format mismatch."));
     }
+    // --- НОВА СЕКЦИЯ: ТЕЛЕГРАМ РЕФРЕШ ENGINE ---
+    function refreshTelegram() {
+        // Намира контейнера на Телеграм (увери се, че класът в HTML е този)
+        const tgContainer = document.querySelector('.telegram-feed-container'); 
+        if (tgContainer) {
+            const currentHTML = tgContainer.innerHTML;
+            tgContainer.innerHTML = ""; // Изчистване
+            setTimeout(() => {
+                tgContainer.innerHTML = currentHTML; // Връщане обратно (рестартира джаджата)
+                console.log("Tactical Intel: Telegram Feed Refreshed.");
+            }, 50);
+        }
+    }
+
+    // Добавяме таймера за Телеграм към вече съществуващите
+    setInterval(refreshTelegram, 300000); // Рефреш на всеки 5 минути
 
     syncIntel();
     setInterval(syncIntel, 60000); // Освежаване на 60 сек.
