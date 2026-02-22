@@ -74,7 +74,7 @@ let map; // Сложи го точно тук на нов ред
 
     // --- СЕКЦИЯ 1: КОНФИГУРАЦИЯ НА КАРТАТА ---
     // Настройваме координатите за централен изглед към Евразия и Близкия изток
-    window.map = L.map('map', {
+    map = L.map('map', {
         worldCopyJump: true,    // Позволява безкрайно превъртане на изток/запад
         zoomControl: true,      // Стандартни бутони за навигация
         attributionControl: false, // Премахване на лога за по-чист интерфейс
@@ -663,7 +663,7 @@ function addTacticalPulse(lat, lng, color = '#ff0000') {
         fillColor: color,
         fillOpacity: 0.5,
         weight: 2
-    }).addTo(window.map);
+    }).addTo(typeof map !== 'undefined' ? map : L.mapInstance);
 
     let currentRadius = 10;
     let currentOpacity = 0.5;
