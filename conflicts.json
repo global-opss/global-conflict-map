@@ -1,5 +1,19 @@
 [
     {
+        "country": "Iran",
+        "city": "Tehran",
+        "lat": 35.67022603506793,
+        "lon": 51.326639134255366,
+        "date": "2026-02-22 17:55:50",
+        "type": "Naval",
+        "severity": "normal",
+        "title": "U.S.-Iran talks expected Thursday to discuss nuclear proposal",
+        "description": "U.S. and Iranian negotiators are expected to meet in Geneva on Thursday to discuss a detailed Iranian proposal for a nuclear deal. A senior U.S. official told Axios on Sunday morning the Trump administration expects to receive the proposal by Tuesday. Why it matters: The current diplomatic push is likely the last chance President Trump will give Iran before launching a massive U.S.-Israeli military operation that could directly target Supreme Lea",
+        "fatalities": "0",
+        "link": "https://www.axios.com/2026/02/22/iran-us-talks-friday-nuclear-deal",
+        "critical": false
+    },
+    {
         "country": "USA",
         "city": "Washington",
         "lat": 38.94524271445198,
