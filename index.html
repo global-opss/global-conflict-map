@@ -67,6 +67,26 @@
 
         @keyframes blink { 0% { opacity: 1; } 50% { opacity: 0; } 100% { opacity: 1; } }
         .live-dot { color: #ff3131; animation: blink 1s infinite; margin-right: 5px; }
+    /* --- TACTICAL GLASS POPUP --- */
+        .leaflet-popup-content-wrapper, .leaflet-popup-tip {
+            background: rgba(10, 10, 10, 0.4) !important;
+            backdrop-filter: blur(12px) !important;
+            -webkit-backdrop-filter: blur(12px) !important;
+            border: 1px solid rgba(57, 255, 20, 0.4) !important;
+            color: #fff !important;
+            box-shadow: 0 0 20px rgba(0,0,0,0.5) !important;
+            border-radius: 2px !important;
+        }
+
+        .leaflet-popup-content {
+            margin: 12px !important;
+            font-family: 'Courier New', monospace !important;
+        }
+
+        .leaflet-popup-close-button {
+            color: #39FF14 !important;
+            padding: 8px !important;
+        }
     </style>
 </head>
 <body>
