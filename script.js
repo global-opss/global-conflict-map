@@ -308,7 +308,6 @@ if (data.length > 0 && data[0].title !== globalLastEventTitle) {
     playTacticalPing(); 
     
     // --- ОБНОВЕНА СЕКЦИЯ 7: ТАКТИЧЕСКИ ДАННИ С ИНТЕГРИРАНА ТЪРСАЧКА ---
-    // Тази функция вече поддържа филтриране в реално време
     function syncTacticalData() {
         console.log("Initiating tactical sync...");
         
@@ -328,14 +327,12 @@ if (data.length > 0 && data[0].title !== globalLastEventTitle) {
 
             // Основен цикъл за обработка на всеки обект от базата данни
             data.forEach(item => {
-                // Избор на тактически символ според класификацията
                 let iconSymbol = '⚠️'; 
                 if (item.type === "Nuclear" || item.type === "Airstrike") iconSymbol = '🚀';
                 else if (item.type === "Drone") iconSymbol = '🛸';
                 else if (item.type === "Evacuation") iconSymbol = '🚨';
                 else if (item.type === "Clashes") iconSymbol = '⚔️';
 
-                // Дефиниране на нива на заплаха и цветови схеми
                 let severityLabel = item.severity || (item.critical ? 'critical' : 'normal');
                 let statusFilter = "";
                 let titleColor = '#39FF14';
@@ -350,11 +347,9 @@ if (data.length > 0 && data[0].title !== globalLastEventTitle) {
                     statusFilter = "drop-shadow(0 0 5px #00a2ff) grayscale(0.4)";
                 }
 
-                // Прилагане на Jitter (разсейване) за избягване на застъпване в горещи зони
                 const latJitter = (Math.random() - 0.5) * 0.018; 
                 const lonJitter = (Math.random() - 0.5) * 0.018;
 
-                // Създаване на маркера с вградени данни за търсачката
                 const marker = L.marker([parseFloat(item.lat) + latJitter, parseFloat(item.lon) + lonJitter], { 
                     icon: L.divIcon({ 
                         html: `<div class="alert-pulse tactical-marker" data-name="${item.title.toLowerCase()}" style="font-size:38px; filter: ${statusFilter};">${iconSymbol}</div>`, 
@@ -362,11 +357,9 @@ if (data.length > 0 && data[0].title !== globalLastEventTitle) {
                     }) 
                 }).addTo(markersLayer);
 
-                // Закачаме информацията към обекта на маркера
                 marker.tacticalInfo = { title: item.title.toLowerCase(), type: item.type.toLowerCase() };
                 marker.on('click', () => showIntelDetails(item));
 
-                // Генериране на елемент за страничния панел с атрибут за търсене
                 if (sidebar) {
                     const entry = document.createElement('div');
                     entry.className = 'intel-list-item';
@@ -386,36 +379,31 @@ if (data.length > 0 && data[0].title !== globalLastEventTitle) {
         }).catch(err => console.error("Sync Failure:", err));
     }
 
-    // --- ЛОГИКА НА ТЪРСАЧКАТА (СЪБИТИЕ ЗА ВЪВЕЖДАНЕ) ---
-    document.getElementById('tactical-search').addEventListener('input', function(e) {
-        const query = e.target.value.toLowerCase();
-        
-        // 1. Филтриране на списъка встрани
-        const listEntries = document.querySelectorAll('.intel-list-item');
-        listEntries.forEach(el => {
-            const content = el.getAttribute('data-search-key');
-            el.style.display = content.includes(query) ? 'block' : 'none';
-        });
+    // --- ЛОГИКА НА ТЪРСАЧКАТА ---
+    const searchElement = document.getElementById('tactical-search');
+    if (searchElement) {
+        searchElement.addEventListener('input', function(e) {
+            const query = e.target.value.toLowerCase();
+            const listEntries = document.querySelectorAll('.intel-list-item');
+            listEntries.forEach(el => {
+                const content = el.getAttribute('data-search-key');
+                el.style.display = content.includes(query) ? 'block' : 'none';
+            });
 
-        // 2. Филтриране на маркерите върху самата карта
-        markersLayer.eachLayer(layer => {
-            if (layer instanceof L.Marker && layer.tacticalInfo) {
-                const match = layer.tacticalInfo.title.includes(query) || layer.tacticalInfo.type.includes(query);
-                if (match) {
-                    if (!markersLayer.hasLayer(layer)) layer.addTo(markersLayer);
-                } else {
-                    markersLayer.removeLayer(layer);
+            markersLayer.eachLayer(layer => {
+                if (layer instanceof L.Marker && layer.tacticalInfo) {
+                    const match = layer.tacticalInfo.title.includes(query) || layer.tacticalInfo.type.includes(query);
+                    if (match) {
+                        if (!markersLayer.hasLayer(layer)) markersLayer.addLayer(layer);
+                    } else {
+                        markersLayer.removeLayer(layer);
+                    }
                 }
-            }
+            });
         });
-    });
-    // Първоначално стартиране и настройка на интервал
-    syncTacticalData(); 
-    setInterval(syncTacticalData, 60000); 
-};
+    }
 
 // --- СЕКЦИЯ 8: UTC СИСТЕМЕН ЧАСОВНИК ---
-// Поддържане на точно време за тактически нужди
 setInterval(() => {
     const timeDisplay = document.getElementById('header-time');
     if (timeDisplay) {
@@ -426,32 +414,23 @@ setInterval(() => {
 
 /** * =============================================================================
  * КРАЙ НА ФАЙЛА - GLOBAL CONFLICT DASHBOARD v12.9
- * ВСИЧКИ МОДУЛИ СА ЗАРЕДЕНИ УСПЕШНО.
- * =============================================================================
- */
+ * ============================================================================= */
 
-// 354 | 1. Добавяме памет за броя събития (извън функцията)
 let lastCount = 0; 
 
 function updateDashboardStats() {
     fetch('conflicts.json?v=' + Date.now())
         .then(response => response.json())
         .then(data => {
-            const count = data.length; // Взема реалния брой новини
-            
-            // 2. ПРОВЕРКА ЗА ЗВУК: Използвай !== за правилна проверка
+            const count = data.length;
             if (count > lastCount && lastCount !== 0) {
-                playTacticalPing(); 
+                if (typeof playTacticalPing === "function") playTacticalPing(); 
             }
             lastCount = count; 
 
-            // Обновява числото в хедъра
             const eventCounter = document.getElementById('active-events');
-            if (eventCounter) {
-                eventCounter.innerText = count;
-            }
+            if (eventCounter) eventCounter.innerText = count;
 
-            // Автоматична промяна на THREAT LEVEL
             const threatLevel = document.querySelector('header span[style*="#ff3131"]');
             if (threatLevel) {
                 if (count > 71) {
@@ -470,15 +449,13 @@ function updateDashboardStats() {
         .catch(err => console.error("Грешка при статистиката:", err));
 }
 
-// --- ИЗВИКВАНЕ НА ФУНКЦИИТЕ ---
-
-// 1. Първоначално зареждане при пускане на сайта
+// Първоначално извикване
 updateDashboardStats();
 syncTacticalData();
 
-// 2. Автоматично обновяване на всеки 30 секунди
+// Интервал за автоматично обновяване
 setInterval(() => {
-    console.log("Системата се обновява..."); // За да виждаш в F12, че работи
+    console.log("Системата се обновява...");
     updateDashboardStats(); 
     syncTacticalData();     
 }, 30000);
