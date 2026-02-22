@@ -234,7 +234,18 @@ fetch('https://raw.githubusercontent.com/datasets/geo-boundaries-world-110m/mast
         { name: "Incirlik Operational Sector (TR)", type: "ru-infantry", lat: 36.651, lon: 37.011, description: "Turkish Cross-border Force. ASSETS: Leopard 2A4 Tanks, T-155 Firtina Artillery. Monitoring Kurdish border movements." },
         { name: "Qamishli Airfield (RU/SY)", type: "ru-air", lat: 37.022, lon: 41.193, description: "Shared RU/SY presence in Kurdish territory. ASSETS: Mi-8/Mi-24 helicopters. Strategic monitoring of Eastern Syria." },
         { name: "Damascus Int. (Military Wing)", type: "ru-air", lat: 33.411, lon: 36.515, description: "Logistics Hub for IRGC/Hezbollah. Significant air defense presence (Pantsir-S1, BUK-M2)." },
-        { name: "Al-Nairab Airbase", type: "ru-air", lat: 36.181, lon: 37.225, description: "Major Syrian strike base. ASSETS: L-39 Albatros, Mi-24 Hind. Support for Northern Front operations." }
+        { name: "Al-Nairab Airbase", type: "ru-air", lat: 36.181, lon: 37.225, description: "Major Syrian strike base. ASSETS: L-39 Albatros, Mi-24 Hind. Support for Northern Front operations." },
+        { name: "Al-Asad Airbase (US/IQ)", type: "us-air", lat: 33.784, lon: 42.441, description: "Major coalition hub. ASSETS: MQ-9 Reapers, C-17 Transports. Equipped with Patriot PAC-3 & C-RAM defense systems." },
+        { name: "Harir Airbase (US/Kurdish)", type: "us-air", lat: 36.531, lon: 44.352, description: "Northern support site in Erbil. Strategic monitoring of Iran-Iraq border. High alert for drone incursions." },
+        { name: "Camp Victory (Baghdad Intl)", type: "us-infantry", lat: 33.262, lon: 44.234, description: "Joint Operations Center. ASSETS: Diplomatic Support Center defense units. Primary target for local militia rockets." },
+        { name: "Jurf al-Sakhar (PMF)", type: "ru-infantry", lat: 32.879, lon: 44.175, description: "Kata'ib Hezbollah stronghold. Major training & storage site for Iranian-made drones and short-range rockets." },
+        { name: "Abu Kamal-Qaim Crossing", type: "incidents", lat: 34.425, lon: 40.925, description: "Critical 'Land Bridge' between Iraq/Syria. High IRGC activity. Frequent zone for coalition interdiction strikes." },
+        { name: "Balad Airbase", type: "ru-air", lat: 33.945, lon: 44.354, description: "Iraqi Air Force HQ. ASSETS: F-16IQ Block 52. Frequently guarded by local air defense units." },
+        { name: "Erbil Intl Airport (Military)", type: "us-air", lat: 36.237, lon: 43.957, description: "Coalition logistics and medevac hub. Defended by C-RAM and Avenger mobile air defense systems." },
+        { name: "Al-Muqdadiya (Diyala)", type: "ru-infantry", lat: 33.978, lon: 44.936, description: "Badr Organization Sector. Strategic depth for Iranian pro-government forces monitoring the eastern corridor." },
+        { name: "Kirkuk Airfield (K-1)", type: "us-infantry", lat: 35.511, lon: 44.254, description: "Forward Operating Base. Surveillance of northern oil fields. Multi-factional security presence." },
+        { name: "Taji Military Complex", type: "ru-infantry", lat: 33.518, lon: 44.275, description: "Main Iraqi logistics & training base. ASSETS: Mi-17 and Bell 407 helicopter squadrons." },
+        { name: "Ain al-Assad (Radar Site)", type: "us-missile", lat: 33.802, lon: 42.395, description: "AN/MPQ-64 Sentinel Radar positions. Early warning system for incoming ballistic threats from the East." }
     ];
 // --- СЕКЦИЯ: ВРЕДНИ ЗОНИ (ОБХВАТ НА УДАР) ---
 strategicAssets.forEach(asset => {
