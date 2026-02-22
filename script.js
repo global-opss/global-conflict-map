@@ -591,76 +591,88 @@ async function detectUserLocation() {
         document.getElementById('user-location').innerText = "BULGARIA";
     }
 }
+// =============================================================================
+// --- СЕКЦИЯ: ТАКТИЧЕСКИ РАДАРНИ ЗОНИ (v2.4 - FORCE RED & ETERNAL LOOP) ---
+// =============================================================================
 function addTacticalPulse(lat, lng, label) {
     if (typeof map === 'undefined' || !map) return;
 
     try {
         const tacticalIcon = L.divIcon({
-            className: 'custom-pulse',
+            className: 'custom-pulse-final',
             html: `
-                <div style="position:relative; width:30px; height:30px;">
+                <div style="position:relative; width:40px; height:40px;">
+                    <style>
+                        @keyframes pulse-eternal-red {
+                            0% { transform: scale(0.4); opacity: 1; border-width: 4px; }
+                            50% { opacity: 0.8; }
+                            100% { transform: scale(4.5); opacity: 0; border-width: 1px; }
+                        }
+                    </style>
+
                     <div style="
                         position:absolute; 
                         width:100%; 
                         height:100%; 
-                        border: 3px solid #ff0000 !important; 
+                        border: 4px solid #FF0000 !important; 
                         border-radius:50%; 
-                        box-shadow: 0 0 15px #ff0000;
-                        animation: radar-ping-simple 1.5s infinite ease-out;
+                        animation: pulse-eternal-red 1.2s infinite linear !important;
+                        box-shadow: 0 0 20px #FF0000, inset 0 0 10px #FF0000;
+                        pointer-events: none;
                     "></div>
                     
                     <div style="
                         position:absolute; 
-                        width:12px; 
-                        height:12px; 
-                        background:#ff0000 !important; 
-                        border: 2px solid #ffffff; 
+                        width:14px; 
+                        height:14px; 
+                        background-color: #FF0000 !important; 
+                        border: 2px solid #FFFFFF !important; 
                         border-radius:50%; 
-                        top:9px; 
-                        left:9px; 
-                        box-shadow: 0 0 10px #ff0000; 
-                        z-index: 10;
+                        top:13px; 
+                        left:13px; 
+                        box-shadow: 0 0 15px #FF0000; 
+                        z-index: 100;
                     "></div>
                     
                     <span style="
                         position:absolute; 
-                        left:40px; 
-                        top:0px; 
-                        color:#ff0000 !important; 
+                        left:45px; 
+                        top:8px; 
+                        color: #FF0000 !important; 
                         font-family: 'Courier New', monospace; 
                         font-weight: 900; 
-                        font-size: 14px; 
+                        font-size: 16px; 
                         white-space:nowrap; 
-                        text-shadow: 2px 2px 2px #000; 
-                        background: rgba(0,0,0,0.8); 
-                        padding: 2px 8px; 
-                        border: 1px solid #ff0000;
+                        text-shadow: 2px 2px 0px #000, -1px -1px 0px #000, 1px -1px 0px #000, -1px 1px 0px #000;
+                        background: rgba(0,0,0,0.85); 
+                        padding: 3px 10px; 
+                        border: 2px solid #FF0000;
+                        text-transform: uppercase;
+                        letter-spacing: 1px;
                     ">${label || 'TARGET'}</span>
-
-                    <style>
-                        @keyframes radar-ping-simple {
-                            0% { transform: scale(0.5); opacity: 1; }
-                            100% { transform: scale(4); opacity: 0; }
-                        }
-                    </style>
                 </div>`,
-            iconSize: [30, 30]
+            iconSize: [40, 40],
+            iconAnchor: [20, 20]
         });
 
         const pulseMarker = L.marker([lat, lng], { 
             icon: tacticalIcon,
-            zIndexOffset: 5000, 
+            zIndexOffset: 10000, // ПРЕСКАЧА ВСИЧКИ СЛОЕВЕ
             interactive: false
         }).addTo(map);
 
-        playTacticalPing();
+        // ЗВУКОВ СИГНАЛ
+        if (typeof playTacticalPing === 'function') playTacticalPing();
 
+        // МАХАНЕ СЛЕД 15 СЕКУНДИ
         setTimeout(() => {
-            if (map && map.hasLayer(pulseMarker)) map.removeLayer(pulseMarker);
+            if (map && map.hasLayer(pulseMarker)) {
+                map.removeLayer(pulseMarker);
+            }
         }, 15000);
 
     } catch (error) {
-        console.error(">> RADAR ERROR:", error);
+        console.error(">> RADAR DEPLOYMENT FAILED:", error);
     }
 }
 // --- 1. ТАКТИЧЕСКИ ЗВУКОВИ НАСТРОЙКИ ---
