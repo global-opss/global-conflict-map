@@ -70,9 +70,9 @@ function playTacticalPing() {
     };
 
     L.control.layers(null, weatherOverlays, { 
-        collapsed: true, 
-        position: 'topright' 
-    }).addTo(map);
+    collapsed: true, 
+    position: 'topleft' // Променяме от topright на topleft
+}).addTo(map);
     // ===========================================
     // ИЗБОР НА ТАКТИЧЕСКИ ТАЙЛОВЕ (DARK MATTER)
     L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_nolabels/{z}/{x}/{y}{r}.png', {
