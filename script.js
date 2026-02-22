@@ -11,7 +11,20 @@
  * - Пълна съвместимост с bot.py и conflicts.json.
  * =============================================================================
 */
+/* Коментарите със заглавието... */
 
+// 1. РОБОТЪТ ЗА ГРЕШКИ (WATCHDOG)
+window.onerror = function(message, source, lineno, colno, error) {
+    const statusText = document.getElementById('system-status-text');
+    if (statusText) {
+        statusText.innerText = "CRITICAL ERROR: LINE " + lineno;
+        statusText.style.color = "#ff3131"; 
+    }
+    return false;
+};
+
+// ТУК СЛАГАШ ЗВУКОВАТА ФУНКЦИЯ
+function playTacticalPing() { ... }
 
 // ТУК СЛАГАШ ЗВУКОВАТА ФУНКЦИЯ
 function playTacticalPing() {
