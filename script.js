@@ -190,7 +190,18 @@ fetch('https://raw.githubusercontent.com/datasets/geo-boundaries-world-110m/mast
         { name: "Naval Station Rota (ES)", type: "us-naval", lat: 36.617, lon: -6.357, description: "Gateway to Med. ASSETS: 4x Arleigh Burke Destroyers (Aegis), P-8A Poseidon Surveillance." },
         { name: "Ämari Air Base (EE)", type: "nato-air", lat: 59.256, lon: 24.215, description: "Baltic Air Policing. ASSETS: Rotational F-35 Lightning II & Eurofighter Typhoons." },
         { name: "Spangdahlem AB (DE)", type: "us-air", lat: 49.973, lon: 6.692, description: "Electronic Warfare Hub. ASSETS: 52nd Fighter Wing, F-16 Viper, EA-18G Growlers." },
-        { name: "Sigonella NAS (IT)", type: "us-air", lat: 37.402, lon: 14.922, description: "Surveillance Hub. ASSETS: RQ-4 Global Hawk Drones, MQ-9 Reaper. Med Sea Intelligence." }
+        { name: "Sigonella NAS (IT)", type: "us-air", lat: 37.402, lon: 14.922, description: "Surveillance Hub. ASSETS: RQ-4 Global Hawk Drones, MQ-9 Reaper. Med Sea Intelligence." },
+        { name: "Engels-2 Air Base", type: "ru-air", lat: 51.485, lon: 46.215, description: "Strategic Bomber Hub. ASSETS: Tu-160 'White Swan' & Tu-95MS. Primary nuclear triad air component." },
+        { name: "Savasleyka Air Base", type: "ru-air", lat: 55.440, lon: 42.310, description: "Kinzhal Carrier Base. ASSETS: MiG-31K interceptors equipped with KH-47M2 hypersonic missiles." },
+        { name: "Severomorsk Naval Base", type: "ru-naval", lat: 69.068, lon: 33.416, description: "Northern Fleet HQ. ASSETS: Borei-class SSBNs, Yasen-class submarines. Strategic Arctic Command." },
+        { name: "Olenya Air Base", type: "ru-air", lat: 68.151, lon: 33.305, description: "Arctic Strike Base. ASSETS: Tu-22M3 Backfire bombers. Critical for maritime strike operations." },
+        { name: "Kozelsk Missile Base", type: "ru-missile", lat: 53.974, lon: 35.752, description: "28th Guards Rocket Division. ASSETS: Silo-based RS-24 Yars ICBMs. Nuclear readiness: ACTIVE." },
+        { name: "Kapustin Yar Range", type: "ru-missile", lat: 48.583, lon: 46.254, description: "Strategic Missile Test Site. ASSETS: Iskander-M and S-400 systems development. High-priority zone." },
+        { name: "Novosibirsk Rocket Base", type: "ru-missile", lat: 55.195, lon: 82.964, description: "39th Guards Rocket Division. ASSETS: Road-mobile Yars ICBM systems. Strategic Reserve." },
+        { name: "Sevastopol Naval Base", type: "ru-naval", lat: 44.616, lon: 33.525, description: "Black Sea Fleet HQ. ASSETS: Kilo-class submarines, Kalibr missile carriers. Logistics & repair hub." },
+        { name: "Shaykovka Air Base", type: "ru-air", lat: 54.225, lon: 34.375, description: "Long-Range Aviation. ASSETS: Tu-22M3 Supersonic Bombers. Frequent deployment to Ukraine front." },
+        { name: "Tatishchevo Missile Site", type: "ru-missile", lat: 51.666, lon: 45.584, description: "60th Missile Division. ASSETS: Topol-M and UR-100N UTTKh ICBMs. Hardened silo infrastructure." },
+        { name: "Belbek Air Base (Crimea)", type: "ru-air", lat: 44.685, lon: 33.575, description: "Forward Interceptor Base. ASSETS: Su-27, Su-30SM, Su-35S. Primary Air Defense for Crimea." }
     ];
 // --- СЕКЦИЯ: ВРЕДНИ ЗОНИ (ОБХВАТ НА УДАР) ---
 strategicAssets.forEach(asset => {
