@@ -142,18 +142,27 @@ def run_bot():
                 if city:
                     lat, lon = get_coordinates(city, region)
                     if lat and lon:
+                    if lat and lon:
+                        # Логика за определяне на нивата на опасност
+                        severity = "normal"
+                        if event_type in ["Nuclear", "Airstrike", "Evacuation"]:
+                            severity = "critical"
+                        elif event_type in ["Explosion", "Drone", "Clashes"]:
+                            severity = "middle"
+                        
                         new_found_events.append({
-                            "country": region, 
-                            "city": city, 
-                            "lat": lat + random.uniform(-0.07, 0.07), 
-                            "lon": lon + random.uniform(-0.07, 0.07), 
+                            "country": region,
+                            "city": city,
+                            "lat": lat + random.uniform(-0.07, 0.07),
+                            "lon": lon + random.uniform(-0.07, 0.07),
                             "date": time.strftime("%Y-%m-%d %H:%M:%S"),
-                            "type": event_type, 
-                            "title": title[:120], 
-                            "description": desc[:450], 
-                            "fatalities": "0", 
-                            "link": link, 
-                            "critical": event_type == "Evacuation"
+                            "type": event_type,
+                            "severity": severity,
+                            "title": title[:120],
+                            "description": desc[:450],
+                            "fatalities": "0",
+                            "link": link,
+                            "critical": severity == "critical"
                         })
                         print(f"✅ Captured: {event_type} - {city}")
         except: continue
@@ -166,5 +175,6 @@ def run_bot():
 if __name__ == "__main__":
     run_bot()
     # End of Script - 250 Lines Precise.
+
 
 
