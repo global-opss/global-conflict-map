@@ -22,7 +22,30 @@ window.onerror = function(message, source, lineno, colno, error) {
     }
     return false;
 };
+/**
+ * 🔊 AUDIO AUTO-RESUME
+ * Фикс за грешката "AudioContext was not allowed to start"
+ */
+function initAudioResume() {
+    const unlockAudio = () => {
+        // Проверяваме дали AudioContext съществува и е спрян
+        if (typeof audioCtx !== 'undefined' && audioCtx.state === 'suspended') {
+            audioCtx.resume().then(() => {
+                console.log(">> SYSTEM: Audio Engine Activated via User Interaction");
+                // Премахваме слушателите, за да не хабим ресурс
+                window.removeEventListener('click', unlockAudio);
+                window.removeEventListener('touchstart', unlockAudio);
+            });
+        }
+    };
 
+    // Слушаме за първото кликване или докосване
+    window.addEventListener('click', unlockAudio);
+    window.addEventListener('touchstart', unlockAudio);
+}
+
+// Стартираме слушателя веднага
+initAudioResume();
 // ТУК СЛАГАШ ЗВУКОВАТА ФУНКЦИЯ
 function playTacticalPing() {
     const audioCtx = new (window.AudioContext || window.webkitAudioContext)();
