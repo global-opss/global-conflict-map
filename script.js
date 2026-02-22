@@ -557,6 +557,30 @@ async function detectUserLocation() {
         document.getElementById('user-location').innerText = "BULGARIA";
     }
 }
+// --- ТАКТИЧЕСКИ РАДАРНИ ЗОНИ ---
+function addTacticalPulse(lat, lng, label) {
+    const pulseStyle = document.createElement('style');
+    pulseStyle.innerHTML = `@keyframes radar-ping { 0% { transform: scale(0.5); opacity: 1; } 100% { transform: scale(3.5); opacity: 0; } }`;
+    document.head.appendChild(pulseStyle);
+
+    const icon = L.divIcon({
+        className: 'custom-pulse',
+        html: `
+            <div style="position:relative; width:20px; height:20px;">
+                <div style="position:absolute; width:100%; height:100%; background:#ff3131; border-radius:50%; animation:radar-ping 2s infinite;"></div>
+                <div style="position:absolute; width:8px; height:8px; background:#ff3131; border-radius:50%; top:6px; left:6px; box-shadow:0 0 10px #ff3131;"></div>
+                <span style="position:absolute; left:25px; top:0; color:#ff3131; font-weight:bold; font-size:10px; white-space:nowrap; text-shadow:1px 1px #000;">${label}</span>
+            </div>
+        `,
+        iconSize: [20, 20]
+    });
+
+    L.marker([lat, lng], { icon: icon }).addTo(map);
+}
+
+// Активиране на горещите точки
+addTacticalPulse(48.3794, 31.1656, "UKRAINE SECTOR");
+addTacticalPulse(31.0461, 34.8516, "GAZA SECTOR");
 
 // Стартиране на функцията
 detectUserLocation();
