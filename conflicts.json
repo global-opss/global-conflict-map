@@ -1,5 +1,44 @@
 [
     {
+        "country": "USA",
+        "city": "Hawaii",
+        "lat": 19.5938015,
+        "lon": -155.4283701,
+        "date": "2026-02-22 10:00:23",
+        "type": "Breaking News",
+        "title": "New Army unit seeks to disrupt ‘malign influence’ in Indo-Pacific",
+        "description": "The 1st Theater Information Advantage Detachment in Hawaii is the first of three such units to activate, with two units planned for Georgia and Germany.",
+        "fatalities": "0",
+        "link": "https://www.militarytimes.com/news/your-army/2025/11/19/new-army-unit-seeks-to-disrupt-malign-influence-in-indo-pacific/",
+        "critical": false
+    },
+    {
+        "country": "China",
+        "city": "Beijing",
+        "lat": 39.9057136,
+        "lon": 116.3912972,
+        "date": "2026-02-22 10:00:23",
+        "type": "Naval",
+        "title": "Top US admiral says he’s watching China’s rapid naval buildup closely",
+        "description": "Adm. Daryl Caudle has called China’s shipbuilding capability “impressive” as Beijing moves ahead with a rapid buildup of the world’s largest navy.",
+        "fatalities": "0",
+        "link": "https://www.militarytimes.com/global/asia-pacific/2025/11/17/top-us-admiral-says-hes-watching-chinas-rapid-naval-buildup-closely/",
+        "critical": false
+    },
+    {
+        "country": "Ukraine",
+        "city": "Kyiv",
+        "lat": 50.4501,
+        "lon": 30.5234,
+        "date": "2026-02-22 10:00:23",
+        "type": "Clashes",
+        "title": "Trump says he’ll meet with Putin in Hungary",
+        "description": "President Donald Trump is redoubling his efforts to end the war in Ukraine, announcing a second meeting with Russia’s Vladimir Putin.",
+        "fatalities": "0",
+        "link": "https://www.militarytimes.com/global/europe/2025/10/16/trump-says-hell-meet-with-putin-in-hungary/",
+        "critical": false
+    },
+    {
         "country": "Europe",
         "city": "Paris",
         "lat": 48.8787706,
@@ -169,6 +208,19 @@
         "critical": false
     },
     {
+        "country": "Asia",
+        "city": "Afghanistan",
+        "lat": 34.686023,
+        "lon": 69.13693,
+        "date": "2026-02-22 09:53:30",
+        "type": "Airstrike",
+        "title": "Pakistan ‘kills dozens’ in air strikes on Afghanistan",
+        "description": "Pakistan’s military has carried out air strikes in Afghanistan, targeting what it called camps and hideouts.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/video/newsfeed/2026/2/22/pakistan-kills-dozens-in-air-strikes-on-afghanistan?traffic_source=rss",
+        "critical": false
+    },
+    {
         "country": "Ukraine",
         "city": "Lviv",
         "lat": 49.8397,
@@ -192,19 +244,6 @@
         "description": "From Mahatma Gandhis support for Palestine to Modis Netanyahu embrace, how Indias ties have evolved over the decades.",
         "fatalities": "0",
         "link": "https://www.aljazeera.com/news/2026/2/22/modis-israel-visit-timeline-of-indias-relations-with-israel-palestine?traffic_source=rss",
-        "critical": false
-    },
-    {
-        "country": "Asia",
-        "city": "Afghanistan",
-        "lat": 34.686023,
-        "lon": 69.13693,
-        "date": "2026-02-22 09:53:30",
-        "type": "Airstrike",
-        "title": "Pakistan ‘kills dozens’ in air strikes on Afghanistan",
-        "description": "Pakistan’s military has carried out air strikes in Afghanistan, targeting what it called camps and hideouts.",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/video/newsfeed/2026/2/22/pakistan-kills-dozens-in-air-strikes-on-afghanistan?traffic_source=rss",
         "critical": false
     },
     {
