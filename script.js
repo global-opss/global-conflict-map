@@ -180,7 +180,17 @@ fetch('https://raw.githubusercontent.com/datasets/geo-boundaries-world-110m/mast
         { name: "Lida Air Base", type: "ru-air", lat: 53.8824, lon: 25.3023, description: "ASSETS: Belarusian Su-25 and Russian tactical UAVs." },
         { name: "Zyabrovka Missile Site", type: "ru-missile", lat: 52.3082, lon: 31.1627, description: "Russian S-400 and Iskander-M missile systems." },
         { name: "Brest Training Ground", type: "ru-infantry", lat: 52.0977, lon: 23.6877, description: "Joint Russian-Belarusian military training facility." },
-        { name: "Gomel Logistics Hub", type: "ru-infantry", lat: 52.4345, lon: 30.9754, description: "Military supply and staging area for Russian forces." }
+        { name: "Gomel Logistics Hub", type: "ru-infantry", lat: 52.4345, lon: 30.9754, description: "Military supply and staging area for Russian forces." },
+        { name: "Ramstein Air Base (DE)", type: "us-air", lat: 49.437, lon: 7.600, description: "HQ USAFE. ASSETS: 20x C-130J Super Hercules, 15x C-17 Globemaster III. Strategic Logistics Hub." },
+        { name: "Aviano Air Base (IT)", type: "us-air", lat: 46.031, lon: 12.596, description: "ASSETS: 31st Fighter Wing, 50x F-16 Fighting Falcons. Nuclear-capable facility. Southern Flank Defense." },
+        { name: "Incirlik Air Base (TR)", type: "us-air", lat: 37.001, lon: 35.425, description: "Forward Operating Base. ASSETS: KC-135 Stratotankers, A-10 Thunderbolt II. Strategic Nuclear Storage." },
+        { name: "Bezmer Air Base (BG)", type: "nato-air", lat: 42.454, lon: 26.352, description: "Strategic Training Area. ASSETS: Su-25 Frogfoot (Modernized). NATO Forward Deployment Site." },
+        { name: "Graf Ignatievo (BG)", type: "nato-air", lat: 42.290, lon: 24.714, description: "Air Policing Command. ASSETS: MiG-29 (Active Duty), F-16 Block 70 Training Center." },
+        { name: "Camp Kosciuszko (PL)", type: "us-infantry", lat: 52.406, lon: 16.925, description: "U.S. Army V Corps HQ. ASSETS: M1A2 Abrams Tanks, HIMARS Artillery Systems. Eastern Shield." },
+        { name: "Naval Station Rota (ES)", type: "us-naval", lat: 36.617, lon: -6.357, description: "Gateway to Med. ASSETS: 4x Arleigh Burke Destroyers (Aegis), P-8A Poseidon Surveillance." },
+        { name: "Ämari Air Base (EE)", type: "nato-air", lat: 59.256, lon: 24.215, description: "Baltic Air Policing. ASSETS: Rotational F-35 Lightning II & Eurofighter Typhoons." },
+        { name: "Spangdahlem AB (DE)", type: "us-air", lat: 49.973, lon: 6.692, description: "Electronic Warfare Hub. ASSETS: 52nd Fighter Wing, F-16 Viper, EA-18G Growlers." },
+        { name: "Sigonella NAS (IT)", type: "us-air", lat: 37.402, lon: 14.922, description: "Surveillance Hub. ASSETS: RQ-4 Global Hawk Drones, MQ-9 Reaper. Med Sea Intelligence." }
     ];
 // --- СЕКЦИЯ: ВРЕДНИ ЗОНИ (ОБХВАТ НА УДАР) ---
 strategicAssets.forEach(asset => {
