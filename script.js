@@ -591,70 +591,78 @@ async function detectUserLocation() {
         document.getElementById('user-location').innerText = "BULGARIA";
     }
 }
-// =============================================================================
-// --- СЕКЦИЯ: ТАКТИЧЕСКИ РАДАРНИ ЗОНИ (v2.2 - ULTRA VISIBILITY) ---
-// ОПИСАНИЕ: Ярко червен пулсиращ радар с безкрайна анимация.
-// =============================================================================
 function addTacticalPulse(lat, lng, label) {
     if (typeof map === 'undefined' || !map) return;
 
     try {
-        // Добавяме стила за анимацията, ако липсва
-        if (!document.getElementById('radar-animation-style')) {
-            const style = document.createElement('style');
-            style.id = 'radar-animation-style';
-            style.innerHTML = `
-                @keyframes radar-ping {
-                    0% { transform: scale(0.6); opacity: 1; border-width: 3px; }
-                    100% { transform: scale(4.5); opacity: 0; border-width: 1px; }
-                }
-            `;
-            document.head.appendChild(style);
-        }
-
         const tacticalIcon = L.divIcon({
             className: 'custom-pulse',
             html: `
-                <div style="position:relative; width:26px; height:26px;">
-                    <div style="position:absolute; width:100%; height:100%; border: 2px solid #ff0000; border-radius:50%; animation:radar-ping 1.5s infinite; box-shadow: 0 0 15px #ff0000;"></div>
+                <div style="position:relative; width:30px; height:30px;">
+                    <div style="
+                        position:absolute; 
+                        width:100%; 
+                        height:100%; 
+                        border: 3px solid #ff0000 !important; 
+                        border-radius:50%; 
+                        box-shadow: 0 0 15px #ff0000;
+                        animation: radar-ping-simple 1.5s infinite ease-out;
+                    "></div>
                     
-                    <div style="position:absolute; width:12px; height:12px; background:#ff0000; border: 2px solid #ffffff; border-radius:50%; top:7px; left:7px; box-shadow: 0 0 10px #ff0000; z-index: 10;"></div>
+                    <div style="
+                        position:absolute; 
+                        width:12px; 
+                        height:12px; 
+                        background:#ff0000 !important; 
+                        border: 2px solid #ffffff; 
+                        border-radius:50%; 
+                        top:9px; 
+                        left:9px; 
+                        box-shadow: 0 0 10px #ff0000; 
+                        z-index: 10;
+                    "></div>
                     
-                    <span style="position:absolute; left:35px; top:-5px; color:#ff0000; font-family:'Courier New', monospace; font-weight:900; font-size:14px; white-space:nowrap; text-shadow: 2px 2px 2px #000, -1px -1px 2px #000; background: rgba(0,0,0,0.7); padding: 2px 8px; border: 1px solid #ff0000; border-radius: 3px;">${label || 'TARGET'}</span>
+                    <span style="
+                        position:absolute; 
+                        left:40px; 
+                        top:0px; 
+                        color:#ff0000 !important; 
+                        font-family: 'Courier New', monospace; 
+                        font-weight: 900; 
+                        font-size: 14px; 
+                        white-space:nowrap; 
+                        text-shadow: 2px 2px 2px #000; 
+                        background: rgba(0,0,0,0.8); 
+                        padding: 2px 8px; 
+                        border: 1px solid #ff0000;
+                    ">${label || 'TARGET'}</span>
+
+                    <style>
+                        @keyframes radar-ping-simple {
+                            0% { transform: scale(0.5); opacity: 1; }
+                            100% { transform: scale(4); opacity: 0; }
+                        }
+                    </style>
                 </div>`,
-            iconSize: [26, 26]
+            iconSize: [30, 30]
         });
 
         const pulseMarker = L.marker([lat, lng], { 
             icon: tacticalIcon,
-            zIndexOffset: 3000, // Максимална височина
+            zIndexOffset: 5000, 
             interactive: false
         }).addTo(map);
 
         playTacticalPing();
 
-        // Премахваме след 12 секунди, за да не претоварваме системата
         setTimeout(() => {
             if (map && map.hasLayer(pulseMarker)) map.removeLayer(pulseMarker);
-        }, 12000);
+        }, 15000);
 
     } catch (error) {
         console.error(">> RADAR ERROR:", error);
     }
 }
-// Активиране на горещите точки
-addTacticalPulse(48.3794, 31.1656, "UKRAINE SECTOR");
-addTacticalPulse(31.0461, 34.8516, "GAZA SECTOR");
-
-// Стартиране на функцията
-detectUserLocation();
-/**
- * ==========================================================
- * 🛡️ TACTICAL DASHBOARD OVERHAUL v2.0
- * ==========================================================
- * Системи: Radar Pulse, Audio Sync, Terminal UI
- */
-
 // --- 1. ТАКТИЧЕСКИ ЗВУКОВИ НАСТРОЙКИ ---
 const TACTICAL_AUDIO = {
     freq: 880,
