@@ -51,7 +51,29 @@ function playTacticalPing() {
     // Дефиниране на слоеве за различни типове данни
     const markersLayer = L.layerGroup().addTo(map);   // Динамични новини
     const militaryLayer = L.layerGroup().addTo(map);  // Статични бази и активи
+// === НОВ КОД ЗА ВРЕМЕТО (Weather Overlay) ===
+    const weatherKey = '67201752bf204644024606cd545e794c';
 
+    const cloudsLayer = L.tileLayer(`https://tile.openweathermap.org/map/clouds_new/{z}/{x}/{y}.png?appid=${weatherKey}`, {
+        opacity: 0.45,
+        attribution: 'Weather data © OpenWeather'
+    });
+
+    const rainLayer = L.tileLayer(`https://tile.openweathermap.org/map/precipitation_new/{z}/{x}/{y}.png?appid=${weatherKey}`, {
+        opacity: 0.5,
+        attribution: 'Weather data © OpenWeather'
+    });
+
+    const weatherOverlays = {
+        "<span style='color: #00FF00; font-weight: bold;'>[ SAT-CLOUDS ]</span>": cloudsLayer,
+        "<span style='color: #00FF00; font-weight: bold;'>[ LIVE-RAIN ]</span>": rainLayer
+    };
+
+    L.control.layers(null, weatherOverlays, { 
+        collapsed: true, 
+        position: 'topright' 
+    }).addTo(map);
+    // ===========================================
     // ИЗБОР НА ТАКТИЧЕСКИ ТАЙЛОВЕ (DARK MATTER)
     L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_nolabels/{z}/{x}/{y}{r}.png', {
         maxZoom: 18, 
