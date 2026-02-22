@@ -87,6 +87,24 @@
             color: #39FF14 !important;
             padding: 8px !important;
         }
+        /* ФОРСИРАНО ПРЕМЕСТВАНЕ ПОД САТЕЛИТНИЯ ПАНЕЛ */
+.leaflet-top.leaflet-left {
+    top: 320px !important; /* Това разстояние ги сваля под черната кутия */
+    left: 20px !important;
+    margin-top: 0 !important;
+    z-index: 99999 !important; /* Гарантира, че ще са над всичко */
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 10px !important;
+}
+
+/* Стилизиране на самото меню за времето */
+.leaflet-control-layers {
+    background: rgba(0, 0, 0, 0.8) !important;
+    border: 1px solid #39FF14 !important;
+    color: #39FF14 !important;
+    border-radius: 0 !important;
+}
     </style>
 </head>
 <body>
