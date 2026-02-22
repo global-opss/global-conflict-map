@@ -439,12 +439,15 @@ function updateDashboardStats() {
         });
 }
 
-// ПЪРВОНАЧАЛНО СТАРТИРАНЕ
+// 1. Първо сложи командите за стартиране
 updateDashboardStats();
 syncTacticalData();
 
-// АВТОМАТИЧНО ОБНОВЯВАНЕ НА 30 СЕКУНДИ
+// 2. След това сложи интервала за обновяване
 setInterval(() => {
-    updateDashboardStats(); 
-    syncTacticalData();     
+    updateDashboardStats();
+    syncTacticalData();
 }, 30000);
+
+// 3. НАЙ-НАКРАЯ сложи затварящата скоба, която добави на ред 451
+}
