@@ -592,65 +592,56 @@ async function detectUserLocation() {
     }
 }
 // =============================================================================
-// --- СЕКЦИЯ: ТАКТИЧЕСКИ РАДАРНИ ЗОНИ (v2.1 - HIGH VISIBILITY) ---
-// ОПИСАНИЕ: Генерира пулсиращ маркер и звук върху картата при нови събития.
+// --- СЕКЦИЯ: ТАКТИЧЕСКИ РАДАРНИ ЗОНИ (v2.2 - ULTRA VISIBILITY) ---
+// ОПИСАНИЕ: Ярко червен пулсиращ радар с безкрайна анимация.
 // =============================================================================
 function addTacticalPulse(lat, lng, label) {
-    // 1. ПРОВЕРКА ЗА СТАБИЛНОСТ: Ако картата не е заредена, прекратяваме
-    if (typeof map === 'undefined' || !map) {
-        console.warn(">> SYSTEM: Map not initialized. Skipping pulse.");
-        return;
-    }
+    if (typeof map === 'undefined' || !map) return;
 
     try {
-        // 2. ДИНАМИЧЕН СТИЛ: Дефинираме анимацията, ако не съществува
+        // Добавяме стила за анимацията, ако липсва
         if (!document.getElementById('radar-animation-style')) {
             const style = document.createElement('style');
             style.id = 'radar-animation-style';
             style.innerHTML = `
                 @keyframes radar-ping {
-                    0% { transform: scale(0.5); opacity: 1; }
-                    100% { transform: scale(4); opacity: 0; }
+                    0% { transform: scale(0.6); opacity: 1; border-width: 3px; }
+                    100% { transform: scale(4.5); opacity: 0; border-width: 1px; }
                 }
             `;
             document.head.appendChild(style);
         }
 
-        // 3. СЪЗДАВАНЕ НА ИКОНАТА: Дизайн тип "Tactical Overlay"
         const tacticalIcon = L.divIcon({
             className: 'custom-pulse',
             html: `
-                <div style="position:relative; width:24px; height:24px;">
-                    <div style="position:absolute; width:100%; height:100%; background:rgba(255, 49, 49, 0.6); border: 2px solid #ff3131; border-radius:50%; animation:radar-ping 1.5s infinite;"></div>
-                    <div style="position:absolute; width:10px; height:10px; background:#ff3131; border-radius:50%; top:7px; left:7px; box-shadow:0 0 15px #ff3131; border: 1px solid white;"></div>
-                    <span style="position:absolute; left:30px; top:-5px; color:#ff3131; font-family:'Courier New', monospace; font-weight:bold; font-size:12px; white-space:nowrap; text-shadow:2px 2px 4px #000; background: rgba(0,0,0,0.5); padding: 2px 5px; border-left: 2px solid #ff3131;">${label || 'DETECTED'}</span>
+                <div style="position:relative; width:26px; height:26px;">
+                    <div style="position:absolute; width:100%; height:100%; border: 2px solid #ff0000; border-radius:50%; animation:radar-ping 1.5s infinite; box-shadow: 0 0 15px #ff0000;"></div>
+                    
+                    <div style="position:absolute; width:12px; height:12px; background:#ff0000; border: 2px solid #ffffff; border-radius:50%; top:7px; left:7px; box-shadow: 0 0 10px #ff0000; z-index: 10;"></div>
+                    
+                    <span style="position:absolute; left:35px; top:-5px; color:#ff0000; font-family:'Courier New', monospace; font-weight:900; font-size:14px; white-space:nowrap; text-shadow: 2px 2px 2px #000, -1px -1px 2px #000; background: rgba(0,0,0,0.7); padding: 2px 8px; border: 1px solid #ff0000; border-radius: 3px;">${label || 'TARGET'}</span>
                 </div>`,
-            iconSize: [24, 24]
+            iconSize: [26, 26]
         });
 
-        // 4. ПОСТАВЯНЕ НА МАРКЕРА: zIndexOffset гарантира, че ще е НАД държавите
         const pulseMarker = L.marker([lat, lng], { 
             icon: tacticalIcon,
-            zIndexOffset: 2000, // Изключително висок приоритет на видимост
+            zIndexOffset: 3000, // Максимална височина
             interactive: false
         }).addTo(map);
 
-        // 5. АУДИО СИГНАЛ: Пускане на тактическия звук
         playTacticalPing();
 
-        // 6. САМОПОЧИСТВАНЕ: Премахваме маркера след 12 секунди за оптимизация
+        // Премахваме след 12 секунди, за да не претоварваме системата
         setTimeout(() => {
-            if (map && map.hasLayer(pulseMarker)) {
-                map.removeLayer(pulseMarker);
-                console.log(`>> SYSTEM: Sector ${label} cleared from radar.`);
-            }
+            if (map && map.hasLayer(pulseMarker)) map.removeLayer(pulseMarker);
         }, 12000);
 
     } catch (error) {
-        console.error(">> CRITICAL RADAR ERROR:", error);
+        console.error(">> RADAR ERROR:", error);
     }
 }
-// =============================================================================
 // Активиране на горещите точки
 addTacticalPulse(48.3794, 31.1656, "UKRAINE SECTOR");
 addTacticalPulse(31.0461, 34.8516, "GAZA SECTOR");
