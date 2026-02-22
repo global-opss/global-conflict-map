@@ -662,7 +662,7 @@ function addTacticalPulse(lat, lng, color = '#ff0000') {
         fillColor: color,
         fillOpacity: 0.5,
         weight: 2
-    }).addTo(map);
+    }).addTo(window.map || map);
 
     let currentRadius = 10;
     let currentOpacity = 0.5;
