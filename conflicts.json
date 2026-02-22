@@ -1,5 +1,19 @@
 [
     {
+        "country": "Iran",
+        "city": "Tehran",
+        "lat": 35.74495713502389,
+        "lon": 51.338582623625356,
+        "date": "2026-02-22 21:51:49",
+        "type": "Naval",
+        "severity": "normal",
+        "title": "Trump Considers Targeted Strike Against Iran, Followed by Larger Attack",
+        "description": "The top negotiators plan to meet in Geneva on Thursday for last-ditch talks, debating a new proposal that could create an off-ramp as two carrier groups massed within striking distance of Iran.",
+        "fatalities": "0",
+        "link": "https://www.nytimes.com/2026/02/22/us/politics/trump-considers-targeted-strike-against-iran-followed-by-larger-attack.html",
+        "critical": false
+    },
+    {
         "country": "USA",
         "city": "Washington",
         "lat": 38.83908172144614,
