@@ -176,3 +176,23 @@ iframe {
     top: 5px !important;
     right: 5px !important;
 }
+/* 11. ПОЗИЦИОНИРАНЕ НА КАРТНИТЕ КОНТРОЛИ (WEATHER & ZOOM) */
+.leaflet-top.leaflet-left {
+    /* Това ще ги бутне надолу под твоите прозрачни панели вляво */
+    margin-top: 250px !important; 
+    margin-left: 10px !important;
+}
+
+/* Стилизиране на самото меню за времето, за да пасне на терминалния стил */
+.leaflet-control-layers {
+    background: rgba(10, 10, 10, 0.5) !important;
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(57, 255, 20, 0.3) !important;
+    color: #39FF14 !important;
+    border-radius: 0 !important; /* Остри ъгли за военен стил */
+}
+
+.leaflet-control-layers-toggle {
+    /* Прави иконката зелена, за да съответства на темата */
+    filter: invert(100%) sepia(100%) saturate(1000%) hue-rotate(50deg);
+}
