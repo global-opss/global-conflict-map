@@ -1,5 +1,57 @@
 [
     {
+        "country": "Asia",
+        "city": "Afghanistan",
+        "lat": 34.686023,
+        "lon": 69.13693,
+        "date": "2026-02-22 05:14:28",
+        "type": "Airstrike",
+        "title": "Pakistan carries out strikes in Afghanistan, ‘killing and wounding dozens’",
+        "description": "Afghan Defence Ministry says the strikes hit a school and homes, killing and wounding dozens of people.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/news/2026/2/22/pakistan-carries-out-strikes-in-afghanistan-after-islamabad-suicide-attack?traffic_source=rss",
+        "critical": false
+    },
+    {
+        "country": "China",
+        "city": "Beijing",
+        "lat": 39.9057136,
+        "lon": 116.3912972,
+        "date": "2026-02-22 05:14:26",
+        "type": "Breaking News",
+        "title": "Trump Looks Ahead to Summit With China’s Xi, but Tariffs and Taiwan Loom",
+        "description": "President Trump said his planned meeting with President Xi Jinping would be a grand display, but tensions over trade and defense could dampen the mood.",
+        "fatalities": "0",
+        "link": "https://www.nytimes.com/2026/02/22/world/asia/trump-xi-jinping-meeting-china.html",
+        "critical": false
+    },
+    {
+        "country": "Ukraine",
+        "city": "Kyiv",
+        "lat": 50.4501,
+        "lon": 30.5234,
+        "date": "2026-02-22 05:14:26",
+        "type": "Clashes",
+        "title": "The Ex-Taxi Driver at the Center of Russia’s Shadow War",
+        "description": "The Kremlin’s sabotage campaign against European allies of Ukraine has been escalating. It needs people like Aleksei Kolosovsky, 42, to carry it out.",
+        "fatalities": "0",
+        "link": "https://www.nytimes.com/2026/02/22/world/europe/russia-sabotage-europe.html",
+        "critical": false
+    },
+    {
+        "country": "Ukraine",
+        "city": "Kyiv",
+        "lat": 50.4501,
+        "lon": 30.5234,
+        "date": "2026-02-22 05:14:26",
+        "type": "Clashes",
+        "title": "Russia-Ukraine war: List of key events, day 1,459",
+        "description": "These are the key developments from day 1,459 of Russia’s war on Ukraine.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/news/2026/2/22/russia-ukraine-war-list-of-key-events-day-1459?traffic_source=rss",
+        "critical": false
+    },
+    {
         "country": "Iran",
         "city": "Tehran",
         "lat": 35.6892,
@@ -330,19 +382,6 @@
         "lat": 32.0853,
         "lon": 34.7818,
         "date": "2026-02-21 18:41:07",
-        "type": "Naval",
-        "title": "Palestinian Authority in dire straits as Israel's hold on West Bank deepens",
-        "description": "More than 30 years after its creation, there are increasing warnings that the PA is close to collapse.",
-        "fatalities": "0",
-        "link": "https://www.bbc.com/news/articles/c9wn8lw0kgjo?at_medium=RSS&at_campaign=rss",
-        "critical": false
-    },
-    {
-        "country": "Israel",
-        "city": "Tel Aviv",
-        "lat": 32.0853,
-        "lon": 34.7818,
-        "date": "2026-02-21 18:41:07",
         "type": "Airstrike",
         "title": "Israeli strikes kill at least 10 in Lebanon, officials say",
         "description": "The strikes are among the deadliest in Lebanon since a ceasefire ended the war between Israel and Hezbollah.",
@@ -374,6 +413,19 @@
         "description": "Trump's new threat came a day after he appeared to give Iran about 10 days to agree to a deal to curb its nuclear programme.",
         "fatalities": "0",
         "link": "https://www.bbc.com/news/articles/cdxzk4gvzp0o?at_medium=RSS&at_campaign=rss",
+        "critical": false
+    },
+    {
+        "country": "Israel",
+        "city": "Tel Aviv",
+        "lat": 32.0853,
+        "lon": 34.7818,
+        "date": "2026-02-21 18:41:07",
+        "type": "Naval",
+        "title": "Palestinian Authority in dire straits as Israel's hold on West Bank deepens",
+        "description": "More than 30 years after its creation, there are increasing warnings that the PA is close to collapse.",
+        "fatalities": "0",
+        "link": "https://www.bbc.com/news/articles/c9wn8lw0kgjo?at_medium=RSS&at_campaign=rss",
         "critical": false
     },
     {
