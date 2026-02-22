@@ -1,5 +1,18 @@
 [
     {
+        "country": "Iran",
+        "city": "Tehran",
+        "lat": 35.6892,
+        "lon": 51.389,
+        "date": "2026-02-22 08:01:20",
+        "type": "Nuclear",
+        "title": "Iran’s president says his country will not bow to US pressure",
+        "description": "Iranian President Masoud Pezeshkian says Tehran will not bow to US pressure over nuclear talks.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/video/newsfeed/2026/2/22/irans-president-says-his-country-will-not-bow-to-us-pressure?traffic_source=rss",
+        "critical": false
+    },
+    {
         "country": "Ukraine",
         "city": "Kyiv",
         "lat": 50.4501,
