@@ -307,62 +307,108 @@ if (data.length > 0 && data[0].title !== globalLastEventTitle) {
     // Премахнахме проверката за 'critical', за да чуваш сигнал винаги
     playTacticalPing(); 
     
-    // Обновяваме последното заглавие, за да не свири повторно за същата новина
-    globalLastEventTitle = data[0].title;
-}
+    // --- ОБНОВЕНА СЕКЦИЯ 7: ТАКТИЧЕСКИ ДАННИ С ИНТЕГРИРАНА ТЪРСАЧКА ---
+    // Тази функция вече поддържа филтриране в реално време
+    function syncTacticalData() {
+        console.log("Initiating tactical sync...");
+        
+        fetch('conflicts.json?v=' + Date.now()).then(res => res.json()).then(data => {
+            if (!Array.isArray(data)) return;
 
+            // 1. Пълно изчистване на слоевете преди преначертаване
+            markersLayer.clearLayers();
+            const sidebar = document.getElementById('intel-list');
+            if (sidebar) sidebar.innerHTML = '';
 
-   // --- ОБНОВЕНА СЕКЦИЯ 7: ОБРАБОТКА НА НОВИНИТЕ С ЦВЕТОВЕ И ИКОНИ ---
-    data.forEach(item => {
-        // 1. Избор на символ (Emoji) според типа на събитието
-        let iconSymbol = '⚠️'; 
-        if (item.type === "Nuclear" || item.type === "Airstrike") iconSymbol = '🚀';
-        else if (item.type === "Drone") iconSymbol = '🛸';
-        else if (item.type === "Evacuation") iconSymbol = '🚨';
-        else if (item.type === "Clashes") iconSymbol = '⚔️';
+            // Проверка за аудио сигнал при нова информация
+            if (data.length > 0 && data[0].title !== globalLastEventTitle) {
+                if (typeof playTacticalPing === "function") playTacticalPing();
+                globalLastEventTitle = data[0].title;
+            }
 
-        // 2. Дефиниране на филтър за цвят (светещ ефект) според опасността
-        let statusFilter = "";
-        let severityLabel = item.severity || (item.critical ? 'critical' : 'normal');
+            // Основен цикъл за обработка на всеки обект от базата данни
+            data.forEach(item => {
+                // Избор на тактически символ според класификацията
+                let iconSymbol = '⚠️'; 
+                if (item.type === "Nuclear" || item.type === "Airstrike") iconSymbol = '🚀';
+                else if (item.type === "Drone") iconSymbol = '🛸';
+                else if (item.type === "Evacuation") iconSymbol = '🚨';
+                else if (item.type === "Clashes") iconSymbol = '⚔️';
 
-        if (severityLabel === 'critical') {
-            statusFilter = "drop-shadow(0 0 12px #ff3131)"; // Силно червено
-        } else if (severityLabel === 'middle') {
-            statusFilter = "drop-shadow(0 0 10px #ff8c00) sepia(1) hue-rotate(-50deg)"; // Оранжево
-        } else {
-            statusFilter = "drop-shadow(0 0 5px #00a2ff) grayscale(0.4)"; // Синьо/Сиво
-        }
+                // Дефиниране на нива на заплаха и цветови схеми
+                let severityLabel = item.severity || (item.critical ? 'critical' : 'normal');
+                let statusFilter = "";
+                let titleColor = '#39FF14';
 
-        // 3. Създаване на маркера върху картата
-       const latJitter = (Math.random() - 0.5) * 0.015; 
-        const lonJitter = (Math.random() - 0.5) * 0.015;
-        const marker = L.marker([item.lat + latJitter, item.lon + lonJitter], { 
-            icon: L.divIcon({ 
-                html: `<div class="alert-pulse" style="font-size:38px; filter: ${statusFilter};">${iconSymbol}</div>`, 
-                iconSize: [45, 45] 
-            }) 
-        }).addTo(markersLayer);
+                if (severityLabel === 'critical') {
+                    statusFilter = "drop-shadow(0 0 12px #ff3131)";
+                    titleColor = '#ff3131';
+                } else if (severityLabel === 'middle') {
+                    statusFilter = "drop-shadow(0 0 10px #ff8c00) sepia(1) hue-rotate(-50deg)";
+                    titleColor = '#ff8c00';
+                } else {
+                    statusFilter = "drop-shadow(0 0 5px #00a2ff) grayscale(0.4)";
+                }
 
-        marker.on('click', () => showIntelDetails(item));
+                // Прилагане на Jitter (разсейване) за избягване на застъпване в горещи зони
+                const latJitter = (Math.random() - 0.5) * 0.018; 
+                const lonJitter = (Math.random() - 0.5) * 0.018;
 
-        // 4. Добавяне в страничния списък (Sidebar) с динамичен цвят на текста
-        if (sidebar) {
-            const entry = document.createElement('div');
-            entry.className = 'intel-list-item';
-            
-            // Определяме цвета на заглавието в списъка
-            let titleColor = (severityLabel === 'critical') ? '#ff3131' : (severityLabel === 'middle' ? '#ff8c00' : '#39FF14');
-            
-            entry.innerHTML = `
-                <small style="color:#888;">[${item.date}]</small><br>
-                <strong style="color:${titleColor};">${item.title}</strong>
-            `;
-            entry.onclick = () => showIntelDetails(item);
-            sidebar.appendChild(entry);
-        }
+                // Създаване на маркера с вградени данни за търсачката
+                const marker = L.marker([parseFloat(item.lat) + latJitter, parseFloat(item.lon) + lonJitter], { 
+                    icon: L.divIcon({ 
+                        html: `<div class="alert-pulse tactical-marker" data-name="${item.title.toLowerCase()}" style="font-size:38px; filter: ${statusFilter};">${iconSymbol}</div>`, 
+                        iconSize: [45, 45] 
+                    }) 
+                }).addTo(markersLayer);
+
+                // Закачаме информацията към обекта на маркера
+                marker.tacticalInfo = { title: item.title.toLowerCase(), type: item.type.toLowerCase() };
+                marker.on('click', () => showIntelDetails(item));
+
+                // Генериране на елемент за страничния панел с атрибут за търсене
+                if (sidebar) {
+                    const entry = document.createElement('div');
+                    entry.className = 'intel-list-item';
+                    entry.setAttribute('data-search-key', item.title.toLowerCase() + " " + item.type.toLowerCase());
+                    
+                    entry.innerHTML = `
+                        <div style="border-left: 3px solid ${titleColor}; padding-left: 8px; margin-bottom: 5px;">
+                            <small style="color:#666;">[ID: ${Math.floor(Math.random() * 9000) + 1000}] - ${item.date}</small><br>
+                            <strong style="color:${titleColor}; text-transform: uppercase;">${item.title}</strong>
+                        </div>
+                    `;
+                    entry.onclick = () => showIntelDetails(item);
+                    sidebar.appendChild(entry);
+                }
+            });
+            console.log("Tactical overlay updated. Ready for search commands.");
+        }).catch(err => console.error("Sync Failure:", err));
+    }
+
+    // --- ЛОГИКА НА ТЪРСАЧКАТА (СЪБИТИЕ ЗА ВЪВЕЖДАНЕ) ---
+    document.getElementById('tactical-search').addEventListener('input', function(e) {
+        const query = e.target.value.toLowerCase();
+        
+        // 1. Филтриране на списъка встрани
+        const listEntries = document.querySelectorAll('.intel-list-item');
+        listEntries.forEach(el => {
+            const content = el.getAttribute('data-search-key');
+            el.style.display = content.includes(query) ? 'block' : 'none';
+        });
+
+        // 2. Филтриране на маркерите върху самата карта
+        markersLayer.eachLayer(layer => {
+            if (layer instanceof L.Marker && layer.tacticalInfo) {
+                const match = layer.tacticalInfo.title.includes(query) || layer.tacticalInfo.type.includes(query);
+                if (match) {
+                    if (!markersLayer.hasLayer(layer)) layer.addTo(markersLayer);
+                } else {
+                    markersLayer.removeLayer(layer);
+                }
+            }
+        });
     });
-});
-        }
     // Първоначално стартиране и настройка на интервал
     syncTacticalData(); 
     setInterval(syncTacticalData, 60000); 
