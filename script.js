@@ -807,64 +807,81 @@ document.head.appendChild(style);
 console.log(">> TACTICAL SYSTEMS: Radar, Audio, and Terminal Interface INITIALIZED");
 
 // =============================================================================
-// --- СИСТЕМА ЗА МОНИТОРИНГ НА ВЪЗДУШНИЯ ТРАФИК (ADS-B LIVE FEED) ---
-// ОПИСАНИЕ: Управлява модалния прозорец и зареждането на военния радар.
+// --- СИСТЕМА ЗА ИНТЕЛИГЕНТЕН КОНТРОЛ НА ТРАФИКА (AIR & MARITIME) ---
+// ОПИСАНИЕ: Управлява двата радара и гарантира, че работи само един едновременно.
 // =============================================================================
+
 function toggleAirTraffic() {
     const modal = document.getElementById('trafficModal');
     const iframe = document.getElementById('trafficFrame');
+    const maritimeModal = document.getElementById('maritimeModal');
+    const maritimeIframe = document.getElementById('maritimeFrame');
+    
     const panelText = document.querySelector('#extra-tools-panel span');
     const statusDot = document.querySelector('#extra-tools-panel div');
-    
-    // Линк към ADS-B Exchange с активиран военен филтър (&mil)
     const adsbUrl = "https://globe.adsbexchange.com/?lat=42.7&lon=25.5&zoom=7&enableLabels&showTrace&mil";
 
-    if (!modal) {
-        console.error(">> SYSTEM ERROR: Traffic Modal not found in HTML!");
-        return;
+    // 1. АВТОМАТИЧНО ЗАТВАРЯНЕ НА МОРСКИЯ РАДАР (ако е отворен)
+    if (maritimeModal && maritimeModal.style.display === "block") {
+        maritimeModal.style.display = "none";
+        if (maritimeIframe) maritimeIframe.src = "";
+        const mText = document.querySelector('#maritime-tools-panel span');
+        const mDot = document.querySelector('#maritime-tools-panel div');
+        if (mText) { mText.innerHTML = "🚢 MARITIME MONITORING [OFFLINE]"; mText.style.color = "#00f2ff"; }
+        if (mDot) { mDot.style.backgroundColor = "#00f2ff"; mDot.style.boxShadow = "0 0 10px #00f2ff"; }
     }
 
+    // 2. УПРАВЛЕНИЕ НА ВЪЗДУШНИЯ РАДАР
     if (modal.style.display === "none" || modal.style.display === "") {
-        // --- ДЕЙСТВИЕ: ОТВАРЯНЕ ---
+        iframe.src = adsbUrl;
         modal.style.display = "block";
-        
-        // Зареждаме съдържанието само при отваряне за по-висока производителност
-        if (iframe && (iframe.src === "" || iframe.src !== adsbUrl)) {
-            iframe.src = adsbUrl;
-        }
-
-        // Визуална индикация за активност
-        if (panelText) {
-            panelText.innerHTML = "📡 AIR TRAFFIC MONITORING [ONLINE]";
-            panelText.style.color = "#00ff00"; // Светва в зелено
-        }
-        if (statusDot) {
-            statusDot.style.backgroundColor = "#00ff00";
-            statusDot.style.boxShadow = "0 0 15px #00ff00";
-        }
-        
-        console.log(">> SYSTEM: Air Traffic Monitoring - LINK ESTABLISHED.");
-        
+        if (panelText) { panelText.innerHTML = "📡 AIR TRAFFIC MONITORING [ONLINE]"; panelText.style.color = "#00ff00"; }
+        if (statusDot) { statusDot.style.backgroundColor = "#00ff00"; statusDot.style.boxShadow = "0 0 15px #00ff00"; }
+        console.log(">> SYSTEM: Air Supremacy Mode - ACTIVE");
     } else {
-        // --- ДЕЙСТВИЕ: ЗАТВАРЯНЕ ---
         modal.style.display = "none";
-        
-        // Спираме източника, за да освободим процесора и паметта
-        if (iframe) iframe.src = ""; 
-
-        // Връщаме стандартния "стендбай" изглед
-        if (panelText) {
-            panelText.innerHTML = "📡 AIR TRAFFIC MONITORING [OFFLINE]";
-            panelText.style.color = "#ff3131";
-        }
-        if (statusDot) {
-            statusDot.style.backgroundColor = "#ff3131";
-            statusDot.style.boxShadow = "0 0 10px #ff3131";
-        }
-
-        console.log(">> SYSTEM: Air Traffic Monitoring - CONNECTION TERMINATED.");
+        iframe.src = ""; 
+        if (panelText) { panelText.innerHTML = "📡 AIR TRAFFIC MONITORING [OFFLINE]"; panelText.style.color = "#ff3131"; }
+        if (statusDot) { statusDot.style.backgroundColor = "#ff3131"; statusDot.style.boxShadow = "0 0 10px #ff3131"; }
+        console.log(">> SYSTEM: Air Surveillance - STANDBY");
     }
 }
-console.log(">> STATUS: Monitoring Global Sectors for updates...");
 
-// Край на ъпгрейда
+function toggleMaritimeTraffic() {
+    const modal = document.getElementById('maritimeModal');
+    const iframe = document.getElementById('maritimeFrame');
+    const airModal = document.getElementById('trafficModal');
+    const airIframe = document.getElementById('trafficFrame');
+    
+    const panelText = document.querySelector('#maritime-tools-panel span');
+    const statusDot = document.querySelector('#maritime-tools-panel div');
+    const maritimeUrl = "https://www.vesselfinder.com/aismap?zoom=7&lat=43.2&lon=30.0&width=100%&height=100%&names=true&mmsi=0&track=true&fleet=false";
+
+    // 1. АВТОМАТИЧНО ЗАТВАРЯНЕ НА ВЪЗДУШНИЯ РАДАР (ако е отворен)
+    if (airModal && airModal.style.display === "block") {
+        airModal.style.display = "none";
+        if (airIframe) airIframe.src = "";
+        const aText = document.querySelector('#extra-tools-panel span');
+        const aDot = document.querySelector('#extra-tools-panel div');
+        if (aText) { aText.innerHTML = "📡 AIR TRAFFIC MONITORING [OFFLINE]"; aText.style.color = "#ff3131"; }
+        if (aDot) { aDot.style.backgroundColor = "#ff3131"; aDot.style.boxShadow = "0 0 10px #ff3131"; }
+    }
+
+    // 2. УПРАВЛЕНИЕ НА МОРСКИЯ РАДАР
+    if (modal.style.display === "none" || modal.style.display === "") {
+        iframe.src = maritimeUrl;
+        modal.style.display = "block";
+        if (panelText) { panelText.innerHTML = "🚢 MARITIME MONITORING [ONLINE]"; panelText.style.color = "#00ff00"; }
+        if (statusDot) { statusDot.style.backgroundColor = "#00ff00"; statusDot.style.boxShadow = "0 0 15px #00ff00"; }
+        console.log(">> SYSTEM: Naval Surveillance Mode - ACTIVE");
+    } else {
+        modal.style.display = "none";
+        iframe.src = ""; 
+        if (panelText) { panelText.innerHTML = "🚢 MARITIME MONITORING [OFFLINE]"; panelText.style.color = "#00f2ff"; }
+        if (statusDot) { statusDot.style.backgroundColor = "#00f2ff"; statusDot.style.boxShadow = "0 0 10px #00f2ff"; }
+        console.log(">> SYSTEM: Maritime Surveillance - STANDBY");
+    }
+}
+
+// ЗАЩИТА СРЕЩУ КОПИРАНЕ (ДЕСЕН БУТОН)
+document.addEventListener('contextmenu', e => e.preventDefault());
