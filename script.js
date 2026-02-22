@@ -617,3 +617,143 @@ addTacticalPulse(31.0461, 34.8516, "GAZA SECTOR");
 
 // Стартиране на функцията
 detectUserLocation();
+/**
+ * ==========================================================
+ * 🛡️ TACTICAL DASHBOARD OVERHAUL v2.0
+ * ==========================================================
+ * Системи: Radar Pulse, Audio Sync, Terminal UI
+ */
+
+// --- 1. ТАКТИЧЕСКИ ЗВУКОВИ НАСТРОЙКИ ---
+const TACTICAL_AUDIO = {
+    freq: 880,
+    vol: 0.1,
+    duration: 0.2
+};
+
+// Модифицирана функция за звук с по-чист сигнал
+function playTacticalPing() {
+    if (typeof audioCtx === 'undefined' || audioCtx.state === 'suspended') return;
+    
+    const osc = audioCtx.createOscillator();
+    const gain = audioCtx.createGain();
+
+    osc.type = 'sine';
+    osc.frequency.setValueAtTime(TACTICAL_AUDIO.freq, audioCtx.currentTime);
+    osc.frequency.exponentialRampToValueAtTime(110, audioCtx.currentTime + TACTICAL_AUDIO.duration);
+
+    gain.gain.setValueAtTime(TACTICAL_AUDIO.vol, audioCtx.currentTime);
+    gain.gain.exponentialRampToValueAtTime(0.01, audioCtx.currentTime + TACTICAL_AUDIO.duration);
+
+    osc.connect(gain);
+    gain.connect(audioCtx.destination);
+
+    osc.start();
+    osc.stop(audioCtx.currentTime + TACTICAL_AUDIO.duration);
+}
+
+// --- 2. СИСТЕМА ЗА ВИЗУАЛНИ ПУЛСАЦИИ (RADAR PULSE) ---
+function addTacticalPulse(lat, lng, color = '#ff0000') {
+    if (!map) return;
+
+    const pulseCircle = L.circleMarker([lat, lng], {
+        radius: 10,
+        color: color,
+        fillColor: color,
+        fillOpacity: 0.5,
+        weight: 2
+    }).addTo(map);
+
+    let currentRadius = 10;
+    let currentOpacity = 0.5;
+
+    const animatePulse = () => {
+        currentRadius += 1;
+        currentOpacity -= 0.01;
+
+        pulseCircle.setRadius(currentRadius);
+        pulseCircle.setStyle({ fillOpacity: currentOpacity, opacity: currentOpacity });
+
+        if (currentOpacity > 0) {
+            requestAnimationFrame(animatePulse);
+        } else {
+            map.removeLayer(pulseCircle);
+        }
+    };
+
+    animatePulse();
+}
+
+// --- 3. ТЕРМИНАЛЕН ЕФЕКТ "ПИШЕЩА МАШИНА" ---
+function typeEffect(element, text, speed = 40) {
+    element.innerHTML = "";
+    let i = 0;
+    
+    // Добавяме малък звуков ефект при започване на писането
+    playTacticalPing();
+
+    function typing() {
+        if (i < text.length) {
+            element.innerHTML += text.charAt(i);
+            i++;
+            setTimeout(typing, speed);
+        }
+    }
+    typing();
+}
+
+// --- 4. ИНТЕГРАЦИЯ С НОВИНИТЕ ---
+// Тази функция ще прихваща всяко обновяване на новина
+function updateTacticalNews(newsData) {
+    const newsContainer = document.getElementById('news-content');
+    if (!newsContainer) return;
+
+    const newsElement = document.createElement('div');
+    newsElement.className = 'tactical-news-entry';
+    newsElement.style.borderLeft = "2px solid #0f0";
+    newsElement.style.paddingLeft = "10px";
+    newsElement.style.marginBottom = "15px";
+    
+    newsContainer.prepend(newsElement);
+
+    // Стартираме ефекта на писане
+    typeEffect(newsElement, `[NEW REPORT] ${newsData.title}`);
+
+    // Добавяме пулсация на мапа на съответната локация
+    if (newsData.lat && newsData.lng) {
+        addTacticalPulse(newsData.lat, newsData.lng);
+        map.panTo([newsData.lat, newsData.lng]);
+    }
+}
+
+// --- 5. АВТОМАТИЧНО СЛЕДЕНЕ НА СИСТЕМАТА ---
+setInterval(() => {
+    const statusText = document.querySelector('.system-status');
+    if (statusText) {
+        statusText.style.opacity = (statusText.style.opacity == "0.5" ? "1" : "0.5");
+    }
+}, 1000);
+
+// --- 6. ДОПЪЛНИТЕЛНИ CSS СТИЛОВЕ (Динамично добавяне) ---
+const style = document.createElement('style');
+style.innerHTML = `
+    .tactical-news-entry {
+        font-family: 'Courier New', monospace;
+        color: #00ff00;
+        text-shadow: 0 0 5px rgba(0, 255, 0, 0.5);
+        background: rgba(0, 20, 0, 0.8);
+        border-radius: 4px;
+        animation: scanline 2s linear infinite;
+    }
+    @keyframes scanline {
+        0% { background: rgba(0, 20, 0, 0.8); }
+        50% { background: rgba(0, 40, 0, 0.9); }
+        100% { background: rgba(0, 20, 0, 0.8); }
+    }
+`;
+document.head.appendChild(style);
+
+console.log(">> TACTICAL SYSTEMS: Radar, Audio, and Terminal Interface INITIALIZED");
+console.log(">> STATUS: Monitoring Global Sectors for updates...");
+
+// Край на ъпгрейда
