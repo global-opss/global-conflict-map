@@ -223,7 +223,18 @@ fetch('https://raw.githubusercontent.com/datasets/geo-boundaries-world-110m/mast
         { name: "Kinmen Island Post (TW)", type: "ua-infantry", lat: 24.448, lon: 118.375, description: "Frontline Observation. ASSETS: Coastal Artillery, Anti-ship Missile Batteries. 24/7 Surveillance." },
         { name: "Pescadores Islands (TW)", type: "ua-missile", lat: 23.571, lon: 119.579, description: "Missile Shield. ASSETS: Hsiung Feng III Supersonic Anti-ship Missiles. Control over Taiwan Strait." },
         { name: "Liancheng Airbase (CN)", type: "ru-missile", lat: 25.676, lon: 116.755, description: "Rocket Force Base. ASSETS: DF-15 & DF-16 Short-range Ballistic Missiles. Targeted at Taiwan defense." },
-        { name: "Okinawa (Kadena AB - US)", type: "us-air", lat: 26.355, lon: 127.767, description: "US Forward Hub. ASSETS: F-15EX Eagle II, F-22 Raptors. Strategic 'Keystone of the Pacific'." }
+        { name: "Okinawa (Kadena AB - US)", type: "us-air", lat: 26.355, lon: 127.767, description: "US Forward Hub. ASSETS: F-15EX Eagle II, F-22 Raptors. Strategic 'Keystone of the Pacific'." },
+        { name: "Khmeimim Air Base (RU)", type: "ru-air", lat: 35.412, lon: 35.947, description: "Main Russian Air Hub in Syria. ASSETS: Su-35S, Su-34 bombers, S-400 Triumf SAM systems. Strategic power projection." },
+        { name: "Tartus Naval Base (RU)", type: "ru-naval", lat: 34.912, lon: 35.867, description: "Russian Mediterranean Logistics Center. ASSETS: Kilo-class submarines, surface combatants. Only RU naval base outside CIS." },
+        { name: "Al-Tanf Garrison (US)", type: "us-infantry", lat: 33.321, lon: 38.941, description: "Strategic US Outpost near Jordan/Iraq border. Task: Counter-ISIS operations and monitoring Iranian land bridge." },
+        { name: "Mission Support Site Conoco (US)", type: "us-infantry", lat: 35.328, lon: 40.291, description: "US presence near Deir ez-Zor. ASSETS: Bradley IFVs, Avenger Air Defense. Frequent target of drone/rocket attacks." },
+        { name: "Tiyas (T-4) Airbase (SY/IR)", type: "ru-air", lat: 34.521, lon: 37.625, description: "Major SyAAF & IRGC base. ASSETS: Iranian UAVs (Shahed series), SyAAF MiG-25/Su-22. Frequent target of ISR air strikes." },
+        { name: "Aleppo Defense Zone (SDF/YPG)", type: "ua-infantry", lat: 36.202, lon: 37.158, description: "Kurdish-led SDF positions. Key frontline against Turkish-backed forces. Heavy urban fortification." },
+        { name: "Idlib De-escalation Zone", type: "incidents", lat: 35.931, lon: 36.633, description: "Last rebel stronghold. High concentration of Turkish observation posts (Tafas). Active artillery sector." },
+        { name: "Incirlik Operational Sector (TR)", type: "ru-infantry", lat: 36.651, lon: 37.011, description: "Turkish Cross-border Force. ASSETS: Leopard 2A4 Tanks, T-155 Firtina Artillery. Monitoring Kurdish border movements." },
+        { name: "Qamishli Airfield (RU/SY)", type: "ru-air", lat: 37.022, lon: 41.193, description: "Shared RU/SY presence in Kurdish territory. ASSETS: Mi-8/Mi-24 helicopters. Strategic monitoring of Eastern Syria." },
+        { name: "Damascus Int. (Military Wing)", type: "ru-air", lat: 33.411, lon: 36.515, description: "Logistics Hub for IRGC/Hezbollah. Significant air defense presence (Pantsir-S1, BUK-M2)." },
+        { name: "Al-Nairab Airbase", type: "ru-air", lat: 36.181, lon: 37.225, description: "Major Syrian strike base. ASSETS: L-39 Albatros, Mi-24 Hind. Support for Northern Front operations." }
     ];
 // --- СЕКЦИЯ: ВРЕДНИ ЗОНИ (ОБХВАТ НА УДАР) ---
 strategicAssets.forEach(asset => {
