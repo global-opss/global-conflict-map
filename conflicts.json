@@ -1,5 +1,19 @@
 [
     {
+        "country": "USA",
+        "city": "Washington",
+        "lat": 38.94524271445198,
+        "lon": -77.00669017317126,
+        "date": "2026-02-22 17:01:57",
+        "type": "Clashes",
+        "severity": "middle",
+        "title": "DHS reverses on TSA PreCheck pause as snowstorm scatters travel",
+        "description": "It's a perfect storm: As extreme winter weather triggers thousands of flight cancellations, the federal government created more travel questions.The Department of Homeland Security announced Sunday it would suspend two popular travel programs, including TSA PreCheck, due to the ongoing partial government shutdown. But hours later, it seemingly reversed course, saying PreCheck remained operational.Why it matters: Air travel has historically been a",
+        "fatalities": "0",
+        "link": "https://www.axios.com/2026/02/22/tsa-precheck-air-travel-storm-shutdown",
+        "critical": false
+    },
+    {
         "country": "Ukraine",
         "city": "Kyiv",
         "lat": 50.49812336421471,
