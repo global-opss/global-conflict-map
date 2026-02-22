@@ -1,5 +1,47 @@
 [
     {
+        "country": "USA",
+        "city": "Washington",
+        "lat": 38.83908172144614,
+        "lon": -77.02576776472489,
+        "date": "2026-02-22 20:57:25",
+        "type": "Airstrike",
+        "severity": "critical",
+        "title": "MAGA embraces hockey gold medal with latest swipes at Canada",
+        "description": "America is celebrating its first U.S. men's hockey gold since the '80s, toppling Canada with a clutch overtime goal amid historically sharp tensions between the neighboring nations.The big picture: The victory was extra sweet for the MAGA world, which swiftly seized the win as an opportunity to roast Ottawa — and uplift Team USA's star player Jack Hughes' patriotism after calling out other athletes for criticizing the current state of the country",
+        "fatalities": "0",
+        "link": "https://www.axios.com/2026/02/22/maga-hockey-olympics-gold-medal-canada",
+        "critical": true
+    },
+    {
+        "country": "Israel",
+        "city": "Tel Aviv",
+        "lat": 32.137139175025716,
+        "lon": 34.722848306431814,
+        "date": "2026-02-22 20:57:03",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "The Carlson-Huckabee interview may be the wake-up call Americans needed",
+        "description": "The interview brought the Israel first vs America first debate to heart of the American right.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/opinions/2026/2/22/the-carlson-huckabee-interview-may-be-the-wake-up-call-americans-needed?traffic_source=rss",
+        "critical": false
+    },
+    {
+        "country": "Iran",
+        "city": "Tehran",
+        "lat": 35.648571183603025,
+        "lon": 51.43844395096753,
+        "date": "2026-02-22 20:57:01",
+        "type": "Airstrike",
+        "severity": "critical",
+        "title": "Iran Could Direct Proxies to Attack U.S. Targets Abroad, Officials Warn",
+        "description": "Security officials are monitoring increasingly worrisome signs as President Trump considers another military campaign against Iran.",
+        "fatalities": "0",
+        "link": "https://www.nytimes.com/2026/02/22/us/politics/iran-terrorist-attacks-proxies-trump.html",
+        "critical": true
+    },
+    {
         "country": "Iran",
         "city": "Tehran",
         "lat": 35.68392211742395,
