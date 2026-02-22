@@ -1,5 +1,47 @@
 [
     {
+        "country": "Israel",
+        "city": "Gaza",
+        "lat": 31.518795538899774,
+        "lon": 34.44396889459357,
+        "date": "2026-02-22 22:57:35",
+        "type": "Airstrike",
+        "severity": "critical",
+        "title": "Scoop: DNC officials working on secret report found Gaza stance cost Harris votes",
+        "description": "Top Democratic officials who worked on the party's still-secret autopsy of the 2024 election concluded that Kamala Harris lost significant support because of the Biden administration's approach to the war in Gaza, Axios has learned.Why it matters: The Democratic National Committee's research on what went wrong in 2024 has been under lock and key since party leaders decided last year to hide it from the public — a reflection of how explosively it ",
+        "fatalities": "0",
+        "link": "https://www.axios.com/2026/02/22/dnc-2024-autopsy-harris-gaza",
+        "critical": true
+    },
+    {
+        "country": "Africa",
+        "city": "Mali",
+        "lat": 12.677750621667863,
+        "lon": -8.000835810878348,
+        "date": "2026-02-22 22:57:35",
+        "type": "Clashes",
+        "severity": "middle",
+        "title": "Dems eyeing 2028 tap the brakes on AI data centers",
+        "description": "The AI backpedaling has begun: 2028 Democratic contenders who bet big on data centers are suddenly retreating amid a growing voter revolt.Why it matters: The politics of AI are evolving almost as rapidly as the technology.Just a few months ago, potential 2028 presidential candidates — including Illinois Gov. JB Pritzker, Pennsylvania Gov. Josh Shapiro and Maryland Gov. Wes Moore — were bending over backwards to lure data centers, with offers of l",
+        "fatalities": "0",
+        "link": "https://www.axios.com/2026/02/22/democrats-2028-retreat-ai-data-centers",
+        "critical": false
+    },
+    {
+        "country": "Ukraine",
+        "city": "Kyiv",
+        "lat": 50.471581003877596,
+        "lon": 30.459719200658682,
+        "date": "2026-02-22 22:57:09",
+        "type": "Clashes",
+        "severity": "middle",
+        "title": "Zelensky tells BBC Putin has started WW3 and must be stopped",
+        "description": "Ukraine's president sat down with the BBC's Jeremy Bowen in Kyiv days before the four-year anniversary of the war.",
+        "fatalities": "0",
+        "link": "https://www.bbc.com/news/articles/cvgj9p15y87o?at_medium=RSS&at_campaign=rss",
+        "critical": false
+    },
+    {
         "country": "Iran",
         "city": "Tehran",
         "lat": 35.74495713502389,
