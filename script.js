@@ -24,9 +24,6 @@ window.onerror = function(message, source, lineno, colno, error) {
 };
 
 // ТУК СЛАГАШ ЗВУКОВАТА ФУНКЦИЯ
-function playTacticalPing() { ... }
-
-// ТУК СЛАГАШ ЗВУКОВАТА ФУНКЦИЯ
 function playTacticalPing() {
     const audioCtx = new (window.AudioContext || window.webkitAudioContext)();
     const oscillator = audioCtx.createOscillator();
