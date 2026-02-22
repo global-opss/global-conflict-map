@@ -1,5 +1,33 @@
 [
     {
+        "country": "Israel",
+        "city": "Tel Aviv",
+        "lat": 32.08447697390207,
+        "lon": 34.79088570236183,
+        "date": "2026-02-22 11:54:22",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "US ambassador's Israel comments condemned by Arab and Muslim nations",
+        "description": "Mike Huckabee suggested Israel would be justified in taking much of the Middle East on Biblical grounds.",
+        "fatalities": "0",
+        "link": "https://www.bbc.com/news/articles/cn5gkkgdzkyo?at_medium=RSS&at_campaign=rss",
+        "critical": false
+    },
+    {
+        "country": "Ukraine",
+        "city": "Kyiv",
+        "lat": 50.38114037809096,
+        "lon": 30.571381249929015,
+        "date": "2026-02-22 11:54:22",
+        "type": "Airstrike",
+        "severity": "critical",
+        "title": "At least one killed in widescale Russian attacks on Ukraine’s energy sector",
+        "description": "Main target was the energy sector, but residential buildings and a railway were also damaged, President Zelenskyy says.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/news/2026/2/22/at-least-one-killed-in-russian-widescale-attacks-on-ukraines-energy-sector?traffic_source=rss",
+        "critical": true
+    },
+    {
         "country": "Africa",
         "city": "Mali",
         "lat": 12.555569362678256,
