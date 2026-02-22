@@ -282,24 +282,26 @@ for url in FEEDS:
         except Exception as e:
             print(f"❌ Error on {domain}: {str(e)}")
 
-    # СЛЕД КАТО СВЪРШИ ЦИКЪЛА (подравнено с 'for url in FEEDS')
+    # СЛЕД КАТО СВЪРШИ ЦИКЪЛА (подравнено точно под 'for url in FEEDS')
     if len(new_found_events) > 0:
         unique_events = {}
         if os.path.exists('conflicts.json'):
-            with open('conflicts.json', 'r', encoding='utf-8') as f:
-                try:
+            try:
+                with open('conflicts.json', 'r', encoding='utf-8') as f:
                     old_data = json.load(f)
                     for event in old_data:
                         unique_events[event['title']] = event
-                except:
-                    pass
+            except:
+                pass
         
         for event in new_found_events:
             unique_events[event['title']] = event
             
         with open('conflicts.json', 'w', encoding='utf-8') as f:
-            json.dump(list(unique_events.values())[-100:], f, indent=4, ensure_ascii=False)
+            json.dump(list(unique_events.values())[-120:], f, indent=4, ensure_ascii=False)
         print(f"📝 Map updated with {len(new_found_events)} new events.")
+    else:
+        print("ℹ️ No new tactical events found in this cycle.")
 
 if __name__ == "__main__":
     run_bot()
