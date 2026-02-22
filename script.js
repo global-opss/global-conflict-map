@@ -219,52 +219,43 @@ strategicAssets.forEach(asset => {
     document.head.appendChild(customStyles);
 
     // --- СЕКЦИЯ 5: ГЕНЕРИРАНЕ НА ТАКТИЧЕСКИ ИКОНИ ---
-function createAssetIcon(type) {
-    let symbol = '⚪'; // Символ по подразбиране
-    let styleClass = 'mil-icon-box ';
+    function createAssetIcon(type) {
+        let symbol = '⚪'; 
+        let styleClass = 'mil-icon-box ';
 
-    // 1. ПРОВЕРКА ЗА ПЕХОТА (ВОЙНИЦИ)
-    if (type === 'ua-infantry') {
-        symbol = '⚔';
-        styleClass += 'icon-us-nato'; // Синьо/Зелено за Украйна
-    } 
-    else if (type === 'ru-infantry') {
-        symbol = '⚔';
-        styleClass += 'icon-ru-ua'; // Червено за Русия
-    }
-    // 2. ПРОВЕРКА ЗА ИРАНСКИ СПЕЦИАЛНИ ОБЕКТИ
-    else if (type === 'ir-nuclear') {
-        symbol = '☢️';
-        styleClass += 'icon-iran-tension';
-    } 
-    else if (type === 'ir-missile') {
-        symbol = '🚀';
-        styleClass += 'icon-iran-tension';
-    }
-    // 3. ПРОВЕРКА ЗА ВЪЗДУШНИ И МОРСКИ БАЗИ
-    else if (type.includes('naval')) {
-        symbol = '⚓';
-        styleClass += (type.startsWith('us-')) ? 'icon-us-nato' : 'icon-ru-ua';
-    } 
-    else if (type.includes('air')) {
-        symbol = '🦅';
-        styleClass += (type.startsWith('us-')) ? 'icon-us-nato' : 'icon-iran-tension';
+        if (type === 'ua-infantry') {
+            symbol = '⚔';
+            styleClass += 'icon-us-nato';
+        } else if (type === 'ru-infantry') {
+            symbol = '⚔';
+            styleClass += 'icon-ru-ua';
+        } else if (type === 'ir-nuclear') {
+            symbol = '☢️';
+            styleClass += 'icon-iran-tension';
+        } else if (type === 'ir-missile') {
+            symbol = '🚀';
+            styleClass += 'icon-iran-tension';
+        } else if (type.includes('naval')) {
+            symbol = '⚓';
+            styleClass += (type.startsWith('us-')) ? 'icon-us-nato' : 'icon-ru-ua';
+        } else if (type.includes('air')) {
+            symbol = '🦅';
+            styleClass += (type.startsWith('us-')) ? 'icon-us-nato' : 'icon-iran-tension';
+        }
+
+        return L.divIcon({
+            html: `<div class="${styleClass}" style="font-size:18px; display:flex; align-items:center; justify-content:center;">${symbol}</div>`,
+            iconSize: [32, 32]
+        });
     }
 
-    return L.divIcon({
-        html: `<div class="${styleClass}" style="font-size:18px; display:flex; align-items:center; justify-content:center;">${symbol}</div>`,
-        iconSize: [32, 32]
-    });
-}
-
-    // Поставяне на статичните обекти върху картата
     strategicAssets.forEach(asset => {
         L.marker([asset.lat, asset.lon], { icon: createAssetIcon(asset.type) })
          .addTo(militaryLayer)
          .bindTooltip(asset.name);
     });
 
-    // --- СЕКЦИЯ 6: МОДАЛЕН ДИСПЛЕЙ (650PX ОПТИМИЗАЦИЯ) ---
+    // --- СЕКЦИЯ 6: МОДАЛЕН ДИСПЛЕЙ ---
     const showIntelDetails = (data) => {
         const container = document.getElementById('intel-details-container');
         const content = document.getElementById('news-content');
@@ -278,7 +269,7 @@ function createAssetIcon(type) {
             </div>
             <div style="padding:35px; color:white; overflow-y:auto;">
                 <h1 style="color:#39FF14; font-size:30px; margin-top:0; border-bottom:1px solid #222; padding-bottom:10px;">${data.title.toUpperCase()}</h1>
-                <p style="font-size:19px; line-height:1.6; color:#ccc; margin-bottom:25px;">${data.description || "Intelligence stream is active. Monitoring for updates..."}</p>
+                <p style="font-size:19px; line-height:1.6; color:#ccc; margin-bottom:25px;">${data.description || "Intelligence stream is active..."}</p>
                 <div style="background:rgba(255,50,50,0.1); padding:20px; border-left:5px solid #ff3131; font-size:17px; margin:25px 0;">
                     <strong style="color:#ff3131;">STATUS:</strong> CRITICAL ALERT<br>
                     <strong>SECTOR:</strong> ${data.country || "Global Operations"}<br>
@@ -293,160 +284,105 @@ function createAssetIcon(type) {
         map.flyTo([data.lat, data.lon], 7);
     };
 
-    // --- СЕКЦИЯ 7: СИНХРОНИЗАЦИЯ С CONFLICTS.JSON И ЗВУК ---
+    // --- СЕКЦИЯ 7: СИНХРОНИЗАЦИЯ И ТАКТИЧЕСКИ ДАННИ ---
     function syncTacticalData() {
-        fetch('conflicts.json?v=' + Date.now()).then(res => res.json()).then(data => {
-            if (!Array.isArray(data)) return;
-            markersLayer.clearLayers();
-            const sidebar = document.getElementById('intel-list');
-            if (sidebar) sidebar.innerHTML = '';
+        console.log("System: Scanning global sectors...");
+        fetch('conflicts.json?v=' + Date.now())
+            .then(res => res.json())
+            .then(data => {
+                if (!Array.isArray(data)) return;
+                markersLayer.clearLayers();
+                const sidebar = document.getElementById('intel-list');
+                if (sidebar) sidebar.innerHTML = '';
 
-   // --- ОБНОВЕНА СЕКЦИЯ СЪС СИСТЕМЕН ЗВУК (Auto-Alert при всяка нова новина) ---
-if (data.length > 0 && data[0].title !== globalLastEventTitle) {
-    
-    // Премахнахме проверката за 'critical', за да чуваш сигнал винаги
-    playTacticalPing(); 
-    
-    // --- СЕКЦИЯ 7: ТАКТИЧЕСКИ ДАННИ И ТЪРСАЧКА ---
-function syncTacticalData() {
-    console.log("System: Scanning global sectors...");
-    
-    fetch('conflicts.json?v=' + Date.now())
-        .then(res => res.json())
-        .then(data => {
-            if (!Array.isArray(data)) return;
+                if (data.length > 0 && data[0].title !== globalLastEventTitle) {
+                    playTacticalPing();
+                    globalLastEventTitle = data[0].title;
+                }
 
-            // Изчистване на стари маркери и списък
-            markersLayer.clearLayers();
-            const sidebar = document.getElementById('intel-list');
-            if (sidebar) sidebar.innerHTML = '';
+                data.forEach(item => {
+                    let iconSymbol = '⚠️'; 
+                    if (item.type === "Nuclear" || item.type === "Airstrike") iconSymbol = '🚀';
+                    else if (item.type === "Drone") iconSymbol = '🛸';
+                    else if (item.type === "Evacuation") iconSymbol = '🚨';
+                    else if (item.type === "Clashes") iconSymbol = '⚔️';
 
-            // Проверка за аудио сигнал
-            if (data.length > 0 && data[0].title !== globalLastEventTitle) {
-                if (typeof playTacticalPing === "function") playTacticalPing();
-                globalLastEventTitle = data[0].title;
-            }
-
-            data.forEach(item => {
-                // Избор на икона
-                let iconSymbol = '⚠️'; 
-                if (item.type === "Nuclear" || item.type === "Airstrike") iconSymbol = '🚀';
-                else if (item.type === "Drone") iconSymbol = '🛸';
-                else if (item.type === "Evacuation") iconSymbol = '🚨';
-                else if (item.type === "Clashes") iconSymbol = '⚔️';
-
-                // Визуални ефекти
-                let severityLabel = item.severity || (item.critical ? 'critical' : 'normal');
-                let statusFilter = (severityLabel === 'critical') ? "drop-shadow(0 0 12px #ff3131)" : 
-                                  (severityLabel === 'middle') ? "drop-shadow(0 0 10px #ff8c00) sepia(1)" : 
-                                  "drop-shadow(0 0 5px #00a2ff)";
-                
-                let titleColor = (severityLabel === 'critical') ? '#ff3131' : 
-                                (severityLabel === 'middle') ? '#ff8c00' : '#39FF14';
-
-                // Jitter ефект (Разпръскване)
-                const latJitter = (Math.random() - 0.5) * 0.018; 
-                const lonJitter = (Math.random() - 0.5) * 0.018;
-
-                // Създаване на маркер
-                const marker = L.marker([parseFloat(item.lat) + latJitter, parseFloat(item.lon) + lonJitter], { 
-                    icon: L.divIcon({ 
-                        html: `<div class="alert-pulse tactical-marker" style="font-size:38px; filter: ${statusFilter};">${iconSymbol}</div>`, 
-                        iconSize: [45, 45] 
-                    }) 
-                }).addTo(markersLayer);
-
-                // Запис на данни за търсачката в самия маркер
-                marker.tacticalInfo = { title: item.title.toLowerCase(), type: item.type.toLowerCase() };
-                marker.on('click', () => showIntelDetails(item));
-
-                // Добавяне в списъка (Sidebar)
-                if (sidebar) {
-                    const entry = document.createElement('div');
-                    entry.className = 'intel-list-item';
-                    entry.setAttribute('data-search-key', item.title.toLowerCase() + " " + item.type.toLowerCase());
+                    let severityLabel = item.severity || (item.critical ? 'critical' : 'normal');
+                    let statusFilter = (severityLabel === 'critical') ? "drop-shadow(0 0 12px #ff3131)" : 
+                                      (severityLabel === 'middle') ? "drop-shadow(0 0 10px #ff8c00) sepia(1)" : 
+                                      "drop-shadow(0 0 5px #00a2ff)";
                     
-                    entry.innerHTML = `
-                        <div style="border-left: 3px solid ${titleColor}; padding-left: 8px; margin-bottom: 5px;">
-                            <small style="color:#666;">[ID: ${Math.floor(Math.random() * 9000) + 1000}] - ${item.date}</small><br>
-                            <strong style="color:${titleColor}; text-transform: uppercase;">${item.title}</strong>
-                        </div>
-                    `;
-                    entry.onclick = () => showIntelDetails(item);
-                    sidebar.appendChild(entry);
+                    let titleColor = (severityLabel === 'critical') ? '#ff3131' : 
+                                    (severityLabel === 'middle') ? '#ff8c00' : '#39FF14';
+
+                    const latJitter = (Math.random() - 0.5) * 0.018; 
+                    const lonJitter = (Math.random() - 0.5) * 0.018;
+
+                    const marker = L.marker([parseFloat(item.lat) + latJitter, parseFloat(item.lon) + lonJitter], { 
+                        icon: L.divIcon({ 
+                            html: `<div class="alert-pulse tactical-marker" style="font-size:38px; filter: ${statusFilter};">${iconSymbol}</div>`, 
+                            iconSize: [45, 45] 
+                        }) 
+                    }).addTo(markersLayer);
+
+                    marker.tacticalInfo = { title: item.title.toLowerCase(), type: item.type.toLowerCase() };
+                    marker.on('click', () => showIntelDetails(item));
+
+                    if (sidebar) {
+                        const entry = document.createElement('div');
+                        entry.className = 'intel-list-item';
+                        entry.setAttribute('data-search-key', item.title.toLowerCase() + " " + item.type.toLowerCase());
+                        entry.innerHTML = `
+                            <div style="border-left: 3px solid ${titleColor}; padding-left: 8px; margin-bottom: 5px;">
+                                <small style="color:#666;">[ID: ${Math.floor(Math.random() * 9000) + 1000}] - ${item.date}</small><br>
+                                <strong style="color:${titleColor}; text-transform: uppercase;">${item.title}</strong>
+                            </div>`;
+                        entry.onclick = () => showIntelDetails(item);
+                        sidebar.appendChild(entry);
+                    }
+                });
+            }).catch(err => console.error("Sync Error:", err));
+    }
+
+    // --- ЛОГИКА НА ТЪРСАЧКАТА ---
+    const searchBar = document.getElementById('tactical-search');
+    if (searchBar) {
+        searchBar.addEventListener('input', function(e) {
+            const query = e.target.value.toLowerCase();
+            document.querySelectorAll('.intel-list-item').forEach(el => {
+                const content = el.getAttribute('data-search-key') || "";
+                el.style.display = content.includes(query) ? 'block' : 'none';
+            });
+            markersLayer.eachLayer(layer => {
+                if (layer instanceof L.Marker && layer.tacticalInfo) {
+                    const isMatch = layer.tacticalInfo.title.includes(query) || layer.tacticalInfo.type.includes(query);
+                    if (isMatch) { if (!map.hasLayer(layer)) layer.addTo(map); } 
+                    else { map.removeLayer(layer); }
                 }
             });
-        })
-        .catch(err => console.error("System Sync Error:", err));
-}
-
-// --- ЛОГИКА НА ТЪРСАЧКАТА ---
-const searchBar = document.getElementById('tactical-search');
-if (searchBar) {
-    searchBar.addEventListener('input', function(e) {
-        const query = e.target.value.toLowerCase();
-        
-        // Филтриране на списъка
-        document.querySelectorAll('.intel-list-item').forEach(el => {
-            const content = el.getAttribute('data-search-key') || "";
-            el.style.display = content.includes(query) ? 'block' : 'none';
         });
-
-        // Филтриране на картата
-        markersLayer.eachLayer(layer => {
-            if (layer instanceof L.Marker && layer.tacticalInfo) {
-                const isMatch = layer.tacticalInfo.title.includes(query) || layer.tacticalInfo.type.includes(query);
-                if (isMatch) {
-                    if (!markersLayer.hasLayer(layer)) layer.addTo(markersLayer);
-                } else {
-                    markersLayer.removeLayer(layer);
-                }
-            }
-        });
-    });
-}
-
-// --- СЕКЦИЯ 8: UTC ЧАСОВНИК ---
-setInterval(() => {
-    const timeDisplay = document.getElementById('header-time');
-    if (timeDisplay) {
-        const utcNow = new Date().toUTCString().split(' ')[4];
-        timeDisplay.innerText = utcNow + " UTC";
     }
-}, 1000);
 
-// --- СЕКЦИЯ 9: СТАТИСТИКА И ОБНОВЯВАНЕ ---
-let lastCount = 0; 
-function updateDashboardStats() {
-    fetch('conflicts.json?v=' + Date.now())
-        .then(res => res.json())
-        .then(data => {
+    // --- ЧАСОВНИК И СТАТИСТИКА ---
+    setInterval(() => {
+        const timeDisplay = document.getElementById('header-time');
+        if (timeDisplay) timeDisplay.innerText = new Date().toUTCString().split(' ')[4] + " UTC";
+    }, 1000);
+
+    let lastCount = 0; 
+    function updateDashboardStats() {
+        fetch('conflicts.json?v=' + Date.now()).then(res => res.json()).then(data => {
             const count = data.length;
-            if (count > lastCount && lastCount !== 0) {
-                if (typeof playTacticalPing === "function") playTacticalPing(); 
-            }
+            if (count > lastCount && lastCount !== 0) playTacticalPing();
             lastCount = count; 
-
             const eventCounter = document.getElementById('active-events');
             if (eventCounter) eventCounter.innerText = count;
-
-            const threatLevel = document.querySelector('header span[style*="#ff3131"]');
-            if (threatLevel) {
-                if (count > 71) { threatLevel.innerText = "CRITICAL"; threatLevel.style.textShadow = "0 0 10px #ff3131"; }
-                else if (count > 40) { threatLevel.innerText = "ELEVATED"; threatLevel.style.textShadow = "none"; }
-                else { threatLevel.innerText = "LOW"; threatLevel.style.color = "#39FF14"; }
-            }
         });
-} // ред 440
-} // ред 441 - ТАЗИ СКОБА ЗАТВАРЯ ВСИЧКО ПРЕДИШНО
+    }
 
-// 1. Първо сложи командите за стартиране (СЕГА СА НАВЪН)
-updateDashboardStats();
-syncTacticalData();
-
-// 2. След това сложи интервала за обновяване
-setInterval(() => {
+    // СТАРТИРАНЕ
     updateDashboardStats();
     syncTacticalData();
-}, 30000);
-// КРАЙ НА ФАЙЛА - БЕЗ ПОВЕЧЕ СКОБИ ТУК
+    setInterval(() => { updateDashboardStats(); syncTacticalData(); }, 30000);
+
+} // КРАЙ НА WINDOW.ONLOAD
