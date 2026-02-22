@@ -1,5 +1,6 @@
 import requests
 import xml.etree.ElementTree as ET
+import random
 import json
 import time
 import re
@@ -31,8 +32,8 @@ FEEDS = [
     "https://www.naval-technology.com/feed/",
     "https://theaviationist.com/feed/",
     "https://www.defense.gov/DesktopModules/ArticleCS/RSS.ashx?max=10",
-    "https://www.axios.com/world",
-    "https://www.whitehouse.gov/briefing-room/"
+    "https://api.axios.com/feed/",
+    "https://www.whitehouse.gov/briefing-room/statements-releases/feed/"
 ]
 
 LOCATION_CACHE = {
@@ -142,8 +143,17 @@ def run_bot():
                     lat, lon = get_coordinates(city, region)
                     if lat and lon:
                         new_found_events.append({
-                            "country": region, "city": city, "lat": lat, "lon": lon, "date": time.strftime("%Y-%m-%d %H:%M:%S"),
-                            "type": event_type, "title": title[:120], "description": desc[:450], "fatalities": "0", "link": link, "critical": event_type == "Evacuation"
+                            "country": region, 
+                            "city": city, 
+                            "lat": lat + random.uniform(-0.07, 0.07), 
+                            "lon": lon + random.uniform(-0.07, 0.07), 
+                            "date": time.strftime("%Y-%m-%d %H:%M:%S"),
+                            "type": event_type, 
+                            "title": title[:120], 
+                            "description": desc[:450], 
+                            "fatalities": "0", 
+                            "link": link, 
+                            "critical": event_type == "Evacuation"
                         })
                         print(f"✅ Captured: {event_type} - {city}")
         except: continue
@@ -156,4 +166,5 @@ def run_bot():
 if __name__ == "__main__":
     run_bot()
     # End of Script - 250 Lines Precise.
+
 
