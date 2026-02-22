@@ -539,7 +539,7 @@ strategicAssets.forEach(asset => {
     }, 1000);
 
     console.log(">> Tactical Search System: Operational");
-
+detectUserLocation();
 }; // КРАЙ НА WINDOW.ONLOAD
 // Функция за автоматично засичане на локацията по IP
 async function detectUserLocation() {
