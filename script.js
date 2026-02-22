@@ -212,7 +212,18 @@ fetch('https://raw.githubusercontent.com/datasets/geo-boundaries-world-110m/mast
         { name: "Odessa Port Defense", type: "ua-naval", lat: 46.485, lon: 30.743, description: "Maritime Security Zone. ASSETS: Harpoon & Neptune ASM batteries. Protection of grain corridor." },
         { name: "Zaporizhzhia NPP", type: "incidents", lat: 47.511, lon: 34.585, description: "CRITICAL: Largest nuclear plant in Europe. Under occupation. High risk of sabotage or incident." },
         { name: "Chornobaivka Airfield", type: "ua-air", lat: 46.675, lon: 32.506, description: "Logistics and rotary wing base. Critical for controlling the Southern Kherson direction." },
-        { name: "Hostomel (Antonov) Site", type: "ua-air", lat: 50.588, lon: 30.211, description: "Strategic airfield. Symbols of early resistance. Current logistics and repair hub." }
+        { name: "Hostomel (Antonov) Site", type: "ua-air", lat: 50.588, lon: 30.211, description: "Strategic airfield. Symbols of early resistance. Current logistics and repair hub." },
+        { name: "Longtian Airbase (CN)", type: "ru-air", lat: 25.544, lon: 119.462, description: "Forward Strike Base. ASSETS: Massive deployment of J-11 and J-16 fighters. S-400 SAM coverage." },
+        { name: "Hui'an Airbase (CN)", type: "ru-air", lat: 25.023, lon: 118.812, description: "Electronic Warfare Hub. ASSETS: Y-8/Y-9 EW aircraft, UAV swarms. Primary staging area for Taiwan sorties." },
+        { name: "Zhangzhou Naval Base (CN)", type: "ru-naval", lat: 24.551, lon: 117.892, description: "Amphibious Assault Force. ASSETS: Type 075 Landing Docks, Type 071 Transports. Invasion Fleet HQ." },
+        { name: "Sanya Naval Base (Hainan)", type: "ru-naval", lat: 18.216, lon: 109.525, description: "South China Sea HQ. ASSETS: Aircraft Carrier 'Shandong', Type 094 Nuclear Submarines (SSBN)." },
+        { name: "Taipei Defense Zone (TW)", type: "ua-infantry", lat: 25.033, lon: 121.565, description: "Command & Control. ASSETS: Patriot PAC-3 Batteries, Tien Kung III SAM. Heavily fortified urban area." },
+        { name: "Hualien Air Base (TW)", type: "ua-air", lat: 24.023, lon: 121.618, description: "Underground Hangar Complex. ASSETS: F-16V Viper (Block 70). Critical for eastern flank survival." },
+        { name: "Kaohsiung Naval Port (TW)", type: "ua-naval", lat: 22.616, lon: 120.266, description: "Strategic Naval Base. ASSETS: Kee Lung-class Destroyers, Indigenous Defense Submarines (IDS)." },
+        { name: "Kinmen Island Post (TW)", type: "ua-infantry", lat: 24.448, lon: 118.375, description: "Frontline Observation. ASSETS: Coastal Artillery, Anti-ship Missile Batteries. 24/7 Surveillance." },
+        { name: "Pescadores Islands (TW)", type: "ua-missile", lat: 23.571, lon: 119.579, description: "Missile Shield. ASSETS: Hsiung Feng III Supersonic Anti-ship Missiles. Control over Taiwan Strait." },
+        { name: "Liancheng Airbase (CN)", type: "ru-missile", lat: 25.676, lon: 116.755, description: "Rocket Force Base. ASSETS: DF-15 & DF-16 Short-range Ballistic Missiles. Targeted at Taiwan defense." },
+        { name: "Okinawa (Kadena AB - US)", type: "us-air", lat: 26.355, lon: 127.767, description: "US Forward Hub. ASSETS: F-15EX Eagle II, F-22 Raptors. Strategic 'Keystone of the Pacific'." }
     ];
 // --- СЕКЦИЯ: ВРЕДНИ ЗОНИ (ОБХВАТ НА УДАР) ---
 strategicAssets.forEach(asset => {
