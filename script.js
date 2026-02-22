@@ -847,8 +847,7 @@ function toggleMaritimeTraffic() {
     const airIframe = document.getElementById('trafficFrame');
     
     // Линк към VesselFinder AIS Data
-    const maritimeUrl = "https://www.vesselfinder.com/aismap?zoom=7&lat=43.2&lon=30.0&width=100%&height=100%&names=true&mmsi=0&track=true&fleet=false";
-
+    const maritimeUrl = "https://www.marinetraffic.com/en/ais/embed/zoom:7/centert:43.2/centerlon:30.0/maptype:4/shownames:false/mmsi:0/shipid:0/fleet:/fleet_id:/vessel:0/container:1/show_menu:true/reported_days:1";
     // 1. АВТОМАТИЧНО ЗАТВАРЯНЕ НА ВЪЗДУШНИЯ РАДАР ПРИ КОНФЛИКТ
     if (airModal && airModal.style.display === "block") {
         airModal.style.display = "none";
