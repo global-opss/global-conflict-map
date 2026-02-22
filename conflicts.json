@@ -1,5 +1,47 @@
 [
     {
+        "country": "Ukraine",
+        "city": "Kyiv",
+        "lat": 50.49812336421471,
+        "lon": 30.580182971219024,
+        "date": "2026-02-22 16:55:58",
+        "type": "Airstrike",
+        "severity": "critical",
+        "title": "Russian launches missile barrage on Ukraine's energy facilities",
+        "description": "Russia fired scores of missiles and drones at targets across Ukraine on Sunday, crashing into energy and rail infrastructure and residential buildings, just two days before the fourth anniversary of Moscow's all-out invasion. The capital Kyiv, regularly targeted by Russian missile and drone attacks since the start of the full-scale invasion, has faced waves of overnight strikes in recent weeks as Moscow has intensified assaults amid freezing wint",
+        "fatalities": "0",
+        "link": "https://www.france24.com/en/russian-launches-missile-barrage-on-ukraine-s-energy-facilities",
+        "critical": true
+    },
+    {
+        "country": "Iran",
+        "city": "Tehran",
+        "lat": 35.75491012765845,
+        "lon": 51.369596183007026,
+        "date": "2026-02-22 16:55:51",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Trump curious why Iran has not 'capitulated', US envoy Witkoff says",
+        "description": "US envoy Steve Witkoff says the president is puzzled why Iran has not yet compromised in the face of a major American military build-up nearby.",
+        "fatalities": "0",
+        "link": "https://www.bbc.com/news/articles/cn5gk15rr70o?at_medium=RSS&at_campaign=rss",
+        "critical": false
+    },
+    {
+        "country": "Israel",
+        "city": "Tel Aviv",
+        "lat": 32.12451025640533,
+        "lon": 34.757409112302305,
+        "date": "2026-02-22 16:55:51",
+        "type": "Clashes",
+        "severity": "middle",
+        "title": "US envoy Huckabee tries to deny saying he would support Israel expansionism",
+        "description": "Rights advocate warns that failure to sack Huckabee will be read by the world as an endorsement of his views by Trump.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/news/2026/2/22/us-envoy-huckabee-tries-to-deny-saying-he-would-support-israel-expansionism?traffic_source=rss",
+        "critical": false
+    },
+    {
         "country": "USA",
         "city": "Washington",
         "lat": 38.87264614292427,
