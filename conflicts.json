@@ -1,5 +1,83 @@
 [
     {
+        "country": "Ukraine",
+        "city": "Kyiv",
+        "lat": 50.4501,
+        "lon": 30.5234,
+        "date": "2026-02-22 07:28:29",
+        "type": "Naval",
+        "title": "Live: Russian missiles pound Kyiv ahead of Ukraine war anniversary",
+        "description": "Russia ⁠attacked Kyiv with ballistic and cruise missiles as overnight strikes in the Black Sea port of Odesa and central Ukraine targeted energy infrastructure, Ukrainian military officials said Sunday. The attacks came just two days before the fourth anniversary of Russia's full-scale invasion of Ukraine. Follow our liveblog for the latest developments.",
+        "fatalities": "0",
+        "link": "https://www.france24.com/en/europe/20260222-live-russian-missiles-pound-kyiv-ahead-of-ukraine-war-anniversary",
+        "critical": false
+    },
+    {
+        "country": "Asia",
+        "city": "Afghanistan",
+        "lat": 34.686023,
+        "lon": 69.13693,
+        "date": "2026-02-22 07:28:29",
+        "type": "Airstrike",
+        "title": "Pakistan launches strikes in Afghanistan, ‘dozens’ killed and wounded, Kabul says",
+        "description": "Pakistan launched multiple cross-border strikes targeting \"terrorist training camps and hideouts\" in eastern Afghanistan, the information ministry said Sunday. Afghanistan's defence ministry said \"dozens\" of civilians, including women and children, were killed and wounded as tensions between the two countries escalated at the start of the Muslim holy month of Ramadan.",
+        "fatalities": "0",
+        "link": "https://www.france24.com/en/asia-pacific/20260222-pakistan-launches-deadly-strikes-in-afghanistan",
+        "critical": false
+    },
+    {
+        "country": "Iran",
+        "city": "Tehran",
+        "lat": 35.6892,
+        "lon": 51.389,
+        "date": "2026-02-22 07:28:22",
+        "type": "Clashes",
+        "title": "Inside Iran’s Preparation for War and Plans for Survival",
+        "description": "Supreme Leader Ayatollah Ali Khamenei has entrusted Ali Larijani, the top national security official, to ensure the Islamic Republic endures possible war and assassination.",
+        "fatalities": "0",
+        "link": "https://www.nytimes.com/2026/02/22/world/middleeast/iran-larijani-khamenei-pezeshkian.html",
+        "critical": false
+    },
+    {
+        "country": "Ukraine",
+        "city": "Kyiv",
+        "lat": 50.4501,
+        "lon": 30.5234,
+        "date": "2026-02-22 07:28:22",
+        "type": "Breaking News",
+        "title": "How Russia has weaponised winter against people in Ukraine",
+        "description": "Russia has struck Ukraines energy grid 2,500 times in four years, leaving millions without heat in freezing weather.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/video/by-the-numbers-3/2026/2/22/how-russia-has-weaponised-winter-against-people-in-ukraine?traffic_source=rss",
+        "critical": false
+    },
+    {
+        "country": "Iran",
+        "city": "Tehran",
+        "lat": 35.6892,
+        "lon": 51.389,
+        "date": "2026-02-22 07:28:22",
+        "type": "Airstrike",
+        "title": "Iran will not bow down to US pressure in nuclear talks, Pezeshkian says",
+        "description": "Iranian president vows to stand firm as Trump threatens strikes and the US bolsters its military presence in the Gulf.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/news/2026/2/22/iran-will-not-bow-down-to-us-pressure-in-nuclear-talks-pezeshkian-says?traffic_source=rss",
+        "critical": false
+    },
+    {
+        "country": "Africa",
+        "city": "Libya",
+        "lat": 26.3351,
+        "lon": 17.2283,
+        "date": "2026-02-22 07:28:22",
+        "type": "Naval",
+        "title": "Eight bodies recovered in Libya, Greece as Mediterranean death toll rises",
+        "description": "Bodies of five asylum seekers wash ashore in Libya as three others die in a separate incident off the coast of Greece.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/news/2026/2/22/eight-bodies-found-in-libya-and-greece-as-mediterranean-crossings-continue?traffic_source=rss",
+        "critical": false
+    },
+    {
         "country": "Asia",
         "city": "Afghanistan",
         "lat": 34.686023,
@@ -417,19 +495,6 @@
     },
     {
         "country": "Israel",
-        "city": "Tel Aviv",
-        "lat": 32.0853,
-        "lon": 34.7818,
-        "date": "2026-02-21 18:41:07",
-        "type": "Naval",
-        "title": "Palestinian Authority in dire straits as Israel's hold on West Bank deepens",
-        "description": "More than 30 years after its creation, there are increasing warnings that the PA is close to collapse.",
-        "fatalities": "0",
-        "link": "https://www.bbc.com/news/articles/c9wn8lw0kgjo?at_medium=RSS&at_campaign=rss",
-        "critical": false
-    },
-    {
-        "country": "Israel",
         "city": "Gaza",
         "lat": 31.5047,
         "lon": 34.4648,
@@ -465,6 +530,19 @@
         "description": "Defending champions and co-hosts India face debut-title chasing South Africa in rematch of last T20 World Cup final.",
         "fatalities": "0",
         "link": "https://www.aljazeera.com/sports/2026/2/21/india-vs-south-africa-t20-world-cup-super-eights-teams-start-lineups?traffic_source=rss",
+        "critical": false
+    },
+    {
+        "country": "Israel",
+        "city": "Tel Aviv",
+        "lat": 32.0853,
+        "lon": 34.7818,
+        "date": "2026-02-21 18:41:07",
+        "type": "Naval",
+        "title": "Palestinian Authority in dire straits as Israel's hold on West Bank deepens",
+        "description": "More than 30 years after its creation, there are increasing warnings that the PA is close to collapse.",
+        "fatalities": "0",
+        "link": "https://www.bbc.com/news/articles/c9wn8lw0kgjo?at_medium=RSS&at_campaign=rss",
         "critical": false
     },
     {
@@ -1144,19 +1222,6 @@
         "critical": false
     },
     {
-        "country": "Iran",
-        "city": "Tehran",
-        "lat": 35.6892,
-        "lon": 51.389,
-        "date": "2026-02-21 18:28:46",
-        "type": "Naval",
-        "title": "US ramps up military buildup in Middle East amid talks with Iran",
-        "description": "President Donald Trump said on Friday that limited strikes against Iran are possible even as the country’s top diplomat said Tehran expects to have a proposed deal ready in the next few days following nuclear talks with the United States. Trump's warning came as the USS Gerald R. Ford carrier strike group passed through the Strait of Gibraltar and entered the Mediterranean Sea after being sent by Trump from the Caribbean, according to images of t",
-        "fatalities": "0",
-        "link": "https://www.france24.com/en/us-ramps-up-military-buildup-in-middle-east-amid-talks-with-iran",
-        "critical": false
-    },
-    {
         "country": "Russia",
         "city": "Moscow",
         "lat": 55.7558,
@@ -1193,6 +1258,19 @@
         "description": "A video on an official government affiliated website reportedly showed the Sub Sea Baby drone striking a part of a Russian Kilo-class submarine.",
         "fatalities": "0",
         "link": "https://www.militarytimes.com/global/europe/2025/12/16/ukraines-first-underwater-drone-strike-caught-on-hacked-cameras/",
+        "critical": false
+    },
+    {
+        "country": "Iran",
+        "city": "Tehran",
+        "lat": 35.6892,
+        "lon": 51.389,
+        "date": "2026-02-21 18:28:46",
+        "type": "Naval",
+        "title": "US ramps up military buildup in Middle East amid talks with Iran",
+        "description": "President Donald Trump said on Friday that limited strikes against Iran are possible even as the country’s top diplomat said Tehran expects to have a proposed deal ready in the next few days following nuclear talks with the United States. Trump's warning came as the USS Gerald R. Ford carrier strike group passed through the Strait of Gibraltar and entered the Mediterranean Sea after being sent by Trump from the Caribbean, according to images of t",
+        "fatalities": "0",
+        "link": "https://www.france24.com/en/us-ramps-up-military-buildup-in-middle-east-amid-talks-with-iran",
         "critical": false
     },
     {
