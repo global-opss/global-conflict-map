@@ -5,6 +5,7 @@ import time
 import re
 import os
 from geopy.geocoders import Nominatim
+from bs4 import BeautifulSoup
 
 # =============================================================================
 # GLOBAL CONFLICT MONITOR BOT v9.5 - UNIVERSAL DIPLOMATIC ALERT SYSTEM
@@ -284,6 +285,7 @@ if __name__ == "__main__":
     run_bot()
     print(f"⏱️ Cycle Finished in {round(time.time() - start_time, 2)}s.")
     # Край на скрипта. Всички 250 реда са генерирани.
+
 
 
 
