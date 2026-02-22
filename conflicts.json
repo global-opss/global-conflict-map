@@ -1,5 +1,131 @@
 [
     {
+        "country": "Ukraine",
+        "city": "Kyiv",
+        "lat": 50.38701662672414,
+        "lon": 30.47505244295187,
+        "date": "2026-02-22 13:56:24",
+        "type": "Naval",
+        "severity": "normal",
+        "title": "Live: Hungary will block new EU sanctions on Russia over Ukraine oil dispute",
+        "description": "Hungary will block ⁠the European Union's ​next package of sanctions against Russia, its foreign minister said on Sunday, until Ukraine resumes shipments of Russian oil to Hungary and Slovakia ​via the Druzhba ‌pipeline, which has been cut off since January 27 after being damaged by a Russian drone, according to Kyiv. Follow our liveblog for the latest developments.",
+        "fatalities": "0",
+        "link": "https://www.france24.com/en/europe/20260222-live-russian-missiles-pound-kyiv-ahead-of-ukraine-war-anniversary",
+        "critical": false
+    },
+    {
+        "country": "Asia",
+        "city": "Afghanistan",
+        "lat": 34.62447594721875,
+        "lon": 69.20205421356489,
+        "date": "2026-02-22 13:56:22",
+        "type": "Airstrike",
+        "severity": "critical",
+        "title": "Pakistan launches border strikes on Afghanistan",
+        "description": "Islamabad said it carried out strikes along the border with Afghanistan early Sunday, targeting what it called hideouts of Pakistani militants it blamed for recent attacks inside Pakistan. The Afghan Red Crescent Society said more than a dozen people were killed. Pakistan didn't specify the locations targeted, but the Afghan defense ministry said in a statement “various civilian areas” in the provinces of Nangarhar and Paktika in eastern Afghanis",
+        "fatalities": "0",
+        "link": "https://www.france24.com/en/pakistan-launches-border-strikes-on-afghanistan",
+        "critical": true
+    },
+    {
+        "country": "USA",
+        "city": "Washington",
+        "lat": 38.927781411134575,
+        "lon": -77.10404925621104,
+        "date": "2026-02-22 13:56:22",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "St Francis relics on public display for first time in Italy",
+        "description": "Saint Francis of Assisi's skeleton is going on public display from Sunday for the first time for the 800th anniversary of his death, drawing hundreds of thousands of visitors. Inside a nitrogen-filled plexiglass case with the Latin inscription \"Corpus Sancti Francisci\" (The Body of St Francis), the remains are being shown in the Italian hill town's Basilica of St Francis of Assisi.",
+        "fatalities": "0",
+        "link": "https://www.france24.com/en/st-francis-relics-on-public-display-for-first-time-in-italy",
+        "critical": false
+    },
+    {
+        "country": "Africa",
+        "city": "Niger",
+        "lat": 13.861492666896313,
+        "lon": 5.2716330191404825,
+        "date": "2026-02-22 13:56:19",
+        "type": "Airstrike",
+        "severity": "critical",
+        "title": "Attackers kill dozens, abduct women and children in Nigeria",
+        "description": "Dozens are reported to have been killed and women and children abducted after armed men attacked a village in Nigeria.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/video/newsfeed/2026/2/22/attackers-kill-dozens-abduct-women-and-children-in-nigeria?traffic_source=rss",
+        "critical": true
+    },
+    {
+        "country": "Ukraine",
+        "city": "Kyiv",
+        "lat": 50.387900498169685,
+        "lon": 30.555500580502088,
+        "date": "2026-02-22 13:56:19",
+        "type": "Clashes",
+        "severity": "middle",
+        "title": "How four years of Ukraine war have changed Russia",
+        "description": "From curbs on rights to fewer choices at the market, the war has taken its toll. Still, support for it remains high.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/news/2026/2/22/how-four-years-of-ukraine-war-have-changed-russia?traffic_source=rss",
+        "critical": false
+    },
+    {
+        "country": "Israel",
+        "city": "Tel Aviv",
+        "lat": 32.126610048115076,
+        "lon": 34.76056916494142,
+        "date": "2026-02-22 13:56:19",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "UEFA and FIFA may get a red card at the ICC for ignoring Israeli violations",
+        "description": "A landmark referral of UEFA and FIFA leaders to the International Criminal Court could set an important legal precedent.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/opinions/2026/2/22/uefa-and-fifa-may-get-a-red-card-at-the-icc-for-ignoring-israeli-violations?traffic_source=rss",
+        "critical": false
+    },
+    {
+        "country": "Europe",
+        "city": "London",
+        "lat": 51.560310020901795,
+        "lon": -0.19063955367259305,
+        "date": "2026-02-22 13:56:17",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "LIVE: Tottenham Hotspur vs Arsenal – Premier League",
+        "description": "Follow the build-up, analysis and live text commentary of the game as Spurs host Arsenal for crucial North London derby.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/sports/liveblog/2026/2/22/live-tottenham-hotspur-vs-arsenal-premier-league?traffic_source=rss",
+        "critical": false
+    },
+    {
+        "country": "Ukraine",
+        "city": "Kyiv",
+        "lat": 50.46672307217619,
+        "lon": 30.457475530994675,
+        "date": "2026-02-22 13:56:15",
+        "type": "Airstrike",
+        "severity": "critical",
+        "title": "Explosions kill police officer and injure 25 in western Ukraine",
+        "description": "Twenty-five people were injured by explosions overnight in what officials are calling a terror attack.",
+        "fatalities": "0",
+        "link": "https://www.bbc.com/news/articles/clyz8d79djeo?at_medium=RSS&at_campaign=rss",
+        "critical": true
+    },
+    {
+        "country": "Ukraine",
+        "city": "Kyiv",
+        "lat": 50.503771813693795,
+        "lon": 30.56354759362495,
+        "date": "2026-02-22 13:56:10",
+        "type": "Airstrike",
+        "severity": "critical",
+        "title": "Russia Attacks Ukraine Ahead of Invasion’s 4th Anniversary",
+        "description": "At least one man was killed in Kyiv as Moscow launched a wave of drones and missiles, days after the latest round of U.S.-mediated talks to end the war.",
+        "fatalities": "0",
+        "link": "https://www.nytimes.com/2026/02/22/world/europe/ukraine-russia-attacks-lviv.html",
+        "critical": true
+    },
+    {
         "country": "USA",
         "city": "Washington",
         "lat": 38.86649705556895,
@@ -268,19 +394,6 @@
         "critical": false
     },
     {
-        "country": "Europe",
-        "city": "Paris",
-        "lat": 48.8787706,
-        "lon": 2.3222823,
-        "date": "2026-02-22 09:57:05",
-        "type": "Breaking News",
-        "title": "France's annual agricultural show gets underway in Paris",
-        "description": "The annual Paris agricultural show has gotten off to a rocky start this year, with the absence of cows for the first time in its history, following the outbreak of lumpy skin disease in 2025. But they're not the only ones missing, two major farmer unions have boycotted the traditional unions' meeting with President Macron, in protest over unstable incomes and the controversial EU-Mercorsur trade deal, which has pushed the farmers to a breaking po",
-        "fatalities": "0",
-        "link": "https://www.france24.com/en/france-s-annual-agricultural-show-gets-underway-in-paris",
-        "critical": false
-    },
-    {
         "country": "Russia",
         "city": "Moscow",
         "lat": 55.7558,
@@ -317,6 +430,19 @@
         "description": "A video on an official government affiliated website reportedly showed the Sub Sea Baby drone striking a part of a Russian Kilo-class submarine.",
         "fatalities": "0",
         "link": "https://www.militarytimes.com/global/europe/2025/12/16/ukraines-first-underwater-drone-strike-caught-on-hacked-cameras/",
+        "critical": false
+    },
+    {
+        "country": "Europe",
+        "city": "Paris",
+        "lat": 48.8787706,
+        "lon": 2.3222823,
+        "date": "2026-02-22 09:57:05",
+        "type": "Breaking News",
+        "title": "France's annual agricultural show gets underway in Paris",
+        "description": "The annual Paris agricultural show has gotten off to a rocky start this year, with the absence of cows for the first time in its history, following the outbreak of lumpy skin disease in 2025. But they're not the only ones missing, two major farmer unions have boycotted the traditional unions' meeting with President Macron, in protest over unstable incomes and the controversial EU-Mercorsur trade deal, which has pushed the farmers to a breaking po",
+        "fatalities": "0",
+        "link": "https://www.france24.com/en/france-s-annual-agricultural-show-gets-underway-in-paris",
         "critical": false
     },
     {
@@ -502,19 +628,6 @@
         "critical": false
     },
     {
-        "country": "Ukraine",
-        "city": "Kyiv",
-        "lat": 50.4501,
-        "lon": 30.5234,
-        "date": "2026-02-22 07:28:29",
-        "type": "Naval",
-        "title": "Live: Russian missiles pound Kyiv ahead of Ukraine war anniversary",
-        "description": "Russia ⁠attacked Kyiv with ballistic and cruise missiles as overnight strikes in the Black Sea port of Odesa and central Ukraine targeted energy infrastructure, Ukrainian military officials said Sunday. The attacks came just two days before the fourth anniversary of Russia's full-scale invasion of Ukraine. Follow our liveblog for the latest developments.",
-        "fatalities": "0",
-        "link": "https://www.france24.com/en/europe/20260222-live-russian-missiles-pound-kyiv-ahead-of-ukraine-war-anniversary",
-        "critical": false
-    },
-    {
         "country": "Asia",
         "city": "Afghanistan",
         "lat": 34.686023,
@@ -525,6 +638,19 @@
         "description": "Pakistan launched multiple cross-border strikes targeting \"terrorist training camps and hideouts\" in eastern Afghanistan, the information ministry said Sunday. Afghanistan's defence ministry said \"dozens\" of civilians, including women and children, were killed and wounded as tensions between the two countries escalated at the start of the Muslim holy month of Ramadan.",
         "fatalities": "0",
         "link": "https://www.france24.com/en/asia-pacific/20260222-pakistan-launches-deadly-strikes-in-afghanistan",
+        "critical": false
+    },
+    {
+        "country": "Ukraine",
+        "city": "Kyiv",
+        "lat": 50.4501,
+        "lon": 30.5234,
+        "date": "2026-02-22 07:28:29",
+        "type": "Naval",
+        "title": "Live: Russian missiles pound Kyiv ahead of Ukraine war anniversary",
+        "description": "Russia ⁠attacked Kyiv with ballistic and cruise missiles as overnight strikes in the Black Sea port of Odesa and central Ukraine targeted energy infrastructure, Ukrainian military officials said Sunday. The attacks came just two days before the fourth anniversary of Russia's full-scale invasion of Ukraine. Follow our liveblog for the latest developments.",
+        "fatalities": "0",
+        "link": "https://www.france24.com/en/europe/20260222-live-russian-missiles-pound-kyiv-ahead-of-ukraine-war-anniversary",
         "critical": false
     },
     {
@@ -905,19 +1031,6 @@
         "critical": false
     },
     {
-        "country": "China",
-        "city": "Beijing",
-        "lat": 39.9057136,
-        "lon": 116.3912972,
-        "date": "2026-02-21 18:41:07",
-        "type": "Breaking News",
-        "title": "At A.I. Summit, India Tries to Find a Way Between the U.S. and China",
-        "description": "India is using technology as a tool of foreign policy, casting itself as a moral voice for smaller, developing countries.",
-        "fatalities": "0",
-        "link": "https://www.nytimes.com/2026/02/21/world/asia/ai-summit-india-foreign-policy.html",
-        "critical": false
-    },
-    {
         "country": "Russia",
         "city": "Moscow",
         "lat": 55.7558,
@@ -954,6 +1067,19 @@
         "description": "Nasrallah Abu Siyam was the sixth American citizen killed by Israeli settlers or soldiers in the West Bank in the last two years.",
         "fatalities": "0",
         "link": "https://www.bbc.com/news/articles/cvgk7z15gnpo?at_medium=RSS&at_campaign=rss",
+        "critical": false
+    },
+    {
+        "country": "China",
+        "city": "Beijing",
+        "lat": 39.9057136,
+        "lon": 116.3912972,
+        "date": "2026-02-21 18:41:07",
+        "type": "Breaking News",
+        "title": "At A.I. Summit, India Tries to Find a Way Between the U.S. and China",
+        "description": "India is using technology as a tool of foreign policy, casting itself as a moral voice for smaller, developing countries.",
+        "fatalities": "0",
+        "link": "https://www.nytimes.com/2026/02/21/world/asia/ai-summit-india-foreign-policy.html",
         "critical": false
     },
     {
