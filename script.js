@@ -201,7 +201,18 @@ fetch('https://raw.githubusercontent.com/datasets/geo-boundaries-world-110m/mast
         { name: "Sevastopol Naval Base", type: "ru-naval", lat: 44.616, lon: 33.525, description: "Black Sea Fleet HQ. ASSETS: Kilo-class submarines, Kalibr missile carriers. Logistics & repair hub." },
         { name: "Shaykovka Air Base", type: "ru-air", lat: 54.225, lon: 34.375, description: "Long-Range Aviation. ASSETS: Tu-22M3 Supersonic Bombers. Frequent deployment to Ukraine front." },
         { name: "Tatishchevo Missile Site", type: "ru-missile", lat: 51.666, lon: 45.584, description: "60th Missile Division. ASSETS: Topol-M and UR-100N UTTKh ICBMs. Hardened silo infrastructure." },
-        { name: "Belbek Air Base (Crimea)", type: "ru-air", lat: 44.685, lon: 33.575, description: "Forward Interceptor Base. ASSETS: Su-27, Su-30SM, Su-35S. Primary Air Defense for Crimea." }
+        { name: "Belbek Air Base (Crimea)", type: "ru-air", lat: 44.685, lon: 33.575, description: "Forward Interceptor Base. ASSETS: Su-27, Su-30SM, Su-35S. Primary Air Defense for Crimea." },
+        { name: "Bakhmut Sector", type: "ua-infantry", lat: 48.594, lon: 38.000, description: "Heavy attrition zone. Deeply fortified Russian and Ukrainian positions. Active artillery duels." },
+        { name: "Avdiivka Fortifications", type: "ua-infantry", lat: 48.145, lon: 37.750, description: "Key industrial defense hub. Continuous assault operations and heavy drone surveillance area." },
+        { name: "Kupiansk Axis", type: "ua-infantry", lat: 49.711, lon: 37.611, description: "Northern front stabilizer. Strategic rail hub. High concentration of armored units." },
+        { name: "Robotyne Breach", type: "ua-infantry", lat: 47.445, lon: 35.836, description: "Southern offensive sector. Dense minefields (Surovikin Line) and trench warfare." },
+        { name: "Starokostiantyniv AB", type: "ua-air", lat: 49.747, lon: 27.268, description: "7th Tactical Aviation Brigade. ASSETS: Su-24M equipped with Storm Shadow / SCALP-EG missiles." },
+        { name: "Mirgorod Air Base", type: "ua-air", lat: 49.931, lon: 33.641, description: "ASSETS: Su-27 Flankers. Primary air defense and interceptor hub for Central Ukraine." },
+        { name: "Krynky Bridgehead", type: "ua-infantry", lat: 46.733, lon: 33.095, description: "Amphibious operations zone. High intensity electronic warfare (EW) and FPV drone activity." },
+        { name: "Odessa Port Defense", type: "ua-naval", lat: 46.485, lon: 30.743, description: "Maritime Security Zone. ASSETS: Harpoon & Neptune ASM batteries. Protection of grain corridor." },
+        { name: "Zaporizhzhia NPP", type: "incidents", lat: 47.511, lon: 34.585, description: "CRITICAL: Largest nuclear plant in Europe. Under occupation. High risk of sabotage or incident." },
+        { name: "Chornobaivka Airfield", type: "ua-air", lat: 46.675, lon: 32.506, description: "Logistics and rotary wing base. Critical for controlling the Southern Kherson direction." },
+        { name: "Hostomel (Antonov) Site", type: "ua-air", lat: 50.588, lon: 30.211, description: "Strategic airfield. Symbols of early resistance. Current logistics and repair hub." }
     ];
 // --- СЕКЦИЯ: ВРЕДНИ ЗОНИ (ОБХВАТ НА УДАР) ---
 strategicAssets.forEach(asset => {
