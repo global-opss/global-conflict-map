@@ -519,3 +519,22 @@ strategicAssets.forEach(asset => {
     console.log(">> Tactical Search System: Operational");
 
 }; // КРАЙ НА WINDOW.ONLOAD
+// Функция за автоматично засичане на локацията по IP
+async function detectUserLocation() {
+    try {
+        const response = await fetch('https://ipapi.co/json/');
+        const data = await response.json();
+        
+        if (data.country_name) {
+            // Обновява текста в горната лента
+            document.getElementById('user-location').innerText = data.country_name.toUpperCase();
+            console.log("Operator Location Identified: " + data.country_name);
+        }
+    } catch (error) {
+        console.log("Location detection failed. Defaulting to BULGARIA.");
+        document.getElementById('user-location').innerText = "BULGARIA";
+    }
+}
+
+// Стартиране на функцията
+detectUserLocation();
