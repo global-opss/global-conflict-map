@@ -437,9 +437,10 @@ function updateDashboardStats() {
                 else { threatLevel.innerText = "LOW"; threatLevel.style.color = "#39FF14"; }
             }
         });
-}
+} // ред 440
+} // ред 441 - ТАЗИ СКОБА ЗАТВАРЯ ВСИЧКО ПРЕДИШНО
 
-// 1. Първо сложи командите за стартиране
+// 1. Първо сложи командите за стартиране (СЕГА СА НАВЪН)
 updateDashboardStats();
 syncTacticalData();
 
@@ -448,6 +449,4 @@ setInterval(() => {
     updateDashboardStats();
     syncTacticalData();
 }, 30000);
-
-// 3. НАЙ-НАКРАЯ сложи затварящата скоба, която добави на ред 451
-}
+// КРАЙ НА ФАЙЛА - БЕЗ ПОВЕЧЕ СКОБИ ТУК
