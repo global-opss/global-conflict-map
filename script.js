@@ -65,6 +65,7 @@ function playTacticalPing() {
       oscillator.start();
       oscillator.stop(audioCtx.currentTime + 0.5);
   } 
+let map; // Сложи го точно тук на нов ред
   window.onload = function() {
     
     // ПАМЕТ НА СИСТЕМАТА ЗА ГОРЕЩИ СЪБИТИЯ
@@ -73,7 +74,7 @@ function playTacticalPing() {
 
     // --- СЕКЦИЯ 1: КОНФИГУРАЦИЯ НА КАРТАТА ---
     // Настройваме координатите за централен изглед към Евразия и Близкия изток
-    const map = L.map('map', {
+    map = L.map('map', {
         worldCopyJump: true,    // Позволява безкрайно превъртане на изток/запад
         zoomControl: true,      // Стандартни бутони за навигация
         attributionControl: false, // Премахване на лога за по-чист интерфейс
