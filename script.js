@@ -805,6 +805,66 @@ style.innerHTML = `
 document.head.appendChild(style);
 
 console.log(">> TACTICAL SYSTEMS: Radar, Audio, and Terminal Interface INITIALIZED");
+
+// =============================================================================
+// --- СИСТЕМА ЗА МОНИТОРИНГ НА ВЪЗДУШНИЯ ТРАФИК (ADS-B LIVE FEED) ---
+// ОПИСАНИЕ: Управлява модалния прозорец и зареждането на военния радар.
+// =============================================================================
+function toggleAirTraffic() {
+    const modal = document.getElementById('trafficModal');
+    const iframe = document.getElementById('trafficFrame');
+    const panelText = document.querySelector('#extra-tools-panel span');
+    const statusDot = document.querySelector('#extra-tools-panel div');
+    
+    // Линк към ADS-B Exchange с активиран военен филтър (&mil)
+    const adsbUrl = "https://globe.adsbexchange.com/?lat=42.7&lon=25.5&zoom=7&enableLabels&showTrace&mil";
+
+    if (!modal) {
+        console.error(">> SYSTEM ERROR: Traffic Modal not found in HTML!");
+        return;
+    }
+
+    if (modal.style.display === "none" || modal.style.display === "") {
+        // --- ДЕЙСТВИЕ: ОТВАРЯНЕ ---
+        modal.style.display = "block";
+        
+        // Зареждаме съдържанието само при отваряне за по-висока производителност
+        if (iframe && (iframe.src === "" || iframe.src !== adsbUrl)) {
+            iframe.src = adsbUrl;
+        }
+
+        // Визуална индикация за активност
+        if (panelText) {
+            panelText.innerHTML = "📡 AIR TRAFFIC MONITORING [ONLINE]";
+            panelText.style.color = "#00ff00"; // Светва в зелено
+        }
+        if (statusDot) {
+            statusDot.style.backgroundColor = "#00ff00";
+            statusDot.style.boxShadow = "0 0 15px #00ff00";
+        }
+        
+        console.log(">> SYSTEM: Air Traffic Monitoring - LINK ESTABLISHED.");
+        
+    } else {
+        // --- ДЕЙСТВИЕ: ЗАТВАРЯНЕ ---
+        modal.style.display = "none";
+        
+        // Спираме източника, за да освободим процесора и паметта
+        if (iframe) iframe.src = ""; 
+
+        // Връщаме стандартния "стендбай" изглед
+        if (panelText) {
+            panelText.innerHTML = "📡 AIR TRAFFIC MONITORING [OFFLINE]";
+            panelText.style.color = "#ff3131";
+        }
+        if (statusDot) {
+            statusDot.style.backgroundColor = "#ff3131";
+            statusDot.style.boxShadow = "0 0 10px #ff3131";
+        }
+
+        console.log(">> SYSTEM: Air Traffic Monitoring - CONNECTION TERMINATED.");
+    }
+}
 console.log(">> STATUS: Monitoring Global Sectors for updates...");
 
 // Край на ъпгрейда
