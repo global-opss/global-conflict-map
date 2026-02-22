@@ -71,7 +71,7 @@ function playTacticalPing() {
 
     L.control.layers(null, weatherOverlays, { 
         collapsed: true, 
-        position: 'topmiddle' 
+        position: 'topright' 
     }).addTo(map);
     // ===========================================
     // ИЗБОР НА ТАКТИЧЕСКИ ТАЙЛОВЕ (DARK MATTER)
