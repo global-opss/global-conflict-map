@@ -32,7 +32,7 @@ function playTacticalPing() {
     const oscillator = audioCtx.createOscillator();
     const gainNode = audioCtx.createGain();
 
-    oscillator.type = 'sine'tacticall_error_test(); 
+    oscillator.type = 'sine';
     oscillator.frequency.setValueAtTime(880, audioCtx.currentTime); 
     
     gainNode.gain.setValueAtTime(0.1, audioCtx.currentTime);
