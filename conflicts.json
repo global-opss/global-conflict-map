@@ -1,5 +1,19 @@
 [
     {
+        "country": "USA",
+        "city": "Washington",
+        "lat": 38.9566101187824,
+        "lon": -77.03337349138282,
+        "date": "2026-02-22 23:55:14",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Over 200 Venezuelan political prisoners launch hunger strike over amnesty law exclusions",
+        "description": "More than 200 Venezuelan political prisoners began a hunger strike on Sunday, demanding inclusion in a new amnesty law they say excludes many detainees, particularly those facing military-related charges. The law, approved by Congress last week, forms part of reforms backed by Washington after former president Nicolas Maduro’s January ouster.",
+        "fatalities": "0",
+        "link": "https://www.france24.com/en/americas/20260222-200-venezuelan-political-prisoners-hunger-strike-amnesty-law-exclusions",
+        "critical": false
+    },
+    {
         "country": "Israel",
         "city": "Gaza",
         "lat": 31.518795538899774,
