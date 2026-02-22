@@ -153,3 +153,26 @@ iframe {
     0% { transform: translate(0, 0); }
     100% { transform: translate(-100%, 0); }
 }
+/* 10. TACTICAL GLASS POPUP - FINAL BUILD */
+.leaflet-popup-content-wrapper, .leaflet-popup-tip {
+    background: rgba(5, 5, 5, 0.5) !important; /* Полупрозрачно черно */
+    backdrop-filter: blur(12px) saturate(180%) !important; /* СТЪКЛЕН ЕФЕКТ */
+    -webkit-backdrop-filter: blur(12px) !important;
+    border: 1px solid rgba(57, 255, 20, 0.4) !important; /* Неоново зелен кант */
+    color: #fff !important;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.9) !important;
+    border-radius: 2px !important;
+}
+
+/* Оптимизация на текста вътре */
+.leaflet-popup-content {
+    margin: 12px !important;
+    font-family: 'Courier New', monospace !important;
+}
+
+/* Стил за бутона за затваряне */
+.leaflet-popup-close-button {
+    color: #39FF14 !important;
+    top: 5px !important;
+    right: 5px !important;
+}
