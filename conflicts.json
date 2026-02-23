@@ -1,5 +1,47 @@
 [
     {
+        "country": "Europe",
+        "city": "London",
+        "lat": 51.56443356515652,
+        "lon": -0.18222536532056643,
+        "date": "2026-02-23 20:09:15",
+        "type": "Nuclear",
+        "severity": "critical",
+        "title": "Amid Epstein scrutiny, ex-UK ambassador Mandelson arrested by British police",
+        "description": "London police say he faces suspicions of 'misconduct in public office'; comes week after arrest of ex-prince Andrew as fallout from American sex-offenders ties hits UK hardest\nThe post Amid Epstein scrutiny, ex-UK ambassador Mandelson arrested by British police appeared first on The Times of Israel.",
+        "fatalities": "0",
+        "link": "https://www.timesofisrael.com/amid-epstein-scrutiny-ex-uk-ambassador-mandelson-arrested-by-british-police/",
+        "critical": true
+    },
+    {
+        "country": "Ukraine",
+        "city": "Kyiv",
+        "lat": 50.416374349793756,
+        "lon": 30.516244954542085,
+        "date": "2026-02-23 20:08:42",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "EU sanctions Russian officials as Hungary blocks funds to Ukraine",
+        "description": "European Union fails to approve further Russia sanctions and a $106bn loan to Ukraine after Hungary refuses to agree.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/news/2026/2/23/eu-sanctions-russian-officials-as-hungary-blocks-funds-to-ukraine?traffic_source=rss",
+        "critical": false
+    },
+    {
+        "country": "Israel",
+        "city": "Tel Aviv",
+        "lat": 32.08797194529753,
+        "lon": 34.73475765919325,
+        "date": "2026-02-23 20:08:42",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Israeli settlers vandalise, torch mosque in occupied West Bank",
+        "description": "Palestinian Authoritys Ministry of Religious Affairs says Israeli settlers defaced and set fire to a mosque.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/video/newsfeed/2026/2/23/israeli-settlers-vandalise-torch-mosque-in-occupied-west-bank?traffic_source=rss",
+        "critical": false
+    },
+    {
         "country": "Israel",
         "city": "Tel Aviv",
         "lat": 32.07534268065995,
@@ -1176,6 +1218,20 @@
         "critical": false
     },
     {
+        "country": "Europe",
+        "city": "Brussels",
+        "lat": 50.833220887031054,
+        "lon": 4.405982333136647,
+        "date": "2026-02-23 17:18:12",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "The European Union Hits Pause on Its U.S. Trade Deal",
+        "description": "The 27-nation bloc isn’t throwing out the deal it struck with the United States, but officials want more clarity before they implement it.",
+        "fatalities": "0",
+        "link": "https://www.nytimes.com/2026/02/23/world/europe/eu-us-trade-deal-pause-tariffs.html",
+        "critical": false
+    },
+    {
         "country": "USA",
         "city": "Washington",
         "lat": 38.95544450213842,
@@ -1215,20 +1271,6 @@
         "description": "Ukraine's president sat down with the BBC's Jeremy Bowen in Kyiv days before the four-year anniversary of the war.",
         "fatalities": "0",
         "link": "https://www.bbc.com/news/articles/cvgj9p15y87o?at_medium=RSS&at_campaign=rss",
-        "critical": false
-    },
-    {
-        "country": "Europe",
-        "city": "Brussels",
-        "lat": 50.833220887031054,
-        "lon": 4.405982333136647,
-        "date": "2026-02-23 17:18:12",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "The European Union Hits Pause on Its U.S. Trade Deal",
-        "description": "The 27-nation bloc isn’t throwing out the deal it struck with the United States, but officials want more clarity before they implement it.",
-        "fatalities": "0",
-        "link": "https://www.nytimes.com/2026/02/23/world/europe/eu-us-trade-deal-pause-tariffs.html",
         "critical": false
     },
     {
@@ -1288,20 +1330,6 @@
         "critical": true
     },
     {
-        "country": "Israel",
-        "city": "Tel Aviv",
-        "lat": 32.085887321185595,
-        "lon": 34.84665823666199,
-        "date": "2026-02-23 17:18:08",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Arab Leaders Condemn Remarks by U.S. Ambassador to Israel",
-        "description": "The ambassador, Mike Huckabee, seemed to endorse Israeli control of lands stretching from Egypt to Iraq. He said his comments were taken out of context.",
-        "fatalities": "0",
-        "link": "https://www.nytimes.com/2026/02/22/world/middleeast/huckabee-israel-tucker-carlson.html",
-        "critical": false
-    },
-    {
         "country": "Iran",
         "city": "Tehran",
         "lat": 35.65295817838899,
@@ -1314,6 +1342,20 @@
         "fatalities": "0",
         "link": "https://www.nytimes.com/2026/02/22/world/middleeast/iran-larijani-khamenei-pezeshkian.html",
         "critical": true
+    },
+    {
+        "country": "Israel",
+        "city": "Tel Aviv",
+        "lat": 32.085887321185595,
+        "lon": 34.84665823666199,
+        "date": "2026-02-23 17:18:08",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Arab Leaders Condemn Remarks by U.S. Ambassador to Israel",
+        "description": "The ambassador, Mike Huckabee, seemed to endorse Israeli control of lands stretching from Egypt to Iraq. He said his comments were taken out of context.",
+        "fatalities": "0",
+        "link": "https://www.nytimes.com/2026/02/22/world/middleeast/huckabee-israel-tucker-carlson.html",
+        "critical": false
     },
     {
         "country": "Ukraine",
