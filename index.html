@@ -101,7 +101,7 @@
             </div>
             <div style="text-align: center; flex: 1;">
                 <div style="font-size: 16px; font-weight: bold; letter-spacing: 2px;">🌐 GLOBAL CONFLICT DASHBOARD</div>
-                <div>STATUS: ACTIVE | LOCATION: <span id="user-location">DETECTING...</span></div>
+                <div>STATUS: ACTIVE | LOCATION: <span id="user-location">DETECTING...</span> | <span style="color: #888;">VISITORS:</span> <span id="visitor-stats-top" style="color: #39FF14;">0</span></div>
             </div>
             <div style="font-size: 10px; color: #888; text-transform: uppercase; text-align: right; flex: 1;">
                 EVENTS (24H): <span id="active-events" style="color:#39FF14">11</span> | THREAT: <span style="color: #ff3131;">ELEVATED</span>
@@ -274,30 +274,25 @@
     </div>
 
     <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
-    <script src="script.js"></script>
+      <script src="script.js"></script>
+<script>
+    async function updateOnlineCounter() {
+        try {
+            // Използваме стабилно API за 2026 година
+            const response = await fetch('https://api.counterapi.dev/v1/nasko-military-map-2026/hits/up');
+            const data = await response.json();
+            
+            const statsElement = document.getElementById('visitor-stats-top');
+            if (statsElement) {
+                statsElement.innerText = `VISITORS: ${data.count}`;
+            }
+        } catch (err) {
+            console.log("System Link Error: Броячът е офлайн.");
+        }
+    }
+    updateOnlineCounter();
+    setInterval(updateOnlineCounter, 30000); // Обновява на 30 секунди
+</script>
 </body>
 </html>
-<div id="visitor-stats" style="position: fixed; bottom: 20px; left: 20px; z-index: 9999; background: rgba(0,0,0,0.8); color: #00ff00; padding: 8px 12px; border-radius: 8px; font-family: 'Courier New', monospace; font-size: 13px; border: 1px solid #333;">
-    <span style="color: #888;">Total Visits:</span> <span id="online-count">...</span>
-</div>
 
-<script>
-    function updateCounter() {
-        // Използваме услугата на countapi.it (актуална за 2026)
-        // Сменил съм ключа на "nasko_military_map_2026", за да е уникален
-        fetch('https://countapi.it/hit/nasko_military_map_2026/visits')
-            .then(res => {
-                if (!res.ok) throw new Error();
-                return res.json();
-            })
-            .then(data => {
-                document.getElementById('online-count').innerText = data.value;
-            })
-            .catch(err => {
-                // Ако API-то се провали, ще покаже "Active", за да не загрозява
-                document.getElementById('online-count').innerText = "Active";
-                console.log("Counter error:", err);
-            });
-    }
-    updateCounter();
-</script>
