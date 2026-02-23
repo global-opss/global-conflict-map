@@ -2,6 +2,20 @@
     {
         "country": "Israel",
         "city": "Tel Aviv",
+        "lat": 32.05464822730791,
+        "lon": 34.76286486394317,
+        "date": "2026-02-23 19:31:41",
+        "type": "Airstrike",
+        "severity": "critical",
+        "title": "Jewish Settlers in the Israeli-Occupied West Bank Drive a Palestinian Family Off Its Land",
+        "description": "For two years, settlers attacked Rezeq Abu Naim’s land in the Israeli-occupied West Bank at all hours and in all manners. After another violent incursion over the weekend, his family abandoned their home.",
+        "fatalities": "0",
+        "link": "https://www.nytimes.com/2026/02/23/world/palestinian-west-bank-settlers-displacement.html",
+        "critical": true
+    },
+    {
+        "country": "Israel",
+        "city": "Tel Aviv",
         "lat": 32.12272307154606,
         "lon": 34.813992296778245,
         "date": "2026-02-23 19:16:33",
@@ -924,20 +938,6 @@
         "critical": false
     },
     {
-        "country": "Europe",
-        "city": "Brussels",
-        "lat": 50.833220887031054,
-        "lon": 4.405982333136647,
-        "date": "2026-02-23 17:18:12",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "The European Union Hits Pause on Its U.S. Trade Deal",
-        "description": "The 27-nation bloc isn’t throwing out the deal it struck with the United States, but officials want more clarity before they implement it.",
-        "fatalities": "0",
-        "link": "https://www.nytimes.com/2026/02/23/world/europe/eu-us-trade-deal-pause-tariffs.html",
-        "critical": false
-    },
-    {
         "country": "Ukraine",
         "city": "Kyiv",
         "lat": 50.51403868138217,
@@ -977,6 +977,20 @@
         "description": "Steve Witkoff says the president is puzzled why Iran has not yet compromised in the face of a major US military build-up nearby.",
         "fatalities": "0",
         "link": "https://www.bbc.com/news/articles/cn5gk15rr70o?at_medium=RSS&at_campaign=rss",
+        "critical": false
+    },
+    {
+        "country": "Europe",
+        "city": "Brussels",
+        "lat": 50.833220887031054,
+        "lon": 4.405982333136647,
+        "date": "2026-02-23 17:18:12",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "The European Union Hits Pause on Its U.S. Trade Deal",
+        "description": "The 27-nation bloc isn’t throwing out the deal it struck with the United States, but officials want more clarity before they implement it.",
+        "fatalities": "0",
+        "link": "https://www.nytimes.com/2026/02/23/world/europe/eu-us-trade-deal-pause-tariffs.html",
         "critical": false
     },
     {
