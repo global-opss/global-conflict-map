@@ -299,7 +299,13 @@ fetch('https://raw.githubusercontent.com/datasets/geo-boundaries-world-110m/mast
         { name: "USS Stockdale", type: "us-naval", lat: 12.75, lon: 43.15, description: "Arleigh Burke-class destroyer. Active intercept missions in the Bab el-Mandeb Strait." },
         { name: "IRIS Shahid Bagheri", type: "ir-naval", lat: 27.10, lon: 56.40, description: "IRGC Drone Carrier. Monitoring traffic in the Strait of Hormuz." },
         { name: "HMS Diamond", type: "uk-naval", lat: 14.90, lon: 41.80, description: "UK Royal Navy Destroyer. Counter-drone operations in the Southern Red Sea." },
-        { name: "FS Charles de Gaulle", type: "fr-naval", lat: 35.10, lon: 18.20, description: "French Carrier Strike Group. Conducting maritime security drills in the Ionian Sea." }
+        { name: "FS Charles de Gaulle", type: "fr-naval", lat: 35.10, lon: 18.20, description: "French Carrier Strike Group. Conducting maritime security drills in the Ionian Sea." },
+        { name: "USS Spruance", type: "us-naval", lat: 22.15, lon: 60.85, description: "Arleigh Burke-class destroyer. Providing advanced Anti-Air Warfare (AAW) escort for CVN-72." },
+        { name: "USS Frank E. Petersen Jr.", type: "us-naval", lat: 23.45, lon: 59.30, description: "Arleigh Burke-class destroyer. Conducting maritime security operations and monitoring Iranian coastal activity in the Gulf of Oman." },
+        { name: "USS Stockdale", type: "us-naval", lat: 12.75, lon: 43.15, description: "Arleigh Burke-class destroyer. Forward-deployed in the Bab el-Mandeb Strait for counter-drone and ballistic missile defense." },
+        { name: "USS O'Kane", type: "us-naval", lat: 25.20, lon: 56.80, description: "Arleigh Burke-class destroyer. Patrolling the entrance of the Strait of Hormuz to ensure freedom of navigation." },
+        { name: "IRIS Shahid Bagheri", type: "ir-naval", lat: 27.10, lon: 56.40, description: "IRGC Drone Carrier. Strategically positioned in the Strait of Hormuz to monitor US and allied naval transits." },
+        { name: "IRIS Alborz", type: "ir-naval", lat: 13.50, lon: 42.90, description: "Iranian Alvand-class frigate. Operating in the Red Sea, monitoring US naval assets near the Houthi-controlled zones." }
     ];
 // --- СЕКЦИЯ: ВРЕДНИ ЗОНИ (ОБХВАТ НА УДАР) ---
 strategicAssets.forEach(asset => {
