@@ -277,31 +277,39 @@
       <script src="script.js"></script>
 <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
 <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-database.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-auth.js"></script>
 
 <script>
-  // Конфигурация за публичен брояч (Live)
   const firebaseConfig = {
     databaseURL: "https://military-map-live-default-rtdb.europe-west1.firebasedatabase.app"
   };
-  
-  // Стартиране на системата
+
   if (!firebase.apps.length) { firebase.initializeApp(firebaseConfig); }
   const db = firebase.database();
-  const countRef = db.ref("live_visitors");
+  const auth = firebase.auth();
 
-  // Функция за влизане и автоматично излизане
-  const userRef = countRef.push();
-  userRef.set(true);
-  // Магията: Когато човек затвори сайта, сървърът го трие веднага
-  userRef.onDisconnect().remove();
+  // Анонимно влизане, за да ни пусне базата данни
+  auth.signInAnonymously().then(() => {
+    const countRef = db.ref("live_visitors");
+    const userRef = countRef.push();
+    
+    // Добавя ни в списъка
+    userRef.set(true);
+    // Магията: Когато затвориш сайта, те трие веднага (10 -> 8)
+    userRef.onDisconnect().remove();
 
-  // Слушател: Обновява числото горе в лентата веднага щом някой влезе или излезе
-  countRef.on("value", (snap) => {
-    const totalOnline = snap.numChildren();
-    const statsElement = document.getElementById('visitor-stats-top');
-    if (statsElement) {
-      statsElement.innerText = `VISITORS ONLINE: ${totalOnline}`;
-    }
+    // Слушател за промени в реално време
+    countRef.on("value", (snap) => {
+      const totalOnline = snap.numChildren();
+      const statsElement = document.getElementById('visitor-stats-top');
+      if (statsElement) {
+        // Показваме реалната бройка
+        statsElement.innerText = `VISITORS ONLINE: ${totalOnline}`;
+      }
+    });
+  }).catch(err => {
+    console.error("Auth error:", err);
+    document.getElementById('visitor-stats-top').innerText = "VISITORS ONLINE: 1";
   });
 </script>
 </body>
