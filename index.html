@@ -255,67 +255,62 @@
     <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
       <script src="script.js"></script>
 <script>
- /* ================================
-   GLOBAL REAL ONLINE USERS SYSTEM
-   ================================ */
+<script type="module">
+import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.0/firebase-app.js";
+import { getDatabase, ref, set, onValue, onDisconnect } 
+from "https://www.gstatic.com/firebasejs/10.12.0/firebase-database.js";
 
-const UPDATE_INTERVAL = 5000;     // 5 секунди
-const ONLINE_TIMEOUT  = 20000;    // 20 секунди активност
-const namespace = "nasko-military-terminal-2026";
-const keyPrefix = "live_user_";
+// ===== ТВОЯТ FIREBASE CONFIG =====
+const firebaseConfig = {
+  apiKey: "AIzaSyD6Ug0iMOYLZ7vKUTZxQDA-kGGB_SuXHA4",
+  authDomain: "global-ops-61273.firebaseapp.com",
+  databaseURL: "https://global-ops-61273-default-rtdb.firebaseio.com",
+  projectId: "global-ops-61273",
+  storageBucket: "global-ops-61273.firebasestorage.app",
+  messagingSenderId: "508669016802",
+  appId: "1:508669016802:web:929728ac2564c78b3dfcbb",
+  measurementId: "G-Z5D9MBMWC5"
+};
 
-// ===== УНИКАЛЕН USER ID =====
+// ===== INIT =====
+const app = initializeApp(firebaseConfig);
+const db = getDatabase(app);
+
+// ===== USER ID =====
 let userId = localStorage.getItem("terminal_user_id");
 
 if (!userId) {
-    userId = "GUEST_" + Math.floor(Math.random() * 1000000);
-    localStorage.setItem("terminal_user_id", userId);
+  userId = "GUEST_" + Math.floor(Math.random() * 1000000);
+  localStorage.setItem("terminal_user_id", userId);
 }
 
 document.addEventListener("DOMContentLoaded", () => {
-    const display = document.getElementById("user-id-display");
-    if (display) display.innerText = userId;
+  const display = document.getElementById("user-id-display");
+  if (display) display.innerText = userId;
 });
 
-// ===== HEARTBEAT =====
-async function updateOnlineUsers() {
-    try {
+// ===== PRESENCE SYSTEM =====
+const userRef = ref(db, "onlineUsers/" + userId);
 
-        // 1️⃣ Обновяваме timestamp за текущия user
-        await fetch(`https://api.counterapi.dev/v1/${namespace}/${keyPrefix + userId}/hits/up`);
-
-        // 2️⃣ Взимаме списък с всички активни ключове
-        const response = await fetch(`https://api.counterapi.dev/v1/${namespace}?list=true`);
-        if (!response.ok) throw new Error("List fetch failed");
-
-        const data = await response.json();
-
-        let onlineCount = 0;
-        const now = Date.now();
-
-        for (const key in data) {
-            if (!key.startsWith(keyPrefix)) continue;
-
-            const updated = new Date(data[key].updated_at).getTime();
-            if (now - updated <= ONLINE_TIMEOUT) {
-                onlineCount++;
-            }
-        }
-
-        // 3️⃣ Показваме резултата
-        const stats = document.getElementById("visitor-stats-top");
-        if (stats) stats.innerText = onlineCount;
-
-    } catch (err) {
-        console.error("Online tracking error:", err);
-    }
-}
-
-// ===== СТАРТ =====
-document.addEventListener("DOMContentLoaded", () => {
-    updateOnlineUsers();
-    setInterval(updateOnlineUsers, UPDATE_INTERVAL);
+// Когато влезе
+set(userRef, {
+  online: true,
+  lastActive: Date.now()
 });
 
-console.log("GLOBAL ONLINE SYSTEM: ACTIVE");
+// Когато затвори таба → автоматично се маха
+onDisconnect(userRef).remove();
+
+// ===== LIVE COUNT =====
+const onlineRef = ref(db, "onlineUsers");
+
+onValue(onlineRef, (snapshot) => {
+  const data = snapshot.val();
+  const count = data ? Object.keys(data).length : 0;
+
+  const stats = document.getElementById("visitor-stats-top");
+  if (stats) stats.innerText = count;
+});
+
+console.log("🔥 FIREBASE REAL LIVE USERS ACTIVE");
 </script>
