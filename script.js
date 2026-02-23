@@ -877,3 +877,22 @@ document.onkeydown = function(e) {
 };
 
 console.log(">> SYSTEM: All Monitoring Modules are READY and ONLINE.");
+<script>
+function togglePanel(panelId) {
+    const panel = document.getElementById(panelId);
+    // Намираме съдържанието на панела (всичко след хедъра)
+    const content = panel.querySelector('.panel-content') || panel.querySelector('iframe');
+    
+    if (content) {
+        if (content.style.display === 'none') {
+            // Показване
+            content.style.display = 'block';
+            panel.style.height = ""; // Връща оригиналната височина от CSS
+        } else {
+            // Скриване
+            content.style.display = 'none';
+            panel.style.height = "32px"; // Свива панела само до височината на хедъра
+        }
+    }
+}
+</script>
