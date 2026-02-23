@@ -1,5 +1,47 @@
 [
     {
+        "country": "Russia",
+        "city": "Moscow",
+        "lat": 55.82188654620182,
+        "lon": 37.58026171128284,
+        "date": "2026-02-23 12:45:30",
+        "type": "Clashes",
+        "severity": "middle",
+        "title": "Experts worry about nuclear quid pro quo in Russia-North Korea alliance against Ukraine",
+        "description": "Analysts differ on the question of whether Moscow would trade away highly sensitive nuclear submarine technology in exchange for battlefield support.",
+        "fatalities": "0",
+        "link": "https://www.defensenews.com/global/europe/2026/02/20/experts-worry-about-nuclear-quid-pro-quo-in-russia-north-korea-alliance-against-ukraine/",
+        "critical": false
+    },
+    {
+        "country": "Russia",
+        "city": "Moscow",
+        "lat": 55.80050016421263,
+        "lon": 37.58649985442788,
+        "date": "2026-02-23 12:45:30",
+        "type": "Clashes",
+        "severity": "middle",
+        "title": "Estonia begins buying hundreds of pop-up bunkers to fortify border with Russia",
+        "description": "The Baltic nations are installing a variety of border security features meant to repel an invasion from Russia or Belarus.",
+        "fatalities": "0",
+        "link": "https://www.defensenews.com/global/europe/2026/02/20/estonia-begins-buying-hundreds-of-pop-up-bunkers-to-fortify-border-with-russia/",
+        "critical": false
+    },
+    {
+        "country": "Ukraine",
+        "city": "Kyiv",
+        "lat": 50.43779877843271,
+        "lon": 30.507232365090047,
+        "date": "2026-02-23 12:45:20",
+        "type": "Clashes",
+        "severity": "middle",
+        "title": "‘You either fight or die’: Kenyans tricked into joining Russia-Ukraine war",
+        "description": "More than 1,000 Kenyans and people from 36 African nations are fighting for Russia, many of them recruited fraudulently.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/features/2026/2/23/you-either-fight-or-die-kenyans-tricked-into-joining-russia-ukraine-war?traffic_source=rss",
+        "critical": false
+    },
+    {
         "country": "Asia",
         "city": "Pakistan",
         "lat": 31.5241329860558,
@@ -2650,45 +2692,6 @@
         "description": "“The deadlock of a single pillar should not jeopardize the entire future of this high-tech European capability, which will bolster our collective defense.\"",
         "fatalities": "0",
         "link": "https://www.defensenews.com/global/europe/2026/02/19/airbus-open-to-two-fighter-option-for-fcas-to-keep-program-alive/",
-        "critical": false
-    },
-    {
-        "country": "Europe",
-        "city": "Brussels",
-        "lat": 50.8941641,
-        "lon": 4.3387436,
-        "date": "2026-02-21 18:28:51",
-        "type": "Breaking News",
-        "title": "BAE says its Eurofighter pipeline is filled until first GCAP assembly",
-        "description": "Europe accounted for 32% of the BAE order book at the end of December, while accounting for 11% of sales in 2025, the company said.",
-        "fatalities": "0",
-        "link": "https://www.defensenews.com/global/europe/2026/02/19/bae-says-its-eurofighter-pipeline-is-filled-until-first-gcap-assembly/",
-        "critical": false
-    },
-    {
-        "country": "USA",
-        "city": "Pentagon",
-        "lat": 38.8719,
-        "lon": -77.0563,
-        "date": "2026-02-21 18:28:51",
-        "type": "Clashes",
-        "title": "Pentagon official blesses Europe’s push to spend defense money at home",
-        "description": "“Otherwise people in Germany or Poland or whatever are going to say: ‘Why are we only sending money across the Atlantic?’” said the Pentagon policy chief.",
-        "fatalities": "0",
-        "link": "https://www.defensenews.com/global/europe/2026/02/16/pentagon-official-blesses-europes-push-to-spend-defense-money-at-home/",
-        "critical": false
-    },
-    {
-        "country": "USA",
-        "city": "Pentagon",
-        "lat": 38.8719,
-        "lon": -77.0563,
-        "date": "2026-02-21 18:28:51",
-        "type": "Clashes",
-        "title": "Pentagon to deploy roughly 200 troops to Nigeria",
-        "description": "The 200 troops will supplement a small team of American military officers already embedded with Nigerian forces.",
-        "fatalities": "0",
-        "link": "https://www.defensenews.com/news/pentagon-congress/2026/02/13/pentagon-to-deploy-roughly-200-troops-to-nigeria/",
         "critical": false
     }
 ]
