@@ -877,5 +877,3 @@ document.onkeydown = function(e) {
 };
 
 console.log(">> SYSTEM: All Monitoring Modules are READY and ONLINE.");
-
-    }
