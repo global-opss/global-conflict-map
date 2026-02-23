@@ -207,12 +207,12 @@
         <iframe id="trafficFrame" src="" style="width: 100%; height: 100%; border: none; filter: invert(90%) hue-rotate(180deg) brightness(1.1);"></iframe>
     </div>
 </div>
-  <div id="system-status-container" class="tactical-panel" style="top: 250px !important; left: 20px !important; width: 300px;">
-    <div class="panel-header">📡 SYSTEM STATUS & SAT-LINK</div>
-    <div class="panel-content" style="font-family: monospace; font-size: 11px; color: #39FF14; position: relative; overflow: hidden;">
-        <div style="display: flex; justify-content: space-between; margin-bottom: 5px;">
-            <span>UPLINK:</span> <span style="text-shadow: 0 0 5px #39FF14;">ENCRYPTED</span>
-        </div>
+ <div id="system-status-container" class="tactical-panel" style="top: 250px !important; left: 20px !important; width: 300px;">
+    <div class="panel-header">
+        <span>📡 SYSTEM STATUS & SAT-LINK</span>
+        <span onclick="togglePanel('system-status-container')" style="cursor:pointer; color:#39FF14;">[ _ ]</span>
+    </div>
+    <div class="panel-content" ...>
         <div style="display: flex; justify-content: space-between; margin-bottom: 5px;">
             <span>SATELLITE:</span> <span>NAVSTAR-GPS (V3.2)</span>
         </div>
