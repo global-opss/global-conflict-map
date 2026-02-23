@@ -277,7 +277,7 @@
 
       const data = await response.json();
       const totalHits = data.count;
-      
+      let onlineNow = data.count;
       // Визуализация в хедъра
       const statsElement = document.getElementById('visitor-stats-top');
       if (statsElement) {
