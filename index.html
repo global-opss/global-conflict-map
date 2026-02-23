@@ -266,7 +266,7 @@
     try {
       // Използваме уникален идентификатор за твоя военен терминал
       const namespace = "nasko-military-terminal-2026";
-      const key = "military-test-" + Math.floor(Math.random() * 1000);
+      const key = "nasko_global_live_count_2026"
       const endpoint = `https://api.counterapi.dev/v1/${namespace}/${key}/hits/up`;
 
       const response = await fetch(endpoint);
@@ -295,11 +295,10 @@
 
       // Визуализация в хедъра
       const statsElement = document.getElementById('visitor-stats-top');
-      if (statsElement) {
-        // Чист изглед без дублиране на думи
-        statsElement.style.textShadow = "0 0 10px #39FF14"; // Добавяме лек неон
-        statsElement.innerText = "1";
-      }
+if (statsElement) {
+  statsElement.style.textShadow = "0 0 10px #39FF14"; 
+  statsElement.innerText = onlineNow; // <--- ТАКА ЩЕ ПОКАЗВА 1, 2, 3...
+}
       
       console.log(`Diagnostic: Total server hits: ${totalHits} | Estimated Live: ${onlineNow}`);
 
