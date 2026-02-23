@@ -97,7 +97,7 @@
     <header>
         <div style="display: flex; justify-content: space-between; width: 95%; align-items: center;">
             <div style="font-size: 10px; color: #888; text-transform: uppercase; flex: 1;">
-                <span id="header-time">17:12:00</span> | USER: <span style="color:#39FF14">BORISLAV</span>
+                USER: <span id="user-id-display" style="color:#39FF14">DETECTING...</span>
             </div>
             <div style="text-align: center; flex: 1;">
                 <div style="font-size: 16px; font-weight: bold; letter-spacing: 2px;">🌐 GLOBAL CONFLICT DASHBOARD</div>
@@ -278,33 +278,17 @@
       const data = await response.json();
       const totalHits = data.count;
       
-      // СИМУЛАЦИЯ НА ONLINE СТАТУС (ПОНЕЖЕ GITHUB Е СТАТИЧЕН)
-      // Използваме алгоритъм, базиран на общите посещения, за да изчислим текущите
-      let onlineNow;
-      
-      if (totalHits < 10) {
-        // За малък трафик - показва реалните малко хора
-        onlineNow = Math.floor(Math.random() * (3 - 1 + 1)) + 1;
-      } else if (totalHits >= 10 && totalHits < 50) {
-        // Среден трафик от Twitter
-        onlineNow = Math.floor(totalHits / 8) + Math.floor(Math.random() * 3);
-      } else {
-        // Висок трафик - динамично изчисление
-        onlineNow = Math.floor(totalHits / 12) + Math.floor(Math.random() * 5);
-      }
-
       // Визуализация в хедъра
       const statsElement = document.getElementById('visitor-stats-top');
-if (statsElement) {
-  statsElement.style.textShadow = "0 0 10px #39FF14"; 
-  statsElement.innerText = onlineNow; // <--- ТАКА ЩЕ ПОКАЗВА 1, 2, 3...
-}
+      if (statsElement) {
+        statsElement.style.textShadow = "0 0 10px #39FF14"; 
+        statsElement.innerText = onlineNow;
+      }
       
       console.log(`Diagnostic: Total server hits: ${totalHits} | Estimated Live: ${onlineNow}`);
 
     } catch (error) {
       console.error("CRITICAL: Visitor tracking offline.", error);
-      // Fallback режим, за да не стои на 0
       const statsElement = document.getElementById('visitor-stats-top');
       if (statsElement) {
         statsElement.innerText = "1";
@@ -312,19 +296,30 @@ if (statsElement) {
     }
   }
 
-  // Настройка на интервалите за обновяване (15 секунди за стабилност)
+  // === 1. КОД ЗА УНИКАЛНО ПОТРЕБИТЕЛСКО ИМЕ (GUEST_XXX) ===
+  document.addEventListener('DOMContentLoaded', () => {
+      let userId = localStorage.getItem('terminal_user_id');
+      if (!userId) {
+          const randomNum = Math.floor(Math.random() * 900) + 100;
+          userId = "GUEST_" + randomNum;
+          localStorage.setItem('terminal_user_id', userId);
+      }
+      const displayElement = document.getElementById('user-id-display');
+      if (displayElement) {
+          displayElement.innerText = userId;
+      }
+  });
+
+  // === 2. СТАРТИРАНЕ И ОБНОВЯВАНЕ НА МОНИТОРИНГА ===
   const UPDATE_INTERVAL = 5000; 
   
-  // Стартиране на мониторинга
   document.addEventListener('DOMContentLoaded', () => {
     updateLiveVisitors();
     setInterval(updateLiveVisitors, UPDATE_INTERVAL);
   });
 
-  // Допълнителен лог за дебъгване в конзолата
   console.log("Military Terminal Status: ONLINE");
-  console.log("Tracking Script Version: 2.0.4-LIVE");
+  console.log("Tracking Script Version: 2.1.0-LIVE");
 </script>
 </body>
 </html>
-
