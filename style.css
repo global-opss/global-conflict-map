@@ -88,26 +88,42 @@ header {
 
 @keyframes marquee { 0% { transform: translate(0, 0); } 100% { transform: translate(-100%, 0); } }
 
-/* 7. ФИНАЛЕН ФИКС ЗА ИКОНИТЕ (ПРЕМАХВА ВСИЧКИ СКРИТИ РАМКИ) */
+/* 7. ФИНАЛЕН ФИКС ЗА ИКОНИТЕ (ПРИНУДИТЕЛНО ИЗЧИСТВАНЕ) */
 .leaflet-marker-icon, 
 .leaflet-div-icon, 
-.leaflet-zoom-animated, 
-.leaflet-interactive,
-.custom-marker-container {
+.leaflet-zoom-animated,
+.leaflet-interactive {
     background: none !important;
     background-color: transparent !important;
     border: none !important;
     outline: none !important;
     box-shadow: none !important;
-    -webkit-tap-highlight-color: transparent;
 }
 
-/* ФИКС ЗА КАРТИНКИТЕ ВЪТРЕ В МАРКЕРИТЕ */
-.leaflet-marker-icon img, 
-.leaflet-div-icon img {
+/* Изчистване на всякакви скрити бели контейнери */
+div[class*="leaflet-marker"], 
+.leaflet-div-icon {
+    background: transparent !important;
     border: none !important;
-    outline: none !important;
+}
+
+/* Фикс за самите картинки вътре */
+.leaflet-marker-icon img {
+    border: none !important;
     background: none !important;
+    box-shadow: none !important;
+}
+
+/* Изчистване на всякакви автоматични бели фонове на контейнерите */
+div[class*="leaflet-marker"] {
+    background: transparent !important;
+    border: none !important;
+}
+
+/* Изчистване на всякакви автоматични бели фонове на контейнерите */
+div[class*="leaflet-marker"] {
+    background: transparent !important;
+    border: none !important;
 }
 
 /* 8. АНИМАЦИЯ ЗА ПУЛСИРАНЕ */
