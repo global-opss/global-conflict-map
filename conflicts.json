@@ -1,5 +1,19 @@
 [
     {
+        "country": "Israel",
+        "city": "Tel Aviv",
+        "lat": 32.12272307154606,
+        "lon": 34.813992296778245,
+        "date": "2026-02-23 19:16:33",
+        "type": "Airstrike",
+        "severity": "critical",
+        "title": "Israeli settlers deface, set fire to West Bank mosque during Ramadan",
+        "description": "Attack on Nablus-area mosque is latest in surge of Israeli settler and military violence targeting Palestinians.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/news/2026/2/23/israeli-settlers-deface-set-fire-to-west-bank-mosque-during-ramadan?traffic_source=rss",
+        "critical": true
+    },
+    {
         "country": "Ukraine",
         "city": "Kyiv",
         "lat": 50.390288592456294,
