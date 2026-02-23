@@ -868,31 +868,62 @@ document.onkeydown = function(e) {
 
 console.log(">> SYSTEM: All Monitoring Modules are READY and ONLINE.");
 
-// --- МОДУЛ ЗА ДИНАМИЧНО ДВИЖЕНИЕ НА КОРАБИ ---
-let vesselMarkers = {}; 
+// Инициализация на картата
+var map = L.map('map').setView([20, 0], 2);
 
-function syncNavalAssets() {
-    fetch('naval_assets.json?v=' + Date.now())
+L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    attribution: '© OpenStreetMap contributors'
+}).addTo(map);
+
+// 1. ФУНКЦИЯ ЗА ЗАРЕЖДАНЕ НА КОРАБИТЕ (Naval Assets)
+function updateNavalRadar() {
+    fetch('naval_assets.json')
         .then(res => res.json())
         .then(data => {
-            data.forEach(v => {
-                const pos = [v.lat, v.lon];
-                const color = v.type.includes('us') ? '#00f0ff' : '#ff3300';
-                
-                if (vesselMarkers[v.id]) {
-                    vesselMarkers[v.id].setLatLng(pos);
-                } else {
-                    const icon = L.divIcon({
-                        className: 'vessel-icon',
-                        html: `<div style="color:${color}; font-size:20px; filter:drop-shadow(0 0 5px ${color});">⚓</div>`,
-                        iconSize: [25, 25]
-                    });
-                    vesselMarkers[v.id] = L.marker(pos, { icon: icon }).addTo(map);
-                    vesselMarkers[v.id].bindPopup(`<b>${v.name}</b><br>${v.description}`);
-                }
+            data.forEach(ship => {
+                // Използваме синя икона за US и червена за другите
+                let shipColor = ship.type === 'us-naval' ? 'blue' : 'red';
+                let icon = L.icon({
+                    iconUrl: `https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-${shipColor}.png`,
+                    iconSize: [25, 41],
+                    iconAnchor: [12, 41]
+                });
+
+                L.marker([ship.lat, ship.lon], { icon: icon })
+                    .addTo(map)
+                    .bindPopup(`<b>⚓ ${ship.name}</b><br>${ship.description}`);
             });
-        }).catch(err => console.log("Очакване на данни от бота..."));
+            console.log("Naval Radar: Loaded " + data.length + " assets.");
+        })
+        .catch(err => console.log("Naval Radar Error: ", err));
 }
 
-setInterval(syncNavalAssets, 60000);
-syncNavalAssets();
+// 2. ФУНКЦИЯ ЗА ЗАРЕЖДАНЕ НА КОНФЛИКТИТЕ (News)
+function updateConflicts() {
+    fetch('conflicts.json')
+        .then(res => res.json())
+        .then(data => {
+            data.forEach(event => {
+                // Цвят според severity
+                let markerColor = 'yellow';
+                if (event.severity === 'critical') markerColor = 'red';
+                if (event.severity === 'middle') markerColor = 'orange';
+
+                let icon = L.icon({
+                    iconUrl: `https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-${markerColor}.png`,
+                    iconSize: [25, 41],
+                    iconAnchor: [12, 41]
+                });
+
+                L.marker([event.lat, event.lon], { icon: icon })
+                    .addTo(map)
+                    .bindPopup(`<b>${event.type}</b><br>${event.title}<br><a href="${event.link}" target="_blank">Read More</a>`);
+            });
+            console.log("Conflicts: Loaded " + data.length + " events.");
+        })
+        .catch(err => console.log("Conflicts Error: ", err));
+}
+
+// Изпълнение на функциите при старт
+updateNavalRadar();
+updateConflicts();
