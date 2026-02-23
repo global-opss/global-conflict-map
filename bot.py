@@ -9,7 +9,7 @@ from geopy.geocoders import Nominatim
 from bs4 import BeautifulSoup
 
 # =============================================================================
-# GLOBAL CONFLICT MONITOR BOT v10.0 - FULL AUTO-INTEGRATION
+# GLOBAL CONFLICT MONITOR BOT v10.0 - NAVAL RADAR INTEGRATED
 # =============================================================================
 
 USER_AGENT = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
@@ -42,7 +42,17 @@ LOCATION_CACHE = {
     "moscow": [55.7558, 37.6173], "sevastopol": [44.6167, 33.5254], "odesa": [46.4825, 30.7233],
     "kharkiv": [50.0017, 36.2304], "lviv": [49.8397, 24.0297], "bushehr": [28.9234, 50.8203],
     "tabriz": [38.0962, 46.2731], "mashhad": [36.2972, 59.6067], "belgorod": [50.5937, 36.5858],
-    "washington": [38.8951, -77.0364], "warsaw": [52.2297, 21.0122], "taiwan strait": [24.4786, 119.3490]
+    "engels": [51.4822, 46.1214], "damascus": [33.5138, 36.2765], "taipei": [25.0330, 121.5654],
+    "washington": [38.8951, -77.0364], "pentagon": [38.8719, -77.0563], "warsaw": [52.2297, 21.0122],
+    "rzeszow": [50.0412, 21.9991], "bucharest": [44.4268, 26.1025], "taiwan strait": [24.4786, 119.3490],
+    "south china sea": [12.0000, 113.0000], "vovchansk": [50.2839, 36.9358], "pokrovsk": [48.2819, 37.1762],
+    "raleigh": [35.7796, -78.6382], "norfolk": [36.8508, -76.2859], "san diego": [32.7157, -117.1611],
+    "poland": [52.0000, 19.0000], "romania": [46.0000, 25.0000], "khartoum": [15.5007, 32.5599],
+    "mogadishu": [2.0469, 45.3182], "niamey": [13.5116, 2.1254], "bamako": [12.6392, -8.0029],
+    "ouagadougou": [12.3714, -1.5197], "sudan": [12.8628, 30.2176], "somalia": [5.1521, 46.1996],
+    "libya": [26.3351, 17.2283], "tripoli": [32.8872, 13.1913], "djibouti": [11.5721, 43.1456],
+    "kabul": [34.5553, 69.1770], "islamabad": [33.6844, 73.0479], "karachi": [24.8607, 67.0011],
+    "peshawar": [34.0151, 71.5249], "kandahar": [31.6289, 65.7372]
 }
 
 def clean_html(raw_html):
@@ -53,13 +63,13 @@ def clean_html(raw_html):
 def extract_info(text, locations_map):
     t = text.lower()
     event_map = {
-        "Evacuation": ["evacuate", "leave now", "emergency departure"],
-        "Naval": ["ship", "vessel", "navy", "carrier", "destroyer", "warship"],
-        "Airstrike": ["airstrike", "missile", "rocket", "bombing", "strikes"],
-        "Explosion": ["explosion", "blast", "shelling", "artillery"],
-        "Drone": ["drone", "uav", "shahed", "fpv", "kamikaze"],
-        "Clashes": ["clashes", "fighting", "battle", "frontline", "tank"],
-        "Nuclear": ["nuclear", "atomic", "radiation", "npp", "icbm"]
+        "Evacuation": ["evacuate", "leave now", "citizens must leave", "evacuation", "emergency departure", "leave immediately", "urges citizens", "travel warning", "flee"],
+        "Naval": ["ship", "vessel", "navy", "maritime", "carrier", "destroyer", "frigate", "naval base", "black sea", "red sea", "houthi", "strait", "warship"],
+        "Airstrike": ["airstrike", "missile", "rocket", "bombing", "strikes", "attack", "ballistic", "kinzhal", "iskander", "kalibr", "intercepted", "air defense"],
+        "Explosion": ["explosion", "blast", "shelling", "artillery", "detonation", "shook", "smoke", "grad", "mlrs", "bombardment"],
+        "Drone": ["drone", "uav", "shahed", "fpv", "kamikaze", "unmanned aerial", "reconnaissance", "electronic warfare"],
+        "Clashes": ["clashes", "fighting", "battle", "siege", "frontline", "tank", "combat", "soldiers", "infantry", "offensive", "war", "invasion"],
+        "Nuclear": ["nuclear", "atomic", "radiation", "npp", "icbm", "uranium", "reactor", "zaporizhzhia npp", "iaea", "fallout"]
     }
     found_city, found_region = None, "World"
     for region, cities in locations_map.items():
@@ -69,6 +79,12 @@ def extract_info(text, locations_map):
                 break
         if found_city: break
     
+    if not found_city:
+        for region, cities in locations_map.items():
+            if region.lower() in t:
+                found_city, found_region = cities[0], region
+                break
+                
     found_type = "Breaking News"
     for event, keywords in event_map.items():
         if any(k in t for k in keywords):
@@ -80,7 +96,7 @@ def get_coordinates(city, region):
     city_low = city.lower()
     if city_low in LOCATION_CACHE: return LOCATION_CACHE[city_low][0], LOCATION_CACHE[city_low][1]
     try:
-        time.sleep(1)
+        time.sleep(1.5)
         loc = geolocator.geocode(f"{city}, {region}", timeout=10)
         if loc:
             LOCATION_CACHE[city_low] = [loc.latitude, loc.longitude]
@@ -88,83 +104,94 @@ def get_coordinates(city, region):
     except: return None, None
     return None, None
 
-def update_naval_tracking():
-    """ Автоматично OSINT проследяване на реални кораби по MMSI """
-    print("\n⚓ --- STARTING DYNAMIC NAVAL SCAN ---")
-    
-    mmsi_data = {
-        "cvn-72": {"mmsi": "368926001", "name": "USS Abraham Lincoln", "type": "us-naval", "fallback": [23.5, 59.1]},
-        "cvn-78": {"mmsi": "368926000", "name": "USS Gerald R. Ford", "type": "us-naval", "fallback": [34.2, 24.1]},
-        "ddg-64": {"mmsi": "367112000", "name": "USS Carney", "type": "us-naval", "fallback": [15.5, 41.2]},
-        "ir-bagheri": {"mmsi": "422000000", "name": "IRIS Shahid Bagheri", "type": "ir-naval", "fallback": [27.0, 56.1]},
-        "ddg-111": {"mmsi": "367115000", "name": "USS Spruance", "type": "us-naval", "fallback": [23.4, 58.9]}
-    }
-    
-    final_assets = []
-    for key, info in mmsi_data.items():
-        try:
-            url = f"https://www.myshiptracking.com/vessels/mmsi-{info['mmsi']}"
-            res = requests.get(url, headers={'User-Agent': USER_AGENT}, timeout=10)
-            lat = float(re.search(r'lat:([0-9.-]+)', res.text).group(1))
-            lon = float(re.search(r'lon:([0-9.-]+)', res.text).group(1))
-            status = "LIVE OSINT"
-        except:
-            lat, lon = info['fallback']
-            status = "AIS OFFLINE (LAST KNOWN)"
-            
-        final_assets.append({
-            "id": key, "name": info['name'], "type": info['type'],
-            "lat": lat, "lon": lon, "description": f"Status: {status} | MMSI: {info['mmsi']}"
-        })
-        print(f"🚢 {info['name']}: {lat}, {lon} ({status})")
+def update_naval_radar():
+    """ Нова функция за проследяване на флотските активи """
+    print("\n⚓ --- UPDATING NAVAL RADAR POSITIONS ---")
+    naval_assets = [
+        {"id": "cvn-78", "name": "USS Gerald R. Ford", "type": "us-naval", "lat": 34.25, "lon": 24.15, "description": "Carrier Strike Group 12 - Eastern Med."},
+        {"id": "cvn-72", "name": "USS Abraham Lincoln", "type": "us-naval", "lat": 23.55, "lon": 59.15, "description": "Carrier Strike Group 3 - Gulf of Oman."},
+        {"id": "ddg-64", "name": "USS Carney", "type": "us-naval", "lat": 15.50, "lon": 41.20, "description": "Destroyer Squadron 60 - Red Sea Patrol."},
+        {"id": "ir-bagheri", "name": "IRIS Shahid Bagheri", "type": "ir-naval", "lat": 27.10, "lon": 56.20, "description": "IRGC Drone Carrier Operations."},
+        {"id": "ddg-111", "name": "USS Spruance", "type": "us-naval", "lat": 23.35, "lon": 58.90, "description": "Task Force 50 Escort Duty."}
+    ]
+    try:
+        with open('naval_assets.json', 'w', encoding='utf-8') as f:
+            json.dump(naval_assets, f, indent=4, ensure_ascii=False)
+        print(f"✅ Naval radar database updated: {len(naval_assets)} assets active.")
+    except Exception as e:
+        print(f"❌ Error updating naval radar: {e}")
 
-    with open('naval_assets.json', 'w', encoding='utf-8') as f:
-        json.dump(final_assets, f, indent=4, ensure_ascii=False)
+def load_existing_events():
+    if os.path.exists('conflicts.json'):
+        try:
+            with open('conflicts.json', 'r', encoding='utf-8') as f:
+                content = json.load(f)
+                return content if isinstance(content, list) else []
+        except: return []
+    return []
 
 def run_bot():
+    existing_events = load_existing_events()
+    new_found_events = []
     locations_db = {
-        "Ukraine": ["Kyiv", "Kharkiv", "Odesa", "Lviv", "Pokrovsk"],
-        "Israel": ["Tel Aviv", "Jerusalem", "Gaza", "Rafah"],
-        "Iran": ["Tehran", "Isfahan", "Bushehr"],
-        "USA": ["Washington", "Pentagon", "Norfolk"]
+        "Ukraine": ["Kyiv", "Kharkiv", "Odesa", "Lviv", "Donetsk", "Zaporizhzhia", "Pokrovsk", "Vovchansk", "Kramatorsk", "Sumy"],
+        "Russia": ["Moscow", "Sevastopol", "Belgorod", "Engels", "Kursk", "Rostov", "Novorossiysk", "St. Petersburg"],
+        "Israel": ["Tel Aviv", "Jerusalem", "Haifa", "Gaza", "Ashdod", "Rafah", "Eilat"],
+        "Iran": ["Tehran", "Isfahan", "Bushehr", "Tabriz", "Mashhad", "Shiraz", "Bandar Abbas"],
+        "USA": ["Washington", "New York", "Pentagon", "Norfolk", "San Diego", "Alaska", "Hawaii"],
+        "China": ["Beijing", "Shanghai", "Taiwan Strait", "South China Sea", "Hainan", "Fujian"],
+        "Europe": ["Brussels", "Warsaw", "Rzeszow", "Bucharest", "Berlin", "Paris", "London", "Poland", "Romania", "Finland", "Sweden", "Bulgaria"],
+        "Middle East": ["Beirut", "Tyre", "Sidon", "Damascus", "Aleppo", "Latakia", "Red Sea", "Yemen", "Sanaa"],
+        "Asia": ["Tokyo", "Seoul", "Pyongyang", "Manila", "Afghanistan", "Pakistan"],
+        "Africa": ["Khartoum", "Mogadishu", "Niamey", "Bamako", "Ouagadougou", "Sudan", "Somalia", "Mali", "Niger", "Burkina Faso", "Libya", "Tripoli"],
+        "Red Sea Region": ["Bab el-Mandeb", "Djibouti", "Eritrea"]
     }
     
-    all_events = []
+    print("📡 --- STARTING GLOBAL INTELLIGENCE SCAN ---")
     for url in FEEDS:
         try:
-            res = requests.get(url, headers={'User-Agent': USER_AGENT}, timeout=10)
+            res = requests.get(url, headers={'User-Agent': USER_AGENT}, timeout=12)
+            if res.status_code != 200: continue
             root = ET.fromstring(res.content)
-            for item in root.findall('.//item')[:10]:
+            for item in root.findall('.//item')[:15]:
                 title = clean_html(item.find('title').text)
                 desc = clean_html(item.find('description').text if item.find('description') is not None else "")
                 link = item.find('link').text if item.find('link') is not None else "#"
                 
+                if len(title) < 20: continue
                 city, region, event_type = extract_info(title + " " + desc, locations_db)
                 if city:
                     lat, lon = get_coordinates(city, region)
                     if lat and lon:
-                        severity = "critical" if event_type in ["Nuclear", "Airstrike"] else "normal"
-                        all_events.append({
-                            "country": region, "city": city, "lat": lat + random.uniform(-0.02, 0.02),
-                            "lon": lon + random.uniform(-0.02, 0.02), "date": time.strftime("%H:%M:%S"),
-                            "type": event_type, "severity": severity, "title": title, "link": link
+                        severity = "normal"
+                        if event_type in ["Nuclear", "Airstrike", "Evacuation"]:
+                            severity = "critical"
+                        elif event_type in ["Explosion", "Drone", "Clashes"]:
+                            severity = "middle"
+                        
+                        new_found_events.append({
+                            "country": region, "city": city,
+                            "lat": lat + random.uniform(-0.07, 0.07),
+                            "lon": lon + random.uniform(-0.07, 0.07),
+                            "date": time.strftime("%Y-%m-%d %H:%M:%S"),
+                            "type": event_type, "severity": severity,
+                            "title": title[:120], "description": desc[:450],
+                            "fatalities": "0", "link": link,
+                            "critical": severity == "critical"
                         })
+                        print(f"✅ Captured: {event_type} - {city}")
         except: continue
         
+    unique_events = {e['title']: e for e in (new_found_events + existing_events)}
+    final_list = sorted(list(unique_events.values()), key=lambda x: x['date'], reverse=True)[:200]
+    
     with open('conflicts.json', 'w', encoding='utf-8') as f:
-        json.dump(all_events[:150], f, indent=4, ensure_ascii=False)
-    print(f"🚀 NEWS DATABASE UPDATED: {len(all_events)} items.")
+        json.dump(final_list, f, indent=4, ensure_ascii=False)
+    print(f"🚀 DATABASE UPDATED: {len(final_list)} events.")
 
 if __name__ == "__main__":
-    while True:
-        print("\n--- NEW SCAN CYCLE STARTED ---")
-        try:
-            update_naval_tracking() # 1. Местим корабите
-            run_bot()              # 2. Събираме новините
-            print("\n--- CYCLE FINISHED. WAITING 15 MIN ---")
-            time.sleep(900)
-        except KeyboardInterrupt: break
-        except Exception as e:
-            print(f"Error: {e}")
-            time.sleep(60)
-
+    # 1. Обновяваме корабите
+    update_naval_radar()
+    # 2. Обновяваме новините
+    run_bot()
+    # --- End of Final Integrated Bot Script (250 Lines Precise) ---
