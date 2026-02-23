@@ -1,5 +1,33 @@
 [
     {
+        "country": "Europe",
+        "city": "London",
+        "lat": 51.51780880806327,
+        "lon": -0.17485784879554217,
+        "date": "2026-02-23 17:32:54",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Ex-UK ambassador to U.S. arrested amid Epstein probe",
+        "description": "Peter Mandelson, the former British ambassador to the U.S., was arrested on suspicion of misconduct in public office on Monday amid an investigation sparked by the release of the Epstein files.  The big picture: Mandelson is one of several prominent figures whose careers have been derailed amid the global reckoning for those tied to convicted sex offender Jeffrey Epstein.Mandelson was removed from his post last September by U.K. Prime Minister Ke",
+        "fatalities": "0",
+        "link": "https://www.axios.com/2026/02/23/peter-mandelson-ambassador-arrested-epstein-files",
+        "critical": false
+    },
+    {
+        "country": "USA",
+        "city": "Washington",
+        "lat": 38.927551546570015,
+        "lon": -77.08236005308402,
+        "date": "2026-02-23 17:32:30",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "U.K. Police Arrest Ex-Ambassador Peter Mandelson Amid Epstein Accusations",
+        "description": "Peter Mandelson is being investigated over accusations of “misconduct in public office offenses” over his dealings with Jeffrey Epstein, the sex offender and financier.",
+        "fatalities": "0",
+        "link": "https://www.nytimes.com/2026/02/23/world/europe/peter-mandelson-epstein-uk.html",
+        "critical": false
+    },
+    {
         "country": "USA",
         "city": "New york",
         "lat": 40.76482063437418,
@@ -420,20 +448,6 @@
         "critical": false
     },
     {
-        "country": "USA",
-        "city": "Washington",
-        "lat": 38.86543278942956,
-        "lon": -77.05811374460936,
-        "date": "2026-02-23 17:18:28",
-        "type": "Airstrike",
-        "severity": "critical",
-        "title": "EU lawmakers to freeze US trade deal after Supreme Court strikes down Trump's tariffs",
-        "description": "The European Parliament will suspend the approval of a key trade agreement between the EU and the US on Monday, pending clarification from Washington on the impact of the US Supreme Court's decision last week invalidating many of President Donald Trump's tariffs.",
-        "fatalities": "0",
-        "link": "https://www.france24.com/en/europe/20260223-eu-lawmakers-to-freeze-us-trade-deal-after-supreme-court-ruling",
-        "critical": true
-    },
-    {
         "country": "Russia",
         "city": "Moscow",
         "lat": 55.79714833889862,
@@ -502,6 +516,20 @@
         "fatalities": "0",
         "link": "https://www.militarytimes.com/global/europe/2025/11/21/proposed-peace-plan-for-ukraine-leaves-country-in-delicate-position/",
         "critical": false
+    },
+    {
+        "country": "USA",
+        "city": "Washington",
+        "lat": 38.86543278942956,
+        "lon": -77.05811374460936,
+        "date": "2026-02-23 17:18:28",
+        "type": "Airstrike",
+        "severity": "critical",
+        "title": "EU lawmakers to freeze US trade deal after Supreme Court strikes down Trump's tariffs",
+        "description": "The European Parliament will suspend the approval of a key trade agreement between the EU and the US on Monday, pending clarification from Washington on the impact of the US Supreme Court's decision last week invalidating many of President Donald Trump's tariffs.",
+        "fatalities": "0",
+        "link": "https://www.france24.com/en/europe/20260223-eu-lawmakers-to-freeze-us-trade-deal-after-supreme-court-ruling",
+        "critical": true
     },
     {
         "country": "Europe",
