@@ -1,5 +1,47 @@
 [
     {
+        "country": "Europe",
+        "city": "Brussels",
+        "lat": 50.936038310122136,
+        "lon": 4.320119801448907,
+        "date": "2026-02-23 12:49:49",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "BAE says its Eurofighter pipeline is filled until first GCAP assembly",
+        "description": "Europe accounted for 32% of the BAE order book at the end of December, while accounting for 11% of sales in 2025, the company said.",
+        "fatalities": "0",
+        "link": "https://www.defensenews.com/global/europe/2026/02/19/bae-says-its-eurofighter-pipeline-is-filled-until-first-gcap-assembly/",
+        "critical": false
+    },
+    {
+        "country": "USA",
+        "city": "Pentagon",
+        "lat": 38.84329148555728,
+        "lon": -77.04034216831977,
+        "date": "2026-02-23 12:49:49",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Pentagon official blesses Europe’s push to spend defense money at home",
+        "description": "“Otherwise people in Germany or Poland or whatever are going to say: ‘Why are we only sending money across the Atlantic?’” said the Pentagon policy chief.",
+        "fatalities": "0",
+        "link": "https://www.defensenews.com/global/europe/2026/02/16/pentagon-official-blesses-europes-push-to-spend-defense-money-at-home/",
+        "critical": false
+    },
+    {
+        "country": "USA",
+        "city": "Pentagon",
+        "lat": 38.9206225067289,
+        "lon": -76.99969957629322,
+        "date": "2026-02-23 12:49:49",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Pentagon to deploy roughly 200 troops to Nigeria",
+        "description": "The 200 troops will supplement a small team of American military officers already embedded with Nigerian forces.",
+        "fatalities": "0",
+        "link": "https://www.defensenews.com/news/pentagon-congress/2026/02/13/pentagon-to-deploy-roughly-200-troops-to-nigeria/",
+        "critical": false
+    },
+    {
         "country": "Russia",
         "city": "Moscow",
         "lat": 55.82188654620182,
