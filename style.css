@@ -1,3 +1,7 @@
+/* =============================================================================
+   GLOBAL CONFLICT DASHBOARD v12.9 - STYLESHEET
+   ============================================================================= */
+
 /* 1. ОСНОВЕН ТЕРМИНАЛЕН СТИЛ */
 html, body {
     height: 100%;
@@ -8,7 +12,7 @@ html, body {
     font-family: 'Segoe UI', Tahoma, sans-serif;
 }
 
-/* 2. КАРТАТА - ПЪЛЕН ЕКРАН */
+/* 2. КАРТАТА */
 #map {
     position: absolute;
     top: 90px;
@@ -16,9 +20,10 @@ html, body {
     width: 100%;
     height: calc(100vh - 90px) !important;
     z-index: 1;
+    background: #050505;
 }
 
-/* 3. ХЕДЪР В СТИЛ GLINT */
+/* 3. ХЕДЪР */
 header {
     height: 60px;
     background: rgba(0, 0, 0, 0.95);
@@ -27,11 +32,11 @@ header {
     z-index: 2000;
 }
 
-/* 4. ТАКТИЧЕСКИ ПАНЕЛИ (СТЪКЛЕН ЕФЕКТ) */
+/* 4. ТАКТИЧЕСКИ ПАНЕЛИ */
 .tactical-panel {
     position: fixed !important;
     z-index: 1000;
-    background: rgba(10, 10, 10, 0.2) !important; /* Ултра прозрачно */
+    background: rgba(10, 10, 10, 0.2) !important;
     backdrop-filter: blur(15px) saturate(160%);
     -webkit-backdrop-filter: blur(15px);
     border: 1px solid rgba(57, 255, 20, 0.2);
@@ -42,93 +47,33 @@ header {
     flex-direction: column;
 }
 
-/* Специфични позиции за контейнерите */
-#chat-container, #left-chat-floating {
-    bottom: 20px;
-    left: 20px;
-    width: 300px;
-    height: 38%;
+#chat-container, #left-chat-floating { bottom: 20px; left: 20px; width: 300px; height: 38%; }
+#news-container, #news-floating { top: 80px; right: 20px; width: 320px; max-height: 55%; }
+
+/* 5. ПОП-ЪП СТИЛ (TACTICAL GLASS) */
+.leaflet-popup-content-wrapper, .leaflet-popup-tip {
+    background: rgba(5, 5, 5, 0.8) !important;
+    backdrop-filter: blur(12px) !important;
+    -webkit-backdrop-filter: blur(12px) !important;
+    border: 1px solid rgba(57, 255, 20, 0.4) !important;
+    color: #fff !important;
+    border-radius: 2px !important;
 }
 
-#news-container, #news-floating {
-    top: 80px;
-    right: 20px;
-    width: 320px;
-    max-height: 55%;
-}
+.leaflet-popup-content { margin: 12px !important; font-family: 'Courier New', monospace !important; }
+.leaflet-popup-close-button { color: #39FF14 !important; }
 
-/* 5. ЗАГЛАВИЯ И СЪДЪРЖАНИЕ */
-.panel-header {
-    background: rgba(57, 255, 20, 0.1);
-    color: #39FF14;
-    padding: 7px 12px;
-    font-size: 11px;
-    font-weight: bold;
-    text-transform: uppercase;
-    border-bottom: 1px solid rgba(57, 255, 20, 0.2);
-    letter-spacing: 1px;
-}
-
-#news-content {
-    padding: 12px;
-    overflow-y: auto;
-    color: #eee;
-    font-size: 13px;
-}
-
-/* 6. ЛЕГЕНДА (КАПСУЛА) */
-.map-legend {
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    z-index: 1000;
-    background: rgba(10, 10, 10, 0.7);
-    backdrop-filter: blur(5px);
-    padding: 6px 15px;
-    border: 1px solid rgba(57, 255, 20, 0.3);
-    border-radius: 20px;
-    font-size: 10px;
-    display: flex;
-    gap: 10px;
-    color: #39FF14;
-}
-
-/* 7. ТЪРСАЧКА (ТАКИЧЕСКА) */
-.search-container {
-    position: absolute;
-    top: 80px;
-    left: 60px;
-    z-index: 1000;
-}
-
-#map-search {
-    background: rgba(15, 15, 15, 0.8);
-    border: 1px solid #333;
-    border-left: 3px solid #39FF14;
-    color: #39FF14;
-    padding: 8px 12px;
-    font-family: monospace;
-    backdrop-filter: blur(5px);
-}
-
-
-/* Филтър за чата (важно!) */
-iframe {
-    filter: invert(1) hue-rotate(180deg) brightness(0.9) contrast(1.1);
-    mix-blend-mode: screen;
-    background: transparent !important;
-}
-/* 9. НОВИНАРСКА ЛЕНТА (TICKER) */
+/* 6. НОВИНАРСКА ЛЕНТА */
 .news-ticker-container {
     position: absolute;
-    top: 60px; /* Веднага под хедъра */
+    top: 60px;
     left: 0;
     width: 100%;
     background: rgba(0, 0, 0, 0.9);
-    border-bottom: 1px solid #ff4444; /* Червена линия за опасност */
+    border-bottom: 1px solid #ff4444;
     overflow: hidden;
     padding: 5px 0;
-    z-index: 2001; /* Над всичко останало */
+    z-index: 2001;
 }
 
 .news-ticker {
@@ -139,78 +84,42 @@ iframe {
     color: #ff4444;
     font-family: monospace;
     font-weight: bold;
-    font-size: 14px;
-    text-transform: uppercase;
 }
 
-@keyframes marquee {
-    0% { transform: translate(0, 0); }
-    100% { transform: translate(-100%, 0); }
-}
-/* 10. TACTICAL GLASS POPUP - FINAL BUILD */
-.leaflet-popup-content-wrapper, .leaflet-popup-tip {
-    background: rgba(5, 5, 5, 0.5) !important; /* Полупрозрачно черно */
-    backdrop-filter: blur(12px) saturate(180%) !important; /* СТЪКЛЕН ЕФЕКТ */
-    -webkit-backdrop-filter: blur(12px) !important;
-    border: 1px solid rgba(57, 255, 20, 0.4) !important; /* Неоново зелен кант */
-    color: #fff !important;
-    box-shadow: 0 0 30px rgba(0, 0, 0, 0.9) !important;
-    border-radius: 2px !important;
-}
+@keyframes marquee { 0% { transform: translate(0, 0); } 100% { transform: translate(-100%, 0); } }
 
-/* Оптимизация на текста вътре */
-.leaflet-popup-content {
-    margin: 12px !important;
-    font-family: 'Courier New', monospace !important;
-}
-
-/* Стил за бутона за затваряне */
-.leaflet-popup-close-button {
-    color: #39FF14 !important;
-    top: 5px !important;
-    right: 5px !important;
-}
-/* 11. ПОЗИЦИОНИРАНЕ НА КАРТНИТЕ КОНТРОЛИ (WEATHER & ZOOM) */
-/* ФИНАЛНО ПРЕМЕСТВАНЕ - FORCE POSITION */
-.leaflet-control-container .leaflet-top.leaflet-left {
-    top: 350px !important; /* Директно задаваме разстояние от топ-а */
-    left: 10px !important;
-    display: flex !important;
-    flex-direction: column !important;
-    gap: 10px !important;
-}
-
-/* Правим иконките по-видими, за да ги намериш по-лесно */
-.leaflet-control-layers, .leaflet-control-zoom {
-    border: 2px solid #39FF14 !important; /* Дебел зелен кант за тест */
-    background: rgba(0, 0, 0, 0.9) !important;
-}
-/* Анимация за пулсиране */
-@keyframes pulse-animation {
-    0% { transform: scale(1); opacity: 1; }
-    50% { transform: scale(1.2); opacity: 0.8; }
-    100% { transform: scale(1); opacity: 1; }
-}
-
-/* Клас, който ще добавим само на самолетоносачите */
-.pulsing-carrier {
-    animation: pulse-animation 2s infinite ease-in-out;
-    filter: drop-shadow(0 0 5px rgba(255, 255, 0, 0.7)); /* Лек златист блясък */
-}
-/* 1. ПРЕМАХВА БЕЛИТЕ КВАДРАТЧЕТА (БЪГА) ПОД ИКОНКИТЕ */
-.leaflet-div-icon, .custom-marker-container {
+/* 7. ФИНАЛЕН ФИКС ЗА ИКОНИТЕ (ПРЕМАХВА БЕЛИТЕ КВАДРАТИ) */
+.leaflet-marker-icon, 
+.leaflet-div-icon, 
+.custom-marker-container {
     background: transparent !important;
     border: none !important;
+    outline: none !important;
+    box-shadow: none !important;
 }
 
-/* 2. ФИКС ЗА ПУЛСАЦИЯТА - добавяме !important, за да надделее над Leaflet */
+/* 8. АНИМАЦИЯ ЗА ПУЛСИРАНЕ */
+@keyframes pulse-animation {
+    0% { transform: scale(1); filter: drop-shadow(0 0 2px rgba(255, 255, 0, 0.6)); }
+    50% { transform: scale(1.2); filter: drop-shadow(0 0 10px rgba(255, 255, 0, 1)); }
+    100% { transform: scale(1); filter: drop-shadow(0 0 2px rgba(255, 255, 0, 0.6)); }
+}
+
 .pulsing-carrier {
     animation: pulse-animation 2s infinite ease-in-out !important;
-    filter: drop-shadow(0 0 8px rgba(255, 255, 0, 0.9)) !important;
     z-index: 1000 !important;
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
 }
 
-/* 3. ПРАВИМ ИКОНКИТЕ ВЪТРЕ В КОНТЕЙНЕРА ДА СЛЕДВАТ АНИМАЦИЯТА */
-.pulsing-carrier img {
-    pointer-events: none; /* За да не пречат на клика върху маркера */
+/* 9. КОНТРОЛИ */
+.leaflet-control-container .leaflet-top.leaflet-left {
+    top: 350px !important;
+    left: 10px !important;
+}
+
+.leaflet-control-layers, .leaflet-control-zoom {
+    border: 2px solid #39FF14 !important;
+    background: rgba(0, 0, 0, 0.9) !important;
 }
