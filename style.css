@@ -88,14 +88,26 @@ header {
 
 @keyframes marquee { 0% { transform: translate(0, 0); } 100% { transform: translate(-100%, 0); } }
 
-/* 7. ФИНАЛЕН ФИКС ЗА ИКОНИТЕ (ПРЕМАХВА БЕЛИТЕ КВАДРАТИ) */
+/* 7. ФИНАЛЕН ФИКС ЗА ИКОНИТЕ (ПРЕМАХВА ВСИЧКИ СКРИТИ РАМКИ) */
 .leaflet-marker-icon, 
 .leaflet-div-icon, 
+.leaflet-zoom-animated, 
+.leaflet-interactive,
 .custom-marker-container {
-    background: transparent !important;
+    background: none !important;
+    background-color: transparent !important;
     border: none !important;
     outline: none !important;
     box-shadow: none !important;
+    -webkit-tap-highlight-color: transparent;
+}
+
+/* ФИКС ЗА КАРТИНКИТЕ ВЪТРЕ В МАРКЕРИТЕ */
+.leaflet-marker-icon img, 
+.leaflet-div-icon img {
+    border: none !important;
+    outline: none !important;
+    background: none !important;
 }
 
 /* 8. АНИМАЦИЯ ЗА ПУЛСИРАНЕ */
