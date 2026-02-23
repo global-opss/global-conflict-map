@@ -266,7 +266,7 @@
     try {
       // Използваме уникален идентификатор за твоя военен терминал
       const namespace = "nasko-military-terminal-2026";
-      const key = "live-monitor-v2";
+      const key = "military-test-" + Math.floor(Math.random() * 1000);
       const endpoint = `https://api.counterapi.dev/v1/${namespace}/${key}/hits/up`;
 
       const response = await fetch(endpoint);
