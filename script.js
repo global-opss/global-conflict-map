@@ -877,3 +877,34 @@ document.onkeydown = function(e) {
 };
 
 console.log(">> SYSTEM: All Monitoring Modules are READY and ONLINE.");
+// --- ПОСТАВИ ТОВА НАЙ-ОТДОЛУ, ИЗВЪН WINDOW.ONLOAD ---
+
+function togglePanel(panelId) {
+    const panel = document.getElementById(panelId);
+    if (!panel) {
+        console.error("System Error: Panel " + panelId + " not found.");
+        return;
+    }
+
+    // Търсим съдържанието, което трябва да се скрие
+    // Проверяваме за различни класове, които може да си ползвал
+    const content = panel.querySelector('.panel-content') || 
+                    panel.querySelector('#intel-list') || 
+                    panel.querySelector('iframe') ||
+                    panel.querySelector('.news-container');
+
+    if (content) {
+        if (content.style.display === 'none') {
+            content.style.display = 'block';
+            panel.style.height = ""; // Връща автоматичен размер
+            panel.style.minHeight = ""; 
+        } else {
+            content.style.display = 'none';
+            panel.style.height = "35px"; // Свива го до височината на хедъра
+            panel.style.minHeight = "35px";
+            panel.style.overflow = "hidden";
+        }
+        console.log(">> SYSTEM: Panel " + panelId + " state toggled.");
+    } else {
+        console.warn(">> SYSTEM: No toggleable content found in " + panelId);
+    }
