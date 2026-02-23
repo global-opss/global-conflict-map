@@ -33,7 +33,14 @@ FEEDS = [
     "https://theaviationist.com/feed/",
     "https://www.defense.gov/DesktopModules/ArticleCS/RSS.ashx?max=10",
     "https://api.axios.com/feed/",
-    "https://www.whitehouse.gov/briefing-room/statements-releases/feed/"
+    "https://www.whitehouse.gov/briefing-room/statements-releases/feed/",
+    "https://www.timesofisrael.com/feed/",
+    "https://www.jpost.com/rssfeeds/frontpage.aspx"
+    "https://www.lorientlejour.com/rss/english", 
+    "https://www.dailystar.com.lb/RSS.aspx?live=1",
+    "https://www.arabnews.com/rss.xml",
+    "https://www.thenationalnews.com/arc/outboundfeeds/rss/",
+    "https://english.alarabiya.net/.mrss/en/news.xml"
 ]
 
 LOCATION_CACHE = {
@@ -175,4 +182,5 @@ def run_bot():
 if __name__ == "__main__":
     run_bot()
     # End of Script - 250 Lines Precise.
+
 
