@@ -314,12 +314,14 @@ strategicAssets.forEach(asset => {
                       asset.name.includes("Bagheri") ||
                       asset.name.includes("Truman");
 
-    // 2. Създаваме иконата без "бъгове" отзад
+    // 2. Създаваме иконата със занулени стилове (Inline Styles)
     const navalIcon = L.divIcon({
-        className: 'custom-marker-container', // Нулираме Leaflet стиловете
+        className: 'none', // Напълно игнорираме стандартните класове
         html: `
-            <div class="${isCarrier ? 'pulsing-carrier' : ''}" style="display: flex; align-items: center; justify-content: center;">
-                <img src="assets/icons/${asset.type}.png" style="width:30px; height:30px; display:block;">
+            <div class="${isCarrier ? 'pulsing-carrier' : ''}" 
+                 style="width: 30px; height: 30px; background: transparent !important; border: none !important; display: flex; align-items: center; justify-content: center;">
+                <img src="assets/icons/${asset.type}.png" 
+                     style="width: 30px; height: 30px; border: none !important; background: none !important; box-shadow: none !important; display: block;">
             </div>
         `,
         iconSize: [30, 30],
@@ -329,7 +331,7 @@ strategicAssets.forEach(asset => {
     // 3. Слагаме маркера
     const marker = L.marker([asset.lat, asset.lon], { icon: navalIcon }).addTo(map);
 
-    // 4. Кръговете за иранските зони (запазваме ги)
+    // 4. Кръговете за иранските зони
     if (asset.type === 'ir-pvo' || asset.type === 'ir-missile' || asset.type === 'ir-air') {
         L.circle([asset.lat, asset.lon], {
             color: '#ff4444',
@@ -344,8 +346,8 @@ strategicAssets.forEach(asset => {
     // --- СЕКЦИЯ 4: РАЗШИРЕН CSS СТИЛ (UI ОПТИМИЗАЦИЯ) ---
     const customStyles = document.createElement("style");
     customStyles.innerText = `
-        .leaflet-marker-icon { background: none !important; border: none !important; }
-        .mil-icon-box { display: flex; align-items: center; justify-content: center; border-radius: 50%; border: 1px solid #fff; box-shadow: 0 0 8px #000; transition: 0.3s; }
+        .leaflet-marker-icon { background: none !important; border: none !important; box-shadow: none !important; }
+.mil-icon-box { display: flex; align-items: center; justify-content: center; border-radius: 50%; border: none !important; box-shadow: none !important; transition: 0.3s; }
         .icon-us-nato { background: rgba(57, 255, 20, 0.45); border-color: #39FF14; }
         .icon-iran-tension { background: rgba(255, 140, 0, 0.45); border-color: #ff8c00; }
         .icon-ru-ua { background: rgba(255, 0, 0, 0.45); border-color: #ff3131; }
