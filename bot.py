@@ -52,7 +52,7 @@ LOCATION_CACHE = {
     "ouagadougou": [12.3714, -1.5197], "sudan": [12.8628, 30.2176], "somalia": [5.1521, 46.1996],
     "libya": [26.3351, 17.2283], "tripoli": [32.8872, 13.1913], "djibouti": [11.5721, 43.1456],
     "kabul": [34.5553, 69.1770], "islamabad": [33.6844, 73.0479], "karachi": [24.8607, 67.0011],
-    "peshawar": [34.0151, 71.5249], "kandahar": [31.6289, 65.7372]
+    "peshawar": [34.0151, 71.5249], "kandahar": [31.6289, 65.7372], "lebanon": [33.8547, 35.8623]
 }
 
 def clean_html(raw_html):
@@ -63,7 +63,7 @@ def clean_html(raw_html):
 def extract_info(text, locations_map):
     t = text.lower()
     event_map = {
-        "Evacuation": ["evacuate", "leave now", "citizens must leave", "evacuation", "emergency departure", "leave immediately", "urges citizens", "travel warning", "diplomatic exit", "security alert", "warns citizens", "orders citizens", "advice to leave", "flee"],
+        "Evacuation": ["evacuate", "leave now", "citizens must leave", "evacuation", "emergency departure", "leave immediately", "urges citizens", "travel warning", "diplomatic exit", "security alert", "warns citizens", "orders citizens", "advice to leave", "flee", "embassy alert", "depart immediately"],
         "Naval": ["ship", "vessel", "navy", "maritime", "carrier", "destroyer", "frigate", "naval base", "black sea", "baltic", "mediterranean", "red sea", "houthi", "strait", "carrier group", "freedom of navigation", "warship"],
         "Airstrike": ["airstrike", "missile", "rocket", "bombing", "strikes", "attack", "ballistic", "kinzhal", "iskander", "kalibr", "kh-101", "storm shadow", "himars", "patriot", "intercepted", "air defense", "scramble", "bomber"],
         "Explosion": ["explosion", "blast", "shelling", "artillery", "detonation", "shook", "smoke", "grad", "mlrs", "howitzer", "mortar", "vovchansk", "pokrovsk", "bombardment"],
@@ -175,3 +175,4 @@ def run_bot():
 if __name__ == "__main__":
     run_bot()
     # End of Script - 250 Lines Precise.
+
