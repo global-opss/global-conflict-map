@@ -292,14 +292,14 @@ fetch('https://raw.githubusercontent.com/datasets/geo-boundaries-world-110m/mast
         { name: "Kirkuk Airfield (K-1)", type: "us-infantry", lat: 35.511, lon: 44.254, description: "Forward Operating Base. Surveillance of northern oil fields. Multi-factional security presence." },
         { name: "Taji Military Complex", type: "ru-infantry", lat: 33.518, lon: 44.275, description: "Main Iraqi logistics & training base. ASSETS: Mi-17 and Bell 407 helicopter squadrons." },
         { name: "Ain al-Assad (Radar Site)", type: "us-missile", lat: 33.802, lon: 42.395, description: "AN/MPQ-64 Sentinel Radar positions. Early warning system for incoming ballistic threats from the East." },
-        { name: "USS Gerald R. Ford", type: "us-naval", lat: 36.12, lon: -5.35, description: "Carrier Strike Group 12 (CSG-12). Transiting Mediterranean Sea toward Middle East." },
-        { name: "USS Abraham Lincoln", type: "us-naval", lat: 23.55, lon: 59.15, description: "Carrier Strike Group 3 (CSG-3). Positioned in Arabian Sea, monitoring Iranian coast." },
-        { name: "USS Spruance", type: "us-naval", lat: 14.20, lon: 51.30, description: "Arleigh Burke-class Destroyer. Security operations in Gulf of Aden (5th Fleet)." },
-        { name: "IRIS Shahid Bagheri", type: "ir-naval", lat: 27.08, lon: 56.20, description: "IRGC Drone Carrier. Active near Bandar Abbas, Strait of Hormuz." },
-        { name: "IRIS Alborz", type: "ir-naval", lat: 12.80, lon: 43.05, description: "Iranian Alvand-class frigate. Patrolling near Bab el-Mandeb strait, Red Sea." },
-        { name: "USS Carney", type: "us-naval", lat: 30.40, lon: -81.40, description: "Destroyer. Currently in homeport Mayport for maintenance after deployment." },
-        { name: "Shandong (Type 002)", type: "ch-naval", lat: 22.30, lon: 114.20, description: "PLAN Carrier. Active maneuvers in South China Sea." },
-        { name: "USS George H.W. Bush", type: "us-naval", lat: 38.80, lon: -35.20, description: "CVN 77. Transatlantic transit, heading East toward EUCOM AOR." }
+        { name: "USS Harry S. Truman", type: "us-naval", lat: 33.50, lon: 32.10, description: "Carrier Strike Group 8 (CSG-8). Currently south of Cyprus, covering the Eastern Mediterranean." },
+        { name: "USS Abraham Lincoln", type: "us-naval", lat: 21.40, lon: 61.20, description: "Carrier Strike Group 3 (CSG-3). Positioned in the Arabian Sea, providing deterrence against Iran." },
+        { name: "USS Gerald R. Ford", type: "us-naval", lat: 36.30, lon: 14.50, description: "Carrier Strike Group 12. Operating near Malta, transiting Central Mediterranean." },
+        { name: "USS Wasp", type: "us-naval", lat: 34.15, lon: 34.50, description: "Amphibious Ready Group. Positioned off the coast of Lebanon/Israel for evacuation readiness." },
+        { name: "USS Stockdale", type: "us-naval", lat: 12.75, lon: 43.15, description: "Arleigh Burke-class destroyer. Active intercept missions in the Bab el-Mandeb Strait." },
+        { name: "IRIS Shahid Bagheri", type: "ir-naval", lat: 27.10, lon: 56.40, description: "IRGC Drone Carrier. Monitoring traffic in the Strait of Hormuz." },
+        { name: "HMS Diamond", type: "uk-naval", lat: 14.90, lon: 41.80, description: "UK Royal Navy Destroyer. Counter-drone operations in the Southern Red Sea." },
+        { name: "FS Charles de Gaulle", type: "fr-naval", lat: 35.10, lon: 18.20, description: "French Carrier Strike Group. Conducting maritime security drills in the Ionian Sea." }
     ];
 // --- СЕКЦИЯ: ВРЕДНИ ЗОНИ (ОБХВАТ НА УДАР) ---
 strategicAssets.forEach(asset => {
