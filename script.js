@@ -308,16 +308,43 @@ fetch('https://raw.githubusercontent.com/datasets/geo-boundaries-world-110m/mast
         { name: "IRIS Alborz", type: "ir-naval", lat: 13.50, lon: 42.90, description: "Iranian Alvand-class frigate. Operating in the Red Sea, monitoring US naval assets near the Houthi-controlled zones." }
     ];
 // --- СЕКЦИЯ: ВРЕДНИ ЗОНИ (ОБХВАТ НА УДАР) ---
+// --- СЕКЦИЯ: ВИЗУАЛИЗАЦИЯ И ОБХВАТ НА УДАР ---
 strategicAssets.forEach(asset => {
-    // Проверяваме за ирански ядрени и ракетни обекти
+    // 1. ЛОГИКА ЗА КРЪГОВЕТЕ (Запазваме я, както е на снимката ти)
     if (asset.type === 'ir-pvo' || asset.type === 'ir-missile' || asset.type === 'ir-air') {
         L.circle([asset.lat, asset.lon], {
-            color: '#ff4444',      // Червен контур
-            fillColor: '#ff4444',  // Червено запълване
-            fillOpacity: 0.1,     // Много прозрачно, за да не пречи
-            radius: 80000          // 80 км обхват (можеш да го промениш)
+            color: '#ff4444',
+            fillColor: '#ff4444',
+            fillOpacity: 0.1,
+            radius: 80000 
         }).addTo(map);
     }
+
+    // 2. НОВА ЛОГИКА ЗА ПУЛСИРАЩИ ИКОНИ
+    // Проверяваме дали е самолетоносач за анимацията
+    const isCarrier = asset.name.includes("Lincoln") || 
+                      asset.name.includes("Ford") || 
+                      asset.name.includes("Shahid Bagheri") ||
+                      asset.name.includes("Truman");
+
+    // Създаваме иконата. Ако е carrier, добавяме класа pulsing-carrier
+    const navalIcon = L.divIcon({
+        className: isCarrier ? 'pulsing-carrier' : '', 
+        html: `<img src="assets/icons/${asset.type}.png" style="width:32px; height:auto; filter: drop-shadow(0 0 2px #000);">`,
+        iconSize: [32, 32],
+        iconAnchor: [16, 16]
+    });
+
+    // 3. ДОБАВЯНЕ НА МАРКЕРА
+    const marker = L.marker([asset.lat, asset.lon], { icon: navalIcon }).addTo(map);
+    
+    // Поп-ъп прозорец
+    marker.bindPopup(`
+        <div style="background:#000; color:#00ff00; padding:10px; border:1px solid #444; font-family:monospace;">
+            <strong style="color:#fff; display:block; margin-bottom:5px;">${asset.name}</strong>
+            ${asset.description || 'Tactical Asset'}
+        </div>
+    `);
 });
     // --- СЕКЦИЯ 4: РАЗШИРЕН CSS СТИЛ (UI ОПТИМИЗАЦИЯ) ---
     const customStyles = document.createElement("style");
