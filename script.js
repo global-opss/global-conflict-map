@@ -81,29 +81,7 @@ let map; // Сложи го точно тук на нов ред
         zoomSnap: 0.1,          // Прецизен контрол на мащаба
         wheelDebounceTime: 60   // Оптимизация на скрола с мишката
     }).setView([35.0, 40.0], 4.2); 
-// --- ГЛОБАЛНА ФУНКЦИЯ ЗА МИНИМИЗИРАНЕ ---
-    window.togglePanel = function(panelId) {
-        const panel = document.getElementById(panelId);
-        if (!panel) return;
-        
-        // Търсим съдържанието вътре в панела
-        const content = panel.querySelector('.panel-content') || 
-                        panel.querySelector('#intel-list') || 
-                        panel.querySelector('iframe');
-        
-        if (content) {
-            if (content.style.display === 'none') {
-                content.style.display = 'block';
-                panel.style.height = ""; // Връща оригиналния размер
-                panel.style.minHeight = "";
-            } else {
-                content.style.display = 'none';
-                panel.style.height = "32px"; // Свива панела до заглавието
-                panel.style.minHeight = "32px";
-                panel.style.overflow = "hidden";
-            }
-        }
-    };
+
     // Дефиниране на слоеве за различни типове данни
     const markersLayer = L.layerGroup().addTo(map);   // Динамични новини
     const militaryLayer = L.layerGroup().addTo(map);  // Статични бази и активи
