@@ -347,10 +347,10 @@ strategicAssets.forEach(asset => {
     const customStyles = document.createElement("style");
     customStyles.innerText = `
         .leaflet-marker-icon { background: none !important; border: none !important; box-shadow: none !important; }
-.mil-icon-box { display: flex; align-items: center; justify-content: center; border-radius: 50%; border: none !important; box-shadow: none !important; transition: 0.3s; }
-        .icon-us-nato { background: rgba(57, 255, 20, 0.45); border-color: #39FF14; }
-        .icon-iran-tension { background: rgba(255, 140, 0, 0.45); border-color: #ff8c00; }
-        .icon-ru-ua { background: rgba(255, 0, 0, 0.45); border-color: #ff3131; }
+        .mil-icon-box { display: flex; align-items: center; justify-content: center; border-radius: 50%; border: none !important; box-shadow: none !important; transition: 0.3s; background: transparent !important; }
+        .icon-us-nato { background: rgba(57, 255, 20, 0.45) !important; border: none !important; }
+        .icon-iran-tension { background: rgba(255, 140, 0, 0.45) !important; border: none !important; }
+        .icon-ru-ua { background: rgba(255, 0, 0, 0.45) !important; border: none !important; }
         
         /* ПУЛСИРАЩА АНИМАЦИЯ ЗА НОВИНИ */
         .alert-pulse { animation: alert-anim 2s infinite alternate; cursor: pointer; filter: drop-shadow(0 0 15px #ff3131); }
