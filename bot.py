@@ -183,7 +183,7 @@ def run_bot():
         except: continue
         
     unique_events = {e['title']: e for e in (new_found_events + existing_events)}
-    final_list = sorted(list(unique_events.values()), key=lambda x: x['date'], reverse=True)[:200]
+    final_list = sorted(list(unique_events.values()), key=lambda x: x['date'], reverse=True)[:300]
     
     with open('conflicts.json', 'w', encoding='utf-8') as f:
         json.dump(final_list, f, indent=4, ensure_ascii=False)
@@ -195,3 +195,4 @@ if __name__ == "__main__":
     # 2. Обновяваме новините
     run_bot()
     # --- End of Final Integrated Bot Script (250 Lines Precise) ---
+
