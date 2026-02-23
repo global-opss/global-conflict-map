@@ -897,33 +897,3 @@ function updateNavalRadar() {
         })
         .catch(err => console.log("Naval Radar Error: ", err));
 }
-
-// 2. ФУНКЦИЯ ЗА ЗАРЕЖДАНЕ НА КОНФЛИКТИТЕ (News)
-function updateConflicts() {
-    fetch('conflicts.json')
-        .then(res => res.json())
-        .then(data => {
-            data.forEach(event => {
-                // Цвят според severity
-                let markerColor = 'yellow';
-                if (event.severity === 'critical') markerColor = 'red';
-                if (event.severity === 'middle') markerColor = 'orange';
-
-                let icon = L.icon({
-                    iconUrl: `https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-${markerColor}.png`,
-                    iconSize: [25, 41],
-                    iconAnchor: [12, 41]
-                });
-
-                L.marker([event.lat, event.lon], { icon: icon })
-                    .addTo(map)
-                    .bindPopup(`<b>${event.type}</b><br>${event.title}<br><a href="${event.link}" target="_blank">Read More</a>`);
-            });
-            console.log("Conflicts: Loaded " + data.length + " events.");
-        })
-        .catch(err => console.log("Conflicts Error: ", err));
-}
-
-// Изпълнение на функциите при старт
-updateNavalRadar();
-updateConflicts();
