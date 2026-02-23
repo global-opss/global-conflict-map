@@ -188,10 +188,17 @@ fetch('https://raw.githubusercontent.com/datasets/geo-boundaries-world-110m/mast
         { name: "Diego Garcia Base", type: "us-naval", lat: -7.31, lon: 72.41, description: "Strategic hub for US bombers and naval support in the Indian Ocean." },
         { name: "Kaliningrad HQ", type: "ru-hq", lat: 54.71, lon: 20.45, description: "Russian Baltic Fleet HQ and missile defense center." },
         { name: "Muwaffaq Salti Air Base (Jordan)", type: "us-air", lat: 32.10, lon: 36.79, description: "ASSETS: 36x F-15E, 30x F-35A, 12x A-10C, 6x EA-18G. Status: Strike Ready." },
+        { name: "USS Abraham Lincoln (CVN-72) Strike Group", type: "us-naval", lat: 23.55, lon: 59.15, description: "ASSETS: F-35C, F/A-18E/F. Status: Active Patrol - Gulf of Oman." },
+        { name: "USS Spruance (DDG-111)", type: "us-naval", lat: 23.40, lon: 58.95, description: "Arleigh Burke-class destroyer. Mission: Strike Group Escort." },
+        { name: "USS Stockdale (DDG-106)", type: "us-naval", lat: 23.70, lon: 59.40, description: "Arleigh Burke-class destroyer. Mission: Anti-submarine defense." },
+        { name: "USS Delbert D. Black (DDG-119)", type: "us-naval", lat: 19.25, lon: 39.80, description: "Arleigh Burke-class destroyer. Mission: Red Sea Security Ops." },
+        { name: "USS Gerald R. Ford (CVN-78) Strike Group", type: "us-naval", lat: 34.25, lon: 24.15, description: "ASSETS: F-35C, F/A-18E/F. Status: Mediterranean Transit." },
+        { name: "USS George H.W. Bush (CVN-77)", type: "us-naval", lat: 37.00, lon: -75.00, description: "Nimitz-class carrier. Status: Maintenance/Home Port." },
         { name: "Bandar Abbas (Joint Drills)", type: "ir-pvo", lat: 27.20, lon: 56.37, description: "Main IRGC Naval HQ and missile defense site." },
         { name: "Qeshm Island Drone Base", type: "ir-pvo", lat: 26.72, lon: 55.95, description: "ASSETS: Shahed-136/129 UCAVs. Iranian drone launch site." },
         { name: "Kashan Drone Center", type: "ir-pvo", lat: 33.89, lon: 51.57, description: "Training and testing facility for long-range Iranian drones." },
         { name: "Haji Abad Missile Complex", type: "ir-pvo", lat: 28.04, lon: 55.91, description: "Underground storage for ballistic missile systems." },
+        { name: "IRIS Shahid Bagheri (Drone Carrier)", type: "ir-naval", lat: 27.00, lon: 56.10, description: "Converted carrier for long-range drone operations." },
         { name: "Natanz Enrichment Complex", type: "ir-pvo", lat: 33.72, lon: 51.72, description: "Heavily defended strategic nuclear enrichment facility." },
         { name: "Fordow Underground Facility", type: "ir-pvo", lat: 34.88, lon: 50.99, description: "Deeply buried nuclear research and defense site." },
         { name: "Arak Heavy Water Plant", type: "ir-pvo", lat: 34.37, lon: 49.24, description: "Strategic nuclear site with active air defense." },
@@ -207,6 +214,8 @@ fetch('https://raw.githubusercontent.com/datasets/geo-boundaries-world-110m/mast
         { name: "Prince Sultan Air Base (KSA)", type: "us-air", lat: 24.06, lon: 47.58, description: "ASSETS: 12x F-22 Raptor, 6x E-3 AWACS. Protected by THAAD." },
         { name: "Ali Al Salem Air Base (Kuwait)", type: "us-air", lat: 29.34, lon: 47.52, description: "ASSETS: C-130 Hercules, MQ-9 Reaper units. Logistics Hub." },
         { name: "Camp Arifjan (Kuwait)", type: "us-naval", lat: 28.88, lon: 48.16, description: "Forward logistics command for US forces in Kuwait." },
+        { name: "USS McFaul (Hormuz Patrol)", type: "us-naval", lat: 26.50, lon: 56.50, description: "Arleigh Burke-class destroyer. Monitoring Strait of Hormuz." },
+        { name: "USS Delbert D. Black (Red Sea)", type: "us-naval", lat: 19.25, lon: 39.80, description: "Destroyer engaged in counter-missile defense." },
         { name: "Souda Bay Base (Crete)", type: "us-naval", lat: 35.48, lon: 24.14, description: "US/NATO naval support facility in the Eastern Med." },
         { name: "Thumrait Air Base (Oman)", type: "us-air", lat: 17.66, lon: 54.02, description: "Strategic Omani base supporting US air operations." },
         { name: "RAF Akrotiri (Cyprus)", type: "us-air", lat: 34.59, lon: 32.98, description: "ASSETS: 12x Typhoon FGR4, 2x Voyager KC3. UK Strike Hub." },
@@ -219,6 +228,7 @@ fetch('https://raw.githubusercontent.com/datasets/geo-boundaries-world-110m/mast
         { name: "RU 58th Army (Robotyne Front)", type: "ru-infantry", lat: 47.44, lon: 35.83, description: "Russian defensive and counter-attack units." },
         { name: "Donetsk Grouping", type: "ru-infantry", lat: 47.99, lon: 37.67, description: "Concentration of Russian ground forces in Donetsk." },
         { name: "Tower 22 (US Logistics Hub)", type: "us-air", lat: 33.31, lon: 38.70, description: "Critical US support and surveillance site in Jordan." },
+        { name: "USS Carney (Destroyer - Red Sea)", type: "us-naval", lat: 15.50, lon: 41.20, description: "Destroyer actively intercepting drones/missiles." },
         { name: "Nevatim Airbase (Israel F-35)", type: "us-air", lat: 31.20, lon: 35.01, description: "ASSETS: F-35I Adir Stealth Fighters. Strategic Strike Base." },
         { name: "Machulishchy Air Base (RU-BY)", type: "ru-air", lat: 53.7741, lon: 27.5776, description: "ASSETS: MiG-31K (Kinzhal carriers), A-50 AWACS." },
         { name: "Baranovichi Air Base (RU-BY)", type: "ru-air", lat: 53.1167, lon: 26.0494, description: "ASSETS: Su-30SM, Su-35S Russian fighter units." },
@@ -291,66 +301,28 @@ fetch('https://raw.githubusercontent.com/datasets/geo-boundaries-world-110m/mast
         { name: "Al-Muqdadiya (Diyala)", type: "ru-infantry", lat: 33.978, lon: 44.936, description: "Badr Organization Sector. Strategic depth for Iranian pro-government forces monitoring the eastern corridor." },
         { name: "Kirkuk Airfield (K-1)", type: "us-infantry", lat: 35.511, lon: 44.254, description: "Forward Operating Base. Surveillance of northern oil fields. Multi-factional security presence." },
         { name: "Taji Military Complex", type: "ru-infantry", lat: 33.518, lon: 44.275, description: "Main Iraqi logistics & training base. ASSETS: Mi-17 and Bell 407 helicopter squadrons." },
-        { name: "Ain al-Assad (Radar Site)", type: "us-missile", lat: 33.802, lon: 42.395, description: "AN/MPQ-64 Sentinel Radar positions. Early warning system for incoming ballistic threats from the East." },
-        { name: "USS Harry S. Truman", type: "us-naval", lat: 36.95, lon: 76.33, description: "Carrier Strike Group 8 (CSG-8). Currently south of Cyprus, covering the Eastern Mediterranean." },
-        { name: "USS Abraham Lincoln", type: "us-naval", lat: 21.40, lon: 61.20, description: "Carrier Strike Group 3 (CSG-3). Positioned in the Arabian Sea, providing deterrence against Iran." },
-        { name: "USS Gerald R. Ford", type: "us-naval", lat: 35.504, lon: 24.151, description: "Carrier Strike Group 12. Operating near Malta, transiting Central Mediterranean." },
-        { name: "USS Wasp", type: "us-naval", lat: 34.15, lon: 34.50, description: "Amphibious Ready Group. Positioned off the coast of Lebanon/Israel for evacuation readiness." },
-        { name: "USS Stockdale", type: "us-naval", lat: 12.75, lon: 43.15, description: "Arleigh Burke-class destroyer. Active intercept missions in the Bab el-Mandeb Strait." },
-        { name: "IRIS Shahid Bagheri", type: "ir-naval", lat: 27.10, lon: 56.40, description: "IRGC Drone Carrier. Monitoring traffic in the Strait of Hormuz." },
-        { name: "HMS Diamond", type: "uk-naval", lat: 14.90, lon: 41.80, description: "UK Royal Navy Destroyer. Counter-drone operations in the Southern Red Sea." },
-        { name: "FS Charles de Gaulle", type: "fr-naval", lat: 35.10, lon: 18.20, description: "French Carrier Strike Group. Conducting maritime security drills in the Ionian Sea." },
-        { name: "USS Spruance", type: "us-naval", lat: 22.15, lon: 60.85, description: "Arleigh Burke-class destroyer. Providing advanced Anti-Air Warfare (AAW) escort for CVN-72." },
-        { name: "USS Frank E. Petersen Jr.", type: "us-naval", lat: 23.45, lon: 59.30, description: "Arleigh Burke-class destroyer. Conducting maritime security operations and monitoring Iranian coastal activity in the Gulf of Oman." },
-        { name: "USS Stockdale", type: "us-naval", lat: 12.75, lon: 43.15, description: "Arleigh Burke-class destroyer. Forward-deployed in the Bab el-Mandeb Strait for counter-drone and ballistic missile defense." },
-        { name: "USS O'Kane", type: "us-naval", lat: 25.20, lon: 56.80, description: "Arleigh Burke-class destroyer. Patrolling the entrance of the Strait of Hormuz to ensure freedom of navigation." },
-        { name: "IRIS Shahid Bagheri", type: "ir-naval", lat: 27.10, lon: 56.40, description: "IRGC Drone Carrier. Strategically positioned in the Strait of Hormuz to monitor US and allied naval transits." },
-        { name: "IRIS Alborz", type: "ir-naval", lat: 13.50, lon: 42.90, description: "Iranian Alvand-class frigate. Operating in the Red Sea, monitoring US naval assets near the Houthi-controlled zones." }
+        { name: "Ain al-Assad (Radar Site)", type: "us-missile", lat: 33.802, lon: 42.395, description: "AN/MPQ-64 Sentinel Radar positions. Early warning system for incoming ballistic threats from the East." }
     ];
+// --- СЕКЦИЯ: ВРЕДНИ ЗОНИ (ОБХВАТ НА УДАР) ---
 strategicAssets.forEach(asset => {
-    const isCarrier = asset.name.includes("Lincoln") || 
-                      asset.name.includes("Ford") || 
-                      asset.name.includes("Bagheri") ||
-                      asset.name.includes("Truman");
-
-    // Слагаме иконата в напълно "гол" контейнер
-    const navalIcon = L.divIcon({
-        className: 'empty-marker', 
-        html: `
-            <div class="${isCarrier ? 'pulsing-carrier' : ''}" style="width:30px; height:30px; background:none !important; border:none !important;">
-                <img src="assets/icons/${asset.type}.png" style="width:30px; height:30px; border:none !important; background:none !important; box-shadow:none !important; display:block;">
-            </div>
-        `,
-        iconSize: [30, 30],
-        iconAnchor: [15, 15]
-    });
-
-    const marker = L.marker([asset.lat, asset.lon], { icon: navalIcon }).addTo(map);
-
-    // ТОВА Е КЛЮЧЪТ: Изтриваме стиловете на контейнера ПРИНУДИТЕЛНО след добавяне
-    marker.on('add', function() {
-        const el = marker.getElement();
-        if (el) {
-            el.style.background = 'none';
-            el.style.backgroundColor = 'transparent';
-            el.style.border = 'none';
-            el.style.boxShadow = 'none';
-        }
-    });
-
+    // Проверяваме за ирански ядрени и ракетни обекти
     if (asset.type === 'ir-pvo' || asset.type === 'ir-missile' || asset.type === 'ir-air') {
-        L.circle([asset.lat, asset.lon], { color: '#ff4444', fillColor: '#ff4444', fillOpacity: 0.1, radius: 80000 }).addTo(map);
+        L.circle([asset.lat, asset.lon], {
+            color: '#ff4444',      // Червен контур
+            fillColor: '#ff4444',  // Червено запълване
+            fillOpacity: 0.1,     // Много прозрачно, за да не пречи
+            radius: 80000          // 80 км обхват (можеш да го промениш)
+        }).addTo(map);
     }
-    marker.bindPopup(`<b>${asset.name}</b><br>${asset.description}`);
 });
     // --- СЕКЦИЯ 4: РАЗШИРЕН CSS СТИЛ (UI ОПТИМИЗАЦИЯ) ---
     const customStyles = document.createElement("style");
     customStyles.innerText = `
-        .leaflet-marker-icon { background: none !important; border: none !important; box-shadow: none !important; }
-        .mil-icon-box { display: flex; align-items: center; justify-content: center; border-radius: 50%; border: none !important; box-shadow: none !important; transition: 0.3s; background: transparent !important; }
-        .icon-us-nato { background: rgba(57, 255, 20, 0.45) !important; border: none !important; }
-        .icon-iran-tension { background: rgba(255, 140, 0, 0.45) !important; border: none !important; }
-        .icon-ru-ua { background: rgba(255, 0, 0, 0.45) !important; border: none !important; }
+        .leaflet-marker-icon { background: none !important; border: none !important; }
+        .mil-icon-box { display: flex; align-items: center; justify-content: center; border-radius: 50%; border: 1px solid #fff; box-shadow: 0 0 8px #000; transition: 0.3s; }
+        .icon-us-nato { background: rgba(57, 255, 20, 0.45); border-color: #39FF14; }
+        .icon-iran-tension { background: rgba(255, 140, 0, 0.45); border-color: #ff8c00; }
+        .icon-ru-ua { background: rgba(255, 0, 0, 0.45); border-color: #ff3131; }
         
         /* ПУЛСИРАЩА АНИМАЦИЯ ЗА НОВИНИ */
         .alert-pulse { animation: alert-anim 2s infinite alternate; cursor: pointer; filter: drop-shadow(0 0 15px #ff3131); }
@@ -905,6 +877,3 @@ document.onkeydown = function(e) {
 };
 
 console.log(">> SYSTEM: All Monitoring Modules are READY and ONLINE.");
-
-
-
