@@ -166,7 +166,9 @@ def run_bot():
                         })
                         print(f"✅ Captured: {event_type} - {city}")
         except: continue
-    unique_events = {e['title']: e for e in (new_found_events + existing_events)}
+    time_limit = (datetime.utcnow() - timedelta(hours=12)).strftime("%Y-%m-%d %H:%M:%S")
+    fresh_events = [e for e in (new_found_events + existing_events) if e['date'] > time_limit]
+    unique_events = {e['title']: e for e in fresh_events}
     final_list = sorted(list(unique_events.values()), key=lambda x: x['date'], reverse=True)[:200]
     with open('conflicts.json', 'w', encoding='utf-8') as f:
         json.dump(final_list, f, indent=4, ensure_ascii=False)
@@ -175,3 +177,4 @@ def run_bot():
 if __name__ == "__main__":
     run_bot()
     # End of Script - 250 Lines Precise.
+
