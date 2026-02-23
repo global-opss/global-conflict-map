@@ -1,17 +1,59 @@
 [
     {
+        "country": "Ukraine",
+        "city": "Kyiv",
+        "lat": 50.390288592456294,
+        "lon": 30.518981182149926,
+        "date": "2026-02-23 19:02:15",
+        "type": "Clashes",
+        "severity": "middle",
+        "title": "Hungary blocks EU Ukraine loan, Russia sanctions on eve of war anniversary",
+        "description": "Hungary maintained its veto on Monday against a new EU package of sanctions against Russia and a €90 billion loan to Ukraine, while a Ukrainian strike against a Russian pumping station serving the Druzhba oil pipeline threatened to further worsen relations between Kyiv and Budapest.",
+        "fatalities": "0",
+        "link": "https://www.france24.com/en/europe/20260223-hungary-blocks-eu-ukraine-loan-russia-sanctions-on-eve-of-war-anniversary",
+        "critical": false
+    },
+    {
         "country": "Israel",
         "city": "Tel Aviv",
-        "lat": 32.033631932942384,
-        "lon": 34.83585578665661,
-        "date": "2026-02-23 18:11:33",
-        "type": "Airstrike",
-        "severity": "critical",
-        "title": "Trump's top general warns of Iran strike risks",
-        "description": "Joint Chiefs Chairman Gen. Dan Caine has been advising President Trump and top officials that a military campaign against Iran could carry significant risks, in particular the possibility of becoming entangled in a prolonged conflict, according to two sources with knowledge of those internal discussions.Why it matters: There's an ongoing debate at the top levels of the Trump administration about how to handle the Iran standoff and what the conseq",
+        "lat": 32.045117873312584,
+        "lon": 34.71673609202495,
+        "date": "2026-02-23 19:02:06",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Turkish ‘threat’ talked up in Israel as Netanyahu focuses on new alliances",
+        "description": "Relations between Israel and Turkiye continue to deteriorate amid accusations and heightened geopolitical tensions.",
         "fatalities": "0",
-        "link": "https://www.axios.com/2026/02/23/iran-strike-trump-gen-dan-caine-vance-rubio",
-        "critical": true
+        "link": "https://www.aljazeera.com/news/2026/2/23/turkish-threat-talked-up-israel-netanyahu-focuses-new-alliances?traffic_source=rss",
+        "critical": false
+    },
+    {
+        "country": "Iran",
+        "city": "Tehran",
+        "lat": 35.62392549628186,
+        "lon": 51.40556315771257,
+        "date": "2026-02-23 19:02:06",
+        "type": "Clashes",
+        "severity": "middle",
+        "title": "Iran banks big on murky oil ‘trustees’ as war with US on the horizon",
+        "description": "Billions in oil funds have not been returned to Iran as transparency fades amid efforts to circumvent biting sanctions.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/news/2026/2/23/iran-banks-big-on-murky-oil-trustees-as-war-with-us-on-the-horizon?traffic_source=rss",
+        "critical": false
+    },
+    {
+        "country": "USA",
+        "city": "Washington",
+        "lat": 38.88249996288905,
+        "lon": -77.01836305081378,
+        "date": "2026-02-23 19:02:00",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "U.K. Police Arrest Peter Mandelson, Ex-Ambassador to the U.S., Amid Epstein Accusations",
+        "description": "Peter Mandelson was arrested on Monday on suspicion of “misconduct in public office” following revelations about his dealings with Jeffrey Epstein, the sex offender.",
+        "fatalities": "0",
+        "link": "https://www.nytimes.com/2026/02/23/world/europe/peter-mandelson-epstein-uk.html",
+        "critical": false
     },
     {
         "country": "Europe",
@@ -26,6 +68,20 @@
         "fatalities": "0",
         "link": "https://www.axios.com/2026/02/23/peter-mandelson-ambassador-arrested-epstein-files",
         "critical": false
+    },
+    {
+        "country": "Israel",
+        "city": "Tel Aviv",
+        "lat": 32.033631932942384,
+        "lon": 34.83585578665661,
+        "date": "2026-02-23 18:11:33",
+        "type": "Airstrike",
+        "severity": "critical",
+        "title": "Trump's top general warns of Iran strike risks",
+        "description": "Joint Chiefs Chairman Gen. Dan Caine has been advising President Trump and top officials that a military campaign against Iran could carry significant risks, in particular the possibility of becoming entangled in a prolonged conflict, according to two sources with knowledge of those internal discussions.Why it matters: There's an ongoing debate at the top levels of the Trump administration about how to handle the Iran standoff and what the conseq",
+        "fatalities": "0",
+        "link": "https://www.axios.com/2026/02/23/iran-strike-trump-gen-dan-caine-vance-rubio",
+        "critical": true
     },
     {
         "country": "Europe",
@@ -476,20 +532,6 @@
         "critical": false
     },
     {
-        "country": "Europe",
-        "city": "Sweden",
-        "lat": 59.792923870783746,
-        "lon": 15.48230386378105,
-        "date": "2026-02-23 17:18:28",
-        "type": "Clashes",
-        "severity": "middle",
-        "title": "Sweden 'very happy to be members of NATO', Swedish ambassador to France says",
-        "description": "As the world marks the fourth anniversary of Russia's full-scale invasion of Ukraine, the Swedish ambassador to France has spoken of her country's commitment to the Ukrainian cause. It is now almost two years since Sweden joined NATO after years of being a nonaligned country. Caroline Vicini says it was a big but necessary step for Sweden. She spoke to us in Perspective.",
-        "fatalities": "0",
-        "link": "https://www.france24.com/en/tv-shows/perspective/20260223-sweden-very-happy-to-be-members-of-nato-swedish-ambassador-to-france-says",
-        "critical": false
-    },
-    {
         "country": "Russia",
         "city": "Moscow",
         "lat": 55.79714833889862,
@@ -557,6 +599,20 @@
         "description": "A U.S. proposal to end the war in Ukraine puts the country in a delicate position — caught between placating the U.S. and not capitulating to Russia.",
         "fatalities": "0",
         "link": "https://www.militarytimes.com/global/europe/2025/11/21/proposed-peace-plan-for-ukraine-leaves-country-in-delicate-position/",
+        "critical": false
+    },
+    {
+        "country": "Europe",
+        "city": "Sweden",
+        "lat": 59.792923870783746,
+        "lon": 15.48230386378105,
+        "date": "2026-02-23 17:18:28",
+        "type": "Clashes",
+        "severity": "middle",
+        "title": "Sweden 'very happy to be members of NATO', Swedish ambassador to France says",
+        "description": "As the world marks the fourth anniversary of Russia's full-scale invasion of Ukraine, the Swedish ambassador to France has spoken of her country's commitment to the Ukrainian cause. It is now almost two years since Sweden joined NATO after years of being a nonaligned country. Caroline Vicini says it was a big but necessary step for Sweden. She spoke to us in Perspective.",
+        "fatalities": "0",
+        "link": "https://www.france24.com/en/tv-shows/perspective/20260223-sweden-very-happy-to-be-members-of-nato-swedish-ambassador-to-france-says",
         "critical": false
     },
     {
