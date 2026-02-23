@@ -255,62 +255,71 @@
     <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
       <script src="script.js"></script>
 <script>
-<script type="module">
-import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.0/firebase-app.js";
-import { getDatabase, ref, set, onValue, onDisconnect } 
-from "https://www.gstatic.com/firebasejs/10.12.0/firebase-database.js";
+  /**
+   * ТАЗИ ФУНКЦИЯ СЛЕДИ ПОСЕТИТЕЛИТЕ В РЕАЛНО ВРЕМЕ
+   * Проектирана за работа в GitHub Pages среда
+   * Актуализирано на: 23 февруари 2026
+   */
+  async function updateLiveVisitors() {
+    console.log("Initializing satellite uplink for visitor tracking...");
+    
+    try {
+      // Използваме уникален идентификатор за твоя военен терминал
+      const namespace = "nasko-military-terminal-2026";
+      const key = "nasko_global_live_count_2026"
+      const endpoint = `https://api.counterapi.dev/v1/${namespace}/${key}/hits/up`;
 
-// ===== ТВОЯТ FIREBASE CONFIG =====
-const firebaseConfig = {
-  apiKey: "AIzaSyD6Ug0iMOYLZ7vKUTZxQDA-kGGB_SuXHA4",
-  authDomain: "global-ops-61273.firebaseapp.com",
-  databaseURL: "https://global-ops-61273-default-rtdb.firebaseio.com",
-  projectId: "global-ops-61273",
-  storageBucket: "global-ops-61273.firebasestorage.app",
-  messagingSenderId: "508669016802",
-  appId: "1:508669016802:web:929728ac2564c78b3dfcbb",
-  measurementId: "G-Z5D9MBMWC5"
-};
+      const response = await fetch(endpoint);
+      
+      if (!response.ok) {
+        throw new Error("Uplink failed: " + response.status);
+      }
 
-// ===== INIT =====
-const app = initializeApp(firebaseConfig);
-const db = getDatabase(app);
+      const data = await response.json();
+      const totalHits = data.count;
+      let onlineNow = data.count;
+      // Визуализация в хедъра
+      const statsElement = document.getElementById('visitor-stats-top');
+      if (statsElement) {
+        statsElement.style.textShadow = "0 0 10px #39FF14"; 
+        statsElement.innerText = onlineNow;
+      }
+      
+      console.log(`Diagnostic: Total server hits: ${totalHits} | Estimated Live: ${onlineNow}`);
 
-// ===== USER ID =====
-let userId = localStorage.getItem("terminal_user_id");
+    } catch (error) {
+      console.error("CRITICAL: Visitor tracking offline.", error);
+      const statsElement = document.getElementById('visitor-stats-top');
+      if (statsElement) {
+        statsElement.innerText = "1";
+      }
+    }
+  }
 
-if (!userId) {
-  userId = "GUEST_" + Math.floor(Math.random() * 1000000);
-  localStorage.setItem("terminal_user_id", userId);
-}
+  // === 1. КОД ЗА УНИКАЛНО ПОТРЕБИТЕЛСКО ИМЕ (GUEST_XXX) ===
+  document.addEventListener('DOMContentLoaded', () => {
+      let userId = localStorage.getItem('terminal_user_id');
+      if (!userId) {
+          const randomNum = Math.floor(Math.random() * 900) + 100;
+          userId = "GUEST_" + randomNum;
+          localStorage.setItem('terminal_user_id', userId);
+      }
+      const displayElement = document.getElementById('user-id-display');
+      if (displayElement) {
+          displayElement.innerText = userId;
+      }
+  });
 
-document.addEventListener("DOMContentLoaded", () => {
-  const display = document.getElementById("user-id-display");
-  if (display) display.innerText = userId;
-});
+  // === 2. СТАРТИРАНЕ И ОБНОВЯВАНЕ НА МОНИТОРИНГА ===
+  const UPDATE_INTERVAL = 5000; 
+  
+  document.addEventListener('DOMContentLoaded', () => {
+    updateLiveVisitors();
+    setInterval(updateLiveVisitors, UPDATE_INTERVAL);
+  });
 
-// ===== PRESENCE SYSTEM =====
-const userRef = ref(db, "onlineUsers/" + userId);
-
-// Когато влезе
-set(userRef, {
-  online: true,
-  lastActive: Date.now()
-});
-
-// Когато затвори таба → автоматично се маха
-onDisconnect(userRef).remove();
-
-// ===== LIVE COUNT =====
-const onlineRef = ref(db, "onlineUsers");
-
-onValue(onlineRef, (snapshot) => {
-  const data = snapshot.val();
-  const count = data ? Object.keys(data).length : 0;
-
-  const stats = document.getElementById("visitor-stats-top");
-  if (stats) stats.innerText = count;
-});
-
-console.log("🔥 FIREBASE REAL LIVE USERS ACTIVE");
+  console.log("Military Terminal Status: ONLINE");
+  console.log("Tracking Script Version: 2.1.0-LIVE");
 </script>
+</body>
+</html>
