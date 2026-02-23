@@ -316,7 +316,7 @@ strategicAssets.forEach(asset => {
 
     // 2. Създаваме иконата със занулени стилове (Inline Styles)
     const navalIcon = L.divIcon({
-        className: 'none', // Напълно игнорираме стандартните класове
+        className: '', // Напълно игнорираме стандартните класове
         html: `
             <div class="${isCarrier ? 'pulsing-carrier' : ''}" 
                  style="width: 30px; height: 30px; background: transparent !important; border: none !important; display: flex; align-items: center; justify-content: center;">
