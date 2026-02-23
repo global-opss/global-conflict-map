@@ -275,23 +275,34 @@
 
     <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
       <script src="script.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-database.js"></script>
+
 <script>
-    async function updateOnlineCounter() {
-        try {
-            // Използваме стабилно API за 2026 година
-            const response = await fetch('https://api.counterapi.dev/v1/nasko-military-map-2026/hits/up');
-            const data = await response.json();
-            
-            const statsElement = document.getElementById('visitor-stats-top');
-            if (statsElement) {
-                statsElement.innerText = `VISITORS: ${data.count}`;
-            }
-        } catch (err) {
-            console.log("System Link Error: Броячът е офлайн.");
-        }
+  // Конфигурация за публичен брояч (Live)
+  const firebaseConfig = {
+    databaseURL: "https://military-map-live-default-rtdb.europe-west1.firebasedatabase.app"
+  };
+  
+  // Стартиране на системата
+  if (!firebase.apps.length) { firebase.initializeApp(firebaseConfig); }
+  const db = firebase.database();
+  const countRef = db.ref("live_visitors");
+
+  // Функция за влизане и автоматично излизане
+  const userRef = countRef.push();
+  userRef.set(true);
+  // Магията: Когато човек затвори сайта, сървърът го трие веднага
+  userRef.onDisconnect().remove();
+
+  // Слушател: Обновява числото горе в лентата веднага щом някой влезе или излезе
+  countRef.on("value", (snap) => {
+    const totalOnline = snap.numChildren();
+    const statsElement = document.getElementById('visitor-stats-top');
+    if (statsElement) {
+      statsElement.innerText = `VISITORS ONLINE: ${totalOnline}`;
     }
-    updateOnlineCounter();
-    setInterval(updateOnlineCounter, 30000); // Обновява на 30 секунди
+  });
 </script>
 </body>
 </html>
