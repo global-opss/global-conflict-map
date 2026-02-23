@@ -308,39 +308,39 @@ fetch('https://raw.githubusercontent.com/datasets/geo-boundaries-world-110m/mast
         { name: "IRIS Alborz", type: "ir-naval", lat: 13.50, lon: 42.90, description: "Iranian Alvand-class frigate. Operating in the Red Sea, monitoring US naval assets near the Houthi-controlled zones." }
     ];
 strategicAssets.forEach(asset => {
-    // 1. Пулсираща логика
     const isCarrier = asset.name.includes("Lincoln") || 
                       asset.name.includes("Ford") || 
                       asset.name.includes("Bagheri") ||
                       asset.name.includes("Truman");
 
-    // 2. Създаваме иконата със занулени стилове (Inline Styles)
+    // Слагаме иконата в напълно "гол" контейнер
     const navalIcon = L.divIcon({
-        className: '', // Напълно игнорираме стандартните класове
+        className: 'empty-marker', 
         html: `
-            <div class="${isCarrier ? 'pulsing-carrier' : ''}" 
-                 style="width: 30px; height: 30px; background: transparent !important; border: none !important; display: flex; align-items: center; justify-content: center;">
-                <img src="assets/icons/${asset.type}.png" 
-                     style="width: 30px; height: 30px; border: none !important; background: none !important; box-shadow: none !important; display: block;">
+            <div class="${isCarrier ? 'pulsing-carrier' : ''}" style="width:30px; height:30px; background:none !important; border:none !important;">
+                <img src="assets/icons/${asset.type}.png" style="width:30px; height:30px; border:none !important; background:none !important; box-shadow:none !important; display:block;">
             </div>
         `,
         iconSize: [30, 30],
         iconAnchor: [15, 15]
     });
 
-    // 3. Слагаме маркера
     const marker = L.marker([asset.lat, asset.lon], { icon: navalIcon }).addTo(map);
 
-    // 4. Кръговете за иранските зони
-    if (asset.type === 'ir-pvo' || asset.type === 'ir-missile' || asset.type === 'ir-air') {
-        L.circle([asset.lat, asset.lon], {
-            color: '#ff4444',
-            fillColor: '#ff4444',
-            fillOpacity: 0.1,
-            radius: 80000 
-        }).addTo(map);
-    }
+    // ТОВА Е КЛЮЧЪТ: Изтриваме стиловете на контейнера ПРИНУДИТЕЛНО след добавяне
+    marker.on('add', function() {
+        const el = marker.getElement();
+        if (el) {
+            el.style.background = 'none';
+            el.style.backgroundColor = 'transparent';
+            el.style.border = 'none';
+            el.style.boxShadow = 'none';
+        }
+    });
 
+    if (asset.type === 'ir-pvo' || asset.type === 'ir-missile' || asset.type === 'ir-air') {
+        L.circle([asset.lat, asset.lon], { color: '#ff4444', fillColor: '#ff4444', fillOpacity: 0.1, radius: 80000 }).addTo(map);
+    }
     marker.bindPopup(`<b>${asset.name}</b><br>${asset.description}`);
 });
     // --- СЕКЦИЯ 4: РАЗШИРЕН CSS СТИЛ (UI ОПТИМИЗАЦИЯ) ---
