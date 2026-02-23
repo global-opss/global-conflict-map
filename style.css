@@ -203,3 +203,20 @@ iframe {
     animation: pulse-animation 2s infinite ease-in-out;
     filter: drop-shadow(0 0 5px rgba(255, 255, 0, 0.7)); /* Лек златист блясък */
 }
+/* 1. ПРЕМАХВА БЕЛИТЕ КВАДРАТЧЕТА (БЪГА) ПОД ИКОНКИТЕ */
+.leaflet-div-icon, .custom-marker-container {
+    background: transparent !important;
+    border: none !important;
+}
+
+/* 2. ФИКС ЗА ПУЛСАЦИЯТА - добавяме !important, за да надделее над Leaflet */
+.pulsing-carrier {
+    animation: pulse-animation 2s infinite ease-in-out !important;
+    filter: drop-shadow(0 0 8px rgba(255, 255, 0, 0.9)) !important;
+    z-index: 1000 !important;
+}
+
+/* 3. ПРАВИМ ИКОНКИТЕ ВЪТРЕ В КОНТЕЙНЕРА ДА СЛЕДВАТ АНИМАЦИЯТА */
+.pulsing-carrier img {
+    pointer-events: none; /* За да не пречат на клика върху маркера */
+}
