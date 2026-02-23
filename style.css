@@ -88,44 +88,34 @@ header {
 
 @keyframes marquee { 0% { transform: translate(0, 0); } 100% { transform: translate(-100%, 0); } }
 
-/* 7. ФИНАЛЕН ФИКС ЗА ИКОНИТЕ (ПРИНУДИТЕЛНО ИЗЧИСТВАНЕ) */
+/* 7. ФИНАЛЕН ФИКС ЗА ИКОНИТЕ (TOTAL PURGE) */
 .leaflet-marker-icon, 
 .leaflet-div-icon, 
 .leaflet-zoom-animated,
-.leaflet-interactive {
-    background: none !important;
+.leaflet-interactive,
+.custom-marker-container,
+.empty-marker {
+    background: transparent !important;
     background-color: transparent !important;
     border: none !important;
     outline: none !important;
     box-shadow: none !important;
 }
 
-/* Изчистване на всякакви скрити бели контейнери */
-div[class*="leaflet-marker"], 
-.leaflet-div-icon {
+/* Това удря директно контейнерите, които Leaflet създава динамично */
+.leaflet-container .leaflet-marker-pane img, 
+.leaflet-container .leaflet-tile-pane img,
+.leaflet-container .leaflet-marker-icon {
     background: transparent !important;
     border: none !important;
-}
-
-/* Фикс за самите картинки вътре */
-.leaflet-marker-icon img {
-    border: none !important;
-    background: none !important;
     box-shadow: none !important;
 }
 
-/* Изчистване на всякакви автоматични бели фонове на контейнерите */
-div[class*="leaflet-marker"] {
-    background: transparent !important;
+/* Ако иконите са SVG или Div-ове */
+div.leaflet-marker-icon {
+    background: none !important;
     border: none !important;
 }
-
-/* Изчистване на всякакви автоматични бели фонове на контейнерите */
-div[class*="leaflet-marker"] {
-    background: transparent !important;
-    border: none !important;
-}
-
 /* 8. АНИМАЦИЯ ЗА ПУЛСИРАНЕ */
 @keyframes pulse-animation {
     0% { transform: scale(1); filter: drop-shadow(0 0 2px rgba(255, 255, 0, 0.6)); }
