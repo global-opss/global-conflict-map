@@ -1,5 +1,19 @@
 [
     {
+        "country": "USA",
+        "city": "Washington",
+        "lat": 38.83914702431634,
+        "lon": -77.00663636406254,
+        "date": "2026-02-23 22:53:51",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "More than 5,000 flights cancelled as US east coast digs out of record snow",
+        "description": "A major snowstorm walloped the US north-east, causing disruptions for millions and thousands of flight cancellations.",
+        "fatalities": "0",
+        "link": "https://www.bbc.com/news/articles/cx289g1yw97o?at_medium=RSS&at_campaign=rss",
+        "critical": false
+    },
+    {
         "country": "Israel",
         "city": "Tel Aviv",
         "lat": 32.017535757233155,
