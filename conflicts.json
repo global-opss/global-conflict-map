@@ -1,5 +1,47 @@
 [
     {
+        "country": "Israel",
+        "city": "Tel Aviv",
+        "lat": 32.033631932942384,
+        "lon": 34.83585578665661,
+        "date": "2026-02-23 18:11:33",
+        "type": "Airstrike",
+        "severity": "critical",
+        "title": "Trump's top general warns of Iran strike risks",
+        "description": "Joint Chiefs Chairman Gen. Dan Caine has been advising President Trump and top officials that a military campaign against Iran could carry significant risks, in particular the possibility of becoming entangled in a prolonged conflict, according to two sources with knowledge of those internal discussions.Why it matters: There's an ongoing debate at the top levels of the Trump administration about how to handle the Iran standoff and what the conseq",
+        "fatalities": "0",
+        "link": "https://www.axios.com/2026/02/23/iran-strike-trump-gen-dan-caine-vance-rubio",
+        "critical": true
+    },
+    {
+        "country": "Europe",
+        "city": "London",
+        "lat": 51.53614026442414,
+        "lon": -0.16817692077863808,
+        "date": "2026-02-23 18:11:33",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Ex-U.K. ambassador to U.S. arrested amid Epstein probe",
+        "description": "Peter Mandelson, the former British ambassador to the U.S., was arrested on suspicion of misconduct in public office on Monday amid an investigation sparked by the release of the Epstein files.  The big picture: Mandelson is one of several prominent figures whose careers have been derailed amid the global reckoning for those tied to convicted sex offender Jeffrey Epstein.Mandelson was removed from his post last September by U.K. Prime Minister Ke",
+        "fatalities": "0",
+        "link": "https://www.axios.com/2026/02/23/peter-mandelson-ambassador-arrested-epstein-files",
+        "critical": false
+    },
+    {
+        "country": "Europe",
+        "city": "London",
+        "lat": 51.52307324826411,
+        "lon": -0.2350407766018725,
+        "date": "2026-02-23 18:11:17",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Britain's former US ambassador Peter Mandelson arrested amid Epstein revelations",
+        "description": "London police arrested former UK ambassador to the US Peter Mandelson on Monday as part of a misconduct probe over his ties to convicted sex offender Jeffrey Epstein. Emails released by the US Department of Justice in January appeared to show Mandelson sharing information with the disgraced financier while a minister in then-premier Gordon Brown's cabinet.",
+        "fatalities": "0",
+        "link": "https://www.france24.com/en/europe/20260223-britain-s-former-us-ambassador-peter-mandelson-arrested-amid-epstein-revelations",
+        "critical": false
+    },
+    {
         "country": "Europe",
         "city": "London",
         "lat": 51.51780880806327,
