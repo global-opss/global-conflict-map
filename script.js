@@ -867,3 +867,32 @@ document.onkeydown = function(e) {
 };
 
 console.log(">> SYSTEM: All Monitoring Modules are READY and ONLINE.");
+
+// --- МОДУЛ ЗА ДИНАМИЧНО ДВИЖЕНИЕ НА КОРАБИ ---
+let vesselMarkers = {}; 
+
+function syncNavalAssets() {
+    fetch('naval_assets.json?v=' + Date.now())
+        .then(res => res.json())
+        .then(data => {
+            data.forEach(v => {
+                const pos = [v.lat, v.lon];
+                const color = v.type.includes('us') ? '#00f0ff' : '#ff3300';
+                
+                if (vesselMarkers[v.id]) {
+                    vesselMarkers[v.id].setLatLng(pos);
+                } else {
+                    const icon = L.divIcon({
+                        className: 'vessel-icon',
+                        html: `<div style="color:${color}; font-size:20px; filter:drop-shadow(0 0 5px ${color});">⚓</div>`,
+                        iconSize: [25, 25]
+                    });
+                    vesselMarkers[v.id] = L.marker(pos, { icon: icon }).addTo(map);
+                    vesselMarkers[v.id].bindPopup(`<b>${v.name}</b><br>${v.description}`);
+                }
+            });
+        }).catch(err => console.log("Очакване на данни от бота..."));
+}
+
+setInterval(syncNavalAssets, 60000);
+syncNavalAssets();
