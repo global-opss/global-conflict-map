@@ -868,32 +868,5 @@ document.onkeydown = function(e) {
 
 console.log(">> SYSTEM: All Monitoring Modules are READY and ONLINE.");
 
-// Инициализация на картата
-var map = L.map('map').setView([20, 0], 2);
 
-L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-    attribution: '© OpenStreetMap contributors'
-}).addTo(map);
 
-// 1. ФУНКЦИЯ ЗА ЗАРЕЖДАНЕ НА КОРАБИТЕ (Naval Assets)
-function updateNavalRadar() {
-    fetch('naval_assets.json')
-        .then(res => res.json())
-        .then(data => {
-            data.forEach(ship => {
-                // Използваме синя икона за US и червена за другите
-                let shipColor = ship.type === 'us-naval' ? 'blue' : 'red';
-                let icon = L.icon({
-                    iconUrl: `https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-${shipColor}.png`,
-                    iconSize: [25, 41],
-                    iconAnchor: [12, 41]
-                });
-
-                L.marker([ship.lat, ship.lon], { icon: icon })
-                    .addTo(map)
-                    .bindPopup(`<b>⚓ ${ship.name}</b><br>${ship.description}`);
-            });
-            console.log("Naval Radar: Loaded " + data.length + " assets.");
-        })
-        .catch(err => console.log("Naval Radar Error: ", err));
-}
