@@ -299,7 +299,7 @@ fetch('https://raw.githubusercontent.com/datasets/geo-boundaries-world-110m/mast
         { name: "IRIS Alborz", type: "ir-naval", lat: 12.80, lon: 43.05, description: "Iranian Alvand-class frigate. Patrolling near Bab el-Mandeb strait, Red Sea." },
         { name: "USS Carney", type: "us-naval", lat: 30.40, lon: -81.40, description: "Destroyer. Currently in homeport Mayport for maintenance after deployment." },
         { name: "Shandong (Type 002)", type: "ch-naval", lat: 22.30, lon: 114.20, description: "PLAN Carrier. Active maneuvers in South China Sea." },
-        { name: "USS George H.W. Bush", type: "us-naval", lat: 38.80, lon: -35.20, description: "CVN 77. Transatlantic transit, heading East toward EUCOM AOR." },
+        { name: "USS George H.W. Bush", type: "us-naval", lat: 38.80, lon: -35.20, description: "CVN 77. Transatlantic transit, heading East toward EUCOM AOR." }
     ];
 // --- СЕКЦИЯ: ВРЕДНИ ЗОНИ (ОБХВАТ НА УДАР) ---
 strategicAssets.forEach(asset => {
