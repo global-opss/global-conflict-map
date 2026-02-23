@@ -292,7 +292,7 @@ fetch('https://raw.githubusercontent.com/datasets/geo-boundaries-world-110m/mast
         { name: "Kirkuk Airfield (K-1)", type: "us-infantry", lat: 35.511, lon: 44.254, description: "Forward Operating Base. Surveillance of northern oil fields. Multi-factional security presence." },
         { name: "Taji Military Complex", type: "ru-infantry", lat: 33.518, lon: 44.275, description: "Main Iraqi logistics & training base. ASSETS: Mi-17 and Bell 407 helicopter squadrons." },
         { name: "Ain al-Assad (Radar Site)", type: "us-missile", lat: 33.802, lon: 42.395, description: "AN/MPQ-64 Sentinel Radar positions. Early warning system for incoming ballistic threats from the East." },
-        { name: "USS Harry S. Truman", type: "us-naval", lat: 33.50, lon: 32.10, description: "Carrier Strike Group 8 (CSG-8). Currently south of Cyprus, covering the Eastern Mediterranean." },
+        { name: "USS Harry S. Truman", type: "us-naval", lat: 36.95, lon: 76.33, description: "Carrier Strike Group 8 (CSG-8). Currently south of Cyprus, covering the Eastern Mediterranean." },
         { name: "USS Abraham Lincoln", type: "us-naval", lat: 21.40, lon: 61.20, description: "Carrier Strike Group 3 (CSG-3). Positioned in the Arabian Sea, providing deterrence against Iran." },
         { name: "USS Gerald R. Ford", type: "us-naval", lat: 34.35, lon: 25.60, description: "Carrier Strike Group 12. Operating near Malta, transiting Central Mediterranean." },
         { name: "USS Wasp", type: "us-naval", lat: 34.15, lon: 34.50, description: "Amphibious Ready Group. Positioned off the coast of Lebanon/Israel for evacuation readiness." },
