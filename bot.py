@@ -171,10 +171,94 @@ def run_bot():
     with open('conflicts.json', 'w', encoding='utf-8') as f:
         json.dump(final_list, f, indent=4, ensure_ascii=False)
     print(f"🚀 DATABASE UPDATED: {len(final_list)} events.")
+def update_naval_tracking():
+    """
+    Модул за динамично проследяване на военноморски активи.
+    Генерира naval_assets.json, който се чете от JavaScript за движение на иконите.
+    """
+    print("\n⚓ --- UPDATING STRATEGIC NAVAL POSITIONS ---")
+    
+    # Пълен списък с твоите динамични активи за трансфер
+    vessels = [
+        {
+            "id": "cvn-72",
+            "name": "USS Abraham Lincoln (CVN-72) Strike Group",
+            "type": "us-naval",
+            "lat": 23.55, "lon": 59.15,
+            "description": "ASSETS: F-35C, F/A-18E/F. Status: Active Patrol - Gulf of Oman."
+        },
+        {
+            "id": "ddg-111",
+            "name": "USS Spruance (DDG-111)",
+            "type": "us-naval",
+            "lat": 23.40, "lon": 58.95,
+            "description": "Arleigh Burke-class destroyer. Mission: Strike Group Escort."
+        },
+        {
+            "id": "ddg-106",
+            "name": "USS Stockdale (DDG-106)",
+            "type": "us-naval",
+            "lat": 23.70, "lon": 59.40,
+            "description": "Arleigh Burke-class destroyer. Mission: Anti-submarine defense."
+        },
+        {
+            "id": "ddg-119",
+            "name": "USS Delbert D. Black (DDG-119)",
+            "type": "us-naval",
+            "lat": 19.25, "lon": 39.80,
+            "description": "Arleigh Burke-class destroyer. Mission: Red Sea Security Ops."
+        },
+        {
+            "id": "cvn-78",
+            "name": "USS Gerald R. Ford (CVN-78) Strike Group",
+            "type": "us-naval",
+            "lat": 34.25, "lon": 24.15,
+            "description": "ASSETS: F-35C, F/A-18E/F. Status: Mediterranean Transit."
+        },
+        {
+            "id": "cvn-77",
+            "name": "USS George H.W. Bush (CVN-77)",
+            "type": "us-naval",
+            "lat": 37.00, "lon": -75.00,
+            "description": "Nimitz-class carrier. Status: Maintenance/Home Port."
+        },
+        {
+            "id": "ir-bagheri",
+            "name": "IRIS Shahid Bagheri (Drone Carrier)",
+            "type": "ir-naval",
+            "lat": 27.00, "lon": 56.10,
+            "description": "Converted carrier for long-range drone operations."
+        },
+        {
+            "id": "ddg-111-mcfaul",
+            "name": "USS McFaul (Hormuz Patrol)",
+            "type": "us-naval",
+            "lat": 26.50, "lon": 56.50,
+            "description": "Arleigh Burke-class destroyer. Monitoring Strait of Hormuz."
+        },
+        {
+            "id": "ddg-64-carney",
+            "name": "USS Carney (Destroyer - Red Sea)",
+            "type": "us-naval",
+            "lat": 15.50, "lon": 41.20,
+            "description": "Destroyer actively intercepting drones/missiles."
+        }
+    ]
+    
+    try:
+        # Записваме данните в JSON файла
+        with open('naval_assets.json', 'w', encoding='utf-8') as f:
+            json.dump(vessels, f, indent=4, ensure_ascii=False)
+        print(f"✅ SYSTEM: naval_assets.json updated with {len(vessels)} units.")
+    except Exception as e:
+        print(f"❌ CRITICAL ERROR: Could not update naval file: {e}")
 
+# Извикване на функцията вътре в главния цикъл на бота
+update_naval_tracking()
 if __name__ == "__main__":
     run_bot()
     # End of Script - 250 Lines Precise.
+
 
 
 
