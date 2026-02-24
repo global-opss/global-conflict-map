@@ -353,12 +353,16 @@ const customStyles = document.createElement("style");
     `;
     document.head.appendChild(customStyles);
 
- // ==========================================================
-    // --- СЕКЦИЯ 5: ГЕНЕРИРАНЕ НА ТАКТИЧЕСКИ ИКОНИ (FINAL) ---
+// ==========================================================
+    // --- СЕКЦИЯ 5: ГЕНЕРИРАНЕ НА ТАКТИЧЕСКИ ИКОНИ (REPAIRED) ---
     // ==========================================================
     
+    /**
+     * ФУНКЦИЯ ЗА СЪЗДАВАНЕ НА ИКОНИ
+     * Тази функция определя как ще изглежда всеки маркер на картата.
+     */
     function createAssetIcon(type) {
-        // Дефинираме базови променливи за символа и стила
+        // Базови променливи за иконата
         let symbol = '⚪'; 
         let styleClass = 'mil-icon-box ';
 
@@ -402,22 +406,21 @@ const customStyles = document.createElement("style");
             styleClass += (type.startsWith('us-')) ? 'icon-us-nato' : 'icon-ru-ua';
         }
 
-        // Връщаме готовия обект на Leaflet с вградения HTML
+        // Връщаме обекта към Leaflet
         return L.divIcon({
             html: `<div class="${styleClass}" style="font-size:18px; display:flex; align-items:center; justify-content:center;">${symbol}</div>`,
             iconSize: [32, 32]
         });
     }
 
-    // --- ЕДИНСТВЕН ЦИКЪЛ ЗА ИЗРИСУВАНЕ НА КАРТАТА ---
-    // ВАЖНО: Премахнато е дублирането, за да не гърми скрипта
+    // --- ОБЕДИНЕН ЦИКЪЛ ЗА ИЗРИСУВАНЕ НА КАРТАТА ---
+    // Използваме само един forEach, за да не се бият променливите в паметта
     strategicAssets.forEach(asset => {
         
-        // Проверка за валидни координати, за да не спира рендерирането
+        // Проверяваме дали обекта има координати, за да не спрем рендерирането
         if (asset.lat && asset.lon) {
             
-            // СЪЗДАВАНЕ НА МАРКЕРА
-            // Използваме функцията createAssetIcon, за да определим иконата автоматично
+            // Инициализираме маркера чрез функцията createAssetIcon
             const assetMarker = L.marker([asset.lat, asset.lon], { 
                 icon: createAssetIcon(asset.type) 
             })
@@ -433,17 +436,18 @@ const customStyles = document.createElement("style");
                 </div>
             `);
 
-            // ЛОГВАНЕ В КОНЗОЛАТА ЗА ДЕБЪГВАНЕ И СТАТУС
-            console.log("System Status: " + asset.name + " active on coordinates [" + asset.lat + ", " + asset.lon + "]");
-            console.log("Tactical Monitor: " + asset.name + " [" + asset.type + "] rendered successfully.");
+            // ЛОГОВЕ В КОНЗОЛАТА (ОБЕДИНЕНИ)
+            // Това ще ти покаже в конзолата, че обектите се зареждат реално
+            console.log("Tactical Monitor: " + asset.name + " active on coordinates [" + asset.lat + ", " + asset.lon + "]");
+            console.log("System Status: " + asset.name + " [" + asset.type + "] rendered.");
 
         } else {
-            // В случай на липсващи данни за някой обект
+            // Ако липсват координати, изписваме предупреждение
             console.warn("System Error: Missing coordinates for asset " + asset.name);
         }
     });
 
-    // --- КРАЙ НА СЕКЦИЯ 5 И ЦИКЪЛА ЗА ИЗРИСУВАНЕ ---
+    // --- КРАЙ НА СЕКЦИЯ 5 ---
 
   
         // 4. ПОСТАВЯНЕ НА МАРКЕРА ВЪРХУ КАРТАТА
