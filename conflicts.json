@@ -1,5 +1,47 @@
 [
     {
+        "country": "Ukraine",
+        "city": "Kyiv",
+        "lat": 50.39295317024981,
+        "lon": 30.502536863034365,
+        "date": "2026-02-24 18:13:07",
+        "type": "Clashes",
+        "severity": "middle",
+        "title": "Putin has ‘not broken’ Ukraine in 4 years since Russian invasion, Zelenskyy says",
+        "description": "Russia’s larger army over the past year of fighting has captured just 0.79% of Ukraine's territory, according to the Institute for the Study of War.",
+        "fatalities": "0",
+        "link": "https://www.defensenews.com/global/europe/2026/02/24/putin-has-not-broken-ukraine-in-4-years-since-russian-invasion-zelenskyy-says/",
+        "critical": false
+    },
+    {
+        "country": "Ukraine",
+        "city": "Kyiv",
+        "lat": 50.40151315826496,
+        "lon": 30.564437360610672,
+        "date": "2026-02-24 18:12:55",
+        "type": "Clashes",
+        "severity": "middle",
+        "title": "War in Ukraine: Children who fled Russian-occupied Ukrainian territories share their stories",
+        "description": "Russia launched its full-scale invasion of Ukraine on February 24, 2022, unleashing the deadliest war in Europe since World War II and civilians in Ukraine have paid a heavy price. UNICEF has been warning the conflict has taken a devastating toll on children, disrupting their lives at critical stages in their development. Here are the stories of some children who fled Russian-occupied Ukrainian territories.",
+        "fatalities": "0",
+        "link": "https://www.france24.com/en/video/20260224-war-in-ukraine-children-who-fled-russian-occupied-ukrainian-territories-share-their-stories",
+        "critical": false
+    },
+    {
+        "country": "USA",
+        "city": "Washington",
+        "lat": 38.93774205812482,
+        "lon": -77.05538088804104,
+        "date": "2026-02-24 18:12:51",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Germany’s Leader Heads to China and Walks a Tightrope Between Xi and Trump",
+        "description": "Chancellor Friedrich Merz’s trip will test his ability to address tensions between the countries, at a time of strain between Europe and Washington.",
+        "fatalities": "0",
+        "link": "https://www.nytimes.com/2026/02/24/world/europe/merz-germany-china-trip-beijing-xi.html",
+        "critical": false
+    },
+    {
         "country": "Israel",
         "city": "Tel Aviv",
         "lat": 32.14816113313688,
