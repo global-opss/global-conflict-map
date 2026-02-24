@@ -400,8 +400,12 @@ strategicAssets.forEach(asset => {
 
        // 2а. АКО ТИПЪТ Е АМЕРИКАНСКИ (ЗЕЛЕНО) - ЕТО ТОВА ДОБАВЯШ
         else if (asset.type === 'us-naval') {
+            const landTerms = ['Port', 'Base', 'HQ', 'Station', 'Camp', 'Center'];
+            let isLandBased = landTerms.some(term => asset.name.includes(term));
+            let currentSymbol = isLandBased ? '⚓' : '🚢';
+
             assetIcon = L.divIcon({
-                html: `<div class="mil-icon-box icon-us-nato" style="font-size:18px; display:flex; align-items:center; justify-content:center; color: #39FF14; text-shadow: 0 0 10px #39FF14; border-color: #39FF14 !important;">🚢</div>`,
+                html: `<div class="mil-icon-box icon-us-nato" style="font-size:18px; display:flex; align-items:center; justify-content:center; color: #39FF14; text-shadow: 0 0 10px #39FF14; border-color: #39FF14 !important;">${currentSymbol}</div>`,
                 iconSize: [32, 32]
             });
         }
