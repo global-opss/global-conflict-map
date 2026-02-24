@@ -386,29 +386,30 @@ const customStyles = document.createElement("style");
 
    strategicAssets.forEach(asset => {
 
-        // 1. ОПРЕДЕЛЯМЕ ЦВЕТА И СИМВОЛА
-        let assetClass = 'icon-us-nato'; // Зелено за САЩ по подразбиране
-        let shipSymbol = '🚢'; // Корабче за всички
+        // 1. ОПРЕДЕЛЯМЕ ПРАВИЛНИЯ ЦВЕТОВИ КЛАС (ЗЕЛЕНО ИЛИ СИНЬО)
+        let assetClass = (asset.type === 'nato-naval') ? 'icon-nato-blue' : 'icon-us-nato';
 
-        if (asset.type === 'nato-naval') {
-            assetClass = 'icon-nato-blue'; // Синьо за европейците
-        } else if (asset.type === 'ir-naval') {
-            assetClass = 'icon-ru-ua'; // Червено за Иран (според твоя CSS)
-            shipSymbol = '⚓'; // Можеш да им оставиш котва на тях, за да се делят
+        // 2. ОПРЕДЕЛЯМЕ СИМВОЛА - АКО Е КОРАБ (NAVAL), СЛАГАМЕ КОРАБЧЕ, ИНАЧЕ ПОЛЗВАМЕ ОРИГИНАЛНИЯ СИМВОЛ
+        let assetSymbol = '🚢'; // По подразбиране за морски съдове
+
+        if (asset.type === 'air-base') {
+            assetSymbol = '✈️'; // Връщаме самолета за летищата
+        } else if (asset.type === 'military-base') {
+            assetSymbol = '🎖️'; // Връщаме значката/базата
         }
 
-        // 2. СЪЗДАВАМЕ ИКОНАТА
+        // 3. СЪЗДАВАМЕ ИКОНАТА СЪС СЪОТВЕТНИЯ КЛАС И СИМВОЛ
         const assetIcon = L.divIcon({
-            html: `<div class="mil-icon-box ${assetClass}" style="font-size:18px; display:flex; align-items:center; justify-content:center;">${shipSymbol}</div>`,
+            html: `<div class="mil-icon-box ${assetClass}" style="font-size:18px; display:flex; align-items:center; justify-content:center;">${assetSymbol}</div>`,
             iconSize: [32, 32]
         });
 
-        // 3. ПОСТАВЯНЕ НА МАРКЕРА
+        // 4. ПОСТАВЯНЕ НА МАРКЕРА ВЪРХУ КАРТАТА
         const assetMarker = L.marker([asset.lat, asset.lon], { icon: assetIcon })
             .addTo(militaryLayer)
             .bindTooltip(asset.name);
 
-        // 4. ИНФО ПРОЗОРЕЦ ПРИ КЛИК
+        // 5. ИНФОРМАЦИОНЕН ПОП-ЪП ПРИ КЛИК
         assetMarker.bindPopup(`
             <div style="background:#000; color:#fff; padding:10px; border:1px solid #39FF14; font-family:monospace;">
                 <strong style="color:#39FF14; font-size:14px;">${asset.name}</strong><br>
