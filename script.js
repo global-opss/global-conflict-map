@@ -424,8 +424,24 @@ strategicAssets.forEach(asset => {
         `);
 
     });
+// --- СЕКЦИЯ: ТАКТИЧЕСКА ДЕМАРКАЦИОННА ЛИНИЯ (TRIPWIRE LINE) ---
+const tripwireCoords = [
+    [26.50, 56.25], // Начало в Протока
+    [26.35, 56.45], 
+    [26.10, 56.65],
+    [25.80, 57.00], 
+    [25.40, 57.60]  // Изход към Оманския залив
+];
 
-    // --- СЕКЦИЯ 6: МОДАЛЕН ДИСПЛЕЙ ---
+const tripwireLine = L.polyline(tripwireCoords, {
+    color: '#FF3131',      // Червен неон
+    weight: 2,             // Тънка и прецизна
+    opacity: 0.6,          // Полупрозрачна, за да не пречи на иконите
+    dashArray: '5, 10',    // Пунктир (дължина на чертата, разстояние)
+    interactive: false     // Потребителят не може да я клика (за стабилност)
+}).addTo(militaryLayer);
+    
+      // --- СЕКЦИЯ 6: МОДАЛЕН ДИСПЛЕЙ ---
     const showIntelDetails = (data) => {
         const container = document.getElementById('intel-details-container');
         const content = document.getElementById('news-content');
