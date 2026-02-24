@@ -370,13 +370,12 @@ const customStyles = document.createElement("style");
         } else if (type === 'ir-missile') {
             symbol = '🚀';
             styleClass += 'icon-iran-tension';
-        } else if (type.includes('naval')) {
+      } else if (type.includes('naval')) {
             symbol = '⚓';
             styleClass += (type.startsWith('us-')) ? 'icon-us-nato' : 'icon-ru-ua';
         } else if (type.includes('air')) {
-            symbol = '🦅';
+            symbol = '✈️';
             styleClass += (type.startsWith('us-')) ? 'icon-us-nato' : 'icon-iran-tension';
-        }
 
         return L.divIcon({
             html: `<div class="${styleClass}" style="font-size:18px; display:flex; align-items:center; justify-content:center;">${symbol}</div>`,
