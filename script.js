@@ -353,16 +353,16 @@ const customStyles = document.createElement("style");
     `;
     document.head.appendChild(customStyles);
 
-  // ==========================================================
+ // ==========================================================
     // --- СЕКЦИЯ 5: ГЕНЕРИРАНЕ НА ТАКТИЧЕСКИ ИКОНИ (FINAL) ---
     // ==========================================================
     
     function createAssetIcon(type) {
-        // Дефинираме базови променливи
+        // Дефинираме базови променливи за символа и стила
         let symbol = '⚪'; 
         let styleClass = 'mil-icon-box ';
 
-        // 1. ПЕХОТА (UA/RU)
+        // 1. ЛОГИКА ЗА ПЕХОТА (UA/RU)
         if (type === 'ua-infantry') {
             symbol = '⚔';
             styleClass += 'icon-us-nato';
@@ -402,27 +402,29 @@ const customStyles = document.createElement("style");
             styleClass += (type.startsWith('us-')) ? 'icon-us-nato' : 'icon-ru-ua';
         }
 
-        // Връщаме готовия обект на Leaflet
+        // Връщаме готовия обект на Leaflet с вградения HTML
         return L.divIcon({
             html: `<div class="${styleClass}" style="font-size:18px; display:flex; align-items:center; justify-content:center;">${symbol}</div>`,
             iconSize: [32, 32]
         });
     }
 
-    // --- ЦИКЪЛ ЗА ИЗРИСУВАНЕ НА ОБЕКТИТЕ ВЪРХУ КАРТАТА ---
+    // --- ЕДИНСТВЕН ЦИКЪЛ ЗА ИЗРИСУВАНЕ НА КАРТАТА ---
+    // ВАЖНО: Премахнато е дублирането, за да не гърми скрипта
     strategicAssets.forEach(asset => {
         
-        // Проверка за валидни координати
+        // Проверка за валидни координати, за да не спира рендерирането
         if (asset.lat && asset.lon) {
             
-            // Създаване на маркер чрез функцията по-горе
+            // СЪЗДАВАНЕ НА МАРКЕРА
+            // Използваме функцията createAssetIcon, за да определим иконата автоматично
             const assetMarker = L.marker([asset.lat, asset.lon], { 
                 icon: createAssetIcon(asset.type) 
             })
             .addTo(militaryLayer)
             .bindTooltip(asset.name);
 
-            // Генериране на поп-ъп прозорец с твоя стил (Terminal Style)
+            // ПОП-ЪП С ЕЛЕКТРОННОТО ТЕБЛО (ТВОЯ СТИЛ)
             assetMarker.bindPopup(`
                 <div style="background:#000; color:#fff; padding:10px; border:1px solid #39FF14; font-family:monospace;">
                     <strong style="color:#39FF14; font-size:14px;">${asset.name}</strong><br>
@@ -431,38 +433,17 @@ const customStyles = document.createElement("style");
                 </div>
             `);
 
-            // Логване в конзолата за потвърждение на деплоймънта
-            console.log("Tactical Monitor: " + asset.name + " [" + asset.type + "] rendered at " + asset.lat + "," + asset.lon);
+            // ЛОГВАНЕ В КОНЗОЛАТА ЗА ДЕБЪГВАНЕ И СТАТУС
+            console.log("System Status: " + asset.name + " active on coordinates [" + asset.lat + ", " + asset.lon + "]");
+            console.log("Tactical Monitor: " + asset.name + " [" + asset.type + "] rendered successfully.");
+
         } else {
+            // В случай на липсващи данни за някой обект
             console.warn("System Error: Missing coordinates for asset " + asset.name);
         }
     });
 
-    // --- КРАЙ НА СЕКЦИЯ 5 ---
-    
-
-    // ЦИКЪЛ ЗА ИЗРИСУВАНЕ НА КАРТАТА
-    strategicAssets.forEach(asset => {
-        
-        // ВАЖНО: Тук ползваме функцията createAssetIcon, за да не се бият иконите
-        const assetMarker = L.marker([asset.lat, asset.lon], { 
-            icon: createAssetIcon(asset.type) 
-        })
-        .addTo(militaryLayer)
-        .bindTooltip(asset.name);
-
-        // ПОП-ЪП С ЕЛЕКТРОННОТО ТЕБЛО (ТВОЯ СТИЛ)
-        assetMarker.bindPopup(`
-            <div style="background:#000; color:#fff; padding:10px; border:1px solid #39FF14; font-family:monospace;">
-                <strong style="color:#39FF14; font-size:14px;">${asset.name}</strong><br>
-                <hr style="border:0; border-top:1px solid #333; margin:5px 0;">
-                <span style="font-size:12px; color:#ccc;">${asset.description || "No assets listed"}</span>
-            </div>
-        `);
-
-        // Показване в конзолата за дебъгване
-        console.log("System Status: " + asset.name + " active on coordinates [" + asset.lat + ", " + asset.lon + "]");
-    });
+    // --- КРАЙ НА СЕКЦИЯ 5 И ЦИКЪЛА ЗА ИЗРИСУВАНЕ ---
 
   
         // 4. ПОСТАВЯНЕ НА МАРКЕРА ВЪРХУ КАРТАТА
