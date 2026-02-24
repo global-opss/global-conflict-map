@@ -371,17 +371,17 @@ const customStyles = document.createElement("style");
             symbol = '🚀';
             styleClass += 'icon-iran-tension';
       } else if (type.includes('naval')) {
-            symbol = '⚓';
-            styleClass += (type.startsWith('us-')) ? 'icon-us-nato' : 'icon-ru-ua';
+            // МОРСКИ ОБЕКТИ (КОРАБИ)
+            symbol = '🚢'; // Вече са с корабче, не с котва
+            if (type === 'nato-naval') {
+                styleClass += 'icon-nato-blue'; // СИНЬО за европейците
+            } else {
+                styleClass += (type.startsWith('us-')) ? 'icon-us-nato' : 'icon-ru-ua'; // ЗЕЛЕНО за САЩ
+            }
         } else if (type.includes('air')) {
-            symbol = '✈️';
+            // ВЪЗДУШНИ ОБЕКТИ (БАЗИ)
+            symbol = '✈️'; // Връщаме самолета
             styleClass += (type.startsWith('us-')) ? 'icon-us-nato' : 'icon-iran-tension';
-
-        return L.divIcon({
-            html: `<div class="${styleClass}" style="font-size:18px; display:flex; align-items:center; justify-content:center;">${symbol}</div>`,
-            iconSize: [32, 32]
-        });
-    }
 
    strategicAssets.forEach(asset => {
 
