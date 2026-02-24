@@ -70,7 +70,17 @@
 
         @keyframes blink { 0% { opacity: 1; } 50% { opacity: 0; } 100% { opacity: 1; } }
         .live-dot { color: #ff3131; animation: blink 1s infinite; margin-right: 5px; }
-    /* --- TACTICAL GLASS POPUP --- */
+    * --- TRIPWIRE TACTICAL LINE --- */
+        .tripwire-glow {
+            filter: drop-shadow(0 0 8px #ff3131);
+            animation: linePulse 3s infinite alternate;
+        }
+
+        @keyframes linePulse {
+            from { opacity: 0.4; stroke-width: 2; }
+            to { opacity: 0.9; stroke-width: 3; }
+        }
+        /* --- TACTICAL GLASS POPUP --- */
         .leaflet-popup-content-wrapper, .leaflet-popup-tip {
             background: rgba(10, 10, 10, 0.4) !important;
             backdrop-filter: blur(12px) !important;
