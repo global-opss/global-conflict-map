@@ -70,15 +70,16 @@
 
         @keyframes blink { 0% { opacity: 1; } 50% { opacity: 0; } 100% { opacity: 1; } }
         .live-dot { color: #ff3131; animation: blink 1s infinite; margin-right: 5px; }
-    * --- TRIPWIRE TACTICAL LINE --- */
+    /* --- УСИЛЕНА ТАКТИЧЕСКА ЛИНИЯ --- */
         .tripwire-glow {
-            filter: drop-shadow(0 0 8px #ff3131);
-            animation: linePulse 3s infinite alternate;
+            filter: drop-shadow(0 0 12px #ff3131) drop-shadow(0 0 5px #ff3131); /* Двойно сияние */
+            stroke-linecap: round; /* Заоблени краища на пунктира */
+            animation: heavyPulse 2s infinite alternate ease-in-out;
         }
 
-        @keyframes linePulse {
-            from { opacity: 0.4; stroke-width: 2; }
-            to { opacity: 0.9; stroke-width: 3; }
+        @keyframes heavyPulse {
+            from { opacity: 0.5; stroke-width: 3; }
+            to { opacity: 1.0; stroke-width: 5; } /* Вече е истинска бариера */
         }
         /* --- TACTICAL GLASS POPUP --- */
         .leaflet-popup-content-wrapper, .leaflet-popup-tip {
