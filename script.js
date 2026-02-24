@@ -353,49 +353,75 @@ const customStyles = document.createElement("style");
     `;
     document.head.appendChild(customStyles);
 
-    // --- СЕКЦИЯ 5: ГЕНЕРИРАНЕ НА ТАКТИЧЕСКИ ИКОНИ ---
+  // --- СЕКЦИЯ 5: ГЕНЕРИРАНЕ НА ТАКТИЧЕСКИ ИКОНИ (FULL VERSION) ---
     function createAssetIcon(type) {
         let symbol = '⚪'; 
         let styleClass = 'mil-icon-box ';
 
+        // Проверка за сухопътни войски (UA/RU)
         if (type === 'ua-infantry') {
             symbol = '⚔';
             styleClass += 'icon-us-nato';
         } else if (type === 'ru-infantry') {
             symbol = '⚔';
             styleClass += 'icon-ru-ua';
-        } else if (type === 'ir-nuclear') {
+        } 
+        // Проверка за специални ирански активи (Ядрени/Ракети)
+        else if (type === 'ir-nuclear') {
             symbol = '☢️';
             styleClass += 'icon-iran-tension';
         } else if (type === 'ir-missile') {
             symbol = '🚀';
             styleClass += 'icon-iran-tension';
-      } else if (type.includes('naval')) {
-            // МОРСКИ ОБЕКТИ (КОРАБИ)
-            symbol = '🚢'; // Вече са с корабче, не с котва
+        } 
+        // Логика за морски обекти (КОРАБИ)
+        else if (type.includes('naval')) {
+            symbol = '🚢'; 
             if (type === 'nato-naval') {
                 styleClass += 'icon-nato-blue'; // СИНЬО за европейците
             } else {
                 styleClass += (type.startsWith('us-')) ? 'icon-us-nato' : 'icon-ru-ua'; // ЗЕЛЕНО за САЩ
             }
-        } else if (type.includes('air')) {
-            // ВЪЗДУШНИ ОБЕКТИ (БАЗИ)
-            symbol = '✈️'; // Връщаме самолета
+        } 
+        // Логика за въздушни обекти (БАЗИ/ЛЕТИЩА)
+        else if (type.includes('air')) {
+            symbol = '✈️';
             styleClass += (type.startsWith('us-')) ? 'icon-us-nato' : 'icon-iran-tension';
-
-   strategicAssets.forEach(asset => {
-
-        // 1. ОПРЕДЕЛЯМЕ ПРАВИЛНИЯ ЦВЕТОВИ КЛАС (ЗЕЛЕНО ИЛИ СИНЬО)
-        let assetClass = (asset.type === 'nato-naval') ? 'icon-nato-blue' : 'icon-us-nato';
-
-        // 2. ОПРЕДЕЛЯМЕ СИМВОЛА - АКО Е КОРАБ (NAVAL), СЛАГАМЕ КОРАБЧЕ, ИНАЧЕ ПОЛЗВАМЕ ОРИГИНАЛНИЯ СИМВОЛ
-        let assetSymbol = '🚢'; // По подразбиране за морски съдове
-
-        if (asset.type === 'air-base') {
-            assetSymbol = '✈️'; // Връщаме самолета за летищата
-        } else if (asset.type === 'military-base') {
-            assetSymbol = '🎖️'; // Връщаме значката/базата
         }
+        // Логика за военни бази (Military Base)
+        else if (type.includes('military-base')) {
+            symbol = '🎖️';
+            styleClass += (type.startsWith('us-')) ? 'icon-us-nato' : 'icon-ru-ua';
+        }
+
+        return L.divIcon({
+            html: `<div class="${styleClass}" style="font-size:18px; display:flex; align-items:center; justify-content:center;">${symbol}</div>`,
+            iconSize: [32, 32]
+        });
+    }
+
+    // ЦИКЪЛ ЗА ИЗРИСУВАНЕ НА КАРТАТА
+    strategicAssets.forEach(asset => {
+        
+        // ВАЖНО: Тук ползваме функцията createAssetIcon, за да не се бият иконите
+        const assetMarker = L.marker([asset.lat, asset.lon], { 
+            icon: createAssetIcon(asset.type) 
+        })
+        .addTo(militaryLayer)
+        .bindTooltip(asset.name);
+
+        // ПОП-ЪП С ЕЛЕКТРОННОТО ТЕБЛО (ТВОЯ СТИЛ)
+        assetMarker.bindPopup(`
+            <div style="background:#000; color:#fff; padding:10px; border:1px solid #39FF14; font-family:monospace;">
+                <strong style="color:#39FF14; font-size:14px;">${asset.name}</strong><br>
+                <hr style="border:0; border-top:1px solid #333; margin:5px 0;">
+                <span style="font-size:12px; color:#ccc;">${asset.description || "No assets listed"}</span>
+            </div>
+        `);
+
+        // Показване в конзолата за дебъгване
+        console.log("System Status: " + asset.name + " active on coordinates [" + asset.lat + ", " + asset.lon + "]");
+    });
 
         // 3. СЪЗДАВАМЕ ИКОНАТА СЪС СЪОТВЕТНИЯ КЛАС И СИМВОЛ
         const assetIcon = L.divIcon({
