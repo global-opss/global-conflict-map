@@ -353,11 +353,15 @@ strategicAssets.forEach(asset => {
     `;
     document.head.appendChild(customStyles);
 
-   // --- СЕКЦИЯ 5: ГЕНЕРИРАНЕ НА ТАКТИЧЕСКИ ИКОНИ ---
+  // =========================================================================
+    // --- СЕКЦИЯ 5: ГЕНЕРИРАНЕ НА ТАКТИЧЕСКИ ИКОНИ (СЪВМЕСТИМА ВЕРСИЯ) ---
+    // =========================================================================
+    
     function createAssetIcon(type) {
         let symbol = '⚪'; 
         let styleClass = 'mil-icon-box ';
 
+        // Логика за символи и цветове
         if (type === 'ua-infantry') {
             symbol = '⚔';
             styleClass += 'icon-us-nato';
@@ -384,19 +388,32 @@ strategicAssets.forEach(asset => {
         });
     }
 
+    // Изрисуваме активите
     strategicAssets.forEach(asset => {
-
-        // 1. ОПРЕДЕЛЯМЕ БАЗОВАТА ИКОНА
         let assetIcon = createAssetIcon(asset.type);
 
-        // 2. АКО Е НАТО, ЗАМЕНЯМЕ СЪС СИНЯТА ИКОНА (КОРЕКЦИЯ ТУК)
+        // СПЕЦИАЛНА ПРОВЕРКА ЗА СИНЬО НАТО (🚢)
         if (asset.type === 'nato-naval') {
-            // Добавяме mil-icon-box, за да хване стиловете на кутийката
             assetIcon = L.divIcon({
-                html: `<div class="mil-icon-box icon-nato-blue" style="font-size:18px; display:flex; align-items:center; justify-content:center; color: #00A3FF; text-shadow: 0 0 10px #00A3FF;">🚢</div>`,
+                html: `<div class="mil-icon-box icon-nato-blue" style="font-size:18px; display:flex; align-items:center; justify-content:center; color: #00A3FF !important; text-shadow: 0 0 15px #00A3FF;">🚢</div>`,
                 iconSize: [32, 32]
             });
         }
+
+        const assetMarker = L.marker([asset.lat, asset.lon], { icon: assetIcon })
+            .addTo(militaryLayer)
+            .bindTooltip(asset.name);
+
+        assetMarker.bindPopup(`
+            <div style="background:#000; color:#fff; padding:10px; border:1px solid #39FF14; font-family:monospace;">
+                <strong style="color:#39FF14; font-size:14px;">${asset.name}</strong><br>
+                <hr style="border:0; border-top:1px solid #333; margin:5px 0;">
+                <span style="font-size:12px; color:#ccc;">${asset.description || "No assets listed"}</span>
+            </div>
+        `);
+    });
+
+    // --- КРАЙ НА СЕКЦИЯ 5 (КОДЪТ НАДОЛУ ПРОДЪЛЖАВА...) ---
 
         // 3. СЪЗДАВАНЕ НА МАРКЕРА
         const assetMarker = L.marker([asset.lat, asset.lon], { icon: assetIcon })
