@@ -353,7 +353,7 @@ strategicAssets.forEach(asset => {
     `;
     document.head.appendChild(customStyles);
 
-    // --- СЕКЦИЯ 5: ГЕНЕРИРАНЕ НА ТАКТИЧЕСКИ ИКОНИ ---
+   // --- СЕКЦИЯ 5: ГЕНЕРИРАНЕ НА ТАКТИЧЕСКИ ИКОНИ ---
     function createAssetIcon(type) {
         let symbol = '⚪'; 
         let styleClass = 'mil-icon-box ';
@@ -384,18 +384,39 @@ strategicAssets.forEach(asset => {
         });
     }
 
-   strategicAssets.forEach(asset => {
+    strategicAssets.forEach(asset => {
 
-        // 1. ОПРЕДЕЛЯМЕ ИКОНАТА
+        // 1. ОПРЕДЕЛЯМЕ БАЗОВАТА ИКОНА
         let assetIcon = createAssetIcon(asset.type);
 
-        // 2. АКО Е НАТО, ЗАМЕНЯМЕ СЪС СИНЯТА ИКОНА ОТ СЕКЦИЯ 4
+        // 2. АКО Е НАТО, ЗАМЕНЯМЕ СЪС СИНЯТА ИКОНА (КОРЕКЦИЯ ТУК)
         if (asset.type === 'nato-naval') {
+            // Добавяме mil-icon-box, за да хване стиловете на кутийката
             assetIcon = L.divIcon({
-                html: `<div class="icon-nato-blue" style="font-size:18px; display:flex; align-items:center; justify-content:center;">🚢</div>`,
+                html: `<div class="mil-icon-box icon-nato-blue" style="font-size:18px; display:flex; align-items:center; justify-content:center; color: #00A3FF; text-shadow: 0 0 10px #00A3FF;">🚢</div>`,
                 iconSize: [32, 32]
             });
         }
+
+        // 3. СЪЗДАВАНЕ НА МАРКЕРА
+        const assetMarker = L.marker([asset.lat, asset.lon], { icon: assetIcon })
+            .addTo(militaryLayer)
+            .bindTooltip(asset.name);
+
+        // 4. ПОП-ЪП ИНФОРМАЦИЯ
+        assetMarker.bindPopup(`
+            <div style="background:#000; color:#fff; padding:10px; border:1px solid #39FF14; font-family:monospace;">
+                <strong style="color:#39FF14; font-size:14px;">${asset.name}</strong><br>
+                <hr style="border:0; border-top:1px solid #333; margin:5px 0;">
+                <span style="font-size:12px; color:#ccc;">${asset.description || "No assets listed"}</span>
+            </div>
+        `);
+
+        // Лог за конзолата, за да си сигурен, че минава през проверката
+        if (asset.type === 'nato-naval') {
+            console.log("System Alert: NATO Naval asset detected and blue-shaded -> " + asset.name);
+        }
+    });
 
         // 3. СЪЗДАВАНЕ НА МАРКЕРА (Ред 388 на снимката)
         const assetMarker = L.marker([asset.lat, asset.lon], { icon: assetIcon })
