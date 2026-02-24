@@ -392,7 +392,8 @@ strategicAssets.forEach(asset => {
         // 2. АКО ТИПЪТ Е НАТО, ЗАМЕНЯМЕ СЪС СИНЯ ИКОНА
         if (asset.type === 'nato-naval') {
             assetIcon = L.divIcon({
-                html: `<div class="icon-nato-blue" style="font-size:18px; display:flex; align-items:center; justify-content:center;">🚢</div>`,
+                // Добавяме mil-icon-box за кръглата форма и inline стилове за синьото
+                html: `<div class="mil-icon-box icon-nato-blue" style="font-size:18px; display:flex; align-items:center; justify-content:center; color: #00A3FF; border-color: #00A3FF; box-shadow: 0 0 10px #00A3FF, inset 0 0 10px #00A3FF; background: rgba(0, 70, 140, 0.3);">🚢</div>`,
                 iconSize: [32, 32]
             });
         }
