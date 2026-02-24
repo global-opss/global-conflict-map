@@ -325,15 +325,51 @@ strategicAssets.forEach(asset => {
         }).addTo(map);
     }
 });
-    // --- СЕКЦИЯ 4: РАЗШИРЕН CSS СТИЛ (UI ОПТИМИЗАЦИЯ) ---
+// --- СЕКЦИЯ 4: РАЗШИРЕН CSS СТИЛ (UI ОПТИМИЗАЦИЯ) ---
     const customStyles = document.createElement("style");
     customStyles.innerText = `
-        .leaflet-marker-icon { background: none !important; border: none !important; }
-        .mil-icon-box { display: flex; align-items: center; justify-content: center; border-radius: 50%; border: 1px solid #fff; box-shadow: 0 0 8px #000; transition: 0.3s; }
-        .icon-us-nato { background: rgba(57, 255, 20, 0.45); border-color: #39FF14; }
-        .icon-iran-tension { background: rgba(255, 140, 0, 0.45); border-color: #ff8c00; }
-        .icon-ru-ua { background: rgba(255, 0, 0, 0.45); border-color: #ff3131; }
-        
+
+        .leaflet-marker-icon { 
+            background: none !important; 
+            border: none !important; 
+        }
+
+        .mil-icon-box { 
+            display: flex; 
+            align-items: center; 
+            justify-content: center; 
+            border-radius: 50%; 
+            border: 1px solid #fff; 
+            box-shadow: 0 0 8px #000; 
+            transition: 0.3s; 
+        }
+
+        .icon-us-nato { 
+            background: rgba(57, 255, 20, 0.45); 
+            border-color: #39FF14; 
+            box-shadow: 0 0 15px #39FF14;
+        }
+
+        .icon-nato-blue { 
+            background: rgba(0, 102, 255, 0.45); 
+            border-color: #0066ff; 
+            box-shadow: 0 0 15px #0066ff;
+        }
+
+        .icon-iran-tension { 
+            background: rgba(255, 140, 0, 0.45); 
+            border-color: #ff8c00; 
+            box-shadow: 0 0 15px #ff8c00;
+        }
+
+        .icon-ru-ua { 
+            background: rgba(255, 0, 0, 0.45); 
+            border-color: #ff3131; 
+            box-shadow: 0 0 15px #ff3131;
+        }
+
+    `;
+    document.head.appendChild(customStyles);
         /* ПУЛСИРАЩА АНИМАЦИЯ ЗА НОВИНИ */
         .alert-pulse { animation: alert-anim 2s infinite alternate; cursor: pointer; filter: drop-shadow(0 0 15px #ff3131); }
         @keyframes alert-anim { from { transform: scale(1); opacity: 1; } to { transform: scale(1.35); opacity: 0.5; } }
