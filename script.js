@@ -305,7 +305,8 @@ fetch('https://raw.githubusercontent.com/datasets/geo-boundaries-world-110m/mast
         { name: "USS Stockdale", type: "us-naval", lat: 12.75, lon: 43.15, description: "Arleigh Burke-class destroyer. Forward-deployed in the Bab el-Mandeb Strait for counter-drone and ballistic missile defense." },
         { name: "USS O'Kane", type: "us-naval", lat: 25.20, lon: 56.80, description: "Arleigh Burke-class destroyer. Patrolling the entrance of the Strait of Hormuz to ensure freedom of navigation." },
         { name: "IRIS Shahid Bagheri", type: "ir-naval", lat: 27.10, lon: 56.40, description: "IRGC Drone Carrier. Strategically positioned in the Strait of Hormuz to monitor US and allied naval transits." },
-        { name: "IRIS Alborz", type: "ir-naval", lat: 13.50, lon: 42.90, description: "Iranian Alvand-class frigate. Operating in the Red Sea, monitoring US naval assets near the Houthi-controlled zones." }
+        { name: "IRIS Alborz", type: "ir-naval", lat: 13.50, lon: 42.90, description: "Iranian Alvand-class frigate. Operating in the Red Sea, monitoring US naval assets near the Houthi-controlled zones." },
+        { name: "FGS Nordrhein-Westfalen", type: "nato-naval", lat: 34.4500, lon: 34.1000, description: "German Navy Baden-Württemberg-class frigate (F223). Operating off the coast of Lebanon/Cyprus." }
     ];
 // --- СЕКЦИЯ: ВРЕДНИ ЗОНИ (ОБХВАТ НА УДАР) ---
 strategicAssets.forEach(asset => {
