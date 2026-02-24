@@ -385,19 +385,33 @@ const customStyles = document.createElement("style");
     }
 
    strategicAssets.forEach(asset => {
-    const assetMarker = L.marker([asset.lat, asset.lon], { icon: createAssetIcon(asset.type) })
-        .addTo(militaryLayer)
-        .bindTooltip(asset.name);
 
-    // ТОВА Е НОВИЯТ РЕД, КОЙТО ТИ ТРЯБВА:
-    assetMarker.bindPopup(`
-        <div style="background:#000; color:#fff; padding:10px; border:1px solid #39FF14; font-family:monospace;">
-            <strong style="color:#39FF14; font-size:14px;">${asset.name}</strong><br>
-            <hr style="border:0; border-top:1px solid #333; margin:5px 0;">
-            <span style="font-size:12px; color:#ccc;">${asset.description || "No assets listed"}</span>
-        </div>
-    `);
-});
+        // 1. ОПРЕДЕЛЯМЕ ИКОНАТА ПО ПОДРАЗБИРАНЕ
+        let assetIcon = createAssetIcon(asset.type);
+
+        // 2. АКО ТИПЪТ Е НАТО, ЗАМЕНЯМЕ СЪС СИНЯ ИКОНА
+        if (asset.type === 'nato-naval') {
+            assetIcon = L.divIcon({
+                html: `<div class="icon-nato-blue" style="font-size:18px; display:flex; align-items:center; justify-content:center;">🚢</div>`,
+                iconSize: [32, 32]
+            });
+        }
+
+        // 3. СЪЗДАВАНЕ НА МАРКЕРА ВЪРХУ КАРТАТА
+        const assetMarker = L.marker([asset.lat, asset.lon], { icon: assetIcon })
+            .addTo(militaryLayer)
+            .bindTooltip(asset.name);
+
+        // 4. ПОП-ЪП ИНФОРМАЦИЯ ПРИ КЛИК
+        assetMarker.bindPopup(`
+            <div style="background:#000; color:#fff; padding:10px; border:1px solid #39FF14; font-family:monospace;">
+                <strong style="color:#39FF14; font-size:14px;">${asset.name}</strong><br>
+                <hr style="border:0; border-top:1px solid #333; margin:5px 0;">
+                <span style="font-size:12px; color:#ccc;">${asset.description || "No assets listed"}</span>
+            </div>
+        `);
+
+    });
 
     // --- СЕКЦИЯ 6: МОДАЛЕН ДИСПЛЕЙ ---
     const showIntelDetails = (data) => {
