@@ -423,12 +423,7 @@ const customStyles = document.createElement("style");
         console.log("System Status: " + asset.name + " active on coordinates [" + asset.lat + ", " + asset.lon + "]");
     });
 
-        // 3. СЪЗДАВАМЕ ИКОНАТА СЪС СЪОТВЕТНИЯ КЛАС И СИМВОЛ
-        const assetIcon = L.divIcon({
-            html: `<div class="mil-icon-box ${assetClass}" style="font-size:18px; display:flex; align-items:center; justify-content:center;">${assetSymbol}</div>`,
-            iconSize: [32, 32]
-        });
-
+  
         // 4. ПОСТАВЯНЕ НА МАРКЕРА ВЪРХУ КАРТАТА
         const assetMarker = L.marker([asset.lat, asset.lon], { icon: assetIcon })
             .addTo(militaryLayer)
