@@ -1,5 +1,19 @@
 [
     {
+        "country": "USA",
+        "city": "Washington",
+        "lat": 38.83719822395785,
+        "lon": -77.02770605486438,
+        "date": "2026-02-24 10:35:02",
+        "type": "Airstrike",
+        "severity": "critical",
+        "title": "Mexico killed \"El Mencho.\" Here's how and what we know about U.S. role in the operation",
+        "description": "Mexican security forces killed Nemesio Rubén Oseguera Cervantes, the country's most-wanted drug lord, following information from the U.S. that assisted in Sunday's operation, the Trump administration and Mexico's defense ministry said.Why it matters: President Trump has for months pressed Mexican officials to target drug cartels and the U.S. had offered a reward of up to $15 million for information leading to the arrest of Oseguera Cervantes, kno",
+        "fatalities": "0",
+        "link": "https://www.axios.com/2026/02/23/mexico-cartel-leader-el-mencho-drug-lord-killed",
+        "critical": true
+    },
+    {
         "country": "Europe",
         "city": "Berlin",
         "lat": 48.92598169865877,
@@ -2783,20 +2797,6 @@
         "description": "Al Jazeera analysis shows cost of a basic Ramadan meal in Gaza doubles under Israeli siege.",
         "fatalities": "0",
         "link": "https://www.aljazeera.com/features/2026/2/23/ramadan-in-gaza-cost-of-iftar-doubles-as-genocidal-war-devastates-economy?traffic_source=rss",
-        "critical": false
-    },
-    {
-        "country": "Ukraine",
-        "city": "Kyiv",
-        "lat": 50.43114379366184,
-        "lon": 30.472715113277705,
-        "date": "2026-02-23 11:10:30",
-        "type": "Clashes",
-        "severity": "middle",
-        "title": "Russia kills four Ukrainians on eve of fourth war anniversary",
-        "description": "EU foreign ministers are meeting in Brussels to discuss a loan for Kyiv and 20th package of sanctions against Russia.",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/news/2026/2/23/four-killed-in-russian-attacks-in-ukraine-ahead-of-eu-ministers-meeting?traffic_source=rss",
         "critical": false
     }
 ]
