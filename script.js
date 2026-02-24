@@ -398,7 +398,7 @@ const customStyles = document.createElement("style");
             html: `<div class="${styleClass}" style="font-size:18px; display:flex; align-items:center; justify-content:center;">${symbol}</div>`,
             iconSize: [32, 32]
         });
-    }
+    
 
     // ЦИКЪЛ ЗА ИЗРИСУВАНЕ НА КАРТАТА
     strategicAssets.forEach(asset => {
