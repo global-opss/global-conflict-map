@@ -306,7 +306,12 @@ fetch('https://raw.githubusercontent.com/datasets/geo-boundaries-world-110m/mast
         { name: "USS O'Kane", type: "us-naval", lat: 25.20, lon: 56.80, description: "Arleigh Burke-class destroyer. Patrolling the entrance of the Strait of Hormuz to ensure freedom of navigation." },
         { name: "IRIS Shahid Bagheri", type: "ir-naval", lat: 27.10, lon: 56.40, description: "IRGC Drone Carrier. Strategically positioned in the Strait of Hormuz to monitor US and allied naval transits." },
         { name: "IRIS Alborz", type: "ir-naval", lat: 13.50, lon: 42.90, description: "Iranian Alvand-class frigate. Operating in the Red Sea, monitoring US naval assets near the Houthi-controlled zones." },
-        { name: "FGS Nordrhein-Westfalen", type: "nato-naval", lat: 34.4500, lon: 34.1000, description: "German Navy Baden-Württemberg-class frigate (F223). Operating off the coast of Lebanon/Cyprus." }
+        { name: "FGS Nordrhein-Westfalen", type: "nato-naval", lat: 34.4500, lon: 34.1000, description: "German Navy Baden-Württemberg-class frigate (F223). Operating off the coast of Lebanon/Cyprus." },
+        { name: "HMS Duncan", type: "nato-naval", lat: 34.2000, lon: 33.8500, description: "UK Royal Navy Type 45 Destroyer. Advanced Anti-Air Warfare escort near Cyprus/Lebanon." },
+        { name: "ITS Andrea Doria", type: "nato-naval", lat: 33.7500, lon: 34.2000, description: "Italian Navy Orizzonte-class destroyer. Supporting maritime security in the Levant Basin." },
+        { name: "HS Psara", type: "nato-naval", lat: 34.1000, lon: 34.6000, description: "Hellenic Navy Hydra-class frigate. Deployed under NATO Standing Maritime Group 2 (SNMG2)." },
+        { name: "TCG Anadolu", type: "nato-naval", lat: 35.8500, lon: 32.5000, description: "Turkish Navy Amphibious Assault Ship. Operating in the Eastern Mediterranean corridor." },
+        { name: "FGS Frankfurt am Main", type: "nato-naval", lat: 34.6500, lon: 33.1500, description: "German Navy Berlin-class replenishment ship. Providing logistics for the NATO fleet off Cyprus." }
     ];
 // --- СЕКЦИЯ: ВРЕДНИ ЗОНИ (ОБХВАТ НА УДАР) ---
 strategicAssets.forEach(asset => {
