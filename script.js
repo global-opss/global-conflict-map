@@ -353,101 +353,51 @@ const customStyles = document.createElement("style");
     `;
     document.head.appendChild(customStyles);
 
-// ==========================================================
-    // --- СЕКЦИЯ 5: ГЕНЕРИРАНЕ НА ТАКТИЧЕСКИ ИКОНИ (REPAIRED) ---
-    // ==========================================================
-    
-    /**
-     * ФУНКЦИЯ ЗА СЪЗДАВАНЕ НА ИКОНИ
-     * Тази функция определя как ще изглежда всеки маркер на картата.
-     */
+ // --- СЕКЦИЯ 5: ГЕНЕРИРАНЕ НА ТАКТИЧЕСКИ ИКОНИ ---
     function createAssetIcon(type) {
-        // Базови променливи за иконата
         let symbol = '⚪'; 
         let styleClass = 'mil-icon-box ';
 
-        // 1. ЛОГИКА ЗА ПЕХОТА (UA/RU)
         if (type === 'ua-infantry') {
             symbol = '⚔';
             styleClass += 'icon-us-nato';
         } else if (type === 'ru-infantry') {
             symbol = '⚔';
             styleClass += 'icon-ru-ua';
-        } 
-        
-        // 2. ИРАНСКИ СПЕЦИАЛНИ АКТИВИ (Ядрени/Ракети)
-        else if (type === 'ir-nuclear') {
+        } else if (type === 'ir-nuclear') {
             symbol = '☢️';
             styleClass += 'icon-iran-tension';
         } else if (type === 'ir-missile') {
             symbol = '🚀';
             styleClass += 'icon-iran-tension';
-        } 
-        
-        // 3. МОРСКИ ОБЕКТИ (КОРАБИ - NATO BLUE / US GREEN)
-        else if (type.includes('naval')) {
-            symbol = '🚢'; 
-            if (type === 'nato-naval') {
-                styleClass += 'icon-nato-blue'; // СИНЬО за европейците
-            } else {
-                styleClass += (type.startsWith('us-')) ? 'icon-us-nato' : 'icon-ru-ua';
-            }
-        } 
-        
-        // 4. ВЪЗДУШНИ ОБЕКТИ (БАЗИ/ЛЕТИЩА)
-        else if (type.includes('air')) {
-            symbol = '✈️';
+        } else if (type.includes('naval')) {
+            symbol = '⚓';
+            styleClass += (type.startsWith('us-')) ? 'icon-us-nato' : 'icon-ru-ua';
+        } else if (type.includes('air')) {
+            symbol = '🦅';
             styleClass += (type.startsWith('us-')) ? 'icon-us-nato' : 'icon-iran-tension';
         }
-        
-        // 5. ВОЕННИ БАЗИ (Military Base)
-        else if (type.includes('military-base')) {
-            symbol = '🎖️';
-            styleClass += (type.startsWith('us-')) ? 'icon-us-nato' : 'icon-ru-ua';
-        }
 
-        // Връщаме обекта към Leaflet
         return L.divIcon({
             html: `<div class="${styleClass}" style="font-size:18px; display:flex; align-items:center; justify-content:center;">${symbol}</div>`,
             iconSize: [32, 32]
         });
     }
 
-    // --- ОБЕДИНЕН ЦИКЪЛ ЗА ИЗРИСУВАНЕ НА КАРТАТА ---
-    // Използваме само един forEach, за да не се бият променливите в паметта
-    strategicAssets.forEach(asset => {
-        
-        // Проверяваме дали обекта има координати, за да не спрем рендерирането
-        if (asset.lat && asset.lon) {
-            
-            // Инициализираме маркера чрез функцията createAssetIcon
-            const assetMarker = L.marker([asset.lat, asset.lon], { 
-                icon: createAssetIcon(asset.type) 
-            })
-            .addTo(militaryLayer)
-            .bindTooltip(asset.name);
+   strategicAssets.forEach(asset => {
+    const assetMarker = L.marker([asset.lat, asset.lon], { icon: createAssetIcon(asset.type) })
+        .addTo(militaryLayer)
+        .bindTooltip(asset.name);
 
-            // ПОП-ЪП С ЕЛЕКТРОННОТО ТЕБЛО (ТВОЯ СТИЛ)
-            assetMarker.bindPopup(`
-                <div style="background:#000; color:#fff; padding:10px; border:1px solid #39FF14; font-family:monospace;">
-                    <strong style="color:#39FF14; font-size:14px;">${asset.name}</strong><br>
-                    <hr style="border:0; border-top:1px solid #333; margin:5px 0;">
-                    <span style="font-size:12px; color:#ccc;">${asset.description || "No assets listed"}</span>
-                </div>
-            `);
-
-            // ЛОГОВЕ В КОНЗОЛАТА (ОБЕДИНЕНИ)
-            // Това ще ти покаже в конзолата, че обектите се зареждат реално
-            console.log("Tactical Monitor: " + asset.name + " active on coordinates [" + asset.lat + ", " + asset.lon + "]");
-            console.log("System Status: " + asset.name + " [" + asset.type + "] rendered.");
-
-        } else {
-            // Ако липсват координати, изписваме предупреждение
-            console.warn("System Error: Missing coordinates for asset " + asset.name);
-        }
-    });
-
-    // --- КРАЙ НА СЕКЦИЯ 5 ---
+    // ТОВА Е НОВИЯТ РЕД, КОЙТО ТИ ТРЯБВА:
+    assetMarker.bindPopup(`
+        <div style="background:#000; color:#fff; padding:10px; border:1px solid #39FF14; font-family:monospace;">
+            <strong style="color:#39FF14; font-size:14px;">${asset.name}</strong><br>
+            <hr style="border:0; border-top:1px solid #333; margin:5px 0;">
+            <span style="font-size:12px; color:#ccc;">${asset.description || "No assets listed"}</span>
+        </div>
+    `);
+});
 
   
         // 4. ПОСТАВЯНЕ НА МАРКЕРА ВЪРХУ КАРТАТА
