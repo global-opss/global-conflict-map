@@ -386,23 +386,29 @@ const customStyles = document.createElement("style");
 
    strategicAssets.forEach(asset => {
 
-        // 1. ОПРЕДЕЛЯМЕ ИКОНАТА ПО ПОДРАЗБИРАНЕ
-        let assetIcon = createAssetIcon(asset.type);
+        // 1. ОПРЕДЕЛЯМЕ ЦВЕТА И СИМВОЛА
+        let assetClass = 'icon-us-nato'; // Зелено за САЩ по подразбиране
+        let shipSymbol = '🚢'; // Корабче за всички
 
-        // 2. АКО ТИПЪТ Е НАТО, ЗАМЕНЯМЕ СЪС СИНЯ ИКОНА
         if (asset.type === 'nato-naval') {
-            assetIcon = L.divIcon({
-                html: `<div class="icon-nato-blue" style="font-size:18px; display:flex; align-items:center; justify-content:center;">🚢</div>`,
-                iconSize: [32, 32]
-            });
+            assetClass = 'icon-nato-blue'; // Синьо за европейците
+        } else if (asset.type === 'ir-naval') {
+            assetClass = 'icon-ru-ua'; // Червено за Иран (според твоя CSS)
+            shipSymbol = '⚓'; // Можеш да им оставиш котва на тях, за да се делят
         }
 
-        // 3. СЪЗДАВАНЕ НА МАРКЕРА ВЪРХУ КАРТАТА
+        // 2. СЪЗДАВАМЕ ИКОНАТА
+        const assetIcon = L.divIcon({
+            html: `<div class="mil-icon-box ${assetClass}" style="font-size:18px; display:flex; align-items:center; justify-content:center;">${shipSymbol}</div>`,
+            iconSize: [32, 32]
+        });
+
+        // 3. ПОСТАВЯНЕ НА МАРКЕРА
         const assetMarker = L.marker([asset.lat, asset.lon], { icon: assetIcon })
             .addTo(militaryLayer)
             .bindTooltip(asset.name);
 
-        // 4. ПОП-ЪП ИНФОРМАЦИЯ ПРИ КЛИК
+        // 4. ИНФО ПРОЗОРЕЦ ПРИ КЛИК
         assetMarker.bindPopup(`
             <div style="background:#000; color:#fff; padding:10px; border:1px solid #39FF14; font-family:monospace;">
                 <strong style="color:#39FF14; font-size:14px;">${asset.name}</strong><br>
@@ -410,7 +416,6 @@ const customStyles = document.createElement("style");
                 <span style="font-size:12px; color:#ccc;">${asset.description || "No assets listed"}</span>
             </div>
         `);
-
     });
 
     // --- СЕКЦИЯ 6: МОДАЛЕН ДИСПЛЕЙ ---
