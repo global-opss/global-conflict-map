@@ -70,17 +70,16 @@
 
         @keyframes blink { 0% { opacity: 1; } 50% { opacity: 0; } 100% { opacity: 1; } }
         .live-dot { color: #ff3131; animation: blink 1s infinite; margin-right: 5px; }
-    /* --- УСИЛЕНА ТАКТИЧЕСКА ЛИНИЯ --- */
-        .tripwire-glow {
-            filter: drop-shadow(0 0 12px #ff3131) drop-shadow(0 0 5px #ff3131); /* Двойно сияние */
-            stroke-linecap: round; /* Заоблени краища на пунктира */
-            animation: heavyPulse 2s infinite alternate ease-in-out;
-        }
+    .tripwire-glow {
+    filter: drop-shadow(0 0 15px #ff3131) drop-shadow(0 0 5px #ff3131);
+    stroke-linecap: square; /* Квадратни краища за по-военен вид */
+    animation: alertPulse 1.5s infinite alternate ease-in-out;
+}
 
-        @keyframes heavyPulse {
-            from { opacity: 0.5; stroke-width: 3; }
-            to { opacity: 1.0; stroke-width: 5; } /* Вече е истинска бариера */
-        }
+@keyframes alertPulse {
+    from { opacity: 0.6; stroke-width: 5; }
+    to { opacity: 1.0; stroke-width: 8; }
+}
         /* --- TACTICAL GLASS POPUP --- */
         .leaflet-popup-content-wrapper, .leaflet-popup-tip {
             background: rgba(10, 10, 10, 0.4) !important;
