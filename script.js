@@ -449,7 +449,27 @@ const tripwireLine = L.polyline(tripwireCoords, {
     className: 'tripwire-glow', 
     interactive: false
 }).addTo(militaryLayer);
-    
+    // СЕКЦИЯ: ТАКТИЧЕСКИ ПЪТ "АДЕН" (ADEN GATEWAY - CYAN LINE)
+// ============================================================
+const adenPathCoords = [
+    [12.60, 43.30], // Баб ел-Мандеб (Вход)
+    [12.20, 44.50], 
+    [12.50, 46.50], 
+    [13.20, 49.00], 
+    [14.50, 52.50], 
+    [16.00, 56.00], 
+    [18.50, 61.00], // Среща с Арабско море
+    [21.00, 66.00]  // Към Индийския океан
+];
+
+const adenLine = L.polyline(adenPathCoords, {
+    color: '#00F2FF',      // Магнитно Циан (Neon Aqua)
+    weight: 8,             
+    opacity: 1.0,          
+    dashArray: '30, 30',   
+    className: 'aden-path-glow', // Нов клас за различен цвят
+    interactive: false
+}).addTo(militaryLayer);
       // --- СЕКЦИЯ 6: МОДАЛЕН ДИСПЛЕЙ ---
     const showIntelDetails = (data) => {
         const container = document.getElementById('intel-details-container');
