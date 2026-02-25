@@ -40,7 +40,17 @@ FEEDS = [
     "https://www.dailystar.com.lb/RSS.aspx?live=1",
     "https://www.arabnews.com/rss.xml",
     "https://www.thenationalnews.com/arc/outboundfeeds/rss/",
-    "https://english.alarabiya.net/.mrss/en/news.xml"
+    "https://english.alarabiya.net/.mrss/en/news.xml",
+    "https://ria.ru/export/rss2/archive/index.xml",              
+    "http://tass.ru/rss/v2.xml",                                 
+    "https://www.kommersant.ru/RSS/news.xml",                    
+    "https://topwar.ru/rss.xml",                                 
+    "https://lenta.ru/rss/news",                                 
+    "https://www.rbc.ru/export/rss/rbcnews.xml",                
+    "https://russian.rt.com/rss",                                
+    "https://www.interfax.ru/rss.asp",                         
+    "https://www.vedomosti.ru/rss/news.xml",                    
+    "https://rg.ru/xml/index.xml"                               
 ]
 
 LOCATION_CACHE = {
@@ -174,7 +184,7 @@ def run_bot():
                         print(f"✅ Captured: {event_type} - {city}")
         except: continue
     unique_events = {e['title']: e for e in (new_found_events + existing_events)}
-    final_list = sorted(list(unique_events.values()), key=lambda x: x['date'], reverse=True)[:75]
+    final_list = sorted(list(unique_events.values()), key=lambda x: x['date'], reverse=True)[:113]
     with open('conflicts.json', 'w', encoding='utf-8') as f:
         json.dump(final_list, f, indent=4, ensure_ascii=False)
     print(f"🚀 DATABASE UPDATED: {len(final_list)} events.")
@@ -182,6 +192,7 @@ def run_bot():
 if __name__ == "__main__":
     run_bot()
     # End of Script - 250 Lines Precise.
+
 
 
 
