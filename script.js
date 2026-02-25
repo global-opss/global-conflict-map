@@ -1378,3 +1378,49 @@ initializeMilitaryProtocol();
 // =============================================================================
 // КРАЙ НА МОДУЛА. СЕГА САЙТЪТ Е НАПЪЛНО АДАПТИРАН ЗА AI ИНДЕКСИРАНЕ.
 // =============================================================================
+
+// =============================================================================
+// СЕКЦИЯ: CRITICAL ALARM MONITORING (RED ALERT SYSTEM)
+// =============================================================================
+
+function checkCriticalAlerts() {
+    // Използваме timestamp, за да избегнем кеширането на браузъра
+    fetch('critical_alerts.json?t=' + new Date().getTime())
+        .then(response => {
+            if (!response.ok) return []; // Ако файлът още не е създаден
+            return response.json();
+        })
+        .then(alerts => {
+            const body = document.body;
+            const alertBanner = document.getElementById('critical-alert-banner');
+
+            if (alerts && alerts.length > 0) {
+                // --- АКТИВИРАНЕ НА RED ALERT ---
+                body.style.boxShadow = "inset 0 0 100px rgba(255, 0, 0, 0.5)";
+                body.style.borderColor = "#ff0000";
+                
+                // Ако нямаме банер, създаваме го динамично
+                if (!alertBanner) {
+                    const banner = document.createElement('div');
+                    banner.id = 'critical-alert-banner';
+                    banner.innerHTML = `⚠️ CRITICAL NEWS DETECTED: ${alerts[0].title}`;
+                    banner.style = "position:fixed; top:0; width:100%; background:red; color:white; text-align:center; padding:10px; z-index:9999; font-weight:bold; font-family:monospace; border-bottom: 2px solid white;";
+                    document.body.appendChild(banner);
+                }
+                
+                console.log("%c🛑 [OFFICER WATCH] RED ALERT ACTIVE!", "color: red; font-weight: bold; font-size: 16px;");
+            } else {
+                // --- СИТУАЦИЯТА Е СПОКОЙНА ---
+                body.style.boxShadow = "none";
+                body.style.borderColor = ""; // Връща оригиналния цвят
+                if (alertBanner) alertBanner.remove();
+            }
+        })
+        .catch(err => console.log("Waiting for officer_watch.py to generate first alert..."));
+}
+
+// ПУСКАНЕ: Проверява на всеки 30 секунди
+setInterval(checkCriticalAlerts, 30000);
+
+// Изпълняваме веднъж и при самото зареждане на сайта
+document.addEventListener('DOMContentLoaded', checkCriticalAlerts);
