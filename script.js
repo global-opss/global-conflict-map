@@ -446,7 +446,7 @@ const tripwireCoords = [
     [15.00, 71.00]  // Финал в Индийския океан (посока Индия)
 ];
 
-const tripwireLine = L.polyline(tripwireCoords, {
+var tripwireLine = L.polyline(tripwireCoords, {
     color: '#FF3131',      
     weight: 10,            // МЕГА ДЕБЕЛИНА (от Космоса!)
     opacity: 0.85,         // Оптимизирано за по-бързо рендиране
@@ -485,7 +485,7 @@ const adenPathCoords = [
     [23.00, 68.00]  // Изход към Индийския океан
 ];
 
-const adenLine = L.polyline(adenPathCoords, {
+var adenLine = L.polyline(adenPathCoords, {
     color: '#00F2FF',
     weight: 9,             // Малко по-дебела за по-добър завой
     opacity: 0.85,          
