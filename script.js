@@ -495,7 +495,51 @@ var adenLine = L.polyline(adenPathCoords, {
     smoothFactor: 2.0      // Олекотява движението на картата
 }).addTo(militaryLayer);
 
-// Край на тактическата секция
+     // --- ГАЗОПРОВОДИ (НОВАТА СЕКЦИЯ) ---
+
+const turkStreamCoords = [
+    [44.88, 37.33], // Анапа (Русия)
+    [41.65, 28.02], // Кийъкьой (Турция)
+    [42.15, 27.20], // Странджа (България)
+    [43.32, 21.90], // Ниш (Сърбия)
+    [46.10, 19.66]  // Унгария граница
+];
+
+const blueStreamCoords = [
+    [44.50, 38.35], // Изобильное
+    [41.30, 36.33], // Самсун (Турция)
+    [39.93, 32.85]  // Анкара
+];
+
+const yamalEuropeCoords = [
+    [53.89, 30.33], // Могилев (Беларус)
+    [53.13, 23.16], // Бялисток (Полша)
+    [52.40, 16.92], // Познан
+    [52.34, 14.55]  // Франкфурт на Одер (Германия)
+];
+
+// Дефинираме стил, който е различен от военните линии
+const pipelineStyle = {
+    color: '#ff9900', // Оранжево (стандарт за газ)
+    weight: 3.5,
+    opacity: 0.7,
+    dashArray: '8, 8', // Пунктир, за да изглежда като тръбопровод
+    lineJoin: 'round',
+    interactive: true
+};
+
+// Използваме "var", за да може анимационният скрипт да ги вижда (както уточнихме)
+var turkStream = L.polyline(turkStreamCoords, pipelineStyle).addTo(militaryLayer);
+var blueStream = L.polyline(blueStreamCoords, pipelineStyle).addTo(militaryLayer);
+var yamalLine = L.polyline(yamalEuropeCoords, { ...pipelineStyle, color: '#4CAF50' }).addTo(militaryLayer);
+
+// Добавяме описания
+turkStream.bindTooltip("Турски Поток / TurkStream", { sticky: true });
+blueStream.bindTooltip("Син Поток / Blue Stream", { sticky: true });
+yamalLine.bindTooltip("Ямал-Европа", { sticky: true });
+
+// --- КРАЙ НА СЕКЦИЯТА ЗА ГАЗОПРОВОДИ --- 
+      
       // --- СЕКЦИЯ 6: МОДАЛЕН ДИСПЛЕЙ ---
     const showIntelDetails = (data) => {
         const container = document.getElementById('intel-details-container');
