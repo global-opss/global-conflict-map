@@ -1027,36 +1027,43 @@ document.onkeydown = function(e) {
 
 console.log(">> SYSTEM: All Monitoring Modules are READY and ONLINE.");
 // ============================================================================
-// СЕКЦИЯ: ГАРАНТИРАНА ТАКТИЧЕСКА ПУЛСАЦИЯ (FORCED REDRAW)
+// СЕКЦИЯ 10: ГЛОБАЛЕН ТАКТИЧЕСКИ ДВИГАТЕЛ ЗА АНИМАЦИЯ
 // ============================================================================
+/**
+ * Този блок управлява пулсацията на всички морски пътища.
+ * Използваме директен достъп до Canvas рендерера за максимална производителност.
+ */
 
-let pulseTick = 0;
-
-// Използваме Интервал за по-стабилно изпълнение при Canvas слоеве
-setInterval(() => {
-    pulseTick += 0.05; // Скорост на "дишане"
+function startTacticalPulse() {
+    let tick = 0;
     
-    // Генерираме стойност за прозрачност между 0.3 и 1.0
-    const dynamicOpacity = 0.5 + Math.sin(pulseTick) * 0.4;
+    // Използваме интервал, който работи независимо от другите процеси
+    setInterval(() => {
+        tick += 0.04; // Скорост на пулсиране
+        
+        // Математическа крива за плавно "дишане" (Opacity между 0.4 и 1.0)
+        const pulseVal = 0.7 + Math.sin(tick) * 0.3;
 
-    // 1. Анимиране на Червената линия (Tripwire)
-    if (typeof tripwireLine !== 'undefined' && map.hasLayer(tripwireLine)) {
-        tripwireLine.setStyle({
-            opacity: dynamicOpacity
-        });
-        // Ако ползваме Canvas, трябва изрично да кажем на обекта да се прерисува
-        if (tripwireLine.redraw) tripwireLine.redraw();
-    }
+        // --- АНИМИРАНЕ НА ЧЕРВЕНАТА ЛИНИЯ ---
+        if (window.tripwireLine) {
+            window.tripwireLine.setStyle({ opacity: pulseVal });
+            if (window.tripwireLine.redraw) window.tripwireLine.redraw();
+        }
 
-    // 2. Анимиране на Синята линия (Aden Path)
-    if (typeof adenLine !== 'undefined' && map.hasLayer(adenLine)) {
-        // Леко отместване на фазата (+0.8), за да не пулсират едновременно
-        const adenOpacity = 0.5 + Math.sin(pulseTick + 0.8) * 0.4;
-        adenLine.setStyle({
-            opacity: adenOpacity
-        });
-        if (adenLine.redraw) adenLine.redraw();
-    }
-}, 50); // Изпълнява се на всеки 50 милисекунди (около 20 кадъра в секунда)
+        // --- АНИМИРАНЕ НА СИНЯТА ЛИНИЯ ---
+        // Добавяме малко закъснение в синусоидата (tick + 0.5), за да изглежда по-естествено
+        if (window.adenLine) {
+            const bluePulse = 0.6 + Math.sin(tick + 0.5) * 0.4;
+            window.adenLine.setStyle({ opacity: bluePulse });
+            if (window.adenLine.redraw) window.adenLine.redraw();
+        }
+    }, 40); // 25 кадъра в секунда - идеално за слаби машини
+}
+
+// Стартираме с леко закъснение, за да сме сигурни, че Leaflet е готов
+setTimeout(() => {
+    console.log("Tactical Pulse Engine: Initiating...");
+    startTacticalPulse();
+}, 1500);
 
 // ============================================================================
