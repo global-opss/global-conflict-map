@@ -534,8 +534,8 @@ var blueStream = L.polyline(blueStreamCoords, pipelineStyle).addTo(militaryLayer
 var yamalLine = L.polyline(yamalEuropeCoords, { ...pipelineStyle, color: '#4CAF50' }).addTo(militaryLayer);
 
 // Добавяме описания
-turkStream.bindTooltip("Турски Поток / TurkStream", { sticky: true });
-blueStream.bindTooltip("Син Поток / Blue Stream", { sticky: true });
+turkStream.bindTooltip("  TurkStream", { sticky: true });
+blueStream.bindTooltip("  Blue Stream", { sticky: true });
 yamalLine.bindTooltip("Ямал-Европа", { sticky: true });
 
 // --- КРАЙ НА СЕКЦИЯТА ЗА ГАЗОПРОВОДИ --- 
