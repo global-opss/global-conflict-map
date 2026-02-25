@@ -1027,34 +1027,35 @@ document.onkeydown = function(e) {
 
 console.log(">> SYSTEM: All Monitoring Modules are READY and ONLINE.");
 // ============================================================================
-// СЕКЦИЯ: ДИНАМИЧНА ТАКТИЧЕСКА ПУЛСАЦИЯ (CANVAS OPTIMIZED)
+// СЕКЦИЯ: ФОРСИРАНА ТАКТИЧЕСКА ПУЛСАЦИЯ (CANVAS FIX)
 // ============================================================================
-// Тъй като ползваме preferCanvas, трябва да анимираме през JS, а не през CSS.
 
-let step = 0;
-const pulseSpeed = 0.04; // Скорост на пулсацията
+let tacticalStep = 0;
+const tacticalPulseSpeed = 0.04;
 
-function animateTacticalLines() {
-    step += pulseSpeed;
+function runTacticalPulse() {
+    tacticalStep += tacticalPulseSpeed;
     
-    // Изчисляваме новата прозрачност (синусоидална вълна между 0.4 и 1.0)
-    // Това създава плавен "дишащ" ефект
-    const opacity = 0.6 + Math.sin(step) * 0.4;
+    // Плавна вълна за прозрачност
+    const newOpacity = 0.5 + Math.sin(tacticalStep) * 0.45;
 
-    // Прилагаме прозрачността към двете главни линии
-    if (typeof tripwireLine !== 'undefined') {
-        tripwireLine.setStyle({ opacity: opacity });
-    }
-    
-    if (typeof adenLine !== 'undefined') {
-        adenLine.setStyle({ opacity: opacity - 0.1 }); // Малко по-бледа за баланс
+    // Анимиране на Tripwire (Червена)
+    if (typeof tripwireLine !== 'undefined' && map.hasLayer(tripwireLine)) {
+        tripwireLine.setStyle({ opacity: newOpacity });
+        // ФОРСИРАНЕ: Принуждаваме Canvas да прерисува линията веднага
+        if (tripwireLine._renderer) { tripwireLine._renderer._update(); }
     }
 
-    // Използваме requestAnimationFrame за 60 FPS плавност без товар на CPU
-    requestAnimationFrame(animateTacticalLines);
+    // Анимиране на Aden Path (Синя)
+    if (typeof adenLine !== 'undefined' && map.hasLayer(adenLine)) {
+        const blueOpacity = 0.4 + Math.sin(tacticalStep + 0.5) * 0.5;
+        adenLine.setStyle({ opacity: blueOpacity });
+        // ФОРСИРАНЕ: Същото и за синята линия
+        if (adenLine._renderer) { adenLine._renderer._update(); }
+    }
+
+    requestAnimationFrame(runTacticalPulse);
 }
 
-// Стартираме анимацията веднага след зареждане
-animateTacticalLines();
-
-// ============================================================================
+// Стартиране след малко закъснение за стабилност
+setTimeout(runTacticalPulse, 1000);
