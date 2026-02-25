@@ -75,12 +75,13 @@ let map; // Сложи го точно тук на нов ред
     // --- СЕКЦИЯ 1: КОНФИГУРАЦИЯ НА КАРТАТА ---
     // Настройваме координатите за централен изглед към Евразия и Близкия изток
     map = L.map('map', {
-        worldCopyJump: true,    // Позволява безкрайно превъртане на изток/запад
-        zoomControl: true,      // Стандартни бутони за навигация
-        attributionControl: false, // Премахване на лога за по-чист интерфейс
-        zoomSnap: 0.1,          // Прецизен контрол на мащаба
-        wheelDebounceTime: 60   // Оптимизация на скрола с мишката
-    }).setView([35.0, 40.0], 4.2); 
+        preferCanvas: true,        // <--- ТОВА Е КЛЮЧЪТ: Пуска видеокартата
+        worldCopyJump: true,    
+        zoomControl: true,      
+        attributionControl: false, 
+        zoomSnap: 0.1,          
+        wheelDebounceTime: 60   
+    }).setView([35.0, 40.0], 4.2);
 
     // Дефиниране на слоеве за различни типове данни
     const markersLayer = L.layerGroup().addTo(map);   // Динамични новини
