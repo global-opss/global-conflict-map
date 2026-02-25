@@ -177,7 +177,7 @@
         const warningStyle = "color: #ff0000; font-size: 24px; font-weight: bold; background: #000; padding: 10px; border: 2px solid red;";
         const infoStyle = "color: #00ff00; font-family: monospace; font-size: 12px;";
 
-        console.log("%c🛑 ВНИМАНИЕ: ДОСТЪПЪТ Е ОГРАНИЧЕН", warningStyle);
+        console.log("%c🛑 WARNING: ACCESS IS RESTRICTED", warningStyle);
         console.log("%c[SYS] Започнато проследяване на пакети към вашия IP...", infoStyle);
         console.log("%c[SYS] Криптиращ ключ: 0x" + Math.floor(Math.random()*16777215).toString(16).toUpperCase(), infoStyle);
         
