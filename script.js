@@ -178,8 +178,8 @@
         const infoStyle = "color: #00ff00; font-family: monospace; font-size: 12px;";
 
         console.log("%c🛑 WARNING: ACCESS IS RESTRICTED", warningStyle);
-        console.log("%c[SYS] Започнато проследяване на пакети към вашия IP...", infoStyle);
-        console.log("%c[SYS] Криптиращ ключ: 0x" + Math.floor(Math.random()*16777215).toString(16).toUpperCase(), infoStyle);
+        console.log("%c[SYS] Packet tracing started to your IP...", infoStyle);
+        console.log("%c[SYS] Encryption key: 0x" + Math.floor(Math.random()*16777215).toString(16).toUpperCase(), infoStyle);
         
         // Фалшив HoneyPot за хакери
         if (SEC_CONFIG.HONEYPOT_ENABLED) {
