@@ -502,82 +502,65 @@ const adenLine = L.polyline(adenPathCoords, {
         map.flyTo([data.lat, data.lon], 7);
     };
 
-   // --- СЕКЦИЯ 7: СИНХРОНИЗАЦИЯ И ТАКТИЧЕСКИ ДАННИ (FULL OPTIMIZED) ---
-function syncTacticalData() {
-    console.log("System: Scanning global sectors...");
-    fetch('conflicts.json?v=' + Date.now())
-        .then(res => res.json())
-        .then(data => {
-            if (!Array.isArray(data)) return;
-            
-            // Чистим старите слоеве, но запазваме структурата
-            markersLayer.clearLayers();
-            const sidebar = document.getElementById('intel-list');
-            if (sidebar) sidebar.innerHTML = '';
+    // --- СЕКЦИЯ 7: СИНХРОНИЗАЦИЯ И ТАКТИЧЕСКИ ДАННИ ---
+    function syncTacticalData() {
+        console.log("System: Scanning global sectors...");
+        fetch('conflicts.json?v=' + Date.now())
+            .then(res => res.json())
+            .then(data => {
+                if (!Array.isArray(data)) return;
+                markersLayer.clearLayers();
+                const sidebar = document.getElementById('intel-list');
+                if (sidebar) sidebar.innerHTML = '';
 
-            // Проверка за нови събития (Ping Audio)
-            if (data.length > 0 && data[0].title !== globalLastEventTitle) {
-                playTacticalPing();
-                globalLastEventTitle = data[0].title;
-            }
-
-           // --- НАЧАЛО НА ЗАМЯНАТА (Ред 525) ---
-                let severityLabel = item.severity || (item.critical ? 'critical' : 'normal');
-                
-                let pointColor = (severityLabel === 'critical') ? '#ff3131' : 
-                                 (severityLabel === 'middle') ? '#ff8c00' : '#00a2ff';
-                
-                let titleColor = (severityLabel === 'critical') ? '#ff3131' : 
-                                (severityLabel === 'middle') ? '#ff8c00' : '#39FF14';
-
-                const latJitter = (Math.random() - 0.5) * 0.018; 
-                const lonJitter = (Math.random() - 0.5) * 0.018;
-
-                // Важно: Тук махаме L.marker и слагаме L.circleMarker
-                const marker = L.circleMarker([parseFloat(item.lat) + latJitter, parseFloat(item.lon) + lonJitter], {
-                    radius: (severityLabel === 'critical') ? 8 : 6,
-                    fillColor: pointColor,
-                    color: '#ffffff',
-                    weight: 1,
-                    opacity: 1,
-                    fillOpacity: 0.8,
-                    interactive: true, // За да може да се клика!
-                    className: 'alert-pulse' 
-                }).addTo(markersLayer);
-                // --- КРАЙ НА ЗАМЯНАТА (Ред 550) ---
-
-                // Връзка с останалите функции (Search & Details)
-                marker.tacticalInfo = { 
-                    title: item.title.toLowerCase(), 
-                    type: item.type.toLowerCase() 
-                };
-                
-                // Важно: Клик събитието остава, за да работи Секция 8 (Details)
-                marker.on('click', () => showIntelDetails(item));
-
-                // Обновяване на страничния панел (Sidebar)
-                if (sidebar) {
-                    const entry = document.createElement('div');
-                    entry.className = 'intel-list-item';
-                    entry.setAttribute('data-search-key', item.title.toLowerCase() + " " + item.type.toLowerCase());
-                    entry.innerHTML = `
-                        <div style="border-left: 3px solid ${titleColor}; padding-left: 8px; margin-bottom: 5px;">
-                            <small style="color:#666;">[ID: ${Math.floor(Math.random() * 9000) + 1000}] - ${item.date}</small><br>
-                            <strong style="color:${titleColor}; text-transform: uppercase;">${item.title}</strong>
-                        </div>`;
-                    entry.onclick = () => showIntelDetails(item);
-                    sidebar.appendChild(entry);
+                if (data.length > 0 && data[0].title !== globalLastEventTitle) {
+                    playTacticalPing();
+                    globalLastEventTitle = data[0].title;
                 }
-            });
-            
-            // Тук приключва цикълът, без да пречи на следващите секции
-            console.log("System: Intel synchronization complete.");
-            
-        }).catch(err => {
-            console.error("Sync Error:", err);
-            // Продължаваме изпълнението дори при грешка в мрежата
-        });
-}
+
+                data.forEach(item => {
+                    let iconSymbol = '⚠️'; 
+                    if (item.type === "Nuclear" || item.type === "Airstrike") iconSymbol = '🚀';
+                    else if (item.type === "Drone") iconSymbol = '🛸';
+                    else if (item.type === "Evacuation") iconSymbol = '🚨';
+                    else if (item.type === "Clashes") iconSymbol = '⚔️';
+
+                    let severityLabel = item.severity || (item.critical ? 'critical' : 'normal');
+                    let statusFilter = (severityLabel === 'critical') ? "drop-shadow(0 0 12px #ff3131)" : 
+                                      (severityLabel === 'middle') ? "drop-shadow(0 0 10px #ff8c00) sepia(1)" : 
+                                      "drop-shadow(0 0 5px #00a2ff)";
+                    
+                    let titleColor = (severityLabel === 'critical') ? '#ff3131' : 
+                                    (severityLabel === 'middle') ? '#ff8c00' : '#39FF14';
+
+                    const latJitter = (Math.random() - 0.5) * 0.018; 
+                    const lonJitter = (Math.random() - 0.5) * 0.018;
+
+                    const marker = L.marker([parseFloat(item.lat) + latJitter, parseFloat(item.lon) + lonJitter], { 
+                        icon: L.divIcon({ 
+                            html: `<div class="alert-pulse tactical-marker" style="font-size:38px; filter: ${statusFilter};">${iconSymbol}</div>`, 
+                            iconSize: [45, 45] 
+                        }) 
+                    }).addTo(markersLayer);
+
+                    marker.tacticalInfo = { title: item.title.toLowerCase(), type: item.type.toLowerCase() };
+                    marker.on('click', () => showIntelDetails(item));
+
+                    if (sidebar) {
+                        const entry = document.createElement('div');
+                        entry.className = 'intel-list-item';
+                        entry.setAttribute('data-search-key', item.title.toLowerCase() + " " + item.type.toLowerCase());
+                        entry.innerHTML = `
+                            <div style="border-left: 3px solid ${titleColor}; padding-left: 8px; margin-bottom: 5px;">
+                                <small style="color:#666;">[ID: ${Math.floor(Math.random() * 9000) + 1000}] - ${item.date}</small><br>
+                                <strong style="color:${titleColor}; text-transform: uppercase;">${item.title}</strong>
+                            </div>`;
+                        entry.onclick = () => showIntelDetails(item);
+                        sidebar.appendChild(entry);
+                    }
+                });
+            }).catch(err => console.error("Sync Error:", err));
+    }
 
     // --- ЛОГИКА НА ТЪРСАЧКАТА ---
     const searchBar = document.getElementById('tactical-search');
