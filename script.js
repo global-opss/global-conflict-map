@@ -1379,48 +1379,47 @@ initializeMilitaryProtocol();
 // КРАЙ НА МОДУЛА. СЕГА САЙТЪТ Е НАПЪЛНО АДАПТИРАН ЗА AI ИНДЕКСИРАНЕ.
 // =============================================================================
 
-// =============================================================================
-// СЕКЦИЯ: CRITICAL ALARM MONITORING (RED ALERT SYSTEM)
-// =============================================================================
+let alarmAudio = new Audio('alert.mp3');
+alarmAudio.loop = true; // За да свири постоянно докато има аларма
 
 function checkCriticalAlerts() {
-    // Използваме timestamp, за да избегнем кеширането на браузъра
     fetch('critical_alerts.json?t=' + new Date().getTime())
-        .then(response => {
-            if (!response.ok) return []; // Ако файлът още не е създаден
-            return response.json();
-        })
+        .then(response => response.json())
         .then(alerts => {
             const body = document.body;
-            const alertBanner = document.getElementById('critical-alert-banner');
+            let banner = document.getElementById('critical-alert-banner');
 
             if (alerts && alerts.length > 0) {
-                // --- АКТИВИРАНЕ НА RED ALERT ---
-                body.style.boxShadow = "inset 0 0 100px rgba(255, 0, 0, 0.5)";
-                body.style.borderColor = "#ff0000";
+                // 1. Добавяме пулсиращия клас
+                body.classList.add('red-alert-active');
                 
-                // Ако нямаме банер, създаваме го динамично
-                if (!alertBanner) {
-                    const banner = document.createElement('div');
+                // 2. Пускаме звука (браузърът може да го блокира до първия клик на потребителя)
+                alarmAudio.play().catch(e => console.log("Audio waiting for user interaction"));
+
+                // 3. Показваме банера, ако го няма
+                if (!banner) {
+                    banner = document.createElement('div');
                     banner.id = 'critical-alert-banner';
-                    banner.innerHTML = `⚠️ CRITICAL NEWS DETECTED: ${alerts[0].title}`;
-                    banner.style = "position:fixed; top:0; width:100%; background:red; color:white; text-align:center; padding:10px; z-index:9999; font-weight:bold; font-family:monospace; border-bottom: 2px solid white;";
+                    banner.style = "position:fixed; top:0; width:100%; background:red; color:white; text-align:center; padding:15px; z-index:9999; font-weight:bold; font-family:monospace; font-size:1.2em; border-bottom:3px solid white; display:flex; justify-content:space-between; align-items:center;";
                     document.body.appendChild(banner);
                 }
                 
-                console.log("%c🛑 [OFFICER WATCH] RED ALERT ACTIVE!", "color: red; font-weight: bold; font-size: 16px;");
+                banner.innerHTML = `
+                    <span style="margin-left:20px;">🚨 CRITICAL: ${alerts[0].title}</span>
+                    <button onclick="stopAlarm()" style="margin-right:20px; background:white; color:red; border:none; padding:5px 15px; cursor:pointer; font-weight:bold; border-radius:3px;">MUTE & DISMISS</button>
+                `;
             } else {
-                // --- СИТУАЦИЯТА Е СПОКОЙНА ---
-                body.style.boxShadow = "none";
-                body.style.borderColor = ""; // Връща оригиналния цвят
-                if (alertBanner) alertBanner.remove();
+                stopAlarm(); // Спира всичко, ако няма аларми
             }
-        })
-        .catch(err => console.log("Waiting for officer_watch.py to generate first alert..."));
+        });
 }
 
-// ПУСКАНЕ: Проверява на всеки 30 секунди
-setInterval(checkCriticalAlerts, 30000);
+function stopAlarm() {
+    document.body.classList.remove('red-alert-active');
+    alarmAudio.pause();
+    alarmAudio.currentTime = 0;
+    const banner = document.getElementById('critical-alert-banner');
+    if (banner) banner.remove();
+}
 
-// Изпълняваме веднъж и при самото зареждане на сайта
-document.addEventListener('DOMContentLoaded', checkCriticalAlerts);
+setInterval(checkCriticalAlerts, 30000);
