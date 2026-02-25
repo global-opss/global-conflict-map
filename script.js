@@ -1027,43 +1027,41 @@ document.onkeydown = function(e) {
 
 console.log(">> SYSTEM: All Monitoring Modules are READY and ONLINE.");
 // ============================================================================
-// СЕКЦИЯ 10: ГЛОБАЛЕН ТАКТИЧЕСКИ ДВИГАТЕЛ ЗА АНИМАЦИЯ
+// СЕКЦИЯ: ГЛОБАЛНО CANVAS УПРАВЛЕНИЕ (ПОСЛЕДЕН ОПИТ)
 // ============================================================================
 /**
- * Този блок управлява пулсацията на всички морски пътища.
- * Използваме директен достъп до Canvas рендерера за максимална производителност.
+ * Тъй като Leaflet блокира индивидуалните промени по обектите в Canvas режим,
+ * ние ще анимираме самия контейнер, в който се рисуват линиите.
  */
 
-function startTacticalPulse() {
-    let tick = 0;
+function forceTacticalAnimation() {
+    // Намираме "платното" на Leaflet
+    const canvasContainer = document.querySelector('.leaflet-canvas-pane canvas');
     
-    // Използваме интервал, който работи независимо от другите процеси
-    setInterval(() => {
-        tick += 0.04; // Скорост на пулсиране
+    if (!canvasContainer) {
+        console.log("Търся Canvas слой...");
+        setTimeout(forceTacticalAnimation, 1000); // Пробвай пак след секунда
+        return;
+    }
+
+    let angle = 0;
+    
+    function animate() {
+        angle += 0.05;
+        // Генерираме плавна пулсация между 0.4 и 1.0
+        const opacityValue = 0.7 + Math.sin(angle) * 0.3;
         
-        // Математическа крива за плавно "дишане" (Opacity между 0.4 и 1.0)
-        const pulseVal = 0.7 + Math.sin(tick) * 0.3;
+        // Директно променяме CSS прозрачността на целия графичен слой
+        canvasContainer.style.opacity = opacityValue;
+        
+        // Използваме стандартния браузърен метод за анимация
+        requestAnimationFrame(animate);
+    }
 
-        // --- АНИМИРАНЕ НА ЧЕРВЕНАТА ЛИНИЯ ---
-        if (window.tripwireLine) {
-            window.tripwireLine.setStyle({ opacity: pulseVal });
-            if (window.tripwireLine.redraw) window.tripwireLine.redraw();
-        }
-
-        // --- АНИМИРАНЕ НА СИНЯТА ЛИНИЯ ---
-        // Добавяме малко закъснение в синусоидата (tick + 0.5), за да изглежда по-естествено
-        if (window.adenLine) {
-            const bluePulse = 0.6 + Math.sin(tick + 0.5) * 0.4;
-            window.adenLine.setStyle({ opacity: bluePulse });
-            if (window.adenLine.redraw) window.adenLine.redraw();
-        }
-    }, 40); // 25 кадъра в секунда - идеално за слаби машини
+    console.log("Canvas Animation Engine: ACTIVE");
+    animate();
 }
 
-// Стартираме с леко закъснение, за да сме сигурни, че Leaflet е готов
-setTimeout(() => {
-    console.log("Tactical Pulse Engine: Initiating...");
-    startTacticalPulse();
-}, 1500);
-
+// Стартиране
+forceTacticalAnimation();
 // ============================================================================
