@@ -537,11 +537,13 @@ const adenLine = L.polyline(adenPathCoords, {
                     const lonJitter = (Math.random() - 0.5) * 0.018;
 
                     const marker = L.marker([parseFloat(item.lat) + latJitter, parseFloat(item.lon) + lonJitter], { 
-                        icon: L.divIcon({ 
-                            html: `<div class="alert-pulse tactical-marker" style="font-size:38px; filter: ${statusFilter};">${iconSymbol}</div>`, 
-                            iconSize: [45, 45] 
-                        }) 
-                    }).addTo(markersLayer);
+    icon: L.divIcon({ 
+        // Премахваме iconSymbol и слагаме само една червена точка
+        html: `<div class="alert-pulse" style="width:12px; height:12px; background:${pointColor}; border-radius:50%; border:1px solid #fff; box-shadow: 0 0 5px ${pointColor};"></div>`, 
+        iconSize: [12, 12],
+        className: '' // Изчистваме дефолтните класове на Leaflet
+    }) 
+}).addTo(markersLayer);
 
                     marker.tacticalInfo = { title: item.title.toLowerCase(), type: item.type.toLowerCase() };
                     marker.on('click', () => showIntelDetails(item));
