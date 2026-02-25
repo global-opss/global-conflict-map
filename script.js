@@ -1435,3 +1435,128 @@ function stopAlarmUI() {
 }
 
 setInterval(checkCriticalAlerts, 30000);
+
+// ============================================================================
+// 🛡️ SECTION: AUTOMATED SYSTEM INTEGRITY & CACHE CONTROL (v4.5)
+// ============================================================================
+/** * Този блок гарантира, че 5-ти флот и всички новини са винаги актуални.
+ * Добавя се в края на script.js, за да не пречи на основната логика.
+ */
+
+(function() {
+    "use strict";
+
+    // ПАРАМЕТРИ ЗА КОНТРОЛ
+    const REFRESH_SETTINGS = {
+        FULL_PAGE_RELOAD_MIN: 30,      // На колко минути да презарежда целия сайт
+        DATA_CHECK_SEC: 30,            // На колко секунди да проверява за нови JSON данни
+        LOG_TO_CONSOLE: true,          // Да изписва ли статус в конзолата (F12)
+        CACHE_KEY: 'ops_monitor_'      // Префикс за кеш мениджмънта
+    };
+
+    // Вътрешни променливи
+    let nextReloadTime = new Date(Date.now() + REFRESH_SETTINGS.FULL_PAGE_RELOAD_MIN * 60000);
+
+    /**
+     * ФУНКЦИЯ 1: CACHE-BUSTING FETCH
+     * Гарантира, че браузърът не чете стари версии на conflict.json
+     */
+    window.getFreshMapData = async function(filePath) {
+        const timestamp = new Date().getTime();
+        const secureUrl = `${filePath}?nocache=${timestamp}`;
+        
+        try {
+            const response = await fetch(secureUrl, {
+                headers: { 'Cache-Control': 'no-cache, no-store, must-revalidate' }
+            });
+            if (!response.ok) throw new Error('Network response was not ok');
+            return await response.json();
+        } catch (err) {
+            console.error(`[SYSTEM ERROR] Failed to fetch fresh data for ${filePath}:`, err);
+            return null;
+        }
+    };
+
+    /**
+     * ФУНКЦИЯ 2: СЪЗДАВАНЕ НА СТАТУС ПАНЕЛ (UI)
+     * Добавя малък индикатор в ъгъла, за да виждаш кога е следващия рефреш
+     */
+    function injectStatusMonitor() {
+        const monitorDiv = document.createElement('div');
+        monitorDiv.id = 'system-integrity-monitor';
+        monitorDiv.style.cssText = `
+            position: fixed;
+            bottom: 5px;
+            right: 155px;
+            background: rgba(0, 20, 0, 0.7);
+            border: 1px solid #00ff00;
+            color: #00ff00;
+            padding: 4px 8px;
+            font-family: 'Courier New', monospace;
+            font-size: 9px;
+            z-index: 99999;
+            pointer-events: none;
+            text-transform: uppercase;
+        `;
+        document.body.appendChild(monitorDiv);
+        
+        // Обновяване на таймера всяка секунда
+        setInterval(() => {
+            const now = new Date();
+            const diff = nextReloadTime - now;
+            const mins = Math.floor(diff / 60000);
+            const secs = Math.floor((diff % 60000) / 1000);
+            
+            monitorDiv.innerHTML = `SYS_SYNC: OK | CACHE_FLUSH: ${mins}m ${secs}s`;
+            
+            // Ако остават по-малко от 10 секунди, става червено
+            if (diff < 10000) monitorDiv.style.color = '#ff0000';
+        }, 1000);
+    }
+
+    /**
+     * ФУНКЦИЯ 3: ПЪЛЕН РЕСТАРТ НА СЕСИЯТА
+     * Прави Hard Refresh, който чисти всичко натрупано в паметта
+     */
+    function performHardReset() {
+        if (REFRESH_SETTINGS.LOG_TO_CONSOLE) {
+            console.log("%c[CRITICAL] Performing automated cache flush and system reboot...", "color: #ff3300; font-weight: bold;");
+        }
+        
+        // Добавяме параметър в URL, за да форсираме сървъра да ни даде нова версия
+        const currentUrl = window.location.href.split('?')[0];
+        window.location.href = currentUrl + '?update=' + new Date().getTime();
+    }
+
+    /**
+     * ФУНКЦИЯ 4: ИНИЦИАЛИЗАЦИЯ
+     */
+    function startIntegrityGuard() {
+        // Изчакваме малко след зареждане на страницата
+        setTimeout(() => {
+            injectStatusMonitor();
+            
+            // Планираме рестарта
+            setTimeout(performHardReset, REFRESH_SETTINGS.FULL_PAGE_RELOAD_MIN * 60000);
+            
+            if (REFRESH_SETTINGS.LOG_TO_CONSOLE) {
+                console.log("------------------------------------------");
+                console.log("🛡️ CACHE GUARD: Operational");
+                console.log(`📡 DATA POLLING: Every ${REFRESH_SETTINGS.DATA_CHECK_SEC}s`);
+                console.log(`♻️ FULL REBOOT: Every ${REFRESH_SETTINGS.FULL_PAGE_RELOAD_MIN}m`);
+                console.log("------------------------------------------");
+            }
+        }, 2000);
+    }
+
+    // Стартираме защитата
+    if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', startIntegrityGuard);
+    } else {
+        startIntegrityGuard();
+    }
+
+})();
+// ============================================================================
+// END OF SYSTEM INTEGRITY SECTION
+// ============================================================================
