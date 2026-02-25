@@ -536,8 +536,8 @@ function syncTacticalData() {
                                 (severityLabel === 'middle') ? '#ff8c00' : '#39FF14';
 
                 // Позициониране (Jitter)
-                const latJitter = (Math.random() - 0.5) * 0.018; 
-                const lonJitter = (Math.random() - 0.5) * 0.018;
+                const latJitter = (Math.random() - 0.5) * 0.55; 
+                const lonJitter = (Math.random() - 0.5) * 0.45;
                 const finalLat = parseFloat(item.lat) + latJitter;
                 const finalLon = parseFloat(item.lon) + lonJitter;
 
