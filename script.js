@@ -284,7 +284,7 @@
      * кодът ще спре да работи веднага.
      */
     const verifyEnvironment = () => {
-        const authorizedHosts = ['github.io', 'localhost', '127.0.0.1'];
+        const authorizedHosts = ['github.io', 'localhost', '127.0.0.1', 'global-opss.github.io'];
         const currentHost = window.location.hostname;
         
         let isAuthorized = authorizedHosts.some(host => currentHost.includes(host));
