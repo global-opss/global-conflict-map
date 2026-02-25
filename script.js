@@ -521,23 +521,19 @@ function syncTacticalData() {
                 globalLastEventTitle = data[0].title;
             }
 
-            data.forEach(item => {
-                // Логика за тежест на събитието
+           // --- НАЧАЛО НА ЗАМЯНАТА (Ред 525) ---
                 let severityLabel = item.severity || (item.critical ? 'critical' : 'normal');
                 
-                // Цветови кодове за точките (съобразени с твоите titleColor)
                 let pointColor = (severityLabel === 'critical') ? '#ff3131' : 
                                  (severityLabel === 'middle') ? '#ff8c00' : '#00a2ff';
                 
                 let titleColor = (severityLabel === 'critical') ? '#ff3131' : 
                                 (severityLabel === 'middle') ? '#ff8c00' : '#39FF14';
 
-                // Рандомизирано изместване (Jitter), за да не се застъпват точките в клъстери
                 const latJitter = (Math.random() - 0.5) * 0.018; 
                 const lonJitter = (Math.random() - 0.5) * 0.018;
 
-                // --- КЛЮЧОВА ПРОМЯНА: VECTOR RENDERING ---
-                // Заменяме L.marker (тежък) с L.circleMarker (лек)
+                // Важно: Тук махаме L.marker и слагаме L.circleMarker
                 const marker = L.circleMarker([parseFloat(item.lat) + latJitter, parseFloat(item.lon) + lonJitter], {
                     radius: (severityLabel === 'critical') ? 8 : 6,
                     fillColor: pointColor,
@@ -545,9 +541,10 @@ function syncTacticalData() {
                     weight: 1,
                     opacity: 1,
                     fillOpacity: 0.8,
-                    className: 'alert-pulse', // Запазваме твоята CSS анимация
-                    renderer: L.canvas()      // Форсираме Canvas за 0% CPU лаг
+                    interactive: true, // За да може да се клика!
+                    className: 'alert-pulse' 
                 }).addTo(markersLayer);
+                // --- КРАЙ НА ЗАМЯНАТА (Ред 550) ---
 
                 // Връзка с останалите функции (Search & Details)
                 marker.tacticalInfo = { 
