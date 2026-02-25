@@ -1210,3 +1210,70 @@ function broadcastToBots(eventData) {
 // =============================================================================
 // КРАЙ НА СЕКЦИЯТА ЗА БОТОВЕ
 // =============================================================================
+
+// =============================================================================
+// СЕКЦИЯ: REAL-TIME TERMINAL & BOT BROADCASTER
+// Описание: Свързва конзолните логове със заглавието на таба и AI ботовете.
+// =============================================================================
+
+/**
+ * Основна функция за визуален и системен алармен режим.
+ * Прави така, че заглавието на таба да "диша" с последните събития.
+ */
+function pushIntelToInterface(message, isCritical = false) {
+    const tabTitle = document.title;
+    const alertEmoji = isCritical ? "🚨" : "📡";
+    
+    // 1. Промяна на заглавието на таба (това, което Grok вижда първо)
+    document.title = `${alertEmoji} ${message.toUpperCase()} | Global Conflict Terminal`;
+
+    // 2. Инжектиране в черния терминал "LIVE INTEL UPDATE"
+    const intelTerminal = document.getElementById('live-intel-feed'); // Провери дали ID-то съвпада
+    if (intelTerminal) {
+        const timestamp = new Date().toLocaleTimeString();
+        const newEntry = document.createElement('div');
+        newEntry.style.color = isCritical ? '#ff4444' : '#00ff00';
+        newEntry.style.marginBottom = '5px';
+        newEntry.innerHTML = `[${timestamp}] > ${message}`;
+        intelTerminal.prepend(newEntry); // Най-новите излизат най-отгоре
+    }
+
+    // 3. Изпращане към AI схемата
+    if (typeof broadcastToBots === "function" && isCritical) {
+        broadcastToBots({
+            name: message,
+            lat: 26.8510,
+            lon: 51.6520, // Координатите на флота, които потвърдихме
+            description: "Automated alert triggered by system movement."
+        });
+    }
+}
+
+/**
+ * Симулира поток от данни, за да изглежда терминалът "жив" за ботовете.
+ */
+function startLiveBotBait() {
+    const logs = [
+        "Scanning Persian Gulf sectors...",
+        "Satellite uplink stable: 251MB memory load", // Вижда се на снимката ти
+        "Tracking US 5th Fleet movement...",
+        "Signal encrypted: AES-256",
+        "Operator identified: Bulgaria"
+    ];
+
+    let i = 0;
+    setInterval(() => {
+        pushIntelToInterface(logs[i % logs.length], false);
+        i++;
+    }, 15000); // На всеки 15 секунди "храним" ботовете с ново заглавие
+}
+
+// Стартиране на процеса
+startLiveBotBait();
+
+// ПРИМЕР: Когато 5-ти флот се движи, извикваш това ръчно:
+// pushIntelToInterface("5TH FLEET SORTIE DETECTED", true);
+
+// =============================================================================
+// КРАЙ НА СЕКЦИЯТА: ТЕРМИНАЛЕН МОДУЛ
+// =============================================================================
