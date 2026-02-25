@@ -1,6 +1,20 @@
 [
     {
         "country": "Israel",
+        "city": "Tel aviv",
+        "lat": 32.07190648494146,
+        "lon": 34.723067680294314,
+        "date": "2026-02-25 00:28:34",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Israel begins bidding for $50 billion Tel Aviv metro project, with sights set on 2037",
+        "description": "The metro, as envisioned, will complement the city's light rail system, and is slated to comprise three lines covering roughly 150 kilometers across the greater Tel Aviv area\nThe post Israel begins bidding for $50 billion Tel Aviv metro project, with sights set on 2037 appeared first on The Times of Israel.",
+        "fatalities": "0",
+        "link": "https://www.timesofisrael.com/israel-begins-bidding-for-50-billion-tel-aviv-metro-project-with-sights-set-on-2037/",
+        "critical": false
+    },
+    {
+        "country": "Israel",
         "city": "Tel Aviv",
         "lat": 32.11672147097587,
         "lon": 34.73842906971079,
