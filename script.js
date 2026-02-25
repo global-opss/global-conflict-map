@@ -1027,41 +1027,45 @@ document.onkeydown = function(e) {
 
 console.log(">> SYSTEM: All Monitoring Modules are READY and ONLINE.");
 // ============================================================================
-// СЕКЦИЯ: ГЛОБАЛНО CANVAS УПРАВЛЕНИЕ (ПОСЛЕДЕН ОПИТ)
+// СЕКЦИЯ 20: УНИВЕРСАЛЕН CANVAS ДВИГАТЕЛ (HARDCORE MODE)
 // ============================================================================
 /**
- * Тъй като Leaflet блокира индивидуалните промени по обектите в Canvas режим,
- * ние ще анимираме самия контейнер, в който се рисуват линиите.
+ * Този скрипт не търси конкретни линии, а директно контролира графичния слой
+ * на Leaflet. Това е единственият начин да върнем пулсацията в Canvas режим.
  */
 
-function forceTacticalAnimation() {
-    // Намираме "платното" на Leaflet
-    const canvasContainer = document.querySelector('.leaflet-canvas-pane canvas');
+function initiateMasterPulse() {
+    // Търсим всеки Canvas елемент, който Leaflet е създал вътре в картата
+    const allCanvases = document.querySelectorAll('#map canvas');
     
-    if (!canvasContainer) {
-        console.log("Търся Canvas слой...");
-        setTimeout(forceTacticalAnimation, 1000); // Пробвай пак след секунда
+    if (allCanvases.length === 0) {
+        // Ако още не е заредил, чакаме половин секунда и пак опитваме
+        setTimeout(initiateMasterPulse, 500);
         return;
     }
 
-    let angle = 0;
-    
-    function animate() {
-        angle += 0.05;
-        // Генерираме плавна пулсация между 0.4 и 1.0
-        const opacityValue = 0.7 + Math.sin(angle) * 0.3;
+    console.log("Намерени слоеве за анимация:", allCanvases.length);
+
+    let pulseAngle = 0;
+    function heartBeat() {
+        pulseAngle += 0.04; // Скорост на дишане
         
-        // Директно променяме CSS прозрачността на целия графичен слой
-        canvasContainer.style.opacity = opacityValue;
-        
-        // Използваме стандартния браузърен метод за анимация
-        requestAnimationFrame(animate);
+        // Пулсация между 0.4 (бледо) и 1.0 (ярко)
+        const currentOpacity = 0.7 + Math.sin(pulseAngle) * 0.3;
+
+        // Прилагаме ефекта върху ВСИЧКИ графични платна на картата
+        allCanvases.forEach(canvas => {
+            canvas.style.opacity = currentOpacity;
+            // Добавяме и лек филтър за "glow" ефект, ако браузърът е мощен
+            canvas.style.filter = `drop-shadow(0 0 5px rgba(255,0,0,${currentOpacity * 0.5}))`;
+        });
+
+        requestAnimationFrame(heartBeat);
     }
 
-    console.log("Canvas Animation Engine: ACTIVE");
-    animate();
+    heartBeat();
 }
 
-// Стартиране
-forceTacticalAnimation();
+// Стартиране на процеса
+initiateMasterPulse();
 // ============================================================================
