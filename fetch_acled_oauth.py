@@ -8,7 +8,8 @@ ALARM_SOURCES = [
     "https://www.militarytimes.com/arc/outboundfeeds/rss/category/flashpoints/?outputType=xml",
     "https://www.defensenews.com/arc/outboundfeeds/rss/category/global/?outputType=xml",
     "https://www.longwarjournal.org/feed",
-    "https://www.janes.com/rss"
+    "https://www.janes.com/rss",
+    "https://www.nato.int/cps/en/natolive/rss.xml"
 ]
 
 # КЛЮЧОВИ ДУМИ ЗА МОМЕНТАЛНА АЛАРМА
