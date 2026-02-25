@@ -1026,3 +1026,35 @@ document.onkeydown = function(e) {
 };
 
 console.log(">> SYSTEM: All Monitoring Modules are READY and ONLINE.");
+// ============================================================================
+// СЕКЦИЯ: ДИНАМИЧНА ТАКТИЧЕСКА ПУЛСАЦИЯ (CANVAS OPTIMIZED)
+// ============================================================================
+// Тъй като ползваме preferCanvas, трябва да анимираме през JS, а не през CSS.
+
+let step = 0;
+const pulseSpeed = 0.04; // Скорост на пулсацията
+
+function animateTacticalLines() {
+    step += pulseSpeed;
+    
+    // Изчисляваме новата прозрачност (синусоидална вълна между 0.4 и 1.0)
+    // Това създава плавен "дишащ" ефект
+    const opacity = 0.6 + Math.sin(step) * 0.4;
+
+    // Прилагаме прозрачността към двете главни линии
+    if (typeof tripwireLine !== 'undefined') {
+        tripwireLine.setStyle({ opacity: opacity });
+    }
+    
+    if (typeof adenLine !== 'undefined') {
+        adenLine.setStyle({ opacity: opacity - 0.1 }); // Малко по-бледа за баланс
+    }
+
+    // Използваме requestAnimationFrame за 60 FPS плавност без товар на CPU
+    requestAnimationFrame(animateTacticalLines);
+}
+
+// Стартираме анимацията веднага след зареждане
+animateTacticalLines();
+
+// ============================================================================
