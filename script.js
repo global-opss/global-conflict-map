@@ -1380,23 +1380,27 @@ initializeMilitaryProtocol();
 // =============================================================================
 
 let alarmAudio = new Audio('alert.mp3');
-alarmAudio.loop = true; // За да свири постоянно докато има аларма
+alarmAudio.loop = true;
+let lastDismissedId = null; // Тук ще пазим последната спряна аларма
 
 function checkCriticalAlerts() {
     fetch('critical_alerts.json?t=' + new Date().getTime())
         .then(response => response.json())
         .then(alerts => {
-            const body = document.body;
-            let banner = document.getElementById('critical-alert-banner');
-
             if (alerts && alerts.length > 0) {
-                // 1. Добавяме пулсиращия клас
-                body.classList.add('red-alert-active');
-                
-                // 2. Пускаме звука (браузърът може да го блокира до първия клик на потребителя)
-                alarmAudio.play().catch(e => console.log("Audio waiting for user interaction"));
+                const currentAlert = alerts[0];
 
-                // 3. Показваме банера, ако го няма
+                // ПРОВЕРКА: Ако това е същата аларма, която току-що спряхме - не прави нищо
+                if (currentAlert.id === lastDismissedId) {
+                    return; 
+                }
+
+                const body = document.body;
+                let banner = document.getElementById('critical-alert-banner');
+
+                body.classList.add('red-alert-active');
+                alarmAudio.play().catch(e => {});
+
                 if (!banner) {
                     banner = document.createElement('div');
                     banner.id = 'critical-alert-banner';
@@ -1405,16 +1409,24 @@ function checkCriticalAlerts() {
                 }
                 
                 banner.innerHTML = `
-                    <span style="margin-left:20px;">🚨 CRITICAL: ${alerts[0].title}</span>
-                    <button onclick="stopAlarm()" style="margin-right:20px; background:white; color:red; border:none; padding:5px 15px; cursor:pointer; font-weight:bold; border-radius:3px;">MUTE & DISMISS</button>
+                    <span style="margin-left:20px;">🚨 CRITICAL: ${currentAlert.title}</span>
+                    <button onclick="dismissAlert('${currentAlert.id}')" style="margin-right:20px; background:white; color:red; border:none; padding:5px 15px; cursor:pointer; font-weight:bold; border-radius:3px;">ACKNOWLEDGE & MUTE</button>
                 `;
             } else {
-                stopAlarm(); // Спира всичко, ако няма аларми
+                // Ако файлът е празен, нулираме паметта за последната аларма
+                lastDismissedId = null;
+                stopAlarmUI();
             }
         });
 }
 
-function stopAlarm() {
+// Нова функция за "интелигентно" спиране
+function dismissAlert(alertId) {
+    lastDismissedId = alertId; // Запомни, че тази вече не я искаме
+    stopAlarmUI();
+}
+
+function stopAlarmUI() {
     document.body.classList.remove('red-alert-active');
     alarmAudio.pause();
     alarmAudio.currentTime = 0;
