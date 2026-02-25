@@ -1027,35 +1027,36 @@ document.onkeydown = function(e) {
 
 console.log(">> SYSTEM: All Monitoring Modules are READY and ONLINE.");
 // ============================================================================
-// СЕКЦИЯ: ФОРСИРАНА ТАКТИЧЕСКА ПУЛСАЦИЯ (CANVAS FIX)
+// СЕКЦИЯ: ГАРАНТИРАНА ТАКТИЧЕСКА ПУЛСАЦИЯ (FORCED REDRAW)
 // ============================================================================
 
-let tacticalStep = 0;
-const tacticalPulseSpeed = 0.04;
+let pulseTick = 0;
 
-function runTacticalPulse() {
-    tacticalStep += tacticalPulseSpeed;
+// Използваме Интервал за по-стабилно изпълнение при Canvas слоеве
+setInterval(() => {
+    pulseTick += 0.05; // Скорост на "дишане"
     
-    // Плавна вълна за прозрачност
-    const newOpacity = 0.5 + Math.sin(tacticalStep) * 0.45;
+    // Генерираме стойност за прозрачност между 0.3 и 1.0
+    const dynamicOpacity = 0.5 + Math.sin(pulseTick) * 0.4;
 
-    // Анимиране на Tripwire (Червена)
+    // 1. Анимиране на Червената линия (Tripwire)
     if (typeof tripwireLine !== 'undefined' && map.hasLayer(tripwireLine)) {
-        tripwireLine.setStyle({ opacity: newOpacity });
-        // ФОРСИРАНЕ: Принуждаваме Canvas да прерисува линията веднага
-        if (tripwireLine._renderer) { tripwireLine._renderer._update(); }
+        tripwireLine.setStyle({
+            opacity: dynamicOpacity
+        });
+        // Ако ползваме Canvas, трябва изрично да кажем на обекта да се прерисува
+        if (tripwireLine.redraw) tripwireLine.redraw();
     }
 
-    // Анимиране на Aden Path (Синя)
+    // 2. Анимиране на Синята линия (Aden Path)
     if (typeof adenLine !== 'undefined' && map.hasLayer(adenLine)) {
-        const blueOpacity = 0.4 + Math.sin(tacticalStep + 0.5) * 0.5;
-        adenLine.setStyle({ opacity: blueOpacity });
-        // ФОРСИРАНЕ: Същото и за синята линия
-        if (adenLine._renderer) { adenLine._renderer._update(); }
+        // Леко отместване на фазата (+0.8), за да не пулсират едновременно
+        const adenOpacity = 0.5 + Math.sin(pulseTick + 0.8) * 0.4;
+        adenLine.setStyle({
+            opacity: adenOpacity
+        });
+        if (adenLine.redraw) adenLine.redraw();
     }
+}, 50); // Изпълнява се на всеки 50 милисекунди (около 20 кадъра в секунда)
 
-    requestAnimationFrame(runTacticalPulse);
-}
-
-// Стартиране след малко закъснение за стабилност
-setTimeout(runTacticalPulse, 1000);
+// ============================================================================
