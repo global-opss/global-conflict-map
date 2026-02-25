@@ -1,4 +1,122 @@
 /**
+ * ============================================================================
+ * 🛡️ MASTER SYSTEM WATCHDOG & ERROR RECOVERY SUITE
+ * Position: TOP OF SCRIPT.JS (Line 1)
+ * ============================================================================
+ * Този модул е първата линия на защита. Той следи за стабилността на всички
+ * 1500+ реда код и гарантира, че сайтът няма да "умре" сам, докато Шефът спи.
+ */
+
+(function() {
+    "use strict";
+
+    // ПАРАМЕТРИ ЗА СИГУРНОСТ
+    const WATCHDOG_CONFIG = {
+        MAX_RETRY_ATTEMPTS: 3,
+        RECOVERY_DELAY: 2000,
+        LOG_STYLE: "background: #800000; color: #ffffff; font-weight: bold; padding: 2px 5px; border-radius: 3px;",
+        CRITICAL_ERRORS: [
+            "Script error",
+            "out of memory",
+            "is not defined",
+            "Cannot read property",
+            "Leaflet not found"
+        ]
+    };
+
+    let errorCount = 0;
+
+    /**
+     * 1. ГЛОБАЛЕН ПРИХВАЩАЧ НА ГРЕШКИ
+     * Следи за всяка запетайка, скоба или логическа грешка в целия скрипт.
+     */
+    window.onerror = function(message, source, lineno, colno, error) {
+        errorCount++;
+        
+        const errorDetail = {
+            msg: message,
+            line: lineno,
+            file: source ? source.split('/').pop() : "unknown"
+        };
+
+        console.log(`%c[WATCHDOG ALERT]`, WATCHDOG_CONFIG.LOG_STYLE, `Error in ${errorDetail.file} at line ${errorDetail.line}: ${errorDetail.msg}`);
+
+        // Проверка дали грешката е критична
+        const isCritical = WATCHDOG_CONFIG.CRITICAL_ERRORS.some(err => message.includes(err));
+
+        if (isCritical || errorCount > 10) {
+            console.warn("🛡️ Сривът е сериозен! Инициирам авариен рестарт за изчистване на паметта...");
+            
+            // Записваме инцидента в sessionStorage, за да знаем след рестарта, че е имало проблем
+            sessionStorage.setItem('last_crash_report', JSON.stringify(errorDetail));
+            
+            // Авариен рестарт
+            setTimeout(() => {
+                window.location.reload(true);
+            }, WATCHDOG_CONFIG.RECOVERY_DELAY);
+        }
+
+        // Връщаме true, за да потиснем стандартното изскачащо съобщение на браузъра
+        return true;
+    };
+
+    /**
+     * 2. МОНИТОРИНГ НА НЕОБРАБОТЕНИ ОБЕЩАНИЯ (Async/Await Protection)
+     * Ако някой fetch (например към conflict.json) увисне, това ще го хване.
+     */
+    window.onunhandledrejection = function(event) {
+        console.warn("%c[ASYNC GUARD]", "color: orange;", "Засечен увиснал процес (Promise):", event.reason);
+        // Не рестартираме веднага, само логваме, освен ако не е фатално
+    };
+
+    /**
+     * 3. ПРОВЕРКА ЗА ЖИЗНЕНОСТ (LIVENESS PROBE)
+     * Тази функция се върти в бекграунда и проверява дали картата е все още "жива".
+     */
+    function performLivenessCheck() {
+        // Проверяваме дали Leaflet обекта (L) съществува
+        if (typeof L === 'undefined') {
+            console.error("❌ КРИТИЧНО: Картата (Leaflet) е изчезнала от паметта!");
+            window.location.reload();
+            return;
+        }
+
+        // Проверяваме за Memory Pressure (само за Chrome/Edge)
+        if (performance && performance.memory) {
+            const memoryLimit = performance.memory.jsHeapSizeLimit;
+            const currentMemory = performance.memory.usedJSHeapSize;
+            
+            if (currentMemory > memoryLimit * 0.9) {
+                console.error("❌ ПРЕДУПРЕЖДЕНИЕ: Паметта е почти пълна (90%+). Чистя кеша...");
+                window.location.reload();
+            }
+        }
+    }
+
+    // Стартираме проверката на всеки 60 секунди
+    setInterval(performLivenessCheck, 60000);
+
+    /**
+     * 4. ПЪРВОНАЧАЛЕН ОТЧЕТ ПРИ ЗАРЕЖДАНЕ
+     */
+    document.addEventListener('DOMContentLoaded', () => {
+        const lastCrash = sessionStorage.getItem('last_crash_report');
+        if (lastCrash) {
+            const data = JSON.parse(lastCrash);
+            console.log("%c[RECOVERY SYSTEM]", "color: #00ff00;", `Системата се възстанови успешно след грешка на ред ${data.line}.`);
+            sessionStorage.removeItem('last_crash_report');
+        }
+        
+        console.log("%c[MASTER GUARD ONLINE]", "color: #00ff00; font-size: 12px; font-weight: bold; border: 1px solid #00ff00; padding: 5px;");
+    });
+
+})();
+
+// ============================================================================
+// END OF MASTER WATCHDOG - CONTINUING WITH MAIN SCRIPT...
+// ============================================================================
+
+/**
  * =============================================================================
  * GLOBAL CONFLICT DASHBOARD v12.9 - HARDENED BUILD
  * =============================================================================
