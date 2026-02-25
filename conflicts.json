@@ -868,20 +868,6 @@
         "critical": true
     },
     {
-        "country": "Ukraine",
-        "city": "Kyiv",
-        "lat": 50.48579783325754,
-        "lon": 30.46527219173071,
-        "date": "2026-02-25 17:41:52",
-        "type": "Clashes",
-        "severity": "middle",
-        "title": "Same War, Different Message: Trump Tonight vs. Biden Four Years Ago",
-        "description": "President Trump issued no statement in support of Ukraine on the anniversary of the Russian invasion, four years after his predecessor laid out the stakes.",
-        "fatalities": "0",
-        "link": "https://www.nytimes.com/2026/02/24/us/politics/biden-trump-ukraine-russia.html",
-        "critical": false
-    },
-    {
         "country": "USA",
         "city": "Washington",
         "lat": 38.880250270041714,
@@ -977,6 +963,20 @@
         "description": "Rights advocates say US envoy Mike Huckabee has failed to push for accountability for Israeli abuses against Americans.",
         "fatalities": "0",
         "link": "https://www.aljazeera.com/news/2026/2/25/calls-for-justice-grow-after-israeli-settlers-kill-another-us-citizen?traffic_source=rss",
+        "critical": false
+    },
+    {
+        "country": "Ukraine",
+        "city": "Kyiv",
+        "lat": 50.48579783325754,
+        "lon": 30.46527219173071,
+        "date": "2026-02-25 17:41:52",
+        "type": "Clashes",
+        "severity": "middle",
+        "title": "Same War, Different Message: Trump Tonight vs. Biden Four Years Ago",
+        "description": "President Trump issued no statement in support of Ukraine on the anniversary of the Russian invasion, four years after his predecessor laid out the stakes.",
+        "fatalities": "0",
+        "link": "https://www.nytimes.com/2026/02/24/us/politics/biden-trump-ukraine-russia.html",
         "critical": false
     },
     {
