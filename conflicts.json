@@ -2,6 +2,76 @@
     {
         "country": "Israel",
         "city": "Tel Aviv",
+        "lat": 32.064540157377934,
+        "lon": 34.775269543512984,
+        "date": "2026-02-25 20:07:40",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Former US Treasury chief Larry Summers quits Harvard over Epstein ties",
+        "description": "Summers, who also previously served as Harvard's president, was revealed in the Epstein files to have had extensive exchanges with the convicted sex offender\nThe post Former US Treasury chief Larry Summers quits Harvard over Epstein ties appeared first on The Times of Israel.",
+        "fatalities": "0",
+        "link": "https://www.timesofisrael.com/former-us-treasury-chief-larry-summers-quits-harvard-over-epstein-ties/",
+        "critical": false
+    },
+    {
+        "country": "Iran",
+        "city": "Tehran",
+        "lat": 35.75439431540174,
+        "lon": 51.39701760751539,
+        "date": "2026-02-25 20:07:22",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Trump keeps world waiting on his plans for Iran after State of the Union",
+        "description": "The next round of talks between the US and Iran in Geneva on Thursday could be decisive in the president's decision-making.",
+        "fatalities": "0",
+        "link": "https://www.bbc.com/news/articles/cge821xwyz8o?at_medium=RSS&at_campaign=rss",
+        "critical": false
+    },
+    {
+        "country": "Africa",
+        "city": "Khartoum",
+        "lat": 15.43977996987346,
+        "lon": 32.59495833164679,
+        "date": "2026-02-25 20:07:22",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Pope Leo to visit four African countries in April",
+        "description": "This is the first time that a pope will visit Algeria, whose population is mostly Muslim.",
+        "fatalities": "0",
+        "link": "https://www.bbc.com/news/articles/cvg1vdgl3ymo?at_medium=RSS&at_campaign=rss",
+        "critical": false
+    },
+    {
+        "country": "Russia",
+        "city": "Moscow",
+        "lat": 55.80516184608304,
+        "lon": 37.67993414883426,
+        "date": "2026-02-25 20:07:22",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Russia considers fuel support for Cuba as Canada pledges food aid",
+        "description": "A US-imposed fuel embargo has threatened to spark a humanitarian crisis in Cuba, whose energy grid relies on fossil fuel",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/news/2026/2/25/russia-considers-fuel-support-for-cuba-as-canada-pledges-food-aid?traffic_source=rss",
+        "critical": false
+    },
+    {
+        "country": "Israel",
+        "city": "Tel Aviv",
+        "lat": 32.08657284207768,
+        "lon": 34.74283924190765,
+        "date": "2026-02-25 20:07:20",
+        "type": "Clashes",
+        "severity": "middle",
+        "title": "U.S. Will Offer Embassy Services in a West Bank Settlement for the First Time",
+        "description": "Palestinians and Israelis on the right and left all say that the move is a major step toward legitimizing the Israeli settlements, which most of the world considers illegal.",
+        "fatalities": "0",
+        "link": "https://www.nytimes.com/2026/02/25/world/middleeast/us-consular-services-israeli-settlements.html",
+        "critical": false
+    },
+    {
+        "country": "Israel",
+        "city": "Tel Aviv",
         "lat": 32.05406812317325,
         "lon": 34.850884586189274,
         "date": "2026-02-25 18:48:28",
@@ -406,34 +476,6 @@
         "critical": false
     },
     {
-        "country": "USA",
-        "city": "Washington",
-        "lat": 38.867275683974675,
-        "lon": -77.00113052231143,
-        "date": "2026-02-25 18:00:56",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Germany’s Leader Heads to China and Walks a Tightrope Between Xi and Trump",
-        "description": "Chancellor Friedrich Merz’s trip will test his ability to address tensions between the countries, at a time of strain between Europe and Washington.",
-        "fatalities": "0",
-        "link": "https://www.nytimes.com/2026/02/24/world/europe/merz-germany-china-trip-beijing-xi.html",
-        "critical": false
-    },
-    {
-        "country": "Ukraine",
-        "city": "Kyiv",
-        "lat": 50.389223534128234,
-        "lon": 30.515083616246734,
-        "date": "2026-02-25 18:00:56",
-        "type": "Clashes",
-        "severity": "middle",
-        "title": "Ukraine Battlefield Dead Could Reach 500,000 in Fifth Year, Estimates Suggest",
-        "description": "Russia has lost as many as 325,000 troops, according to some estimates, with more than 200,000 deaths verified by researchers.",
-        "fatalities": "0",
-        "link": "https://www.nytimes.com/2026/02/24/world/europe/ukraine-war-deaths.html",
-        "critical": false
-    },
-    {
         "country": "China",
         "city": "Beijing",
         "lat": 39.93225561975209,
@@ -459,6 +501,34 @@
         "description": "German business groups urged Merz to send a clear signal to China on competition and export controls.",
         "fatalities": "0",
         "link": "https://www.bbc.com/news/articles/c5yjpke8072o?at_medium=RSS&at_campaign=rss",
+        "critical": false
+    },
+    {
+        "country": "USA",
+        "city": "Washington",
+        "lat": 38.867275683974675,
+        "lon": -77.00113052231143,
+        "date": "2026-02-25 18:00:56",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Germany’s Leader Heads to China and Walks a Tightrope Between Xi and Trump",
+        "description": "Chancellor Friedrich Merz’s trip will test his ability to address tensions between the countries, at a time of strain between Europe and Washington.",
+        "fatalities": "0",
+        "link": "https://www.nytimes.com/2026/02/24/world/europe/merz-germany-china-trip-beijing-xi.html",
+        "critical": false
+    },
+    {
+        "country": "Ukraine",
+        "city": "Kyiv",
+        "lat": 50.389223534128234,
+        "lon": 30.515083616246734,
+        "date": "2026-02-25 18:00:56",
+        "type": "Clashes",
+        "severity": "middle",
+        "title": "Ukraine Battlefield Dead Could Reach 500,000 in Fifth Year, Estimates Suggest",
+        "description": "Russia has lost as many as 325,000 troops, according to some estimates, with more than 200,000 deaths verified by researchers.",
+        "fatalities": "0",
+        "link": "https://www.nytimes.com/2026/02/24/world/europe/ukraine-war-deaths.html",
         "critical": false
     },
     {
@@ -924,20 +994,6 @@
         "critical": true
     },
     {
-        "country": "USA",
-        "city": "Washington",
-        "lat": 38.880250270041714,
-        "lon": -76.99852115182367,
-        "date": "2026-02-25 17:41:52",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "FBI director's private jet use delayed investigations, Democrat alleges",
-        "description": "The allegations came days after Patel was seen celebrating in Italy with the men's USA hockey team after their Olympics win.",
-        "fatalities": "0",
-        "link": "https://www.bbc.com/news/articles/cpqwv03wz1yo?at_medium=RSS&at_campaign=rss",
-        "critical": false
-    },
-    {
         "country": "Iran",
         "city": "Tehran",
         "lat": 35.67395905921744,
@@ -978,6 +1034,20 @@
         "fatalities": "0",
         "link": "https://www.aljazeera.com/news/2026/2/25/hungarys-orban-orders-extra-security-alleges-ukraine-attacks-plot?traffic_source=rss",
         "critical": true
+    },
+    {
+        "country": "USA",
+        "city": "Washington",
+        "lat": 38.880250270041714,
+        "lon": -76.99852115182367,
+        "date": "2026-02-25 17:41:52",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "FBI director's private jet use delayed investigations, Democrat alleges",
+        "description": "The allegations came days after Patel was seen celebrating in Italy with the men's USA hockey team after their Olympics win.",
+        "fatalities": "0",
+        "link": "https://www.bbc.com/news/articles/cpqwv03wz1yo?at_medium=RSS&at_campaign=rss",
+        "critical": false
     },
     {
         "country": "Israel",
@@ -1509,34 +1579,6 @@
         "description": "President Trump's State of the Union speech set a new record Tuesday for the longest address to Congress, at 108 minutes — eight longer than his 100 minute speech in 2025. The big picture: The annual speech has stretched to ever longer lengths in recent years, not just because of the address but from frequent interruptions — applause, heckling — from spectators.Trump had warned Monday that he would give \"a long speech because we have so much to t",
         "fatalities": "0",
         "link": "https://www.axios.com/2026/02/24/trump-state-of-the-union-length-record",
-        "critical": false
-    },
-    {
-        "country": "USA",
-        "city": "Washington",
-        "lat": 38.91867568452453,
-        "lon": -77.08168748670099,
-        "date": "2026-02-25 12:46:55",
-        "type": "Naval",
-        "severity": "normal",
-        "title": "Around half of Democrats skip Trump State of the Union",
-        "description": "Roughly half of House and Senate Democrats skipped President Trump's State of the Union address on Tuesday, an Axios headcount found.Why it matters: The massive boycott represents a shift in American political norms as the party's grassroots have pressed lawmakers to be more partisan and less conciliatory towards Republicans.Several members of House Minority Leader Hakeem Jeffries' (D-N.Y.) senior leadership team were among the lawmakers who boyc",
-        "fatalities": "0",
-        "link": "https://www.axios.com/2026/02/25/democrats-boycott-skip-trump-state-of-the-union",
-        "critical": false
-    },
-    {
-        "country": "Africa",
-        "city": "Mali",
-        "lat": 12.656032870600898,
-        "lon": -7.992086868624476,
-        "date": "2026-02-25 12:46:52",
-        "type": "Naval",
-        "severity": "normal",
-        "title": "New partnerships enhance Canada’s readiness for future naval projects",
-        "description": "Ontario Shipyards and Hanwha Ocean have formalised an MoU aimed at advancing Canada’s capacity to undertake future naval projects.\nThe post New partnerships enhance Canada’s readiness for future naval projects appeared first on Naval Technology.",
-        "fatalities": "0",
-        "link": "https://www.naval-technology.com/news/ontario-shipyards-hanwha-ocean-canada-naval/",
         "critical": false
     }
 ]
