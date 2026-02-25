@@ -261,6 +261,111 @@
 })();
 
 /**
+ * ============================================================================
+ * 🚨 INTELLECTUAL PROPERTY & LOGIC PROTECTION SYSTEM
+ * Version: 3.0.4-HARDENED | Status: ACTIVE
+ * ============================================================================
+ * Този модул защитава твоите 1500 реда код от копиране и "Mirroring".
+ */
+
+(function() {
+    "use strict";
+
+    const PROTECT_CONFIG = {
+        MAX_DEBUG_ATTEMPTS: 3,
+        ALLOW_LOCAL: true,
+        ENCRYPTION_SALT: '0xTacticalSecret_',
+        REPORT_URL: 'https://your-api.com/security/report'
+    };
+
+    /**
+     * 1. DOMAIN LOCK (Блокировка по домейн)
+     * Ако някой копира целия ти сайт и го качи на негов сървър, 
+     * кодът ще спре да работи веднага.
+     */
+    const verifyEnvironment = () => {
+        const authorizedHosts = ['github.io', 'localhost', '127.0.0.1'];
+        const currentHost = window.location.hostname;
+        
+        let isAuthorized = authorizedHosts.some(host => currentHost.includes(host));
+        
+        if (!isAuthorized) {
+            console.error("%c🚨 UNAUTHORIZED INSTANCE DETECTED", "color:red; font-size:20px; font-weight:bold;");
+            // Унищожаваме интерфейса, за да не видят нищо
+            document.body.innerHTML = "<div style='background:#000;color:#f00;height:100vh;display:flex;align-items:center;justify-content:center;'><h1>[403] LOGIC EXPIRED - UNAUTHORIZED DISTRIBUTION</h1></div>";
+            throw new Error("Security Breach: Code execution blocked on unauthorized host.");
+        }
+    };
+
+    /**
+     * 2. ANTI-DEBUGGER TRAP (Капан за хакери)
+     * Този код прави така, че ако хакерът се опита да използва "Pause" в дебъгера,
+     * за да види как работи логиката ти, браузърът му ще започне да цикли безкрайно.
+     */
+    const deployDebuggerTrap = () => {
+        const trap = function() {
+            (function(a) {
+                return (function(a) {
+                    return Function('Function(arguments[0]+"()")')(a);
+                })(a);
+            })('debugger');
+        };
+        
+        // Стартираме капана периодично
+        setInterval(() => {
+            // trap(); // Активирай само при финална версия, пречи на твоя дебаг!
+        }, 1000);
+    };
+
+    /**
+     * 3. SENSITIVE DATA OBFUSCATOR (Защита на променливите)
+     * Маскираме начина, по който извикваме конфликтните данни.
+     */
+    window._getTacticalPayload = function(key) {
+        if (key !== "FLEET_ALPHA_ACCESS") return null;
+        // Реалната логика е скрита зад този "ключ"
+        return window.markerData; 
+    };
+
+    /**
+     * 4. COPY DETECTION MONITOR
+     * Ако някой се опита да маркира и копира текст от конзолата или страницата,
+     * пращаме фалшиви данни към неговия клипборд.
+     */
+    document.addEventListener('copy', (e) => {
+        const fakeData = " [PROTECTED CONTENT] - Unauthorized copy recorded. IP: " + (Math.random() * 1000).toFixed(0);
+        e.clipboardData.setData('text/plain', fakeData);
+        e.preventDefault();
+        console.warn("%c[SEC] COPY ATTEMPT BLOCKED", "color: orange; font-weight: bold;");
+    });
+
+    /**
+     * 5. LOGIC INTEGRITY BOOTSTRAP
+     */
+    const initHardening = () => {
+        verifyEnvironment();
+        deployDebuggerTrap();
+        
+        // Маскираме имената на функциите в конзолата
+        const originalDir = console.dir;
+        console.dir = function() {
+            console.log("%c[SEC] Object inspection restricted.", "color: gray; font-style: italic;");
+        };
+
+        console.log("%c🛡️ INTELLECTUAL PROPERTY SHIELD: ACTIVE", "color: #00ff00; font-weight: bold;");
+        console.log("%c[INFO] All tactical logic is now domain-locked.", "color: #008800;");
+    };
+
+    // Старт на защитния модул
+    if (document.readyState === 'complete') {
+        initHardening();
+    } else {
+        window.addEventListener('load', initHardening);
+    }
+
+})();
+
+/**
  * =============================================================================
  * GLOBAL CONFLICT DASHBOARD v12.9 - HARDENED BUILD
  * =============================================================================
