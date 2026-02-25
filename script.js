@@ -451,8 +451,7 @@ const tripwireLine = L.polyline(tripwireCoords, {
 }).addTo(militaryLayer);
   // СЕКЦИЯ: ТАКТИЧЕСКИ ПЪТ "АДЕН" (V2 - С КРИВКА)
 // ============================================================
-const adenPathCoords = [
-    [12.78, 43.33], 
+const adenPathCoords = [ 
     [15.50, 41.50],
     [20.10, 38.90],
     [25.30, 35.80],
