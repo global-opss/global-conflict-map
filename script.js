@@ -1752,19 +1752,20 @@ initializeMilitaryProtocol();
 // КРАЙ НА МОДУЛА. СЕГА САЙТЪТ Е НАПЪЛНО АДАПТИРАН ЗА AI ИНДЕКСИРАНЕ.
 // =============================================================================
 
-let alarmAudio = new Audio('alert.mp3');
+let alarmAudio = new Audio('alert.mp3'); // Увери се, че файлът се казва alert.mp3, а не alarm.mp3!
 alarmAudio.loop = true;
-let lastDismissedId = null; // Тук ще пазим последната спряна аларма
+let lastTimestamp = null; // Ще ползваме времето за уникален ID
 
 function checkCriticalAlerts() {
     fetch('critical_alerts.json?t=' + new Date().getTime())
         .then(response => response.json())
-        .then(alerts => {
-            if (alerts && alerts.length > 0) {
-                const currentAlert = alerts[0];
+        .then(data => {
+            // ПРОВЕРКА: Дали алармата е активна (формат на Офицера)
+            if (data && data.active === true) {
+                const currentId = data.timestamp; // Използваме времето като ID
 
-                // ПРОВЕРКА: Ако това е същата аларма, която току-що спряхме - не прави нищо
-                if (currentAlert.id === lastDismissedId) {
+                // Ако вече сме я спрели ръчно - не я пускай пак
+                if (currentId === lastDismissedId) {
                     return; 
                 }
 
@@ -1772,30 +1773,34 @@ function checkCriticalAlerts() {
                 let banner = document.getElementById('critical-alert-banner');
 
                 body.classList.add('red-alert-active');
-                alarmAudio.play().catch(e => {});
+                
+                // Опит за пускане - ТРЯБВА ДА СИ КЛИКНАЛ ПО КАРТАТА ПОНЕ ВЕДНЪЖ
+                alarmAudio.play().catch(e => {
+                    console.log("Звукът чака клик от потребителя!");
+                });
 
                 if (!banner) {
                     banner = document.createElement('div');
                     banner.id = 'critical-alert-banner';
-                    banner.style = "position:fixed; top:0; width:100%; background:red; color:white; text-align:center; padding:15px; z-index:9999; font-weight:bold; font-family:monospace; font-size:1.2em; border-bottom:3px solid white; display:flex; justify-content:space-between; align-items:center;";
+                    banner.style = "position:fixed; top:0; left:0; width:100%; background:red; color:white; text-align:center; padding:15px; z-index:9999; font-weight:bold; font-family:monospace; font-size:1.2em; border-bottom:3px solid white; display:flex; justify-content:space-between; align-items:center;";
                     document.body.appendChild(banner);
                 }
                 
                 banner.innerHTML = `
-                    <span style="margin-left:20px;">🚨 CRITICAL: ${currentAlert.title}</span>
-                    <button onclick="dismissAlert('${currentAlert.id}')" style="margin-right:20px; background:white; color:red; border:none; padding:5px 15px; cursor:pointer; font-weight:bold; border-radius:3px;">ACKNOWLEDGE & MUTE</button>
+                    <span style="margin-left:20px;">${data.breaking_news}</span>
+                    <button onclick="dismissAlert('${currentId}')" style="margin-right:20px; background:white; color:red; border:none; padding:5px 15px; cursor:pointer; font-weight:bold; border-radius:3px;">ACKNOWLEDGE & MUTE</button>
                 `;
             } else {
-                // Ако файлът е празен, нулираме паметта за последната аларма
                 lastDismissedId = null;
                 stopAlarmUI();
             }
-        });
+        })
+        .catch(err => console.log("JSON още не е готов или е празен."));
 }
 
-// Нова функция за "интелигентно" спиране
+// Функциите за спиране остават същите
 function dismissAlert(alertId) {
-    lastDismissedId = alertId; // Запомни, че тази вече не я искаме
+    lastDismissedId = alertId;
     stopAlarmUI();
 }
 
@@ -1807,7 +1812,8 @@ function stopAlarmUI() {
     if (banner) banner.remove();
 }
 
-setInterval(checkCriticalAlerts, 30000);
+// Намали интервала на 10 секунди (10000), за да реагира по-бързо
+setInterval(checkCriticalAlerts, 10000);
 
 // ============================================================================
 // 🛡️ SECTION: AUTOMATED SYSTEM INTEGRITY & CACHE CONTROL (v4.5)
