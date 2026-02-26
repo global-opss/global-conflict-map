@@ -1579,8 +1579,6 @@ const tacticalData = [
     { id: 7, name: "Mohmand - Anargi Sector", type: "conflict-zone", lat: 34.4500, lon: 71.2200, status: "ENGAGED", desc: "Frontier Incursion: Multiple IED strikes." },
     { id: 8, name: "Bajaur - Salarzai", type: "military-ops", lat: 34.8500, lon: 71.4500, status: "BATTLE", desc: "Cross-border shelling reported." },
     { id: 9, name: "Khyber - Landi Kotal", type: "conflict-zone", lat: 34.1000, lon: 71.1400, status: "BLOCKED", desc: "Supply Route: Blockaded by PAK military." },
-    
-    // СТРАТЕГИЧЕСКИ И НАВАЛНИ ТОЧКИ
     { id: 10, name: "NSA Bahrain Base", type: "military-ops", lat: 26.2100, lon: 50.6000, status: "ALERT", desc: "US 5th Fleet HQ: High alert status." },
     { id: 11, name: "Strait of Hormuz", type: "danger-zone", lat: 26.5600, lon: 56.2500, status: "WATCH", desc: "Naval Chokepoint Monitoring." },
     { id: 12, name: "Levantine Basin (Ford)", type: "naval-unit", lat: 34.1200, lon: 27.4500, status: "DEPLOYED", desc: "USS Gerald Ford Carrier Group." }
