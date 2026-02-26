@@ -1,9 +1,7 @@
-[
-   {
+{
     "alert_level": "CRITICAL",
     "active": true,
     "sound_alarm": true,
-    "breaking_news": "🚨 BORDER CRISIS: Taliban reinforcements arriving at Durand Line. Heavy clashes reported near Chaman crossing. Pakistan Army mobilizing 11th Corps.",
+    "breaking_news": "🚨 BORDER ALERT: Afghan-Pakistan border clashes detected.",
     "timestamp": "2026-02-26T21:20:00Z"
 }
-]
