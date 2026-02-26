@@ -1752,33 +1752,34 @@ initializeMilitaryProtocol();
 // КРАЙ НА МОДУЛА. СЕГА САЙТЪТ Е НАПЪЛНО АДАПТИРАН ЗА AI ИНДЕКСИРАНЕ.
 // =============================================================================
 
-let alarmAudio = new Audio('alert.mp3'); // Увери се, че файлът се казва alert.mp3, а не alarm.mp3!
+let alarmAudio = new Audio('https://actions.google.com/sounds/v1/alarms/emergency_it_is_an_emergency.ogg'); 
 alarmAudio.loop = true;
-let lastTimestamp = null; // Ще ползваме времето за уникален ID
+let lastDismissedId = null; // ТОВА ЛИПСВАШЕ И ЧУПЕШЕ ВСИЧКО
 
 function checkCriticalAlerts() {
+    // Добавяме timestamp, за да преборим кеша на GitHub
     fetch('critical_alerts.json?t=' + new Date().getTime())
         .then(response => response.json())
         .then(data => {
-            // ПРОВЕРКА: Дали алармата е активна (формат на Офицера)
-            if (data && data.active === true) {
-                const currentId = data.timestamp; // Използваме времето като ID
+            console.log("Данни от Офицера:", data); // За проверка в F12
 
-                // Ако вече сме я спрели ръчно - не я пускай пак
+            // Гледаме точно каквото Офицерът праща: alert_level и active
+            if (data && data.active === true && data.alert_level === "CRITICAL") {
+                const currentId = data.timestamp; 
+
+                // Ако сме я спрели ръчно - не я пускай пак до нова новина
                 if (currentId === lastDismissedId) {
                     return; 
                 }
 
-                const body = document.body;
-                let banner = document.getElementById('critical-alert-banner');
-
-                body.classList.add('red-alert-active');
+                document.body.classList.add('red-alert-active');
                 
-                // Опит за пускане - ТРЯБВА ДА СИ КЛИКНАЛ ПО КАРТАТА ПОНЕ ВЕДНЪЖ
+                // Свирим само ако потребителят е кликнал на сайта днес
                 alarmAudio.play().catch(e => {
-                    console.log("Звукът чака клик от потребителя!");
+                    console.warn("Браузърът блокира звука. Кликни някъде по картата!");
                 });
 
+                let banner = document.getElementById('critical-alert-banner');
                 if (!banner) {
                     banner = document.createElement('div');
                     banner.id = 'critical-alert-banner';
@@ -1788,17 +1789,16 @@ function checkCriticalAlerts() {
                 
                 banner.innerHTML = `
                     <span style="margin-left:20px;">${data.breaking_news}</span>
-                    <button onclick="dismissAlert('${currentId}')" style="margin-right:20px; background:white; color:red; border:none; padding:5px 15px; cursor:pointer; font-weight:bold; border-radius:3px;">ACKNOWLEDGE & MUTE</button>
+                    <button onclick="dismissAlert('${currentId}')" style="margin-right:20px; background:white; color:red; border:none; padding:5px 15px; cursor:pointer; font-weight:bold; border-radius:3px;">ACKNOWLEDGE</button>
                 `;
             } else {
-                lastDismissedId = null;
+                // Ако статусът е NORMAL, спираме всичко
                 stopAlarmUI();
             }
         })
-        .catch(err => console.log("JSON още не е готов или е празен."));
+        .catch(err => console.error("Грешка при четене на JSON:", err));
 }
 
-// Функциите за спиране остават същите
 function dismissAlert(alertId) {
     lastDismissedId = alertId;
     stopAlarmUI();
@@ -1812,7 +1812,7 @@ function stopAlarmUI() {
     if (banner) banner.remove();
 }
 
-// Намали интервала на 10 секунди (10000), за да реагира по-бързо
+// Проверка на всеки 10 секунди
 setInterval(checkCriticalAlerts, 10000);
 
 // ============================================================================
