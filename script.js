@@ -1420,64 +1420,101 @@ window.onload = function() {
                     if (alertBanner) {
                         alertBanner.style.display = 'block';
                         alertBanner.innerHTML = `
-                            <div style="background: #e60000; color: white; padding: 20px; display: flex; justify-content: space-between; align-items: center; border-bottom: 4px solid black; box-shadow: 0 0 20px rgba(255,0,0,0.5); position: fixed; top: 0; width: 100%; z-index: 10000;">
-                                <div style="font-weight: bold; font-family: 'Courier New', monospace; font-size: 22px; text-transform: uppercase;">
-                                    🚨 ALERT: ${manualEntry.breaking_news || manualEntry.title}
-                                </div>
-                                <button onclick="stopSiren()" style="background: white; color: red; border: 2px solid black; padding: 10px 30px; font-weight: bold; cursor: pointer; font-size: 16px;">
-                                    ACKNOWLEDGE / SILENCE
-                                </button>
+                  /**
+ * ТАКТИЧЕСКИ ПАНЕЛ - РЪЧЕН КОНТРОЛ НА АЛАРМИТЕ
+ */
+
+window.onload = function() {
+    // 1. Инициализация на картата
+    const map = L.map('map', {
+        zoomControl: false,
+        attributionControl: false,
+        center: [34.5, 69.2], // Центрирано към Афганистан по подразбиране
+        zoom: 5
+    });
+
+    L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png').addTo(map);
+
+    // Елементи от интерфейса
+    const alertBanner = document.getElementById('breaking-news-banner');
+    const alarmSound = new Audio('alert.mp3'); 
+    alarmSound.loop = true; // Свири, докато не се спре ръчно или от JSON-а
+
+    // 2. ГЛАВНА ФУНКЦИЯ ЗА ПРОВЕРКА (Слуша само твоя JSON)
+    function checkManualAlert() {
+        // Четем CRITICAL.ALERT.JSON
+        fetch('CRITICAL.ALERT.JSON?nocache=' + new Date().getTime())
+            .then(res => res.json())
+            .then(data => {
+                // Взимаме първия обект от масива (както е на скрийншота ти)
+                const alertData = data[0]; 
+
+                if (alertData && alertData.active === true) {
+                    // Активираме банера от картинката ти
+                    if (alertBanner) {
+                        alertBanner.style.display = 'flex';
+                        alertBanner.style.background = 'red';
+                        alertBanner.style.color = 'white';
+                        alertBanner.style.padding = '15px';
+                        alertBanner.style.fontWeight = 'bold';
+                        alertBanner.style.position = 'fixed';
+                        alertBanner.style.top = '0';
+                        alertBanner.style.width = '100%';
+                        alertBanner.style.zIndex = '9999';
+                        alertBanner.style.justifyContent = 'space-between';
+                        alertBanner.style.alignItems = 'center';
+
+                        alertBanner.innerHTML = `
+                            <div style="display: flex; align-items: center; gap: 15px;">
+                                <span style="font-size: 24px;">🚨 🚨</span>
+                                <span style="font-family: 'Courier New', monospace; letter-spacing: 1px;">
+                                    ${alertData.breaking_news}
+                                </span>
                             </div>
+                            <button onclick="acknowledgeAlert()" style="background: white; color: red; border: none; padding: 10px 25px; font-weight: bold; cursor: pointer; text-transform: uppercase; border-radius: 2px;">
+                                OK / ACKNOWLEDGE
+                            </button>
                         `;
                     }
 
-                    // 2. ПУСКАМЕ МОЩНАТА СИРЕНА
-                    if (manualEntry.sound_alarm === true) {
-                        if (alarmSound.paused) {
-                            alarmSound.play().catch(e => {
-                                console.log("Трябва да кликнеш веднъж на картата, за да разрешиш звука.");
-                            });
-                        }
+                    // Пускаме звука, ако е зададено true
+                    if (alertData.sound_alarm === true) {
+                        alarmSound.play().catch(err => {
+                            console.log("Browser blocked autoplay. Click anywhere to enable sound.");
+                        });
                     }
 
-                    // 3. ВИЗУАЛЕН ЕФЕКТ НА ЕКРАНА
-                    if (manualEntry.alert_level === "CRITICAL") {
-                        document.body.style.border = "10px solid #e60000";
+                    // Визуална индикация на цялата страница (червен кант)
+                    if (alertData.alert_level === "CRITICAL") {
+                        document.body.style.outline = "8px solid red";
+                        document.body.style.outlineOffset = "-8px";
                     }
 
                 } else {
-                    // АКО Е FALSE - СПИРАМЕ ВСИЧКО ВЕДНАГА
+                    // Ако 'active' е false - чистим всичко веднага
                     if (alertBanner) alertBanner.style.display = 'none';
-                    document.body.style.border = "none";
                     alarmSound.pause();
                     alarmSound.currentTime = 0;
+                    document.body.style.outline = "none";
                 }
             })
-            .catch(err => console.error("Грешка при четене на JSON файла:", err));
+            .catch(err => console.error("Грешка при четене на CRITICAL.ALERT.JSON:", err));
     }
 
-    // Функция за ръчно спиране от бутона
-    window.stopSiren = function() {
-        alarmSound.pause();
+    // Позволяваме на потребителя да спре алармата локално с бутона
+    window.acknowledgeAlert = function() {
         if (alertBanner) alertBanner.style.display = 'none';
+        alarmSound.pause();
     };
 
-    // Слушаме за клик навсякъде (за да тръгне звука без проблеми с браузъра)
-    document.body.addEventListener('click', function() {
-        console.log("Audio ready.");
+    // Слушаме за клик върху страницата (за да разреши браузъра звука)
+    document.addEventListener('click', function() {
+        console.log("Audio context resumed");
     }, { once: true });
 
-    // Проверка на всеки 3 секунди
-    setInterval(checkManualAlerts, 3000);
-    checkManualAlerts();
-
-    // ЧАСОВНИК ЗА ТАКТИЧЕСКО ВРЕМЕ
-    setInterval(() => {
-        const timeDiv = document.getElementById('utc-time');
-        if (timeDiv) {
-            timeDiv.innerText = new Date().toISOString().replace('T', ' ').substr(0, 19) + " UTC";
-        }
-    }, 1000);
+    // Проверяваме файла на всеки 3 секунди за твои ръчни промени
+    setInterval(checkManualAlert, 3000);
+    checkManualAlert();
 };
 
 // ============================================================================
