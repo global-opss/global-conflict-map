@@ -1385,137 +1385,62 @@ initializeMilitaryProtocol();
 // КРАЙ НА МОДУЛА. СЕГА САЙТЪТ Е НАПЪЛНО АДАПТИРАН ЗА AI ИНДЕКСИРАНЕ.
 // =============================================================================
 
-/**
- * GLOBAL CONFLICT DASHBOARD - EMERGENCY SIREN OVERRIDE
- */
+let alarmAudio = new Audio('alert.mp3');
+alarmAudio.loop = true;
+let lastDismissedId = null; // Тук ще пазим последната спряна аларма
 
-window.onload = function() {
-    // 1. ИНИЦИАЛИЗАЦИЯ НА КАРТАТА
-    const map = L.map('map', {
-        zoomControl: false,
-        attributionControl: false,
-        center: [34.5, 69.2],
-        zoom: 5.5
-    });
+function checkCriticalAlerts() {
+    fetch('critical_alerts.json?t=' + new Date().getTime())
+        .then(response => response.json())
+        .then(alerts => {
+            if (alerts && alerts.length > 0) {
+                const currentAlert = alerts[0];
 
-    L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png').addTo(map);
-
-    const alertBanner = document.getElementById('breaking-news-banner');
-    
-    // ЕТО ТИ ИСТИНСКАТА СИРЕНА - ДИРЕКТЕН ЛИНК КЪМ МОЩЕН ЗВУК
-    const alarmSound = new Audio('https://www.soundboard.com/handler/DownLoadTrack.ashx?cliptoken=eb946272-5207-427c-9b8e-329864222384');
-    alarmSound.loop = true;
-    alarmSound.volume = 1.0; // Максимално усилено
-
-    // ФУНКЦИЯ ЗА СИНХРОНИЗАЦИЯ С ТВОЯ JSON
-    function checkManualAlerts() {
-        // Четем твоя файл conflicts.json (или CRITICAL.ALERT.JSON според както си го кръстил)
-        fetch('conflicts.json?v=' + new Date().getTime())
-            .then(res => res.json())
-            .then(data => {
-                const manualEntry = data[0]; 
-
-                if (manualEntry && manualEntry.active === true) {
-                    // 1. ПОКАЗВАМЕ ЧЕРВЕНИЯ БАНЕР
-                    if (alertBanner) {
-                        alertBanner.style.display = 'block';
-                        alertBanner.innerHTML = `
-                  /**
- * ТАКТИЧЕСКИ ПАНЕЛ - РЪЧЕН КОНТРОЛ НА АЛАРМИТЕ
- */
-
-window.onload = function() {
-    // 1. Инициализация на картата
-    const map = L.map('map', {
-        zoomControl: false,
-        attributionControl: false,
-        center: [34.5, 69.2], // Центрирано към Афганистан по подразбиране
-        zoom: 5
-    });
-
-    L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png').addTo(map);
-
-    // Елементи от интерфейса
-    const alertBanner = document.getElementById('breaking-news-banner');
-    const alarmSound = new Audio('alert.mp3'); 
-    alarmSound.loop = true; // Свири, докато не се спре ръчно или от JSON-а
-
-    // 2. ГЛАВНА ФУНКЦИЯ ЗА ПРОВЕРКА (Слуша само твоя JSON)
-    function checkManualAlert() {
-        // Четем CRITICAL.ALERT.JSON
-        fetch('CRITICAL.ALERT.JSON?nocache=' + new Date().getTime())
-            .then(res => res.json())
-            .then(data => {
-                // Взимаме първия обект от масива (както е на скрийншота ти)
-                const alertData = data[0]; 
-
-                if (alertData && alertData.active === true) {
-                    // Активираме банера от картинката ти
-                    if (alertBanner) {
-                        alertBanner.style.display = 'flex';
-                        alertBanner.style.background = 'red';
-                        alertBanner.style.color = 'white';
-                        alertBanner.style.padding = '15px';
-                        alertBanner.style.fontWeight = 'bold';
-                        alertBanner.style.position = 'fixed';
-                        alertBanner.style.top = '0';
-                        alertBanner.style.width = '100%';
-                        alertBanner.style.zIndex = '9999';
-                        alertBanner.style.justifyContent = 'space-between';
-                        alertBanner.style.alignItems = 'center';
-
-                        alertBanner.innerHTML = `
-                            <div style="display: flex; align-items: center; gap: 15px;">
-                                <span style="font-size: 24px;">🚨 🚨</span>
-                                <span style="font-family: 'Courier New', monospace; letter-spacing: 1px;">
-                                    ${alertData.breaking_news}
-                                </span>
-                            </div>
-                            <button onclick="acknowledgeAlert()" style="background: white; color: red; border: none; padding: 10px 25px; font-weight: bold; cursor: pointer; text-transform: uppercase; border-radius: 2px;">
-                                OK / ACKNOWLEDGE
-                            </button>
-                        `;
-                    }
-
-                    // Пускаме звука, ако е зададено true
-                    if (alertData.sound_alarm === true) {
-                        alarmSound.play().catch(err => {
-                            console.log("Browser blocked autoplay. Click anywhere to enable sound.");
-                        });
-                    }
-
-                    // Визуална индикация на цялата страница (червен кант)
-                    if (alertData.alert_level === "CRITICAL") {
-                        document.body.style.outline = "8px solid red";
-                        document.body.style.outlineOffset = "-8px";
-                    }
-
-                } else {
-                    // Ако 'active' е false - чистим всичко веднага
-                    if (alertBanner) alertBanner.style.display = 'none';
-                    alarmSound.pause();
-                    alarmSound.currentTime = 0;
-                    document.body.style.outline = "none";
+                // ПРОВЕРКА: Ако това е същата аларма, която току-що спряхме - не прави нищо
+                if (currentAlert.id === lastDismissedId) {
+                    return; 
                 }
-            })
-            .catch(err => console.error("Грешка при четене на CRITICAL.ALERT.JSON:", err));
-    }
 
-    // Позволяваме на потребителя да спре алармата локално с бутона
-    window.acknowledgeAlert = function() {
-        if (alertBanner) alertBanner.style.display = 'none';
-        alarmSound.pause();
-    };
+                const body = document.body;
+                let banner = document.getElementById('critical-alert-banner');
 
-    // Слушаме за клик върху страницата (за да разреши браузъра звука)
-    document.addEventListener('click', function() {
-        console.log("Audio context resumed");
-    }, { once: true });
+                body.classList.add('red-alert-active');
+                alarmAudio.play().catch(e => {});
 
-    // Проверяваме файла на всеки 3 секунди за твои ръчни промени
-    setInterval(checkManualAlert, 3000);
-    checkManualAlert();
-};
+                if (!banner) {
+                    banner = document.createElement('div');
+                    banner.id = 'critical-alert-banner';
+                    banner.style = "position:fixed; top:0; width:100%; background:red; color:white; text-align:center; padding:15px; z-index:9999; font-weight:bold; font-family:monospace; font-size:1.2em; border-bottom:3px solid white; display:flex; justify-content:space-between; align-items:center;";
+                    document.body.appendChild(banner);
+                }
+                
+                banner.innerHTML = `
+                    <span style="margin-left:20px;">🚨 CRITICAL: ${currentAlert.title}</span>
+                    <button onclick="dismissAlert('${currentAlert.id}')" style="margin-right:20px; background:white; color:red; border:none; padding:5px 15px; cursor:pointer; font-weight:bold; border-radius:3px;">ACKNOWLEDGE & MUTE</button>
+                `;
+            } else {
+                // Ако файлът е празен, нулираме паметта за последната аларма
+                lastDismissedId = null;
+                stopAlarmUI();
+            }
+        });
+}
+
+// Нова функция за "интелигентно" спиране
+function dismissAlert(alertId) {
+    lastDismissedId = alertId; // Запомни, че тази вече не я искаме
+    stopAlarmUI();
+}
+
+function stopAlarmUI() {
+    document.body.classList.remove('red-alert-active');
+    alarmAudio.pause();
+    alarmAudio.currentTime = 0;
+    const banner = document.getElementById('critical-alert-banner');
+    if (banner) banner.remove();
+}
+
+setInterval(checkCriticalAlerts, 30000);
 
 // ============================================================================
 // 🛡️ SECTION: AUTOMATED SYSTEM INTEGRITY & CACHE CONTROL (v4.5)
