@@ -1752,53 +1752,95 @@ initializeMilitaryProtocol();
 // КРАЙ НА МОДУЛА. СЕГА САЙТЪТ Е НАПЪЛНО АДАПТИРАН ЗА AI ИНДЕКСИРАНЕ.
 // =============================================================================
 
-let alarmAudio = new Audio('https://actions.google.com/sounds/v1/alarms/emergency_it_is_an_emergency.ogg'); 
-alarmAudio.loop = true;
-let lastDismissedId = null; // ТОВА ЛИПСВАШЕ И ЧУПЕШЕ ВСИЧКО
+// --- ДИГИТАЛНА СИРЕНА (Web Audio API) ---
+let audioCtx = null;
+let oscillator = null;
+let gainNode = null;
+let lastDismissedId = null;
 
+function startDigitalAlarm() {
+    if (audioCtx) return; // Вече свири, не пускай втора
+    
+    audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+    oscillator = audioCtx.createOscillator();
+    gainNode = audioCtx.createGain();
+
+    // Военен звук (Square wave)
+    oscillator.type = 'square'; 
+    oscillator.frequency.setValueAtTime(440, audioCtx.currentTime);
+    
+    // Сила на звука
+    gainNode.gain.setValueAtTime(0.1, audioCtx.currentTime);
+    
+    oscillator.connect(gainNode);
+    gainNode.connect(audioCtx.destination);
+    
+    oscillator.start();
+
+    // Виене на сирената (Нагоре-надолу на всяка секунда)
+    setInterval(() => {
+        if (oscillator && audioCtx) {
+            let nextFreq = oscillator.frequency.value > 600 ? 440 : 880;
+            oscillator.frequency.exponentialRampToValueAtTime(nextFreq, audioCtx.currentTime + 0.8);
+        }
+    }, 1000);
+}
+
+function stopDigitalAlarm() {
+    if (oscillator) {
+        oscillator.stop();
+        oscillator.disconnect();
+        oscillator = null;
+    }
+    if (audioCtx) {
+        audioCtx.close();
+        audioCtx = null;
+    }
+}
+
+// --- ОСНОВНА ФУНКЦИЯ ЗА ПРОВЕРКА ---
 function checkCriticalAlerts() {
-    // Добавяме timestamp, за да преборим кеша на GitHub
-    fetch('critical_alerts.json?t=' + new Date().getTime())
+    // Добавяме timestamp (?v=...), за да не чете стария кеш от GitHub
+    fetch('critical_alerts.json?v=' + Date.now())
         .then(response => response.json())
         .then(data => {
-            console.log("Данни от Офицера:", data); // За проверка в F12
+            // Проверка дали алармата е активна в JSON-а
+            if (data && data.active === true) {
+                const currentId = data.timestamp;
 
-            // Гледаме точно каквото Офицерът праща: alert_level и active
-            if (data && data.active === true && data.alert_level === "CRITICAL") {
-                const currentId = data.timestamp; 
-
-                // Ако сме я спрели ръчно - не я пускай пак до нова новина
+                // Ако потребителят вече е спрял ТАЗИ конкретна аларма - мълчим
                 if (currentId === lastDismissedId) {
-                    return; 
+                    return;
                 }
 
+                // Активиране на визуалните ефекти (червен екран)
                 document.body.classList.add('red-alert-active');
                 
-                // Свирим само ако потребителят е кликнал на сайта днес
-                alarmAudio.play().catch(e => {
-                    console.warn("Браузърът блокира звука. Кликни някъде по картата!");
-                });
+                // ПУСКАНЕ НА ДИГИТАЛНАТА СИРЕНА
+                startDigitalAlarm();
 
+                // Създаване на банера, ако го няма
                 let banner = document.getElementById('critical-alert-banner');
                 if (!banner) {
                     banner = document.createElement('div');
                     banner.id = 'critical-alert-banner';
-                    banner.style = "position:fixed; top:0; left:0; width:100%; background:red; color:white; text-align:center; padding:15px; z-index:9999; font-weight:bold; font-family:monospace; font-size:1.2em; border-bottom:3px solid white; display:flex; justify-content:space-between; align-items:center;";
+                    banner.style = "position:fixed; top:0; left:0; width:100%; background:red; color:white; text-align:center; padding:20px; z-index:9999; font-weight:bold; font-family:sans-serif; font-size:1.6em; border-bottom:5px solid white; display:flex; justify-content:space-between; align-items:center; box-shadow: 0 10px 30px rgba(0,0,0,0.5);";
                     document.body.appendChild(banner);
                 }
                 
                 banner.innerHTML = `
-                    <span style="margin-left:20px;">${data.breaking_news}</span>
-                    <button onclick="dismissAlert('${currentId}')" style="margin-right:20px; background:white; color:red; border:none; padding:5px 15px; cursor:pointer; font-weight:bold; border-radius:3px;">ACKNOWLEDGE</button>
+                    <div style="flex-grow:1; text-transform:uppercase; letter-spacing:1px;">${data.breaking_news}</div>
+                    <button onclick="dismissAlert('${currentId}')" style="margin-left:20px; background:white; color:red; border:none; padding:12px 25px; cursor:pointer; font-weight:bold; border-radius:5px; font-size:0.7em;">ACKNOWLEDGE</button>
                 `;
             } else {
-                // Ако статусът е NORMAL, спираме всичко
+                // Ако в JSON-а активността е спряна (false)
                 stopAlarmUI();
             }
         })
-        .catch(err => console.error("Грешка при четене на JSON:", err));
+        .catch(err => console.log("Чакаме сигнал от Офицера..."));
 }
 
+// --- СПИРАНЕ НА АЛАРМАТА ---
 function dismissAlert(alertId) {
     lastDismissedId = alertId;
     stopAlarmUI();
@@ -1806,14 +1848,20 @@ function dismissAlert(alertId) {
 
 function stopAlarmUI() {
     document.body.classList.remove('red-alert-active');
-    alarmAudio.pause();
-    alarmAudio.currentTime = 0;
+    stopDigitalAlarm(); // Спираме дигиталния звук
     const banner = document.getElementById('critical-alert-banner');
     if (banner) banner.remove();
 }
 
-// Проверка на всеки 10 секунди
-setInterval(checkCriticalAlerts, 10000);
+// Проверка на всеки 5 секунди за максимална бързина
+setInterval(checkCriticalAlerts, 5000);
+
+// ФАТАЛНО ВАЖНО: Трябва да кликнеш веднъж на картата, за да се отключи AudioContext!
+document.addEventListener('click', function() {
+    if (audioCtx && audioCtx.state === 'suspended') {
+        audioCtx.resume();
+    }
+}, { once: false });
 
 // ============================================================================
 // 🛡️ SECTION: AUTOMATED SYSTEM INTEGRITY & CACHE CONTROL (v4.5)
