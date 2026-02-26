@@ -1559,5 +1559,3 @@ setInterval(checkCriticalAlerts, 30000);
 
 })();
 
-рябва да са тук.
- */
