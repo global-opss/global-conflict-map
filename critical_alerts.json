@@ -1,9 +1,9 @@
 [
-    {
-        "id": "ALARM_AFG_PAK_2602",
-        "title": "🚨 BORDER ALERT: Intense clashes reported at Torkham Crossing. Afghan and Pakistani forces in active exchange. All civilian movement halted.",
-        "link": "https://www.longwarjournal.org",
-        "time": "21:15:00",
-        "level": "RED_ALERT"
-    }
+   {
+    "alert_level": "CRITICAL",
+    "active": true,
+    "sound_alarm": true,
+    "breaking_news": "🚨 BORDER CRISIS: Taliban reinforcements arriving at Durand Line. Heavy clashes reported near Chaman crossing. Pakistan Army mobilizing 11th Corps.",
+    "timestamp": "2026-02-26T21:20:00Z"
+}
 ]
