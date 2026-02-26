@@ -314,7 +314,12 @@ fetch('https://raw.githubusercontent.com/datasets/geo-boundaries-world-110m/mast
         { name: "TCG Anadolu", type: "nato-naval", lat: 35.8500, lon: 32.5000, description: "Turkish Navy Amphibious Assault Ship. Operating in the Eastern Mediterranean corridor." },
         { name: "FGS Frankfurt am Main", type: "nato-naval", lat: 34.6500, lon: 33.1500, description: "German Navy Berlin-class replenishment ship. Providing logistics for the NATO fleet off Cyprus." },
         { name: "U.S. 5th Fleet Strike Group", type: "us-naval", lat: 26.480, lon: 50.950, description: "NSA Bahrain Main Force. Assets: 4 Arleigh Burke-class Destroyers (DDG-51, DDG-67, DDG-111, DDG-112), 2 Littoral Combat Ships (LCS), 1 Wasp-class Amphibious Assault Ship, and USS Lewis B. Puller (ESB-3). Status: EMERGENCY SORTIE - Units dispersing to open waters due to high alert." },
-        
+        { name: "Spin Boldak Crossing", type: "danger-zone", lat: 30.9580, lon: 66.4350, description: "Southern Sector: Afghan Border Force monitoring movements from Kandahar." },
+        { name: "Khost - Barmal Front", type: "conflict-zone", lat: 32.5100, lon: 69.1500, description: "Central Sector: Heavy artillery exchanges reported in the mountainous border." },
+        { name: "Paktia - Dand-e-Patan", type: "military-ops", lat: 33.7800, lon: 69.9500, description: "Border Fence: Tactical strikes and infantry movement detected on the Durand Line." },
+        { name: "Torkham Gateway Pass", type: "danger-zone", lat: 34.1160, lon: 71.1020, description: "Strategic Pass: CLOSED. Direct clashes between IEA and Pakistan Frontier Corps." },
+        { name: "Nangarhar - Goshta", type: "conflict-zone", lat: 34.3500, lon: 71.1500, description: "Northern Sector: 15 outposts reported captured by Afghan forces this morning." },
+        { name: "Kunar - Nari Sector", type: "military-ops", lat: 35.1500, lon: 71.5200, description: "High Altitude Front: Escalation at the border fence with heavy shelling reported." }
     ];
 // --- СЕКЦИЯ: ВРЕДНИ ЗОНИ (ОБХВАТ НА УДАР) ---
 strategicAssets.forEach(asset => {
