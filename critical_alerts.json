@@ -1,7 +1,11 @@
-{
+[
+  {
+    "id": "2120",
     "alert_level": "CRITICAL",
     "active": true,
     "sound_alarm": true,
+    "title": "🚨 BORDER ALERT: Afghanistan-Pakistan border clashes detected.",
     "breaking_news": "🚨 BORDER ALERT: Afghanistan-Pakistan border clashes detected.",
     "timestamp": "2026-02-26T21:20:00Z"
-}
+  }
+]
