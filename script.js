@@ -662,7 +662,7 @@ fetch('https://raw.githubusercontent.com/datasets/geo-boundaries-world-110m/mast
         { name: "Ain al-Assad (Radar Site)", type: "us-missile", lat: 33.802, lon: 42.395, description: "AN/MPQ-64 Sentinel Radar positions. Early warning system for incoming ballistic threats from the East." },
         { name: "USS Harry S. Truman", type: "us-naval", lat: 34.1500, lon: 33.0000, description: "Carrier Strike Group 8 (CSG-8). Currently south of Cyprus, covering the Eastern Mediterranean." },
         { name: "USS Abraham Lincoln", type: "us-naval", lat: 21.40, lon: 61.20, description: "Carrier Strike Group 3 (CSG-3). Positioned in the Arabian Sea, providing deterrence against Iran." },
-        { name: "USS Gerald R. Ford", type: "us-naval", lat: 35.504, lon: 24.151, description: "Carrier Strike Group 12. Operating near Malta, transiting Central Mediterranean." },
+        { name: "USS Gerald R. Ford", type: "us-naval", lat: 35.145, lon: 24.921, description: "Carrier Strike Group 12. Operating near Malta, transiting Central Mediterranean." },
         { name: "USS Wasp", type: "us-naval", lat: 34.15, lon: 34.50, description: "Amphibious Ready Group. Positioned off the coast of Lebanon/Israel for evacuation readiness." },
         { name: "USS Stockdale", type: "us-naval", lat: 12.75, lon: 43.15, description: "Arleigh Burke-class destroyer. Active intercept missions in the Bab el-Mandeb Strait." },
         { name: "IRIS Shahid Bagheri", type: "ir-naval", lat: 27.10, lon: 56.40, description: "IRGC Drone Carrier. Monitoring traffic in the Strait of Hormuz." },
