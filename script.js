@@ -1385,63 +1385,99 @@ initializeMilitaryProtocol();
 // КРАЙ НА МОДУЛА. СЕГА САЙТЪТ Е НАПЪЛНО АДАПТИРАН ЗА AI ИНДЕКСИРАНЕ.
 // =============================================================================
 
-p', { zoomControl: false }).setView([34.0, 70.0], 5);
+/**
+ * GLOBAL CONFLICT DASHBOARD - EMERGENCY SIREN OVERRIDE
+ */
+
+window.onload = function() {
+    // 1. ИНИЦИАЛИЗАЦИЯ НА КАРТАТА
+    const map = L.map('map', {
+        zoomControl: false,
+        attributionControl: false,
+        center: [34.5, 69.2],
+        zoom: 5.5
+    });
+
     L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png').addTo(map);
 
     const alertBanner = document.getElementById('breaking-news-banner');
-    const alarmSound = new Audio('alert.mp3'); // Твоят файл за аларма
+    
+    // ЕТО ТИ ИСТИНСКАТА СИРЕНА - ДИРЕКТЕН ЛИНК КЪМ МОЩЕН ЗВУК
+    const alarmSound = new Audio('https://www.soundboard.com/handler/DownLoadTrack.ashx?cliptoken=eb946272-5207-427c-9b8e-329864222384');
+    alarmSound.loop = true;
+    alarmSound.volume = 1.0; // Максимално усилено
 
+    // ФУНКЦИЯ ЗА СИНХРОНИЗАЦИЯ С ТВОЯ JSON
     function checkManualAlerts() {
-        // Четем директно файла, който ми показа
-        fetch('conflicts.json?nocache=' + new Date().getTime())
+        // Четем твоя файл conflicts.json (или CRITICAL.ALERT.JSON според както си го кръстил)
+        fetch('conflicts.json?v=' + new Date().getTime())
             .then(res => res.json())
             .then(data => {
-                const manualEntry = data[0]; // Взимаме първия обект от списъка ти
+                const manualEntry = data[0]; 
 
                 if (manualEntry && manualEntry.active === true) {
-                    // 1. ПОКАЗВАМЕ БАНЕРА ОТ КАРТИНКАТА ТИ
+                    // 1. ПОКАЗВАМЕ ЧЕРВЕНИЯ БАНЕР
                     if (alertBanner) {
                         alertBanner.style.display = 'block';
                         alertBanner.innerHTML = `
-                            <div style="background: #ff0000; color: white; padding: 15px; display: flex; justify-content: space-between; align-items: center; border-bottom: 3px solid black;">
-                                <div style="font-weight: bold; font-family: monospace; font-size: 18px;">
-                                    🚨 🚨 ${manualEntry.breaking_news || manualEntry.title}
+                            <div style="background: #e60000; color: white; padding: 20px; display: flex; justify-content: space-between; align-items: center; border-bottom: 4px solid black; box-shadow: 0 0 20px rgba(255,0,0,0.5); position: fixed; top: 0; width: 100%; z-index: 10000;">
+                                <div style="font-weight: bold; font-family: 'Courier New', monospace; font-size: 22px; text-transform: uppercase;">
+                                    🚨 ALERT: ${manualEntry.breaking_news || manualEntry.title}
                                 </div>
-                                <button onclick="acknowledgeAlert()" style="background: white; color: red; border: none; padding: 10px 20px; font-weight: bold; cursor: pointer; border-radius: 4px;">
-                                    OK / ACKNOWLEDGE
+                                <button onclick="stopSiren()" style="background: white; color: red; border: 2px solid black; padding: 10px 30px; font-weight: bold; cursor: pointer; font-size: 16px;">
+                                    ACKNOWLEDGE / SILENCE
                                 </button>
                             </div>
                         `;
                     }
 
-                    // 2. ПУСКАМЕ АЛАРМАТА (Ако ти си я пуснал в JSON-а)
+                    // 2. ПУСКАМЕ МОЩНАТА СИРЕНА
                     if (manualEntry.sound_alarm === true) {
-                        alarmSound.play().catch(e => console.log("Waiting for user interaction to play sound"));
+                        if (alarmSound.paused) {
+                            alarmSound.play().catch(e => {
+                                console.log("Трябва да кликнеш веднъж на картата, за да разрешиш звука.");
+                            });
+                        }
                     }
 
-                    // 3. ФОКУСИРАМЕ КАРТАТА (Ако е спешно)
+                    // 3. ВИЗУАЛЕН ЕФЕКТ НА ЕКРАНА
                     if (manualEntry.alert_level === "CRITICAL") {
-                        document.body.style.border = "5px solid red";
+                        document.body.style.border = "10px solid #e60000";
                     }
+
                 } else {
-                    // Ако 'active' е false - махаме всичко
+                    // АКО Е FALSE - СПИРАМЕ ВСИЧКО ВЕДНАГА
                     if (alertBanner) alertBanner.style.display = 'none';
                     document.body.style.border = "none";
                     alarmSound.pause();
                     alarmSound.currentTime = 0;
                 }
-            });
+            })
+            .catch(err => console.error("Грешка при четене на JSON файла:", err));
     }
 
-    // Функция за затваряне на банера ръчно
-    window.acknowledgeAlert = function() {
-        if (alertBanner) alertBanner.style.display = 'none';
+    // Функция за ръчно спиране от бутона
+    window.stopSiren = function() {
         alarmSound.pause();
+        if (alertBanner) alertBanner.style.display = 'none';
     };
 
-    // Проверка на всеки 5 секунди за твоите ръчни промени
-    setInterval(checkManualAlerts, 5000);
+    // Слушаме за клик навсякъде (за да тръгне звука без проблеми с браузъра)
+    document.body.addEventListener('click', function() {
+        console.log("Audio ready.");
+    }, { once: true });
+
+    // Проверка на всеки 3 секунди
+    setInterval(checkManualAlerts, 3000);
     checkManualAlerts();
+
+    // ЧАСОВНИК ЗА ТАКТИЧЕСКО ВРЕМЕ
+    setInterval(() => {
+        const timeDiv = document.getElementById('utc-time');
+        if (timeDiv) {
+            timeDiv.innerText = new Date().toISOString().replace('T', ' ').substr(0, 19) + " UTC";
+        }
+    }, 1000);
 };
 
 // ============================================================================
