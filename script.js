@@ -1797,71 +1797,213 @@ function stopDigitalAlarm() {
         audioCtx = null;
     }
 }
+/**
+ * ГЕОПОЛИТИЧЕСКА МОНИТОРИНГОВА СИСТЕМА - ВАХТЕН ОФИЦЕР
+ * ВЕРСИЯ: 2.1 (АВТОМАТИЧНО АУДИО И КЕШ-КИЛЪР)
+ * ---------------------------------------------------
+ * Този скрипт следи critical_alerts.json и генерира
+ * дигитална сирена без външни MP3 файлове.
+ */
 
-// --- ОСНОВНА ФУНКЦИЯ ЗА ПРОВЕРКА ---
-function checkCriticalAlerts() {
-    // Добавяме timestamp (?v=...), за да не чете стария кеш от GitHub
-    fetch('critical_alerts.json?v=' + Date.now())
-        .then(response => response.json())
+// --- ГЛОБАЛНИ ПРОМЕНЛИВИ ---
+let audioCtx = null;
+let oscillator = null;
+let gainNode = null;
+let lastDismissedId = null;
+let checkInterval = null;
+let alarmIsRunning = false;
+let pulseInterval = null;
+
+/**
+ * ИНИЦИАЛИЗАЦИЯ НА АУДИО КОНТЕКСТА
+ * Браузърите изискват това да стане след потребителско действие.
+ */
+function initAudioContext() {
+    try {
+        if (!audioCtx) {
+            audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+            console.log("✅ AudioContext е създаден успешно.");
+        }
+        if (audioCtx.state === 'suspended') {
+            audioCtx.resume().then(() => {
+                console.log("🔊 AudioContext е събуден и готов за работа.");
+            });
+        }
+    } catch (e) {
+        console.error("❌ Грешка при старт на аудиото:", e);
+    }
+}
+
+/**
+ * ГЕНЕРАТОР НА ДИГИТАЛНА СИРЕНА
+ * Създава военен звук тип 'Square Wave' с честотна модулация.
+ */
+function playDigitalSiren() {
+    if (alarmIsRunning) return; // Не пускай два пъти!
+
+    initAudioContext(); // Подсигуряваме, че контекстът работи
+
+    if (!audioCtx) return;
+
+    alarmIsRunning = true;
+    oscillator = audioCtx.createOscillator();
+    gainNode = audioCtx.createGain();
+
+    // Настройки за агресивен звук
+    oscillator.type = 'square'; 
+    oscillator.frequency.setValueAtTime(440, audioCtx.currentTime);
+    
+    // Сила на звука (0.1 е достатъчно силно за слушалки)
+    gainNode.gain.setValueAtTime(0.1, audioCtx.currentTime);
+    
+    oscillator.connect(gainNode);
+    gainNode.connect(audioCtx.destination);
+    
+    oscillator.start();
+
+    // Модулация: Виене на сирената на всяка секунда
+    pulseInterval = setInterval(() => {
+        if (oscillator && audioCtx) {
+            let now = audioCtx.currentTime;
+            let targetFreq = oscillator.frequency.value > 600 ? 440 : 880;
+            oscillator.frequency.exponentialRampToValueAtTime(targetFreq, now + 0.7);
+        }
+    }, 1000);
+
+    console.log("🚨 СИРЕНАТА Е АКТИВИРАНА!");
+}
+
+/**
+ * СПИРАНЕ НА ЗВУКА
+ */
+function stopDigitalSiren() {
+    if (oscillator) {
+        oscillator.stop();
+        oscillator.disconnect();
+        oscillator = null;
+    }
+    if (gainNode) {
+        gainNode.disconnect();
+        gainNode = null;
+    }
+    if (pulseInterval) {
+        clearInterval(pulseInterval);
+        pulseInterval = null;
+    }
+    alarmIsRunning = false;
+    console.log("🔇 Сирената е спряна.");
+}
+
+/**
+ * ОСНОВНА ПРОВЕРКА НА JSON ФАЙЛА
+ */
+function checkStatus() {
+    // Cache Buster: добавяме уникално време, за да прескочим кеша на GitHub/Браузъра
+    const cacheUrl = 'critical_alerts.json?nocache=' + new Date().getTime();
+
+    fetch(cacheUrl)
+        .then(response => {
+            if (!response.ok) throw new Error("Файлът липсва.");
+            return response.json();
+        })
         .then(data => {
-            // Проверка дали алармата е активна в JSON-а
             if (data && data.active === true) {
-                const currentId = data.timestamp;
+                const currentAlertId = data.timestamp || "alert-1";
 
-                // Ако потребителят вече е спрял ТАЗИ конкретна аларма - мълчим
-                if (currentId === lastDismissedId) {
+                // Проверка дали тази аларма вече е била заглушена ръчно
+                if (currentAlertId === lastDismissedId) {
                     return;
                 }
 
-                // Активиране на визуалните ефекти (червен екран)
-                document.body.classList.add('red-alert-active');
+                // Активиране на интерфейса
+                triggerRedAlertUI(data.breaking_news, currentAlertId);
                 
-                // ПУСКАНЕ НА ДИГИТАЛНАТА СИРЕНА
-                startDigitalAlarm();
-
-                // Създаване на банера, ако го няма
-                let banner = document.getElementById('critical-alert-banner');
-                if (!banner) {
-                    banner = document.createElement('div');
-                    banner.id = 'critical-alert-banner';
-                    banner.style = "position:fixed; top:0; left:0; width:100%; background:red; color:white; text-align:center; padding:20px; z-index:9999; font-weight:bold; font-family:sans-serif; font-size:1.6em; border-bottom:5px solid white; display:flex; justify-content:space-between; align-items:center; box-shadow: 0 10px 30px rgba(0,0,0,0.5);";
-                    document.body.appendChild(banner);
-                }
-                
-                banner.innerHTML = `
-                    <div style="flex-grow:1; text-transform:uppercase; letter-spacing:1px;">${data.breaking_news}</div>
-                    <button onclick="dismissAlert('${currentId}')" style="margin-left:20px; background:white; color:red; border:none; padding:12px 25px; cursor:pointer; font-weight:bold; border-radius:5px; font-size:0.7em;">ACKNOWLEDGE</button>
-                `;
+                // Опит за пускане на звук
+                playDigitalSiren();
             } else {
-                // Ако в JSON-а активността е спряна (false)
-                stopAlarmUI();
+                // Ако статусът в JSON е NORMAL или active: false
+                resetUI();
             }
         })
-        .catch(err => console.log("Чакаме сигнал от Офицера..."));
+        .catch(err => {
+            console.warn("🛰️ Мониторинг: Изчакване на данни от Офицера...");
+        });
 }
 
-// --- СПИРАНЕ НА АЛАРМАТА ---
-function dismissAlert(alertId) {
+/**
+ * ВИЗУАЛЕН ЕФЕКТ И БАНЕР
+ */
+function triggerRedAlertUI(message, alertId) {
+    document.body.classList.add('red-alert-active');
+    
+    let banner = document.getElementById('critical-alert-banner');
+    if (!banner) {
+        banner = document.createElement('div');
+        banner.id = 'critical-alert-banner';
+        // Дизайн на банера
+        banner.style.position = "fixed";
+        banner.style.top = "0";
+        banner.style.left = "0";
+        banner.style.width = "100%";
+        banner.style.background = "linear-gradient(90deg, #ff0000, #990000)";
+        banner.style.color = "white";
+        banner.style.textAlign = "center";
+        banner.style.padding = "25px";
+        banner.style.zIndex = "999999";
+        banner.style.fontWeight = "bold";
+        banner.style.fontSize = "1.8em";
+        banner.style.fontFamily = "Impact, sans-serif";
+        banner.style.borderBottom = "5px solid yellow";
+        banner.style.boxShadow = "0 0 50px rgba(255,0,0,0.8)";
+        banner.style.display = "flex";
+        banner.style.justifyContent = "space-around";
+        banner.style.alignItems = "center";
+        
+        document.body.appendChild(banner);
+    }
+
+    banner.innerHTML = `
+        <div style="animation: blink 1s infinite;">${message}</div>
+        <button onclick="manualDismiss('${alertId}')" 
+                style="padding:15px 30px; background:yellow; color:black; border:none; 
+                       cursor:pointer; font-weight:bold; font-size:0.6em; border-radius:5px;">
+            ПОТВЪРДИ / ACKNOWLEDGE
+        </button>
+    `;
+}
+
+/**
+ * РЪЧНО ЗАГЛУШАВАНЕ
+ */
+window.manualDismiss = function(alertId) {
     lastDismissedId = alertId;
-    stopAlarmUI();
-}
+    resetUI();
+};
 
-function stopAlarmUI() {
+/**
+ * ВРЪЩАНЕ НА НОРМАЛЕН РЕЖИМ
+ */
+function resetUI() {
     document.body.classList.remove('red-alert-active');
-    stopDigitalAlarm(); // Спираме дигиталния звук
+    stopDigitalSiren();
     const banner = document.getElementById('critical-alert-banner');
     if (banner) banner.remove();
 }
 
-// Проверка на всеки 5 секунди за максимална бързина
-setInterval(checkCriticalAlerts, 5000);
+/**
+ * СЪБИТИЯ ЗА ОТПУШВАНЕ НА ЗВУКА
+ * Всеки клик, скрол или докосване по картата ще "активира" аудиото.
+ */
+const interactions = ['mousedown', 'touchstart', 'keydown'];
+interactions.forEach(type => {
+    window.addEventListener(type, () => {
+        initAudioContext();
+    }, { once: false });
+});
 
-// ФАТАЛНО ВАЖНО: Трябва да кликнеш веднъж на картата, за да се отключи AudioContext!
-document.addEventListener('click', function() {
-    if (audioCtx && audioCtx.state === 'suspended') {
-        audioCtx.resume();
-    }
-}, { once: false });
+// СТАРТ НА МОНИТОРИНГА
+console.log("🚀 Системата за ранно предупреждение е заредена.");
+setInterval(checkStatus, 5000); // Проверка на всеки 5 секунди
 
 // ============================================================================
 // 🛡️ SECTION: AUTOMATED SYSTEM INTEGRITY & CACHE CONTROL (v4.5)
