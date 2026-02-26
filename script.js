@@ -1570,3 +1570,186 @@ setInterval(checkCriticalAlerts, 30000);
     }
 
 })();
+
+/** * GLOBAL OPS MAP - STRATEGIC DEPLOYMENT MODULE
+ * VERSION: 1.0.4 [2026-02-27]
+ * FOCUS: AFGHANISTAN-PAKISTAN BORDER CONFLICT
+ */
+
+// --- SECTION 1: ICON DEFINITIONS ---
+// Тук създаваме визуалните стилове за различните видове обекти на картата
+
+// Гореща точка (Пулсираща) - САМО за конфликтите в Афганистан/Пакистан
+const combatHotspotIcon = L.divIcon({
+    className: 'pulsing-hotspot', 
+    iconSize: [14, 14],
+    iconAnchor: [7, 7],
+    popupAnchor: [0, -10],
+    html: '<div class="inner-core"></div>'
+});
+
+// Статичен военен маркер - за логистика, бази и флот
+const navyBaseIcon = L.divIcon({
+    className: 'static-navy-marker',
+    iconSize: [10, 10],
+    iconAnchor: [5, 5],
+    popupAnchor: [0, -5],
+    html: '<div style="background: white; border: 2px solid #0055ff; border-radius: 50%; width: 100%; height: 100%;"></div>'
+});
+
+// Стандартен чекпоинт
+const borderPostIcon = L.divIcon({
+    className: 'static-border-icon',
+    iconSize: [10, 10],
+    iconAnchor: [5, 5],
+    html: '<div style="background: #ffffff; border: 1px solid #333; border-radius: 50%; width: 100%; height: 100%;"></div>'
+});
+
+// --- SECTION 2: LIVE DATA OBJECTS ---
+// Тук са координатите и описанията, които ще се появят на мапа
+
+const activeConflictData = [
+    // АФГАНИСТАН - ПАКИСТАН (ПУЛСИРАЩИ)
+    { 
+        id: "HOT-001",
+        name: "Khost - Barmal Front", 
+        type: "conflict-zone", 
+        lat: 32.5100, 
+        lon: 69.1500, 
+        status: "ACTIVE COMBAT",
+        description: "Heavy artillery exchange. Taliban 203rd Corps advancing towards frontier posts." 
+    },
+    { 
+        id: "HOT-002",
+        name: "Torkham Gateway Pass", 
+        type: "conflict-zone", 
+        lat: 34.1160, 
+        lon: 71.1020, 
+        status: "CLOSED / SHELLING",
+        description: "Major crossing point under fire. Civilian evacuation in progress. High casualties reported." 
+    },
+    { 
+        id: "HOT-003",
+        name: "Nangarhar - Goshta", 
+        type: "conflict-zone", 
+        lat: 34.3500, 
+        lon: 71.1500, 
+        status: "19 POSTS CAPTURED",
+        description: "Taliban forces successfully overran Pakistani Frontier Corps positions. Large weapons seizure." 
+    },
+    { 
+        id: "HOT-004",
+        name: "Kunar - Nari Sector", 
+        type: "conflict-zone", 
+        lat: 35.1500, 
+        lon: 71.5200, 
+        status: "BORDER PENETRATION",
+        description: "Tactical breach of the Durand Line fence. Special forces engagement in high altitude terrain." 
+    },
+    { 
+        id: "HOT-005",
+        name: "Mohmand - Anargi", 
+        type: "conflict-zone", 
+        lat: 34.4500, 
+        lon: 71.2200, 
+        status: "IED STRIKES",
+        description: "Asymmetric warfare operations. Pakistani patrols hit by roadside explosives." 
+    },
+    
+    // ДРУГИ РЕГИОНИ (СТАТИЧНИ - НЕ ПУЛСИРАТ)
+    { 
+        id: "NAV-001",
+        name: "USS Gerald Ford (CVN-78)", 
+        type: "naval-strike", 
+        lat: 34.1200, 
+        lon: 27.4500, 
+        status: "DEPLOYED",
+        description: "Carrier Strike Group 12 holding position in Levantine Basin." 
+    },
+    { 
+        id: "NAV-002",
+        name: "NSA Bahrain (5th Fleet HQ)", 
+        type: "military-ops", 
+        lat: 26.2100, 
+        lon: 50.6000, 
+        status: "HIGH ALERT",
+        description: "Command center operations reduced. Major naval assets relocated to open sea." 
+    },
+    { 
+        id: "CHK-001",
+        name: "Spin Boldak Crossing", 
+        type: "checkpoint", 
+        lat: 30.9160, 
+        lon: 66.4420, 
+        status: "REINFORCED",
+        description: "Southern hub under Taliban control. Significant build-up of technical vehicles." 
+    }
+];
+
+// --- SECTION 3: MAPPING LOGIC ---
+// Тази функция обхожда данните и ги рисува на картата със съответния стил
+
+function syncConflictMap(data) {
+    console.log("LOG: Initiating Map Sync for Global Ops...");
+    
+    data.forEach(point => {
+        let currentIcon;
+        let isPulsing = false;
+
+        // ПРОВЕРКА: Избираме икона според типа
+        switch(point.type) {
+            case "conflict-zone":
+                currentIcon = combatHotspotIcon;
+                isPulsing = true;
+                break;
+            case "naval-strike":
+            case "military-ops":
+                currentIcon = navyBaseIcon;
+                break;
+            case "checkpoint":
+            default:
+                currentIcon = borderPostIcon;
+                break;
+        }
+
+        // Създаваме маркера
+        const marker = L.marker([point.lat, point.lon], { 
+            icon: currentIcon,
+            title: point.name,
+            zIndexOffset: isPulsing ? 1000 : 0 // Слагаме пулсиращите отгоре
+        });
+
+        // Конструктор на Pop-up прозореца
+        const popupBody = `
+            <div style="min-width: 200px; padding: 5px;">
+                <h3 style="margin: 0 0 5px 0; font-size: 14px; color: ${isPulsing ? 'red' : '#0055ff'};">
+                    ${isPulsing ? '⚠ ' : ''}${point.name}
+                </h3>
+                <div style="background: #f0f0f0; padding: 5px; border-radius: 3px; font-weight: bold; margin-bottom: 5px;">
+                    STATUS: ${point.status}
+                </div>
+                <p style="font-size: 12px; margin: 0; line-height: 1.4;">${point.description}</p>
+                <div style="margin-top: 8px; font-size: 10px; color: #888;">
+                    COORDS: ${point.lat.toFixed(4)}, ${point.lon.toFixed(4)}
+                </div>
+            </div>
+        `;
+
+        marker.bindPopup(popupBody);
+        
+        // Добавяме към общия слой (променливата 'map' трябва да е дефинирана в проекта)
+        marker.addTo(map);
+    });
+
+    console.log(`LOG: Map Sync Complete. Successfully added ${data.length} strategic points.`);
+}
+
+// Изпълняваме скрипта след зареждане на DOM
+document.addEventListener("DOMContentLoaded", () => {
+    // Малко закъснение, за да се зареди Leaflet мапа правилно
+    setTimeout(() => {
+        syncConflictMap(activeConflictData);
+    }, 500);
+});
+
+// --- END OF MODULE ---
