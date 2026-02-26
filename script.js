@@ -1,371 +1,4 @@
 /**
- * ============================================================================
- * 🛡️ MASTER SYSTEM WATCHDOG & ERROR RECOVERY SUITE
- * Position: TOP OF SCRIPT.JS (Line 1)
- * ============================================================================
- * Този модул е първата линия на защита. Той следи за стабилността на всички
- * 1500+ реда код и гарантира, че сайтът няма да "умре" сам, докато Шефът спи.
- */
-
-(function() {
-    "use strict";
-
-    // ПАРАМЕТРИ ЗА СИГУРНОСТ
-    const WATCHDOG_CONFIG = {
-        MAX_RETRY_ATTEMPTS: 3,
-        RECOVERY_DELAY: 2000,
-        LOG_STYLE: "background: #800000; color: #ffffff; font-weight: bold; padding: 2px 5px; border-radius: 3px;",
-        CRITICAL_ERRORS: [
-            "Script error",
-            "out of memory",
-            "is not defined",
-            "Cannot read property",
-            "Leaflet not found"
-        ]
-    };
-
-    let errorCount = 0;
-
-    /**
-     * 1. ГЛОБАЛЕН ПРИХВАЩАЧ НА ГРЕШКИ
-     * Следи за всяка запетайка, скоба или логическа грешка в целия скрипт.
-     */
-    window.onerror = function(message, source, lineno, colno, error) {
-        errorCount++;
-        
-        const errorDetail = {
-            msg: message,
-            line: lineno,
-            file: source ? source.split('/').pop() : "unknown"
-        };
-
-        console.log(`%c[WATCHDOG ALERT]`, WATCHDOG_CONFIG.LOG_STYLE, `Error in ${errorDetail.file} at line ${errorDetail.line}: ${errorDetail.msg}`);
-
-        // Проверка дали грешката е критична
-        const isCritical = WATCHDOG_CONFIG.CRITICAL_ERRORS.some(err => message.includes(err));
-
-        if (isCritical || errorCount > 10) {
-            console.warn("🛡️ Сривът е сериозен! Инициирам авариен рестарт за изчистване на паметта...");
-            
-            // Записваме инцидента в sessionStorage, за да знаем след рестарта, че е имало проблем
-            sessionStorage.setItem('last_crash_report', JSON.stringify(errorDetail));
-            
-            // Авариен рестарт
-            setTimeout(() => {
-                window.location.reload(true);
-            }, WATCHDOG_CONFIG.RECOVERY_DELAY);
-        }
-
-        // Връщаме true, за да потиснем стандартното изскачащо съобщение на браузъра
-        return true;
-    };
-
-    /**
-     * 2. МОНИТОРИНГ НА НЕОБРАБОТЕНИ ОБЕЩАНИЯ (Async/Await Protection)
-     * Ако някой fetch (например към conflict.json) увисне, това ще го хване.
-     */
-    window.onunhandledrejection = function(event) {
-        console.warn("%c[ASYNC GUARD]", "color: orange;", "Засечен увиснал процес (Promise):", event.reason);
-        // Не рестартираме веднага, само логваме, освен ако не е фатално
-    };
-
-    /**
-     * 3. ПРОВЕРКА ЗА ЖИЗНЕНОСТ (LIVENESS PROBE)
-     * Тази функция се върти в бекграунда и проверява дали картата е все още "жива".
-     */
-    function performLivenessCheck() {
-        // Проверяваме дали Leaflet обекта (L) съществува
-        if (typeof L === 'undefined') {
-            console.error("❌ КРИТИЧНО: Картата (Leaflet) е изчезнала от паметта!");
-            window.location.reload();
-            return;
-        }
-
-        // Проверяваме за Memory Pressure (само за Chrome/Edge)
-        if (performance && performance.memory) {
-            const memoryLimit = performance.memory.jsHeapSizeLimit;
-            const currentMemory = performance.memory.usedJSHeapSize;
-            
-            if (currentMemory > memoryLimit * 0.9) {
-                console.error("❌ ПРЕДУПРЕЖДЕНИЕ: Паметта е почти пълна (90%+). Чистя кеша...");
-                window.location.reload();
-            }
-        }
-    }
-
-    // Стартираме проверката на всеки 60 секунди
-    setInterval(performLivenessCheck, 60000);
-
-    /**
-     * 4. ПЪРВОНАЧАЛЕН ОТЧЕТ ПРИ ЗАРЕЖДАНЕ
-     */
-    document.addEventListener('DOMContentLoaded', () => {
-        const lastCrash = sessionStorage.getItem('last_crash_report');
-        if (lastCrash) {
-            const data = JSON.parse(lastCrash);
-            console.log("%c[RECOVERY SYSTEM]", "color: #00ff00;", `Системата се възстанови успешно след грешка на ред ${data.line}.`);
-            sessionStorage.removeItem('last_crash_report');
-        }
-        
-        console.log("%c[MASTER GUARD ONLINE]", "color: #00ff00; font-size: 12px; font-weight: bold; border: 1px solid #00ff00; padding: 5px;");
-    });
-
-})();
-
-// ============================================================================
-// END OF MASTER WATCHDOG - CONTINUING WITH MAIN SCRIPT...
-// ============================================================================
-
-/**
- * ============================================================================
- * 🚨 STRATEGIC DEFENSE & ANTI-INTRUSION MODULE - PRO EDITION
- * Version: 2.0.1-SECURE | Status: ACTIVATED | Optimization: Balanced
- * ============================================================================
- * Този скрипт реализира многослойна защита на тактическия интерфейс.
- * Премахната е стандартната блокада на десен бутон по молба на Шефа.
- */
-
-(function() {
-    "use strict";
-
-    // --- КОНФИГУРАЦИЯ НА ПЕРИМЕТЪРА ---
-    const SEC_CONFIG = {
-        LOG_INTRUSIONS: true,
-        MAX_REFRESH_LIMIT: 45,        // Лимит на презареждания преди софт-бан
-        SESSION_ID: 'tactical_auth_' + Math.random().toString(36).substr(2, 9),
-        INTEGRITY_CHECK_MS: 4000,     // Проверка на жизнените показатели на всеки 4 сек
-        HONEYPOT_ENABLED: true        // Подхвърляне на фалшиви данни за хакери
-    };
-
-    /**
-     * 1. КРИПТИРАНО ПРОСЛЕДЯВАНЕ НА СЕСИЯТА
-     * Следим поведението на потребителя, без да разчитаме на прости IP адреси.
-     */
-    const updateSessionSecurity = () => {
-        let behaviorLog = JSON.parse(localStorage.getItem('sys_behavior_log') || '[]');
-        behaviorLog.push({
-            ts: Date.now(),
-            act: 'ping'
-        });
-        
-        // Пазим само последните 20 записа за оптимизация
-        if (behaviorLog.length > 20) behaviorLog.shift();
-        localStorage.setItem('sys_behavior_log', JSON.stringify(behaviorLog));
-    };
-
-    /**
-     * 2. ANTI-CLICKJACKING & PROTOCOL ENFORCEMENT
-     * Гарантираме, че никой не „облича“ сайта ни в негова рамка.
-     */
-    const enforceProtocolSecurity = () => {
-        if (window.location.protocol === 'http:' && !window.location.hostname.includes('localhost')) {
-            window.location.href = window.location.href.replace('http:', 'https:');
-        }
-        
-        if (window.self !== window.top) {
-            console.warn("🚨 [SECURITY] Iframe detection! Redirecting to root...");
-            window.top.location = window.self.location;
-        }
-    };
-
-    /**
-     * 3. CONSOLE PROTECTION & DECEPTION (The "Ghost" logs)
-     * Когато хакер отвори F12, той ще бъде обсипан с фалшиви системни съобщения,
-     * които да го объркат за истинската структура на сайта.
-     */
-    function deployConsoleSmokeScreen() {
-        const warningStyle = "color: #ff0000; font-size: 24px; font-weight: bold; background: #000; padding: 10px; border: 2px solid red;";
-        const infoStyle = "color: #00ff00; font-family: monospace; font-size: 12px;";
-
-        console.log("%c🛑 WARNING: ACCESS IS RESTRICTED", warningStyle);
-        console.log("%c[SYS] Packet tracing started to your IP...", infoStyle);
-        console.log("%c[SYS] Encryption key: 0x" + Math.floor(Math.random()*16777215).toString(16).toUpperCase(), infoStyle);
-        
-        // Фалшив HoneyPot за хакери
-        if (SEC_CONFIG.HONEYPOT_ENABLED) {
-            window._admin_console_access = "restricted_internal_v4";
-            window._internal_database_link = "encrypted_tunnel_active";
-            // Ако хакерът се опита да промени тези променливи, ще знаем
-        }
-    }
-
-    /**
-     * 4. ADVANCED ANTI-DDOS (Page Spam Protection)
-     * Използваме sessionStorage, за да следим за подозрително бързи рефреши.
-     */
-    const validateTrafficBehavior = () => {
-        let loadCount = parseInt(sessionStorage.getItem('sec_load_cycle') || '0');
-        loadCount++;
-        sessionStorage.setItem('sec_load_cycle', loadCount);
-
-        if (loadCount > SEC_CONFIG.MAX_REFRESH_LIMIT) {
-            document.body.innerHTML = `
-                <div style="background:#050505; color:#0f0; height:100vh; display:flex; flex-direction:column; align-items:center; justify-content:center; font-family:monospace; text-shadow: 0 0 5px #0f0;">
-                    <h1 style="border: 1px solid #0f0; padding: 20px;">🛡️ DEFENSE SYSTEM ACTIVATED</h1>
-                    <p style="margin-top: 20px;">Too many requests detected.</p>
-                    <p>Cool-down period initiated. Please wait 60 seconds.</p>
-                    <div style="font-size: 10px; color: #050;">ID: ${SEC_CONFIG.SESSION_ID}</div>
-                </div>
-            `;
-            console.error("Critical: Traffic limit exceeded. Session locked.");
-            window.stop();
-        }
-    };
-
-    /**
-     * 5. SCRIPT & DATA INTEGRITY WATCHER
-     * Следи дали важни обекти (като Leaflet картата) не биват инжектирани
-     * с лош код в реално време.
-     */
-    const runIntegrityAudit = () => {
-        const criticalObjects = ['L', 'map', 'markerData'];
-        criticalObjects.forEach(obj => {
-            if (window[obj] === null) {
-                console.error(`🚨 [AUDIT] Null Reference detected on ${obj}! Possible injection.`);
-            }
-        });
-        
-        // Проверка дали някой не се опитва да подмени нашия Watchdog
-        if (typeof window.onerror !== 'function') {
-            window.location.reload();
-        }
-    };
-
-    /**
-     * 6. BOOTSTRAP DEFENSE LAYER
-     */
-    const initDefenseSystem = () => {
-        console.log("%c🛡️ SECURITY STRATUM 1: OPERATIONAL", "color: #00ff00; font-weight: bold;");
-        
-        enforceProtocolSecurity();
-        validateTrafficBehavior();
-        deployConsoleSmokeScreen();
-        updateSessionSecurity();
-        
-        // Стартиране на постоянния одит
-        setInterval(runIntegrityAudit, SEC_CONFIG.INTEGRITY_CHECK_MS);
-    };
-
-    // Стартиране на защитата според състоянието на документа
-    if (document.readyState === 'complete' || document.readyState === 'interactive') {
-        initDefenseSystem();
-    } else {
-        document.addEventListener('DOMContentLoaded', initDefenseSystem);
-    }
-
-    /**
-     * ------------------------------------------------------------------------
-     * END OF SECURITY ENFORCEMENT MODULE
-     * ------------------------------------------------------------------------
-     */
-})();
-
-/**
- * ============================================================================
- * 🚨 INTELLECTUAL PROPERTY & LOGIC PROTECTION SYSTEM
- * Version: 3.0.4-HARDENED | Status: ACTIVE
- * ============================================================================
- * Този модул защитава твоите 1500 реда код от копиране и "Mirroring".
- */
-
-(function() {
-    "use strict";
-
-    const PROTECT_CONFIG = {
-        MAX_DEBUG_ATTEMPTS: 3,
-        ALLOW_LOCAL: true,
-        ENCRYPTION_SALT: '0xTacticalSecret_',
-        REPORT_URL: 'https://your-api.com/security/report'
-    };
-
-    /**
-     * 1. DOMAIN LOCK (Блокировка по домейн)
-     * Ако някой копира целия ти сайт и го качи на негов сървър, 
-     * кодът ще спре да работи веднага.
-     */
-    const verifyEnvironment = () => {
-        const authorizedHosts = ['github.io', 'localhost', '127.0.0.1', 'global-opss.github.io'];
-        const currentHost = window.location.hostname;
-        
-        let isAuthorized = authorizedHosts.some(host => currentHost.includes(host));
-        
-        if (!isAuthorized) {
-            console.error("%c🚨 UNAUTHORIZED INSTANCE DETECTED", "color:red; font-size:20px; font-weight:bold;");
-            // Унищожаваме интерфейса, за да не видят нищо
-            document.body.innerHTML = "<div style='background:#000;color:#f00;height:100vh;display:flex;align-items:center;justify-content:center;'><h1>[403] LOGIC EXPIRED - UNAUTHORIZED DISTRIBUTION</h1></div>";
-            throw new Error("Security Breach: Code execution blocked on unauthorized host.");
-        }
-    };
-
-    /**
-     * 2. ANTI-DEBUGGER TRAP (Капан за хакери)
-     * Този код прави така, че ако хакерът се опита да използва "Pause" в дебъгера,
-     * за да види как работи логиката ти, браузърът му ще започне да цикли безкрайно.
-     */
-    const deployDebuggerTrap = () => {
-        const trap = function() {
-            (function(a) {
-                return (function(a) {
-                    return Function('Function(arguments[0]+"()")')(a);
-                })(a);
-            })('debugger');
-        };
-        
-        // Стартираме капана периодично
-        setInterval(() => {
-            // trap(); // Активирай само при финална версия, пречи на твоя дебаг!
-        }, 1000);
-    };
-
-    /**
-     * 3. SENSITIVE DATA OBFUSCATOR (Защита на променливите)
-     * Маскираме начина, по който извикваме конфликтните данни.
-     */
-    window._getTacticalPayload = function(key) {
-        if (key !== "FLEET_ALPHA_ACCESS") return null;
-        // Реалната логика е скрита зад този "ключ"
-        return window.markerData; 
-    };
-
-    /**
-     * 4. COPY DETECTION MONITOR
-     * Ако някой се опита да маркира и копира текст от конзолата или страницата,
-     * пращаме фалшиви данни към неговия клипборд.
-     */
-    document.addEventListener('copy', (e) => {
-        const fakeData = " [PROTECTED CONTENT] - Unauthorized copy recorded. IP: " + (Math.random() * 1000).toFixed(0);
-        e.clipboardData.setData('text/plain', fakeData);
-        e.preventDefault();
-        console.warn("%c[SEC] COPY ATTEMPT BLOCKED", "color: orange; font-weight: bold;");
-    });
-
-    /**
-     * 5. LOGIC INTEGRITY BOOTSTRAP
-     */
-    const initHardening = () => {
-        verifyEnvironment();
-        deployDebuggerTrap();
-        
-        // Маскираме имената на функциите в конзолата
-        const originalDir = console.dir;
-        console.dir = function() {
-            console.log("%c[SEC] Object inspection restricted.", "color: gray; font-style: italic;");
-        };
-
-        console.log("%c🛡️ INTELLECTUAL PROPERTY SHIELD: ACTIVE", "color: #00ff00; font-weight: bold;");
-        console.log("%c[INFO] All tactical logic is now domain-locked.", "color: #008800;");
-    };
-
-    // Старт на защитния модул
-    if (document.readyState === 'complete') {
-        initHardening();
-    } else {
-        window.addEventListener('load', initHardening);
-    }
-
-})();
-
-/**
  * =============================================================================
  * GLOBAL CONFLICT DASHBOARD v12.9 - HARDENED BUILD
  * =============================================================================
@@ -1752,183 +1385,62 @@ initializeMilitaryProtocol();
 // КРАЙ НА МОДУЛА. СЕГА САЙТЪТ Е НАПЪЛНО АДАПТИРАН ЗА AI ИНДЕКСИРАНЕ.
 // =============================================================================
 
-Извинявай, шефе! Олях се с кода и ти затрих картата. Разбрах те – искаш само блока за алармата, който да добавиш към твоя работещ скрипт с картата, без да пипаш нищо друго.
+let alarmAudio = new Audio('alert.mp3');
+alarmAudio.loop = true;
+let lastDismissedId = null; // Тук ще пазим последната спряна аларма
 
-Ето ти чистата секция за алармата (200+ реда със защити и коментари), която да поставиш СЛЕД кода за картата.
-
-JavaScript
-// ==========================================================
-// СЕКЦИЯ: СИСТЕМА ЗА АУДИО ВИЗУАЛНА ТРЕВОГА "ВАХТЕН ОФИЦЕР"
-// ==========================================================
-
-// Глобални обекти за дигиталната сирена
-let audioCtx = null;
-let oscillator = null;
-let gainNode = null;
-let lastDismissedId = null;
-let alarmIsRunning = false;
-let pulseInterval = null;
-
-/**
- * Инициализира AudioContext – критично за заобикаляне на 
- * блокировките на браузъра. Извиква се при клик върху картата.
- */
-function initAudioContext() {
-    try {
-        if (!audioCtx) {
-            audioCtx = new (window.AudioContext || window.webkitAudioContext)();
-            console.log("📡 Аудио ядрото е активирано.");
-        }
-        if (audioCtx.state === 'suspended') {
-            audioCtx.resume();
-            console.log("🔊 Аудиото е събудено.");
-        }
-    } catch (e) {
-        console.error("Грешка в аудио подсистемата:", e);
-    }
-}
-
-/**
- * Генерира военна сирена чрез Web Audio API. 
- * Не изисква външни MP3 файлове.
- */
-function playDigitalSiren() {
-    if (alarmIsRunning) return; // Предотвратява дублиране на звука
-    
-    initAudioContext(); // Подсигурява захранването на звука
-    if (!audioCtx) return;
-
-    alarmIsRunning = true;
-    oscillator = audioCtx.createOscillator();
-    gainNode = audioCtx.createGain();
-
-    // Тип на вълната: Square дава остър, пронизващ военен тон
-    oscillator.type = 'square'; 
-    oscillator.frequency.setValueAtTime(440, audioCtx.currentTime);
-    
-    // Регулиране на силата (0.1 е стандарт за безопасно слушане)
-    gainNode.gain.setValueAtTime(0.1, audioCtx.currentTime);
-    
-    oscillator.connect(gainNode);
-    gainNode.connect(audioCtx.destination);
-    
-    oscillator.start();
-
-    // Модулация на честотата (виене на сирената)
-    pulseInterval = setInterval(() => {
-        if (oscillator && audioCtx) {
-            let now = audioCtx.currentTime;
-            // Превключва между 440Hz и 880Hz за ефект на тревога
-            let targetFreq = oscillator.frequency.value > 600 ? 440 : 880;
-            oscillator.frequency.exponentialRampToValueAtTime(targetFreq, now + 0.7);
-        }
-    }, 1000);
-
-    console.log("🚨 СИРЕНАТА Е ВКЛЮЧЕНА!");
-}
-
-/**
- * Безопасно спиране на всички аудио осцилатори и филтри.
- */
-function stopDigitalSiren() {
-    if (oscillator) {
-        try {
-            oscillator.stop();
-            oscillator.disconnect();
-        } catch (e) {}
-        oscillator = null;
-    }
-    if (gainNode) {
-        gainNode.disconnect();
-        gainNode = null;
-    }
-    if (pulseInterval) {
-        clearInterval(pulseInterval);
-        pulseInterval = null;
-    }
-    alarmIsRunning = false;
-    console.log("🔇 Сирената е деактивирана.");
-}
-
-/**
- * Основен цикъл за мониторинг. Проверява JSON файла за промени.
- * Използва Cache-Buster за избягване на стари данни.
- */
 function checkCriticalAlerts() {
-    // Взимаме данните с уникален параметър за време
-    fetch('critical_alerts.json?t=' + Date.now())
-        .then(response => {
-            if (!response.ok) throw new Error("JSON не е намерен.");
-            return response.json();
-        })
-        .then(data => {
-            // Проверка на флага active от JSON обекта
-            if (data && data.active === true) {
-                const currentId = data.timestamp || "alert-default";
+    fetch('critical_alerts.json?t=' + new Date().getTime())
+        .then(response => response.json())
+        .then(alerts => {
+            if (alerts && alerts.length > 0) {
+                const currentAlert = alerts[0];
 
-                // Ако потребителят вече е натиснал бутона за тази новина
-                if (currentId === lastDismissedId) return;
+                // ПРОВЕРКА: Ако това е същата аларма, която току-що спряхме - не прави нищо
+                if (currentAlert.id === lastDismissedId) {
+                    return; 
+                }
 
-                // Визуална промяна на интерфейса
-                document.body.classList.add('red-alert-active');
-                
-                // Стартиране на звука
-                playDigitalSiren();
-
-                // Динамично създаване на банера за новини
+                const body = document.body;
                 let banner = document.getElementById('critical-alert-banner');
+
+                body.classList.add('red-alert-active');
+                alarmAudio.play().catch(e => {});
+
                 if (!banner) {
                     banner = document.createElement('div');
                     banner.id = 'critical-alert-banner';
-                    // Директно стилизиране за гарантирана видимост
-                    banner.style.cssText = "position:fixed; top:0; left:0; width:100%; background:#ff0000; color:#fff; text-align:center; padding:25px; z-index:999999; font-weight:bold; font-size:1.7em; border-bottom:4px solid #fff; display:flex; justify-content:space-between; align-items:center; box-shadow:0 0 30px rgba(0,0,0,0.5);";
+                    banner.style = "position:fixed; top:0; width:100%; background:red; color:white; text-align:center; padding:15px; z-index:9999; font-weight:bold; font-family:monospace; font-size:1.2em; border-bottom:3px solid white; display:flex; justify-content:space-between; align-items:center;";
                     document.body.appendChild(banner);
                 }
                 
                 banner.innerHTML = `
-                    <div style="flex-grow:1; text-transform:uppercase;">${data.breaking_news}</div>
-                    <button onclick="dismissManualAlert('${currentId}')" style="margin-left:20px; padding:15px; background:#fff; color:#ff0000; border:none; cursor:pointer; font-weight:bold; border-radius:5px;">ACKNOWLEDGE</button>
+                    <span style="margin-left:20px;">🚨 CRITICAL: ${currentAlert.title}</span>
+                    <button onclick="dismissAlert('${currentAlert.id}')" style="margin-right:20px; background:white; color:red; border:none; padding:5px 15px; cursor:pointer; font-weight:bold; border-radius:3px;">ACKNOWLEDGE & MUTE</button>
                 `;
             } else {
-                // Ако новината е спряна в JSON-а
-                clearAlertState();
+                // Ако файлът е празен, нулираме паметта за последната аларма
+                lastDismissedId = null;
+                stopAlarmUI();
             }
-        })
-        .catch(err => console.warn("🛰️ Очаква се сигнал от Вахтения Офицер..."));
+        });
 }
 
-/**
- * Спира алармата при натискане на бутона "ACKNOWLEDGE"
- */
-window.dismissManualAlert = function(alertId) {
-    lastDismissedId = alertId;
-    clearAlertState();
-};
+// Нова функция за "интелигентно" спиране
+function dismissAlert(alertId) {
+    lastDismissedId = alertId; // Запомни, че тази вече не я искаме
+    stopAlarmUI();
+}
 
-/**
- * Чисти интерфейса и спира звука
- */
-function clearAlertState() {
+function stopAlarmUI() {
     document.body.classList.remove('red-alert-active');
-    stopDigitalSiren();
+    alarmAudio.pause();
+    alarmAudio.currentTime = 0;
     const banner = document.getElementById('critical-alert-banner');
     if (banner) banner.remove();
 }
 
-// Стартиране на автоматичната проверка на всеки 5 секунди
-setInterval(checkCriticalAlerts, 5000);
-
-/**
- * РЕШАВАЩО: Прихващаме всеки клик върху картата (map е твоят обект), 
- * за да "отпушим" аудиото на браузъра.
- */
-if (typeof map !== 'undefined') {
-    map.on('click', function() {
-        initAudioContext();
-        console.log("🔊 Аудио каналът е потвърден от потребителя.");
-    });
-}
-// ==========================================================
+setInterval(checkCriticalAlerts, 30000);
 
 // ============================================================================
 // 🛡️ SECTION: AUTOMATED SYSTEM INTEGRITY & CACHE CONTROL (v4.5)
@@ -2051,6 +1563,3 @@ if (typeof map !== 'undefined') {
     }
 
 })();
-// ============================================================================
-// END OF SYSTEM INTEGRITY SECTION
-// ============================================================================
