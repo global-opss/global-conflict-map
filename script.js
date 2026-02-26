@@ -1385,176 +1385,64 @@ initializeMilitaryProtocol();
 // КРАЙ НА МОДУЛА. СЕГА САЙТЪТ Е НАПЪЛНО АДАПТИРАН ЗА AI ИНДЕКСИРАНЕ.
 // =============================================================================
 
-/**
- * ==========================================================
- * ГЕОПОЛИТИЧЕСКА МОНИТОРИНГОВА СИСТЕМА - "ВАХТЕН ОФИЦЕР"
- * ВЕРСИЯ: СНОЩНИЯТ BACKUP (БЕЗ MP3 ФАЙЛОВЕ)
- * ==========================================================
- */
+p', { zoomControl: false }).setView([34.0, 70.0], 5);
+    L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png').addTo(map);
 
-// --- ГЛОБАЛНИ КОНСТАНТИ И ОБЕКТИ ---
-let audioCtx = null;
-let oscillator = null;
-let gainNode = null;
-let sirenInterval = null;
-let lastDismissedId = null;
+    const alertBanner = document.getElementById('breaking-news-banner');
+    const alarmSound = new Audio('alert.mp3'); // Твоят файл за аларма
 
-/**
- * ГЕНЕРАТОР НА СИРЕНА (Web Audio API)
- * Генерира звука дигитално, за да не търси липсващи mp3 файлове.
- */
-function startDigitalAlarm() {
-    if (oscillator) return; // Вече свири
+    function checkManualAlerts() {
+        // Четем директно файла, който ми показа
+        fetch('conflicts.json?nocache=' + new Date().getTime())
+            .then(res => res.json())
+            .then(data => {
+                const manualEntry = data[0]; // Взимаме първия обект от списъка ти
 
-    try {
-        // Инициализация на аудио контекста
-        audioCtx = new (window.AudioContext || window.webkitAudioContext)();
-        
-        // Създаване на осцилатор и контрол на силата
-        oscillator = audioCtx.createOscillator();
-        gainNode = audioCtx.createGain();
+                if (manualEntry && manualEntry.active === true) {
+                    // 1. ПОКАЗВАМЕ БАНЕРА ОТ КАРТИНКАТА ТИ
+                    if (alertBanner) {
+                        alertBanner.style.display = 'block';
+                        alertBanner.innerHTML = `
+                            <div style="background: #ff0000; color: white; padding: 15px; display: flex; justify-content: space-between; align-items: center; border-bottom: 3px solid black;">
+                                <div style="font-weight: bold; font-family: monospace; font-size: 18px;">
+                                    🚨 🚨 ${manualEntry.breaking_news || manualEntry.title}
+                                </div>
+                                <button onclick="acknowledgeAlert()" style="background: white; color: red; border: none; padding: 10px 20px; font-weight: bold; cursor: pointer; border-radius: 4px;">
+                                    OK / ACKNOWLEDGE
+                                </button>
+                            </div>
+                        `;
+                    }
 
-        // Square wave за остър, военен звук
-        oscillator.type = 'square';
-        oscillator.frequency.setValueAtTime(440, audioCtx.currentTime);
-        
-        // Сила на звука (0.1 е оптимално)
-        gainNode.gain.setValueAtTime(0.1, audioCtx.currentTime);
+                    // 2. ПУСКАМЕ АЛАРМАТА (Ако ти си я пуснал в JSON-а)
+                    if (manualEntry.sound_alarm === true) {
+                        alarmSound.play().catch(e => console.log("Waiting for user interaction to play sound"));
+                    }
 
-        oscillator.connect(gainNode);
-        gainNode.connect(audioCtx.destination);
-        
-        oscillator.start();
-
-        // Модулация: Виене на сирената (нагоре-надолу на всяка секунда)
-        sirenInterval = setInterval(() => {
-            if (oscillator && audioCtx) {
-                let currentFreq = oscillator.frequency.value;
-                let nextFreq = currentFreq > 600 ? 440 : 880;
-                oscillator.frequency.exponentialRampToValueAtTime(nextFreq, audioCtx.currentTime + 0.8);
-            }
-        }, 1000);
-
-        console.log("🚨 СИРЕНАТА Е АКТИВИРАНА УСПЕШНО!");
-    } catch (e) {
-        console.error("Грешка при пускане на звука:", e);
-    }
-}
-
-/**
- * СПИРАНЕ НА СИРЕНАТА
- */
-function stopDigitalAlarm() {
-    if (oscillator) {
-        oscillator.stop();
-        oscillator.disconnect();
-        oscillator = null;
-    }
-    if (gainNode) {
-        gainNode.disconnect();
-        gainNode = null;
-    }
-    if (sirenInterval) {
-        clearInterval(sirenInterval);
-        sirenInterval = null;
-    }
-    console.log("🔇 Звукът е деактивиран.");
-}
-
-/**
- * ОСНОВНА ФУНКЦИЯ ЗА МОНИТОРИНГ (ТВОЯТ BACKUP)
- */
-function checkCriticalAlerts() {
-    // Използваме timestamp за избягване на кеширането
-    const url = 'critical_alerts.json?t=' + new Date().getTime();
-
-    fetch(url)
-        .then(response => {
-            if (!response.ok) throw new Error("Файлът не е достъпен.");
-            return response.json();
-        })
-        .then(data => {
-            // Адаптация: Проверяваме дали е масив (снощния формат) или обект (днешния)
-            let alerts = Array.isArray(data) ? data : [data];
-
-            if (alerts && alerts.length > 0 && alerts[0].active === true) {
-                const currentAlert = alerts[0];
-
-                // ПРОВЕРКА: Ако потребителят е натиснал бутона за тази новина
-                if (currentAlert.timestamp === lastDismissedId || currentAlert.id === lastDismissedId) {
-                    return;
+                    // 3. ФОКУСИРАМЕ КАРТАТА (Ако е спешно)
+                    if (manualEntry.alert_level === "CRITICAL") {
+                        document.body.style.border = "5px solid red";
+                    }
+                } else {
+                    // Ако 'active' е false - махаме всичко
+                    if (alertBanner) alertBanner.style.display = 'none';
+                    document.body.style.border = "none";
+                    alarmSound.pause();
+                    alarmSound.currentTime = 0;
                 }
+            });
+    }
 
-                // Активиране на визуализациите
-                document.body.classList.add('red-alert-active');
-                
-                // СТАРТ НА ДИГИТАЛНИЯ ЗВУК (БЕЗ MP3!)
-                startDigitalAlarm();
+    // Функция за затваряне на банера ръчно
+    window.acknowledgeAlert = function() {
+        if (alertBanner) alertBanner.style.display = 'none';
+        alarmSound.pause();
+    };
 
-                // Управление на банера
-                let banner = document.getElementById('critical-alert-banner');
-                if (!banner) {
-                    banner = document.createElement('div');
-                    banner.id = 'critical-alert-banner';
-                    banner.style = "position:fixed; top:0; width:100%; background:red; color:white; text-align:center; padding:20px; z-index:99999; font-weight:bold; font-family:monospace; font-size:1.4em; border-bottom:4px solid white; display:flex; justify-content:space-between; align-items:center; box-shadow: 0 5px 20px rgba(0,0,0,0.5);";
-                    document.body.appendChild(banner);
-                }
-                
-                // Поддръжка и на title (снощи), и на breaking_news (днес)
-                let message = currentAlert.title || currentAlert.breaking_news || "CRITICAL EVENT DETECTED";
-                let alertId = currentAlert.timestamp || currentAlert.id || "1";
-
-                banner.innerHTML = `
-                    <span style="margin-left:20px;">🚨 ${message}</span>
-                    <button onclick="dismissAlert('${alertId}')" style="margin-right:20px; background:white; color:red; border:none; padding:10px 20px; cursor:pointer; font-weight:bold; border-radius:5px; text-transform:uppercase;">OK / ACKNOWLEDGE</button>
-                `;
-            } else {
-                // Ако новината не е активна
-                stopAlarmUI();
-            }
-        })
-        .catch(e => {
-            console.warn("🛰️ Мониторинг: Очаква се сигнал...");
-        });
-}
-
-/**
- * СПИРАНЕ ПРИ ПОТВЪРЖДЕНИЕ
- */
-window.dismissAlert = function(alertId) {
-    lastDismissedId = alertId;
-    stopAlarmUI();
+    // Проверка на всеки 5 секунди за твоите ръчни промени
+    setInterval(checkManualAlerts, 5000);
+    checkManualAlerts();
 };
-
-/**
- * ЧИСТЕНЕ НА ИНТЕРФЕЙСА
- */
-function stopAlarmUI() {
-    document.body.classList.remove('red-alert-active');
-    stopDigitalAlarm();
-    const banner = document.getElementById('critical-alert-banner');
-    if (banner) banner.remove();
-}
-
-/**
- * ИНИЦИАЛИЗАЦИЯ
- * Проверка на всеки 5 секунди (30 беше твърде бавно!)
- */
-setInterval(checkCriticalAlerts, 5000);
-
-/**
- * ВАЖНО: Отключване на аудиото при първия клик по картата или сайта.
- */
-const interactions = ['mousedown', 'click', 'touchstart'];
-interactions.forEach(event => {
-    window.addEventListener(event, () => {
-        if (audioCtx && audioCtx.state === 'suspended') {
-            audioCtx.resume();
-        }
-    }, { once: false });
-});
-
-console.log("⚓ Вахтеният Офицер е на поста си. Системата е готова.");
 
 // ============================================================================
 // 🛡️ SECTION: AUTOMATED SYSTEM INTEGRITY & CACHE CONTROL (v4.5)
