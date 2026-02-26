@@ -210,21 +210,19 @@ iframe {
     z-index: 1000 !important;
 }
 
-/* 3. ПРАВИМ ИКОНКИТЕ ВЪТРЕ В КОНТЕЙНЕРА ДА СЛЕДВАТ АНИМАЦИЯТА */
-.pulsing-carrier img {
-    pointer-events: none; /* За да не пречат на клика върху маркера */
+/* ==========================================================
+   GLOBAL OPS - MASTER VISUAL STYLES
+   ========================================================== */
+
+/* 1. ГЛОБАЛНИ ФИКСОВЕ ЗА MAP ICONS */
+/* Премахва системните бели квадрати на Leaflet под твоите икони */
+.leaflet-div-icon, .custom-marker-container {
+    background: transparent !important;
+    border: none !important;
 }
 
-@keyframes pulse-red {
-    0% { box-shadow: inset 0 0 50px rgba(255, 0, 0, 0.4); }
-    50% { box-shadow: inset 0 0 150px rgba(255, 0, 0, 0.8); }
-    100% { box-shadow: inset 0 0 50px rgba(255, 0, 0, 0.4); }
-}
-
-.red-alert-active {
-    animation: pulse-red 2s infinite;
-    border: 4px solid red !important;
-}
+/* 2. АНИМАЦИЯ: COMBAT PULSE (За Афганистан и Пакистан) */
+/* Ефект: Пулсираща червена точка с разширяваща се сянка */
 @keyframes combat-pulse {
   0% {
     transform: scale(0.9);
@@ -240,12 +238,50 @@ iframe {
   }
 }
 
-/* Прилагаме го само за горещите точки */
 .pulsing-hotspot {
-  background: #ff0000;
-  border-radius: 50%;
-  width: 12px;
-  height: 12px;
-  border: 2px solid white;
-  animation: combat-pulse 1.5s infinite;
+  background: #ff0000 !important;
+  border-radius: 50% !important;
+  width: 12px !important;
+  height: 12px !important;
+  border: 2px solid white !important;
+  animation: combat-pulse 1.5s infinite !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000 !important;
 }
+
+/* 3. АНИМАЦИЯ: CARRIER GLOW (За самолетоносачите и флота) */
+/* Ефект: Свиване/разширяване със златист блясък */
+@keyframes pulse-animation {
+    0% { transform: scale(1); opacity: 1; }
+    50% { transform: scale(1.2); opacity: 0.8; }
+    100% { transform: scale(1); opacity: 1; }
+}
+
+.pulsing-carrier {
+    animation: pulse-animation 2s infinite ease-in-out !important;
+    filter: drop-shadow(0 0 8px rgba(255, 255, 0, 0.9)) !important;
+    z-index: 500 !important;
+}
+
+/* 4. АНИМАЦИЯ: RED ALERT (За целия екран/рамка при критични новини) */
+@keyframes pulse-red {
+    0% { box-shadow: inset 0 0 50px rgba(255, 0, 0, 0.4); }
+    50% { box-shadow: inset 0 0 150px rgba(255, 0, 0, 0.8); }
+    100% { box-shadow: inset 0 0 50px rgba(255, 0, 0, 0.4); }
+}
+
+.red-alert-active {
+    animation: pulse-red 2s infinite !important;
+    border: 4px solid red !important;
+}
+
+/* 5. ПОМОЩНИ КЛАСОВЕ */
+.pulsing-carrier img {
+    pointer-events: none; /* Предотвратява бъгове при клик върху иконата */
+}
+
+/* ==========================================================
+   КРАЙ НА CSS МОДУЛА
+   ========================================================== */
