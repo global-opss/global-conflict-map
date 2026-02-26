@@ -319,7 +319,14 @@ fetch('https://raw.githubusercontent.com/datasets/geo-boundaries-world-110m/mast
         { name: "Paktia - Dand-e-Patan", type: "military-ops", lat: 33.7800, lon: 69.9500, description: "Border Fence: Tactical strikes and infantry movement detected on the Durand Line." },
         { name: "Torkham Gateway Pass", type: "danger-zone", lat: 34.1160, lon: 71.1020, description: "Strategic Pass: CLOSED. Direct clashes between IEA and Pakistan Frontier Corps." },
         { name: "Nangarhar - Goshta", type: "conflict-zone", lat: 34.3500, lon: 71.1500, description: "Northern Sector: 15 outposts reported captured by Afghan forces this morning." },
-        { name: "Kunar - Nari Sector", type: "military-ops", lat: 35.1500, lon: 71.5200, description: "High Altitude Front: Escalation at the border fence with heavy shelling reported." }
+        { name: "Kunar - Nari Sector", type: "military-ops", lat: 35.1500, lon: 71.5200, description: "High Altitude Front: Escalation at the border fence with heavy shelling reported." },
+        { name: "Spin Boldak Crossing", type: "checkpoint", lat: 30.9160, lon: 66.4420, description: "Southern Hub: High tension, Taliban reinforcements arriving at the gate." },
+        { name: "Mohmand - Anargi Sector", type: "conflict-zone", lat: 34.4500, lon: 71.2200, description: "Frontier Incursion: Multiple IED strikes against Pakistani border patrols." },
+        { name: "Bajaur - Salarzai", type: "military-ops", lat: 34.8500, lon: 71.4500, description: "Cross-border Shelling: Heavy artillery exchange reported in the valley." },
+        { name: "Khyber - Landi Kotal", type: "danger-zone", lat: 34.1000, lon: 71.1400, description: "Supply Route: Blockaded by Pakistani military. Convoy movement halted." },
+        { name: "NSA Bahrain Base", type: "military-ops", lat: 26.2100, lon: 50.6000, description: "US 5th Fleet HQ: Essential-only staff. Major naval assets moved to Gulf of Oman." },
+        { name: "Strait of Hormuz", type: "danger-zone", lat: 26.5600, lon: 56.2500, description: "Naval Chokepoint: IRGC fast boats shadowed by USS Abraham Lincoln." },
+        { name: "Levantine Basin (Ford)", type: "military-ops", lat: 34.1200, lon: 27.4500, description: "Strike Position: USS Gerald Ford Carrier Strike Group on high alert." }
     ];
 // --- СЕКЦИЯ: ВРЕДНИ ЗОНИ (ОБХВАТ НА УДАР) ---
 strategicAssets.forEach(asset => {
