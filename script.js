@@ -680,7 +680,7 @@ fetch('https://raw.githubusercontent.com/datasets/geo-boundaries-world-110m/mast
         { name: "HS Psara", type: "nato-naval", lat: 34.1000, lon: 34.6000, description: "Hellenic Navy Hydra-class frigate. Deployed under NATO Standing Maritime Group 2 (SNMG2)." },
         { name: "TCG Anadolu", type: "nato-naval", lat: 35.8500, lon: 32.5000, description: "Turkish Navy Amphibious Assault Ship. Operating in the Eastern Mediterranean corridor." },
         { name: "FGS Frankfurt am Main", type: "nato-naval", lat: 34.6500, lon: 33.1500, description: "German Navy Berlin-class replenishment ship. Providing logistics for the NATO fleet off Cyprus." },
-        { name: "U.S. 5th Fleet Strike Group", type: "us-naval", lat: 25.2500, lon: 52.4500, description: "NSA Bahrain Main Force. Assets: 4 Arleigh Burke-class Destroyers (DDG-51, DDG-67, DDG-111, DDG-112), 2 Littoral Combat Ships (LCS), 1 Wasp-class Amphibious Assault Ship, and USS Lewis B. Puller (ESB-3). Status: EMERGENCY SORTIE - Units dispersing to open waters due to high alert." },
+        { name: "U.S. 5th Fleet Strike Group", type: "us-naval", lat: 26.208, lon: 50.608, description: "NSA Bahrain Main Force. Assets: 4 Arleigh Burke-class Destroyers (DDG-51, DDG-67, DDG-111, DDG-112), 2 Littoral Combat Ships (LCS), 1 Wasp-class Amphibious Assault Ship, and USS Lewis B. Puller (ESB-3). Status: EMERGENCY SORTIE - Units dispersing to open waters due to high alert." },
     ];
 // --- СЕКЦИЯ: ВРЕДНИ ЗОНИ (ОБХВАТ НА УДАР) ---
 strategicAssets.forEach(asset => {
