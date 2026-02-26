@@ -1559,91 +1559,93 @@ setInterval(checkCriticalAlerts, 30000);
 
 })();
 
-/** * GLOBAL OPS MAP - STRATEGIC DEPLOYMENT MODULE
- * VERSION: 1.0.4 [2026-02-27]
- * FOCUS: AFGHANISTAN-PAKISTAN BORDER CONFLICT
- */
-
-// --- SECTION 1: ICON DEFINITIONS ---
-// Тук създаваме визуалните стилове за различните видове обекти на картата
-
-// Гореща точка (Пулсираща) - САМО за конфликтите в Афганистан/Пакистан
-const combatHotspotIcon = L.divIcon({
-    className: 'pulsing-hotspot', 
-    iconSize: [14, 14],
-    iconAnchor: [7, 7],
-    popupAnchor: [0, -10],
-    html: '<div class="inner-core"></div>'
-});
-
-// Статичен военен маркер - за логистика, бази и флот
-const navyBaseIcon = L.divIcon({
-    className: 'static-navy-marker',
+PostIcon = L.divIcon({
+    className: 'static-marker-fix',
     iconSize: [10, 10],
     iconAnchor: [5, 5],
-    popupAnchor: [0, -5],
-    html: '<div style="background: white; border: 2px solid #0055ff; border-radius: 50%; width: 100%; height: 100%;"></div>'
+    html: '<div style="background: white; border: 1px solid black; border-radius: 50%; width: 100%; height: 100%;"></div>'
 });
 
-// Стандартен чекпоинт
-const borderPostIcon = L.divIcon({
-    className: 'static-border-icon',
-    iconSize: [10, 10],
-    iconAnchor: [5, 5],
-    html: '<div style="background: #ffffff; border: 1px solid #333; border-radius: 50%; width: 100%; height: 100%;"></div>'
-});
+// --- 2. ПЪЛНА БАЗА ДАННИ (ОТ ВСИЧКИ СНИМКИ) ---
 
-/**
- * GLOBAL OPS - FINAL SYNC MODULE
- * Всички точки от снимките са включени тук.
- */
-
-// Икони
-const hotIcon = L.divIcon({ className: 'pulsing-hotspot', iconSize: [12, 12], iconAnchor: [6, 6] });
-const regIcon = L.divIcon({ 
-    className: 'static-marker', 
-    iconSize: [10, 10], 
-    html: '<div style="background:white; border:2px solid #333; border-radius:50%; width:100%; height:100%;"></div>' 
-});
-
-// Пълен списък от твоите данни (image_51b69f.png)
-const allPoints = [
-    { name: "Spin Boldak Crossing", type: "conflict-zone", lat: 30.9580, lon: 66.4350, desc: "Southern Sector: High alert." },
-    { name: "Khost - Barmal Front", type: "conflict-zone", lat: 32.5100, lon: 69.1500, desc: "Central Sector: Heavy clashes." },
-    { name: "Paktia - Dand-e-Patan", type: "military-ops", lat: 33.7800, lon: 69.9500, desc: "Border Fence: Tactical breach." },
-    { name: "Torkham Gateway Pass", type: "conflict-zone", lat: 34.1160, lon: 71.1020, desc: "Strategic Pass: CLOSED." },
-    { name: "Nangarhar - Goshta", type: "conflict-zone", lat: 34.3500, lon: 71.1500, desc: "Northern Sector: 15+ posts seized." },
-    { name: "Kunar - Nari Sector", type: "military-ops", lat: 35.1500, lon: 71.5200, desc: "High Altitude Front: Shelling." },
-    { name: "Mohmand - Anargi Sector", type: "conflict-zone", lat: 34.4500, lon: 71.2200, desc: "Frontier Incursion." },
-    { name: "Bajaur - Salarzai", type: "military-ops", lat: 34.8500, lon: 71.4500, desc: "Cross-border Shelling." },
-    { name: "Khyber - Landi Kotal", type: "conflict-zone", lat: 34.1000, lon: 71.1400, desc: "Supply Route: Blockaded." },
-    { name: "NSA Bahrain Base", type: "military-ops", lat: 26.2100, lon: 50.6000, desc: "US 5th Fleet HQ: Essential staff." },
-    { name: "Strait of Hormuz", type: "military-ops", lat: 26.5600, lon: 56.2500, desc: "Naval Chokepoint Monitoring." },
-    { name: "Levantine Basin (Ford)", type: "military-ops", lat: 34.1200, lon: 27.4500, desc: "USS Gerald Ford on station." }
+const tacticalData = [
+    // АФГАНИСТАН И ПАКИСТАН (ГОРЕЩИ ТОЧКИ)
+    { id: 1, name: "Spin Boldak Crossing", type: "conflict-zone", lat: 30.9580, lon: 66.4350, status: "CRITICAL", desc: "Southern Sector: High alert. Taliban reinforcements." },
+    { id: 2, name: "Khost - Barmal Front", type: "conflict-zone", lat: 32.5100, lon: 69.1500, status: "ACTIVE", desc: "Central Sector: Heavy clashes, artillery fire." },
+    { id: 3, name: "Paktia - Dand-e-Patan", type: "military-ops", lat: 33.7800, lon: 69.9500, status: "BREACHED", desc: "Border Fence: Tactical breach reported." },
+    { id: 4, name: "Torkham Gateway Pass", type: "conflict-zone", lat: 34.1160, lon: 71.1020, status: "CLOSED", desc: "Strategic Pass: Closed due to shelling." },
+    { id: 5, name: "Nangarhar - Goshta", type: "conflict-zone", lat: 34.3500, lon: 71.1500, status: "OVERRUN", desc: "Northern Sector: 15+ posts seized by Taliban." },
+    { id: 6, name: "Kunar - Nari Sector", type: "military-ops", lat: 35.1500, lon: 71.5200, status: "SHELLING", desc: "High Altitude Front: Long-range shelling." },
+    { id: 7, name: "Mohmand - Anargi Sector", type: "conflict-zone", lat: 34.4500, lon: 71.2200, status: "ENGAGED", desc: "Frontier Incursion: Multiple IED strikes." },
+    { id: 8, name: "Bajaur - Salarzai", type: "military-ops", lat: 34.8500, lon: 71.4500, status: "BATTLE", desc: "Cross-border shelling reported." },
+    { id: 9, name: "Khyber - Landi Kotal", type: "conflict-zone", lat: 34.1000, lon: 71.1400, status: "BLOCKED", desc: "Supply Route: Blockaded by PAK military." },
+    
+    // СТРАТЕГИЧЕСКИ И НАВАЛНИ ТОЧКИ
+    { id: 10, name: "NSA Bahrain Base", type: "military-ops", lat: 26.2100, lon: 50.6000, status: "ALERT", desc: "US 5th Fleet HQ: High alert status." },
+    { id: 11, name: "Strait of Hormuz", type: "danger-zone", lat: 26.5600, lon: 56.2500, status: "WATCH", desc: "Naval Chokepoint Monitoring." },
+    { id: 12, name: "Levantine Basin (Ford)", type: "naval-unit", lat: 34.1200, lon: 27.4500, status: "DEPLOYED", desc: "USS Gerald Ford Carrier Group." }
 ];
 
-// Функция за изчертаване
-function refreshMapMarkers() {
-    allPoints.forEach(p => {
-        // Проверка: ако е conflict-zone, даваме пулсиращата икона
-        const iconToUse = (p.type === "conflict-zone") ? hotIcon : regIcon;
-        
-        const m = L.marker([p.lat, p.lon], { icon: iconToUse });
-        
-        m.bindPopup(`
-            <div style="background:#111; color:#fff; padding:10px; border-radius:5px; border-left: 3px solid red;">
-                <b style="color:red; font-size:14px;">${p.name}</b><br>
-                <small>${p.desc}</small><br>
-                <code style="font-size:10px; color:#888;">${p.lat}, ${p.lon}</code>
-            </div>
-        `);
-        
-        m.addTo(map);
+// --- 3. ФУНКЦИЯ ЗА РИСУВАНЕ СЪС ЗАЩИТА ---
+
+function deployMarkers() {
+    console.log("OSINT: Започваме разгръщане на маркерите...");
+    
+    // Проверка дали картата съществува
+    if (typeof map === 'undefined') {
+        console.error("ГРЕШКА: Обектът 'map' не е намерен! Провери дали инициализацията на Leaflet е по-нагоре.");
+        return;
+    }
+
+    tacticalData.forEach(point => {
+        try {
+            let selectedIcon;
+            let zIdx = 100;
+
+            // Логика за избор на икона
+            if (point.type === "conflict-zone") {
+                selectedIcon = combatIcon;
+                zIdx = 1000;
+            } else if (point.type === "naval-unit" || point.type === "military-ops") {
+                selectedIcon = navalIcon;
+                zIdx = 500;
+            } else {
+                selectedIcon = basicPostIcon;
+            }
+
+            // Създаване и добавяне на маркера
+            const m = L.marker([point.lat, point.lon], { 
+                icon: selectedIcon,
+                zIndexOffset: zIdx 
+            });
+
+            // Дизайн на Pop-up (съобразен с твоя Glassmorphism стил)
+            const popupHtml = `
+                <div style="background: rgba(0,0,0,0.8); color: white; padding: 10px; border-radius: 8px; border: 1px solid #444; min-width: 150px;">
+                    <b style="color: ${point.type === 'conflict-zone' ? '#ff4d4d' : '#4d94ff'};">${point.name}</b><br>
+                    <div style="margin: 5px 0; font-size: 11px; opacity: 0.9;">
+                        STATUS: <span style="color: #00ff00;">${point.status}</span><br>
+                        ${point.desc}
+                    </div>
+                    <code style="font-size: 9px; color: #777;">COORDS: ${point.lat}, ${point.lon}</code>
+                </div>
+            `;
+
+            m.bindPopup(popupHtml);
+            m.addTo(map);
+
+        } catch (err) {
+            console.warn("Проблем с точка: " + point.name, err);
+        }
     });
-    console.log("OSINT: Системата зареди всички " + allPoints.length + " точки.");
+
+    console.log("OSINT: Всички " + tacticalData.length + " точки са заредени успешно.");
 }
 
-// Изпълнение
-if (typeof map !== 'undefined') {
-    refreshMapMarkers();
-}
+// Изпълняваме с леко закъснение, за да е заредил Leaflet напълно
+setTimeout(deployMarkers, 800);
+
+/**
+ * КРАЙ НА МОДУЛА
+ * Всички точки от Афганистан, Пакистан и Бахрейн трябва да са тук.
+ */
