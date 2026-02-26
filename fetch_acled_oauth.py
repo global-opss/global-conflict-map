@@ -14,7 +14,7 @@ ALARM_SOURCES = [
 
 # КЛЮЧОВИ ДУМИ ЗА МОМЕНТАЛНА АЛАРМА
 CRITICAL_KEYWORDS = [
-    "nuclear", "atomic", "npp", "mobilization", "carrier strike group", 
+    "nuclear", "atomic", "npp", "mobilization", "carrier strike group", "Afganistan", "Pakistan",
     "5th fleet", "declaration of war", "icbm", "ballistic missile", 
     "chemical weapon", "emergency evacuation", "pentagon alert"
 ]
