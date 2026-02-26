@@ -1,5 +1,33 @@
 [
     {
+        "country": "Iran",
+        "city": "Tehran",
+        "lat": 35.71133372542324,
+        "lon": 51.31978814676543,
+        "date": "2026-02-26 00:00:38",
+        "type": "Nuclear",
+        "severity": "critical",
+        "title": "Vance: US has seen evidence Iran is trying to rebuild its nuclear weapons program",
+        "description": "American VP: Trump wants to address Tehran's nuclear program 'diplomatically, but of course the president has other options as well' * Red Crescent says man critically wounded, reportedly shot by settlers\nThe post Vance: US has seen evidence Iran is trying to rebuild its nuclear weapons program appeared first on The Times of Israel.",
+        "fatalities": "0",
+        "link": "https://www.timesofisrael.com/liveblog-february-26-2026/",
+        "critical": true
+    },
+    {
+        "country": "Israel",
+        "city": "Tel Aviv",
+        "lat": 32.03387998107148,
+        "lon": 34.80011579406516,
+        "date": "2026-02-26 00:00:38",
+        "type": "Nuclear",
+        "severity": "critical",
+        "title": "Iranian FM arrives in Geneva for talks as US demands any nuclear deal last indefinitely",
+        "description": "Dutch airline KLM suspends flights between Amsterdam and Israel starting March 1; more F-22 fighter jets en route to Israel; US issues fresh round of Iran-related sanctions\nThe post Iranian FM arrives in Geneva for talks as US demands any nuclear deal last indefinitely appeared first on The Times of Israel.",
+        "fatalities": "0",
+        "link": "https://www.timesofisrael.com/iranian-fm-arrives-in-geneva-for-talks-as-us-demands-any-nuclear-deal-not-sunset/",
+        "critical": true
+    },
+    {
         "country": "Israel",
         "city": "Tel Aviv",
         "lat": 32.072235029841,
