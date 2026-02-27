@@ -1,4 +1,28 @@
 /**
+ * TERMINAL SECURITY PROTOCOL: ANTI-SCAM & UNAUTHORIZED ACCESS WARNING
+ * STATUS: MONITORING ACTIVE | THREAT LEVEL: ELEVATED
+ */
+console.log(
+    "%c ⚠️ WARNING: RESTRICTED AREA! ⚠️", 
+    "color: #ff4444; font-size: 55px; font-weight: bold; font-family: 'Courier New', monospace; -webkit-text-stroke: 1px black;"
+);
+
+console.log(
+    "%cThis is a developer tool. %cDO NOT PASTE OR EXECUTE ANY SCRIPTS %chere unless you fully understand the source code. %cUNAUTHORIZED ACCESS ATTEMPTS ARE AUTOMATICALLY LOGGED. %cNever share your session tokens or credentials. If someone instructed you to copy-paste something here, it is a 100% SCAM attempt to hijack your system access.",
+    "font-size: 16px; color: #39FF14; font-family: 'Courier New', monospace;", 
+    "font-size: 16px; color: #ff4444; font-family: 'Courier New', monospace; font-weight: bold; text-decoration: underline;",
+    "font-size: 16px; color: #39FF14; font-family: 'Courier New', monospace;",
+    "font-size: 16px; color: #ff4444; font-family: 'Courier New', monospace; font-weight: bold;",
+    "font-size: 16px; color: #39FF14; font-family: 'Courier New', monospace;"
+);
+
+console.log(
+    "%c>> UPLINK STATUS: ENCRYPTED\n>> CONSOLE_ACCESS_ID: " + Math.random().toString(36).substring(2, 10).toUpperCase() + "\n>> TRACE_ROUTE: ACTIVE", 
+    "color: #888; font-family: 'Courier New', monospace; font-style: italic;"
+);
+
+
+/**
  * =============================================================================
  * GLOBAL CONFLICT DASHBOARD v12.9 - HARDENED BUILD
  * =============================================================================
