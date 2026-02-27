@@ -21,6 +21,53 @@ console.log(
     "color: #888; font-family: 'Courier New', monospace; font-style: italic;"
 );
 
+// --- 🛰️ START OF CODE PROTECTION LAYER ---
+(function() {
+    // 1. АВТОМАТИЧЕН ДЕБЪГЕР (Спира изпълнението на кода, ако конзолата е отворена)
+    const antiDebug = function() {
+        const check = function(n) {
+            if ((String(n / n).length !== 1) || n % 20 === 0) {
+                (function() {}.constructor('debugger')());
+            } else {
+                (function() {}.constructor('debugger')());
+            }
+            check(++n);
+        };
+        try { check(0); } catch (e) {}
+    };
+
+    // 2. ЗАСИЧАНЕ НА ИНСПЕКТОР ЧРЕЗ РАЗМЕРА НА ПРОЗОРЕЦА
+    const detectDevTools = setInterval(function() {
+        const threshold = 160;
+        if (window.outerWidth - window.innerWidth > threshold || 
+            window.outerHeight - window.innerHeight > threshold) {
+            
+            // Ако открие инспектор, трие всичко и презарежда
+            document.body.innerHTML = "<div style='background:#050505; color:#ff4444; height:100vh; display:flex; align-items:center; justify-content:center; font-family:monospace; font-size:24px;'>TACTICAL ERROR: UNAUTHORIZED INSPECTION DETECTED. REBOOTING SYSTEM...</div>";
+            setTimeout(() => { window.location.reload(); }, 2000);
+        }
+    }, 1000);
+
+    // 3. БЛОКИРАНЕ НА ВСИЧКИ СТАНДАРТНИ КЛАВИШИ И ДЕСЕН БУТОН
+    document.addEventListener('contextmenu', e => e.preventDefault());
+    document.onkeydown = function(e) {
+        // F12, Ctrl+Shift+I, Ctrl+Shift+J, Ctrl+U, Ctrl+S
+        if (e.keyCode == 123 || 
+           (e.ctrlKey && e.shiftKey && (e.keyCode == 73 || e.keyCode == 74 || e.keyCode == 67)) || 
+           (e.ctrlKey && e.keyCode == 85) || (e.ctrlKey && e.keyCode == 83)) {
+            console.warn(">> SECURITY ALERT: ACCESS DENIED.");
+            return false;
+        }
+    };
+
+    // 4. ЗАЩИТА СРЕЩУ КОПИРАНЕ (COPY-PASTE) НА ТЕКСТ И БАЗАТА
+    document.onselectstart = () => false;
+    document.onmousedown = (e) => { if (e.detail > 1) return false; };
+
+    // Стартиране на защитния цикъл
+    setInterval(antiDebug, 4000);
+})();
+// --- 🛰️ END OF CODE PROTECTION LAYER ---
 
 /**
  * =============================================================================
