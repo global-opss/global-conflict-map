@@ -140,17 +140,56 @@ def run_bot():
     existing_events = load_existing_events()
     new_found_events = []
     locations_db = {
-        "Ukraine": ["Kyiv", "Kharkiv", "Odesa", "Lviv", "Donetsk", "Zaporizhzhia", "Pokrovsk", "Vovchansk", "Kramatorsk", "Sumy"],
-        "Russia": ["Moscow", "Sevastopol", "Belgorod", "Engels", "Kursk", "Rostov", "Novorossiysk", "St. Petersburg"],
-        "Israel": ["Tel Aviv", "Jerusalem", "Haifa", "Gaza", "Ashdod", "Rafah", "Eilat"],
-        "Iran": ["Tehran", "Isfahan", "Bushehr", "Tabriz", "Mashhad", "Shiraz", "Bandar Abbas"],
-        "USA": ["Washington", "New York", "Pentagon", "Norfolk", "San Diego", "Alaska", "Hawaii"],
-        "China": ["Beijing", "Shanghai", "Taiwan Strait", "South China Sea", "Hainan", "Fujian"],
-        "Europe": ["Brussels", "Warsaw", "Rzeszow", "Bucharest", "Berlin", "Paris", "London", "Poland", "Romania", "Finland", "Sweden", "Bulgaria"],
-        "Middle East": ["Beirut", "Tyre", "Sidon", "Damascus", "Aleppo", "Latakia", "Red Sea", "Yemen", "Sanaa"],
-        "Asia": ["Tokyo", "Seoul", "Pyongyang", "Manila", "Afghanistan", "Pakistan"],
-        "Africa": ["Khartoum", "Mogadishu", "Niamey", "Bamako", "Ouagadougou", "Sudan", "Somalia", "Mali", "Niger", "Burkina Faso", "Libya", "Tripoli"],
+        "Ukraine": [
+            "Kyiv", "Kharkiv", "Odesa", "Lviv", "Donetsk",
+            "Zaporizhzhia", "Pokrovsk", "Vovchansk", "Kramatorsk", "Sumy"
+        ],
+        "Russia": [
+            "Moscow", "Sevastopol", "Belgorod", "Engels", "Kursk",
+            "Rostov", "Novorossiysk", "St. Petersburg"
+        ],
+        "Israel": [
+            "Tel Aviv", "Jerusalem", "Haifa", "Gaza", "Ashdod",
+            "Rafah", "Eilat"
+        ],
+        "Iran": [
+            "Tehran", "Isfahan", "Bushehr", "Tabriz", "Mashhad",
+            "Shiraz", "Bandar Abbas", "Arak", "Jask", "Ahvaz",
+            "Fordow", "Natanz", "Qom", "Parchin", "Chabahar",
+            "Assaluyeh", "Kharg Island", "Bandar Lengeh"
+        ],
+        "USA": [
+            "Washington", "New York", "Pentagon", "Norfolk", "San Diego",
+            "Alaska", "Hawaii"
+        ],
+        "China": [
+            "Beijing", "Shanghai", "Taiwan Strait", "South China Sea", "Hainan",
+            "Fujian"
+        ],
+        "Europe": [
+            "Brussels", "Warsaw", "Rzeszow", "Bucharest", "Berlin",
+            "Paris", "London", "Poland", "Romania", "Finland",
+            "Sweden", "Bulgaria"
+        ],
+        "Middle East": [
+            "Beirut", "Tyre", "Sidon", "Damascus", "Aleppo",
+            "Latakia", "Red Sea", "Yemen", "Sanaa"
+        ],
+        "Asia": [
+            "Tokyo", "Seoul", "Pyongyang", "Manila", "Afghanistan",
+            "Pakistan", "Herat", "Host", "Khost", "Zabul",
+            "Kunar", "Barmal", "Paktia", "Chaman", "Ghazni",
+            "Mardan", "Quetta", "Multan", "Gwadar", "Torkham",
+            "Jalalabad", "Rawalpindi", "Waziristan"
+        ],
+        "Africa": [
+            "Khartoum", "Mogadishu", "Niamey", "Bamako", "Ouagadougou",
+            "Sudan", "Somalia", "Mali", "Niger", "Burkina Faso",
+            "Libya", "Tripoli"
+        ],
         "Red Sea Region": ["Bab el-Mandeb", "Djibouti", "Eritrea"]
+    }
+
     }
     print("📡 --- STARTING GLOBAL INTELLIGENCE SCAN ---")
     for url in FEEDS:
@@ -200,6 +239,7 @@ def run_bot():
 if __name__ == "__main__":
     run_bot()
     # End of Script - 250 Lines Precise.
+
 
 
 
