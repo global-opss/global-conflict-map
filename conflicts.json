@@ -1,5 +1,47 @@
 [
     {
+        "country": "USA",
+        "city": "Pentagon",
+        "lat": 38.804102702968585,
+        "lon": -77.08504869969013,
+        "date": "2026-02-27 20:58:13",
+        "type": "Clashes",
+        "severity": "middle",
+        "title": "Trump moves to blacklist Anthropic over AI fight with Pentagon",
+        "description": "The Trump administration has decided to blacklist Anthropic in the most consequential and controversial policy decision to date at the intersection of artificial intelligence and national security, President Trump announced.The big picture: Anthropic rebuffed the Pentagon's demand to lift all safeguards on the military's use of its model, Claude, due to its concerns about the use of AI for mass domestic surveillance and the development of weapons",
+        "fatalities": "0",
+        "link": "https://www.axios.com/2026/02/27/anthropic-pentagon-supply-chain-risk-claude",
+        "critical": false
+    },
+    {
+        "country": "Iran",
+        "city": "Isfahan",
+        "lat": 32.65257026302344,
+        "lon": 51.677802654402896,
+        "date": "2026-02-27 20:57:51",
+        "type": "Nuclear",
+        "severity": "critical",
+        "title": "IAEA urges Iran to allow inspections, points at Isfahan",
+        "description": "IAEA says Iran has stored most of its highly enriched uranium at an underground tunnel complex at its Isfahan facility.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/news/2026/2/27/iaea-eyes-isfahan-nuclear-complex-as-it-urges-iran-to-allow?traffic_source=rss",
+        "critical": true
+    },
+    {
+        "country": "USA",
+        "city": "Washington",
+        "lat": 38.83885463017246,
+        "lon": -76.9877385950704,
+        "date": "2026-02-27 20:57:51",
+        "type": "Nuclear",
+        "severity": "critical",
+        "title": "Oman’s foreign minister meets with US’s Vance as Middle East tensions rise",
+        "description": "Badr bin Hamad Al Busaidi, the key mediator in US-Iran nuclear talks, meets with JD Vance in Washington, DC.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/news/2026/2/27/omans-foreign-minister-meets-with-uss-vance-as-middle-east-tensions-rise?traffic_source=rss",
+        "critical": true
+    },
+    {
         "country": "Ukraine",
         "city": "Kyiv",
         "lat": 50.42591413326739,
@@ -378,20 +420,6 @@
         "critical": false
     },
     {
-        "country": "USA",
-        "city": "New york",
-        "lat": 40.68933727129627,
-        "lon": -74.00999992485177,
-        "date": "2026-02-27 17:56:52",
-        "type": "Clashes",
-        "severity": "middle",
-        "title": "Hillary Clinton testifies she never met Epstein, accuses GOP of \"cover-up\"",
-        "description": "Former Secretary of State Hillary Clinton testified that she has no new information regarding Jeffrey Epstein's criminal activities during a deposition before the House Oversight Committee on Thursday. Why it matters: Bill and Hillary Clinton's depositions on Thursday and Friday mark the first time a former first couple has appeared before a congressional panel under subpoena. \"I don't know how many times I had say I did not know Jeffrey Epstein.",
-        "fatalities": "0",
-        "link": "https://www.axios.com/2026/02/26/hillary-clinton-deposition-epstein-investigation-house-oversight",
-        "critical": false
-    },
-    {
         "country": "Israel",
         "city": "Tel Aviv",
         "lat": 32.151916300395584,
@@ -459,6 +487,20 @@
         "description": "IDF later dispatches troops to Qusra, says it's searching for suspects; Herzog says 'life-threatening' violence  damages reputation of Israel and settlements\nThe post Two left-wing Israeli activists airlifted to hospital after settlers beat them in West Bank appeared first on The Times of Israel.",
         "fatalities": "0",
         "link": "https://www.timesofisrael.com/two-left-wing-israeli-activists-airlifted-to-hospital-after-settlers-beat-them-in-west-bank/",
+        "critical": false
+    },
+    {
+        "country": "USA",
+        "city": "New york",
+        "lat": 40.68933727129627,
+        "lon": -74.00999992485177,
+        "date": "2026-02-27 17:56:52",
+        "type": "Clashes",
+        "severity": "middle",
+        "title": "Hillary Clinton testifies she never met Epstein, accuses GOP of \"cover-up\"",
+        "description": "Former Secretary of State Hillary Clinton testified that she has no new information regarding Jeffrey Epstein's criminal activities during a deposition before the House Oversight Committee on Thursday. Why it matters: Bill and Hillary Clinton's depositions on Thursday and Friday mark the first time a former first couple has appeared before a congressional panel under subpoena. \"I don't know how many times I had say I did not know Jeffrey Epstein.",
+        "fatalities": "0",
+        "link": "https://www.axios.com/2026/02/26/hillary-clinton-deposition-epstein-investigation-house-oversight",
         "critical": false
     },
     {
@@ -2587,48 +2629,6 @@
         "description": "Contradictory reports emerge on whether sides any closer to agreement; report says Witkoff, Kushner demanded Tehran dismantle all nuclear sites and turn over enriched uranium\nThe post US, Iran said to agree on further talks next week, as mediator claims progress appeared first on The Times of Israel.",
         "fatalities": "0",
         "link": "https://www.timesofisrael.com/us-iran-said-to-agree-to-further-talks-next-week-as-mediator-claims-progress/",
-        "critical": true
-    },
-    {
-        "country": "USA",
-        "city": "Pentagon",
-        "lat": 38.89235775663442,
-        "lon": -77.0149176043321,
-        "date": "2026-02-27 05:07:39",
-        "type": "Drone",
-        "severity": "middle",
-        "title": "Texas airspace shut after Pentagon shoots down border patrol drone",
-        "description": "The Federal Aviation Administration prohibited flights in a Texas region near the border with Mexico after the Defense Department accidentally shot down a border patrol drone on Thursday, an administration official told Axios.The big picture: Per an FAA notice, the agency issued airspace restrictions \"for Special Security Reasons\" after the Pentagon shot down the drone in the area around Fort Hancock, just over 50 miles southeast of El Paso — the",
-        "fatalities": "0",
-        "link": "https://www.axios.com/2026/02/27/texas-airspace-closed-drone-laser-pentagon-us-border-mexico",
-        "critical": false
-    },
-    {
-        "country": "Iran",
-        "city": "Tehran",
-        "lat": 35.61952761269763,
-        "lon": 51.35151910541012,
-        "date": "2026-02-27 05:07:39",
-        "type": "Clashes",
-        "severity": "middle",
-        "title": "Top U.S. commander in the Middle East briefs Trump on Iran options",
-        "description": "The top U.S. military commander in the Middle East briefed President Trump on Thursday about the options for military action against Iran, according to a U.S. official and a source with knowledge of the meeting. Why it matters: This was the first time the commander of the U.S. military Central Command Adm. Brad Cooper briefed Trump since the beginning of the crisis with Iran last December. Trump has order a massive U.S. military build up in the M",
-        "fatalities": "0",
-        "link": "https://www.axios.com/2026/02/27/trump-iran-middle-east-military-options",
-        "critical": false
-    },
-    {
-        "country": "Israel",
-        "city": "Gaza",
-        "lat": 31.55109546130204,
-        "lon": 34.53355400726319,
-        "date": "2026-02-27 05:07:28",
-        "type": "Airstrike",
-        "severity": "critical",
-        "title": "Five killed in Gaza after Israeli airstrike as ceasefire faces strain",
-        "description": "Israeli attacks killed five people in Gaza on Thursday, the territory’s health officials said. Medics reported two killed in an airstrike in Gaza City’s Tuffah neighbourhood and others in drone strikes on police checkpoints in Khan Younis and near Bureij camp. Israel’s military said it killed a militant posing a threat.",
-        "fatalities": "0",
-        "link": "https://www.france24.com/en/middle-east/20260227-five-killed-gaza-israeli-airstrike-ceasefire-strain",
         "critical": true
     }
 ]
