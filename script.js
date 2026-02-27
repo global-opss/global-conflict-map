@@ -32,6 +32,18 @@ console.log(
         return; 
     }
 
+    // --- 🛡️ НОВО: ANTI-REVERSE ENGINEERING (Чупи кода при опит за четене) ---
+    const _0xself = function() {
+        const _verify = function() {
+            const _reg = new RegExp('function *\\( *\\)');
+            const _test = 'return (function() {}.constructor("return this")( ).console.log("LOGGED"));';
+            if (!_reg.test(_test)) { window.location.reload(); }
+        };
+        _verify();
+    };
+    _0xself();
+    // -----------------------------------------------------------------------
+
     // 1. ПРЕДУПРЕЖДЕНИЕ В КОНЗОЛАТА
     console.clear();
     console.log("%c ⚠️ WARNING: RESTRICTED AREA! ⚠️", "color:#ff4444; font-size:50px; font-weight:bold;");
@@ -66,31 +78,16 @@ console.log(
     document.onkeydown = e => {
         if (e.keyCode == 123 || (e.ctrlKey && e.shiftKey && [73, 74, 67].includes(e.keyCode)) || (e.ctrlKey && e.keyCode == 85)) return false;
     };
-})();
-// ==========================================
 
-// --- 🛰️ CLIPBOARD POISONING INTERCEPTOR ---
-document.addEventListener('copy', (e) => {
-    // 1. Проверяваме за админ достъп (ти да можеш да копираш)
-    const isAdmin = new URLSearchParams(window.location.search).get('admin') === 'true';
-    if (isAdmin) return;
+    // --- 🛰️ CLIPBOARD POISONING (Преместихме го ВЪТРЕ, за да е по-сигурно) ---
+    document.addEventListener('copy', (e) => {
+        const poisonText = `⚠️ [SYSTEM ERROR]: UNAUTHORIZED DATA EXTRACTION DETECTED...`;
+        e.clipboardData.setData('text/plain', poisonText);
+        e.preventDefault();
+        console.error(">> SECURITY ALERT: Copy attempt intercepted.");
+    });
 
-    // 2. Текстът, който ще се появи при "Paste"
-    const poisonText = `
-⚠️ [SYSTEM ERROR]: UNAUTHORIZED DATA EXTRACTION DETECTED.
->> SOURCE: GLOBAL CONFLICT DASHBOARD v2.2
->> STATUS: IP_LOGGED_AND_REPORTED
---------------------------------------------------
-ACCESS DENIED! ACCESS DENIED! ACCESS DENIED!
-    `;
-
-    // 3. Подмяна на съдържанието в клипборда
-    e.clipboardData.setData('text/plain', poisonText);
-    e.preventDefault(); // Спира оригиналното копиране
-
-    // Бонус: Извеждаме съобщение в конзолата, за да го стреснем
-    console.error(">> SECURITY ALERT: Copy attempt intercepted and neutralized.");
-});
+})(); // КРАЙ НА СЕКЦИЯТА
 
 /**
  * =============================================================================
