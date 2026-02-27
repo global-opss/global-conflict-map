@@ -190,7 +190,6 @@ def run_bot():
         "Red Sea Region": ["Bab el-Mandeb", "Djibouti", "Eritrea"]
     }
 
-    }
     print("📡 --- STARTING GLOBAL INTELLIGENCE SCAN ---")
     for url in FEEDS:
         try:
@@ -239,6 +238,7 @@ def run_bot():
 if __name__ == "__main__":
     run_bot()
     # End of Script - 250 Lines Precise.
+
 
 
 
