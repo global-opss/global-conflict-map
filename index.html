@@ -242,26 +242,27 @@
         </div>
     </div>
 
- <div id="escalation-log-container" class="tactical-panel" style="
+ 
+   <div id="escalation-log-container" class="tactical-panel" style="
         position: fixed !important; 
-        top: 450px; 
+        bottom: calc(100% - 430px); /* Динамично разстояние според горния край */
         left: 20px; 
         width: 300px; 
-        height: 150px; 
+        height: 140px; 
         border: 1px solid #ff3131; 
-        background: rgba(10, 10, 10, 0.9) !important; 
+        background: rgba(10, 10, 10, 0.95) !important; 
         z-index: 10002;
     ">
-        <div class="panel-header" style="background: rgba(255, 49, 49, 0.2); color: #ff3131; border-bottom: 1px solid rgba(255, 49, 49, 0.3);">
-            <span>⚠️ ESCALATION LOG: IRAN-USA</span>
-            <span style="animation: blink 1s infinite;">● ACTIVE</span>
+        <div class="panel-header" style="background: rgba(255, 49, 49, 0.2); color: #ff3131; border-bottom: 1px solid rgba(255, 49, 49, 0.3); padding: 5px;">
+            <span>⚠️ ESCALATION LOG</span>
+            <span style="float: right; font-size: 8px; animation: blink 1s infinite;">● ACTIVE</span>
         </div>
-        <div class="panel-content" style="font-size: 11px; line-height: 1.4; color: #ff3131; padding: 10px; overflow-y: auto;">
-            <div style="margin-bottom: 8px; border-left: 1px solid #ff3131; padding-left: 5px;">
-                <span style="color: #888;">[21:10]</span> <b>INTEL:</b> IRGC 4th Missile Brigade spotted near Isfahan complex.
+        <div class="panel-content" style="font-size: 11px; line-height: 1.3; color: #ff3131; padding: 8px; overflow-y: auto;">
+            <div style="margin-bottom: 5px; border-left: 1px solid #ff3131; padding-left: 5px;">
+                <span style="color: #888;">[21:10]</span> <b>INTEL:</b> IRGC 4th Missile Brigade spotted near Isfahan.
             </div>
-            <div style="margin-bottom: 8px; border-left: 1px solid #ff3131; padding-left: 5px;">
-                <span style="color: #888;">[20:55]</span> <b>US NAVY:</b> USS Gerald R. Ford reports "Signal Active" from Syrian coast.
+            <div style="margin-bottom: 5px; border-left: 1px solid #ff3131; padding-left: 5px;">
+                <span style="color: #888;">[20:55]</span> <b>US NAVY:</b> USS Gerald R. Ford reports "Signal Active".
             </div>
         </div>
     </div>
