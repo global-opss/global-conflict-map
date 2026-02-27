@@ -328,7 +328,14 @@ fetch('https://raw.githubusercontent.com/datasets/geo-boundaries-world-110m/mast
         { name: "IDF HQ (HaKirya)", type: "ua-hq", lat: 32.0748, lon: 34.7879, description: "General Staff Headquarters. Central command and control center." },
         { name: "Dimona Research Center", type: "pvo", lat: 31.0000, lon: 35.1500, description: "High-security strategic facility. Heavily protected by multi-tier SAMs." },
         { name: "Haifa Naval Base", type: "ru-naval", lat: 32.8250, lon: 34.9960, description: "Main naval hub for the Mediterranean fleet and submarine docks." },
-        { name: "Arrow-3 Battery Site", type: "pvo", lat: 31.8500, lon: 34.8000, description: "Exo-atmospheric missile defense. Protecting against long-range threats." }
+        { name: "Arrow-3 Battery Site", type: "pvo", lat: 31.8500, lon: 34.8000, description: "Exo-atmospheric missile defense. Protecting against long-range threats." },
+        { name: "Tehran Air Defense (S-300PMU-2)", type: "pvo", lat: 35.7000, lon: 51.4000, description: "Strategic perimeter protection for the capital. Russian S-300 units redeployed here in Feb 2026." },
+        { name: "Natanz Protection Hub (S-200/Bavar)", type: "pvo", lat: 33.7200, lon: 51.8500, description: "Layered defense for the nuclear enrichment plant. Integrated Bavar-373 batteries." },
+        { name: "Bushehr Coastal Defense", type: "pvo", lat: 28.9000, lon: 50.8500, description: "Protecting the Bushehr NPP. Includes S-200 and shorter-range Tor-M1 systems." },
+        { name: "Isfahan Central Sector (S-300)", type: "pvo", lat: 32.7000, lon: 51.6500, description: "Primary defense for Hesa Air Base and major military manufacturing complexes." },
+        { name: "Bandar Abbas (Strait Defense)", type: "pvo", lat: 27.2000, lon: 56.2800, description: "Naval air defense node overlooking the Strait of Hormuz. High alert for US 5th Fleet." },
+        { name: "Fordo Nuclear Site Defense", type: "pvo", lat: 34.8800, lon: 50.9500, description: "Deeply hardened position with point defense systems against precision munitions." },
+        { name: "Jask Strategic Radar Station", type: "pvo", lat: 25.6500, lon: 57.7800, description: "Early warning station monitoring the Sea of Oman and carrier strike group movements." }
     ];
 // --- СЕКЦИЯ: ВРЕДНИ ЗОНИ (ОБХВАТ НА УДАР) ---
 strategicAssets.forEach(asset => {
