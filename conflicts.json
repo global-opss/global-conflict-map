@@ -1,5 +1,19 @@
 [
     {
+        "country": "USA",
+        "city": "Washington",
+        "lat": 38.90897769882077,
+        "lon": -77.1043124619241,
+        "date": "2026-02-27 21:55:17",
+        "type": "Nuclear",
+        "severity": "critical",
+        "title": "Oman’s foreign minister meets with US’s Vance as Iran tensions rise",
+        "description": "Badr bin Hamad Al Busaidi, the key mediator in US-Iran nuclear talks, meets with JD Vance in Washington, DC.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/news/2026/2/27/omans-foreign-minister-meets-with-uss-vance-as-middle-east-tensions-rise?traffic_source=rss",
+        "critical": true
+    },
+    {
         "country": "Asia",
         "city": "Afghanistan",
         "lat": 34.73523572150651,
