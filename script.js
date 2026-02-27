@@ -335,7 +335,22 @@ fetch('https://raw.githubusercontent.com/datasets/geo-boundaries-world-110m/mast
         { name: "Isfahan Central Sector (S-300)", type: "pvo", lat: 32.7000, lon: 51.6500, description: "Primary defense for Hesa Air Base and major military manufacturing complexes." },
         { name: "Bandar Abbas (Strait Defense)", type: "pvo", lat: 27.2000, lon: 56.2800, description: "Naval air defense node overlooking the Strait of Hormuz. High alert for US 5th Fleet." },
         { name: "Fordo Nuclear Site Defense", type: "pvo", lat: 34.8800, lon: 50.9500, description: "Deeply hardened position with point defense systems against precision munitions." },
-        { name: "Jask Strategic Radar Station", type: "pvo", lat: 25.6500, lon: 57.7800, description: "Early warning station monitoring the Sea of Oman and carrier strike group movements." }
+        { name: "Jask Strategic Radar Station", type: "pvo", lat: 25.6500, lon: 57.7800, description: "Early warning station monitoring the Sea of Oman and carrier strike group movements." },
+        { "name": "Bagram Airbase", "type": "af-air", "lat": 34.9461, "lon": 69.2650, "description": "Strategic hub - Tactical Eagle Icon" },
+        { "name": "Kabul Airport", "type": "af-air", "lat": 34.5658, "lon": 69.2123, "description": "Central hub - Tactical Eagle Icon" },
+        { "name": "Shindand Base", "type": "af-air", "lat": 33.3914, "lon": 62.2558, "description": "Western wing - Tactical Eagle Icon" },
+        { "name": "Mazar Airport", "type": "af-air", "lat": 36.7069, "lon": 67.2092, "description": "Northern base - Tactical Eagle Icon" },
+        { "name": "Jalalabad Base", "type": "af-air", "lat": 34.3995, "lon": 70.4986, "description": "Eastern base - Tactical Eagle Icon" },
+        { "name": "Sargodha PVO", "type": "ir-missile", "lat": 32.0461, "lon": 72.6711, "description": "Air Defense Node - Missile Icon" },
+        { "name": "Kamra Defense", "type": "ir-missile", "lat": 33.8714, "lon": 72.4011, "description": "Radar & Interceptor Node - Missile Icon" },
+        { "name": "Quetta PVO Node", "type": "ir-missile", "lat": 30.2439, "lon": 66.9369, "description": "Western Sector Defense - Missile Icon" },
+        { "name": "Jacobabad Radar", "type": "ir-missile", "lat": 28.2814, "lon": 68.4503, "description": "Surveillance Node - Missile Icon" },
+        { "name": "Bholari PVO Hub", "type": "ir-missile", "lat": 24.9317, "lon": 67.9239, "description": "Southern Defense Node - Missile Icon" },
+        { "name": "Peshawar Airbase", "type": "pk-air", "lat": 33.9939, "lon": 71.5153, "description": "Frontier Base - Tactical Eagle Icon" },
+        { "name": "Skardu Airbase", "type": "pk-air", "lat": 35.3356, "lon": 75.5358, "description": "High-Altitude Base - Tactical Eagle Icon" },
+        { "name": "Bannu Tactical", "type": "ir-missile", "lat": 32.9772, "lon": 70.5283, "description": "Frontier Outpost - Missile Icon" },
+        { "name": "Shamsi Outpost", "type": "pk-air", "lat": 28.5028, "lon": 65.1633, "description": "Surveillance Hub - Tactical Eagle Icon" },
+        { "name": "Dalbandin Radar", "type": "ir-missile", "lat": 28.8856, "lon": 64.4031, "description": "Border Warning Node - Missile Icon" }
     ];
 // --- СЕКЦИЯ: ВРЕДНИ ЗОНИ (ОБХВАТ НА УДАР) ---
 strategicAssets.forEach(asset => {
