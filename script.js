@@ -319,7 +319,16 @@ fetch('https://raw.githubusercontent.com/datasets/geo-boundaries-world-110m/mast
         { name: "Paktia - Dand-e-Patan", type: "military-ops", lat: 33.7800, lon: 69.9500, description: "Border Fence: Tactical strikes and infantry movement detected on the Durand Line." },
         { name: "Torkham Gateway Pass", type: "danger-zone", lat: 34.1160, lon: 71.1020, description: "Strategic Pass: CLOSED. Direct clashes between IEA and Pakistan Frontier Corps." },
         { name: "Nangarhar - Goshta", type: "conflict-zone", lat: 34.3500, lon: 71.1500, description: "Northern Sector: 15 outposts reported captured by Afghan forces this morning." },
-        { name: "Kunar - Nari Sector", type: "military-ops", lat: 35.1500, lon: 71.5200, description: "High Altitude Front: Escalation at the border fence with heavy shelling reported." }
+        { name: "Kunar - Nari Sector", type: "military-ops", lat: 35.1500, lon: 71.5200, description: "High Altitude Front: Escalation at the border fence with heavy shelling reported." },
+        { name: "Tel Nof Airbase", type: "airbase", lat: 31.8395, lon: 34.8218, description: "Primary F-15 squadron base and heavy lift helicopter operations." },
+        { name: "Ramat David Airbase", type: "airbase", lat: 32.6655, lon: 35.1852, description: "Main northern airbase. Quick response sector for Lebanon/Syria fronts." },
+        { name: "Hatzor Airbase", type: "airbase", lat: 31.7623, lon: 34.7280, description: "Central sector interceptor base and missile defense coordination." },
+        { name: "Palmachim Airbase", type: "airbase", lat: 31.8845, lon: 34.6800, description: "Space launch facility and primary UAV/Drone operations center." },
+        { name: "Ovda Airbase", type: "airbase", lat: 29.9400, lon: 34.9350, description: "Southern training and deployment hub. Strategic depth facility." },
+        { name: "IDF HQ (HaKirya)", type: "ua-hq", lat: 32.0748, lon: 34.7879, description: "General Staff Headquarters. Central command and control center." },
+        { name: "Dimona Research Center", type: "pvo", lat: 31.0000, lon: 35.1500, description: "High-security strategic facility. Heavily protected by multi-tier SAMs." },
+        { name: "Haifa Naval Base", type: "ru-naval", lat: 32.8250, lon: 34.9960, description: "Main naval hub for the Mediterranean fleet and submarine docks." },
+        { name: "Arrow-3 Battery Site", type: "pvo", lat: 31.8500, lon: 34.8000, description: "Exo-atmospheric missile defense. Protecting against long-range threats." }
     ];
 // --- СЕКЦИЯ: ВРЕДНИ ЗОНИ (ОБХВАТ НА УДАР) ---
 strategicAssets.forEach(asset => {
