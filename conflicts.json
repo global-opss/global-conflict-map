@@ -1,5 +1,47 @@
 [
     {
+        "country": "Asia",
+        "city": "Afghanistan",
+        "lat": 34.73523572150651,
+        "lon": 69.16731441539366,
+        "date": "2026-02-27 21:34:25",
+        "type": "Airstrike",
+        "severity": "critical",
+        "title": "Pakistan, Afghan Taliban move toward ‘open war’ after fighting escalates",
+        "description": "Last weekend, the Pakistani military targeted jihadi training camps in Afghanistan. After the Afghan Taliban, which shelters the terrorists, responded by attacking Pakistani military outposts, the Pakistani military launched Operation Righteous Fury on February 27, striking multiple targets throughout Afghanistan. \nThe post Pakistan, Afghan Taliban move toward ‘open war’ after fighting escalates appeared first on FDDs Long War Journal.",
+        "fatalities": "0",
+        "link": "https://www.longwarjournal.org/archives/2026/02/pakistan-afghan-taliban-move-toward-open-war-after-fighting-escalates.php",
+        "critical": true
+    },
+    {
+        "country": "Europe",
+        "city": "Paris",
+        "lat": 48.89013435614379,
+        "lon": 2.297774627811532,
+        "date": "2026-02-27 21:34:19",
+        "type": "Clashes",
+        "severity": "middle",
+        "title": "55 Ghanaians killed on the battlefields of Ukraine",
+        "description": "First, dozens of Ghanaians have been killed on the battlefields of Ukraine, as Ghana's Foreign Minister makes a direct appeal to President Zelensky. Also, a new sleeping sickness pill receives the green light from European regulators, paving its way to Africa to protect over 60 million at risk from the deadly tsetse fly. Finally, Paris Agriculture Fair celebrates African Culture with many producers from the continent who came to showcase their pr",
+        "fatalities": "0",
+        "link": "https://www.france24.com/en/tv-shows/eye-on-africa/20260227-55-ghanaians-killed-on-the-battlefields-of-ukraine",
+        "critical": false
+    },
+    {
+        "country": "Ukraine",
+        "city": "Kyiv",
+        "lat": 50.504839757311316,
+        "lon": 30.56614816277601,
+        "date": "2026-02-27 21:34:13",
+        "type": "Clashes",
+        "severity": "middle",
+        "title": "Ukraine claws back southern territory as Russia’s war enters fifth year",
+        "description": "Ukraine made limited territorial gains in December and February, highlighting weaknesses in Russian offensive ability.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/news/2026/2/27/ukraine-claws-back-southern-territory-as-russias-war-enters-fifth-year?traffic_source=rss",
+        "critical": false
+    },
+    {
         "country": "USA",
         "city": "Pentagon",
         "lat": 38.877076357216694,
@@ -2587,48 +2629,6 @@
         "description": "NYC mayor asks Trump's chief of staff for assistance with anti-Israel students who have been targeted by feds, as he successfully pushes for release of Columbia student accused of overstaying visa\nThe post Mamdani meets Trump at White House, seeks administrations help on Mahmoud Khalil appeared first on The Times of Israel.",
         "fatalities": "0",
         "link": "https://www.timesofisrael.com/mamdani-meets-trump-at-white-house-seeks-administrations-help-on-mahmoud-khalil/",
-        "critical": false
-    },
-    {
-        "country": "Israel",
-        "city": "Tel Aviv",
-        "lat": 32.12657612902929,
-        "lon": 34.73695281580805,
-        "date": "2026-02-27 05:07:42",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "High Court knocks IDF over failure to protect Palestinians from settler violence",
-        "description": "Order singles out illegal outpost resident accused of trespassing on Palestinian land, with court asking military why it hasn't barred him from doing so\nThe post High Court knocks IDF over failure to protect Palestinians from settler violence appeared first on The Times of Israel.",
-        "fatalities": "0",
-        "link": "https://www.timesofisrael.com/high-court-knocks-idf-over-failure-to-protect-palestinians-from-settler-violence/",
-        "critical": false
-    },
-    {
-        "country": "Israel",
-        "city": "Tel Aviv",
-        "lat": 32.11342984218641,
-        "lon": 34.82683761120223,
-        "date": "2026-02-27 05:07:42",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Checks, charities, conversion classes: What the Epstein files reveal about his Jewish world",
-        "description": "The latest release of emails connected to the child sex trafficker gives a fuller picture of his extensive communal networking, from schools to showbusiness\nThe post Checks, charities, conversion classes: What the Epstein files reveal about his Jewish world appeared first on The Times of Israel.",
-        "fatalities": "0",
-        "link": "https://www.timesofisrael.com/checks-charities-conversion-classes-what-the-epstein-files-reveal-about-his-jewish-world/",
-        "critical": false
-    },
-    {
-        "country": "Israel",
-        "city": "Tel Aviv",
-        "lat": 32.13481025655291,
-        "lon": 34.77352786023992,
-        "date": "2026-02-27 05:07:42",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "‘May your village burn’: Jewish extremists protest at Arab journalist’s home for 5th time this week",
-        "description": "Police open investigation into alleged far-right campaign against Lucy Aharish, as dozens hold counterprotest in support of her outside TV studio where she works\nThe post May your village burn: Jewish extremists protest at Arab journalists home for 5th time this week appeared first on The Times of Israel.",
-        "fatalities": "0",
-        "link": "https://www.timesofisrael.com/may-your-village-burn-jewish-extremists-protest-at-arab-journalists-home-for-5th-time-this-week/",
         "critical": false
     }
 ]
