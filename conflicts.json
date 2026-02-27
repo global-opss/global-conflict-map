@@ -1,5 +1,33 @@
 [
     {
+        "country": "Ukraine",
+        "city": "Kyiv",
+        "lat": 50.51626634794174,
+        "lon": 30.591474016818353,
+        "date": "2026-02-27 19:49:28",
+        "type": "Drone",
+        "severity": "middle",
+        "title": "Ukrainian Drone Factory Opens in the United Kingdom",
+        "description": "A new factory was unveiled in the UK dedicated to the production of Unmanned Aerial Systems for the Ukrainian Armed Forces. As the fourth anniversary of the Russian invasion of Ukraine took place, a new factory was unveiled in the UK dedicated to the production of Unmanned Aerial Systems (UAS) for the Ukrainian Armed Forces. []",
+        "fatalities": "0",
+        "link": "https://theaviationist.com/2026/02/27/ukrainian-drone-factory-opens-uk/",
+        "critical": false
+    },
+    {
+        "country": "Europe",
+        "city": "Finland",
+        "lat": 60.471643504202405,
+        "lon": 22.252540130556447,
+        "date": "2026-02-27 19:49:03",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Amid Rhetoric About Rupture With U.S., Finland Urges Calm",
+        "description": "“We don’t need a bulldozer,” says Alexander Stubb, Finland’s president and a golf partner of President Trump. “Reform doesn’t mean destruction.”",
+        "fatalities": "0",
+        "link": "https://www.nytimes.com/2026/02/27/world/europe/finland-alexander-stubb-nato-trump.html",
+        "critical": false
+    },
+    {
         "country": "Europe",
         "city": "Poland",
         "lat": 52.03189223178231,
@@ -2601,34 +2629,6 @@
         "description": "These are the key developments from day 1,464 of Russia’s war on Ukraine.",
         "fatalities": "0",
         "link": "https://www.aljazeera.com/news/2026/2/27/russia-ukraine-war-list-of-key-events-day-1464?traffic_source=rss",
-        "critical": false
-    },
-    {
-        "country": "Asia",
-        "city": "Pakistan",
-        "lat": 31.439241498508053,
-        "lon": 74.47387429932357,
-        "date": "2026-02-27 05:07:24",
-        "type": "Airstrike",
-        "severity": "critical",
-        "title": "Pakistan strikes Afghan cities as cross-border attacks escalate",
-        "description": "The Afghan Taliban said it had responded to the Pakistani strikes, which targeted Afghan cities including Kabul and Kandahar.",
-        "fatalities": "0",
-        "link": "https://www.bbc.com/news/articles/c0j5qx9n887o?at_medium=RSS&at_campaign=rss",
-        "critical": true
-    },
-    {
-        "country": "Israel",
-        "city": "Gaza",
-        "lat": 31.45614677235752,
-        "lon": 34.48830125024907,
-        "date": "2026-02-27 05:07:24",
-        "type": "Clashes",
-        "severity": "middle",
-        "title": "When money is scarce, every choice counts: Bank, cash, or credit?",
-        "description": "Palestinians in Gaza struggle to manage their daily lives amid shortage of cash caused by war.",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/economy/2026/2/27/when-money-is-scarce-every-choice-counts-bank-cash-or-credit?traffic_source=rss",
         "critical": false
     }
 ]
