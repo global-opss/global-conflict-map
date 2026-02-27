@@ -69,6 +69,29 @@ console.log(
 })();
 // ==========================================
 
+// --- 🛰️ CLIPBOARD POISONING INTERCEPTOR ---
+document.addEventListener('copy', (e) => {
+    // 1. Проверяваме за админ достъп (ти да можеш да копираш)
+    const isAdmin = new URLSearchParams(window.location.search).get('admin') === 'true';
+    if (isAdmin) return;
+
+    // 2. Текстът, който ще се появи при "Paste"
+    const poisonText = `
+⚠️ [SYSTEM ERROR]: UNAUTHORIZED DATA EXTRACTION DETECTED.
+>> SOURCE: GLOBAL CONFLICT DASHBOARD v2.2
+>> STATUS: IP_LOGGED_AND_REPORTED
+--------------------------------------------------
+ACCESS DENIED! ACCESS DENIED! ACCESS DENIED!
+    `;
+
+    // 3. Подмяна на съдържанието в клипборда
+    e.clipboardData.setData('text/plain', poisonText);
+    e.preventDefault(); // Спира оригиналното копиране
+
+    // Бонус: Извеждаме съобщение в конзолата, за да го стреснем
+    console.error(">> SECURITY ALERT: Copy attempt intercepted and neutralized.");
+});
+
 /**
  * =============================================================================
  * GLOBAL CONFLICT DASHBOARD v12.9 - HARDENED BUILD
