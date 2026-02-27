@@ -21,53 +21,43 @@ console.log(
     "color: #888; font-family: 'Courier New', monospace; font-style: italic;"
 );
 
-// --- 🛰️ START OF CODE PROTECTION LAYER ---
+/**
+ * 🛰️ TACTICAL PROTECTION LAYER v2.2 (WITH ADMIN ACCESS)
+ */
 (function() {
-    // 1. АВТОМАТИЧЕН ДЕБЪГЕР (Спира изпълнението на кода, ако конзолата е отворена)
-    const antiDebug = function() {
-        const check = function(n) {
-            if ((String(n / n).length !== 1) || n % 20 === 0) {
-                (function() {}.constructor('debugger')());
-            } else {
-                (function() {}.constructor('debugger')());
-            }
-            check(++n);
-        };
-        try { check(0); } catch (e) {}
-    };
+    // ТВОЯТ ТАЕН КЛЮЧ: Проверяваме дали в линка пише ?admin=true
+    const isAdmin = new URLSearchParams(window.location.search).get('admin') === 'true';
 
-    // 2. ЗАСИЧАНЕ НА ИНСПЕКТОР ЧРЕЗ РАЗМЕРА НА ПРОЗОРЕЦА
-    const detectDevTools = setInterval(function() {
-        const threshold = 160;
-        if (window.outerWidth - window.innerWidth > threshold || 
-            window.outerHeight - window.innerHeight > threshold) {
-            
-            // Ако открие инспектор, трие всичко и презарежда
-            document.body.innerHTML = "<div style='background:#050505; color:#ff4444; height:100vh; display:flex; align-items:center; justify-content:center; font-family:monospace; font-size:24px;'>TACTICAL ERROR: UNAUTHORIZED INSPECTION DETECTED. REBOOTING SYSTEM...</div>";
-            setTimeout(() => { window.location.reload(); }, 2000);
-        }
-    }, 1000);
+    if (isAdmin) {
+        console.log("%c>> ADMIN ACCESS GRANTED. SECURITY BYPASSED.", "color: #39FF14; font-weight: bold;");
+        return; // Спираме защитата само за теб!
+    }
 
-    // 3. БЛОКИРАНЕ НА ВСИЧКИ СТАНДАРТНИ КЛАВИШИ И ДЕСЕН БУТОН
+    // --- АКО НЕ Е АДМИН, ЗАЩИТАТА СЕ АКТИВИРА ---
+    
+    // 1. ПРЕДУПРЕЖДЕНИЕ
+    console.clear();
+    console.log("%c ⚠️ WARNING: RESTRICTED AREA! ⚠️", "color: #ff4444; font-size: 50px; font-weight: bold;");
+
+    // 2. БЛОКИРАНЕ НА ДЕСЕН БУТОН И КЛАВИШИ
     document.addEventListener('contextmenu', e => e.preventDefault());
     document.onkeydown = function(e) {
-        // F12, Ctrl+Shift+I, Ctrl+Shift+J, Ctrl+U, Ctrl+S
-        if (e.keyCode == 123 || 
-           (e.ctrlKey && e.shiftKey && (e.keyCode == 73 || e.keyCode == 74 || e.keyCode == 67)) || 
-           (e.ctrlKey && e.keyCode == 85) || (e.ctrlKey && e.keyCode == 83)) {
-            console.warn(">> SECURITY ALERT: ACCESS DENIED.");
-            return false;
-        }
+        if (e.keyCode == 123 || (e.ctrlKey && e.shiftKey && (e.keyCode == 73 || e.keyCode == 74 || e.keyCode == 67)) || (e.ctrlKey && e.keyCode == 85)) return false;
     };
 
-    // 4. ЗАЩИТА СРЕЩУ КОПИРАНЕ (COPY-PASTE) НА ТЕКСТ И БАЗАТА
-    document.onselectstart = () => false;
-    document.onmousedown = (e) => { if (e.detail > 1) return false; };
+    // 3. DEBUGGER TRAP (Забива конзолата на натрапниците)
+    setInterval(function() {
+        (function() {}.constructor('debugger')());
+    }, 1000);
 
-    // Стартиране на защитния цикъл
-    setInterval(antiDebug, 4000);
+    // 4. DETECT INSPECTOR (Презарежда сайта при опит за ровене)
+    setInterval(function() {
+        if (window.outerWidth - window.innerWidth > 160 || window.outerHeight - window.innerHeight > 160) {
+            document.body.innerHTML = "<h1 style='color:red; text-align:center; margin-top:20%; font-family:monospace;'>SYSTEM LOCKDOWN</h1>";
+            setTimeout(() => { window.location.reload(); }, 1500);
+        }
+    }, 1000);
 })();
-// --- 🛰️ END OF CODE PROTECTION LAYER ---
 
 /**
  * =============================================================================
