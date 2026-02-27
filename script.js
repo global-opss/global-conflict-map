@@ -117,9 +117,9 @@ let map; // Сложи го точно тук на нов ред
     }).addTo(map);
 
 // --- СЕКЦИЯ 2: ГЕОПОЛИТИЧЕСКИ ДАННИ И ГРАНИЦИ ---
-const warZones = ['Russia', 'Ukraine', 'Syria', 'Sudan'];
+const warZones = ['Russia', 'Ukraine', 'Syria', 'Sudan', 'Pakistan', 'Afghanistan'];
 const blueZone = ['France', 'Germany', 'United Kingdom', 'Italy', 'Poland', 'Bulgaria', 'Romania', 'Greece', 'Norway', 'Jordan', 'Turkey', 'Saudi Arabia', 'Lithuania', 'Belarus', 'Finland', 'Sweden', 'Qatar'];
-const tensionZones = ['Iran', 'North Korea', 'China', 'Taiwan', 'Venezuela', 'USA', 'United States', 'Iraq', 'Yemen', 'Israel', 'Latvia', 'Estonia', 'Pakistan', 'Afghanistan', 'Lebanon'];
+const tensionZones = ['Iran', 'North Korea', 'China', 'Taiwan', 'Venezuela', 'USA', 'United States', 'Iraq', 'Yemen', 'Israel', 'Latvia', 'Estonia', 'Lebanon'];
 
 fetch('https://raw.githubusercontent.com/datasets/geo-boundaries-world-110m/master/countries.geojson')
     .then(res => res.json())
