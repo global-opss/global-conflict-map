@@ -1,5 +1,61 @@
 [
     {
+        "country": "Israel",
+        "city": "Tel Aviv",
+        "lat": 32.127435562399604,
+        "lon": 34.78105095972076,
+        "date": "2026-02-28 14:27:36",
+        "type": "Naval",
+        "severity": "normal",
+        "title": "Strait of Hormuz: Key oil route in middle of Iran crisis",
+        "description": "A look at the strategic waterway Iran has long threatened to close — and why it matters for global energy markets\nThe post Strait of Hormuz: Key oil route in middle of Iran crisis appeared first on The Times of Israel.",
+        "fatalities": "0",
+        "link": "https://www.timesofisrael.com/strait-of-hormuz-key-oil-route-in-middle-of-iran-crisis/",
+        "critical": false
+    },
+    {
+        "country": "Iran",
+        "city": "Tehran",
+        "lat": 35.70118616293758,
+        "lon": 51.445311109376334,
+        "date": "2026-02-28 14:27:32",
+        "type": "Airstrike",
+        "severity": "critical",
+        "title": "How world leaders are reacting to U.S.-Israel strikes on Iran",
+        "description": "The joint U.S.–Israel strikes on Iran Saturday drew mixed reactions from around the globe. The big picture: European leaders largely called for restraint and diplomacy to avoid further escalation, while U.S. adversaries condemned President Trump's decision to pursue military action. What they're saying: Ursula von der Leyen, the European Union's chief executive, in a statement on X called on \"all parties to exercise maximum restraint, to protect ",
+        "fatalities": "0",
+        "link": "https://www.axios.com/2026/02/28/iran-strike-us-israel-eu-world-leaders",
+        "critical": true
+    },
+    {
+        "country": "Asia",
+        "city": "Host",
+        "lat": 33.354986523505254,
+        "lon": 69.96465562203883,
+        "date": "2026-02-28 14:27:32",
+        "type": "Airstrike",
+        "severity": "critical",
+        "title": "Democrats demand war powers vote after U.S. strikes Iran",
+        "description": "Democrats called Saturday for Congress to act fast on war powers resolution votes after the Trump administration launched overnight strikes on Iran. Why it matters: President Trump launched the strikes without approval from Congress, triggering backlash from Democrats and one Republican. The U.S. and Israel began \"major combat operations\" in Iran overnight with the aim of destroying the country's military capabilities and fostering regime change,",
+        "fatalities": "0",
+        "link": "https://www.axios.com/2026/02/28/trump-iran-congress-war-powers-vote",
+        "critical": true
+    },
+    {
+        "country": "Middle East",
+        "city": "Beirut",
+        "lat": 33.87312023498248,
+        "lon": 35.50892691413314,
+        "date": "2026-02-28 14:27:13",
+        "type": "Airstrike",
+        "severity": "critical",
+        "title": "See photos and videos from the Middle East after the U.S.-led attacks.",
+        "description": "",
+        "fatalities": "0",
+        "link": "https://www.nytimes.com/live/2026/02/28/world/iran-strikes-trump/see-photos-and-videos-from-the-middle-east-after-the-us-led-attacks",
+        "critical": true
+    },
+    {
         "country": "Iran",
         "city": "Tehran",
         "lat": 35.628235217679304,
@@ -420,20 +476,6 @@
         "critical": false
     },
     {
-        "country": "USA",
-        "city": "Pentagon",
-        "lat": 38.93020032310212,
-        "lon": -77.01311702361987,
-        "date": "2026-02-28 13:00:36",
-        "type": "Clashes",
-        "severity": "middle",
-        "title": "Sam Altman says OpenAI shares Anthropic's red lines in Pentagon fight",
-        "description": "OpenAI CEO Sam Altman wrote in a memo to staff that he will draw the same red lines that sparked a high-stakes fight between rival Anthropic and the Pentagon: no AI for mass surveillance or autonomous lethal weapons. Why it matters: If other leading firms like Google follow suit, this could massively complicate the Pentagon's efforts to replace Anthropic's Claude, which was the first model integrated into the military's most sensitive work.It wou",
-        "fatalities": "0",
-        "link": "https://www.axios.com/2026/02/27/altman-openai-anthropic-pentagon",
-        "critical": false
-    },
-    {
         "country": "Israel",
         "city": "Tel Aviv",
         "lat": 32.04420419683738,
@@ -474,6 +516,20 @@
         "fatalities": "0",
         "link": "https://www.timesofisrael.com/world-leaders-urge-restraint-as-us-israel-strikes-on-iran-draw-concern/",
         "critical": true
+    },
+    {
+        "country": "USA",
+        "city": "Pentagon",
+        "lat": 38.93020032310212,
+        "lon": -77.01311702361987,
+        "date": "2026-02-28 13:00:36",
+        "type": "Clashes",
+        "severity": "middle",
+        "title": "Sam Altman says OpenAI shares Anthropic's red lines in Pentagon fight",
+        "description": "OpenAI CEO Sam Altman wrote in a memo to staff that he will draw the same red lines that sparked a high-stakes fight between rival Anthropic and the Pentagon: no AI for mass surveillance or autonomous lethal weapons. Why it matters: If other leading firms like Google follow suit, this could massively complicate the Pentagon's efforts to replace Anthropic's Claude, which was the first model integrated into the military's most sensitive work.It wou",
+        "fatalities": "0",
+        "link": "https://www.axios.com/2026/02/27/altman-openai-anthropic-pentagon",
+        "critical": false
     },
     {
         "country": "Iran",
