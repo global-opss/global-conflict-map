@@ -1,5 +1,47 @@
 [
     {
+        "country": "Israel",
+        "city": "Tel Aviv",
+        "lat": 32.12569367472063,
+        "lon": 34.789648466073956,
+        "date": "2026-02-28 12:09:03",
+        "type": "Clashes",
+        "severity": "middle",
+        "title": "Trump says ‘major combat operations’ in Iran have begun",
+        "description": "US President Donald Trump says American forces have begun “major combat operations” in Iran alongside Israel.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/video/newsfeed/2026/2/28/trump-says-major-combat-operations-in-iran-have-begun?traffic_source=rss",
+        "critical": false
+    },
+    {
+        "country": "Ukraine",
+        "city": "Kyiv",
+        "lat": 50.49813880124334,
+        "lon": 30.545071752294472,
+        "date": "2026-02-28 12:08:55",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Hungary Plays Spoiler in Europe as Orban Strains for Votes at Home",
+        "description": "Facing a serious election challenge, Prime Minister Viktor Orban is holding up a big E.U. loan for Ukraine. Analysts say the timing is no coincidence.",
+        "fatalities": "0",
+        "link": "https://www.nytimes.com/2026/02/27/world/europe/hungary-orban-europe.html",
+        "critical": false
+    },
+    {
+        "country": "Israel",
+        "city": "Tel Aviv",
+        "lat": 32.116922936126294,
+        "lon": 34.84725647682232,
+        "date": "2026-02-28 12:08:55",
+        "type": "Airstrike",
+        "severity": "critical",
+        "title": "Israel Facing Prospect of War With a Depleted Missile Defense",
+        "description": "The June 2025 conflict with Iran depleted Israeli and U.S. stocks of antiballistic missiles. If there is another war, the pressure will be on to destroy Iranian missiles before they can be launched.",
+        "fatalities": "0",
+        "link": "https://www.nytimes.com/2026/02/27/world/middleeast/israel-stockpile-missile-interceptors.html",
+        "critical": true
+    },
+    {
         "country": "USA",
         "city": "New york",
         "lat": 40.65270969219226,
@@ -3078,47 +3120,5 @@
         "fatalities": "0",
         "link": "https://www.longwarjournal.org/archives/2026/02/russia-to-supply-iran-with-shoulder-fired-air-defense-system.php",
         "critical": true
-    },
-    {
-        "country": "Russia",
-        "city": "Moscow",
-        "lat": 55.81036433634508,
-        "lon": 37.61552668745394,
-        "date": "2026-02-27 15:55:57",
-        "type": "Naval",
-        "severity": "normal",
-        "title": "Swedish Navy intercepts suspected Russian drone nearing French aircraft carrier",
-        "description": "Swedish defense officials said the craft likely came from a nearby Russian ship.",
-        "fatalities": "0",
-        "link": "https://www.defensenews.com/global/europe/2026/02/27/swedish-navy-intercepts-suspected-russian-drone-nearing-french-aircraft-carrier/",
-        "critical": false
-    },
-    {
-        "country": "Europe",
-        "city": "Brussels",
-        "lat": 50.93248771683683,
-        "lon": 4.352680929061404,
-        "date": "2026-02-27 15:55:56",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Cancer rates rise amid inequalities between EU members",
-        "description": "European countries have some of the best public health systems in the world. And yet cancer rates have been going up, according to the European Commission. For instance, in 2022, there was a 2.3 percent increase on the year 2020.",
-        "fatalities": "0",
-        "link": "https://www.france24.com/en/tv-shows/talking-europe/20260227-cancer-rates-rise-amid-inequalities-between-eu-members",
-        "critical": false
-    },
-    {
-        "country": "USA",
-        "city": "Washington",
-        "lat": 38.89747568064163,
-        "lon": -77.0004525681241,
-        "date": "2026-02-27 15:55:56",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Can new pills end sleeping sickness?",
-        "description": "European drug regulators on Friday endorsed a new and simpler treatment for sleeping sickness, in what could be a giant boost to efforts to eliminate the disease. A European Medicines Agency committee gave its nod to acoziborole, developed by Sanofi and DNDi. Speaking to France 24, Dr Luis Pizarro, executive director of DNDi, said the new pill could revolutionise treatment of the disease, which has killed hundreds of thousands across Africa.",
-        "fatalities": "0",
-        "link": "https://www.france24.com/en/video/20260227-can-new-pills-end-sleeping-sickness",
-        "critical": false
     }
 ]
