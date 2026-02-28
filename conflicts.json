@@ -2,6 +2,48 @@
     {
         "country": "Israel",
         "city": "Tel Aviv",
+        "lat": 32.14045959475987,
+        "lon": 34.751847801976474,
+        "date": "2026-02-28 05:58:51",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "CNN chief urges calm amid anxiety over Paramount’s expected purchase of parent company",
+        "description": "Thompson tells staff not to jump to conclusions, as acquisition predicted to take 6 months to close, but in already volatile media environment, the trepidation stands to be seismic\nThe post CNN chief urges calm amid anxiety over Paramounts expected purchase of parent company appeared first on The Times of Israel.",
+        "fatalities": "0",
+        "link": "https://www.timesofisrael.com/cnn-chief-urges-calm-amid-anxiety-over-paramounts-expected-purchase-of-parent-company/",
+        "critical": false
+    },
+    {
+        "country": "Middle East",
+        "city": "Yemen",
+        "lat": 14.561854827980774,
+        "lon": 49.183913486286315,
+        "date": "2026-02-28 05:58:31",
+        "type": "Clashes",
+        "severity": "middle",
+        "title": "Ramadan in Yemen’s Aden: Optimism dimmed by tensions and shortages",
+        "description": "Yemeni government makes strides stabilising Aden, yet shortages and clashes reveal continued fragility during Ramadan.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/news/2026/2/28/ramadan-in-yemens-aden-optimism-dimmed-by-tensions-and-shortages?traffic_source=rss",
+        "critical": false
+    },
+    {
+        "country": "Ukraine",
+        "city": "Kyiv",
+        "lat": 50.42765837301862,
+        "lon": 30.56771285976552,
+        "date": "2026-02-28 05:58:28",
+        "type": "Clashes",
+        "severity": "middle",
+        "title": "Russia-Ukraine war: List of key events, day 1,465",
+        "description": "These are the key developments from day 1,465 of Russia’s war on Ukraine.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/news/2026/2/28/russia-ukraine-war-list-of-key-events-day-1465?traffic_source=rss",
+        "critical": false
+    },
+    {
+        "country": "Israel",
+        "city": "Tel Aviv",
         "lat": 32.107272927343956,
         "lon": 34.75784208195693,
         "date": "2026-02-28 04:38:51",
@@ -224,20 +266,6 @@
         "critical": false
     },
     {
-        "country": "China",
-        "city": "Beijing",
-        "lat": 39.924085620336136,
-        "lon": 116.40817796235002,
-        "date": "2026-02-28 00:56:46",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Taiwan Arms Sale Approved by Congress Is Delayed as Trump Plans Visit to Beijing",
-        "description": "The package worth billions of dollars and endorsed by lawmakers is stalled at the State Department as the U.S. and China plan an April summit.",
-        "fatalities": "0",
-        "link": "https://www.nytimes.com/2026/02/27/us/politics/trump-taiwan-arms-sale.html",
-        "critical": false
-    },
-    {
         "country": "Israel",
         "city": "Gaza",
         "lat": 31.447949347163643,
@@ -249,6 +277,20 @@
         "description": "Dozens of well-known groups faced shutdown under a new Israeli law, although the reprieve might be temporary.",
         "fatalities": "0",
         "link": "https://www.bbc.com/news/articles/cd6z382de8yo?at_medium=RSS&at_campaign=rss",
+        "critical": false
+    },
+    {
+        "country": "China",
+        "city": "Beijing",
+        "lat": 39.924085620336136,
+        "lon": 116.40817796235002,
+        "date": "2026-02-28 00:56:46",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Taiwan Arms Sale Approved by Congress Is Delayed as Trump Plans Visit to Beijing",
+        "description": "The package worth billions of dollars and endorsed by lawmakers is stalled at the State Department as the U.S. and China plan an April summit.",
+        "fatalities": "0",
+        "link": "https://www.nytimes.com/2026/02/27/us/politics/trump-taiwan-arms-sale.html",
         "critical": false
     },
     {
