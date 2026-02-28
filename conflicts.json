@@ -1,5 +1,19 @@
 [
     {
+        "country": "USA",
+        "city": "Pentagon",
+        "lat": 38.829687145447615,
+        "lon": -77.03750411823863,
+        "date": "2026-02-28 00:01:35",
+        "type": "Explosion",
+        "severity": "middle",
+        "title": "Pentagon approves OpenAI safety red lines after dumping Anthropic",
+        "description": "The Pentagon has agreed to OpenAI's rules for deploying its technology safely in classified settings, though no contract has been signed, a source familiar with the talks tells Axios. Why it matters: The Pentagon has blasted OpenAI rival Anthropic for days, contending its red lines for AI use in the military -- mass surveillance and autonomous weapons -- are philosophical and \"woke.\" Now, the department, which did not immediately respond to a req",
+        "fatalities": "0",
+        "link": "https://www.axios.com/2026/02/27/pentagon-openai-safety-red-lines-anthropic",
+        "critical": false
+    },
+    {
         "country": "Israel",
         "city": "Tel Aviv",
         "lat": 32.099736428793015,
