@@ -1,5 +1,47 @@
 [
     {
+        "country": "Israel",
+        "city": "Tel Aviv",
+        "lat": 32.015693130830435,
+        "lon": 34.75895966432563,
+        "date": "2026-02-28 13:26:16",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Rubio tells US envoys to avoid inflammatory comments after Huckabee fracas — report",
+        "description": "US ambassador sparked anger among US allies by suggesting Israel has biblical right to much of the region; memo doesn't single him out\nThe post Rubio tells US envoys to avoid inflammatory comments after Huckabee fracas  report appeared first on The Times of Israel.",
+        "fatalities": "0",
+        "link": "https://www.timesofisrael.com/rubio-tells-us-envoys-to-avoid-inflammatory-comments-after-huckabee-fracas-report/",
+        "critical": false
+    },
+    {
+        "country": "USA",
+        "city": "New york",
+        "lat": 40.64544875253209,
+        "lon": -74.00011493280631,
+        "date": "2026-02-28 13:26:15",
+        "type": "Explosion",
+        "severity": "middle",
+        "title": "Bill Clinton plunges into historic Epstein deposition",
+        "description": "Former President Bill Clinton testified under oath that he had no knowledge of Jeffrey Epstein's crimes and \"did nothing wrong\" during a deposition before the House Oversight Committee on Friday. Why it matters: Clinton's testimony marks the first time that a former president has been compelled to testify before a congressional committee under subpoena.The top Democrat on the panel, Rep. Robert Garcia (R-Calif.) said Clinton's deposition sets a p",
+        "fatalities": "0",
+        "link": "https://www.axios.com/2026/02/27/bill-clinton-deposition-jeffrey-epstein",
+        "critical": false
+    },
+    {
+        "country": "Iran",
+        "city": "Tehran",
+        "lat": 35.68452891758369,
+        "lon": 51.333430327768205,
+        "date": "2026-02-28 13:26:12",
+        "type": "Airstrike",
+        "severity": "critical",
+        "title": "Trump strikes Iran again. Why presidents skip Congress to use military force",
+        "description": "The U.S. struck Iran overnight in the latest example of a president bypassing Congress to order military action.Why it matters: The Constitution says only Congress can declare war — but Democratic and Republican presidents alike have ordered military force without authorization for more than 75 years. Driving the news: The U.S. and Israel launched strikes on Iranian senior commanders and political leaders, including Supreme Leader Ali Khamenei, i",
+        "fatalities": "0",
+        "link": "https://www.axios.com/2026/02/28/trump-strikes-iran-congress-war-powers",
+        "critical": true
+    },
+    {
         "country": "USA",
         "city": "Washington",
         "lat": 38.92150940569283,
@@ -3077,48 +3119,6 @@
         "description": "Oman's Foreign Minister Badr al-Busaidi said discussions on a “technical level” will take place next week in Vienna.",
         "fatalities": "0",
         "link": "https://www.defensenews.com/global/mideast-africa/2026/02/26/last-ditch-effort-in-geneva-to-avert-war-between-us-iran-wraps-with-significant-progress-omani-official-says/",
-        "critical": false
-    },
-    {
-        "country": "Middle East",
-        "city": "Beirut",
-        "lat": 33.86579948459106,
-        "lon": 35.51505930077254,
-        "date": "2026-02-27 18:46:57",
-        "type": "Evacuation",
-        "severity": "critical",
-        "title": "US military assembles largest force of warships, aircraft in Middle East in decades",
-        "description": "The U.S. Navy will have at least 16 ships in the region, dwarfing the 11-ship fleet that was, until the Ford’s departure, positioned in the Caribbean Sea.",
-        "fatalities": "0",
-        "link": "https://www.militarytimes.com/news/your-military/2026/02/26/us-military-assembles-largest-force-of-warships-aircraft-in-middle-east-in-decades/",
-        "critical": true
-    },
-    {
-        "country": "USA",
-        "city": "Pentagon",
-        "lat": 38.858481916843516,
-        "lon": -77.0198101235376,
-        "date": "2026-02-27 18:46:57",
-        "type": "Clashes",
-        "severity": "middle",
-        "title": "What to know about Defense Protection Act and the Pentagon’s Anthropic ultimatum",
-        "description": "Anthropic CEO Dario Amodei repeatedly has made clear his ethical concerns about unchecked government use of AI.",
-        "fatalities": "0",
-        "link": "https://www.militarytimes.com/news/your-military/2026/02/26/what-to-know-about-defense-protection-act-and-the-pentagons-anthropic-ultimatum/",
-        "critical": false
-    },
-    {
-        "country": "Iran",
-        "city": "Tehran",
-        "lat": 35.70808538184241,
-        "lon": 51.34494380501117,
-        "date": "2026-02-27 18:46:53",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Trump says 'not happy' with Iran negotiations but no 'final decision' yet on possible US strike",
-        "description": "US President Donald Trump said on Friday he was \"not happy\" with the way Iran was negotiating in talks with the US, but had not yet made a \"final decision\" on whether the US would launch military action against Tehran. His comments came as the US advised its non-emergency embassy staff to leave Israel \"due to safety risks\".",
-        "fatalities": "0",
-        "link": "https://www.france24.com/en/middle-east/20260227-rubio-to-hold-talks-in-israel-next-week-as-us-iran-tensions-remain-high",
         "critical": false
     }
 ]
