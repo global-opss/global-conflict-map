@@ -2,6 +2,20 @@
     {
         "country": "Iran",
         "city": "Tehran",
+        "lat": 35.67005806672243,
+        "lon": 51.32237203358216,
+        "date": "2026-02-28 17:57:48",
+        "type": "Clashes",
+        "severity": "middle",
+        "title": "Netanyahu Takes His Shot at Regime Change in Iran",
+        "description": "The United States and Israel have declared their war aim as paving the way for a popular uprising against the government in Tehran.",
+        "fatalities": "0",
+        "link": "https://www.nytimes.com/2026/02/28/world/middleeast/netanyahu-regime-change-iran.html",
+        "critical": false
+    },
+    {
+        "country": "Iran",
+        "city": "Tehran",
         "lat": 35.70746525977956,
         "lon": 51.44433055328249,
         "date": "2026-02-28 17:55:50",
