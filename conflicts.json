@@ -1,5 +1,47 @@
 [
     {
+        "country": "Ukraine",
+        "city": "Kyiv",
+        "lat": 50.4216694152871,
+        "lon": 30.519160218991342,
+        "date": "2026-02-28 14:04:54",
+        "type": "Drone",
+        "severity": "middle",
+        "title": "Ukrainian Drone Factory Opens in the United Kingdom",
+        "description": "A new factory was unveiled in the UK dedicated to the production of Unmanned Aerial Systems for the Ukrainian Armed Forces. As the fourth anniversary of the Russian invasion of Ukraine took place, a new factory was unveiled in the UK dedicated to the production of Unmanned Aerial Systems (UAS) for the Ukrainian Armed Forces. []",
+        "fatalities": "0",
+        "link": "https://theaviationist.com/2026/02/27/ukrainian-drone-factory-opens-uk/",
+        "critical": false
+    },
+    {
+        "country": "Israel",
+        "city": "Tel Aviv",
+        "lat": 32.06951027817576,
+        "lon": 34.80816185651823,
+        "date": "2026-02-28 14:04:48",
+        "type": "Airstrike",
+        "severity": "critical",
+        "title": "World leaders fear broader escalation after major US and Israeli attack on Iran",
+        "description": "European leaders held emergency security meetings and scrambled to protect their citizens in the Middle East after U.S. and Israeli strikes on Iran.",
+        "fatalities": "0",
+        "link": "https://www.defensenews.com/global/mideast-africa/2026/02/28/world-leaders-fear-broader-escalation-after-major-us-and-israeli-attack-on-iran/",
+        "critical": true
+    },
+    {
+        "country": "Europe",
+        "city": "Sweden",
+        "lat": 59.72471384021482,
+        "lon": 15.54311790158926,
+        "date": "2026-02-28 14:04:39",
+        "type": "Naval",
+        "severity": "normal",
+        "title": "Drone jammed near French aircraft carrier was Russian, says Sweden",
+        "description": "Sweden's prime minister said it was a serious but not unexpected incident - and a \"Russian way of acting that we recognise from other places\".",
+        "fatalities": "0",
+        "link": "https://www.bbc.com/news/articles/c1mj3e2nz8ko?at_medium=RSS&at_campaign=rss",
+        "critical": false
+    },
+    {
         "country": "Iran",
         "city": "Tehran",
         "lat": 35.69540328675282,
@@ -3078,47 +3120,5 @@
         "fatalities": "0",
         "link": "https://www.france24.com/en/tv-shows/the-world-this-week/20260227-ukraine-the-clintons-el-mencho-and-iran",
         "critical": false
-    },
-    {
-        "country": "Europe",
-        "city": "Sweden",
-        "lat": 59.74225285285196,
-        "lon": 15.542536705659698,
-        "date": "2026-02-27 20:48:22",
-        "type": "Naval",
-        "severity": "normal",
-        "title": "Drone jammed near French aircraft carrier was Russian, Sweden's military confirms",
-        "description": "",
-        "fatalities": "0",
-        "link": "https://www.france24.com/en/europe/20260227-russia-rejects-allegation-sent-drone-towards-french-aircraft-carrier",
-        "critical": false
-    },
-    {
-        "country": "Israel",
-        "city": "Tel Aviv",
-        "lat": 32.06538517666178,
-        "lon": 34.83064487340663,
-        "date": "2026-02-27 20:48:18",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Rubio plans Israel trip as Trump says he’s ‘not happy’ with US-Iran talks",
-        "description": "Trump tells reporters he would love not to use military force against Iran but added, Sometimes you have to.",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/news/2026/2/27/marco-rubio-plans-israel-trip-as-trump-says-hes-not-happy-with-iran-talk?traffic_source=rss",
-        "critical": false
-    },
-    {
-        "country": "Asia",
-        "city": "Afghanistan",
-        "lat": 34.71089801767923,
-        "lon": 69.18231715765836,
-        "date": "2026-02-27 20:48:18",
-        "type": "Airstrike",
-        "severity": "critical",
-        "title": "Pakistan, Afghanistan release conflicting death tolls amid ‘open war’",
-        "description": "Pakistan and Afghanistan are disputing death tolls from their cross-border attacks.",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/video/newsfeed/2026/2/27/pakistan-afghanistan-release-conflicting-death-tolls-amid-open?traffic_source=rss",
-        "critical": true
     }
 ]
