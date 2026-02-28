@@ -1,5 +1,19 @@
 [
     {
+        "country": "Israel",
+        "city": "Tel Aviv",
+        "lat": 32.07260271504384,
+        "lon": 34.82927211832667,
+        "date": "2026-02-28 18:00:31",
+        "type": "Airstrike",
+        "severity": "critical",
+        "title": "Iran Says Dozens Killed in Strike on School",
+        "description": "The strike on an elementary school in the southern Iran town of Minab was one of two attacks that appear to have hit schools during U.S. and Israeli strikes on Iran on Saturday.",
+        "fatalities": "0",
+        "link": "https://www.nytimes.com/2026/02/28/world/middleeast/iran-says-dozens-killed-in-strike-on-school.html",
+        "critical": true
+    },
+    {
         "country": "Iran",
         "city": "Tehran",
         "lat": 35.67005806672243,
@@ -29,20 +43,6 @@
     },
     {
         "country": "Asia",
-        "city": "Pakistan",
-        "lat": 31.433337260228193,
-        "lon": 74.39150931333255,
-        "date": "2026-02-28 17:55:32",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Pakistan edge last-ball thriller against Sri Lanka but exit T20 World Cup",
-        "description": "Pakistan needed to beat Sri Lanka by a substantial margin to leapfrog New Zealand into second semifinal qualifying spot.",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/sports/2026/2/28/pakistan-edge-last-ball-thriller-against-sri-lanka-but-exit-t20-world-cup?traffic_source=rss",
-        "critical": false
-    },
-    {
-        "country": "Asia",
         "city": "Host",
         "lat": 33.39037664424909,
         "lon": 69.94019555875634,
@@ -53,6 +53,20 @@
         "description": "Barcelona have 64 points while ⁠second-placed Real are on 60 points ​ahead of hosting Getafe on Monday.",
         "fatalities": "0",
         "link": "https://www.aljazeera.com/sports/2026/2/28/lamine-yamal-hits-hat-trick-as-barcelona-beat-villarreal-4-1-in-la-liga?traffic_source=rss",
+        "critical": false
+    },
+    {
+        "country": "Asia",
+        "city": "Pakistan",
+        "lat": 31.433337260228193,
+        "lon": 74.39150931333255,
+        "date": "2026-02-28 17:55:32",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Pakistan edge last-ball thriller against Sri Lanka but exit T20 World Cup",
+        "description": "Pakistan needed to beat Sri Lanka by a substantial margin to leapfrog New Zealand into second semifinal qualifying spot.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/sports/2026/2/28/pakistan-edge-last-ball-thriller-against-sri-lanka-but-exit-t20-world-cup?traffic_source=rss",
         "critical": false
     },
     {
