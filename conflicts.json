@@ -1,5 +1,33 @@
 [
     {
+        "country": "Iran",
+        "city": "Tehran",
+        "lat": 35.69540328675282,
+        "lon": 51.34095388503886,
+        "date": "2026-02-28 13:58:00",
+        "type": "Airstrike",
+        "severity": "critical",
+        "title": "Additional F-15s, F-22s and F-35s are Arriving to Reinforce U.S. Buildup in Middle East",
+        "description": "Additional fighter and CSAR assets are being deployed to multiple bases across the Middle East as preparations for a potential attack on Iran appear to intensify. The last two days saw another influx of U.S. assets in Europe on their way to the Middle East, where they will join the buildup. In fact, between Feb. []",
+        "fatalities": "0",
+        "link": "https://theaviationist.com/2026/02/26/additional-fighters-reinforce-us-buildup/",
+        "critical": true
+    },
+    {
+        "country": "Europe",
+        "city": "Finland",
+        "lat": 60.519774377711464,
+        "lon": 22.262235746983535,
+        "date": "2026-02-28 13:57:36",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Amid Rhetoric About Rupture With U.S., Finland Urges Calm",
+        "description": "“We don’t need a bulldozer,” says Alexander Stubb, Finland’s president and a golf partner of President Trump. “Reform doesn’t mean destruction.”",
+        "fatalities": "0",
+        "link": "https://www.nytimes.com/2026/02/27/world/europe/finland-alexander-stubb-nato-trump.html",
+        "critical": false
+    },
+    {
         "country": "USA",
         "city": "Pentagon",
         "lat": 38.851083551246525,
@@ -3092,33 +3120,5 @@
         "fatalities": "0",
         "link": "https://www.aljazeera.com/video/newsfeed/2026/2/27/pakistan-afghanistan-release-conflicting-death-tolls-amid-open?traffic_source=rss",
         "critical": true
-    },
-    {
-        "country": "Europe",
-        "city": "Sweden",
-        "lat": 59.78001562320327,
-        "lon": 15.514194984937818,
-        "date": "2026-02-27 20:48:16",
-        "type": "Naval",
-        "severity": "normal",
-        "title": "Drone jammed near French aircraft carrier was Russian, says Sweden",
-        "description": "Sweden's prime minister said it was a serious but not unexpected incident - and a \"Russian way of acting that we recognise from other places\".",
-        "fatalities": "0",
-        "link": "https://www.bbc.com/news/articles/c1mj3e2nz8ko?at_medium=RSS&at_campaign=rss",
-        "critical": false
-    },
-    {
-        "country": "Ukraine",
-        "city": "Kyiv",
-        "lat": 50.51626634794174,
-        "lon": 30.591474016818353,
-        "date": "2026-02-27 19:49:28",
-        "type": "Drone",
-        "severity": "middle",
-        "title": "Ukrainian Drone Factory Opens in the United Kingdom",
-        "description": "A new factory was unveiled in the UK dedicated to the production of Unmanned Aerial Systems for the Ukrainian Armed Forces. As the fourth anniversary of the Russian invasion of Ukraine took place, a new factory was unveiled in the UK dedicated to the production of Unmanned Aerial Systems (UAS) for the Ukrainian Armed Forces. []",
-        "fatalities": "0",
-        "link": "https://theaviationist.com/2026/02/27/ukrainian-drone-factory-opens-uk/",
-        "critical": false
     }
 ]
