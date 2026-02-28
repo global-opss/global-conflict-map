@@ -1,5 +1,47 @@
 [
     {
+        "country": "Iran",
+        "city": "Tehran",
+        "lat": 35.628235217679304,
+        "lon": 51.39382863660674,
+        "date": "2026-02-28 14:11:17",
+        "type": "Airstrike",
+        "severity": "critical",
+        "title": "World reacts to US, Israel attack on Iran, Tehran retaliation",
+        "description": "EU urges maximum restraint; mediator Oman warns US not to get sucked in further into conflict.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/news/2026/2/28/world-reacts-to-us-israel-attack-on-iran-tehran-retaliation?traffic_source=rss",
+        "critical": true
+    },
+    {
+        "country": "Israel",
+        "city": "Tel Aviv",
+        "lat": 32.037130038341196,
+        "lon": 34.83746180140484,
+        "date": "2026-02-28 14:11:17",
+        "type": "Airstrike",
+        "severity": "critical",
+        "title": "Iranian deputy minister of foreign Affairs condemns US-Israeli attacks",
+        "description": "Iran’s deputy minister of foreign affairs condemned the US-Israeli strikes.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/video/newsfeed/2026/2/28/iranian-deputy-minister-of-foreign-affairs-condemns-us-israeli-attacks?traffic_source=rss",
+        "critical": true
+    },
+    {
+        "country": "Iran",
+        "city": "Tehran",
+        "lat": 35.68896972028129,
+        "lon": 51.426161973506844,
+        "date": "2026-02-28 14:11:17",
+        "type": "Airstrike",
+        "severity": "critical",
+        "title": "Debris from intercepted Iranian missile lands in Hebron",
+        "description": "Video shows debris from an intercepted Iranian missile that landed in Hebron in the occupied West Bank.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/video/newsfeed/2026/2/28/debris-from-intercepted-iranian-missile-lands-in-hebron?traffic_source=rss",
+        "critical": true
+    },
+    {
         "country": "Ukraine",
         "city": "Kyiv",
         "lat": 50.4216694152871,
