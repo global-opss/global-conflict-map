@@ -310,10 +310,10 @@ fetch('https://raw.githubusercontent.com/datasets/geo-boundaries-world-110m/mast
         { name: "Novosibirsk Rocket Base", type: "ru-missile", lat: 55.195, lon: 82.964, description: "39th Guards Rocket Division. ASSETS: Road-mobile Yars ICBM systems. Strategic Reserve." },
         { name: "Sevastopol Naval Base", type: "ru-naval", lat: 44.616, lon: 33.525, description: "Black Sea Fleet HQ. ASSETS: Kilo-class submarines, Kalibr missile carriers. Logistics & repair hub." },
         { name: "Shaykovka Air Base", type: "ru-air", lat: 54.225, lon: 34.375, description: "Long-Range Aviation. ASSETS: Tu-22M3 Supersonic Bombers. Frequent deployment to Ukraine front." },
-        { name: "Tatishchevo Missile Site", type: "ru-missile", lat: 51.666, lon: 45.584, description: "60th Missile Division. ASSETS: Topol-M and UR-100N UTTKh ICBMs. Hardened silo infrastructure." },
-        { name: "Belbek Air Base (Crimea)", type: "ru-air", lat: 44.685, lon: 33.575, description: "Forward Interceptor Base. ASSETS: Su-27, Su-30SM, Su-35S. Primary Air Defense for Crimea." },
+        { name: "Tatishchevo Missile Site", type: "ru-missile", lat: 51.666, lon: 45.584, description: "60th Missile Division. ASSETS: Topol-M and UR-100N UTTKh ICBMs. Hardened silo inrimea." },
         { name: "Bakhmut Sector", type: "ua-infantry", lat: 48.594, lon: 38.000, description: "Heavy attrition zone. Deeply fortified Russian and Ukrainian positions. Active artillery duels." },
-        { name: "Avdiivka Fortifications", type: "ua-infantry", lat: 48.145, lon: 37.750, description: "Key industrial defense hub. Continuous assault operations and heavy drone surveillance area." },
+        { name: "Avdiivka Fortifications", type: "ua-infantry", lat: 48.145, lon: 37.750, description: "Key industrial defense hub. Continuous assault operations and heavy drone survefrastructure." },
+        { name: "Belbek Air Base (Crimea)", type: "ru-air", lat: 44.685, lon: 33.575, description: "Forward Interceptor Base. ASSETS: Su-27, Su-30SM, Su-35S. Primary Air Defense for Cillance area." },
         { name: "Kupiansk Axis", type: "ua-infantry", lat: 49.711, lon: 37.611, description: "Northern front stabilizer. Strategic rail hub. High concentration of armored units." },
         { name: "Robotyne Breach", type: "ua-infantry", lat: 47.445, lon: 35.836, description: "Southern offensive sector. Dense minefields (Surovikin Line) and trench warfare." },
         { name: "Starokostiantyniv AB", type: "ua-air", lat: 49.747, lon: 27.268, description: "7th Tactical Aviation Brigade. ASSETS: Su-24M equipped with Storm Shadow / SCALP-EG missiles." },
@@ -1460,7 +1460,7 @@ function initializeMilitaryProtocol() {
     console.log("--------------------------------------------------");
     console.log(">> STARTING GLOBAL CONFLICT DASHBOARD TERMINAL...");
     console.log(">> INITIALIZING SATELLITE UPLINK FOR VISITOR TRACKING...");
-    console.log(">> OPERATOR LOCATION IDENTIFIED: BULGARIA");
+    console.log(">> OPERATOR LOCATION IDENTIFIED: NORTH COREA");
     console.log("--------------------------------------------------");
     
     // Активиране на всички модули
