@@ -1,5 +1,33 @@
 [
     {
+        "country": "Israel",
+        "city": "Jerusalem",
+        "lat": 31.72294019548139,
+        "lon": 35.28569529383337,
+        "date": "2026-02-28 23:59:24",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "JP: женщина погибла в центральной части Израиля при ракетной атаки Ирана",
+        "description": "В результате ракетного обстрела со стороны Ирана в центральной части Израиля погибла женщина, более 20 человек получили ранения. Об этом сообщает The Jerusalem Post. Читать далее",
+        "fatalities": "0",
+        "link": "https://russian.rt.com/world/news/1601336-izrail-zhenschina-pogibla?utm_source=rss&utm_medium=rss&utm_campaign=RSS",
+        "critical": false
+    },
+    {
+        "country": "Iran",
+        "city": "Tehran",
+        "lat": 35.72991552284663,
+        "lon": 51.33686816096702,
+        "date": "2026-02-28 23:58:52",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Who Could Take Over for Ayatollah Ali Khamenei?",
+        "description": "President Trump has declared that Iran’s supreme leader was dead. If that is true, the next question is which of his possible successors might carry on his work.",
+        "fatalities": "0",
+        "link": "https://www.nytimes.com/2026/02/28/world/middleeast/ali-khamenei-iran-leader-succession.html",
+        "critical": false
+    },
+    {
         "country": "Iran",
         "city": "Tehran",
         "lat": 35.73306778266559,
@@ -58,20 +86,6 @@
     {
         "country": "Iran",
         "city": "Tehran",
-        "lat": 35.74788742378047,
-        "lon": 51.391824371248674,
-        "date": "2026-02-28 23:45:11",
-        "type": "Airstrike",
-        "severity": "critical",
-        "title": "False and outdated videos circulated online after the Iran strikes.",
-        "description": "",
-        "fatalities": "0",
-        "link": "https://www.nytimes.com/live/2026/02/28/world/iran-strikes-trump/false-and-outdated-videos-circulated-online-after-the-iran-strikes",
-        "critical": true
-    },
-    {
-        "country": "Iran",
-        "city": "Tehran",
         "lat": 35.66319261020879,
         "lon": 51.338745011075375,
         "date": "2026-02-28 23:45:11",
@@ -82,6 +96,20 @@
         "fatalities": "0",
         "link": "https://www.bbc.com/news/articles/c3gdnpjvj4ko?at_medium=RSS&at_campaign=rss",
         "critical": false
+    },
+    {
+        "country": "Iran",
+        "city": "Tehran",
+        "lat": 35.74788742378047,
+        "lon": 51.391824371248674,
+        "date": "2026-02-28 23:45:11",
+        "type": "Airstrike",
+        "severity": "critical",
+        "title": "False and outdated videos circulated online after the Iran strikes.",
+        "description": "",
+        "fatalities": "0",
+        "link": "https://www.nytimes.com/live/2026/02/28/world/iran-strikes-trump/false-and-outdated-videos-circulated-online-after-the-iran-strikes",
+        "critical": true
     },
     {
         "country": "USA",
@@ -4169,34 +4197,6 @@
         "description": "Leading candidates present themselves as defenders of Jewish community in forum organized by Jewish groups, which is held as 3 antisemitism lawsuits filed against state institutions\nThe post Antisemitism emerges as a defining issue in California gubernatorial race appeared first on The Times of Israel.",
         "fatalities": "0",
         "link": "https://www.timesofisrael.com/antisemitism-emerges-as-a-defining-issue-in-california-gubernatorial-race/",
-        "critical": false
-    },
-    {
-        "country": "Israel",
-        "city": "Tel Aviv",
-        "lat": 32.143850973182616,
-        "lon": 34.76859363065374,
-        "date": "2026-02-28 04:38:51",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "This Jewish family’s toy company challenged Trump’s tariffs. The Supreme Court agreed",
-        "description": "The three-generation Learning Resources is one of a number of Jewish-owned family businesses among the roughly 1,000 that have filed suit - and won\nThe post This Jewish family’s toy company challenged Trump’s tariffs. The Supreme Court agreed appeared first on The Times of Israel.",
-        "fatalities": "0",
-        "link": "https://www.timesofisrael.com/this-jewish-familys-toy-company-challenged-trumps-tariffs-the-supreme-court-agreed/",
-        "critical": false
-    },
-    {
-        "country": "USA",
-        "city": "Pentagon",
-        "lat": 38.813669973370494,
-        "lon": -77.00654022361604,
-        "date": "2026-02-28 04:38:47",
-        "type": "Clashes",
-        "severity": "middle",
-        "title": "Anthropic to take Trump's Pentagon to court over AI dispute",
-        "description": "Anthropic vowed  to challenge the Pentagon in court over its blacklisting of the company for refusing to lift all safeguards on the military's use of its model, Claude — adding it's \"deeply saddened\" by the escalating dispute.Why it matters: The frontier AI company is doing what few other companies have done since Trump's second term began — directly and publicly challenging the administration.President Trump and Defense Secretary Pete Hegseth th",
-        "fatalities": "0",
-        "link": "https://www.axios.com/2026/02/28/anthropic-trump-pentagon-lawsuit-ai-dispute",
         "critical": false
     }
 ]
