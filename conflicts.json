@@ -1,5 +1,33 @@
 [
     {
+        "country": "Israel",
+        "city": "Tel Aviv",
+        "lat": 32.08000512949303,
+        "lon": 34.83722616643142,
+        "date": "2026-02-28 20:24:36",
+        "type": "Airstrike",
+        "severity": "critical",
+        "title": "Israeli opposition leaders rally behind government as Israel and US strike Iran",
+        "description": "'We are all united on the operation,' declares Lapid; Arab-majority Hadash party calls Israel 'full partner' in 'global American imperialism,' slams opposition for backing attack \nThe post Israeli opposition leaders rally behind government as Israel and US strike Iran appeared first on The Times of Israel.",
+        "fatalities": "0",
+        "link": "https://www.timesofisrael.com/israeli-opposition-leaders-rally-behind-government-as-israel-and-us-strike-iran/",
+        "critical": true
+    },
+    {
+        "country": "Israel",
+        "city": "Tel Aviv",
+        "lat": 32.049360937616925,
+        "lon": 34.79288413534091,
+        "date": "2026-02-28 20:24:19",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Netanyahu claims ‘many signs’ Iran’s Khamenei ‘no longer alive’",
+        "description": "Israeli Prime Minister Benjamin Netanyahu claims Iranian Supreme Leader Ali Khamenei may be no longer alive.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/video/newsfeed/2026/2/28/netanyahu-claims-many-signs-irans-khamenei-no-longer?traffic_source=rss",
+        "critical": false
+    },
+    {
         "country": "USA",
         "city": "Washington",
         "lat": 38.9423802060589,
@@ -4170,33 +4198,5 @@
         "fatalities": "0",
         "link": "https://www.axios.com/2026/02/27/anthropic-pentagon-supply-chain-risk-claude",
         "critical": false
-    },
-    {
-        "country": "USA",
-        "city": "Pentagon",
-        "lat": 38.804102702968585,
-        "lon": -77.08504869969013,
-        "date": "2026-02-27 20:58:13",
-        "type": "Clashes",
-        "severity": "middle",
-        "title": "Trump moves to blacklist Anthropic over AI fight with Pentagon",
-        "description": "The Trump administration has decided to blacklist Anthropic in the most consequential and controversial policy decision to date at the intersection of artificial intelligence and national security, President Trump announced.The big picture: Anthropic rebuffed the Pentagon's demand to lift all safeguards on the military's use of its model, Claude, due to its concerns about the use of AI for mass domestic surveillance and the development of weapons",
-        "fatalities": "0",
-        "link": "https://www.axios.com/2026/02/27/anthropic-pentagon-supply-chain-risk-claude",
-        "critical": false
-    },
-    {
-        "country": "Iran",
-        "city": "Isfahan",
-        "lat": 32.65257026302344,
-        "lon": 51.677802654402896,
-        "date": "2026-02-27 20:57:51",
-        "type": "Nuclear",
-        "severity": "critical",
-        "title": "IAEA urges Iran to allow inspections, points at Isfahan",
-        "description": "IAEA says Iran has stored most of its highly enriched uranium at an underground tunnel complex at its Isfahan facility.",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/news/2026/2/27/iaea-eyes-isfahan-nuclear-complex-as-it-urges-iran-to-allow?traffic_source=rss",
-        "critical": true
     }
 ]
