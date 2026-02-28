@@ -2,6 +2,34 @@
     {
         "country": "Israel",
         "city": "Tel Aviv",
+        "lat": 32.08704180861636,
+        "lon": 34.78007788444498,
+        "date": "2026-02-28 15:45:32",
+        "type": "Airstrike",
+        "severity": "critical",
+        "title": "‘War is no good, but I’m happy’: Iranian diaspora jubilant, conflicted as regime attacked",
+        "description": "In Istanbul, several exiled Iranians express support for US-Israeli strikes, lament deaths but say it is Iran's 'brutal theocracy that has put us in this situation'\nThe post War is no good, but Im happy: Iranian diaspora jubilant, conflicted as regime attacked appeared first on The Times of Israel.",
+        "fatalities": "0",
+        "link": "https://www.timesofisrael.com/war-is-no-good-but-im-happy-iranian-diaspora-jubilant-conflicted-as-regime-attacked/",
+        "critical": true
+    },
+    {
+        "country": "Israel",
+        "city": "Tel Aviv",
+        "lat": 32.05593859046943,
+        "lon": 34.74513216617925,
+        "date": "2026-02-28 15:45:32",
+        "type": "Clashes",
+        "severity": "middle",
+        "title": "As US and Israel again battle Islamic Republic, the goal is regime change and the stakes could not be higher",
+        "description": "When the assault is over, Trump promises, Iranians will be able to take over their governance; the ayatollahs have other plans; much of the world order hangs on the outcome\nThe post As US and Israel again battle Islamic Republic, the goal is regime change and the stakes could not be higher appeared first on The Times of Israel.",
+        "fatalities": "0",
+        "link": "https://www.timesofisrael.com/as-us-and-israel-again-battle-irans-regime-the-goal-is-regime-change-and-the-stakes-could-not-be-higher/",
+        "critical": false
+    },
+    {
+        "country": "Israel",
+        "city": "Tel Aviv",
         "lat": 32.02805234221615,
         "lon": 34.73488105356661,
         "date": "2026-02-28 15:20:23",
@@ -870,20 +898,6 @@
     {
         "country": "Israel",
         "city": "Tel Aviv",
-        "lat": 32.094083019116795,
-        "lon": 34.757905784396335,
-        "date": "2026-02-28 12:31:20",
-        "type": "Clashes",
-        "severity": "middle",
-        "title": "As US and Israel again battle Iran’s regime, the goal is regime change and the stakes could not be higher",
-        "description": "When the assault is over, Trump promises, Iranians will be able to take over their governance; the ayatollahs have other plans; much of the world order hangs on the outcome\nThe post As US and Israel again battle Irans regime, the goal is regime change and the stakes could not be higher appeared first on The Times of Israel.",
-        "fatalities": "0",
-        "link": "https://www.timesofisrael.com/as-us-and-israel-again-battle-irans-regime-the-goal-is-regime-change-and-the-stakes-could-not-be-higher/",
-        "critical": false
-    },
-    {
-        "country": "Israel",
-        "city": "Tel Aviv",
         "lat": 32.061426854769735,
         "lon": 34.843516208739736,
         "date": "2026-02-28 12:31:20",
@@ -893,6 +907,20 @@
         "description": "After weeks of failed diplomacy and a massive military buildup, the US and Israel strike Iran, and the regime fires back — here are the leaders, rivals, and regional players\nThe post US-Israel-Iran conflict: Who are the main players? appeared first on The Times of Israel.",
         "fatalities": "0",
         "link": "https://www.timesofisrael.com/us-israel-iran-conflict-who-are-the-main-players/",
+        "critical": false
+    },
+    {
+        "country": "Israel",
+        "city": "Tel Aviv",
+        "lat": 32.094083019116795,
+        "lon": 34.757905784396335,
+        "date": "2026-02-28 12:31:20",
+        "type": "Clashes",
+        "severity": "middle",
+        "title": "As US and Israel again battle Iran’s regime, the goal is regime change and the stakes could not be higher",
+        "description": "When the assault is over, Trump promises, Iranians will be able to take over their governance; the ayatollahs have other plans; much of the world order hangs on the outcome\nThe post As US and Israel again battle Irans regime, the goal is regime change and the stakes could not be higher appeared first on The Times of Israel.",
+        "fatalities": "0",
+        "link": "https://www.timesofisrael.com/as-us-and-israel-again-battle-irans-regime-the-goal-is-regime-change-and-the-stakes-could-not-be-higher/",
         "critical": false
     },
     {
