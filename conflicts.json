@@ -1,5 +1,33 @@
 [
     {
+        "country": "Iran",
+        "city": "Kharg island",
+        "lat": 29.29824431522855,
+        "lon": 50.36528266340462,
+        "date": "2026-02-28 14:56:31",
+        "type": "Naval",
+        "severity": "normal",
+        "title": "How the US attack on Iran could shake oil prices",
+        "description": "The overnight military strikes on Iran will likely push up oil prices by creating new risks to supplies from the region that's home to a large chunk of global output and transit.Why it matters: Americans are about to feel the impact of the joint military operation by the U.S. and Israel.State of play: Concrete signs of the market fallout will arrive when trading on Asian exchanges opens on Sunday evening.But even as the conflict's scope and impac",
+        "fatalities": "0",
+        "link": "https://www.axios.com/2026/02/28/us-iran-attack-energy-oil-prices",
+        "critical": false
+    },
+    {
+        "country": "Israel",
+        "city": "Tel Aviv",
+        "lat": 32.045190641667425,
+        "lon": 34.71887886166545,
+        "date": "2026-02-28 14:56:18",
+        "type": "Airstrike",
+        "severity": "critical",
+        "title": "Inside Israel’s ‘normal’: Triumphalism and calm mix after attack on Iran",
+        "description": "Israel has been on high alert since it launched a wave of joint attacks with the US against Iran.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/news/2026/2/28/inside-israels-normal-triumphalism-and-calm-mix-after-attack-on-iran?traffic_source=rss",
+        "critical": true
+    },
+    {
         "country": "Israel",
         "city": "Tel Aviv",
         "lat": 32.111628348194735,
