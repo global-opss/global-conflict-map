@@ -1679,7 +1679,7 @@ setInterval(checkCriticalAlerts, 30000);
         if (!map.getPane('warPane')) {
             const pane = map.createPane('warPane');
             pane.style.zIndex = 650;
-            pane.style.pointerEvents = 'none'; // Глобален фикс за панела [cite: 2026-02-20]
+            pane.style.pointerEvents = 'none';
         }
 
         const MISSION_DATA = [
@@ -1690,10 +1690,11 @@ setInterval(checkCriticalAlerts, 30000);
             { n: "IR -> Bahrain", f: [28.92, 50.82], t: [26.2285, 50.5860], c: "#ff4500", s: "south" },
             { n: "IR -> Kuwait", f: [30.50, 47.80], t: [29.2243, 47.9691], c: "#ff4500", s: "south" },
             { n: "IR -> Dubai Port", f: [27.24, 56.34], t: [25.2048, 55.2708], c: "#ff4500", s: "south" },
+            // УДАР ПО ЕРБИЛ (4 РАКЕТИ)
             { n: "IR -> Erbil Volley 1", f: [34.50, 45.00], t: [36.23, 43.95], c: "#ff4500", s: "west" },
             { n: "IR -> Erbil Volley 2", f: [34.60, 45.10], t: [36.23, 43.95], c: "#ff4500", s: "west" },
             { n: "IR -> Erbil Volley 3", f: [34.70, 45.20], t: [36.23, 43.95], c: "#ff4500", s: "west" },
-            { n: "IR -> Erbil Volley 4", f: [34.80, 45.30], t: [36.23, 43.95], c: "#ff4500", s: "west" }
+            { n: "IR -> Erbil Volley 4", f: [34.80, 45.30], t: [36.23, 43.95], c: "#ff4500", s: "west" },
             // --- КОАЛИЦИОНЕН ОТВЕТ (СИНИ) --- [cite: 2026-03-01]
             { n: "IAF -> Isfahan", f: [31.50, 34.50], t: [32.65, 51.66], c: "#00ebff", s: "east" },
             { n: "IAF -> Natanz", f: [31.80, 35.00], t: [33.72, 51.71], c: "#00ebff", s: "east" },
@@ -1707,7 +1708,6 @@ setInterval(checkCriticalAlerts, 30000);
             setTimeout(() => {
                 const icon = L.divIcon({
                     className: 'v23-m',
-                    // ДОБАВЕН pointer-events: none [cite: 2026-02-20]
                     html: `<div style="width:8px; height:8px; background:#fff; border:1.5px solid ${data.c}; border-radius:50%; box-shadow:0 0 10px ${data.c}; pointer-events:none;"></div>`,
                     iconSize: [8, 8], iconAnchor: [4, 4]
                 });
@@ -1716,15 +1716,13 @@ setInterval(checkCriticalAlerts, 30000);
                 const tag = L.marker(data.f, {
                     icon: L.divIcon({
                         className: 'v23-l',
-                        // ДОБАВЕН pointer-events: none [cite: 2026-02-20]
                         html: `<div style="color:${data.c}; font-family:monospace; font-size:10px; font-weight:bold; text-shadow:1px 1px #000; white-space:nowrap; margin-left:15px; pointer-events:none;">🚀 ${data.n}</div>`
                     }),
-                    pane: 'warPane',
-                    interactive: false // Забранява всяко взаимодействие с етикета [cite: 2026-02-20]
+                    pane: 'warPane', interactive: false
                 }).addTo(map);
 
                 let startTime = Date.now();
-                const duration = 180000; // 3 минути полет [cite: 2026-02-20]
+                const duration = 180000;
 
                 const move = setInterval(() => {
                     let p = (Date.now() - startTime) / duration;
@@ -1734,60 +1732,46 @@ setInterval(checkCriticalAlerts, 30000);
                         if (map.hasLayer(tag)) map.removeLayer(tag);
                         impact(data.t, data.c); return;
                     }
-
                     let lat = data.f[0] + (data.t[0] - data.f[0]) * p;
                     let lon = data.f[1] + (data.t[1] - data.f[1]) * p;
-                    
                     let arc = Math.sin(Math.PI * p) * 2.0;
                     let pos;
-                    
                     if (data.s === "north") pos = [lat, lon - arc];
                     else if (data.s === "south") pos = [lat, lon + arc];
                     else if (data.s === "east") pos = [lat - arc, lon];
                     else pos = [lat + arc, lon];
 
                     missile.setLatLng(pos); tag.setLatLng(pos);
-
-                    // ДОБАВЕН interactive: false за следите [cite: 2026-02-20]
-                    const trail = L.circleMarker(pos, { 
-                        radius: 0.9, color: data.c, opacity: 0.4, pane: 'warPane', interactive: false 
-                    }).addTo(map);
+                    const trail = L.circleMarker(pos, { radius: 0.9, color: data.c, opacity: 0.4, pane: 'warPane', interactive: false }).addTo(map);
                     setTimeout(() => { if (map.hasLayer(trail)) map.removeLayer(trail); }, 35000);
                 }, 500);
             }, delay);
         };
 
         const impact = (loc, color) => {
-            const b = L.circle(loc, { 
-                radius: 1000, color: '#fff', fillColor: color, fillOpacity: 0.7, pane: 'warPane', interactive: false 
-            }).addTo(map);
+            const b = L.circle(loc, { radius: 1000, color: '#fff', fillColor: color, fillOpacity: 0.7, pane: 'warPane', interactive: false }).addTo(map);
             let r = 1000;
             const s = setInterval(() => {
                 r += 4000; b.setRadius(r);
                 if (r > 130000) { clearInterval(s); if (map.hasLayer(b)) map.removeLayer(b); }
             }, 60);
-        };
 
-        if (loc[0].toFixed(2) === "36.23" && loc[1].toFixed(2) === "43.95") {
+            // ФИКС ЗА ЕРБИЛ: Сега е правилно вложен вътре в impact [cite: 2026-02-20]
+            if (loc[0].toFixed(2) === "36.23" && loc[1].toFixed(2) === "43.95") {
                 const damageIcon = L.divIcon({
                     className: 'damage-marker',
-                    html: `<div style="color:#ff0000; font-size:15px; font-weight:bold; pointer-events:none; text-shadow: 0 0 5px #000;">🔥</div>`,
-                    iconSize: [20, 20],
-                    iconAnchor: [10, 10]
+                    html: `<div style="color:#ff0000; font-size:18px; font-weight:bold; pointer-events:none; text-shadow: 0 0 8px #f00;">🔥</div>`,
+                    iconSize: [20, 20], iconAnchor: [10, 10]
                 });
-                
                 const burn = L.marker(loc, { icon: damageIcon, pane: 'warPane', interactive: false }).addTo(map);
-                
-                // Изчезва след 60 секунди, за да изчисти картата за следващата вълна [cite: 2026-02-20]
                 setTimeout(() => { if (map.hasLayer(burn)) map.removeLayer(burn); }, 60000);
             }
-        };
+        }; // Край на функцията impact [cite: 2026-02-20]
 
         MISSION_DATA.forEach((m, i) => launch(m, i * 4000));
-        
         const restartTime = 180000 + (MISSION_DATA.length * 4000) + 15000;
         setTimeout(startGlobalWar, restartTime);
     };
 
-    setTimeout(startGlobalWar, 10000);
+    setTimeout(startGlobalWar, 5000); // По-бърз старт за тест [cite: 2026-02-20]
 })();
