@@ -1668,71 +1668,114 @@ setInterval(checkCriticalAlerts, 30000);
 })();
 
 // ============================================================
-// 🛰️ DIRECT MISSILE SIMULATION (NO BANNERS, NO MESS) [cite: 2026-02-20]
+// 🛰️ АВТОНОМЕН МОДУЛ ЗА БАЛИСТИЧНА СИМУЛАЦИЯ (v5.0) [cite: 2026-02-20]
 // ============================================================
 
-function launchMissileStrike() {
-    // Реални координати
-    const iranPos = { lat: 35.6892, lon: 51.3890 }; // Техеран
-    const israelPos = { lat: 32.0853, lon: 34.7818 }; // Тел Авив
+/**
+ * Глобален контролер на полетите.
+ * Ако твоята карта се казва по друг начин (напр. myMap), 
+ * смени 'map' долу с твоето име. [cite: 2026-02-20]
+ */
+const TacticalStrike = {
+    origin: { lat: 35.6892, lon: 51.3890 }, // ТЕХЕРАН
+    target: { lat: 32.0853, lon: 34.7818 }, // ТЕЛ АВИВ
+    isActive: false,
 
-    const missileID = `msl_${Math.random().toString(36).substr(2, 5)}`;
-    const container = document.getElementById('missile-layer');
-    
-    // 1. Създаваме ракетата (ползваме CSS класа .missile-red, който вече имаш)
-    const missile = document.createElement('div');
-    missile.id = missileID;
-    missile.className = 'missile-red';
-    container.appendChild(missile);
-
-    let progress = 0;
-    const speed = 0.4; // Колко бързо лети (промени го за теб)
-
-    const flight = setInterval(() => {
-        progress += speed;
-
-        if (progress >= 100) {
-            clearInterval(flight);
-            createExplosion(israelPos.lat, israelPos.lon); // Взрив в Израел
-            missile.remove();
+    /**
+     * Основна функция за рендериране на полета
+     */
+    execute: function() {
+        // Проверка дали контейнерът съществува на ред 138
+        const layer = document.getElementById('missile-layer');
+        if (!layer) {
+            console.error(">> ERROR: Missile Layer (ID: missile-layer) not found on line 138!");
             return;
         }
 
-        // Изчисляване на ЛОГИЧЕСКАТА позиция (Lerp)
-        const currentLat = iranPos.lat + (israelPos.lat - iranPos.lat) * (progress / 100);
-        const currentLon = iranPos.lon + (israelPos.lon - iranPos.lon) * (progress / 100);
+        // Генериране на обекта на ракетата
+        const missile = document.createElement('div');
+        missile.className = 'missile-red';
+        layer.appendChild(missile);
 
-        // Превръщане на координатите в ПИКСЕЛИ върху твоята Leaflet карта
-        // 'map' трябва да е името на твоя Leaflet обект
-        const pos = map.latLngToLayerPoint([currentLat, currentLon]);
-        
-        missile.style.left = pos.x + 'px';
-        missile.style.top = pos.y + 'px';
+        let progress = 0;
+        const flightPath = setInterval(() => {
+            progress += 0.35; // Скорост на полета
 
-        // Опашка (trail) за реализъм
+            if (progress >= 100) {
+                clearInterval(flightPath);
+                this.triggerImpact(missile);
+                return;
+            }
+
+            // Изчисляване на текущата географска позиция
+            const currentLat = this.origin.lat + (this.target.lat - this.origin.lat) * (progress / 100);
+            const currentLon = this.origin.lon + (this.target.lon - this.origin.lon) * (progress / 100);
+
+            // КОНВЕРТИРАНЕ КЪМ ПИКСЕЛИ (Leaflet Logic) [cite: 2026-02-20]
+            try {
+                // Използваме 'map' - увери се, че това е името на твоя Leaflet обект!
+                const point = map.latLngToLayerPoint([currentLat, currentLon]);
+                
+                missile.style.left = point.x + 'px';
+                missile.style.top = point.y + 'px';
+
+                // Добавяне на димна следа
+                this.dropTrail(point.x, point.y, layer);
+            } catch (e) {
+                console.warn(">> WAITING FOR MAP OBJECT TO INITIALIZE...");
+                clearInterval(flightPath);
+                missile.remove();
+            }
+        }, 45);
+    },
+
+    /**
+     * Създава визуален ефект на пушек след ракетата [cite: 2026-02-20]
+     */
+    dropTrail: function(x, y, container) {
         const trail = document.createElement('div');
         trail.className = 'missile-trail';
-        trail.style.left = pos.x + 'px';
-        trail.style.top = pos.y + 'px';
+        trail.style.left = x + 'px';
+        trail.style.top = y + 'px';
         container.appendChild(trail);
-        setTimeout(() => trail.remove(), 600);
+        
+        // Автоматично премахване след анимацията в CSS
+        setTimeout(() => trail.remove(), 750);
+    },
 
-    }, 30); // 30ms за супер плавно движение
+    /**
+     * Ефект при успешно попадение в целта
+     */
+    triggerImpact: function(missileEl) {
+        const impactX = missileEl.style.left;
+        const impactY = missileEl.style.top;
+        missileEl.remove();
+
+        const explosion = document.createElement('div');
+        explosion.className = 'impact-explosion';
+        explosion.style.left = impactX;
+        explosion.style.top = impactY;
+        document.getElementById('missile-layer').appendChild(explosion);
+
+        console.log("%c [TACTICAL] IMPACT CONFIRMED AT TARGET COORDINATES ", "background: red; color: white;");
+        setTimeout(() => explosion.remove(), 1000);
+    }
+};
+
+/**
+ * ИНИЦИАЛИЗАЦИЯ: Стартираме след пълно зареждане на картата
+ * [cite: 2026-02-20]
+ */
+function runSimulationLoop() {
+    // Първи изстрел след 5 секунди
+    setTimeout(() => {
+        TacticalStrike.execute();
+        // Следващи изстрели на всеки 15 секунди
+        setInterval(() => TacticalStrike.execute(), 15000);
+    }, 5000);
 }
 
-// Помощна функция за взрива (използва .impact-explosion от твоя CSS)
-function createExplosion(lat, lon) {
-    const explosion = document.createElement('div');
-    explosion.className = 'impact-explosion';
-    const pos = map.latLngToLayerPoint([lat, lon]);
-    explosion.style.left = pos.x + 'px';
-    explosion.style.top = pos.y + 'px';
-    document.getElementById('missile-layer').appendChild(explosion);
-    setTimeout(() => explosion.remove(), 800);
-}
-
-// СТАРТ: Изстрелваме веднага и после на всеки 10 секунди
-setTimeout(launchMissileStrike, 2000);
-setInterval(launchMissileStrike, 10000);
+// Стартиране на процеса
+runSimulationLoop();
 
 // ============================================================
