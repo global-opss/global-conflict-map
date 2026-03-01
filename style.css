@@ -215,47 +215,25 @@ iframe {
     pointer-events: none; /* За да не пречат на клика върху маркера */
 }
 
-/* 🚀 MISSILE & IMPACT STYLES */
 .missile-red {
-    width: 8px;
-    height: 8px;
-    background: #ff3300;
-    border-radius: 50%;
-    position: absolute;
-    z-index: 1000; /* Да е над всички слоеве на картата */
-    box-shadow: 0 0 15px #ff0000, 0 0 5px #fff;
-    pointer-events: none; /* За да не пречи на кликането по картата */
-    transition: transform 0.1s linear;
+    width: 12px !important;
+    height: 12px !important;
+    background-color: #ff0000 !important; /* Ярко червено */
+    border: 2px solid #ffffff !important; /* Бял кант за контраст над Dark Matter */
+    border-radius: 50% !important;
+    position: absolute !important;
+    z-index: 9999 !important;
+    box-shadow: 0 0 15px #ff0000, 0 0 5px #fff !important;
+    pointer-events: none !important;
+    transform: translate(-50%, -50%); /* Центриране върху точката */
 }
 
-/* Опашка на ракетата за по-голям реализъм */
 .missile-trail {
-    position: absolute;
-    width: 4px;
-    height: 4px;
-    background: rgba(255, 69, 0, 0.4);
-    border-radius: 50%;
-    pointer-events: none;
-    animation: fadeOut 0.8s forwards;
-}
-
-@keyframes fadeOut {
-    from { opacity: 1; transform: scale(1); }
-    to { opacity: 0; transform: scale(0.2); }
-}
-
-/* Ефект на взрив при попадение */
-.impact-explosion {
-    position: absolute;
-    width: 50px;
-    height: 50px;
-    border: 2px solid red;
-    border-radius: 50%;
-    animation: explode 0.6s ease-out forwards;
-    z-index: 1001;
-}
-
-@keyframes explode {
-    0% { transform: scale(0.1); opacity: 1; border-width: 10px; }
-    100% { transform: scale(2.5); opacity: 0; border-width: 1px; }
+    position: absolute !important;
+    width: 6px !important;
+    height: 6px !important;
+    background: rgba(255, 69, 0, 0.6) !important;
+    border-radius: 50% !important;
+    z-index: 9998 !important;
+    pointer-events: none !important;
 }
