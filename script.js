@@ -179,103 +179,7 @@ let map; // Сложи го точно тук на нов ред
         crossOrigin: true
     }).addTo(map);
 
-// =============================================================================
-// 🛰️ TACTICAL STRIKE ENGINE v15.0 - COSMETIC FIX [cite: 2026-02-20]
-// =============================================================================
 
-function startHeavyMissileSimulation() {
-    console.log("%c >> [REBOOT]: COSMETIC GUIDANCE INITIALIZED ", "color: #39FF14; font-weight: bold;");
-
-    // Трябва ни контейнер, който е НАД всичко. Ако го няма, го създаваме динамично.
-    let tacticalLayer = document.getElementById('missile-layer');
-    if (!tacticalLayer) {
-        tacticalLayer = document.createElement('div');
-        tacticalLayer.id = 'missile-layer';
-        // Поставяме го като последен елемент в body, за да е най-отгоре
-        document.body.appendChild(tacticalLayer);
-    }
-
-    // Стил за "Прозрачно стъкло" над целия екран
-    Object.assign(tacticalLayer.style, {
-        position: 'fixed',
-        top: '0',
-        left: '0',
-        width: '100vw',
-        height: '100vh',
-        pointerEvents: 'none',
-        zIndex: '9999',
-        overflow: 'hidden'
-    });
-
-    const DEPLOYMENT = {
-        origin: { lat: 35.68, lon: 51.38 }, // Техеран
-        target: { lat: 32.08, lon: 34.78 }  // Израел
-    };
-
-    function fire() {
-        if (typeof map === 'undefined' || !map) return;
-
-        const missile = document.createElement('div');
-        missile.className = 'missile-red';
-        tacticalLayer.appendChild(missile);
-
-        let progress = 0;
-        
-        const flight = setInterval(() => {
-            progress += 0.5;
-
-            if (progress >= 100) {
-                clearInterval(flight);
-                createCosmeticImpact(DEPLOYMENT.target);
-                missile.remove();
-                return;
-            }
-
-            const cLat = DEPLOYMENT.origin.lat + (DEPLOYMENT.target.lat - DEPLOYMENT.origin.lat) * (progress / 100);
-            const cLon = DEPLOYMENT.origin.lon + (DEPLOYMENT.target.lon - DEPLOYMENT.origin.lon) * (progress / 100);
-
-            try {
-                // Използваме ContainerPoint за "Floating" слой [cite: 2026-02-20]
-                const pos = map.latLngToContainerPoint([cLat, cLon]);
-                
-                missile.style.left = pos.x + 'px';
-                missile.style.top = pos.y + 'px';
-
-                // Димна следа
-                const smoke = document.createElement('div');
-                smoke.className = 'missile-trail';
-                smoke.style.left = pos.x + 'px';
-                smoke.style.top = pos.y + 'px';
-                tacticalLayer.appendChild(smoke);
-                setTimeout(() => smoke.remove(), 600);
-                
-            } catch (err) {
-                clearInterval(flight);
-                missile.remove();
-            }
-        }, 40);
-    }
-
-    function createCosmeticImpact(loc) {
-        try {
-            const p = map.latLngToContainerPoint([loc.lat, loc.lon]);
-            const boom = document.createElement('div');
-            boom.className = 'impact-explosion';
-            boom.style.left = p.x + 'px';
-            boom.style.top = p.y + 'px';
-            tacticalLayer.appendChild(boom);
-            console.log("%c [BOOM]: SUCCESSFUL HIT ", "background: #ff0000; color: #fff;");
-            setTimeout(() => boom.remove(), 1000);
-        } catch (e) {}
-    }
-
-    // Изстрелваме веднага и после в цикъл
-    fire();
-    setInterval(fire, 15000);
-}
-
-// Стартираме след малко време, за да се зареди DOM-а
-setTimeout(startHeavyMissileSimulation, 5000);
       
 // --- СЕКЦИЯ 2: ГЕОПОЛИТИЧЕСКИ ДАННИ И ГРАНИЦИ ---
 const warZones = ['Russia', 'Ukraine', 'Syria', 'Sudan', 'Pakistan', 'Afghanistan', 'Iran'];
@@ -1765,3 +1669,134 @@ setInterval(checkCriticalAlerts, 30000);
 
 })();
 
+// =============================================================================
+// 🚀 PROJECT OVERLORD - ABSOLUTE VISIBILITY ENGINE [cite: 2026-02-20]
+// =============================================================================
+
+function startOverlordStrike() {
+    console.log("%c >> [REBOOT]: EXECUTING OVERLORD PROTOCOL ", "color: #ff0000; font-weight: bold;");
+
+    // СЪЗДАВАМЕ НИВО "СТЪКЛО" НАД ЦЕЛИЯ ИНТЕРФЕЙС
+    let glassPane = document.getElementById('overlord-pane');
+    if (!glassPane) {
+        glassPane = document.createElement('div');
+        glassPane.id = 'overlord-pane';
+        document.body.appendChild(glassPane);
+    }
+
+    // ТУК Е МАГИЯТА: Форсираме този слой да е над всички икони и панели [cite: 2026-02-20]
+    Object.assign(glassPane.style, {
+        position: 'fixed',
+        top: '0',
+        left: '0',
+        width: '100vw',
+        height: '100vh',
+        pointerEvents: 'none',
+        zIndex: '2147483647', // Максималният възможен z-index в браузъра
+        background: 'transparent',
+        overflow: 'hidden'
+    });
+
+    const ATTACK_VECTOR = {
+        origin: { lat: 35.6892, lon: 51.3890 }, // Иран
+        target: { lat: 32.0853, lon: 34.7818 }  // Израел
+    };
+
+    function launch() {
+        if (typeof map === 'undefined' || !map) return;
+
+        const missile = document.createElement('div');
+        
+        // СТИЛИЗИРАНЕ НА РАКЕТАТА С КОНТРАСТЕН ЦВЯТ [cite: 2026-02-20]
+        Object.assign(missile.style, {
+            position: 'absolute',
+            width: '14px',
+            height: '14px',
+            backgroundColor: '#ff3300',
+            border: '3px solid #00ff00', // Неоново зелено за контраст над тъмното
+            borderRadius: '50%',
+            boxShadow: '0 0 20px #ff0000, 0 0 10px #00ff00',
+            zIndex: '100',
+            transform: 'translate(-50%, -50%)'
+        });
+
+        glassPane.appendChild(missile);
+
+        let progress = 0;
+        const flightEngine = setInterval(() => {
+            progress += 0.5;
+
+            if (progress >= 100) {
+                clearInterval(flightEngine);
+                showImpact(ATTACK_VECTOR.target);
+                missile.remove();
+                return;
+            }
+
+            const currentLat = ATTACK_VECTOR.origin.lat + (ATTACK_VECTOR.target.lat - ATTACK_VECTOR.origin.lat) * (progress / 100);
+            const currentLon = ATTACK_VECTOR.origin.lon + (ATTACK_VECTOR.target.lon - ATTACK_VECTOR.origin.lon) * (progress / 100);
+
+            try {
+                // Използваме ContainerPoint, защото нашият Pane е фиксиран спрямо прозореца [cite: 2026-02-20]
+                const screenPos = map.latLngToContainerPoint([currentLat, currentLon]);
+                
+                missile.style.left = screenPos.x + 'px';
+                missile.style.top = screenPos.y + 'px';
+
+                // Димна следа (Particles)
+                const spark = document.createElement('div');
+                Object.assign(spark.style, {
+                    position: 'absolute',
+                    width: '6px',
+                    height: '6px',
+                    background: '#00ff00',
+                    left: screenPos.x + 'px',
+                    top: screenPos.y + 'px',
+                    borderRadius: '50%',
+                    opacity: '0.8',
+                    transform: 'translate(-50%, -50%)'
+                });
+                glassPane.appendChild(spark);
+                setTimeout(() => spark.remove(), 400);
+
+            } catch (e) {
+                clearInterval(flightEngine);
+                missile.remove();
+            }
+        }, 30);
+    }
+
+    function showImpact(loc) {
+        try {
+            const p = map.latLngToContainerPoint([loc.lat, loc.lon]);
+            const flash = document.createElement('div');
+            Object.assign(flash.style, {
+                position: 'absolute',
+                width: '100px',
+                height: '100px',
+                background: 'radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(255,0,0,0) 70%)',
+                left: p.x + 'px',
+                top: p.y + 'px',
+                transform: 'translate(-50%, -50%) scale(0)',
+                transition: 'all 0.4s ease-out',
+                zIndex: '200'
+            });
+            glassPane.appendChild(flash);
+            
+            setTimeout(() => {
+                flash.style.transform = 'translate(-50%, -50%) scale(2.5)';
+                flash.style.opacity = '0';
+            }, 10);
+            
+            setTimeout(() => flash.remove(), 500);
+            console.log("%c [BOOM]: SUCCESSFUL HIT ", "background: #f00; color: #fff; padding: 5px;");
+        } catch (e) {}
+    }
+
+    // Изстрелване на вълни
+    setInterval(launch, 15000);
+    launch();
+}
+
+// Изчакваме картата да се стабилизира напълно [cite: 2026-02-20]
+setTimeout(startOverlordStrike, 7000);
