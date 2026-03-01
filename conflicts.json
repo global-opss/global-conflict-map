@@ -1,5 +1,33 @@
 [
     {
+        "country": "Israel",
+        "city": "Tel Aviv",
+        "lat": 32.12005122604937,
+        "lon": 34.746342029482115,
+        "date": "2026-03-01 21:44:37",
+        "type": "Naval",
+        "severity": "normal",
+        "title": "With Israel’s airspace shut, Arkia flies homeward-bound Israelis to Egyptian border",
+        "description": "With uncertainty regarding when flights will resume, land border crossing and maritime travel routes help stranded Israelis and travelers get in and out, at a high cost\nThe post With Israels airspace shut, Arkia flies homeward-bound Israelis to Egyptian border appeared first on The Times of Israel.",
+        "fatalities": "0",
+        "link": "https://www.timesofisrael.com/with-israels-airspace-shut-arkia-flies-homeward-bound-israelis-to-egyptian-border/",
+        "critical": false
+    },
+    {
+        "country": "Israel",
+        "city": "Tel Aviv",
+        "lat": 32.09560887124192,
+        "lon": 34.79343385605968,
+        "date": "2026-03-01 21:44:37",
+        "type": "Airstrike",
+        "severity": "critical",
+        "title": "IDF: Over 2,000 bombs dropped on Iran in 30 hours, air supremacy achieved on 1st day",
+        "description": "Jets able to drop munitions on targets rather than use ranged missiles; IDF says it destroyed HQ of Iran’s internal security forces, Revolutionary Guard Corps command centers\nThe post IDF: Over 2,000 bombs dropped on Iran in 30 hours, air supremacy achieved on 1st day appeared first on The Times of Israel.",
+        "fatalities": "0",
+        "link": "https://www.timesofisrael.com/idf-over-2000-bombs-dropped-on-iran-in-30-hours-air-supremacy-achieved-on-1st-day/",
+        "critical": true
+    },
+    {
         "country": "Europe",
         "city": "London",
         "lat": 51.53449683409892,
@@ -5093,34 +5121,6 @@
         "description": "Discussing the potential of American casualties, Trump said \"that often happens in war.\"",
         "fatalities": "0",
         "link": "https://www.defensenews.com/news/your-military/2026/02/28/us-israel-launch-major-combat-operations-in-iran/",
-        "critical": false
-    },
-    {
-        "country": "Russia",
-        "city": "Moscow",
-        "lat": 55.73648235816745,
-        "lon": 37.63848908166688,
-        "date": "2026-02-28 13:00:28",
-        "type": "Airstrike",
-        "severity": "critical",
-        "title": "Russia to supply Iran with shoulder-fired air defense system",
-        "description": "Russia and Iran have reportedly finalized a contract for the sale of 500 Russian “Verba” man-portable air defense systems (MANPADS) and 2,500 missiles as Iran tries to shore up its air defenses. However, it is unlikely that these weapons would significantly impact potential US operations against the Islamic Republic.\nThe post Russia to supply Iran with shoulder-fired air defense system appeared first on FDDs Long War Journal.",
-        "fatalities": "0",
-        "link": "https://www.longwarjournal.org/archives/2026/02/russia-to-supply-iran-with-shoulder-fired-air-defense-system.php",
-        "critical": true
-    },
-    {
-        "country": "Middle East",
-        "city": "Yemen",
-        "lat": 14.592495708688338,
-        "lon": 49.13172887097646,
-        "date": "2026-02-28 13:00:26",
-        "type": "Naval",
-        "severity": "normal",
-        "title": "'Prime moment for Hezbollah and the Houthis': US-Israeli strikes on Iran risk igniting regional war",
-        "description": "As the US and Israel launched air strikes on Iran early on Saturday, FRANCE 24 spoke to Middle East expert Hussein Ibish about the risk of Iranian allies – notably Hezbollah in Lebanon and the Houthis in Yemen – launching their own retaliatory attacks against US forces, igniting a wider regional war.",
-        "fatalities": "0",
-        "link": "https://www.france24.com/en/middle-east/20260228-prime-moment-hezbollah-houthis-us-israeli-attack-on-iran-risks-regional-war",
         "critical": false
     }
 ]
