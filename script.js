@@ -179,6 +179,72 @@ let map; // Сложи го точно тук на нов ред
         crossOrigin: true
     }).addTo(map);
 
+// =============================================================================
+// 🚀 INTEGRATED MISSILE ENGINE (PART OF SECTION 1) [cite: 2026-02-20]
+// =============================================================================
+// Вкарваме това директно след дефиницията на картата, за да няма "map is not defined"
+
+const runMissileStrike = () => {
+    const layer = document.getElementById('missile-layer');
+    if (!layer || !map) return;
+
+    // Координати от твоя тактически изглед
+    const startPos = { lat: 35.68, lon: 51.38 }; // Иран
+    const endPos = { lat: 32.08, lon: 34.78 };   // Израел
+
+    const missile = document.createElement('div');
+    missile.className = 'missile-red'; // Ползва твоя CSS [cite: 2026-02-20]
+    layer.appendChild(missile);
+
+    let step = 0;
+    const animate = setInterval(() => {
+        step += 0.4;
+        if (step >= 100) {
+            clearInterval(animate);
+            // Ефект при удар [cite: 2026-02-20]
+            try {
+                const impactPoint = map.latLngToContainerPoint([endPos.lat, endPos.lon]);
+                const boom = document.createElement('div');
+                boom.className = 'impact-explosion';
+                boom.style.left = (impactPoint.x - 25) + 'px';
+                boom.style.top = (impactPoint.y - 25) + 'px';
+                layer.appendChild(boom);
+                setTimeout(() => boom.remove(), 800);
+            } catch(e) {}
+            missile.remove();
+            return;
+        }
+
+        const cLat = startPos.lat + (endPos.lat - startPos.lat) * (step / 100);
+        const cLon = startPos.lon + (endPos.lon - startPos.lon) * (step / 100);
+
+        try {
+            // Използваме ContainerPoint за максимална стабилност [cite: 2026-02-20]
+            const point = map.latLngToContainerPoint([cLat, cLon]);
+            missile.style.left = point.x + 'px';
+            missile.style.top = point.y + 'px';
+
+            // Опашка
+            const trail = document.createElement('div');
+            trail.className = 'missile-trail';
+            trail.style.left = point.x + 'px';
+            trail.style.top = point.y + 'px';
+            layer.appendChild(trail);
+            setTimeout(() => trail.remove(), 600);
+        } catch (e) {
+            clearInterval(animate);
+            missile.remove();
+        }
+    }, 40);
+};
+
+// Стартиране на цикъла автоматично 5 секунди след като картата "изгрее" [cite: 2026-02-20]
+setTimeout(() => {
+    runMissileStrike();
+    setInterval(runMissileStrike, 15000);
+}, 5000);
+// =============================================================================
+      
 // --- СЕКЦИЯ 2: ГЕОПОЛИТИЧЕСКИ ДАННИ И ГРАНИЦИ ---
 const warZones = ['Russia', 'Ukraine', 'Syria', 'Sudan', 'Pakistan', 'Afghanistan', 'Iran'];
 const blueZone = ['France', 'Germany', 'United Kingdom', 'Italy', 'Poland', 'Bulgaria', 'Romania', 'Greece', 'Norway', 'Jordan', 'Turkey',  'Lithuania', 'Belarus', 'Finland', 'Sweden', 'Qatar', 'Latvia', 'Estonia'];
