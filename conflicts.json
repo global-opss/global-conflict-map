@@ -1,5 +1,47 @@
 [
     {
+        "country": "Europe",
+        "city": "London",
+        "lat": 51.53449683409892,
+        "lon": -0.16013526540032294,
+        "date": "2026-03-01 21:00:41",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Iranians and Jews celebrate Khamenei’s death shoulder to shoulder in north London streets",
+        "description": "After their Persian neighbors showed support following Oct. 7, Jewish Londoners return the gesture, joining jubilant crowds Saturday night cheering the prospect of regime change\nThe post Iranians and Jews celebrate Khameneis death shoulder to shoulder in north London streets appeared first on The Times of Israel.",
+        "fatalities": "0",
+        "link": "https://www.timesofisrael.com/iranians-and-jews-celebrate-khameneis-death-shoulder-to-shoulder-in-north-london-streets/",
+        "critical": false
+    },
+    {
+        "country": "Israel",
+        "city": "Tel Aviv",
+        "lat": 32.116137266775375,
+        "lon": 34.72624748812786,
+        "date": "2026-03-01 21:00:41",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Gunman wearing Iranian flag emblem kills 2 in mass shooting at Texas bar",
+        "description": "14 wounded, suspect Ndiaga Diagne, 53, shot dead at by police at scene in Austin; official says he was wearing sweatshirt reading 'Property of Allah'\nThe post Gunman wearing Iranian flag emblem kills 2 in mass shooting at Texas bar appeared first on The Times of Israel.",
+        "fatalities": "0",
+        "link": "https://www.timesofisrael.com/3-dead-14-wounded-in-texas-bar-shooting-fbi-investigates-possible-terrorism/",
+        "critical": false
+    },
+    {
+        "country": "Russia",
+        "city": "Moscow",
+        "lat": 55.69127800500268,
+        "lon": 37.67593174119623,
+        "date": "2026-03-01 21:00:30",
+        "type": "Naval",
+        "severity": "normal",
+        "title": "Swedish Navy intercepts suspected Russian drone nearing French aircraft carrier",
+        "description": "Swedish defense officials said the craft likely came from a nearby Russian ship.",
+        "fatalities": "0",
+        "link": "https://www.defensenews.com/global/europe/2026/02/27/swedish-navy-intercepts-suspected-russian-drone-nearing-french-aircraft-carrier/",
+        "critical": false
+    },
+    {
         "country": "Middle East",
         "city": "Beirut",
         "lat": 33.902967847895,
@@ -15,20 +57,6 @@
     },
     {
         "country": "Israel",
-        "city": "Tel Aviv",
-        "lat": 32.05207714524124,
-        "lon": 34.80481571383073,
-        "date": "2026-03-01 20:40:27",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "3 dead, 14 wounded in Texas bar shooting; FBI investigates possible terrorism",
-        "description": "Gunman shot dead at by police at scene; bureau finds 'indicators' on shooter and in his car point to terror; University of Texas says students among those impacted\nThe post 3 dead, 14 wounded in Texas bar shooting; FBI investigates possible terrorism appeared first on The Times of Israel.",
-        "fatalities": "0",
-        "link": "https://www.timesofisrael.com/3-dead-14-wounded-in-texas-bar-shooting-fbi-investigates-possible-terrorism/",
-        "critical": false
-    },
-    {
-        "country": "Israel",
         "city": "Jerusalem",
         "lat": 31.77521760375163,
         "lon": 35.29545218325584,
@@ -40,6 +68,20 @@
         "fatalities": "0",
         "link": "https://www.timesofisrael.com/iranian-missile-warhead-fell-less-than-a-kilometer-from-temple-mount-al-aqsa-mosque/",
         "critical": true
+    },
+    {
+        "country": "Israel",
+        "city": "Tel Aviv",
+        "lat": 32.05207714524124,
+        "lon": 34.80481571383073,
+        "date": "2026-03-01 20:40:27",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "3 dead, 14 wounded in Texas bar shooting; FBI investigates possible terrorism",
+        "description": "Gunman shot dead at by police at scene; bureau finds 'indicators' on shooter and in his car point to terror; University of Texas says students among those impacted\nThe post 3 dead, 14 wounded in Texas bar shooting; FBI investigates possible terrorism appeared first on The Times of Israel.",
+        "fatalities": "0",
+        "link": "https://www.timesofisrael.com/3-dead-14-wounded-in-texas-bar-shooting-fbi-investigates-possible-terrorism/",
+        "critical": false
     },
     {
         "country": "Europe",
@@ -5080,47 +5122,5 @@
         "fatalities": "0",
         "link": "https://www.france24.com/en/middle-east/20260228-prime-moment-hezbollah-houthis-us-israeli-attack-on-iran-risks-regional-war",
         "critical": false
-    },
-    {
-        "country": "Iran",
-        "city": "Tehran",
-        "lat": 35.7465026999036,
-        "lon": 51.44309978139291,
-        "date": "2026-02-28 13:00:26",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Emmanuel Macron seeks UN Security Council meeting on Iran-US conflict",
-        "description": "Andrew Hilliar has more.",
-        "fatalities": "0",
-        "link": "https://www.france24.com/en/emmanuel-macron-seeks-un-security-council-meeting-on-iran-us-conflict",
-        "critical": false
-    },
-    {
-        "country": "Iran",
-        "city": "Tehran",
-        "lat": 35.650501741605645,
-        "lon": 51.33884370293182,
-        "date": "2026-02-28 13:00:26",
-        "type": "Airstrike",
-        "severity": "critical",
-        "title": "US-Israeli attacks on Iran: \"Several loud explosions\" heard in Tehran",
-        "description": "Reza Sayah, our correspondant in Tehran, has more.",
-        "fatalities": "0",
-        "link": "https://www.france24.com/en/us-israeli-attacks-on-iran-several-loud-explosions-heard-in-tehran",
-        "critical": true
-    },
-    {
-        "country": "Israel",
-        "city": "Tel Aviv",
-        "lat": 32.102168737147025,
-        "lon": 34.83150380422034,
-        "date": "2026-02-28 13:00:26",
-        "type": "Airstrike",
-        "severity": "critical",
-        "title": "US-Israeli attack on Iran: Strikes all across the Middle East now",
-        "description": "Yossi Mekelberg, Senior Consulting Fellow at MENAP, Chatham House, is our guest.",
-        "fatalities": "0",
-        "link": "https://www.france24.com/en/us-israeli-attack-on-iran-strikes-all-across-the-middle-east-now",
-        "critical": true
     }
 ]
