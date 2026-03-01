@@ -1670,13 +1670,12 @@ setInterval(checkCriticalAlerts, 30000);
 })();
 
 // =============================================================================
-// 🛰️ PROJECT OVERLORD V4.0 - REAL-TIME STRATEGIC DEPLOYMENT [cite: 2026-02-20]
+// 🚀 PROJECT OVERLORD V5.0 - FINAL BALLISTIC CORRECTION [cite: 2026-02-20]
 // =============================================================================
 
 (function() {
-    // Всичко е обвито тук, за да не влияе на твоите 1700 реда код [cite: 2026-02-20]
-    const initStrategicSimulation = () => {
-        console.log("%c >> [OVERLORD]: INITIALIZING LONG-RANGE INTERCEPT... ", "color: #39FF14; font-weight: bold;");
+    const startFinalSimulation = () => {
+        console.log("%c >> [SYSTEM]: FINAL TRAJECTORY CALIBRATION... ", "color: #39FF14; font-weight: bold;");
 
         let glassPane = document.getElementById('overlord-pane');
         if (!glassPane) {
@@ -1685,27 +1684,25 @@ setInterval(checkCriticalAlerts, 30000);
             document.body.appendChild(glassPane);
         }
 
-        // Пълно покритие над интерфейса [cite: 2026-02-20]
         Object.assign(glassPane.style, {
             position: 'fixed', top: '0', left: '0', width: '100vw', height: '100vh',
-            pointerEvents: 'none', zIndex: '2147483647', background: 'transparent', overflow: 'hidden'
+            pointerEvents: 'none', zIndex: '2147483647', background: 'transparent'
         });
 
-        // ПРЕЦИЗНИ КОРДИНАТИ (БЕЗ ДРИФТ КЪМ МОРЕТО) [cite: 2026-02-20]
-        const LOCATIONS = {
-            TEHRAN: { lat: 35.6892, lon: 51.3890 }, // Иран
-            TEL_AVIV: { lat: 32.0853, lon: 34.7818 } // Израел
+        const CONFIG = {
+            // ТОЧНИ ГЕОГРАФСКИ ТОЧКИ
+            origin: { lat: 35.6892, lon: 51.3890 }, // Техеран (Иран)
+            target: { lat: 32.0853, lon: 34.7818 }, // Тел Авив (Израел)
+            duration: 180000, // ТОЧНО 3 МИНУТИ ПОЛЕТ [cite: 2026-02-20]
+            arcIntensity: 150 // Визуална височина в пиксели
         };
 
-        const FLIGHT_TIME = 150000; // 2.5 МИНУТИ (150 сек) [cite: 2026-02-20]
-
-        const launch = () => {
+        const launchMissile = () => {
             if (typeof map === 'undefined' || !map) return;
 
             const missile = document.createElement('div');
-            const etaDisplay = document.createElement('div');
+            const timer = document.createElement('div');
             
-            // Дизайн на ракетата [cite: 2026-02-20]
             Object.assign(missile.style, {
                 position: 'absolute', width: '10px', height: '10px',
                 backgroundColor: '#fff', border: '2px solid #ff0000',
@@ -1713,94 +1710,91 @@ setInterval(checkCriticalAlerts, 30000);
                 zIndex: '1000', transform: 'translate(-50%, -50%)'
             });
 
-            // Дизайн на ETA Таймера [cite: 2026-02-20]
-            Object.assign(etaDisplay.style, {
-                position: 'absolute', color: '#39FF14', fontSize: '10px',
-                fontFamily: 'monospace', whiteSpace: 'nowrap', zIndex: '1001'
+            Object.assign(timer.style, {
+                position: 'absolute', color: '#39FF14', fontSize: '11px',
+                fontFamily: 'monospace', fontWeight: 'bold', textShadow: '1px 1px #000', zIndex: '1001'
             });
 
             glassPane.appendChild(missile);
-            glassPane.appendChild(etaDisplay);
+            glassPane.appendChild(timer);
 
-            let start = Date.now();
+            let startTime = Date.now();
 
-            const flightPath = setInterval(() => {
-                let now = Date.now();
-                let elapsed = now - start;
-                let p = elapsed / FLIGHT_TIME;
+            const flight = setInterval(() => {
+                let elapsed = Date.now() - startTime;
+                let p = elapsed / CONFIG.duration;
 
                 if (p >= 1) {
-                    clearInterval(flightPath);
+                    clearInterval(flight);
                     missile.remove();
-                    etaDisplay.remove();
-                    triggerExplosion(LOCATIONS.TEL_AVIV);
+                    timer.remove();
+                    executeStrike(CONFIG.target);
                     return;
                 }
 
-                // КОРЕКЦИЯ: Изчисляваме пътя директно върху картата [cite: 2026-02-20]
-                let cLat = LOCATIONS.TEHRAN.lat + (LOCATIONS.TEL_AVIV.lat - LOCATIONS.TEHRAN.lat) * p;
-                let cLon = LOCATIONS.TEHRAN.lon + (LOCATIONS.TEL_AVIV.lon - LOCATIONS.TEHRAN.lon) * p;
-
-                // ДОБАВЯМЕ "АРКА" (Парабола) - ракетата лети на север в космоса [cite: 2026-02-20]
-                let arcOffset = Math.sin(Math.PI * p) * 4.5; // Силна крива нагоре
-                let visualLat = cLat + arcOffset;
+                // 1. ИСТИНСКИ ГЕОГРАФСКИ ПЪТ (Права линия върху картата)
+                let currentLat = CONFIG.origin.lat + (CONFIG.target.lat - CONFIG.origin.lat) * p;
+                let currentLon = CONFIG.origin.lon + (CONFIG.target.lon - CONFIG.origin.lon) * p;
 
                 try {
-                    const screenPos = map.latLngToContainerPoint([visualLat, cLon]);
-                    missile.style.left = screenPos.x + 'px';
-                    missile.style.top = screenPos.y + 'px';
+                    // Превръщаме в пиксели
+                    const screenPos = map.latLngToContainerPoint([currentLat, currentLon]);
 
-                    // Таймер над ракетата
-                    let remaining = Math.round((FLIGHT_TIME - elapsed) / 1000);
-                    etaDisplay.innerText = "ETA: " + remaining + "s";
-                    etaDisplay.style.left = screenPos.x + 15 + 'px';
-                    etaDisplay.style.top = screenPos.y - 15 + 'px';
+                    // 2. ВИЗУАЛНА ПАРАБОЛА (Arc) - местим само пикселите нагоре, не координатите! [cite: 2026-02-20]
+                    // Това предотвратява "летенето към Русия"
+                    let verticalOffset = Math.sin(Math.PI * p) * CONFIG.arcIntensity;
+                    
+                    let finalX = screenPos.x;
+                    let finalY = screenPos.y - verticalOffset; // Изваждаме, за да отиде "нагоре" по екрана
 
-                    // ПЛЪТНА ЧЕРВЕНА ЛЕНТА (Trail) [cite: 2026-02-20]
-                    const trail = document.createElement('div');
-                    Object.assign(trail.style, {
+                    missile.style.left = finalX + 'px';
+                    missile.style.top = finalY + 'px';
+
+                    // ТАЙМЕР
+                    let secondsLeft = Math.round((CONFIG.duration - elapsed) / 1000);
+                    timer.innerText = "ETA: " + secondsLeft + "s";
+                    timer.style.left = finalX + 12 + 'px';
+                    timer.style.top = finalY - 12 + 'px';
+
+                    // ЧЕРВЕНА СЛЕДА (TRAIL) [cite: 2026-02-20]
+                    const dot = document.createElement('div');
+                    Object.assign(dot.style, {
                         position: 'absolute', width: '4px', height: '4px',
                         backgroundColor: '#ff0000', borderRadius: '50%',
-                        left: screenPos.x + 'px', top: screenPos.y + 'px',
-                        opacity: '0.6', zIndex: '999', transform: 'translate(-50%, -50%)'
+                        left: finalX + 'px', top: finalY + 'px',
+                        opacity: '0.8', zIndex: '999', transform: 'translate(-50%, -50%)'
                     });
-                    glassPane.appendChild(trail);
-                    // Следата стои 1 минута, за да се види целия полет [cite: 2026-02-20]
-                    setTimeout(() => trail.remove(), 60000);
+                    glassPane.appendChild(dot);
+                    // Следата остава за 2 минути [cite: 2026-02-20]
+                    setTimeout(() => dot.remove(), 120000);
 
                 } catch (e) {
-                    clearInterval(flightPath);
+                    clearInterval(flight);
                 }
-            }, 100);
+            }, 150);
         };
 
-        const triggerExplosion = (loc) => {
+        const executeStrike = (loc) => {
             try {
                 const p = map.latLngToContainerPoint([loc.lat, loc.lon]);
-                const boom = document.createElement('div');
-                Object.assign(boom.style, {
-                    position: 'absolute', width: '50px', height: '50px',
-                    border: '3px solid gold', borderRadius: '50%',
+                const explosion = document.createElement('div');
+                Object.assign(explosion.style, {
+                    position: 'absolute', width: '60px', height: '60px',
+                    border: '4px solid #ff3300', borderRadius: '50%',
                     left: p.x + 'px', top: p.y + 'px',
                     transform: 'translate(-50%, -50%) scale(0)',
-                    transition: 'all 1.5s ease-out', zIndex: '2000'
+                    transition: 'all 1s ease-out', zIndex: '2000'
                 });
-                glassPane.appendChild(boom);
-                setTimeout(() => { boom.style.transform = 'translate(-50%, -50%) scale(5)'; boom.style.opacity = '0'; }, 50);
-                setTimeout(() => boom.remove(), 2000);
-                console.log("%c [IMPACT]: TARGET NEUTRALIZED ", "background: red; color: white;");
+                glassPane.appendChild(explosion);
+                setTimeout(() => { explosion.style.transform = 'translate(-50%, -50%) scale(6)'; explosion.style.opacity = '0'; }, 50);
+                setTimeout(() => explosion.remove(), 1500);
             } catch (e) {}
         };
 
-        // Изстрелване на всеки 5 минути [cite: 2026-02-20]
-        setInterval(launch, 300000);
-        launch();
+        setInterval(launchMissile, 240000); // Нова ракета на всеки 4 минути
+        launchMissile();
     };
 
-    // Стартираме с 10 секунди закъснение за пълна сигурност [cite: 2026-02-20]
-    if (document.readyState === 'complete') {
-        setTimeout(initStrategicSimulation, 10000);
-    } else {
-        window.addEventListener('load', () => setTimeout(initStrategicSimulation, 10000));
-    }
+    // Стартираме с достатъчно закъснение за Leaflet [cite: 2026-02-20]
+    setTimeout(startFinalSimulation, 10000);
 })();
