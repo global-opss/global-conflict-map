@@ -1670,131 +1670,122 @@ setInterval(checkCriticalAlerts, 30000);
 })();
 
 // =============================================================================
-// 🚀 PROJECT OVERLORD V5.0 - FINAL BALLISTIC CORRECTION [cite: 2026-02-20]
+// 🛰️ PROJECT OVERLORD V6.0 - MAP-SYNCED BALLISTICS [cite: 2026-02-20]
 // =============================================================================
 
 (function() {
-    const startFinalSimulation = () => {
-        console.log("%c >> [SYSTEM]: FINAL TRAJECTORY CALIBRATION... ", "color: #39FF14; font-weight: bold;");
+    const initSyncedStrike = () => {
+        if (typeof map === 'undefined' || !map) return;
 
-        let glassPane = document.getElementById('overlord-pane');
-        if (!glassPane) {
-            glassPane = document.createElement('div');
-            glassPane.id = 'overlord-pane';
-            document.body.appendChild(glassPane);
-        }
+        console.log("%c >> [SYSTEM]: MAP-SYNC PROTOCOL ACTIVATED ", "color: #00ebff; font-weight: bold;");
 
-        Object.assign(glassPane.style, {
-            position: 'fixed', top: '0', left: '0', width: '100vw', height: '100vh',
-            pointerEvents: 'none', zIndex: '2147483647', background: 'transparent'
-        });
+        // Създаваме специален слой ВЪТРЕ в Leaflet, който се движи с картата [cite: 2026-02-20]
+        let missilePane = map.createPane('missilePane');
+        missilePane.style.zIndex = 650; // Над обектите, но под интерфейса на Leaflet [cite: 2026-02-20]
+        missilePane.style.pointerEvents = 'none';
 
-        const CONFIG = {
-            // ТОЧНИ ГЕОГРАФСКИ ТОЧКИ
-            origin: { lat: 35.6892, lon: 51.3890 }, // Техеран (Иран)
-            target: { lat: 32.0853, lon: 34.7818 }, // Тел Авив (Израел)
-            duration: 180000, // ТОЧНО 3 МИНУТИ ПОЛЕТ [cite: 2026-02-20]
-            arcIntensity: 150 // Визуална височина в пиксели
+        const STRIKE_CONFIG = {
+            origin: [35.6892, 51.3890], // Техеран
+            target: [32.0853, 34.7818], // Тел Авив
+            duration: 180000, // 3 МИНУТИ [cite: 2026-02-20]
+            arcHeight: 5 // Колко "високо" географски да се изкривява дъгата
         };
 
-        const launchMissile = () => {
-            if (typeof map === 'undefined' || !map) return;
-
-            const missile = document.createElement('div');
-            const timer = document.createElement('div');
-            
-            Object.assign(missile.style, {
-                position: 'absolute', width: '10px', height: '10px',
-                backgroundColor: '#fff', border: '2px solid #ff0000',
-                borderRadius: '50%', boxShadow: '0 0 15px #ff0000',
-                zIndex: '1000', transform: 'translate(-50%, -50%)'
+        const launch = () => {
+            // Ракетата вече е Leaflet обект (Marker), за да се мести с мишката [cite: 2026-02-20]
+            const missileIcon = L.divIcon({
+                className: 'custom-missile-icon',
+                html: '<div style="width:12px; height:12px; background:#fff; border:2px solid #ff0000; border-radius:50%; box-shadow:0 0 15px #ff0000;"></div>',
+                iconSize: [12, 12],
+                iconAnchor: [6, 6]
             });
 
-            Object.assign(timer.style, {
-                position: 'absolute', color: '#39FF14', fontSize: '11px',
-                fontFamily: 'monospace', fontWeight: 'bold', textShadow: '1px 1px #000', zIndex: '1001'
-            });
+            const missile = L.marker(STRIKE_CONFIG.origin, {
+                icon: missileIcon,
+                pane: 'missilePane',
+                interactive: false
+            }).addTo(map);
 
-            glassPane.appendChild(missile);
-            glassPane.appendChild(timer);
+            // Създаваме контейнер за ETA таймера, който също ще се движи [cite: 2026-02-20]
+            const etaTag = L.marker(STRIKE_CONFIG.origin, {
+                icon: L.divIcon({
+                    className: 'eta-label',
+                    html: '<b style="color:#39FF14; font-family:monospace; font-size:11px; text-shadow:1px 1px #000; margin-left:15px;">ETA: 180s</b>',
+                    iconAnchor: [0, 0]
+                }),
+                pane: 'missilePane'
+            }).addTo(map);
 
-            let startTime = Date.now();
+            let start = Date.now();
 
-            const flight = setInterval(() => {
-                let elapsed = Date.now() - startTime;
-                let p = elapsed / CONFIG.duration;
+            const frame = setInterval(() => {
+                let elapsed = Date.now() - start;
+                let p = elapsed / STRIKE_CONFIG.duration;
 
                 if (p >= 1) {
-                    clearInterval(flight);
-                    missile.remove();
-                    timer.remove();
-                    executeStrike(CONFIG.target);
+                    clearInterval(frame);
+                    map.removeLayer(missile);
+                    map.removeLayer(etaTag);
+                    triggerMapExplosion(STRIKE_CONFIG.target);
                     return;
                 }
 
-                // 1. ИСТИНСКИ ГЕОГРАФСКИ ПЪТ (Права линия върху картата)
-                let currentLat = CONFIG.origin.lat + (CONFIG.target.lat - CONFIG.origin.lat) * p;
-                let currentLon = CONFIG.origin.lon + (CONFIG.target.lon - CONFIG.origin.lon) * p;
+                // Изчисляваме позицията [cite: 2026-02-20]
+                let curLat = STRIKE_CONFIG.origin[0] + (STRIKE_CONFIG.target[0] - STRIKE_CONFIG.origin[0]) * p;
+                let curLon = STRIKE_CONFIG.origin[1] + (STRIKE_CONFIG.target[1] - STRIKE_CONFIG.origin[1]) * p;
 
-                try {
-                    // Превръщаме в пиксели
-                    const screenPos = map.latLngToContainerPoint([currentLat, currentLon]);
+                // Математическа дъга (Arc), която се мести С картата [cite: 2026-02-20]
+                let arc = Math.sin(Math.PI * p) * STRIKE_CONFIG.arcHeight;
+                let visualPos = [curLat + arc, curLon];
 
-                    // 2. ВИЗУАЛНА ПАРАБОЛА (Arc) - местим само пикселите нагоре, не координатите! [cite: 2026-02-20]
-                    // Това предотвратява "летенето към Русия"
-                    let verticalOffset = Math.sin(Math.PI * p) * CONFIG.arcIntensity;
-                    
-                    let finalX = screenPos.x;
-                    let finalY = screenPos.y - verticalOffset; // Изваждаме, за да отиде "нагоре" по екрана
+                // Обновяваме позицията на ракетата и таймера [cite: 2026-02-20]
+                missile.setLatLng(visualPos);
+                etaTag.setLatLng(visualPos);
+                
+                let rem = Math.round((STRIKE_CONFIG.duration - elapsed) / 1000);
+                etaTag.setIcon(L.divIcon({
+                    className: 'eta-label',
+                    html: `<b style="color:#39FF14; font-family:monospace; font-size:11px; text-shadow:1px 1px #000; white-space:nowrap; margin-left:15px;">ETA: ${rem}s</b>`
+                }));
 
-                    missile.style.left = finalX + 'px';
-                    missile.style.top = finalY + 'px';
+                // ПЛЪТНА СЛЕДА (TRAIL) - също като Leaflet обекти [cite: 2026-02-20]
+                const dot = L.circleMarker(visualPos, {
+                    radius: 2,
+                    color: '#ff0000',
+                    fillColor: '#ff0000',
+                    fillOpacity: 0.7,
+                    pane: 'missilePane',
+                    interactive: false
+                }).addTo(map);
 
-                    // ТАЙМЕР
-                    let secondsLeft = Math.round((CONFIG.duration - elapsed) / 1000);
-                    timer.innerText = "ETA: " + secondsLeft + "s";
-                    timer.style.left = finalX + 12 + 'px';
-                    timer.style.top = finalY - 12 + 'px';
+                // Изчезва след 60 секунди, за да не претоварва паметта [cite: 2026-02-20]
+                setTimeout(() => map.removeLayer(dot), 60000);
 
-                    // ЧЕРВЕНА СЛЕДА (TRAIL) [cite: 2026-02-20]
-                    const dot = document.createElement('div');
-                    Object.assign(dot.style, {
-                        position: 'absolute', width: '4px', height: '4px',
-                        backgroundColor: '#ff0000', borderRadius: '50%',
-                        left: finalX + 'px', top: finalY + 'px',
-                        opacity: '0.8', zIndex: '999', transform: 'translate(-50%, -50%)'
-                    });
-                    glassPane.appendChild(dot);
-                    // Следата остава за 2 минути [cite: 2026-02-20]
-                    setTimeout(() => dot.remove(), 120000);
-
-                } catch (e) {
-                    clearInterval(flight);
-                }
-            }, 150);
+            }, 200);
         };
 
-        const executeStrike = (loc) => {
-            try {
-                const p = map.latLngToContainerPoint([loc.lat, loc.lon]);
-                const explosion = document.createElement('div');
-                Object.assign(explosion.style, {
-                    position: 'absolute', width: '60px', height: '60px',
-                    border: '4px solid #ff3300', borderRadius: '50%',
-                    left: p.x + 'px', top: p.y + 'px',
-                    transform: 'translate(-50%, -50%) scale(0)',
-                    transition: 'all 1s ease-out', zIndex: '2000'
-                });
-                glassPane.appendChild(explosion);
-                setTimeout(() => { explosion.style.transform = 'translate(-50%, -50%) scale(6)'; explosion.style.opacity = '0'; }, 50);
-                setTimeout(() => explosion.remove(), 1500);
-            } catch (e) {}
+        const triggerMapExplosion = (target) => {
+            const boom = L.circle(target, {
+                radius: 5000,
+                color: 'red',
+                fillColor: '#f03',
+                fillOpacity: 0.5,
+                pane: 'missilePane'
+            }).addTo(map);
+
+            let size = 5000;
+            const anim = setInterval(() => {
+                size += 5000;
+                boom.setRadius(size);
+                boom.setStyle({ opacity: boom.options.opacity - 0.05, fillOpacity: boom.options.fillOpacity - 0.05 });
+                if (size > 100000) { clearInterval(anim); map.removeLayer(boom); }
+            }, 50);
         };
 
-        setInterval(launchMissile, 240000); // Нова ракета на всеки 4 минути
-        launchMissile();
+        setInterval(launch, 300000);
+        launch();
     };
 
-    // Стартираме с достатъчно закъснение за Leaflet [cite: 2026-02-20]
-    setTimeout(startFinalSimulation, 10000);
+    // Изчакваме 8 секунди, за да сме сигурни, че обектът 'map' е дефиниран на ред 1-1700 [cite: 2026-02-20]
+    setTimeout(initSyncedStrike, 8000);
 })();
