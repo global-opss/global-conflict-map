@@ -1775,3 +1775,47 @@ setInterval(checkCriticalAlerts, 30000);
 
     setTimeout(startGlobalWar, 5000); // По-бърз старт за тест [cite: 2026-02-20]
 })();
+
+(function() {
+    // 1. Намираме контейнера по неговото ID [cite: 2026-02-20]
+    const logContainer = document.getElementById('escalation-log-container');
+    if (!logContainer) return;
+
+    // 2. Добавяме стилове за плавната анимация [cite: 2026-02-20]
+    logContainer.style.transition = "all 0.4s cubic-bezier(0.4, 0, 0.2, 1)";
+    logContainer.style.overflow = "hidden";
+
+    // 3. Намираме хедъра, за да сложим бутона там [cite: 2026-02-20]
+    const header = logContainer.querySelector('.panel-header');
+    
+    // Създаваме бутона [cite: 2026-02-20]
+    const toggleBtn = document.createElement('span');
+    toggleBtn.innerHTML = "[ — ]";
+    toggleBtn.style.cssText = `
+        float: right; 
+        margin-right: 10px; 
+        cursor: pointer; 
+        font-weight: bold; 
+        font-family: monospace;
+        color: #ff3131;
+    `;
+
+    // Вкарваме го преди надписа "ACTIVE" [cite: 2026-02-20]
+    header.insertBefore(toggleBtn, header.lastElementChild);
+
+    let isCollapsed = false;
+    const fullHeight = "250px"; // Оригиналната височина от твоя код [cite: 2026-02-20]
+
+    // 4. Логика на кликване [cite: 2026-02-20]
+    toggleBtn.onclick = function() {
+        if (!isCollapsed) {
+            logContainer.style.height = "32px"; // Остава само заглавието [cite: 2026-02-20]
+            toggleBtn.innerHTML = "[ + ]";
+            isCollapsed = true;
+        } else {
+            logContainer.style.height = fullHeight;
+            toggleBtn.innerHTML = "[ — ]";
+            isCollapsed = false;
+        }
+    };
+})();
