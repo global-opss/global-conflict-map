@@ -1,5 +1,33 @@
 [
     {
+        "country": "Russia",
+        "city": "Moscow",
+        "lat": 55.81709577601272,
+        "lon": 37.608850297190955,
+        "date": "2026-03-01 21:59:29",
+        "type": "Airstrike",
+        "severity": "critical",
+        "title": "Russia to supply Iran with shoulder-fired air defense system",
+        "description": "Russia and Iran have reportedly finalized a contract for the sale of 500 Russian “Verba” man-portable air defense systems (MANPADS) and 2,500 missiles as Iran tries to shore up its air defenses. However, it is unlikely that these weapons would significantly impact potential US operations against the Islamic Republic.\nThe post Russia to supply Iran with shoulder-fired air defense system appeared first on FDDs Long War Journal.",
+        "fatalities": "0",
+        "link": "https://www.longwarjournal.org/archives/2026/02/russia-to-supply-iran-with-shoulder-fired-air-defense-system.php",
+        "critical": true
+    },
+    {
+        "country": "Iran",
+        "city": "Tehran",
+        "lat": 35.6348471103181,
+        "lon": 51.37722312780896,
+        "date": "2026-03-01 21:59:18",
+        "type": "Evacuation",
+        "severity": "critical",
+        "title": "Huge fire at Bahrain port home to US Navy’s Fifth Fleet",
+        "description": "Footage shows a huge fire reportedly ignited by an Iranian strike on a US naval facility at Bahrain’s Salman Port.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/video/newsfeed/2026/3/1/huge-fire-at-bahrain-port-home-to-us-navys-fifth-fleet?traffic_source=rss",
+        "critical": true
+    },
+    {
         "country": "Israel",
         "city": "Tel Aviv",
         "lat": 32.12005122604937,
@@ -5094,33 +5122,5 @@
         "fatalities": "0",
         "link": "https://theaviationist.com/2026/02/28/israel-us-attack-iran/",
         "critical": true
-    },
-    {
-        "country": "USA",
-        "city": "Washington",
-        "lat": 38.89590863115063,
-        "lon": -76.97281165175553,
-        "date": "2026-02-28 13:00:33",
-        "type": "Airstrike",
-        "severity": "critical",
-        "title": "Lockheed Martin Tests Missile-Evasion AI on X-62 VISTA",
-        "description": "The Have Remy Test Management Project saw USAF Test Pilot School students directly involved in an AI agent’s development, simulation and live trial with Lockheed Martin’s Skunk Works. The U.S. Air Force’s X-62 Variable Stability In-Flight Simulator Test Aircraft (VISTA) reached a new milestone when Lockheed Martin’s Skunk Works division and the Test Pilot School (TPS) []",
-        "fatalities": "0",
-        "link": "https://theaviationist.com/2026/02/25/lockheed-martin-tests-missile-evasion-ai-on-x-62-vista/",
-        "critical": true
-    },
-    {
-        "country": "Israel",
-        "city": "Tel Aviv",
-        "lat": 32.03397920243936,
-        "lon": 34.75034053419059,
-        "date": "2026-02-28 13:00:28",
-        "type": "Clashes",
-        "severity": "middle",
-        "title": "US, Israel launch ‘major combat operations’ in Iran",
-        "description": "Discussing the potential of American casualties, Trump said \"that often happens in war.\"",
-        "fatalities": "0",
-        "link": "https://www.defensenews.com/news/your-military/2026/02/28/us-israel-launch-major-combat-operations-in-iran/",
-        "critical": false
     }
 ]
