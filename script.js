@@ -1690,7 +1690,10 @@ setInterval(checkCriticalAlerts, 30000);
             { n: "IR -> Bahrain", f: [28.92, 50.82], t: [26.2285, 50.5860], c: "#ff4500", s: "south" },
             { n: "IR -> Kuwait", f: [30.50, 47.80], t: [29.2243, 47.9691], c: "#ff4500", s: "south" },
             { n: "IR -> Dubai Port", f: [27.24, 56.34], t: [25.2048, 55.2708], c: "#ff4500", s: "south" },
-            
+            { n: "IR -> Erbil Volley 1", f: [34.50, 45.00], t: [36.23, 43.95], c: "#ff4500", s: "west" },
+            { n: "IR -> Erbil Volley 2", f: [34.60, 45.10], t: [36.23, 43.95], c: "#ff4500", s: "west" },
+            { n: "IR -> Erbil Volley 3", f: [34.70, 45.20], t: [36.23, 43.95], c: "#ff4500", s: "west" },
+            { n: "IR -> Erbil Volley 4", f: [34.80, 45.30], t: [36.23, 43.95], c: "#ff4500", s: "west" }
             // --- КОАЛИЦИОНЕН ОТВЕТ (СИНИ) --- [cite: 2026-03-01]
             { n: "IAF -> Isfahan", f: [31.50, 34.50], t: [32.65, 51.66], c: "#00ebff", s: "east" },
             { n: "IAF -> Natanz", f: [31.80, 35.00], t: [33.72, 51.71], c: "#00ebff", s: "east" },
@@ -1763,6 +1766,21 @@ setInterval(checkCriticalAlerts, 30000);
                 r += 4000; b.setRadius(r);
                 if (r > 130000) { clearInterval(s); if (map.hasLayer(b)) map.removeLayer(b); }
             }, 60);
+        };
+
+        if (loc[0].toFixed(2) === "36.23" && loc[1].toFixed(2) === "43.95") {
+                const damageIcon = L.divIcon({
+                    className: 'damage-marker',
+                    html: `<div style="color:#ff0000; font-size:15px; font-weight:bold; pointer-events:none; text-shadow: 0 0 5px #000;">🔥</div>`,
+                    iconSize: [20, 20],
+                    iconAnchor: [10, 10]
+                });
+                
+                const burn = L.marker(loc, { icon: damageIcon, pane: 'warPane', interactive: false }).addTo(map);
+                
+                // Изчезва след 60 секунди, за да изчисти картата за следващата вълна [cite: 2026-02-20]
+                setTimeout(() => { if (map.hasLayer(burn)) map.removeLayer(burn); }, 60000);
+            }
         };
 
         MISSION_DATA.forEach((m, i) => launch(m, i * 4000));
