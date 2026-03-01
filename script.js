@@ -1668,90 +1668,71 @@ setInterval(checkCriticalAlerts, 30000);
 })();
 
 // ============================================================
-// 🚀 SECTION: AUTONOMOUS MISSILE STRIKE ENGINE [cite: 2026-02-20]
+// 🛰️ DIRECT MISSILE SIMULATION (NO BANNERS, NO MESS) [cite: 2026-02-20]
 // ============================================================
 
-/**
- * ПЪЛНА СИМУЛАЦИЯ БЕЗ ВЪНШНИ ФАЙЛОВЕ (NO JSON NEEDED)
- * Директно управление на балистичните траектории
- */
-const StrikeEngine = {
-    isRunning: false,
+function launchMissileStrike() {
+    // Реални координати
+    const iranPos = { lat: 35.6892, lon: 51.3890 }; // Техеран
+    const israelPos = { lat: 32.0853, lon: 34.7818 }; // Тел Авив
+
+    const missileID = `msl_${Math.random().toString(36).substr(2, 5)}`;
+    const container = document.getElementById('missile-layer');
     
-    // Списък с мисии (Иран -> Твоите Бази)
-    targets: [
-        { from: {lat: 35.68, lon: 51.38, name: "Tehran Hub"}, to: "Haifa Naval Base" },
-        { from: {lat: 29.59, lon: 52.58, name: "Shiraz Site"}, to: "Souda Bay Naval Base" },
-        { from: {lat: 32.65, lon: 51.66, name: "Isfahan Sector"}, to: "Incirlik Air Base" },
-        { from: {lat: 28.90, lon: 50.85, name: "Bushehr Wing"}, to: "Larissa Air Base" }
-    ],
+    // 1. Създаваме ракетата (ползваме CSS класа .missile-red, който вече имаш)
+    const missile = document.createElement('div');
+    missile.id = missileID;
+    missile.className = 'missile-red';
+    container.appendChild(missile);
 
-    /**
-     * Стартира вълна от атаки
-     */
-    launchWave: function() {
-        console.log(">> STRATEGIC ALERT: Autonomous Strike Wave Initiated.");
-        this.isRunning = true;
-        
-        this.targets.forEach((mission, index) => {
-            // Стартираме всяка ракета с леко закъснение за реализъм
-            setTimeout(() => {
-                this.executeFlight(mission.from, mission.to);
-            }, index * 3000);
-        });
-    },
+    let progress = 0;
+    const speed = 0.4; // Колко бързо лети (промени го за теб)
 
-    /**
-     * Изчислява и рендерира полета в реално време
-     */
-    executeFlight: function(origin, targetName) {
-        // Намираме дестинацията в твоя масив от image_cdb2c4.png
-        const target = staticAssets.find(a => a.name.includes(targetName));
-        if (!target) return;
+    const flight = setInterval(() => {
+        progress += speed;
 
-        let progress = 0;
-        const mID = `strike_${Math.random().toString(36).substr(2, 5)}`;
-
-        const anim = setInterval(() => {
-            progress += 0.4; // Скорост на симулацията
-
-            if (progress >= 100) {
-                clearInterval(anim);
-                this.triggerImpactEffect(target);
-                return;
-            }
-
-            // Динамично изчисляване на координатите
-            const cLat = origin.lat + (target.lat - origin.lat) * (progress / 100);
-            const cLon = origin.lon + (target.lon - origin.lon) * (progress / 100);
-
-            // Обновяваме иконата на картата (нестатично)
-            drawTacticalObject(mID, cLat, cLon, "missile-red");
-        }, 50);
-    },
-
-    /**
-     * Протокол при попадение (Край на undefined)
-     */
-    triggerImpactEffect: function(target) {
-        console.warn(`[IMPACT] Target ${target.name} Engaged!`);
-        
-        // Директно пишем в твоя банер
-        const banner = document.querySelector('.breaking-news-text');
-        if (banner) {
-            banner.innerText = `CRITICAL: ${target.name.toUpperCase()} HIT!`;
-            banner.style.background = "darkred";
+        if (progress >= 100) {
+            clearInterval(flight);
+            createExplosion(israelPos.lat, israelPos.lon); // Взрив в Израел
+            missile.remove();
+            return;
         }
-        
-        // Пускаме алармата, която ти вече имаш в системата [cite: 2026-02-20]
-        if (typeof playAlertSound === "function") playAlertSound();
-    }
-};
 
-// АВТОМАТИЧЕН СТАРТ ПРИ ЗАРЕЖДАНЕ (БЕЗ JSON)
-window.onload = () => {
-    // Даваме 5 секунди на картата да зареди и пускаме ракетите
-    setTimeout(() => StrikeEngine.launchWave(), 5000);
-};
+        // Изчисляване на ЛОГИЧЕСКАТА позиция (Lerp)
+        const currentLat = iranPos.lat + (israelPos.lat - iranPos.lat) * (progress / 100);
+        const currentLon = iranPos.lon + (israelPos.lon - iranPos.lon) * (progress / 100);
+
+        // Превръщане на координатите в ПИКСЕЛИ върху твоята Leaflet карта
+        // 'map' трябва да е името на твоя Leaflet обект
+        const pos = map.latLngToLayerPoint([currentLat, currentLon]);
+        
+        missile.style.left = pos.x + 'px';
+        missile.style.top = pos.y + 'px';
+
+        // Опашка (trail) за реализъм
+        const trail = document.createElement('div');
+        trail.className = 'missile-trail';
+        trail.style.left = pos.x + 'px';
+        trail.style.top = pos.y + 'px';
+        container.appendChild(trail);
+        setTimeout(() => trail.remove(), 600);
+
+    }, 30); // 30ms за супер плавно движение
+}
+
+// Помощна функция за взрива (използва .impact-explosion от твоя CSS)
+function createExplosion(lat, lon) {
+    const explosion = document.createElement('div');
+    explosion.className = 'impact-explosion';
+    const pos = map.latLngToLayerPoint([lat, lon]);
+    explosion.style.left = pos.x + 'px';
+    explosion.style.top = pos.y + 'px';
+    document.getElementById('missile-layer').appendChild(explosion);
+    setTimeout(() => explosion.remove(), 800);
+}
+
+// СТАРТ: Изстрелваме веднага и после на всеки 10 секунди
+setTimeout(launchMissileStrike, 2000);
+setInterval(launchMissileStrike, 10000);
 
 // ============================================================
