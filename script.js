@@ -1682,44 +1682,35 @@ setInterval(checkCriticalAlerts, 30000);
             pane.style.pointerEvents = 'none';
         }
 
-        // --- ГЕНЕРИРАНЕ НА МАСИРАН УДАР НАД ТЕХЕРАН (30 БОМБИ) ---
-        const tehranStrikes = Array.from({length: 30}, (_, i) => ({
-            n: `USAF Strike Group - Tehran #${i+1}`,
-            f: [34.50 + (Math.random() * 0.4), 33.00 + (Math.random() * 0.4)], 
-            t: [35.6892 + (Math.random() * 0.04), 51.3890 + (Math.random() * 0.04)], 
-            c: "#00ebff", s: "east"
-        }));
-
-        const MISSION_DATA = [
-            // --- ИРАНСКИ ЗАЛП (ЧЕРВЕНИ) [cite: 2026-02-20] ---
-            { n: "IR -> Tel Aviv", f: [34.34, 47.00], t: [32.0853, 34.7818], c: "#ff4500", s: "west" },
-            { n: "IR -> Jerusalem", f: [32.50, 48.48], t: [31.7683, 35.2137], c: "#ff4500", s: "west" },
-            { n: "IR -> Akrotiri", f: [35.68, 51.38], t: [34.5900, 32.9800], c: "#ff4500", s: "west" },
-            { n: "IR -> Bahrain", f: [28.92, 50.82], t: [26.2285, 50.5860], c: "#ff4500", s: "south" },
-            { n: "IR -> Kuwait", f: [30.50, 47.80], t: [29.2243, 47.9691], c: "#ff4500", s: "south" },
-            { n: "IR -> Dubai Port", f: [27.24, 56.34], t: [25.2048, 55.2708], c: "#ff4500", s: "south" },
-            { n: "IR -> Erbil Volley 1", f: [34.50, 45.00], t: [36.23, 43.95], c: "#ff4500", s: "west" },
-            { n: "IR -> Erbil Volley 2", f: [34.60, 45.10], t: [36.23, 43.95], c: "#ff4500", s: "west" },
-            { n: "IR -> Erbil Volley 3", f: [34.70, 45.20], t: [36.23, 43.95], c: "#ff4500", s: "west" },
-            { n: "IR -> Erbil Volley 4", f: [34.80, 45.30], t: [36.23, 43.95], c: "#ff4500", s: "west" },
-            // --- КОАЛИЦИОНЕН ОТВЕТ (СИНИ) [cite: 2026-03-01] ---
-            { n: "IAF -> Isfahan", f: [31.50, 34.50], t: [32.65, 51.66], c: "#00ebff", s: "east" },
-            { n: "IAF -> Natanz", f: [31.80, 35.00], t: [33.72, 51.71], c: "#00ebff", s: "east" },
-            { n: "USAF -> Shiraz", f: [24.00, 58.00], t: [29.54, 52.59], c: "#00ebff", s: "north" },
-            { n: "USAF -> Bandar Abbas", f: [23.50, 58.50], t: [27.18, 56.26], c: "#00ebff", s: "north" },
-            { n: "USAF -> Tabriz Airbase", f: [34.50, 33.00], t: [38.08, 46.29], c: "#00ebff", s: "east" },
-            { n: "IAF -> Fordow Site", f: [32.20, 34.90], t: [34.88, 50.99], c: "#00ebff", s: "east" },
-            // --- НОВИ ОФИЦИАЛНИ СТРАТЕГИЧЕСКИ УДАРИ [cite: 2026-03-01] ---
-            { n: "IAF -> Bushehr Nuclear", f: [31.50, 34.50], t: [28.83, 50.88], c: "#00ebff", s: "east" },
-            { n: "USAF -> Chabahar Port", f: [24.00, 58.00], t: [25.29, 60.64], c: "#00ebff", s: "north" },
-            { n: "IAF -> Kerman Base", f: [32.00, 35.00], t: [30.28, 57.07], c: "#00ebff", s: "east" },
-            ...tehranStrikes
+        // --- УДАРНА ГРУПА "EPIC FURY" (САЩ/ИЗРАЕЛ) ---
+        const operationEpicFury = [
+            // DECAPITATION STRIKE - TEHRAN (Khamenei Compound)
+            ...Array.from({length: 15}, (_, i) => ({
+                n: `Precision Strike: Tehran Gov Center #${i+1}`,
+                f: [33.31, 44.36], // От Ирак
+                t: [35.6892, 51.3890], c: "#00ebff", s: "east"
+            })),
+            // STRIKES ON NUCLEAR & NAVAL SITES
+            { n: "USAF -> Bushehr Nuclear", f: [26.00, 52.00], t: [28.83, 50.88], c: "#00ebff", s: "north" },
+            { n: "IAF -> Fordow Underground", f: [32.00, 34.50], t: [34.88, 50.99], c: "#00ebff", s: "east" },
+            { n: "USN -> Bandar Abbas Port", f: [24.50, 56.50], t: [27.18, 56.26], c: "#00ebff", s: "north" }
         ];
+
+        // --- ИРАНСКИ ОТВЕТ "MOST DEVASTATING" (ЧЕРВЕНИ) ---
+        const iranianRetaliation = [
+            { n: "IR -> Tel Aviv District", f: [35.68, 51.38], t: [32.08, 34.78], c: "#ff4500", s: "west" },
+            { n: "IR -> US Base Bahrain", f: [28.92, 50.82], t: [26.22, 50.58], c: "#ff4500", s: "south" },
+            { n: "IR -> US Base Kuwait", f: [30.50, 47.80], t: [29.22, 47.96], c: "#ff4500", s: "south" },
+            { n: "IR -> Dubai Int Airport", f: [27.24, 56.34], t: [25.25, 55.36], c: "#ff4500", s: "south" },
+            { n: "IR -> Erbil Tactical Hit", f: [34.50, 45.00], t: [36.23, 43.95], c: "#ff4500", s: "west" }
+        ];
+
+        const MISSION_DATA = [...operationEpicFury, ...iranianRetaliation];
 
         const launch = (data, delay) => {
             setTimeout(() => {
                 const icon = L.divIcon({
-                    className: 'v23-m',
+                    className: 'v26-m',
                     html: `<div style="width:8px; height:8px; background:#fff; border:1.5px solid ${data.c}; border-radius:50%; box-shadow:0 0 10px ${data.c}; pointer-events:none;"></div>`,
                     iconSize: [8, 8], iconAnchor: [4, 4]
                 });
@@ -1727,14 +1718,14 @@ setInterval(checkCriticalAlerts, 30000);
                 const missile = L.marker(data.f, { icon: icon, pane: 'warPane', interactive: false }).addTo(map);
                 const tag = L.marker(data.f, {
                     icon: L.divIcon({
-                        className: 'v23-l',
+                        className: 'v26-l',
                         html: `<div style="color:${data.c}; font-family:monospace; font-size:10px; font-weight:bold; text-shadow:1px 1px #000; white-space:nowrap; margin-left:15px; pointer-events:none;">🚀 ${data.n}</div>`
                     }),
                     pane: 'warPane', interactive: false
                 }).addTo(map);
 
                 let startTime = Date.now();
-                const duration = 180000;
+                const duration = 160000;
 
                 const move = setInterval(() => {
                     let p = (Date.now() - startTime) / duration;
@@ -1742,11 +1733,11 @@ setInterval(checkCriticalAlerts, 30000);
                         clearInterval(move); 
                         if (map.hasLayer(missile)) map.removeLayer(missile); 
                         if (map.hasLayer(tag)) map.removeLayer(tag);
-                        impact(data.t, data.c); return;
+                        impact(data.t, data.c, data.n); return;
                     }
                     let lat = data.f[0] + (data.t[0] - data.f[0]) * p;
                     let lon = data.f[1] + (data.t[1] - data.f[1]) * p;
-                    let arc = Math.sin(Math.PI * p) * 2.0;
+                    let arc = Math.sin(Math.PI * p) * 2.5;
                     let pos;
                     if (data.s === "north") pos = [lat, lon - arc];
                     else if (data.s === "south") pos = [lat, lon + arc];
@@ -1754,47 +1745,39 @@ setInterval(checkCriticalAlerts, 30000);
                     else pos = [lat + arc, lon];
 
                     missile.setLatLng(pos); tag.setLatLng(pos);
-                    const trail = L.circleMarker(pos, { radius: 0.9, color: data.c, opacity: 0.4, pane: 'warPane', interactive: false }).addTo(map);
-                    setTimeout(() => { if (map.hasLayer(trail)) map.removeLayer(trail); }, 35000);
-                }, 500);
+                    const trail = L.circleMarker(pos, { radius: 1, color: data.c, opacity: 0.5, pane: 'warPane', interactive: false }).addTo(map);
+                    setTimeout(() => { if (map.hasLayer(trail)) map.removeLayer(trail); }, 25000);
+                }, 400);
             }, delay);
         };
 
-        const impact = (loc, color) => {
-            const b = L.circle(loc, { radius: 1000, color: '#fff', fillColor: color, fillOpacity: 0.7, pane: 'warPane', interactive: false }).addTo(map);
-            let r = 1000;
+        const impact = (loc, color, name) => {
+            const b = L.circle(loc, { radius: 2000, color: '#fff', fillColor: color, fillOpacity: 0.8, pane: 'warPane', interactive: false }).addTo(map);
+            let r = 2000;
             const s = setInterval(() => {
-                r += 4000; b.setRadius(r);
-                if (r > 130000) { clearInterval(s); if (map.hasLayer(b)) map.removeLayer(b); }
-            }, 60);
+                r += 5000; b.setRadius(r);
+                if (r > 150000) { clearInterval(s); if (map.hasLayer(b)) map.removeLayer(b); }
+            }, 50);
 
-            // ЕФЕКТ ОГЪЪН ЗА ЕРБИЛ
-            if (loc[0].toFixed(2) === "36.23" && loc[1].toFixed(2) === "43.95") {
-                const damageIcon = L.divIcon({
-                    className: 'damage-marker',
-                    html: `<div style="color:#ff0000; font-size:18px; font-weight:bold; pointer-events:none; text-shadow: 0 0 8px #f00;">🔥</div>`,
-                    iconSize: [20, 20], iconAnchor: [10, 10]
-                });
-                const burn = L.marker(loc, { icon: damageIcon, pane: 'warPane', interactive: false }).addTo(map);
-                setTimeout(() => { if (map.hasLayer(burn)) map.removeLayer(burn); }, 60000);
-            }
-            
-            // НОВ ЕФЕКТ ЗА ТЕХЕРАН (SMOKE/STRIKE) [cite: 2026-03-01]
-            if (loc[0].toFixed(2) === "35.69") {
-                const strikeIcon = L.divIcon({
-                    className: 'tehran-hit',
-                    html: `<div style="color:#fff; font-size:12px; pointer-events:none; text-shadow: 0 0 5px #00ebff;">💥</div>`,
-                    iconSize: [15, 15], iconAnchor: [7, 7]
-                });
-                const hit = L.marker(loc, { icon: strikeIcon, pane: 'warPane', interactive: false }).addTo(map);
-                setTimeout(() => { if (map.hasLayer(hit)) map.removeLayer(hit); }, 10000);
-            }
+            // СПЕЦИАЛНИ ЕФЕКТИ ПОДТВЪРДЕНИ ОТ НОВИНИТЕ
+            let emoji = "💥";
+            if (name.includes("Tehran Gov")) emoji = "💀"; // Elimination of leadership
+            if (name.includes("Nuclear")) emoji = "☢️"; 
+            if (name.includes("Erbil") || name.includes("Dubai")) emoji = "🔥";
+
+            const damageIcon = L.divIcon({
+                className: 'impact-marker',
+                html: `<div style="font-size:22px; pointer-events:none; text-shadow: 0 0 10px ${color};">${emoji}</div>`,
+                iconSize: [25, 25], iconAnchor: [12, 12]
+            });
+            const mark = L.marker(loc, { icon: damageIcon, pane: 'warPane', interactive: false }).addTo(map);
+            setTimeout(() => { if (map.hasLayer(mark)) map.removeLayer(mark); }, 45000);
         };
 
-        MISSION_DATA.forEach((m, i) => launch(m, i * 3500));
-        const restartTime = 180000 + (MISSION_DATA.length * 3500) + 15000;
-        setTimeout(startGlobalWar, restartTime);
+        MISSION_DATA.forEach((m, i) => launch(m, i * 4000));
+        setTimeout(startGlobalWar, 200000);
     };
+
     setTimeout(startGlobalWar, 5000);
 })();
 
