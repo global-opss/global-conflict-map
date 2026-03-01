@@ -228,7 +228,7 @@ const runMissileStrike = () => {
             /** * КЛЮЧОВА КОРЕКЦИЯ: Използваме latLngToLayerPoint, 
              * защото missile-layer е дете на #map! [cite: 2026-02-20]
              */
-            const point = map.latLngToLayerPoint([cLat, cLon]);
+            const point = map.latLngToContainerPoint([cLat, cLon]);
             
             missile.style.left = point.x + 'px';
             missile.style.top = point.y + 'px';
