@@ -180,79 +180,109 @@ let map; // Сложи го точно тук на нов ред
     }).addTo(map);
 
 // =============================================================================
-// 🚀 INTEGRATED MISSILE ENGINE (FIXED FOR INTERNAL LAYER) [cite: 2026-02-20]
+// 🚀 NATIVE MISSILE ENGINE v12.0 - INTEGRATED WITH LEAFLET [cite: 2026-02-20]
 // =============================================================================
 
-const runMissileStrike = () => {
-    // Вземаме контейнера, който е вътре в картата на ред 137
-    const layer = document.getElementById('missile-layer');
-    if (!layer || typeof map === 'undefined' || !map) {
-        console.warn(">> [MISSILE SYSTEM]: Map or Layer not ready.");
-        return;
+/**
+ * Тази версия използва вградените инструменти на Leaflet (L.circleMarker),
+ * което гарантира, че ракетите ще са над Dark Matter и Weather слоевете.
+ */
+function startIntegratedStrike() {
+    console.log("%c >> [TACTICAL]: INITIALIZING NATIVE VECTORS... ", "color: #ff3300; font-weight: bold;");
+
+    // Реални географски координати от твоя интерфейс
+    const IRAN_SILO = [35.6892, 51.3890]; 
+    const ISRAEL_TARGET = [32.0853, 34.7818];
+
+    function launchMissile() {
+        if (typeof map === 'undefined' || !map) return;
+
+        // 1. СЪЗДАВАМЕ РАКЕТАТА КАТО МАРКЕР ВЪРХУ КАРТАТА [cite: 2026-02-20]
+        const missileHead = L.circleMarker(IRAN_SILO, {
+            radius: 5,
+            color: '#ff0000',
+            fillColor: '#ff3300',
+            fillOpacity: 1,
+            weight: 2,
+            interactive: false, // Да не пречи на кликането по картата
+            className: 'missile-pulse' // За сиянието от CSS [cite: 2026-02-20]
+        }).addTo(map);
+
+        let progress = 0;
+        const totalSteps = 150; // Продължителност на полета
+
+        const flightInterval = setInterval(() => {
+            progress += 1;
+
+            if (progress >= totalSteps) {
+                clearInterval(flightInterval);
+                executeImpact(ISRAEL_TARGET);
+                map.removeLayer(missileHead);
+                return;
+            }
+
+            // ИЗЧИСЛЯВАНЕ НА ТРАЕКТОРИЯТА (Linear Interpolation) [cite: 2026-02-20]
+            const currentLat = IRAN_SILO[0] + (ISRAEL_TARGET[0] - IRAN_SILO[0]) * (progress / totalSteps);
+            const currentLng = IRAN_SILO[1] + (ISRAEL_TARGET[1] - IRAN_SILO[1]) * (progress / totalSteps);
+
+            // Преместване на обекта директно в Leaflet координати
+            missileHead.setLatLng([currentLat, currentLng]);
+
+            // 2. ДИМНА СЛЕДА (TRAIL) КАТО ВРЕМЕННИ ТОЧКИ [cite: 2026-02-20]
+            const smoke = L.circleMarker([currentLat, currentLng], {
+                radius: 1,
+                color: 'rgba(255, 69, 0, 0.4)',
+                stroke: false,
+                fillOpacity: 0.4,
+                interactive: false
+            }).addTo(map);
+
+            // Изчистване на дима след 0.8 секунди
+            setTimeout(() => map.removeLayer(smoke), 800);
+
+        }, 35); // Интервал за плавност
     }
 
-    // Точни координати от Иран до Израел
-    const startPos = { lat: 35.6892, lon: 51.3890 }; 
-    const endPos = { lat: 32.0853, lon: 34.7818 };   
+    /**
+     * Визуализация на взрив при попадение [cite: 2026-02-20]
+     */
+    function executeImpact(coords) {
+        const boom = L.circleMarker(coords, {
+            radius: 5,
+            color: 'red',
+            fillOpacity: 0,
+            weight: 4,
+            interactive: false
+        }).addTo(map);
 
-    const missile = document.createElement('div');
-    missile.className = 'missile-red'; // Твоят CSS [cite: 2026-02-20]
-    layer.appendChild(missile);
+        let rad = 5;
+        let opac = 1;
+        
+        const boomAnim = setInterval(() => {
+            rad += 3;
+            opac -= 0.1;
+            boom.setRadius(rad);
+            boom.setStyle({ opacity: opac });
 
-    let step = 0;
-    const animate = setInterval(() => {
-        step += 0.5; // Скорост на симулацията
+            if (opac <= 0) {
+                clearInterval(boomAnim);
+                map.removeLayer(boom);
+            }
+        }, 50);
+        
+        console.log("%c [IMPACT]: TARGET NEUTRALIZED ", "background: red; color: white;");
+    }
 
-        if (step >= 100) {
-            clearInterval(animate);
-            try {
-                // ПРИ УДАР: Използваме LayerPoint, защото слоят е вътре в картата [cite: 2026-02-20]
-                const impactPoint = map.latLngToLayerPoint([endPos.lat, endPos.lon]);
-                const boom = document.createElement('div');
-                boom.className = 'impact-explosion';
-                boom.style.left = impactPoint.x + 'px';
-                boom.style.top = impactPoint.y + 'px';
-                boom.style.transform = 'translate(-50%, -50%)'; // Центриране
-                layer.appendChild(boom);
-                setTimeout(() => boom.remove(), 1000);
-            } catch(e) {}
-            missile.remove();
-            return;
-        }
+    // Автоматичен цикъл: на всеки 12 секунди [cite: 2026-02-20]
+    launchMissile();
+    setInterval(launchMissile, 12000);
+}
 
-        // Изчисляване на междинни координати
-        const cLat = startPos.lat + (endPos.lat - startPos.lat) * (step / 100);
-        const cLon = startPos.lon + (endPos.lon - startPos.lon) * (step / 100);
+// Изчакваме 4 секунди, за да зареди всичко (Weather слоеве и т.н.) [cite: 2026-02-20]
+window.addEventListener('load', () => {
+    setTimeout(startIntegratedStrike, 4000);
+});
 
-        try {
-            /** * КЛЮЧОВА КОРЕКЦИЯ: Използваме latLngToLayerPoint, 
-             * защото missile-layer е дете на #map! [cite: 2026-02-20]
-             */
-            const point = map.latLngToContainerPoint([cLat, cLon]);
-            
-            missile.style.left = point.x + 'px';
-            missile.style.top = point.y + 'px';
-
-            // Генериране на димна следа
-            const trail = document.createElement('div');
-            trail.className = 'missile-trail';
-            trail.style.left = point.x + 'px';
-            trail.style.top = point.y + 'px';
-            layer.appendChild(trail);
-            setTimeout(() => trail.remove(), 700);
-        } catch (e) {
-            clearInterval(animate);
-            missile.remove();
-        }
-    }, 40);
-};
-
-// СТАРТ: Даваме на Leaflet 3 секунди да подреди "Canvas" слоевете [cite: 2026-02-20]
-setTimeout(() => {
-    console.log("%c >> [SYSTEM]: STARTING BALLISTIC SIMULATION... ", "color: #39FF14; font-weight: bold;");
-    runMissileStrike();
-    setInterval(runMissileStrike, 12000);
-}, 3000);
 // =============================================================================
       
 // --- СЕКЦИЯ 2: ГЕОПОЛИТИЧЕСКИ ДАННИ И ГРАНИЦИ ---
