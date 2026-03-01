@@ -1773,4 +1773,5 @@ setInterval(checkCriticalAlerts, 30000);
         setTimeout(startGlobalWar, restartTime);
     };
 
-
+    setTimeout(startGlobalWar, 5000); // По-бърз старт за тест [cite: 2026-02-20]
+})();
