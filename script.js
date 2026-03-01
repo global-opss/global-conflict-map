@@ -413,7 +413,16 @@ fetch('https://raw.githubusercontent.com/datasets/geo-boundaries-world-110m/mast
         { "name": "Skardu High-Altitude Base (PK)", "type": "pk-air", "lat": 35.3356, "lon": 75.5358, "description": "Strategic mountain base. Stationed interceptors for border protection near India and China." },
         { "name": "Bannu Tactical Post (PK)", "type": "ir-missile", "lat": 32.9772, "lon": 70.5283, "description": "Frontier tactical outpost with mobile radar units and Electronic Warfare (EW) systems." },
         { "name": "Shamsi Surveillance Hub (PK)", "type": "pk-air", "lat": 28.5028, "lon": 65.1633, "description": "Isolated Baluchistan facility specialized in long-range ISR and UAV flight management." },
-        { "name": "Dalbandin Border Radar (PK)", "type": "ir-missile", "lat": 28.8856, "lon": 64.4031, "description": "Tri-border radar node. Provides early warning for missile and aircraft activity from the West." }
+        { "name": "Dalbandin Border Radar (PK)", "type": "ir-missile", "lat": 28.8856, "lon": 64.4031, "description": "Tri-border radar node. Provides early warning for missile and aircraft activity from the West." },
+        { name: "Incirlik Air Base (TR)", type: "af-air", lat: 37.0019, lon: 35.4258, description: "Major NATO/US strategic air hub. Forward deployment base for regional strike operations." },
+        { name: "Izmir Air Station (TR)", type: "af-air", lat: 38.4485, lon: 27.1550, description: "NATO Allied Land Command (LANDCOM) HQ. Critical communications and logistics node." },
+        { name: "Aksaz Naval Base (TR)", type: "ru-naval", lat: 36.8500, lon: 28.3167, description: "Key naval facility for Mediterranean fleet. Support hub for surface and submarine assets." },
+        { name: "Malatya Radar Station (TR)", type: "pvo", lat: 38.3500, lon: 38.3000, description: "AN/TPY-2 radar site. Providing early warning and missile defense tracking for NATO." },
+        { name: "Larissa Air Base (GR)", type: "af-air", lat: 39.6500, lon: 22.4667, description: "Forward base for MQ-9 Reaper drones and reconnaissance assets monitoring the region." },
+        { name: "Alexandroupoli Port (GR)", type: "ru-naval", lat: 40.8444, lon: 25.8739, description: "Strategic logistics entry point for rapid deployment of heavy equipment to Eastern Europe." },
+        { name: "Araxos Air Base (GR)", type: "af-air", lat: 38.1511, lon: 21.4256, description: "Tactical air base for Hellenic Air Force. Readiness site for regional air defense." },
+        { name: "Stefanovikeio Army Base (GR)", type: "af-air", lat: 39.4667, lon: 22.7667, description: "Major attack helicopter base. Support node for NATO aviation drills." },
+        { name: "Andravida Air Base (GR)", type: "af-air", lat: 37.9167, lon: 21.2833, description: "Home to the Iniochos exercise. Key hub for multi-national air combat training." },
     ];
 // --- СЕКЦИЯ: ВРЕДНИ ЗОНИ (ОБХВАТ НА УДАР) ---
 strategicAssets.forEach(asset => {
