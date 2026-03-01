@@ -1694,137 +1694,146 @@ JavaScript
             { name: "Dubai Port", to: [25.2048, 55.2708], from: [27.24, 56.34] }
         ];
 
-// =============================================================================
-// 🛰️ PROJECT OVERLORD V16.0 - ULTIMATE STABILITY & BALLISTICS [cite: 2026-03-01]
-// =============================================================================
+/**
+ * PROJECT OVERLORD - STRATEGIC RECONSTRUCTION V18.0
+ * Базиран на стабилната архитектура на V13.0 с векторна корекция на южните траектории.
+ * [cite: 2026-03-01]
+ */
 
 (function() {
-    const initFinalWarRoom = () => {
-        // Проверка дали Leaflet и обектът map са налични [cite: 2026-02-20]
-        if (typeof L === 'undefined' || typeof map === 'undefined' || !map) {
-            console.error(">> [ERROR]: Map object not found. Retrying...");
+    const startStrategicStrike = () => {
+        // Проверка за наличие на картата [cite: 2026-02-20]
+        if (typeof map === 'undefined' || !map) {
+            console.log(">> Очакване на инициализация на картата...");
             return;
         }
 
-        console.log("%c >> [SYSTEM]: RECONSTRUCTING THEATER OF OPERATIONS... ", "color: #00ebff; font-weight: bold;");
-
-        // Създаваме чист слой за ракетите [cite: 2026-02-20]
-        if (!map.getPane('strikePane')) {
-            let strikePane = map.createPane('strikePane');
-            strikePane.style.zIndex = 650;
-            strikePane.style.pointerEvents = 'none';
+        // Създаване на защитен слой за ракетите [cite: 2026-02-20]
+        if (!map.getPane('missilePane')) {
+            map.createPane('missilePane').style.zIndex = 650;
         }
 
-        const THEATER_DATA = [
-            { id: 1, name: "Tel Aviv (IL)", from: [34.34, 47.00], to: [32.0853, 34.7818] },
-            { id: 2, name: "Jerusalem (IL)", from: [32.50, 48.48], to: [31.7683, 35.2137] },
-            { id: 3, name: "RAF Akrotiri (CY)", from: [35.68, 51.38], to: [34.5900, 32.9800] },
-            { id: 4, name: "5th Fleet (BH)", from: [28.92, 50.82], to: [26.2285, 50.5860] },
-            { id: 5, name: "Kuwait Intl (KW)", from: [30.50, 47.80], to: [29.2243, 47.9691] },
-            { id: 6, name: "Dubai Port (UAE)", from: [27.24, 56.34], to: [25.2048, 55.2708] }
+        // Пълен списък с цели от вчерашните събития (28.02) [cite: 2026-03-01]
+        const SALVO = [
+            { name: "Tel Aviv (Israel)", to: [32.0853, 34.7818], from: [34.34, 47.00], side: "west" },
+            { name: "Jerusalem (Israel)", to: [31.7683, 35.2137], from: [32.50, 48.48], side: "west" },
+            { name: "RAF Akrotiri (Cyprus)", to: [34.5900, 32.9800], from: [35.68, 51.38], side: "west" },
+            { name: "Bahrain Fleet (US 5th)", to: [26.2285, 50.5860], from: [28.92, 50.82], side: "south" },
+            { name: "Kuwait Intl Airport", to: [29.2243, 47.9691], from: [30.50, 47.80], side: "south" },
+            { name: "Dubai Port (UAE)", to: [25.2048, 55.2708], from: [27.24, 56.34], side: "south" }
         ];
 
-        const executeLaunch = (strike) => {
-            const missileIcon = L.divIcon({
-                className: 'missile-v16',
-                html: '<div style="width:8px; height:8px; background:#fff; border:1.5px solid #ff4500; border-radius:50%; box-shadow:0 0 12px #ff4500;"></div>',
-                iconSize: [8, 8],
-                iconAnchor: [4, 4]
+        /**
+         * Основна функция за изстрелване [cite: 2026-02-20]
+         */
+        const fire = (data) => {
+            // Визуална икона на ракетата [cite: 2026-02-20]
+            const mIcon = L.divIcon({
+                className: 'm-v18',
+                html: '<div style="width:8px;height:8px;background:#fff;border:1.5px solid #ff4500;border-radius:50%;box-shadow:0 0 10px #ff4500;"></div>',
+                iconSize: [8,8], iconAnchor: [4,4]
             });
 
-            const missile = L.marker(strike.from, { 
-                icon: missileIcon, 
-                pane: 'strikePane',
-                interactive: false 
-            }).addTo(map);
-
-            const label = L.marker(strike.from, {
+            // Маркер на ракетата и етикет [cite: 2026-02-20]
+            const missile = L.marker(data.from, { icon: mIcon, pane: 'missilePane' }).addTo(map);
+            const tag = L.marker(data.from, {
                 icon: L.divIcon({
-                    className: 'label-v16',
-                    html: `<b style="color:#ff3300; font-family:monospace; font-size:10px; text-shadow:1px 1px #000; white-space:nowrap; margin-left:15px;">⚠️ INCOMING: ${strike.name}</b>`,
-                    iconAnchor: [0, 0]
+                    className: 't-v18',
+                    html: `<div style="color:#ff3300;font-family:monospace;font-size:10px;font-weight:bold;margin-left:12px;text-shadow:1px 1px #000;white-space:nowrap;">⚠️ TARGET: ${data.name}</div>`
                 }),
-                pane: 'strikePane'
+                pane: 'missilePane'
             }).addTo(map);
 
-            let startTime = Date.now();
-            const duration = 180000; // 3 минути полет [cite: 2026-02-20]
+            let st = Date.now();
+            let dur = 180000; // 3 минути полет [cite: 2026-02-20]
 
-            const flightPath = setInterval(() => {
-                let elapsed = Date.now() - startTime;
-                let progress = elapsed / duration;
+            /**
+             * Цикъл на движение [cite: 2026-02-20]
+             */
+            const step = setInterval(() => {
+                let p = (Date.now() - st) / dur;
 
-                if (progress >= 1) {
-                    clearInterval(flightPath);
+                // Край на полета - детонация [cite: 2026-02-20]
+                if (p >= 1) {
+                    clearInterval(step);
                     if (map.hasLayer(missile)) map.removeLayer(missile);
-                    if (map.hasLayer(label)) map.removeLayer(label);
-                    triggerImpact(strike.to);
+                    if (map.hasLayer(tag)) map.removeLayer(tag);
+                    
+                    executeImpact(data.to);
                     return;
                 }
 
-                // КОРЕКТНА БАЛИСТИКА (Symmetric Parabola) [cite: 2026-02-20]
-                let currentLat = strike.from[0] + (strike.to[0] - strike.from[0]) * progress;
-                let currentLon = strike.from[1] + (strike.to[1] - strike.from[1]) * progress;
-
-                // Изчисляваме "височината" на дъгата спрямо прогреса
-                let arcHeight = Math.sin(Math.PI * progress) * 2.5;
+                // Линейна позиция [cite: 2026-02-20]
+                let lat = data.from[0] + (data.to[0] - data.from[0]) * p;
+                let lon = data.from[1] + (data.to[1] - data.from[1]) * p;
                 
-                // Прилагаме отместването (винаги навън от центъра на конфликта) [cite: 2026-02-20]
-                let visualLat = currentLat + arcHeight;
-                let visualPos = [visualLat, currentLon];
+                // КОРЕКЦИЯ НА КУКИТЕ: [cite: 2026-02-20]
+                // За Израел/Кипър изкривяваме Lat, за Залива изкривяваме Lon.
+                let arc = Math.sin(Math.PI * p) * 2.5;
+                let pos;
+                
+                if (data.side === "south") {
+                    pos = [lat, lon + arc]; // Дъга настрани за южните цели
+                } else {
+                    pos = [lat + arc, lon]; // Дъга нагоре за западните цели
+                }
 
-                missile.setLatLng(visualPos);
-                label.setLatLng(visualPos);
+                missile.setLatLng(pos);
+                tag.setLatLng(pos);
 
-                // ОПТИМИЗИРАНА СЛЕДА (TRAIL) [cite: 2026-02-20]
-                const trailDot = L.circleMarker(visualPos, {
-                    radius: 0.7,
-                    weight: 1,
-                    color: 'rgba(255, 69, 0, 0.4)',
-                    fillOpacity: 0,
-                    pane: 'strikePane',
-                    interactive: false
+                // Създаване на следа (Trail) [cite: 2026-02-20]
+                const dot = L.circleMarker(pos, { 
+                    radius: 1, 
+                    weight: 1, 
+                    color: 'rgba(255, 69, 0, 0.3)', 
+                    fillOpacity: 0.1, 
+                    pane: 'missilePane' 
                 }).addTo(map);
-
-                // Бързо чистене на паметта [cite: 2026-02-20]
+                
+                // Автоматично почистване на следата [cite: 2026-02-20]
                 setTimeout(() => {
-                    if (map.hasLayer(trailDot)) map.removeLayer(trailDot);
-                }, 20000);
+                    if (map.hasLayer(dot)) map.removeLayer(dot);
+                }, 45000);
 
-            }, 500); // 500ms за максимална стабилност на картата [cite: 2026-02-20]
+            }, 400); // По-дълъг интервал за стабилност на процесора [cite: 2026-02-20]
         };
 
-        const triggerImpact = (target) => {
-            const explosion = L.circle(target, {
-                radius: 2000,
-                color: '#fff',
-                fillColor: '#ff0000',
-                fillOpacity: 0.7,
-                pane: 'strikePane'
+        /**
+         * Ефект на взрив при попадение [cite: 2026-02-20]
+         */
+        const executeImpact = (loc) => {
+            const b = L.circle(loc, { 
+                radius: 100, 
+                color: '#fff', 
+                fillColor: 'red', 
+                fillOpacity: 0.8, 
+                pane: 'missilePane' 
             }).addTo(map);
 
-            let radius = 2000;
-            const anim = setInterval(() => {
-                radius += 4000;
-                explosion.setRadius(radius);
-                explosion.setStyle({ 
-                    opacity: explosion.options.opacity - 0.05, 
-                    fillOpacity: explosion.options.fillOpacity - 0.05 
+            let r = 100;
+            const s = setInterval(() => {
+                r += 3500; 
+                b.setRadius(r);
+                b.setStyle({ 
+                    opacity: b.options.opacity - 0.05, 
+                    fillOpacity: b.options.fillOpacity - 0.05 
                 });
 
-                if (radius > 150000) {
-                    clearInterval(anim);
-                    if (map.hasLayer(explosion)) map.removeLayer(explosion);
+                if (r > 120000) { 
+                    clearInterval(s); 
+                    if (map.hasLayer(b)) map.removeLayer(b); 
                 }
-            }, 60);
+            }, 50);
         };
 
-        // Изстрелваме вълните последователно [cite: 2026-02-20]
-        THEATER_DATA.forEach((strike, index) => {
-            setTimeout(() => executeLaunch(strike), index * 4000);
+        // Последователно изстрелване през 4 секунди [cite: 2026-02-20]
+        SALVO.forEach((m, i) => {
+            setTimeout(() => fire(m), i * 4000);
         });
+
+        console.log(">> [SUCCESS]: Баллистичният модул е активен.");
     };
 
-    // Даваме време на Leaflet да се инициализира напълно [cite: 2026-02-20]
-    setTimeout(initFinalWarRoom, 12000);
+    // Стартиране след 6 секунди [cite: 2026-02-20]
+    setTimeout(startStrategicStrike, 6000);
 })();
