@@ -1682,27 +1682,22 @@ setInterval(checkCriticalAlerts, 30000);
             pane.style.pointerEvents = 'none';
         }
 
-        // --- УДАРНА ГРУПА "EPIC FURY" (САЩ/ИЗРАЕЛ) ---
+        // --- УДАРНА ГРУПА "EPIC FURY" (ИЗЧИСТЕНИ ЕТИКЕТИ) ---
         const operationEpicFury = [
-            // DECAPITATION STRIKE - TEHRAN (Khamenei Compound)
-            ...Array.from({length: 15}, (_, i) => ({
-                n: `Precision Strike: Tehran Gov Center #${i+1}`,
-                f: [33.31, 44.36], // От Ирак
+            ...Array.from({length: 25}, (_, i) => ({
+                n: ``, // Празно име за по-чист вид
+                f: [33.31 + (Math.random() * 0.6), 44.36 + (Math.random() * 0.6)], 
                 t: [35.6892, 51.3890], c: "#00ebff", s: "east"
             })),
-            // STRIKES ON NUCLEAR & NAVAL SITES
-            { n: "USAF -> Bushehr Nuclear", f: [26.00, 52.00], t: [28.83, 50.88], c: "#00ebff", s: "north" },
-            { n: "IAF -> Fordow Underground", f: [32.00, 34.50], t: [34.88, 50.99], c: "#00ebff", s: "east" },
-            { n: "USN -> Bandar Abbas Port", f: [24.50, 56.50], t: [27.18, 56.26], c: "#00ebff", s: "north" }
+            { n: "", f: [31.50, 34.50], t: [28.83, 50.88], c: "#00ebff", s: "east" },
+            { n: "", f: [24.50, 56.50], t: [27.18, 56.26], c: "#00ebff", s: "north" }
         ];
 
-        // --- ИРАНСКИ ОТВЕТ "MOST DEVASTATING" (ЧЕРВЕНИ) ---
         const iranianRetaliation = [
-            { n: "IR -> Tel Aviv District", f: [35.68, 51.38], t: [32.08, 34.78], c: "#ff4500", s: "west" },
-            { n: "IR -> US Base Bahrain", f: [28.92, 50.82], t: [26.22, 50.58], c: "#ff4500", s: "south" },
-            { n: "IR -> US Base Kuwait", f: [30.50, 47.80], t: [29.22, 47.96], c: "#ff4500", s: "south" },
-            { n: "IR -> Dubai Int Airport", f: [27.24, 56.34], t: [25.25, 55.36], c: "#ff4500", s: "south" },
-            { n: "IR -> Erbil Tactical Hit", f: [34.50, 45.00], t: [36.23, 43.95], c: "#ff4500", s: "west" }
+            { n: "", f: [35.68, 51.38], t: [32.08, 34.78], c: "#ff4500", s: "west" },
+            { n: "", f: [28.92, 50.82], t: [26.22, 50.58], c: "#ff4500", s: "south" },
+            { n: "", f: [27.24, 56.34], t: [25.25, 55.36], c: "#ff4500", s: "south" },
+            { n: "", f: [34.50, 45.00], t: [36.23, 43.95], c: "#ff4500", s: "west" }
         ];
 
         const MISSION_DATA = [...operationEpicFury, ...iranianRetaliation];
@@ -1716,16 +1711,18 @@ setInterval(checkCriticalAlerts, 30000);
                 });
 
                 const missile = L.marker(data.f, { icon: icon, pane: 'warPane', interactive: false }).addTo(map);
+                
+                // МИНИМАЛИСТИЧЕН ЕТИКЕТ - Само малка ракета без текст
                 const tag = L.marker(data.f, {
                     icon: L.divIcon({
                         className: 'v26-l',
-                        html: `<div style="color:${data.c}; font-family:monospace; font-size:10px; font-weight:bold; text-shadow:1px 1px #000; white-space:nowrap; margin-left:15px; pointer-events:none;">🚀 ${data.n}</div>`
+                        html: `<div style="color:${data.c}; font-size:10px; text-shadow:1px 1px #000; pointer-events:none; margin-left:10px;">🚀</div>`
                     }),
                     pane: 'warPane', interactive: false
                 }).addTo(map);
 
                 let startTime = Date.now();
-                const duration = 160000;
+                const duration = 140000; 
 
                 const move = setInterval(() => {
                     let p = (Date.now() - startTime) / duration;
@@ -1737,7 +1734,7 @@ setInterval(checkCriticalAlerts, 30000);
                     }
                     let lat = data.f[0] + (data.t[0] - data.f[0]) * p;
                     let lon = data.f[1] + (data.t[1] - data.f[1]) * p;
-                    let arc = Math.sin(Math.PI * p) * 2.5;
+                    let arc = Math.sin(Math.PI * p) * 2.2;
                     let pos;
                     if (data.s === "north") pos = [lat, lon - arc];
                     else if (data.s === "south") pos = [lat, lon + arc];
@@ -1745,8 +1742,8 @@ setInterval(checkCriticalAlerts, 30000);
                     else pos = [lat + arc, lon];
 
                     missile.setLatLng(pos); tag.setLatLng(pos);
-                    const trail = L.circleMarker(pos, { radius: 1, color: data.c, opacity: 0.5, pane: 'warPane', interactive: false }).addTo(map);
-                    setTimeout(() => { if (map.hasLayer(trail)) map.removeLayer(trail); }, 25000);
+                    const trail = L.circleMarker(pos, { radius: 0.8, color: data.c, opacity: 0.4, pane: 'warPane', interactive: false }).addTo(map);
+                    setTimeout(() => { if (map.hasLayer(trail)) map.removeLayer(trail); }, 15000);
                 }, 400);
             }, delay);
         };
@@ -1759,23 +1756,23 @@ setInterval(checkCriticalAlerts, 30000);
                 if (r > 150000) { clearInterval(s); if (map.hasLayer(b)) map.removeLayer(b); }
             }, 50);
 
-            // СПЕЦИАЛНИ ЕФЕКТИ ПОДТВЪРДЕНИ ОТ НОВИНИТЕ
+            // ИКОНИ ПРИ УДАР (Запазени за визуален фийббек)
             let emoji = "💥";
-            if (name.includes("Tehran Gov")) emoji = "💀"; // Elimination of leadership
-            if (name.includes("Nuclear")) emoji = "☢️"; 
-            if (name.includes("Erbil") || name.includes("Dubai")) emoji = "🔥";
+            if (loc[0].toFixed(2) === "35.69") emoji = "💀"; 
+            if (loc[0].toFixed(2) === "28.83") emoji = "☢️"; 
+            if (loc[0].toFixed(2) === "36.23") emoji = "🔥";
 
             const damageIcon = L.divIcon({
                 className: 'impact-marker',
-                html: `<div style="font-size:22px; pointer-events:none; text-shadow: 0 0 10px ${color};">${emoji}</div>`,
-                iconSize: [25, 25], iconAnchor: [12, 12]
+                html: `<div style="font-size:20px; pointer-events:none; text-shadow: 0 0 10px ${color};">${emoji}</div>`,
+                iconSize: [20, 20], iconAnchor: [10, 10]
             });
             const mark = L.marker(loc, { icon: damageIcon, pane: 'warPane', interactive: false }).addTo(map);
-            setTimeout(() => { if (map.hasLayer(mark)) map.removeLayer(mark); }, 45000);
+            setTimeout(() => { if (map.hasLayer(mark)) map.removeLayer(mark); }, 40000);
         };
 
-        MISSION_DATA.forEach((m, i) => launch(m, i * 4000));
-        setTimeout(startGlobalWar, 200000);
+        MISSION_DATA.forEach((m, i) => launch(m, i * 3000));
+        setTimeout(startGlobalWar, 180000 + (MISSION_DATA.length * 3000));
     };
 
     setTimeout(startGlobalWar, 5000);
