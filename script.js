@@ -1670,75 +1670,68 @@ setInterval(checkCriticalAlerts, 30000);
 })();
 
 (function() {
-    const initFullScaleConflict = () => {
-        if (typeof map === 'undefined') return;
+    const startMassiveStrike = () => {
+        if (typeof map === 'undefined' || !map) return;
+        if (!map.getPane('missilePane')) map.createPane('missilePane').style.zIndex = 650;
 
-        // Реални данни за ударите от 28.02.2026
-        const WAR_THEATER = [
-            { name: "Tel Aviv (Israel)", coords: [32.0853, 34.7818], origin: [34.3416, 47.0053], type: "Ballistic" },
-            { name: "Jerusalem (Israel)", coords: [31.7683, 35.2137], origin: [32.4988, 48.4833], type: "Ballistic" },
-            { name: "RAF Akrotiri (Cyprus)", coords: [34.5900, 32.9800], origin: [34.3416, 47.0053], type: "Long-Range" },
-            { name: "5th Fleet HQ (Bahrain)", coords: [26.2285, 50.5860], origin: [28.9234, 50.8203], type: "Drone Swarm" },
-            { name: "Kuwait Intl Airport", coords: [29.2243, 47.9691], origin: [30.5000, 47.8000], type: "Tactical" },
-            { name: "Dubai (UAE)", coords: [25.2048, 55.2708], origin: [27.2452, 56.3452], type: "Cruise" }
+        const SALVO = [
+            { id: "IL-1", name: "Tel Aviv", to: [32.0853, 34.7818], from: [34.34, 47.00] },
+            { id: "IL-2", name: "Jerusalem", to: [31.7683, 35.2137], from: [32.50, 48.48] },
+            { id: "CY", name: "RAF Akrotiri", to: [34.5900, 32.9800], from: [35.68, 51.38] },
+            { id: "BH", name: "Bahrain Fleet", to: [26.2285, 50.5860], from: [28.92, 50.82] },
+            { id: "KW", name: "Kuwait Intl", to: [29.2243, 47.9691], from: [30.50, 47.80] },
+            { id: "UAE", name: "Dubai Port", to: [25.2048, 55.2708], from: [27.24, 56.34] }
         ];
 
-        const launchMissile = (data) => {
+        const fire = (data) => {
             const mIcon = L.divIcon({
-                className: 'v11-missile',
+                className: 'm-v12',
                 html: '<div style="width:8px;height:8px;background:#fff;border:1.5px solid #ff4500;border-radius:50%;box-shadow:0 0 10px #ff4500;"></div>',
                 iconSize: [8,8], iconAnchor: [4,4]
             });
 
-            const missile = L.marker(data.origin, { icon: mIcon, pane: 'missilePane' }).addTo(map);
-            const label = L.marker(data.origin, {
+            const missile = L.marker(data.from, { icon: mIcon, pane: 'missilePane' }).addTo(map);
+            const tag = L.marker(data.from, {
                 icon: L.divIcon({
-                    className: 't-label',
-                    html: `<div style="color:#ff3300;font-family:monospace;font-size:10px;font-weight:bold;margin-left:12px;text-shadow:1px 1px #000;white-space:nowrap;">INCOMING: ${data.name}</div>`
+                    className: 't-v12',
+                    html: `<div style="color:#ff3300;font-family:monospace;font-size:10px;font-weight:bold;margin-left:12px;text-shadow:1px 1px #000;white-space:nowrap;">⚠️ ${data.name}</div>`
                 }),
                 pane: 'missilePane'
             }).addTo(map);
 
-            let start = Date.now();
-            let duration = 160000; 
+            let st = Date.now();
+            let dur = 180000; 
 
-            const flight = setInterval(() => {
-                let p = (Date.now() - start) / duration;
+            const step = setInterval(() => {
+                let p = (Date.now() - st) / dur;
                 if (p >= 1) {
-                    clearInterval(flight);
-                    map.removeLayer(missile);
-                    map.removeLayer(label);
-                    detonate(data.coords);
+                    clearInterval(step); map.removeLayer(missile); map.removeLayer(tag);
+                    const b = L.circle(data.to, {radius:100, color:'#fff', fillColor:'red', fillOpacity:0.8, pane:'missilePane'}).addTo(map);
+                    let r = 100;
+                    const s = setInterval(() => {
+                        r += 3500; b.setRadius(r);
+                        if (r > 120000) { clearInterval(s); map.removeLayer(b); }
+                    }, 50);
                     return;
                 }
 
-                let lat = data.origin[0] + (data.coords[0] - data.origin[0]) * p;
-                let lon = data.origin[1] + (data.coords[1] - data.origin[1]) * p;
-                let arc = Math.sin(Math.PI * p) * 4.0;
-                let pos = [lat + arc, lon];
+                let lat = data.from[0] + (data.to[0] - data.from[0]) * p;
+                let lon = data.from[1] + (data.to[1] - data.from[1]) * p;
+                let pos = [lat + (Math.sin(Math.PI * p) * 4.5), lon];
 
                 missile.setLatLng(pos);
-                label.setLatLng(pos);
+                tag.setLatLng(pos);
 
-                const dot = L.circleMarker(pos, {
-                    radius: 0.8, color: 'rgba(255, 69, 0, 0.3)', fillOpacity: 0.1, pane: 'missilePane'
-                }).addTo(map);
-                setTimeout(() => map.removeLayer(dot), 50000);
+                const dot = L.circleMarker(pos, { radius: 0.8, weight: 1, color: 'rgba(255, 69, 0, 0.3)', fillOpacity: 0.1, pane: 'missilePane' }).addTo(map);
+                setTimeout(() => map.removeLayer(dot), 60000);
             }, 300);
         };
 
-        const detonate = (loc) => {
-            const b = L.circle(loc, { radius: 100, color: '#fff', fillColor: '#ff0000', fillOpacity: 0.8, pane: 'missilePane' }).addTo(map);
-            let r = 100;
-            const s = setInterval(() => {
-                r += 4000; b.setRadius(r);
-                if (r > 150000) { clearInterval(s); map.removeLayer(b); }
-            }, 50);
-        };
-
-        // Последователно изстрелване на вълните
-        WAR_THEATER.forEach((t, i) => setTimeout(() => launchMissile(t), i * 4000));
+        // ТУК Е МАГИЯТА: Пускаме всяка ракета от масива SALVO
+        SALVO.forEach((m, index) => {
+            setTimeout(() => fire(m), index * 3000); // Излитат една след друга през 3 секунди
+        });
     };
 
-    setTimeout(initFullScaleConflict, 7000);
+    setTimeout(startMassiveStrike, 5000);
 })();
