@@ -1668,123 +1668,146 @@ setInterval(checkCriticalAlerts, 30000);
 })();
 
 // =============================================================================
-// 🚀 СЕКЦИЯ: СТРАТЕГИЧЕСКА БАЛИСТИЧНА СИМУЛАЦИЯ (ИРАН -> ИЗРАЕЛ) [cite: 2026-02-20]
+// 🚀 GLOBAL STRIKE SIMULATION ENGINE (FINAL VERSION) [cite: 2026-02-20]
 // =============================================================================
-// Този модул използва обекта 'map', дефиниран в Секция 1 на твоя код.
-// Ракетите летят в реално време над тактическите слоеве (Dark Matter). [cite: 2026-02-20]
 
-function startGlobalStrikeSimulation() {
-    console.log(">> [TACTICAL SYSTEM]: INITIALIZING STRIKE VECTORS...");
+/**
+ * Този модул е оптимизиран за Leaflet с активиран Canvas рендеринг.
+ * Той гарантира, че ракетите летят над всички метеорологични слоеве. [cite: 2026-02-20]
+ */
+function runStrategicMissileSimulation() {
+    console.log("%c >> [TACTICAL]: СИСТЕМАТА ЗА НАСОЧВАНЕ Е ОНЛАЙН ", "background: #111; color: #ff3300; font-weight: bold;");
 
-    // 1. ДЕФИНИРАНЕ НА ГЕОГРАФСКИ ТОЧКИ (ИЗТОК -> ЗАПАД)
-    const launchPoints = [
-        { name: "Tehran Silo Complex", lat: 35.6892, lon: 51.3890 }, // Централен Иран
-        { name: "Shiraz IRGC Base", lat: 29.5918, lon: 52.5837 }    // Южен Иран
-    ];
-
-    const targetPoints = [
-        { name: "Tel Aviv Metro", lat: 32.0853, lon: 34.7818 },     // Израел - Център
-        { name: "Haifa Port Authority", lat: 32.8211, lon: 34.9978 } // Израел - Север
-    ];
+    // 1. Дефиниране на стратегическите вектори
+    const STRATEGY = {
+        launchPoint: { lat: 35.6892, lon: 51.3890 }, // Техеран (Иран)
+        impactPoint: { lat: 32.0853, lon: 34.7818 }, // Тел Авив (Израел)
+        active: true
+    };
 
     /**
-     * Основна функция за управление на единичен ракетен полет.
-     * Изчислява траекторията спрямо текущия мащаб на картата. [cite: 2026-02-20]
+     * Основна функция за управление на балистичната траектория.
+     * Използва контейнерни координати за избягване на отмествания. [cite: 2026-02-20]
      */
-    function triggerMissileLaunch() {
-        const missileLayer = document.getElementById('missile-layer');
-        if (!missileLayer) {
-            console.error(">> [SYSTEM ERROR]: Missile Layer Container (ID: missile-layer) is missing!");
+    function executeLaunchSequence() {
+        const missileContainer = document.getElementById('missile-layer');
+        
+        // Валидация на контейнера от ред 138 в HTML
+        if (!missileContainer) {
+            console.error(">> [FATAL]: missile-layer не е намерен! Проверете ред 138 в index.html.");
             return;
         }
 
-        // Избор на произволна стартова точка и цел
-        const start = launchPoints[Math.floor(Math.random() * launchPoints.length)];
-        const end = targetPoints[Math.floor(Math.random() * targetPoints.length)];
+        // Проверка дали Leaflet обектът 'map' е инициализиран правилно [cite: 2026-02-20]
+        if (typeof map === 'undefined' || map === null) {
+            console.warn(">> [MAP PENDING]: Картата все още не е готова за симулация.");
+            return;
+        }
 
-        // Създаване на DOM елемента на ракетата (ползва .missile-red от CSS)
-        const missileDiv = document.createElement('div');
-        missileDiv.className = 'missile-red';
-        missileLayer.appendChild(missileDiv);
+        // Създаване на ракетата (ползва .missile-red от твоя CSS) [cite: 2026-02-20]
+        const missileNode = document.createElement('div');
+        missileNode.className = 'missile-red';
+        missileContainer.appendChild(missileNode);
 
-        let flightProgress = 0;
-        const flightSpeed = 0.38; // Настройка на скоростта на прелитане [cite: 2026-02-20]
+        let flightPhase = 0;
+        const flightAcceleration = 0.42; // Коригирана скорост за по-гладък полет [cite: 2026-02-20]
 
-        const flightLogic = setInterval(() => {
-            flightProgress += flightSpeed;
+        const propulsionEngine = setInterval(() => {
+            flightPhase += flightAcceleration;
 
-            if (flightProgress >= 100) {
-                clearInterval(flightLogic);
-                handleMissileImpact(end, missileLayer);
-                missileDiv.remove();
+            // Проверка за приключване на полета
+            if (flightPhase >= 100) {
+                clearInterval(propulsionEngine);
+                triggerKineticImpact(STRATEGY.impactPoint, missileContainer);
+                missileNode.remove();
                 return;
             }
 
-            // Линейна интерполация на географските координати (Lerp)
-            const currentLat = start.lat + (end.lat - start.lat) * (flightProgress / 100);
-            const currentLon = start.lon + (end.lon - start.lon) * (flightProgress / 100);
+            // Гео-изчисления за текущата позиция във въздуха [cite: 2026-02-20]
+            const currentLat = STRATEGY.launchPoint.lat + (STRATEGY.impactPoint.lat - STRATEGY.launchPoint.lat) * (flightPhase / 100);
+            const currentLon = STRATEGY.launchPoint.lon + (STRATEGY.impactPoint.lon - STRATEGY.launchPoint.lon) * (flightPhase / 100);
 
             try {
-                // ПРЕВРЪЩАНЕ НА ГЕО-КООРДИНАТИ В ПИКСЕЛИ (Leaflet Engine) [cite: 2026-02-20]
-                // Тук използваме твоя обект 'map' от Секция 1.
-                const screenPoint = map.latLngToLayerPoint([currentLat, currentLon]);
+                /**
+                 * КРИТИЧНО ЗА PREFERCANVAS: 
+                 * Използваме latLngToContainerPoint за фиксиране върху екрана. [cite: 2026-02-20]
+                 */
+                const screenCoordinates = map.latLngToContainerPoint([currentLat, currentLon]);
                 
-                // Актуализиране на позицията на ракетата върху екрана
-                missileDiv.style.left = screenPoint.x + 'px';
-                missileDiv.style.top = screenPoint.y + 'px';
+                // Актуализация на позицията чрез CSS трансформации за максимална производителност
+                missileNode.style.left = screenCoordinates.x + 'px';
+                missileNode.style.top = screenCoordinates.y + 'px';
 
-                // Генериране на частици за димната следа (Trail effect) [cite: 2026-02-20]
-                generateSmokeParticle(screenPoint.x, screenPoint.y, missileLayer);
-            } catch (error) {
-                console.warn(">> [SYSTEM]: Map sync lost. Aborting flight vector.");
-                clearInterval(flightLogic);
-                missileDiv.remove();
+                // Генериране на частици за опашката (.missile-trail) [cite: 2026-02-20]
+                attachTrailParticle(screenCoordinates.x, screenCoordinates.y, missileContainer);
+
+            } catch (err) {
+                console.warn(">> [SYNC ERROR]: Картата е била преместена по време на полет.");
+                clearInterval(propulsionEngine);
+                missileNode.remove();
             }
-        }, 35); // Интервал на опресняване за плавно движение
+        }, 30); // 30ms за 60FPS усещане на симулацията
     }
 
     /**
-     * Създава краткотрайни обекти за визуализация на дим [cite: 2026-02-20]
+     * Създава визуален димен шлейф след ракетата [cite: 2026-02-20]
      */
-    function generateSmokeParticle(posX, posY, parentElement) {
-        const smoke = document.createElement('div');
-        smoke.className = 'missile-trail';
-        smoke.style.left = posX + 'px';
-        smoke.style.top = posY + 'px';
-        parentElement.appendChild(smoke);
+    function attachTrailParticle(x, y, container) {
+        const particle = document.createElement('div');
+        particle.className = 'missile-trail';
+        particle.style.left = x + 'px';
+        particle.style.top = y + 'px';
+        container.appendChild(particle);
         
-        // Автоматично изтриване след края на CSS анимацията (0.7s)
-        setTimeout(() => smoke.remove(), 700);
+        // Премахване след приключване на fadeOut анимацията [cite: 2026-02-20]
+        setTimeout(() => particle.remove(), 800);
     }
 
     /**
-     * Визуализира взрива при достигане на целевите координати [cite: 2026-02-20]
+     * Изпълнява визуалния ефект на взрив при достигане на целта [cite: 2026-02-20]
      */
-    function handleMissileImpact(targetLoc, parentElement) {
-        const impactPos = map.latLngToLayerPoint([targetLoc.lat, targetLoc.lon]);
-        
-        const explosionDiv = document.createElement('div');
-        explosionDiv.className = 'impact-explosion';
-        explosionDiv.style.left = (impactPos.x - 20) + 'px'; // Центриране на кръга
-        explosionDiv.style.top = (impactPos.y - 20) + 'px';
-        
-        parentElement.appendChild(explosionDiv);
-        console.log(`%c [IMPACT]: Target ${targetLoc.name} eliminated. `, "color: #ff0000; font-weight: bold;");
-        
-        setTimeout(() => explosionDiv.remove(), 1000);
+    function triggerKineticImpact(targetCoords, container) {
+        try {
+            const impactPointOnScreen = map.latLngToContainerPoint([targetCoords.lat, targetCoords.lon]);
+            
+            const explosionElement = document.createElement('div');
+            explosionElement.className = 'impact-explosion';
+            explosionElement.style.left = (impactPointOnScreen.x - 25) + 'px'; // Центриране спрямо 50px ширина
+            explosionElement.style.top = (impactPointOnScreen.y - 25) + 'px';
+            
+            container.appendChild(explosionElement);
+            console.log("%c [IMPACT]: TARGET NEUTRALIZED IN TEL AVIV ", "color: white; background: red; padding: 3px;");
+            
+            setTimeout(() => explosionElement.remove(), 600);
+        } catch (e) {
+            console.error("Неуспешен рендеринг на взрива.");
+        }
     }
 
-    // --- ПЛАНИРАНЕ НА АТАКИТЕ (SCHEDULING) ---
-    // Първоначално забавяне, за да заредят weather слоевете ти
+    // --- УПРАВЛЕНИЕ НА ВЪЛНИТЕ ОТ АТАКИ ---
+    // Стартираме първата ракета след 5 секунди закъснение [cite: 2026-02-20]
     setTimeout(() => {
-        triggerMissileLaunch(); // Първа вълна
-        setInterval(triggerMissileLaunch, 14000); // Повтаряне на всеки 14 секунди [cite: 2026-02-20]
+        executeLaunchSequence();
+        // Автоматично изстрелване на всеки 15 секунди
+        setInterval(executeLaunchSequence, 15000);
     }, 5000);
 }
 
-// СТАРТИРАНЕ НА ЦЯЛАТА СИСТЕМА ПРИ ЗАРЕЖДАНЕ НА WINDOW [cite: 2026-02-20]
-window.addEventListener('load', () => {
-    // Даваме малко време на Leaflet да изчисли контейнерите
-    setTimeout(startGlobalStrikeSimulation, 2000);
-});
+/**
+ * ИНИЦИАЛИЗАЦИЯ ПРИ ЗАРЕЖДАНЕ
+ * Осигурява, че скриптът тръгва само след като DOM е напълно готов. [cite: 2026-02-20]
+ */
+if (document.readyState === 'complete') {
+    runStrategicMissileSimulation();
+} else {
+    window.addEventListener('load', runStrategicMissileSimulation);
+}
+
+// Почистване на контейнера при мащабиране, за да се избегнат визуални артефакти
+if (typeof map !== 'undefined' && map !== null) {
+    map.on('zoomstart', () => {
+        const layer = document.getElementById('missile-layer');
+        if (layer) layer.innerHTML = '';
+    });
+}
 // =============================================================================
