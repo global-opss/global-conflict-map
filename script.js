@@ -180,57 +180,66 @@ let map; // Сложи го точно тук на нов ред
     }).addTo(map);
 
 // =============================================================================
-// 🚀 INTEGRATED MISSILE ENGINE (PART OF SECTION 1) [cite: 2026-02-20]
+// 🚀 INTEGRATED MISSILE ENGINE (FIXED FOR INTERNAL LAYER) [cite: 2026-02-20]
 // =============================================================================
-// Вкарваме това директно след дефиницията на картата, за да няма "map is not defined"
 
 const runMissileStrike = () => {
+    // Вземаме контейнера, който е вътре в картата на ред 137
     const layer = document.getElementById('missile-layer');
-    if (!layer || !map) return;
+    if (!layer || typeof map === 'undefined' || !map) {
+        console.warn(">> [MISSILE SYSTEM]: Map or Layer not ready.");
+        return;
+    }
 
-    // Координати от твоя тактически изглед
-    const startPos = { lat: 35.68, lon: 51.38 }; // Иран
-    const endPos = { lat: 32.08, lon: 34.78 };   // Израел
+    // Точни координати от Иран до Израел
+    const startPos = { lat: 35.6892, lon: 51.3890 }; 
+    const endPos = { lat: 32.0853, lon: 34.7818 };   
 
     const missile = document.createElement('div');
-    missile.className = 'missile-red'; // Ползва твоя CSS [cite: 2026-02-20]
+    missile.className = 'missile-red'; // Твоят CSS [cite: 2026-02-20]
     layer.appendChild(missile);
 
     let step = 0;
     const animate = setInterval(() => {
-        step += 0.4;
+        step += 0.5; // Скорост на симулацията
+
         if (step >= 100) {
             clearInterval(animate);
-            // Ефект при удар [cite: 2026-02-20]
             try {
-                const impactPoint = map.latLngToContainerPoint([endPos.lat, endPos.lon]);
+                // ПРИ УДАР: Използваме LayerPoint, защото слоят е вътре в картата [cite: 2026-02-20]
+                const impactPoint = map.latLngToLayerPoint([endPos.lat, endPos.lon]);
                 const boom = document.createElement('div');
                 boom.className = 'impact-explosion';
-                boom.style.left = (impactPoint.x - 25) + 'px';
-                boom.style.top = (impactPoint.y - 25) + 'px';
+                boom.style.left = impactPoint.x + 'px';
+                boom.style.top = impactPoint.y + 'px';
+                boom.style.transform = 'translate(-50%, -50%)'; // Центриране
                 layer.appendChild(boom);
-                setTimeout(() => boom.remove(), 800);
+                setTimeout(() => boom.remove(), 1000);
             } catch(e) {}
             missile.remove();
             return;
         }
 
+        // Изчисляване на междинни координати
         const cLat = startPos.lat + (endPos.lat - startPos.lat) * (step / 100);
         const cLon = startPos.lon + (endPos.lon - startPos.lon) * (step / 100);
 
         try {
-            // Използваме ContainerPoint за максимална стабилност [cite: 2026-02-20]
-            const point = map.latLngToContainerPoint([cLat, cLon]);
+            /** * КЛЮЧОВА КОРЕКЦИЯ: Използваме latLngToLayerPoint, 
+             * защото missile-layer е дете на #map! [cite: 2026-02-20]
+             */
+            const point = map.latLngToLayerPoint([cLat, cLon]);
+            
             missile.style.left = point.x + 'px';
             missile.style.top = point.y + 'px';
 
-            // Опашка
+            // Генериране на димна следа
             const trail = document.createElement('div');
             trail.className = 'missile-trail';
             trail.style.left = point.x + 'px';
             trail.style.top = point.y + 'px';
             layer.appendChild(trail);
-            setTimeout(() => trail.remove(), 600);
+            setTimeout(() => trail.remove(), 700);
         } catch (e) {
             clearInterval(animate);
             missile.remove();
@@ -238,11 +247,12 @@ const runMissileStrike = () => {
     }, 40);
 };
 
-// Стартиране на цикъла автоматично 5 секунди след като картата "изгрее" [cite: 2026-02-20]
+// СТАРТ: Даваме на Leaflet 3 секунди да подреди "Canvas" слоевете [cite: 2026-02-20]
 setTimeout(() => {
+    console.log("%c >> [SYSTEM]: STARTING BALLISTIC SIMULATION... ", "color: #39FF14; font-weight: bold;");
     runMissileStrike();
-    setInterval(runMissileStrike, 15000);
-}, 5000);
+    setInterval(runMissileStrike, 12000);
+}, 3000);
 // =============================================================================
       
 // --- СЕКЦИЯ 2: ГЕОПОЛИТИЧЕСКИ ДАННИ И ГРАНИЦИ ---
