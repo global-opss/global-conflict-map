@@ -1670,22 +1670,22 @@ setInterval(checkCriticalAlerts, 30000);
 })();
 
 (function() {
-    const startMassiveStrike = () => {
+    const startVectorStrike = () => {
         if (typeof map === 'undefined' || !map) return;
         if (!map.getPane('missilePane')) map.createPane('missilePane').style.zIndex = 650;
 
         const SALVO = [
-            { id: "IL-1", name: "Tel Aviv", to: [32.0853, 34.7818], from: [34.34, 47.00] },
-            { id: "IL-2", name: "Jerusalem", to: [31.7683, 35.2137], from: [32.50, 48.48] },
-            { id: "CY", name: "RAF Akrotiri", to: [34.5900, 32.9800], from: [35.68, 51.38] },
-            { id: "BH", name: "Bahrain Fleet", to: [26.2285, 50.5860], from: [28.92, 50.82] },
-            { id: "KW", name: "Kuwait Intl", to: [29.2243, 47.9691], from: [30.50, 47.80] },
-            { id: "UAE", name: "Dubai Port", to: [25.2048, 55.2708], from: [27.24, 56.34] }
+            { name: "Tel Aviv", to: [32.0853, 34.7818], from: [34.34, 47.00] },
+            { name: "Jerusalem", to: [31.7683, 35.2137], from: [32.50, 48.48] },
+            { name: "RAF Akrotiri", to: [34.5900, 32.9800], from: [35.68, 51.38] },
+            { name: "Bahrain Fleet", to: [26.2285, 50.5860], from: [28.92, 50.82] },
+            { name: "Kuwait Intl", to: [29.2243, 47.9691], from: [30.50, 47.80] },
+            { name: "Dubai Port", to: [25.2048, 55.2708], from: [27.24, 56.34] }
         ];
 
-        const fire = (data) => {
+        const fireMissile = (data) => {
             const mIcon = L.divIcon({
-                className: 'm-v12',
+                className: 'm-v14',
                 html: '<div style="width:8px;height:8px;background:#fff;border:1.5px solid #ff4500;border-radius:50%;box-shadow:0 0 10px #ff4500;"></div>',
                 iconSize: [8,8], iconAnchor: [4,4]
             });
@@ -1693,14 +1693,14 @@ setInterval(checkCriticalAlerts, 30000);
             const missile = L.marker(data.from, { icon: mIcon, pane: 'missilePane' }).addTo(map);
             const tag = L.marker(data.from, {
                 icon: L.divIcon({
-                    className: 't-v12',
+                    className: 't-v14',
                     html: `<div style="color:#ff3300;font-family:monospace;font-size:10px;font-weight:bold;margin-left:12px;text-shadow:1px 1px #000;white-space:nowrap;">⚠️ ${data.name}</div>`
                 }),
                 pane: 'missilePane'
             }).addTo(map);
 
             let st = Date.now();
-            let dur = 180000; 
+            let dur = 180000;
 
             const step = setInterval(() => {
                 let p = (Date.now() - st) / dur;
@@ -1715,23 +1715,27 @@ setInterval(checkCriticalAlerts, 30000);
                     return;
                 }
 
+                // Линейна позиция
                 let lat = data.from[0] + (data.to[0] - data.from[0]) * p;
                 let lon = data.from[1] + (data.to[1] - data.from[1]) * p;
-                let pos = [lat + (Math.sin(Math.PI * p) * 4.5), lon];
+
+                // ВЕКТОРНА ДЪГА: Изчисляваме отместване под ъгъл [cite: 2026-02-20]
+                let offset = Math.sin(Math.PI * p) * 2.0; 
+                let pos = [lat + offset, lon + (offset * 0.5)];
 
                 missile.setLatLng(pos);
                 tag.setLatLng(pos);
 
-                const dot = L.circleMarker(pos, { radius: 0.8, weight: 1, color: 'rgba(255, 69, 0, 0.3)', fillOpacity: 0.1, pane: 'missilePane' }).addTo(map);
+                const dot = L.circleMarker(pos, { radius: 0.9, weight: 1, color: 'rgba(255, 69, 0, 0.3)', fillOpacity: 0.1, pane: 'missilePane' }).addTo(map);
                 setTimeout(() => map.removeLayer(dot), 60000);
             }, 300);
         };
 
-        // ТУК Е МАГИЯТА: Пускаме всяка ракета от масива SALVO
-        SALVO.forEach((m, index) => {
-            setTimeout(() => fire(m), index * 3000); // Излитат една след друга през 3 секунди
-        });
+        SALVO.forEach((m, i) => setTimeout(() => fireMissile(m), i * 3000));
     };
+
+    setTimeout(startVectorStrike, 5000);
+})();
 
     setTimeout(startMassiveStrike, 5000);
 })();
