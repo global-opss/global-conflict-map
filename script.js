@@ -1672,34 +1672,27 @@ setInterval(checkCriticalAlerts, 30000);
 
 (function() {
     const startGlobalWar = () => {
-        // Проверка за наличие на картата [cite: 2026-02-20]
         if (typeof L === 'undefined' || typeof map === 'undefined' || !map) {
-            setTimeout(startGlobalWar, 3000);
-            return;
+            setTimeout(startGlobalWar, 3000); return;
         }
 
-        // Подготовка на слоя [cite: 2026-02-20]
         if (!map.getPane('warPane')) {
-            const pane = map.createPane('warPane');
-            pane.style.zIndex = 650;
-            pane.style.pointerEvents = 'none';
+            map.createPane('warPane').style.zIndex = 650;
         }
 
-        // --- ПЪЛЕН СПИСЪК С ЦЕЛИ (12 ОБЕКТА) --- [cite: 2026-02-20, 2026-03-01]
         const MISSION_DATA = [
-            // ИРАНСКИ ЗАЛП (6 РАКЕТИ - ЧЕРВЕНИ)
+            // ИРАН (ЧЕРВЕНИ) - [cite: 2026-02-20]
             { n: "IR -> Tel Aviv", f: [34.34, 47.00], t: [32.0853, 34.7818], c: "#ff4500", s: "west" },
             { n: "IR -> Jerusalem", f: [32.50, 48.48], t: [31.7683, 35.2137], c: "#ff4500", s: "west" },
             { n: "IR -> Akrotiri", f: [35.68, 51.38], t: [34.5900, 32.9800], c: "#ff4500", s: "west" },
             { n: "IR -> Bahrain", f: [28.92, 50.82], t: [26.2285, 50.5860], c: "#ff4500", s: "south" },
             { n: "IR -> Kuwait", f: [30.50, 47.80], t: [29.2243, 47.9691], c: "#ff4500", s: "south" },
             { n: "IR -> Dubai Port", f: [27.24, 56.34], t: [25.2048, 55.2708], c: "#ff4500", s: "south" },
-            
-            // КОАЛИЦИОНЕН ОТВЕТ (6 РАКЕТИ - СИНИ)
+            // КОАЛИЦИЯ (СИНИ) - [cite: 2026-03-01]
             { n: "IAF -> Isfahan", f: [31.50, 34.50], t: [32.65, 51.66], c: "#00ebff", s: "east" },
             { n: "IAF -> Natanz", f: [31.80, 35.00], t: [33.72, 51.71], c: "#00ebff", s: "east" },
-            { n: "USAF -> Shiraz", f: [25.00, 50.00], t: [29.54, 52.59], c: "#00ebff", s: "east" },
-            { n: "USAF -> Bandar Abbas", f: [24.50, 54.00], t: [27.18, 56.26], c: "#00ebff", s: "east" },
+            { n: "USAF -> Shiraz", f: [24.00, 58.00], t: [29.54, 52.59], c: "#00ebff", s: "north" },
+            { n: "USAF -> Bandar Abbas", f: [23.50, 58.50], t: [27.18, 56.26], c: "#00ebff", s: "north" },
             { n: "USAF -> Tabriz Airbase", f: [34.50, 33.00], t: [38.08, 46.29], c: "#00ebff", s: "east" },
             { n: "IAF -> Fordow Site", f: [32.20, 34.90], t: [34.88, 50.99], c: "#00ebff", s: "east" }
         ];
@@ -1722,36 +1715,29 @@ setInterval(checkCriticalAlerts, 30000);
                 }).addTo(map);
 
                 let startTime = Date.now();
-                const duration = 180000; // 3 минути полет [cite: 2026-02-20]
+                const duration = 180000; 
 
                 const move = setInterval(() => {
                     let p = (Date.now() - startTime) / duration;
-                    
                     if (p >= 1) {
-                        clearInterval(move);
-                        if (map.hasLayer(missile)) map.removeLayer(missile);
-                        if (map.hasLayer(tag)) map.removeLayer(tag);
-                        impact(data.t, data.c);
-                        return;
+                        clearInterval(move); map.removeLayer(missile); map.removeLayer(tag);
+                        impact(data.t, data.c); return;
                     }
 
                     let lat = data.f[0] + (data.t[0] - data.f[0]) * p;
                     let lon = data.f[1] + (data.t[1] - data.f[1]) * p;
                     
-                    // КОРЕКЦИЯ НА ТРАЕКТОРИЯТА [cite: 2026-02-20]
-                    let arc = Math.sin(Math.PI * p) * 2.5;
+                    let arc = Math.sin(Math.PI * p) * 2.0;
                     let pos;
-                    if (data.s === "south") pos = [lat, lon + arc]; // Залива
-                    else if (data.s === "east") pos = [lat - arc, lon]; // Ответен удар
-                    else pos = [lat + arc, lon]; // Към Израел
+                    // ФИКС ЗА USAF: Ако ракетата лети на север, кривим по лонгитуда [cite: 2026-02-20]
+                    if (data.s === "north") pos = [lat, lon - arc];
+                    else if (data.s === "south") pos = [lat, lon + arc];
+                    else if (data.s === "east") pos = [lat - arc, lon];
+                    else pos = [lat + arc, lon];
 
-                    missile.setLatLng(pos);
-                    tag.setLatLng(pos);
+                    missile.setLatLng(pos); tag.setLatLng(pos);
 
-                    // СИНЯ ИЛИ ЧЕРВЕНА СЛЕДА [cite: 2026-02-20]
-                    const trail = L.circleMarker(pos, {
-                        radius: 0.9, weight: 1, color: data.c, opacity: 0.4, fillOpacity: 0, pane: 'warPane'
-                    }).addTo(map);
+                    const trail = L.circleMarker(pos, { radius: 0.9, color: data.c, opacity: 0.4, pane: 'warPane' }).addTo(map);
                     setTimeout(() => { if (map.hasLayer(trail)) map.removeLayer(trail); }, 35000);
                 }, 500);
             }, delay);
@@ -1762,22 +1748,14 @@ setInterval(checkCriticalAlerts, 30000);
             let r = 1000;
             const s = setInterval(() => {
                 r += 4000; b.setRadius(r);
-                b.setStyle({ opacity: b.options.opacity - 0.05, fillOpacity: b.options.fillOpacity - 0.05 });
-                if (r > 130000) { clearInterval(s); if (map.hasLayer(b)) map.removeLayer(b); }
+                if (r > 130000) { clearInterval(s); map.removeLayer(b); }
             }, 60);
         };
 
-        // Изстрелване на вълните [cite: 2026-02-20]
         MISSION_DATA.forEach((m, i) => launch(m, i * 4000));
-
-        // ИЗЧИСЛЯВАНЕ НА ЦИКЪЛА ЗА РЕСТАРТ [cite: 2026-02-20]
-        // (Продължителност на полет) + (Закъснение на последната ракета) + 15 сек пауза
         const restartTime = 180000 + (MISSION_DATA.length * 4000) + 15000;
-        
-        console.log(`>> [WAR ROOM]: Вълната приключва. Рестарт след ${restartTime/1000} сек.`);
         setTimeout(startGlobalWar, restartTime);
     };
 
-    // Стартиране [cite: 2026-02-20]
     setTimeout(startGlobalWar, 10000);
 })();
