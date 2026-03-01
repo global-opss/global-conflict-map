@@ -1667,119 +1667,128 @@ setInterval(checkCriticalAlerts, 30000);
 
 })();
 
-// ============================================================
-// 🛰️ LEAFLET NATIVE MISSILE SYSTEM (FINAL DESTINATION)
-// ============================================================
+/ =============================================================================
+// 🛰️ SECTION: BALLISTIC SIMULATION ENGINE (V11.0) [cite: 2026-02-20]
+// =============================================================================
 
 /**
- * Използваме вградените функции на Leaflet за рисуване, 
- * за да сме сигурни, че ракетата няма да изчезне.
+ * Този модул е проектиран като "безопасен" - той няма да счупи основната карта,
+ * дори ако има проблем с координатите. Използваме директно обекта 'map'.
  */
-function launchNativeMissile() {
-    if (typeof map === 'undefined') return;
 
-    // 1. Координати (Иран -> Израел) от твоята карта
-    const startLatLng = [35.6892, 51.3890]; // Техеран
-    const endLatLng = [32.0853, 34.7818];   // Тел Авив
+const MissileCommand = {
+    // Дефинираме позициите директно от твоята тактическа карта
+    launchSite: { lat: 35.6892, lon: 51.3890 }, // ТЕХЕРАН (ИРАН)
+    targetSite: { lat: 32.0853, lon: 34.7818 }, // ТЕЛ АВИВ (ИЗРАЕЛ)
+    
+    /**
+     * Стартиране на полетна последователност
+     */
+    init: function() {
+        console.log("%c >> [STRATEGIC]: MISSILE SYSTEM READY ", "color: #ff3300; font-weight: bold;");
+        
+        // Стартираме цикъл: изстрелване на всеки 14 секунди [cite: 2026-02-20]
+        setInterval(() => {
+            this.fire();
+        }, 14000);
+        
+        // Първо изстрелване веднага
+        this.fire();
+    },
 
-    // 2. Създаваме самата ракета като Leaflet CircleMarker
-    // Така тя става част от картата и се движи с нея.
-    const missileHead = L.circleMarker(startLatLng, {
-        radius: 4,
-        color: '#ff3300',
-        fillColor: '#ff0000',
-        fillOpacity: 1,
-        weight: 2,
-        className: 'missile-glow' // За сиянието от CSS
-    }).addTo(map);
-
-    let progress = 0;
-    const duration = 150; // Колко стъпки да има полета
-    const speed = 1;      // Скорост
-
-    const flightPath = setInterval(() => {
-        progress += speed;
-
-        if (progress >= duration) {
-            clearInterval(flightPath);
-            triggerImpact(endLatLng);
-            map.removeLayer(missileHead);
+    /**
+     * Създаване и управление на ракетата
+     */
+    fire: function() {
+        // Проверка дали 'map' съществува, за да не счупим скрипта [cite: 2026-02-20]
+        if (typeof map === 'undefined' || !map) {
+            console.warn(">> [SYSTEM]: Картата още не е дефинирана. Чакам...");
             return;
         }
 
-        // Изчисляване на междинната точка (Linear Interpolation)
-        const currentLat = startLatLng[0] + (endLatLng[0] - startLatLng[0]) * (progress / duration);
-        const currentLng = startLatLng[1] + (endLatLng[1] - startLatLng[1]) * (progress / duration);
+        const layer = document.getElementById('missile-layer');
+        if (!layer) return;
 
-        // Преместване на ракетата
-        missileHead.setLatLng([currentLat, currentLng]);
+        // Създаваме ракетата като DOM елемент
+        const missile = document.createElement('div');
+        missile.className = 'missile-red'; // Ползва твоя .missile-red от CSS [cite: 2026-02-20]
+        layer.appendChild(missile);
 
-        // 3. Рисуваме димната следа (Trail)
-        const trail = L.circleMarker([currentLat, currentLng], {
-            radius: 1,
-            color: 'rgba(255, 69, 0, 0.3)',
-            fillOpacity: 0.3,
-            stroke: false
-        }).addTo(map);
+        let progress = 0;
+        const flightDuration = 120; // стъпки
+        
+        const animation = setInterval(() => {
+            progress += 0.8; // Скорост
 
-        // Изчезване на следата след половин секунда
-        setTimeout(() => map.removeLayer(trail), 600);
+            if (progress >= 100) {
+                clearInterval(animation);
+                this.impact(this.targetSite, layer);
+                missile.remove();
+                return;
+            }
 
-    }, 30); // 30ms за супер плавно движение
-}
+            // Изчисляване на ЛОГИЧЕСКАТА позиция [cite: 2026-02-20]
+            const currentLat = this.launchSite.lat + (this.targetSite.lat - this.launchSite.lat) * (progress / 100);
+            const currentLon = this.launchSite.lon + (this.targetSite.lon - this.launchSite.lon) * (progress / 100);
 
-/**
- * Ефект на взрив при удар в Израел
- */
-function triggerImpact(latlng) {
-    const explosion = L.circleMarker(latlng, {
-        radius: 10,
-        color: 'red',
-        fillOpacity: 0,
-        weight: 3
-    }).addTo(map);
+            try {
+                // ПРЕОБРАЗУВАНЕ: Използваме latLngToContainerPoint за стабилност върху Canvas
+                // 'map' е твоят Leaflet обект от Секция 1 [cite: 2026-02-20]
+                const pos = map.latLngToContainerPoint([currentLat, currentLon]);
+                
+                missile.style.left = pos.x + 'px';
+                missile.style.top = pos.y + 'px';
 
-    let expand = 10;
-    let opacity = 1;
+                // Добавяне на димна следа (trail) [cite: 2026-02-20]
+                this.createTrail(pos.x, pos.y, layer);
+            } catch (e) {
+                // Ако картата се мести твърде бързо, спираме текущата ракета без грешка
+                clearInterval(animation);
+                missile.remove();
+            }
+        }, 40);
+    },
 
-    const anim = setInterval(() => {
-        expand += 2;
-        opacity -= 0.1;
-        explosion.setRadius(expand);
-        explosion.setStyle({ opacity: opacity });
+    /**
+     * Визуален ефект за дим
+     */
+    createTrail: function(x, y, container) {
+        const trail = document.createElement('div');
+        trail.className = 'missile-trail';
+        trail.style.left = x + 'px';
+        trail.style.top = y + 'px';
+        container.appendChild(trail);
+        setTimeout(() => trail.remove(), 700);
+    },
 
-        if (opacity <= 0) {
-            clearInterval(anim);
-            map.removeLayer(explosion);
-        }
-    }, 40);
-
-    console.log("%c [STRATEGIC STRIKE]: IMPACT CONFIRMED ", "background: red; color: white;");
-}
-
-/**
- * ИНИЦИАЛИЗАЦИЯ: Стартираме след като картата е напълно готова.
- */
-function initMilitarySim() {
-    console.log(">> MISSILE COMMAND ONLINE");
-    
-    // Изстрелваме веднага и после на всеки 12 секунди
-    launchNativeMissile();
-    setInterval(launchNativeMissile, 12000);
-}
-
-// Проверка дали картата съществува и стартиране
-if (document.readyState === 'complete') {
-    setTimeout(initMilitarySim, 3000);
-} else {
-    window.addEventListener('load', () => setTimeout(initMilitarySim, 3000));
-}
-
-// Допълнителен CSS за сиянието (динамично добавен)
-const style = document.createElement('style');
-style.innerHTML = `
-    .missile-glow {
-        filter: drop-shadow(0 0 8px #ff0000) drop-shadow(0 0 2px #ffffff);
+    /**
+     * Ефект при удар в Израел [cite: 2026-02-20]
+     */
+    impact: function(coords, container) {
+        try {
+            const pos = map.latLngToContainerPoint([coords.lat, coords.lon]);
+            const boom = document.createElement('div');
+            boom.className = 'impact-explosion';
+            boom.style.left = (pos.x - 25) + 'px';
+            boom.style.top = (pos.y - 25) + 'px';
+            container.appendChild(boom);
+            setTimeout(() => boom.remove(), 800);
+        } catch (e) {}
     }
-`;
-document.head.appendChild(style);
+};
+
+/**
+ * СТАРТИРАНЕ: Изчакваме 4 секунди след зареждане на страницата, 
+ * за да сме сигурни, че твоята 'map' е готова. [cite: 2026-02-20]
+ */
+window.addEventListener('load', () => {
+    setTimeout(() => {
+        if (typeof map !== 'undefined') {
+            MissileCommand.init();
+        } else {
+            console.error(">> [CRITICAL]: О Обектът 'map' не беше намерен!");
+        }
+    }, 4000);
+});
+
+// =============================================================================
