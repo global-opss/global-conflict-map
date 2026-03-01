@@ -1682,26 +1682,38 @@ setInterval(checkCriticalAlerts, 30000);
             pane.style.pointerEvents = 'none';
         }
 
+        // --- ГЕНЕРИРАНЕ НА МАСИРАН УДАР НАД ТЕХЕРАН (30 БОМБИ) ---
+        const tehranStrikes = Array.from({length: 30}, (_, i) => ({
+            n: `USAF Strike Group - Tehran #${i+1}`,
+            f: [34.50 + (Math.random() * 0.4), 33.00 + (Math.random() * 0.4)], 
+            t: [35.6892 + (Math.random() * 0.04), 51.3890 + (Math.random() * 0.04)], 
+            c: "#00ebff", s: "east"
+        }));
+
         const MISSION_DATA = [
-            // --- ИРАНСКИ ЗАЛП (ЧЕРВЕНИ) --- [cite: 2026-02-20]
+            // --- ИРАНСКИ ЗАЛП (ЧЕРВЕНИ) [cite: 2026-02-20] ---
             { n: "IR -> Tel Aviv", f: [34.34, 47.00], t: [32.0853, 34.7818], c: "#ff4500", s: "west" },
             { n: "IR -> Jerusalem", f: [32.50, 48.48], t: [31.7683, 35.2137], c: "#ff4500", s: "west" },
             { n: "IR -> Akrotiri", f: [35.68, 51.38], t: [34.5900, 32.9800], c: "#ff4500", s: "west" },
             { n: "IR -> Bahrain", f: [28.92, 50.82], t: [26.2285, 50.5860], c: "#ff4500", s: "south" },
             { n: "IR -> Kuwait", f: [30.50, 47.80], t: [29.2243, 47.9691], c: "#ff4500", s: "south" },
             { n: "IR -> Dubai Port", f: [27.24, 56.34], t: [25.2048, 55.2708], c: "#ff4500", s: "south" },
-            // УДАР ПО ЕРБИЛ (4 РАКЕТИ)
             { n: "IR -> Erbil Volley 1", f: [34.50, 45.00], t: [36.23, 43.95], c: "#ff4500", s: "west" },
             { n: "IR -> Erbil Volley 2", f: [34.60, 45.10], t: [36.23, 43.95], c: "#ff4500", s: "west" },
             { n: "IR -> Erbil Volley 3", f: [34.70, 45.20], t: [36.23, 43.95], c: "#ff4500", s: "west" },
             { n: "IR -> Erbil Volley 4", f: [34.80, 45.30], t: [36.23, 43.95], c: "#ff4500", s: "west" },
-            // --- КОАЛИЦИОНЕН ОТВЕТ (СИНИ) --- [cite: 2026-03-01]
+            // --- КОАЛИЦИОНЕН ОТВЕТ (СИНИ) [cite: 2026-03-01] ---
             { n: "IAF -> Isfahan", f: [31.50, 34.50], t: [32.65, 51.66], c: "#00ebff", s: "east" },
             { n: "IAF -> Natanz", f: [31.80, 35.00], t: [33.72, 51.71], c: "#00ebff", s: "east" },
             { n: "USAF -> Shiraz", f: [24.00, 58.00], t: [29.54, 52.59], c: "#00ebff", s: "north" },
             { n: "USAF -> Bandar Abbas", f: [23.50, 58.50], t: [27.18, 56.26], c: "#00ebff", s: "north" },
             { n: "USAF -> Tabriz Airbase", f: [34.50, 33.00], t: [38.08, 46.29], c: "#00ebff", s: "east" },
-            { n: "IAF -> Fordow Site", f: [32.20, 34.90], t: [34.88, 50.99], c: "#00ebff", s: "east" }
+            { n: "IAF -> Fordow Site", f: [32.20, 34.90], t: [34.88, 50.99], c: "#00ebff", s: "east" },
+            // --- СТРАТЕГИЧЕСКИ УДАРИ (НОВИ) [cite: 2026-03-01] ---
+            { n: "IAF -> Bushehr Nuclear", f: [31.50, 34.50], t: [28.83, 50.88], c: "#00ebff", s: "east" },
+            { n: "USAF -> Chabahar Port", f: [24.00, 58.00], t: [25.29, 60.64], c: "#00ebff", s: "north" },
+            { n: "IAF -> Kerman Base", f: [32.00, 35.00], t: [30.28, 57.07], c: "#00ebff", s: "east" },
+            ...tehranStrikes
         ];
 
         const launch = (data, delay) => {
@@ -1756,7 +1768,7 @@ setInterval(checkCriticalAlerts, 30000);
                 if (r > 130000) { clearInterval(s); if (map.hasLayer(b)) map.removeLayer(b); }
             }, 60);
 
-            // ФИКС ЗА ЕРБИЛ: Сега е правилно вложен вътре в impact [cite: 2026-02-20]
+            // ЕФЕКТ ОГЪН ЗА ЕРБИЛ
             if (loc[0].toFixed(2) === "36.23" && loc[1].toFixed(2) === "43.95") {
                 const damageIcon = L.divIcon({
                     className: 'damage-marker',
@@ -1766,96 +1778,23 @@ setInterval(checkCriticalAlerts, 30000);
                 const burn = L.marker(loc, { icon: damageIcon, pane: 'warPane', interactive: false }).addTo(map);
                 setTimeout(() => { if (map.hasLayer(burn)) map.removeLayer(burn); }, 60000);
             }
-        }; // Край на функцията impact [cite: 2026-02-20]
+            
+            // ЕФЕКТ ЗА ТЕХЕРАН
+            if (loc[0].toFixed(2) === "35.69") {
+                const strikeIcon = L.divIcon({
+                    className: 'tehran-hit',
+                    html: `<div style="color:#fff; font-size:12px; pointer-events:none; text-shadow: 0 0 5px #00ebff;">💥</div>`,
+                    iconSize: [15, 15], iconAnchor: [7, 7]
+                });
+                const hit = L.marker(loc, { icon: strikeIcon, pane: 'warPane', interactive: false }).addTo(map);
+                setTimeout(() => { if (map.hasLayer(hit)) map.removeLayer(hit); }, 10000);
+            }
+        };
 
-        MISSION_DATA.forEach((m, i) => launch(m, i * 4000));
-        const restartTime = 180000 + (MISSION_DATA.length * 4000) + 15000;
+        MISSION_DATA.forEach((m, i) => launch(m, i * 3500));
+        const restartTime = 180000 + (MISSION_DATA.length * 3500) + 15000;
         setTimeout(startGlobalWar, restartTime);
     };
 
-    setTimeout(startGlobalWar, 5000); // По-бърз старт за тест [cite: 2026-02-20]
-})();
-
-(function() {
-    // 1. Намираме контейнера по неговото ID [cite: 2026-02-20]
-    const logContainer = document.getElementById('escalation-log-container');
-    if (!logContainer) return;
-
-    // 2. Добавяме стилове за плавната анимация [cite: 2026-02-20]
-    logContainer.style.transition = "all 0.4s cubic-bezier(0.4, 0, 0.2, 1)";
-    logContainer.style.overflow = "hidden";
-
-    // 3. Намираме хедъра, за да сложим бутона там [cite: 2026-02-20]
-    const header = logContainer.querySelector('.panel-header');
-    
-    // Създаваме бутона [cite: 2026-02-20]
-    const toggleBtn = document.createElement('span');
-    toggleBtn.innerHTML = "[ — ]";
-    toggleBtn.style.cssText = `
-        float: right; 
-        margin-right: 10px; 
-        cursor: pointer; 
-        font-weight: bold; 
-        font-family: monospace;
-        color: #ff3131;
-    `;
-
-    // Вкарваме го преди надписа "ACTIVE" [cite: 2026-02-20]
-    header.insertBefore(toggleBtn, header.lastElementChild);
-
-    let isCollapsed = false;
-    const fullHeight = "250px"; // Оригиналната височина от твоя код [cite: 2026-02-20]
-
-    // 4. Логика на кликване [cite: 2026-02-20]
-    toggleBtn.onclick = function() {
-        if (!isCollapsed) {
-            logContainer.style.height = "32px"; // Остава само заглавието [cite: 2026-02-20]
-            toggleBtn.innerHTML = "[ + ]";
-            isCollapsed = true;
-        } else {
-            logContainer.style.height = fullHeight;
-            toggleBtn.innerHTML = "[ — ]";
-            isCollapsed = false;
-        }
-    };
-})();
-
-(function() {
-    // 1. Намираме чат контейнера по ID [cite: 2026-02-20]
-    const chat = document.getElementById('chat-container');
-    if (!chat) return;
-
-    // 2. Настройки за плавно движение [cite: 2026-02-20]
-    chat.style.transition = "all 0.4s cubic-bezier(0.4, 0, 0.2, 1)";
-    chat.style.overflow = "hidden";
-
-    // 3. Намираме хедъра и добавяме бутона [cite: 2026-02-20]
-    const header = chat.querySelector('.panel-header');
-    const toggleBtn = document.createElement('span');
-    toggleBtn.innerHTML = "[ — ]";
-    toggleBtn.style.cssText = `
-        float: right; 
-        cursor: pointer; 
-        font-family: monospace;
-        color: #00ff00; /* Зелен цвят за Тactical Comms [cite: 2026-02-20] */
-        font-weight: bold;
-    `;
-
-    header.appendChild(toggleBtn);
-
-    let isCollapsed = false;
-    const fullHeight = "300px"; // Височината, която видяхме на скрийншота
-
-    // 4. Логика на кликване [cite: 2026-02-20]
-    toggleBtn.onclick = function() {
-        if (!isCollapsed) {
-            chat.style.height = "32px"; // Свива се до заглавната лента [cite: 2026-02-20]
-            toggleBtn.innerHTML = "[ + ]";
-            isCollapsed = true;
-        } else {
-            chat.style.height = fullHeight;
-            toggleBtn.innerHTML = "[ — ]";
-            isCollapsed = false;
-        }
-    };
+    setTimeout(startGlobalWar, 5000);
 })();
