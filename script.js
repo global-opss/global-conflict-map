@@ -1819,3 +1819,43 @@ setInterval(checkCriticalAlerts, 30000);
         }
     };
 })();
+
+(function() {
+    // 1. Намираме чат контейнера по ID [cite: 2026-02-20]
+    const chat = document.getElementById('chat-container');
+    if (!chat) return;
+
+    // 2. Настройки за плавно движение [cite: 2026-02-20]
+    chat.style.transition = "all 0.4s cubic-bezier(0.4, 0, 0.2, 1)";
+    chat.style.overflow = "hidden";
+
+    // 3. Намираме хедъра и добавяме бутона [cite: 2026-02-20]
+    const header = chat.querySelector('.panel-header');
+    const toggleBtn = document.createElement('span');
+    toggleBtn.innerHTML = "[ — ]";
+    toggleBtn.style.cssText = `
+        float: right; 
+        cursor: pointer; 
+        font-family: monospace;
+        color: #00ff00; /* Зелен цвят за Тactical Comms [cite: 2026-02-20] */
+        font-weight: bold;
+    `;
+
+    header.appendChild(toggleBtn);
+
+    let isCollapsed = false;
+    const fullHeight = "300px"; // Височината, която видяхме на скрийншота
+
+    // 4. Логика на кликване [cite: 2026-02-20]
+    toggleBtn.onclick = function() {
+        if (!isCollapsed) {
+            chat.style.height = "32px"; // Свива се до заглавната лента [cite: 2026-02-20]
+            toggleBtn.innerHTML = "[ + ]";
+            isCollapsed = true;
+        } else {
+            chat.style.height = fullHeight;
+            toggleBtn.innerHTML = "[ — ]";
+            isCollapsed = false;
+        }
+    };
+})();
