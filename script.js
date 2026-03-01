@@ -1682,33 +1682,31 @@ setInterval(checkCriticalAlerts, 30000);
             pane.style.pointerEvents = 'none';
         }
 
-        // --- ЛОКАЦИИ КОАЛИЦИЯ (Израел, Ирак, Бахрейн, С. Арабия) [cite: 2026-03-01] ---
+        // --- КОАЛИЦИЯ (7 РАКЕТИ - ПРЕЦИЗНИ ЦЕЛИ) ---
         const coalitionStrikes = [
             { t: "missile", f: [31.50, 34.80], t: [35.68, 51.38], c: "#00ebff", s: "east", d: 150000 },
             { t: "missile", f: [32.00, 34.85], t: [35.69, 51.39], c: "#00ebff", s: "east", d: 155000 },
             { t: "missile", f: [33.33, 44.36], t: [35.68, 51.38], c: "#00ebff", s: "east", d: 140000 },
-            { t: "missile", f: [33.80, 42.50], t: [28.83, 50.88], c: "#00ebff", s: "east", d: 140000 }, // Цел: Бушер
+            { t: "missile", f: [33.80, 42.50], t: [28.83, 50.88], c: "#00ebff", s: "east", d: 140000 }, 
             { t: "missile", f: [26.21, 50.60], t: [35.68, 51.38], c: "#00ebff", s: "north", d: 130000 },
             { t: "missile", f: [24.95, 46.70], t: [27.18, 56.26], c: "#00ebff", s: "north", d: 145000 },
             { t: "missile", f: [26.30, 50.15], t: [29.00, 51.00], c: "#00ebff", s: "north", d: 135000 }
         ];
 
-        // --- ИРАН (6 произволни ракети) [cite: 2026-03-01] ---
-        const iranianMissiles = Array.from({length: 6}, () => ({
-            t: "missile", f: [32.00 + (Math.random() * 4), 50.00 + (Math.random() * 6)], 
+        // --- ИРАН (4 РАКЕТИ) [cite: 2026-03-01] ---
+        const iranianMissiles = Array.from({length: 4}, () => ({
+            t: "missile", f: [32.00 + (Math.random() * 3), 51.00 + (Math.random() * 4)], 
             t: [32.08, 34.78], c: "#ff1100", s: "west", d: 145000
         }));
 
-        // --- ДРОНОВЕ (5 Ирак / 5 Иран) [cite: 2026-03-01] ---
+        // --- МИНИМАЛЕН РОЯК (САМО 4 ДРОНА ОБЩО) ---
         const droneSwarm = [
-            ...Array.from({length: 5}, () => ({
-                t: "drone", f: [30.50 + (Math.random() * 0.5), 47.50 + (Math.random() * 0.5)], 
-                t: [25.25, 55.36], c: "#ffa500", s: "south", d: 480000 
-            })),
-            ...Array.from({length: 5}, () => ({
-                t: "drone", f: [29.00 + (Math.random() * 2), 54.00 + (Math.random() * 2)], 
-                t: [24.45, 54.37], c: "#ffa500", s: "south", d: 450000 
-            }))
+            // 2 от Ирак
+            { t: "drone", f: [30.50, 47.50], t: [25.25, 55.36], c: "#ffa500", s: "south", d: 500000 },
+            { t: "drone", f: [31.00, 47.00], t: [24.45, 54.37], c: "#ffa500", s: "south", d: 520000 },
+            // 2 от Иран [cite: 2026-03-01]
+            { t: "drone", f: [29.50, 53.50], t: [25.14, 55.18], c: "#ffa500", s: "south", d: 480000 },
+            { t: "drone", f: [28.50, 54.50], t: [25.25, 55.36], c: "#ffa500", s: "south", d: 490000 }
         ];
 
         const MISSION_DATA = [...coalitionStrikes, ...iranianMissiles, ...droneSwarm];
@@ -1718,8 +1716,8 @@ setInterval(checkCriticalAlerts, 30000);
                 const isDrone = data.t === "drone";
                 const missileIcon = L.divIcon({
                     className: 'v28-icon',
-                    html: `<div style="font-size:18px; text-shadow:0 0 5px ${data.c}; transform:rotate(${isDrone ? '0' : '45'}deg);">${isDrone ? '🛸' : '🚀'}</div>`,
-                    iconSize: [20, 20], iconAnchor: [10, 10]
+                    html: `<div style="font-size:20px; text-shadow:0 0 8px ${data.c}; transform:rotate(${isDrone ? '0' : '45'}deg);">${isDrone ? '🛸' : '🚀'}</div>`,
+                    iconSize: [25, 25], iconAnchor: [12, 12]
                 });
 
                 const missile = L.marker(data.f, { icon: missileIcon, pane: 'warPane', interactive: false }).addTo(map);
@@ -1734,40 +1732,40 @@ setInterval(checkCriticalAlerts, 30000);
                     }
                     let lat = data.f[0] + (data.t[0] - data.f[0]) * p;
                     let lon = data.f[1] + (data.t[1] - data.f[1]) * p;
-                    let zig = isDrone ? Math.sin(Date.now() / 600) * 0.25 : 0;
-                    let arc = Math.sin(Math.PI * p) * (isDrone ? 3.0 : 2.0);
+                    let zig = isDrone ? Math.sin(Date.now() / 800) * 0.2 : 0;
+                    let arc = Math.sin(Math.PI * p) * (isDrone ? 2.5 : 2.0);
                     let pos = [lat + (data.s === "west" ? arc : -arc), lon + zig];
                     missile.setLatLng(pos);
                     
-                    const trail = L.circleMarker(pos, { radius: isDrone ? 0.6 : 1.2, color: data.c, opacity: 0.4, pane: 'warPane' }).addTo(map);
-                    setTimeout(() => { if (map.hasLayer(trail)) map.removeLayer(trail); }, isDrone ? 12000 : 20000);
+                    const trail = L.circleMarker(pos, { radius: isDrone ? 0.6 : 1.2, color: data.c, opacity: 0.3, pane: 'warPane' }).addTo(map);
+                    setTimeout(() => { if (map.hasLayer(trail)) map.removeLayer(trail); }, 15000);
                 }, 400);
             }, delay);
         };
 
         const impact = (type, color, isDrone, loc) => {
-            const b = L.circle(loc, { radius: isDrone ? 2000 : 4500, color: '#fff', fillColor: color, fillOpacity: 0.7, pane: 'warPane' }).addTo(map);
-            let r = isDrone ? 2000 : 4500;
+            const b = L.circle(loc, { radius: isDrone ? 2500 : 5000, color: '#fff', fillColor: color, fillOpacity: 0.7, pane: 'warPane' }).addTo(map);
+            let r = isDrone ? 2500 : 5000;
             const s = setInterval(() => {
-                r += 7500; b.setRadius(r);
-                if (r > 180000) { clearInterval(s); if (map.hasLayer(b)) map.removeLayer(b); }
+                r += 8000; b.setRadius(r);
+                if (r > 190000) { clearInterval(s); if (map.hasLayer(b)) map.removeLayer(b); }
             }, 50);
 
-            // ЛОГИКА ЗА СПЕЦИАЛНИТЕ ИКОНИ [cite: 2026-03-01]
-            let impactEmoji = "💥";
-            if (isDrone) impactEmoji = "🔥";
-            if (loc[0] === 35.68 || loc[0] === 35.69) impactEmoji = "💀"; // Техеран
-            if (loc[0] === 28.83) impactEmoji = "☢️"; // Бушер
+            let impactEmoji = isDrone ? "🔥" : "💥";
+            if (loc[0] === 35.68 || loc[0] === 35.69) impactEmoji = "💀"; 
+            if (loc[0] === 28.83) impactEmoji = "☢️"; 
 
             const mark = L.marker(loc, {
-                icon: L.divIcon({ html: `<div style="font-size:28px; text-shadow: 0 0 10px ${color};">${impactEmoji}</div>`, iconSize: [35, 35], iconAnchor: [17, 17] }),
+                icon: L.divIcon({ html: `<div style="font-size:30px; text-shadow: 0 0 10px ${color};">${impactEmoji}</div>`, iconSize: [40, 40], iconAnchor: [20, 20] }),
                 pane: 'warPane'
             }).addTo(map);
-            setTimeout(() => { if (map.hasLayer(mark)) map.removeLayer(mark); }, 40000);
+            setTimeout(() => { if (map.hasLayer(mark)) map.removeLayer(mark); }, 60000);
         };
 
-        MISSION_DATA.forEach((m, i) => launch(m, i * 4500));
-        setTimeout(startGlobalWar, 360000);
+        MISSION_DATA.forEach((m, i) => launch(m, i * 6000));
+        
+        // Рестарт на 10 минути за пълна чистота
+        setTimeout(startGlobalWar, 600000);
     };
 
     setTimeout(startGlobalWar, 5000);
