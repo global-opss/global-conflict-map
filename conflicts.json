@@ -1,5 +1,19 @@
 [
     {
+        "country": "Iran",
+        "city": "Tehran",
+        "lat": 35.747244004205065,
+        "lon": 51.44548793303239,
+        "date": "2026-03-01 18:01:00",
+        "type": "Airstrike",
+        "severity": "critical",
+        "title": "Iraqi Shiite militias join the war between Israel, the US, and Iran with drone attacks",
+        "description": "The Islamic Resistance in Iraq (IRI), a coalition of Iran-backed Shiite militias, claimed over a dozen drone attacks against “enemy bases in Iraq and the region” and issued statements of support for the Tehran regime in retaliation for US and Israeli strikes on Iran. The groups are also responding to unclaimed airstrikes on Iraq that have reportedly killed at least six people, including four confirmed Iraqi militiamen.\nThe post Iraqi Shiite milit",
+        "fatalities": "0",
+        "link": "https://www.longwarjournal.org/archives/2026/03/iraqi-shiite-militias-join-the-war-between-israel-the-united-states-and-iran-with-drone-attacks.php",
+        "critical": true
+    },
+    {
         "country": "USA",
         "city": "Washington",
         "lat": 38.845869261365486,
@@ -5108,19 +5122,5 @@
         "fatalities": "0",
         "link": "https://www.militarytimes.com/news/your-military/2026/02/17/us-to-send-more-missile-launchers-to-the-philippines-despite-chinas-alarm/",
         "critical": true
-    },
-    {
-        "country": "Russia",
-        "city": "Moscow",
-        "lat": 55.8186080914044,
-        "lon": 37.683826640397974,
-        "date": "2026-02-28 11:35:46",
-        "type": "Clashes",
-        "severity": "middle",
-        "title": "US and Russia agree to reestablish military dialogue after Ukraine talks",
-        "description": "High-level military communication was suspended in late 2021, as tension between Moscow and Washington rose ahead of the Russian invasion of Ukraine.",
-        "fatalities": "0",
-        "link": "https://www.militarytimes.com/global/europe/2026/02/05/us-and-russia-agree-to-reestablish-military-dialogue-after-ukraine-talks/",
-        "critical": false
     }
 ]
