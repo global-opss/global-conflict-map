@@ -1,5 +1,33 @@
 [
     {
+        "country": "Ukraine",
+        "city": "Kyiv",
+        "lat": 50.42318545620314,
+        "lon": 30.46869219396,
+        "date": "2026-03-01 19:57:32",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Hungary Plays Spoiler in Europe as Orban Strains for Votes at Home",
+        "description": "Facing a serious election challenge, Prime Minister Viktor Orban is holding up a big E.U. loan for Ukraine. Analysts say the timing is no coincidence.",
+        "fatalities": "0",
+        "link": "https://www.nytimes.com/2026/02/27/world/europe/hungary-orban-europe.html",
+        "critical": false
+    },
+    {
+        "country": "Iran",
+        "city": "Tehran",
+        "lat": 35.625412156350535,
+        "lon": 51.450951067215115,
+        "date": "2026-03-01 19:57:32",
+        "type": "Airstrike",
+        "severity": "critical",
+        "title": "US confirms three soldiers killed in Iran attacks",
+        "description": "The US military has confirmed at least three of its soldiers have been killed in its war with Iran.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/video/newsfeed/2026/3/1/us-confirms-three-soldiers-killed-in-iran-attacks?traffic_source=rss",
+        "critical": true
+    },
+    {
         "country": "Israel",
         "city": "Tel Aviv",
         "lat": 32.14098355979582,
@@ -5093,34 +5121,6 @@
         "description": "Andrew Hilliar gives us his analysis.",
         "fatalities": "0",
         "link": "https://www.france24.com/en/us-and-israel-attack-iran-what-will-be-the-impacts-in-the-middle-east",
-        "critical": true
-    },
-    {
-        "country": "Israel",
-        "city": "Tel Aviv",
-        "lat": 32.11808174530017,
-        "lon": 34.748136088505824,
-        "date": "2026-02-28 12:31:02",
-        "type": "Airstrike",
-        "severity": "critical",
-        "title": "Netanyahu says Iranians must “take their fate into their own hands”",
-        "description": "Israeli Prime Minister Benjamin Netanyahu said in a recorded message released Saturday morning that the attacks will let Iranians “take their fate into their own hands” and that Israel plans the current operation to be “much more powerful” than the bruising 12-day war Israel launched against Iran in June.",
-        "fatalities": "0",
-        "link": "https://www.france24.com/en/netanyahu-says-iranians-must-take-their-fate-into-their-own-hands",
-        "critical": true
-    },
-    {
-        "country": "Israel",
-        "city": "Tel Aviv",
-        "lat": 32.04360674061554,
-        "lon": 34.79728970744117,
-        "date": "2026-02-28 12:31:02",
-        "type": "Airstrike",
-        "severity": "critical",
-        "title": "🔴 Live: Macron warns that US-Israeli strikes on Iran could spark regional 'catastrophe'",
-        "description": "",
-        "fatalities": "0",
-        "link": "https://www.france24.com/en/asia-pacific/20260228-live-israel-says-launched-preventive-strike-against-iran-declares-state-of-emergency",
         "critical": true
     }
 ]
