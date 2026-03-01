@@ -1677,18 +1677,21 @@ setInterval(checkCriticalAlerts, 30000);
         }
 
         if (!map.getPane('warPane')) {
-            map.createPane('warPane').style.zIndex = 650;
+            const pane = map.createPane('warPane');
+            pane.style.zIndex = 650;
+            pane.style.pointerEvents = 'none'; // Глобален фикс за панела [cite: 2026-02-20]
         }
 
         const MISSION_DATA = [
-            // ИРАН (ЧЕРВЕНИ) - [cite: 2026-02-20]
+            // --- ИРАНСКИ ЗАЛП (ЧЕРВЕНИ) --- [cite: 2026-02-20]
             { n: "IR -> Tel Aviv", f: [34.34, 47.00], t: [32.0853, 34.7818], c: "#ff4500", s: "west" },
             { n: "IR -> Jerusalem", f: [32.50, 48.48], t: [31.7683, 35.2137], c: "#ff4500", s: "west" },
             { n: "IR -> Akrotiri", f: [35.68, 51.38], t: [34.5900, 32.9800], c: "#ff4500", s: "west" },
             { n: "IR -> Bahrain", f: [28.92, 50.82], t: [26.2285, 50.5860], c: "#ff4500", s: "south" },
             { n: "IR -> Kuwait", f: [30.50, 47.80], t: [29.2243, 47.9691], c: "#ff4500", s: "south" },
             { n: "IR -> Dubai Port", f: [27.24, 56.34], t: [25.2048, 55.2708], c: "#ff4500", s: "south" },
-            // КОАЛИЦИЯ (СИНИ) - [cite: 2026-03-01]
+            
+            // --- КОАЛИЦИОНЕН ОТВЕТ (СИНИ) --- [cite: 2026-03-01]
             { n: "IAF -> Isfahan", f: [31.50, 34.50], t: [32.65, 51.66], c: "#00ebff", s: "east" },
             { n: "IAF -> Natanz", f: [31.80, 35.00], t: [33.72, 51.71], c: "#00ebff", s: "east" },
             { n: "USAF -> Shiraz", f: [24.00, 58.00], t: [29.54, 52.59], c: "#00ebff", s: "north" },
@@ -1701,26 +1704,31 @@ setInterval(checkCriticalAlerts, 30000);
             setTimeout(() => {
                 const icon = L.divIcon({
                     className: 'v23-m',
-                    html: `<div style="width:8px; height:8px; background:#fff; border:1.5px solid ${data.c}; border-radius:50%; box-shadow:0 0 10px ${data.c};"></div>`,
+                    // ДОБАВЕН pointer-events: none [cite: 2026-02-20]
+                    html: `<div style="width:8px; height:8px; background:#fff; border:1.5px solid ${data.c}; border-radius:50%; box-shadow:0 0 10px ${data.c}; pointer-events:none;"></div>`,
                     iconSize: [8, 8], iconAnchor: [4, 4]
                 });
 
-                const missile = L.marker(data.f, { icon: icon, pane: 'warPane' }).addTo(map);
+                const missile = L.marker(data.f, { icon: icon, pane: 'warPane', interactive: false }).addTo(map);
                 const tag = L.marker(data.f, {
                     icon: L.divIcon({
                         className: 'v23-l',
-                        html: `<div style="color:${data.c}; font-family:monospace; font-size:10px; font-weight:bold; text-shadow:1px 1px #000; white-space:nowrap; margin-left:15px;">🚀 ${data.n}</div>`
+                        // ДОБАВЕН pointer-events: none [cite: 2026-02-20]
+                        html: `<div style="color:${data.c}; font-family:monospace; font-size:10px; font-weight:bold; text-shadow:1px 1px #000; white-space:nowrap; margin-left:15px; pointer-events:none;">🚀 ${data.n}</div>`
                     }),
-                    pane: 'warPane'
+                    pane: 'warPane',
+                    interactive: false // Забранява всяко взаимодействие с етикета [cite: 2026-02-20]
                 }).addTo(map);
 
                 let startTime = Date.now();
-                const duration = 180000; 
+                const duration = 180000; // 3 минути полет [cite: 2026-02-20]
 
                 const move = setInterval(() => {
                     let p = (Date.now() - startTime) / duration;
                     if (p >= 1) {
-                        clearInterval(move); map.removeLayer(missile); map.removeLayer(tag);
+                        clearInterval(move); 
+                        if (map.hasLayer(missile)) map.removeLayer(missile); 
+                        if (map.hasLayer(tag)) map.removeLayer(tag);
                         impact(data.t, data.c); return;
                     }
 
@@ -1729,7 +1737,7 @@ setInterval(checkCriticalAlerts, 30000);
                     
                     let arc = Math.sin(Math.PI * p) * 2.0;
                     let pos;
-                    // ФИКС ЗА USAF: Ако ракетата лети на север, кривим по лонгитуда [cite: 2026-02-20]
+                    
                     if (data.s === "north") pos = [lat, lon - arc];
                     else if (data.s === "south") pos = [lat, lon + arc];
                     else if (data.s === "east") pos = [lat - arc, lon];
@@ -1737,22 +1745,28 @@ setInterval(checkCriticalAlerts, 30000);
 
                     missile.setLatLng(pos); tag.setLatLng(pos);
 
-                    const trail = L.circleMarker(pos, { radius: 0.9, color: data.c, opacity: 0.4, pane: 'warPane' }).addTo(map);
+                    // ДОБАВЕН interactive: false за следите [cite: 2026-02-20]
+                    const trail = L.circleMarker(pos, { 
+                        radius: 0.9, color: data.c, opacity: 0.4, pane: 'warPane', interactive: false 
+                    }).addTo(map);
                     setTimeout(() => { if (map.hasLayer(trail)) map.removeLayer(trail); }, 35000);
                 }, 500);
             }, delay);
         };
 
         const impact = (loc, color) => {
-            const b = L.circle(loc, { radius: 1000, color: '#fff', fillColor: color, fillOpacity: 0.7, pane: 'warPane' }).addTo(map);
+            const b = L.circle(loc, { 
+                radius: 1000, color: '#fff', fillColor: color, fillOpacity: 0.7, pane: 'warPane', interactive: false 
+            }).addTo(map);
             let r = 1000;
             const s = setInterval(() => {
                 r += 4000; b.setRadius(r);
-                if (r > 130000) { clearInterval(s); map.removeLayer(b); }
+                if (r > 130000) { clearInterval(s); if (map.hasLayer(b)) map.removeLayer(b); }
             }, 60);
         };
 
         MISSION_DATA.forEach((m, i) => launch(m, i * 4000));
+        
         const restartTime = 180000 + (MISSION_DATA.length * 4000) + 15000;
         setTimeout(startGlobalWar, restartTime);
     };
