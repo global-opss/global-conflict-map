@@ -1667,3 +1667,72 @@ setInterval(checkCriticalAlerts, 30000);
 
 })();
 
+// ============================================================
+// 🛰️ SECTION: REAL-TIME BALLISTIC SIMULATION [cite: 2026-02-20]
+// ============================================================
+
+const activeMissiles = new Map();
+
+/**
+ * Инициира истински полет от точка А до точка Б
+ * @param {string} originID - Иранска стартова площадка
+ * @param {string} targetID - База (напр. Souda Bay или Haifa)
+ */
+function simulateMissileStrike(originID, targetID) {
+    const origin = staticAssets.find(a => a.name === originID);
+    const target = staticAssets.find(a => a.name === targetID);
+
+    if (!origin || !target) return;
+
+    const missileKey = `msl_${Date.now()}`;
+    let progress = 0;
+
+    // СТАРТ НА СИМУЛАЦИЯТА (НЕСТАТИЧНА)
+    const flightPath = setInterval(() => {
+        progress += 0.25; // Скорост на приближаване
+
+        if (progress >= 100) {
+            clearInterval(flightPath);
+            executeImpactProtocol(target); // Детонация при сблъсък
+            return;
+        }
+
+        // Изчисляване на координатите в реално време (Lerp Logic)
+        const currentLat = origin.lat + (target.lat - origin.lat) * (progress / 100);
+        const currentLon = origin.lon + (target.lon - origin.lon) * (progress / 100);
+
+        // Визуализация върху картата
+        renderMissileFrame(missileKey, currentLat, currentLon, progress);
+    }, 40); 
+
+    activeMissiles.set(missileKey, flightPath);
+}
+
+/**
+ * Протокол при успешно попадение в базата
+ */
+function executeImpactProtocol(target) {
+    console.warn(`[TACTICAL] IMPACT CONFIRMED: ${target.name}`);
+    
+    // Сменяме undefined в банера с истинското име на поразената цел
+    const alertDisplay = document.querySelector('.breaking-news-text');
+    if (alertDisplay) {
+        alertDisplay.innerText = `CRITICAL IMPACT: ${target.name.toUpperCase()} HIT BY BALLISTIC MISSILE`;
+    }
+
+    // Изчистване на ракетата от паметта
+    removeMissileFromMap(target.id);
+}
+
+// ------------------------------------------------------------
+// АВТОМАТИЧЕН ТРИГЕР ПРИ ПРОМЯНА В CONFLICTS.JSON
+// ------------------------------------------------------------
+function syncStrikeWithLogs(data) {
+    if (data.active && data.alert_level === "CRITICAL") {
+        // Залп към ключовите точки от твоя списък
+        simulateMissileStrike("Tehran Air Defense", "Haifa Naval Base");
+        simulateMissileStrike("Shiraz Hub", "Souda Bay Naval Base");
+        simulateMissileStrike("Bushehr Coastal Defense", "Incirlik Air Base");
+    }
+}
+// ============================================================
