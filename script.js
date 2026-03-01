@@ -1682,7 +1682,6 @@ setInterval(checkCriticalAlerts, 30000);
             pane.style.pointerEvents = 'none';
         }
 
-        // --- КОАЛИЦИЯ (Израел, Ирак, Бахрейн, С. Арабия) ---
         const coalitionStrikes = [
             { t: "missile", f: [31.50, 34.80], t: [35.68, 51.38], c: "#00ebff", s: "east", d: 150000 },
             { t: "missile", f: [32.00, 34.85], t: [35.69, 51.39], c: "#00ebff", s: "east", d: 155000 },
@@ -1693,19 +1692,17 @@ setInterval(checkCriticalAlerts, 30000);
             { t: "missile", f: [26.30, 50.15], t: [29.00, 51.00], c: "#00ebff", s: "north", d: 135000 }
         ];
 
-        // --- ЛИВАН (ПРЕЦИЗНО КЪМ ХАЙФА - ДИРЕКТНО) ---
+        // --- ЛИВАН (СТРИКТНО ПО ТВОЯТА СТРЕЛКА) ---
         const lebaneseStrikes = [
-            { t: "missile", f: [33.90, 35.53], t: [32.81, 34.98], c: "#ff1100", s: "direct", d: 95000 },
-            { t: "missile", f: [34.00, 35.65], t: [32.82, 34.99], c: "#ff1100", s: "direct", d: 105000 }
+            { t: "missile", f: [33.95, 35.60], t: [32.81, 34.98], c: "#ff1100", s: "LEBANON_FIX", d: 110000 },
+            { t: "missile", f: [34.10, 35.75], t: [32.81, 34.98], c: "#ff1100", s: "LEBANON_FIX", d: 120000 }
         ];
 
-        // --- ИРАН (4 РАКЕТИ) ---
         const iranianMissiles = Array.from({length: 4}, () => ({
             t: "missile", f: [32.00 + (Math.random() * 3), 51.00 + (Math.random() * 4)], 
             t: [32.08, 34.78], c: "#ff1100", s: "west", d: 145000
         }));
 
-        // --- ДРОНОВЕ (4 ДРОНА) ---
         const droneSwarm = [
             { t: "drone", f: [30.50, 47.50], t: [25.25, 55.36], c: "#ffa500", s: "south", d: 500000 },
             { t: "drone", f: [31.00, 47.00], t: [24.45, 54.37], c: "#ffa500", s: "south", d: 520000 },
@@ -1738,10 +1735,16 @@ setInterval(checkCriticalAlerts, 30000);
                     let lat = data.f[0] + (data.t[0] - data.f[0]) * p;
                     let lon = data.f[1] + (data.t[1] - data.f[1]) * p;
 
-                    let arc = Math.sin(Math.PI * p) * (isDrone ? 2.5 : 1.0);
-                    let pos = [lat + (data.s === "west" ? arc : -arc), lon];
-                    missile.setLatLng(pos);
+                    // ЛИВАНСКИТЕ РАКЕТИ ВЪРВЯТ ПО ПРАВА ЛИНИЯ (БЕЗ ДРЕЙФ)
+                    let pos;
+                    if (data.s === "LEBANON_FIX") {
+                        pos = [lat, lon];
+                    } else {
+                        let arc = Math.sin(Math.PI * p) * (isDrone ? 2.5 : 1.5);
+                        pos = [lat + (data.s === "west" ? arc : -arc), lon];
+                    }
                     
+                    missile.setLatLng(pos);
                     const trail = L.circleMarker(pos, { radius: isDrone ? 0.6 : 1.2, color: data.c, opacity: 0.3, pane: 'warPane' }).addTo(map);
                     setTimeout(() => { if (map.hasLayer(trail)) map.removeLayer(trail); }, 15000);
                 }, 400);
@@ -1759,7 +1762,6 @@ setInterval(checkCriticalAlerts, 30000);
             let emoji = isDrone ? "🔥" : "💥";
             if (loc[1] > 51) emoji = "💀"; 
             if (loc[0] === 28.83) emoji = "☢️"; 
-            if (loc[0] < 33 && loc[1] < 35.1) emoji = "💥"; // Експлозия в Хайфа
 
             const mark = L.marker(loc, {
                 icon: L.divIcon({ html: `<div style="font-size:32px; text-shadow: 0 0 10px ${color};">${emoji}</div>`, iconSize: [40, 40], iconAnchor: [20, 20] }),
