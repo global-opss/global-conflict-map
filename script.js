@@ -1682,7 +1682,7 @@ setInterval(checkCriticalAlerts, 30000);
             pane.style.pointerEvents = 'none';
         }
 
-        // --- КОАЛИЦИЯ (7 РАКЕТИ) ---
+        // --- КОАЛИЦИЯ (Израел, Ирак, Бахрейн, С. Арабия) ---
         const coalitionStrikes = [
             { t: "missile", f: [31.50, 34.80], t: [35.68, 51.38], c: "#00ebff", s: "east", d: 150000 },
             { t: "missile", f: [32.00, 34.85], t: [35.69, 51.39], c: "#00ebff", s: "east", d: 155000 },
@@ -1693,10 +1693,10 @@ setInterval(checkCriticalAlerts, 30000);
             { t: "missile", f: [26.30, 50.15], t: [29.00, 51.00], c: "#00ebff", s: "north", d: 135000 }
         ];
 
-        // --- ЛИВАН (2 РАКЕТИ - ДИРЕКТНО ОТ СРЕДАТА КЪМ ХАЙФА) [cite: 2026-03-01] ---
+        // --- ЛИВАН (ПРЕЦИЗНО КЪМ ХАЙФА - ДИРЕКТНО) ---
         const lebaneseStrikes = [
-            { t: "missile", f: [33.90, 35.55], t: [32.81, 34.98], c: "#ff1100", s: "straight", d: 90000 },
-            { t: "missile", f: [34.05, 35.65], t: [32.81, 34.98], c: "#ff1100", s: "straight", d: 100000 }
+            { t: "missile", f: [33.90, 35.53], t: [32.81, 34.98], c: "#ff1100", s: "direct", d: 95000 },
+            { t: "missile", f: [34.00, 35.65], t: [32.82, 34.99], c: "#ff1100", s: "direct", d: 105000 }
         ];
 
         // --- ИРАН (4 РАКЕТИ) ---
@@ -1735,11 +1735,10 @@ setInterval(checkCriticalAlerts, 30000);
                         impact(data.t, data.c, isDrone, data.t); return;
                     }
 
-                    // ДИРЕКТНА ТРАЕКТОРИЯ БЕЗ ЗАВОИ [cite: 2026-03-01]
                     let lat = data.f[0] + (data.t[0] - data.f[0]) * p;
                     let lon = data.f[1] + (data.t[1] - data.f[1]) * p;
 
-                    let arc = Math.sin(Math.PI * p) * (isDrone ? 2.5 : 1.2);
+                    let arc = Math.sin(Math.PI * p) * (isDrone ? 2.5 : 1.0);
                     let pos = [lat + (data.s === "west" ? arc : -arc), lon];
                     missile.setLatLng(pos);
                     
@@ -1760,6 +1759,7 @@ setInterval(checkCriticalAlerts, 30000);
             let emoji = isDrone ? "🔥" : "💥";
             if (loc[1] > 51) emoji = "💀"; 
             if (loc[0] === 28.83) emoji = "☢️"; 
+            if (loc[0] < 33 && loc[1] < 35.1) emoji = "💥"; // Експлозия в Хайфа
 
             const mark = L.marker(loc, {
                 icon: L.divIcon({ html: `<div style="font-size:32px; text-shadow: 0 0 10px ${color};">${emoji}</div>`, iconSize: [40, 40], iconAnchor: [20, 20] }),
