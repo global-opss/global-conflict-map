@@ -1670,12 +1670,13 @@ setInterval(checkCriticalAlerts, 30000);
 })();
 
 // =============================================================================
-// 🚀 PROJECT OVERLORD V3.0 - LONG RANGE BALLISTIC SIMULATION [cite: 2026-02-20]
+// 🛰️ PROJECT OVERLORD V4.0 - REAL-TIME STRATEGIC DEPLOYMENT [cite: 2026-02-20]
 // =============================================================================
 
 (function() {
-    const startStrategicStrike = () => {
-        console.log("%c >> [SYSTEM]: LONG-RANGE BALLISTIC PROTOCOL ACTIVE ", "color: #ff3300; font-weight: bold;");
+    // Всичко е обвито тук, за да не влияе на твоите 1700 реда код [cite: 2026-02-20]
+    const initStrategicSimulation = () => {
+        console.log("%c >> [OVERLORD]: INITIALIZING LONG-RANGE INTERCEPT... ", "color: #39FF14; font-weight: bold;");
 
         let glassPane = document.getElementById('overlord-pane');
         if (!glassPane) {
@@ -1684,104 +1685,122 @@ setInterval(checkCriticalAlerts, 30000);
             document.body.appendChild(glassPane);
         }
 
+        // Пълно покритие над интерфейса [cite: 2026-02-20]
         Object.assign(glassPane.style, {
             position: 'fixed', top: '0', left: '0', width: '100vw', height: '100vh',
-            pointerEvents: 'none', zIndex: '2147483647', background: 'transparent'
+            pointerEvents: 'none', zIndex: '2147483647', background: 'transparent', overflow: 'hidden'
         });
 
-        const CONFIG = {
-            // КОРИГИРАНИ КОРДИНАТИ [cite: 2026-02-20]
-            origin: { lat: 35.6892, lon: 51.3890 }, // Техеран (Иран)
-            target: { lat: 32.0853, lon: 34.7818 }, // Тел Авив (Израел)
-            flightDuration: 120000, // 2 МИНУТИ ПОЛЕТ (в милисекунди) [cite: 2026-02-20]
-            updateInterval: 100     // Колко често се обновява позицията (ms)
+        // ПРЕЦИЗНИ КОРДИНАТИ (БЕЗ ДРИФТ КЪМ МОРЕТО) [cite: 2026-02-20]
+        const LOCATIONS = {
+            TEHRAN: { lat: 35.6892, lon: 51.3890 }, // Иран
+            TEL_AVIV: { lat: 32.0853, lon: 34.7818 } // Израел
         };
 
-        const launchMissile = () => {
+        const FLIGHT_TIME = 150000; // 2.5 МИНУТИ (150 сек) [cite: 2026-02-20]
+
+        const launch = () => {
             if (typeof map === 'undefined' || !map) return;
 
             const missile = document.createElement('div');
+            const etaDisplay = document.createElement('div');
+            
+            // Дизайн на ракетата [cite: 2026-02-20]
             Object.assign(missile.style, {
                 position: 'absolute', width: '10px', height: '10px',
                 backgroundColor: '#fff', border: '2px solid #ff0000',
                 borderRadius: '50%', boxShadow: '0 0 15px #ff0000',
                 zIndex: '1000', transform: 'translate(-50%, -50%)'
             });
+
+            // Дизайн на ETA Таймера [cite: 2026-02-20]
+            Object.assign(etaDisplay.style, {
+                position: 'absolute', color: '#39FF14', fontSize: '10px',
+                fontFamily: 'monospace', whiteSpace: 'nowrap', zIndex: '1001'
+            });
+
             glassPane.appendChild(missile);
+            glassPane.appendChild(etaDisplay);
 
-            let startTime = Date.now();
+            let start = Date.now();
 
-            const animate = setInterval(() => {
-                let elapsed = Date.now() - startTime;
-                let p = elapsed / CONFIG.flightDuration; // Прогрес от 0 до 1
+            const flightPath = setInterval(() => {
+                let now = Date.now();
+                let elapsed = now - start;
+                let p = elapsed / FLIGHT_TIME;
 
                 if (p >= 1) {
-                    clearInterval(animate);
-                    executeImpact(CONFIG.target);
+                    clearInterval(flightPath);
                     missile.remove();
+                    etaDisplay.remove();
+                    triggerExplosion(LOCATIONS.TEL_AVIV);
                     return;
                 }
 
-                // 1. Изчисляване на ЛИНЕЙНИТЕ координати
-                let currentLat = CONFIG.origin.lat + (CONFIG.target.lat - CONFIG.origin.lat) * p;
-                let currentLon = CONFIG.origin.lon + (CONFIG.target.lon - CONFIG.origin.lon) * p;
+                // КОРЕКЦИЯ: Изчисляваме пътя директно върху картата [cite: 2026-02-20]
+                let cLat = LOCATIONS.TEHRAN.lat + (LOCATIONS.TEL_AVIV.lat - LOCATIONS.TEHRAN.lat) * p;
+                let cLon = LOCATIONS.TEHRAN.lon + (LOCATIONS.TEL_AVIV.lon - LOCATIONS.TEHRAN.lon) * p;
 
-                // 2. Добавяне на БАЛИСТИЧНА КРИВА (Arc) за по-реалистично летене [cite: 2026-02-20]
-                // Ракетата се "повдига" в средата на полета
-                const arcHeight = Math.sin(Math.PI * p) * 2; // Изкривяване на траекторията
-                const displayLat = currentLat + arcHeight;
+                // ДОБАВЯМЕ "АРКА" (Парабола) - ракетата лети на север в космоса [cite: 2026-02-20]
+                let arcOffset = Math.sin(Math.PI * p) * 4.5; // Силна крива нагоре
+                let visualLat = cLat + arcOffset;
 
                 try {
-                    // КЛЮЧ: Използваме ContainerPoint с проверка за зуум [cite: 2026-02-20]
-                    const pos = map.latLngToContainerPoint([displayLat, currentLon]);
-                    
-                    missile.style.left = pos.x + 'px';
-                    missile.style.top = pos.y + 'px';
+                    const screenPos = map.latLngToContainerPoint([visualLat, cLon]);
+                    missile.style.left = screenPos.x + 'px';
+                    missile.style.top = screenPos.y + 'px';
 
-                    // 3. ПОСТОЯННА ТРАЕКТОРИЯ (Line Trace)
-                    const trace = document.createElement('div');
-                    Object.assign(trace.style, {
-                        position: 'absolute', width: '3px', height: '3px',
-                        backgroundColor: '#ff0000', left: pos.x + 'px', top: pos.y + 'px',
-                        borderRadius: '50%', opacity: '0.7', zIndex: '999'
+                    // Таймер над ракетата
+                    let remaining = Math.round((FLIGHT_TIME - elapsed) / 1000);
+                    etaDisplay.innerText = "ETA: " + remaining + "s";
+                    etaDisplay.style.left = screenPos.x + 15 + 'px';
+                    etaDisplay.style.top = screenPos.y - 15 + 'px';
+
+                    // ПЛЪТНА ЧЕРВЕНА ЛЕНТА (Trail) [cite: 2026-02-20]
+                    const trail = document.createElement('div');
+                    Object.assign(trail.style, {
+                        position: 'absolute', width: '4px', height: '4px',
+                        backgroundColor: '#ff0000', borderRadius: '50%',
+                        left: screenPos.x + 'px', top: screenPos.y + 'px',
+                        opacity: '0.6', zIndex: '999', transform: 'translate(-50%, -50%)'
                     });
-                    glassPane.appendChild(trace);
-
-                    // Следата остава за 30 секунди, за да се види целия път [cite: 2026-02-20]
-                    setTimeout(() => trace.remove(), 30000);
+                    glassPane.appendChild(trail);
+                    // Следата стои 1 минута, за да се види целия полет [cite: 2026-02-20]
+                    setTimeout(() => trail.remove(), 60000);
 
                 } catch (e) {
-                    clearInterval(animate);
-                    missile.remove();
+                    clearInterval(flightPath);
                 }
-            }, CONFIG.updateInterval);
+            }, 100);
         };
 
-        const executeImpact = (loc) => {
+        const triggerExplosion = (loc) => {
             try {
                 const p = map.latLngToContainerPoint([loc.lat, loc.lon]);
                 const boom = document.createElement('div');
                 Object.assign(boom.style, {
-                    position: 'absolute', width: '100px', height: '100px',
-                    background: 'radial-gradient(circle, white, red, transparent)',
+                    position: 'absolute', width: '50px', height: '50px',
+                    border: '3px solid gold', borderRadius: '50%',
                     left: p.x + 'px', top: p.y + 'px',
-                    borderRadius: '50%', transform: 'translate(-50%, -50%) scale(0)',
-                    transition: 'all 1s ease-out', zIndex: '2000'
+                    transform: 'translate(-50%, -50%) scale(0)',
+                    transition: 'all 1.5s ease-out', zIndex: '2000'
                 });
                 glassPane.appendChild(boom);
-                setTimeout(() => { boom.style.transform = 'translate(-50%, -50%) scale(3)'; boom.style.opacity = '0'; }, 50);
-                setTimeout(() => boom.remove(), 1500);
-                console.log("%c [STRATEGIC HIT]: NEUTRALIZED ", "background: red; color: white;");
+                setTimeout(() => { boom.style.transform = 'translate(-50%, -50%) scale(5)'; boom.style.opacity = '0'; }, 50);
+                setTimeout(() => boom.remove(), 2000);
+                console.log("%c [IMPACT]: TARGET NEUTRALIZED ", "background: red; color: white;");
             } catch (e) {}
         };
 
-        // Изстрелване на всеки 3 минути
-        setInterval(launchMissile, 180000);
-        launchMissile();
+        // Изстрелване на всеки 5 минути [cite: 2026-02-20]
+        setInterval(launch, 300000);
+        launch();
     };
 
-    setTimeout(startStrategicStrike, 5000);
-})();
-
-    setTimeout(startEnhancedStrike, 5000);
+    // Стартираме с 10 секунди закъснение за пълна сигурност [cite: 2026-02-20]
+    if (document.readyState === 'complete') {
+        setTimeout(initStrategicSimulation, 10000);
+    } else {
+        window.addEventListener('load', () => setTimeout(initStrategicSimulation, 10000));
+    }
 })();
