@@ -1,5 +1,19 @@
 [
     {
+        "country": "Israel",
+        "city": "Tel Aviv",
+        "lat": 32.13724674913293,
+        "lon": 34.71599607671798,
+        "date": "2026-03-01 07:58:38",
+        "type": "Airstrike",
+        "severity": "critical",
+        "title": "Thousands in Iran mourn Khamenei’s killing",
+        "description": "Supreme leader killed in US-Israeli strikes; IRGC pledges fierce retaliation across the region.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/gallery/2026/3/1/thousands-in-iran-mourn-khameneis-killing?traffic_source=rss",
+        "critical": true
+    },
+    {
         "country": "China",
         "city": "Beijing",
         "lat": 39.86340416310039,
@@ -322,20 +336,6 @@
         "critical": true
     },
     {
-        "country": "Ukraine",
-        "city": "Kyiv",
-        "lat": 50.40997188274292,
-        "lon": 30.569354781787816,
-        "date": "2026-03-01 05:12:23",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "In Ukraine, a Community of ‘Simple Believers’ Shuns the Modern World",
-        "description": "The Christians known as viruiuchi prostaky see electricity, cars, higher education and much else as distractions from what really matters.",
-        "fatalities": "0",
-        "link": "https://www.nytimes.com/2026/03/01/world/europe/ukraine-simple-believers.html",
-        "critical": false
-    },
-    {
         "country": "Israel",
         "city": "Tel Aviv",
         "lat": 32.05510353449143,
@@ -418,6 +418,20 @@
         "fatalities": "0",
         "link": "https://www.aljazeera.com/news/2026/3/1/us-strikes-on-iran-lead-to-renewed-demands-for-war-powers-legislation?traffic_source=rss",
         "critical": true
+    },
+    {
+        "country": "Ukraine",
+        "city": "Kyiv",
+        "lat": 50.40997188274292,
+        "lon": 30.569354781787816,
+        "date": "2026-03-01 05:12:23",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "In Ukraine, a Community of ‘Simple Believers’ Shuns the Modern World",
+        "description": "The Christians known as viruiuchi prostaky see electricity, cars, higher education and much else as distractions from what really matters.",
+        "fatalities": "0",
+        "link": "https://www.nytimes.com/2026/03/01/world/europe/ukraine-simple-believers.html",
+        "critical": false
     },
     {
         "country": "Israel",
