@@ -1682,7 +1682,7 @@ setInterval(checkCriticalAlerts, 30000);
             pane.style.pointerEvents = 'none';
         }
 
-        // --- КОАЛИЦИЯ (7 РАКЕТИ - ПРЕЦИЗНИ ЦЕЛИ) ---
+        // --- КОАЛИЦИЯ (Израел, Ирак, Бахрейн, С. Арабия) ---
         const coalitionStrikes = [
             { t: "missile", f: [31.50, 34.80], t: [35.68, 51.38], c: "#00ebff", s: "east", d: 150000 },
             { t: "missile", f: [32.00, 34.85], t: [35.69, 51.39], c: "#00ebff", s: "east", d: 155000 },
@@ -1693,23 +1693,27 @@ setInterval(checkCriticalAlerts, 30000);
             { t: "missile", f: [26.30, 50.15], t: [29.00, 51.00], c: "#00ebff", s: "north", d: 135000 }
         ];
 
-        // --- ИРАН (4 РАКЕТИ) [cite: 2026-03-01] ---
+        // --- ЛИВАНСКИ УДАР (2 РАКЕТИ ОТ ЮЖЕН ЛИВАН ПО ХАЙФА) ---
+        const lebaneseStrikes = [
+            { t: "missile", f: [33.33, 35.50], t: [32.81, 34.98], c: "#ff1100", s: "south", d: 45000 },
+            { t: "missile", f: [33.50, 35.40], t: [32.81, 34.98], c: "#ff1100", s: "south", d: 50000 }
+        ];
+
+        // --- ИРАН (4 РАКЕТИ) ---
         const iranianMissiles = Array.from({length: 4}, () => ({
             t: "missile", f: [32.00 + (Math.random() * 3), 51.00 + (Math.random() * 4)], 
             t: [32.08, 34.78], c: "#ff1100", s: "west", d: 145000
         }));
 
-        // --- МИНИМАЛЕН РОЯК (САМО 4 ДРОНА ОБЩО) ---
+        // --- ДРОНОВЕ (4 ДРОНА: 2 ИРАК / 2 ИРАН) ---
         const droneSwarm = [
-            // 2 от Ирак
             { t: "drone", f: [30.50, 47.50], t: [25.25, 55.36], c: "#ffa500", s: "south", d: 500000 },
             { t: "drone", f: [31.00, 47.00], t: [24.45, 54.37], c: "#ffa500", s: "south", d: 520000 },
-            // 2 от Иран [cite: 2026-03-01]
             { t: "drone", f: [29.50, 53.50], t: [25.14, 55.18], c: "#ffa500", s: "south", d: 480000 },
             { t: "drone", f: [28.50, 54.50], t: [25.25, 55.36], c: "#ffa500", s: "south", d: 490000 }
         ];
 
-        const MISSION_DATA = [...coalitionStrikes, ...iranianMissiles, ...droneSwarm];
+        const MISSION_DATA = [...coalitionStrikes, ...lebaneseStrikes, ...iranianMissiles, ...droneSwarm];
 
         const launch = (data, delay) => {
             setTimeout(() => {
@@ -1733,7 +1737,7 @@ setInterval(checkCriticalAlerts, 30000);
                     let lat = data.f[0] + (data.t[0] - data.f[0]) * p;
                     let lon = data.f[1] + (data.t[1] - data.f[1]) * p;
                     let zig = isDrone ? Math.sin(Date.now() / 800) * 0.2 : 0;
-                    let arc = Math.sin(Math.PI * p) * (isDrone ? 2.5 : 2.0);
+                    let arc = Math.sin(Math.PI * p) * (isDrone ? 2.5 : 1.5);
                     let pos = [lat + (data.s === "west" ? arc : -arc), lon + zig];
                     missile.setLatLng(pos);
                     
@@ -1752,8 +1756,9 @@ setInterval(checkCriticalAlerts, 30000);
             }, 50);
 
             let impactEmoji = isDrone ? "🔥" : "💥";
-            if (loc[0] === 35.68 || loc[0] === 35.69) impactEmoji = "💀"; 
+            if (loc[1] > 51) impactEmoji = "💀"; 
             if (loc[0] === 28.83) impactEmoji = "☢️"; 
+            if (loc[0] < 33 && loc[1] < 35.1) impactEmoji = "💥"; // Удар по Хайфа
 
             const mark = L.marker(loc, {
                 icon: L.divIcon({ html: `<div style="font-size:30px; text-shadow: 0 0 10px ${color};">${impactEmoji}</div>`, iconSize: [40, 40], iconAnchor: [20, 20] }),
@@ -1763,8 +1768,6 @@ setInterval(checkCriticalAlerts, 30000);
         };
 
         MISSION_DATA.forEach((m, i) => launch(m, i * 6000));
-        
-        // Рестарт на 10 минути за пълна чистота
         setTimeout(startGlobalWar, 600000);
     };
 
