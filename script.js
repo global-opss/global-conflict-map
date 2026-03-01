@@ -1709,7 +1709,7 @@ setInterval(checkCriticalAlerts, 30000);
             { n: "USAF -> Bandar Abbas", f: [23.50, 58.50], t: [27.18, 56.26], c: "#00ebff", s: "north" },
             { n: "USAF -> Tabriz Airbase", f: [34.50, 33.00], t: [38.08, 46.29], c: "#00ebff", s: "east" },
             { n: "IAF -> Fordow Site", f: [32.20, 34.90], t: [34.88, 50.99], c: "#00ebff", s: "east" },
-            // --- СТРАТЕГИЧЕСКИ УДАРИ (НОВИ) [cite: 2026-03-01] ---
+            // --- НОВИ ОФИЦИАЛНИ СТРАТЕГИЧЕСКИ УДАРИ [cite: 2026-03-01] ---
             { n: "IAF -> Bushehr Nuclear", f: [31.50, 34.50], t: [28.83, 50.88], c: "#00ebff", s: "east" },
             { n: "USAF -> Chabahar Port", f: [24.00, 58.00], t: [25.29, 60.64], c: "#00ebff", s: "north" },
             { n: "IAF -> Kerman Base", f: [32.00, 35.00], t: [30.28, 57.07], c: "#00ebff", s: "east" },
@@ -1768,7 +1768,7 @@ setInterval(checkCriticalAlerts, 30000);
                 if (r > 130000) { clearInterval(s); if (map.hasLayer(b)) map.removeLayer(b); }
             }, 60);
 
-            // ЕФЕКТ ОГЪН ЗА ЕРБИЛ
+            // ЕФЕКТ ОГЪЪН ЗА ЕРБИЛ
             if (loc[0].toFixed(2) === "36.23" && loc[1].toFixed(2) === "43.95") {
                 const damageIcon = L.divIcon({
                     className: 'damage-marker',
@@ -1779,7 +1779,7 @@ setInterval(checkCriticalAlerts, 30000);
                 setTimeout(() => { if (map.hasLayer(burn)) map.removeLayer(burn); }, 60000);
             }
             
-            // ЕФЕКТ ЗА ТЕХЕРАН
+            // НОВ ЕФЕКТ ЗА ТЕХЕРАН (SMOKE/STRIKE) [cite: 2026-03-01]
             if (loc[0].toFixed(2) === "35.69") {
                 const strikeIcon = L.divIcon({
                     className: 'tehran-hit',
@@ -1795,6 +1795,57 @@ setInterval(checkCriticalAlerts, 30000);
         const restartTime = 180000 + (MISSION_DATA.length * 3500) + 15000;
         setTimeout(startGlobalWar, restartTime);
     };
-
     setTimeout(startGlobalWar, 5000);
+})();
+
+// --- КОНТРОЛЕР ЗА ESCALATION LOG ---
+(function() {
+    const logContainer = document.getElementById('escalation-log-container');
+    if (!logContainer) return;
+    logContainer.style.transition = "all 0.4s cubic-bezier(0.4, 0, 0.2, 1)";
+    logContainer.style.overflow = "hidden";
+    const header = logContainer.querySelector('.panel-header');
+    const toggleBtn = document.createElement('span');
+    toggleBtn.innerHTML = "[ — ]";
+    toggleBtn.style.cssText = `float: right; margin-right: 10px; cursor: pointer; font-weight: bold; font-family: monospace; color: #ff3131;`;
+    header.insertBefore(toggleBtn, header.lastElementChild);
+    let isCollapsed = false;
+    const fullHeight = "250px";
+    toggleBtn.onclick = function() {
+        if (!isCollapsed) {
+            logContainer.style.height = "32px";
+            toggleBtn.innerHTML = "[ + ]";
+            isCollapsed = true;
+        } else {
+            logContainer.style.height = fullHeight;
+            toggleBtn.innerHTML = "[ — ]";
+            isCollapsed = false;
+        }
+    };
+})();
+
+// --- КОНТРОЛЕР ЗА TACTICAL COMMS ---
+(function() {
+    const chat = document.getElementById('chat-container');
+    if (!chat) return;
+    chat.style.transition = "all 0.4s cubic-bezier(0.4, 0, 0.2, 1)";
+    chat.style.overflow = "hidden";
+    const header = chat.querySelector('.panel-header');
+    const toggleBtn = document.createElement('span');
+    toggleBtn.innerHTML = "[ — ]";
+    toggleBtn.style.cssText = `float: right; cursor: pointer; font-family: monospace; color: #00ff00; font-weight: bold;`;
+    header.appendChild(toggleBtn);
+    let isCollapsed = false;
+    const fullHeight = "300px";
+    toggleBtn.onclick = function() {
+        if (!isCollapsed) {
+            chat.style.height = "32px";
+            toggleBtn.innerHTML = "[ + ]";
+            isCollapsed = true;
+        } else {
+            chat.style.height = fullHeight;
+            toggleBtn.innerHTML = "[ — ]";
+            isCollapsed = false;
+        }
+    };
 })();
