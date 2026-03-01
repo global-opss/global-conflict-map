@@ -1,5 +1,33 @@
 [
     {
+        "country": "Iran",
+        "city": "Tehran",
+        "lat": 35.634978471730776,
+        "lon": 51.42368995281818,
+        "date": "2026-03-01 22:54:33",
+        "type": "Naval",
+        "severity": "normal",
+        "title": "U.S and Israel begin \"major combat operations\" in Iran",
+        "description": "The U.S. and Israel began \"major combat operations\" in Iran overnight with the aim of destroying the country's military capabilities and fostering regime change, President Trump announced in an overnight video statement.The latest: Israel's Air Force conducted strikes against Iranian senior commanders and political leaders, including Supreme Leader Ali Khamenei, in an effort to destabilize the regime, according to U.S. and Israeli officials.Irani",
+        "fatalities": "0",
+        "link": "https://www.axios.com/2026/02/28/iran-attack-trump-us-israel-strikes",
+        "critical": false
+    },
+    {
+        "country": "Israel",
+        "city": "Tel Aviv",
+        "lat": 32.138577211361884,
+        "lon": 34.72584554986462,
+        "date": "2026-03-01 22:54:32",
+        "type": "Airstrike",
+        "severity": "critical",
+        "title": "[Updated] Israel and U.S. Launch Attack on Iran",
+        "description": "Israel has launched a daylight preemptive attack against multiple Iranian targets, with the U.S. now joining the operation. Heres our constantly updated report. Israel and the U.S. launched on Feb. 28, 2026, a new wave of strikes against Iran, in what Israel has called a “preemptive attack.” Details are still fragmentary, but it appears multiple []",
+        "fatalities": "0",
+        "link": "https://theaviationist.com/2026/02/28/israel-us-attack-iran/",
+        "critical": true
+    },
+    {
         "country": "Israel",
         "city": "Tel Aviv",
         "lat": 32.130913640554986,
@@ -5094,33 +5122,5 @@
         "fatalities": "0",
         "link": "https://www.interfax.ru/world/1075201",
         "critical": false
-    },
-    {
-        "country": "Iran",
-        "city": "Tehran",
-        "lat": 35.721715308568335,
-        "lon": 51.384047100950106,
-        "date": "2026-02-28 13:00:36",
-        "type": "Airstrike",
-        "severity": "critical",
-        "title": "Some Iranians celebrate Israeli-US strikes as Khamenei said targeted, his palace destroyed",
-        "description": "Satellite images show supreme leader's Tehran compound reduced to smoldering rubble, unclear if he was hit; state media says at least 40 killed in strike on girls' school in south\nThe post Some Iranians celebrate Israeli-US strikes as Khamenei said targeted, his palace destroyed appeared first on The Times of Israel.",
-        "fatalities": "0",
-        "link": "https://www.timesofisrael.com/some-iranians-celebrate-israeli-us-strikes-as-khamenei-said-targeted-his-palace-destroyed/",
-        "critical": true
-    },
-    {
-        "country": "Israel",
-        "city": "Tel Aviv",
-        "lat": 32.0166865548816,
-        "lon": 34.75724227766169,
-        "date": "2026-02-28 13:00:36",
-        "type": "Airstrike",
-        "severity": "critical",
-        "title": "World leaders urge ‘restraint’ as US-Israel strikes on Iran draw concern",
-        "description": "Warnings against escalation and accusations of international law violations follow joint US-Israel strikes on Iran\nThe post World leaders urge ‘restraint’ as US-Israel strikes on Iran draw concern appeared first on The Times of Israel.",
-        "fatalities": "0",
-        "link": "https://www.timesofisrael.com/world-leaders-urge-restraint-as-us-israel-strikes-on-iran-draw-concern/",
-        "critical": true
     }
 ]
