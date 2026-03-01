@@ -1671,92 +1671,93 @@ setInterval(checkCriticalAlerts, 30000);
 
 
 (function() {
-    const startEpicEngagement = () => {
+    const startGlobalWar = () => {
+        // Проверка за наличие на картата [cite: 2026-02-20]
         if (typeof L === 'undefined' || typeof map === 'undefined' || !map) {
-            setTimeout(startEpicEngagement, 3000);
+            setTimeout(startGlobalWar, 3000);
             return;
         }
 
+        // Подготовка на слоя [cite: 2026-02-20]
         if (!map.getPane('warPane')) {
             const pane = map.createPane('warPane');
             pane.style.zIndex = 650;
             pane.style.pointerEvents = 'none';
         }
 
-        // --- ИРАНСКИ ЗАЛП (6 РАКЕТИ - ЧЕРВЕНИ) --- [cite: 2026-02-20]
-        const IRAN_SALVO = [
-            { name: "IR -> Tel Aviv", from: [34.34, 47.00], to: [32.0853, 34.7818], side: "west" },
-            { name: "IR -> Jerusalem", from: [32.50, 48.48], to: [31.7683, 35.2137], side: "west" },
-            { name: "IR -> Akrotiri", from: [35.68, 51.38], to: [34.5900, 32.9800], side: "west" },
-            { name: "IR -> Bahrain", from: [28.92, 50.82], to: [26.2285, 50.5860], side: "south" },
-            { name: "IR -> Kuwait", from: [30.50, 47.80], to: [29.2243, 47.9691], side: "south" },
-            { name: "IR -> Dubai Port", from: [27.24, 56.34], to: [25.2048, 55.2708], side: "south" }
+        // --- ПЪЛЕН СПИСЪК С ЦЕЛИ (12 ОБЕКТА) --- [cite: 2026-02-20, 2026-03-01]
+        const MISSION_DATA = [
+            // ИРАНСКИ ЗАЛП (6 РАКЕТИ - ЧЕРВЕНИ)
+            { n: "IR -> Tel Aviv", f: [34.34, 47.00], t: [32.0853, 34.7818], c: "#ff4500", s: "west" },
+            { n: "IR -> Jerusalem", f: [32.50, 48.48], t: [31.7683, 35.2137], c: "#ff4500", s: "west" },
+            { n: "IR -> Akrotiri", f: [35.68, 51.38], t: [34.5900, 32.9800], c: "#ff4500", s: "west" },
+            { n: "IR -> Bahrain", f: [28.92, 50.82], t: [26.2285, 50.5860], c: "#ff4500", s: "south" },
+            { n: "IR -> Kuwait", f: [30.50, 47.80], t: [29.2243, 47.9691], c: "#ff4500", s: "south" },
+            { n: "IR -> Dubai Port", f: [27.24, 56.34], t: [25.2048, 55.2708], c: "#ff4500", s: "south" },
+            
+            // КОАЛИЦИОНЕН ОТВЕТ (6 РАКЕТИ - СИНИ)
+            { n: "IAF -> Isfahan", f: [31.50, 34.50], t: [32.65, 51.66], c: "#00ebff", s: "east" },
+            { n: "IAF -> Natanz", f: [31.80, 35.00], t: [33.72, 51.71], c: "#00ebff", s: "east" },
+            { n: "USAF -> Shiraz", f: [25.00, 50.00], t: [29.54, 52.59], c: "#00ebff", s: "east" },
+            { n: "USAF -> Bandar Abbas", f: [24.50, 54.00], t: [27.18, 56.26], c: "#00ebff", s: "east" },
+            { n: "USAF -> Tabriz Airbase", f: [34.50, 33.00], t: [38.08, 46.29], c: "#00ebff", s: "east" },
+            { n: "IAF -> Fordow Site", f: [32.20, 34.90], t: [34.88, 50.99], c: "#00ebff", s: "east" }
         ];
 
-        // --- ОТВЕТЕН УДАР (6 РАКЕТИ - СИНИ) --- [cite: 2026-03-01]
-        const COALITION_SALVO = [
-            { name: "IAF -> Isfahan", from: [31.50, 34.50], to: [32.65, 51.66], side: "east" },
-            { name: "IAF -> Tehran South", from: [32.00, 34.80], to: [35.68, 51.38], side: "east" },
-            { name: "USAF -> Shiraz", from: [25.00, 50.00], to: [29.54, 52.59], side: "east" },
-            { name: "USAF -> Bandar Abbas", from: [24.50, 54.00], to: [27.18, 56.26], side: "east" },
-            { name: "USAF -> Tabriz", from: [34.50, 33.00], to: [38.08, 46.29], side: "east" },
-            { name: "IAF -> Natanz", from: [31.80, 35.00], to: [33.72, 51.71], side: "east" }
-        ];
-
-        const launch = (data, isIranian, delay) => {
+        const launch = (data, delay) => {
             setTimeout(() => {
-                const color = isIranian ? "#ff4500" : "#00ebff";
-                const mIcon = L.divIcon({
-                    className: 'missile-v21',
-                    html: `<div style="width:8px; height:8px; background:#fff; border:1.5px solid ${color}; border-radius:50%; box-shadow:0 0 10px ${color};"></div>`,
+                const icon = L.divIcon({
+                    className: 'v23-m',
+                    html: `<div style="width:8px; height:8px; background:#fff; border:1.5px solid ${data.c}; border-radius:50%; box-shadow:0 0 10px ${data.c};"></div>`,
                     iconSize: [8, 8], iconAnchor: [4, 4]
                 });
 
-                const missile = L.marker(data.from, { icon: mIcon, pane: 'warPane' }).addTo(map);
-                const tag = L.marker(data.from, {
+                const missile = L.marker(data.f, { icon: icon, pane: 'warPane' }).addTo(map);
+                const tag = L.marker(data.f, {
                     icon: L.divIcon({
-                        className: 'label-v21',
-                        html: `<div style="color:${color}; font-family:monospace; font-size:10px; font-weight:bold; text-shadow:1px 1px #000; white-space:nowrap; margin-left:15px;">🚀 ${data.name}</div>`
+                        className: 'v23-l',
+                        html: `<div style="color:${data.c}; font-family:monospace; font-size:10px; font-weight:bold; text-shadow:1px 1px #000; white-space:nowrap; margin-left:15px;">🚀 ${data.n}</div>`
                     }),
                     pane: 'warPane'
                 }).addTo(map);
 
-                let st = Date.now();
-                const dur = 180000; // 3 минути полет [cite: 2026-02-20]
+                let startTime = Date.now();
+                const duration = 180000; // 3 минути полет [cite: 2026-02-20]
 
-                const frame = setInterval(() => {
-                    let p = (Date.now() - st) / dur;
+                const move = setInterval(() => {
+                    let p = (Date.now() - startTime) / duration;
+                    
                     if (p >= 1) {
-                        clearInterval(frame);
+                        clearInterval(move);
                         if (map.hasLayer(missile)) map.removeLayer(missile);
                         if (map.hasLayer(tag)) map.removeLayer(tag);
-                        detonate(data.to, color);
+                        impact(data.t, data.c);
                         return;
                     }
 
-                    let lat = data.from[0] + (data.to[0] - data.from[0]) * p;
-                    let lon = data.from[1] + (data.to[1] - data.from[1]) * p;
+                    let lat = data.f[0] + (data.t[0] - data.f[0]) * p;
+                    let lon = data.f[1] + (data.t[1] - data.f[1]) * p;
                     
-                    // БАЛИСТИКА: Различни криви за различните посоки [cite: 2026-02-20]
+                    // КОРЕКЦИЯ НА ТРАЕКТОРИЯТА [cite: 2026-02-20]
                     let arc = Math.sin(Math.PI * p) * 2.5;
                     let pos;
-                    if (data.side === "south") pos = [lat, lon + arc];
-                    else if (data.side === "east") pos = [lat - arc, lon]; // Ответният удар криви надолу
-                    else pos = [lat + arc, lon];
+                    if (data.s === "south") pos = [lat, lon + arc]; // Залива
+                    else if (data.s === "east") pos = [lat - arc, lon]; // Ответен удар
+                    else pos = [lat + arc, lon]; // Към Израел
 
                     missile.setLatLng(pos);
                     tag.setLatLng(pos);
 
-                    // СЛЕДА (TRAIL) [cite: 2026-02-20]
-                    const dot = L.circleMarker(pos, {
-                        radius: 0.9, weight: 1, color: color, opacity: 0.4, fillOpacity: 0, pane: 'warPane'
+                    // СИНЯ ИЛИ ЧЕРВЕНА СЛЕДА [cite: 2026-02-20]
+                    const trail = L.circleMarker(pos, {
+                        radius: 0.9, weight: 1, color: data.c, opacity: 0.4, fillOpacity: 0, pane: 'warPane'
                     }).addTo(map);
-                    setTimeout(() => { if (map.hasLayer(dot)) map.removeLayer(dot); }, 35000);
+                    setTimeout(() => { if (map.hasLayer(trail)) map.removeLayer(trail); }, 35000);
                 }, 500);
             }, delay);
         };
 
-        const detonate = (loc, color) => {
+        const impact = (loc, color) => {
             const b = L.circle(loc, { radius: 1000, color: '#fff', fillColor: color, fillOpacity: 0.7, pane: 'warPane' }).addTo(map);
             let r = 1000;
             const s = setInterval(() => {
@@ -1766,14 +1767,17 @@ setInterval(checkCriticalAlerts, 30000);
             }, 60);
         };
 
-        // Стартираме иранския залп (Червени) [cite: 2026-02-20]
-        IRAN_SALVO.forEach((m, i) => launch(m, true, i * 3500));
+        // Изстрелване на вълните [cite: 2026-02-20]
+        MISSION_DATA.forEach((m, i) => launch(m, i * 4000));
 
-        // Ответен удар след 20 сек (Сини) [cite: 2026-03-01]
-        COALITION_SALVO.forEach((m, i) => launch(m, false, 20000 + (i * 4500)));
-
-        console.log(">> [SYSTEM]: FULL THEATER ENGAGEMENT DEPLOYED.");
+        // ИЗЧИСЛЯВАНЕ НА ЦИКЪЛА ЗА РЕСТАРТ [cite: 2026-02-20]
+        // (Продължителност на полет) + (Закъснение на последната ракета) + 15 сек пауза
+        const restartTime = 180000 + (MISSION_DATA.length * 4000) + 15000;
+        
+        console.log(`>> [WAR ROOM]: Вълната приключва. Рестарт след ${restartTime/1000} сек.`);
+        setTimeout(startGlobalWar, restartTime);
     };
 
-    setTimeout(startEpicEngagement, 10000);
+    // Стартиране [cite: 2026-02-20]
+    setTimeout(startGlobalWar, 10000);
 })();
