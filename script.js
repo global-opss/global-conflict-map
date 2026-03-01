@@ -1692,7 +1692,6 @@ setInterval(checkCriticalAlerts, 30000);
             { t: "missile", f: [26.30, 50.15], t: [29.00, 51.00], c: "#00ebff", s: "north", d: 135000 }
         ];
 
-        // --- ЛИВАН (СТРИКТНО ПО ТВОЯТА СТРЕЛКА) ---
         const lebaneseStrikes = [
             { t: "missile", f: [33.95, 35.60], t: [32.81, 34.98], c: "#ff1100", s: "LEBANON_FIX", d: 110000 },
             { t: "missile", f: [34.10, 35.75], t: [32.81, 34.98], c: "#ff1100", s: "LEBANON_FIX", d: 120000 }
@@ -1715,9 +1714,16 @@ setInterval(checkCriticalAlerts, 30000);
         const launch = (data, delay) => {
             setTimeout(() => {
                 const isDrone = data.t === "drone";
+                
+                // --- КОЗМЕТИЧЕН ФИКС ЗА ИРАНСКИТЕ (west) И ЛИВАНСКИТЕ (LEBANON_FIX) ---
+                let rotation = isDrone ? '0deg' : '45deg';
+                if (data.s === "west" || data.s === "LEBANON_FIX") {
+                    rotation = '225deg'; 
+                }
+
                 const mIcon = L.divIcon({
                     className: 'v28-icon',
-                    html: `<div style="font-size:20px; text-shadow:0 0 8px ${data.c}; transform:rotate(${isDrone ? '0' : '45'}deg);">${isDrone ? '🛸' : '🚀'}</div>`,
+                    html: `<div style="font-size:20px; text-shadow:0 0 8px ${data.c}; transform:rotate(${rotation});">${isDrone ? '🛸' : '🚀'}</div>`,
                     iconSize: [25, 25], iconAnchor: [12, 12]
                 });
 
@@ -1735,10 +1741,9 @@ setInterval(checkCriticalAlerts, 30000);
                     let lat = data.f[0] + (data.t[0] - data.f[0]) * p;
                     let lon = data.f[1] + (data.t[1] - data.f[1]) * p;
 
-                    // ЛИВАНСКИТЕ РАКЕТИ ВЪРВЯТ ПО ПРАВА ЛИНИЯ (БЕЗ ДРЕЙФ)
                     let pos;
                     if (data.s === "LEBANON_FIX") {
-                        pos = [lat, lon];
+                        pos = [lat, lon]; // БЕЗ ПРОМЯНА ПО ЛИВАН
                     } else {
                         let arc = Math.sin(Math.PI * p) * (isDrone ? 2.5 : 1.5);
                         pos = [lat + (data.s === "west" ? arc : -arc), lon];
