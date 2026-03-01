@@ -1669,114 +1669,76 @@ setInterval(checkCriticalAlerts, 30000);
 
 })();
 
-// =============================================================================
-// 🛰️ PROJECT OVERLORD V6.0 - MAP-SYNCED BALLISTICS (MODERN VISUALS) [cite: 2026-02-20]
-// =============================================================================
-
 (function() {
-    const initSyncedStrike = () => {
-        if (typeof map === 'undefined' || !map) return;
+    const initFullScaleConflict = () => {
+        if (typeof map === 'undefined') return;
 
-        console.log("%c >> [SYSTEM]: MAP-SYNC PROTOCOL ACTIVATED ", "color: #00ebff; font-weight: bold;");
+        // Реални данни за ударите от 28.02.2026
+        const WAR_THEATER = [
+            { name: "Tel Aviv (Israel)", coords: [32.0853, 34.7818], origin: [34.3416, 47.0053], type: "Ballistic" },
+            { name: "Jerusalem (Israel)", coords: [31.7683, 35.2137], origin: [32.4988, 48.4833], type: "Ballistic" },
+            { name: "RAF Akrotiri (Cyprus)", coords: [34.5900, 32.9800], origin: [34.3416, 47.0053], type: "Long-Range" },
+            { name: "5th Fleet HQ (Bahrain)", coords: [26.2285, 50.5860], origin: [28.9234, 50.8203], type: "Drone Swarm" },
+            { name: "Kuwait Intl Airport", coords: [29.2243, 47.9691], origin: [30.5000, 47.8000], type: "Tactical" },
+            { name: "Dubai (UAE)", coords: [25.2048, 55.2708], origin: [27.2452, 56.3452], type: "Cruise" }
+        ];
 
-        let missilePane = map.createPane('missilePane');
-        missilePane.style.zIndex = 650;
-        missilePane.style.pointerEvents = 'none';
-
-        const STRIKE_CONFIG = {
-            origin: [35.6892, 51.3890],
-            target: [32.0853, 34.7818],
-            duration: 180000,
-            arcHeight: 5
-        };
-
-        const launch = () => {
-            const missileIcon = L.divIcon({
-                className: 'custom-missile-icon',
-                html: '<div style="width:10px; height:10px; background:#fff; border:2px solid #ff4500; border-radius:50%; box-shadow:0 0 15px #ff4500;"></div>',
-                iconSize: [10, 10],
-                iconAnchor: [5, 5]
+        const launchMissile = (data) => {
+            const mIcon = L.divIcon({
+                className: 'v11-missile',
+                html: '<div style="width:8px;height:8px;background:#fff;border:1.5px solid #ff4500;border-radius:50%;box-shadow:0 0 10px #ff4500;"></div>',
+                iconSize: [8,8], iconAnchor: [4,4]
             });
 
-            const missile = L.marker(STRIKE_CONFIG.origin, {
-                icon: missileIcon,
-                pane: 'missilePane',
-                interactive: false
-            }).addTo(map);
-
-            const etaTag = L.marker(STRIKE_CONFIG.origin, {
+            const missile = L.marker(data.origin, { icon: mIcon, pane: 'missilePane' }).addTo(map);
+            const label = L.marker(data.origin, {
                 icon: L.divIcon({
-                    className: 'eta-label',
-                    html: '<b style="color:#39FF14; font-family:monospace; font-size:11px; text-shadow:1px 1px #000; margin-left:15px;">ETA: 180s</b>',
-                    iconAnchor: [0, 0]
+                    className: 't-label',
+                    html: `<div style="color:#ff3300;font-family:monospace;font-size:10px;font-weight:bold;margin-left:12px;text-shadow:1px 1px #000;white-space:nowrap;">INCOMING: ${data.name}</div>`
                 }),
                 pane: 'missilePane'
             }).addTo(map);
 
             let start = Date.now();
+            let duration = 160000; 
 
-            const frame = setInterval(() => {
-                let elapsed = Date.now() - start;
-                let p = elapsed / STRIKE_CONFIG.duration;
-
+            const flight = setInterval(() => {
+                let p = (Date.now() - start) / duration;
                 if (p >= 1) {
-                    clearInterval(frame);
+                    clearInterval(flight);
                     map.removeLayer(missile);
-                    map.removeLayer(etaTag);
-                    triggerMapExplosion(STRIKE_CONFIG.target);
+                    map.removeLayer(label);
+                    detonate(data.coords);
                     return;
                 }
 
-                let curLat = STRIKE_CONFIG.origin[0] + (STRIKE_CONFIG.target[0] - STRIKE_CONFIG.origin[0]) * p;
-                let curLon = STRIKE_CONFIG.origin[1] + (STRIKE_CONFIG.target[1] - STRIKE_CONFIG.origin[1]) * p;
-                let arc = Math.sin(Math.PI * p) * STRIKE_CONFIG.arcHeight;
-                let visualPos = [curLat + arc, curLon];
+                let lat = data.origin[0] + (data.coords[0] - data.origin[0]) * p;
+                let lon = data.origin[1] + (data.coords[1] - data.origin[1]) * p;
+                let arc = Math.sin(Math.PI * p) * 4.0;
+                let pos = [lat + arc, lon];
 
-                missile.setLatLng(visualPos);
-                etaTag.setLatLng(visualPos);
-                
-                let rem = Math.round((STRIKE_CONFIG.duration - elapsed) / 1000);
-                etaTag.setIcon(L.divIcon({
-                    className: 'eta-label',
-                    html: `<b style="color:#39FF14; font-family:monospace; font-size:11px; text-shadow:1px 1px #000; white-space:nowrap; margin-left:15px;">ETA: ${rem}s</b>`
-                }));
+                missile.setLatLng(pos);
+                label.setLatLng(pos);
 
-                // МОДЕРНИЗИРАНА КОЗМЕТИЧНА СЛЕДА [cite: 2026-02-20]
-                const dot = L.circleMarker(visualPos, {
-                    radius: 1.2,
-                    weight: 1,
-                    color: 'rgba(255, 69, 0, 0.4)',
-                    fillColor: 'rgba(255, 69, 0, 0.1)',
-                    fillOpacity: 0.1,
-                    pane: 'missilePane',
-                    interactive: false
+                const dot = L.circleMarker(pos, {
+                    radius: 0.8, color: 'rgba(255, 69, 0, 0.3)', fillOpacity: 0.1, pane: 'missilePane'
                 }).addTo(map);
-
-                setTimeout(() => map.removeLayer(dot), 60000);
-            }, 250);
+                setTimeout(() => map.removeLayer(dot), 50000);
+            }, 300);
         };
 
-        const triggerMapExplosion = (target) => {
-            const boom = L.circle(target, {
-                radius: 5000,
-                color: '#ff4500',
-                fillColor: '#ff0000',
-                fillOpacity: 0.6,
-                pane: 'missilePane'
-            }).addTo(map);
-
-            let size = 5000;
-            const anim = setInterval(() => {
-                size += 4000;
-                boom.setRadius(size);
-                boom.setStyle({ opacity: boom.options.opacity - 0.04, fillOpacity: boom.options.fillOpacity - 0.04 });
-                if (size > 120000) { clearInterval(anim); map.removeLayer(boom); }
+        const detonate = (loc) => {
+            const b = L.circle(loc, { radius: 100, color: '#fff', fillColor: '#ff0000', fillOpacity: 0.8, pane: 'missilePane' }).addTo(map);
+            let r = 100;
+            const s = setInterval(() => {
+                r += 4000; b.setRadius(r);
+                if (r > 150000) { clearInterval(s); map.removeLayer(b); }
             }, 50);
         };
 
-        setInterval(launch, 300000);
-        launch();
+        // Последователно изстрелване на вълните
+        WAR_THEATER.forEach((t, i) => setTimeout(() => launchMissile(t), i * 4000));
     };
 
-    setTimeout(initSyncedStrike, 8000);
+    setTimeout(initFullScaleConflict, 7000);
 })();
