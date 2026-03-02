@@ -1676,26 +1676,18 @@ setInterval(checkCriticalAlerts, 30000);
             setTimeout(startGlobalWar, 3000); return;
         }
 
-        // Подсигуряваме, че няма остатъчни панели, които да пречат
-        const oldLog = document.getElementById('escalation-log-container');
-        if (oldLog) oldLog.remove();
-
         if (!map.getPane('warPane')) {
             const pane = map.createPane('warPane');
             pane.style.zIndex = 650;
             pane.style.pointerEvents = 'none';
         }
 
-        // --- ДАННИ ЗА МИСИИТЕ (БЕЗ ТРИЕНЕ) ---
-        const coalitionStrikes = [
-            { t: "missile", f: [31.50, 34.80], target: [35.68, 51.38], c: "#00ebff", s: "east", d: 150000 },
-            { t: "missile", f: [33.33, 44.36], target: [35.68, 51.38], c: "#00ebff", s: "east", d: 140000 }
-        ];
-
-        const usGulfStrikes = [ //
-            { t: "missile", f: [25.27, 51.50], target: [27.15, 52.70], c: "#00ebff", s: "north_fast", d: 40000 },
-            { t: "missile", f: [24.45, 54.37], target: [26.40, 54.10], c: "#00ebff", s: "north_fast", d: 42000 },
-            { t: "missile", f: [24.00, 52.00], target: [26.00, 53.50], c: "#00ebff", s: "north_fast", d: 45000 }
+        // --- ДАННИ ЗА МИСИИТЕ (С ТОЧНИ КООРДИНАТИ ОТ СКРИЙНШОТИТЕ) ---
+        const usGulfStrikes = [ 
+            // УДАРИ В ОРМУЗКИЯ ПРОЛИВ (ПО image_ef69f7.png)
+            { t: "missile", f: [25.27, 51.50], target: [26.45, 55.10], c: "#00ebff", s: "north_fast", d: 35000 }, 
+            { t: "missile", f: [24.45, 54.37], target: [26.20, 55.80], c: "#00ebff", s: "north_fast", d: 38000 }, 
+            { t: "missile", f: [24.00, 52.00], target: [26.85, 55.25], c: "#00ebff", s: "north_fast", d: 42000 }
         ];
 
         const iranianMissiles = [
@@ -1705,13 +1697,11 @@ setInterval(checkCriticalAlerts, 30000);
             { t: "missile", f: [35.10, 46.80], target: [31.82, 36.75], c: "#ff1100", s: "west", d: 88000 },
             { t: "missile", f: [34.20, 46.00], target: [31.85, 36.82], c: "#ff1100", s: "west", d: 95000 },
             { t: "missile", f: [35.40, 47.00], target: [31.80, 36.76], c: "#ff1100", s: "west", d: 91000 },
-            // ERBIL STRIKES
+            
+            // УДАРИ ПО ERBIL (ИРАК)
             { t: "missile", f: [35.10, 47.10], target: [36.19, 43.95], c: "#ff1100", s: "west", d: 55000 },
             { t: "missile", f: [35.80, 46.80], target: [36.21, 44.01], c: "#ff1100", s: "west", d: 60000 },
-            { t: "missile", f: [34.90, 47.30], target: [36.15, 43.90], c: "#ff1100", s: "west", d: 58000 },
-            // КУВЕЙТ И ТУРЦИЯ
-            { t: "missile", f: [35.68, 51.38], target: [37.00, 35.42], c: "#ff1100", s: "west", d: 130000 },
-            { t: "missile", f: [31.50, 49.50], target: [29.34, 47.52], c: "#ff1100", s: "west", d: 80000 }
+            { t: "missile", f: [34.90, 47.30], target: [36.15, 43.90], c: "#ff1100", s: "west", d: 58000 }
         ];
 
         const droneSwarm = [
@@ -1719,16 +1709,15 @@ setInterval(checkCriticalAlerts, 30000);
             { t: "drone", f: [31.00, 47.00], target: [24.45, 54.37], c: "#ffa500", s: "south", d: 520000 }
         ];
 
-        const MISSION_DATA = [...coalitionStrikes, ...usGulfStrikes, ...iranianMissiles, ...droneSwarm];
+        const MISSION_DATA = [...usGulfStrikes, ...iranianMissiles, ...droneSwarm];
 
         const launch = (data, delay) => {
             setTimeout(() => {
                 const isDrone = data.t === "drone";
-                let rotation = (data.c === "#00ebff") ? '0deg' : '45deg';
+                let rotation = (data.c === "#00ebff") ? '315deg' : '225deg';
                 if (data.s === "west") rotation = '225deg';
                 if (data.s === "north_fast") rotation = '315deg';
 
-                // ВРЪЩАНЕ НА ИКОНКИТЕ В HTML [cite: 2026-03-03]
                 const mIcon = L.divIcon({
                     className: 'v30-icon',
                     html: `<div style="font-size:22px; text-shadow:0 0 10px ${data.c}; transform:rotate(${rotation});">${isDrone ? '🛸' : '🚀'}</div>`,
@@ -1747,11 +1736,12 @@ setInterval(checkCriticalAlerts, 30000);
                     }
                     let lat = data.f[0] + (data.target[0] - data.f[0]) * p;
                     let lon = data.f[1] + (data.target[1] - data.f[1]) * p;
-                    let pos = (data.s === "north_fast") ? [lat, lon] : [lat + Math.sin(Math.PI * p) * 1.2, lon];
                     
-                    missile.setLatLng(pos);
-                    const trail = L.circleMarker(pos, { radius: 1, color: data.c, opacity: 0.3, pane: 'warPane' }).addTo(map);
-                    setTimeout(() => { if (map.hasLayer(trail)) map.removeLayer(trail); }, 10000);
+                    let curve = (data.s === "north_fast") ? 0 : Math.sin(Math.PI * p) * 1.5;
+                    missile.setLatLng([lat + curve, lon]);
+
+                    const trail = L.circleMarker([lat + curve, lon], { radius: 1.2, color: data.c, opacity: 0.3, pane: 'warPane' }).addTo(map);
+                    setTimeout(() => { if (map.hasLayer(trail)) map.removeLayer(trail); }, 12000);
                 }, 400);
             }, delay);
         };
@@ -1764,9 +1754,9 @@ setInterval(checkCriticalAlerts, 30000);
                 if (r > 190000) { clearInterval(s); if (map.hasLayer(b)) map.removeLayer(b); }
             }, 50);
 
-            // ВРЪЩАНЕ НА ЕМОДЖИТЕ ЗА УДАР [cite: 2026-03-03]
             let emoji = isDrone ? "🔥" : "💥";
-            if (color === "#ff1100" && (loc[0] < 37)) emoji = "💀";
+            // Показва 💀 при попадение в US бази (Jordan/Erbil)
+            if (color === "#ff1100" && (loc[0] < 37 || loc[1] < 45)) emoji = "💀";
 
             const mark = L.marker(loc, {
                 icon: L.divIcon({ html: `<div style="font-size:35px; text-shadow: 0 0 15px ${color};">${emoji}</div>`, iconSize: [45, 45], iconAnchor: [22, 22] }),
@@ -1775,7 +1765,7 @@ setInterval(checkCriticalAlerts, 30000);
             setTimeout(() => { if (map.hasLayer(mark)) map.removeLayer(mark); }, 50000);
         };
 
-        MISSION_DATA.forEach((m, i) => launch(m, i * 4000));
+        MISSION_DATA.forEach((m, i) => launch(m, i * 4500));
         setTimeout(startGlobalWar, 600000);
     };
     setTimeout(startGlobalWar, 5000);
