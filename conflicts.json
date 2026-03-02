@@ -1,5 +1,47 @@
 [
     {
+        "country": "Europe",
+        "city": "Brussels",
+        "lat": 50.84146420110815,
+        "lon": 4.288038632805916,
+        "date": "2026-03-02 18:06:22",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "The U.S. Released the Epstein Files. The Arrests Are Overseas.",
+        "description": "While the latest tranche of documents about the sex offender Jeffrey Epstein has exposed a deeply American scandal, it is Europe where the aggressive enforcement is taking place.",
+        "fatalities": "0",
+        "link": "https://www.nytimes.com/2026/03/01/world/europe/epstein-files-arrests-europe-uk.html",
+        "critical": false
+    },
+    {
+        "country": "Israel",
+        "city": "Tel Aviv",
+        "lat": 32.05698485718689,
+        "lon": 34.7426656557756,
+        "date": "2026-03-02 18:06:18",
+        "type": "Airstrike",
+        "severity": "critical",
+        "title": "Iran Attacks Dubai, Abu Dhabi, Qatar and Bahrain After U.S.-Israeli Strikes",
+        "description": "More than 100 people were injured and at least four were killed after Iran fired hundreds of missiles and drones at Gulf cities, including Dubai, Abu Dhabi and Doha.",
+        "fatalities": "0",
+        "link": "https://www.nytimes.com/2026/03/01/world/middleeast/iran-attacks-dubai-persian-gulf-countries-retaliation.html",
+        "critical": true
+    },
+    {
+        "country": "Israel",
+        "city": "Tel Aviv",
+        "lat": 32.05754434077528,
+        "lon": 34.7613818752894,
+        "date": "2026-03-02 18:06:18",
+        "type": "Airstrike",
+        "severity": "critical",
+        "title": "After Attack on Iran by the U.S. and Israel, See Photos and Videos From the Middle East",
+        "description": "Here are images from Iran, Israel, Lebanon and elsewhere in the Middle East.",
+        "fatalities": "0",
+        "link": "https://www.nytimes.com/2026/02/28/world/middleeast/iran-israel-trump-attack-photos.html",
+        "critical": true
+    },
+    {
         "country": "Israel",
         "city": "Jerusalem",
         "lat": 31.765082339237637,
@@ -5079,48 +5121,6 @@
         "description": "The Israeli Air Force has launched a new wave of attacks on Tehran.",
         "fatalities": "0",
         "link": "https://www.aljazeera.com/video/newsfeed/2026/3/1/video-smoke-rises-above-tehran-after-latest-us-israeli-attacks?traffic_source=rss",
-        "critical": true
-    },
-    {
-        "country": "Israel",
-        "city": "Tel Aviv",
-        "lat": 32.04933145068335,
-        "lon": 34.846946032136,
-        "date": "2026-03-01 14:52:24",
-        "type": "Naval",
-        "severity": "normal",
-        "title": "How US-Israel attacks on Iran threaten the Strait of Hormuz, oil markets",
-        "description": "About 20-30 percent of global oil and gas supplies are shipped through the Strait of Hormuz.",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/news/2026/3/1/how-us-israel-attacks-on-iran-threaten-the-strait-of-hormuz-oil-markets?traffic_source=rss",
-        "critical": false
-    },
-    {
-        "country": "Israel",
-        "city": "Tel Aviv",
-        "lat": 32.04731325314714,
-        "lon": 34.74962409567586,
-        "date": "2026-03-01 14:52:24",
-        "type": "Clashes",
-        "severity": "middle",
-        "title": "The US-Israeli war on Iran could rewrite Gulf security calculations",
-        "description": "A prolonged conflict is bound to disrupt the model of regional stability and economic prosperity the Gulf has pursued.",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/opinions/2026/3/1/the-us-israeli-war-on-iran-could-rewrite-gulf-security-calculations?traffic_source=rss",
-        "critical": false
-    },
-    {
-        "country": "Israel",
-        "city": "Tel Aviv",
-        "lat": 32.11682562140011,
-        "lon": 34.79508289541854,
-        "date": "2026-03-01 14:52:21",
-        "type": "Airstrike",
-        "severity": "critical",
-        "title": "US-Israel attacks on Iran: Death toll and injuries live tracker",
-        "description": "Preliminary figures are 201 dead and 747 injured in Iran and at least nine killed and 121 injured in Israel.",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/news/2026/3/1/us-israel-attacks-on-iran-death-toll-and-injuries-live-tracker?traffic_source=rss",
         "critical": true
     }
 ]
