@@ -243,40 +243,34 @@
 
 <div id="x-intel-container" style="
     position: fixed !important;
-    top: 280px;
+    top: 150px; /* Преместен значително по-нагоре */
     left: 20px;
-    width: 280px; 
-    height: 320px; /* По-малък размер, за да не пречи */
-    border: 1px solid rgba(255, 17, 0, 0.5);
-    background: rgba(0, 0, 0, 0.85) !important;
+    width: 320px; /* По-широк за по-добра четимост */
+    height: 480px; /* Оптимална височина за туитове с медия */
+    border: 1px solid rgba(255, 49, 49, 0.6);
+    background: rgba(0, 0, 0, 0.98) !important;
     z-index: 10002;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
     border-radius: 4px;
     overflow: hidden;
 ">
-    <div style="background: rgba(255, 17, 0, 0.15); color: #ff4444; padding: 4px 8px; font-family: monospace; font-size: 10px; font-weight: bold; border-bottom: 1px solid rgba(255, 17, 0, 0.2); display: flex; justify-content: space-between;">
-        <span>📡 INTEL: @Borislav</span>
-        <span style="animation: blink 1s infinite;">●</span>
+    <div style="background: rgba(255, 17, 0, 0.2); color: #ff3131; padding: 6px 10px; font-family: 'Courier New', monospace; font-size: 11px; font-weight: bold; border-bottom: 1px solid rgba(255, 49, 49, 0.3); display: flex; justify-content: space-between; align-items: center;">
+        <span>📡 LIVE INTEL FEED: @Borislav</span>
+        <span style="font-size: 8px; animation: blink 1s infinite; color: #ff0000;">● LIVE</span>
     </div>
 
-    <div id="x-feed-wrapper" style="height: calc(100% - 25px); overflow-y: auto;">
-        <a class="twitter-timeline" 
-           data-theme="dark" 
-           data-chrome="noheader nofooter noborders transparent" 
-           data-tweet-limit="3" 
-           data-link-color="#ff1100"
-           href="https://twitter.com/BorislavBo98710?ref_src=twsrc%5Etfw">
-           <div style="color: #666; font-size: 11px; padding: 20px; text-align: center;">Syncing with Satellite...</div>
-        </a>
+    <div style="height: calc(100% - 32px); width: 100%; overflow: hidden;">
+        <iframe 
+            src="https://syndication.twitter.com/srv/timeline-profile/screen_name/BorislavBo98710?dnt=true&embedId=twitter-widget-0&frame=false&hideBorder=true&hideFooter=true&hideHeader=true&hideScrollBar=true&lang=bg&maxTweets=5&theme=dark&transparent=true"
+            style="position: absolute; width: 100%; height: 100%; border: none;"
+            title="X Intel Feed"
+            scrolling="yes">
+        </iframe>
     </div>
 </div>
 
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
 <style>
     @keyframes blink { 0% { opacity: 1; } 50% { opacity: 0; } 100% { opacity: 1; } }
-    /* Скриване на скролбара за по-чист вид */
-    #x-feed-wrapper::-webkit-scrollbar { width: 0px; background: transparent; }
 </style>
     
     
