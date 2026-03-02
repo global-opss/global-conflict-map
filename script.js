@@ -1776,31 +1776,6 @@ setInterval(checkCriticalAlerts, 30000);
     setTimeout(startGlobalWar, 5000);
 })();
 
-// --- КОНТРОЛЕР ЗА ESCALATION LOG ---
-(function() {
-    const logContainer = document.getElementById('escalation-log-container');
-    if (!logContainer) return;
-    logContainer.style.transition = "all 0.4s cubic-bezier(0.4, 0, 0.2, 1)";
-    logContainer.style.overflow = "hidden";
-    const header = logContainer.querySelector('.panel-header');
-    const toggleBtn = document.createElement('span');
-    toggleBtn.innerHTML = "[ — ]";
-    toggleBtn.style.cssText = `float: right; margin-right: 10px; cursor: pointer; font-weight: bold; font-family: monospace; color: #ff3131;`;
-    header.insertBefore(toggleBtn, header.lastElementChild);
-    let isCollapsed = false;
-    const fullHeight = "250px";
-    toggleBtn.onclick = function() {
-        if (!isCollapsed) {
-            logContainer.style.height = "32px";
-            toggleBtn.innerHTML = "[ + ]";
-            isCollapsed = true;
-        } else {
-            logContainer.style.height = fullHeight;
-            toggleBtn.innerHTML = "[ — ]";
-            isCollapsed = false;
-        }
-    };
-})();
 
 // --- КОНТРОЛЕР ЗА TACTICAL COMMS ---
 (function() {
