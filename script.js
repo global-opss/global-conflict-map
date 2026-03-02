@@ -1676,57 +1676,62 @@ setInterval(checkCriticalAlerts, 30000);
             setTimeout(startGlobalWar, 3000); return;
         }
 
+        // Подсигуряваме, че няма остатъчни панели, които да пречат
+        const oldLog = document.getElementById('escalation-log-container');
+        if (oldLog) oldLog.remove();
+
         if (!map.getPane('warPane')) {
             const pane = map.createPane('warPane');
             pane.style.zIndex = 650;
             pane.style.pointerEvents = 'none';
         }
 
+        // --- ДАННИ ЗА МИСИИТЕ (БЕЗ ТРИЕНЕ) ---
         const coalitionStrikes = [
             { t: "missile", f: [31.50, 34.80], target: [35.68, 51.38], c: "#00ebff", s: "east", d: 150000 },
-            { t: "missile", f: [33.33, 44.36], target: [35.68, 51.38], c: "#00ebff", s: "east", d: 140000 },
-            { t: "missile", f: [32.07, 34.78], target: [33.89, 35.50], c: "#00ebff", s: "north_fast", d: 45000 }
+            { t: "missile", f: [33.33, 44.36], target: [35.68, 51.38], c: "#00ebff", s: "east", d: 140000 }
         ];
 
-        const lebaneseStrikes = [
-            { t: "missile", f: [33.95, 35.60], target: [32.81, 34.98], c: "#ff1100", s: "LEBANON_FIX", d: 110000 },
-            { t: "missile", f: [34.10, 35.75], target: [32.81, 34.98], c: "#ff1100", s: "LEBANON_FIX", d: 120000 }
+        const usGulfStrikes = [ //
+            { t: "missile", f: [25.27, 51.50], target: [27.15, 52.70], c: "#00ebff", s: "north_fast", d: 40000 },
+            { t: "missile", f: [24.45, 54.37], target: [26.40, 54.10], c: "#00ebff", s: "north_fast", d: 42000 },
+            { t: "missile", f: [24.00, 52.00], target: [26.00, 53.50], c: "#00ebff", s: "north_fast", d: 45000 }
         ];
 
         const iranianMissiles = [
-            { t: "missile", f: [35.68, 51.38], target: [37.00, 35.42], c: "#ff1100", s: "west", d: 130000 }, // INCIRLIK
-            { t: "missile", f: [31.50, 49.50], target: [29.34, 47.52], c: "#ff1100", s: "west", d: 80000 }, // KUWAIT
-            
-            // --- МАСИРАНА АТАКА ПО JORDAN (5 РАКЕТИ) ---
+            // МАСИРАН УДАР JORDAN (5 РАКЕТИ)
             { t: "missile", f: [34.80, 46.50], target: [31.83, 36.78], c: "#ff1100", s: "west", d: 90000 },
             { t: "missile", f: [34.50, 46.20], target: [31.84, 36.80], c: "#ff1100", s: "west", d: 92000 },
             { t: "missile", f: [35.10, 46.80], target: [31.82, 36.75], c: "#ff1100", s: "west", d: 88000 },
             { t: "missile", f: [34.20, 46.00], target: [31.85, 36.82], c: "#ff1100", s: "west", d: 95000 },
             { t: "missile", f: [35.40, 47.00], target: [31.80, 36.76], c: "#ff1100", s: "west", d: 91000 },
-
-            // --- ERBIL AIRBASE, IRAQ ---
+            // ERBIL STRIKES
             { t: "missile", f: [35.10, 47.10], target: [36.19, 43.95], c: "#ff1100", s: "west", d: 55000 },
             { t: "missile", f: [35.80, 46.80], target: [36.21, 44.01], c: "#ff1100", s: "west", d: 60000 },
-            { t: "missile", f: [34.90, 47.30], target: [36.15, 43.90], c: "#ff1100", s: "west", d: 58000 }
+            { t: "missile", f: [34.90, 47.30], target: [36.15, 43.90], c: "#ff1100", s: "west", d: 58000 },
+            // КУВЕЙТ И ТУРЦИЯ
+            { t: "missile", f: [35.68, 51.38], target: [37.00, 35.42], c: "#ff1100", s: "west", d: 130000 },
+            { t: "missile", f: [31.50, 49.50], target: [29.34, 47.52], c: "#ff1100", s: "west", d: 80000 }
         ];
 
         const droneSwarm = [
             { t: "drone", f: [30.50, 47.50], target: [25.25, 55.36], c: "#ffa500", s: "south", d: 500000 },
-            { t: "drone", f: [31.00, 47.00], target: [24.45, 54.37], c: "#ffa500", s: "south", d: 520000 },
-            { t: "drone", f: [28.50, 54.50], target: [25.25, 55.36], c: "#ffa500", s: "south", d: 490000 }
+            { t: "drone", f: [31.00, 47.00], target: [24.45, 54.37], c: "#ffa500", s: "south", d: 520000 }
         ];
 
-        const MISSION_DATA = [...coalitionStrikes, ...lebaneseStrikes, ...iranianMissiles, ...droneSwarm];
+        const MISSION_DATA = [...coalitionStrikes, ...usGulfStrikes, ...iranianMissiles, ...droneSwarm];
 
         const launch = (data, delay) => {
             setTimeout(() => {
                 const isDrone = data.t === "drone";
                 let rotation = (data.c === "#00ebff") ? '0deg' : '45deg';
-                if (data.s === "west" || data.s === "LEBANON_FIX") rotation = '225deg';
+                if (data.s === "west") rotation = '225deg';
+                if (data.s === "north_fast") rotation = '315deg';
 
+                // ВРЪЩАНЕ НА ИКОНКИТЕ В HTML [cite: 2026-03-03]
                 const mIcon = L.divIcon({
                     className: 'v30-icon',
-                    html: `<div style="font-size:20px; text-shadow:0 0 8px ${data.c}; transform:rotate(${rotation});">${isDrone ? '🛸' : '🚀'}</div>`,
+                    html: `<div style="font-size:22px; text-shadow:0 0 10px ${data.c}; transform:rotate(${rotation});">${isDrone ? '🛸' : '🚀'}</div>`,
                     iconSize: [25, 25], iconAnchor: [12, 12]
                 });
 
@@ -1736,40 +1741,41 @@ setInterval(checkCriticalAlerts, 30000);
                 const move = setInterval(() => {
                     let p = (Date.now() - startTime) / data.d;
                     if (p >= 1) {
-                        clearInterval(move); 
-                        if (map.hasLayer(missile)) map.removeLayer(missile); 
+                        clearInterval(move);
+                        if (map.hasLayer(missile)) map.removeLayer(missile);
                         impact(data.target, data.c, isDrone); return;
                     }
                     let lat = data.f[0] + (data.target[0] - data.f[0]) * p;
                     let lon = data.f[1] + (data.target[1] - data.f[1]) * p;
-                    let pos = (data.s === "LEBANON_FIX" || data.s === "north_fast") ? [lat, lon] : 
-                              [lat + (data.s === "west" ? Math.sin(Math.PI * p) * 1.5 : -Math.sin(Math.PI * p) * 1.5), lon];
+                    let pos = (data.s === "north_fast") ? [lat, lon] : [lat + Math.sin(Math.PI * p) * 1.2, lon];
+                    
                     missile.setLatLng(pos);
-                    const trail = L.circleMarker(pos, { radius: isDrone ? 0.6 : 1.2, color: data.c, opacity: 0.3, pane: 'warPane' }).addTo(map);
-                    setTimeout(() => { if (map.hasLayer(trail)) map.removeLayer(trail); }, 15000);
+                    const trail = L.circleMarker(pos, { radius: 1, color: data.c, opacity: 0.3, pane: 'warPane' }).addTo(map);
+                    setTimeout(() => { if (map.hasLayer(trail)) map.removeLayer(trail); }, 10000);
                 }, 400);
             }, delay);
         };
 
         const impact = (loc, color, isDrone) => {
-            const b = L.circle(loc, { radius: isDrone ? 2500 : 5000, color: '#fff', fillColor: color, fillOpacity: 0.7, pane: 'warPane' }).addTo(map);
-            let r = isDrone ? 2500 : 5000;
+            const b = L.circle(loc, { radius: 5000, color: '#fff', fillColor: color, fillOpacity: 0.8, pane: 'warPane' }).addTo(map);
+            let r = 5000;
             const s = setInterval(() => {
-                r += 8500; b.setRadius(r);
-                if (r > 195000) { clearInterval(s); if (map.hasLayer(b)) map.removeLayer(b); }
+                r += 9000; b.setRadius(r);
+                if (r > 190000) { clearInterval(s); if (map.hasLayer(b)) map.removeLayer(b); }
             }, 50);
 
+            // ВРЪЩАНЕ НА ЕМОДЖИТЕ ЗА УДАР [cite: 2026-03-03]
             let emoji = isDrone ? "🔥" : "💥";
-            if (loc[0] < 37 && color === "#ff1100") emoji = "💀"; 
+            if (color === "#ff1100" && (loc[0] < 37)) emoji = "💀";
 
             const mark = L.marker(loc, {
-                icon: L.divIcon({ html: `<div style="font-size:32px; text-shadow: 0 0 10px ${color};">${emoji}</div>`, iconSize: [40, 40], iconAnchor: [20, 20] }),
+                icon: L.divIcon({ html: `<div style="font-size:35px; text-shadow: 0 0 15px ${color};">${emoji}</div>`, iconSize: [45, 45], iconAnchor: [22, 22] }),
                 pane: 'warPane'
             }).addTo(map);
-            setTimeout(() => { if (map.hasLayer(mark)) map.removeLayer(mark); }, 60000);
+            setTimeout(() => { if (map.hasLayer(mark)) map.removeLayer(mark); }, 50000);
         };
 
-        MISSION_DATA.forEach((m, i) => launch(m, i * 5000));
+        MISSION_DATA.forEach((m, i) => launch(m, i * 4000));
         setTimeout(startGlobalWar, 600000);
     };
     setTimeout(startGlobalWar, 5000);
