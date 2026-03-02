@@ -1684,11 +1684,8 @@ setInterval(checkCriticalAlerts, 30000);
 
         const coalitionStrikes = [
             { t: "missile", f: [31.50, 34.80], target: [35.68, 51.38], c: "#00ebff", s: "east", d: 150000 },
-            { t: "missile", f: [32.00, 34.85], target: [35.69, 51.39], c: "#00ebff", s: "east", d: 155000 },
             { t: "missile", f: [33.33, 44.36], target: [35.68, 51.38], c: "#00ebff", s: "east", d: 140000 },
-            { t: "missile", f: [33.80, 42.50], target: [28.83, 50.88], c: "#00ebff", s: "east", d: 140000 }, 
-            { t: "missile", f: [26.21, 50.60], target: [35.68, 51.38], c: "#00ebff", s: "north", d: 130000 },
-            { t: "missile", f: [32.07, 34.78], target: [33.89, 35.50], c: "#00ebff", s: "north_fast", d: 45000 } // BEIRUT STRIKE
+            { t: "missile", f: [32.07, 34.78], target: [33.89, 35.50], c: "#00ebff", s: "north_fast", d: 45000 }
         ];
 
         const lebaneseStrikes = [
@@ -1698,11 +1695,9 @@ setInterval(checkCriticalAlerts, 30000);
 
         const iranianMissiles = [
             { t: "missile", f: [35.68, 51.38], target: [37.00, 35.42], c: "#ff1100", s: "west", d: 130000 }, // INCIRLIK
-            { t: "missile", f: [34.00, 50.00], target: [32.08, 34.78], c: "#ff1100", s: "west", d: 145000 },
-            { t: "missile", f: [32.50, 51.50], target: [32.08, 34.78], c: "#ff1100", s: "west", d: 140000 },
-            // НОВИ УДАРИ ПО БАЗИ: JORDAN & KUWAIT
-            { t: "missile", f: [34.30, 47.00], target: [31.50, 37.00], c: "#ff1100", s: "west", d: 90000 }, // TO JORDAN
-            { t: "missile", f: [32.00, 48.00], target: [29.10, 47.50], c: "#ff1100", s: "west", d: 80000 }  // TO KUWAIT
+            // --- КОРЕКЦИЯ: ТОЧНИ УДАРИ ПО US БАЗИ ---
+            { t: "missile", f: [34.80, 46.50], target: [31.83, 36.78], c: "#ff1100", s: "west", d: 90000 }, // TO JORDAN (MUWAFFAQ SALTI)
+            { t: "missile", f: [31.50, 49.50], target: [29.34, 47.52], c: "#ff1100", s: "west", d: 80000 }  // TO KUWAIT (ALI AL SALEM)
         ];
 
         const droneSwarm = [
@@ -1755,8 +1750,8 @@ setInterval(checkCriticalAlerts, 30000);
             }, 50);
 
             let emoji = isDrone ? "🔥" : "💥";
-            if (loc[1] > 51) emoji = "💀"; 
-            if (loc[0] === 28.83) emoji = "☢️"; 
+            // Специално емоджи за директен удар по база
+            if (loc[0] < 32 && color === "#ff1100") emoji = "💀"; 
 
             const mark = L.marker(loc, {
                 icon: L.divIcon({ html: `<div style="font-size:32px; text-shadow: 0 0 10px ${color};">${emoji}</div>`, iconSize: [40, 40], iconAnchor: [20, 20] }),
