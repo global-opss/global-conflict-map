@@ -1695,9 +1695,16 @@ setInterval(checkCriticalAlerts, 30000);
 
         const iranianMissiles = [
             { t: "missile", f: [35.68, 51.38], target: [37.00, 35.42], c: "#ff1100", s: "west", d: 130000 }, // INCIRLIK
-            { t: "missile", f: [34.80, 46.50], target: [31.83, 36.78], c: "#ff1100", s: "west", d: 90000 }, // JORDAN
             { t: "missile", f: [31.50, 49.50], target: [29.34, 47.52], c: "#ff1100", s: "west", d: 80000 }, // KUWAIT
-            // --- НОВИ УДАРИ: ERBIL AIRBASE, IRAQ ---
+            
+            // --- МАСИРАНА АТАКА ПО JORDAN (5 РАКЕТИ) ---
+            { t: "missile", f: [34.80, 46.50], target: [31.83, 36.78], c: "#ff1100", s: "west", d: 90000 },
+            { t: "missile", f: [34.50, 46.20], target: [31.84, 36.80], c: "#ff1100", s: "west", d: 92000 },
+            { t: "missile", f: [35.10, 46.80], target: [31.82, 36.75], c: "#ff1100", s: "west", d: 88000 },
+            { t: "missile", f: [34.20, 46.00], target: [31.85, 36.82], c: "#ff1100", s: "west", d: 95000 },
+            { t: "missile", f: [35.40, 47.00], target: [31.80, 36.76], c: "#ff1100", s: "west", d: 91000 },
+
+            // --- ERBIL AIRBASE, IRAQ ---
             { t: "missile", f: [35.10, 47.10], target: [36.19, 43.95], c: "#ff1100", s: "west", d: 55000 },
             { t: "missile", f: [35.80, 46.80], target: [36.21, 44.01], c: "#ff1100", s: "west", d: 60000 },
             { t: "missile", f: [34.90, 47.30], target: [36.15, 43.90], c: "#ff1100", s: "west", d: 58000 }
@@ -1762,7 +1769,7 @@ setInterval(checkCriticalAlerts, 30000);
             setTimeout(() => { if (map.hasLayer(mark)) map.removeLayer(mark); }, 60000);
         };
 
-        MISSION_DATA.forEach((m, i) => launch(m, i * 6500));
+        MISSION_DATA.forEach((m, i) => launch(m, i * 5000));
         setTimeout(startGlobalWar, 600000);
     };
     setTimeout(startGlobalWar, 5000);
