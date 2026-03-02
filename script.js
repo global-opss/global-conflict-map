@@ -1676,8 +1676,7 @@ setInterval(checkCriticalAlerts, 30000);
             setTimeout(startGlobalWar, 3000); return;
         }
 
-        // Чистим старите слоеве, за да не претоварваме
-        if (window.warInterval) clearInterval(window.warInterval);
+        if (window.warInterval) clearTimeout(window.warInterval);
         
         if (!map.getPane('warPane')) {
             const pane = map.createPane('warPane');
@@ -1685,41 +1684,43 @@ setInterval(checkCriticalAlerts, 30000);
             pane.style.pointerEvents = 'none';
         }
 
-        // --- ПЪЛЕН СПИСЪК НА ВСИЧКИ РАКЕТИ (НИЩО НЕ ЛИПСВА) ---
+        // --- ЦЕЛИ (Restored & Verified) ---
         const MISSION_DATA = [
-            // 5 ИЗРАЕЛСКИ ТЕЖКИ РАКЕТИ КЪМ ТЕХЕРАН
-            { t: "missile", f: [31.50, 34.75], target: [35.69, 51.30], c: "#00ebff", s: "heavy", n: "Tehran-1" },
-            { t: "missile", f: [31.00, 34.80], target: [35.72, 51.25], c: "#00ebff", s: "heavy", n: "Tehran-2" },
-            { t: "missile", f: [31.20, 34.90], target: [35.65, 51.40], c: "#00ebff", s: "heavy", n: "Tehran-3" },
-            { t: "missile", f: [31.40, 34.60], target: [35.75, 51.35], c: "#00ebff", s: "heavy", n: "Tehran-4" },
-            { t: "missile", f: [31.60, 35.00], target: [35.68, 51.45], c: "#00ebff", s: "heavy", n: "Tehran-5" },
+            // ИЗРАЕЛ -> ТЕХЕРАН (5 РАКЕТИ)
+            { f: [31.50, 34.75], target: [35.69, 51.30], c: "#00ebff", s: "heavy" },
+            { f: [31.00, 34.80], target: [35.72, 51.25], c: "#00ebff", s: "heavy" },
+            { f: [31.20, 34.90], target: [35.65, 51.40], c: "#00ebff", s: "heavy" },
+            { f: [31.40, 34.60], target: [35.75, 51.35], c: "#00ebff", s: "heavy" },
+            { f: [31.60, 35.00], target: [35.68, 51.45], c: "#00ebff", s: "heavy" },
 
-            // 5 ИРАНСКИ РАКЕТИ КЪМ ЙОРДАНИЯ (MUWAFFAQ SALTI)
-            { t: "missile", f: [34.40, 46.50], target: [31.83, 36.78], c: "#ff1100", s: "standard", n: "Jordan-1" },
-            { t: "missile", f: [34.50, 46.20], target: [31.84, 36.80], c: "#ff1100", s: "standard", n: "Jordan-2" },
-            { t: "missile", f: [34.60, 46.30], target: [31.82, 36.75], c: "#ff1100", s: "standard", n: "Jordan-3" },
-            { t: "missile", f: [34.70, 46.10], target: [31.85, 36.82], c: "#ff1100", s: "standard", n: "Jordan-4" },
-            { t: "missile", f: [34.80, 46.40], target: [31.80, 36.76], c: "#ff1100", s: "standard", n: "Jordan-5" },
+            // ИРАН -> GULF (НОВИ)
+            { f: [28.40, 55.90], target: [25.25, 55.30], c: "#ff1100", s: "gulf" }, // Dubai
+            { f: [28.30, 55.80], target: [24.45, 54.35], c: "#ff1100", s: "gulf" }, // Abu Dhabi
+            { f: [28.20, 55.70], target: [25.30, 51.50], c: "#ff1100", s: "gulf" }, // Qatar
+            { f: [30.50, 48.00], target: [29.35, 47.95], c: "#ff1100", s: "gulf" }, // Kuwait
 
-            // 3 ИРАНСКИ РАКЕТИ КЪМ ERBIL
-            { t: "missile", f: [35.10, 47.10], target: [36.19, 43.95], c: "#ff1100", s: "standard", n: "Erbil-1" },
-            { t: "missile", f: [35.20, 47.00], target: [36.21, 44.01], c: "#ff1100", s: "standard", n: "Erbil-2" },
-            { t: "missile", f: [35.30, 46.90], target: [36.15, 43.90], c: "#ff1100", s: "standard", n: "Erbil-3" },
+            // ИРАН -> JORDAN (5 РАКЕТИ)
+            { f: [34.40, 46.50], target: [31.83, 36.78], c: "#ff1100", s: "std" },
+            { f: [34.50, 46.20], target: [31.84, 36.80], c: "#ff1100", s: "std" },
+            { f: [34.60, 46.30], target: [31.82, 36.75], c: "#ff1100", s: "std" },
+            { f: [34.70, 46.10], target: [31.85, 36.82], c: "#ff1100", s: "std" },
+            { f: [34.80, 46.40], target: [31.80, 36.76], c: "#ff1100", s: "std" },
 
-            // 3 АМЕРИКАНСКИ РАКЕТИ КЪМ BANDAR ABBAS
-            { t: "missile", f: [25.27, 51.50], target: [27.15, 56.25], c: "#00ebff", s: "fast", n: "Bandar-1" },
-            { t: "missile", f: [24.45, 54.37], target: [27.20, 56.35], c: "#00ebff", s: "fast", n: "Bandar-2" },
-            { t: "missile", f: [24.10, 52.50], target: [27.10, 56.15], c: "#00ebff", s: "fast", n: "Bandar-3" }
+            // САЩ -> BANDAR ABBAS
+            { f: [25.27, 51.50], target: [27.15, 56.25], c: "#00ebff", s: "fast" }
         ];
 
+        let lastImpactTime = 0;
+
         const launch = (m, delay) => {
+            const duration = (m.s === "fast" || m.s === "gulf") ? 45000 : (m.s === "heavy" ? 150000 : 85000);
+            const arrivalTime = delay + duration;
+            if (arrivalTime > lastImpactTime) lastImpactTime = arrivalTime;
+
             setTimeout(() => {
-                const duration = (m.s === "fast") ? 35000 : (m.s === "heavy" ? 150000 : 85000);
-                
-                // Икона с гарантирана видимост [cite: 2026-03-03]
                 const mIcon = L.divIcon({
-                    className: 'war-missile-icon',
-                    html: `<div style="font-size:${m.s==='heavy'?'30px':'22px'}; filter:drop-shadow(0 0 5px ${m.c});">🚀</div>`,
+                    className: 'v31-missile',
+                    html: `<div style="font-size:24px; filter:drop-shadow(0 0 8px ${m.c}); transform:rotate(${m.c==='#ff1100'?'225deg':'45deg'});">🚀</div>`,
                     iconSize: [30, 30], iconAnchor: [15, 15]
                 });
 
@@ -1736,36 +1737,38 @@ setInterval(checkCriticalAlerts, 30000);
                     }
                     let lat = m.f[0] + (m.target[0] - m.f[0]) * p;
                     let lon = m.f[1] + (m.target[1] - m.f[1]) * p;
-                    let arc = Math.sin(Math.PI * p) * (m.s === "heavy" ? 4 : 1.5);
-                    
+                    let arc = Math.sin(Math.PI * p) * (m.s === "heavy" ? 3.5 : 1.2);
                     missile.setLatLng([lat + arc, lon]);
                     
-                    // Trail effect
                     const trail = L.circleMarker([lat + arc, lon], { radius: 1, color: m.c, opacity: 0.4, pane: 'warPane' }).addTo(map);
-                    setTimeout(() => map.removeLayer(trail), 12000);
+                    setTimeout(() => map.removeLayer(trail), 8000);
                 }, 400);
             }, delay);
         };
 
         const impact = (loc, color, isHeavy) => {
-            // Експлозия [cite: 2026-03-03]
-            const b = L.circle(loc, { radius: 2000, color: color, fillColor: color, fillOpacity: 0.7, pane: 'warPane' }).addTo(map);
-            let r = 2000;
+            const b = L.circle(loc, { radius: 3000, color: color, fillColor: color, fillOpacity: 0.8, pane: 'warPane' }).addTo(map);
+            let r = 3000;
             const s = setInterval(() => {
-                r += 10000; b.setRadius(r);
+                r += 12000; b.setRadius(r);
                 if (r > (isHeavy ? 280000 : 160000)) { clearInterval(s); map.removeLayer(b); }
             }, 50);
 
-            // Череп за базите, взрив за другото [cite: 2026-03-03]
             let emoji = (color === "#ff1100") ? "💀" : "💥";
             const mark = L.marker(loc, {
-                icon: L.divIcon({ html: `<div style="font-size:${isHeavy?'55px':'40px'};">${emoji}</div>`, iconAnchor: [20, 20] }),
+                icon: L.divIcon({ html: `<div style="font-size:40px;">${emoji}</div>`, iconAnchor: [20, 20] }),
                 pane: 'warPane'
             }).addTo(map);
-            setTimeout(() => map.removeLayer(mark), 45000);
+            setTimeout(() => map.removeLayer(mark), 40000);
         };
 
-        MISSION_DATA.forEach((m, i) => launch(m, i * 3500));
+        // Стартираме всички ракети през интервал от 4 секунди
+        MISSION_DATA.forEach((m, i) => launch(m, i * 4000));
+
+        // НАСТРОЙКА НА РЕСТАРТА: След последната ракета + 2 минути (120000ms)
+        const totalWaitTime = lastImpactTime + 30000;
+        console.log(`Cycle complete. Restarting in ${totalWaitTime / 1000} seconds...`);
+        window.warInterval = setTimeout(startGlobalWar, totalWaitTime);
     };
 
     setTimeout(startGlobalWar, 4000);
