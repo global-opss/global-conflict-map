@@ -1676,99 +1676,99 @@ setInterval(checkCriticalAlerts, 30000);
             setTimeout(startGlobalWar, 3000); return;
         }
 
+        // Чистим старите слоеве, за да не претоварваме
+        if (window.warInterval) clearInterval(window.warInterval);
+        
         if (!map.getPane('warPane')) {
             const pane = map.createPane('warPane');
-            pane.style.zIndex = 650;
+            pane.style.zIndex = 999;
             pane.style.pointerEvents = 'none';
         }
 
-        // --- ДАННИ ЗА МИСИИТЕ (С ТОЧНИ КООРДИНАТИ ОТ СКРИЙНШОТИТЕ) ---
-        const usGulfStrikes = [ 
-            // УДАРИ В ОРМУЗКИЯ ПРОЛИВ (ПО image_ef69f7.png)
-            { t: "missile", f: [25.27, 51.50], target: [26.45, 55.10], c: "#00ebff", s: "north_fast", d: 35000 }, 
-            { t: "missile", f: [24.45, 54.37], target: [26.20, 55.80], c: "#00ebff", s: "north_fast", d: 38000 }, 
-            { t: "missile", f: [24.00, 52.00], target: [26.85, 55.25], c: "#00ebff", s: "north_fast", d: 42000 }
+        // --- ПЪЛЕН СПИСЪК НА ВСИЧКИ РАКЕТИ (НИЩО НЕ ЛИПСВА) ---
+        const MISSION_DATA = [
+            // 5 ИЗРАЕЛСКИ ТЕЖКИ РАКЕТИ КЪМ ТЕХЕРАН
+            { t: "missile", f: [31.50, 34.75], target: [35.69, 51.30], c: "#00ebff", s: "heavy", n: "Tehran-1" },
+            { t: "missile", f: [31.00, 34.80], target: [35.72, 51.25], c: "#00ebff", s: "heavy", n: "Tehran-2" },
+            { t: "missile", f: [31.20, 34.90], target: [35.65, 51.40], c: "#00ebff", s: "heavy", n: "Tehran-3" },
+            { t: "missile", f: [31.40, 34.60], target: [35.75, 51.35], c: "#00ebff", s: "heavy", n: "Tehran-4" },
+            { t: "missile", f: [31.60, 35.00], target: [35.68, 51.45], c: "#00ebff", s: "heavy", n: "Tehran-5" },
+
+            // 5 ИРАНСКИ РАКЕТИ КЪМ ЙОРДАНИЯ (MUWAFFAQ SALTI)
+            { t: "missile", f: [34.40, 46.50], target: [31.83, 36.78], c: "#ff1100", s: "standard", n: "Jordan-1" },
+            { t: "missile", f: [34.50, 46.20], target: [31.84, 36.80], c: "#ff1100", s: "standard", n: "Jordan-2" },
+            { t: "missile", f: [34.60, 46.30], target: [31.82, 36.75], c: "#ff1100", s: "standard", n: "Jordan-3" },
+            { t: "missile", f: [34.70, 46.10], target: [31.85, 36.82], c: "#ff1100", s: "standard", n: "Jordan-4" },
+            { t: "missile", f: [34.80, 46.40], target: [31.80, 36.76], c: "#ff1100", s: "standard", n: "Jordan-5" },
+
+            // 3 ИРАНСКИ РАКЕТИ КЪМ ERBIL
+            { t: "missile", f: [35.10, 47.10], target: [36.19, 43.95], c: "#ff1100", s: "standard", n: "Erbil-1" },
+            { t: "missile", f: [35.20, 47.00], target: [36.21, 44.01], c: "#ff1100", s: "standard", n: "Erbil-2" },
+            { t: "missile", f: [35.30, 46.90], target: [36.15, 43.90], c: "#ff1100", s: "standard", n: "Erbil-3" },
+
+            // 3 АМЕРИКАНСКИ РАКЕТИ КЪМ BANDAR ABBAS
+            { t: "missile", f: [25.27, 51.50], target: [27.15, 56.25], c: "#00ebff", s: "fast", n: "Bandar-1" },
+            { t: "missile", f: [24.45, 54.37], target: [27.20, 56.35], c: "#00ebff", s: "fast", n: "Bandar-2" },
+            { t: "missile", f: [24.10, 52.50], target: [27.10, 56.15], c: "#00ebff", s: "fast", n: "Bandar-3" }
         ];
 
-        const iranianMissiles = [
-            // МАСИРАН УДАР JORDAN (5 РАКЕТИ)
-            { t: "missile", f: [34.80, 46.50], target: [31.83, 36.78], c: "#ff1100", s: "west", d: 90000 },
-            { t: "missile", f: [34.50, 46.20], target: [31.84, 36.80], c: "#ff1100", s: "west", d: 92000 },
-            { t: "missile", f: [35.10, 46.80], target: [31.82, 36.75], c: "#ff1100", s: "west", d: 88000 },
-            { t: "missile", f: [34.20, 46.00], target: [31.85, 36.82], c: "#ff1100", s: "west", d: 95000 },
-            { t: "missile", f: [35.40, 47.00], target: [31.80, 36.76], c: "#ff1100", s: "west", d: 91000 },
-            
-            // УДАРИ ПО ERBIL (ИРАК)
-            { t: "missile", f: [35.10, 47.10], target: [36.19, 43.95], c: "#ff1100", s: "west", d: 55000 },
-            { t: "missile", f: [35.80, 46.80], target: [36.21, 44.01], c: "#ff1100", s: "west", d: 60000 },
-            { t: "missile", f: [34.90, 47.30], target: [36.15, 43.90], c: "#ff1100", s: "west", d: 58000 }
-        ];
-
-        const droneSwarm = [
-            { t: "drone", f: [30.50, 47.50], target: [25.25, 55.36], c: "#ffa500", s: "south", d: 500000 },
-            { t: "drone", f: [31.00, 47.00], target: [24.45, 54.37], c: "#ffa500", s: "south", d: 520000 }
-        ];
-
-        const MISSION_DATA = [...usGulfStrikes, ...iranianMissiles, ...droneSwarm];
-
-        const launch = (data, delay) => {
+        const launch = (m, delay) => {
             setTimeout(() => {
-                const isDrone = data.t === "drone";
-                let rotation = (data.c === "#00ebff") ? '315deg' : '225deg';
-                if (data.s === "west") rotation = '225deg';
-                if (data.s === "north_fast") rotation = '315deg';
-
+                const duration = (m.s === "fast") ? 35000 : (m.s === "heavy" ? 150000 : 85000);
+                
+                // Икона с гарантирана видимост [cite: 2026-03-03]
                 const mIcon = L.divIcon({
-                    className: 'v30-icon',
-                    html: `<div style="font-size:22px; text-shadow:0 0 10px ${data.c}; transform:rotate(${rotation});">${isDrone ? '🛸' : '🚀'}</div>`,
-                    iconSize: [25, 25], iconAnchor: [12, 12]
+                    className: 'war-missile-icon',
+                    html: `<div style="font-size:${m.s==='heavy'?'30px':'22px'}; filter:drop-shadow(0 0 5px ${m.c});">🚀</div>`,
+                    iconSize: [30, 30], iconAnchor: [15, 15]
                 });
 
-                const missile = L.marker(data.f, { icon: mIcon, pane: 'warPane', interactive: false }).addTo(map);
-                let startTime = Date.now();
+                const missile = L.marker(m.f, { icon: mIcon, pane: 'warPane' }).addTo(map);
+                let start = Date.now();
 
                 const move = setInterval(() => {
-                    let p = (Date.now() - startTime) / data.d;
+                    let p = (Date.now() - start) / duration;
                     if (p >= 1) {
                         clearInterval(move);
-                        if (map.hasLayer(missile)) map.removeLayer(missile);
-                        impact(data.target, data.c, isDrone); return;
+                        map.removeLayer(missile);
+                        impact(m.target, m.c, m.s === "heavy");
+                        return;
                     }
-                    let lat = data.f[0] + (data.target[0] - data.f[0]) * p;
-                    let lon = data.f[1] + (data.target[1] - data.f[1]) * p;
+                    let lat = m.f[0] + (m.target[0] - m.f[0]) * p;
+                    let lon = m.f[1] + (m.target[1] - m.f[1]) * p;
+                    let arc = Math.sin(Math.PI * p) * (m.s === "heavy" ? 4 : 1.5);
                     
-                    let curve = (data.s === "north_fast") ? 0 : Math.sin(Math.PI * p) * 1.5;
-                    missile.setLatLng([lat + curve, lon]);
-
-                    const trail = L.circleMarker([lat + curve, lon], { radius: 1.2, color: data.c, opacity: 0.3, pane: 'warPane' }).addTo(map);
-                    setTimeout(() => { if (map.hasLayer(trail)) map.removeLayer(trail); }, 12000);
+                    missile.setLatLng([lat + arc, lon]);
+                    
+                    // Trail effect
+                    const trail = L.circleMarker([lat + arc, lon], { radius: 1, color: m.c, opacity: 0.4, pane: 'warPane' }).addTo(map);
+                    setTimeout(() => map.removeLayer(trail), 12000);
                 }, 400);
             }, delay);
         };
 
-        const impact = (loc, color, isDrone) => {
-            const b = L.circle(loc, { radius: 5000, color: '#fff', fillColor: color, fillOpacity: 0.8, pane: 'warPane' }).addTo(map);
-            let r = 5000;
+        const impact = (loc, color, isHeavy) => {
+            // Експлозия [cite: 2026-03-03]
+            const b = L.circle(loc, { radius: 2000, color: color, fillColor: color, fillOpacity: 0.7, pane: 'warPane' }).addTo(map);
+            let r = 2000;
             const s = setInterval(() => {
-                r += 9000; b.setRadius(r);
-                if (r > 190000) { clearInterval(s); if (map.hasLayer(b)) map.removeLayer(b); }
+                r += 10000; b.setRadius(r);
+                if (r > (isHeavy ? 280000 : 160000)) { clearInterval(s); map.removeLayer(b); }
             }, 50);
 
-            let emoji = isDrone ? "🔥" : "💥";
-            // Показва 💀 при попадение в US бази (Jordan/Erbil)
-            if (color === "#ff1100" && (loc[0] < 37 || loc[1] < 45)) emoji = "💀";
-
+            // Череп за базите, взрив за другото [cite: 2026-03-03]
+            let emoji = (color === "#ff1100") ? "💀" : "💥";
             const mark = L.marker(loc, {
-                icon: L.divIcon({ html: `<div style="font-size:35px; text-shadow: 0 0 15px ${color};">${emoji}</div>`, iconSize: [45, 45], iconAnchor: [22, 22] }),
+                icon: L.divIcon({ html: `<div style="font-size:${isHeavy?'55px':'40px'};">${emoji}</div>`, iconAnchor: [20, 20] }),
                 pane: 'warPane'
             }).addTo(map);
-            setTimeout(() => { if (map.hasLayer(mark)) map.removeLayer(mark); }, 50000);
+            setTimeout(() => map.removeLayer(mark), 45000);
         };
 
-        MISSION_DATA.forEach((m, i) => launch(m, i * 4500));
-        setTimeout(startGlobalWar, 600000);
+        MISSION_DATA.forEach((m, i) => launch(m, i * 3500));
     };
-    setTimeout(startGlobalWar, 5000);
+
+    setTimeout(startGlobalWar, 4000);
 })();
 
 // --- КОНТРОЛЕР ЗА TACTICAL COMMS ---
