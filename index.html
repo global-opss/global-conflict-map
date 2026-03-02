@@ -241,7 +241,36 @@
         </div>
     </div>
 
- 
+<div id="x-intel-container" style="
+    position: fixed !important;
+    top: 300px;
+    left: 20px;
+    width: 300px;
+    height: 450px;
+    border: 1px solid #ff1100;
+    background: rgba(10, 10, 10, 0.95) !important;
+    z-index: 10002;
+    box-shadow: 0 0 15px rgba(255, 0, 0, 0.2);
+    border-radius: 2px;
+    overflow: hidden;
+">
+    <div style="background: rgba(255, 17, 0, 0.2); color: #ff3131; border-bottom: 1px solid rgba(255, 49, 49, 0.3); padding: 5px; font-weight: bold; font-family: 'Courier New', monospace; font-size: 11px; display: flex; justify-content: space-between; align-items: center;">
+        <span>📡 LIVE INTEL: @BorislavBo98710</span>
+        <span style="font-size: 8px; animation: blink 1s infinite;">● ACTIVE FEED</span>
+    </div>
+
+    <div style="height: calc(100% - 30px); overflow-y: auto; scrollbar-width: none;">
+        <a class="twitter-timeline" data-theme="dark" data-chrome="noheader nofooter noborders transparent" href="https://twitter.com/BorislavBo98710?ref_src=twsrc%5Etfw">
+            Syncing Satellite Data...
+        </a> 
+        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    </div>
+</div>
+
+<style>
+    @keyframes blink { 0% { opacity: 1; } 50% { opacity: 0; } 100% { opacity: 1; } }
+</style>
+    
     
     <div class="search-container" style="padding: 10px; background: rgba(0, 20, 0, 0.8); border-bottom: 1px solid #39FF14;">
     <input type="text" id="tactical-search" placeholder="ТЪРСЕНЕ В БАЗАТА ДАННИ..." 
