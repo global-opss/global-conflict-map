@@ -1687,7 +1687,7 @@ setInterval(checkCriticalAlerts, 30000);
         // --- ЦЕЛИ (Restored & Verified) ---
         const MISSION_DATA = [
           // НОВ УДАР: ИРАН -> КИПЪР (RAF AKROTIRI) [cite: 2026-03-03]
-            { f: [33.50, 39.00], target: [34.59, 32.98], c: "#ff1100", s: "heavy" },
+            { f: [33.31, 44.36], target: [34.59, 32.98], c: "#ff1100", s: "heavy" },
             
             // ИЗРАЕЛ -> ТЕХЕРАН (5 РАКЕТИ)
             { f: [31.50, 34.75], target: [35.69, 51.30], c: "#00ebff", s: "heavy" },
