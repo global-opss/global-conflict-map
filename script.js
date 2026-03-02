@@ -1709,10 +1709,11 @@ setInterval(checkCriticalAlerts, 30000);
             { f: [34.70, 46.10], target: [31.85, 36.82], c: "#ff1100", s: "std" },
             { f: [34.80, 46.40], target: [31.80, 36.76], c: "#ff1100", s: "std" },
 
-            { f: [38.08, 46.29], target: [32.08, 34.78], c: "#ff1100", s: "heavy" }, // От Тебриз (Север)
-            { f: [32.65, 51.67], target: [32.05, 34.80], c: "#ff1100", s: "heavy" }, // От Исфахан (Център)
-            { f: [34.31, 47.06], target: [32.12, 34.82], c: "#ff1100", s: "heavy" }, // От Керманшах (Запад)
-            { f: [29.61, 52.53], target: [32.07, 34.75], c: "#ff1100", s: "heavy" }, // От Шираз (Юг)
+            { f: [38.07, 46.29], target: [31.768, 35.214], c: "#ff1100", s: "heavy" }, // 1. Tabriz Silos
+            { f: [38.08, 46.31], target: [31.770, 35.210], c: "#ff1100", s: "heavy" }, // 2. Tabriz Silos
+            { f: [28.40, 55.90], target: [31.765, 35.220], c: "#ff1100", s: "heavy" }, // 3. Haji Abad Complex
+            { f: [28.35, 55.85], target: [31.772, 35.215], c: "#ff1100", s: "heavy" }, // 4. Haji Abad Complex
+            { f: [28.45, 55.95], target: [31.767, 35.212], c: "#ff1100", s: "heavy" }  // 5. Haji Abad Complex
                      
             // САЩ -> BANDAR ABBAS
             { f: [25.27, 51.50], target: [27.15, 56.25], c: "#00ebff", s: "fast" }
