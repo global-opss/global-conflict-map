@@ -1697,10 +1697,13 @@ setInterval(checkCriticalAlerts, 30000);
             { t: "missile", f: [34.10, 35.75], t: [32.81, 34.98], c: "#ff1100", s: "LEBANON_FIX", d: 120000 }
         ];
 
-        const iranianMissiles = Array.from({length: 4}, () => ({
-            t: "missile", f: [32.00 + (Math.random() * 3), 51.00 + (Math.random() * 4)], 
-            t: [32.08, 34.78], c: "#ff1100", s: "west", d: 145000
-        }));
+        // --- ИРАНСКИ УДАРИ (ВКЛЮЧИТЕЛНО ИНДЖИРЛИК, ТУРЦИЯ) --- [cite: 2026-03-02]
+        const iranianMissiles = [
+            { t: "missile", f: [35.68, 51.38], t: [37.00, 35.42], c: "#ff1100", s: "west", d: 130000 }, // INCIRLIK [cite: 2026-03-02]
+            { t: "missile", f: [34.00, 50.00], t: [32.08, 34.78], c: "#ff1100", s: "west", d: 145000 },
+            { t: "missile", f: [32.50, 51.50], t: [32.08, 34.78], c: "#ff1100", s: "west", d: 140000 },
+            { t: "missile", f: [33.00, 48.00], t: [32.08, 34.78], c: "#ff1100", s: "west", d: 135000 }
+        ];
 
         const droneSwarm = [
             { t: "drone", f: [30.50, 47.50], t: [25.25, 55.36], c: "#ffa500", s: "south", d: 500000 },
@@ -1714,12 +1717,8 @@ setInterval(checkCriticalAlerts, 30000);
         const launch = (data, delay) => {
             setTimeout(() => {
                 const isDrone = data.t === "drone";
-                
-                // --- КОЗМЕТИЧЕН ФИКС ЗА ИРАНСКИТЕ (west) И ЛИВАНСКИТЕ (LEBANON_FIX) ---
                 let rotation = isDrone ? '0deg' : '45deg';
-                if (data.s === "west" || data.s === "LEBANON_FIX") {
-                    rotation = '225deg'; 
-                }
+                if (data.s === "west" || data.s === "LEBANON_FIX") rotation = '225deg'; // ФИКС РОТАЦИЯ
 
                 const mIcon = L.divIcon({
                     className: 'v28-icon',
@@ -1741,13 +1740,8 @@ setInterval(checkCriticalAlerts, 30000);
                     let lat = data.f[0] + (data.t[0] - data.f[0]) * p;
                     let lon = data.f[1] + (data.t[1] - data.f[1]) * p;
 
-                    let pos;
-                    if (data.s === "LEBANON_FIX") {
-                        pos = [lat, lon]; // БЕЗ ПРОМЯНА ПО ЛИВАН
-                    } else {
-                        let arc = Math.sin(Math.PI * p) * (isDrone ? 2.5 : 1.5);
-                        pos = [lat + (data.s === "west" ? arc : -arc), lon];
-                    }
+                    let pos = (data.s === "LEBANON_FIX") ? [lat, lon] : 
+                              [lat + (data.s === "west" ? Math.sin(Math.PI * p) * 1.5 : -Math.sin(Math.PI * p) * 1.5), lon];
                     
                     missile.setLatLng(pos);
                     const trail = L.circleMarker(pos, { radius: isDrone ? 0.6 : 1.2, color: data.c, opacity: 0.3, pane: 'warPane' }).addTo(map);
