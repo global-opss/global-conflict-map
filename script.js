@@ -1682,46 +1682,40 @@ setInterval(checkCriticalAlerts, 30000);
             pane.style.pointerEvents = 'none';
         }
 
-        // --- КОАЛИЦИОННИ УДАРИ (ИЗРАЕЛ/САЩ -> ИРАН) --- [cite: 2026-03-02]
         const coalitionStrikes = [
             { t: "missile", f: [31.50, 34.80], target: [35.68, 51.38], c: "#00ebff", s: "east", d: 150000 },
             { t: "missile", f: [32.00, 34.85], target: [35.69, 51.39], c: "#00ebff", s: "east", d: 155000 },
             { t: "missile", f: [33.33, 44.36], target: [35.68, 51.38], c: "#00ebff", s: "east", d: 140000 },
             { t: "missile", f: [33.80, 42.50], target: [28.83, 50.88], c: "#00ebff", s: "east", d: 140000 }, 
-            { t: "missile", f: [26.21, 50.60], target: [35.68, 51.38], c: "#00ebff", s: "north", d: 130000 }
+            { t: "missile", f: [26.21, 50.60], target: [35.68, 51.38], c: "#00ebff", s: "north", d: 130000 },
+            { t: "missile", f: [32.07, 34.78], target: [33.89, 35.50], c: "#00ebff", s: "north_fast", d: 45000 } // BEIRUT STRIKE
         ];
 
-        // --- НОВО: ИЗРАЕЛСКИ УДАРИ ПО БЕЙРУТ (ЛИВАН) --- [cite: 2026-03-02]
-        const israeliBeirutStrikes = [
-            { t: "missile", f: [32.07, 34.78], target: [33.89, 35.50], c: "#00ebff", s: "north_fast", d: 45000 },
-            { t: "missile", f: [31.90, 34.80], target: [33.91, 35.52], c: "#00ebff", s: "north_fast", d: 48000 },
-            { t: "missile", f: [32.50, 34.90], target: [33.87, 35.48], c: "#00ebff", s: "north_fast", d: 42000 }
-        ];
-
-        // --- ЛИВАНСКИ УДАРИ ПО ИЗРАЕЛ ---
         const lebaneseStrikes = [
             { t: "missile", f: [33.95, 35.60], target: [32.81, 34.98], c: "#ff1100", s: "LEBANON_FIX", d: 110000 },
             { t: "missile", f: [34.10, 35.75], target: [32.81, 34.98], c: "#ff1100", s: "LEBANON_FIX", d: 120000 }
         ];
 
-        // --- ИРАНСКИ УДАРИ (ВКЛЮЧИТЕЛНО ИНДЖИРЛИК) --- [cite: 2026-03-02]
         const iranianMissiles = [
-            { t: "missile", f: [35.68, 51.38], target: [37.00, 35.42], c: "#ff1100", s: "west", d: 130000 },
+            { t: "missile", f: [35.68, 51.38], target: [37.00, 35.42], c: "#ff1100", s: "west", d: 130000 }, // INCIRLIK
             { t: "missile", f: [34.00, 50.00], target: [32.08, 34.78], c: "#ff1100", s: "west", d: 145000 },
-            { t: "missile", f: [32.50, 51.50], target: [32.08, 34.78], c: "#ff1100", s: "west", d: 140000 }
+            { t: "missile", f: [32.50, 51.50], target: [32.08, 34.78], c: "#ff1100", s: "west", d: 140000 },
+            // НОВИ УДАРИ ПО БАЗИ: JORDAN & KUWAIT
+            { t: "missile", f: [34.30, 47.00], target: [31.50, 37.00], c: "#ff1100", s: "west", d: 90000 }, // TO JORDAN
+            { t: "missile", f: [32.00, 48.00], target: [29.10, 47.50], c: "#ff1100", s: "west", d: 80000 }  // TO KUWAIT
         ];
 
         const droneSwarm = [
             { t: "drone", f: [30.50, 47.50], target: [25.25, 55.36], c: "#ffa500", s: "south", d: 500000 },
+            { t: "drone", f: [31.00, 47.00], target: [24.45, 54.37], c: "#ffa500", s: "south", d: 520000 },
             { t: "drone", f: [28.50, 54.50], target: [25.25, 55.36], c: "#ffa500", s: "south", d: 490000 }
         ];
 
-        const MISSION_DATA = [...coalitionStrikes, ...israeliBeirutStrikes, ...lebaneseStrikes, ...iranianMissiles, ...droneSwarm];
+        const MISSION_DATA = [...coalitionStrikes, ...lebaneseStrikes, ...iranianMissiles, ...droneSwarm];
 
         const launch = (data, delay) => {
             setTimeout(() => {
                 const isDrone = data.t === "drone";
-                // ФИКС РОТАЦИЯ: Всички израелски ракети (светлосини) сочат на север (0°) [cite: 2026-03-02]
                 let rotation = (data.c === "#00ebff") ? '0deg' : '45deg';
                 if (data.s === "west" || data.s === "LEBANON_FIX") rotation = '225deg';
 
@@ -1741,14 +1735,10 @@ setInterval(checkCriticalAlerts, 30000);
                         if (map.hasLayer(missile)) map.removeLayer(missile); 
                         impact(data.target, data.c, isDrone); return;
                     }
-
                     let lat = data.f[0] + (data.target[0] - data.f[0]) * p;
                     let lon = data.f[1] + (data.target[1] - data.f[1]) * p;
-
-                    // Ливанските ракети и ударите по Бейрут летят в права линия
                     let pos = (data.s === "LEBANON_FIX" || data.s === "north_fast") ? [lat, lon] : 
                               [lat + (data.s === "west" ? Math.sin(Math.PI * p) * 1.5 : -Math.sin(Math.PI * p) * 1.5), lon];
-                    
                     missile.setLatLng(pos);
                     const trail = L.circleMarker(pos, { radius: isDrone ? 0.6 : 1.2, color: data.c, opacity: 0.3, pane: 'warPane' }).addTo(map);
                     setTimeout(() => { if (map.hasLayer(trail)) map.removeLayer(trail); }, 15000);
@@ -1766,7 +1756,7 @@ setInterval(checkCriticalAlerts, 30000);
 
             let emoji = isDrone ? "🔥" : "💥";
             if (loc[1] > 51) emoji = "💀"; 
-            if (loc[0] < 30) emoji = "☢️"; 
+            if (loc[0] === 28.83) emoji = "☢️"; 
 
             const mark = L.marker(loc, {
                 icon: L.divIcon({ html: `<div style="font-size:32px; text-shadow: 0 0 10px ${color};">${emoji}</div>`, iconSize: [40, 40], iconAnchor: [20, 20] }),
@@ -1778,7 +1768,6 @@ setInterval(checkCriticalAlerts, 30000);
         MISSION_DATA.forEach((m, i) => launch(m, i * 6500));
         setTimeout(startGlobalWar, 600000);
     };
-
     setTimeout(startGlobalWar, 5000);
 })();
 
