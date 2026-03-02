@@ -1695,9 +1695,12 @@ setInterval(checkCriticalAlerts, 30000);
 
         const iranianMissiles = [
             { t: "missile", f: [35.68, 51.38], target: [37.00, 35.42], c: "#ff1100", s: "west", d: 130000 }, // INCIRLIK
-            // --- КОРЕКЦИЯ: ТОЧНИ УДАРИ ПО US БАЗИ ---
-            { t: "missile", f: [34.80, 46.50], target: [31.83, 36.78], c: "#ff1100", s: "west", d: 90000 }, // TO JORDAN (MUWAFFAQ SALTI)
-            { t: "missile", f: [31.50, 49.50], target: [29.34, 47.52], c: "#ff1100", s: "west", d: 80000 }  // TO KUWAIT (ALI AL SALEM)
+            { t: "missile", f: [34.80, 46.50], target: [31.83, 36.78], c: "#ff1100", s: "west", d: 90000 }, // JORDAN
+            { t: "missile", f: [31.50, 49.50], target: [29.34, 47.52], c: "#ff1100", s: "west", d: 80000 }, // KUWAIT
+            // --- НОВИ УДАРИ: ERBIL AIRBASE, IRAQ ---
+            { t: "missile", f: [35.10, 47.10], target: [36.19, 43.95], c: "#ff1100", s: "west", d: 55000 },
+            { t: "missile", f: [35.80, 46.80], target: [36.21, 44.01], c: "#ff1100", s: "west", d: 60000 },
+            { t: "missile", f: [34.90, 47.30], target: [36.15, 43.90], c: "#ff1100", s: "west", d: 58000 }
         ];
 
         const droneSwarm = [
@@ -1750,8 +1753,7 @@ setInterval(checkCriticalAlerts, 30000);
             }, 50);
 
             let emoji = isDrone ? "🔥" : "💥";
-            // Специално емоджи за директен удар по база
-            if (loc[0] < 32 && color === "#ff1100") emoji = "💀"; 
+            if (loc[0] < 37 && color === "#ff1100") emoji = "💀"; 
 
             const mark = L.marker(loc, {
                 icon: L.divIcon({ html: `<div style="font-size:32px; text-shadow: 0 0 10px ${color};">${emoji}</div>`, iconSize: [40, 40], iconAnchor: [20, 20] }),
