@@ -431,6 +431,14 @@ fetch('https://raw.githubusercontent.com/datasets/geo-boundaries-world-110m/mast
         { name: "King Abdulaziz Air Base (SA)", type: "af-air", lat: 26.2289, lon: 50.1528, description: "Strategic Eastern Province base. Houses multi-role fighter wings monitoring the Gulf." },
         { name: "Prince Sultan Air Base (SA)", type: "af-air", lat: 24.0617, lon: 47.5800, description: "Critical air defense node and home to F-15 interceptor squadrons protecting the capital." },
         { name: "King Faisal Air Base (SA)", type: "af-air", lat: 28.3844, lon: 36.6189, description: "Northwestern tactical base providing air cover for the Tabuk region and Red Sea border." },
+        { name: "Patriot Battery - Riyadh North", type: "ad-system", lat: 24.9580, lon: 46.7020, description: "Patriot PAC-3 battery protecting the northern approach to the capital." },
+        { name: "Patriot Battery - Dhahran", type: "ad-system", lat: 26.2500, lon: 50.1000, description: "Air defense unit protecting the Eastern Province oil facilities." },
+        { name: "THAAD Interceptor Site - Central", type: "ad-system", lat: 24.3500, lon: 47.2000, description: "Terminal High Altitude Area Defense (THAAD) protecting strategic depth." },
+        { name: "Patriot Battery - Jeddah", type: "ad-system", lat: 21.6700, lon: 39.1500, description: "Air defense battery protecting the Red Sea port and city of Jeddah." },
+        { name: "King Abdulaziz Naval Base", type: "naval-base", lat: 26.9420, lon: 49.6640, description: "Main HQ for the Royal Saudi Naval Forces (Eastern Fleet)." },
+        { name: "King Khalid Military City (KKMC)", type: "mil-city", lat: 27.9850, lon: 45.5450, description: "Massive military complex and headquarters in the northeastern sector." },
+        { name: "King Fahd Naval Base", type: "naval-base", lat: 21.3400, lon: 39.1700, description: "Primary naval facility on the Red Sea coast (Western Fleet)." },
+        { name: "Tabuk Military Cantonment", type: "army-base", lat: 28.3800, lon: 36.5500, description: "Major ground forces hub for the northwestern defense sector." },
     ];
 // --- СЕКЦИЯ: ВРЕДНИ ЗОНИ (ОБХВАТ НА УДАР) ---
 strategicAssets.forEach(asset => {
