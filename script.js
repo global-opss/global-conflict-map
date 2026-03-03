@@ -1727,17 +1727,19 @@ setInterval(checkCriticalAlerts, 30000);
             { f: [25.27, 51.50], target: [27.15, 56.25], c: "#00ebff", s: "fast" }
         ];
 
-        let lastImpactTime = 0;
-
         const launch = (m, delay) => {
             const duration = (m.s === "fast" || m.s === "gulf") ? 45000 : (m.s === "heavy" ? 150000 : 85000);
             const arrivalTime = delay + duration;
             if (arrivalTime > lastImpactTime) lastImpactTime = arrivalTime;
 
             setTimeout(() => {
+                // ПРОВЕРКА ЗА ИРАНСКА РАКЕТА (излита от Изток) [cite: 2026-03-03]
+                const isIranian = m.f[1] > 44; 
+                
                 const mIcon = L.divIcon({
                     className: 'v31-missile',
-                    html: `<div style="font-size:24px; filter:drop-shadow(0 0 8px ${m.c}); transform:rotate(${m.c==='#ff1100'?'225deg':'45deg'});">🚀</div>`,
+                    // Ако е иранска, ползва червена сянка и е завъртена на 225 градуса [cite: 2026-03-03]
+                    html: `<div style="font-size:24px; filter:drop-shadow(0 0 8px ${isIranian ? '#ff1100' : m.c}); transform:rotate(${isIranian ? '225deg' : '45deg'});">🚀</div>`,
                     iconSize: [30, 30], iconAnchor: [15, 15]
                 });
 
@@ -1757,39 +1759,32 @@ setInterval(checkCriticalAlerts, 30000);
                     let arc = Math.sin(Math.PI * p) * (m.s === "heavy" ? 3.5 : 1.2);
                     missile.setLatLng([lat + arc, lon]);
                     
-                    const trail = L.circleMarker([lat + arc, lon], { radius: 1, color: m.c, opacity: 0.4, pane: 'warPane' }).addTo(map);
+                    // ЦВЕТЪТ НА ОПАШКАТА: Червен за Иран, оригинален за другите [cite: 2026-03-03]
+                    const trailColor = isIranian ? "#ff1100" : m.c;
+                    
+                    const trail = L.circleMarker([lat + arc, lon], { radius: 1, color: trailColor, opacity: 0.4, pane: 'warPane' }).addTo(map);
                     setTimeout(() => map.removeLayer(trail), 8000);
                 }, 400);
             }, delay);
         };
 
         const impact = (loc, color, isHeavy) => {
-    const b = L.circle(loc, { radius: 3000, color: color, fillColor: color, fillOpacity: 0.8, pane: 'warPane' }).addTo(map);
-    let r = 3000;
-    const s = setInterval(() => {
-        r += 12000; b.setRadius(r);
-        if (r > (isHeavy ? 280000 : 160000)) { clearInterval(s); map.removeLayer(b); }
-    }, 50);
+            const b = L.circle(loc, { radius: 3000, color: color, fillColor: color, fillOpacity: 0.8, pane: 'warPane' }).addTo(map);
+            let r = 3000;
+            const s = setInterval(() => {
+                r += 12000; b.setRadius(r);
+                if (r > (isHeavy ? 280000 : 160000)) { clearInterval(s); map.removeLayer(b); }
+            }, 50);
 
-    let emoji = (color === "#ffcc00") ? "💥" : "💀"; 
-    const mark = L.marker(loc, {
-        icon: L.divIcon({ html: `<div style="font-size:40px;">${emoji}</div>`, iconAnchor: [20, 20] }),
-        pane: 'warPane'
-    }).addTo(map);
-    setTimeout(() => map.removeLayer(mark), 40000);
-};
-
-        // Стартираме всички ракети през интервал от 4 секунди
-        MISSION_DATA.forEach((m, i) => launch(m, i * 4000));
-
-        // НАСТРОЙКА НА РЕСТАРТА: След последната ракета + 2 минути (120000ms)
-        const totalWaitTime = lastImpactTime + 30000;
-        console.log(`Cycle complete. Restarting in ${totalWaitTime / 1000} seconds...`);
-        window.warInterval = setTimeout(startGlobalWar, totalWaitTime);
-    };
-
-    setTimeout(startGlobalWar, 4000);
-})();
+            // ЛОГИКА ЗА ЕМОДЖИ: Вече и сините ракети (към Израел) ще гърмят с 💥 [cite: 2026-03-03]
+            let emoji = (color === "#ffcc00" || color === "#00ebff") ? "💥" : "💀"; 
+            
+            const mark = L.marker(loc, {
+                icon: L.divIcon({ html: `<div style="font-size:40px;">${emoji}</div>`, iconAnchor: [20, 20] }),
+                pane: 'warPane'
+            }).addTo(map);
+            setTimeout(() => map.removeLayer(mark), 40000);
+        };
 
 // --- КОНТРОЛЕР ЗА TACTICAL COMMS ---
 (function() {
