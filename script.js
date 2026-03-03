@@ -1830,15 +1830,4 @@ setInterval(checkCriticalAlerts, 30000);
     };
 })();
 
-L.marker([28.0, 48.0], { 
-        icon: L.divIcon({
-            className: 'label-text',
-            html: `<div style="color: white; font-family: monospace; font-size: 14px; font-weight: bold; text-shadow: 2px 2px 4px black; border: 1px solid rgba(255,255,255,0.3); padding: 5px; background: rgba(0,0,0,0.5);">
-                   THE MISSLE YOU SEE ON THE MAP ARE SIMULATION FROM LATEST CONFIRM STRIKES ( DATA IS COLLECETED BY OFFICIALS FROM BOTH SIDES IN THIS CONFLICT )
-                   </div>`,
-            iconAnchor: [0, 0]
-        }),
-        pane: 'warPane'
-    }).addTo(map);
-};
-})();
+
