@@ -1714,6 +1714,8 @@ setInterval(checkCriticalAlerts, 30000);
             { f: [28.40, 55.90], target: [31.765, 35.220], c: "#ff1100", s: "heavy" }, // 3. Haji Abad Complex
             { f: [28.35, 55.85], target: [31.772, 35.215], c: "#ff1100", s: "heavy" }, // 4. Haji Abad Complex
             { f: [28.45, 55.95], target: [31.767, 35.212], c: "#ff1100", s: "heavy" },  // 5. Haji Abad Complex
+
+            { f: [38.07, 46.29], target: [24.6813, 46.6214], c: "#ffcc00", s: "heavy" }, // От Tabriz Silos към US Embassy Riyadh
                      
             // САЩ -> BANDAR ABBAS
             { f: [25.27, 51.50], target: [27.15, 56.25], c: "#00ebff", s: "fast" }
@@ -1756,20 +1758,20 @@ setInterval(checkCriticalAlerts, 30000);
         };
 
         const impact = (loc, color, isHeavy) => {
-            const b = L.circle(loc, { radius: 3000, color: color, fillColor: color, fillOpacity: 0.8, pane: 'warPane' }).addTo(map);
-            let r = 3000;
-            const s = setInterval(() => {
-                r += 12000; b.setRadius(r);
-                if (r > (isHeavy ? 280000 : 160000)) { clearInterval(s); map.removeLayer(b); }
-            }, 50);
+    const b = L.circle(loc, { radius: 3000, color: color, fillColor: color, fillOpacity: 0.8, pane: 'warPane' }).addTo(map);
+    let r = 3000;
+    const s = setInterval(() => {
+        r += 12000; b.setRadius(r);
+        if (r > (isHeavy ? 280000 : 160000)) { clearInterval(s); map.removeLayer(b); }
+    }, 50);
 
-            let emoji = (color === "#ff1100") ? "💀" : "💥";
-            const mark = L.marker(loc, {
-                icon: L.divIcon({ html: `<div style="font-size:40px;">${emoji}</div>`, iconAnchor: [20, 20] }),
-                pane: 'warPane'
-            }).addTo(map);
-            setTimeout(() => map.removeLayer(mark), 40000);
-        };
+    let emoji = (color === "#ffcc00") ? "💥" : "💀"; 
+    const mark = L.marker(loc, {
+        icon: L.divIcon({ html: `<div style="font-size:40px;">${emoji}</div>`, iconAnchor: [20, 20] }),
+        pane: 'warPane'
+    }).addTo(map);
+    setTimeout(() => map.removeLayer(mark), 40000);
+};
 
         // Стартираме всички ракети през интервал от 4 секунди
         MISSION_DATA.forEach((m, i) => launch(m, i * 4000));
