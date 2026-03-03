@@ -1840,5 +1840,5 @@ L.marker([28.0, 48.0], {
         }),
         pane: 'warPane'
     }).addTo(map);
-
+};
 })();
