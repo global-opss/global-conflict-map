@@ -1690,9 +1690,11 @@ setInterval(checkCriticalAlerts, 30000);
             pane.style.pointerEvents = 'none';
         }
 
-        // --- ЦЕЛИ (Restored & Verified) ---
+        // ДЕФИНИРАНЕ НА ПРОМЕНЛИВАТА ЗА ВРЕМЕ
+        let lastImpactTime = 0;
+
         const MISSION_DATA = [
-          // НОВ УДАР: ИРАН -> КИПЪР (RAF AKROTIRI) [cite: 2026-03-03]
+            // ИРАН -> КИПЪР (RAF AKROTIRI)
             { f: [33.31, 44.36], target: [34.59, 32.98], c: "#ff1100", s: "heavy" },
             
             // ИЗРАЕЛ -> ТЕХЕРАН (5 РАКЕТИ)
@@ -1702,26 +1704,24 @@ setInterval(checkCriticalAlerts, 30000);
             { f: [31.40, 34.60], target: [35.75, 51.35], c: "#00ebff", s: "heavy" },
             { f: [31.60, 35.00], target: [35.68, 51.45], c: "#00ebff", s: "heavy" },
 
-            // ИРАН -> GULF (НОВИ)
-            { f: [28.40, 55.90], target: [25.25, 55.30], c: "#ff1100", s: "gulf" }, // Dubai
-            { f: [28.30, 55.80], target: [24.45, 54.35], c: "#ff1100", s: "gulf" }, // Abu Dhabi
-            { f: [28.20, 55.70], target: [25.30, 51.50], c: "#ff1100", s: "gulf" }, // Qatar
-            { f: [30.50, 48.00], target: [29.35, 47.95], c: "#ff1100", s: "gulf" }, // Kuwait
+            // ИРАН -> GULF
+            { f: [28.40, 55.90], target: [25.25, 55.30], c: "#ff1100", s: "gulf" }, 
+            { f: [28.30, 55.80], target: [24.45, 54.35], c: "#ff1100", s: "gulf" }, 
+            { f: [28.20, 55.70], target: [25.30, 51.50], c: "#ff1100", s: "gulf" }, 
+            { f: [30.50, 48.00], target: [29.35, 47.95], c: "#ff1100", s: "gulf" }, 
 
-            // ИРАН -> ИЗРАЕЛ (TEL AVIV) - ПРЕНАСОЧЕНИ
-            { f: [34.40, 46.50], target: [32.0853, 34.7818], c: "#00ebff", s: "heavy" }, // Ракета 1 към Тел Авив
-            { f: [34.50, 46.20], target: [32.0800, 34.7750], c: "#00ebff", s: "heavy" }, // Ракета 2 към Тел Авив
-            { f: [34.60, 46.30], target: [32.0900, 34.7850], c: "#00ebff", s: "heavy" }, // Ракета 3 към Тел Авив
-            { f: [34.70, 46.10], target: [32.0830, 34.7900], c: "#00ebff", s: "heavy" }, // Ракета 4 към Тел Авив
-            { f: [34.80, 46.40], target: [32.0780, 34.7700], c: "#00ebff", s: "heavy" }, // Ракета 5 към Тел Авив
+            // ИРАН -> ИЗРАЕЛ (TEL AVIV) - СЪС СИНЬО ЗА ВЗРИВ 💥
+            { f: [34.40, 46.50], target: [32.0853, 34.7818], c: "#00ebff", s: "heavy" },
+            { f: [34.50, 46.20], target: [32.0800, 34.7750], c: "#00ebff", s: "heavy" },
+            { f: [34.60, 46.30], target: [32.0900, 34.7850], c: "#00ebff", s: "heavy" },
+            { f: [34.70, 46.10], target: [32.0830, 34.7900], c: "#00ebff", s: "heavy" },
+            { f: [34.80, 46.40], target: [32.0780, 34.7700], c: "#00ebff", s: "heavy" },
 
-            { f: [38.07, 46.29], target: [31.768, 35.214], c: "#ff1100", s: "heavy" }, // 1. Tabriz Silos
-            { f: [38.08, 46.31], target: [31.770, 35.210], c: "#ff1100", s: "heavy" }, // 2. Tabriz Silos
-            { f: [28.40, 55.90], target: [31.765, 35.220], c: "#ff1100", s: "heavy" }, // 3. Haji Abad Complex
-            { f: [28.35, 55.85], target: [31.772, 35.215], c: "#ff1100", s: "heavy" }, // 4. Haji Abad Complex
-            { f: [28.45, 55.95], target: [31.767, 35.212], c: "#ff1100", s: "heavy" },  // 5. Haji Abad Complex
+            { f: [38.07, 46.29], target: [31.768, 35.214], c: "#ff1100", s: "heavy" }, 
+            { f: [38.08, 46.31], target: [31.770, 35.210], c: "#ff1100", s: "heavy" }, 
+            { f: [28.40, 55.90], target: [31.765, 35.220], c: "#ff1100", s: "heavy" }, 
 
-            { f: [38.07, 46.29], target: [24.6813, 46.6214], c: "#ffcc00", s: "heavy" }, // От Tabriz Silos към US Embassy Riyadh
+            { f: [38.07, 46.29], target: [24.6813, 46.6214], c: "#ffcc00", s: "heavy" }, 
                      
             // САЩ -> BANDAR ABBAS
             { f: [25.27, 51.50], target: [27.15, 56.25], c: "#00ebff", s: "fast" }
@@ -1733,7 +1733,6 @@ setInterval(checkCriticalAlerts, 30000);
             if (arrivalTime > lastImpactTime) lastImpactTime = arrivalTime;
 
             setTimeout(() => {
-                // Проверка дали ракетата е иранска (излита от изток)
                 const isIranian = m.f[1] > 44; 
 
                 const mIcon = L.divIcon({
@@ -1758,9 +1757,7 @@ setInterval(checkCriticalAlerts, 30000);
                     let arc = Math.sin(Math.PI * p) * (m.s === "heavy" ? 3.5 : 1.2);
                     missile.setLatLng([lat + arc, lon]);
                     
-                    // Опашката е червена за Иран, иначе ползва цвета на ракетата
                     const trailColor = isIranian ? "#ff1100" : m.c;
-                    
                     const trail = L.circleMarker([lat + arc, lon], { radius: 1, color: trailColor, opacity: 0.4, pane: 'warPane' }).addTo(map);
                     setTimeout(() => map.removeLayer(trail), 8000);
                 }, 400);
@@ -1778,15 +1775,26 @@ setInterval(checkCriticalAlerts, 30000);
                 }
             }, 50);
 
-            // Емоджи взрив за ирански удари (сини ракети) и жълти взривове
             let emoji = (color === "#ffcc00" || color === "#00ebff") ? "💥" : "💀"; 
-            
             const mark = L.marker(loc, {
                 icon: L.divIcon({ html: `<div style="font-size:40px;">${emoji}</div>`, iconAnchor: [20, 20] }),
                 pane: 'warPane'
             }).addTo(map);
             setTimeout(() => map.removeLayer(mark), 40000);
         };
+
+        // СТАРТИРАНЕ
+        MISSION_DATA.forEach((m, i) => launch(m, i * 4000));
+
+        // РЕСТАРТ ЛОГИКА
+        setTimeout(() => {
+            console.log("Cycle complete. Restarting...");
+            startGlobalWar();
+        }, lastImpactTime + 30000);
+    };
+
+    setTimeout(startGlobalWar, 4000);
+})();
 
 // --- КОНТРОЛЕР ЗА TACTICAL COMMS ---
 (function() {
