@@ -425,6 +425,8 @@ fetch('https://raw.githubusercontent.com/datasets/geo-boundaries-world-110m/mast
         { name: "Araxos Air Base (GR)", type: "af-air", lat: 38.1511, lon: 21.4256, description: "Tactical air base for Hellenic Air Force. Readiness site for regional air defense." },
         { name: "Stefanovikeio Army Base (GR)", type: "af-air", lat: 39.4667, lon: 22.7667, description: "Major attack helicopter base. Support node for NATO aviation drills." },
         { name: "Andravida Air Base (GR)", type: "af-air", lat: 37.9167, lon: 21.2833, description: "Home to the Iniochos exercise. Key hub for multi-national air combat training." },
+        { name: "HS Kimon (F-601) - Cyprus Shield", type: "nato-naval", lat: 34.4500, lon: 33.7500, description: "Lead FDI HN frigate. Advanced interceptor providing air cover for RAF Akrotiri and Cypriot airspace." },
+        { name: "HS Nearchos (F-602) - Eastern Buffer", type: "nato-naval", lat: 34.9500, lon: 34.3000, description: "Deployed off the coast of Larnaca. Strategic naval asset for early warning against ballistic threats." },
     ];
 // --- СЕКЦИЯ: ВРЕДНИ ЗОНИ (ОБХВАТ НА УДАР) ---
 strategicAssets.forEach(asset => {
