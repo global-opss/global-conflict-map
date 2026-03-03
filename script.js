@@ -1733,12 +1733,11 @@ setInterval(checkCriticalAlerts, 30000);
             if (arrivalTime > lastImpactTime) lastImpactTime = arrivalTime;
 
             setTimeout(() => {
-                // ПРОВЕРКА ЗА ИРАНСКА РАКЕТА (излита от Изток) [cite: 2026-03-03]
+                // Проверка дали ракетата е иранска (излита от изток)
                 const isIranian = m.f[1] > 44; 
-                
+
                 const mIcon = L.divIcon({
                     className: 'v31-missile',
-                    // Ако е иранска, ползва червена сянка и е завъртена на 225 градуса [cite: 2026-03-03]
                     html: `<div style="font-size:24px; filter:drop-shadow(0 0 8px ${isIranian ? '#ff1100' : m.c}); transform:rotate(${isIranian ? '225deg' : '45deg'});">🚀</div>`,
                     iconSize: [30, 30], iconAnchor: [15, 15]
                 });
@@ -1759,7 +1758,7 @@ setInterval(checkCriticalAlerts, 30000);
                     let arc = Math.sin(Math.PI * p) * (m.s === "heavy" ? 3.5 : 1.2);
                     missile.setLatLng([lat + arc, lon]);
                     
-                    // ЦВЕТЪТ НА ОПАШКАТА: Червен за Иран, оригинален за другите [cite: 2026-03-03]
+                    // Опашката е червена за Иран, иначе ползва цвета на ракетата
                     const trailColor = isIranian ? "#ff1100" : m.c;
                     
                     const trail = L.circleMarker([lat + arc, lon], { radius: 1, color: trailColor, opacity: 0.4, pane: 'warPane' }).addTo(map);
@@ -1773,10 +1772,13 @@ setInterval(checkCriticalAlerts, 30000);
             let r = 3000;
             const s = setInterval(() => {
                 r += 12000; b.setRadius(r);
-                if (r > (isHeavy ? 280000 : 160000)) { clearInterval(s); map.removeLayer(b); }
+                if (r > (isHeavy ? 280000 : 160000)) { 
+                    clearInterval(s); 
+                    map.removeLayer(b); 
+                }
             }, 50);
 
-            // ЛОГИКА ЗА ЕМОДЖИ: Вече и сините ракети (към Израел) ще гърмят с 💥 [cite: 2026-03-03]
+            // Емоджи взрив за ирански удари (сини ракети) и жълти взривове
             let emoji = (color === "#ffcc00" || color === "#00ebff") ? "💥" : "💀"; 
             
             const mark = L.marker(loc, {
