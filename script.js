@@ -426,6 +426,11 @@ fetch('https://raw.githubusercontent.com/datasets/geo-boundaries-world-110m/mast
         { name: "Andravida Air Base (GR)", type: "af-air", lat: 37.9167, lon: 21.2833, description: "Home to the Iniochos exercise. Key hub for multi-national air combat training." },
         { name: "HS Kimon (F-601) - Cyprus Shield", type: "nato-naval", lat: 34.4500, lon: 33.7500, description: "Lead FDI HN frigate. Advanced interceptor providing air cover for RAF Akrotiri and Cypriot airspace." },
         { name: "HS Nearchos (F-602) - Eastern Buffer", type: "nato-naval", lat: 34.9500, lon: 34.3000, description: "Deployed off the coast of Larnaca. Strategic naval asset for early warning against ballistic threats." },
+        { name: "King Salman Air Base (SA)", type: "af-air", lat: 24.7083, lon: 46.7247, description: "Major air base in Riyadh. Home to tactical transport and helicopter squadrons." },
+        { name: "King Khalid Air Base (SA)", type: "af-air", lat: 18.2984, lon: 42.8029, description: "Primary air base in the south. Key hub for regional air defense and interceptor sorties." },
+        { name: "King Abdulaziz Air Base (SA)", type: "af-air", lat: 26.2289, lon: 50.1528, description: "Strategic Eastern Province base. Houses multi-role fighter wings monitoring the Gulf." },
+        { name: "Prince Sultan Air Base (SA)", type: "af-air", lat: 24.0617, lon: 47.5800, description: "Critical air defense node and home to F-15 interceptor squadrons protecting the capital." },
+        { name: "King Faisal Air Base (SA)", type: "af-air", lat: 28.3844, lon: 36.6189, description: "Northwestern tactical base providing air cover for the Tabuk region and Red Sea border." },
     ];
 // --- СЕКЦИЯ: ВРЕДНИ ЗОНИ (ОБХВАТ НА УДАР) ---
 strategicAssets.forEach(asset => {
