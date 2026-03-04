@@ -109,7 +109,39 @@
             color: #39FF14 !important;
             padding: 8px !important;
         }
-   
+
+/* === ПЪЛНА МОБИЛНА ОПТИМИЗАЦИЯ (v14.6) === */
+        @media (max-width: 768px) {
+            /* Махаме черните дупки и скролването */
+            body, html { 
+                overflow: hidden !important; 
+                height: 100% !important; 
+            }
+
+            /* Картата заема целия екран под хедъра */
+            #map { 
+                top: 90px !important; /* Запазваме хедъра и тикера */
+                height: calc(100vh - 90px) !important; 
+                z-index: 1;
+            }
+
+            /* Скриваме панелите, които пречат на малкия екран */
+            #chat-container, #video-container, #intel-list-container, #intel-details-container {
+                display: none !important; 
+            }
+
+            /* Центрираме легендата най-долу */
+            .map-legend {
+                left: 50% !important;
+                bottom: 15px !important;
+                transform: translateX(-50%) scale(0.85);
+                width: 95%;
+                justify-content: center;
+                white-space: nowrap;
+                background: rgba(0, 0, 0, 0.9) !important;
+            }
+        }
+        
     </style>
 </head>
 <body>
