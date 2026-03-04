@@ -179,6 +179,8 @@ let map; // Сложи го точно тук на нов ред
         crossOrigin: true
     }).addTo(map);
 
+// === [ KURDISTAN PROVINCE ALERT OVERLAY - FIXED ] ===
+
 const kurdistanRegion = [
     [36.35, 46.10], [36.20, 47.00], [35.80, 47.50], 
     [35.20, 47.70], [34.80, 47.20], [35.00, 46.50], 
@@ -191,36 +193,32 @@ const alertZone = L.polygon(kurdistanRegion, {
     fillColor: '#ffff00',
     fillOpacity: 0.25,
     dashArray: '8, 8',
-    interactive: true // Вече позволяваме взаимодействие
+    interactive: true,
+    bubblingMouseEvents: false // Спира събитието да бяга към картата отдолу
 }).addTo(map);
 
-// 1. ПОП-ЪП ПРИ КЛИК (класика)
-alertZone.bindPopup(`
-    <div style="color: #fff; background: #000; padding: 10px; border: 1px solid #ff0000;">
-        <b style="color: #ff0000;">🚨 SECTOR ALERT: KURDISTAN PROVINCE</b><br>
-        <hr>
-        • High risk of ground operations.<br>
-        • IRGC mobilization detected.<br>
-        • Resistance activity: Level 5.
-    </div>
-`);
-
-// 2. ИНФОРМАЦИЯ ПРИ ПОСОЧВАНЕ (HOVER)
-alertZone.on('mouseover', function (e) {
-    this.setStyle({
-        fillOpacity: 0.5, // Потъмнява леко, за да се види, че е избран
-        weight: 4         // Удебелява рамката
-    });
-    
-    // Създаваме временен етикет (Tooltip)
-    this.bindTooltip("<b>[ INTEL STATUS: CRITICAL ]</b>", {
-        sticky: true, 
-        direction: 'top'
-    }).openTooltip();
+// Директно закачаме Tooltip, който се активира автоматично при Hover
+alertZone.bindTooltip(`
+    <div style="background: rgba(0,0,0,0.8); color: #fff; border: 1px solid #ff0000; padding: 5px;">
+        <b style="color: #ff0000;">[ SECTOR STATUS: HIGH ALERT ]</b><br>
+        • High risk of ground operations<br>
+        • IRGC & Kurdish movement detected
+    </div>`, {
+    sticky: true,      // Следва мишката плътно
+    direction: 'auto', 
+    opacity: 0.9,
+    className: 'custom-radar-tooltip'
 });
 
-// 3. ВРЪЩАНЕ В НОРМАЛНО СЪСТОЯНИЕ
-alertZone.on('mouseout', function (e) {
+// Добавяме и визуален ефект за "светене" при посочване
+alertZone.on('mouseover', function () {
+    this.setStyle({
+        fillOpacity: 0.45,
+        weight: 3
+    });
+});
+
+alertZone.on('mouseout', function () {
     this.setStyle({
         fillOpacity: 0.25,
         weight: 2
