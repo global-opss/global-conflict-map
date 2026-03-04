@@ -159,6 +159,50 @@
         }
         
     </style>
+
+<script>
+    (function() {
+        // 1. Добавяме анимацията динамично
+        const styleSheet = document.createElement("style");
+        styleSheet.innerText = `
+            @keyframes border-pulse {
+                0% { stroke-width: 4; stroke-opacity: 0.6; filter: drop-shadow(0 0 2px #ff0000); }
+                50% { stroke-width: 8; stroke-opacity: 1; filter: drop-shadow(0 0 15px #ff0000); }
+                100% { stroke-width: 4; stroke-opacity: 0.6; filter: drop-shadow(0 0 2px #ff0000); }
+            }
+            .pulsing-border-line {
+                animation: border-pulse 2s infinite ease-in-out;
+                stroke-dasharray: 8, 12;
+            }
+        `;
+        document.head.appendChild(styleSheet);
+
+        // 2. Функция за инжектиране на границата върху обекта "map"
+        function injectBorder() {
+            if (typeof map !== 'undefined') {
+                const kurdistanFrontCoords = [
+                    [36.31, 45.41], [36.00, 45.15], [35.60, 45.62],
+                    [35.21, 46.12], [34.78, 46.30], [34.33, 46.01],
+                    [33.88, 45.71], [33.19, 45.11], [32.78, 45.51],
+                    [32.33, 45.91], [31.88, 46.31], [31.41, 46.72],
+                    [30.99, 47.12], [30.55, 47.52], [29.99, 48.11]
+                ];
+
+                L.polyline(kurdistanFrontCoords, {
+                    color: '#ff0000',
+                    weight: 6,
+                    className: 'pulsing-border-line',
+                    interactive: false // Важно: за да не блокира кликовете върху държавите
+                }).addTo(map);
+                console.log(">> SYSTEM: Kurdistan Frontline Pulse Activated.");
+            } else {
+                setTimeout(injectBorder, 500); // Чака картата да се зареди от script.js
+            }
+        }
+        injectBorder();
+    })();
+</script>
+
 </head>
 <body>
     <header>
