@@ -238,25 +238,5 @@ iframe {
     pointer-events: none !important;
 }
 
-/* MOBILE OPTIMIZATION */
-@media (max-width: 768px) {
-    /* Панелите стават по-малки или се скриват автоматично */
-    .left-panel, .right-panel {
-        width: 100% !important;
-        position: relative !important;
-        height: auto !important;
-        display: block !important;
-        z-index: 1001; /* Да са над картата */
-    }
 
-    /* Картата да заема останалото място */
-    #map {
-        height: 50vh !important; /* Намаляваме височината на картата на телефон */
-    }
 
-    /* Настройваме шрифта на тултиповете да е по-голям за пръсти */
-    .leaflet-tooltip {
-        font-size: 14px !important;
-        padding: 15px !important;
-    }
-}
