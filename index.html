@@ -408,6 +408,7 @@
   });
 
   // === 2. СТАРТИРАНЕ И ОБНОВЯВАНЕ НА МОНИТОРИНГА ===
+  <script>
   const UPDATE_INTERVAL = 5000; 
   
   document.addEventListener('DOMContentLoaded', () => {
@@ -417,6 +418,23 @@
 
   console.log("Military Terminal Status: ONLINE");
   console.log("Tracking Script Version: 2.1.0-LIVE");
+
+  // ФУНКЦИЯ ЗА СВИВАНЕ/РАЗПЪВАНЕ
+  function toggleLegend() {
+      const content = document.getElementById('legend-items-container');
+      const btn = document.getElementById('legend-toggle-btn');
+      const container = document.getElementById('map-legend');
+
+      if (content.style.display === 'none') {
+          content.style.display = 'block';
+          btn.innerHTML = '[ — ]';
+          container.style.bottom = '420px'; // Връща оригиналната височина
+      } else {
+          content.style.display = 'none';
+          btn.innerHTML = '[ + ]';
+          container.style.bottom = '20px'; // Слиза долу, за да не пречи на мапа
+      }
+  }
 </script>
 
 <div id="map-legend" style="
@@ -431,32 +449,36 @@
         font-family: 'Courier New', monospace; 
         font-size: 11px; 
         color: #00ff00; 
-        pointer-events: none;
+        pointer-events: auto; /* ПРОМЕНЕНО: Вече приема кликове */
         box-shadow: 0 0 15px rgba(0, 255, 0, 0.3);
         min-width: 220px;
+        transition: all 0.3s ease;
     ">
-        <div style="font-weight: bold; margin-bottom: 10px; text-align: center; border-bottom: 1px solid #00ff00; padding-bottom: 5px; letter-spacing: 1px;">
-            [ COALITION IDENTIFIER ]
+        <div style="font-weight: bold; margin-bottom: 10px; text-align: center; border-bottom: 1px solid #00ff00; padding-bottom: 5px; letter-spacing: 1px; display: flex; justify-content: space-between; align-items: center;">
+            <span>[ COALITION IDENTIFIER ]</span>
+            <span id="legend-toggle-btn" onclick="toggleLegend()" style="cursor: pointer; color: #00ff00; padding: 0 5px; border: 1px solid #00ff00; font-size: 12px; background: rgba(0,255,0,0.1);">[ — ]</span>
         </div>
         
-        <div style="margin-bottom: 6px; display: flex; align-items: center;">
-            <span style="color: #0000ff; font-size: 20px; margin-right: 10px; text-shadow: 0 0 5px #0000ff;">●</span> 
-            <span>US-ISRAEL COALITION</span>
-        </div>
-        
-        <div style="margin-bottom: 6px; display: flex; align-items: center;">
-            <span style="color: #ff0000; font-size: 20px; margin-right: 10px; text-shadow: 0 0 5px #ff0000;">●</span> 
-            <span>IRANIAN FORCES</span>
-        </div>
-        
-        <div style="margin-bottom: 6px; display: flex; align-items: center;">
-            <span style="color: #ffff00; font-size: 20px; margin-right: 10px; text-shadow: 0 0 5px #ffff00;">●</span> 
-            <span>REGIONAL RESISTANCE (IRAQ)</span>
-        </div>
-        
-        <div style="display: flex; align-items: center;">
-            <span style="color: #8b4513; font-size: 20px; margin-right: 10px; text-shadow: 0 0 5px #8b4513;">●</span> 
-            <span>IRANIAN KURDS (ALIGNED)</span>
+        <div id="legend-items-container">
+            <div style="margin-bottom: 6px; display: flex; align-items: center;">
+                <span style="color: #0000ff; font-size: 20px; margin-right: 10px; text-shadow: 0 0 5px #0000ff;">●</span> 
+                <span>US-ISRAEL COALITION</span>
+            </div>
+            
+            <div style="margin-bottom: 6px; display: flex; align-items: center;">
+                <span style="color: #ff0000; font-size: 20px; margin-right: 10px; text-shadow: 0 0 5px #ff0000;">●</span> 
+                <span>IRANIAN FORCES</span>
+            </div>
+            
+            <div style="margin-bottom: 6px; display: flex; align-items: center;">
+                <span style="color: #ffff00; font-size: 20px; margin-right: 10px; text-shadow: 0 0 5px #ffff00;">●</span> 
+                <span>REGIONAL RESISTANCE (IRAQ)</span>
+            </div>
+            
+            <div style="display: flex; align-items: center;">
+                <span style="color: #8b4513; font-size: 20px; margin-right: 10px; text-shadow: 0 0 5px #8b4513;">●</span> 
+                <span>IRANIAN KURDS (ALIGNED)</span>
+            </div>
         </div>
     </div>
     
