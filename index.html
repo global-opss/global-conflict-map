@@ -162,44 +162,45 @@
 
 <script>
     (function() {
-        // 1. Добавяме анимацията динамично
         const styleSheet = document.createElement("style");
         styleSheet.innerText = `
-            @keyframes border-pulse {
-                0% { stroke-width: 4; stroke-opacity: 0.6; filter: drop-shadow(0 0 2px #ff0000); }
-                50% { stroke-width: 8; stroke-opacity: 1; filter: drop-shadow(0 0 15px #ff0000); }
-                100% { stroke-width: 4; stroke-opacity: 0.6; filter: drop-shadow(0 0 2px #ff0000); }
+            @keyframes border-strobe {
+                0%, 100% { stroke-opacity: 0.1; filter: drop-shadow(0 0 0px #ff0000); }
+                50% { stroke-opacity: 1; filter: drop-shadow(0 0 10px #ff0000); }
             }
-            .pulsing-border-line {
-                animation: border-pulse 2s infinite ease-in-out;
-                stroke-dasharray: 8, 12;
+            .precision-strobe {
+                animation: border-strobe 0.8s steps(1) infinite;
+                stroke-dasharray: 5, 5;
             }
         `;
         document.head.appendChild(styleSheet);
 
-        // 2. Функция за инжектиране на границата върху обекта "map"
-        function injectBorder() {
+        function injectPrecisionBorder() {
             if (typeof map !== 'undefined') {
-                const kurdistanFrontCoords = [
-                    [36.31, 45.41], [36.00, 45.15], [35.60, 45.62],
-                    [35.21, 46.12], [34.78, 46.30], [34.33, 46.01],
-                    [33.88, 45.71], [33.19, 45.11], [32.78, 45.51],
-                    [32.33, 45.91], [31.88, 46.31], [31.41, 46.72],
-                    [30.99, 47.12], [30.55, 47.52], [29.99, 48.11]
+                // ПЪЛЕН СПИСЪК ТОЧНИ КООРДИНАТИ (СЕВЕР -> ЮГ)
+                const precisionCoords = [
+                    [37.15, 44.78], [36.85, 44.90], [36.50, 45.10], // Северен Кюрдистан
+                    [36.20, 45.45], [35.85, 45.40], [35.50, 45.90], // Около Сюлеймания
+                    [35.15, 46.20], [34.75, 46.10], [34.30, 45.70], // Централен фронт
+                    [33.95, 45.60], [33.50, 45.30], [33.10, 45.10], 
+                    [32.85, 45.40], [32.45, 45.75], [32.00, 46.20], // Към Илам
+                    [31.65, 46.55], [31.25, 46.95], [30.90, 47.45], // Южна зона
+                    [30.55, 47.75], [30.20, 47.95], [29.95, 48.20], 
+                    [29.75, 48.50], [29.50, 48.65] // Излаз на морето
                 ];
 
-                L.polyline(kurdistanFrontCoords, {
+                L.polyline(precisionCoords, {
                     color: '#ff0000',
-                    weight: 6,
-                    className: 'pulsing-border-line',
-                    interactive: false // Важно: за да не блокира кликовете върху държавите
+                    weight: 2, 
+                    className: 'precision-strobe',
+                    interactive: false
                 }).addTo(map);
-                console.log(">> SYSTEM: Kurdistan Frontline Pulse Activated.");
+                console.log(">> TACTICAL UPDATE: Precision Border Strobe is LIVE.");
             } else {
-                setTimeout(injectBorder, 500); // Чака картата да се зареди от script.js
+                setTimeout(injectPrecisionBorder, 500);
             }
         }
-        injectBorder();
+        injectPrecisionBorder();
     })();
 </script>
 
