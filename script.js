@@ -179,18 +179,32 @@ let map; // Сложи го точно тук на нов ред
         crossOrigin: true
     }).addTo(map);
 
-// === [ RECON INTEL MODULE - MARCH 2026 ] ===
-const reconUnits = [
+// === [ ЦЯЛОСТЕН МОДУЛ ЗА РАЗУЗНАВАНЕ - МАРТ 2026 ] ===
+const allReconUnits = [
+    // --- ИРАН (🔴 ЧЕРВЕНО) ---
     { lat: 37.55, lng: 45.01, color: '#ff0000', label: 'IRGC GROUND FORCES (URMIA)' },
     { lat: 34.33, lng: 47.07, color: '#ff0000', label: '7TH ARMORED DIV (KERMANSHAH)' },
     { lat: 32.42, lng: 48.36, color: '#ff0000', label: 'STRIKE GROUP (DEZFUL)' },
+    { lat: 28.98, lng: 50.83, color: '#ff0000', label: 'AIR DEFENSE NODE (BUSHEHR NPP)' },
+    { lat: 32.65, lng: 51.66, color: '#ff0000', label: 'MISSILE PRODUCTION HUB (ISFAHAN)' },
+    { lat: 27.20, lng: 56.28, color: '#ff0000', label: 'NAVAL STRIKE GROUP (BANDAR ABBAS)' },
+
+    // --- КЮРДСКА СЪПРОТИВА (🟤 КАФЯВО) ---
     { lat: 36.65, lng: 44.52, color: '#8b4513', label: 'KURDISH RESISTANCE (QANDIL)' },
     { lat: 35.56, lng: 45.43, color: '#8b4513', label: 'KORDESTAN FREE FORCES (SULAYMANIYAH)' },
+    { lat: 36.08, lng: 44.62, color: '#8b4513', label: 'PDKI HEADQUARTERS (KOYA)' },
+    { lat: 36.19, lng: 44.01, color: '#8b4513', label: 'OPERATIONAL SAFE HOUSE (ERBIL)' },
+
+    // --- ИРАКСКА СЪПРОТИВА - PRO-IRAN (🟡 ЖЪЛТО) ---
     { lat: 33.31, lng: 44.36, color: '#ffff00', label: 'KATAIB HEZBOLLAH HQ (BAGHDAD)' },
-    { lat: 30.50, lng: 47.81, color: '#ffff00', label: 'MILITIA HUB (BASRA)' }
+    { lat: 30.50, lng: 47.81, color: '#ffff00', label: 'MILITIA HUB (BASRA)' },
+    { lat: 34.34, lng: 41.13, color: '#ffff00', label: 'LOGISTICS HUB (AL-QAIM)' },
+    { lat: 32.55, lng: 40.12, color: '#ffff00', label: 'MOBILE LAUNCH SITE (ANBAR)' },
+    { lat: 36.33, lng: 43.15, color: '#ffff00', label: 'PARAMILITARY POST (MOSUL)' }
 ];
 
-reconUnits.forEach(unit => {
+// Разполагане на всички единици на картата
+allReconUnits.forEach(unit => {
     L.circleMarker([unit.lat, unit.lng], {
         radius: 7,
         fillColor: unit.color,
@@ -198,10 +212,10 @@ reconUnits.forEach(unit => {
         weight: 1.5,
         opacity: 1,
         fillOpacity: 0.9,
-        pane: 'markerPane' // Важно: за да са над облаците и дъжда
+        pane: 'markerPane' 
     }).addTo(map).bindPopup(`<b>[RECON DATA]</b><br>${unit.label}`);
 });
-// ===========================================
+// ===================================================
       
 // --- СЕКЦИЯ 2: ГЕОПОЛИТИЧЕСКИ ДАННИ И ГРАНИЦИ ---
 const warZones = ['Russia', 'Ukraine', 'Syria', 'Sudan', 'Pakistan', 'Afghanistan', 'Iran'];
