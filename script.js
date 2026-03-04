@@ -1830,4 +1830,37 @@ setInterval(checkCriticalAlerts, 30000);
     };
 })();
 
+// === [ RECON INTEL MODULE - MARCH 2026 ] ===
+// Секция за ръчно позициониране на сухопътни сили
 
+const reconUnits = [
+    // 🔴 ИРАНСКИ СУХОПЪТНИ ЧАСТИ (BORDER DEFENSE)
+    { lat: 37.55, lng: 45.01, color: '#ff0000', label: 'IRGC GROUND FORCES (URMIA)' },
+    { lat: 34.33, lng: 47.07, color: '#ff0000', label: '7TH ARMORED DIV (KERMANSHAH)' },
+    { lat: 32.42, lng: 48.36, color: '#ff0000', label: 'STRIKE GROUP (DEZFUL)' },
+
+    // 🟤 ИРАНСКИ КЮРДИ (PRO-WEST / ANTI-IRAN)
+    { lat: 36.65, lng: 44.52, color: '#8b4513', label: 'KURDISH RESISTANCE (QANDIL)' },
+    { lat: 35.56, lng: 45.43, color: '#8b4513', label: 'KORDESTAN FREE FORCES (SULAYMANIYAH)' },
+
+    // 🟡 ИРАКСКА СЪПРОТИВА (PRO-IRAN)
+    { lat: 33.31, lng: 44.36, color: '#ffff00', label: 'KATAIB HEZBOLLAH HQ (BAGHDAD)' },
+    { lat: 30.50, lng: 47.81, color: '#ffff00', label: 'MILITIA HUB (BASRA)' }
+];
+
+// Функция за изчертаване на разузнавателните данни
+function deployReconIntel() {
+    reconUnits.forEach(unit => {
+        L.circleMarker([unit.lat, unit.lng], {
+            radius: 6,
+            fillColor: unit.color,
+            color: "#fff",
+            weight: 1,
+            opacity: 1,
+            fillOpacity: 0.8
+        }).addTo(map).bindPopup(`<b>RECON:</b> ${unit.label}`);
+    });
+}
+
+// Стартиране на модула
+deployReconIntel();
