@@ -159,51 +159,6 @@
         }
         
     </style>
-
-<script>
-    (function() {
-        const styleSheet = document.createElement("style");
-        styleSheet.innerText = `
-            @keyframes border-strobe {
-                0%, 100% { stroke-opacity: 0.1; filter: drop-shadow(0 0 0px #ff0000); }
-                50% { stroke-opacity: 1; filter: drop-shadow(0 0 10px #ff0000); }
-            }
-            .precision-strobe {
-                animation: border-strobe 0.8s steps(1) infinite;
-                stroke-dasharray: 5, 5;
-            }
-        `;
-        document.head.appendChild(styleSheet);
-
-        function injectPrecisionBorder() {
-            if (typeof map !== 'undefined') {
-                // ПЪЛЕН СПИСЪК ТОЧНИ КООРДИНАТИ (СЕВЕР -> ЮГ)
-                const precisionCoords = [
-                    [37.15, 44.78], [36.85, 44.90], [36.50, 45.10], // Северен Кюрдистан
-                    [36.20, 45.45], [35.85, 45.40], [35.50, 45.90], // Около Сюлеймания
-                    [35.15, 46.20], [34.75, 46.10], [34.30, 45.70], // Централен фронт
-                    [33.95, 45.60], [33.50, 45.30], [33.10, 45.10], 
-                    [32.85, 45.40], [32.45, 45.75], [32.00, 46.20], // Към Илам
-                    [31.65, 46.55], [31.25, 46.95], [30.90, 47.45], // Южна зона
-                    [30.55, 47.75], [30.20, 47.95], [29.95, 48.20], 
-                    [29.75, 48.50], [29.50, 48.65] // Излаз на морето
-                ];
-
-                L.polyline(precisionCoords, {
-                    color: '#ff0000',
-                    weight: 2, 
-                    className: 'precision-strobe',
-                    interactive: false
-                }).addTo(map);
-                console.log(">> TACTICAL UPDATE: Precision Border Strobe is LIVE.");
-            } else {
-                setTimeout(injectPrecisionBorder, 500);
-            }
-        }
-        injectPrecisionBorder();
-    })();
-</script>
-
 </head>
 <body>
     <header>
