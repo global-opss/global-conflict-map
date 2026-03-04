@@ -1912,36 +1912,47 @@ setInterval(checkCriticalAlerts, 30000);
     };
 })();
 
-// --- КОНТРОЛЕР ЗА COALITION LEGEND (БУТОН ЗА СВИВАНЕ) ---
-(function() {
-    // Търсим легендата по нейния клас
+// --- КОНТРОЛЕР ЗА COALITION LEGEND (ВЕРСИЯ СЪС ЗАКЪСНЕНИЕ) ---
+setTimeout(() => {
+    // Търсим елемента по клас (Leaflet легендите обикновено са .map-legend или .leaflet-control)
     const legend = document.querySelector('.map-legend');
-    if (!legend) return;
-
-    // Стилизираме за плавно движение
-    legend.style.transition = "all 0.4s cubic-bezier(0.4, 0, 0.2, 1)";
-    legend.style.overflow = "hidden";
-
-    // Създаваме бутона [ — ]
-    const toggleBtn = document.createElement('span');
-    toggleBtn.innerHTML = "[ — ]";
-    toggleBtn.style.cssText = `margin-left: 10px; cursor: pointer; font-family: monospace; color: #39FF14; font-weight: bold;`;
     
-    // Добавяме го в легендата
-    legend.appendChild(toggleBtn);
+    if (legend) {
+        legend.style.transition = "all 0.4s ease";
+        legend.style.overflow = "hidden";
+        legend.style.minWidth = "150px"; // Да не се свива твърде много на ширина
 
-    let isCollapsed = false;
-    const fullHeight = "auto"; // Да се разпъва според съдържанието
+        const toggleBtn = document.createElement('span');
+        toggleBtn.innerHTML = "[ — ]";
+        toggleBtn.style.cssText = `
+            float: right; 
+            margin-left: 10px; 
+            cursor: pointer; 
+            font-family: monospace; 
+            color: #39FF14; 
+            font-weight: bold;
+        `;
+        
+        // Слагаме бутона най-отгоре
+        legend.prepend(toggleBtn);
 
-    toggleBtn.onclick = function() {
-        if (!isCollapsed) {
-            legend.style.height = "20px"; // Свива се до заглавната линия
-            toggleBtn.innerHTML = "[ + ]";
-            isCollapsed = true;
-        } else {
-            legend.style.height = fullHeight;
-            toggleBtn.innerHTML = "[ — ]";
-            isCollapsed = false;
-        }
-    };
-})();
+        let isCollapsed = false;
+        // Запазваме оригиналната височина
+        const originalHeight = legend.offsetHeight + "px";
+
+        toggleBtn.onclick = function() {
+            if (!isCollapsed) {
+                legend.style.height = "25px"; 
+                toggleBtn.innerHTML = "[ + ]";
+                isCollapsed = true;
+            } else {
+                legend.style.height = originalHeight;
+                toggleBtn.innerHTML = "[ — ]";
+                isCollapsed = false;
+            }
+        };
+        console.log("Legend controller: Active");
+    } else {
+        console.log("Legend controller: Element not found");
+    }
+}, 1000); // Изчаква 1 секунда за всеки случай
