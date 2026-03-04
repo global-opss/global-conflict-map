@@ -179,7 +179,7 @@ let map; // Сложи го точно тук на нов ред
         crossOrigin: true
     }).addTo(map);
 
-// === [ KURDISTAN PROVINCE ALERT OVERLAY - FIXED ] ===
+// === [ KURDISTAN PROVINCE ALERT OVERLAY - TOP LAYER ] ===
 
 const kurdistanRegion = [
     [36.35, 46.10], [36.20, 47.00], [35.80, 47.50], 
@@ -187,6 +187,7 @@ const kurdistanRegion = [
     [35.40, 46.00], [36.00, 45.80], [36.35, 46.10]
 ];
 
+// Създаваме зоната в специален "markerPane", за да е над облаците
 const alertZone = L.polygon(kurdistanRegion, {
     color: '#ff0000',
     weight: 2,
@@ -194,35 +195,31 @@ const alertZone = L.polygon(kurdistanRegion, {
     fillOpacity: 0.25,
     dashArray: '8, 8',
     interactive: true,
-    bubblingMouseEvents: false // Спира събитието да бяга към картата отдолу
+    pane: 'markerPane' // <--- ТОВА Е РЕШЕНИЕТО!
 }).addTo(map);
 
-// Директно закачаме Tooltip, който се активира автоматично при Hover
+// Закачаме Tooltip-а директно
 alertZone.bindTooltip(`
-    <div style="background: rgba(0,0,0,0.8); color: #fff; border: 1px solid #ff0000; padding: 5px;">
-        <b style="color: #ff0000;">[ SECTOR STATUS: HIGH ALERT ]</b><br>
-        • High risk of ground operations<br>
-        • IRGC & Kurdish movement detected
+    <div style="background: rgba(0,0,0,0.9); color: #fff; border: 1px solid #ff0000; padding: 8px; font-family: monospace;">
+        <b style="color: #ff0000;">🚨 [ SECTOR STATUS: HIGH ALERT ]</b><br>
+        <hr style="border-color: #333;">
+        • REGION: Kurdistan Province<br>
+        • INTEL: High risk of ground ops<br>
+        • STATUS: Critical monitoring
     </div>`, {
-    sticky: true,      // Следва мишката плътно
-    direction: 'auto', 
-    opacity: 0.9,
-    className: 'custom-radar-tooltip'
+    sticky: true,
+    direction: 'top',
+    opacity: 1.0,
+    offset: L.point(0, -10) // Малко по-нагоре от мишката
 });
 
-// Добавяме и визуален ефект за "светене" при посочване
+// Ефект при посочване
 alertZone.on('mouseover', function () {
-    this.setStyle({
-        fillOpacity: 0.45,
-        weight: 3
-    });
+    this.setStyle({ fillOpacity: 0.5, weight: 4 });
 });
 
 alertZone.on('mouseout', function () {
-    this.setStyle({
-        fillOpacity: 0.25,
-        weight: 2
-    });
+    this.setStyle({ fillOpacity: 0.25, weight: 2 });
 });
       
 // === [ ЦЯЛОСТЕН МОДУЛ ЗА РАЗУЗНАВАНЕ - МАРТ 2026 ] ===
