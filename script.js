@@ -185,14 +185,47 @@ const kurdistanRegion = [
     [35.40, 46.00], [36.00, 45.80], [36.35, 46.10]
 ];
 
-L.polygon(kurdistanRegion, {
-    color: '#ff0000',      // Червен контур
+const alertZone = L.polygon(kurdistanRegion, {
+    color: '#ff0000',
     weight: 2,
-    fillColor: '#ffff00',  // Жълто светене за тревога
+    fillColor: '#ffff00',
     fillOpacity: 0.25,
-    dashArray: '8, 8',     // Лентите, които искаше
-    interactive: false     // Важно: кликането минава "през" нея към точките
+    dashArray: '8, 8',
+    interactive: true // Вече позволяваме взаимодействие
 }).addTo(map);
+
+// 1. ПОП-ЪП ПРИ КЛИК (класика)
+alertZone.bindPopup(`
+    <div style="color: #fff; background: #000; padding: 10px; border: 1px solid #ff0000;">
+        <b style="color: #ff0000;">🚨 SECTOR ALERT: KURDISTAN PROVINCE</b><br>
+        <hr>
+        • High risk of ground operations.<br>
+        • IRGC mobilization detected.<br>
+        • Resistance activity: Level 5.
+    </div>
+`);
+
+// 2. ИНФОРМАЦИЯ ПРИ ПОСОЧВАНЕ (HOVER)
+alertZone.on('mouseover', function (e) {
+    this.setStyle({
+        fillOpacity: 0.5, // Потъмнява леко, за да се види, че е избран
+        weight: 4         // Удебелява рамката
+    });
+    
+    // Създаваме временен етикет (Tooltip)
+    this.bindTooltip("<b>[ INTEL STATUS: CRITICAL ]</b>", {
+        sticky: true, 
+        direction: 'top'
+    }).openTooltip();
+});
+
+// 3. ВРЪЩАНЕ В НОРМАЛНО СЪСТОЯНИЕ
+alertZone.on('mouseout', function (e) {
+    this.setStyle({
+        fillOpacity: 0.25,
+        weight: 2
+    });
+});
       
 // === [ ЦЯЛОСТЕН МОДУЛ ЗА РАЗУЗНАВАНЕ - МАРТ 2026 ] ===
 const allReconUnits = [
