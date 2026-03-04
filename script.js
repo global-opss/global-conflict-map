@@ -231,7 +231,10 @@ const allReconUnits = [
     { lat: 28.98, lng: 50.83, color: '#ff0000', label: 'AIR DEFENSE NODE (BUSHEHR NPP)' },
     { lat: 32.65, lng: 51.66, color: '#ff0000', label: 'MISSILE PRODUCTION HUB (ISFAHAN)' },
     { lat: 27.20, lng: 56.28, color: '#ff0000', label: 'NAVAL STRIKE GROUP (BANDAR ABBAS)' },
-
+    { lat: 35.52, lng: 46.17, color: '#ff0000', label: '121ST INFANTRY BN (MARIVAN SECTOR)' }, 
+    { lat: 36.24, lng: 46.26, color: '#ff0000', label: 'MODERNISED ARMORED BN (SAQQEZ)' },      
+    { lat: 35.35, lng: 46.60, color: '#ff0000', label: 'RESERVE STRIKE UNIT (SARVABAD)' },     
+   
     // --- КЮРДСКА СЪПРОТИВА (🟤 КАФЯВО) ---
     { lat: 36.65, lng: 44.52, color: '#8b4513', label: 'KURDISH RESISTANCE (QANDIL)' },
     { lat: 35.56, lng: 45.43, color: '#8b4513', label: 'KORDESTAN FREE FORCES (SULAYMANIYAH)' },
