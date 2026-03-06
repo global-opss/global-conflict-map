@@ -441,7 +441,7 @@ fetch('https://raw.githubusercontent.com/datasets/geo-boundaries-world-110m/mast
         { name: "Taji Military Complex", type: "ru-infantry", lat: 33.518, lon: 44.275, description: "Main Iraqi logistics & training base. ASSETS: Mi-17 and Bell 407 helicopter squadrons." },
         { name: "Ain al-Assad (Radar Site)", type: "us-missile", lat: 33.802, lon: 42.395, description: "AN/MPQ-64 Sentinel Radar positions. Early warning system for incoming ballistic threats from the East." },
         { name: "USS Abraham Lincoln", type: "us-naval", lat: 21.40, lon: 61.20, description: "Carrier Strike Group 3 (CSG-3). Positioned in the Arabian Sea, providing deterrence against Iran." },
-        { name: "USS Gerald R. Ford", type: "us-naval", lat: 32.8500, lon: 34.9500, description: "Carrier Strike Group 12. Operating near Israel, Mission still unknown" },
+        { name: "USS Gerald R. Ford", type: "us-naval", lat: 15.5000, lon: 41.8000, description: "Carrier Strike Group 12. Operating near Israel, Mission still unknown" },
         { name: "USS Wasp", type: "us-naval", lat: 34.15, lon: 34.50, description: "Amphibious Ready Group. Positioned off the coast of Lebanon/Israel for evacuation readiness." },
         { name: "USS Stockdale", type: "us-naval", lat: 12.75, lon: 43.15, description: "Arleigh Burke-class destroyer. Active intercept missions in the Bab el-Mandeb Strait." },
         { name: "IRIS Shahid Bagheri", type: "ir-naval", lat: 27.10, lon: 56.40, description: "IRGC Drone Carrier. Monitoring traffic in the Strait of Hormuz." },
