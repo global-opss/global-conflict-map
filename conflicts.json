@@ -1,5 +1,33 @@
 [
     {
+        "country": "Ukraine",
+        "city": "Kharkiv",
+        "lat": 50.00550299292335,
+        "lon": 36.18803714299486,
+        "date": "2026-03-07 08:00:47",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Russian strike on Kharkiv apartment block kills seven",
+        "description": "Ukraine President Volodymyr Zelensky says ten other people - including children - are injured as rescuers continue to search through rubble.",
+        "fatalities": "0",
+        "link": "https://www.bbc.com/news/articles/cn8zd049l08o?at_medium=RSS&at_campaign=rss",
+        "critical": false
+    },
+    {
+        "country": "Israel",
+        "city": "Tel Aviv",
+        "lat": 32.037191336469455,
+        "lon": 34.85015594867683,
+        "date": "2026-03-07 08:00:47",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Hezbollah, Israeli troops clash on the ground in eastern Lebanon’s Bekaa",
+        "description": "Lebanese Health Ministry says at least 12 people killed, 33 wounded in Israeli air raids on the town of Nabi Chit.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/news/2026/3/7/hezbollah-israeli-troops-clash-on-the-ground-in-eastern-lebanons-bekaa?traffic_source=rss",
+        "critical": false
+    },
+    {
         "country": "USA",
         "city": "New york",
         "lat": 40.73159165901862,
@@ -3035,34 +3063,6 @@
         "description": "About 100,000 ⁠people have fled to ​shelters in Lebanon, according to the UN. The number of displaced is expected to ​rapidly increase following \"unprecedented\" Israeli warnings ordering people out of large parts of the country. Over 120 have been killed in five days of war.",
         "fatalities": "0",
         "link": "https://www.france24.com/en/displaced-lebanese-speak-of-their-experience-amid-israeli-airstrikes",
-        "critical": true
-    },
-    {
-        "country": "Iran",
-        "city": "Tehran",
-        "lat": 35.67038596736477,
-        "lon": 51.352255205917444,
-        "date": "2026-03-06 14:06:52",
-        "type": "Airstrike",
-        "severity": "critical",
-        "title": "Hezbollah has \"less wriggle room\" as Lebanese \"lose their patience\"",
-        "description": "The war in the Middle East spread to Lebanon when Hezbollah launched a rocket attack at Israel early on March 2, to \"avenge\" the killing of Iranian supreme leader Ali Khamenei in the US-Israeli attack on Tehran. Now, over 100,000 people have been displaced due to retaliatory strikes from Israel, and the Lebanese government has banned Hezbollah's military activities. FRANCE 24's Douglas Herbert breaks it down for us.",
-        "fatalities": "0",
-        "link": "https://www.france24.com/en/hezbollah-has-less-wriggle-room-as-lebanese-lose-their-patience",
-        "critical": true
-    },
-    {
-        "country": "Middle East",
-        "city": "Beirut",
-        "lat": 33.91693000521127,
-        "lon": 35.52495008404683,
-        "date": "2026-03-06 14:06:52",
-        "type": "Airstrike",
-        "severity": "critical",
-        "title": "Lebanese PM says 'humanitarian disaster is looming' from displacement",
-        "description": "Thick plumes of smoke were seen rising over Beirut as the Israeli military announced they had begun an additional wave of strikes in the Lebanese capital. As Hezbollah fired rockets at Israel on Monday, Israel launched strikes on Beirut's southern suburbs and Lebanon's east and south. The Israeli military said it had carried out 26 waves of strikes overnight in the southern suburbs.",
-        "fatalities": "0",
-        "link": "https://www.france24.com/en/video/20260306-lebanese-pm-says-humanitarian-disaster-is-looming-from-displacement",
         "critical": true
     }
 ]
