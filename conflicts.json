@@ -1,5 +1,33 @@
 [
     {
+        "country": "China",
+        "city": "Beijing",
+        "lat": 39.90068670875694,
+        "lon": 116.4583642551433,
+        "date": "2026-03-08 19:59:08",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "China spent years building ties in Latin America. Can Trump make room for the US?",
+        "description": "US President Donald Trump will meet with ideologically-aligned Latin American leaders to try and counter China's influence in the region.",
+        "fatalities": "0",
+        "link": "https://www.bbc.com/news/articles/c5yvw0zwpd5o?at_medium=RSS&at_campaign=rss",
+        "critical": false
+    },
+    {
+        "country": "Israel",
+        "city": "Tel Aviv",
+        "lat": 32.091355192740394,
+        "lon": 34.764580706824354,
+        "date": "2026-03-08 19:59:08",
+        "type": "Airstrike",
+        "severity": "critical",
+        "title": "How do you track a war in real time?",
+        "description": "US and Israel attack Iran: Information is power, and now everyone has it.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/video/the-stream/2026/3/8/how-do-you-track-a-war-in-real-time?traffic_source=rss",
+        "critical": true
+    },
+    {
         "country": "Israel",
         "city": "Tel Aviv",
         "lat": 32.1362405308015,
@@ -3036,33 +3064,5 @@
         "fatalities": "0",
         "link": "https://www.defensenews.com/global/europe/2026/03/05/france-germany-create-panel-to-advance-shared-nuclear-deterrence-plans/",
         "critical": false
-    },
-    {
-        "country": "Ukraine",
-        "city": "Kyiv",
-        "lat": 50.44994752410465,
-        "lon": 30.56845920618096,
-        "date": "2026-03-07 23:44:51",
-        "type": "Drone",
-        "severity": "middle",
-        "title": "US to send anti-drone system to Mideast after successful use in Ukraine, officials say",
-        "description": "The system that is being sent, known as Merops, flies drones against drones. It is small enough to fit in the back of a midsize pickup truck.",
-        "fatalities": "0",
-        "link": "https://www.defensenews.com/news/pentagon-congress/2026/03/07/us-to-send-anti-drone-system-to-mideast-after-successful-use-in-ukraine-officials-say/",
-        "critical": false
-    },
-    {
-        "country": "Iran",
-        "city": "Tehran",
-        "lat": 35.712239819242214,
-        "lon": 51.45001876236219,
-        "date": "2026-03-07 23:44:45",
-        "type": "Airstrike",
-        "severity": "critical",
-        "title": "Huge fire rages at Tehran oil depot after Israeli attack",
-        "description": "Footage captured a massive fire raging at the Shahran oil depot in northern Tehran following an Israeli strike.",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/video/newsfeed/2026/3/7/huge-fire-rages-at-tehran-oil-depot-after-israeli-attack?traffic_source=rss",
-        "critical": true
     }
 ]
