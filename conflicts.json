@@ -1,5 +1,75 @@
 [
     {
+        "country": "Iran",
+        "city": "Tehran",
+        "lat": 35.70355511283597,
+        "lon": 51.33562239490582,
+        "date": "2026-03-14 08:02:32",
+        "type": "Airstrike",
+        "severity": "critical",
+        "title": "US attacks military sites on Iran’s Kharg island, home to vast oil facility",
+        "description": "Tehran threatens to reduce US-linked oil facilities to pile of ashes if oil structures on the island are attacked.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/news/2026/3/14/us-attacks-military-sites-on-irans-kharg-island-home-to-vast-oil-facility?traffic_source=rss",
+        "critical": true
+    },
+    {
+        "country": "Iran",
+        "city": "Tehran",
+        "lat": 35.67735108183931,
+        "lon": 51.38055089990768,
+        "date": "2026-03-14 08:02:30",
+        "type": "Naval",
+        "severity": "normal",
+        "title": "Bodies of 84 Iranian sailors killed in US torpedo strike to be repatriated",
+        "description": "The seamen died when Iranian warship the Iris Dena was sunk on 4 March by a US submarine near Sri Lanka.",
+        "fatalities": "0",
+        "link": "https://www.bbc.com/news/articles/c363lk4xk07o?at_medium=RSS&at_campaign=rss",
+        "critical": false
+    },
+    {
+        "country": "Ukraine",
+        "city": "Kyiv",
+        "lat": 50.40143109780838,
+        "lon": 30.507012921450993,
+        "date": "2026-03-14 08:02:28",
+        "type": "Naval",
+        "severity": "normal",
+        "title": "Phones ‘Ringing Off the Hook’ for Ukraine Defense Firms as Mideast Seeks Help",
+        "description": "Ukraine wants to leverage its defense expertise into security partnerships and to reap potentially vast profits for its arms industry.",
+        "fatalities": "0",
+        "link": "https://www.nytimes.com/2026/03/13/world/europe/ukraine-drone-interceptors-iran-middle-east.html",
+        "critical": false
+    },
+    {
+        "country": "Israel",
+        "city": "Tel Aviv",
+        "lat": 32.051939056949315,
+        "lon": 34.72841652740254,
+        "date": "2026-03-14 08:02:28",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "What Does It Mean to Have Air Superiority Over Iran?",
+        "description": "The American and Israeli air forces have a dominant advantage in the skies, but Iran can still muster some resistance.",
+        "fatalities": "0",
+        "link": "https://www.nytimes.com/2026/03/13/world/middleeast/air-superiority-iran-war.html",
+        "critical": false
+    },
+    {
+        "country": "Iran",
+        "city": "Kharg island",
+        "lat": 29.29765483597695,
+        "lon": 50.28218152646542,
+        "date": "2026-03-14 08:02:26",
+        "type": "Clashes",
+        "severity": "middle",
+        "title": "Iran War Live Updates: U.S. Says It Bombed Key Iranian Island With Oil Hub",
+        "description": "President Trump said he directed the Pentagon to “totally obliterate” military assets on Kharg Island. The U.S. said it was deploying thousands of Marines to the region.",
+        "fatalities": "0",
+        "link": "https://www.nytimes.com/live/2026/03/14/world/iran-war-trump-oil-israel",
+        "critical": false
+    },
+    {
         "country": "Russia",
         "city": "Moscow",
         "lat": 55.82305243543604,
@@ -170,20 +240,6 @@
     {
         "country": "Iran",
         "city": "Tehran",
-        "lat": 35.756529018572145,
-        "lon": 51.38417576503503,
-        "date": "2026-03-14 07:24:35",
-        "type": "Airstrike",
-        "severity": "critical",
-        "title": "US attacks military sites on Iran’s Kharg Island, home to vast oil facility",
-        "description": "Tehran threatens to reduce US-linked oil facilities to pile of ashes if oil structures on the island are targeted.",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/news/2026/3/14/us-attacks-military-sites-on-irans-kharg-island-home-to-vast-oil-facility?traffic_source=rss",
-        "critical": true
-    },
-    {
-        "country": "Iran",
-        "city": "Tehran",
         "lat": 35.70591653243908,
         "lon": 51.33716204995419,
         "date": "2026-03-14 07:24:35",
@@ -194,6 +250,20 @@
         "fatalities": "0",
         "link": "https://www.aljazeera.com/news/2026/3/14/iran-war-what-is-happening-on-day-15-of-us-israel-attacks?traffic_source=rss",
         "critical": false
+    },
+    {
+        "country": "Iran",
+        "city": "Tehran",
+        "lat": 35.756529018572145,
+        "lon": 51.38417576503503,
+        "date": "2026-03-14 07:24:35",
+        "type": "Airstrike",
+        "severity": "critical",
+        "title": "US attacks military sites on Iran’s Kharg Island, home to vast oil facility",
+        "description": "Tehran threatens to reduce US-linked oil facilities to pile of ashes if oil structures on the island are targeted.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/news/2026/3/14/us-attacks-military-sites-on-irans-kharg-island-home-to-vast-oil-facility?traffic_source=rss",
+        "critical": true
     },
     {
         "country": "Iran",
@@ -546,20 +616,6 @@
         "critical": true
     },
     {
-        "country": "Middle East",
-        "city": "Beirut",
-        "lat": 33.935332131996994,
-        "lon": 35.5096933821881,
-        "date": "2026-03-14 05:03:14",
-        "type": "Naval",
-        "severity": "normal",
-        "title": "More US Marines and warships to be moved to Middle East, reports say",
-        "description": "The reinforcements will come from an amphibious ready group that is usually based in Japan, an official told CBS, the BBC's US partner.",
-        "fatalities": "0",
-        "link": "https://www.bbc.com/news/articles/cq8gj9n12g8o?at_medium=RSS&at_campaign=rss",
-        "critical": false
-    },
-    {
         "country": "Asia",
         "city": "Pakistan",
         "lat": 31.524320571618873,
@@ -571,6 +627,20 @@
         "description": "Families preparing for Eid al-Fitr and farmers ready for harvest are being squeezed in a country that gets nearly all its oil through the Persian Gulf.",
         "fatalities": "0",
         "link": "https://www.nytimes.com/2026/03/14/world/asia/pakistan-oil-prices.html",
+        "critical": false
+    },
+    {
+        "country": "Middle East",
+        "city": "Beirut",
+        "lat": 33.935332131996994,
+        "lon": 35.5096933821881,
+        "date": "2026-03-14 05:03:14",
+        "type": "Naval",
+        "severity": "normal",
+        "title": "More US Marines and warships to be moved to Middle East, reports say",
+        "description": "The reinforcements will come from an amphibious ready group that is usually based in Japan, an official told CBS, the BBC's US partner.",
+        "fatalities": "0",
+        "link": "https://www.bbc.com/news/articles/cq8gj9n12g8o?at_medium=RSS&at_campaign=rss",
         "critical": false
     },
     {
@@ -714,20 +784,6 @@
         "critical": false
     },
     {
-        "country": "China",
-        "city": "Beijing",
-        "lat": 39.90478781221066,
-        "lon": 116.44018685417132,
-        "date": "2026-03-13 22:59:59",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "China Wants Its Ethnic Minorities to Blend In. Now It’s the Law.",
-        "description": "Under a new “ethnic unity” law, Mandarin Chinese must now be the language of teaching. Parents must guide their children to love the Communist Party. Neighborhoods should be mixed.",
-        "fatalities": "0",
-        "link": "https://www.nytimes.com/2026/03/12/world/asia/china-minorities-xinjiang-tibet.html",
-        "critical": false
-    },
-    {
         "country": "Iran",
         "city": "Tehran",
         "lat": 35.666989320010224,
@@ -740,6 +796,20 @@
         "fatalities": "0",
         "link": "https://www.bbc.com/news/articles/c79505804lpo?at_medium=RSS&at_campaign=rss",
         "critical": true
+    },
+    {
+        "country": "China",
+        "city": "Beijing",
+        "lat": 39.90478781221066,
+        "lon": 116.44018685417132,
+        "date": "2026-03-13 22:59:59",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "China Wants Its Ethnic Minorities to Blend In. Now It’s the Law.",
+        "description": "Under a new “ethnic unity” law, Mandarin Chinese must now be the language of teaching. Parents must guide their children to love the Communist Party. Neighborhoods should be mixed.",
+        "fatalities": "0",
+        "link": "https://www.nytimes.com/2026/03/12/world/asia/china-minorities-xinjiang-tibet.html",
+        "critical": false
     },
     {
         "country": "Iran",
@@ -1694,20 +1764,6 @@
         "critical": false
     },
     {
-        "country": "Israel",
-        "city": "Tel Aviv",
-        "lat": 32.0886135095218,
-        "lon": 34.72357836047424,
-        "date": "2026-03-13 17:54:43",
-        "type": "Clashes",
-        "severity": "middle",
-        "title": "Israel Drops Case Against Soldiers Accused of Abusing Palestinian Detainee",
-        "description": "After a prisoner arrived at a hospital with broken ribs and a torn rectum, Israelis were once again at odds over the issue of mistreatment and impunity.",
-        "fatalities": "0",
-        "link": "https://www.nytimes.com/2026/03/12/world/middleeast/israel-detainee-abuse-charges.html",
-        "critical": false
-    },
-    {
         "country": "Ukraine",
         "city": "Kyiv",
         "lat": 50.49474163487803,
@@ -1719,6 +1775,20 @@
         "description": "Ukraine's president says the US decision \"certainly does not help achieve peace\".",
         "fatalities": "0",
         "link": "https://www.bbc.com/news/articles/c1d6l67122wo?at_medium=RSS&at_campaign=rss",
+        "critical": false
+    },
+    {
+        "country": "Israel",
+        "city": "Tel Aviv",
+        "lat": 32.0886135095218,
+        "lon": 34.72357836047424,
+        "date": "2026-03-13 17:54:43",
+        "type": "Clashes",
+        "severity": "middle",
+        "title": "Israel Drops Case Against Soldiers Accused of Abusing Palestinian Detainee",
+        "description": "After a prisoner arrived at a hospital with broken ribs and a torn rectum, Israelis were once again at odds over the issue of mistreatment and impunity.",
+        "fatalities": "0",
+        "link": "https://www.nytimes.com/2026/03/12/world/middleeast/israel-detainee-abuse-charges.html",
         "critical": false
     },
     {
@@ -2993,76 +3063,6 @@
         "description": "Rescue efforts ongoing as fate of two other crew-members unconfirmed; second tanker involved in incident safely lands at Ben Gurion Airport after sending out emergency signal\nThe post Four US soldiers killed as refueling plane crashes in Iraq due to apparent accident appeared first on The Times of Israel.",
         "fatalities": "0",
         "link": "https://www.timesofisrael.com/us-refueling-plane-crashes-in-iraq-due-to-apparent-accident-rescue-efforts-ongoing/",
-        "critical": false
-    },
-    {
-        "country": "Ukraine",
-        "city": "Kyiv",
-        "lat": 50.40811372517741,
-        "lon": 30.50161084893013,
-        "date": "2026-03-13 11:46:29",
-        "type": "Naval",
-        "severity": "normal",
-        "title": "Fears of a food shock rise as midterms loom",
-        "description": "A potential new inflation headache is forming from the Strait of Hormuz to America's farm fields — threatening to ripple into food supply and grocery prices months from now. Why it matters: The Iran war could reignite the one form of inflation voters feel most directly — in the grocery aisle — just as midterm campaigns ramp up.The big picture: Not long after our last bout of food inflation — caused partly by the increase in commodity prices from ",
-        "fatalities": "0",
-        "link": "https://www.axios.com/2026/03/13/iran-war-food-inflation-trump-midterms",
-        "critical": false
-    },
-    {
-        "country": "Europe",
-        "city": "Brussels",
-        "lat": 50.904766157179644,
-        "lon": 4.277968881472228,
-        "date": "2026-03-13 11:46:17",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Polish president rejects $50 billion in European military loans",
-        "description": "The development represents the latest tit-for-tat move in right-wing Nawrocki’s ongoing row with the centrist government.",
-        "fatalities": "0",
-        "link": "https://www.defensenews.com/global/europe/2026/03/13/polish-president-rejects-50-billion-in-european-military-loans/",
-        "critical": false
-    },
-    {
-        "country": "Iran",
-        "city": "Tehran",
-        "lat": 35.755377619510185,
-        "lon": 51.37645859073815,
-        "date": "2026-03-13 11:46:17",
-        "type": "Naval",
-        "severity": "normal",
-        "title": "Nations withdraw some equipment from NATO Arctic exercise amid Iran fallout",
-        "description": "Italian personnel on board the San Giusto said the Andrea Doria had departed a few days earlier in case the destroyer is needed closer to home.",
-        "fatalities": "0",
-        "link": "https://www.defensenews.com/global/europe/2026/03/12/nations-withdraw-some-equipment-from-nato-arctic-exercise-amid-iran-fallout/",
-        "critical": false
-    },
-    {
-        "country": "USA",
-        "city": "New york",
-        "lat": 40.6973837308798,
-        "lon": -73.98533322307539,
-        "date": "2026-03-13 11:46:15",
-        "type": "Clashes",
-        "severity": "middle",
-        "title": "NOMA chef steps down after New York Times report of abuse",
-        "description": "PRESS REVIEW – Friday, March 13: We examine how the press is responding to Lebanon emerging as a new front in the US and Israel’s war against Iran. One paper describes the conflict in Lebanon as an extension of Israel’s war against Hezbollah. Also in the headlines: the chef and co-founder of fine-dining restaurant NOMA steps down following a New York Times report detailing allegations of physical and verbal abuse of staff. And the shortlisted nom",
-        "fatalities": "0",
-        "link": "https://www.france24.com/en/tv-shows/press-review/20260313-noma-chef-steps-down-after-new-york-times-report-of-abuse",
-        "critical": false
-    },
-    {
-        "country": "Israel",
-        "city": "Tel Aviv",
-        "lat": 32.146730741810856,
-        "lon": 34.788238146087046,
-        "date": "2026-03-13 11:46:15",
-        "type": "Clashes",
-        "severity": "middle",
-        "title": "Middle East: Millions forced from their homes since the start of the war",
-        "description": "Up to 3.2 million people in Iran have been displaced since the Middle East war erupted, the United Nations refugee agency said Thursday and authorities in Lebanon say 800,000 have been forced from their homes as Israel’s military destroys buildings linked to Iran-backed Hezbollah militants.",
-        "fatalities": "0",
-        "link": "https://www.france24.com/en/video/20260313-middle-east-millions-forced-from-their-homes-since-the-start-of-the-war",
         "critical": false
     }
 ]
