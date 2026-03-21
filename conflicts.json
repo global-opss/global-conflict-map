@@ -2,6 +2,20 @@
     {
         "country": "Iran",
         "city": "Tehran",
+        "lat": 35.707880885966624,
+        "lon": 51.3464092555807,
+        "date": "2026-03-21 07:58:23",
+        "type": "Airstrike",
+        "severity": "critical",
+        "title": "Trump makes Pearl Harbor remark in meeting with Japan's PM",
+        "description": "President Trump compared US strikes on Iran to the deadly 1941 Japanese attack and declaration of war as part of World War Two.",
+        "fatalities": "0",
+        "link": "https://www.bbc.com/news/articles/c8dlpr074q3o?at_medium=RSS&at_campaign=rss",
+        "critical": true
+    },
+    {
+        "country": "Iran",
+        "city": "Tehran",
         "lat": 35.741252240081074,
         "lon": 51.45075601516947,
         "date": "2026-03-21 07:10:45",
@@ -3049,20 +3063,6 @@
         "description": "With the war in the Middle East triggers fears of a hike in prices for everyday goods, some consumers in France have been rushing out to stock up on essentials including non-perishables such as pasta and tinned food.",
         "fatalities": "0",
         "link": "https://www.france24.com/en/video/20260320-french-stock-up-on-essentials-as-war-triggers-price-fears",
-        "critical": false
-    },
-    {
-        "country": "Ukraine",
-        "city": "Kyiv",
-        "lat": 50.398771325795245,
-        "lon": 30.584404500895285,
-        "date": "2026-03-20 11:46:52",
-        "type": "Clashes",
-        "severity": "middle",
-        "title": "Outrage among EU leaders as Hungary's Orban U-turns on Ukraine loan",
-        "description": "Outraged EU leaders rounded on Viktor Orban after the Hungarian nationalist refused to lift his veto on funds for Ukraine's war effort at a Thursday summit, accusing him of a \"gross act of disloyalty\" tantamount to \"blackmail.\" It is not the first time Orban has blocked aid to Ukraine, but the anger has been magnified by the fact the Hungarian leader had previously agreed to the deal, says France 24's Kethevane Gorjestani.",
-        "fatalities": "0",
-        "link": "https://www.france24.com/en/video/20260320-outrage-among-eu-leaders-as-hungary-s-orban-u-turns-on-ukraine-loan",
         "critical": false
     }
 ]
