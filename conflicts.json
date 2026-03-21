@@ -1,5 +1,47 @@
 [
     {
+        "country": "Israel",
+        "city": "Tel Aviv",
+        "lat": 32.12221477042024,
+        "lon": 34.84955523149274,
+        "date": "2026-03-21 23:50:01",
+        "type": "Airstrike",
+        "severity": "critical",
+        "title": "Resident of West Bank outpost, 18, killed after Palestinian vehicle strikes his ATV",
+        "description": "Incident occurred as Yehudah Sherman and his brother were conducting 'land patrol' near settlement outpost; IDF, police investigating whether crash was a terror attack\nThe post Resident of West Bank outpost, 18, killed after Palestinian vehicle strikes his ATV appeared first on The Times of Israel.",
+        "fatalities": "0",
+        "link": "https://www.timesofisrael.com/teen-resident-of-west-bank-outpost-killed-after-palestinian-vehicle-strikes-his-atv/",
+        "critical": true
+    },
+    {
+        "country": "Iran",
+        "city": "Kharg island",
+        "lat": 29.235600792368388,
+        "lon": 50.38405397549071,
+        "date": "2026-03-21 23:50:00",
+        "type": "Naval",
+        "severity": "normal",
+        "title": "Trump considers \"winding down\" Iran war without opening Hormuz Strait",
+        "description": "President Trump said on Friday he is considering \"winding down\" the war with Iran without solving the crisis over the closure of the Strait of Hormuz.Why it matters: Trump has said for several days that the war could end soon, but this is the strongest signal yet that he's actively moving in that direction. If he does walk away without reopening the strait, the U.S. would be leaving other countries to clean up a hugely consequential economic quag",
+        "fatalities": "0",
+        "link": "https://www.axios.com/2026/03/20/trump-winding-down-iran-war-hormuz-strait",
+        "critical": false
+    },
+    {
+        "country": "Iran",
+        "city": "Tehran",
+        "lat": 35.68679687301321,
+        "lon": 51.398100442166324,
+        "date": "2026-03-21 23:49:31",
+        "type": "Clashes",
+        "severity": "middle",
+        "title": "Trump at a crossroads as US weighs tough options in Iran",
+        "description": "Statements from President Trump that the war is almost over are not matching up with the reality on the ground.",
+        "fatalities": "0",
+        "link": "https://www.bbc.com/news/articles/clyxv87zwwpo?at_medium=RSS&at_campaign=rss",
+        "critical": false
+    },
+    {
         "country": "USA",
         "city": "New york",
         "lat": 40.71017765167475,
@@ -3022,47 +3064,5 @@
         "fatalities": "0",
         "link": "https://www.timesofisrael.com/trump-rules-out-ceasefire-with-iran-says-israel-will-agree-to-end-war-when-hes-ready/",
         "critical": false
-    },
-    {
-        "country": "USA",
-        "city": "Norfolk",
-        "lat": 36.894579360177815,
-        "lon": -76.32486876131375,
-        "date": "2026-03-20 23:01:04",
-        "type": "Evacuation",
-        "severity": "critical",
-        "title": "Raytheon secures potential $212.12m ROTHR contract for US Navy",
-        "description": "Raytheon has received a cost-plus-fixed-fee contract worth $40.25m from the Naval Supply Systems Command Fleet Logistics Center Norfolk.\nThe post Raytheon secures potential $212.12m ROTHR contract for US Navy appeared first on Naval Technology.",
-        "fatalities": "0",
-        "link": "https://www.naval-technology.com/news/raytheon-rothr-us-navy/",
-        "critical": true
-    },
-    {
-        "country": "Iran",
-        "city": "Kharg island",
-        "lat": 29.26888227778092,
-        "lon": 50.317161923383004,
-        "date": "2026-03-20 23:00:59",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "US bombs key Iranian island amid oil concerns",
-        "description": "President Trump said U.S. forces “totally obliterated\" every military target on Iran's oil hub, Kharg Island.",
-        "fatalities": "0",
-        "link": "https://www.militarytimes.com/flashpoints/2026/03/14/us-bombs-key-iranian-island-amid-oil-concerns/",
-        "critical": false
-    },
-    {
-        "country": "Middle East",
-        "city": "Beirut",
-        "lat": 33.876770612943155,
-        "lon": 35.442423214052084,
-        "date": "2026-03-20 23:00:49",
-        "type": "Airstrike",
-        "severity": "critical",
-        "title": "Here’s What Happened in the War in the Middle East on Friday",
-        "description": "The Persian new year and the end of the holy month of Ramadan were marked by continuing strikes in the region as the war reached the end of its third week.",
-        "fatalities": "0",
-        "link": "https://www.nytimes.com/2026/03/20/world/middleeast/iran-war-middle-east-recap.html",
-        "critical": true
     }
 ]
