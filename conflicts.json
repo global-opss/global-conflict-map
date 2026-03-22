@@ -1,5 +1,33 @@
 [
     {
+        "country": "USA",
+        "city": "New york",
+        "lat": 40.684553575462,
+        "lon": -73.9530090839425,
+        "date": "2026-03-22 22:55:05",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Метеорит пробил крышу жилого дома в штате Техас",
+        "description": "Фрагмент метеорита пробил крышу жилого дома неподалеку от американского города Хьюстон в штате Техас, сообщает The New York Times. Метеорит упал около 16:45 21 марта (00:45 мск 22 марта).",
+        "fatalities": "0",
+        "link": "https://www.kommersant.ru/doc/8532351",
+        "critical": false
+    },
+    {
+        "country": "Iran",
+        "city": "Tehran",
+        "lat": 35.72552056807665,
+        "lon": 51.42471580428918,
+        "date": "2026-03-22 22:54:44",
+        "type": "Naval",
+        "severity": "normal",
+        "title": "Who’s left running Iran?",
+        "description": "Much of the top leadership has been eliminated, but the country is still fighting.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/video/inside-story/2026/3/22/whos-left-running-iran?traffic_source=rss",
+        "critical": false
+    },
+    {
         "country": "Israel",
         "city": "Tel Aviv",
         "lat": 32.14975413737252,
@@ -3036,33 +3064,5 @@
         "fatalities": "0",
         "link": "https://www.aljazeera.com/news/2026/3/22/casualties-as-israeli-settlers-set-fire-to-homes-and-cars-in-west-bank?traffic_source=rss",
         "critical": false
-    },
-    {
-        "country": "Europe",
-        "city": "Paris",
-        "lat": 48.84339513827764,
-        "lon": 2.381033317363496,
-        "date": "2026-03-22 06:08:37",
-        "type": "Clashes",
-        "severity": "middle",
-        "title": "Socialists battle to hold Paris in key mayoral elections across France",
-        "description": "Emmanuel Grégoire is facing a challenge from Rachida Dati on the right who is behind in the opinion polls.",
-        "fatalities": "0",
-        "link": "https://www.bbc.com/news/articles/c87wgw27201o?at_medium=RSS&at_campaign=rss",
-        "critical": false
-    },
-    {
-        "country": "Israel",
-        "city": "Tel Aviv",
-        "lat": 32.07348963199073,
-        "lon": 34.71606443868474,
-        "date": "2026-03-22 06:08:23",
-        "type": "Airstrike",
-        "severity": "critical",
-        "title": "Iranian Missiles Evade Israel’s Formidable Defenses, Hitting 2 Cities",
-        "description": "Iranian missiles struck Dimona and Arad in southern Israel, injuring dozens of people. Iran’s state media said the attack on Dimona was aimed at Israel’s nuclear facilities, which U.N. officials said were not hit.",
-        "fatalities": "0",
-        "link": "https://www.nytimes.com/live/2026/03/21/world/iran-war-oil-trump",
-        "critical": true
     }
 ]
