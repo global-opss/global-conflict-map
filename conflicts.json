@@ -1,5 +1,33 @@
 [
     {
+        "country": "Iran",
+        "city": "Tehran",
+        "lat": 35.68516271473384,
+        "lon": 51.34205020887007,
+        "date": "2026-03-22 19:48:02",
+        "type": "Naval",
+        "severity": "normal",
+        "title": "Strait of Hormuz: Trump’s ultimatum to Iran",
+        "description": "Donald #Trump issued an ultimatum to #Iran on March 22: 48 hours to reopen the Strait of #Hormuz or the #US will strike Iranian oil facilities. Tehran has responded, warning it would retaliate.",
+        "fatalities": "0",
+        "link": "https://www.france24.com/en/strait-of-hormuz-trump-s-ultimatum-to-iran",
+        "critical": false
+    },
+    {
+        "country": "Israel",
+        "city": "Tel Aviv",
+        "lat": 32.05854539862065,
+        "lon": 34.75781672266709,
+        "date": "2026-03-22 19:47:59",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Israel vows to escalate campaign against Hezbollah in Lebanon",
+        "description": "Israel says it will escalate operations against Hezbollah in Lebanon, targeting bridges over the Litani River.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/video/newsfeed/2026/3/22/israel-vows-to-escalate-campaign-against-hezbollah-in-lebanon?traffic_source=rss",
+        "critical": false
+    },
+    {
         "country": "USA",
         "city": "Washington",
         "lat": 38.83360853701426,
@@ -3036,33 +3064,5 @@
         "fatalities": "0",
         "link": "https://www.longwarjournal.org/archives/2026/03/iranian-drones-and-missiles-hit-ports-oil-and-gas-facilities-and-us-bases-in-the-region-march-17-19-updates.php",
         "critical": true
-    },
-    {
-        "country": "Iran",
-        "city": "Tehran",
-        "lat": 35.7396514494763,
-        "lon": 51.33697229635537,
-        "date": "2026-03-21 23:27:14",
-        "type": "Naval",
-        "severity": "normal",
-        "title": "UK approves US use of British bases to strike Iran missile sites targeting ships",
-        "description": "Starmer initially rejected a U.S. request to use British bases for strikes on Iran, saying he needed to be satisfied that any military action was legal.",
-        "fatalities": "0",
-        "link": "https://www.defensenews.com/news/your-military/2026/03/20/uk-approves-us-use-of-british-bases-to-strike-iran-missile-sites-targeting-ships/",
-        "critical": false
-    },
-    {
-        "country": "Middle East",
-        "city": "Red sea",
-        "lat": 27.259315687261324,
-        "lon": 33.89867000437836,
-        "date": "2026-03-21 23:27:04",
-        "type": "Naval",
-        "severity": "normal",
-        "title": "Saudi Arabia expels Iran military attache, four embassy staff",
-        "description": "Move follows attack on Red Sea port of Yanbu, Saudi Arabias main oil export outlet, after Iran blocked Hormuz Strait.",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/news/2026/3/21/saudi-arabia-expels-iran-military-attache-and-four-team-members?traffic_source=rss",
-        "critical": false
     }
 ]
