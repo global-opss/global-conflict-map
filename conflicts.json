@@ -1,6 +1,34 @@
 [
     {
         "country": "Israel",
+        "city": "Gaza",
+        "lat": 31.512321382880224,
+        "lon": 34.43070510848378,
+        "date": "2026-03-22 21:55:46",
+        "type": "Airstrike",
+        "severity": "critical",
+        "title": "Pritzker tries to put past donations to AIPAC behind him",
+        "description": "Illinois Gov. JB Pritzker is dodging questions about his past donations to the American Israel Public Affairs Committee (AIPAC), a lobbying group that has come under heavy criticism from many liberal Democrats.Why it matters: Pritzker is among several likely Democratic presidential candidates who've distanced themselves from AIPAC as the group has become a U.S. political surrogate for support of Israel's actions in Gaza.They include Arizona Sen. ",
+        "fatalities": "0",
+        "link": "https://www.axios.com/2026/03/22/pritzker-aipac-donations",
+        "critical": true
+    },
+    {
+        "country": "Europe",
+        "city": "Paris",
+        "lat": 48.913799408179784,
+        "lon": 2.384864393766621,
+        "date": "2026-03-22 21:55:36",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "France’s municipal elections : Emmanuel Grégoire elected Paris mayor",
+        "description": "“Paris is not, and will never be, a far-right city,” insisted socialist Emmanuel Grégoire on Sunday March 22, newly elected Mayor of Paris, according to early results.#EmmanuelGrégoire #ParisMayor",
+        "fatalities": "0",
+        "link": "https://www.france24.com/en/video/20260322-france-s-municipal-elections-emmanuel-gr%C3%A9goire-elected-paris-mayor",
+        "critical": false
+    },
+    {
+        "country": "Israel",
         "city": "Tel Aviv",
         "lat": 32.13484299998134,
         "lon": 34.729192658504964,
@@ -3035,34 +3063,6 @@
         "description": "The center-left government is being challenged by a right-wing populist accused of launching a smear campaign in the final days of a close race.",
         "fatalities": "0",
         "link": "https://www.nytimes.com/2026/03/22/world/europe/election-in-slovenia-will-test-europes-political-mood.html",
-        "critical": false
-    },
-    {
-        "country": "Europe",
-        "city": "Brussels",
-        "lat": 50.91657291307564,
-        "lon": 4.3464382959721375,
-        "date": "2026-03-22 05:12:38",
-        "type": "Airstrike",
-        "severity": "critical",
-        "title": "A Brussels Community Moves on From Terrorist Attacks, but New Challenges Emerge",
-        "description": "Molenbeek was branded a hotbed of radicalization after the Paris and Brussels terrorist attacks of a decade ago. It is trying to reinvent itself amid new challenges.",
-        "fatalities": "0",
-        "link": "https://www.nytimes.com/2026/03/22/world/europe/brussels-terror-molenbeek.html",
-        "critical": true
-    },
-    {
-        "country": "China",
-        "city": "Beijing",
-        "lat": 39.85439312275121,
-        "lon": 116.42937133921265,
-        "date": "2026-03-22 05:12:36",
-        "type": "Naval",
-        "severity": "normal",
-        "title": "Seeking to Rely Less on China, U.S. Pushes a Rare Earths Partnership on a Reluctant Brazil",
-        "description": "Seeking to reduce its reliance on China, the United States is pushing for a critical minerals deal with Brazil. The South American country is less eager.",
-        "fatalities": "0",
-        "link": "https://www.nytimes.com/2026/03/20/world/americas/us-rare-earth-minerals-brazil-china.html",
         "critical": false
     }
 ]
