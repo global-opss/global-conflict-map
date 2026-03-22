@@ -1,5 +1,47 @@
 [
     {
+        "country": "Israel",
+        "city": "Tel aviv",
+        "lat": 32.08660439334888,
+        "lon": 34.747312771656794,
+        "date": "2026-03-22 09:58:52",
+        "type": "Airstrike",
+        "severity": "critical",
+        "title": "Several hurt in Iranian cluster bomb attack around Tel Aviv; Hezbollah rocket in north kills 1",
+        "description": "Army probe finds two missed interceptions in Arad, Dimona were not connected, most injured were not in shelters * IDF chief approves strikes on ‘all fronts’ after attacks\nThe post Several hurt in Iranian cluster bomb attack around Tel Aviv; Hezbollah rocket in north kills 1 appeared first on The Times of Israel.",
+        "fatalities": "0",
+        "link": "https://www.timesofisrael.com/liveblog-march-22-2026/",
+        "critical": true
+    },
+    {
+        "country": "Iran",
+        "city": "Tehran",
+        "lat": 35.71656417479317,
+        "lon": 51.34740837438031,
+        "date": "2026-03-22 09:58:29",
+        "type": "Naval",
+        "severity": "normal",
+        "title": "Iranian Sailors, Including Survivors of Torpedoed Ship, Remain in Limbo",
+        "description": "Sri Lanka has kept more than 250 sailors in protective custody since the early days of the war. Iran wants them back, but Sri Lanka is unsure what to do with them.",
+        "fatalities": "0",
+        "link": "https://www.nytimes.com/2026/03/21/world/asia/iran-sri-lanka-sailors.html",
+        "critical": false
+    },
+    {
+        "country": "Ukraine",
+        "city": "Kyiv",
+        "lat": 50.38375877360061,
+        "lon": 30.4838757853097,
+        "date": "2026-03-22 09:58:27",
+        "type": "Clashes",
+        "severity": "middle",
+        "title": "Zelensky Sends Negotiators to the U.S., Hoping to Revive Peace Talks",
+        "description": "The Ukrainian president has said he has a “very bad feeling” about the effects of the Iran conflict on Ukraine’s own war.",
+        "fatalities": "0",
+        "link": "https://www.nytimes.com/2026/03/21/world/europe/ukraine-russia-peace-talks-iran.html",
+        "critical": false
+    },
+    {
         "country": "Iran",
         "city": "Tehran",
         "lat": 35.619444765825016,
@@ -3022,47 +3064,5 @@
         "fatalities": "0",
         "link": "https://www.aljazeera.com/sports/2026/3/21/real-madrid-vs-atletico-madrid-la-liga-team-news-start-lineups?traffic_source=rss",
         "critical": false
-    },
-    {
-        "country": "Israel",
-        "city": "Tel Aviv",
-        "lat": 32.016205984149735,
-        "lon": 34.72169538367787,
-        "date": "2026-03-21 09:57:30",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Israel systematically torturing Palestinians in custody, says UN expert",
-        "description": "Report by Francesca Albanese says torture in detention used on unprecedented scale as punitive collective vengeance.",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/news/2026/3/21/israel-systematically-torturing-palestinians-in-custody-says-un-expert?traffic_source=rss",
-        "critical": false
-    },
-    {
-        "country": "Israel",
-        "city": "Tel Aviv",
-        "lat": 32.126934485890786,
-        "lon": 34.76827764452155,
-        "date": "2026-03-21 09:57:30",
-        "type": "Airstrike",
-        "severity": "critical",
-        "title": "Iran war: What’s happening on day 22 of US-Israel attacks?",
-        "description": "As conflict enters week 4, here’s the latest on the US-Israel attack on Iran and across the Middle East.",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/news/2026/3/21/iran-war-what-is-happening-on-day-22-of-us-israel-attacks?traffic_source=rss",
-        "critical": true
-    },
-    {
-        "country": "Ukraine",
-        "city": "Zaporizhzhia",
-        "lat": 47.816791810592726,
-        "lon": 35.060924080775436,
-        "date": "2026-03-21 09:57:28",
-        "type": "Airstrike",
-        "severity": "critical",
-        "title": "Russian drone attack kills two in Ukraine ahead of talks in US, officials say",
-        "description": "Two children, aged 11 and 15 were also injured in the attack which took place in Zaporizhzhia.",
-        "fatalities": "0",
-        "link": "https://www.bbc.com/news/articles/crl18nwjzzzo?at_medium=RSS&at_campaign=rss",
-        "critical": true
     }
 ]
