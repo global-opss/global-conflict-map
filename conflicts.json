@@ -1,6 +1,34 @@
 [
     {
         "country": "Israel",
+        "city": "Tel Aviv",
+        "lat": 32.14975413737252,
+        "lon": 34.840467667460864,
+        "date": "2026-03-22 22:27:59",
+        "type": "Airstrike",
+        "severity": "critical",
+        "title": "Israel eliminates 3 Hamas members operating in Lebanon",
+        "description": "The Israeli military announced on March 22 that it killed Walid Dib, a Hamas money man, in Lebanon. In addition to Dib, two other Hamas members operating in Lebanon have also been eliminated in Israeli strikes in recent days. \nThe post Israel eliminates 3 Hamas members operating in Lebanon appeared first on FDDs Long War Journal.",
+        "fatalities": "0",
+        "link": "https://www.longwarjournal.org/archives/2026/03/israel-eliminates-3-hamas-members-operating-in-lebanon.php",
+        "critical": true
+    },
+    {
+        "country": "Asia",
+        "city": "Host",
+        "lat": 33.344687477879575,
+        "lon": 69.96649343809352,
+        "date": "2026-03-22 22:27:48",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "LIVE: Real Madrid vs Atletico Madrid 3-2 – La Liga",
+        "description": "Follow the build-up, analysis and live text commentary of the Madrid derby as Real host Atletico at the Bernabeu.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/sports/liveblog/2026/3/22/live-real-madrid-vs-atletico-madrid-la-liga?traffic_source=rss",
+        "critical": false
+    },
+    {
+        "country": "Israel",
         "city": "Gaza",
         "lat": 31.512321382880224,
         "lon": 34.43070510848378,
@@ -756,20 +784,6 @@
         "critical": false
     },
     {
-        "country": "Asia",
-        "city": "Host",
-        "lat": 33.3566711957081,
-        "lon": 69.95958680707975,
-        "date": "2026-03-22 17:45:25",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "LIVE: Real Madrid vs Atletico Madrid – La Liga",
-        "description": "Follow the build-up, analysis and live text commentary of the Madrid derby as Real host Atletico at the Bernabeu.",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/sports/liveblog/2026/3/22/live-real-madrid-vs-atletico-madrid-la-liga?traffic_source=rss",
-        "critical": false
-    },
-    {
         "country": "Israel",
         "city": "Tel Aviv",
         "lat": 32.08075536132238,
@@ -781,6 +795,20 @@
         "description": "‘The Iranians are indeed retaliating against everything that the Israelis and Americans are hitting’",
         "fatalities": "0",
         "link": "https://www.aljazeera.com/video/quotable/2026/3/22/risk-of-escalation-is-extremely-high-as-iran-shows-it-can?traffic_source=rss",
+        "critical": false
+    },
+    {
+        "country": "Asia",
+        "city": "Host",
+        "lat": 33.3566711957081,
+        "lon": 69.95958680707975,
+        "date": "2026-03-22 17:45:25",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "LIVE: Real Madrid vs Atletico Madrid – La Liga",
+        "description": "Follow the build-up, analysis and live text commentary of the Madrid derby as Real host Atletico at the Bernabeu.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/sports/liveblog/2026/3/22/live-real-madrid-vs-atletico-madrid-la-liga?traffic_source=rss",
         "critical": false
     },
     {
@@ -3036,33 +3064,5 @@
         "fatalities": "0",
         "link": "https://www.nytimes.com/live/2026/03/21/world/iran-war-oil-trump",
         "critical": true
-    },
-    {
-        "country": "Israel",
-        "city": "Tel Aviv",
-        "lat": 32.115959099512295,
-        "lon": 34.71831110422509,
-        "date": "2026-03-22 05:13:06",
-        "type": "Airstrike",
-        "severity": "critical",
-        "title": "Saudi Arabia orders Iranian military attache, four embassy staff to leave",
-        "description": "Following repeated Iranian attacks, Saudi Foreign Ministry says more strikes will lead to further escalation and have 'significant consequences' for current and future relations\nThe post Saudi Arabia orders Iranian military attache, four embassy staff to leave appeared first on The Times of Israel.",
-        "fatalities": "0",
-        "link": "https://www.timesofisrael.com/saudi-arabia-orders-iranian-military-attache-four-embassy-staff-to-leave/",
-        "critical": true
-    },
-    {
-        "country": "Europe",
-        "city": "Brussels",
-        "lat": 50.843609605697296,
-        "lon": 4.384228053067741,
-        "date": "2026-03-22 05:12:38",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Election in Slovenia Will Test Europe’s Political Mood",
-        "description": "The center-left government is being challenged by a right-wing populist accused of launching a smear campaign in the final days of a close race.",
-        "fatalities": "0",
-        "link": "https://www.nytimes.com/2026/03/22/world/europe/election-in-slovenia-will-test-europes-political-mood.html",
-        "critical": false
     }
 ]
