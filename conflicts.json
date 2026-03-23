@@ -1,5 +1,47 @@
 [
     {
+        "country": "Israel",
+        "city": "Tel Aviv",
+        "lat": 32.04922587343179,
+        "lon": 34.7390028058215,
+        "date": "2026-03-23 23:59:28",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "‘Foreign intervention’: Minister says Netanyahu altered media legislation at Trump’s behest",
+        "description": "Karhi says PM removed clause requiring streaming services to fund Israeli productions, bypassing Knesset, in what critics call unprecedented US meddling in domestic laws\nThe post Foreign intervention: Minister says Netanyahu altered media legislation at Trump’s behest appeared first on The Times of Israel.",
+        "fatalities": "0",
+        "link": "https://www.timesofisrael.com/foreign-intervention-minister-says-netanyahu-altered-legislation-at-trumps-behest/",
+        "critical": false
+    },
+    {
+        "country": "China",
+        "city": "Beijing",
+        "lat": 39.960664589311435,
+        "lon": 116.3290721935581,
+        "date": "2026-03-23 23:59:09",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Taiwan Debates Military Spending as Choices Over U.S. and China Loom",
+        "description": "Tensions in the opposition Nationalist Party could surface this week as lawmakers argue over additional defense funding intended to counter Beijing’s growing might.",
+        "fatalities": "0",
+        "link": "https://www.nytimes.com/2026/03/23/world/asia/taiwan-defense-budget-china-us.html",
+        "critical": false
+    },
+    {
+        "country": "Iran",
+        "city": "Tehran",
+        "lat": 35.629893096468834,
+        "lon": 51.359707185327544,
+        "date": "2026-03-23 23:59:09",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Trump’s Ultimatum to Iran Was Almost Up. Then He Found an Offramp.",
+        "description": "President Trump postponed his threat to strike power plants in Iran, citing “productive conversations” with the Iranians. But officials said the talks were in an early stage and not substantive.",
+        "fatalities": "0",
+        "link": "https://www.nytimes.com/2026/03/23/us/politics/trump-iran-gas-oil-strait.html",
+        "critical": false
+    },
+    {
         "country": "Iran",
         "city": "Tehran",
         "lat": 35.63993868762728,
@@ -3021,48 +3063,6 @@
         "description": "Iran on Monday faces a deadline set by US President Donald Trump to open up the crucial Strait of Hormuz or face a major US assault on power plants, as Israel warned of weeks more of war. The International Energy Agency said the crisis is more severe than the 1970s oil shocks combined. Follow our liveblog for all the latest updates.",
         "fatalities": "0",
         "link": "https://www.france24.com/en/middle-east/20260323-live-iran-trump-strike-iea-worst-energy-crisis",
-        "critical": false
-    },
-    {
-        "country": "USA",
-        "city": "Pentagon",
-        "lat": 38.88373694046863,
-        "lon": -77.11885604235079,
-        "date": "2026-03-23 08:34:39",
-        "type": "Clashes",
-        "severity": "middle",
-        "title": "‘Pentagon requesting $200bn signals that war will stretch a long time’",
-        "description": "‘Pentagon requesting $200bn signals that war will stretch on a very long time’",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/video/quotable/2026/3/23/pentagon-requesting-200bn-signals-that-war-will-stretch-a-long-time?traffic_source=rss",
-        "critical": false
-    },
-    {
-        "country": "USA",
-        "city": "Hawaii",
-        "lat": 19.61829101496164,
-        "lon": -155.37614433035972,
-        "date": "2026-03-23 08:34:39",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "National Guard in Hawaii assist after Oahu flood",
-        "description": "National Guard assist recovery efforts as Hawaii suffers worst flooding in 20 years.",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/video/newsfeed/2026/3/23/national-guard-in-hawaii-assist-after-oahu-flood?traffic_source=rss",
-        "critical": false
-    },
-    {
-        "country": "Iran",
-        "city": "Tehran",
-        "lat": 35.63704796323202,
-        "lon": 51.3547099866404,
-        "date": "2026-03-23 08:34:39",
-        "type": "Clashes",
-        "severity": "middle",
-        "title": "China ‘is playing the long game’ in Iran war by staying neutral",
-        "description": "Han Shen Lin, director of the China Office at the Asia Consultative Group, says that China is likely to remain neutral,",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/video/quotable/2026/3/23/china-is-playing-the-long-game-in-iran-war-by-staying-neutral?traffic_source=rss",
         "critical": false
     }
 ]
