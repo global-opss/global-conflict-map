@@ -1,5 +1,47 @@
 [
     {
+        "country": "Middle East",
+        "city": "Beirut",
+        "lat": 33.89426036501113,
+        "lon": 35.523165054941614,
+        "date": "2026-03-23 20:08:31",
+        "type": "Airstrike",
+        "severity": "critical",
+        "title": "Four wounded as Hezbollah pounds north with rockets, IDF strikes in Beirut",
+        "description": "Victim hit in face by shrapnel as salvo reaches border town of Kiryat Shmona; IDF captures two Hezbollah fighters, blows up Litani River crossing; IRGC official targeted in Lebanese capital\nThe post Four wounded as Hezbollah pounds north with rockets, IDF strikes in Beirut appeared first on The Times of Israel.",
+        "fatalities": "0",
+        "link": "https://www.timesofisrael.com/two-injured-one-seriously-as-hezbollah-pounds-north-with-rockets/",
+        "critical": true
+    },
+    {
+        "country": "Israel",
+        "city": "Tel Aviv",
+        "lat": 32.0453036894047,
+        "lon": 34.74401461083563,
+        "date": "2026-03-23 20:08:15",
+        "type": "Naval",
+        "severity": "normal",
+        "title": "Whose war is it? Trump eyes Iran talks as Israel hints at long campaign",
+        "description": "Another deadline day, another ultimatum, another surprise turn from the US president. The same Donald Trump who may or may not send ground troops to try and secure the Strait of Hormuz now affirming that his administration's talking with the Iranians and thus holding off on hitting critical infrastructure. Trump's messaging since the start 24 days ago keeping friends and foes alike guessing. That's in stark contrast to Israeli allies, who in word",
+        "fatalities": "0",
+        "link": "https://www.france24.com/en/tv-shows/the-debate/20260323-whose-war-is-it-trump-eyes-iran-talks-as-israel-hints-at-long-campaign",
+        "critical": false
+    },
+    {
+        "country": "Iran",
+        "city": "Tehran",
+        "lat": 35.70377621237192,
+        "lon": 51.429540947621,
+        "date": "2026-03-23 20:08:11",
+        "type": "Clashes",
+        "severity": "middle",
+        "title": "Tehran residents express distrust over Trump’s war diplomacy",
+        "description": "“If we trust him, we lose.”",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/video/newsfeed/2026/3/23/tehran-residents-express-distrust-over-trumps-war-diplomacy?traffic_source=rss",
+        "critical": false
+    },
+    {
         "country": "Iran",
         "city": "Tehran",
         "lat": 35.71536458464783,
@@ -3021,48 +3063,6 @@
         "description": "Iran on Monday faces a deadline by President Donald Trump to open up the crucial Strait of Hormuz or face a major US assault on power plants, as Israel warned of weeks more of war. The International Energy Agency said the crisis is more severe than the 1970s oil shocks combined. Follow our liveblog for all the latest updates.",
         "fatalities": "0",
         "link": "https://www.france24.com/en/middle-east/20260323-live-iran-trump-strike-iea-worst-energy-crisis",
-        "critical": false
-    },
-    {
-        "country": "Iran",
-        "city": "Tehran",
-        "lat": 35.6630638548208,
-        "lon": 51.32776022531702,
-        "date": "2026-03-23 04:41:02",
-        "type": "Airstrike",
-        "severity": "critical",
-        "title": "Immense damage seen in Iran’s streets after air strikes",
-        "description": "Videos show the aftermath of strikes in Iran, as search teams recover bodies from rubble.",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/video/newsfeed/2026/3/23/immense-damage-seen-in-irans-streets-after-air-strikes?traffic_source=rss",
-        "critical": true
-    },
-    {
-        "country": "Iran",
-        "city": "Tehran",
-        "lat": 35.66637576021581,
-        "lon": 51.337061762017335,
-        "date": "2026-03-23 04:40:57",
-        "type": "Clashes",
-        "severity": "middle",
-        "title": "Asia stocks slide as US and Iran threaten to intensify war",
-        "description": "The International Energy Agency chief said the war could lead to the world's worst energy crisis in decades.",
-        "fatalities": "0",
-        "link": "https://www.bbc.com/news/articles/czex56kwxxzo?at_medium=RSS&at_campaign=rss",
-        "critical": false
-    },
-    {
-        "country": "USA",
-        "city": "Washington",
-        "lat": 38.8378074646594,
-        "lon": -77.05217069930454,
-        "date": "2026-03-23 04:40:55",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "The Billionaire Funding France’s Far Right",
-        "description": "Pierre-Édouard Stérin is financing projects to make France less Muslim, more Catholic and more capitalist. He says his program has trained thousands running for municipal office on Sunday.",
-        "fatalities": "0",
-        "link": "https://www.nytimes.com/2026/03/22/world/europe/pierre-eduoard-sterin-france-far-right.html",
         "critical": false
     }
 ]
