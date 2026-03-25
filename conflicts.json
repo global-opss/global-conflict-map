@@ -1,5 +1,33 @@
 [
     {
+        "country": "Israel",
+        "city": "Gaza",
+        "lat": 31.45080025673586,
+        "lon": 34.45404765637212,
+        "date": "2026-03-25 22:54:03",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Video shows Israeli strike hitting displacement camp in Gaza",
+        "description": "Videos show the moment a strike hit a tent camp for displaced Palestinians in Deir el-Balah.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/video/newsfeed/2026/3/25/video-shows-israeli-strike-hitting-displacement-camp-in-gaza?traffic_source=rss",
+        "critical": false
+    },
+    {
+        "country": "Iran",
+        "city": "Tehran",
+        "lat": 35.73235044591357,
+        "lon": 51.32693865298688,
+        "date": "2026-03-25 22:53:54",
+        "type": "Airstrike",
+        "severity": "critical",
+        "title": "Iran War Live Updates: Tehran Dismisses U.S. Cease-Fire Conditions as Israel Orders 48 Hours of Attacks",
+        "description": "Tehran offered its own terms to end the fighting that include a demand for reparations. Israel, concerned that the war might end before it can dismantle Iran’s weapons programs, plans to ramp up its attacks.",
+        "fatalities": "0",
+        "link": "https://www.nytimes.com/live/2026/03/25/world/iran-war-trump-oil-news",
+        "critical": true
+    },
+    {
         "country": "Iran",
         "city": "Tehran",
         "lat": 35.755556620823114,
@@ -3036,33 +3064,5 @@
         "fatalities": "0",
         "link": "https://www.aljazeera.com/news/2026/3/25/us-israel-war-on-iran-whats-happening-on-day-26-of-attacks?traffic_source=rss",
         "critical": true
-    },
-    {
-        "country": "Iran",
-        "city": "Tehran",
-        "lat": 35.71766276254795,
-        "lon": 51.38016067523803,
-        "date": "2026-03-25 07:31:53",
-        "type": "Clashes",
-        "severity": "middle",
-        "title": "As Iran war rocks global economy, Global South bears brunt of fallout",
-        "description": "Developing economies in Asia, Africa and the Middle East are most exposed to surging energy costs.",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/economy/2026/3/25/from-pakistan-to-egypt-iran-war-drives-up-fuel-prices-in-the-global-south?traffic_source=rss",
-        "critical": false
-    },
-    {
-        "country": "Asia",
-        "city": "Afghanistan",
-        "lat": 34.70917048747799,
-        "lon": 69.11025661223287,
-        "date": "2026-03-25 07:31:52",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Afghanistan Frees American Dennis Coyle from Detention",
-        "description": "Dennis Walter Coyle, a researcher from Colorado, had been held since last year by the Taliban government.",
-        "fatalities": "0",
-        "link": "https://www.nytimes.com/2026/03/24/world/asia/afghanistan-releases-american-detainee.html",
-        "critical": false
     }
 ]
