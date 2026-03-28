@@ -1,5 +1,33 @@
 [
     {
+        "country": "Russia",
+        "city": "Moscow",
+        "lat": 55.811749517585255,
+        "lon": 37.58541494405306,
+        "date": "2026-03-28 22:02:40",
+        "type": "Airstrike",
+        "severity": "critical",
+        "title": "Russia reportedly sending Iran drones for use against the US and Israel",
+        "description": "Reports citing Western officials suggest that Russia has started supplying Iran with complete drones after Russia was previously suspected of only providing components to improve Iranian systems. The unmanned aerial systems are likely modified, Russian-made versions of the same Shahed-136 one-way attack drones that Tehran previously supplied to Moscow.\nThe post Russia reportedly sending Iran drones for use against the US and Israel appeared first",
+        "fatalities": "0",
+        "link": "https://www.longwarjournal.org/archives/2026/03/russia-reportedly-sending-iran-drones-for-use-against-the-us-and-israel.php",
+        "critical": true
+    },
+    {
+        "country": "Middle East",
+        "city": "Red sea",
+        "lat": 27.168784307180278,
+        "lon": 33.775591398779504,
+        "date": "2026-03-28 22:02:33",
+        "type": "Naval",
+        "severity": "normal",
+        "title": "Yemen’s Houthis launch ballistic missile at Israel as Middle East conflict escalates",
+        "description": "Yemen’s Houthi rebels fired a ballistic missile towards Israel on Saturday, marking their entry into the intensifying Middle East war. The move comes amid rising regional tensions, US-Israeli airstrikes on Iran, and disruptions to Red Sea shipping that threaten global trade and energy markets.",
+        "fatalities": "0",
+        "link": "https://www.france24.com/en/middle-east/20260328-yemen-s-houthis-launch-ballistic-missile-at-israel-as-middle-east-conflict-escalates",
+        "critical": false
+    },
+    {
         "country": "Israel",
         "city": "Tel Aviv",
         "lat": 32.080774761356764,
@@ -3036,33 +3064,5 @@
         "fatalities": "0",
         "link": "https://theaviationist.com/2026/03/25/a-10s-nicknames-epic-fury/",
         "critical": false
-    },
-    {
-        "country": "Israel",
-        "city": "Tel Aviv",
-        "lat": 32.098274714157945,
-        "lon": 34.744512612371736,
-        "date": "2026-03-27 21:36:08",
-        "type": "Airstrike",
-        "severity": "critical",
-        "title": "Israel eliminates 3 Hamas members operating in Lebanon",
-        "description": "The Israeli military announced on March 22 that it killed Walid Dib, a Hamas money man, in Lebanon. In addition to Dib, two other Hamas members operating in Lebanon have also been eliminated in Israeli strikes in recent days. \nThe post Israel eliminates 3 Hamas members operating in Lebanon appeared first on FDDs Long War Journal.",
-        "fatalities": "0",
-        "link": "https://www.longwarjournal.org/archives/2026/03/israel-eliminates-3-hamas-members-operating-in-lebanon.php",
-        "critical": true
-    },
-    {
-        "country": "Iran",
-        "city": "Tehran",
-        "lat": 35.676562737834,
-        "lon": 51.34362066477366,
-        "date": "2026-03-27 21:35:59",
-        "type": "Airstrike",
-        "severity": "critical",
-        "title": "Grieving Iranian mother tells UN about children before school attack",
-        "description": "An Iranian mother told the UN Human Right’s Council about the last time she saw her children alive.",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/video/newsfeed/2026/3/27/grieving-iranian-mother-tells-un-about-children-before-school-attack?traffic_source=rss",
-        "critical": true
     }
 ]
