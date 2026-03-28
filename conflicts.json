@@ -1,5 +1,61 @@
 [
     {
+        "country": "Israel",
+        "city": "Tel Aviv",
+        "lat": 32.091204431702614,
+        "lon": 34.73978354814505,
+        "date": "2026-03-28 11:16:19",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "12-year-old Israeli girl killed, others injured in bus accident at French ski resort",
+        "description": "Child was trapped under vehicle after driver disembarked and it rolled down slope; 14 other Israeli tourists lightly injured, with 2 taken to hospital\nThe post 12-year-old Israeli girl killed, others injured in bus accident at French ski resort appeared first on The Times of Israel.",
+        "fatalities": "0",
+        "link": "https://www.timesofisrael.com/12-year-old-israeli-girl-killed-others-injured-in-bus-accident-at-french-ski-resort/",
+        "critical": false
+    },
+    {
+        "country": "Ukraine",
+        "city": "Kyiv",
+        "lat": 50.48228882098091,
+        "lon": 30.49495670048592,
+        "date": "2026-03-28 11:16:09",
+        "type": "Airstrike",
+        "severity": "critical",
+        "title": "Russian attacks kill four in Ukraine, child dies in drone strike on Russia",
+        "description": "Russian strikes on Ukraine killed four people and wounded at least 13 overnight Friday into Saturday, while a Ukrainian strike killed a child in Russia, according to local authorities.",
+        "fatalities": "0",
+        "link": "https://www.france24.com/en/europe/20260328-strikes-on-ukrainian-cities-kill-three-child-dies-in-drone-attack-on-moscow",
+        "critical": true
+    },
+    {
+        "country": "Iran",
+        "city": "Tehran",
+        "lat": 35.74983910719396,
+        "lon": 51.35741628085896,
+        "date": "2026-03-28 11:16:03",
+        "type": "Clashes",
+        "severity": "middle",
+        "title": "The war on Iran faces a MAGA backlash",
+        "description": "A deep split in the MAGA movement threatens Trump’s Iran war.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/video/the-listening-post/2026/3/28/the-war-on-iran-faces-a-maga-backlash?traffic_source=rss",
+        "critical": false
+    },
+    {
+        "country": "Asia",
+        "city": "Tokyo",
+        "lat": 35.61868599179842,
+        "lon": 139.7582467269957,
+        "date": "2026-03-28 11:15:59",
+        "type": "Clashes",
+        "severity": "middle",
+        "title": "Spanish woman who died through euthanasia failed by state, say critics",
+        "description": "Noelia Castillo died on Thursday evening in a Barcelona hospital, after a protracted legal battle with her own father.",
+        "fatalities": "0",
+        "link": "https://www.bbc.com/news/articles/c4g8w4xp97jo?at_medium=RSS&at_campaign=rss",
+        "critical": false
+    },
+    {
         "country": "Africa",
         "city": "Mali",
         "lat": 12.552825842109211,
@@ -322,20 +378,6 @@
         "critical": false
     },
     {
-        "country": "Russia",
-        "city": "Moscow",
-        "lat": 55.77910317583552,
-        "lon": 37.68491728145837,
-        "date": "2026-03-28 08:55:38",
-        "type": "Airstrike",
-        "severity": "critical",
-        "title": "Strikes on Ukrainian cities kill three, child dies in drone attack on Moscow",
-        "description": "Russian strikes on Ukraine killed three people and wounded at least 13 overnight Friday into Saturday, while a Ukrainian strike killed a child in Russia, according to local authorities.",
-        "fatalities": "0",
-        "link": "https://www.france24.com/en/europe/20260328-strikes-on-ukrainian-cities-kill-three-child-dies-in-drone-attack-on-moscow",
-        "critical": true
-    },
-    {
         "country": "Iran",
         "city": "Tehran",
         "lat": 35.651968215278245,
@@ -348,6 +390,20 @@
         "fatalities": "0",
         "link": "https://www.france24.com/en/middle-east/20260328-war-in-the-middle-east-live-conflict-enters-second-month-us-expects-to-end-it-within-two-weeks",
         "critical": false
+    },
+    {
+        "country": "Russia",
+        "city": "Moscow",
+        "lat": 55.77910317583552,
+        "lon": 37.68491728145837,
+        "date": "2026-03-28 08:55:38",
+        "type": "Airstrike",
+        "severity": "critical",
+        "title": "Strikes on Ukrainian cities kill three, child dies in drone attack on Moscow",
+        "description": "Russian strikes on Ukraine killed three people and wounded at least 13 overnight Friday into Saturday, while a Ukrainian strike killed a child in Russia, according to local authorities.",
+        "fatalities": "0",
+        "link": "https://www.france24.com/en/europe/20260328-strikes-on-ukrainian-cities-kill-three-child-dies-in-drone-attack-on-moscow",
+        "critical": true
     },
     {
         "country": "Middle East",
@@ -3007,62 +3063,6 @@
         "description": "It’s unclear if Russia is actively redirecting drones or whether the incursions are simply a byproduct of electronic-warfare defenses and flight distance.",
         "fatalities": "0",
         "link": "https://www.defensenews.com/global/europe/2026/03/27/ukrainian-drones-hit-all-three-baltic-states-did-russia-redirect-them/",
-        "critical": false
-    },
-    {
-        "country": "Ukraine",
-        "city": "Kyiv",
-        "lat": 50.49848908656424,
-        "lon": 30.523965083233694,
-        "date": "2026-03-27 13:41:06",
-        "type": "Clashes",
-        "severity": "middle",
-        "title": "Rubio attends G7 meeting in France for talks on Iran, Ukraine",
-        "description": "European foreign ministers on Friday used a G7 meeting with US Secretary of State Marco Rubio to press the case that Russia was helping Iran target US forces in the Middle East war. Rubio joined the second day of the gathering of ministers of leading Western democracies, taking place amid wars ​in Iran and Ukraine, ‌economic uncertainty and mounting unease over unpredictable US foreign policy under Donald Trump. FRANCE 24's International Affairs ",
-        "fatalities": "0",
-        "link": "https://www.france24.com/en/video/20260327-rubio-attends-g7-meeting-in-france-for-talks-on-iran-ukraine",
-        "critical": false
-    },
-    {
-        "country": "Iran",
-        "city": "Tehran",
-        "lat": 35.706168647281345,
-        "lon": 51.41726856417573,
-        "date": "2026-03-27 13:41:06",
-        "type": "Airstrike",
-        "severity": "critical",
-        "title": "'Conflicting and confusing statements from Trump': The latest from Iran",
-        "description": "US President Donald Trump has pushed back his deadline for strikes on Iran's energy assets, saying talks on ending the war were \"going very well\" as Israel announced fresh strikes on Tehran early Friday. Trump had earlier denied that he was desperate for a deal to end the war, despite the Islamic republic's cool response to an American peace plan. FRANCE 24's Reza Sayah reports from Tehran, Iran.",
-        "fatalities": "0",
-        "link": "https://www.france24.com/en/video/20260327-conflicting-and-confusing-statements-from-trump-the-latest-from-iran",
-        "critical": true
-    },
-    {
-        "country": "Middle East",
-        "city": "Beirut",
-        "lat": 33.90662181097766,
-        "lon": 35.5629370088482,
-        "date": "2026-03-27 13:41:06",
-        "type": "Clashes",
-        "severity": "middle",
-        "title": "War in the Middle East: Asia hit hard by disruptions to energy markets",
-        "description": "In the fourth week of the war in the Middle East, countries grappling with fuel shortages have been offered little reprieve. In Asia, countries are particularly vulnerable to disruptions as they are dependent on energy supplies from the Persian Gulf. FRANCE 24 takes a look at some of the impacts and ways people and governments are trying to adapt.",
-        "fatalities": "0",
-        "link": "https://www.france24.com/en/video/20260327-war-in-the-middle-east-asia-hit-hard-by-disruptions-to-energy-markets",
-        "critical": false
-    },
-    {
-        "country": "Iran",
-        "city": "Tehran",
-        "lat": 35.70474382376458,
-        "lon": 51.4191028609212,
-        "date": "2026-03-27 13:41:06",
-        "type": "Clashes",
-        "severity": "middle",
-        "title": "Iran war tests MAGA's 'America first' credo",
-        "description": "Donald #Trump was elected on the promise to put 'America first', ruling out foreign wars. As the conflict in #Iran nears its first month, support among #MAGA remains high - but some cracks are appearing.",
-        "fatalities": "0",
-        "link": "https://www.france24.com/en/video/20260327-iran-war-tests-maga-s-america-first-credo-1",
         "critical": false
     }
 ]
