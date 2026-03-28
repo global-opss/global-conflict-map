@@ -2,6 +2,34 @@
     {
         "country": "Israel",
         "city": "Tel Aviv",
+        "lat": 32.116337852118164,
+        "lon": 34.8307962713388,
+        "date": "2026-03-28 11:46:17",
+        "type": "Clashes",
+        "severity": "middle",
+        "title": "How the US and Israel are making the Islamic republic stronger",
+        "description": "The war is feeding into a theological narrative of martyrdom and sacrifice that is helping maintain the Islamic Republic",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/opinions/2026/3/28/how-the-us-and-israel-are-making-the-islamic-republic?traffic_source=rss",
+        "critical": false
+    },
+    {
+        "country": "Ukraine",
+        "city": "Kyiv",
+        "lat": 50.43952827852184,
+        "lon": 30.483792066956305,
+        "date": "2026-03-28 11:46:17",
+        "type": "Airstrike",
+        "severity": "critical",
+        "title": "Russian strikes on Ukraine kill 4 as deal to end war dims",
+        "description": "US Secretary of State Marco Rubio voices openness to diverting weapons to Kyiv to support the US attack on Iran.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/news/2026/3/28/russian-strikes-on-ukraine-cities-kill-4-as-deal-to-end-war-dims?traffic_source=rss",
+        "critical": true
+    },
+    {
+        "country": "Israel",
+        "city": "Tel Aviv",
         "lat": 32.091204431702614,
         "lon": 34.73978354814505,
         "date": "2026-03-28 11:16:19",
@@ -3035,34 +3063,6 @@
         "description": "Senior officials are reportedly considering the deployment of the Immediate Response Force, which includes a Battalion Combat Team of the 82nd Airborne Division, according to U.S. media. After increasing rumors regarding a deployment of U.S. Army troops being in progress, new reports now mention that senior U.S. officials are indeed considering it. According to the []",
         "fatalities": "0",
         "link": "https://theaviationist.com/2026/03/24/us-considering-deployment-82nd-airborne-division/",
-        "critical": false
-    },
-    {
-        "country": "USA",
-        "city": "Washington",
-        "lat": 38.95786509613932,
-        "lon": -77.10255637002588,
-        "date": "2026-03-27 13:41:07",
-        "type": "Airstrike",
-        "severity": "critical",
-        "title": "Pentagon reportedly weighs diverting Ukraine military aid to Middle East",
-        "description": "The weapons that could be redirected include air defense interceptor missiles purchased through a NATO initiative, the Washington Post reported.",
-        "fatalities": "0",
-        "link": "https://www.defensenews.com/news/pentagon-congress/2026/03/26/pentagon-reportedly-weighs-diverting-ukraine-military-aid-to-middle-east/",
-        "critical": true
-    },
-    {
-        "country": "Russia",
-        "city": "Moscow",
-        "lat": 55.820664374953836,
-        "lon": 37.65767575455768,
-        "date": "2026-03-27 13:41:07",
-        "type": "Naval",
-        "severity": "normal",
-        "title": "Ukrainian drones hit all three Baltic States − did Russia redirect them?",
-        "description": "It’s unclear if Russia is actively redirecting drones or whether the incursions are simply a byproduct of electronic-warfare defenses and flight distance.",
-        "fatalities": "0",
-        "link": "https://www.defensenews.com/global/europe/2026/03/27/ukrainian-drones-hit-all-three-baltic-states-did-russia-redirect-them/",
         "critical": false
     }
 ]
