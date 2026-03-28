@@ -1,6 +1,34 @@
 [
     {
         "country": "Israel",
+        "city": "Gaza",
+        "lat": 31.445411410337627,
+        "lon": 34.52224871569098,
+        "date": "2026-03-28 15:50:19",
+        "type": "Clashes",
+        "severity": "middle",
+        "title": "Turkish intelligence chief hosts Hamas leaders in Istanbul",
+        "description": "Turkish spy chief Ibrahim Kalin’s March 22 meeting with senior Hamas leaders in Istanbul highlights Turkey’s continued high-level engagement with the group, reinforcing Ankara’s role as a mediator in Gaza ceasefire negotiations while omitting any discussion of Hamas’s disarmament. The meeting reflects a broader pattern of Turkish support for the group, evidenced by recent US Treasury sanctions on Turkish charities linked to Hamas. \nThe post Turki",
+        "fatalities": "0",
+        "link": "https://www.longwarjournal.org/archives/2026/03/turkish-intelligence-chief-hosts-hamas-leaders-in-istanbul.php",
+        "critical": false
+    },
+    {
+        "country": "Middle East",
+        "city": "Beirut",
+        "lat": 33.924892823557045,
+        "lon": 35.495717108489025,
+        "date": "2026-03-28 15:50:09",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "France unveils aid to shield key sectors from soaring fuel prices",
+        "description": "Facing soaring fuel prices from the Middle East conflict, the French government has announced €70 million in targeted aid for April, helping transport, fishing, and agriculture. Measures include a 20-cent-per-litre fuel subsidy for small transport businesses and fishing boats, plus zero excise on agricultural diesel. The support is limited, sector-focused, and adaptable, while broader tax cuts are ruled out to protect public finances.",
+        "fatalities": "0",
+        "link": "https://www.france24.com/en/france-unveils-aid-to-shield-key-sectors-from-soaring-fuel-prices",
+        "critical": false
+    },
+    {
+        "country": "Israel",
         "city": "Tel Aviv",
         "lat": 32.05009946298188,
         "lon": 34.809843160331596,
@@ -3035,34 +3063,6 @@
         "description": "After Greenland and trade tariffs, US President Donald Trump is threatening European countries once again. If they fail to help reopen the Strait of Hormuz, \"it will be very bad for the future of NATO\", Trump has said. US Secretary of State Marco Rubio has made it clear that the US will make its own security decisions, whatever Europe thinks. Admittedly, Europe's own standing has been diminished by its inability to speak with one clear voice on t",
         "fatalities": "0",
         "link": "https://www.france24.com/en/tv-shows/talking-europe/20260327-trump-administration-sidelines-threatens-europe-in-iran-war-eu-flounders-in-new-world-order",
-        "critical": false
-    },
-    {
-        "country": "Iran",
-        "city": "Tehran",
-        "lat": 35.65216703922179,
-        "lon": 51.45706219380442,
-        "date": "2026-03-27 16:33:59",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Is Europe heading to an energy crisis?",
-        "description": "Europe is bracing for a supply crunch and a price shock as the Iran conflict drags on.",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/video/counting-the-cost/2026/3/27/is-europe-heading-to-an-energy-crisis?traffic_source=rss",
-        "critical": false
-    },
-    {
-        "country": "Europe",
-        "city": "Brussels",
-        "lat": 50.93989073100069,
-        "lon": 4.371441377740844,
-        "date": "2026-03-27 16:33:57",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Austria becomes latest to propose social media ban for children",
-        "description": "The proposed under-14 ban follows similar steps in other European countries, including France and Spain.",
-        "fatalities": "0",
-        "link": "https://www.bbc.com/news/articles/cwyv70de9exo?at_medium=RSS&at_campaign=rss",
         "critical": false
     }
 ]
