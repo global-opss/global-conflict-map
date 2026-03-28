@@ -1,5 +1,47 @@
 [
     {
+        "country": "USA",
+        "city": "Washington",
+        "lat": 38.925267259657424,
+        "lon": -77.02368338271921,
+        "date": "2026-03-28 17:59:21",
+        "type": "Clashes",
+        "severity": "middle",
+        "title": "Sheila Cherfilus McCormick's fellow Democrats demand her resignation or expulsion",
+        "description": "A growing number of House Democrats are calling on Rep. Sheila Cherfilus-McCormick (D-Fla.) to resign after the House Ethics Committee found her guilty of dozens of charges, including serious financial misconduct.Why it matters: Some of those lawmakers said they are at least open to voting to expel the Florida Democrat, creating substantial new pressure for her to be ousted from Congress by one means or another.Cherfilus-McCormick, who is also un",
+        "fatalities": "0",
+        "link": "https://www.axios.com/2026/03/27/cherfilus-mccormick-resign-expel-ethics-democrats",
+        "critical": false
+    },
+    {
+        "country": "Iran",
+        "city": "Tehran",
+        "lat": 35.71133790829143,
+        "lon": 51.35851806948804,
+        "date": "2026-03-28 17:59:21",
+        "type": "Naval",
+        "severity": "normal",
+        "title": "Rubio tells allies Iran war will continue 2-4 more weeks",
+        "description": "Secretary of State Marco Rubio told G7 foreign ministers on Friday that the war with Iran will continue for another two to four weeks, three sources with direct knowledge tell Axios.Why it matters: This is the first time a senior U.S. official suggested the war would continue beyond the four to six-week timeframe President Trump has discussed since the war started. Rubio also claimed during Friday's meeting in France that the U.S. was close to ho",
+        "fatalities": "0",
+        "link": "https://www.axios.com/2026/03/27/iran-war-timeline-rubio-2-4-weeks",
+        "critical": false
+    },
+    {
+        "country": "Israel",
+        "city": "Tel Aviv",
+        "lat": 32.127884341198175,
+        "lon": 34.794506022628646,
+        "date": "2026-03-28 17:59:00",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Three Lebanese journalists killed in Israeli strike, say broadcasters",
+        "description": "The Israeli military confirms it killed Ali Shoeib from the Hezbollah-affiliated Al Manar TV.",
+        "fatalities": "0",
+        "link": "https://www.bbc.com/news/articles/cgme1j70294o?at_medium=RSS&at_campaign=rss",
+        "critical": false
+    },
+    {
         "country": "Africa",
         "city": "Mali",
         "lat": 12.551305167750847,
@@ -3022,47 +3064,5 @@
         "fatalities": "0",
         "link": "https://www.aljazeera.com/video/newsfeed/2026/3/27/irans-football-team-honours-children-killed-in-minab-school-airstrike?traffic_source=rss",
         "critical": true
-    },
-    {
-        "country": "Israel",
-        "city": "Tel Aviv",
-        "lat": 32.09420250477212,
-        "lon": 34.8228216691391,
-        "date": "2026-03-27 18:32:52",
-        "type": "Clashes",
-        "severity": "middle",
-        "title": "Israelis question Lebanon war as opposition grows",
-        "description": "Growing opposition within Israel is raising questions about the government’s military strategy in southern Lebanon.",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/video/newsfeed/2026/3/27/israelis-question-lebanon-war-as-opposition-grows?traffic_source=rss",
-        "critical": false
-    },
-    {
-        "country": "Iran",
-        "city": "Tehran",
-        "lat": 35.7102458289306,
-        "lon": 51.39436407804713,
-        "date": "2026-03-27 18:32:52",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "FBI director Kash Patel’s emails, photos hacked by Iran-linked group",
-        "description": "The vigilante group Handala Hack Team said that it had successfully gained access to Patels personal email account.",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/news/2026/3/27/fbi-director-kash-patels-emails-photos-hacked-by-iran-linked-group?traffic_source=rss",
-        "critical": false
-    },
-    {
-        "country": "Iran",
-        "city": "Tehran",
-        "lat": 35.63281341677777,
-        "lon": 51.408645783230575,
-        "date": "2026-03-27 18:32:48",
-        "type": "Naval",
-        "severity": "normal",
-        "title": "Rubio says US expects to finish Iran war 'in next couple of weeks'",
-        "description": "Marco Rubio said US allies were open to helping escort ships through the Strait of Hormuz, which Iran has closed and threatened to charge fees for.",
-        "fatalities": "0",
-        "link": "https://www.bbc.com/news/articles/c1l9vz064nqo?at_medium=RSS&at_campaign=rss",
-        "critical": false
     }
 ]
