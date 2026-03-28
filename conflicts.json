@@ -1,5 +1,19 @@
 [
     {
+        "country": "USA",
+        "city": "Washington",
+        "lat": 38.8926595994232,
+        "lon": -76.97485275771075,
+        "date": "2026-03-28 23:49:51",
+        "type": "Airstrike",
+        "severity": "critical",
+        "title": "Iran threatens to hit US universities in region as retaliation for alleged strike on two universities",
+        "description": "IRGC says Washington has until noon Monday to condemn strikes if it wants to avoid retaliatory action * Iranian missile hits open area in southern Israel *\nAir defenses shoot down drone near home of Iraqi Kurdish leader\nThe post Iran threatens to hit US universities in region as retaliation for alleged strike on two universities appeared first on The Times of Israel.",
+        "fatalities": "0",
+        "link": "https://www.timesofisrael.com/liveblog-march-29-2026/",
+        "critical": true
+    },
+    {
         "country": "Iran",
         "city": "Tehran",
         "lat": 35.72825140306907,
@@ -3049,20 +3063,6 @@
         "description": "After Israel said it would intensify attacks on Iran’s industrial infrastructure, major steel plants and other vital plants were struck.",
         "fatalities": "0",
         "link": "https://www.nytimes.com/2026/03/27/world/middleeast/iran-strikes-infrastructure-industry.html",
-        "critical": true
-    },
-    {
-        "country": "Iran",
-        "city": "Tehran",
-        "lat": 35.654850127337,
-        "lon": 51.363066913458546,
-        "date": "2026-03-27 22:01:17",
-        "type": "Airstrike",
-        "severity": "critical",
-        "title": "Iran and proxies continue attacking energy facilities, residential areas, and Arab capitals (March 24–27 updates)",
-        "description": "Between March 24 and March 27, Iran and its allied militias continued launching drones and missiles against Arab countries. The attacks targeted energy infrastructure, airports, military facilities, ports, and residential areas in Saudi Arabia, the United Arab Emirates, Kuwait, Bahrain, Iraq, and Jordan. Air defense systems intercepted many incoming projectiles, but several strikes still caused []\nThe post Iran and proxies continue attacking ener",
-        "fatalities": "0",
-        "link": "https://www.longwarjournal.org/archives/2026/03/iran-and-proxies-continue-attacking-energy-facilities-residential-areas-and-arab-capitals-march-24-27-updates.php",
         "critical": true
     }
 ]
