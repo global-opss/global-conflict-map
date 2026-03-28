@@ -1,5 +1,47 @@
 [
     {
+        "country": "Europe",
+        "city": "Berlin",
+        "lat": 48.843607997101,
+        "lon": 2.335651052805107,
+        "date": "2026-03-28 20:35:03",
+        "type": "Evacuation",
+        "severity": "critical",
+        "title": "Germany Considering MQ-28A Ghost Bat CCA, Says Defense Minister",
+        "description": "German Defense Minister Boris Pistorius said the MQ-28 Ghost Bat is among the uncrewed aircraft being evaluated to support the Eurofighter Typhoon fighter fleet. Germany’s defense minister Boris Pistorius said during his visit to Australia on Mar. 27, 2026, that Berlin is considering Boeing Defence Australia’s MQ-28A Ghost Bat Collaborative Combat Aircraft (CCA), The Australian []",
+        "fatalities": "0",
+        "link": "https://theaviationist.com/2026/03/28/germany-considering-mq-28a-ghost-bat/",
+        "critical": true
+    },
+    {
+        "country": "Israel",
+        "city": "Eilat",
+        "lat": 29.563055469195977,
+        "lon": 34.968249251465004,
+        "date": "2026-03-28 20:34:44",
+        "type": "Airstrike",
+        "severity": "critical",
+        "title": "Missiles hit southern Israeli city of Eilat",
+        "description": "Israeli social media posts show a strike in the Israeli city of Eilat.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/video/newsfeed/2026/3/28/missiles-hit-southern-israeli-city-of-eilat?traffic_source=rss",
+        "critical": true
+    },
+    {
+        "country": "Iran",
+        "city": "Tehran",
+        "lat": 35.62268952135274,
+        "lon": 51.382633046258974,
+        "date": "2026-03-28 20:34:42",
+        "type": "Airstrike",
+        "severity": "critical",
+        "title": "Airstrikes batter a university and residential zones in Tehran.",
+        "description": "",
+        "fatalities": "0",
+        "link": "https://www.nytimes.com/live/2026/03/28/world/iran-war-trump-israel-oil/airstrikes-university-tehran",
+        "critical": true
+    },
+    {
         "country": "Middle East",
         "city": "Red sea",
         "lat": 27.25484321397786,
@@ -3021,48 +3063,6 @@
         "description": "Senate Majority Leader John Thune told Republican senators Thursday night that they need to \"work together to ensure that DHS, including ICE and Border Patrol, is funded in a sustainable manner for the rest of the year.\"Why it matters: Thune (R-S.D.) appears to be holding out hope that he can fund the rest of DHS through the traditional appropriations process \"so that we can then focus our reconciliation efforts on ICE and the Border Patrol,\" acc",
         "fatalities": "0",
         "link": "https://www.axios.com/2026/03/27/tsa-worker-pay-dhs-shutdown-trump-senate",
-        "critical": false
-    },
-    {
-        "country": "Iran",
-        "city": "Tehran",
-        "lat": 35.70467041212415,
-        "lon": 51.432441332727315,
-        "date": "2026-03-27 20:00:44",
-        "type": "Naval",
-        "severity": "normal",
-        "title": "UK approves US use of British bases to strike Iran missile sites targeting ships",
-        "description": "Starmer initially rejected a U.S. request to use British bases for strikes on Iran, saying he needed to be satisfied that any military action was legal.",
-        "fatalities": "0",
-        "link": "https://www.militarytimes.com/news/your-military/2026/03/20/uk-approves-us-use-of-british-bases-to-strike-iran-missile-sites-targeting-ships/",
-        "critical": false
-    },
-    {
-        "country": "Africa",
-        "city": "Mali",
-        "lat": 12.612566054727917,
-        "lon": -7.999982083821723,
-        "date": "2026-03-27 20:00:43",
-        "type": "Clashes",
-        "severity": "middle",
-        "title": "'New phenomenon of dangerous rhetoric': World leaders embrace proud disregard for international law",
-        "description": "Gavin Lee is pleased to welcome Philippe Bolopion. Executive Director of Human Rights Watch. He describes a profound and accelerating shift in the conduct of war, marked not merely by violations of international humanitarian law, but by an unprecedented openness in asserting, even embracing, such violations. What distinguishes this moment is not the erosion of norms alone, but the rhetorical normalisation of their abandoning any respect for civil",
-        "fatalities": "0",
-        "link": "https://www.france24.com/en/tv-shows/spotlight/20260327-new-phenomenon-of-dangerous-rhetoric-world-leaders-embrace-proud-disregard-for-international-law",
-        "critical": false
-    },
-    {
-        "country": "Russia",
-        "city": "Moscow",
-        "lat": 55.74841817922062,
-        "lon": 37.6825993134559,
-        "date": "2026-03-27 20:00:43",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Iran: Rolling Ultimatums, Moscow \"at the EU table\"?",
-        "description": "In a week of movable ultimatums set by President Trump, to “obliterate Iran’s power plants”, a deadline was set initially of Monday at Midnight, then extended by five days on account of “very productive conversations”, then to ten days with Trump claiming “talks are ongoing” and “going very well”.",
-        "fatalities": "0",
-        "link": "https://www.france24.com/en/tv-shows/the-world-this-week/20260327-iran-rolling-ultimatums-moscow-at-the-eu-table",
         "critical": false
     }
 ]
