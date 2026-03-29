@@ -1,5 +1,47 @@
 [
     {
+        "country": "USA",
+        "city": "New york",
+        "lat": 40.64955231870502,
+        "lon": -73.99409713231111,
+        "date": "2026-03-29 21:51:13",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "NYT: число американских военных на Ближнем Востоке превысило 50 тысяч",
+        "description": "Число американских военнослужащих на Ближнем Востоке превысило 50 тыс. Об этом пишет The New York Times. Читать далее",
+        "fatalities": "0",
+        "link": "https://russian.rt.com/world/news/1613271-voennye-blizhnii-vostok-ssha?utm_source=rss&utm_medium=rss&utm_campaign=RSS",
+        "critical": false
+    },
+    {
+        "country": "USA",
+        "city": "New york",
+        "lat": 40.72259153015458,
+        "lon": -74.00004372383674,
+        "date": "2026-03-29 21:51:03",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Some Dems' 2028 strategy: a straight, white, Christian man",
+        "description": "Some top Democrats are quietly debating a fraught question: whether the party's best bet for winning back the presidency in 2028 is to nominate a man — perhaps a straight, white, Christian man.Their fear, divulged with dismay in group chats, at cocktail parties and increasingly in public, is that parts of the electorate are too biased to support a woman or other diverse candidate for president.Former first lady Michelle Obama fueled such talk rec",
+        "fatalities": "0",
+        "link": "https://www.axios.com/2026/03/29/some-dems-2028-strategy-a-straight-white-christian-man",
+        "critical": false
+    },
+    {
+        "country": "Middle East",
+        "city": "Yemen",
+        "lat": 14.58567977375748,
+        "lon": 49.17392387037492,
+        "date": "2026-03-29 21:50:54",
+        "type": "Naval",
+        "severity": "normal",
+        "title": "Yemen’s Houthis enter Iran war with drone and missile attacks on Israel",
+        "description": "The Houthis launched missile and drone attacks against Israel, the first direct military action since the beginning of the US and Israeli campaign against Iran that began on February 28. The Iran-backed Yemeni terrorist group threatened to continue and expand attacks until a series of conditions it issued are met. \nThe post Yemen’s Houthis enter Iran war with drone and missile attacks on Israel appeared first on FDDs Long War Journal.",
+        "fatalities": "0",
+        "link": "https://www.longwarjournal.org/archives/2026/03/yemens-houthis-enter-iran-war-with-drone-and-missile-attacks-on-israel.php",
+        "critical": false
+    },
+    {
         "country": "Israel",
         "city": "Tel Aviv",
         "lat": 32.05018841984375,
@@ -3021,48 +3063,6 @@
         "description": "One month into the conflict in Iran, Trump's gut-instinct approach is not proving effective.",
         "fatalities": "0",
         "link": "https://www.bbc.com/news/articles/c5y969pnxgvo?at_medium=RSS&at_campaign=rss",
-        "critical": false
-    },
-    {
-        "country": "Israel",
-        "city": "Tel aviv",
-        "lat": 32.091784764334804,
-        "lon": 34.71812412357943,
-        "date": "2026-03-29 01:05:58",
-        "type": "Naval",
-        "severity": "normal",
-        "title": "Iran war live: Tehran warns US, Israeli universities; Houthis fire missiles",
-        "description": "Antiwar protesters rally in Tel Aviv and US cities, as attacks kill a family of four in Irans Bushehr province.",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/news/liveblog/2026/3/29/iran-war-live-houthis-attack-israel-anti-war-protesters-rally-in-tel-aviv?traffic_source=rss",
-        "critical": false
-    },
-    {
-        "country": "USA",
-        "city": "Washington",
-        "lat": 38.8926595994232,
-        "lon": -76.97485275771075,
-        "date": "2026-03-28 23:49:51",
-        "type": "Airstrike",
-        "severity": "critical",
-        "title": "Iran threatens to hit US universities in region as retaliation for alleged strike on two universities",
-        "description": "IRGC says Washington has until noon Monday to condemn strikes if it wants to avoid retaliatory action * Iranian missile hits open area in southern Israel *\nAir defenses shoot down drone near home of Iraqi Kurdish leader\nThe post Iran threatens to hit US universities in region as retaliation for alleged strike on two universities appeared first on The Times of Israel.",
-        "fatalities": "0",
-        "link": "https://www.timesofisrael.com/liveblog-march-29-2026/",
-        "critical": true
-    },
-    {
-        "country": "Iran",
-        "city": "Tehran",
-        "lat": 35.72825140306907,
-        "lon": 51.436844876187415,
-        "date": "2026-03-28 23:17:09",
-        "type": "Naval",
-        "severity": "normal",
-        "title": "Photos of A-10s Used to Strike Iranian Naval Vessels Show Video Game-Inspired Nicknames",
-        "description": "Images shared by U.S. Central Command suggest that at least some A-10s taking part in Operation Epic Fury carry new video game-inspired nicknames, an operationally irrelevant detail but one likely to interest spotters and modelers. As we already reported a few days ago, the U.S. Air Force A-10 Thundebolt II jets supporting operation Epic Fury []",
-        "fatalities": "0",
-        "link": "https://theaviationist.com/2026/03/25/a-10s-nicknames-epic-fury/",
         "critical": false
     }
 ]
