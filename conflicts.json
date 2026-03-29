@@ -1,5 +1,47 @@
 [
     {
+        "country": "Israel",
+        "city": "Tel Aviv",
+        "lat": 32.13544091034847,
+        "lon": 34.7756343891659,
+        "date": "2026-03-29 22:32:45",
+        "type": "Clashes",
+        "severity": "middle",
+        "title": "Latest message purportedly from Iran’s new supreme leader thanks Iraq for war support",
+        "description": "Message is the third written statement attributed to Mojtaba Khamenei since his appointment as he remains out of public eye, fueling speculation about his health and whereabouts\nThe post Latest message purportedly from Irans new supreme leader thanks Iraq for war support appeared first on The Times of Israel.",
+        "fatalities": "0",
+        "link": "https://www.timesofisrael.com/latest-message-purportedly-from-irans-new-supreme-leader-thanks-iraq-for-war-support/",
+        "critical": false
+    },
+    {
+        "country": "Iran",
+        "city": "Tehran",
+        "lat": 35.74486921744496,
+        "lon": 51.41198417936565,
+        "date": "2026-03-29 22:32:39",
+        "type": "Naval",
+        "severity": "normal",
+        "title": "Photos of A-10s Used to Strike Iranian Naval Vessels Show Video Game-Inspired Nicknames",
+        "description": "Images shared by U.S. Central Command suggest that at least some A-10s taking part in Operation Epic Fury carry new video game-inspired nicknames, an operationally irrelevant detail but one likely to interest spotters and modelers. As we already reported a few days ago, the U.S. Air Force A-10 Thundebolt II jets supporting operation Epic Fury []",
+        "fatalities": "0",
+        "link": "https://theaviationist.com/2026/03/25/a-10s-nicknames-epic-fury/",
+        "critical": false
+    },
+    {
+        "country": "Israel",
+        "city": "Tel Aviv",
+        "lat": 32.028709100691465,
+        "lon": 34.749769452324436,
+        "date": "2026-03-29 22:32:25",
+        "type": "Clashes",
+        "severity": "middle",
+        "title": "European nations warn over Israel’s planned expansion of death penalty",
+        "description": "Britain, France, Germany and Italy on Sunday voiced deep concern over Israeli plans to expand the use of the death penalty in a bill expected to be voted on next week. The Council of Europe’s rights body also opposed the draft law, warning it would significantly broaden capital punishment.",
+        "fatalities": "0",
+        "link": "https://www.france24.com/en/middle-east/20260329-europe-warns-israel-death-penalty-expansion-bill",
+        "critical": false
+    },
+    {
         "country": "USA",
         "city": "New york",
         "lat": 40.64955231870502,
@@ -3021,48 +3063,6 @@
         "description": "US VP says Washington will keep war going 'for a little while longer' to ensure Islamic Republic is truly 'neutered'; Israel strikes HQ of Iranian naval weapons and ship producer\nThe post IDF says almost done targeting critical Iranian military sites as waves of strikes hit Tehran appeared first on The Times of Israel.",
         "fatalities": "0",
         "link": "https://www.timesofisrael.com/idf-says-almost-done-targeting-critical-iranian-military-sites-as-waves-of-strikes-hit-tehran/",
-        "critical": false
-    },
-    {
-        "country": "Iran",
-        "city": "Tehran",
-        "lat": 35.71121326515464,
-        "lon": 51.408322738190584,
-        "date": "2026-03-29 01:06:25",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Iran shuts down popular Tehran coffee shop chain over ‘suspicious’ cup designs",
-        "description": "Cafe says cups featuring a painting of an empty chair are unconnected to any current events, were designed months ago for Nowruz\nThe post Iran shuts down popular Tehran coffee shop chain over suspicious cup designs appeared first on The Times of Israel.",
-        "fatalities": "0",
-        "link": "https://www.timesofisrael.com/iran-shuts-down-popular-tehran-coffee-shop-chain-over-suspicious-cup-designs/",
-        "critical": false
-    },
-    {
-        "country": "Iran",
-        "city": "Tehran",
-        "lat": 35.63801241892195,
-        "lon": 51.425111370089816,
-        "date": "2026-03-29 01:06:15",
-        "type": "Airstrike",
-        "severity": "critical",
-        "title": "Iran and proxies continue attacking energy facilities, residential areas, and Arab capitals (March 24–27 updates)",
-        "description": "Between March 24 and March 27, Iran and its allied militias continued launching drones and missiles against Arab countries. The attacks targeted energy infrastructure, airports, military facilities, ports, and residential areas in Saudi Arabia, the United Arab Emirates, Kuwait, Bahrain, Iraq, and Jordan.\nThe post Iran and proxies continue attacking energy facilities, residential areas, and Arab capitals (March 24–27 updates) appeared first on FDD",
-        "fatalities": "0",
-        "link": "https://www.longwarjournal.org/archives/2026/03/iran-and-proxies-continue-attacking-energy-facilities-residential-areas-and-arab-capitals-march-24-27-updates.php",
-        "critical": true
-    },
-    {
-        "country": "Iran",
-        "city": "Tehran",
-        "lat": 35.65900058468997,
-        "lon": 51.35341555760737,
-        "date": "2026-03-29 01:05:58",
-        "type": "Clashes",
-        "severity": "middle",
-        "title": "Trump is waging war based on instinct and it isn't working",
-        "description": "One month into the conflict in Iran, Trump's gut-instinct approach is not proving effective.",
-        "fatalities": "0",
-        "link": "https://www.bbc.com/news/articles/c5y969pnxgvo?at_medium=RSS&at_campaign=rss",
         "critical": false
     }
 ]
