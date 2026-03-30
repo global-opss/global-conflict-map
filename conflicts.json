@@ -1,5 +1,61 @@
 [
     {
+        "country": "Europe",
+        "city": "Paris",
+        "lat": 48.891689206791625,
+        "lon": 2.377600630456504,
+        "date": "2026-03-30 23:36:04",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Céline Dion makes her big comeback with concerts in Paris after six year hiatus",
+        "description": "On her 58th birthday, Céline Dion announced her return to the stage with 10 concerts in Paris this fall, marking her first major performances since pausing her career for health reasons. The news was highlighted by a Paris-wide ad campaign and a light show on the Eiffel Tower.",
+        "fatalities": "0",
+        "link": "https://www.france24.com/en/europe/20260330-c%C3%A9line-dion-makes-her-big-comeback-with-concerts-in-paris-after-six-year-hiatus",
+        "critical": false
+    },
+    {
+        "country": "Iran",
+        "city": "Tehran",
+        "lat": 35.63237289907844,
+        "lon": 51.337531940655424,
+        "date": "2026-03-30 23:35:59",
+        "type": "Clashes",
+        "severity": "middle",
+        "title": "Key moments from Marco Rubio’s interview with Al Jazeera",
+        "description": "US Secretary of State Marco Rubio spoke exclusively to Al Jazeera’s Hashem Ahelbarra about the war on Iran.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/video/newsfeed/2026/3/30/key-moments-from-marco-rubios-interview-with-al-jazeera?traffic_source=rss",
+        "critical": false
+    },
+    {
+        "country": "Iran",
+        "city": "Tehran",
+        "lat": 35.62791926451636,
+        "lon": 51.4186017040828,
+        "date": "2026-03-30 23:35:55",
+        "type": "Naval",
+        "severity": "normal",
+        "title": "Iran advances a plan to charge a toll for ships to traverse the Strait of Hormuz.",
+        "description": "",
+        "fatalities": "0",
+        "link": "https://www.nytimes.com/live/2026/03/30/world/iran-war-trump-oil-news/strait-of-hormuz-toll-iran",
+        "critical": false
+    },
+    {
+        "country": "Israel",
+        "city": "Gaza",
+        "lat": 31.507446117431797,
+        "lon": 34.455346443485986,
+        "date": "2026-03-30 23:35:55",
+        "type": "Evacuation",
+        "severity": "critical",
+        "title": "Gazan mother reunited with evacuated daughter after two years",
+        "description": "The girl is among at least eight children who were premature newborns when they were evacuated during heavy fighting in Gaza at the start of the war.",
+        "fatalities": "0",
+        "link": "https://www.bbc.com/news/articles/czex10lngzjo?at_medium=RSS&at_campaign=rss",
+        "critical": true
+    },
+    {
         "country": "Israel",
         "city": "Tel Aviv",
         "lat": 32.08269716817322,
@@ -112,20 +168,6 @@
         "critical": false
     },
     {
-        "country": "Iran",
-        "city": "Tehran",
-        "lat": 35.6235088916984,
-        "lon": 51.322943381456376,
-        "date": "2026-03-30 22:54:34",
-        "type": "Airstrike",
-        "severity": "critical",
-        "title": "A New U.S. Missile Hit a Sports Hall in Iran. Here’s What We Know About It.",
-        "description": "Barely out of prototype testing, the Precision Strike Missile is shrouded in secrecy — including which Persian Gulf countries the Army is launching them from.",
-        "fatalities": "0",
-        "link": "https://www.nytimes.com/2026/03/30/us/politics/us-missile-strike-iran-sports-hall-school.html",
-        "critical": true
-    },
-    {
         "country": "Russia",
         "city": "Moscow",
         "lat": 55.79563044560812,
@@ -138,6 +180,20 @@
         "fatalities": "0",
         "link": "https://www.bbc.com/news/articles/czrevyx28z2o?at_medium=RSS&at_campaign=rss",
         "critical": false
+    },
+    {
+        "country": "Iran",
+        "city": "Tehran",
+        "lat": 35.6235088916984,
+        "lon": 51.322943381456376,
+        "date": "2026-03-30 22:54:34",
+        "type": "Airstrike",
+        "severity": "critical",
+        "title": "A New U.S. Missile Hit a Sports Hall in Iran. Here’s What We Know About It.",
+        "description": "Barely out of prototype testing, the Precision Strike Missile is shrouded in secrecy — including which Persian Gulf countries the Army is launching them from.",
+        "fatalities": "0",
+        "link": "https://www.nytimes.com/2026/03/30/us/politics/us-missile-strike-iran-sports-hall-school.html",
+        "critical": true
     },
     {
         "country": "Israel",
@@ -3008,61 +3064,5 @@
         "fatalities": "0",
         "link": "https://www.defensenews.com/global/europe/2026/03/26/mbda-to-double-aster-air-defense-missile-output-in-2026/",
         "critical": true
-    },
-    {
-        "country": "Europe",
-        "city": "Brussels",
-        "lat": 50.83163603548141,
-        "lon": 4.325491651595529,
-        "date": "2026-03-30 10:49:30",
-        "type": "Airstrike",
-        "severity": "critical",
-        "title": "EU tackles Europe's housing crisis",
-        "description": "Since 2013, house purchase and rental prices have soared across Europe. With rents skyrocketing, rental supply shrinking and properties being diverted towards short-term holiday lets, the European Union has just adopted an affordable housing plan and appointed a housing commissioner to address the issue.",
-        "fatalities": "0",
-        "link": "https://www.france24.com/en/europe/20260330-eu-tackles-europe-s-housing-crisis",
-        "critical": true
-    },
-    {
-        "country": "Israel",
-        "city": "Tel Aviv",
-        "lat": 32.098921696990814,
-        "lon": 34.800667381608086,
-        "date": "2026-03-30 10:49:30",
-        "type": "Evacuation",
-        "severity": "critical",
-        "title": "Thousands of Lebanese trapped behind Israeli frontlines rely on humanitarian aid",
-        "description": "The humanitarian crisis in Southern Lebanon is reaching a breaking point. As Prime Minister Netanyahu confirms plans to expand a military 'buffer zone' along the border, sweeping evacuation orders south of the Litani River have already forced over a million people to flee. Yet, thousands remain trapped behind the frontlines. Our correspondents, Mélina Huet and Achraf Abid, joined a rare humanitarian convoy into the restricted zone.",
-        "fatalities": "0",
-        "link": "https://www.france24.com/en/thousands-of-lebanese-trapped-behind-israeli-frontlines-rely-on-humanitarian-aid",
-        "critical": true
-    },
-    {
-        "country": "Iran",
-        "city": "Kharg island",
-        "lat": 29.259164557891644,
-        "lon": 50.28965958150162,
-        "date": "2026-03-30 10:49:30",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Occupying Iran's Kharg island could be 'dangerous and risky' for US forces",
-        "description": "More American forces are reaching the Middle East. Before their arrival, the U.S. military had already built up the largest American force in the region in more than 20 years. While State Secretary Marco Rubio said US objectives could be met without ground operations, President Donald Trump later said he would like to seize Kharg Island, Iran's main oil export point. FRANCE 24's Andrew Hilliar looks at how likely this would be.",
-        "fatalities": "0",
-        "link": "https://www.france24.com/en/occupying-iran-s-kharg-island-could-be-dangerous-and-risky-for-us-forces",
-        "critical": false
-    },
-    {
-        "country": "Iran",
-        "city": "Tehran",
-        "lat": 35.721301784366,
-        "lon": 51.3895669831144,
-        "date": "2026-03-30 10:49:30",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "‘Transnational repression’: Iranian diaspora faces harassment, death threats, pressure on families",
-        "description": "Oliver Farry is pleased to welcome Dr. Roya Boroumand, Co-Founder and Executive Director of the Abdorrahman Boroumand Center for Human Rights in Iran. According to Dr. Boroumand, Iran's transnational repression began in the aftermath of the 1979 revolution. Over time, this strategy has adapted, becoming more technologically mediated, and more globally embedded. It serves multiple functions for the Iranian state: it silences dissent beyond its bor",
-        "fatalities": "0",
-        "link": "https://www.france24.com/en/transnational-repression-iranian-diaspora-faces-harassment-death-threats-pressure-on-families",
-        "critical": false
     }
 ]
