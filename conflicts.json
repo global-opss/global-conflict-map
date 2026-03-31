@@ -1,5 +1,33 @@
 [
     {
+        "country": "Israel",
+        "city": "Jerusalem",
+        "lat": 31.83169237115268,
+        "lon": 35.282260305198065,
+        "date": "2026-03-31 00:03:31",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "US raises concern over Israel’s closure of Jerusalem holy sites",
+        "description": "The White House says the US has raised concerns with Israel over closure of Jerusalem holy sites.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/video/newsfeed/2026/3/30/us-raises-concern-over-israels-closure-of-jerusalem-holy-sites?traffic_source=rss",
+        "critical": false
+    },
+    {
+        "country": "Iran",
+        "city": "Tehran",
+        "lat": 35.755933335193085,
+        "lon": 51.40542105404426,
+        "date": "2026-03-31 00:03:31",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Iran’s foreign ministry rejects US ceasefire demands",
+        "description": "Iranian Foreign Ministry spokesman says US conditions for a ceasefire are ‘excessive, unrealistic and unreasonable’.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/video/newsfeed/2026/3/30/irans-foreign-ministry-rejects-us-ceasefire-demands?traffic_source=rss",
+        "critical": false
+    },
+    {
         "country": "Europe",
         "city": "Paris",
         "lat": 48.891689206791625,
@@ -3036,33 +3064,5 @@
         "fatalities": "0",
         "link": "https://www.longwarjournal.org/archives/2026/03/interim-venezuelan-president-ousts-defense-chief-as-washington-makes-limited-progress-in-caracas.php",
         "critical": false
-    },
-    {
-        "country": "Russia",
-        "city": "Moscow",
-        "lat": 55.817155860209695,
-        "lon": 37.67462197322385,
-        "date": "2026-03-30 10:49:31",
-        "type": "Clashes",
-        "severity": "middle",
-        "title": "Europe must reinvent warfare for ‘era of shocks,’ NATO’s Vandier says",
-        "description": "“We need to make Russia wake up each morning, thinking to themselves: 'Not today,'\" the alliance's top officer for force transformation said.",
-        "fatalities": "0",
-        "link": "https://www.defensenews.com/global/europe/2026/03/30/europe-must-reinvent-warfare-for-era-of-shocks-natos-vandier-says/",
-        "critical": false
-    },
-    {
-        "country": "Europe",
-        "city": "Brussels",
-        "lat": 50.917828875003885,
-        "lon": 4.275379417314504,
-        "date": "2026-03-30 10:49:31",
-        "type": "Airstrike",
-        "severity": "critical",
-        "title": "MBDA to double Aster air-defense missile output in 2026",
-        "description": "The company's Aster family of missiles is used in the SAMP/T air-defense system, the only European alternative to the American Patriot system.",
-        "fatalities": "0",
-        "link": "https://www.defensenews.com/global/europe/2026/03/26/mbda-to-double-aster-air-defense-missile-output-in-2026/",
-        "critical": true
     }
 ]
