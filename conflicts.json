@@ -1,5 +1,61 @@
 [
     {
+        "country": "Israel",
+        "city": "Tel Aviv",
+        "lat": 32.015767080984446,
+        "lon": 34.71366873568477,
+        "date": "2026-04-02 22:54:49",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Trump fires AG Pam Bondi, appoints own ex-lawyer to temporarily head justice department",
+        "description": "US attorney general's termination comes amid criticism of her handling of Epstein files, failure to secure convictions against president's perceived opponents\nThe post Trump fires AG Pam Bondi, appoints own ex-lawyer to temporarily head justice department appeared first on The Times of Israel.",
+        "fatalities": "0",
+        "link": "https://www.timesofisrael.com/trump-fires-pam-bondi-appoints-own-ex-lawyer-to-temporarily-head-justice-department/",
+        "critical": false
+    },
+    {
+        "country": "Asia",
+        "city": "Host",
+        "lat": 33.38017738470506,
+        "lon": 69.88167589954288,
+        "date": "2026-04-02 22:54:49",
+        "type": "Naval",
+        "severity": "normal",
+        "title": "40 nations attend UK-led talks on stopping Iran from holding world ‘hostage’ in Hormuz",
+        "description": "Countries represented include France, Germany and UAE, but not US; Macron says military operation to open strait 'unrealistic' as Gulf nations push such action\nThe post 40 nations attend UK-led talks on stopping Iran from holding world hostage in Hormuz appeared first on The Times of Israel.",
+        "fatalities": "0",
+        "link": "https://www.timesofisrael.com/uk-led-talks-on-stopping-iran-holding-world-hostage-in-hormuz-draw-some-40-nations/",
+        "critical": false
+    },
+    {
+        "country": "Europe",
+        "city": "Brussels",
+        "lat": 50.842508925903765,
+        "lon": 4.376439504348836,
+        "date": "2026-04-02 22:54:43",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "'Any weapon Europe buys from the US is a liability', rearmament expert says",
+        "description": "European NATO countries have reduced their reliance on the US for weapons imports while significantly increasing their defense spending in the past year. Speaking with FRANCE 24's Sharon Gaffney, Guntram Wolff, Senior Fellow at Bruegel, says that \"any weapon we buy as Europeans from the United States is a liability both in terms of technology dependence but also in terms of missing growth and domestic ecosystem that would develop\".",
+        "fatalities": "0",
+        "link": "https://www.france24.com/en/tv-shows/a-propos/20260402-any-weapon-europe-buys-from-the-us-is-a-liability-rearmament-expert-says",
+        "critical": false
+    },
+    {
+        "country": "Iran",
+        "city": "Tehran",
+        "lat": 35.75611789200958,
+        "lon": 51.440231455821944,
+        "date": "2026-04-02 22:54:38",
+        "type": "Clashes",
+        "severity": "middle",
+        "title": "Macron Voices Europe’s Frustration With Trump’s Handling of Iran War",
+        "description": "President Emmanuel Macron of France expressed disapproval about President Trump’s handling of the war against Iran on Thursday, chastising him for speaking cavalierly in a speech.",
+        "fatalities": "0",
+        "link": "https://www.nytimes.com/2026/04/02/world/middleeast/iran-war-trump-strait.html",
+        "critical": false
+    },
+    {
         "country": "Iran",
         "city": "Tehran",
         "lat": 35.711285597547324,
@@ -854,20 +910,6 @@
         "critical": false
     },
     {
-        "country": "USA",
-        "city": "New york",
-        "lat": 40.73499854694174,
-        "lon": -73.9422515793817,
-        "date": "2026-04-02 17:37:58",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "2026 Contemporary Art Biennale: Lebanon’s art, old and new",
-        "description": "Nabil Nahas has been painting for seven decades. From his childhood in Lebanon to his career in New York, he is now presenting his latest monumental work in Venice as his country’s representative at the 2026 Contemporary Art Biennale. The artist speaks to us about his connection to the ancient civilisations of his homeland, and why he believes politicising international platforms is the wrong approach.",
-        "fatalities": "0",
-        "link": "https://www.france24.com/en/tv-shows/arts24/20260402-2026-contemporary-art-biennale-lebanon-s-art-old-and-new",
-        "critical": false
-    },
-    {
         "country": "Africa",
         "city": "Tripoli",
         "lat": 32.85822885325127,
@@ -907,6 +949,20 @@
         "description": "Japan’s Tomahawk orders are unlikely to be affected immediately, but longer military campaigns in the Middle East could cause setbacks, one analyst said.",
         "fatalities": "0",
         "link": "https://www.defensenews.com/global/asia-pacific/2026/03/30/japanese-destroyer-can-now-fire-tomahawk-missiles-extending-nations-combat-punch/",
+        "critical": false
+    },
+    {
+        "country": "USA",
+        "city": "New york",
+        "lat": 40.73499854694174,
+        "lon": -73.9422515793817,
+        "date": "2026-04-02 17:37:58",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "2026 Contemporary Art Biennale: Lebanon’s art, old and new",
+        "description": "Nabil Nahas has been painting for seven decades. From his childhood in Lebanon to his career in New York, he is now presenting his latest monumental work in Venice as his country’s representative at the 2026 Contemporary Art Biennale. The artist speaks to us about his connection to the ancient civilisations of his homeland, and why he believes politicising international platforms is the wrong approach.",
+        "fatalities": "0",
+        "link": "https://www.france24.com/en/tv-shows/arts24/20260402-2026-contemporary-art-biennale-lebanon-s-art-old-and-new",
         "critical": false
     },
     {
@@ -3007,62 +3063,6 @@
         "description": "In a 19-minute address from the White House, President Trump said the U.S. would hit Iran “extremely hard over the next two to three weeks,” but did not make any revealing announcements.",
         "fatalities": "0",
         "link": "https://www.nytimes.com/live/2026/04/01/world/iran-war-trump-oil-news",
-        "critical": false
-    },
-    {
-        "country": "Israel",
-        "city": "Tel Aviv",
-        "lat": 32.07615062869821,
-        "lon": 34.84678524700811,
-        "date": "2026-04-02 05:19:09",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Democrats to weigh resolution against AIPAC, fueling concerns about ‘undercurrent of antisemitism’",
-        "description": "Amendment to be considered by DNC 'condemns the growing influence' of the pro-Israel US lobby and also decries role of 'dark money' in elections, without naming any other groups\nThe post Democrats to weigh resolution against AIPAC, fueling concerns about ‘undercurrent of antisemitism’ appeared first on The Times of Israel.",
-        "fatalities": "0",
-        "link": "https://www.timesofisrael.com/democrats-to-weigh-resolution-against-aipac-fueling-concerns-about-undercurrent-of-antisemitism/",
-        "critical": false
-    },
-    {
-        "country": "China",
-        "city": "Beijing",
-        "lat": 39.84674588624973,
-        "lon": 116.33615414611518,
-        "date": "2026-04-02 05:18:55",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "China’s Aiming for the Moon, and NASA Is Looking Over Its Shoulder",
-        "description": "The U.S. space agency launched a lunar flyby Wednesday, but Beijing is pursuing its own space program with formidable focus. Here’s what we know about it, in photos and videos.",
-        "fatalities": "0",
-        "link": "https://www.nytimes.com/2026/04/02/world/asia/chinas-aiming-for-the-moon-and-nasa-is-looking-over-its-shoulder.html",
-        "critical": false
-    },
-    {
-        "country": "Iran",
-        "city": "Tehran",
-        "lat": 35.67608626782753,
-        "lon": 51.43359628132911,
-        "date": "2026-04-02 05:18:55",
-        "type": "Clashes",
-        "severity": "middle",
-        "title": "Trump leaves key questions unanswered as he seeks to calm nerves over Iran war",
-        "description": "There were some glaring omissions in the president's primetime address, writes the BBC's Gary O'Donoghue.",
-        "fatalities": "0",
-        "link": "https://www.bbc.com/news/articles/cnv81ven263o?at_medium=RSS&at_campaign=rss",
-        "critical": false
-    },
-    {
-        "country": "Iran",
-        "city": "Tehran",
-        "lat": 35.75018953655836,
-        "lon": 51.42288434162224,
-        "date": "2026-04-02 05:18:55",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Trump’s national address on Iran ’embarrassing, incoherent’",
-        "description": "Harlan Ullman, a former senior US naval officer, has slammed President Trump’s address to the nation.",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/video/newsfeed/2026/4/2/trumps-national-address-on-iran-embarrassing?traffic_source=rss",
         "critical": false
     }
 ]
