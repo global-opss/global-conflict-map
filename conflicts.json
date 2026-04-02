@@ -1,5 +1,61 @@
 [
     {
+        "country": "Iran",
+        "city": "Tehran",
+        "lat": 35.711285597547324,
+        "lon": 51.345968953081744,
+        "date": "2026-04-02 22:18:03",
+        "type": "Naval",
+        "severity": "normal",
+        "title": "Trump: U.S. will bomb Iran \"back to stone ages\" over next 2-3 weeks",
+        "description": "President Trump said in a prime time address that the U.S. was close to ending its war in Iran but would spend the next two to three weeks bombing the country \"back to the stone ages.\"The big picture: If a deal to end the war cannot be reached, he said, the U.S. would bomb all of Iran's power plants and perhaps its oil fields. That would have devastating consequences for Tehran's civilian population and the future of the country, while likely inc",
+        "fatalities": "0",
+        "link": "https://www.axios.com/2026/04/02/trump-bomb-iran-stone-ages-power-plants",
+        "critical": false
+    },
+    {
+        "country": "Israel",
+        "city": "Tel Aviv",
+        "lat": 32.042680452085314,
+        "lon": 34.82683405729535,
+        "date": "2026-04-02 22:18:03",
+        "type": "Clashes",
+        "severity": "middle",
+        "title": "Rights group head warns of ‘alarming’ risk of long-term mass displacement in Lebanon",
+        "description": "Claiming crisis 'far more severe' than in previous Israel-Hezbollah wars, International Organization for Migration's Amy Pope says world doesn't 'understand the scale' of problem\nThe post Rights group head warns of alarming risk of long-term mass displacement in Lebanon appeared first on The Times of Israel.",
+        "fatalities": "0",
+        "link": "https://www.timesofisrael.com/rights-group-head-warns-of-alarming-risk-of-long-term-mass-displacement-in-lebanon/",
+        "critical": false
+    },
+    {
+        "country": "Israel",
+        "city": "Tel Aviv",
+        "lat": 32.07006526092336,
+        "lon": 34.76289491159347,
+        "date": "2026-04-02 22:17:54",
+        "type": "Airstrike",
+        "severity": "critical",
+        "title": "9-year-old boy recounts airstrike in Lebanon that killed whole family",
+        "description": "Karim Al-Haj Hussein survived an Israeli strike on his home in Lebanon’s Baalbek that killed his family members.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/video/newsfeed/2026/4/2/9-year-old-boy-recounts-airstrike-in-lebanon-that-killed-whole-family?traffic_source=rss",
+        "critical": true
+    },
+    {
+        "country": "Iran",
+        "city": "Tehran",
+        "lat": 35.74967008333854,
+        "lon": 51.32500836649991,
+        "date": "2026-04-02 22:17:51",
+        "type": "Airstrike",
+        "severity": "critical",
+        "title": "Macron Voices Europe’s Frustration With Trump as Fighting Rages and Missiles Fly",
+        "description": "President Emmanuel Macron of France expressed disapproval about President Trump’s handling of the war against Iran on Thursday, chastising him for speaking cavalierly in a speech.",
+        "fatalities": "0",
+        "link": "https://www.nytimes.com/2026/04/02/world/middleeast/iran-war-trump-strait.html",
+        "critical": true
+    },
+    {
         "country": "Middle East",
         "city": "Beirut",
         "lat": 33.92345141723097,
@@ -70,20 +126,6 @@
         "critical": false
     },
     {
-        "country": "China",
-        "city": "Beijing",
-        "lat": 39.903184524635584,
-        "lon": 116.40848631070969,
-        "date": "2026-04-02 21:39:33",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "The Race for the Future of the Moon",
-        "description": "The Artemis II mission isn’t just about science and exploration. It’s part of a high-stakes space race between the U.S. and China.",
-        "fatalities": "0",
-        "link": "https://www.nytimes.com/2026/04/02/world/space-artemis-us-china-trump-iran-pam-bondi.html",
-        "critical": false
-    },
-    {
         "country": "Iran",
         "city": "Tehran",
         "lat": 35.7349264234558,
@@ -96,6 +138,20 @@
         "fatalities": "0",
         "link": "https://www.bbc.com/news/articles/crm1vj941x9o?at_medium=RSS&at_campaign=rss",
         "critical": true
+    },
+    {
+        "country": "China",
+        "city": "Beijing",
+        "lat": 39.903184524635584,
+        "lon": 116.40848631070969,
+        "date": "2026-04-02 21:39:33",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "The Race for the Future of the Moon",
+        "description": "The Artemis II mission isn’t just about science and exploration. It’s part of a high-stakes space race between the U.S. and China.",
+        "fatalities": "0",
+        "link": "https://www.nytimes.com/2026/04/02/world/space-artemis-us-china-trump-iran-pam-bondi.html",
+        "critical": false
     },
     {
         "country": "Europe",
@@ -3007,62 +3063,6 @@
         "description": "Harlan Ullman, a former senior US naval officer, has slammed President Trump’s address to the nation.",
         "fatalities": "0",
         "link": "https://www.aljazeera.com/video/newsfeed/2026/4/2/trumps-national-address-on-iran-embarrassing?traffic_source=rss",
-        "critical": false
-    },
-    {
-        "country": "Iran",
-        "city": "Tehran",
-        "lat": 35.667996201300504,
-        "lon": 51.402288533662905,
-        "date": "2026-04-02 05:18:55",
-        "type": "Clashes",
-        "severity": "middle",
-        "title": "Trump claims ‘success’ in Iran in just 32 days compared to lengthy US wars",
-        "description": "US President Donald Trump said Iran was the ‘bully of the Middle East’ but is ‘no longer a threat’.",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/video/newsfeed/2026/4/2/trump-claims-success-in-iran-in-just-32-days-compared-to-lengthy-us-wars?traffic_source=rss",
-        "critical": false
-    },
-    {
-        "country": "Iran",
-        "city": "Tehran",
-        "lat": 35.731342489793775,
-        "lon": 51.34344770419847,
-        "date": "2026-04-02 05:18:55",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Trump threatens to bring Iran ‘back to the Stone Ages’",
-        "description": "President Trump says the US will bring Iran ‘back to the Stone Ages where they belong by striking hard.",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/video/newsfeed/2026/4/2/trump-threatens-to-bring-iran-back-to-the-stone?traffic_source=rss",
-        "critical": false
-    },
-    {
-        "country": "Iran",
-        "city": "Tehran",
-        "lat": 35.69350571909073,
-        "lon": 51.41063512018276,
-        "date": "2026-04-02 05:18:55",
-        "type": "Naval",
-        "severity": "normal",
-        "title": "Trump urges countries ‘get involved’ in war on Iran if they can’t get fuel",
-        "description": "US President Donald Trump says nations that rely on oil from the Strait of Hormuz should build up some delayed courage.",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/video/newsfeed/2026/4/2/trump-urges-countries-get-involved-in-war-on-iran-if-they-cant-get-fuel?traffic_source=rss",
-        "critical": false
-    },
-    {
-        "country": "USA",
-        "city": "New york",
-        "lat": 40.65296098191148,
-        "lon": -73.96890612303261,
-        "date": "2026-04-02 03:24:16",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "NYT: Трамп обсуждает увольнение генпрокурора Пэм Бонди",
-        "description": "Президент США Дональд Трамп обсуждал с советниками возможность увольнения генерального прокурора Пэм Бонди, сообщает The New York Times со ссылкой на источники. Американский президент выразил недовольство ее руководством Министерством юстиции.",
-        "fatalities": "0",
-        "link": "https://www.kommersant.ru/doc/8553356",
         "critical": false
     }
 ]
