@@ -1,5 +1,47 @@
 [
     {
+        "country": "Europe",
+        "city": "Berlin",
+        "lat": 48.91738739815613,
+        "lon": 2.3226432178682996,
+        "date": "2026-04-03 22:19:09",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Германия запретила мужчинам моложе 45 лет покидать страну без разрешения",
+        "description": "В Германии все мужчины в возрасте от 17 до 45 лет теперь должны получать разрешение Бундесвера, если они хотят покинуть страну более чем на три месяца. Как пишет Berliner Zeitung, поправка к закону о модернизации военной службы действует с 1 января 2026 года, при этом изменения остались незамеченными.",
+        "fatalities": "0",
+        "link": "https://www.kommersant.ru/doc/8568886",
+        "critical": false
+    },
+    {
+        "country": "Middle East",
+        "city": "Beirut",
+        "lat": 33.94963093396306,
+        "lon": 35.46288189629038,
+        "date": "2026-04-03 22:18:59",
+        "type": "Airstrike",
+        "severity": "critical",
+        "title": "US embassy in Beirut warns that Iran, terror groups may target Lebanese universities",
+        "description": "After IRGC said it would retaliate for US-Israeli strikes on universities in Iran, several schools in region move classes online; US reiterates warning for citizens to leave Lebanon\nThe post US embassy in Beirut warns that Iran, terror groups may target Lebanese universities appeared first on The Times of Israel.",
+        "fatalities": "0",
+        "link": "https://www.timesofisrael.com/us-embassy-in-beirut-warns-iran-terror-groups-may-target-lebanese-universities/",
+        "critical": true
+    },
+    {
+        "country": "Israel",
+        "city": "Tel Aviv",
+        "lat": 32.149311331203364,
+        "lon": 34.806075257389175,
+        "date": "2026-04-03 22:18:37",
+        "type": "Airstrike",
+        "severity": "critical",
+        "title": "Iran’s Defenses Have Been Struck, but They Can Still Fire Missiles and Drones",
+        "description": "Iran has sent waves of missiles and drones at Israel and Gulf states in recent weeks and shot down an American fighter jet on Friday.",
+        "fatalities": "0",
+        "link": "https://www.nytimes.com/2026/04/03/world/middleeast/iran-missiles-drones-military.html",
+        "critical": true
+    },
+    {
         "country": "Israel",
         "city": "Tel Aviv",
         "lat": 32.02480485499246,
@@ -3022,47 +3064,5 @@
         "fatalities": "0",
         "link": "https://www.militarytimes.com/global/europe/2026/03/27/ukraine-offers-gulf-allies-drone-defense-in-bid-for-scarce-patriot-missiles/",
         "critical": true
-    },
-    {
-        "country": "USA",
-        "city": "Washington",
-        "lat": 38.83150832798804,
-        "lon": -77.09655395106157,
-        "date": "2026-04-02 20:52:07",
-        "type": "Naval",
-        "severity": "normal",
-        "title": "US deploys uncrewed drone boats in conflict with Iran",
-        "description": "The deployment of the vessels marks the first time Washington has confirmed using such vessels in an active conflict, according to Reuters.",
-        "fatalities": "0",
-        "link": "https://www.militarytimes.com/news/your-military/2026/03/26/us-deploys-uncrewed-drone-boats-in-conflict-with-iran/",
-        "critical": false
-    },
-    {
-        "country": "Russia",
-        "city": "Moscow",
-        "lat": 55.769616173819635,
-        "lon": 37.6435446731293,
-        "date": "2026-04-02 20:52:07",
-        "type": "Clashes",
-        "severity": "middle",
-        "title": "Russia's military campaign in Ukraine stalls for first time in more than two years",
-        "description": "Russia’s advance in Ukraine stalled in March, with no territorial gains for the first time in over two years, according to the Institute for the Study of War. Ukrainian forces recaptured small areas, signalling a slowdown in Moscow’s momentum after months of progress, raising new questions about the war’s next phase.",
-        "fatalities": "0",
-        "link": "https://www.france24.com/en/europe/20260402-russia-military-campaign-in-ukraine-stalls-for-first-time-in-more-than-two-years",
-        "critical": false
-    },
-    {
-        "country": "Africa",
-        "city": "Burkina faso",
-        "lat": 12.228001502039676,
-        "lon": -1.2489358383728588,
-        "date": "2026-04-02 20:52:07",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Burkina army, jihadists killed more than 1,800 civilians since 2023",
-        "description": "In tonight's edition, Human Rights Watch says Burkina Faso’s government forces and jihadists together killed more than 1800 civilians between 2023 and 2025. Also, a collapsed, unfinished school in Accra kills four people and injures nearly 30, raising concerns over unsafe classrooms. And  Belgium is resisting a U.S.-backed AI firm’s attempt to access historic mining maps that could reveal valuable mineral deposits.",
-        "fatalities": "0",
-        "link": "https://www.france24.com/en/burkina-army-jihadists-killed-more-than-1-800-civilians-since-2023",
-        "critical": false
     }
 ]
