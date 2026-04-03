@@ -1,5 +1,19 @@
 [
     {
+        "country": "Iran",
+        "city": "Tehran",
+        "lat": 35.64543887215761,
+        "lon": 51.419768939596295,
+        "date": "2026-04-03 00:02:51",
+        "type": "Airstrike",
+        "severity": "critical",
+        "title": "Iran War Live Updates: Strikes Hit Infrastructure Sites in Iran After Trump’s Threat",
+        "description": "President Trump celebrated an attack on a major highway bridge outside of Tehran after vowing to take Iran “back to the Stone Ages.” And a leading public health institution in the country was destroyed.",
+        "fatalities": "0",
+        "link": "https://www.nytimes.com/live/2026/04/02/world/iran-war-trump-news",
+        "critical": true
+    },
+    {
         "country": "Israel",
         "city": "Tel Aviv",
         "lat": 32.07118798433361,
@@ -3049,20 +3063,6 @@
         "description": "President Donald Trump said US forces would keep hitting Iran \"very hard\" in the next two or three weeks and bring the country \"back to the Stone Ages\" in a televised address on Wednesday night, even as he argued that Washington had accomplished its goals but offered no clear timeline for ending the monthlong war.",
         "fatalities": "0",
         "link": "https://www.france24.com/en/americas/20260402-trump-addresses-nation-on-iran-war",
-        "critical": false
-    },
-    {
-        "country": "China",
-        "city": "Beijing",
-        "lat": 39.86659439725847,
-        "lon": 116.42805827391851,
-        "date": "2026-04-02 06:44:03",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "The Fall of a Cambodian Money-Laundering Giant",
-        "description": "The former chairman of a financial group was brought to China in handcuffs, the latest high-level capture in a widening investigation into organized crime.",
-        "fatalities": "0",
-        "link": "https://www.nytimes.com/2026/04/01/world/asia/china-cambodia-huione-extradition.html",
         "critical": false
     }
 ]
