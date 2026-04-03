@@ -1,5 +1,33 @@
 [
     {
+        "country": "USA",
+        "city": "Washington",
+        "lat": 38.927849926852666,
+        "lon": -77.09878979655228,
+        "date": "2026-04-03 17:21:10",
+        "type": "Naval",
+        "severity": "normal",
+        "title": "HDUSA, Hanwha Philly Shipyard secure first US Navy project",
+        "description": "Hanwha Defense USA (HDUSA) and Hanwha Philly Shipyard, both subsidiaries of South Korea’s Hanwha Group, have secured their first project from the US Navy.\nThe post HDUSA, Hanwha Philly Shipyard secure first US Navy project appeared first on Naval Technology.",
+        "fatalities": "0",
+        "link": "https://www.naval-technology.com/news/hdusa-philly-shipyard-us-navy/",
+        "critical": false
+    },
+    {
+        "country": "Russia",
+        "city": "Moscow",
+        "lat": 55.819239773876276,
+        "lon": 37.675237698395215,
+        "date": "2026-04-03 17:20:52",
+        "type": "Naval",
+        "severity": "normal",
+        "title": "Russia Is Sending a Second Oil Tanker to Fuel-Starved Cuba",
+        "description": "The announcement of a second shipment follows the arrival of a first oil tanker sent by the Kremlin earlier this week.",
+        "fatalities": "0",
+        "link": "https://www.nytimes.com/2026/04/02/world/americas/cuba-russia-oil-tanker.html",
+        "critical": false
+    },
+    {
         "country": "Israel",
         "city": "Tel Aviv",
         "lat": 32.15417918764307,
@@ -3035,34 +3063,6 @@
         "description": "Japan’s Tomahawk orders are unlikely to be affected immediately, but longer military campaigns in the Middle East could cause setbacks, one analyst said.",
         "fatalities": "0",
         "link": "https://www.defensenews.com/global/asia-pacific/2026/03/30/japanese-destroyer-can-now-fire-tomahawk-missiles-extending-nations-combat-punch/",
-        "critical": false
-    },
-    {
-        "country": "USA",
-        "city": "New york",
-        "lat": 40.73499854694174,
-        "lon": -73.9422515793817,
-        "date": "2026-04-02 17:37:58",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "2026 Contemporary Art Biennale: Lebanon’s art, old and new",
-        "description": "Nabil Nahas has been painting for seven decades. From his childhood in Lebanon to his career in New York, he is now presenting his latest monumental work in Venice as his country’s representative at the 2026 Contemporary Art Biennale. The artist speaks to us about his connection to the ancient civilisations of his homeland, and why he believes politicising international platforms is the wrong approach.",
-        "fatalities": "0",
-        "link": "https://www.france24.com/en/tv-shows/arts24/20260402-2026-contemporary-art-biennale-lebanon-s-art-old-and-new",
-        "critical": false
-    },
-    {
-        "country": "Iran",
-        "city": "Tehran",
-        "lat": 35.67259989516015,
-        "lon": 51.42581423534134,
-        "date": "2026-04-02 17:37:54",
-        "type": "Clashes",
-        "severity": "middle",
-        "title": "Argentina expels Iranian diplomat amid rift over blacklisting IRGC",
-        "description": "Buenos Aires accuses Tehran of making offensive accusations against Argentina after it labeled IRGC as terror group.",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/news/2026/4/2/argentina-expels-iranian-diplomat-amid-rift-over-blacklisting-irgc?traffic_source=rss",
         "critical": false
     }
 ]
