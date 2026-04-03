@@ -1,5 +1,47 @@
 [
     {
+        "country": "Israel",
+        "city": "Tel Aviv",
+        "lat": 32.11810352844687,
+        "lon": 34.78962632136056,
+        "date": "2026-04-03 22:57:25",
+        "type": "Naval",
+        "severity": "normal",
+        "title": "Iran shoots down US jet; 1 pilot rescued, US races against Iran to find the second",
+        "description": "Israeli official says IAF postponed strikes in area to allow for search; Iran offers bounty for missing crew member; in separate incident, A-10 Warthog crashes near Strait of Hormuz; pilot rescued\nThe post Iran shoots down US jet; 1 pilot rescued, US races against Iran to find the second appeared first on The Times of Israel.",
+        "fatalities": "0",
+        "link": "https://www.timesofisrael.com/iran-shoots-down-us-jet-1-crew-member-rescued-search-for-2nd-ongoing-officials-say/",
+        "critical": false
+    },
+    {
+        "country": "USA",
+        "city": "Washington",
+        "lat": 38.83685176513454,
+        "lon": -76.97303950327613,
+        "date": "2026-04-03 22:57:16",
+        "type": "Naval",
+        "severity": "normal",
+        "title": "US deploys uncrewed drone boats in conflict with Iran",
+        "description": "The deployment of the vessels marks the first time Washington has confirmed using such vessels in an active conflict, according to Reuters.",
+        "fatalities": "0",
+        "link": "https://www.militarytimes.com/news/your-military/2026/03/26/us-deploys-uncrewed-drone-boats-in-conflict-with-iran/",
+        "critical": false
+    },
+    {
+        "country": "Iran",
+        "city": "Tehran",
+        "lat": 35.64930812009733,
+        "lon": 51.41901582239876,
+        "date": "2026-04-03 22:56:58",
+        "type": "Clashes",
+        "severity": "middle",
+        "title": "Iran War Live Updates: Downed U.S. Jet and Missing Crew Member Raise Stakes in War",
+        "description": "The F-15E was the first American warplane shot down by Iran in the five-week war and a crew member is missing. A second U.S. combat plane crashed in the Gulf region and its pilot was rescued, U.S. officials said.",
+        "fatalities": "0",
+        "link": "https://www.nytimes.com/live/2026/04/03/world/iran-war-trump-oil",
+        "critical": false
+    },
+    {
         "country": "Europe",
         "city": "Berlin",
         "lat": 48.91738739815613,
@@ -379,20 +421,6 @@
     },
     {
         "country": "Israel",
-        "city": "Tel Aviv",
-        "lat": 32.0388359866448,
-        "lon": 34.81648938100434,
-        "date": "2026-04-03 19:51:25",
-        "type": "Naval",
-        "severity": "normal",
-        "title": "Iran shoots down US jet; 1 crew member rescued, search for 2nd ongoing, officials say",
-        "description": "Israeli official says IAF postponed strikes in area to allow for search; Iran offers bounty for missing crew member; in separate incident, A-10 Warthog crashes near Strait of Hormuz; pilot rescued\nThe post Iran shoots down US jet; 1 crew member rescued, search for 2nd ongoing, officials say appeared first on The Times of Israel.",
-        "fatalities": "0",
-        "link": "https://www.timesofisrael.com/iran-shoots-down-us-jet-1-crew-member-rescued-search-for-2nd-ongoing-officials-say/",
-        "critical": false
-    },
-    {
-        "country": "Israel",
         "city": "Jerusalem",
         "lat": 31.82063638032452,
         "lon": 35.20982278248606,
@@ -431,6 +459,20 @@
         "description": "Move would moderately expand outbound travel as wartime restrictions keep Israel’s airspace largely closed; framework is dependent on security assessments and government decisions\nThe post Israel planning to allow up to 90 passengers on departing flights starting Sunday appeared first on The Times of Israel.",
         "fatalities": "0",
         "link": "https://www.timesofisrael.com/israel-planning-to-allow-up-to-90-passengers-on-departing-flights-starting-sunday/",
+        "critical": false
+    },
+    {
+        "country": "Israel",
+        "city": "Tel Aviv",
+        "lat": 32.0388359866448,
+        "lon": 34.81648938100434,
+        "date": "2026-04-03 19:51:25",
+        "type": "Naval",
+        "severity": "normal",
+        "title": "Iran shoots down US jet; 1 crew member rescued, search for 2nd ongoing, officials say",
+        "description": "Israeli official says IAF postponed strikes in area to allow for search; Iran offers bounty for missing crew member; in separate incident, A-10 Warthog crashes near Strait of Hormuz; pilot rescued\nThe post Iran shoots down US jet; 1 crew member rescued, search for 2nd ongoing, officials say appeared first on The Times of Israel.",
+        "fatalities": "0",
+        "link": "https://www.timesofisrael.com/iran-shoots-down-us-jet-1-crew-member-rescued-search-for-2nd-ongoing-officials-say/",
         "critical": false
     },
     {
@@ -3022,47 +3064,5 @@
         "fatalities": "0",
         "link": "https://www.axios.com/2026/04/02/iran-war-hegseth-remove-gen-george-army-chief-staff",
         "critical": false
-    },
-    {
-        "country": "Asia",
-        "city": "Multan",
-        "lat": 30.09793219610987,
-        "lon": 71.48142153101685,
-        "date": "2026-04-02 20:52:10",
-        "type": "Naval",
-        "severity": "normal",
-        "title": "Mike Johnson will wait on holding a vote to fund DHS",
-        "description": "House Speaker Mike Johnson (R-La.) told Republicans on a call Thursday he won't hold a vote on a DHS funding bill until the Senate makes significant progress on funding for ICE and CBP, sources told Axios. Why it matters: Johnson's members are deeply frustrated with leadership's plan to fund the agency, and he doesn't have the support to pass a DHS funding bill without ICE and CBP right now. But any delay will prolong what's already been a record",
-        "fatalities": "0",
-        "link": "https://www.axios.com/2026/04/02/dhs-shutdown-house-vote-johnson",
-        "critical": false
-    },
-    {
-        "country": "Israel",
-        "city": "Tel Aviv",
-        "lat": 32.08043732428704,
-        "lon": 34.844186337741775,
-        "date": "2026-04-02 20:52:10",
-        "type": "Airstrike",
-        "severity": "critical",
-        "title": "Drone maker backed by Trump’s sons looks to sell to Gulf states attacked by Iran",
-        "description": "Former White House ethics chief says countries are under 'enormous pressure' to buy defensive equipment from Powerus after Eric and Donald Jr. joined firm as stakeholders\nThe post Drone maker backed by Trumps sons looks to sell to Gulf states attacked by Iran appeared first on The Times of Israel.",
-        "fatalities": "0",
-        "link": "https://www.timesofisrael.com/drone-maker-backed-by-trumps-sons-looks-to-sell-to-gulf-states-attacked-by-iran/",
-        "critical": true
-    },
-    {
-        "country": "Ukraine",
-        "city": "Kyiv",
-        "lat": 50.484184141702485,
-        "lon": 30.55305307861675,
-        "date": "2026-04-02 20:52:07",
-        "type": "Airstrike",
-        "severity": "critical",
-        "title": "Ukraine offers Gulf allies drone defense in bid for scarce Patriot missiles",
-        "description": "Ukraine is offering what it has learned to do at scale while still scrambling for what it cannot manufacture fast enough.",
-        "fatalities": "0",
-        "link": "https://www.militarytimes.com/global/europe/2026/03/27/ukraine-offers-gulf-allies-drone-defense-in-bid-for-scarce-patriot-missiles/",
-        "critical": true
     }
 ]
