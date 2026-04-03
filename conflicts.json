@@ -1,5 +1,47 @@
 [
     {
+        "country": "Asia",
+        "city": "Multan",
+        "lat": 30.19815527659245,
+        "lon": 71.48569312895486,
+        "date": "2026-04-03 23:40:20",
+        "type": "Naval",
+        "severity": "normal",
+        "title": "Mike Johnson will wait on holding a vote to fund DHS",
+        "description": "House Speaker Mike Johnson (R-La.) told Republicans on a call Thursday he won't hold a vote on a DHS funding bill until the Senate makes significant progress on funding for ICE and CBP, sources told Axios. Why it matters: Johnson's members are deeply frustrated with leadership's plan to fund the agency, and he doesn't have the support to pass a DHS funding bill without ICE and CBP right now. But any delay will prolong what's already been a record",
+        "fatalities": "0",
+        "link": "https://www.axios.com/2026/04/02/dhs-shutdown-house-vote-johnson",
+        "critical": false
+    },
+    {
+        "country": "Ukraine",
+        "city": "Kyiv",
+        "lat": 50.40612348160516,
+        "lon": 30.46551906790596,
+        "date": "2026-04-03 23:40:16",
+        "type": "Airstrike",
+        "severity": "critical",
+        "title": "Ukraine offers Gulf allies drone defense in bid for scarce Patriot missiles",
+        "description": "Ukraine is offering what it has learned to do at scale while still scrambling for what it cannot manufacture fast enough.",
+        "fatalities": "0",
+        "link": "https://www.militarytimes.com/global/europe/2026/03/27/ukraine-offers-gulf-allies-drone-defense-in-bid-for-scarce-patriot-missiles/",
+        "critical": true
+    },
+    {
+        "country": "Europe",
+        "city": "Brussels",
+        "lat": 50.839608360784254,
+        "lon": 4.3085083340312,
+        "date": "2026-04-03 23:40:10",
+        "type": "Clashes",
+        "severity": "middle",
+        "title": "Faced with new energy shock, Europe asks if reviving nuclear is the answer",
+        "description": "As war drives up gas and fuel prices, Europeans turn again to the issue of energy independence.",
+        "fatalities": "0",
+        "link": "https://www.bbc.com/news/articles/c4g8k8vq8gno?at_medium=RSS&at_campaign=rss",
+        "critical": false
+    },
+    {
         "country": "Israel",
         "city": "Tel Aviv",
         "lat": 32.11810352844687,
@@ -3021,48 +3063,6 @@
         "description": "The Artemis II mission isn’t just about science and exploration. It’s part of a high-stakes space race between the U.S. and China.",
         "fatalities": "0",
         "link": "https://www.nytimes.com/2026/04/02/world/space-artemis-us-china-trump-iran-pam-bondi.html",
-        "critical": false
-    },
-    {
-        "country": "Europe",
-        "city": "Paris",
-        "lat": 48.93907316881699,
-        "lon": 2.3440497625525003,
-        "date": "2026-04-02 20:52:23",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Parisien: в Париже задержали евродепутата Хассан",
-        "description": "Депутат Европарламента от левой партии «Непокорная Франция» Рима Хассан задержана в Париже, сообщает Le Parisien. Читать далее",
-        "fatalities": "0",
-        "link": "https://russian.rt.com/world/news/1615012-parizh-zaderzhanie-evrodeputat?utm_source=rss&utm_medium=rss&utm_campaign=RSS",
-        "critical": false
-    },
-    {
-        "country": "Iran",
-        "city": "Tehran",
-        "lat": 35.69079581143579,
-        "lon": 51.4519523838311,
-        "date": "2026-04-02 20:52:10",
-        "type": "Airstrike",
-        "severity": "critical",
-        "title": "More A-10s Are Headed to the Middle East",
-        "description": "The deployment of additional A-10Cs to the Middle East, the first of which arrived at RAF Lakenheath, demonstrates the continued reliance on the close air support aircraft for operations in Iran. The U.S. Air Force A-10C Thunderbolt II jets have been actively supporting Operation Epic Fury in Iran since the early days, with the attack []",
-        "fatalities": "0",
-        "link": "https://theaviationist.com/2026/03/31/more-a-10s-are-headed-to-the-middle-east/",
-        "critical": true
-    },
-    {
-        "country": "Iran",
-        "city": "Tehran",
-        "lat": 35.73693393965263,
-        "lon": 51.41716250803686,
-        "date": "2026-04-02 20:52:10",
-        "type": "Clashes",
-        "severity": "middle",
-        "title": "Hegseth removes Army's top general during Iran war",
-        "description": "Defense Secretary Pete Hegseth has asked Army Chief of Staff Gen. Randy George to leave his post, a Defense official confirmed to Axios. Why it matters: George is the Army's most senior general and is being removed during the Iran war. Axios could not immediately confirm the reasons for his ouster, which was first reported by CBS.The big picture: Then-President Biden nominated George in 2023 for the role, which would typically have been a four-ye",
-        "fatalities": "0",
-        "link": "https://www.axios.com/2026/04/02/iran-war-hegseth-remove-gen-george-army-chief-staff",
         "critical": false
     }
 ]
