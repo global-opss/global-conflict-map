@@ -1,5 +1,33 @@
 [
     {
+        "country": "Israel",
+        "city": "Tel Aviv",
+        "lat": 32.02480485499246,
+        "lon": 34.8082174479936,
+        "date": "2026-04-03 21:48:39",
+        "type": "Airstrike",
+        "severity": "critical",
+        "title": "3 UNIFIL peacekeepers hurt in south Lebanon blast; IDF blames Hezbollah rocket",
+        "description": "UN peacekeeping force says two troops seriously injured; IDF says examination of rocket's trajectory 'clearly indicates' it was launched by Iran-backed terror group\nThe post 3 UNIFIL peacekeepers hurt in south Lebanon blast; IDF blames Hezbollah rocket appeared first on The Times of Israel.",
+        "fatalities": "0",
+        "link": "https://www.timesofisrael.com/3-unifil-peacekeepers-hurt-in-south-lebanon-blast-idf-blames-hezbollah-rocket/",
+        "critical": true
+    },
+    {
+        "country": "Israel",
+        "city": "Tel Aviv",
+        "lat": 32.07832147424529,
+        "lon": 34.77107939481005,
+        "date": "2026-04-03 21:48:22",
+        "type": "Evacuation",
+        "severity": "critical",
+        "title": "Christians in Lebanon observe Good Friday under Israeli attacks",
+        "description": "Christians across Lebanon observed Good Friday, praying for peace as Israeli strikes and evacuation orders continue.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/video/newsfeed/2026/4/3/christians-in-lebanon-observe-good-friday-under-israeli-attacks?traffic_source=rss",
+        "critical": true
+    },
+    {
         "country": "USA",
         "city": "Washington",
         "lat": 38.963344781858645,
@@ -3036,33 +3064,5 @@
         "fatalities": "0",
         "link": "https://www.france24.com/en/burkina-army-jihadists-killed-more-than-1-800-civilians-since-2023",
         "critical": false
-    },
-    {
-        "country": "Iran",
-        "city": "Tehran",
-        "lat": 35.749270553221976,
-        "lon": 51.371710013624906,
-        "date": "2026-04-02 20:52:07",
-        "type": "Clashes",
-        "severity": "middle",
-        "title": "Fact-checking Trump's address on the war in Iran",
-        "description": "In his 19-minute address to the nation from the White House on Wednesday, President Donald Trump defended his war in Iran, which is now entering his second month, presenting the operation as a success that he said was “nearing completion.” But the President also stretched the truth about certain victories on the battlefield, and misrepresented the state of the US economy.",
-        "fatalities": "0",
-        "link": "https://www.france24.com/en/fact-checking-trump-s-address-on-the-iran-war",
-        "critical": false
-    },
-    {
-        "country": "Israel",
-        "city": "Tel Aviv",
-        "lat": 32.096619485858774,
-        "lon": 34.71569207524715,
-        "date": "2026-04-02 20:52:07",
-        "type": "Airstrike",
-        "severity": "critical",
-        "title": "Macron says Trump marriage jibe does not 'merit response'",
-        "description": "French President Emmanuel Macron said on Thursday Donald Trump's mocking comments about his marriage did not merit a response, calling them \"neither elegant nor appropriate\" for the situation. But after days of tensions over US-Israeli strikes on Iran and over NATO, an apparently irritated Macron launched a broadside of his own, saying \"there is too much talk\" and \"this is not a show\".",
-        "fatalities": "0",
-        "link": "https://www.france24.com/en/macron-says-trump-marriage-jibe-does-not-merit-response",
-        "critical": true
     }
 ]
