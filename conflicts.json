@@ -2,6 +2,34 @@
     {
         "country": "USA",
         "city": "Washington",
+        "lat": 38.85974594130993,
+        "lon": -76.98029477182456,
+        "date": "2026-04-04 23:33:21",
+        "type": "Naval",
+        "severity": "normal",
+        "title": "HDUSA, Hanwha Philly Shipyard secure first US Navy project",
+        "description": "Hanwha Defense USA (HDUSA) and Hanwha Philly Shipyard, both subsidiaries of South Korea’s Hanwha Group, have secured their first project from the US Navy.\nThe post HDUSA, Hanwha Philly Shipyard secure first US Navy project appeared first on Naval Technology.",
+        "fatalities": "0",
+        "link": "https://www.naval-technology.com/news/hdusa-philly-shipyard-us-navy/",
+        "critical": false
+    },
+    {
+        "country": "Europe",
+        "city": "Brussels",
+        "lat": 50.86658458777464,
+        "lon": 4.355442544411814,
+        "date": "2026-04-04 23:33:08",
+        "type": "Naval",
+        "severity": "normal",
+        "title": "French-owned ship passes through Strait of Hormuz",
+        "description": "It appears to be the first ship owned by a major European firm to go through the strait since the conflict began.",
+        "fatalities": "0",
+        "link": "https://www.bbc.com/news/articles/cjd8275jrrko?at_medium=RSS&at_campaign=rss",
+        "critical": false
+    },
+    {
+        "country": "USA",
+        "city": "Washington",
         "lat": 38.88904596056955,
         "lon": -76.9837461404143,
         "date": "2026-04-04 22:52:04",
@@ -3036,33 +3064,5 @@
         "fatalities": "0",
         "link": "https://www.aljazeera.com/news/2026/4/3/drone-strike-on-sudan-hospital-kills-10-medical-charity-msf-says?traffic_source=rss",
         "critical": true
-    },
-    {
-        "country": "Iran",
-        "city": "Tehran",
-        "lat": 35.68073401124073,
-        "lon": 51.39908956102917,
-        "date": "2026-04-03 19:03:05",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "The F-15E Strike Eagle: What to Know",
-        "description": "The U.S. military aircraft with a two-person crew was shot down in Iran on Friday.",
-        "fatalities": "0",
-        "link": "https://www.nytimes.com/2026/04/03/world/middleeast/f15e-strike-eagle.html",
-        "critical": false
-    },
-    {
-        "country": "Iran",
-        "city": "Tehran",
-        "lat": 35.62230310755433,
-        "lon": 51.394526774709036,
-        "date": "2026-04-03 18:01:27",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Iran leaders join crowds on Tehran’s streets in show of defiance",
-        "description": "Officials walk streets to project image of control amid Israeli assassinations; families meet in parks for music and barbecues, using public spaces as refuge, show of loyalty to regime\nThe post Iran leaders join crowds on Tehrans streets in show of defiance appeared first on The Times of Israel.",
-        "fatalities": "0",
-        "link": "https://www.timesofisrael.com/iran-leaders-join-crowds-on-tehrans-streets-in-show-of-defiance/",
-        "critical": false
     }
 ]
