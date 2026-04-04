@@ -1,5 +1,47 @@
 [
     {
+        "country": "Middle East",
+        "city": "Damascus",
+        "lat": 33.54728779526544,
+        "lon": 36.27865574091984,
+        "date": "2026-04-04 21:48:58",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "UAE condemns ‘acts of vandalism’ after anti-Israel riot at its embassy in Damascus",
+        "description": "Guard kisses and hoists Palestinian flag while detaining man who flew it on building, as protesters against Israel's new death penalty law try to storm the UAE's 'Zionist embassy'\nThe post UAE condemns acts of vandalism after anti-Israel riot at its embassy in Damascus appeared first on The Times of Israel.",
+        "fatalities": "0",
+        "link": "https://www.timesofisrael.com/uae-condemns-acts-of-vandalism-after-anti-israel-riot-at-its-embassy-in-damascus/",
+        "critical": false
+    },
+    {
+        "country": "Iran",
+        "city": "Tehran",
+        "lat": 35.65727424861145,
+        "lon": 51.45347329611379,
+        "date": "2026-04-04 21:48:57",
+        "type": "Clashes",
+        "severity": "middle",
+        "title": "U.S. F-16 Shown with Mine-Dispensing Cluster Bombs",
+        "description": "CENTCOM has released photos of F-16s loaded with cluster bombs for operations in Iran, a week after BLU-91/B ‘Gator’ anti-tank mines were found on the ground. The U.S. Central Command has released on Apr. 4, 2026, new photos of U.S. Air Force F-16CM Fighting Falcon fighter jets (specifically Block 40s from Aviano, Italy) being refueled []",
+        "fatalities": "0",
+        "link": "https://theaviationist.com/2026/04/04/us-f-16-shown-with-mine-dispensing-cluster-bombs/",
+        "critical": false
+    },
+    {
+        "country": "Israel",
+        "city": "Tel Aviv",
+        "lat": 32.10080794381363,
+        "lon": 34.83513384769877,
+        "date": "2026-04-04 21:48:42",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Rima Hassan Is Charged With Glorifying Terrorism Online in Social Media Post",
+        "description": "Rima Hassan, a member of the European Parliament, could face seven years in prison for the post, in which she quoted a perpetrator of a 1972 massacre in Israel.",
+        "fatalities": "0",
+        "link": "https://www.nytimes.com/2026/04/03/rima-hassan-france-terrorism-charges.html",
+        "critical": false
+    },
+    {
         "country": "Israel",
         "city": "Tel Aviv",
         "lat": 32.01557195746439,
@@ -3021,48 +3063,6 @@
         "description": "The report comes as U.S. military assets — most recently the Tripoli Amphibious Ready Group and embarked 31st MEU — continue to flood the region.",
         "fatalities": "0",
         "link": "https://www.militarytimes.com/news/your-military/2026/03/29/pentagon-reportedly-preparing-for-weeks-of-ground-operations-in-iran/",
-        "critical": false
-    },
-    {
-        "country": "Iran",
-        "city": "Tehran",
-        "lat": 35.68989806189702,
-        "lon": 51.328244862147656,
-        "date": "2026-04-03 16:41:31",
-        "type": "Airstrike",
-        "severity": "critical",
-        "title": "12 US troops wounded in Iranian attack on Prince Sultan Airbase",
-        "description": "Two of the personnel are reportedly in serious condition.",
-        "fatalities": "0",
-        "link": "https://www.militarytimes.com/news/your-military/2026/03/27/10-us-troops-wounded-in-attack-on-prince-sultan-airbase/",
-        "critical": true
-    },
-    {
-        "country": "USA",
-        "city": "Washington",
-        "lat": 38.935526550941404,
-        "lon": -77.06465104845141,
-        "date": "2026-04-03 16:41:31",
-        "type": "Airstrike",
-        "severity": "critical",
-        "title": "Pentagon reportedly weighs diverting Ukraine military aid to Middle East",
-        "description": "The weapons that could be redirected include air defense interceptor missiles purchased through a NATO initiative, the Washington Post reported.",
-        "fatalities": "0",
-        "link": "https://www.militarytimes.com/news/pentagon-congress/2026/03/26/pentagon-reportedly-weighs-diverting-ukraine-military-aid-to-middle-east/",
-        "critical": true
-    },
-    {
-        "country": "Ukraine",
-        "city": "Kyiv",
-        "lat": 50.420339988339485,
-        "lon": 30.512957869820763,
-        "date": "2026-04-03 16:41:29",
-        "type": "Naval",
-        "severity": "normal",
-        "title": "Baltic Sea strikes: How Ukraine aims to undermine Russia's oil profits from Iran war",
-        "description": "Ukraine has in recent days intensified drone attacks on ports and refineries in Russia’s Leningrad region on the Baltic Sea. Yet Kyiv’s strategy of trying to stop Moscow from reaping the benefits of oil disruption in the Middle East doesn’t come without significant risk.",
-        "fatalities": "0",
-        "link": "https://www.france24.com/en/europe/20260403-baltic-sea-strikes-how-ukraine-aims-to-undermine-russia-oil-profits-from-iran-war",
         "critical": false
     }
 ]
