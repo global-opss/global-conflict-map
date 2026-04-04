@@ -1,5 +1,33 @@
 [
     {
+        "country": "Israel",
+        "city": "Tel Aviv",
+        "lat": 32.11525315179391,
+        "lon": 34.76163406688566,
+        "date": "2026-04-04 11:54:45",
+        "type": "Airstrike",
+        "severity": "critical",
+        "title": "Videos show US missiles being launched from Kuwait into Iran",
+        "description": "Despite denials from Arab countries in the Persian Gulf region, there is growing evidence that their territory is being used in attacks on the Iranian regime during the US–Israel war. FRANCE 24 has verified and geolocated multiple videos showing that, on at least two occasions, on March 24 and 31, US missiles were launched from HIMARS launchers inside the territory of Kuwait.",
+        "fatalities": "0",
+        "link": "https://www.france24.com/en/middle-east/20260404-us-missiles-kuwait-iran-himars-launches-gmlrs-france24-investigation",
+        "critical": true
+    },
+    {
+        "country": "Russia",
+        "city": "Moscow",
+        "lat": 55.78527273471233,
+        "lon": 37.663381597841195,
+        "date": "2026-04-04 11:54:45",
+        "type": "Airstrike",
+        "severity": "critical",
+        "title": "Russian drone strike on Ukrainian market kills five, injures 19",
+        "description": "A Russian drone killed five men and injured 19 others after it hit a covered market in the eastern Ukrainian city of Nikopol on Saturday, as Moscow pressed on with intensified daytime attacks. The Ukrainian air force said Russia fired 286 drones overnight, of which 260 were intercepted.",
+        "fatalities": "0",
+        "link": "https://www.france24.com/en/europe/20260404-russian-drone-strike-on-ukraine-market-kills-five-wounds-19",
+        "critical": true
+    },
+    {
         "country": "USA",
         "city": "Washington",
         "lat": 38.9594242113385,
@@ -3036,33 +3064,5 @@
         "fatalities": "0",
         "link": "https://www.militarytimes.com/news/your-military/2026/03/25/pentagon-confirms-elements-from-the-82nd-airborne-division-to-deploy-to-the-middle-east/",
         "critical": false
-    },
-    {
-        "country": "Europe",
-        "city": "Brussels",
-        "lat": 50.960692547926264,
-        "lon": 4.341295147141453,
-        "date": "2026-04-03 10:45:22",
-        "type": "Clashes",
-        "severity": "middle",
-        "title": "The fight for mineral data in DRC: Belgian museum, US mining firm at odds over archive maps",
-        "description": "Just a few kilometers from Brussels, the cellars of the Royal Museum for Central Africa hold one of the world’s most valuable mining archives. Colonial-era maps and surveys had previously detailed minerals like cobalt, lithium, coltan, and tungsten, essential for the digital and energy transition. Now, a battle over digitization is unfolding, with these documents literally worth their weight in gold. KoBold Metals, backed by Bill Gates and Jeff B",
-        "fatalities": "0",
-        "link": "https://www.france24.com/en/video/20260403-the-fight-for-mineral-data-in-drc-belgian-museum-us-mining-firm-at-odds-over-archive-maps",
-        "critical": false
-    },
-    {
-        "country": "Ukraine",
-        "city": "Kyiv",
-        "lat": 50.40359312245846,
-        "lon": 30.58016609590332,
-        "date": "2026-04-03 10:45:22",
-        "type": "Airstrike",
-        "severity": "critical",
-        "title": "Artemis II: One giant leap for deep space toiletry",
-        "description": "PRESS REVIEW – Friday, April 3: The papers reflect on 1,500 days since Russia’s full-scale invasion of Ukraine. Libération and Les Échos report an improving outlook in Kyiv, despite four years of bombing and devastation. In other news, Germans are venting their frustration over delays on the Deutsche Bahn – using fictional money to bet on when trains actually arrive. And finally: “Houston, we have a problem – it’s the toilet.”",
-        "fatalities": "0",
-        "link": "https://www.france24.com/en/tv-shows/press-review/20260403-artemis-ii-one-giant-leap-for-deep-space-toiletry",
-        "critical": true
     }
 ]
