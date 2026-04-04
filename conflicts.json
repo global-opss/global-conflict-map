@@ -1,5 +1,33 @@
 [
     {
+        "country": "Iran",
+        "city": "Tehran",
+        "lat": 35.6944535027861,
+        "lon": 51.43566941675879,
+        "date": "2026-04-04 18:01:11",
+        "type": "Clashes",
+        "severity": "middle",
+        "title": "Italy’s Meloni meets Qatar emir to discuss energy issues amid Iran war",
+        "description": "Prime Minister Meloni is the first EU and NATO country leader to visit the region since the war began.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/news/2026/4/4/italys-meloni-meets-qatar-emir-to-discuss-energy-issues-amid-iran-war?traffic_source=rss",
+        "critical": false
+    },
+    {
+        "country": "Iran",
+        "city": "Tehran",
+        "lat": 35.72056819014179,
+        "lon": 51.36596923932002,
+        "date": "2026-04-04 18:01:11",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Top diplomat Marco Rubio strips Qassem Soleimani’s niece of US residency",
+        "description": "In a statement, the US State Department has accused Hamideh Soleimani Afshar of being an outspoken supporter of Iran.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/news/2026/4/4/top-diplomat-marco-rubio-strips-qassem-soleimanis-niece-of-us-residency?traffic_source=rss",
+        "critical": false
+    },
+    {
         "country": "Israel",
         "city": "Tel Aviv",
         "lat": 32.05515858110772,
@@ -3035,34 +3063,6 @@
         "description": "The Company – a network of Russian agents specialised in disinformation operations – has been carrying out a vast propaganda campaign against the Ukrainian embassy in Ivory Coast. When the pan-African media outlet The Continent received a trove of leaked documents about this operation, the FRANCE 24 Observers team joined forces with a consortium of international journalists to investigate the inner workings of this network.",
         "fatalities": "0",
         "link": "https://www.france24.com/en/africa/20260403-russian-influence-network-spreading-anti-ukrainian-propaganda-ivory-coast",
-        "critical": false
-    },
-    {
-        "country": "Russia",
-        "city": "Moscow",
-        "lat": 55.77652232648156,
-        "lon": 37.63367086203495,
-        "date": "2026-04-03 15:09:40",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "From 250 to 700 dollars per article: How Russia influenced West African media content",
-        "description": "A leak of confidential documents from a network of Russian agents operating on the African continent reveals how Russia managed to place hundreds of articles in 35 different West African French-language media outlets – sometimes without their knowledge. The FRANCE 24 Observers team worked with an international media consortium coordinated by Forbidden Stories to analyse these leaked documents, which show just how susceptible these media outlets a",
-        "fatalities": "0",
-        "link": "https://www.france24.com/en/africa/20260403-article-russia-influenced-west-african-media-content",
-        "critical": false
-    },
-    {
-        "country": "Europe",
-        "city": "Paris",
-        "lat": 48.920818521525746,
-        "lon": 2.2566481051607226,
-        "date": "2026-04-03 15:09:38",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "French prosecutors open hate speech probe into polarising news channel CNews",
-        "description": "The Paris prosecutor's office announced Friday it had launched an investigation into alleged racist comments following remarks made in late March on French news channel CNews targeting the newly elected mayor of Saint-Denis Bally Bagayoko.",
-        "fatalities": "0",
-        "link": "https://www.france24.com/en/france/20260403-french-prosecutors-open-hate-speech-probe-into-polarising-news-channel-cnews",
         "critical": false
     }
 ]
