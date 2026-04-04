@@ -1,5 +1,33 @@
 [
     {
+        "country": "USA",
+        "city": "New york",
+        "lat": 40.699269267478236,
+        "lon": -74.04328827930547,
+        "date": "2026-04-04 19:00:19",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Дмитриев посоветовал NYT нанимать более образованных людей и использовать ИИ",
+        "description": "Глава РФПИ Кирилл Дмитриев посоветовал The New York Times нанимать более образованных людей и использовать ИИ для проверки фактов. Читать далее",
+        "fatalities": "0",
+        "link": "https://russian.rt.com/world/news/1615818-dmitriev-gazeta-obrazovannye-lyudi?utm_source=rss&utm_medium=rss&utm_campaign=RSS",
+        "critical": false
+    },
+    {
+        "country": "Iran",
+        "city": "Tehran",
+        "lat": 35.6300308193425,
+        "lon": 51.36297992335546,
+        "date": "2026-04-04 18:59:43",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "US says it has arrested relatives of late Iranian ​general Qasem ​Soleimani",
+        "description": "The niece and grand-niece of Qasem Soleimani are in the custody of US Immigration and Customs Enforcement, officials said.",
+        "fatalities": "0",
+        "link": "https://www.bbc.com/news/articles/cgqkn4j48qdo?at_medium=RSS&at_campaign=rss",
+        "critical": false
+    },
+    {
         "country": "Iran",
         "city": "Tehran",
         "lat": 35.6944535027861,
@@ -3035,34 +3063,6 @@
         "description": "The ousters of Army Chief of Staff Gen. Randy George and Army Gen. David Hodne blindsided military leaders and have generated concern among defense officials about the implications for the war in Iran and the longer-term adoption of new tech and tactics.Why it matters: George and Hodne join a growing list of general and flag officers booted by Defense Secretary Pete Hegseth. These abrupt exits have reshaped the Joint Chiefs of Staff, intel-collec",
         "fatalities": "0",
         "link": "https://www.axios.com/2026/04/03/hegseth-george-hodne-army-fired-iran",
-        "critical": false
-    },
-    {
-        "country": "Europe",
-        "city": "Berlin",
-        "lat": 48.82829232170144,
-        "lon": 2.258576819091309,
-        "date": "2026-04-03 15:09:40",
-        "type": "Naval",
-        "severity": "normal",
-        "title": "Filmmaker Ilker Catak’s ‘Yellow Letters’ pits artists against the powerful",
-        "description": "Filmmaker Ilker Catak explains how his political thriller – exploring authoritarianism and the artistic process – grew out of a desire to examine the complexities of marriage. \"Yellow Letters\", which won the top prize at the Berlin Film Festival, serves as a cautionary tale. Catak says the story is not confined to Turkey – where his characters’ lives are upended by creeping censorship – but offers a broader warning about the fundamental freedoms ",
-        "fatalities": "0",
-        "link": "https://www.france24.com/en/tv-shows/arts24/20260403-filmmaker-ilker-catak-s-yellow-letters-pits-artists-against-the-powerful",
-        "critical": false
-    },
-    {
-        "country": "Russia",
-        "city": "Moscow",
-        "lat": 55.77056602247779,
-        "lon": 37.61457619053855,
-        "date": "2026-04-03 15:09:40",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "How a Russian influence network is spreading anti-Ukrainian propaganda in Ivory Coast",
-        "description": "The Company – a network of Russian agents specialised in disinformation operations – has been carrying out a vast propaganda campaign against the Ukrainian embassy in Ivory Coast. When the pan-African media outlet The Continent received a trove of leaked documents about this operation, the FRANCE 24 Observers team joined forces with a consortium of international journalists to investigate the inner workings of this network.",
-        "fatalities": "0",
-        "link": "https://www.france24.com/en/africa/20260403-russian-influence-network-spreading-anti-ukrainian-propaganda-ivory-coast",
         "critical": false
     }
 ]
