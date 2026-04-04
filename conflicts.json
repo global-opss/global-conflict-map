@@ -1,5 +1,47 @@
 [
     {
+        "country": "Israel",
+        "city": "Tel Aviv",
+        "lat": 32.09472121115592,
+        "lon": 34.783723268101284,
+        "date": "2026-04-04 23:59:51",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Times of Israel: на протестах в Тель-Авиве задержаны 17 человек",
+        "description": "Входе протестов в израильском Тель-Авиве задержаны 17 человек, пишет The Times of Israel. Читать далее",
+        "fatalities": "0",
+        "link": "https://russian.rt.com/world/news/1615883-protest-tel-aviv-zaderzhanie?utm_source=rss&utm_medium=rss&utm_campaign=RSS",
+        "critical": false
+    },
+    {
+        "country": "Israel",
+        "city": "Tel aviv",
+        "lat": 32.13983200689918,
+        "lon": 34.84860756090286,
+        "date": "2026-04-04 23:59:40",
+        "type": "Airstrike",
+        "severity": "critical",
+        "title": "Cops violently disperse protesters at Tel Aviv anti-war rally, after court raised attendance cap",
+        "description": "Detained activists say police stopped them from reaching shelter amid missile attack, as chief rabbi declares court 'enemy of Judaism' after permissive ruling is issued on Shabbat\nThe post Cops violently disperse protesters at Tel Aviv anti-war rally, after court raised attendance cap appeared first on The Times of Israel.",
+        "fatalities": "0",
+        "link": "https://www.timesofisrael.com/cops-violently-disperse-protesters-at-tel-aviv-anti-war-rally-after-court-raised-attendance-cap/",
+        "critical": true
+    },
+    {
+        "country": "Israel",
+        "city": "Tel Aviv",
+        "lat": 32.131635297320635,
+        "lon": 34.81038976802147,
+        "date": "2026-04-04 23:59:24",
+        "type": "Airstrike",
+        "severity": "critical",
+        "title": "Israel Strikes Iran’s Largest Petrochemical Complex",
+        "description": "The sprawling complex in the city of Mahshahr was taken offline after strikes hit two utility plants that provided basic services like gas and power, Iranian officials said.",
+        "fatalities": "0",
+        "link": "https://www.nytimes.com/2026/04/04/world/middleeast/israel-strikes-mahshahr-iran-oil.html",
+        "critical": true
+    },
+    {
         "country": "USA",
         "city": "Washington",
         "lat": 38.85974594130993,
@@ -3022,47 +3064,5 @@
         "fatalities": "0",
         "link": "https://www.nytimes.com/live/2026/04/03/world/iran-war-trump-oil",
         "critical": false
-    },
-    {
-        "country": "Iran",
-        "city": "Tehran",
-        "lat": 35.67793179091281,
-        "lon": 51.44428436102741,
-        "date": "2026-04-03 19:03:17",
-        "type": "Airstrike",
-        "severity": "critical",
-        "title": "Iranian strikes target the infrastructure behind US airpower",
-        "description": "Iran has struck radar systems, satellite communications and mission-critical aircraft at US bases across Bahrain, Qatar, Kuwait, Saudi Arabia and the UAE.",
-        "fatalities": "0",
-        "link": "https://www.defensenews.com/global/mideast-africa/2026/04/01/iranian-strikes-target-the-infrastructure-behind-us-airpower/",
-        "critical": true
-    },
-    {
-        "country": "Africa",
-        "city": "Tripoli",
-        "lat": 32.88653341140092,
-        "lon": 13.1707830695377,
-        "date": "2026-04-03 19:03:15",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "USS Tripoli, embarked 31st Marine Expeditionary Unit arrive in Middle East",
-        "description": "The Tripoli Amphibious Ready Group and the embarked 31st Marine Expeditionary Unit entered CENTCOM waters Friday.",
-        "fatalities": "0",
-        "link": "https://www.militarytimes.com/news/your-military/2026/03/28/uss-tripoli-embarked-31st-marine-expeditionary-unit-arrive-in-middle-east/",
-        "critical": false
-    },
-    {
-        "country": "Africa",
-        "city": "Sudan",
-        "lat": 12.871800541788645,
-        "lon": 30.20640717000183,
-        "date": "2026-04-03 19:03:11",
-        "type": "Airstrike",
-        "severity": "critical",
-        "title": "Drone strike on Sudan hospital kills 10, medical charity MSF says",
-        "description": "Two strikes on Al Jabalain Hospital in White Nile State hit an operating theatre and a maternity ward, MSF says.",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/news/2026/4/3/drone-strike-on-sudan-hospital-kills-10-medical-charity-msf-says?traffic_source=rss",
-        "critical": true
     }
 ]
