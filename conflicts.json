@@ -1,5 +1,47 @@
 [
     {
+        "country": "Ukraine",
+        "city": "Kyiv",
+        "lat": 50.43850778474667,
+        "lon": 30.57382221145695,
+        "date": "2026-04-04 07:59:38",
+        "type": "Drone",
+        "severity": "middle",
+        "title": "‘Ukrainian housewives’ and Skyranger delays – German defense poster child Rheinmetall is in hot water",
+        "description": "In October, company CEO Armin Papperger had already called into question the importance of drones in the war in Ukraine.",
+        "fatalities": "0",
+        "link": "https://www.defensenews.com/global/europe/2026/04/01/ukrainian-housewives-and-skyranger-delays-german-defense-poster-child-rheinmetall-is-in-hot-water/",
+        "critical": false
+    },
+    {
+        "country": "Asia",
+        "city": "Afghanistan",
+        "lat": 34.7457904296626,
+        "lon": 69.09753952620659,
+        "date": "2026-04-04 07:59:34",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Afghanistan earthquake kills eight members of same family",
+        "description": "The households only survivor was a young boy who was injured in the tremor.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/news/2026/4/4/afghanistan-earthquake-kills-eight-members-of-same-family?traffic_source=rss",
+        "critical": false
+    },
+    {
+        "country": "China",
+        "city": "Shanghai",
+        "lat": 31.198373049125497,
+        "lon": 121.42649268287168,
+        "date": "2026-04-04 07:59:24",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Cosmopolitan Shanghai Is an Uneasy Fit in China’s Narrative of Western Sins",
+        "description": "Shanghai’s many layers of architecture, culture and politics have made it a difficult fit for the Communist Party’s preferred narrative of Chinese victimhood and Western sins.",
+        "fatalities": "0",
+        "link": "https://www.nytimes.com/2026/04/03/world/asia/shanghai-dispatch-architecture.html",
+        "critical": false
+    },
+    {
         "country": "USA",
         "city": "New york",
         "lat": 40.748017574495435,
@@ -3021,48 +3063,6 @@
         "description": "Reporting from Tehran early Friday, FRANCE 24’s Reza Sayah says there’s been a “disturbing trend” in recent days of US-Israeli strikes hitting non-military targets across Iran. A strike on Iran’s tallest bridge last night killed eight people and wounded 90 others, said Sayah. The war has seen US-Israeli strikes target Iran's civilian airports, fuel depots, hospitals, sports facilities, pharmaceutical manufacturing companies, universities and scho",
         "fatalities": "0",
         "link": "https://www.france24.com/en/disturbing-trend-of-us-israeli-strikes-hitting-non-military-targets-in-iran",
-        "critical": true
-    },
-    {
-        "country": "Asia",
-        "city": "Pakistan",
-        "lat": 31.561604393352972,
-        "lon": 74.33064627799065,
-        "date": "2026-04-03 06:46:14",
-        "type": "Clashes",
-        "severity": "middle",
-        "title": "How war on Iran turned Pakistan’s LNG surplus into a looming shortage",
-        "description": "Pakistan braces for gas shortage crisis as  LNG supplies collapse amid escalating regional conflict.",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/news/2026/4/3/how-war-on-iran-turned-pakistans-lng-surplus-into-a-looming-shortage?traffic_source=rss",
-        "critical": false
-    },
-    {
-        "country": "Iran",
-        "city": "Tehran",
-        "lat": 35.62052751115971,
-        "lon": 51.35964653532317,
-        "date": "2026-04-03 06:46:12",
-        "type": "Clashes",
-        "severity": "middle",
-        "title": "How China’s ‘teapot’ refineries are cushioning it from Iran war oil crisis",
-        "description": "Small independent refineries are helping China continue importing oil from Iran.",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/news/2026/4/3/how-chinas-teapot-refineries-are-cushioning-it-from-iran-war-oil-crisis?traffic_source=rss",
-        "critical": false
-    },
-    {
-        "country": "Iran",
-        "city": "Tehran",
-        "lat": 35.683737761029164,
-        "lon": 51.4262890266432,
-        "date": "2026-04-03 06:46:12",
-        "type": "Airstrike",
-        "severity": "critical",
-        "title": "Iran war live: Trump warns assault on infrastructure ‘hasn’t even started’",
-        "description": "Trump steps up threats after US strike on Irans largest bridge, as Tehran launches attacks across the region.",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/news/liveblog/2026/4/3/iran-war-live-trump-warns-assault-on-infrastructure-hasnt-even-started?traffic_source=rss",
         "critical": true
     }
 ]
