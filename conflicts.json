@@ -1,5 +1,47 @@
 [
     {
+        "country": "Israel",
+        "city": "Tel Aviv",
+        "lat": 32.124548070499806,
+        "lon": 34.72449407794146,
+        "date": "2026-04-05 21:59:24",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Trump to Israeli TV: We were afraid downed US airman had been captured",
+        "description": "US president reveals details of rescue operation, says downed crew member sent unusual message raising concerns of ambush lure, notes Israel helped with extraction\nThe post Trump to Israeli TV: We were afraid downed US airman had been captured appeared first on The Times of Israel.",
+        "fatalities": "0",
+        "link": "https://www.timesofisrael.com/trump-to-israeli-tv-we-were-afraid-downed-us-airman-had-been-captured/",
+        "critical": false
+    },
+    {
+        "country": "Iran",
+        "city": "Tehran",
+        "lat": 35.70011261257045,
+        "lon": 51.45618705880454,
+        "date": "2026-04-05 21:59:22",
+        "type": "Clashes",
+        "severity": "middle",
+        "title": "Mission to Recover Downed F-15E Aircrew Puts Combat Search And Rescue in the Spotlight",
+        "description": "The loss of an F-15E Strike Eagle in Iran prompted specialized Combat Search and Rescue units to spring into action, with a multitude of assets working together to recover all missing aircrew. Here’s how. On Apr. 3, 2026, multiple specialized units sprang into action for a complex mission they train extensively for but hope never []",
+        "fatalities": "0",
+        "link": "https://theaviationist.com/2026/04/04/csar-in-the-spotlight/",
+        "critical": false
+    },
+    {
+        "country": "Iran",
+        "city": "Tehran",
+        "lat": 35.7487964988158,
+        "lon": 51.444386289267776,
+        "date": "2026-04-05 21:59:11",
+        "type": "Naval",
+        "severity": "normal",
+        "title": "Trump issues expletive-laden threat  to Iran over Hormuz Strait blockage",
+        "description": "The US president says he will destroy Iranian power plants and bridges if the vital waterway is not reopened.",
+        "fatalities": "0",
+        "link": "https://www.bbc.com/news/articles/cvg0q6wdzp1o?at_medium=RSS&at_campaign=rss",
+        "critical": false
+    },
+    {
         "country": "USA",
         "city": "New york",
         "lat": 40.71291023193833,
@@ -420,20 +462,6 @@
         "critical": true
     },
     {
-        "country": "Iran",
-        "city": "Tehran",
-        "lat": 35.73815897756913,
-        "lon": 51.447427337354135,
-        "date": "2026-04-05 19:02:02",
-        "type": "Naval",
-        "severity": "normal",
-        "title": "Australians told to continue Easter travel plans despite fuel shortages",
-        "description": "Hundreds of petrol stations across Australia have run out of fuel as the Iran war disrupts global oil shipments and pushes up prices.",
-        "fatalities": "0",
-        "link": "https://www.bbc.com/news/articles/c62l084kgk6o?at_medium=RSS&at_campaign=rss",
-        "critical": false
-    },
-    {
         "country": "Israel",
         "city": "Gaza",
         "lat": 31.54931236260328,
@@ -459,6 +487,20 @@
         "description": "Since January, Irans near total internet blackout has impacted jobs and businesses.",
         "fatalities": "0",
         "link": "https://www.aljazeera.com/news/2026/4/5/frustration-grows-as-irans-wartime-internet-shutdown-breaks-grim-record?traffic_source=rss",
+        "critical": false
+    },
+    {
+        "country": "Iran",
+        "city": "Tehran",
+        "lat": 35.73815897756913,
+        "lon": 51.447427337354135,
+        "date": "2026-04-05 19:02:02",
+        "type": "Naval",
+        "severity": "normal",
+        "title": "Australians told to continue Easter travel plans despite fuel shortages",
+        "description": "Hundreds of petrol stations across Australia have run out of fuel as the Iran war disrupts global oil shipments and pushes up prices.",
+        "fatalities": "0",
+        "link": "https://www.bbc.com/news/articles/c62l084kgk6o?at_medium=RSS&at_campaign=rss",
         "critical": false
     },
     {
@@ -3021,48 +3063,6 @@
         "description": "Floods have killed at least 77 people this week and destroyed or damaged thousands of homes, and an earthquake on Friday killed a dozen more.",
         "fatalities": "0",
         "link": "https://www.nytimes.com/2026/04/04/world/asia/afghanistan-floods-earthquake.html",
-        "critical": false
-    },
-    {
-        "country": "USA",
-        "city": "New york",
-        "lat": 40.699269267478236,
-        "lon": -74.04328827930547,
-        "date": "2026-04-04 19:00:19",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Дмитриев посоветовал NYT нанимать более образованных людей и использовать ИИ",
-        "description": "Глава РФПИ Кирилл Дмитриев посоветовал The New York Times нанимать более образованных людей и использовать ИИ для проверки фактов. Читать далее",
-        "fatalities": "0",
-        "link": "https://russian.rt.com/world/news/1615818-dmitriev-gazeta-obrazovannye-lyudi?utm_source=rss&utm_medium=rss&utm_campaign=RSS",
-        "critical": false
-    },
-    {
-        "country": "Iran",
-        "city": "Tehran",
-        "lat": 35.6300308193425,
-        "lon": 51.36297992335546,
-        "date": "2026-04-04 18:59:43",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "US says it has arrested relatives of late Iranian ​general Qasem ​Soleimani",
-        "description": "The niece and grand-niece of Qasem Soleimani are in the custody of US Immigration and Customs Enforcement, officials said.",
-        "fatalities": "0",
-        "link": "https://www.bbc.com/news/articles/cgqkn4j48qdo?at_medium=RSS&at_campaign=rss",
-        "critical": false
-    },
-    {
-        "country": "Iran",
-        "city": "Tehran",
-        "lat": 35.6944535027861,
-        "lon": 51.43566941675879,
-        "date": "2026-04-04 18:01:11",
-        "type": "Clashes",
-        "severity": "middle",
-        "title": "Italy’s Meloni meets Qatar emir to discuss energy issues amid Iran war",
-        "description": "Prime Minister Meloni is the first EU and NATO country leader to visit the region since the war began.",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/news/2026/4/4/italys-meloni-meets-qatar-emir-to-discuss-energy-issues-amid-iran-war?traffic_source=rss",
         "critical": false
     }
 ]
