@@ -1,6 +1,62 @@
 [
     {
         "country": "Israel",
+        "city": "Jerusalem",
+        "lat": 31.836614056327793,
+        "lon": 35.22441199266378,
+        "date": "2026-04-05 11:42:30",
+        "type": "Airstrike",
+        "severity": "critical",
+        "title": "Iranian missile hits Negev industrial zone struck in previous attacks",
+        "description": "Iran claims it foiled rescue of airman, showing off wreckage of planes left behind by US * Easter, Passover ceremonies take place in largely empty Jerusalem Old City * IDF hits Hezbollah stronghold near Beirut\nThe post Iranian missile hits Negev industrial zone struck in previous attacks appeared first on The Times of Israel.",
+        "fatalities": "0",
+        "link": "https://www.timesofisrael.com/liveblog-april-5-2026/",
+        "critical": true
+    },
+    {
+        "country": "Israel",
+        "city": "Jerusalem",
+        "lat": 31.79152996493861,
+        "lon": 35.28287051166899,
+        "date": "2026-04-05 11:42:20",
+        "type": "Clashes",
+        "severity": "middle",
+        "title": "Easter in Jerusalem overshadowed by war and restrictions at the Holy Sepulchre",
+        "description": "Silence reigned on Easter Sunday in the alleyways of Jerusalem's Old City, with the holiday overshadowed by war and restrictions on access to the Holy Sepulchre, where Christians commemorate Christ's crucifixion and resurrection.",
+        "fatalities": "0",
+        "link": "https://www.france24.com/en/middle-east/20260405-easter-in-jerusalem-overshadowed-by-war-and-restrictions-at-the-holy-sepulchre",
+        "critical": false
+    },
+    {
+        "country": "Israel",
+        "city": "Gaza",
+        "lat": 31.529117259675257,
+        "lon": 34.52878036216088,
+        "date": "2026-04-05 11:42:20",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "French boats set sail from Marseille to join Gaza aid Flotilla",
+        "description": "Some 20 French boats set sail from Marseille on Saturday to join up with an international flotilla making a renewed effort to break an Israeli blockade and deliver aid to Gaza.",
+        "fatalities": "0",
+        "link": "https://www.france24.com/en/french-boats-set-sail-from-marseille-to-join-gaza-aid-flotilla",
+        "critical": false
+    },
+    {
+        "country": "Iran",
+        "city": "Tehran",
+        "lat": 35.698011217005835,
+        "lon": 51.35922276108782,
+        "date": "2026-04-05 11:42:20",
+        "type": "Naval",
+        "severity": "normal",
+        "title": "\"We got him!\": US rescues aviator whose fighter jet was shot down in Iran",
+        "description": "The United States said Sunday it rescued a service member missing behind enemy lines since Iran downed a fighter jet, as President Donald Trump escalated pressure on Tehran with a new looming deadline to reopen the Strait of Hormuz.",
+        "fatalities": "0",
+        "link": "https://www.france24.com/en/we-got-him-us-rescues-aviator-whose-fighter-jet-was-shot-down-in-iran",
+        "critical": false
+    },
+    {
+        "country": "Israel",
         "city": "Tel Aviv",
         "lat": 32.02458642180848,
         "lon": 34.83039526319481,
@@ -238,20 +294,6 @@
         "critical": false
     },
     {
-        "country": "Iran",
-        "city": "Tehran",
-        "lat": 35.72321325698659,
-        "lon": 51.44115224675371,
-        "date": "2026-04-05 09:55:55",
-        "type": "Clashes",
-        "severity": "middle",
-        "title": "War in the Middle East: US rescues pilot from downed fighter jet",
-        "description": "Reza Sayah, our correspondent in Tehran, has more.",
-        "fatalities": "0",
-        "link": "https://www.france24.com/en/war-in-the-middle-east-us-rescues-pilot-from-downed-fighter-jet",
-        "critical": false
-    },
-    {
         "country": "Ukraine",
         "city": "Kyiv",
         "lat": 50.442371056252604,
@@ -277,6 +319,20 @@
         "description": "The deployment of the vessels marks the first time Washington has confirmed using such vessels in an active conflict, according to Reuters.",
         "fatalities": "0",
         "link": "https://www.militarytimes.com/news/your-military/2026/03/26/us-deploys-uncrewed-drone-boats-in-conflict-with-iran/",
+        "critical": false
+    },
+    {
+        "country": "Iran",
+        "city": "Tehran",
+        "lat": 35.72321325698659,
+        "lon": 51.44115224675371,
+        "date": "2026-04-05 09:55:55",
+        "type": "Clashes",
+        "severity": "middle",
+        "title": "War in the Middle East: US rescues pilot from downed fighter jet",
+        "description": "Reza Sayah, our correspondent in Tehran, has more.",
+        "fatalities": "0",
+        "link": "https://www.france24.com/en/war-in-the-middle-east-us-rescues-pilot-from-downed-fighter-jet",
         "critical": false
     },
     {
@@ -3008,61 +3064,5 @@
         "fatalities": "0",
         "link": "https://www.timesofisrael.com/liveblog-april-4-2026/",
         "critical": true
-    },
-    {
-        "country": "Israel",
-        "city": "Tel Aviv",
-        "lat": 32.056695088149624,
-        "lon": 34.84056561812983,
-        "date": "2026-04-04 07:17:50",
-        "type": "Clashes",
-        "severity": "middle",
-        "title": "Is opposing Israel 'anti-Semitism'? France’s latest attempt to fight hate risks inflaming it",
-        "description": "The French government is backing a draft law based on the idea that \"hatred\" of Israel is inseparable from hatred of the Jewish people. Critics of the “Yadan law” warn the new legislation will not just muzzle legitimate criticism of Israel but could further fuel anti-Semitism in France.",
-        "fatalities": "0",
-        "link": "https://www.france24.com/en/france/20260404-is-opposing-israel-anti-semitism-france-s-latest-attempt-to-fight-hate-risks-inflaming-it",
-        "critical": false
-    },
-    {
-        "country": "Middle East",
-        "city": "Beirut",
-        "lat": 33.85409730261576,
-        "lon": 35.54191719234498,
-        "date": "2026-04-04 07:17:50",
-        "type": "Airstrike",
-        "severity": "critical",
-        "title": "Several injured by Israeli strikes on Lebanese city Tyre",
-        "description": "Israel has repeatedly struck the ancient southern Lebanese city of Tyre, where several inhabitants have been injured. But locals are reluctant to leave - citing fears than a temporary order would become permanent displacement. Israel has said that it would not be able to destroy Hezbollah without occupying the whole of Lebanon. FRANCE 24's Olivia Bizo reports from Beirut in Lebanon.",
-        "fatalities": "0",
-        "link": "https://www.france24.com/en/video/20260404-several-injured-by-israeli-strikes-on-lebanese-city-tyre",
-        "critical": true
-    },
-    {
-        "country": "Iran",
-        "city": "Tehran",
-        "lat": 35.68396887766796,
-        "lon": 51.4391655883336,
-        "date": "2026-04-04 07:17:38",
-        "type": "Clashes",
-        "severity": "middle",
-        "title": "Iran War Live Updates: U.S. Forces Search for Missing Airman After Iran Downs Jet",
-        "description": "The F-15E was the first U.S. warplane shot down by Iran in the war. The episode presents challenges for the United States that would grow if the missing airman is taken prisoner.",
-        "fatalities": "0",
-        "link": "https://www.nytimes.com/live/2026/04/04/world/iran-war-trump-news",
-        "critical": false
-    },
-    {
-        "country": "Israel",
-        "city": "Tel Aviv",
-        "lat": 32.03482534621408,
-        "lon": 34.716969683501674,
-        "date": "2026-04-04 06:10:41",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Could Paramount acquisition of CNN shift coverage of Israel?",
-        "description": "Ellison-led firm could put two leading US news companies under the same umbrella, part of an expanding media empire\nThe post Could Paramount acquisition of CNN shift coverage of Israel? appeared first on The Times of Israel.",
-        "fatalities": "0",
-        "link": "https://www.timesofisrael.com/could-paramount-acquisition-of-cnn-shift-coverage-of-israel/",
-        "critical": false
     }
 ]
