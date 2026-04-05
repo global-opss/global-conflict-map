@@ -1,5 +1,61 @@
 [
     {
+        "country": "USA",
+        "city": "New york",
+        "lat": 40.71291023193833,
+        "lon": -73.94302094288757,
+        "date": "2026-04-05 21:33:49",
+        "type": "Airstrike",
+        "severity": "critical",
+        "title": "Dems weighing 2028 campaigns run from 2020 positions",
+        "description": "Democrats weighing runs for the White House want to forget many of the positions they took in 2020 — and they're hoping voters will too.Why it matters: Leaders and would-be leaders in the party have shifted their views on border security, DEI, crime, climate change, COVID-era lockdowns and more — all with an eye on this year's midterms and the 2028 presidential election.Many Democrats believe they lost to Donald Trump in 2024 because voters didn'",
+        "fatalities": "0",
+        "link": "https://www.axios.com/2026/04/05/dems-weighing-2028-campaigns-run-from-2020-positions",
+        "critical": true
+    },
+    {
+        "country": "Iran",
+        "city": "Tehran",
+        "lat": 35.62233180892548,
+        "lon": 51.434941847312814,
+        "date": "2026-04-05 21:33:49",
+        "type": "Naval",
+        "severity": "normal",
+        "title": "Trump threatens Iran with \"hell\" if Hormuz strait isn't open in 48 hours",
+        "description": "President Trump threatened on Saturday that \"hell will reign down\" on Iran if the regime doesn't agree to open the Strait of Hormuz within 48 hours. Why it matters: Trump's 10-day deadline to Iran is expected to expire on Monday. He previously threatened to bomb the country's energy, water and oil infrastructure if no deal was reached to open the strait.Tehran has accused Trump of planning to commit war crimes.Over the last ten days the U.S. and ",
+        "fatalities": "0",
+        "link": "https://www.axios.com/2026/04/04/trump-iran-hell-threat-deadline",
+        "critical": false
+    },
+    {
+        "country": "Russia",
+        "city": "Moscow",
+        "lat": 55.810056519925936,
+        "lon": 37.58728548426221,
+        "date": "2026-04-05 21:33:40",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Explosives discovered near gas pipeline to Hungary, says Serbia's president",
+        "description": "Powerful explosives were found near the Balkan Stream pipeline in Serbia that carries Russian gas to Hungary, the leaders of the two countries said on Sunday, triggering political scrutiny in Hungary days before a national election.",
+        "fatalities": "0",
+        "link": "https://www.france24.com/en/europe/20260405-explosives-discovered-near-pipeline-in-serbia-that-carries-russian-gas-leaders-say",
+        "critical": false
+    },
+    {
+        "country": "Middle East",
+        "city": "Damascus",
+        "lat": 33.55085666561806,
+        "lon": 36.28817978347582,
+        "date": "2026-04-05 21:33:35",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Ukraine and Syria to cooperate on security, Zelenskyy says",
+        "description": "During a trip to Damascus, Ukrainian President Volodymyr Zelenskyy said the two countries agreed to work together.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/news/2026/4/5/ukraine-syria-agree-to-exchange-military-and-security-experience?traffic_source=rss",
+        "critical": false
+    },
+    {
         "country": "Iran",
         "city": "Tehran",
         "lat": 35.67536150013588,
@@ -112,20 +168,6 @@
         "critical": false
     },
     {
-        "country": "Iran",
-        "city": "Tehran",
-        "lat": 35.72074515992436,
-        "lon": 51.42090645813178,
-        "date": "2026-04-05 20:16:02",
-        "type": "Naval",
-        "severity": "normal",
-        "title": "Here’s a Timeline of Trump’s Ultimatums Over the Strait of Hormuz",
-        "description": "President Trump first gave Iran 48 hours to reopen the vital oil shipping route on March 21. The deadline has been reset many times since.",
-        "fatalities": "0",
-        "link": "https://www.nytimes.com/2026/04/05/world/middleeast/trump-strait-of-hormuz-deadline-iran-war.html",
-        "critical": false
-    },
-    {
         "country": "Asia",
         "city": "Host",
         "lat": 33.378080948756576,
@@ -151,6 +193,20 @@
         "description": "The rescue could impact how Trump views a ground operation to take Kharg Island or to seize enriched uranium sites.",
         "fatalities": "0",
         "link": "https://www.bbc.com/news/articles/cy01vg7x5ppo?at_medium=RSS&at_campaign=rss",
+        "critical": false
+    },
+    {
+        "country": "Iran",
+        "city": "Tehran",
+        "lat": 35.72074515992436,
+        "lon": 51.42090645813178,
+        "date": "2026-04-05 20:16:02",
+        "type": "Naval",
+        "severity": "normal",
+        "title": "Here’s a Timeline of Trump’s Ultimatums Over the Strait of Hormuz",
+        "description": "President Trump first gave Iran 48 hours to reopen the vital oil shipping route on March 21. The deadline has been reset many times since.",
+        "fatalities": "0",
+        "link": "https://www.nytimes.com/2026/04/05/world/middleeast/trump-strait-of-hormuz-deadline-iran-war.html",
         "critical": false
     },
     {
@@ -3007,62 +3063,6 @@
         "description": "Prime Minister Meloni is the first EU and NATO country leader to visit the region since the war began.",
         "fatalities": "0",
         "link": "https://www.aljazeera.com/news/2026/4/4/italys-meloni-meets-qatar-emir-to-discuss-energy-issues-amid-iran-war?traffic_source=rss",
-        "critical": false
-    },
-    {
-        "country": "Iran",
-        "city": "Tehran",
-        "lat": 35.72056819014179,
-        "lon": 51.36596923932002,
-        "date": "2026-04-04 18:01:11",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Top diplomat Marco Rubio strips Qassem Soleimani’s niece of US residency",
-        "description": "In a statement, the US State Department has accused Hamideh Soleimani Afshar of being an outspoken supporter of Iran.",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/news/2026/4/4/top-diplomat-marco-rubio-strips-qassem-soleimanis-niece-of-us-residency?traffic_source=rss",
-        "critical": false
-    },
-    {
-        "country": "Israel",
-        "city": "Tel Aviv",
-        "lat": 32.05515858110772,
-        "lon": 34.724759233606186,
-        "date": "2026-04-04 17:37:03",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "US arrests relatives of slain IRGC general Soleimani for supporting Iran’s regime",
-        "description": "State Department says Hamideh Soleimani Afshar promotes Iranian propaganda while enjoying 'lavish lifestyle' in LA; legal status of Larijani's daughter, son-in-law also terminated\nThe post US arrests relatives of slain IRGC general Soleimani for supporting Irans regime appeared first on The Times of Israel.",
-        "fatalities": "0",
-        "link": "https://www.timesofisrael.com/us-arrests-relatives-of-slain-irgc-general-soleimani-for-supporting-irans-regime/",
-        "critical": false
-    },
-    {
-        "country": "Iran",
-        "city": "Tehran",
-        "lat": 35.743814465922576,
-        "lon": 51.45572966778591,
-        "date": "2026-04-04 17:37:02",
-        "type": "Clashes",
-        "severity": "middle",
-        "title": "Mission to Recover Downed F-15E Aircrew Puts Combat Search And Rescue in the Spotlight",
-        "description": "The loss of an F-15E Strike Eagle in Iran prompted specialized Combat Search and Rescue units to spring into action, with a multitude of assets working together to recover all missing aircrew. Here’s how. On Apr. 3, 2026, multiple specialized units sprang into action for a complex mission they train extensively for but hope never []",
-        "fatalities": "0",
-        "link": "https://theaviationist.com/2026/04/04/csar-in-the-spotlight/",
-        "critical": false
-    },
-    {
-        "country": "Israel",
-        "city": "Gaza",
-        "lat": 31.4448327324445,
-        "lon": 34.402522158236394,
-        "date": "2026-04-04 17:36:53",
-        "type": "Clashes",
-        "severity": "middle",
-        "title": "'Gaza, Marseille is with you!': French boats set sail to join international aid flotilla",
-        "description": "Some 20 French boats set sail from Marseille on Saturday to join up with an international flotilla making a renewed effort to break an Israeli blockade and deliver aid to Gaza. The international flotilla of some 100 boats will head towards Gaza around April 20, according to the organisers",
-        "fatalities": "0",
-        "link": "https://www.france24.com/en/france/20260404-gaza-marseille-is-with-you-french-boats-set-sail-to-join-international-aid-flotilla",
         "critical": false
     }
 ]
