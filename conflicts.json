@@ -1,5 +1,33 @@
 [
     {
+        "country": "Israel",
+        "city": "Tel Aviv",
+        "lat": 32.04050109534338,
+        "lon": 34.8427577737506,
+        "date": "2026-04-06 22:54:35",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "‘I’m very upset’: Trump says US tried to arm Iranian protesters, but guns were diverted",
+        "description": "After earlier blaming the Kurds for taking the guns for themselves, US president says 'certain group of people' will 'pay a big price for that'\nThe post Im very upset: Trump says US tried to arm Iranian protesters, but guns were diverted appeared first on The Times of Israel.",
+        "fatalities": "0",
+        "link": "https://www.timesofisrael.com/im-very-upset-trump-says-us-tried-to-arm-iranian-protesters-but-guns-were-diverted/",
+        "critical": false
+    },
+    {
+        "country": "Iran",
+        "city": "Tehran",
+        "lat": 35.62613562333985,
+        "lon": 51.402526485328394,
+        "date": "2026-04-06 22:54:10",
+        "type": "Airstrike",
+        "severity": "critical",
+        "title": "Trump Says Iran Cease-Fire Proposal Is ‘Not Good Enough’ as Deadline Approaches",
+        "description": "President Trump has threatened to launch a massive attack targeting bridges, power plants and other civilian facilities by Tuesday evening.",
+        "fatalities": "0",
+        "link": "https://www.nytimes.com/2026/04/06/us/politics/trump-iran-cease-fire-proposal.html",
+        "critical": true
+    },
+    {
         "country": "USA",
         "city": "New york",
         "lat": 40.695604326979534,
@@ -3035,34 +3063,6 @@
         "description": "Brent crude oil climbed more than 1% to above $110 per barrel when markets opened Sunday amid mixed signals about the Iran war that's creating unprecedented disruption to global energy flows.Why it matters: President Trump is signaling major escalation, but also told Axios' Barak Ravid that the U.S. is in \"deep negotiations\" with Iran.Trump is threatening to bomb Iran's power plants and bridges starting Tuesday if the regime doesn't open the Stra",
         "fatalities": "0",
         "link": "https://www.axios.com/2026/04/05/oil-rises-iran-war-future-trump",
-        "critical": false
-    },
-    {
-        "country": "Ukraine",
-        "city": "Kyiv",
-        "lat": 50.44148495186718,
-        "lon": 30.582391331025146,
-        "date": "2026-04-05 23:53:43",
-        "type": "Naval",
-        "severity": "normal",
-        "title": "Ukraine's Zelensky meets Syria’s new leader in Damascus, pushes military deals",
-        "description": "Ukrainian President Volodymyr Zelensky held talks in Damascus on Sunday with Syria’s new leader Ahmed al-Sharaa, as Kyiv pushes to deepen security ties across the Middle East amid its ongoing war with Russia. Arriving alongside Turkish Foreign Minister Hakan Fidan, Zelensky’s visit signals a bid to secure military cooperation and bolster regional partnerships following a whirlwind diplomatic tour.",
-        "fatalities": "0",
-        "link": "https://www.france24.com/en/middle-east/20260405-ukraine-zelensky-meets-syria-new-leader-al-sharaa-in-damascus-pushes-military-deals",
-        "critical": false
-    },
-    {
-        "country": "Iran",
-        "city": "Tehran",
-        "lat": 35.710056187019816,
-        "lon": 51.348691739946844,
-        "date": "2026-04-05 23:53:36",
-        "type": "Naval",
-        "severity": "normal",
-        "title": "Trump issues expletive-laden threat to Iran over Hormuz Strait blockage",
-        "description": "The US president says he will destroy Iranian power plants and bridges if the vital waterway is not reopened.",
-        "fatalities": "0",
-        "link": "https://www.bbc.com/news/articles/cvg0q6wdzp1o?at_medium=RSS&at_campaign=rss",
         "critical": false
     }
 ]
