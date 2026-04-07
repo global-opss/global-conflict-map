@@ -1,5 +1,75 @@
 [
     {
+        "country": "Iran",
+        "city": "Tehran",
+        "lat": 35.62079202684629,
+        "lon": 51.41747108459977,
+        "date": "2026-04-07 08:13:14",
+        "type": "Airstrike",
+        "severity": "critical",
+        "title": "Trump's threatened destruction of Iranian infrastructure could be a war crime, legal experts say",
+        "description": "US President Donald Trump said Monday that he was “not at all” concerned about the risk of committing war crimes in Iran if he carried out his threat to bomb bridges and power plants. Experts in military law, however, say that deliberately bombing civilian infrastructure is a violation of international humanitarian law and may constitute a war crime.",
+        "fatalities": "0",
+        "link": "https://www.france24.com/en/middle-east/20260407-trump-s-threatened-destruction-of-iran-s-infrastructure-could-be-considered-war-crime-experts-say",
+        "critical": true
+    },
+    {
+        "country": "Iran",
+        "city": "Tehran",
+        "lat": 35.739547406616694,
+        "lon": 51.3768847485042,
+        "date": "2026-04-07 08:13:08",
+        "type": "Naval",
+        "severity": "normal",
+        "title": "Little sign of breakthrough as Trump's Iran deadline nears",
+        "description": "The US president is in a delicate political position as the final hours to Tuesday's deadline for Iran to open the Strait of Hormuz tick down.",
+        "fatalities": "0",
+        "link": "https://www.bbc.com/news/articles/czexw94rj5jo?at_medium=RSS&at_campaign=rss",
+        "critical": false
+    },
+    {
+        "country": "China",
+        "city": "Beijing",
+        "lat": 39.86113720906429,
+        "lon": 116.45232509523852,
+        "date": "2026-04-07 08:13:08",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Taiwan opposition leader visits China for expected meeting with Xi Jinping",
+        "description": "Cheng Li-wun said she \"gladly accepted\" Xi Jinping's invitation and hopes to be a \"bridge for peace\".",
+        "fatalities": "0",
+        "link": "https://www.bbc.com/news/articles/c0krnz7mmmjo?at_medium=RSS&at_campaign=rss",
+        "critical": false
+    },
+    {
+        "country": "Europe",
+        "city": "Paris",
+        "lat": 48.91326526547237,
+        "lon": 2.3782147714801334,
+        "date": "2026-04-07 08:13:07",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "In Paris’s Catacombs, Can a Restoration Breathe New Life Into City’s Dead?",
+        "description": "For centuries, the bones of some six million people were buried in the catacombs beneath the city. Curators are trying to preserve and modernize the tunnels while maintaining the spooky ambience.",
+        "fatalities": "0",
+        "link": "https://www.nytimes.com/2026/04/07/world/europe/paris-catacombs-renovation.html",
+        "critical": false
+    },
+    {
+        "country": "Iran",
+        "city": "Tehran",
+        "lat": 35.67787706102662,
+        "lon": 51.3736465729526,
+        "date": "2026-04-07 08:13:05",
+        "type": "Naval",
+        "severity": "normal",
+        "title": "Iran War Live Updates: Trump’s Hormuz Deadline Hangs Over the Middle East",
+        "description": "President Trump has threatened to destroy Iran’s bridges and power plants on Tuesday night Eastern time if it does not open the Strait of Hormuz. There have been no public signs of a diplomatic breakthrough.",
+        "fatalities": "0",
+        "link": "https://www.nytimes.com/live/2026/04/07/world/iran-war-trump-news",
+        "critical": false
+    },
+    {
         "country": "Israel",
         "city": "Tel Aviv",
         "lat": 32.10616652282098,
@@ -84,20 +154,6 @@
         "critical": true
     },
     {
-        "country": "Iran",
-        "city": "Tehran",
-        "lat": 35.63616839903092,
-        "lon": 51.33710723176031,
-        "date": "2026-04-07 06:53:25",
-        "type": "Airstrike",
-        "severity": "critical",
-        "title": "Trump's threatened destruction of Iran's infrastructure could be considered war crime, experts say",
-        "description": "US President Donald Trump said Monday that he was “not at all” concerned about the risk of committing war crimes in Iran if he carried out his threat to bomb bridges and power plants. However, according to experts in military law, deliberately bombing civilian infrastructure is a violation of international humanitarian law and may constitute a war crime.",
-        "fatalities": "0",
-        "link": "https://www.france24.com/en/middle-east/20260407-trump-s-threatened-destruction-of-iran-s-infrastructure-could-be-considered-war-crime-experts-say",
-        "critical": true
-    },
-    {
         "country": "Ukraine",
         "city": "Kyiv",
         "lat": 50.38182818320935,
@@ -124,6 +180,20 @@
         "fatalities": "0",
         "link": "https://www.france24.com/en/middle-east/20260407-middle-east-war-live-trump-s-iran-ultimatum-enters-final-24-hours-amid-escalation-fears",
         "critical": false
+    },
+    {
+        "country": "Iran",
+        "city": "Tehran",
+        "lat": 35.63616839903092,
+        "lon": 51.33710723176031,
+        "date": "2026-04-07 06:53:25",
+        "type": "Airstrike",
+        "severity": "critical",
+        "title": "Trump's threatened destruction of Iran's infrastructure could be considered war crime, experts say",
+        "description": "US President Donald Trump said Monday that he was “not at all” concerned about the risk of committing war crimes in Iran if he carried out his threat to bomb bridges and power plants. However, according to experts in military law, deliberately bombing civilian infrastructure is a violation of international humanitarian law and may constitute a war crime.",
+        "fatalities": "0",
+        "link": "https://www.france24.com/en/middle-east/20260407-trump-s-threatened-destruction-of-iran-s-infrastructure-could-be-considered-war-crime-experts-say",
+        "critical": true
     },
     {
         "country": "Iran",
@@ -618,20 +688,6 @@
     {
         "country": "Iran",
         "city": "Tehran",
-        "lat": 35.75903486967311,
-        "lon": 51.44767207472123,
-        "date": "2026-04-06 23:36:58",
-        "type": "Naval",
-        "severity": "normal",
-        "title": "Trump threatens to take out Iran in 'one night' if no deal before deadline",
-        "description": "The US president wants Tehran to reopen the Strait of Hormuz, a critical global energy route, before his Tuesday deadline.",
-        "fatalities": "0",
-        "link": "https://www.bbc.com/news/articles/cqj8ep9w1pno?at_medium=RSS&at_campaign=rss",
-        "critical": false
-    },
-    {
-        "country": "Iran",
-        "city": "Tehran",
         "lat": 35.67377407881538,
         "lon": 51.36393017709964,
         "date": "2026-04-06 23:36:58",
@@ -641,6 +697,20 @@
         "description": "President Trump escalated his threats ahead of his pending Tuesday deadline for Iran to reopen the Strait of Hormuz.",
         "fatalities": "0",
         "link": "https://www.nytimes.com/2026/04/06/world/middleeast/middle-east-iran-war-week-6.html",
+        "critical": false
+    },
+    {
+        "country": "Iran",
+        "city": "Tehran",
+        "lat": 35.75903486967311,
+        "lon": 51.44767207472123,
+        "date": "2026-04-06 23:36:58",
+        "type": "Naval",
+        "severity": "normal",
+        "title": "Trump threatens to take out Iran in 'one night' if no deal before deadline",
+        "description": "The US president wants Tehran to reopen the Strait of Hormuz, a critical global energy route, before his Tuesday deadline.",
+        "fatalities": "0",
+        "link": "https://www.bbc.com/news/articles/cqj8ep9w1pno?at_medium=RSS&at_campaign=rss",
         "critical": false
     },
     {
@@ -1652,20 +1722,6 @@
         "critical": false
     },
     {
-        "country": "Iran",
-        "city": "Tehran",
-        "lat": 35.70025829003981,
-        "lon": 51.35005825045239,
-        "date": "2026-04-06 17:03:41",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Iran’s Downing of Fighter Jet and U.S. Rescue Leave Both Sides Dangerously Emboldened",
-        "description": "After Iran shot down a U.S. plane and U.S. forces pulled off a risky ground operation to extricate a stranded airman, both sides claimed victory. That confidence could fuel further escalation.",
-        "fatalities": "0",
-        "link": "https://www.nytimes.com/2026/04/05/world/middleeast/iran-us-rescue.html",
-        "critical": false
-    },
-    {
         "country": "Africa",
         "city": "Khartoum",
         "lat": 15.482215046481247,
@@ -1677,6 +1733,20 @@
         "description": "Albert Mazibuko sang in the iconic South African choral group for more than 55 years.",
         "fatalities": "0",
         "link": "https://www.bbc.com/news/articles/cx2r5g7x25yo?at_medium=RSS&at_campaign=rss",
+        "critical": false
+    },
+    {
+        "country": "Iran",
+        "city": "Tehran",
+        "lat": 35.70025829003981,
+        "lon": 51.35005825045239,
+        "date": "2026-04-06 17:03:41",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Iran’s Downing of Fighter Jet and U.S. Rescue Leave Both Sides Dangerously Emboldened",
+        "description": "After Iran shot down a U.S. plane and U.S. forces pulled off a risky ground operation to extricate a stranded airman, both sides claimed victory. That confidence could fuel further escalation.",
+        "fatalities": "0",
+        "link": "https://www.nytimes.com/2026/04/05/world/middleeast/iran-us-rescue.html",
         "critical": false
     },
     {
@@ -2994,75 +3064,5 @@
         "fatalities": "0",
         "link": "https://www.timesofisrael.com/liveblog-april-6-2026/",
         "critical": true
-    },
-    {
-        "country": "Israel",
-        "city": "Tel Aviv",
-        "lat": 32.052177709168305,
-        "lon": 34.76260014107101,
-        "date": "2026-04-06 08:44:57",
-        "type": "Clashes",
-        "severity": "middle",
-        "title": "Reservist airman who died by suicide in 2024 recognized as fallen soldier, family says",
-        "description": "Family of combat navigator Maj. (res.) Asaf Dagan says Defense Ministry finally accepting their demand that he be acknowledged as a PTSD combat casualty 'correcting deep injustice'\nThe post Reservist airman who died by suicide in 2024 recognized as fallen soldier, family says appeared first on The Times of Israel.",
-        "fatalities": "0",
-        "link": "https://www.timesofisrael.com/reservist-airman-who-died-by-suicide-in-2024-recognized-as-fallen-soldier-family-says/",
-        "critical": false
-    },
-    {
-        "country": "Israel",
-        "city": "Tel Aviv",
-        "lat": 32.104779669710275,
-        "lon": 34.7588436203078,
-        "date": "2026-04-06 08:44:57",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Artemis II approaches historic lunar loop for first Moon flyby since 1972",
-        "description": "NASA crew enters the Moon's gravitational influence as team expected to break the record for the farthest distance from Earth during pass around the Moon\nThe post Artemis II approaches historic lunar loop for first Moon flyby since 1972 appeared first on The Times of Israel.",
-        "fatalities": "0",
-        "link": "https://www.timesofisrael.com/artemis-ii-approaches-historic-lunar-loop-for-first-moon-flyby-since-1972/",
-        "critical": false
-    },
-    {
-        "country": "Iran",
-        "city": "Tehran",
-        "lat": 35.68828073707269,
-        "lon": 51.38825629853685,
-        "date": "2026-04-06 08:44:52",
-        "type": "Airstrike",
-        "severity": "critical",
-        "title": "Iranian strikes target the infrastructure behind US airpower",
-        "description": "Iran has struck radar systems, satellite communications and mission-critical aircraft at US bases across Bahrain, Qatar, Kuwait, Saudi Arabia and the UAE.",
-        "fatalities": "0",
-        "link": "https://www.defensenews.com/global/mideast-africa/2026/04/01/iranian-strikes-target-the-infrastructure-behind-us-airpower/",
-        "critical": true
-    },
-    {
-        "country": "Africa",
-        "city": "Tripoli",
-        "lat": 32.86233582735373,
-        "lon": 13.146319397042488,
-        "date": "2026-04-06 08:44:50",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "USS Tripoli, embarked 31st Marine Expeditionary Unit arrive in Middle East",
-        "description": "The Tripoli Amphibious Ready Group and the embarked 31st Marine Expeditionary Unit entered CENTCOM waters Friday.",
-        "fatalities": "0",
-        "link": "https://www.militarytimes.com/news/your-military/2026/03/28/uss-tripoli-embarked-31st-marine-expeditionary-unit-arrive-in-middle-east/",
-        "critical": false
-    },
-    {
-        "country": "Iran",
-        "city": "Tehran",
-        "lat": 35.68691415906924,
-        "lon": 51.4392645297639,
-        "date": "2026-04-06 08:44:50",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Trump hails victory after US mission to rescue pilot from Iran",
-        "description": "American commandos deployed deep into Iranian territory to rescue a downed airman, US news outlets reported on Sunday, hours after President Donald Trump announced that the crew member had been recovered \"safe and sound.\"",
-        "fatalities": "0",
-        "link": "https://www.france24.com/en/video/20260405-trump-hails-victory-after-us-mission-to-rescue-pilot-from-iran",
-        "critical": false
     }
 ]
