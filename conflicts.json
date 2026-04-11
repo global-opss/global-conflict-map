@@ -1,5 +1,33 @@
 [
     {
+        "country": "Israel",
+        "city": "Tel Aviv",
+        "lat": 32.066093336901055,
+        "lon": 34.79318151217665,
+        "date": "2026-04-11 23:36:24",
+        "type": "Naval",
+        "severity": "normal",
+        "title": "On the record and off the court: Meet the only Jewish player on the NCAA championship team",
+        "description": "Harrison Hochberg reflects on being a member of Michigan’s winning squad, celebrating Passover during the Final Four, confronting antisemitism, and doing his well-known grandfather proud\nThe post On the record and off the court: Meet the only Jewish player on the NCAA championship team appeared first on The Times of Israel.",
+        "fatalities": "0",
+        "link": "https://www.timesofisrael.com/on-the-record-and-off-the-court-meet-the-only-jewish-player-on-the-ncaa-championship-team/",
+        "critical": false
+    },
+    {
+        "country": "Iran",
+        "city": "Tehran",
+        "lat": 35.71453382788903,
+        "lon": 51.327736424728656,
+        "date": "2026-04-11 23:36:11",
+        "type": "Naval",
+        "severity": "normal",
+        "title": "As US claims victory, Iran emerges bruised but with leverage over Hormuz",
+        "description": "The U.S.-Iran ceasefire locks in a harsh reality: an entrenched, radical government with control over the Strait of Hormuz.",
+        "fatalities": "0",
+        "link": "https://www.defensenews.com/news/your-military/2026/04/08/as-us-claims-victory-iran-emerges-bruised-but-with-leverage-over-hormuz/",
+        "critical": false
+    },
+    {
         "country": "USA",
         "city": "Washington",
         "lat": 38.92569936230088,
@@ -3035,34 +3063,6 @@
         "description": "Three Frenchmen who were taken to Syria by their jihadist parents as children and forced to work for the Islamic State (IS) group are seeking repatriation, their lawyer said on Friday. The men are among thousands of IS group \"fighters\" who are being held in Iraq after being transferred from Syria earlier this year.",
         "fatalities": "0",
         "link": "https://www.france24.com/en/middle-east/20260410-former-is-group-child-fighters-jailed-in-iraq-seek-repatriation-to-france",
-        "critical": false
-    },
-    {
-        "country": "Iran",
-        "city": "Tehran",
-        "lat": 35.736517209967,
-        "lon": 51.444597264805125,
-        "date": "2026-04-10 18:31:21",
-        "type": "Clashes",
-        "severity": "middle",
-        "title": "Is the US-Iran ceasefire already doomed?",
-        "description": "Even if the talks fail to produce a deal, a return to an all-out war may still be averted.",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/opinions/2026/4/10/is-trumps-iran-ceasefire-already-doomed?traffic_source=rss",
-        "critical": false
-    },
-    {
-        "country": "Israel",
-        "city": "Tel Aviv",
-        "lat": 32.154482997071874,
-        "lon": 34.78619852798208,
-        "date": "2026-04-10 18:31:21",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "OIC condemns Israeli approval of 34 new West Bank settlements",
-        "description": "The Palestinian Presidencys office condemned the plan as a flagrant violation of international ⁠law.",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/news/2026/4/10/oic-condemns-israeli-approval-of-34-new-west-bank-settlements?traffic_source=rss",
         "critical": false
     }
 ]
