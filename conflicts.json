@@ -1,5 +1,61 @@
 [
     {
+        "country": "Israel",
+        "city": "Tel Aviv",
+        "lat": 32.07172558383081,
+        "lon": 34.81973708872614,
+        "date": "2026-04-11 12:25:27",
+        "type": "Naval",
+        "severity": "normal",
+        "title": "‘A perfect mission’: NASA celebrates as Artemis II astronauts return to Earth",
+        "description": "All four crewmembers capable of walking unassisted when they reach recovery ship after splashdown; space agency hopes to put boots on the lunar surface as soon as 2028\nThe post A perfect mission: NASA celebrates as Artemis II astronauts return to Earth appeared first on The Times of Israel.",
+        "fatalities": "0",
+        "link": "https://www.timesofisrael.com/a-perfect-mission-nasa-celebrates-as-artemis-ii-astronauts-return-to-earth/",
+        "critical": false
+    },
+    {
+        "country": "Europe",
+        "city": "Brussels",
+        "lat": 50.83278543280699,
+        "lon": 4.310438409244428,
+        "date": "2026-04-11 12:25:15",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Researchers propose ‘rewilding’ Europe’s borderlands to repel enemies",
+        "description": "Restored wetlands and peat bogs can create natural barriers for invading forces while contributing to climate resilience, according to a new report.",
+        "fatalities": "0",
+        "link": "https://www.defensenews.com/global/europe/2026/04/09/researchers-propose-rewilding-europes-borderlands-to-repel-enemies/",
+        "critical": false
+    },
+    {
+        "country": "Ukraine",
+        "city": "Kyiv",
+        "lat": 50.43093597318058,
+        "lon": 30.45911645538326,
+        "date": "2026-04-11 12:25:13",
+        "type": "Clashes",
+        "severity": "middle",
+        "title": "Russia and Ukraine exchange 175 prisoners of war each",
+        "description": "Russia and Ukraine exchanged 175 prisoners of war and seven civilians each on Saturday, in a rare moment of cooperation facilitated by the UAE.",
+        "fatalities": "0",
+        "link": "https://www.france24.com/en/europe/20260411-russia-ukraine-swap-hundreds-of-prisoners-of-war-ahead-of-easter-truce",
+        "critical": false
+    },
+    {
+        "country": "Israel",
+        "city": "Tel Aviv",
+        "lat": 32.018149073780705,
+        "lon": 34.72932608112688,
+        "date": "2026-04-11 12:25:11",
+        "type": "Airstrike",
+        "severity": "critical",
+        "title": "Israel rejects ceasefire with Hezbollah before Lebanon talks next week",
+        "description": "At least 10 people, including three emergency workers, killed in latest Israeli attacks on southern Lebanon.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/news/2026/4/11/israel-rejects-ceasefire-with-hezbollah-ahead-of-lebanon-talks-next-week?traffic_source=rss",
+        "critical": true
+    },
+    {
         "country": "Europe",
         "city": "Poland",
         "lat": 51.97552581860797,
@@ -616,20 +672,6 @@
         "critical": false
     },
     {
-        "country": "USA",
-        "city": "Washington",
-        "lat": 38.88220862350272,
-        "lon": -76.96844039099862,
-        "date": "2026-04-11 08:07:34",
-        "type": "Airstrike",
-        "severity": "critical",
-        "title": "Israel rejects ceasefire with Hezbollah ahead of Lebanon talks next week",
-        "description": "Talks due in Washington as Israeli attacks on Lebanon continue, Iran says ceasefire must include them.",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/news/2026/4/11/israel-rejects-ceasefire-with-hezbollah-ahead-of-lebanon-talks-next-week?traffic_source=rss",
-        "critical": true
-    },
-    {
         "country": "Israel",
         "city": "Gaza",
         "lat": 31.444728004414745,
@@ -656,6 +698,20 @@
         "fatalities": "0",
         "link": "https://www.aljazeera.com/video/newsfeed/2026/4/11/video-vance-arrives-in-pakistan-for-talks-with-iran?traffic_source=rss",
         "critical": false
+    },
+    {
+        "country": "USA",
+        "city": "Washington",
+        "lat": 38.88220862350272,
+        "lon": -76.96844039099862,
+        "date": "2026-04-11 08:07:34",
+        "type": "Airstrike",
+        "severity": "critical",
+        "title": "Israel rejects ceasefire with Hezbollah ahead of Lebanon talks next week",
+        "description": "Talks due in Washington as Israeli attacks on Lebanon continue, Iran says ceasefire must include them.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/news/2026/4/11/israel-rejects-ceasefire-with-hezbollah-ahead-of-lebanon-talks-next-week?traffic_source=rss",
+        "critical": true
     },
     {
         "country": "Asia",
@@ -3007,62 +3063,6 @@
         "description": "Vice President JD Vance expressed optimism before traveling to Pakistan, though Iran has threatened to boycott the talks if the truce is not extended to Lebanon.",
         "fatalities": "0",
         "link": "https://www.nytimes.com/live/2026/04/10/world/iran-war-trump-israel-lebanon",
-        "critical": false
-    },
-    {
-        "country": "Europe",
-        "city": "Paris",
-        "lat": 48.811924503704546,
-        "lon": 2.347998461396343,
-        "date": "2026-04-10 12:09:13",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Parisien: во Франции разбился учебный самолёт ВВС",
-        "description": "Лёгкий самолёт Воздушно-космических сил Франции разбился на юго-востоке страны во время учебного полёта. Оба пилота пострадали и попали в больницу. Читать далее",
-        "fatalities": "0",
-        "link": "https://russian.rt.com/world/news/1618305-franciya-samolet-razbilsya?utm_source=rss&utm_medium=rss&utm_campaign=RSS",
-        "critical": false
-    },
-    {
-        "country": "Israel",
-        "city": "Tel Aviv",
-        "lat": 32.03746728971949,
-        "lon": 34.79774843743097,
-        "date": "2026-04-10 12:09:04",
-        "type": "Naval",
-        "severity": "normal",
-        "title": "Exclusive: How Roger Stone persuaded Trump not to fire Tulsi Gabbard",
-        "description": "President Trump sounded ready to dismiss top intelligence chief Tulsi Gabbard until he got an earful last week from one of his oldest friends and advisers, Roger Stone, Axios has learned.Why it matters: Trump was displeased with Gabbard when she didn't wholeheartedly endorse the Iran war during her recent testimony to Congress about threats to the U.S., according to five advisers and confidants who spoke with the president.The day before, Gabbard",
-        "fatalities": "0",
-        "link": "https://www.axios.com/2026/04/10/trump-tulsi-gabbard-roger-stone",
-        "critical": false
-    },
-    {
-        "country": "Israel",
-        "city": "Gaza",
-        "lat": 31.44041336255793,
-        "lon": 34.42820506422132,
-        "date": "2026-04-10 12:09:04",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Judge rules slain hostage’s family may use his sperm with a surrogate",
-        "description": "Beersheba family court says Yotam Haim, who was abducted to Gaza and mistakenly killed by troops after escaping Hamas captivity, expressed 'unequivocal' desire to have children\nThe post Judge rules slain hostages family may use his sperm with a surrogate appeared first on The Times of Israel.",
-        "fatalities": "0",
-        "link": "https://www.timesofisrael.com/judge-rules-slain-hostages-family-may-use-his-sperm-with-a-surrogate-as-he-wanted/",
-        "critical": false
-    },
-    {
-        "country": "Europe",
-        "city": "Brussels",
-        "lat": 50.93753362905935,
-        "lon": 4.292562435015179,
-        "date": "2026-04-10 12:08:59",
-        "type": "Naval",
-        "severity": "normal",
-        "title": "UK’s Starmer and Trump discussed military options for Strait of Hormuz",
-        "description": "French President Emmanuel Macron also has raised the possibility of Europeans securing the crucial waterway, but only after the war ends.",
-        "fatalities": "0",
-        "link": "https://www.defensenews.com/global/europe/2026/04/10/uks-starmer-and-trump-discussed-military-options-for-strait-of-hormuz/",
         "critical": false
     }
 ]
