@@ -1,6 +1,20 @@
 [
     {
         "country": "Israel",
+        "city": "Tel Aviv",
+        "lat": 32.027269512909065,
+        "lon": 34.725878021796234,
+        "date": "2026-04-11 19:52:28",
+        "type": "Naval",
+        "severity": "normal",
+        "title": "US says Navy destroyers working to de-mine Strait of Hormuz",
+        "description": "CENTCOM says additional forces to join efforts in coming days; Iranian outlets dismiss 'fake news' after Trump says all of Iran's mining boats are 'lying at the bottom of the sea'\nThe post US says Navy destroyers working to de-mine Strait of Hormuz appeared first on The Times of Israel.",
+        "fatalities": "0",
+        "link": "https://www.timesofisrael.com/us-says-navy-destroyers-working-to-de-mine-strait-of-hormuz/",
+        "critical": false
+    },
+    {
+        "country": "Israel",
         "city": "Jerusalem",
         "lat": 31.767228619554142,
         "lon": 35.15930927111186,
@@ -3050,19 +3064,5 @@
         "fatalities": "0",
         "link": "https://www.france24.com/en/video/20260410-beirut-hospitals-overwhelmed-survivors-recount-carnage-scenes",
         "critical": true
-    },
-    {
-        "country": "Iran",
-        "city": "Tehran",
-        "lat": 35.637547690428434,
-        "lon": 51.36179508364869,
-        "date": "2026-04-10 16:33:49",
-        "type": "Naval",
-        "severity": "normal",
-        "title": "France's drone minehunters target Strait of Hormuz",
-        "description": "As the Strait of Hormuz remains at a standstill Iran has affirmed that a large part of the passage contains naval mines that will explode ships passing through. Very few companies are capable of de-mining seas. But, our colleagues at France 2 met a French one who has developed a mine hunting ship that uses high-performing drones to detect and destroy mines underwater.",
-        "fatalities": "0",
-        "link": "https://www.france24.com/en/video/20260410-france-s-drone-minehunters-target-strait-of-hormuz",
-        "critical": false
     }
 ]
