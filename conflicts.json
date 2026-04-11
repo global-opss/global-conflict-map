@@ -1,5 +1,47 @@
 [
     {
+        "country": "Israel",
+        "city": "Tel Aviv",
+        "lat": 32.12508352902448,
+        "lon": 34.79192547155431,
+        "date": "2026-04-11 16:59:27",
+        "type": "Airstrike",
+        "severity": "critical",
+        "title": "IDF and Hezbollah trade strikes, rockets as Israel and Lebanon gear up for direct talks",
+        "description": "Military says it struck over 200 targets in past day, with 2 soldiers wounded in south Lebanon combat; 10 Lebanese said killed in IDF strikes; Hezbollah blasts negotiations\nThe post IDF and Hezbollah trade strikes, rockets as Israel and Lebanon gear up for direct talks appeared first on The Times of Israel.",
+        "fatalities": "0",
+        "link": "https://www.timesofisrael.com/idf-and-hezbollah-trade-strikes-rockets-as-israel-and-lebanon-gear-up-for-direct-talks/",
+        "critical": true
+    },
+    {
+        "country": "Middle East",
+        "city": "Beirut",
+        "lat": 33.8672199785676,
+        "lon": 35.54207186277311,
+        "date": "2026-04-11 16:59:26",
+        "type": "Airstrike",
+        "severity": "critical",
+        "title": "Michigan ANG A-10s Depart Lakenheath to Bolster Middle East Forces",
+        "description": "After arriving in late March, twelve A-10C Thunderbolt IIs from Michigans 107th Fighter Squadron successfully departed RAF Lakenheath on Apr. 8 towards the U.S. Central Command region. The twelve attack jets arrived at the base, home to the U.S. Air Forces 48th Fighter Wing, on Mar. 30, 2026 as TABOR 71-76 and TABOR 81-86. They []",
+        "fatalities": "0",
+        "link": "https://theaviationist.com/2026/04/08/michigan-a10s-depart-lakenheath/",
+        "critical": true
+    },
+    {
+        "country": "Ukraine",
+        "city": "Kyiv",
+        "lat": 50.47904704748507,
+        "lon": 30.48843373685666,
+        "date": "2026-04-11 16:59:04",
+        "type": "Clashes",
+        "severity": "middle",
+        "title": "Russia-Ukraine Orthodox Easter ceasefire begins",
+        "description": "Both sides have agreed to observe the temporary truce, as US-led diplomatic efforts to end the war continue to stall.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/news/2026/4/11/russia-ukraine-orthodox-easter-ceasefire-begins?traffic_source=rss",
+        "critical": false
+    },
+    {
         "country": "Europe",
         "city": "Romania",
         "lat": 46.02281390513106,
@@ -3021,48 +3063,6 @@
         "description": "“We come with our lessons learned,” Kamyshin said. “We offer a model which is definitely beneficial for your country, for your industry, for your economy.\"",
         "fatalities": "0",
         "link": "https://www.defensenews.com/global/europe/2026/04/10/ukrainian-drone-makers-visit-paris-looking-for-co-production-deals/",
-        "critical": false
-    },
-    {
-        "country": "Russia",
-        "city": "Moscow",
-        "lat": 55.73510690863794,
-        "lon": 37.56272470762702,
-        "date": "2026-04-10 15:37:06",
-        "type": "Naval",
-        "severity": "normal",
-        "title": "UK says it deployed military to deter Russian submarines from attack on undersea cables",
-        "description": "Norway’s defense ministry said its armed forces had also deployed a P-8 maritime patrol aircraft and a frigate.",
-        "fatalities": "0",
-        "link": "https://www.defensenews.com/global/europe/2026/04/09/uk-says-it-deployed-military-to-deter-russian-submarines-from-attack-on-undersea-cables/",
-        "critical": false
-    },
-    {
-        "country": "Ukraine",
-        "city": "Kyiv",
-        "lat": 50.4218368029526,
-        "lon": 30.5097326387059,
-        "date": "2026-04-10 15:37:03",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Hungary: Is Viktor Orban Russia's 'Trojan horse' in the EU?",
-        "description": "🇭🇺 🇷🇺 🇪🇺 Is #Hungarian PM Viktor #Orban #Russia's \"Trojan horse\" in Europe?\n \n \n \n🤝 Frequent official meetings with President Vladimir #Putin, staunch opposition to European aid packages to #Ukraine, a \"Kremlin hotline\" with live updates on #EU summits - all of these factors could play into voters' considerations ahead of Hungary's legislative elections on Sunday.\n \n \n \n🔎 FRANCE 24 takes a closer look.",
-        "fatalities": "0",
-        "link": "https://www.france24.com/en/video/20260410-hungary-is-viktor-orban-russia-s-trojan-horse-in-the-eu",
-        "critical": false
-    },
-    {
-        "country": "Ukraine",
-        "city": "Kyiv",
-        "lat": 50.40877294244023,
-        "lon": 30.57443679353529,
-        "date": "2026-04-10 15:37:03",
-        "type": "Clashes",
-        "severity": "middle",
-        "title": "Hungary vote: Rising opposition threatens Orban’s grip on power",
-        "description": "Sunday’s election in Hungary could have repercussions far beyond its borders. Since Prime Minister Viktor Orban came to power in 2010, his illiberal policies have made Hungary the only EU member state classified as “partly free” by Freedom House. His close ties to Vladimir Putin have also complicated Europe’s response to the war in Ukraine. Hungary has become something of a black sheep within the EU – but also a model for far-right movements else",
-        "fatalities": "0",
-        "link": "https://www.france24.com/en/tv-shows/focus/20260410-hungary-vote-rising-opposition-threatens-orban-s-grip-on-power",
         "critical": false
     }
 ]
