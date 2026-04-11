@@ -1,5 +1,75 @@
 [
     {
+        "country": "Europe",
+        "city": "Poland",
+        "lat": 51.97552581860797,
+        "lon": 19.06124321555799,
+        "date": "2026-04-11 11:44:00",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Polish firm teams with Northrop, ST Engineering to tap Poland’s massive ammo spending",
+        "description": "Global defense firms are flocking to eastern and central Europe in hopes of capturing a multibillion-dollar market for equipping local ground forces.",
+        "fatalities": "0",
+        "link": "https://www.defensenews.com/global/europe/2026/04/08/polish-firm-teams-with-northrop-st-engineering-to-tap-polands-massive-ammo-spending/",
+        "critical": false
+    },
+    {
+        "country": "Iran",
+        "city": "Tehran",
+        "lat": 35.746015507408025,
+        "lon": 51.36842805169077,
+        "date": "2026-04-11 11:43:57",
+        "type": "Clashes",
+        "severity": "middle",
+        "title": "Who is Iran's Chief negotiator Ghalibaf?",
+        "description": "The 70-member Iranian delegation taking part in negotiations in Pakistan today is being led by one of Tehran’s most prominent non-clerical figures, Iranian Parliament Speaker Mohammad Bagher Ghalibaf. Caroline Baum takes a look at the man Iran has entrusted with securing an end to the war on terms acceptable to Tehran.",
+        "fatalities": "0",
+        "link": "https://www.france24.com/en/who-is-iran-s-chief-negotiator-ghalibaf",
+        "critical": false
+    },
+    {
+        "country": "Asia",
+        "city": "Pakistan",
+        "lat": 31.501090118625935,
+        "lon": 74.3209775442029,
+        "date": "2026-04-11 11:43:57",
+        "type": "Clashes",
+        "severity": "middle",
+        "title": "US, Iran sit down for talks in Islamabad",
+        "description": "Pakistani Prime Minister Shehbaz Sharif and US Vice President JD Vance met in Islamabad on Saturday as peace talks to end the broadening war in the Middle East got under way. The US delegation is set to meet Iranian officials later in the day. The latest updates with our France 24 correspondent Shazaib Wallah in Islamabad, Pakistan.",
+        "fatalities": "0",
+        "link": "https://www.france24.com/en/us-iran-sit-down-for-talks-in-islamabad",
+        "critical": false
+    },
+    {
+        "country": "Iran",
+        "city": "Tehran",
+        "lat": 35.74651405710258,
+        "lon": 51.349502070785185,
+        "date": "2026-04-11 11:43:57",
+        "type": "Clashes",
+        "severity": "middle",
+        "title": "Calls for tougher US bunkers, hangars go back years, analysts say",
+        "description": "The Iran war has reignited a longstanding conversation about the need for the U.S. to protect its aircraft with underground bunkers and hardened shelters.",
+        "fatalities": "0",
+        "link": "https://www.militarytimes.com/news/your-military/2026/04/06/calls-for-tougher-us-bunkers-hangars-go-back-years-analysts-say/",
+        "critical": false
+    },
+    {
+        "country": "Asia",
+        "city": "Pakistan",
+        "lat": 31.548845335332953,
+        "lon": 74.4163070140711,
+        "date": "2026-04-11 11:43:47",
+        "type": "Clashes",
+        "severity": "middle",
+        "title": "Iran War Live Updates: U.S. and Iranian Officials Meet Separately With Pakistani Mediators Ahead of Talks",
+        "description": "There was uncertainty about whether a cease-fire would hold and the two sides could reach a long-term deal.",
+        "fatalities": "0",
+        "link": "https://www.nytimes.com/live/2026/04/11/world/iran-war-trump-talks-pakistan",
+        "critical": false
+    },
+    {
         "country": "Israel",
         "city": "Tel Aviv",
         "lat": 32.10519052065008,
@@ -280,20 +350,6 @@
         "critical": false
     },
     {
-        "country": "Asia",
-        "city": "Pakistan",
-        "lat": 31.501250202180728,
-        "lon": 74.38827675856159,
-        "date": "2026-04-11 09:54:23",
-        "type": "Clashes",
-        "severity": "middle",
-        "title": "Iran War Live Updates: Vance Lands in Pakistan for Peace Talks With Iran",
-        "description": "There was uncertainty about whether a cease-fire would hold and the two sides could reach a long-term deal. Vice President JD Vance struck an optimistic but cautious tone before he left for the talks.",
-        "fatalities": "0",
-        "link": "https://www.nytimes.com/live/2026/04/11/world/iran-war-trump-talks-pakistan",
-        "critical": false
-    },
-    {
         "country": "Israel",
         "city": "Tel Aviv",
         "lat": 32.02728434692189,
@@ -320,6 +376,20 @@
         "fatalities": "0",
         "link": "https://www.nytimes.com/2026/04/11/world/canada/iran-murder-masjoody-vancouver-canada.html",
         "critical": true
+    },
+    {
+        "country": "Asia",
+        "city": "Pakistan",
+        "lat": 31.501250202180728,
+        "lon": 74.38827675856159,
+        "date": "2026-04-11 09:54:23",
+        "type": "Clashes",
+        "severity": "middle",
+        "title": "Iran War Live Updates: Vance Lands in Pakistan for Peace Talks With Iran",
+        "description": "There was uncertainty about whether a cease-fire would hold and the two sides could reach a long-term deal. Vice President JD Vance struck an optimistic but cautious tone before he left for the talks.",
+        "fatalities": "0",
+        "link": "https://www.nytimes.com/live/2026/04/11/world/iran-war-trump-talks-pakistan",
+        "critical": false
     },
     {
         "country": "Israel",
@@ -406,6 +476,20 @@
         "critical": false
     },
     {
+        "country": "Iran",
+        "city": "Tehran",
+        "lat": 35.6699348515409,
+        "lon": 51.356146075307436,
+        "date": "2026-04-11 09:01:17",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Iran leaves door open for peace talks as hunt for missing US pilot continues",
+        "description": "The prospect of a U.S. service member alive and on the run in Iran comes days after Trump threatened to bomb Iran “back to the Stone Ages.”",
+        "fatalities": "0",
+        "link": "https://www.militarytimes.com/news/pentagon-congress/2026/04/04/iran-leaves-door-open-for-peace-talks-as-hunt-for-missing-us-pilot-continues/",
+        "critical": false
+    },
+    {
         "country": "Ukraine",
         "city": "Kyiv",
         "lat": 50.42973368705022,
@@ -431,20 +515,6 @@
         "description": "Djibouti’s long-serving President Ismaïl Omar Guelleh claimed a landslide election victory on Saturday, securing a sixth consecutive term in office with nearly 98 percent of the vote.",
         "fatalities": "0",
         "link": "https://www.france24.com/en/africa/20260410-djibouti-leader-claims-sixth-straight-term",
-        "critical": false
-    },
-    {
-        "country": "Iran",
-        "city": "Tehran",
-        "lat": 35.6699348515409,
-        "lon": 51.356146075307436,
-        "date": "2026-04-11 09:01:17",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Iran leaves door open for peace talks as hunt for missing US pilot continues",
-        "description": "The prospect of a U.S. service member alive and on the run in Iran comes days after Trump threatened to bomb Iran “back to the Stone Ages.”",
-        "fatalities": "0",
-        "link": "https://www.militarytimes.com/news/pentagon-congress/2026/04/04/iran-leaves-door-open-for-peace-talks-as-hunt-for-missing-us-pilot-continues/",
         "critical": false
     },
     {
@@ -2993,76 +3063,6 @@
         "description": "French President Emmanuel Macron also has raised the possibility of Europeans securing the crucial waterway, but only after the war ends.",
         "fatalities": "0",
         "link": "https://www.defensenews.com/global/europe/2026/04/10/uks-starmer-and-trump-discussed-military-options-for-strait-of-hormuz/",
-        "critical": false
-    },
-    {
-        "country": "Europe",
-        "city": "Brussels",
-        "lat": 50.924151856663975,
-        "lon": 4.4039142567553275,
-        "date": "2026-04-10 12:08:59",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Researchers propose ‘rewilding’ Europe’s borderlands to repel enemies",
-        "description": "Restored wetlands and peat bogs can create natural barriers for invading forces while contributing to climate resilience, according to a new report.",
-        "fatalities": "0",
-        "link": "https://www.defensenews.com/global/europe/2026/04/09/researchers-propose-rewilding-europes-borderlands-to-repel-enemies/",
-        "critical": false
-    },
-    {
-        "country": "Iran",
-        "city": "Tehran",
-        "lat": 35.701018868683455,
-        "lon": 51.346273759217276,
-        "date": "2026-04-10 12:08:53",
-        "type": "Clashes",
-        "severity": "middle",
-        "title": "‘Closer to a break than ever’: Can NATO survive if Trump pulls the US out?",
-        "description": "The war in Iran has deepened a rift in the transatlantic alliance, raising questions about whether it can endure.",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/news/2026/4/10/closer-to-a-break-than-ever-can-nato-survive-if-trump-pulls-the-us-out?traffic_source=rss",
-        "critical": false
-    },
-    {
-        "country": "Ukraine",
-        "city": "Kyiv",
-        "lat": 50.4383660540755,
-        "lon": 30.544711792182298,
-        "date": "2026-04-10 12:08:52",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Russia and Ukraine agree to Orthodox Easter truce",
-        "description": "Vladimir Putin announced the truce, which will last from Saturday afternoon through Easter Sunday.",
-        "fatalities": "0",
-        "link": "https://www.bbc.com/news/articles/cn0wkkwev2vo?at_medium=RSS&at_campaign=rss",
-        "critical": false
-    },
-    {
-        "country": "Russia",
-        "city": "Moscow",
-        "lat": 55.73583224438058,
-        "lon": 37.613832541342276,
-        "date": "2026-04-10 12:08:51",
-        "type": "Naval",
-        "severity": "normal",
-        "title": "3 Russian Submarines Detected Near Britain Were Spying, U.K. Says",
-        "description": "John Healey, the defense secretary, said the vessels were gathering information about undersea pipelines, and said he believed President Vladimir V. Putin “would want us to be distracted by the Middle East.”",
-        "fatalities": "0",
-        "link": "https://www.nytimes.com/2026/04/09/world/europe/uk-russia-submarines-cables.html",
-        "critical": false
-    },
-    {
-        "country": "Europe",
-        "city": "Brussels",
-        "lat": 50.94798514148912,
-        "lon": 4.384618104549178,
-        "date": "2026-04-10 11:30:45",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Аэропортам ЕС предсказали систематическую нехватку авиатоплива",
-        "description": "Аэропорты Евросоюза могут столкнуться с систематической нехваткой топлива, если его поставки не возобновятся по Ормузскому проливу в течение трех недель, пишет Financial Times со ссылкой на европейское отделение Международного совета аэропортов (ACI Europe).\"Если судоходство по Ормузскому проливу не возобновится в значительной и стабильной степени в течении трех недель, то систематическая нехватка авиатоплива станет реальностью для ЕС\", - говорит",
-        "fatalities": "0",
-        "link": "https://www.interfax.ru/business/1083241",
         "critical": false
     }
 ]
