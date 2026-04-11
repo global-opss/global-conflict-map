@@ -1,5 +1,47 @@
 [
     {
+        "country": "Middle East",
+        "city": "Damascus",
+        "lat": 33.51426792921738,
+        "lon": 36.23639526980488,
+        "date": "2026-04-11 22:16:06",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Five arrested as Syria says it foiled Hezbollah-linked plot to kill Damascus rabbi",
+        "description": "Ministry says suspects tried to plant bomb next to target's home, adds they 'received specialized military training abroad'; Syria source: Act shows Jewish community being protected\nThe post Five arrested as Syria says it foiled Hezbollah-linked plot to kill Damascus rabbi appeared first on The Times of Israel.",
+        "fatalities": "0",
+        "link": "https://www.timesofisrael.com/five-arrested-as-syria-says-it-foiled-hezbollah-linked-plot-to-kill-damascus-rabbi/",
+        "critical": false
+    },
+    {
+        "country": "Europe",
+        "city": "London",
+        "lat": 51.532398797237526,
+        "lon": -0.11761364995481469,
+        "date": "2026-04-11 22:15:49",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "LIVE: Tyson Fury beats Arslanbek Makhmudov – heavyweight boxing match",
+        "description": "Follow the build-up, analysis and live text commentary from the main card as Fury fights Makhmudov in London.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/sports/liveblog/2026/4/11/live-tyson-fury-vs-arslanbek-makhmudov-heavyweight-boxing-match?traffic_source=rss",
+        "critical": false
+    },
+    {
+        "country": "USA",
+        "city": "Washington",
+        "lat": 38.935541569073095,
+        "lon": -76.99653808064272,
+        "date": "2026-04-11 22:15:38",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Prosecutor probes abuse claims against California governor candidate Swalwell",
+        "description": "The high-profile Democrat, a leading contender in California's governor race, has firmly denied the accusations.",
+        "fatalities": "0",
+        "link": "https://www.bbc.com/news/articles/c7vq0jnn0yro?at_medium=RSS&at_campaign=rss",
+        "critical": false
+    },
+    {
         "country": "USA",
         "city": "New york",
         "lat": 40.73738903445121,
@@ -3021,48 +3063,6 @@
         "description": "The U.S.-Iran ceasefire locks in a harsh reality: an entrenched, radical government with control over the Strait of Hormuz.",
         "fatalities": "0",
         "link": "https://www.defensenews.com/news/your-military/2026/04/08/as-us-claims-victory-iran-emerges-bruised-but-with-leverage-over-hormuz/",
-        "critical": false
-    },
-    {
-        "country": "Iran",
-        "city": "Tehran",
-        "lat": 35.73078916188509,
-        "lon": 51.45603729448109,
-        "date": "2026-04-10 17:31:31",
-        "type": "Clashes",
-        "severity": "middle",
-        "title": "13 US troops killed, more than 380 wounded in Operation Epic Fury",
-        "description": "In the 40 days since the start of the Iran War, 13 U.S. service members have been killed and 381 have been wounded, according to U.S. Central Command.",
-        "fatalities": "0",
-        "link": "https://www.militarytimes.com/news/your-military/2026/04/08/pentagon-data-13-us-troops-killed-346-wounded-in-operation-epic-fury/",
-        "critical": false
-    },
-    {
-        "country": "Ukraine",
-        "city": "Kyiv",
-        "lat": 50.49828336881248,
-        "lon": 30.589244621385127,
-        "date": "2026-04-10 17:31:31",
-        "type": "Naval",
-        "severity": "normal",
-        "title": "'Trump harbors an unexplained sympathy for Vladimir Putin', Ukrainian analyst says",
-        "description": "Ukrainian leadership on April 8 hailed the two-week ceasefire reached between the U.S. and Iran but stressed it is time to pressure Russia to end its war in Ukraine as well. Speaking with FRANCE 24's Mark Owen, Peter Zalmayev, Founder and Director of the Eurasia Democracy Initiative, says that the reluctance of Donald Trump to strongarm Russia into ending the war raises questions about the nature of the relationship between Trump and Vladimir Put",
-        "fatalities": "0",
-        "link": "https://www.france24.com/en/trump-harbors-an-unexplained-sympathy-for-vladimir-putin-ukrainian-analyst-says",
-        "critical": false
-    },
-    {
-        "country": "USA",
-        "city": "Hawaii",
-        "lat": 19.62504937905837,
-        "lon": -155.48456078908,
-        "date": "2026-04-10 17:31:27",
-        "type": "Explosion",
-        "severity": "middle",
-        "title": "Hawaii’s Kilauea erupts, blasting lava sky-high",
-        "description": "Lava shot into the air, illuminating the night sky, as Hawaii’s Kīlauea volcano erupted.",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/video/newsfeed/2026/4/10/hawaiis-kilauea-erupts-blasting-lava-sky-high?traffic_source=rss",
         "critical": false
     }
 ]
