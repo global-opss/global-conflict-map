@@ -1,6 +1,34 @@
 [
     {
         "country": "USA",
+        "city": "Washington",
+        "lat": 38.86645747227721,
+        "lon": -77.04700509518369,
+        "date": "2026-04-12 21:49:55",
+        "type": "Clashes",
+        "severity": "middle",
+        "title": "Chilean KC-135 Tanker Refuels USAF F-35As on their Way to FIDAE 2026 Expo",
+        "description": "For the first time, a Chilean KC-135 refueled two U.S. F-35s that will take part in FIDAE 2026, marking the traditionally strong strategic ties between Chile and the U.S. A Chilean Air Force (Fuerza Aérea de Chile  FACh) KC-135E tanker aircraft refueled two U.S. Air Force F-35A Lightning IIs for the first time, the []",
+        "fatalities": "0",
+        "link": "https://theaviationist.com/2026/04/07/chilean-kc-135-tanker-refuels-usaf-f-35s/",
+        "critical": false
+    },
+    {
+        "country": "USA",
+        "city": "Washington",
+        "lat": 38.919261906483975,
+        "lon": -77.03369950442982,
+        "date": "2026-04-12 21:49:40",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Prosecutor probes abuse claims against California governor candidate Swalwell",
+        "description": "The high-profile Democrat, a leading contender in California's governor race, firmly denies the accusations.",
+        "fatalities": "0",
+        "link": "https://www.bbc.com/news/articles/c7vq0jnn0yro?at_medium=RSS&at_campaign=rss",
+        "critical": false
+    },
+    {
+        "country": "USA",
         "city": "New york",
         "lat": 40.77122786713602,
         "lon": -73.99694607319319,
@@ -240,20 +268,6 @@
     {
         "country": "Iran",
         "city": "Tehran",
-        "lat": 35.729686611924016,
-        "lon": 51.42582135693276,
-        "date": "2026-04-12 20:38:11",
-        "type": "Clashes",
-        "severity": "middle",
-        "title": "Iran’s Underground Air Force Base Was Hit Earlier in the War",
-        "description": "Satellite imagery shows impact craters at and near the tunnel entrances to aircraft shelters at Iran’s remote “Eagle 44” base.",
-        "fatalities": "0",
-        "link": "https://www.nytimes.com/2026/04/12/world/middleeast/iran-underground-air-force-base.html",
-        "critical": false
-    },
-    {
-        "country": "Iran",
-        "city": "Tehran",
         "lat": 35.66413905643478,
         "lon": 51.449111540316856,
         "date": "2026-04-12 20:38:11",
@@ -264,6 +278,20 @@
         "fatalities": "0",
         "link": "https://www.bbc.com/news/articles/c8dl5mly2rzo?at_medium=RSS&at_campaign=rss",
         "critical": true
+    },
+    {
+        "country": "Iran",
+        "city": "Tehran",
+        "lat": 35.729686611924016,
+        "lon": 51.42582135693276,
+        "date": "2026-04-12 20:38:11",
+        "type": "Clashes",
+        "severity": "middle",
+        "title": "Iran’s Underground Air Force Base Was Hit Earlier in the War",
+        "description": "Satellite imagery shows impact craters at and near the tunnel entrances to aircraft shelters at Iran’s remote “Eagle 44” base.",
+        "fatalities": "0",
+        "link": "https://www.nytimes.com/2026/04/12/world/middleeast/iran-underground-air-force-base.html",
+        "critical": false
     },
     {
         "country": "USA",
@@ -3035,34 +3063,6 @@
         "description": "Iranian media claims fresh round of negotiations could be 'last opportunity' to find common ground, as president insists Washington has won 'regardless' of outcome in Pakistan\nThe post US-Iran talks move to third round as Trump claims no difference to him if deal reached appeared first on The Times of Israel.",
         "fatalities": "0",
         "link": "https://www.timesofisrael.com/us-iran-talks-move-to-third-round-as-trump-claims-no-difference-to-him-if-deal-reached/",
-        "critical": false
-    },
-    {
-        "country": "Iran",
-        "city": "Tehran",
-        "lat": 35.6886363064549,
-        "lon": 51.40311714685618,
-        "date": "2026-04-11 22:55:02",
-        "type": "Clashes",
-        "severity": "middle",
-        "title": "13 US troops killed, more than 380 wounded in Operation Epic Fury",
-        "description": "In the 40 days since the start of the Iran War, 13 U.S. service members have been killed and 381 have been wounded, according to U.S. Central Command.",
-        "fatalities": "0",
-        "link": "https://www.militarytimes.com/news/your-military/2026/04/08/pentagon-data-13-us-troops-killed-346-wounded-in-operation-epic-fury/",
-        "critical": false
-    },
-    {
-        "country": "Iran",
-        "city": "Tehran",
-        "lat": 35.63658762316823,
-        "lon": 51.33155071519823,
-        "date": "2026-04-11 22:54:50",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "US President Trump says US ‘wins’ regardless of how Iran talks go",
-        "description": "US President Donald Trump says ‘we win regardless of what happens’ in Iran talks.",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/video/newsfeed/2026/4/11/us-president-trump-says-us-wins-regardless-of-how-iran-talks-go?traffic_source=rss",
         "critical": false
     }
 ]
