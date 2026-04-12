@@ -1,5 +1,19 @@
 [
     {
+        "country": "Iran",
+        "city": "Tehran",
+        "lat": 35.71339036391724,
+        "lon": 51.40384131781356,
+        "date": "2026-04-12 00:03:23",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "US-Iran talks extended into Sunday as Trump claims ‘no difference’ to him if deal reached",
+        "description": "Tehran claims 'serious disagreements' remain after 15 hours of negotiations that lasted into the night, as president insists Washington has won 'regardless' of outcome in Pakistan\nThe post US-Iran talks extended into Sunday as Trump claims no difference to him if deal reached appeared first on The Times of Israel.",
+        "fatalities": "0",
+        "link": "https://www.timesofisrael.com/us-iran-talks-move-to-third-round-as-trump-claims-no-difference-to-him-if-deal-reached/",
+        "critical": false
+    },
+    {
         "country": "Israel",
         "city": "Tel Aviv",
         "lat": 32.066093336901055,
@@ -3049,20 +3063,6 @@
         "description": "Vice President Vance said Wednesday Israel has proposed to restrain itself when it comes to strikes in Lebanon as long as the negotiations between the U.S. and Iran are taking place.   Why it matters: The Israeli military's renewed attacks in Lebanon posed an immediate challenge to the stability of the ceasefire and led Iran to threaten to pull out of negotiations with the U.S. planned for Saturday. At least 254 people have been killed in Israel'",
         "fatalities": "0",
         "link": "https://www.axios.com/2026/04/08/lebanon-attacks-israel-iran-ceasfire",
-        "critical": false
-    },
-    {
-        "country": "USA",
-        "city": "Washington",
-        "lat": 38.82843472282008,
-        "lon": -77.033754726718,
-        "date": "2026-04-10 18:31:28",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Former IS group child ‘fighters’ jailed in Iraq seek repatriation to France",
-        "description": "Three Frenchmen who were taken to Syria by their jihadist parents as children and forced to work for the Islamic State (IS) group are seeking repatriation, their lawyer said on Friday. The men are among thousands of IS group \"fighters\" who are being held in Iraq after being transferred from Syria earlier this year.",
-        "fatalities": "0",
-        "link": "https://www.france24.com/en/middle-east/20260410-former-is-group-child-fighters-jailed-in-iraq-seek-repatriation-to-france",
         "critical": false
     }
 ]
