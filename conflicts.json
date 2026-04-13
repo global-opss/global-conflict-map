@@ -1,5 +1,61 @@
 [
     {
+        "country": "USA",
+        "city": "New york",
+        "lat": 40.71055093602231,
+        "lon": -74.00698452173525,
+        "date": "2026-04-13 23:47:50",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "США настаивают на приостановке Ираном обогащения урана на 20 лет",
+        "description": "Представители США во время переговоров с иранскими чиновниками в Исламабаде в минувшие выходные просили Тегеран приостановить обогащение урана на 20 лет, но получили отказ, сообщает The New York Times со ссылкой на осведомленные источники.\"Во время мирных переговоров в Исламабаде в минувшие выходные Соединенные Штаты попросили Иран приостановить обогащение урана на 20 лет\", - пишет издание.",
+        "fatalities": "0",
+        "link": "https://www.interfax.ru/world/1083774",
+        "critical": false
+    },
+    {
+        "country": "Asia",
+        "city": "Pakistan",
+        "lat": 31.560320123763933,
+        "lon": 74.36110516407419,
+        "date": "2026-04-13 23:47:28",
+        "type": "Airstrike",
+        "severity": "critical",
+        "title": "Trump unleashes tirade against \"weak,\" \"terrible\" Pope Leo",
+        "description": "President Trump lashed out against Pope Leo XIV on Sunday night, calling him \"WEAK on Crime, and terrible for Foreign Policy\" and accusing him of \"catering to the Radical Left.\"The big picture: Trump's comments escalate already high tensions between the president and the first U.S.-born pope, who has increasingly spoken out on Trump administration immigration policies and the Iran war.Driving the news: Trump attacked Leo in a lengthy Truth Social",
+        "fatalities": "0",
+        "link": "https://www.axios.com/2026/04/13/trump-pope-leo-weak-terrible",
+        "critical": true
+    },
+    {
+        "country": "Asia",
+        "city": "Pakistan",
+        "lat": 31.51536612742676,
+        "lon": 74.37117706308311,
+        "date": "2026-04-13 23:47:28",
+        "type": "Clashes",
+        "severity": "middle",
+        "title": "Vance: Lots of progress made in Pakistan talks, there could be ‘a grand deal’ but ball is in Iran’s court",
+        "description": "American VP says the Islamic Republic must abandon its pursuit of nukes and terror 'to be a normal country economically' * US energy chief warns oil prices likely to rise until ‘meaningful’ traffic resumes through Hormuz\nThe post Vance: Lots of progress made in Pakistan talks, there could be ‘a grand deal’ but ball is in Iran’s court appeared first on The Times of Israel.",
+        "fatalities": "0",
+        "link": "https://www.timesofisrael.com/liveblog-april-14-2026/",
+        "critical": false
+    },
+    {
+        "country": "USA",
+        "city": "Washington",
+        "lat": 38.86877188738609,
+        "lon": -77.02721552111545,
+        "date": "2026-04-13 23:46:56",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Hezbollah leader urges Lebanon’s government to pull out of Israel talks",
+        "description": "Naim Qassem says planned talks in Washington, DC, are a ploy to pressure Hezbollah into laying down its weapons.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/news/2026/4/13/hezbollah-leader-urges-lebanon-government-to-pull-out-of-israel-talks?traffic_source=rss",
+        "critical": false
+    },
+    {
         "country": "Israel",
         "city": "Tel Aviv",
         "lat": 32.12908190230302,
@@ -896,20 +952,6 @@
         "critical": false
     },
     {
-        "country": "Middle East",
-        "city": "Red sea",
-        "lat": 27.17991832509874,
-        "lon": 33.84343135891187,
-        "date": "2026-04-13 17:38:52",
-        "type": "Naval",
-        "severity": "normal",
-        "title": "Trump pitches Iran blockade as boon to U.S. oil",
-        "description": "President Trump is pairing his Iran blockade with a sales pitch: Countries squeezed by the Strait of Hormuz — especially China — should buy more oil from the U.S. instead.Why it matters: The U.S. rise to become the world's largest oil and gas producer — and largest exporter of liquefied natural gas — provides geopolitical leverage that Trump is attempting to wield.Driving the news: \"China can send their ships to us. China can send their ships to ",
-        "fatalities": "0",
-        "link": "https://www.axios.com/2026/04/12/trump-blockade-us-oil-exports-strait-hormuz-iran",
-        "critical": false
-    },
-    {
         "country": "Israel",
         "city": "Tel Aviv",
         "lat": 32.075210405706066,
@@ -921,6 +963,20 @@
         "description": "8 ex-employees of cement implicated, including former CEO Bruno Lafont, who is handed 6-year prison sentence over payments to Islamic State from 2013 to 2014\nThe post French company Lafarge found guilty of paying $6.54 million to jihadists in Syria appeared first on The Times of Israel.",
         "fatalities": "0",
         "link": "https://www.timesofisrael.com/french-company-lafarge-found-guilty-of-paying-6-54-million-to-jihadists-in-syria/",
+        "critical": false
+    },
+    {
+        "country": "Middle East",
+        "city": "Red sea",
+        "lat": 27.17991832509874,
+        "lon": 33.84343135891187,
+        "date": "2026-04-13 17:38:52",
+        "type": "Naval",
+        "severity": "normal",
+        "title": "Trump pitches Iran blockade as boon to U.S. oil",
+        "description": "President Trump is pairing his Iran blockade with a sales pitch: Countries squeezed by the Strait of Hormuz — especially China — should buy more oil from the U.S. instead.Why it matters: The U.S. rise to become the world's largest oil and gas producer — and largest exporter of liquefied natural gas — provides geopolitical leverage that Trump is attempting to wield.Driving the news: \"China can send their ships to us. China can send their ships to ",
+        "fatalities": "0",
+        "link": "https://www.axios.com/2026/04/12/trump-blockade-us-oil-exports-strait-hormuz-iran",
         "critical": false
     },
     {
@@ -3008,61 +3064,5 @@
         "fatalities": "0",
         "link": "https://www.france24.com/en/video/20260413-fidesz-mep-l%C3%A1szl%C3%B3-attributes-loss-to-low-turnout-of-undecided-voters-and-eu-economic-stagnation",
         "critical": true
-    },
-    {
-        "country": "Israel",
-        "city": "Tel Aviv",
-        "lat": 32.106729630045784,
-        "lon": 34.782407288974376,
-        "date": "2026-04-13 06:34:46",
-        "type": "Airstrike",
-        "severity": "critical",
-        "title": "‘Terrible for foreign policy’: Trump attacks Pope Leo after peace appeal",
-        "description": "Leo, ​who last year became the first US-born pope, has emerged as an outspoken critic of the US-Israeli ⁠war on Iran.",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/news/2026/4/13/terrible-for-foreign-policy-trump-attacks-pope-leo-after-peace-appeal?traffic_source=rss",
-        "critical": true
-    },
-    {
-        "country": "Iran",
-        "city": "Tehran",
-        "lat": 35.75435645890637,
-        "lon": 51.35105840474261,
-        "date": "2026-04-13 06:34:44",
-        "type": "Airstrike",
-        "severity": "critical",
-        "title": "Trump's threat raises risks and leaves predicaments unchanged",
-        "description": "The conflict is now a test of wills - Iran’s capacity to absorb strikes versus Trump’s tolerance for the war's costs.",
-        "fatalities": "0",
-        "link": "https://www.bbc.com/news/articles/c8dl5mly2rzo?at_medium=RSS&at_campaign=rss",
-        "critical": true
-    },
-    {
-        "country": "Iran",
-        "city": "Tehran",
-        "lat": 35.68234589683134,
-        "lon": 51.37126600462017,
-        "date": "2026-04-13 06:34:40",
-        "type": "Naval",
-        "severity": "normal",
-        "title": "U.S. to Blockade Ships From Iranian Ports",
-        "description": "The blockade on ships “entering or departing Iranian ports and coastal areas” will begin on Monday, U.S. Central Command said. But U.S. forces will not impede vessels transiting the Strait of Hormuz, a step back from President Trump’s earlier vow.",
-        "fatalities": "0",
-        "link": "https://www.nytimes.com/live/2026/04/12/world/iran-war-trump-talks-pakistan",
-        "critical": false
-    },
-    {
-        "country": "Africa",
-        "city": "Khartoum",
-        "lat": 15.458147695338909,
-        "lon": 32.581347222457865,
-        "date": "2026-04-13 04:32:45",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "В Танзании началась борьба с волной самосудов после слухов о краже гениталий",
-        "description": "Десять жителей Танзании попали за решетку по обвинению в распространении слухов о краже гениталий, что в итоге вызвало волну самосудов на острове Занзибар. Об этом пишет портал Nation Africa.",
-        "fatalities": "0",
-        "link": "https://rg.ru/2026/04/13/v-tanzanii-arestovali-desiateryh-muzhchin-raspustivshih-sluhi-o-krazhe-genitalij.html",
-        "critical": false
     }
 ]
