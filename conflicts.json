@@ -1,5 +1,61 @@
 [
     {
+        "country": "Israel",
+        "city": "Tel Aviv",
+        "lat": 32.14395058352851,
+        "lon": 34.801971119850656,
+        "date": "2026-04-14 22:02:41",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Knesset finance panel approves nearly NIS 100M in additional funds for Haredi schools",
+        "description": "Yesh Atid accuses 'draft dodgers and the corrupt' of prioritizing schools that don't teach core curriculum, while ultra-Orthodox MK claims the community has the best schools\nThe post Knesset finance panel approves nearly NIS 100M in additional funds for Haredi schools appeared first on The Times of Israel.",
+        "fatalities": "0",
+        "link": "https://www.timesofisrael.com/knesset-finance-panel-approves-nearly-nis-100m-in-additional-funds-for-haredi-schools/",
+        "critical": false
+    },
+    {
+        "country": "USA",
+        "city": "Washington",
+        "lat": 38.878963837969955,
+        "lon": -77.10517749918347,
+        "date": "2026-04-14 22:02:39",
+        "type": "Clashes",
+        "severity": "middle",
+        "title": "Chilean KC-135 Tanker Refuels USAF F-35As on their Way to FIDAE 2026 Expo",
+        "description": "For the first time, a Chilean KC-135 refueled two U.S. F-35s that will take part in FIDAE 2026, marking the traditionally strong strategic ties between Chile and the U.S. A Chilean Air Force (Fuerza Aérea de Chile  FACh) KC-135E tanker aircraft refueled two U.S. Air Force F-35A Lightning IIs for the first time, the []",
+        "fatalities": "0",
+        "link": "https://theaviationist.com/2026/04/07/chilean-kc-135-tanker-refuels-usaf-f-35s/",
+        "critical": false
+    },
+    {
+        "country": "Iran",
+        "city": "Tehran",
+        "lat": 35.69514022366098,
+        "lon": 51.44903366174637,
+        "date": "2026-04-14 22:02:29",
+        "type": "Clashes",
+        "severity": "middle",
+        "title": "13 US troops killed, more than 380 wounded in Operation Epic Fury",
+        "description": "In the 40 days since the start of the Iran War, 13 U.S. service members have been killed and 381 have been wounded, according to U.S. Central Command.",
+        "fatalities": "0",
+        "link": "https://www.militarytimes.com/news/your-military/2026/04/08/pentagon-data-13-us-troops-killed-346-wounded-in-operation-epic-fury/",
+        "critical": false
+    },
+    {
+        "country": "Iran",
+        "city": "Tehran",
+        "lat": 35.74293937150841,
+        "lon": 51.396301156669935,
+        "date": "2026-04-14 22:02:16",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Trump Says 2nd Round of U.S.-Iran Talks Could Take Place This Week",
+        "description": "The president did not say who would represent the United States in a potential next round of direct talks, though he ruled out being personally involved.",
+        "fatalities": "0",
+        "link": "https://www.nytimes.com/2026/04/14/world/middleeast/us-iran-talks-trump.html",
+        "critical": false
+    },
+    {
         "country": "Iran",
         "city": "Tehran",
         "lat": 35.697981454795475,
@@ -224,20 +280,6 @@
         "critical": false
     },
     {
-        "country": "USA",
-        "city": "New york",
-        "lat": 40.65406855389406,
-        "lon": -73.93740086736192,
-        "date": "2026-04-14 21:05:35",
-        "type": "Naval",
-        "severity": "normal",
-        "title": "King Charles III and Queen Camilla Will Visit D.C., New York and Virginia",
-        "description": "The planned four-day state visit comes at a fraught time in the U.S.-U.K. relationship, following President Trump’s frequent belittling of the British prime minister.",
-        "fatalities": "0",
-        "link": "https://www.nytimes.com/2026/04/14/world/europe/king-charles-queen-camilla-us-visit.html",
-        "critical": false
-    },
-    {
         "country": "Ukraine",
         "city": "Kyiv",
         "lat": 50.40036119017326,
@@ -249,6 +291,20 @@
         "description": "Russia has offered \"pragmatic\" relations, but Péter Magyar says he will not call Vladimir Putin himself.",
         "fatalities": "0",
         "link": "https://www.bbc.com/news/articles/cd6lzezp4zvo?at_medium=RSS&at_campaign=rss",
+        "critical": false
+    },
+    {
+        "country": "USA",
+        "city": "New york",
+        "lat": 40.65406855389406,
+        "lon": -73.93740086736192,
+        "date": "2026-04-14 21:05:35",
+        "type": "Naval",
+        "severity": "normal",
+        "title": "King Charles III and Queen Camilla Will Visit D.C., New York and Virginia",
+        "description": "The planned four-day state visit comes at a fraught time in the U.S.-U.K. relationship, following President Trump’s frequent belittling of the British prime minister.",
+        "fatalities": "0",
+        "link": "https://www.nytimes.com/2026/04/14/world/europe/king-charles-queen-camilla-us-visit.html",
         "critical": false
     },
     {
@@ -3007,62 +3063,6 @@
         "description": "США на переговорах в Исламабаде потребовали от Ирана приостановить обогащение урана на 20 лет, пишет The New York Times (NYT) со ссылкой на источники. Власти Ирана согласились на приостановку до пяти лет.",
         "fatalities": "0",
         "link": "https://www.kommersant.ru/doc/8588482",
-        "critical": false
-    },
-    {
-        "country": "USA",
-        "city": "Washington",
-        "lat": 38.88767991306694,
-        "lon": -77.00004943654622,
-        "date": "2026-04-14 01:11:33",
-        "type": "Airstrike",
-        "severity": "critical",
-        "title": "Rubio to host Israeli and Lebanese ambassadors for talks amid ceasefire effort",
-        "description": "Secretary of State Marco Rubio will host on Tuesday a meeting between the Israeli and Lebanese ambassadors in Washington, D.C., to launch direct negotiations between the countries.Why it matters: The talks, which will take place amid fighting between Israel and Hezbollah and a wide-ranging Israeli ground invasion in southern Lebanon, are going to focus on the possibility of a ceasefire and on longer term disarming of Hezbollah, along with a peace",
-        "fatalities": "0",
-        "link": "https://www.axios.com/2026/04/14/iran-war-peace-talks-rubio-israel-lebanon-ambassadors",
-        "critical": true
-    },
-    {
-        "country": "Asia",
-        "city": "Host",
-        "lat": 33.314846653975366,
-        "lon": 69.87149998228271,
-        "date": "2026-04-14 01:11:33",
-        "type": "Naval",
-        "severity": "normal",
-        "title": "Christians condemn Trump post depicting him as Jesus-like figure",
-        "description": "Christians, including some prominent Trump administration allies, have expressed discomfort over President Trump's Sunday evening post that appeared to depict him as a Jesus-like figure. The big picture: Trump has repeatedly risked aggravating the Christian voter base that helped put him back into the White House, as some faith leaders — including the first American pontiff — have staunchly rebuked some of the president's rhetoric and policies.A ",
-        "fatalities": "0",
-        "link": "https://www.axios.com/2026/04/13/trump-jesus-post-truth-social-backlash",
-        "critical": false
-    },
-    {
-        "country": "Israel",
-        "city": "Tel Aviv",
-        "lat": 32.151152626738735,
-        "lon": 34.73450005066158,
-        "date": "2026-04-14 01:11:33",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "How an oath by Buchenwald survivors is being used to fuel anti-Israel protests",
-        "description": "As the pro-Palestinian group 'Kufiyas in Buchenwald' is blocked from demonstrating outside the notorious Nazi concentration camp ahead of Yom Hashoah, a debate about the site’s history resurfaces\nThe post How an oath by Buchenwald survivors is being used to fuel anti-Israel protests appeared first on The Times of Israel.",
-        "fatalities": "0",
-        "link": "https://www.timesofisrael.com/how-an-oath-by-buchenwald-survivors-is-being-used-to-fuel-anti-israel-protests/",
-        "critical": false
-    },
-    {
-        "country": "Israel",
-        "city": "Tel Aviv",
-        "lat": 32.03437931353695,
-        "lon": 34.75653760329028,
-        "date": "2026-04-14 01:11:33",
-        "type": "Naval",
-        "severity": "normal",
-        "title": "US positions warships in region as it moves to enforce naval blockade of Iran",
-        "description": "CENTCOM tells seafarers it's still working out how blockade 'will be applied in practice,' warns ships trying to leave or enter Iranian ports without permission are subject to capture\nThe post US positions warships in region as it moves to enforce naval blockade of Iran appeared first on The Times of Israel.",
-        "fatalities": "0",
-        "link": "https://www.timesofisrael.com/us-positions-warships-in-region-as-it-moves-to-enforce-naval-blockade-of-iran/",
         "critical": false
     }
 ]
