@@ -1,5 +1,47 @@
 [
     {
+        "country": "Israel",
+        "city": "Tel Aviv",
+        "lat": 32.09642489163986,
+        "lon": 34.83299814875629,
+        "date": "2026-04-15 23:54:06",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Israeli artist adopts classical motifs to frame contemporary trauma in new exhibit",
+        "description": "'Yudith Levin: Break of Dawn' at the Israel Museum features her work over 50 years, from her brother's 1956 death in a military plane crash through the Oct. 7 Hamas atrocities\nThe post Israeli artist adopts classical motifs to frame contemporary trauma in new exhibit appeared first on The Times of Israel.",
+        "fatalities": "0",
+        "link": "https://www.timesofisrael.com/israeli-artist-adopts-classical-motifs-to-frame-contemporary-trauma-in-new-exhibit/",
+        "critical": false
+    },
+    {
+        "country": "Israel",
+        "city": "Tel Aviv",
+        "lat": 32.07957980604553,
+        "lon": 34.78738265822107,
+        "date": "2026-04-15 23:53:45",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Israel bombs homes in southern Lebanon",
+        "description": "The Israeli army has bombed buildings in southern Lebanon’s Bint Jbeil district.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/video/newsfeed/2026/4/15/israel-bombs-homes-in-southern-lebanon?traffic_source=rss",
+        "critical": false
+    },
+    {
+        "country": "Europe",
+        "city": "London",
+        "lat": 51.568575580800285,
+        "lon": -0.23661934492754166,
+        "date": "2026-04-15 23:53:42",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Shakespeare Bought One Property in London. Now We Know Exactly Where.",
+        "description": "In confirming the precise location of William Shakespeare’s Blackfriars house, a British scholar raises fresh questions about what he intended to do with it.",
+        "fatalities": "0",
+        "link": "https://www.nytimes.com/2026/04/15/world/europe/shakespeare-london-property-house.html",
+        "critical": false
+    },
+    {
         "country": "USA",
         "city": "Washington",
         "lat": 38.90094357771729,
@@ -3021,48 +3063,6 @@
         "description": "US Central Command say more than 10,000 armed forces members, as well as warships and planes, are involved in blockade.",
         "fatalities": "0",
         "link": "https://www.aljazeera.com/economy/2026/4/15/us-military-says-blockade-of-iran-ports-completely-halts-economic-trade?traffic_source=rss",
-        "critical": false
-    },
-    {
-        "country": "USA",
-        "city": "New york",
-        "lat": 40.69557445205566,
-        "lon": -73.98593992864038,
-        "date": "2026-04-15 07:08:50",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "How a Times Reporter Has Covered a Turbulent Period in Latin America",
-        "description": "Frances Robles, an international correspondent for The New York Times, has reported on the region for more than 25 years.",
-        "fatalities": "0",
-        "link": "https://www.nytimes.com/2026/04/15/insider/francine-robles-new-york-times.html",
-        "critical": false
-    },
-    {
-        "country": "Iran",
-        "city": "Tehran",
-        "lat": 35.759178197587104,
-        "lon": 51.321664102122746,
-        "date": "2026-04-15 07:08:47",
-        "type": "Clashes",
-        "severity": "middle",
-        "title": "Europe Is Desperate for More Energy. Can Norway Come to the Rescue?",
-        "description": "The war in Iran has once again exposed Europe’s energy vulnerability. A friendly source at home would seem to be ideal. But it’s not that easy.",
-        "fatalities": "0",
-        "link": "https://www.nytimes.com/2026/04/14/world/europe/norway-oil-europe-war.html",
-        "critical": false
-    },
-    {
-        "country": "USA",
-        "city": "Washington",
-        "lat": 38.827026958351254,
-        "lon": -76.99694972415664,
-        "date": "2026-04-15 07:08:47",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Northern Mariana Islands, Guam On Alert for ‘Extremely Dangerous’ Super Typhoon Sinlaku",
-        "description": "The storm, named Sinlaku, was expected to make landfall on Tuesday evening in Tinian and Saipan, where tens of thousands of people were urged to shelter in place.",
-        "fatalities": "0",
-        "link": "https://www.nytimes.com/2026/04/14/world/asia/typhoon-sinlaku-guam-mariana.html",
         "critical": false
     }
 ]
