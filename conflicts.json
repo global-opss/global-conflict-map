@@ -1,5 +1,61 @@
 [
     {
+        "country": "USA",
+        "city": "Pentagon",
+        "lat": 38.905710434156184,
+        "lon": -77.06251289830615,
+        "date": "2026-04-17 20:30:33",
+        "type": "Airstrike",
+        "severity": "critical",
+        "title": "Trump officials negotiating access to Anthropic's Mythos despite blacklist",
+        "description": "The White House and Anthropic are in active discussions about deploying the AI firm's powerful new model, Mythos Preview, within the federal government despite ongoing efforts to blacklist the company as a supply chain risk, sources familiar with the discussions tell Axios. Why it matters: Anthropic is in a bitter feud with the Pentagon, but even U.S. officials who dislike the company concede that it's building tools that could aid U.S. national ",
+        "fatalities": "0",
+        "link": "https://www.axios.com/2026/04/16/white-house-anthropic-ai-mythos-government-national-security",
+        "critical": true
+    },
+    {
+        "country": "USA",
+        "city": "Washington",
+        "lat": 38.925166255051565,
+        "lon": -77.07316051811306,
+        "date": "2026-04-17 20:30:31",
+        "type": "Airstrike",
+        "severity": "critical",
+        "title": "Trump shocked Netanyahu with post declaring Lebanon strikes \"prohibited\"",
+        "description": "Israel asked the White House for clarifications about President Trump's post that Israel was \"prohibited\" from conducting any more airstrikes in Lebanon, a U.S. source and another source familiar tell Axios. Why it matters: Israeli Prime Minister Benjamin Netanyahu and his advisers were shocked by Trump's post, which contradicted the text of the ceasefire agreement between Israel and Lebanon that the State Department published on Thursday. The im",
+        "fatalities": "0",
+        "link": "https://www.axios.com/2026/04/17/lebanon-strikes-israel-trump-prohibited",
+        "critical": true
+    },
+    {
+        "country": "USA",
+        "city": "New york",
+        "lat": 40.739809368566185,
+        "lon": -73.98243433185218,
+        "date": "2026-04-17 20:30:20",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "World Cup fans will have to pay $150 for NY stadium train ticket, officials say",
+        "description": "A 58-km roundtrip train ride between New York and Meadowlands stadium will cost football fans $150 during the World Cup, local officials said Friday. The journey normally costs just $12.90.",
+        "fatalities": "0",
+        "link": "https://www.france24.com/en/sport/20260417-world-cup-fans-will-have-to-pay-150-for-ny-stadium-train-ticket-official-says",
+        "critical": false
+    },
+    {
+        "country": "Iran",
+        "city": "Tehran",
+        "lat": 35.73260868373122,
+        "lon": 51.42244873403427,
+        "date": "2026-04-17 20:30:18",
+        "type": "Naval",
+        "severity": "normal",
+        "title": "Iran, Magyar, Mythos & the Pope",
+        "description": "In a week where Iran declared the Strait of Hormuz fully open for commercial trade—effectively ending its nearly seven-week de facto blockade of the critical shipping lane, President Trump imposed a U.S. blockade on Iranian ports to strangle its ability to trade. Trump vowed to continue enforcing what is effectively a U.S. siege until a peace deal is finalized.",
+        "fatalities": "0",
+        "link": "https://www.france24.com/en/tv-shows/the-world-this-week/20260417-iran-magyar-mythos-the-pope",
+        "critical": false
+    },
+    {
         "country": "Iran",
         "city": "Tehran",
         "lat": 35.75518027889369,
@@ -11,20 +67,6 @@
         "description": "A group of House Democrats is discussing plans to force a vote on an Iran war powers every day until one finally passes or U.S. operations in the region end, Axios has learned.Why it matters: It's the kind of showy flood-the-zone tactic that the Democratic grassroots is constantly trying to get the party's lawmakers to pursue in resisting the Trump administration.It's not clear if House Democratic leadership will get behind the tactic, but even s",
         "fatalities": "0",
         "link": "https://www.axios.com/2026/04/16/iran-war-powers-trump-democrats-congress-house",
-        "critical": false
-    },
-    {
-        "country": "USA",
-        "city": "Washington",
-        "lat": 38.88769310037096,
-        "lon": -77.04810210175665,
-        "date": "2026-04-17 19:42:59",
-        "type": "Clashes",
-        "severity": "middle",
-        "title": "Trump nominates former deputy surgeon general to lead CDC",
-        "description": "President Trump on Thursday nominated his former deputy surgeon general Erica Schwartz for director of the Centers for Disease Control and Prevention and moved to fill several other top positions at the beleaguered agency.Why it matters: The CDC has been without a permanent political leader since Susan Monarez was fired in August after serving in the role for less than a month.If confirmed, Schwartz would face a demoralized workforce that's been ",
-        "fatalities": "0",
-        "link": "https://www.axios.com/2026/04/16/trump-cdc-director-nomination-schwartz",
         "critical": false
     },
     {
@@ -53,6 +95,20 @@
         "description": "Iranian announcement came after Israeli ceasefire with Hezbollah in Lebanon; Trump welcomes the move but says US naval blockade to remain in place until a deal is reached\nThe post Oil prices drop more than 10% and US stocks soar after Iran reopens Strait of Hormuz appeared first on The Times of Israel.",
         "fatalities": "0",
         "link": "https://www.timesofisrael.com/oil-prices-drop-more-than-10-and-us-stocks-soar-after-iran-reopens-strait-of-hormuz/",
+        "critical": false
+    },
+    {
+        "country": "USA",
+        "city": "Washington",
+        "lat": 38.88769310037096,
+        "lon": -77.04810210175665,
+        "date": "2026-04-17 19:42:59",
+        "type": "Clashes",
+        "severity": "middle",
+        "title": "Trump nominates former deputy surgeon general to lead CDC",
+        "description": "President Trump on Thursday nominated his former deputy surgeon general Erica Schwartz for director of the Centers for Disease Control and Prevention and moved to fill several other top positions at the beleaguered agency.Why it matters: The CDC has been without a permanent political leader since Susan Monarez was fired in August after serving in the role for less than a month.If confirmed, Schwartz would face a demoralized workforce that's been ",
+        "fatalities": "0",
+        "link": "https://www.axios.com/2026/04/16/trump-cdc-director-nomination-schwartz",
         "critical": false
     },
     {
@@ -3007,62 +3063,6 @@
         "description": "A ten-day ceasefire between Lebanon and Israel took effect on Friday as US President Donald Trump pushes for broader regional diplomacy, including a possible first-ever leaders’ meeting. The truce comes amid efforts to end wider conflict involving Iran and follows weeks of intense fighting and heavy casualties.",
         "fatalities": "0",
         "link": "https://www.france24.com/en/middle-east/20260417-10-day-lebanon-israel-ceasefire-begins-after-weeks-of-conflict",
-        "critical": false
-    },
-    {
-        "country": "Middle East",
-        "city": "Beirut",
-        "lat": 33.85281059788123,
-        "lon": 35.541125864951795,
-        "date": "2026-04-17 03:44:19",
-        "type": "Clashes",
-        "severity": "middle",
-        "title": "How Israel’s war upended daily life in Lebanon",
-        "description": "People in Beirut describe how the Israel war has turned their lives upside down.",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/video/newsfeed/2026/4/17/how-israels-war-upended-daily-life-in-lebanon?traffic_source=rss",
-        "critical": false
-    },
-    {
-        "country": "Israel",
-        "city": "Tel Aviv",
-        "lat": 32.124074526234914,
-        "lon": 34.7523085274441,
-        "date": "2026-04-17 03:44:19",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "‘Trump forced Israel into a ceasefire’ with Lebanon",
-        "description": "Abed Abou Shhadeh, a political commentator in Israel, says the ceasefire between Israel and Lebanon is ‘problematic.",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/video/newsfeed/2026/4/17/trump-forced-israel-into-a-ceasefire-with-lebanon-2?traffic_source=rss",
-        "critical": false
-    },
-    {
-        "country": "Iran",
-        "city": "Tehran",
-        "lat": 35.65091803254617,
-        "lon": 51.3232824027376,
-        "date": "2026-04-17 03:44:19",
-        "type": "Airstrike",
-        "severity": "critical",
-        "title": "Iran war live: Ceasefire starts in Lebanon as Trump says Tehran deal close",
-        "description": "Death toll from Israeli attacks on Lebanon reached 2,196 on Thursday as 10-day ceasefire announced.",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/news/liveblog/2026/4/17/iran-war-live-ceasefire-starts-in-lebanon-as-trump-says-tehran-deal-close?traffic_source=rss",
-        "critical": true
-    },
-    {
-        "country": "Israel",
-        "city": "Tel Aviv",
-        "lat": 32.04126317100369,
-        "lon": 34.73669127475202,
-        "date": "2026-04-17 03:44:19",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Satellite images reveal scale of Israeli demolitions as Lebanese villages destroyed",
-        "description": "BBC Verify analysis found more than 1,400 buildings had been destroyed since 2 March.",
-        "fatalities": "0",
-        "link": "https://www.bbc.com/news/articles/cdxkk1vnp57o?at_medium=RSS&at_campaign=rss",
         "critical": false
     }
 ]
