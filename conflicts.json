@@ -1,5 +1,19 @@
 [
     {
+        "country": "Ukraine",
+        "city": "Kyiv",
+        "lat": 50.48403149971769,
+        "lon": 30.491284040749022,
+        "date": "2026-04-17 22:59:25",
+        "type": "Airstrike",
+        "severity": "critical",
+        "title": "Germany, Ukraine sign defence deal on missiles, drones, and data",
+        "description": "Germany and Ukraine will cooperate on missile deliveries, drone technology, and battlefield data exchange.",
+        "fatalities": "0",
+        "link": "https://www.army-technology.com/news/germany-ukraine-defence-deal/",
+        "critical": true
+    },
+    {
         "country": "Israel",
         "city": "Tel Aviv",
         "lat": 32.14231117494928,
@@ -3049,20 +3063,6 @@
         "description": "Head of US Equal Employment Opportunity Commission insists 'there is no other way to protect victims... unless you collect info about them,' as others warn against 'compiling lists of Jews' \nThe post Trump official defends seeking identities of Jews at Penn for campus antisemitism probe appeared first on The Times of Israel.",
         "fatalities": "0",
         "link": "https://www.timesofisrael.com/trump-official-defends-seeking-identifies-of-jews-at-penn-for-campus-antisemitism-probe/",
-        "critical": false
-    },
-    {
-        "country": "Middle East",
-        "city": "Beirut",
-        "lat": 33.889930922591326,
-        "lon": 35.51981164988286,
-        "date": "2026-04-17 05:55:19",
-        "type": "Explosion",
-        "severity": "middle",
-        "title": "Ceasefire appears to hold overnight as Trump tells Hezbollah to ‘act nicely and well’",
-        "description": "Lebanon's army accuses IDF of shelling the country in violation of 10-day truce * Senior Iranian leader claims credit for ceasefire as residents who fled start returning to Hezbollah’s Beirut-area stronghold\nThe post Ceasefire appears to hold overnight as Trump tells Hezbollah to ‘act nicely and well’ appeared first on The Times of Israel.",
-        "fatalities": "0",
-        "link": "https://www.timesofisrael.com/liveblog-april-17-2026/",
         "critical": false
     }
 ]
