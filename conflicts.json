@@ -1,5 +1,61 @@
 [
     {
+        "country": "Iran",
+        "city": "Tehran",
+        "lat": 35.73447143163533,
+        "lon": 51.34128761248497,
+        "date": "2026-04-18 18:02:25",
+        "type": "Naval",
+        "severity": "normal",
+        "title": "Iran reimposes Hormuz closure after US maintains blockade; IRGC gunboats fire at ships",
+        "description": "Tehran warns it will continue to block strait as long as Trump blockades Iran-linked shipping; US president says blockade 'in full force' until regime reaches a deal, including on its nuclear program\nThe post Iran reimposes Hormuz closure after US maintains blockade; IRGC gunboats fire at ships appeared first on The Times of Israel.",
+        "fatalities": "0",
+        "link": "https://www.timesofisrael.com/iran-reimposes-strait-of-hormuz-restrictions-accuses-us-of-violating-deal-to-reopen-waterway/",
+        "critical": false
+    },
+    {
+        "country": "Iran",
+        "city": "Tehran",
+        "lat": 35.744697125662704,
+        "lon": 51.4242962526081,
+        "date": "2026-04-18 18:02:17",
+        "type": "Naval",
+        "severity": "normal",
+        "title": "Scoop: Trump convenes Iran situation room meeting amid renewed Hormuz crisis",
+        "description": "President Trump convened a White House Situation Room meeting on Saturday morning to discuss the renewed crisis around the Strait of Hormuz and negotiations with Iran, according to two U.S. officials.Why it matters: The situation with Iran is at a critical point, with the ceasefire expected to expire in three days, and no final date set for a new meeting between U.S. and Iranian negotiators. Iran's Saturday announcement about the renewed closure ",
+        "fatalities": "0",
+        "link": "https://www.axios.com/2026/04/18/iran-trump-white-house-hormuz",
+        "critical": false
+    },
+    {
+        "country": "Ukraine",
+        "city": "Kyiv",
+        "lat": 50.45194486010744,
+        "lon": 30.59256844511006,
+        "date": "2026-04-18 18:01:59",
+        "type": "Airstrike",
+        "severity": "critical",
+        "title": "Kyiv Mass Shooting Kills 6 and Gunman Is Shot Dead After Taking Hostages in Grocery",
+        "description": "The attacker fatally shot four people on the street before barricading himself inside a nearby supermarket, a prosecutor said.",
+        "fatalities": "0",
+        "link": "https://www.nytimes.com/2026/04/18/world/europe/kyiv-ukraine-mass-shooting-hostages.html",
+        "critical": true
+    },
+    {
+        "country": "Iran",
+        "city": "Tehran",
+        "lat": 35.713437893716495,
+        "lon": 51.31995507261903,
+        "date": "2026-04-18 18:01:56",
+        "type": "Naval",
+        "severity": "normal",
+        "title": "Iran War Live Updates: Two Ships Are Fired On After Iran Reimposes ‘Strict Control’ of Strait of Hormuz",
+        "description": "One tanker told a British shipping monitor that two Iranian gunships had fired at it, while a container ship reported it had been hit by an unknown projectile. India summoned Iran’s ambassador over a “shooting incident” involving two of its ships.",
+        "fatalities": "0",
+        "link": "https://www.nytimes.com/live/2026/04/18/world/iran-us-war-trump-hormuz",
+        "critical": false
+    },
+    {
         "country": "Europe",
         "city": "London",
         "lat": 51.54036926626364,
@@ -1316,20 +1372,6 @@
         "critical": false
     },
     {
-        "country": "Iran",
-        "city": "Tehran",
-        "lat": 35.70657731120074,
-        "lon": 51.39020953973769,
-        "date": "2026-04-18 09:12:16",
-        "type": "Naval",
-        "severity": "normal",
-        "title": "Iran War Live Updates: Iran’s Military Says It Has Reimposed ‘Strict Control’ of Strait of Hormuz",
-        "description": "The military said it would keep the vital waterway under its control until the U.S. ended its blockade of Iranian ports. The statement added to the uncertainty over access to the strait.",
-        "fatalities": "0",
-        "link": "https://www.nytimes.com/live/2026/04/18/world/iran-us-war-trump-hormuz",
-        "critical": false
-    },
-    {
         "country": "Africa",
         "city": "Khartoum",
         "lat": 15.5341077600699,
@@ -1341,6 +1383,20 @@
         "description": "His visit includes a trip to a shrine where enslaved Africans were baptized before being forced into the treacherous voyage across the Atlantic Ocean.",
         "fatalities": "0",
         "link": "https://www.nytimes.com/2026/04/18/world/africa/pope-leo-slavery-africa-angola.html",
+        "critical": false
+    },
+    {
+        "country": "Iran",
+        "city": "Tehran",
+        "lat": 35.70657731120074,
+        "lon": 51.39020953973769,
+        "date": "2026-04-18 09:12:16",
+        "type": "Naval",
+        "severity": "normal",
+        "title": "Iran War Live Updates: Iran’s Military Says It Has Reimposed ‘Strict Control’ of Strait of Hormuz",
+        "description": "The military said it would keep the vital waterway under its control until the U.S. ended its blockade of Iranian ports. The statement added to the uncertainty over access to the strait.",
+        "fatalities": "0",
+        "link": "https://www.nytimes.com/live/2026/04/18/world/iran-us-war-trump-hormuz",
         "critical": false
     },
     {
@@ -3008,61 +3064,5 @@
         "fatalities": "0",
         "link": "https://www.militarytimes.com/news/pentagon-congress/2026/04/07/b-2s-flew-36-hour-mission-to-target-iranian-revolutionary-guard-meeting/",
         "critical": true
-    },
-    {
-        "country": "China",
-        "city": "Beijing",
-        "lat": 39.84190852691486,
-        "lon": 116.40546061961165,
-        "date": "2026-04-17 15:31:39",
-        "type": "Naval",
-        "severity": "normal",
-        "title": "China steps out of the shadows in Iran war",
-        "description": "China's President Xi Jinping has broken a six-week silence about the war in Iran, vowing to take a \"constructive\" role in efforts to end the conflict. Beijing is wary of being drawn into a war it took no part in, and faces a delicate balancing act between its long-term partnership with Iran and its strategic interests in the Middle East and beyond. Yuka Royer speaks with Ja Ian Chong, a political scientist at the National University of Singapore,",
-        "fatalities": "0",
-        "link": "https://www.france24.com/en/tv-shows/access-asia/20260417-china-steps-out-of-the-shadows-in-iran-war",
-        "critical": false
-    },
-    {
-        "country": "Europe",
-        "city": "Brussels",
-        "lat": 50.94081258271704,
-        "lon": 4.306528730699464,
-        "date": "2026-04-17 15:31:39",
-        "type": "Naval",
-        "severity": "normal",
-        "title": "'Wake-up call for Europeans to step up: There’s been a lack of investment' in defence",
-        "description": "William Hilderbrandt is pleased to welcome Basil Germond, Professor of International Security in the School of Global Affairs and Co-Director of the University research institute Security Lancaster. He examines the emerging European-led initiative to secure the Strait of Hormuz in a post-war context, placing it within broader questions of maritime security, geopolitical negotiation, and transatlantic relations. From his perspective, this initiati",
-        "fatalities": "0",
-        "link": "https://www.france24.com/en/video/20260417-wake-up-call-for-europeans-to-step-up-there-s-been-a-lack-of-investment-in-defence",
-        "critical": false
-    },
-    {
-        "country": "Israel",
-        "city": "Tel Aviv",
-        "lat": 32.10505524861348,
-        "lon": 34.74577370684678,
-        "date": "2026-04-17 15:31:39",
-        "type": "Airstrike",
-        "severity": "critical",
-        "title": "Press association denounces Israel’s use of altered image to depict slain journalist",
-        "description": "Lebanese journalist Ali Shoeib was killed during an Israeli strike on March 28. To justify this attack, the Israeli army published an image online of Shoeib wearing a uniform of militant group Hezbollah. The army later admitted that the image was photoshopped.",
-        "fatalities": "0",
-        "link": "https://www.france24.com/en/middle-east/20260417-press-association-israeli-army-use-ai-doctored-image-slain-journalist",
-        "critical": true
-    },
-    {
-        "country": "Europe",
-        "city": "Paris",
-        "lat": 48.85740492206392,
-        "lon": 2.3069067613610743,
-        "date": "2026-04-17 15:31:39",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Jeffrey Epstein and the French connection",
-        "description": "On one of Paris's most prestigious avenues stands the former home of Jeffrey Epstein. As the world has discovered, the late convicted paedophile's activities went way beyond simply owning real estate around the world. In a special edition, Annette Young speaks to survivors and their supporters who are urging French authorities to deepen their investigation – not only into Epstein's actions in France, but also those of his associates.",
-        "fatalities": "0",
-        "link": "https://www.france24.com/en/tv-shows/the-51/20260417-jeffrey-epstein-and-the-french-connection",
-        "critical": false
     }
 ]
