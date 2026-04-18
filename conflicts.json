@@ -1,5 +1,19 @@
 [
     {
+        "country": "Iran",
+        "city": "Arak",
+        "lat": 34.13199654091237,
+        "lon": 49.63463876433418,
+        "date": "2026-04-18 20:38:47",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "IDF reservist killed by Hezbollah explosive in Lebanon amid truce, 3 troops hurt",
+        "description": "Barak Kalfon, 48, engineer at defense giant Rafael, is survived by wife and 2 daughters; bomb that went off was not remotely detonated, initial IDF probe finds\nThe post IDF reservist killed by Hezbollah explosive in Lebanon amid truce, 3 troops hurt appeared first on The Times of Israel.",
+        "fatalities": "0",
+        "link": "https://www.timesofisrael.com/idf-reservist-killed-by-hezbollah-explosive-in-lebanon-amid-truce-3-troops-hurt/",
+        "critical": false
+    },
+    {
         "country": "Israel",
         "city": "Tel Aviv",
         "lat": 32.091114036805585,
@@ -3050,19 +3064,5 @@
         "fatalities": "0",
         "link": "https://www.aljazeera.com/news/2026/4/17/record-number-of-rohingya-refugees-died-at-sea-last-year-unhcr-says?traffic_source=rss",
         "critical": false
-    },
-    {
-        "country": "Israel",
-        "city": "Tel Aviv",
-        "lat": 32.14139564281722,
-        "lon": 34.788237191496485,
-        "date": "2026-04-17 16:32:27",
-        "type": "Airstrike",
-        "severity": "critical",
-        "title": "Southern Lebanon’s only functioning hospital damaged by Israeli strikes",
-        "description": "Al Jazeera’s Obaida Hitto reports from Tibnin Hospital - the only functioning hospital in southern Lebanon.",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/video/newsfeed/2026/4/17/southern-lebanons-only-functioning-hospital-damaged-by-israeli-strikes?traffic_source=rss",
-        "critical": true
     }
 ]
