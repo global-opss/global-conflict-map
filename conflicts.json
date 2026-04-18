@@ -1,5 +1,19 @@
 [
     {
+        "country": "Europe",
+        "city": "London",
+        "lat": 51.54036926626364,
+        "lon": -0.20708425364111094,
+        "date": "2026-04-18 17:24:52",
+        "type": "Airstrike",
+        "severity": "critical",
+        "title": "London police probe arson attack on building tied to Jewish organization",
+        "description": "Incident follows string of antisemitic arson incidents in north London, including synagogue and Jewish ambulance fires, with possible links to Iran-backed actors\nThe post London police probe arson attack on building tied to Jewish organization appeared first on The Times of Israel.",
+        "fatalities": "0",
+        "link": "https://www.timesofisrael.com/uk-police-probe-arson-attack-on-london-building-tied-to-jewish-organization/",
+        "critical": true
+    },
+    {
         "country": "Iran",
         "city": "Tehran",
         "lat": 35.63128093829026,
@@ -11,6 +25,20 @@
         "description": "Data: Financial Modeling Prep; Chart: Ben Geman/AxiosOil prices dropped over 10% Friday after President Trump and Iran's foreign minister claimed the Strait of Hormuz — the world's most critical energy shipping lane — is open for transit.Why it matters: The steep selloff signals traders see a real sign that the unprecedented throttling of oil and petroleum product flows could significantly ease.The drop also follows signs of continued progress in",
         "fatalities": "0",
         "link": "https://www.axios.com/2026/04/17/hormuz-iran-oil-prices",
+        "critical": false
+    },
+    {
+        "country": "Africa",
+        "city": "Mali",
+        "lat": 12.594612685241385,
+        "lon": -8.08686399213302,
+        "date": "2026-04-18 16:42:25",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Harsh Israel critic Analilia Mejía wins US House seat in New Jersey special election",
+        "description": "Bernie Sanders ally who has accused Israel of genocide will fill NJ's 11th district seat until January; AIPAC had boosted Mejía in primary by opposing more moderate Tom Malinowski\nThe post Harsh Israel critic Analilia Mejía wins US House seat in New Jersey special election appeared first on The Times of Israel.",
+        "fatalities": "0",
+        "link": "https://www.timesofisrael.com/harsh-israel-critic-analilia-mejia-wins-us-house-seat-in-new-jersey-special-election/",
         "critical": false
     },
     {
@@ -26,20 +54,6 @@
         "fatalities": "0",
         "link": "https://www.timesofisrael.com/uk-police-probe-arson-attack-on-london-building-tied-to-jewish-organization/",
         "critical": true
-    },
-    {
-        "country": "Africa",
-        "city": "Mali",
-        "lat": 12.594612685241385,
-        "lon": -8.08686399213302,
-        "date": "2026-04-18 16:42:25",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Harsh Israel critic Analilia Mejía wins US House seat in New Jersey special election",
-        "description": "Bernie Sanders ally who has accused Israel of genocide will fill NJ's 11th district seat until January; AIPAC had boosted Mejía in primary by opposing more moderate Tom Malinowski\nThe post Harsh Israel critic Analilia Mejía wins US House seat in New Jersey special election appeared first on The Times of Israel.",
-        "fatalities": "0",
-        "link": "https://www.timesofisrael.com/harsh-israel-critic-analilia-mejia-wins-us-house-seat-in-new-jersey-special-election/",
-        "critical": false
     },
     {
         "country": "Ukraine",
@@ -3049,20 +3063,6 @@
         "description": "On one of Paris's most prestigious avenues stands the former home of Jeffrey Epstein. As the world has discovered, the late convicted paedophile's activities went way beyond simply owning real estate around the world. In a special edition, Annette Young speaks to survivors and their supporters who are urging French authorities to deepen their investigation – not only into Epstein's actions in France, but also those of his associates.",
         "fatalities": "0",
         "link": "https://www.france24.com/en/tv-shows/the-51/20260417-jeffrey-epstein-and-the-french-connection",
-        "critical": false
-    },
-    {
-        "country": "Europe",
-        "city": "Paris",
-        "lat": 48.82068542369813,
-        "lon": 2.2880409834957542,
-        "date": "2026-04-17 15:31:39",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Paris Book Festival kicks off amid Grasset publishing controversy",
-        "description": "The annual Paris Book Festival is honouring Iceland this year, and Icelandic author Jón Kalman Stefánsson will be doing a book signing. He tells us about his latest novel, \"Celestial Bodies at the Edge of the World\", which sheds light on a little-known dark chapter in Icelandic history. He also tells us why Icelandic literature is booming in France.",
-        "fatalities": "0",
-        "link": "https://www.france24.com/en/tv-shows/arts24/20260417-paris-book-festival-kicks-off-amid-grasset-publishing-controversy",
         "critical": false
     }
 ]
