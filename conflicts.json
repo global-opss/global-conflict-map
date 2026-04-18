@@ -1,6 +1,20 @@
 [
     {
         "country": "Iran",
+        "city": "Tehran",
+        "lat": 35.65836293779138,
+        "lon": 51.45216091902598,
+        "date": "2026-04-18 21:17:26",
+        "type": "Airstrike",
+        "severity": "critical",
+        "title": "French UNIFIL soldier killed in Lebanon, Hezbollah responsible, says Macron",
+        "description": "French President Emmanuel Macron announced the death of a French UN peacekeeping soldier Saturday following an attack that also left three people wounded in southern Lebanon, saying that \"everything suggests\" Hezbollah being responsible for the attack. The Iran-backed group denied involvement.",
+        "fatalities": "0",
+        "link": "https://www.france24.com/en/middle-east/20260418-french-unifil-soldier-killed-in-lebanon-hezbollah-responsible-says-macron",
+        "critical": true
+    },
+    {
+        "country": "Iran",
         "city": "Arak",
         "lat": 34.13199654091237,
         "lon": 49.63463876433418,
@@ -3049,20 +3063,6 @@
         "description": "French President Emmanuel Macron and British Prime Minister Keir Starmer on Friday hosted a video conference with their European allies to discuss the possible deployment of a multinational force to the Strait of Hormuz once the war in Iran is over. Macron welcomed Iran's announcement that the waterway would be reopened to commercial shipping for the rest of the ceasefire, but called for the strait's \"unconditional\" reopening.",
         "fatalities": "0",
         "link": "https://www.france24.com/en/macron-urges-permanent-reopening-of-hormuz-strait",
-        "critical": false
-    },
-    {
-        "country": "USA",
-        "city": "Washington",
-        "lat": 38.90167650454322,
-        "lon": -77.00718259435429,
-        "date": "2026-04-17 16:32:27",
-        "type": "Clashes",
-        "severity": "middle",
-        "title": "Record number of Rohingya refugees died at sea last year, UNHCR says",
-        "description": "The UN refugee agency has warned of an unmarked graveyard for thousands of desperate Rohingya refugees in South Asia",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/news/2026/4/17/record-number-of-rohingya-refugees-died-at-sea-last-year-unhcr-says?traffic_source=rss",
         "critical": false
     }
 ]
