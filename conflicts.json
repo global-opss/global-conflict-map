@@ -1,5 +1,47 @@
 [
     {
+        "country": "Israel",
+        "city": "Tel Aviv",
+        "lat": 32.03549266351254,
+        "lon": 34.74358066658357,
+        "date": "2026-04-19 11:36:08",
+        "type": "Clashes",
+        "severity": "middle",
+        "title": "Daily Briefing Apr. 19 – 5 points of apparent failure in the Iran war",
+        "description": "Diplomatic correspondent Lazar Berman on why Israel and US don't see eye to eye on Iran and Lebanon, plus an IDF stymied in its effort to tackle Hezbollah\nThe post Daily Briefing Apr. 19  5 points of apparent failure in the Iran war appeared first on The Times of Israel.",
+        "fatalities": "0",
+        "link": "https://www.timesofisrael.com/daily-briefing-apr-19-5-points-of-apparent-failure-in-the-iran-war/",
+        "critical": false
+    },
+    {
+        "country": "Asia",
+        "city": "Tokyo",
+        "lat": 35.60707217347408,
+        "lon": 139.72440002870226,
+        "date": "2026-04-19 11:35:45",
+        "type": "Naval",
+        "severity": "normal",
+        "title": "Australia and Japan sign contracts for $7bn warships deal",
+        "description": "Defence deal is the latest example of deepening ties between Canberra and Tokyo amid shared concerns over Chinas rise.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/economy/2026/4/19/australia-and-japan-sign-contracts-for-7bn-warships-deal?traffic_source=rss",
+        "critical": false
+    },
+    {
+        "country": "China",
+        "city": "Beijing",
+        "lat": 39.89223276720348,
+        "lon": 116.43164079177708,
+        "date": "2026-04-19 11:35:43",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Humanoid robot breaks half marathon world record in Beijing",
+        "description": "The humans were left far behind as smartphone maker Honors humanoid robot shattered the mens world record in China.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/sports/2026/4/19/humanoid-robot-breaks-half-marathon-world-record-in-beijing?traffic_source=rss",
+        "critical": false
+    },
+    {
         "country": "USA",
         "city": "Pentagon",
         "lat": 38.8543732028448,
@@ -3021,48 +3063,6 @@
         "description": "Tens of thousands of people forcibly displaced by Israeli attacks on Lebanon use first day of ceasefire to return home.",
         "fatalities": "0",
         "link": "https://www.aljazeera.com/news/liveblog/2026/4/18/iran-war-live-tehran-says-president-trump-made-false-claims-amid-talks?traffic_source=rss",
-        "critical": false
-    },
-    {
-        "country": "Iran",
-        "city": "Tehran",
-        "lat": 35.71534831415258,
-        "lon": 51.33855929102569,
-        "date": "2026-04-18 06:14:16",
-        "type": "Naval",
-        "severity": "normal",
-        "title": "Hopes for Peace Deal Rise After Iran Says Strait Is Open",
-        "description": "",
-        "fatalities": "0",
-        "link": "https://www.nytimes.com/live/2026/04/17/world/iran-us-war-trump",
-        "critical": false
-    },
-    {
-        "country": "Israel",
-        "city": "Tel Aviv",
-        "lat": 32.13661081582113,
-        "lon": 34.8369792178804,
-        "date": "2026-04-18 04:57:03",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Trump antisemitism envoy: US will bar World Cup attendees tied to antisemitism abroad",
-        "description": "People who want to sow discord in this country are not welcome, Yehuda Kaploun says, while denying report claiming US would ban specific European politicians\nThe post Trump antisemitism envoy: US will bar World Cup attendees tied to antisemitism abroad appeared first on The Times of Israel.",
-        "fatalities": "0",
-        "link": "https://www.timesofisrael.com/trump-antisemitism-envoy-us-will-bar-world-cup-attendees-tied-to-antisemitism-abroad/",
-        "critical": false
-    },
-    {
-        "country": "Asia",
-        "city": "Host",
-        "lat": 33.39365700357936,
-        "lon": 69.9127190039156,
-        "date": "2026-04-18 04:57:03",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Jewish groups urge Trump to prioritize Americans held in Iran during ceasefire talks",
-        "description": "US branch of group that advocated for release of Hamas hostages signs onto initiative; Robert Levinson, US Jew who died in Iranian jail, among those considered wrongfully detained\nThe post Jewish groups urge Trump to prioritize Americans held in Iran during ceasefire talks appeared first on The Times of Israel.",
-        "fatalities": "0",
-        "link": "https://www.timesofisrael.com/jewish-groups-urge-trump-to-prioritize-americans-held-in-iran-during-ceasefire-talks/",
         "critical": false
     }
 ]
