@@ -1,5 +1,19 @@
 [
     {
+        "country": "Iran",
+        "city": "Tehran",
+        "lat": 35.69965054344976,
+        "lon": 51.32985096283585,
+        "date": "2026-04-19 23:57:21",
+        "type": "Naval",
+        "severity": "normal",
+        "title": "Middle East war live: Iran vows response after US destroyer fires on cargo ship",
+        "description": "Iran vowed retaliation after a US destroyer fired on an Iranian-flagged cargo ship in the Gulf of Oman on Sunday, as it was attempting to evade a US naval blockade. Tehran condemned the incident as “armed piracy” and warned its forces would respond soon. Follow our liveblog for the latest updates.",
+        "fatalities": "0",
+        "link": "https://www.france24.com/en/middle-east/20260419-middle-east-war-live-iran-vows-response-after-us-destroyer-fires-on-cargo-ship",
+        "critical": false
+    },
+    {
         "country": "Europe",
         "city": "Berlin",
         "lat": 48.93951596637728,
@@ -3050,19 +3064,5 @@
         "fatalities": "0",
         "link": "https://www.militarytimes.com/news/your-military/2026/04/15/us-navy-destroyer-intercepts-iranian-flagged-vessel-trying-to-skirt-blockade/",
         "critical": false
-    },
-    {
-        "country": "Israel",
-        "city": "Tel Aviv",
-        "lat": 32.075486818363785,
-        "lon": 34.7790903588716,
-        "date": "2026-04-18 22:36:52",
-        "type": "Evacuation",
-        "severity": "critical",
-        "title": "Settlers reportedly beat Palestinian woman, raid several West Bank towns",
-        "description": "Woman evacuated for medical treatment, her sons said detained by IDF; Turmus Ayya, home to large population of Palestinian Americans, raided twice in one day; no arrests reported\nThe post Settlers reportedly beat Palestinian woman, raid several West Bank towns appeared first on The Times of Israel.",
-        "fatalities": "0",
-        "link": "https://www.timesofisrael.com/settlers-reportedly-beat-palestinian-woman-raid-several-west-bank-towns/",
-        "critical": true
     }
 ]
