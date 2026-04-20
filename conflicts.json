@@ -1,5 +1,47 @@
 [
     {
+        "country": "Iran",
+        "city": "Tehran",
+        "lat": 35.71896027160546,
+        "lon": 51.35232724829619,
+        "date": "2026-04-20 23:09:35",
+        "type": "Clashes",
+        "severity": "middle",
+        "title": "Trump invokes Cold War law in move to boost energy supply",
+        "description": "President Trump said Monday he'll use a Cold War-era national security law to try and bolster domestic production of motor fuels and electricity.Why it matters: His use of the Defense Production Act comes amid high gasoline prices during the Iran war, and rising power costs.The series of presidential memos Trump signed are needed for the Energy Department to use funding secured in last year's GOP budget law, a White House official said.Driving th",
+        "fatalities": "0",
+        "link": "https://www.axios.com/2026/04/20/trump-energy-fuel-cold-war-defense-law",
+        "critical": false
+    },
+    {
+        "country": "Israel",
+        "city": "Tel Aviv",
+        "lat": 32.03595311982273,
+        "lon": 34.744327188960106,
+        "date": "2026-04-20 23:09:23",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Outcry grows over Israeli soldier smashing Jesus statue in Lebanon",
+        "description": "Some of Donald Trumps former MAGA allies denounce the desecration of Christian religious symbol by Israeli soldier.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/news/2026/4/20/outcry-grows-over-israeli-soldier-smashing-jesus-statue-in-lebanon?traffic_source=rss",
+        "critical": false
+    },
+    {
+        "country": "Iran",
+        "city": "Tehran",
+        "lat": 35.640163847794476,
+        "lon": 51.416767356439735,
+        "date": "2026-04-20 23:09:18",
+        "type": "Clashes",
+        "severity": "middle",
+        "title": "The Iran War Sent Shock Waves Through Asia That Are Likely to Spread",
+        "description": "The Asia-Pacific was hit hard and quick by the war in Iran and its energy bottlenecks. Scenes of crisis there indicate that problems are multiplying and spreading.",
+        "fatalities": "0",
+        "link": "https://www.nytimes.com/2026/04/20/world/asia/asia-pacific-iran-war-oil.html",
+        "critical": false
+    },
+    {
         "country": "Europe",
         "city": "Poland",
         "lat": 52.03712150817258,
@@ -3021,48 +3063,6 @@
         "description": "Foreign policy experts warn that the strait is not the only potential choke point that Iran and its proxies could leverage amid the war.",
         "fatalities": "0",
         "link": "https://www.militarytimes.com/news/pentagon-congress/2026/04/14/amid-focus-on-strait-of-hormuz-experts-sound-warning-on-yemens-houthis-and-red-sea/",
-        "critical": false
-    },
-    {
-        "country": "Iran",
-        "city": "Tehran",
-        "lat": 35.712745553993834,
-        "lon": 51.33446312785624,
-        "date": "2026-04-20 06:03:09",
-        "type": "Clashes",
-        "severity": "middle",
-        "title": "13 US troops killed, more than 380 wounded in Operation Epic Fury",
-        "description": "In the 40 days since the start of the Iran War, 13 U.S. service members have been killed and 381 have been wounded, according to U.S. Central Command.",
-        "fatalities": "0",
-        "link": "https://www.militarytimes.com/news/your-military/2026/04/08/pentagon-data-13-us-troops-killed-346-wounded-in-operation-epic-fury/",
-        "critical": false
-    },
-    {
-        "country": "Iran",
-        "city": "Tehran",
-        "lat": 35.65000681647753,
-        "lon": 51.33572904123442,
-        "date": "2026-04-20 06:03:07",
-        "type": "Naval",
-        "severity": "normal",
-        "title": "US Navy destroyer intercepts Iranian-flagged vessel trying to skirt blockade",
-        "description": "Zero vessels have broken through the U.S. Navy blockade of the Strait of Hormuz since it began Monday, U.S. Central Command stated.",
-        "fatalities": "0",
-        "link": "https://www.militarytimes.com/news/your-military/2026/04/15/us-navy-destroyer-intercepts-iranian-flagged-vessel-trying-to-skirt-blockade/",
-        "critical": false
-    },
-    {
-        "country": "Europe",
-        "city": "Paris",
-        "lat": 48.921811320140286,
-        "lon": 2.2759191026468186,
-        "date": "2026-04-20 06:03:01",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Ligue 1: Title race tightens as Lyon win away at Paris Saint-Germain",
-        "description": "Paris Saint-Germain lost (2-1) to Lyon and now see Lens closing in on them at the top of the table. Lyon can still hope to qualify directly for the Champions League.",
-        "fatalities": "0",
-        "link": "https://www.france24.com/en/tv-shows/sports/20260420-ligue-1-title-race-tightens-as-lyon-win-away-at-paris-saint-germain",
         "critical": false
     }
 ]
