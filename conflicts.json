@@ -1,5 +1,47 @@
 [
     {
+        "country": "USA",
+        "city": "New york",
+        "lat": 40.69053178277949,
+        "lon": -73.97292070021068,
+        "date": "2026-04-21 23:09:11",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "SpaceX nears deal with Cursor",
+        "description": "SpaceX said Tuesday it agreed to a deal with AI coding startup Cursor that could result in an acquisition or $10 billion investment.Why it matters: The deal underscores CEO Elon Musk's push to make SpaceX into an AI powerhouse ahead of its potential IPO, which could be the largest in history.  Driving the news: Cursor, the original vibe coding startup, has raised more than $3 billion and has recently been in talks to secure additional funding. Sp",
+        "fatalities": "0",
+        "link": "https://www.axios.com/2026/04/21/spacex-ai-cursor-deal",
+        "critical": false
+    },
+    {
+        "country": "USA",
+        "city": "Washington",
+        "lat": 38.86811707686894,
+        "lon": -77.03609566147728,
+        "date": "2026-04-21 23:09:11",
+        "type": "Clashes",
+        "severity": "middle",
+        "title": "Cherfilus-McCormick resignation makes some Democrats regret vote to expel George Santos",
+        "description": "Rep. Sheila Cherfilus-McCormick's resignation has some Democrats fuming about what they say was an unfair process and even expressing buyer's remorse about voting to expel George Santos from Congress.Why it matters: Lawmakers' frustrations about a lack of due process in both cases threatens future efforts to remove House members over accusations of grave misconduct.Rep. Nancy Mace (R-S.C.) told Axios she will \"do [a] privileged motion next week\" ",
+        "fatalities": "0",
+        "link": "https://www.axios.com/2026/04/21/cherfilus-mccormick-george-santos-expel-democrats",
+        "critical": false
+    },
+    {
+        "country": "Europe",
+        "city": "Paris",
+        "lat": 48.91331548429893,
+        "lon": 2.3748198175085475,
+        "date": "2026-04-21 23:09:08",
+        "type": "Naval",
+        "severity": "normal",
+        "title": "French Rafale Spotted with Laser-Guided Rocket Pod",
+        "description": "A Rafale M was spotted with a pod for 68 mm laser-guided rockets, first unveiled at the Paris Air Show 2025 as a cost-effective solution against drones and asymmetric threats. A French Navy (Marine Nationale) Rafale M was spotted with at least one Thales 68 mm rocket pod installed under its port (left-side) wing. The []",
+        "fatalities": "0",
+        "link": "https://theaviationist.com/2026/04/16/french-rafale-spotted-with-laser-guided-rocket-pod/",
+        "critical": false
+    },
+    {
         "country": "Asia",
         "city": "Pakistan",
         "lat": 31.6024795221469,
@@ -3022,47 +3064,5 @@
         "fatalities": "0",
         "link": "https://www.nytimes.com/2026/04/20/world/asia/pakistan-shiites-iran-diplomacy.html",
         "critical": true
-    },
-    {
-        "country": "Ukraine",
-        "city": "Kyiv",
-        "lat": 50.44969725741874,
-        "lon": 30.565122851247114,
-        "date": "2026-04-21 07:52:47",
-        "type": "Airstrike",
-        "severity": "critical",
-        "title": "Ukraine, Short on Troops, Is Turning to Robots to Help Its War Efforts",
-        "description": "Ukraine is using unmanned ground vehicles armed with bombs, guns or rockets to carry out attacks and keep its soldiers out of harm’s way.",
-        "fatalities": "0",
-        "link": "https://www.nytimes.com/2026/04/20/world/europe/ukraine-russia-war-robots-drones.html",
-        "critical": true
-    },
-    {
-        "country": "Iran",
-        "city": "Tehran",
-        "lat": 35.75103445010286,
-        "lon": 51.45079710347626,
-        "date": "2026-04-21 07:52:47",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Tehran and Trump Send Mixed Signals Ahead of Potential Talks",
-        "description": "Vice President JD Vance is set to lead a U.S. delegation to Pakistan as Mr. Trump pushes for a peace deal. Iranian officials said privately they would send a team if Mr. Vance were there.",
-        "fatalities": "0",
-        "link": "https://www.nytimes.com/live/2026/04/20/world/iran-us-war-trump-hormuz",
-        "critical": false
-    },
-    {
-        "country": "Israel",
-        "city": "Jerusalem",
-        "lat": 31.737388832917556,
-        "lon": 35.20114027828225,
-        "date": "2026-04-21 05:51:40",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Rahm Emanuel joins calls to end US ‘financial aid’ as Democratic support for Israel hits new lows",
-        "description": "Jerusalem-born former Chicago mayor says 'US should never spill any blood for Israel’s security,' asserts Jerusalem dragged US into the conflict in 'violation of a rule it had for 78 years'\nThe post Rahm Emanuel joins calls to end US financial aid as Democratic support for Israel hits new lows appeared first on The Times of Israel.",
-        "fatalities": "0",
-        "link": "https://www.timesofisrael.com/rahm-emanuel-joins-calls-to-end-us-financial-aid-as-democratic-support-for-israel-hits-new-lows/",
-        "critical": false
     }
 ]
