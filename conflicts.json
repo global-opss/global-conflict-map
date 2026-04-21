@@ -1,5 +1,47 @@
 [
     {
+        "country": "Asia",
+        "city": "Host",
+        "lat": 33.28773569532586,
+        "lon": 69.95063827984755,
+        "date": "2026-04-21 23:51:23",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Rachel Goldberg-Polin: Mother of murdered hostage Hersh ‘parcels out her pain’ in book",
+        "description": "'When We See You Again' is mother's raw accounting of what happened to her son, Hersh Goldberg-Polin and to her and her family\nThe post Rachel Goldberg-Polin: Mother of murdered hostage Hersh parcels out her pain in book appeared first on The Times of Israel.",
+        "fatalities": "0",
+        "link": "https://www.timesofisrael.com/rachel-goldberg-polin-mother-of-murdered-hostage-hersh-parcels-out-her-pain-in-book/",
+        "critical": false
+    },
+    {
+        "country": "Europe",
+        "city": "Brussels",
+        "lat": 50.93417923021995,
+        "lon": 4.328465224890099,
+        "date": "2026-04-21 23:51:10",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "'Landmark' EU court ruling rejects Hungary anti-LGBTQ law",
+        "description": "The EU's top court ruled Tuesday that anti-LGBTQ legislation in Hungary breached the bloc's rules, in a move hailed as a \"landmark\" victory by Brussels. The European Commission, 16 of 27 member states and the European Parliament took Hungary to the European Court of Justice (ECJ) over the law, in what has been billed as the largest human rights case in the bloc's history. FRANCE 24's James Vasina reports.",
+        "fatalities": "0",
+        "link": "https://www.france24.com/en/landmark-eu-court-ruling-rejects-hungary-anti-lgbtq-law",
+        "critical": false
+    },
+    {
+        "country": "Iran",
+        "city": "Tehran",
+        "lat": 35.705301783212924,
+        "lon": 51.40006622638907,
+        "date": "2026-04-21 23:51:06",
+        "type": "Clashes",
+        "severity": "middle",
+        "title": "Trump remains ‘in a quandary’ despite Iran war ceasefire extension",
+        "description": "Barbara Slavin says Trump’s decision to extend a ceasefire with Iran is a relief, but a diplomatic solution is far off.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/video/quotable/2026/4/21/trump-remains-in-a-quandary-despite-iran-war-ceasefire-extension?traffic_source=rss",
+        "critical": false
+    },
+    {
         "country": "USA",
         "city": "New york",
         "lat": 40.69053178277949,
@@ -294,20 +336,6 @@
         "critical": true
     },
     {
-        "country": "Iran",
-        "city": "Tehran",
-        "lat": 35.63678420973083,
-        "lon": 51.322917966442645,
-        "date": "2026-04-21 21:47:24",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Trump Extends Cease-Fire, Even as Peace Talks Are Put on Hold",
-        "description": "With the cease-fire on the verge of ending, President Trump said on Tuesday that he would keep it in place until Iran’s “proposal is submitted, and discussions are concluded, one way or the other.”",
-        "fatalities": "0",
-        "link": "https://www.nytimes.com/2026/04/21/world/middleeast/trump-extends-iran-ceasefire.html",
-        "critical": false
-    },
-    {
         "country": "Asia",
         "city": "Host",
         "lat": 33.341761601904665,
@@ -319,6 +347,20 @@
         "description": "Several people were also injured in the incident on Monday at the popular tourist site, say Mexican officials, weeks before the country hosts the Fifa World Cup.",
         "fatalities": "0",
         "link": "https://www.bbc.com/news/articles/crm1rg3ydkvo?at_medium=RSS&at_campaign=rss",
+        "critical": false
+    },
+    {
+        "country": "Iran",
+        "city": "Tehran",
+        "lat": 35.63678420973083,
+        "lon": 51.322917966442645,
+        "date": "2026-04-21 21:47:24",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Trump Extends Cease-Fire, Even as Peace Talks Are Put on Hold",
+        "description": "With the cease-fire on the verge of ending, President Trump said on Tuesday that he would keep it in place until Iran’s “proposal is submitted, and discussions are concluded, one way or the other.”",
+        "fatalities": "0",
+        "link": "https://www.nytimes.com/2026/04/21/world/middleeast/trump-extends-iran-ceasefire.html",
         "critical": false
     },
     {
@@ -3022,47 +3064,5 @@
         "fatalities": "0",
         "link": "https://www.aljazeera.com/news/2026/4/21/iran-war-what-is-happening-on-day-53-of-the-us-israel-conflict?traffic_source=rss",
         "critical": false
-    },
-    {
-        "country": "Israel",
-        "city": "Tel Aviv",
-        "lat": 32.08661308150203,
-        "lon": 34.735936877985104,
-        "date": "2026-04-21 07:52:54",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Israeli police arrest two ultra-Orthodox Jews for removing Israeli flags",
-        "description": "Two ultra-Orthodox Jews tore down Israeli flags in Beit Shemesh, before being arrested by Israeli authorities.",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/video/newsfeed/2026/4/21/israeli-police-arrest-two-ultra-orthodox-jews-for-removing-israeli-flags?traffic_source=rss",
-        "critical": false
-    },
-    {
-        "country": "Iran",
-        "city": "Tehran",
-        "lat": 35.68273002652574,
-        "lon": 51.4197945262446,
-        "date": "2026-04-21 07:52:54",
-        "type": "Clashes",
-        "severity": "middle",
-        "title": "Iran war forces job losses, reverse migration in India’s ceramic hub",
-        "description": "The ceramics industry in Gujarats Morbi has been badly hit by fuel crisis, with most units closed and workers laid off.",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/news/2026/4/21/iran-war-forces-job-losses-reverse-migration-in-indias-ceramic-hub?traffic_source=rss",
-        "critical": false
-    },
-    {
-        "country": "Asia",
-        "city": "Pakistan",
-        "lat": 31.58415319593374,
-        "lon": 74.34223805237023,
-        "date": "2026-04-21 07:52:49",
-        "type": "Airstrike",
-        "severity": "critical",
-        "title": "Pakistan’s Leaders Try to Contain Rising Anger Over Iran War at Home",
-        "description": "With deep spiritual ties to Iran, Pakistan’s minority Shiites are angry about the killing of Iran’s top clerics in U.S.-Israeli strikes, complicating Pakistan’s role as mediator.",
-        "fatalities": "0",
-        "link": "https://www.nytimes.com/2026/04/20/world/asia/pakistan-shiites-iran-diplomacy.html",
-        "critical": true
     }
 ]
