@@ -1,5 +1,47 @@
 [
     {
+        "country": "Europe",
+        "city": "Brussels",
+        "lat": 50.882169492718994,
+        "lon": 4.288470852683853,
+        "date": "2026-04-23 00:11:58",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "European Conservative: Украине грозит коллапс из-за оттока коренного населения",
+        "description": "Украине грозит демографический коллапс, вызванный оттоком коренного населения. Об этом пишет издание The European Conservative.",
+        "fatalities": "0",
+        "link": "https://rg.ru/2026/04/23/european-conservative-ukraine-grozit-kollaps-iz-za-ottoka-korennogo-naseleniia.html",
+        "critical": false
+    },
+    {
+        "country": "Israel",
+        "city": "Tel Aviv",
+        "lat": 32.0277715745007,
+        "lon": 34.72902023552353,
+        "date": "2026-04-23 00:11:32",
+        "type": "Clashes",
+        "severity": "middle",
+        "title": "Mamdani administration won’t use a codified antisemitism definition, representative says",
+        "description": "Head of City Hall office for combating discrimination against Jews says IHRA outline junked by Mamdani will not be replaced; NYPD says 'kill Zionists' graffiti not necessarily a hate crime\nThe post Mamdani administration wont use a codified antisemitism definition, representative says appeared first on The Times of Israel.",
+        "fatalities": "0",
+        "link": "https://www.timesofisrael.com/mamdani-administration-wont-use-a-codified-antisemitism-definition-representative-says/",
+        "critical": false
+    },
+    {
+        "country": "Iran",
+        "city": "Tehran",
+        "lat": 35.638947532350656,
+        "lon": 51.43098003683635,
+        "date": "2026-04-23 00:11:27",
+        "type": "Naval",
+        "severity": "normal",
+        "title": "Trump gives Iran days to end power struggle, return to peace talks",
+        "description": "President Trump is giving Iran's warring factions a short window to unify behind a coherent counter-offer — or the ceasefire he extended Tuesday ends, three U.S. officials tell Axios. \"Trump is willing to give another three to five days of ceasefire to allow the Iranians to get their shit together,\" one U.S. source briefed on the matter said. \"It is not going to be open-ended.\"Why it matters: Trump's negotiators believe a deal to end the war and ",
+        "fatalities": "0",
+        "link": "https://www.axios.com/2026/04/22/trump-iran-war-power-struggle-ceasefire",
+        "critical": false
+    },
+    {
         "country": "Israel",
         "city": "Tel Aviv",
         "lat": 32.12831869765219,
@@ -3022,47 +3064,5 @@
         "fatalities": "0",
         "link": "https://www.timesofisrael.com/trump-reads-from-bible-in-america-250-event-critics-accuse-of-christian-nationalism/",
         "critical": false
-    },
-    {
-        "country": "Iran",
-        "city": "Tehran",
-        "lat": 35.65614848007438,
-        "lon": 51.32629947626283,
-        "date": "2026-04-22 07:08:32",
-        "type": "Naval",
-        "severity": "normal",
-        "title": "U.S. Seizes Iranian-Flagged Cargo Ship Violating Blockade",
-        "description": "The U.S. has seized the Iranian-flagged cargo ship M/V Touska which was violating the naval blockade, with the USS Spruance opening fire with its 5-inch MK45 gun and Marines boarding the vessel. The U.S. military has seized an Iranian-flagged cargo ship, the M/V Touska, which was attempting to sail towards an Iranian port on Apr. []",
-        "fatalities": "0",
-        "link": "https://theaviationist.com/2026/04/20/us-seizes-iranian-mv-touska/",
-        "critical": false
-    },
-    {
-        "country": "Iran",
-        "city": "Tehran",
-        "lat": 35.75380523324776,
-        "lon": 51.38961636508167,
-        "date": "2026-04-22 07:08:27",
-        "type": "Naval",
-        "severity": "normal",
-        "title": "Baltic nations brace for impact of Iran war delaying US weapons shipments",
-        "description": "Delays in ammunition deliveries could reopen a thorny question for Baltic HIMARS users: Would the U.S. permit non-Lockheed rockets to be loaded?",
-        "fatalities": "0",
-        "link": "https://www.defensenews.com/global/europe/2026/04/20/baltic-nations-brace-for-impact-of-iran-war-delaying-us-weapons-shipments/",
-        "critical": false
-    },
-    {
-        "country": "Russia",
-        "city": "Moscow",
-        "lat": 55.76046488563738,
-        "lon": 37.58953214790059,
-        "date": "2026-04-22 07:08:22",
-        "type": "Airstrike",
-        "severity": "critical",
-        "title": "Italy summons Russian ambassador after TV host targets Meloni with stream of insults",
-        "description": "Rome has called in Moscow's ambassador after a Russian TV presenter attacked Prime Minister Giorgia Meloni on air, Italian Foreign Minister Antonio Tajani said Tuesday. The remarks, condemned across the political spectrum, risk deepening already strained ties between Rome and Moscow amid tensions over Ukraine.",
-        "fatalities": "0",
-        "link": "https://www.france24.com/en/europe/20260422-italy-summons-russian-ambassador-after-tv-host-s-insults-toward-meloni",
-        "critical": true
     }
 ]
