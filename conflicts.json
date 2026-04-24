@@ -1,5 +1,33 @@
 [
     {
+        "country": "Middle East",
+        "city": "Damascus",
+        "lat": 33.52754777616536,
+        "lon": 36.234302978699894,
+        "date": "2026-04-24 23:51:04",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Syria says it arrested ex-intel officer filmed taking part in 2013 Damascus massacre",
+        "description": "Syria says Amjad Yousef was one of several officers caught on leaked video shooting dozens of prisoners into trench in Damascus suburb near Palestinian refugee camp of Yarmouk\nThe post Syria says it arrested ex-intel officer filmed taking part in 2013 Damascus massacre appeared first on The Times of Israel.",
+        "fatalities": "0",
+        "link": "https://www.timesofisrael.com/syria-says-it-arrested-ex-intel-officer-filmed-taking-part-in-2013-damascus-massacre/",
+        "critical": false
+    },
+    {
+        "country": "USA",
+        "city": "Washington",
+        "lat": 38.891145016291325,
+        "lon": -77.07912411056658,
+        "date": "2026-04-24 23:50:40",
+        "type": "Airstrike",
+        "severity": "critical",
+        "title": "Kenyan Court Strikes Down Ruling Protecting Right to Abortion",
+        "description": "The decision, in a country where thousands of women die yearly from unsafe abortions, held that abortions deprive unborn children of the “right to life.”",
+        "fatalities": "0",
+        "link": "https://www.nytimes.com/2026/04/24/world/africa/kenya-court-abortion-ruling.html",
+        "critical": true
+    },
+    {
         "country": "Israel",
         "city": "Tel Aviv",
         "lat": 32.06928302118853,
@@ -156,20 +184,6 @@
     {
         "country": "Asia",
         "city": "Pakistan",
-        "lat": 31.482843387675075,
-        "lon": 74.34994541639489,
-        "date": "2026-04-24 22:10:14",
-        "type": "Clashes",
-        "severity": "middle",
-        "title": "Kushner and Witkoff Traveling to Pakistan to Resume Iran Talks",
-        "description": "Iran’s foreign minister has already arrived in the country, state media reported. He was believed to be carrying a written response to a U.S. proposal to end the war.",
-        "fatalities": "0",
-        "link": "https://www.nytimes.com/2026/04/24/world/middleeast/kushner-witkoff-pakistan-iran.html",
-        "critical": false
-    },
-    {
-        "country": "Asia",
-        "city": "Pakistan",
         "lat": 31.490523762419965,
         "lon": 74.37760819195812,
         "date": "2026-04-24 22:10:14",
@@ -179,6 +193,20 @@
         "description": "Iran says its Foreign Minister Abbas Araghchi is already in Pakistan but that there is no meeting planned between Iran and the US.",
         "fatalities": "0",
         "link": "https://www.bbc.com/news/articles/cy8103xklreo?at_medium=RSS&at_campaign=rss",
+        "critical": false
+    },
+    {
+        "country": "Asia",
+        "city": "Pakistan",
+        "lat": 31.482843387675075,
+        "lon": 74.34994541639489,
+        "date": "2026-04-24 22:10:14",
+        "type": "Clashes",
+        "severity": "middle",
+        "title": "Kushner and Witkoff Traveling to Pakistan to Resume Iran Talks",
+        "description": "Iran’s foreign minister has already arrived in the country, state media reported. He was believed to be carrying a written response to a U.S. proposal to end the war.",
+        "fatalities": "0",
+        "link": "https://www.nytimes.com/2026/04/24/world/middleeast/kushner-witkoff-pakistan-iran.html",
         "critical": false
     },
     {
@@ -3035,34 +3063,6 @@
         "description": "China's DeepSeek on Friday released a new AI model with \"drastically reduced\" costs that it said was capable of processing extra-long texts to help it complete tasks. The company caused shockwaves last year after it revealed a reasoning model that upended assumptions of US dominance in the sector.",
         "fatalities": "0",
         "link": "https://www.france24.com/en/technology/20260424-us-china-ai-race-intensifies-as-deepseek-releases-new-reduced-cost-model",
-        "critical": false
-    },
-    {
-        "country": "Iran",
-        "city": "Tehran",
-        "lat": 35.73905687307355,
-        "lon": 51.36372983514551,
-        "date": "2026-04-24 07:17:42",
-        "type": "Naval",
-        "severity": "normal",
-        "title": "Middle East war live: Oil prices jump as tensions remain high in Strait of Hormuz",
-        "description": "Oil prices rose on Friday as tensions remain high in the Strait of Hormuz despite a extended ceasefire between Iran and the US. Iran on Thursday released footage of commandos boarding a ship in the vital oil shipping route as Tehran’s air defences engaged “hostile targets”. Follow our liveblog for the latest updates.",
-        "fatalities": "0",
-        "link": "https://www.france24.com/en/middle-east/20260424-middle-east-war-live-israel-lebanon-ceasefire-continues-as-trump-hopes-for-peace-deal",
-        "critical": false
-    },
-    {
-        "country": "Israel",
-        "city": "Gaza",
-        "lat": 31.479796093123323,
-        "lon": 34.4610747552889,
-        "date": "2026-04-24 07:17:40",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Does Israel’s ‘Yellow Line’ violate the Lebanon ceasefire?",
-        "description": "Israel has carved out a military zone inside southern Lebanon, raising fears it is replicating the “Yellow Line” in Gaza",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/video/newsfeed/2026/4/24/does-israels-yellow-line-violate-the-lebanon-ceasefire-2?traffic_source=rss",
         "critical": false
     }
 ]
