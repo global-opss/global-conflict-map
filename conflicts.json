@@ -1,5 +1,61 @@
 [
     {
+        "country": "Iran",
+        "city": "Tehran",
+        "lat": 35.68437750478938,
+        "lon": 51.4050799469095,
+        "date": "2026-04-24 18:30:27",
+        "type": "Naval",
+        "severity": "normal",
+        "title": "US envoys Witkoff, Kushner to depart Saturday for talks with Iran FM in Pakistan",
+        "description": "White House claims Tehran asked for in-person meeting; Vance reportedly on standby to join if negotiations progress; US said preparing new battle plans for Strait of Hormuz\nThe post US envoys Witkoff, Kushner to depart Saturday for talks with Iran FM in Pakistan appeared first on The Times of Israel.",
+        "fatalities": "0",
+        "link": "https://www.timesofisrael.com/trump-said-dispatching-witkoff-kushner-for-talks-with-iran-fm-in-pakistan-in-coming-days/",
+        "critical": false
+    },
+    {
+        "country": "Ukraine",
+        "city": "Kyiv",
+        "lat": 50.402063176642905,
+        "lon": 30.517981990171286,
+        "date": "2026-04-24 18:30:16",
+        "type": "Clashes",
+        "severity": "middle",
+        "title": "Ukraine to field 25,000 ground robots in push to replace soldiers for frontline logistics",
+        "description": "Ground robots ran more than 9,000 frontline missions in March, triple November's count, and captured their first Russian position last summer.",
+        "fatalities": "0",
+        "link": "https://www.defensenews.com/unmanned/2026/04/24/ukraine-to-field-25000-ground-robots-in-push-to-replace-soldiers-for-frontline-logistics/",
+        "critical": false
+    },
+    {
+        "country": "USA",
+        "city": "Alaska",
+        "lat": 64.50577314152012,
+        "lon": -149.7239797248001,
+        "date": "2026-04-24 18:30:00",
+        "type": "Naval",
+        "severity": "normal",
+        "title": "A New Idea to Save the AMOC? Dam the Bering Strait.",
+        "description": "Blocking the narrow waterway between Russia and Alaska could help stabilize a vulnerable system of ocean currents, scientists found in a study.",
+        "fatalities": "0",
+        "link": "https://www.nytimes.com/2026/04/24/climate/amoc-bering-strait-dam.html",
+        "critical": false
+    },
+    {
+        "country": "Africa",
+        "city": "Somalia",
+        "lat": 5.096529480854225,
+        "lon": 46.20838252071637,
+        "date": "2026-04-24 18:30:00",
+        "type": "Clashes",
+        "severity": "middle",
+        "title": "Pirates hijack oil tanker off the coast of Somalia",
+        "description": "Piracy, once notorious in this stretch of the Indian Ocean, has made a comeback in recent years.",
+        "fatalities": "0",
+        "link": "https://www.bbc.com/news/articles/c78l26yn981o?at_medium=RSS&at_campaign=rss",
+        "critical": false
+    },
+    {
         "country": "USA",
         "city": "Washington",
         "lat": 38.93044696139984,
@@ -28,20 +84,6 @@
         "critical": false
     },
     {
-        "country": "Asia",
-        "city": "Pakistan",
-        "lat": 31.445448738461916,
-        "lon": 74.43336193443047,
-        "date": "2026-04-24 17:40:26",
-        "type": "Naval",
-        "severity": "normal",
-        "title": "Trump said dispatching Witkoff, Kushner for talks with Iran FM in Pakistan in coming days",
-        "description": "Vance reportedly on standby to join if negotiations progress; US said preparing new battle plans for Strait of Hormuz; Israel said to assess that US wants deal, but Iran won't make one\nThe post Trump said dispatching Witkoff, Kushner for talks with Iran FM in Pakistan in coming days appeared first on The Times of Israel.",
-        "fatalities": "0",
-        "link": "https://www.timesofisrael.com/trump-said-dispatching-witkoff-kushner-for-talks-with-iran-fm-in-pakistan-in-coming-days/",
-        "critical": false
-    },
-    {
         "country": "Israel",
         "city": "Tel Aviv",
         "lat": 32.07887867135765,
@@ -53,6 +95,20 @@
         "description": "Still too soon to say if extension of Iran truce will lead to 'sustained reduction of risk to civil aviation,' safety agency says, amid faltering efforts for permanent ceasefire\nThe post EU agency extends warning on flights to Mideast, including Israel, through May 1 appeared first on The Times of Israel.",
         "fatalities": "0",
         "link": "https://www.timesofisrael.com/eu-agency-extends-warning-on-flights-to-mideast-including-israel-through-may-1/",
+        "critical": false
+    },
+    {
+        "country": "Asia",
+        "city": "Pakistan",
+        "lat": 31.445448738461916,
+        "lon": 74.43336193443047,
+        "date": "2026-04-24 17:40:26",
+        "type": "Naval",
+        "severity": "normal",
+        "title": "Trump said dispatching Witkoff, Kushner for talks with Iran FM in Pakistan in coming days",
+        "description": "Vance reportedly on standby to join if negotiations progress; US said preparing new battle plans for Strait of Hormuz; Israel said to assess that US wants deal, but Iran won't make one\nThe post Trump said dispatching Witkoff, Kushner for talks with Iran FM in Pakistan in coming days appeared first on The Times of Israel.",
+        "fatalities": "0",
+        "link": "https://www.timesofisrael.com/trump-said-dispatching-witkoff-kushner-for-talks-with-iran-fm-in-pakistan-in-coming-days/",
         "critical": false
     },
     {
@@ -322,20 +378,6 @@
         "critical": false
     },
     {
-        "country": "Israel",
-        "city": "Tel Aviv",
-        "lat": 32.08729500832901,
-        "lon": 34.75642230226259,
-        "date": "2026-04-24 17:40:04",
-        "type": "Airstrike",
-        "severity": "critical",
-        "title": "Escalating Clashes Test Newly Extended Israel-Lebanon Truce",
-        "description": "The U.S.-mediated cease-fire halted an all-out war between Israel and Hezbollah, but their intensifying attacks on each other could put the truce at risk.",
-        "fatalities": "0",
-        "link": "https://www.nytimes.com/2026/04/24/world/middleeast/escalating-clashes-test-newly-extended-israel-lebanon-truce.html",
-        "critical": true
-    },
-    {
         "country": "Iran",
         "city": "Tehran",
         "lat": 35.712921680197766,
@@ -348,6 +390,20 @@
         "fatalities": "0",
         "link": "https://www.bbc.com/news/articles/cm29m732vgno?at_medium=RSS&at_campaign=rss",
         "critical": false
+    },
+    {
+        "country": "Israel",
+        "city": "Tel Aviv",
+        "lat": 32.08729500832901,
+        "lon": 34.75642230226259,
+        "date": "2026-04-24 17:40:04",
+        "type": "Airstrike",
+        "severity": "critical",
+        "title": "Escalating Clashes Test Newly Extended Israel-Lebanon Truce",
+        "description": "The U.S.-mediated cease-fire halted an all-out war between Israel and Hezbollah, but their intensifying attacks on each other could put the truce at risk.",
+        "fatalities": "0",
+        "link": "https://www.nytimes.com/2026/04/24/world/middleeast/escalating-clashes-test-newly-extended-israel-lebanon-truce.html",
+        "critical": true
     },
     {
         "country": "Asia",
@@ -3008,61 +3064,5 @@
         "fatalities": "0",
         "link": "https://www.kommersant.ru/doc/8608480",
         "critical": false
-    },
-    {
-        "country": "USA",
-        "city": "New york",
-        "lat": 40.75334170639373,
-        "lon": -73.98245328532016,
-        "date": "2026-04-23 21:59:44",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Умерла последняя ученица Рахманинова пианистка Рут Сленьчинска",
-        "description": "Американская пианистка Рут Сленьчинска, которая считалась последним живым учеником композитора Сергея Рахманинова, скончалась 22 апреля в возрасте 101 года. О ее смерти сегодня рассказал ее близкий друг Рэнди Сталман в разговоре с The New York Times и BBC.",
-        "fatalities": "0",
-        "link": "https://www.kommersant.ru/doc/8608462",
-        "critical": false
-    },
-    {
-        "country": "Asia",
-        "city": "Host",
-        "lat": 33.322930988251464,
-        "lon": 69.94816899219659,
-        "date": "2026-04-23 21:59:33",
-        "type": "Airstrike",
-        "severity": "critical",
-        "title": "Israel-Lebanon ceasefire extended by three weeks, Trump says",
-        "description": "The ceasefire between Israel and Lebanon will be extended by another three weeks, President Trump said after hosting the Israeli and Lebanese ambassadors in the Oval Office on Thursday. Why it matters: The U.S. wants to extend the Lebanon ceasefire for two reasons: to advance direct Israel-Lebanon peace talks and to prevent renewed fighting from undermining its effort to reach a deal with Iran.Driving the news: Trump announced the initial 10-day ",
-        "fatalities": "0",
-        "link": "https://www.axios.com/2026/04/23/trump-israel-lebanon-ceasefire-extended-talks-us-iran-war",
-        "critical": true
-    },
-    {
-        "country": "Israel",
-        "city": "Tel Aviv",
-        "lat": 32.128931443135514,
-        "lon": 34.77068812938853,
-        "date": "2026-04-23 21:59:33",
-        "type": "Naval",
-        "severity": "normal",
-        "title": "Supply chain cracks constrain AI boom",
-        "description": "The AI economy is being constrained by the physical world: The Iran war threatens to squeeze the industrial inputs that chip manufacturers depend on, the latest confirmation that once-reliable global chokepoints are now more fragile than ever.Why it matters: It is part of a growing pattern defining the economic conditions of the 2020s: shocks exposing the fragility of supply chains that the world took for granted.The AI buildout is the latest to ",
-        "fatalities": "0",
-        "link": "https://www.axios.com/2026/04/23/ai-iran-supply-chain",
-        "critical": false
-    },
-    {
-        "country": "Israel",
-        "city": "Tel Aviv",
-        "lat": 32.130303413312724,
-        "lon": 34.803432078284615,
-        "date": "2026-04-23 21:59:33",
-        "type": "Airstrike",
-        "severity": "critical",
-        "title": "Trump declares 3-week extension of truce between Israel and Hezbollah",
-        "description": "Announcement comes shortly after Hezbollah fired rockets at north for first time during the ceasefire and as Israeli, Lebanese envoys meet at White House for a second round of talks\nThe post Trump declares 3-week extension of truce between Israel and Hezbollah appeared first on The Times of Israel.",
-        "fatalities": "0",
-        "link": "https://www.timesofisrael.com/liveblog-april-24-2026/",
-        "critical": true
     }
 ]
