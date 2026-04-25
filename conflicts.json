@@ -1,5 +1,33 @@
 [
     {
+        "country": "Israel",
+        "city": "Tel Aviv",
+        "lat": 32.06885629767755,
+        "lon": 34.777813991559086,
+        "date": "2026-04-25 18:06:49",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Syria to begin trying Assad-era figures Sunday, justice ministry official says",
+        "description": "Cases against security officials and militia leaders accused of atrocities signal first test for Syria’s new justice system\nThe post Syria to begin trying Assad-era figures Sunday, justice ministry official says appeared first on The Times of Israel.",
+        "fatalities": "0",
+        "link": "https://www.timesofisrael.com/syria-to-begin-trying-assad-era-figures-sunday-justice-ministry-official-says/",
+        "critical": false
+    },
+    {
+        "country": "Israel",
+        "city": "Gaza",
+        "lat": 31.55819004602808,
+        "lon": 34.45796378516473,
+        "date": "2026-04-25 18:06:29",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Joy and desire for change as Gaza’s Deir el-Balah holds elections",
+        "description": "Deir el-Balah residents vote for first time since 2006 despite destruction, displacement and genocide.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/features/2026/4/25/joy-and-desire-for-change-as-gazas-deir-el-balah-holds-elections?traffic_source=rss",
+        "critical": false
+    },
+    {
         "country": "Asia",
         "city": "Pakistan",
         "lat": 31.545246724170603,
@@ -3035,34 +3063,6 @@
         "description": "WASHINGTON: US President Donald Trump on Thursday fired Kristi Noem as head of the Department of Homeland Security, the agency responsible for carrying out his sweeping immigration crackdown.\n\tAccording to multiple media reports, Trump was upset with Noem’s testimony at a Senate hearing this week where she said the president had approved a $220 million DHS advertising campaign in which she featured prominently.\n\tTrump, in a post on Truth Social, ",
         "fatalities": "0",
         "link": "https://www.arabnews.com/node/2635407/world",
-        "critical": false
-    },
-    {
-        "country": "Israel",
-        "city": "Tel Aviv",
-        "lat": 32.09300928197707,
-        "lon": 34.83856063435298,
-        "date": "2026-04-24 16:42:28",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "A popular US theater is reviving a lost film by Israeli B-movie director Sam Firstenberg",
-        "description": "Alamo Drafthouse theaters in five cities will screen the 1989 action drama 'Riverbend' on April 29, signaling renewed interest in a filmmaker critics praised as a master of 'earnest schlock'\nThe post A popular US theater is reviving a lost film by Israeli B-movie director Sam Firstenberg appeared first on The Times of Israel.",
-        "fatalities": "0",
-        "link": "https://www.timesofisrael.com/a-popular-us-theater-is-reviving-a-lost-film-by-israeli-b-movie-director-sam-firstenberg/",
-        "critical": false
-    },
-    {
-        "country": "USA",
-        "city": "Washington",
-        "lat": 38.862165243724114,
-        "lon": -77.04966775166858,
-        "date": "2026-04-24 16:42:12",
-        "type": "Naval",
-        "severity": "normal",
-        "title": "Hanwha and Magnet Defense partner for US DoW’s MUSVs",
-        "description": "Hanwha Defense USA (HDUSA) and Magnet Defense have entered into a strategic partnership to produce medium uncrewed surface vessels (MUSVs).\nThe post Hanwha and Magnet Defense partner for US DoW’s MUSVs   appeared first on Naval Technology.",
-        "fatalities": "0",
-        "link": "https://www.naval-technology.com/news/hanwha-magnet-defense-musv-dow/",
         "critical": false
     }
 ]
