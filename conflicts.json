@@ -1232,20 +1232,6 @@
         "critical": false
     },
     {
-        "country": "Ukraine",
-        "city": "Kyiv",
-        "lat": 50.447335185147814,
-        "lon": 30.584101172713776,
-        "date": "2026-04-25 10:44:44",
-        "type": "Airstrike",
-        "severity": "critical",
-        "title": "Seven dead in major Russian attack on Ukraine",
-        "description": "The city of Dnipro was hardest hit, with officials saying four died in a strike on a residential building.",
-        "fatalities": "0",
-        "link": "https://www.bbc.com/news/articles/c0rxk4q0pj0o?at_medium=RSS&at_campaign=rss",
-        "critical": true
-    },
-    {
         "country": "Israel",
         "city": "Gaza",
         "lat": 31.56902615142343,
@@ -1258,6 +1244,20 @@
         "fatalities": "0",
         "link": "https://www.bbc.com/news/articles/cn4vej3x0wxo?at_medium=RSS&at_campaign=rss",
         "critical": false
+    },
+    {
+        "country": "Ukraine",
+        "city": "Kyiv",
+        "lat": 50.447335185147814,
+        "lon": 30.584101172713776,
+        "date": "2026-04-25 10:44:44",
+        "type": "Airstrike",
+        "severity": "critical",
+        "title": "Seven dead in major Russian attack on Ukraine",
+        "description": "The city of Dnipro was hardest hit, with officials saying four died in a strike on a residential building.",
+        "fatalities": "0",
+        "link": "https://www.bbc.com/news/articles/c0rxk4q0pj0o?at_medium=RSS&at_campaign=rss",
+        "critical": true
     },
     {
         "country": "USA",
