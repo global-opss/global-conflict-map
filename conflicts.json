@@ -1,5 +1,47 @@
 [
     {
+        "country": "USA",
+        "city": "Washington",
+        "lat": 38.8787769575819,
+        "lon": -76.99737774234076,
+        "date": "2026-04-26 22:20:30",
+        "type": "Naval",
+        "severity": "normal",
+        "title": "Welcome to Washington's new media landscape",
+        "description": "White House Correspondents' Dinner weekend has always been a reflection of the changing news ecosystem, but this year's event shows just how fast the media industry is being disrupted.Why it matters: Washington's traditional media power-brokers are being challenged by independent journalists and upstarts with a less complicated political history.Driving the news: Stretching from Thursday to Sunday, a dozen parties and events surrounding this year",
+        "fatalities": "0",
+        "link": "https://www.axios.com/2026/04/26/washtington-media-white-house-correspondents-dinner",
+        "critical": false
+    },
+    {
+        "country": "Israel",
+        "city": "Tel Aviv",
+        "lat": 32.0932048903865,
+        "lon": 34.73691515019419,
+        "date": "2026-04-26 22:20:30",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Highlighting their differences, old-new partners Bennett and Lapid try to oust Netanyahu again",
+        "description": "Bennett exudes confidence in a 'giant' election victory, Lapid is only slightly more circumspect, as they announce an alliance that makes sense for them both and kicks off a crucial campaign\nThe post Highlighting their differences, old-new partners Bennett and Lapid try to oust Netanyahu again appeared first on The Times of Israel.",
+        "fatalities": "0",
+        "link": "https://www.timesofisrael.com/highlighting-their-differences-old-new-partners-bennett-and-lapid-try-again-to-oust-netanyahu/",
+        "critical": false
+    },
+    {
+        "country": "Israel",
+        "city": "Tel Aviv",
+        "lat": 32.0398942231061,
+        "lon": 34.749029664662345,
+        "date": "2026-04-26 22:20:30",
+        "type": "Airstrike",
+        "severity": "critical",
+        "title": "IDF soldier killed in south Lebanon drone attack as Israel, Hezbollah trade fire and blame",
+        "description": "6 Israeli troops wounded in strike inside Israeli-declared security zone; Netanyahu says Hezbollah 'dismantling ceasefire' as terror group defends actions as 'legitimate response'\nThe post IDF soldier killed in south Lebanon drone attack as Israel, Hezbollah trade fire and blame appeared first on The Times of Israel.",
+        "fatalities": "0",
+        "link": "https://www.timesofisrael.com/idf-soldier-killed-in-south-lebanon-drone-attack-as-israel-hezbollah-trade-blame/",
+        "critical": true
+    },
+    {
         "country": "Israel",
         "city": "Tel Aviv",
         "lat": 32.08013926355072,
@@ -686,20 +728,6 @@
         "critical": true
     },
     {
-        "country": "Africa",
-        "city": "Mali",
-        "lat": 12.615841501854794,
-        "lon": -7.895593511370218,
-        "date": "2026-04-26 16:44:06",
-        "type": "Clashes",
-        "severity": "middle",
-        "title": "Term-limited Trump mortgages GOP's future",
-        "description": "President Trump is governing like a man who will never face voters again, mortgaging his party's future on promises he won't be around to keep.Why it matters: Trump's approval has plunged to a second-term low. His signature bets — tariffs, the war in Iran, redistricting — are curdling into long-term liabilities the GOP could carry long past November.Stunning stat: Fox News' latest poll shows Democrats leading Republicans by 4 percentage points on",
-        "fatalities": "0",
-        "link": "https://www.axios.com/2026/04/25/trump-republicans-polls-midterms-approval",
-        "critical": false
-    },
-    {
         "country": "Middle East",
         "city": "Damascus",
         "lat": 33.44385494427964,
@@ -725,6 +753,20 @@
         "description": "Trump says although Iran 'offered a lot' in most recent proposal, it was still 'not enough;' Tehran tries persuading Oman to support mechanism to collect tolls in strait\nThe post Iran diplomacy stalls as Hormuz becomes focal point of mediation efforts appeared first on The Times of Israel.",
         "fatalities": "0",
         "link": "https://www.timesofisrael.com/iran-diplomacy-stalls-as-hormuz-becomes-focal-point-of-mediation-efforts/",
+        "critical": false
+    },
+    {
+        "country": "Africa",
+        "city": "Mali",
+        "lat": 12.615841501854794,
+        "lon": -7.895593511370218,
+        "date": "2026-04-26 16:44:06",
+        "type": "Clashes",
+        "severity": "middle",
+        "title": "Term-limited Trump mortgages GOP's future",
+        "description": "President Trump is governing like a man who will never face voters again, mortgaging his party's future on promises he won't be around to keep.Why it matters: Trump's approval has plunged to a second-term low. His signature bets — tariffs, the war in Iran, redistricting — are curdling into long-term liabilities the GOP could carry long past November.Stunning stat: Fox News' latest poll shows Democrats leading Republicans by 4 percentage points on",
+        "fatalities": "0",
+        "link": "https://www.axios.com/2026/04/25/trump-republicans-polls-midterms-approval",
         "critical": false
     },
     {
@@ -3021,48 +3063,6 @@
         "description": "CAIRO: Egyptian President Abdel Fattah El-Sisi said Thursday his country was in an economic “state of near-emergency” as a result of the Middle East war, warning of runaway inflation.\n\tThe Arab world’s most populous nation has not been physically impacted by the US and Israeli war with Iran, which has seen strikes on Egypt’s wealthy Gulf allies and paralyzed trade through the vital Strait of Hormuz.",
         "fatalities": "0",
         "link": "https://www.arabnews.com/node/2635410/middle-east",
-        "critical": false
-    },
-    {
-        "country": "Middle East",
-        "city": "Beirut",
-        "lat": 33.958566229043434,
-        "lon": 35.5235273339278,
-        "date": "2026-04-25 20:40:15",
-        "type": "Airstrike",
-        "severity": "critical",
-        "title": "How Israel’s ‘buffer zone’ plan could redraw the map of southern Lebanon",
-        "description": "BEIRUT: Lebanon faces what officials described as “one of the most dangerous moments in recent memory” after Hezbollah launched attacks on Israeli forces from areas both south and north of the Litani River, triggering a renewed Israeli air and ground campaign.\n\n\tAnnouncing its ground incursion into southern Lebanon, Israel said it aims to establish what it called a permanent “security zone” along the border.",
-        "fatalities": "0",
-        "link": "https://www.arabnews.com/node/2635409/middle-east",
-        "critical": true
-    },
-    {
-        "country": "Iran",
-        "city": "Tehran",
-        "lat": 35.66934982030278,
-        "lon": 51.38553932865001,
-        "date": "2026-04-25 20:40:15",
-        "type": "Airstrike",
-        "severity": "critical",
-        "title": "Europol warns Iran crisis raises threat of terror, extremism and cyberattacks",
-        "description": "MADRID: The Middle East conflict will have “immediate repercussions” for European Union security with an increased threat of terrorism, serious and organized crime as well as violent extremism and cyberattacks, European police body Europol told Spanish news agency EFE on Thursday.\n\tEuropol spokesman Jan Op Gen Oorth said he expected to see more cyberattacks against European infrastructure and an increase in online fraud using increasingly sophist",
-        "fatalities": "0",
-        "link": "https://www.arabnews.com/node/2635408/world",
-        "critical": true
-    },
-    {
-        "country": "USA",
-        "city": "Washington",
-        "lat": 38.95925345984058,
-        "lon": -77.00069620207216,
-        "date": "2026-04-25 20:40:15",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Trump fires homeland security chief Kristi Noem",
-        "description": "WASHINGTON: US President Donald Trump on Thursday fired Kristi Noem as head of the Department of Homeland Security, the agency responsible for carrying out his sweeping immigration crackdown.\n\tAccording to multiple media reports, Trump was upset with Noem’s testimony at a Senate hearing this week where she said the president had approved a $220 million DHS advertising campaign in which she featured prominently.\n\tTrump, in a post on Truth Social, ",
-        "fatalities": "0",
-        "link": "https://www.arabnews.com/node/2635407/world",
         "critical": false
     }
 ]
