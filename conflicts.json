@@ -1,5 +1,47 @@
 [
     {
+        "country": "Israel",
+        "city": "Tel Aviv",
+        "lat": 32.09716866578306,
+        "lon": 34.81528861053269,
+        "date": "2026-05-02 21:53:12",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "‘Naftali has no friends’: Ben Gvir, Bennett spar as top cops attend minister’s birthday party",
+        "description": "Ex-PM again vows to fire officials who politicize roles if he wins election, after police chief lets brass go to party along with far-right activists, raising concerns of improper conduct\nThe post Naftali has no friends: Ben Gvir, Bennett spar as top cops attend ministers birthday party appeared first on The Times of Israel.",
+        "fatalities": "0",
+        "link": "https://www.timesofisrael.com/naftali-has-no-friends-ben-gvir-bennett-spar-as-top-cops-attend-ministers-birthday-party/",
+        "critical": false
+    },
+    {
+        "country": "Israel",
+        "city": "Gaza",
+        "lat": 31.53016167881862,
+        "lon": 34.5289862360463,
+        "date": "2026-05-02 21:53:12",
+        "type": "Clashes",
+        "severity": "middle",
+        "title": "Ministers set to discuss renewing Gaza war as Hamas refuses to disarm — report",
+        "description": "Israeli official tells broadcaster that talks being held with mediators on Hamas refusal to disarm; IDF says it killed at least 3 terror operatives, wounded one approaching troops\nThe post Ministers set to discuss renewing Gaza war as Hamas refuses to disarm  report appeared first on The Times of Israel.",
+        "fatalities": "0",
+        "link": "https://www.timesofisrael.com/ministers-set-to-discuss-renewing-gaza-war-as-hamas-refuses-to-disarm-report/",
+        "critical": false
+    },
+    {
+        "country": "USA",
+        "city": "Washington",
+        "lat": 38.90238923806388,
+        "lon": -77.08224692563103,
+        "date": "2026-05-02 21:53:10",
+        "type": "Clashes",
+        "severity": "middle",
+        "title": "AI is changing how we write and speak",
+        "description": "While AI was trained to write like humans, these large language models are eroding the unpredictability of our writing and shifting the way we talk. The big picture: Researchers found that AI pushes users toward a more standardized speaking and writing style, reducing variations in sentence structure and vocabulary.  The University of Southern California study analyzed scientific journals, local news articles and social media and found writing st",
+        "fatalities": "0",
+        "link": "https://www.axios.com/2026/05/02/ai-changing-writing-speaking",
+        "critical": false
+    },
+    {
         "country": "Iran",
         "city": "Tehran",
         "lat": 35.74491669477946,
@@ -3022,47 +3064,5 @@
         "fatalities": "0",
         "link": "https://ria.ru/20260501/sport-2090090948.html",
         "critical": false
-    },
-    {
-        "country": "Iran",
-        "city": "Tehran",
-        "lat": 35.737236412727235,
-        "lon": 51.412359415221914,
-        "date": "2026-05-01 15:15:31",
-        "type": "Naval",
-        "severity": "normal",
-        "title": "Kevin Warsh's challenges become clear after Fed chair Powell's last hurrah",
-        "description": "When Kevin Warsh takes over as Federal Reserve chair, he will face vocal internal opposition to any attempts to cut rates prematurely.His predecessor will also still be roaming the halls.Why it matters: Taken together, Wednesday's news out of the William McChesney Martin Jr. Building means that Warsh will face serious constraints if he wants to rapidly steer the Fed in ways that its current leadership believes unwise.He will have to achieve his g",
-        "fatalities": "0",
-        "link": "https://www.axios.com/2026/04/30/fed-warsh-powell-rates",
-        "critical": false
-    },
-    {
-        "country": "Iran",
-        "city": "Tehran",
-        "lat": 35.74083247099456,
-        "lon": 51.35254794845667,
-        "date": "2026-05-01 15:15:28",
-        "type": "Airstrike",
-        "severity": "critical",
-        "title": "Report Claims Iranian F-5 Bombed U.S. Base in Kuwait During Opening Phase of War",
-        "description": "NBC News says over 100 U.S. targets across 7 countries were hit by Iran, including Camp Buehring in Kuwait which was allegedly struck by an F-5. U.S military bases across the Persian Gulf region appear to have sustained far more extensive damage from recent Iranian strikes than publicly acknowledged, according to a report by NBC []",
-        "fatalities": "0",
-        "link": "https://theaviationist.com/2026/04/26/report-claims-iranian-f-5-bombed-us-base/",
-        "critical": true
-    },
-    {
-        "country": "Europe",
-        "city": "Romania",
-        "lat": 46.05687951212139,
-        "lon": 25.06082324860822,
-        "date": "2026-05-01 15:15:28",
-        "type": "Airstrike",
-        "severity": "critical",
-        "title": "British Eurofighter Typhoons Scrambled to Engage Russian Drones Near the Romania–Ukraine Border",
-        "description": "The Eurofighter Typhoon aircraft established radar contact with a target located above the Ukrainian territory. The pilots were authorized to engage the drones, but they did not fire on the drone. A Russian drone, part of a swarm of 15 Russian OWA (One Way Attack) drones crashed in the municipality of Galați, Romania, early in []",
-        "fatalities": "0",
-        "link": "https://theaviationist.com/2026/04/25/raf-eurofighters-engage-russian-drones-ukraine/",
-        "critical": true
     }
 ]
