@@ -1,5 +1,33 @@
 [
     {
+        "country": "Iran",
+        "city": "Tehran",
+        "lat": 35.73889012093215,
+        "lon": 51.39870475528249,
+        "date": "2026-05-02 22:42:38",
+        "type": "Airstrike",
+        "severity": "critical",
+        "title": "Report Claims Iranian F-5 Bombed U.S. Base in Kuwait During Opening Phase of War",
+        "description": "NBC News says over 100 U.S. targets across 7 countries were hit by Iran, including Camp Buehring in Kuwait which was allegedly struck by an F-5. U.S military bases across the Persian Gulf region appear to have sustained far more extensive damage from recent Iranian strikes than publicly acknowledged, according to a report by NBC []",
+        "fatalities": "0",
+        "link": "https://theaviationist.com/2026/04/26/report-claims-iranian-f-5-bombed-us-base/",
+        "critical": true
+    },
+    {
+        "country": "Europe",
+        "city": "Romania",
+        "lat": 46.002468743198094,
+        "lon": 24.987357187302674,
+        "date": "2026-05-02 22:42:38",
+        "type": "Airstrike",
+        "severity": "critical",
+        "title": "British Eurofighter Typhoons Scrambled to Engage Russian Drones Near the Romania–Ukraine Border",
+        "description": "The Eurofighter Typhoon aircraft established radar contact with a target located above the Ukrainian territory. The pilots were authorized to engage the drones, but they did not fire on the drone. A Russian drone, part of a swarm of 15 Russian OWA (One Way Attack) drones crashed in the municipality of Galați, Romania, early in []",
+        "fatalities": "0",
+        "link": "https://theaviationist.com/2026/04/25/raf-eurofighters-engage-russian-drones-ukraine/",
+        "critical": true
+    },
+    {
         "country": "Israel",
         "city": "Tel Aviv",
         "lat": 32.09716866578306,
@@ -3035,34 +3063,6 @@
         "description": "Военная операция против Ирана станет неудачей, если из этой страны не удастся вывезти свыше 400 кг обогащенного до 60% урана, сообщает в пятницу The Times of Israel со ссылкой на израильский военный источник.\"Если не удастся добиться выполнения задач в ядерной сфере, тогда все, что мы делали в Иране, это один большой провал\", - сказал собеседник издания.",
         "fatalities": "0",
         "link": "https://www.interfax.ru/world/1087201",
-        "critical": false
-    },
-    {
-        "country": "Europe",
-        "city": "Brussels",
-        "lat": 50.920386387146436,
-        "lon": 4.327606460627588,
-        "date": "2026-05-01 15:15:36",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "В Европейской федерации плавания попросили отложить допуск россиян с флагом",
-        "description": "До 1 сентября российские и белорусские спортсмены смогут участвовать в соревнованиях European Aquatics исключительно в статусе индивидуальных нейтральных атлетов",
-        "fatalities": "0",
-        "link": "https://tass.ru/sport/27285475",
-        "critical": false
-    },
-    {
-        "country": "Europe",
-        "city": "Brussels",
-        "lat": 50.89188838352926,
-        "lon": 4.272323420255465,
-        "date": "2026-05-01 15:15:35",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "European Aquatics потребовала отсрочить допуск россиян с флагом и гимном",
-        "description": "",
-        "fatalities": "0",
-        "link": "https://ria.ru/20260501/sport-2090090948.html",
         "critical": false
     }
 ]
