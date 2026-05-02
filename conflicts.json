@@ -1246,20 +1246,6 @@
         "critical": false
     },
     {
-        "country": "Israel",
-        "city": "Tel Aviv",
-        "lat": 32.08765324228286,
-        "lon": 34.737652283980836,
-        "date": "2026-05-02 10:28:29",
-        "type": "Airstrike",
-        "severity": "critical",
-        "title": "Thirteen killed in Israeli strikes on southern Lebanon, health ministry says",
-        "description": "Four women and a child are among the dead, as fighting between Israel and Iran-backed Hezbollah continues despite a ceasefire.",
-        "fatalities": "0",
-        "link": "https://www.bbc.com/news/articles/cd7pn0zywggo?at_medium=RSS&at_campaign=rss",
-        "critical": true
-    },
-    {
         "country": "Iran",
         "city": "Tehran",
         "lat": 35.673450750152575,
@@ -1272,6 +1258,20 @@
         "fatalities": "0",
         "link": "https://www.nytimes.com/2026/04/26/world/middleeast/us-iran-peace-talks-pakistan.html",
         "critical": false
+    },
+    {
+        "country": "Israel",
+        "city": "Tel Aviv",
+        "lat": 32.08765324228286,
+        "lon": 34.737652283980836,
+        "date": "2026-05-02 10:28:29",
+        "type": "Airstrike",
+        "severity": "critical",
+        "title": "Thirteen killed in Israeli strikes on southern Lebanon, health ministry says",
+        "description": "Four women and a child are among the dead, as fighting between Israel and Iran-backed Hezbollah continues despite a ceasefire.",
+        "fatalities": "0",
+        "link": "https://www.bbc.com/news/articles/cd7pn0zywggo?at_medium=RSS&at_campaign=rss",
+        "critical": true
     },
     {
         "country": "Iran",
