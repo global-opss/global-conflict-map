@@ -1,5 +1,47 @@
 [
     {
+        "country": "USA",
+        "city": "New york",
+        "lat": 40.780908713427216,
+        "lon": -73.96469254865808,
+        "date": "2026-05-02 11:24:59",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "NYT: США выводят войска из Германии в наказание за слабую помощь и критику",
+        "description": "США выводят войска из Германии в наказание за критику и слабую помощь на Ближнем Востоке. Об этом пишет The New York Times со ссылкой на источники. Читать далее",
+        "fatalities": "0",
+        "link": "https://russian.rt.com/world/news/1627267-vyvod-voisk-germaniya?utm_source=rss&utm_medium=rss&utm_campaign=RSS",
+        "critical": false
+    },
+    {
+        "country": "Israel",
+        "city": "Gaza",
+        "lat": 31.53117533061453,
+        "lon": 34.522804107335176,
+        "date": "2026-05-02 11:24:31",
+        "type": "Clashes",
+        "severity": "middle",
+        "title": "Rebuilding Gaza Strip: Labour Day is the last thing on Palestinians' minds",
+        "description": "In the Gazan city of Khan Younis, workers are still clearing rubble seven months after the ceasefire that followed two years of war. The work continues around the clock, but it brings in only a few euros a day, barely enough to support their families. Liza Kaminov has more.",
+        "fatalities": "0",
+        "link": "https://www.france24.com/en/rebuilding-gaza-strip-labour-day-is-the-last-thing-on-palestinians-minds",
+        "critical": false
+    },
+    {
+        "country": "Iran",
+        "city": "Tehran",
+        "lat": 35.627632265412075,
+        "lon": 51.36017647831071,
+        "date": "2026-05-02 11:24:21",
+        "type": "Clashes",
+        "severity": "middle",
+        "title": "How Germany May Have Misjudged Trump’s Anger on Iran",
+        "description": "After Chancellor Friedrich Merz upset President Trump with criticism of the war, he offered no public sign he believed Mr. Trump’s threats to pull troops were serious.",
+        "fatalities": "0",
+        "link": "https://www.nytimes.com/2026/05/02/world/europe/germany-trump-merz-troops-withdrawal.html",
+        "critical": false
+    },
+    {
         "country": "Ukraine",
         "city": "Kyiv",
         "lat": 50.504149765338376,
@@ -154,20 +196,6 @@
         "critical": false
     },
     {
-        "country": "Israel",
-        "city": "Gaza",
-        "lat": 31.444310647479213,
-        "lon": 34.52257512204629,
-        "date": "2026-05-02 09:20:53",
-        "type": "Clashes",
-        "severity": "middle",
-        "title": "Rebuilding Gaza Strip: Labour Day is the last thing on Palestinians minds",
-        "description": "In the Gazan city of Khan Younis, workers are still clearing rubble seven months after the ceasefire that followed two years of war. The work continues around the clock, but it brings in only a few euros a day, barely enough to support their families. Liza Kaminov has more.",
-        "fatalities": "0",
-        "link": "https://www.france24.com/en/rebuilding-gaza-strip-labour-day-is-the-last-thing-on-palestinians-minds",
-        "critical": false
-    },
-    {
         "country": "Asia",
         "city": "Host",
         "lat": 33.398253703810234,
@@ -222,6 +250,20 @@
         "fatalities": "0",
         "link": "https://www.france24.com/en/tuareg-separatists-and-jihadists-wage-attacks-across-mali",
         "critical": true
+    },
+    {
+        "country": "Israel",
+        "city": "Gaza",
+        "lat": 31.444310647479213,
+        "lon": 34.52257512204629,
+        "date": "2026-05-02 09:20:53",
+        "type": "Clashes",
+        "severity": "middle",
+        "title": "Rebuilding Gaza Strip: Labour Day is the last thing on Palestinians minds",
+        "description": "In the Gazan city of Khan Younis, workers are still clearing rubble seven months after the ceasefire that followed two years of war. The work continues around the clock, but it brings in only a few euros a day, barely enough to support their families. Liza Kaminov has more.",
+        "fatalities": "0",
+        "link": "https://www.france24.com/en/rebuilding-gaza-strip-labour-day-is-the-last-thing-on-palestinians-minds",
+        "critical": false
     },
     {
         "country": "USA",
@@ -3021,48 +3063,6 @@
         "description": "The former leader has not responded to US accusations that he is aiming to destabilise the government.",
         "fatalities": "0",
         "link": "https://www.bbc.com/news/articles/clyprzx10w2o?at_medium=RSS&at_campaign=rss",
-        "critical": false
-    },
-    {
-        "country": "USA",
-        "city": "Washington",
-        "lat": 38.870692745997516,
-        "lon": -77.00807920598142,
-        "date": "2026-05-01 10:41:59",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "What to Know About ‘Welcome to Country’ Ceremony Used by Indigenous Australians",
-        "description": "The tradition, dating back thousands of years, is used by Indigenous Australians to greet visitors to their ancestral lands.",
-        "fatalities": "0",
-        "link": "https://www.nytimes.com/2026/05/01/world/australia/welcome-to-country-ceremony-australia.html",
-        "critical": false
-    },
-    {
-        "country": "USA",
-        "city": "Washington",
-        "lat": 38.86411893557269,
-        "lon": -77.03506643409965,
-        "date": "2026-05-01 10:41:57",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Lithuania Says It Broke Up Russian Sabotage and Murder Plots",
-        "description": "The arrests of nine people are reminders of the threat Russia poses in Europe at a time when Washington has shifted focus to the Middle East.",
-        "fatalities": "0",
-        "link": "https://www.nytimes.com/2026/05/01/world/europe/russia-sabotage-lithuania.html",
-        "critical": false
-    },
-    {
-        "country": "Israel",
-        "city": "Tel Aviv",
-        "lat": 32.02920539870982,
-        "lon": 34.73836878677535,
-        "date": "2026-05-01 10:41:55",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "As Israel Entrenches, Frustration With Hezbollah Turns to Support",
-        "description": "With the cease-fire fraying and Israel demolishing villages in the south, many Hezbollah supporters in Lebanon are putting aside their annoyance with the group and turning to it for protection.",
-        "fatalities": "0",
-        "link": "https://www.nytimes.com/2026/05/01/world/middleeast/lebanon-hezbollah-ceasefire-israel.html",
         "critical": false
     }
 ]
