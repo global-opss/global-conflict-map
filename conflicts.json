@@ -1,5 +1,47 @@
 [
     {
+        "country": "Israel",
+        "city": "Tel Aviv",
+        "lat": 32.104860365300986,
+        "lon": 34.75815913856318,
+        "date": "2026-05-03 19:39:54",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "High Court freezes TV regulatory body’s activities over controversial appointments",
+        "description": "Second Authority was continuing to operate despite petitions against it and repeated government requests for extensions from the High Court\nThe post High Court freezes TV regulatory bodys activities over controversial appointments appeared first on The Times of Israel.",
+        "fatalities": "0",
+        "link": "https://www.timesofisrael.com/high-court-freezes-tv-regulatory-bodys-activities-over-controversial-appointments/",
+        "critical": false
+    },
+    {
+        "country": "Iran",
+        "city": "Tehran",
+        "lat": 35.71937052408497,
+        "lon": 51.45376975168235,
+        "date": "2026-05-03 19:39:54",
+        "type": "Naval",
+        "severity": "normal",
+        "title": "Trump said to nix Iran plan that aimed to end war in month, defer nuclear issue",
+        "description": "US president calls Tehran's offer 'not acceptable'; proposal would see Strait of Hormuz open as US lifts blockade, fighting end in Iran and Lebanon, while floating 15-year enrichment ban\nThe post Trump said to nix Iran plan that aimed to end war in month, defer nuclear issue appeared first on The Times of Israel.",
+        "fatalities": "0",
+        "link": "https://www.timesofisrael.com/trump-said-to-nix-iran-plan-that-aimed-to-end-war-in-month-defer-nuclear-issue/",
+        "critical": false
+    },
+    {
+        "country": "Israel",
+        "city": "Gaza",
+        "lat": 31.494110276838473,
+        "lon": 34.40637528069711,
+        "date": "2026-05-03 19:39:42",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Christina Lamb's quest for a new body to investigate crimes against journalists",
+        "description": "Today is World Press Freedom Day—but there is little to celebrate. The latest index from Reporters Without Borders (RSF) shows this is the worst year in its 25-year history, with the global average score at a record low. For the first time, more than half of all countries are classified as having “difficult” or “very serious” press freedom conditions, and just one percent of the world’s population lives in countries rated “good.”\n \nAt the bottom,",
+        "fatalities": "0",
+        "link": "https://www.france24.com/en/tv-shows/spotlight/20260503-christina-lamb-s-quest-for-a-new-body-to-investigate-crimes-against-journalists",
+        "critical": false
+    },
+    {
         "country": "USA",
         "city": "Washington",
         "lat": 38.92612825616001,
@@ -3021,48 +3063,6 @@
         "description": "Israel on Saturday said it had brought two Gaza flotilla activists in for questioning after having intercepted the aid operation in international waters Thursday. Spain slammed the detention of one of its nationals as “illegal”.",
         "fatalities": "0",
         "link": "https://www.france24.com/en/middle-east/20260502-israel-brings-in-two-gaza-flotilla-activists-home-for-questioning-spain-slams-illegal-detention",
-        "critical": true
-    },
-    {
-        "country": "Israel",
-        "city": "Tel Aviv",
-        "lat": 32.06539918947849,
-        "lon": 34.78969670886043,
-        "date": "2026-05-02 16:25:52",
-        "type": "Airstrike",
-        "severity": "critical",
-        "title": "Israeli air strikes kill 41 people in Lebanon in 24-hour window",
-        "description": "Death toll from Israeli attacks on Lebanon since March 2 has reached 2,659, with 8,183 others injured.",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/news/2026/5/2/israeli-air-strikes-kill-10-people-in-southern-lebanon?traffic_source=rss",
-        "critical": true
-    },
-    {
-        "country": "USA",
-        "city": "Washington",
-        "lat": 38.9395552669867,
-        "lon": -76.99493184486857,
-        "date": "2026-05-02 16:25:50",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "U.S. to Withdraw 5,000 Troops From Germany. But Thousands Will Remain.",
-        "description": "The U.S. military has tens of thousands of personnel in Germany, more than in any other foreign country but Japan. Their significance extends well beyond Europe.",
-        "fatalities": "0",
-        "link": "https://www.nytimes.com/2026/05/02/world/europe/us-troops-germany-trump.html",
-        "critical": false
-    },
-    {
-        "country": "Israel",
-        "city": "Jerusalem",
-        "lat": 31.83569361141385,
-        "lon": 35.21484324448241,
-        "date": "2026-05-02 15:30:24",
-        "type": "Airstrike",
-        "severity": "critical",
-        "title": "Israel decided to kill Khamenei in November, defense minister says",
-        "description": "JERUSALEM: Israel took the decision to kill Iran’s Supreme Leader Ali Khamenei in November and was planning to carry out the operation around six months later, Defense Minister Israel Katz said on Thursday.\n\tKhamenei was killed in the first hours of the US-Israeli air campaign that began on Saturday in the first assassination of a country’s top ruler by an airstrike.",
-        "fatalities": "0",
-        "link": "https://www.arabnews.com/node/2635406/middle-east",
         "critical": true
     }
 ]
