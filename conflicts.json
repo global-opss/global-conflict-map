@@ -1,5 +1,47 @@
 [
     {
+        "country": "USA",
+        "city": "New york",
+        "lat": 40.74110493723625,
+        "lon": -74.03500595531762,
+        "date": "2026-05-04 00:00:41",
+        "type": "Clashes",
+        "severity": "middle",
+        "title": "Rudy Giuliani in \"critical\" condition in hospital, spokesperson says",
+        "description": "Rudy Giuliani was hospitalized and is in \"critical\" but stable condition, the former Trump lawyer and New York City mayor's spokesperson said in a Sunday evening statement.The big picture: The 81-year-old's spokesperson Ted Goodman did not immediately respond to Axios' request for more details on why Giuliani was hospitalized but described him in the email as \" a fighter who has faced every challenge in his life with unwavering strength, and he's",
+        "fatalities": "0",
+        "link": "https://www.axios.com/2026/05/03/rudy-giuliani-hospital-critical-condition-trump-nyc-mayor",
+        "critical": false
+    },
+    {
+        "country": "Israel",
+        "city": "Tel Aviv",
+        "lat": 32.06164959189839,
+        "lon": 34.812059988733814,
+        "date": "2026-05-04 00:00:41",
+        "type": "Clashes",
+        "severity": "middle",
+        "title": "Noa Koler’s ‘Happy Place’ wins big in Israeli TV awards, rescheduled after Iran war",
+        "description": "Kan snags 27 prizes in belated 2025 awards; winning Best Investigative Program, Uvda's Ilana Dayan says government 'machine' working to erase memory of Oct. 7 failures\nThe post Noa Kolers Happy Place wins big in Israeli TV awards, rescheduled after Iran war appeared first on The Times of Israel.",
+        "fatalities": "0",
+        "link": "https://www.timesofisrael.com/noa-kolers-happy-place-wins-big-in-israeli-tv-awards-rescheduled-after-iran-war/",
+        "critical": false
+    },
+    {
+        "country": "USA",
+        "city": "Washington",
+        "lat": 38.957608468793964,
+        "lon": -77.10260541370928,
+        "date": "2026-05-04 00:00:23",
+        "type": "Clashes",
+        "severity": "middle",
+        "title": "Thousands in India’s Manipur mark three years since ethnic clashes began",
+        "description": "Thousands of protesters gathered in India’s Manipur state to mark three years since ethnic violence erupted.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/video/newsfeed/2026/5/3/thousands-in-indias-manipur-mark-three-years-since-ethnic-clashes-began?traffic_source=rss",
+        "critical": false
+    },
+    {
         "country": "Israel",
         "city": "Tel Aviv",
         "lat": 32.099558019339085,
@@ -3022,47 +3064,5 @@
         "fatalities": "0",
         "link": "https://russian.rt.com/sport/news/1627383-guberniev-european-aquatics-rossiyane?utm_source=rss&utm_medium=rss&utm_campaign=RSS",
         "critical": false
-    },
-    {
-        "country": "Europe",
-        "city": "Sweden",
-        "lat": 59.796235054839066,
-        "lon": 15.501675095023844,
-        "date": "2026-05-02 19:18:06",
-        "type": "Airstrike",
-        "severity": "critical",
-        "title": "Swedish intelligence warns of increased Middle East war fallout",
-        "description": "STOCKHOLM: A top Swedish intelligence official on Thursday warned of increased threats against American and Israeli interests, as well as Iranian dissidents, in Sweden because of the war in the Middle East.\n\tThe Scandinavian country’s security, which had already deteriorated after Russia’s invasion of Ukraine, has worsened since the US-Israeli strikes on Iran on Saturday unleashed a new war, according to Fredrik Hallstrom, head of operations for ",
-        "fatalities": "0",
-        "link": "https://www.arabnews.com/node/2635400/world",
-        "critical": true
-    },
-    {
-        "country": "Europe",
-        "city": "Paris",
-        "lat": 48.85152444237121,
-        "lon": 2.302526081387737,
-        "date": "2026-05-02 19:18:04",
-        "type": "Clashes",
-        "severity": "middle",
-        "title": "PSG prepare for Chelsea clash with Monaco rematch",
-        "description": "PARIS: Paris Saint-Germain warm up for their Champions League last-16 showdown with Chelsea by once again taking on Monaco on Friday, as coach Luis Enrique looked forward to “the best part of the season” starting.\n\tPSG have not managed to rediscover the exhilarating form that led them to Champions League glory for the first time in their history last season, but they come into March still on course to retain their French and European titles.",
-        "fatalities": "0",
-        "link": "https://www.arabnews.com/node/2635401/sport",
-        "critical": false
-    },
-    {
-        "country": "Israel",
-        "city": "Tel Aviv",
-        "lat": 32.03179813269262,
-        "lon": 34.83882198690561,
-        "date": "2026-05-02 19:17:57",
-        "type": "Airstrike",
-        "severity": "critical",
-        "title": "IDF admits damaging Catholic convent in southern Lebanon, denies site demolished",
-        "description": "Army says Hezbollah fired rockets from compound 'multiple times' during war, publishes photo of intact building; Catholic Church in Lebanon denies compound was used by terror group\nThe post IDF admits damaging Catholic convent in southern Lebanon, denies site demolished appeared first on The Times of Israel.",
-        "fatalities": "0",
-        "link": "https://www.timesofisrael.com/idf-admits-damaging-catholic-convent-in-southern-lebanon-denies-site-demolished/",
-        "critical": true
     }
 ]
