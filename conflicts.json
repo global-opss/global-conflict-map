@@ -1,5 +1,47 @@
 [
     {
+        "country": "Europe",
+        "city": "Brussels",
+        "lat": 50.91335909336964,
+        "lon": 4.291297709656249,
+        "date": "2026-05-09 11:38:02",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Magyar to succeed Orban as Hungary's new prime minister",
+        "description": "Pro-European conservative Peter Magyar arrived at Hungary's parliament Saturday morning to be sworn in as prime minister, on a promise of \"regime change\" after nationalist Viktor Orban's 16 years in power. The former government insider-turned-critic scored a landslide victory last month, pledging wide-ranging reforms to fight corruption.",
+        "fatalities": "0",
+        "link": "https://www.france24.com/en/magyar-to-succeed-orban-as-hungary-s-new-prime-minister",
+        "critical": false
+    },
+    {
+        "country": "Asia",
+        "city": "Host",
+        "lat": 33.394254002577085,
+        "lon": 69.91966933671799,
+        "date": "2026-05-09 11:37:57",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "World Cup 2026: How US football has evolved since hosting the 1994 event",
+        "description": "In the 32 years since last hosting the World Cup, football has moved from the margins to the mainstream in the US.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/sports/2026/5/9/world-cup-2026-how-united-states-football-has-evolved-since-1994-hosting?traffic_source=rss",
+        "critical": false
+    },
+    {
+        "country": "Asia",
+        "city": "Pakistan",
+        "lat": 31.49391969943945,
+        "lon": 74.37241298454926,
+        "date": "2026-05-09 11:37:54",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "U.A.E. Expels Pakistani Workers, as Pakistan’s Peacemaking Creates a Rift",
+        "description": "As Pakistan mediates between the U.S. and Iran, its ties to the Emirates have deteriorated. Pakistani workers say they are now being sent home en masse.",
+        "fatalities": "0",
+        "link": "https://www.nytimes.com/2026/05/08/world/asia/uae-pakistan-workers-deportations.html",
+        "critical": false
+    },
+    {
         "country": "Israel",
         "city": "Tel Aviv",
         "lat": 32.05823855074113,
@@ -3021,48 +3063,6 @@
         "description": "The price of jet fuel most European airlines currently use has jumped by half since the start of the war.",
         "fatalities": "0",
         "link": "https://www.bbc.com/news/articles/cp8pk2m4nlxo?at_medium=RSS&at_campaign=rss",
-        "critical": false
-    },
-    {
-        "country": "Israel",
-        "city": "Tel Aviv",
-        "lat": 32.03514722684706,
-        "lon": 34.76012755878208,
-        "date": "2026-05-08 10:46:49",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "FBI’s lack of progress on Israeli killing of journalist ‘troubling’: CPJ",
-        "description": "The CPJ says the lack of concrete progress in the FBI investigation represents a failure by the US government.",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/news/2026/5/8/cpj-demands-progress-on-us-probe-of-journalist-abu-akleh-killing-four-year?traffic_source=rss",
-        "critical": false
-    },
-    {
-        "country": "Iran",
-        "city": "Tehran",
-        "lat": 35.68352403763863,
-        "lon": 51.420391369616645,
-        "date": "2026-05-08 10:46:49",
-        "type": "Clashes",
-        "severity": "middle",
-        "title": "US, Iran clash in Hormuz as war escalates: What happened, why it matters",
-        "description": "A ceasefire between the US and Iran has been in place since April 8. Both sides are yet to agree on a peace deal.",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/news/2026/5/8/us-iran-clash-in-hormuz-as-war-escalates-what-happened-why-it-matters?traffic_source=rss",
-        "critical": false
-    },
-    {
-        "country": "Africa",
-        "city": "Khartoum",
-        "lat": 15.47238410912521,
-        "lon": 32.559481760991524,
-        "date": "2026-05-08 10:46:47",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "South Africa president faces call to resign after court ruling",
-        "description": "The Constitutional Court says MPs were was wrong to block impeachment proceedings against Cyril Ramaphosa.",
-        "fatalities": "0",
-        "link": "https://www.bbc.com/news/articles/cy4287vpvl7o?at_medium=RSS&at_campaign=rss",
         "critical": false
     }
 ]
