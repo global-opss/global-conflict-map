@@ -1,5 +1,33 @@
 [
     {
+        "country": "Israel",
+        "city": "Tel Aviv",
+        "lat": 32.13748351723034,
+        "lon": 34.71995074262685,
+        "date": "2026-05-10 00:00:41",
+        "type": "Clashes",
+        "severity": "middle",
+        "title": "Katz said to sign certificate of confidentiality, paving way to indict firebrand MK Gotliv",
+        "description": "Defense minister had allegedly refused to sign off on document for nine months, holding up the case against her, until Shin Bet warned doing so any longer could harm state security\nThe post Katz said to sign certificate of confidentiality, paving way to indict firebrand MK Gotliv appeared first on The Times of Israel.",
+        "fatalities": "0",
+        "link": "https://www.timesofisrael.com/katz-said-to-sign-certificate-of-confidentiality-paving-way-to-indict-firebrand-mk-gotliv/",
+        "critical": false
+    },
+    {
+        "country": "Iran",
+        "city": "Tehran",
+        "lat": 35.65521277625426,
+        "lon": 51.376392368757685,
+        "date": "2026-05-10 00:00:38",
+        "type": "Airstrike",
+        "severity": "critical",
+        "title": "U.S. F-16 Sports AGM-88 HARM Kill Marking in New Photo",
+        "description": "A small silhouette of a High-speed Anti-Radiation Missile can be seen painted below the cockpit in this new photo released by CENTCOM, indicating that the jet was likely responsible for destroying an Iranian air defence site. The small but clear marking almost certainly denotes a direct hit against an Iranian air defence radar site or []",
+        "fatalities": "0",
+        "link": "https://theaviationist.com/2026/05/10/us-f16-harm-kill-mark/",
+        "critical": true
+    },
+    {
         "country": "Europe",
         "city": "London",
         "lat": 51.562026508686934,
@@ -3035,34 +3063,6 @@
         "description": "The labor party is on the ropes in England as the results of local elections being counted show the far-right making substantial gains. The governing party has lost control of a number of councils... and pressure is piling on Keir Starmer -- with some calling for the Prime Minister to resign. Details by FRANCE 24's correspondent in London, Bénédicte Paviot.",
         "fatalities": "0",
         "link": "https://www.france24.com/en/substantial-win-for-nigel-farage-s-reform-uk-in-local-elections",
-        "critical": false
-    },
-    {
-        "country": "USA",
-        "city": "Pentagon",
-        "lat": 38.89786563722768,
-        "lon": -77.08375121500882,
-        "date": "2026-05-08 17:19:10",
-        "type": "Clashes",
-        "severity": "middle",
-        "title": "Pentagon releases first batch of ‘top secret’ UFO files",
-        "description": "The Pentagon on Friday released decades of previously classified UFO sightings recorded by the FBI and NASA and other federal agencies. At least two of the more than 160 documents date back to the 1940s and report sightings of flying \"discs” and “saucers”.",
-        "fatalities": "0",
-        "link": "https://www.france24.com/en/americas/20260508-pentagon-releases-decades-of-top-secret-ufo-files",
-        "critical": false
-    },
-    {
-        "country": "Asia",
-        "city": "Tokyo",
-        "lat": 35.65699049656924,
-        "lon": 139.72936172865508,
-        "date": "2026-05-08 17:19:06",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "South Koreans gear up to roar on football team from rival North",
-        "description": "Naegohyang Womens FC will play the Suwon FC Women on May 20 in the Asian Champions League in a six-year first.",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/sports/2026/5/8/south-koreans-gear-up-to-roar-on-football-team-from-rival-north?traffic_source=rss",
         "critical": false
     }
 ]
