@@ -1,5 +1,61 @@
 [
     {
+        "country": "Middle East",
+        "city": "Beirut",
+        "lat": 33.91466805354738,
+        "lon": 35.456533421635484,
+        "date": "2026-05-10 23:04:36",
+        "type": "Airstrike",
+        "severity": "critical",
+        "title": "Hezbollah airs drone footage showing strike on Iron Dome battery in northern Israel",
+        "description": "Terror group continues to fire rockets, drones at IDF troops in south Lebanon, as Israel strikes Hezbollah infrastructure; Beirut says 2 Hezbollah-affiliated medics killed\nThe post Hezbollah airs drone footage showing strike on Iron Dome battery in northern Israel appeared first on The Times of Israel.",
+        "fatalities": "0",
+        "link": "https://www.timesofisrael.com/hezbollah-airs-drone-footage-showing-strike-on-iron-dome-in-northern-israel/",
+        "critical": true
+    },
+    {
+        "country": "Israel",
+        "city": "Tel Aviv",
+        "lat": 32.14337044689947,
+        "lon": 34.713955112285106,
+        "date": "2026-05-10 23:04:36",
+        "type": "Clashes",
+        "severity": "middle",
+        "title": "Knesset panel demands state help cover losses to passengers and airlines during Iran war",
+        "description": "Request comes as major European and US airlines still avoiding Israel after Iran ceasefire came into effect, weighing future flight operations\nThe post Knesset panel demands state help cover losses to passengers and airlines during Iran war appeared first on The Times of Israel.",
+        "fatalities": "0",
+        "link": "https://www.timesofisrael.com/knesset-panel-demands-state-share-losses-to-passengers-and-airlines-during-iran-war/",
+        "critical": false
+    },
+    {
+        "country": "USA",
+        "city": "New york",
+        "lat": 40.762835801568166,
+        "lon": -73.94321639808823,
+        "date": "2026-05-10 23:04:34",
+        "type": "Naval",
+        "severity": "normal",
+        "title": "Scoop: Josh Shapiro quietly tries to derail AOC-backed progressive House candidate",
+        "description": "Pennsylvania Gov. Josh Shapiro is quietly trying to derail a left-wing congressional candidate championed by New York Rep. Alexandria Ocasio-Cortez, Axios has learned. Why it matters: The May 19 primary is shaping up as an early test of strength for the two potential 2028 presidential campaign rivals.The contest is also a microcosm of the nationwide civil war between the Democratic Party's liberal and centrist wings.Driving the news: Ocasio-Corte",
+        "fatalities": "0",
+        "link": "https://www.axios.com/2026/05/10/aoc-josh-shapiro-midterms-presidential-race",
+        "critical": false
+    },
+    {
+        "country": "Iran",
+        "city": "Tehran",
+        "lat": 35.75072431809357,
+        "lon": 51.41304595016492,
+        "date": "2026-05-10 23:04:20",
+        "type": "Airstrike",
+        "severity": "critical",
+        "title": "Iran releases Nobel laureate Narges Mohammadi on bail amid health fears",
+        "description": "Iranian Nobel Peace Prize winner Narges Mohammadi has been released on bail and transferred to Tehran for urgent medical treatment after supporters warned she was at risk of dying in prison. The activist, jailed for campaigning against Iran's clerical system, reportedly suffered two suspected heart attacks in custody.",
+        "fatalities": "0",
+        "link": "https://www.france24.com/en/middle-east/20260510-iran-releases-nobel-laureate-narges-mohammadi-on-bail-amid-health-fears",
+        "critical": true
+    },
+    {
         "country": "Israel",
         "city": "Tel Aviv",
         "lat": 32.09751744044325,
@@ -84,20 +140,6 @@
         "critical": false
     },
     {
-        "country": "Asia",
-        "city": "Host",
-        "lat": 33.31498755902818,
-        "lon": 69.9100519874838,
-        "date": "2026-05-10 21:02:32",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Biden to fight DOJ's release of ghostwriter tapes",
-        "description": "Former President Biden is preparing to ask a court to stop the Trump administration from releasing his conversations with his ghostwriter, tapes that played a central role in a classified-documents investigation.Why it matters: The tapes go to the heart of Special Counsel Robert Hur's damaging conclusions: that Biden read classified notebook passages aloud to ghostwriter Mark Zwonitzer and that the former president's memory lapses would make it h",
-        "fatalities": "0",
-        "link": "https://www.axios.com/2026/05/10/biden-justice-department-ghostwriter-tapes-classified-docs",
-        "critical": false
-    },
-    {
         "country": "Israel",
         "city": "Tel Aviv",
         "lat": 32.01760444459225,
@@ -109,6 +151,20 @@
         "description": "President Trump told Axios in a short phone call on Sunday that he would reject Iran's response to the latest draft agreement to end the war. Why it matters: The U.S. waited 10 days for the Iranian response, which came on Sunday. The White House hoped Iran's positions would show further progress toward a deal, but Trump's initial reaction signals the opposite.What he's saying: \"I don't like their letter. It's inappropriate. I don't like their res",
         "fatalities": "0",
         "link": "https://www.axios.com/2026/05/10/trump-iran-war-us-peace-plan-tehran-response-inappropriate",
+        "critical": false
+    },
+    {
+        "country": "Asia",
+        "city": "Host",
+        "lat": 33.31498755902818,
+        "lon": 69.9100519874838,
+        "date": "2026-05-10 21:02:32",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Biden to fight DOJ's release of ghostwriter tapes",
+        "description": "Former President Biden is preparing to ask a court to stop the Trump administration from releasing his conversations with his ghostwriter, tapes that played a central role in a classified-documents investigation.Why it matters: The tapes go to the heart of Special Counsel Robert Hur's damaging conclusions: that Biden read classified notebook passages aloud to ghostwriter Mark Zwonitzer and that the former president's memory lapses would make it h",
+        "fatalities": "0",
+        "link": "https://www.axios.com/2026/05/10/biden-justice-department-ghostwriter-tapes-classified-docs",
         "critical": false
     },
     {
@@ -3007,62 +3063,6 @@
         "description": "The Russian leader used his annual speech to justify his so-called special military operation in Ukraine.",
         "fatalities": "0",
         "link": "https://www.bbc.com/news/articles/c626xjq0q0vo?at_medium=RSS&at_campaign=rss",
-        "critical": false
-    },
-    {
-        "country": "Israel",
-        "city": "Tel Aviv",
-        "lat": 32.027361371782625,
-        "lon": 34.80558764757599,
-        "date": "2026-05-09 18:08:20",
-        "type": "Airstrike",
-        "severity": "critical",
-        "title": "Deadly Israeli Strikes Erode Cease-Fire in Lebanon",
-        "description": "Fighting between Israel and Hezbollah has shown little sign of abating, with Hezbollah also continuing to attack Israeli troops, and both sides accusing the other of violating a U.S.-brokered truce.",
-        "fatalities": "0",
-        "link": "https://www.nytimes.com/2026/05/09/world/middleeast/israel-strikes-lebanon-ceasefire.html",
-        "critical": true
-    },
-    {
-        "country": "Europe",
-        "city": "Brussels",
-        "lat": 50.84188014535847,
-        "lon": 4.402595086725543,
-        "date": "2026-05-09 17:15:19",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "'End of an era': EU flag outside parliament signals shift in Hungary",
-        "description": "Hungary may be entering a new political phase as the European Union flag appeared alongside the national flag outside parliament, symbolising a potential shift in the country’s long-standing confrontation with Brussels. FRANCE 24 International Affairs Editor Shirley Sippon said the change comes after years in which Viktor Orban positioned Hungary as a key challenger within the EU, particularly on issues ranging from veto power to Ukraine policy a",
-        "fatalities": "0",
-        "link": "https://www.france24.com/en/video/20260509-shirli-sitbon",
-        "critical": false
-    },
-    {
-        "country": "Ukraine",
-        "city": "Kyiv",
-        "lat": 50.454886936826476,
-        "lon": 30.530787622850614,
-        "date": "2026-05-09 17:15:17",
-        "type": "Clashes",
-        "severity": "middle",
-        "title": "Ukrainians mark end of WWII amid fragile ceasefire with Russia",
-        "description": "As a temporary ceasefire between Ukraine and Russia comes into effect, residents across Ukraine reflect on the enduring toll of war and the uncertainty of peace. In Zaporizhzhia, mourners at a World War II memorial drew parallels between past and present suffering, while others in Kharkiv and Kyiv expressed cautious hope mixed with deep scepticism that the brief pause in fighting could lead to meaningful negotiations.",
-        "fatalities": "0",
-        "link": "https://www.france24.com/en/video/20260509-ukraine-marks-end-of-world-war-ii",
-        "critical": false
-    },
-    {
-        "country": "Middle East",
-        "city": "Beirut",
-        "lat": 33.91482578096611,
-        "lon": 35.52150908164552,
-        "date": "2026-05-09 17:15:10",
-        "type": "Naval",
-        "severity": "normal",
-        "title": "UK warship HMS Dragon heads to Middle East for potential Strait of Hormuz mission",
-        "description": "The Ministry of Defence says the ship will prepare to join an international mission to safeguard shipping, but only when fighting in the region ends.",
-        "fatalities": "0",
-        "link": "https://www.bbc.com/news/articles/c4g42j15p7qo?at_medium=RSS&at_campaign=rss",
         "critical": false
     }
 ]
