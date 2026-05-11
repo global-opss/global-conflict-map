@@ -1,5 +1,47 @@
 [
     {
+        "country": "Israel",
+        "city": "Tel Aviv",
+        "lat": 32.07419959163237,
+        "lon": 34.81378315632767,
+        "date": "2026-05-11 00:04:57",
+        "type": "Naval",
+        "severity": "normal",
+        "title": "Past top Israeli, US officials reveal new vision for ties rooted in tech partnership",
+        "description": "As US support drops, ex-envoy Tom Nides and ex-IDF intel chief Amos Yadlin present Technology Alliance, in which both countries would invest $2 billion a year into joint projects\nThe post Past top Israeli, US officials reveal new vision for ties rooted in tech partnership appeared first on The Times of Israel.",
+        "fatalities": "0",
+        "link": "https://www.timesofisrael.com/past-top-israeli-us-officials-reveal-new-vision-for-ties-rooted-in-tech-partnership/",
+        "critical": false
+    },
+    {
+        "country": "Africa",
+        "city": "Mali",
+        "lat": 12.599741447679591,
+        "lon": -8.022569192209222,
+        "date": "2026-05-11 00:04:44",
+        "type": "Airstrike",
+        "severity": "critical",
+        "title": "'Killing Palestinians in broad daylight': Settlers attack villages with 'full support of military'",
+        "description": "Jean-Emile Jammine is joined by Eid Hathaleen, a Palestinian artist, human rights activist, and lifelong resident of the Bedouin village of Umm al-Kheir in the occupied West Bank. He describes the systematic normalization of settler violence devastating his community, insisting these are not random acts of brutality, but calculated attacks and sustained intimidation. He says the ultimate aim is the forced displacement of Palestinians from their l",
+        "fatalities": "0",
+        "link": "https://www.france24.com/en/video/20260510-west-bank-violence-no-accountability-for-settler-attacks",
+        "critical": true
+    },
+    {
+        "country": "Iran",
+        "city": "Tehran",
+        "lat": 35.72076359125032,
+        "lon": 51.44591850693191,
+        "date": "2026-05-11 00:04:42",
+        "type": "Naval",
+        "severity": "normal",
+        "title": "Trump calls Iran's response to US peace proposal 'totally unacceptable'",
+        "description": "Iran rejected the latest US peace proposal on Sunday, prompting a swift dismissal from Donald Trump, who called the response “TOTALLY UNACCEPTABLE!” on social media. The exchange marks another setback in efforts to ease tensions in the Persian Gulf, where disrupted shipping and rising energy prices continue to fuel global concern.",
+        "fatalities": "0",
+        "link": "https://www.france24.com/en/middle-east/20260510-trump-calls-iran-response-to-us-peace-proposal-totally-unacceptable",
+        "critical": false
+    },
+    {
         "country": "Middle East",
         "city": "Beirut",
         "lat": 33.91466805354738,
@@ -3021,48 +3063,6 @@
         "description": "Rights group says Thiago Avila and Saif Abukeshek, who Israel has accused of links to a group 'clandestinely controlled by Hamas,' are to be deported in the coming days\nThe post Israel to deport two Gaza flotilla activists detained for past week appeared first on The Times of Israel.",
         "fatalities": "0",
         "link": "https://www.timesofisrael.com/israel-to-deport-gaza-flotilla-activists-detained-for-past-week/",
-        "critical": false
-    },
-    {
-        "country": "Iran",
-        "city": "Tehran",
-        "lat": 35.68503047463477,
-        "lon": 51.3256275798729,
-        "date": "2026-05-09 18:08:35",
-        "type": "Naval",
-        "severity": "normal",
-        "title": "Iran keeps US waiting for its response to latest proposal after flareups in fighting",
-        "description": "Tehran claims 'suspicions about the motivation and seriousness' of Washington as Pakistan insists diplomacy is ongoing; UK sends warship to Hormuz ahead of potential naval mission\nThe post Iran keeps US waiting for its response to latest proposal after flareups in fighting appeared first on The Times of Israel.",
-        "fatalities": "0",
-        "link": "https://www.timesofisrael.com/iran-keeps-us-waiting-for-its-response-to-latest-proposal-after-flareups-in-fighting/",
-        "critical": false
-    },
-    {
-        "country": "Israel",
-        "city": "Gaza",
-        "lat": 31.505794613332647,
-        "lon": 34.48042534613199,
-        "date": "2026-05-09 18:08:21",
-        "type": "Airstrike",
-        "severity": "critical",
-        "title": "“Nowhere left to go”: Gaza residents return to rubble after Israeli strike",
-        "description": "Al Jazeera’s Tareq Abu Azzoum reports from Al-Shati Refugee Camp after overnight Israeli airstrikes.",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/video/newsfeed/2026/5/9/nowhere-left-to-go-gaza-residents-return-to-rubble-after-israeli-strike?traffic_source=rss",
-        "critical": true
-    },
-    {
-        "country": "Ukraine",
-        "city": "Kyiv",
-        "lat": 50.42497621792842,
-        "lon": 30.51100657351594,
-        "date": "2026-05-09 18:08:20",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Putin denounces Nato at scaled-back Victory Day parade",
-        "description": "The Russian leader used his annual speech to justify his so-called special military operation in Ukraine.",
-        "fatalities": "0",
-        "link": "https://www.bbc.com/news/articles/c626xjq0q0vo?at_medium=RSS&at_campaign=rss",
         "critical": false
     }
 ]
