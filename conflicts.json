@@ -1,5 +1,33 @@
 [
     {
+        "country": "Israel",
+        "city": "Tel Aviv",
+        "lat": 32.05812524022999,
+        "lon": 34.785672378126065,
+        "date": "2026-05-13 23:44:29",
+        "type": "Clashes",
+        "severity": "middle",
+        "title": "Coalition files bill to dissolve Knesset, trigger elections within 5 months of dissolution",
+        "description": "Netanyahu's chief whip submits legislation to determine election date after Haredi mutiny triggered opposition bill that would bring vote forward from Oct. 27 deadline, throwing government's legislative plans into disarray\nThe post Coalition files bill to dissolve Knesset, trigger elections within 5 months of dissolution appeared first on The Times of Israel.",
+        "fatalities": "0",
+        "link": "https://www.timesofisrael.com/1st-vote-on-bill-to-dissolve-knesset-likely-next-week-as-opposition-coalition-jockey-ahead-of-elections/",
+        "critical": false
+    },
+    {
+        "country": "China",
+        "city": "Beijing",
+        "lat": 39.89469555097585,
+        "lon": 116.43528586935187,
+        "date": "2026-05-13 23:44:11",
+        "type": "Clashes",
+        "severity": "middle",
+        "title": "The China Gambit: From Nixon to Trump",
+        "description": "President Trump’s visit to Beijing comes as relations with China have became more combative.",
+        "fatalities": "0",
+        "link": "https://www.nytimes.com/2026/05/13/us/politics/china-visits-nixon-to-trump.html",
+        "critical": false
+    },
+    {
         "country": "Europe",
         "city": "London",
         "lat": 51.51062782158199,
@@ -3035,34 +3063,6 @@
         "description": "RIYADH: Ports across Europe, the Middle East and Africa are broadly well-positioned to absorb the economic shock of a prolonged Iran conflict and a potential closure of the Strait of Hormuz, with most maintaining sufficient rating headroom, Fitch Ratings said.\n\n\tDespite the war significantly disrupting global oil and gas flows through the narrow channel along the Iranian coast, many ports in the region have robust financial profiles and diversifi",
         "fatalities": "0",
         "link": "https://www.arabnews.com/node/2637608/business-economy",
-        "critical": false
-    },
-    {
-        "country": "Ukraine",
-        "city": "Kyiv",
-        "lat": 50.426170137663114,
-        "lon": 30.546557524463463,
-        "date": "2026-05-13 05:11:05",
-        "type": "Airstrike",
-        "severity": "critical",
-        "title": "Russia says it shot down almost 400 Ukrainian drones as Moscow and Kyiv escalate aerial barrages",
-        "description": "Russian air defenses downed 389 incoming Ukrainian drones, Russia’s Defense Ministry said Wednesday, in what was the largest reported overnight attack on Russian regions and Crimea since Moscow’s forces invaded Ukraine more than four years ago.\n\tThe drones were stopped over 13 Russian regions as well as the Crimean Peninsula, which Russia illegally annexed from Ukraine in 2014.\n\tThe attack underlined the growing capability of Ukraine’s domestical",
-        "fatalities": "0",
-        "link": "https://www.arabnews.com/node/2637605/world",
-        "critical": true
-    },
-    {
-        "country": "USA",
-        "city": "New york",
-        "lat": 40.72966084379264,
-        "lon": -74.01364554720381,
-        "date": "2026-05-13 05:11:05",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Full card announced for PFL Chicago",
-        "description": "NEW YORK: The Professional Fighters League has announced the full fight card for PFL Chicago at Wintrust Arena on Saturday, April 11.\n\n\tIn the main event, former Bellator bantamweight champion Sergio Pettis (25-7) meets undefeated rising contender Mitch McKee (10-0) in a pivotal 135-pound showdown. The co-main event features a middleweight clash as Milwaukee’s undefeated Jordan Newman (8-0) takes on American Top Team’s Josh Silveira (15-5).",
-        "fatalities": "0",
-        "link": "https://www.arabnews.com/node/2637604/sport",
         "critical": false
     }
 ]
