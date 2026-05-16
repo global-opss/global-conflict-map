@@ -2,6 +2,34 @@
     {
         "country": "Israel",
         "city": "Tel Aviv",
+        "lat": 32.121666548312746,
+        "lon": 34.80507909575805,
+        "date": "2026-05-16 22:27:42",
+        "type": "Airstrike",
+        "severity": "critical",
+        "title": "Israel probes several settler attacks, troop misconduct, as West Bank assaults continue",
+        "description": "Investigations launched after settlers torch Palestinian vehicles, reservist filmed dragging bound detainee; separately, IDF confirms Palestinian man killed near Jenin amid operation\nThe post Israel probes several settler attacks, troop misconduct, as West Bank assaults continue appeared first on The Times of Israel.",
+        "fatalities": "0",
+        "link": "https://www.timesofisrael.com/israel-probes-several-settler-attacks-troop-misconduct-as-w-bank-assaults-continue/",
+        "critical": true
+    },
+    {
+        "country": "Israel",
+        "city": "Tel Aviv",
+        "lat": 32.08575712119017,
+        "lon": 34.833227604417246,
+        "date": "2026-05-16 22:27:42",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "At least eight injured in car ramming in Italian city of Modena",
+        "description": "Driver arrested after allegedly deliberately driving into pedestrians, stabbing a bystander who tried to stop him; authorities investigate motive, possible terrorism link\nThe post At least eight injured in car ramming in Italian city of Modena appeared first on The Times of Israel.",
+        "fatalities": "0",
+        "link": "https://www.timesofisrael.com/more-than-eight-injured-in-car-ramming-in-italian-city-of-modena/",
+        "critical": false
+    },
+    {
+        "country": "Israel",
+        "city": "Tel Aviv",
         "lat": 32.08765822050655,
         "lon": 34.75595529391754,
         "date": "2026-05-16 21:31:36",
@@ -3035,34 +3063,6 @@
         "description": "After years of struggling to arm its one million active-duty soldiers, Kyiv has been wary of allowing its domestic producers to sell their weapons abroad.",
         "fatalities": "0",
         "link": "https://www.defensenews.com/global/europe/2026/05/14/blacklists-corruption-and-frontline-needs-ukraine-tackles-an-arms-export-puzzle/",
-        "critical": false
-    },
-    {
-        "country": "USA",
-        "city": "Pentagon",
-        "lat": 38.89881634613808,
-        "lon": -77.05992292465747,
-        "date": "2026-05-15 18:53:33",
-        "type": "Clashes",
-        "severity": "middle",
-        "title": "Pentagon seeks additional funding as cost of Iran war tops $29 billion",
-        "description": "The increase from $25 billion just two weeks ago reflects “updated repair and replacement of equipment costs,” along with the “general operational costs.\"",
-        "fatalities": "0",
-        "link": "https://www.defensenews.com/news/pentagon-congress/2026/05/12/pentagon-seeks-additional-funding-as-cost-of-iran-war-tops-29-billon/",
-        "critical": false
-    },
-    {
-        "country": "USA",
-        "city": "Washington",
-        "lat": 38.84830406584208,
-        "lon": -77.0048321885659,
-        "date": "2026-05-15 18:53:33",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Allies surpassed the US in military budget purchasing power last year, new report shows",
-        "description": "In absolute terms, Washington remains the single highest military spender by far.",
-        "fatalities": "0",
-        "link": "https://www.defensenews.com/global/europe/2026/05/12/allies-surpassed-the-us-in-military-budget-purchasing-power-last-year-new-report-shows/",
         "critical": false
     }
 ]
