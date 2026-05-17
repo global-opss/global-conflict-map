@@ -1,5 +1,33 @@
 [
     {
+        "country": "Iran",
+        "city": "Tehran",
+        "lat": 35.70993522530549,
+        "lon": 51.33715237063431,
+        "date": "2026-05-17 23:38:02",
+        "type": "Clashes",
+        "severity": "middle",
+        "title": "Trump warns 'clock is ticking' for Iran as peace progress stalls",
+        "description": "Iranian media reports the US has not made concrete concessions in response to Tehran's latest proposals.",
+        "fatalities": "0",
+        "link": "https://www.bbc.com/news/articles/cd0p4y9y48xo?at_medium=RSS&at_campaign=rss",
+        "critical": false
+    },
+    {
+        "country": "Israel",
+        "city": "Tel Aviv",
+        "lat": 32.07448336309383,
+        "lon": 34.833296137791336,
+        "date": "2026-05-17 23:38:02",
+        "type": "Airstrike",
+        "severity": "critical",
+        "title": "'This may be the last time you hear my voice': Political executions surge in Iran since start of war",
+        "description": "Since the US and Israel attacked Iran on  28 February, the UN says it’s verified the execution of at least 32 political prisoners.",
+        "fatalities": "0",
+        "link": "https://www.bbc.com/news/articles/cn8p392nl7yo?at_medium=RSS&at_campaign=rss",
+        "critical": true
+    },
+    {
         "country": "Israel",
         "city": "Gaza",
         "lat": 31.47459577763497,
@@ -3035,34 +3063,6 @@
         "description": "BEIRUT: Lebanon faces what officials described as “one of the most dangerous moments in recent memory” after Hezbollah launched attacks on Israeli forces from areas both south and north of the Litani River, triggering a renewed Israeli air and ground campaign.\n\n\tAnnouncing its ground incursion into southern Lebanon, Israel said it aims to establish what it called a permanent “security zone” along the border.",
         "fatalities": "0",
         "link": "https://www.arabnews.com/node/2635409/middle-east",
-        "critical": true
-    },
-    {
-        "country": "Iran",
-        "city": "Tehran",
-        "lat": 35.63800728630756,
-        "lon": 51.339752787142544,
-        "date": "2026-05-16 14:13:25",
-        "type": "Airstrike",
-        "severity": "critical",
-        "title": "Europol warns Iran crisis raises threat of terror, extremism and cyberattacks",
-        "description": "MADRID: The Middle East conflict will have “immediate repercussions” for European Union security with an increased threat of terrorism, serious and organized crime as well as violent extremism and cyberattacks, European police body Europol told Spanish news agency EFE on Thursday.\n\tEuropol spokesman Jan Op Gen Oorth said he expected to see more cyberattacks against European infrastructure and an increase in online fraud using increasingly sophist",
-        "fatalities": "0",
-        "link": "https://www.arabnews.com/node/2635408/world",
-        "critical": true
-    },
-    {
-        "country": "Israel",
-        "city": "Gaza",
-        "lat": 31.49663158263996,
-        "lon": 34.50947172638504,
-        "date": "2026-05-16 14:13:24",
-        "type": "Airstrike",
-        "severity": "critical",
-        "title": "IDF confirms Hamas Gaza chief Izz al-Din al-Haddad killed in airstrike",
-        "description": "Sources in terror group also confirm death of military leader, who Israel says was one of last surviving architects of Oct. 7 and had in the past 'surrounded himself with hostages'\nThe post IDF confirms Hamas Gaza chief Izz al-Din al-Haddad killed in airstrike appeared first on The Times of Israel.",
-        "fatalities": "0",
-        "link": "https://www.timesofisrael.com/idf-confirms-hamas-gaza-chief-izz-al-din-al-haddad-killed-in-airstrike/",
         "critical": true
     }
 ]
