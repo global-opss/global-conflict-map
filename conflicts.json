@@ -1,5 +1,33 @@
 [
     {
+        "country": "Ukraine",
+        "city": "Kyiv",
+        "lat": 50.38821158792536,
+        "lon": 30.560919933294365,
+        "date": "2026-05-21 00:08:07",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Trump says Ukraine lacks leverage. His own officials say otherwise.",
+        "description": "Rubio called Ukraine’s military the strongest in Europe, while Driscoll told senators the U.S. is playing catch-up with Kyiv’s Delta command network.",
+        "fatalities": "0",
+        "link": "https://www.defensenews.com/pentagon/2026/05/20/trump-says-ukraine-lacks-leverage-his-own-officials-say-otherwise/",
+        "critical": false
+    },
+    {
+        "country": "Iran",
+        "city": "Tehran",
+        "lat": 35.62011438600543,
+        "lon": 51.32076272122328,
+        "date": "2026-05-21 00:07:51",
+        "type": "Naval",
+        "severity": "normal",
+        "title": "How Iran Gained Leverage in the War",
+        "description": "Outmatched militarily, Iran used “triangular coercion” by attacking Gulf states and closing the Strait of Hormuz. It points to a long-term U.S. vulnerability.",
+        "fatalities": "0",
+        "link": "https://www.nytimes.com/2026/05/20/world/middleeast/iran-strait-of-hormuz-triangular-coercion.html",
+        "critical": false
+    },
+    {
         "country": "Europe",
         "city": "Berlin",
         "lat": 48.87825770486638,
@@ -3035,34 +3063,6 @@
         "description": "A 56-year-old woman died after falling into an open maintenance hole on a busy Midtown Manhattan street, New York police and utility officials said on Tuesday, as authorities investigated how the incident occurred. The woman fell into the hole after parking her SUV near Fifth Avenue and East 52nd Street late Monday and was pronounced dead after firefighters pulled her out.",
         "fatalities": "0",
         "link": "https://www.france24.com/en/americas/20260520-new-york-woman-dies-falling-open-manhole-car",
-        "critical": false
-    },
-    {
-        "country": "China",
-        "city": "Beijing",
-        "lat": 39.91314966825395,
-        "lon": 116.38610086161584,
-        "date": "2026-05-20 04:34:55",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Taiwan leader says ‘foreign forces’ cannot decide island’s future amid China pressure",
-        "description": "Taiwanese President Lai Ching-te said on Wednesday that “foreign forces” could not decide the future of the democratic island, days after US President Donald Trump suggested arms sales to Taiwan could be used as leverage in talks with China. Beijing claims Taiwan as its territory and has threatened to seize it by force.",
-        "fatalities": "0",
-        "link": "https://www.france24.com/en/asia-pacific/20260520-taiwan-leader-foreign-forces-cannot-decide-islands-future-china",
-        "critical": false
-    },
-    {
-        "country": "USA",
-        "city": "Washington",
-        "lat": 38.94105939761768,
-        "lon": -77.09438242552461,
-        "date": "2026-05-20 04:34:55",
-        "type": "Clashes",
-        "severity": "middle",
-        "title": "Pentagon says it reduced US troop brigades in Europe from four to three",
-        "description": "The Pentagon said on Tuesday it was cutting the number of US Brigade Combat Teams stationed in Europe from four to three, returning troop levels to those seen in 2021 as Washington presses European allies to assume greater responsibility for regional defence. The move will temporarily delay the deployment of additional US forces to Poland.",
-        "fatalities": "0",
-        "link": "https://www.france24.com/en/europe/20260520-us-europe-troop-brigades-reduction-pentagon",
         "critical": false
     }
 ]
