@@ -1,5 +1,47 @@
 [
     {
+        "country": "USA",
+        "city": "Washington",
+        "lat": 38.91265060249384,
+        "lon": -77.08122226058963,
+        "date": "2026-05-23 17:47:20",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Thousands rally in Taiwan to boost defence spending amid China tensions",
+        "description": "Thousands rally in Taipei backing higher defence spending after US pauses $14 billion arms sale to Taiwan.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/video/newsfeed/2026/5/23/thousands-rally-in-taiwan-to-boost-defence-spending-amid-china-tensions?traffic_source=rss",
+        "critical": false
+    },
+    {
+        "country": "Israel",
+        "city": "Gaza",
+        "lat": 31.442123898834478,
+        "lon": 34.420658040571524,
+        "date": "2026-05-23 17:47:20",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Spanish police beat and detain Gaza flotilla activists at airport",
+        "description": "Spanish police clashed with members of the Global Sumud Flotilla and supporters at Bilbao Airport.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/video/newsfeed/2026/5/23/spanish-police-beat-and-detain-gaza-flotilla-activists-at-airport?traffic_source=rss",
+        "critical": false
+    },
+    {
+        "country": "China",
+        "city": "Beijing",
+        "lat": 39.909958354021825,
+        "lon": 116.42742970493867,
+        "date": "2026-05-23 17:47:15",
+        "type": "Explosion",
+        "severity": "middle",
+        "title": "Xi Calls for All-Out Rescue After Coal Mine Explosion Kills at Least 82 in China",
+        "description": "The Chinese leader, Xi Jinping, called for an investigation and emphasized the need to “hold those responsible to account.”",
+        "fatalities": "0",
+        "link": "https://www.nytimes.com/2026/05/23/world/asia/xi-coal-mine-explosion-rescue.html",
+        "critical": false
+    },
+    {
         "country": "Africa",
         "city": "Khartoum",
         "lat": 15.550218385189007,
@@ -224,6 +266,20 @@
         "critical": false
     },
     {
+        "country": "Israel",
+        "city": "Gaza",
+        "lat": 31.542858321320825,
+        "lon": 34.50903709226084,
+        "date": "2026-05-23 15:41:05",
+        "type": "Airstrike",
+        "severity": "critical",
+        "title": "Five police officers, 13 year-old boy killed in Israeli attack on Gaza",
+        "description": "Attack on a police post in northern Gaza comes as dozens of people were wounded in Israeli attacks in the past 48 hours.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/news/2026/5/23/five-police-officers-13-year-old-boy-killed-in-israeli-attack-on-gaza?traffic_source=rss",
+        "critical": true
+    },
+    {
         "country": "Iran",
         "city": "Tehran",
         "lat": 35.739730508531984,
@@ -249,20 +305,6 @@
         "description": "Officials warn the tank in Orange County contains a \"highly volatile\" substance that could lead to an explosion.",
         "fatalities": "0",
         "link": "https://www.bbc.com/news/articles/c3w2l249j8go?at_medium=RSS&at_campaign=rss",
-        "critical": true
-    },
-    {
-        "country": "Israel",
-        "city": "Gaza",
-        "lat": 31.542858321320825,
-        "lon": 34.50903709226084,
-        "date": "2026-05-23 15:41:05",
-        "type": "Airstrike",
-        "severity": "critical",
-        "title": "Five police officers, 13 year-old boy killed in Israeli attack on Gaza",
-        "description": "Attack on a police post in northern Gaza comes as dozens of people were wounded in Israeli attacks in the past 48 hours.",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/news/2026/5/23/five-police-officers-13-year-old-boy-killed-in-israeli-attack-on-gaza?traffic_source=rss",
         "critical": true
     },
     {
@@ -3022,47 +3064,5 @@
         "fatalities": "0",
         "link": "https://www.defensenews.com/global/asia-pacific/2026/05/22/taiwan-says-it-has-not-been-told-by-us-of-arms-sales-delays/",
         "critical": false
-    },
-    {
-        "country": "China",
-        "city": "Beijing",
-        "lat": 39.860404553020324,
-        "lon": 116.35532872910625,
-        "date": "2026-05-22 15:21:50",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "'The world has let this happen': Wu'er Kaixi on Hong Kong's loss of freedoms",
-        "description": "As a trial of former organisers of Hong Kong's Tiananmen vigils has concluded, FRANCE 24's Yuka Royer speaks with Wu'er Kaixi, one of the student leaders who led mass protests leading up to the brutal 1989 crackdown. Nearly 37 years since the tragedy, the exiled campaigner laments China's continued oppression of dissident voices and ethnic minorities.",
-        "fatalities": "0",
-        "link": "https://www.france24.com/en/tv-shows/access-asia/20260522-the-world-has-let-this-happen-wu-er-kaixi-on-hong-kong-s-loss-of-freedoms",
-        "critical": false
-    },
-    {
-        "country": "Israel",
-        "city": "Gaza",
-        "lat": 31.55452741299691,
-        "lon": 34.51258512811757,
-        "date": "2026-05-22 15:21:50",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Israel deports hundreds of Gaza flotilla activists after international backlash",
-        "description": "The Israeli government on Thursday released and deported hundreds of flotilla activists who attempted to breach Israel's naval blockade of Gaza. Outrage abroad over the activists' treatment prompted several countries to summon Israeli envoys to hear their concerns. About 420 activists departed Israel on planes bound for Turkey, where they landed Thursday evening in Istanbul. Wearing grey sweatsuits and Arab keffiyehs, they descended stairs to the",
-        "fatalities": "0",
-        "link": "https://www.france24.com/en/video/20260522-israel-deports-hundreds-of-gaza-flotilla-activists-after-international-backlash",
-        "critical": false
-    },
-    {
-        "country": "Ukraine",
-        "city": "Kyiv",
-        "lat": 50.50382014696367,
-        "lon": 30.541701018781175,
-        "date": "2026-05-22 15:21:50",
-        "type": "Airstrike",
-        "severity": "critical",
-        "title": "Ukraine boosts border security with Belarus over attack fears",
-        "description": "Ukraine on Thursday said it is ramping up security in regions bordering Belarus after warning for weeks of a possible fresh attack launched from the territory of Russia's chief regional ally. Kyiv has sounded the alarm that Russia may use Belarus -- a springboard for its 2022 invasion of Ukraine -- to stage a new offensive from the north, including towards the capital.",
-        "fatalities": "0",
-        "link": "https://www.france24.com/en/video/20260522-ukraine-boosts-border-security-with-belarus-over-attack-fears",
-        "critical": true
     }
 ]
