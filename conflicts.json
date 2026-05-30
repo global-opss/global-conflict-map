@@ -1,5 +1,33 @@
 [
     {
+        "country": "Israel",
+        "city": "Tel Aviv",
+        "lat": 32.055221704433016,
+        "lon": 34.77963810222072,
+        "date": "2026-05-30 23:45:13",
+        "type": "Airstrike",
+        "severity": "critical",
+        "title": "Israel shuts schools near Lebanon border amid repeated Hezbollah rocket, drone attacks",
+        "description": "IDF Home Front Command tightens guidelines, as Nahariya hospital moves operations underground; Lebanese PM accuses Israel of 'scorched-earth policy' but defends ongoing peace talks\nThe post Israel shuts schools near Lebanon border amid repeated Hezbollah rocket, drone attacks appeared first on The Times of Israel.",
+        "fatalities": "0",
+        "link": "https://www.timesofisrael.com/israel-shuts-schools-near-lebanon-border-amid-repeated-hezbollah-rocket-drone-attacks/",
+        "critical": true
+    },
+    {
+        "country": "Israel",
+        "city": "Tel Aviv",
+        "lat": 32.13030946646068,
+        "lon": 34.845161731137516,
+        "date": "2026-05-30 23:44:56",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "US Congress advances American-Israeli military integration plan",
+        "description": "A provision in the 2027 draft US defence bill could bind the two countries weapons industries closer than ever.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/news/2026/5/30/us-congress-advances-american-israeli-military-integration-plan?traffic_source=rss",
+        "critical": false
+    },
+    {
         "country": "Iran",
         "city": "Tehran",
         "lat": 35.73141336450652,
@@ -182,20 +210,6 @@
         "critical": false
     },
     {
-        "country": "USA",
-        "city": "Washington",
-        "lat": 38.88532627326658,
-        "lon": -76.97682973090498,
-        "date": "2026-05-30 21:41:14",
-        "type": "Clashes",
-        "severity": "middle",
-        "title": "'It's like a decaying body': Australian farmers battle mouse plague",
-        "description": "Farmers report thousands of mice per hectare destroying crops and invading homes.",
-        "fatalities": "0",
-        "link": "https://www.bbc.com/news/articles/c794g80lw74o?at_medium=RSS&at_campaign=rss",
-        "critical": false
-    },
-    {
         "country": "Europe",
         "city": "Romania",
         "lat": 46.0379771759429,
@@ -222,6 +236,20 @@
         "fatalities": "0",
         "link": "https://www.aljazeera.com/video/inside-story/2026/5/30/is-the-war-in-ukraine-entering-a-new-phase-2?traffic_source=rss",
         "critical": true
+    },
+    {
+        "country": "USA",
+        "city": "Washington",
+        "lat": 38.88532627326658,
+        "lon": -76.97682973090498,
+        "date": "2026-05-30 21:41:14",
+        "type": "Clashes",
+        "severity": "middle",
+        "title": "'It's like a decaying body': Australian farmers battle mouse plague",
+        "description": "Farmers report thousands of mice per hectare destroying crops and invading homes.",
+        "fatalities": "0",
+        "link": "https://www.bbc.com/news/articles/c794g80lw74o?at_medium=RSS&at_campaign=rss",
+        "critical": false
     },
     {
         "country": "Israel",
@@ -3036,33 +3064,5 @@
         "fatalities": "0",
         "link": "https://www.aljazeera.com/news/2026/5/29/five-killed-in-lebanon-as-israeli-forces-advance-across-key-litani-river?traffic_source=rss",
         "critical": true
-    },
-    {
-        "country": "Israel",
-        "city": "Gaza",
-        "lat": 31.456439820980407,
-        "lon": 34.484697582615105,
-        "date": "2026-05-29 18:20:20",
-        "type": "Airstrike",
-        "severity": "critical",
-        "title": "Israel strikes building in Gaza’s Shati refugee camp",
-        "description": "Israel strikes building in Gaza’s Shati refugee camp.",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/video/newsfeed/2026/5/29/israel-strikes-building-in-gazas-shati-refugee-camp?traffic_source=rss",
-        "critical": true
-    },
-    {
-        "country": "Israel",
-        "city": "Gaza",
-        "lat": 31.480970868804146,
-        "lon": 34.52073131660081,
-        "date": "2026-05-29 18:20:20",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Eid and sacrifice in Gaza",
-        "description": "Eid al-Adha in Gaza this year marked the third Eid in a row without animal sacrifice or Hajj.",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/video/newsfeed/2026/5/29/eid-and-sacrifice-in-gaza?traffic_source=rss",
-        "critical": false
     }
 ]
