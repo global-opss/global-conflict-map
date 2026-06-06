@@ -1,5 +1,47 @@
 [
     {
+        "country": "USA",
+        "city": "New york",
+        "lat": 40.76362880225536,
+        "lon": -73.9388739388249,
+        "date": "2026-06-06 23:41:33",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "NYP: США хотят передать активы Ирана союзникам в Персидском заливе",
+        "description": "Министерство финансов США рассматривает возможность использования иранских замороженных активов для восстановления инфраструктуры союзников Вашингтона в Персидском заливе. Об этом пишет New York Post со ссылкой на источник, знакомый с позицией главы ведомства Скотта Бессента. Читать далее",
+        "fatalities": "0",
+        "link": "https://russian.rt.com/world/news/1641377-iran-aktivy-ssha-soyuzniki?utm_source=rss&utm_medium=rss&utm_campaign=RSS",
+        "critical": false
+    },
+    {
+        "country": "Israel",
+        "city": "Tel Aviv",
+        "lat": 32.04213573733848,
+        "lon": 34.791352215143064,
+        "date": "2026-06-06 23:41:14",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "1 lightly hurt as Palestinian car hits settlers who blocked West Bank road and hurled stones",
+        "description": "Ramming suspect and several others arrested, though no arrests reported among Israeli rioters * US to make Iranian assets available to Gulf allies to repair damage caused by Iran -- source\nThe post 1 lightly hurt as Palestinian car hits settlers who blocked West Bank road and hurled stones appeared first on The Times of Israel.",
+        "fatalities": "0",
+        "link": "https://www.timesofisrael.com/liveblog-june-7-2026/",
+        "critical": false
+    },
+    {
+        "country": "Africa",
+        "city": "Mali",
+        "lat": 12.523276914524216,
+        "lon": -7.989174101661526,
+        "date": "2026-06-06 23:41:14",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Some Jewish Republicans think Carlson threat is fading; others worry he’ll run for president",
+        "description": "Antisemitism and anti-Israel sentiment in party spark debate at RJC gala as Rep. Randy Fine says biggest threat now comes from the left; watchdogs fear toxic rhetoric still being normalized\nThe post Some Jewish Republicans think Carlson threat is fading; others worry hell run for president appeared first on The Times of Israel.",
+        "fatalities": "0",
+        "link": "https://www.timesofisrael.com/tucker-carlson-is-down-say-some-jewish-republicans-others-warn-hes-not-out/",
+        "critical": false
+    },
+    {
         "country": "Israel",
         "city": "Tel Aviv",
         "lat": 32.08866777898168,
@@ -11,20 +53,6 @@
         "description": "Army says Cpt. Shahar Gamla, 23 of elite Egoz Unit was severely hurt by drone, later succumbed to wounds; Sgt. Ohad Yaari, 21, killed by suspected accidental gunfire\nThe post Two IDF soldiers killed in southern Lebanon as fighting against Hezbollah continues appeared first on The Times of Israel.",
         "fatalities": "0",
         "link": "https://www.timesofisrael.com/two-idf-soldiers-killed-in-separate-incidents-in-south-lebanon-as-fighting-continues/",
-        "critical": false
-    },
-    {
-        "country": "Israel",
-        "city": "Tel Aviv",
-        "lat": 32.05292000176527,
-        "lon": 34.733600695872646,
-        "date": "2026-06-06 22:33:12",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "1 lightly hurt as Palestinian hits settlers who blocked West Bank road and hurled stones at cars",
-        "description": "Ramming suspect and several others arrested, though no arrests reported among Israeli rioters * US to make Iranian assets available to Gulf allies to repair damage caused by Iran -- source\nThe post 1 lightly hurt as Palestinian hits settlers who blocked West Bank road and hurled stones at cars appeared first on The Times of Israel.",
-        "fatalities": "0",
-        "link": "https://www.timesofisrael.com/liveblog-june-7-2026/",
         "critical": false
     },
     {
@@ -67,6 +95,20 @@
         "description": "In recording aired on TV, source says 'directive' to record votes was the 'only way' PM's personal lawyer won ballot, conflicting with Likud MK's claim they were given free choice\nThe post Source close to Netanyahu admits MKs were told to film their comptroller votes  report appeared first on The Times of Israel.",
         "fatalities": "0",
         "link": "https://www.timesofisrael.com/source-close-to-netanyahu-admits-mks-were-told-to-record-comptroller-votes-report/",
+        "critical": false
+    },
+    {
+        "country": "Israel",
+        "city": "Tel Aviv",
+        "lat": 32.05292000176527,
+        "lon": 34.733600695872646,
+        "date": "2026-06-06 22:33:12",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "1 lightly hurt as Palestinian hits settlers who blocked West Bank road and hurled stones at cars",
+        "description": "Ramming suspect and several others arrested, though no arrests reported among Israeli rioters * US to make Iranian assets available to Gulf allies to repair damage caused by Iran -- source\nThe post 1 lightly hurt as Palestinian hits settlers who blocked West Bank road and hurled stones at cars appeared first on The Times of Israel.",
+        "fatalities": "0",
+        "link": "https://www.timesofisrael.com/liveblog-june-7-2026/",
         "critical": false
     },
     {
@@ -728,20 +770,6 @@
         "critical": false
     },
     {
-        "country": "Africa",
-        "city": "Mali",
-        "lat": 12.58567327025089,
-        "lon": -8.023053476001737,
-        "date": "2026-06-06 15:02:15",
-        "type": "Clashes",
-        "severity": "middle",
-        "title": "Tucker Carlson is down, say some Jewish Republicans; others warn he’s not out",
-        "description": "Antisemitism and anti-Israel sentiment in party spark debate at RJC gala as Rep. Randy Fine says biggest threat now comes from the left; watchdogs fear toxic rhetoric still being normalized\nThe post Tucker Carlson is down, say some Jewish Republicans; others warn hes not out appeared first on The Times of Israel.",
-        "fatalities": "0",
-        "link": "https://www.timesofisrael.com/tucker-carlson-is-down-say-some-jewish-republicans-others-warn-hes-not-out/",
-        "critical": false
-    },
-    {
         "country": "Middle East",
         "city": "Beirut",
         "lat": 33.91566252743471,
@@ -782,6 +810,20 @@
         "fatalities": "0",
         "link": "https://www.timesofisrael.com/the-violent-ultra-orthodox-fight-against-the-draft-is-a-holy-war-against-the-state/",
         "critical": true
+    },
+    {
+        "country": "Africa",
+        "city": "Mali",
+        "lat": 12.58567327025089,
+        "lon": -8.023053476001737,
+        "date": "2026-06-06 15:02:15",
+        "type": "Clashes",
+        "severity": "middle",
+        "title": "Tucker Carlson is down, say some Jewish Republicans; others warn he’s not out",
+        "description": "Antisemitism and anti-Israel sentiment in party spark debate at RJC gala as Rep. Randy Fine says biggest threat now comes from the left; watchdogs fear toxic rhetoric still being normalized\nThe post Tucker Carlson is down, say some Jewish Republicans; others warn hes not out appeared first on The Times of Israel.",
+        "fatalities": "0",
+        "link": "https://www.timesofisrael.com/tucker-carlson-is-down-say-some-jewish-republicans-others-warn-hes-not-out/",
+        "critical": false
     },
     {
         "country": "USA",
@@ -3022,47 +3064,5 @@
         "fatalities": "0",
         "link": "https://theaviationist.com/2026/06/01/russia-fielded-a-new-a-50u/",
         "critical": true
-    },
-    {
-        "country": "China",
-        "city": "Beijing",
-        "lat": 39.951502599880264,
-        "lon": 116.43952493850477,
-        "date": "2026-06-05 16:39:40",
-        "type": "Airstrike",
-        "severity": "critical",
-        "title": "China is building launch pads near its nuclear missile silos",
-        "description": "China’s nuclear missiles can reach any U.S. city. Now, satellite images show Beijing is building a sprawling web of military sites near its nuclear silos.",
-        "fatalities": "0",
-        "link": "https://www.militarytimes.com/global/asia-pacific/2026/05/29/china-is-building-launch-pads-near-its-nuclear-missile-silos/",
-        "critical": true
-    },
-    {
-        "country": "Europe",
-        "city": "Paris",
-        "lat": 48.89001090757544,
-        "lon": 2.352546270651843,
-        "date": "2026-06-05 16:39:39",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Why is Paris's oldest bridge called the 'New Bridge'?",
-        "description": "🌉 A runway for a Louis Vuitton show, covered entirely in fabric as part of two artistic installations, home to a now-demolished water pump... the oldest bridge in Paris, Pont Neuf, has seen it all. Why, then, does its name translate to \"New Bridge\"? FRANCE 24's Tanishk Saha explains.",
-        "fatalities": "0",
-        "link": "https://www.france24.com/en/video/20260605-why-is-paris-s-oldest-bridge-called-the-new-bridge",
-        "critical": false
-    },
-    {
-        "country": "Europe",
-        "city": "Paris",
-        "lat": 48.879922104386885,
-        "lon": 2.3369401186320413,
-        "date": "2026-06-05 16:39:39",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Parisians will be able to swim for a second year in the Seine",
-        "description": "Parisians will once again be able to swim in the Seine this summer, city officials said Friday, building on the success of last year's historic reopening of the river after a century-long ban and a massive clean-up effort ahead of the 2024 Paris Olympics.",
-        "fatalities": "0",
-        "link": "https://www.france24.com/en/france/20260605-parisians-will-be-able-to-swim-for-a-second-year-in-the-seine-france",
-        "critical": false
     }
 ]
