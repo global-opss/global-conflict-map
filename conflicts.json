@@ -1,5 +1,61 @@
 [
     {
+        "country": "China",
+        "city": "Beijing",
+        "lat": 39.919269217304986,
+        "lon": 116.40053941986953,
+        "date": "2026-06-07 22:48:31",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Our Best Look at China’s Manned Tiltrotor in Flight",
+        "description": "The Chinese tiltrotor that broke cover last year was recently captured in images during what appears to be more expansive test flights. China’s first manned tiltrotor aircraft has now appeared in clearer images while in flight, nearly a year after it was captured off a screen while hovering at the beginning of testing. Visuals from []",
+        "fatalities": "0",
+        "link": "https://theaviationist.com/2026/06/05/our-best-look-at-chinas-manned-tiltrotor-in-flight/",
+        "critical": false
+    },
+    {
+        "country": "Iran",
+        "city": "Tehran",
+        "lat": 35.73125799499461,
+        "lon": 51.38537935677037,
+        "date": "2026-06-07 22:48:26",
+        "type": "Airstrike",
+        "severity": "critical",
+        "title": "US carries out new strikes in Iran against military site, official says",
+        "description": "The U.S. military carried out new strikes overnight in Iran targeting a military site that officials believed posed a threat to U.S. forces.",
+        "fatalities": "0",
+        "link": "https://www.militarytimes.com/breaking-news/2026/05/28/us-carries-out-new-strikes-in-iran-against-military-site-official-says/",
+        "critical": true
+    },
+    {
+        "country": "China",
+        "city": "Beijing",
+        "lat": 39.96099761566488,
+        "lon": 116.39268910293941,
+        "date": "2026-06-07 22:48:21",
+        "type": "Naval",
+        "severity": "normal",
+        "title": "Friendship or leverage: Why is Xi Jinping going to North Korea?",
+        "description": "Beijing is trying to reassert influence over a strategically vital yet deeply unpredictable partner.",
+        "fatalities": "0",
+        "link": "https://www.bbc.com/news/articles/cdep497r256o?at_medium=RSS&at_campaign=rss",
+        "critical": false
+    },
+    {
+        "country": "Israel",
+        "city": "Tel Aviv",
+        "lat": 32.110714030012105,
+        "lon": 34.725798526656426,
+        "date": "2026-06-07 22:48:21",
+        "type": "Airstrike",
+        "severity": "critical",
+        "title": "Iran’s attack on Israel aims to restore deterrence but avoid return to war",
+        "description": "Irans attack on Israel aims to restore deterrence but avoid return to war.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/video/quotable/2026/6/7/irans-attack-on-israel-aims-to-restore-deterrence-but-avoid-return-to-war?traffic_source=rss",
+        "critical": true
+    },
+    {
         "country": "Israel",
         "city": "Jerusalem",
         "lat": 31.830517566140067,
@@ -84,20 +140,6 @@
         "critical": false
     },
     {
-        "country": "Africa",
-        "city": "Khartoum",
-        "lat": 15.499793984070685,
-        "lon": 32.62743412291912,
-        "date": "2026-06-07 21:44:16",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "The cash-in-the-sofa saga that just won't go away for South Africa's president",
-        "description": "A committee of MPs has been formed to look at the case against Cyril Ramaphosa, but he may survive a vote.",
-        "fatalities": "0",
-        "link": "https://www.bbc.com/news/articles/cy429dv9kk0o?at_medium=RSS&at_campaign=rss",
-        "critical": false
-    },
-    {
         "country": "Israel",
         "city": "Tel Aviv",
         "lat": 32.12370208472453,
@@ -152,6 +194,20 @@
         "fatalities": "0",
         "link": "https://www.aljazeera.com/video/newsfeed/2026/6/7/iran-fires-missiles-at-israel-after-it-attacked-beirut?traffic_source=rss",
         "critical": true
+    },
+    {
+        "country": "Africa",
+        "city": "Khartoum",
+        "lat": 15.499793984070685,
+        "lon": 32.62743412291912,
+        "date": "2026-06-07 21:44:16",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "The cash-in-the-sofa saga that just won't go away for South Africa's president",
+        "description": "A committee of MPs has been formed to look at the case against Cyril Ramaphosa, but he may survive a vote.",
+        "fatalities": "0",
+        "link": "https://www.bbc.com/news/articles/cy429dv9kk0o?at_medium=RSS&at_campaign=rss",
+        "critical": false
     },
     {
         "country": "Israel",
@@ -812,20 +868,6 @@
         "critical": false
     },
     {
-        "country": "Middle East",
-        "city": "Beirut",
-        "lat": 33.91429023425944,
-        "lon": 35.46839714882402,
-        "date": "2026-06-07 16:25:39",
-        "type": "Airstrike",
-        "severity": "critical",
-        "title": "IDF strikes Beirut’s Dahiyeh after Hezbollah fires rockets at northern Israel",
-        "description": "Lebanese media says 2 killed, 11 wounded; strike was reportedly coordinated with US; Netanyahu says Hezbollah is 'in retreat' amid IDF offensive in south\nThe post IDF strikes Beiruts Dahiyeh after Hezbollah fires rockets at northern Israel appeared first on The Times of Israel.",
-        "fatalities": "0",
-        "link": "https://www.timesofisrael.com/idf-strikes-beiruts-dahiyeh-after-hezbollah-fires-rockets-at-northern-israel/",
-        "critical": true
-    },
-    {
         "country": "Asia",
         "city": "Tokyo",
         "lat": 35.686429997906934,
@@ -908,6 +950,20 @@
         "fatalities": "0",
         "link": "https://www.arabnews.com/node/2641205/business-economy",
         "critical": false
+    },
+    {
+        "country": "Middle East",
+        "city": "Beirut",
+        "lat": 33.91429023425944,
+        "lon": 35.46839714882402,
+        "date": "2026-06-07 16:25:39",
+        "type": "Airstrike",
+        "severity": "critical",
+        "title": "IDF strikes Beirut’s Dahiyeh after Hezbollah fires rockets at northern Israel",
+        "description": "Lebanese media says 2 killed, 11 wounded; strike was reportedly coordinated with US; Netanyahu says Hezbollah is 'in retreat' amid IDF offensive in south\nThe post IDF strikes Beiruts Dahiyeh after Hezbollah fires rockets at northern Israel appeared first on The Times of Israel.",
+        "fatalities": "0",
+        "link": "https://www.timesofisrael.com/idf-strikes-beiruts-dahiyeh-after-hezbollah-fires-rockets-at-northern-israel/",
+        "critical": true
     },
     {
         "country": "Israel",
@@ -3008,61 +3064,5 @@
         "fatalities": "0",
         "link": "https://www.timesofisrael.com/four-killed-in-northern-israel-over-weekend-amid-crime-wave-wracking-arab-community/",
         "critical": false
-    },
-    {
-        "country": "Israel",
-        "city": "Tel Aviv",
-        "lat": 32.038534879950156,
-        "lon": 34.81669864836527,
-        "date": "2026-06-06 22:33:12",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Source close to Netanyahu admits MKs were told to film their comptroller votes — report",
-        "description": "In recording aired on TV, source says 'directive' to record votes was the 'only way' PM's personal lawyer won ballot, conflicting with Likud MK's claim they were given free choice\nThe post Source close to Netanyahu admits MKs were told to film their comptroller votes  report appeared first on The Times of Israel.",
-        "fatalities": "0",
-        "link": "https://www.timesofisrael.com/source-close-to-netanyahu-admits-mks-were-told-to-record-comptroller-votes-report/",
-        "critical": false
-    },
-    {
-        "country": "Israel",
-        "city": "Tel Aviv",
-        "lat": 32.05292000176527,
-        "lon": 34.733600695872646,
-        "date": "2026-06-06 22:33:12",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "1 lightly hurt as Palestinian hits settlers who blocked West Bank road and hurled stones at cars",
-        "description": "Ramming suspect and several others arrested, though no arrests reported among Israeli rioters * US to make Iranian assets available to Gulf allies to repair damage caused by Iran -- source\nThe post 1 lightly hurt as Palestinian hits settlers who blocked West Bank road and hurled stones at cars appeared first on The Times of Israel.",
-        "fatalities": "0",
-        "link": "https://www.timesofisrael.com/liveblog-june-7-2026/",
-        "critical": false
-    },
-    {
-        "country": "USA",
-        "city": "Pentagon",
-        "lat": 38.80382558249797,
-        "lon": -77.01724229279824,
-        "date": "2026-06-06 22:32:56",
-        "type": "Clashes",
-        "severity": "middle",
-        "title": "Pentagon said to raise threat level on Israel spying to ‘critical’",
-        "description": "Department reports raise concerns about increased espionage activity amid US-Israeli war with Iran, ceasefire talks.",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/news/2026/6/6/pentagon-said-to-raise-threat-level-on-israel-spying-to-critical?traffic_source=rss",
-        "critical": false
-    },
-    {
-        "country": "Russia",
-        "city": "St. petersburg",
-        "lat": 59.96738296092337,
-        "lon": 30.186805528667453,
-        "date": "2026-06-06 22:32:47",
-        "type": "Airstrike",
-        "severity": "critical",
-        "title": "Ukraine Strikes St. Petersburg in Long-Range Drone Attack",
-        "description": "It was the second such attack in days and came just hours after President Vladimir V. Putin spoke at an economic forum in the city.",
-        "fatalities": "0",
-        "link": "https://www.nytimes.com/2026/06/06/world/europe/ukraine-drone-strike-st-petersburg.html",
-        "critical": true
     }
 ]
