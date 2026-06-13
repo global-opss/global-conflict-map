@@ -1,5 +1,33 @@
 [
     {
+        "country": "Middle East",
+        "city": "Yemen",
+        "lat": 14.533501509075087,
+        "lon": 49.19141165410882,
+        "date": "2026-06-13 23:53:33",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "\"Человек-паук\" из Йемена упал в кратер вулкана с кипящей серой, его не спасли",
+        "description": "Альпинист Антар аль-Абси, известный как Человек-паук, упал в кратер вулкана Дамт в южной провинции Эд-Дали в Йемене. Об этом сообщает местное издание Yemen Online.",
+        "fatalities": "0",
+        "link": "https://rg.ru/2026/06/14/chelovek-pauk-iz-jemena-upal-v-krater-vulkana-s-kipiashchej-seroj-ego-ne-spasli.html",
+        "critical": false
+    },
+    {
+        "country": "Israel",
+        "city": "Tel Aviv",
+        "lat": 32.135839062891385,
+        "lon": 34.75631828615453,
+        "date": "2026-06-13 23:53:19",
+        "type": "Clashes",
+        "severity": "middle",
+        "title": "Hate as entertainment: Youth finding community in nihilistic online antisemitism, warns ADL",
+        "description": "Dark corners of the internet, steeped in Jew hatred, provide connections for the disaffected, says the head of the Anti-Defamation League's Center on Extremism\nThe post Hate as entertainment: Youth finding community in nihilistic online antisemitism, warns ADL appeared first on The Times of Israel.",
+        "fatalities": "0",
+        "link": "https://www.timesofisrael.com/hate-as-entertainment-youth-finding-community-in-nihilistic-online-antisemitism-warns-adl/",
+        "critical": false
+    },
+    {
         "country": "USA",
         "city": "New york",
         "lat": 40.74940442328991,
@@ -3035,34 +3063,6 @@
         "description": "Reported plans expand the",
         "fatalities": "0",
         "link": "https://www.aljazeera.com/news/2026/6/12/us-to-cut-air-and-naval-assets-deployed-for-nato-operations-in-europe?traffic_source=rss",
-        "critical": false
-    },
-    {
-        "country": "Asia",
-        "city": "Pakistan",
-        "lat": 31.543605663705286,
-        "lon": 74.34071453021107,
-        "date": "2026-06-12 18:32:47",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "US, Iran say deal closer than ever, as Pakistan signals final terms are set",
-        "description": "Statement comes as US, Iran officials caution against media reports on terms of possible agreement.",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/news/2026/6/12/pakistan-says-final-agreed-upon-text-of-iran-war-ceasefire-deal-reached?traffic_source=rss",
-        "critical": false
-    },
-    {
-        "country": "Asia",
-        "city": "Pakistan",
-        "lat": 31.56838409745464,
-        "lon": 74.3150442209067,
-        "date": "2026-06-12 18:32:44",
-        "type": "Clashes",
-        "severity": "middle",
-        "title": "Iran says deal to end fighting with US has 'never been closer'",
-        "description": "Both Iran and Pakistan say a deal has never been closer - echoing US President Donald Trump's statement on Thursday.",
-        "fatalities": "0",
-        "link": "https://www.bbc.com/news/articles/c39y02x98k8o?at_medium=RSS&at_campaign=rss",
         "critical": false
     }
 ]
