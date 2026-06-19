@@ -1,5 +1,47 @@
 [
     {
+        "country": "Israel",
+        "city": "Tel Aviv",
+        "lat": 32.016531383264706,
+        "lon": 34.75152772974412,
+        "date": "2026-06-19 23:17:57",
+        "type": "Clashes",
+        "severity": "middle",
+        "title": "Trump envoys head to Switzerland for potential Iran talks",
+        "description": "White House envoy Steve Witkoff is on his way to Switzerland, where the first round of talks with Iran on a potential nuclear deal is expected to take place, a U.S. official told Axios.The U.S. official said Trump's envoy Jared Kushner is already in Switzerland. Why it matters: The talks were supposed to start on Friday but were postponed because of the fighting between Israel and Hezbollah in Lebanon. It's not yet clear if a new time has been se",
+        "fatalities": "0",
+        "link": "https://www.axios.com/2026/06/19/iran-talks-switzerland-witkoff-vance",
+        "critical": false
+    },
+    {
+        "country": "Africa",
+        "city": "Khartoum",
+        "lat": 15.544898891856072,
+        "lon": 32.604740955337846,
+        "date": "2026-06-19 23:17:47",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Scotland vs Morocco live: Scots caught cold as Saibari gives Atlas Lions early lead",
+        "description": "Scotland take on African giants Morocco in their second Group C game on Friday, knowing a draw could be enough to clinch a place in the knockout rounds of a World Cup for the first time ever. The Scots will start with five defenders, while Morocco are unchanged from their opener. Follow our live, minute-by-minute coverage.",
+        "fatalities": "0",
+        "link": "https://www.france24.com/en/sport/20260619-scotland-vs-morocco-live-scots-eye-historic-world-cup-knockout-berth-against-atlas-lions",
+        "critical": false
+    },
+    {
+        "country": "USA",
+        "city": "Washington",
+        "lat": 38.84290754996643,
+        "lon": -77.09761257867834,
+        "date": "2026-06-19 23:17:43",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "USA beat Australia 2–0 to book knockout spot at World Cup",
+        "description": "An own goal and a goal by Alex Freeman helped the home side maintain a perfect record and progress to the round of 32.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/sports/2026/6/19/usa-beat-australia-2-0-to-book-knockout-spot-at-world?traffic_source=rss",
+        "critical": false
+    },
+    {
         "country": "USA",
         "city": "Washington",
         "lat": 38.88581248886092,
@@ -168,20 +210,6 @@
         "critical": false
     },
     {
-        "country": "Africa",
-        "city": "Khartoum",
-        "lat": 15.538440322522703,
-        "lon": 32.54572432269396,
-        "date": "2026-06-19 22:15:56",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Scotland vs Morocco live: Scots eye historic World Cup knockout berth against Atlas Lions",
-        "description": "Scotland take on African giants Morocco in their second Group C game on Friday, knowing a draw could be enough to clinch a place in the knockout rounds of a World Cup for the first time ever. The Scots will start with five defenders, while Morocco are unchanged from their opener. Follow our live, minute-by-minute coverage.",
-        "fatalities": "0",
-        "link": "https://www.france24.com/en/sport/20260619-scotland-vs-morocco-live-scots-eye-historic-world-cup-knockout-berth-against-atlas-lions",
-        "critical": false
-    },
-    {
         "country": "Europe",
         "city": "London",
         "lat": 51.53640581031216,
@@ -207,6 +235,20 @@
         "description": "World Cup co-hosts the ⁠United States ​advanced to the ​knockout stage with one game to spare after comfortably beating Australia 2-0 in ​Group ‌D on Friday, despite the absence of injured star player Christian Pulisic. Follow our live, minute-by-minute coverage.",
         "fatalities": "0",
         "link": "https://www.france24.com/en/sport/20260619-usa-vs-australia-live-match-minute-by-minute-commentary-world-cup-injured-pulisic-socceroos",
+        "critical": false
+    },
+    {
+        "country": "Africa",
+        "city": "Khartoum",
+        "lat": 15.538440322522703,
+        "lon": 32.54572432269396,
+        "date": "2026-06-19 22:15:56",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Scotland vs Morocco live: Scots eye historic World Cup knockout berth against Atlas Lions",
+        "description": "Scotland take on African giants Morocco in their second Group C game on Friday, knowing a draw could be enough to clinch a place in the knockout rounds of a World Cup for the first time ever. The Scots will start with five defenders, while Morocco are unchanged from their opener. Follow our live, minute-by-minute coverage.",
+        "fatalities": "0",
+        "link": "https://www.france24.com/en/sport/20260619-scotland-vs-morocco-live-scots-eye-historic-world-cup-knockout-berth-against-atlas-lions",
         "critical": false
     },
     {
@@ -3022,47 +3064,5 @@
         "fatalities": "0",
         "link": "https://www.defensenews.com/news/pentagon-congress/2026/06/18/senate-eyes-hegseth-travel-cuts-without-probes-into-iran-school-bombing-boat-strikes/",
         "critical": true
-    },
-    {
-        "country": "Iran",
-        "city": "Tehran",
-        "lat": 35.63043779900359,
-        "lon": 51.33950569229659,
-        "date": "2026-06-18 22:09:10",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Read the 14-point memorandum of understanding between the United States and Iran",
-        "description": "The 14-point memorandum of understanding between the United States and Iran leaves contentious issues between the countries unresolved.",
-        "fatalities": "0",
-        "link": "https://www.defensenews.com/news/pentagon-congress/2026/06/17/read-the-14-point-memorandum-of-understanding-between-the-united-states-and-iran/",
-        "critical": false
-    },
-    {
-        "country": "Russia",
-        "city": "Moscow",
-        "lat": 55.71142448915197,
-        "lon": 37.599487536189514,
-        "date": "2026-06-18 22:09:10",
-        "type": "Airstrike",
-        "severity": "critical",
-        "title": "MBDA advances land version of its naval missile as European strike weapon",
-        "description": "Europe lacks long-range strike options that provide deterrence by holding Russian assets at risk, a gap that countries are trying to patch.",
-        "fatalities": "0",
-        "link": "https://www.defensenews.com/global/europe/2026/06/16/mbda-advances-land-version-of-its-naval-missile-as-european-strike-weapon/",
-        "critical": true
-    },
-    {
-        "country": "Europe",
-        "city": "Paris",
-        "lat": 48.80998597602093,
-        "lon": 2.27564735089305,
-        "date": "2026-06-18 22:09:08",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "VivaTech 2026: Can AI become the next beauty adviser? L'Oréal thinks so",
-        "description": "As consumers increasingly turn to AI assistants for advice and recommendations, companies are rethinking how they reach and engage customers. Speaking to France 24 at VivaTech in Paris, L'Oréal Chief Digital and Marketing Officer Asmita Dubey explains how the beauty leader is deploying artificial intelligence across marketing, product discovery and personalised consumer experiences.",
-        "fatalities": "0",
-        "link": "https://www.france24.com/en/tv-shows/business/20260618-vivatech-2026-can-ai-become-the-next-beauty-advisor-l-or%C3%A9al-thinks-so",
-        "critical": false
     }
 ]
