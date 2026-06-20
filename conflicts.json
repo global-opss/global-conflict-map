@@ -1,5 +1,47 @@
 [
     {
+        "country": "Israel",
+        "city": "Haifa",
+        "lat": 32.788348591221684,
+        "lon": 34.93494611426189,
+        "date": "2026-06-20 23:53:20",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Suspected Ebola patient being treated at Haifa hospital after recent trip to DRC",
+        "description": "Health Ministry says patient in isolation with contact tracing underway, but final test results not expected before Monday; if confirmed, it would be 1st-ever Ebola case in Israel\nThe post Suspected Ebola patient being treated at Haifa hospital after recent trip to DRC appeared first on The Times of Israel.",
+        "fatalities": "0",
+        "link": "https://www.timesofisrael.com/suspected-ebola-patient-being-treated-at-haifa-hospital-after-recent-trip-to-drc/",
+        "critical": false
+    },
+    {
+        "country": "Ukraine",
+        "city": "Kyiv",
+        "lat": 50.384185222742545,
+        "lon": 30.529557575347013,
+        "date": "2026-06-20 23:53:09",
+        "type": "Clashes",
+        "severity": "middle",
+        "title": "Nearly 500,000 Russian soldiers killed in Ukraine, top UK intel chief says",
+        "description": "The figure hardens a growing consensus among Western officials: Russia is on its heels for the first time since the Kremlin launched its invasion in 2022.",
+        "fatalities": "0",
+        "link": "https://www.militarytimes.com/global/europe/2026/05/29/nearly-500000-russian-soldiers-killed-in-ukraine-top-uk-intel-chief-says/",
+        "critical": false
+    },
+    {
+        "country": "Iran",
+        "city": "Tehran",
+        "lat": 35.73472145047039,
+        "lon": 51.32061755309801,
+        "date": "2026-06-20 23:52:59",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Iranian delegation arrives in Switzerland for US peace talks",
+        "description": "Iranian delegation arrives in Switzerland for US peace talks",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/video/newsfeed/2026/6/20/iranian-delegation-arrives-in-switzerland-for-us-peace-talks?traffic_source=rss",
+        "critical": false
+    },
+    {
         "country": "Iran",
         "city": "Tehran",
         "lat": 35.74716313331879,
@@ -3021,48 +3063,6 @@
         "description": "Germany is among a number of countries that have offered help in securing the shipping lane, but only if an Iran ceasefire deal turns out to be lasting.",
         "fatalities": "0",
         "link": "https://www.defensenews.com/global/europe/2026/06/18/germany-moves-two-ships-to-djibouti-eyeing-multinational-hormuz-mission-this-summer/",
-        "critical": false
-    },
-    {
-        "country": "Europe",
-        "city": "Brussels",
-        "lat": 50.85287636334427,
-        "lon": 4.289160314941812,
-        "date": "2026-06-19 18:12:01",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Hegseth announces review of US troops in Europe, scorns some allies",
-        "description": "The comments offer new insights into the internal mechanics Trump administration have in mind for re-evaluating force levels on the continent.",
-        "fatalities": "0",
-        "link": "https://www.defensenews.com/global/europe/2026/06/18/hegseth-announces-review-of-us-troops-in-europe-scorns-some-allies/",
-        "critical": false
-    },
-    {
-        "country": "Europe",
-        "city": "Brussels",
-        "lat": 50.83073316123895,
-        "lon": 4.391462537564244,
-        "date": "2026-06-19 18:12:01",
-        "type": "Explosion",
-        "severity": "middle",
-        "title": "Size matters: KNDS pitches long-barreled artillery for 60-kilometer base range",
-        "description": "The 155mm howitzer is equipped with a girthy 58 caliber gun tube, about 12% longer than the 52 caliber barrels common in Europe.",
-        "fatalities": "0",
-        "link": "https://www.defensenews.com/global/europe/2026/06/17/size-matters-knds-pitches-long-barreled-artillery-for-60-kilometer-base-range/",
-        "critical": false
-    },
-    {
-        "country": "Ukraine",
-        "city": "Kyiv",
-        "lat": 50.493524564299214,
-        "lon": 30.50933485491691,
-        "date": "2026-06-19 18:12:00",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "US must learn lessons from Ukraine, innovate faster and cheaper: Anduril president",
-        "description": "Anduril President Christian Brose discussed the need to develop cheaper weapons systems at scale to avoid quick depletion of exquisite munitions.",
-        "fatalities": "0",
-        "link": "https://www.militarytimes.com/industry/techwatch/2026/06/08/us-must-learn-lessons-from-ukraine-innovate-faster-and-cheaper-anduril-president/",
         "critical": false
     }
 ]
