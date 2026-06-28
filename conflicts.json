@@ -1,5 +1,19 @@
 [
     {
+        "country": "USA",
+        "city": "Washington",
+        "lat": 38.91502326261305,
+        "lon": -77.07245066261815,
+        "date": "2026-06-28 23:44:00",
+        "type": "Naval",
+        "severity": "normal",
+        "title": "Iran attacks Bahrain and Kuwait, threatens to halt talks after fresh US strikes",
+        "description": "Iran launched fresh drone and missile attacks on Bahrain and Kuwait on Sunday after new US airstrikes, while warning it would completely halt negotiations and close the Strait of Hormuz if Washington continues its attacks.",
+        "fatalities": "0",
+        "link": "https://www.france24.com/en/middle-east/20260628-iran-threatens-to-halt-talks-after-fresh-us-strikes-attacks-bahrain-and-kuwait",
+        "critical": false
+    },
+    {
         "country": "Europe",
         "city": "Brussels",
         "lat": 50.86971373987932,
@@ -1386,20 +1400,6 @@
         "critical": false
     },
     {
-        "country": "Africa",
-        "city": "Khartoum",
-        "lat": 15.514770183120362,
-        "lon": 32.62922873032923,
-        "date": "2026-06-28 12:55:26",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "World Cup 2026 : 215 goals in record breaking group stage",
-        "description": "Austria and Algeria went down to the wire in a match full of drama. Austria's last-minute goal means both teams are through to the next round. Celebrations are also due for the Democratic Republic of Congo who have qualified for the first time in their history, thanks to their 3-1 win against Uzbekistan. Portugal and Colombia stayed level at 0-0. England finished top of group L, putting two past Panama. The round of 32 fixtures are all confirmed,",
-        "fatalities": "0",
-        "link": "https://www.france24.com/en/tv-shows/world-cup-debrief/20260628-world-cup-2026-215-goals-in-record-breaking-group-stage",
-        "critical": false
-    },
-    {
         "country": "Iran",
         "city": "Tehran",
         "lat": 35.70348875001448,
@@ -1425,6 +1425,20 @@
         "description": "U.S. forces struck Iranian coastal radar sites on Saturday after shooting down drones launched by Iran toward the Strait of Hormuz, the U.S. military said.",
         "fatalities": "0",
         "link": "https://www.militarytimes.com/flashpoints/middle-east/2026/06/06/us-strikes-iranian-sites-after-iran-launches-drones-in-latest-gulf-flare-up/",
+        "critical": false
+    },
+    {
+        "country": "Africa",
+        "city": "Khartoum",
+        "lat": 15.514770183120362,
+        "lon": 32.62922873032923,
+        "date": "2026-06-28 12:55:26",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "World Cup 2026 : 215 goals in record breaking group stage",
+        "description": "Austria and Algeria went down to the wire in a match full of drama. Austria's last-minute goal means both teams are through to the next round. Celebrations are also due for the Democratic Republic of Congo who have qualified for the first time in their history, thanks to their 3-1 win against Uzbekistan. Portugal and Colombia stayed level at 0-0. England finished top of group L, putting two past Panama. The round of 32 fixtures are all confirmed,",
+        "fatalities": "0",
+        "link": "https://www.france24.com/en/tv-shows/world-cup-debrief/20260628-world-cup-2026-215-goals-in-record-breaking-group-stage",
         "critical": false
     },
     {
@@ -3049,20 +3063,6 @@
         "description": "Paris authorities have activated emergency procedures as hospitals across the capital come under increasing pressure during a heatwave that has gripped France and much of Europe for more than a week. France 24's Antonia Kerrigan reports from the Hôpital Européen Georges-Pompidou, one of the largest hospitals in Paris, where the emergency department recorded around 3,000 admissions on Friday alone because of the extreme heat, a 36% increase compar",
         "fatalities": "0",
         "link": "https://www.france24.com/en/france-current-heatwave-recalls-2003-casualties",
-        "critical": false
-    },
-    {
-        "country": "USA",
-        "city": "Washington",
-        "lat": 38.84098802185966,
-        "lon": -77.06037794595181,
-        "date": "2026-06-27 17:34:37",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Venezuela: Survivors say rescue effort too slow",
-        "description": "Nearly 7 million people may have been affected by the twin earthquakes that struck Venezuela this week, the United Nations said on Saturday, as the death toll approached 1,000 and tens of thousands remained missing. The UN said up to 6.76 million people could have been impacted, including around two million residents of the capital, Caracas. Shirli Sitbon reports.",
-        "fatalities": "0",
-        "link": "https://www.france24.com/en/venezuela-survivors-say-rescue-effort-too-slow",
         "critical": false
     }
 ]
