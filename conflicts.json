@@ -1,5 +1,47 @@
 [
     {
+        "country": "Africa",
+        "city": "Niger",
+        "lat": 13.794026291159277,
+        "lon": 5.2590044192298935,
+        "date": "2026-07-03 22:15:15",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "US withdrew forces from Nigeria after operation against ISIS, AFRICOM chief says",
+        "description": "AFRICOM Commander Gen. Dagvin Anderson described May’s joint U.S.-Nigerian as a model for future security cooperation in Africa.",
+        "fatalities": "0",
+        "link": "https://www.defensenews.com/news/pentagon-congress/2026/07/03/us-withdrew-forces-from-nigeria-after-operation-against-isis-africom-chief-says/",
+        "critical": false
+    },
+    {
+        "country": "Africa",
+        "city": "Sudan",
+        "lat": 12.906991225346626,
+        "lon": 30.20431620285259,
+        "date": "2026-07-03 22:15:14",
+        "type": "Clashes",
+        "severity": "middle",
+        "title": "More than 400 dead in DR Congo's Ebola outbreak",
+        "description": "In tonight's edition, Ebola is spreading beyond its original hotspot in the DRC as a new case has been detected nearly 600 kilometers away. And another human rights catastrophe is unfolding in Sudan around the besieged city of al-Obeid, the UN says.",
+        "fatalities": "0",
+        "link": "https://www.france24.com/en/more-than-400-dead-in-dr-congo-s-ebola-outbreak",
+        "critical": false
+    },
+    {
+        "country": "USA",
+        "city": "Washington",
+        "lat": 38.9321856132926,
+        "lon": -77.08769645795024,
+        "date": "2026-07-03 22:15:12",
+        "type": "Evacuation",
+        "severity": "critical",
+        "title": "Thousands forced to evacuate in Colorado as wildfire spreads",
+        "description": "The Aspen Acres Fire, one of about 40 wildfires burning across western US, has destroyed homes and forced evacuations.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/news/2026/7/3/thousands-forced-to-evacuate-in-colorado-as-wildfire-spreads?traffic_source=rss",
+        "critical": true
+    },
+    {
         "country": "Iran",
         "city": "Tehran",
         "lat": 35.63031031672358,
@@ -3021,48 +3063,6 @@
         "description": "After a U.S. Army Apache helicopter was downed by an Iranian drone, President Donald Trump said the rescued aviators “got very lucky.”",
         "fatalities": "0",
         "link": "https://www.militarytimes.com/news/pentagon-congress/2026/06/10/they-got-very-lucky-trump-says-of-downed-apache-helicopters-crew/",
-        "critical": false
-    },
-    {
-        "country": "Europe",
-        "city": "Brussels",
-        "lat": 50.864879528189846,
-        "lon": 4.303925902148252,
-        "date": "2026-07-02 18:15:43",
-        "type": "Naval",
-        "severity": "normal",
-        "title": "Gen. Christopher Donahue relinquishes command of US Army Europe and Africa",
-        "description": "U.S. Army Gen. Christopher Donahue relinquished command on Thursday. The Army has not given a reason for the leadership change.",
-        "fatalities": "0",
-        "link": "https://www.defensenews.com/news/your-army/2026/07/02/gen-christopher-donahue-relinquishes-command-of-us-army-europe-and-africa/",
-        "critical": false
-    },
-    {
-        "country": "Russia",
-        "city": "Moscow",
-        "lat": 55.821902020132875,
-        "lon": 37.56774634506989,
-        "date": "2026-07-02 18:15:43",
-        "type": "Drone",
-        "severity": "middle",
-        "title": "Video purportedly shows Ukrainian unit running down Russian Shahed. The US is paying attention.",
-        "description": "An unverified video of Ukrainian unit taking down a Shahed drone with an American-made interceptor comes as the U.S. Army seeks to field drones at scale.",
-        "fatalities": "0",
-        "link": "https://www.defensenews.com/industry/techwatch/2026/07/01/video-shows-a-ukrainian-unit-running-down-a-russian-shahed-the-kind-of-kill-the-us-is-racing-to-reproduce/",
-        "critical": false
-    },
-    {
-        "country": "USA",
-        "city": "Pentagon",
-        "lat": 38.82068513356453,
-        "lon": -77.02610328123775,
-        "date": "2026-07-02 18:15:43",
-        "type": "Naval",
-        "severity": "normal",
-        "title": "Ukraine is launching strike-drones from everything – including Black Sea robo-boats",
-        "description": "The Pentagon is studying the lesson as it shifts focus toward a possible conflict with China.",
-        "fatalities": "0",
-        "link": "https://www.defensenews.com/global/europe/2026/07/01/ukraine-is-launching-strike-drones-from-everything-including-black-sea-robo-boats/",
         "critical": false
     }
 ]
