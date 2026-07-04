@@ -1,5 +1,33 @@
 [
     {
+        "country": "Iran",
+        "city": "Natanz",
+        "lat": 33.7683930190091,
+        "lon": 51.923780377210015,
+        "date": "2026-07-04 23:17:03",
+        "type": "Clashes",
+        "severity": "middle",
+        "title": "Satellite images show construction near Iranian nuclear site, in apparent MOU violation",
+        "description": "US-based think tank says workers appear to be reinforcing tunnel entrances at secretive site near Natanz nuclear enrichment facility, which itself remains inaccessible\nThe post Satellite images show construction near Iranian nuclear site, in apparent MOU violation appeared first on The Times of Israel.",
+        "fatalities": "0",
+        "link": "https://www.timesofisrael.com/satellite-images-show-construction-near-iranian-nuclear-site-in-apparent-mou-violation/",
+        "critical": false
+    },
+    {
+        "country": "Israel",
+        "city": "Tel Aviv",
+        "lat": 32.02410941034679,
+        "lon": 34.818222466209654,
+        "date": "2026-07-04 23:16:51",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "U.S. Officials Believed Israel Was Plotting to Kill Iranian Negotiators",
+        "description": "Any Israeli attempt to kill Abbas Araghchi, the foreign minister, or Mohammad Ghalibaf, the Parliament speaker, would have derailed peace talks, American officials feared.",
+        "fatalities": "0",
+        "link": "https://www.nytimes.com/2026/07/02/us/politics/israel-iran-negotiators-plot.html",
+        "critical": false
+    },
+    {
         "country": "Israel",
         "city": "Tel Aviv",
         "lat": 32.05930726221334,
@@ -3036,33 +3064,5 @@
         "fatalities": "0",
         "link": "https://www.aljazeera.com/news/2026/7/3/mourners-bury-victims-of-damascus-cafe-bombing-with-six-lawyers-among-dead?traffic_source=rss",
         "critical": true
-    },
-    {
-        "country": "Ukraine",
-        "city": "Kyiv",
-        "lat": 50.5015355147943,
-        "lon": 30.579763313062532,
-        "date": "2026-07-03 15:25:14",
-        "type": "Airstrike",
-        "severity": "critical",
-        "title": "Russia’s advance collapses in Ukraine, ‘40,000’ troops killed in June",
-        "description": "Ukraines long-range strikes hit targets in Russia, where anxiety is rising.",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/news/2026/7/3/russian-advance-collapses-in-ukraine-as-anxiety-rises-in-moscow?traffic_source=rss",
-        "critical": true
-    },
-    {
-        "country": "Asia",
-        "city": "Host",
-        "lat": 33.36706554753471,
-        "lon": 69.94757744837317,
-        "date": "2026-07-03 15:25:14",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Canada vs Morocco: World Cup Round of 16: Saibari, prediction, schedule",
-        "description": "World Cup cohosts Canada face mighty Morocco in their first-ever last-16 appearance at the FIFA World Cup.",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/sports/2026/7/3/canada-morocco-fifa-world-cup-round-of-16-saibari-prediction-schedule?traffic_source=rss",
-        "critical": false
     }
 ]
