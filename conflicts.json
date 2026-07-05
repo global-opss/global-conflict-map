@@ -1,5 +1,19 @@
 [
     {
+        "country": "USA",
+        "city": "Washington",
+        "lat": 38.8806331898863,
+        "lon": -77.05892963454357,
+        "date": "2026-07-05 00:17:09",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Ticket prices plunge for USA-Belgium World Cup last-16 match",
+        "description": "The price for the final 2026 World ⁠Cup match in Seattle hit nearly $4,000 but dipped as low as $1,549 ⁠on Tuesday.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/sports/2026/7/4/ticket-prices-plunge-for-us-belgium-world-cup-last-16-match?traffic_source=rss",
+        "critical": false
+    },
+    {
         "country": "Iran",
         "city": "Natanz",
         "lat": 33.7683930190091,
@@ -3050,19 +3064,5 @@
         "fatalities": "0",
         "link": "https://www.aljazeera.com/sports/2026/7/3/gaza-sports-community-pledges-to-continue-legacy-of-killed-goalkeeper?traffic_source=rss",
         "critical": false
-    },
-    {
-        "country": "Middle East",
-        "city": "Damascus",
-        "lat": 33.5687247838503,
-        "lon": 36.21463688471873,
-        "date": "2026-07-03 15:25:14",
-        "type": "Airstrike",
-        "severity": "critical",
-        "title": "Mourners bury victims of Damascus cafe bombing with six lawyers among dead",
-        "description": "Syrian Bar Association mourns six lawyers amid international condemnation of Thursdays attack in Damascus.",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/news/2026/7/3/mourners-bury-victims-of-damascus-cafe-bombing-with-six-lawyers-among-dead?traffic_source=rss",
-        "critical": true
     }
 ]
