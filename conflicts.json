@@ -1,5 +1,47 @@
 [
     {
+        "country": "Israel",
+        "city": "Tel Aviv",
+        "lat": 32.11929307941629,
+        "lon": 34.84017305181658,
+        "date": "2026-07-07 23:16:32",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Yoaz Hendel’s Reservists teams up with ex-minister Chili Tropper ahead of election",
+        "description": "Bereaved family members Shira Shapiro and Elyasaf Peretz also joining new alliance, says Hendel; Smotrich's Religious Zionism to hold primary on July 26 as polls show it shedding support\nThe post Yoaz Hendel’s Reservists teams up with ex-minister Chili Tropper ahead of election appeared first on The Times of Israel.",
+        "fatalities": "0",
+        "link": "https://www.timesofisrael.com/yoaz-hendels-reservists-teams-up-with-ex-minister-chili-tropper-ahead-of-election/",
+        "critical": false
+    },
+    {
+        "country": "Iran",
+        "city": "Tehran",
+        "lat": 35.74678105175318,
+        "lon": 51.348829940206755,
+        "date": "2026-07-07 23:16:19",
+        "type": "Airstrike",
+        "severity": "critical",
+        "title": "U.S. Strikes Iran and Reimposes Sanctions After Tanker Attacks",
+        "description": "The military operation came hours after the U.S. Treasury revoked a waiver allowing global sales of Iranian oil.",
+        "fatalities": "0",
+        "link": "https://www.nytimes.com/2026/07/07/us/politics/us-strikes-iran-tanker-attacks.html",
+        "critical": true
+    },
+    {
+        "country": "Israel",
+        "city": "Gaza",
+        "lat": 31.525375116298505,
+        "lon": 34.45466114320704,
+        "date": "2026-07-07 23:16:19",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Egypt buoyed by praise for World Cup heroics despite controversial exit",
+        "description": "From fans in Gaza to world leaders and supporters on social media, Egypt won hearts, even if they lost to Argentina.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/sports/2026/7/7/egypt-buoyed-by-praise-for-world-cup-heroics-despite-controversial-exit?traffic_source=rss",
+        "critical": false
+    },
+    {
         "country": "USA",
         "city": "New york",
         "lat": 40.72615107880533,
@@ -56,20 +98,6 @@
         "critical": false
     },
     {
-        "country": "Ukraine",
-        "city": "Kyiv",
-        "lat": 50.38165874695403,
-        "lon": 30.55037585564816,
-        "date": "2026-07-07 22:13:49",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Inside the McConnell health rumor mill",
-        "description": "Senate GOP leaders say they have spoken with Sen. Mitch McConnell in recent days, as speculation swirls online among MAGA influencers about the Kentucky Republican's health.Why it matters: McConnell has been hospitalized for roughly three weeks, with very little information about his condition.Driving the news: Majority Leader John Thune (R-S.D.),  Majority Whip John Barrasso (R-Wyo.) and former McConnell aide Scott Jennings went public within ho",
-        "fatalities": "0",
-        "link": "https://www.axios.com/2026/07/07/mitch-mcconnell-health-senate-gop-leaders",
-        "critical": false
-    },
-    {
         "country": "Iran",
         "city": "Bandar abbas",
         "lat": 27.251108009073178,
@@ -81,6 +109,20 @@
         "description": "The U.S. military said it conducted airstrikes against Iranian military targets in the area of the Strait of Hormuz on Tuesday in retaliation for renewed Iranian attacks on commercial ships.Why it matters: The exchange of fire risks plunging the U.S. and Iran into a new cycle of retaliation, threatening the fragile memorandum of understanding (MOU) signed by President Trump less than three weeks ago.A U.S. official said the targets included Irani",
         "fatalities": "0",
         "link": "https://www.axios.com/2026/07/07/us-strikes-iran-hormuz-ship-attacks",
+        "critical": false
+    },
+    {
+        "country": "Ukraine",
+        "city": "Kyiv",
+        "lat": 50.38165874695403,
+        "lon": 30.55037585564816,
+        "date": "2026-07-07 22:13:49",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Inside the McConnell health rumor mill",
+        "description": "Senate GOP leaders say they have spoken with Sen. Mitch McConnell in recent days, as speculation swirls online among MAGA influencers about the Kentucky Republican's health.Why it matters: McConnell has been hospitalized for roughly three weeks, with very little information about his condition.Driving the news: Majority Leader John Thune (R-S.D.),  Majority Whip John Barrasso (R-Wyo.) and former McConnell aide Scott Jennings went public within ho",
+        "fatalities": "0",
+        "link": "https://www.axios.com/2026/07/07/mitch-mcconnell-health-senate-gop-leaders",
         "critical": false
     },
     {
@@ -3021,48 +3063,6 @@
         "description": "AFRICOM Commander Gen. Dagvin Anderson described May’s joint U.S.-Nigerian as a model for future security cooperation in Africa.",
         "fatalities": "0",
         "link": "https://www.defensenews.com/news/pentagon-congress/2026/07/03/us-withdrew-forces-from-nigeria-after-operation-against-isis-africom-chief-says/",
-        "critical": false
-    },
-    {
-        "country": "Europe",
-        "city": "Brussels",
-        "lat": 50.9356951054287,
-        "lon": 4.379104286297353,
-        "date": "2026-07-06 23:42:06",
-        "type": "Naval",
-        "severity": "normal",
-        "title": "Gen. Christopher Donahue relinquishes command of US Army Europe and Africa",
-        "description": "U.S. Army Gen. Christopher Donahue relinquished command on Thursday. The Army has not given a reason for the leadership change.",
-        "fatalities": "0",
-        "link": "https://www.defensenews.com/news/your-army/2026/07/02/gen-christopher-donahue-relinquishes-command-of-us-army-europe-and-africa/",
-        "critical": false
-    },
-    {
-        "country": "Ukraine",
-        "city": "Kyiv",
-        "lat": 50.48872617738347,
-        "lon": 30.545792442847613,
-        "date": "2026-07-06 23:42:02",
-        "type": "Airstrike",
-        "severity": "critical",
-        "title": "Russian missile and drone strikes kill 24 in Kyiv ahead of NATO summit",
-        "description": "Russia launched a deadly barrage of missiles and drones on Kyiv on Monday, killing at least 24 people and wounding more than 100 in its second major strike on the capital in a week. The attack came on the eve of a NATO summit, where President Volodymyr Zelensky is expected to press allies for stronger air defence support.",
-        "fatalities": "0",
-        "link": "https://www.france24.com/en/europe/20260706-russian-missile-and-drone-strikes-kill-24-in-kyiv-ahead-of-nato-summit",
-        "critical": true
-    },
-    {
-        "country": "Asia",
-        "city": "Host",
-        "lat": 33.355158311968246,
-        "lon": 69.91192497367877,
-        "date": "2026-07-06 23:42:02",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "USA vs Belgium live: Balogun starts for co-hosts after Trump's red-card intervention",
-        "description": "Team USA look to extend their World Cup journey on home soil as they take on Belgium in a last-16 clash in Seattle, with the buildup to the match overshadowed by a row raging over US President Donald Trump's extraordinary intervention to earn a red-card reprieve for striker Folarin Balogun. Follow our liveblog for minute-by-minute match commentary.",
-        "fatalities": "0",
-        "link": "https://www.france24.com/en/sport/20260706-usa-vs-belgium-live-world-cup-balogun-starts-after-trump-red-card-intervention-fifa",
         "critical": false
     }
 ]
