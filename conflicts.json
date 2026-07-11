@@ -2,6 +2,34 @@
     {
         "country": "Israel",
         "city": "Tel Aviv",
+        "lat": 32.047897215170465,
+        "lon": 34.832500885905375,
+        "date": "2026-07-11 22:28:55",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Coalition aims to pass raft of contentious bills in final week before Knesset dissolution",
+        "description": "Legislation includes declaring Torah study a 'foundational value,' banning arrest of ultra-Orthodox draft evaders; unclear if bill establishing political Oct. 7 probe will pass in time\nThe post Coalition aims to pass raft of contentious bills in final week before Knesset dissolution appeared first on The Times of Israel.",
+        "fatalities": "0",
+        "link": "https://www.timesofisrael.com/coalition-hopes-to-pass-raft-of-contentious-bills-in-final-week-before-knesset-dissolution/",
+        "critical": false
+    },
+    {
+        "country": "Europe",
+        "city": "Brussels",
+        "lat": 50.93576145177376,
+        "lon": 4.380814189101481,
+        "date": "2026-07-11 22:28:38",
+        "type": "Clashes",
+        "severity": "middle",
+        "title": "Fighting Fires With Figures, These Experts Are Trying to Stop Europe From Burning",
+        "description": "A team of engineers, foresters and scientists is helping the continent prepare for wildfires from a giant science park in Italy. Their arsenal includes satellites, weather models and expert analysis.",
+        "fatalities": "0",
+        "link": "https://www.nytimes.com/2026/07/10/world/europe/fire-climate-change-heat-wave-global-warming.html",
+        "critical": false
+    },
+    {
+        "country": "Israel",
+        "city": "Tel Aviv",
         "lat": 32.10909352164799,
         "lon": 34.80619413141575,
         "date": "2026-07-11 21:30:44",
@@ -3035,34 +3063,6 @@
         "description": "After a NATO summit focused on Iran, Ukraine and ties with Donald Trump, Turkish President Recep Tayyip Erdogan surprised leaders with an unusual gift: engraved vintage revolvers with live ammunition. The unexpected presents created diplomatic and logistical challenges, with several leaders saying the weapons would be decommissioned or donated to museums.",
         "fatalities": "0",
         "link": "https://www.france24.com/en/president-erdogan-s-unusual-gift-to-nato-leaders-sparks-surprise",
-        "critical": false
-    },
-    {
-        "country": "USA",
-        "city": "Washington",
-        "lat": 38.88849246010814,
-        "lon": -76.97820095062121,
-        "date": "2026-07-10 13:32:47",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Democrat Graham Platner suspends campaign for key US Senate race after assault allegation",
-        "description": "The decision came days after a woman accused him of sexual assault, an accusation he says is \"categorically false\".",
-        "fatalities": "0",
-        "link": "https://www.bbc.co.uk/news/articles/c9v229434p2o?at_medium=RSS&at_campaign=rss",
-        "critical": false
-    },
-    {
-        "country": "China",
-        "city": "Beijing",
-        "lat": 39.959108509819984,
-        "lon": 116.44049236333788,
-        "date": "2026-07-10 13:32:47",
-        "type": "Clashes",
-        "severity": "middle",
-        "title": "Philippines landslides kill 15 as Typhoon Bavi threatens region",
-        "description": "Typhoon Bavi is intensifying seasonal monsoon rains across the region as it moves towards Taiwan and China.",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/news/2026/7/10/philippines-landslides-kill-15-as-typhoon-bavi-threatens-region?traffic_source=rss",
         "critical": false
     }
 ]
