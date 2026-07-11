@@ -1,5 +1,47 @@
 [
     {
+        "country": "Iran",
+        "city": "Tehran",
+        "lat": 35.62702089825836,
+        "lon": 51.40505960598861,
+        "date": "2026-07-11 00:13:13",
+        "type": "Naval",
+        "severity": "normal",
+        "title": "US demanding Iran publicly vow to stop attacks in Hormuz and forswear tolls on ships",
+        "description": "Trump administration officials say Tehran must hand over 'nuclear dust' or there won't be a deal, as satellite images show Islamic Republic might be trying to rebuild nuclear facilities\nThe post US demanding Iran publicly vow to stop attacks in Hormuz and forswear tolls on ships appeared first on The Times of Israel.",
+        "fatalities": "0",
+        "link": "https://www.timesofisrael.com/liveblog-july-11-2026/",
+        "critical": false
+    },
+    {
+        "country": "Israel",
+        "city": "Tel Aviv",
+        "lat": 32.09689840171166,
+        "lon": 34.7371366718844,
+        "date": "2026-07-11 00:13:13",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "‘Blatant corruption’: New US sanctions target Mojtaba Khamenei’s moneyman",
+        "description": "US Treasury accuses Dubai-based Ali Ansari of serving as financier for other regime elites and the IRGC; several Iranian exchange houses and 'front companies' also blacklisted\nThe post ‘Blatant corruption’: New US sanctions target Mojtaba Khamenei’s moneyman appeared first on The Times of Israel.",
+        "fatalities": "0",
+        "link": "https://www.timesofisrael.com/blatant-corruption-new-us-sanctions-target-mojtaba-khameneis-moneyman/",
+        "critical": false
+    },
+    {
+        "country": "Ukraine",
+        "city": "Kyiv",
+        "lat": 50.380315884310676,
+        "lon": 30.470255654786833,
+        "date": "2026-07-11 00:13:04",
+        "type": "Airstrike",
+        "severity": "critical",
+        "title": "Ukraine to get ‘license’ for making Patriot interceptors, Trump pledges",
+        "description": "\"It’s a defensive weapon, which I like better than an offensive weapon,” Trump said. Russian media quickly picked up on the announcement.",
+        "fatalities": "0",
+        "link": "https://www.defensenews.com/global/europe/2026/07/08/ukraine-to-get-license-for-making-patriot-interceptors-trump-pledges/",
+        "critical": true
+    },
+    {
         "country": "Israel",
         "city": "Jerusalem",
         "lat": 31.79224570350734,
@@ -3022,47 +3064,5 @@
         "fatalities": "0",
         "link": "https://www.aljazeera.com/news/2026/7/9/south-african-protesters-intimidate-migrants-as-aid-group-issues-warning?traffic_source=rss",
         "critical": false
-    },
-    {
-        "country": "Iran",
-        "city": "Tehran",
-        "lat": 35.75530331781032,
-        "lon": 51.348776232565655,
-        "date": "2026-07-09 20:27:25",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Why the US Strategic Petroleum Reserve matters amid US-Iran tensions",
-        "description": "US oil reserves hit lowest levels since 1983 amid growing tensions with Iran and global supply concerns.",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/economy/2026/7/9/why-the-us-strategic-petroleum-reserve-matters-amid-us-iran-tensions?traffic_source=rss",
-        "critical": false
-    },
-    {
-        "country": "China",
-        "city": "Beijing",
-        "lat": 39.96995891471919,
-        "lon": 116.37258917451976,
-        "date": "2026-07-09 20:27:25",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Deadly fire breaks out at shoe factory in China",
-        "description": "A fire has torn through a shoe factory in eastern China, killing at least 28 people and trapping workers on the roof.",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/video/newsfeed/2026/7/9/deadly-fire-breaks-out-at-shoe-factory-in-china?traffic_source=rss",
-        "critical": false
-    },
-    {
-        "country": "Ukraine",
-        "city": "Kyiv",
-        "lat": 50.387234075398716,
-        "lon": 30.542661509995124,
-        "date": "2026-07-09 20:27:25",
-        "type": "Airstrike",
-        "severity": "critical",
-        "title": "Ukraine to get licence to produce Patriot missiles, Trump says",
-        "description": "Although the Patriots are highly effective against Russia's ballistic missiles, they also have lengthy production times.",
-        "fatalities": "0",
-        "link": "https://www.bbc.co.uk/news/articles/ce8klree690o?at_medium=RSS&at_campaign=rss",
-        "critical": true
     }
 ]
