@@ -1,5 +1,47 @@
 [
     {
+        "country": "Israel",
+        "city": "Tel Aviv",
+        "lat": 32.10909352164799,
+        "lon": 34.80619413141575,
+        "date": "2026-07-11 21:30:44",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Coalition hopes to pass raft of contentious bills in final week before Knesset dissolution",
+        "description": "Legislation includes declaring Torah study a 'foundational value,' banning arrest of ultra-Orthodox draft evaders; unclear if bill establishing political Oct. 7 probe will pass in time\nThe post Coalition hopes to pass raft of contentious bills in final week before Knesset dissolution appeared first on The Times of Israel.",
+        "fatalities": "0",
+        "link": "https://www.timesofisrael.com/coalition-hopes-to-pass-raft-of-contentious-bills-in-final-week-before-knesset-dissolution/",
+        "critical": false
+    },
+    {
+        "country": "Israel",
+        "city": "Tel Aviv",
+        "lat": 32.03146973188495,
+        "lon": 34.75398748986576,
+        "date": "2026-07-11 21:30:43",
+        "type": "Naval",
+        "severity": "normal",
+        "title": "MAGA figures flock to Charlie Kirk murder hearing",
+        "description": "A parade of prominent conservative figures are descending on a Utah courthouse this week to attend the preliminary hearing for the man accused of murdering Turning Point USA founder Charlie Kirk.Why it matters: The show of support in Provo underscores that, nearly a year after his assassination, Kirk remains a unifying figure across the Republican Party and the MAGA movement.Driving the news: Among those who have joined Kirk's family members this",
+        "fatalities": "0",
+        "link": "https://www.axios.com/2026/07/10/maga-charlie-kirk-court-hearing",
+        "critical": false
+    },
+    {
+        "country": "Asia",
+        "city": "Pakistan",
+        "lat": 31.506383086735234,
+        "lon": 74.35453480401168,
+        "date": "2026-07-11 21:30:32",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "What’s behind Pakistan’s mass deportation of Afghans?",
+        "description": "Islamabad cites national security concerns, returns thousands of undocumented migrants.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/video/inside-story/2026/7/11/whats-behind-pakistans-mass-deportation-of-afghans?traffic_source=rss",
+        "critical": false
+    },
+    {
         "country": "USA",
         "city": "Washington",
         "lat": 38.91434736258698,
@@ -3021,48 +3063,6 @@
         "description": "Typhoon Bavi is intensifying seasonal monsoon rains across the region as it moves towards Taiwan and China.",
         "fatalities": "0",
         "link": "https://www.aljazeera.com/news/2026/7/10/philippines-landslides-kill-15-as-typhoon-bavi-threatens-region?traffic_source=rss",
-        "critical": false
-    },
-    {
-        "country": "Iran",
-        "city": "Tehran",
-        "lat": 35.634351001593764,
-        "lon": 51.441020851769466,
-        "date": "2026-07-10 13:32:47",
-        "type": "Clashes",
-        "severity": "middle",
-        "title": "US-Iran escalation threatens oil supply recovery, warns IEA",
-        "description": "Sources suggest that the ceasefire can be revived amid a lull in fighting and backroom diplomacy.",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/news/2026/7/10/us-iran-escalation-threatens-oil-supply-recovery-warns-iea?traffic_source=rss",
-        "critical": false
-    },
-    {
-        "country": "USA",
-        "city": "Washington",
-        "lat": 38.87702832426338,
-        "lon": -77.02230411241433,
-        "date": "2026-07-10 13:32:47",
-        "type": "Clashes",
-        "severity": "middle",
-        "title": "US-Iran war: Will peace talks resume, and when?",
-        "description": "While Trump said the MoU with Iran is over, US officials have reaffirmed Washingtons commitment to continue talks.",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/news/2026/7/10/us-iran-war-will-peace-talks-ever-resume-and-when?traffic_source=rss",
-        "critical": false
-    },
-    {
-        "country": "Europe",
-        "city": "Brussels",
-        "lat": 50.948480795509234,
-        "lon": 4.345160914915459,
-        "date": "2026-07-10 13:32:45",
-        "type": "Clashes",
-        "severity": "middle",
-        "title": "Fighting Fires With Figures, These Experts Are Trying to Stop Europe From Burning",
-        "description": "A team of engineers, foresters and scientists is helping the continent prepare for wildfires from a giant science park in Italy. Their arsenal includes satellites, weather models and expert analysis.",
-        "fatalities": "0",
-        "link": "https://www.nytimes.com/2026/07/10/world/europe/fire-climate-change-heat-wave-global-warming.html",
         "critical": false
     }
 ]
