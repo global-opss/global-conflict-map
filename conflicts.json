@@ -1,5 +1,19 @@
 [
     {
+        "country": "Europe",
+        "city": "Brussels",
+        "lat": 50.87096157216731,
+        "lon": 4.343722498991172,
+        "date": "2026-07-14 23:32:09",
+        "type": "Airstrike",
+        "severity": "critical",
+        "title": "France's World Cup dream extinguished in chastening semi-final loss to Spain",
+        "description": "Didier Deschamps' France were hot favourites to lift the famous golden trophy after a string of breathtaking attacking displays at the World Cup. But they met their match in the semi-finals when faced with slick European champions Spain, who outplayed and outsmarted Les Bleus to deny them a third consecutive final.",
+        "fatalities": "0",
+        "link": "https://www.france24.com/en/sport/20260714-france-world-cup-dream-extinguished-chastening-semi-final-loss-to-spain",
+        "critical": true
+    },
+    {
         "country": "USA",
         "city": "New york",
         "lat": 40.65190968366715,
@@ -3050,19 +3064,5 @@
         "fatalities": "0",
         "link": "https://www.aljazeera.com/video/newsfeed/2026/7/13/gaza-man-builds-roadside-library-from-books-buried-in-rubble?traffic_source=rss",
         "critical": false
-    },
-    {
-        "country": "Ukraine",
-        "city": "Kyiv",
-        "lat": 50.413878534418345,
-        "lon": 30.480490298616907,
-        "date": "2026-07-13 21:39:05",
-        "type": "Airstrike",
-        "severity": "critical",
-        "title": "Ukraine and allies launch coalition to tackle Russia’s ballistic missiles",
-        "description": "Russia has escalated attacks in recent weeks, taking advantage of Ukraine’s critical shortage of air defences.",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/news/2026/7/13/ukraine-and-allies-launch-coalition-to-tackle-russias-ballistic-missiles?traffic_source=rss",
-        "critical": true
     }
 ]
