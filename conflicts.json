@@ -1,5 +1,47 @@
 [
     {
+        "country": "USA",
+        "city": "New york",
+        "lat": 40.64288279909994,
+        "lon": -74.05394098755728,
+        "date": "2026-07-15 00:57:24",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "New Mexico AG, federal DOJ clash over Epstein records",
+        "description": "A public dispute between New Mexico's attorney general and the U.S. Justice Department escalated Tuesday over records sought in the state's Jeffrey Epstein investigation.Why it matters: The clash underscores questions about whether federal privacy restrictions and court orders are preventing state investigators from pursuing potential criminal leads tied to Epstein's former Zorro Ranch in New Mexico.Zoom in: New Mexico Attorney General Raúl Torre",
+        "fatalities": "0",
+        "link": "https://www.axios.com/2026/07/15/epstein-investigation-new-mexico-justice-department-us-doj",
+        "critical": false
+    },
+    {
+        "country": "Iran",
+        "city": "Tehran",
+        "lat": 35.721684639516745,
+        "lon": 51.39206377411264,
+        "date": "2026-07-15 00:57:19",
+        "type": "Airstrike",
+        "severity": "critical",
+        "title": "LIVE: Trump says ‘strikes on Iran will continue until I say enough’",
+        "description": "Irans bridges, power plants possible targets, Trump said as IRGC says it attacked US forces in Kuwait, Bahrain, Jordan.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/news/liveblog/2026/7/15/live-trump-says-strikes-on-iran-will-continue-until-i-say?traffic_source=rss",
+        "critical": true
+    },
+    {
+        "country": "Iran",
+        "city": "Tehran",
+        "lat": 35.71008309837705,
+        "lon": 51.45750396796345,
+        "date": "2026-07-15 00:57:14",
+        "type": "Naval",
+        "severity": "normal",
+        "title": "Trump Drops Plan to Tax Ships in Strait of Hormuz as Fighting with Iran Escalates",
+        "description": "The president’s proposal to impose a fee on shipping in the Strait of Hormuz threatened to increase global energy prices.",
+        "fatalities": "0",
+        "link": "https://www.nytimes.com/2026/07/14/world/middleeast/trump-hormuz-shipping-fee-dropped.html",
+        "critical": false
+    },
+    {
         "country": "Europe",
         "city": "Brussels",
         "lat": 50.87096157216731,
@@ -3021,48 +3063,6 @@
         "description": "Irans military has warned it will not allow the United States to ‘interfere’ in the management of the Strait of Hormuz.",
         "fatalities": "0",
         "link": "https://www.aljazeera.com/video/newsfeed/2026/7/13/iran-military-warns-us-against-strait-of-hormuz?traffic_source=rss",
-        "critical": false
-    },
-    {
-        "country": "Israel",
-        "city": "Gaza",
-        "lat": 31.454633988859307,
-        "lon": 34.46850606883416,
-        "date": "2026-07-13 21:39:05",
-        "type": "Clashes",
-        "severity": "middle",
-        "title": "Artist sews names of Gaza children killed by Israel into gown",
-        "description": "Welsh artist Diana Williams stitched the names of 300 babies killed by Israel’s genocidal war on Gaza into a gown.",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/video/newsfeed/2026/7/13/artist-sews-names-of-gaza-children-killed-by-israel-into-gown?traffic_source=rss",
-        "critical": false
-    },
-    {
-        "country": "Israel",
-        "city": "Tel Aviv",
-        "lat": 32.07823796604505,
-        "lon": 34.720597815465,
-        "date": "2026-07-13 21:39:05",
-        "type": "Airstrike",
-        "severity": "critical",
-        "title": "What do Israeli settler attacks on Americans reveal?",
-        "description": "Recent attacks on international journalists and a US congressman have once again put a spotlight on settler violence.",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/video/newsfeed/2026/7/13/what-do-israeli-settler-attacks-on-americans-reveal?traffic_source=rss",
-        "critical": true
-    },
-    {
-        "country": "Israel",
-        "city": "Gaza",
-        "lat": 31.461811410748517,
-        "lon": 34.44488086832685,
-        "date": "2026-07-13 21:39:05",
-        "type": "Clashes",
-        "severity": "middle",
-        "title": "Gaza man builds roadside library from books buried in rubble",
-        "description": "Bookseller Mohammad Saad lost his son, his home, and his bookstore in the aftermath of Israel’s war on Gaza.",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/video/newsfeed/2026/7/13/gaza-man-builds-roadside-library-from-books-buried-in-rubble?traffic_source=rss",
         "critical": false
     }
 ]
