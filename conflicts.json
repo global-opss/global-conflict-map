@@ -1,5 +1,33 @@
 [
     {
+        "country": "Asia",
+        "city": "Host",
+        "lat": 33.30283336804573,
+        "lon": 69.91231871084194,
+        "date": "2026-07-16 01:10:46",
+        "type": "Naval",
+        "severity": "normal",
+        "title": "Italy Leads NATO’s First Fully Multi-Domain Task Force X for the Integration of Autonomous Systems",
+        "description": "In one of NATO’s most ambitious experimentation campaigns, Task Force X – Central Mediterranean tested the integration of uncrewed capabilities across the five operational domains. From Jun. 22 to Jul. 10, 2026, Italy hosted and led Task Force X – Central Mediterranean (TFX CentMed), the latest iteration of NATO Allied Command Transformations (ACT) Task Force []",
+        "fatalities": "0",
+        "link": "https://theaviationist.com/2026/07/13/task-force-x-central-mediterranean/",
+        "critical": false
+    },
+    {
+        "country": "Iran",
+        "city": "Bandar abbas",
+        "lat": 27.126822011962005,
+        "lon": 56.313120608419815,
+        "date": "2026-07-16 01:10:37",
+        "type": "Explosion",
+        "severity": "middle",
+        "title": "Iran war live: Sirens in Bahrain, Kuwait; US ‘disables’ Iranian oil tanker",
+        "description": "Iranian media report explosions on Qeshm Island, Bandar Abbas and Chabahar, as Bahrain and Kuwait sound air raid sirens.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/news/liveblog/2026/7/16/iran-war-live-sirens-in-bahrain-kuwait-us-disables-iranian-oil-tanker?traffic_source=rss",
+        "critical": false
+    },
+    {
         "country": "Iran",
         "city": "Tehran",
         "lat": 35.69397949226857,
@@ -3035,34 +3063,6 @@
         "description": "",
         "fatalities": "0",
         "link": "https://lenta.ru/news/2026/07/14/repera-kyivstoner-ulichili-v-svyazyah-s-azovom/",
-        "critical": false
-    },
-    {
-        "country": "USA",
-        "city": "New york",
-        "lat": 40.69135911479691,
-        "lon": -74.07533225196353,
-        "date": "2026-07-14 15:12:20",
-        "type": "Clashes",
-        "severity": "middle",
-        "title": "Fed's Warsh stays mum on rate plans, pledges price stability",
-        "description": "Federal Reserve chairman Kevin Warsh will tell Congress Tuesday that the central bank is determined to restore price stability, but again offered little guidance as to whether it may need to raise interest rates to achieve it.The big picture: Warsh has sought to end the Fed's modern practice of giving clear signals about its expected policy path, and continued that practice in his first congressional testimony as chairman.It comes as some of his ",
-        "fatalities": "0",
-        "link": "https://www.axios.com/2026/07/14/fed-warsh-congress-rates",
-        "critical": false
-    },
-    {
-        "country": "Ukraine",
-        "city": "Kyiv",
-        "lat": 50.44315344481865,
-        "lon": 30.47028026818537,
-        "date": "2026-07-14 15:12:20",
-        "type": "Clashes",
-        "severity": "middle",
-        "title": "Inflation has biggest drop since 2020",
-        "description": "Inflation fell in June, on the back of lower energy prices, the government said Tuesday.Why it matters:  It's the largest one-month decrease since April 2020, but it may be a short-lived reprieve — the report doesn't account for the sharp increase in oil prices this month as the Iran war re-ignites.By the numbers: Still, inflation is pretty hot. The Consumer Price Index rose 3.5% in the 12 months through June — down from 4.2% in May.On a monthly ",
-        "fatalities": "0",
-        "link": "https://www.axios.com/2026/07/14/cpi-june-inflation-energy",
         "critical": false
     }
 ]
