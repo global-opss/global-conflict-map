@@ -1,5 +1,47 @@
 [
     {
+        "country": "USA",
+        "city": "Alaska",
+        "lat": 64.47910391810386,
+        "lon": -149.67089118082941,
+        "date": "2026-07-17 22:51:13",
+        "type": "Clashes",
+        "severity": "middle",
+        "title": "The Senate braces for a House wave",
+        "description": "The Senate is set for another big House infusion next year.Why it matters: The two chambers often clash over differing cultures and procedures. An influx of senators used to the faster, more confrontational politics of the House could create new headaches for Senate leaders.At least five, and potentially as many as 13, current House members could become senators next year, though their paths vary widely.Competitive midterm races, retirements, pri",
+        "fatalities": "0",
+        "link": "https://www.axios.com/2026/07/17/house-senate-pipeline-midterms-wave-congress",
+        "critical": false
+    },
+    {
+        "country": "USA",
+        "city": "Washington",
+        "lat": 38.92967129097203,
+        "lon": -77.04604080964862,
+        "date": "2026-07-17 22:51:13",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Solo dining finds its moment",
+        "description": "Solo dining is having a moment, with reservations for one jumping 23% over the past year, booking app OpenTable says. Why it matters: That growth may look like another sign of America's loneliness epidemic. But many solo diners say eating alone offers a rare chance to slow down, reflect and savor the small stuff.Driving the news: Veronica Selzler, a 36-year-old Washington, D.C., resident, told Washington Post food critic Elazar Sontag — who first",
+        "fatalities": "0",
+        "link": "https://www.axios.com/2026/07/17/solo-dining-reservations-jump-opentable",
+        "critical": false
+    },
+    {
+        "country": "Iran",
+        "city": "Tehran",
+        "lat": 35.65748127835422,
+        "lon": 51.38714701847972,
+        "date": "2026-07-17 22:51:02",
+        "type": "Airstrike",
+        "severity": "critical",
+        "title": "US launches seventh straight night of strikes on Iran",
+        "description": "The US military says its degrading Irans military but has been accused by Tehran of targeting civilian infrastructure.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/news/2026/7/17/us-launches-seventh-straight-night-of-strikes-on-iran?traffic_source=rss",
+        "critical": true
+    },
+    {
         "country": "Ukraine",
         "city": "Kyiv",
         "lat": 50.386039513964676,
@@ -3021,48 +3063,6 @@
         "description": "France and Germany want to quit relying on America and China for key technology like artificial intelligence, but they’re having to choose where to do it.",
         "fatalities": "0",
         "link": "https://www.nytimes.com/2026/07/16/world/europe/digital-autonomy-ai.html",
-        "critical": false
-    },
-    {
-        "country": "USA",
-        "city": "Washington",
-        "lat": 38.87880717042968,
-        "lon": -76.988393634947,
-        "date": "2026-07-16 11:17:21",
-        "type": "Naval",
-        "severity": "normal",
-        "title": "Behind the Curtain: AI godfathers converge on regulations",
-        "description": "The three men racing hardest to build superhuman AI — Demis Hassabis, Sam Altman and Dario Amodei — all agree the frontier needs to be regulated ASAP.Why it matters: For the first time, the CEOs of Google DeepMind, OpenAI and Anthropic are on the record, in writing, converging on the same diagnosis and remarkably similar prescriptions.The three rivals each published a detailed distillation of their views in the past five weeks — the same extraord",
-        "fatalities": "0",
-        "link": "https://www.axios.com/2026/07/16/ai-regulations-openai-anthropic-google",
-        "critical": false
-    },
-    {
-        "country": "USA",
-        "city": "New york",
-        "lat": 40.782064593619516,
-        "lon": -73.96538063534608,
-        "date": "2026-07-16 11:17:21",
-        "type": "Clashes",
-        "severity": "middle",
-        "title": "How a fuming Trump reversed ICE's pause on vehicle stops",
-        "description": "Late Tuesday at the White House, a livid President Trump complained to advisers about the Department of Homeland Security's decision to pause the type of vehicle stops by ICE agents that had led to two fatal shootings in the past two weeks.The department's idea seemed to be that agents would get more training. But by Wednesday morning, Trump had sent a Truth Social post reversing the pause, leaving DHS Secretary Markwayne Mullin and border czar T",
-        "fatalities": "0",
-        "link": "https://www.axios.com/2026/07/16/trump-ice-shootings-vehicle-stops",
-        "critical": false
-    },
-    {
-        "country": "Iran",
-        "city": "Tehran",
-        "lat": 35.67541778316452,
-        "lon": 51.3256292618369,
-        "date": "2026-07-16 11:17:21",
-        "type": "Naval",
-        "severity": "normal",
-        "title": "Vance enters the media lion's den",
-        "description": "Vice President Vance is venturing into unfriendly media terrain to defend the White House against its critics — reviving the same playbook that endeared him to President Trump when he was picking his running mate.Why it matters: Vance is using the media blitz to showcase one of his biggest political assets — his talent for verbal combat — as he lays the groundwork for an expected 2028 presidential campaign.His approach contrasts with other high-p",
-        "fatalities": "0",
-        "link": "https://www.axios.com/2026/07/16/vance-media-trump-rogan-kelly-carlson",
         "critical": false
     }
 ]
