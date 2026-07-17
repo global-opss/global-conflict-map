@@ -1,5 +1,47 @@
 [
     {
+        "country": "Ukraine",
+        "city": "Kyiv",
+        "lat": 50.46756998167565,
+        "lon": 30.496336129884675,
+        "date": "2026-07-17 19:52:01",
+        "type": "Clashes",
+        "severity": "middle",
+        "title": "Ukraine: Trouble at the Top? Adieu Keir, Alright Andy",
+        "description": "In a week that’s seen rare wartime demonstrations in Ukraine protesting the ousting of Defence Minister Mykhailo (Misha) Fedorov after six months in a job in which he’s been credited with making a difference on the battlefield and in an anti-corruption drive. But he had reportedly clashed with Ukraine’s commander-in-chief, Oleksandr Syrskyi, over how the war should be waged.",
+        "fatalities": "0",
+        "link": "https://www.france24.com/en/tv-shows/the-world-this-week/20260717-ukraine-trouble-at-the-top-adieu-keir-alright-andy",
+        "critical": false
+    },
+    {
+        "country": "Iran",
+        "city": "Tehran",
+        "lat": 35.68377085626757,
+        "lon": 51.421340538370664,
+        "date": "2026-07-17 19:51:51",
+        "type": "Airstrike",
+        "severity": "critical",
+        "title": "War Between U.S. and Iran Expands, With Strikes Across the Region",
+        "description": "Videos and reports in Iranian state media showed damage to bridges, railways and other infrastructure. U.S. allies in the region reported retaliatory strikes by Iran.",
+        "fatalities": "0",
+        "link": "https://www.nytimes.com/2026/07/17/world/middleeast/war-between-us-and-iran-expands-with-strikes-across-the-region.html",
+        "critical": true
+    },
+    {
+        "country": "Israel",
+        "city": "Gaza",
+        "lat": 31.57162870424598,
+        "lon": 34.47111715598915,
+        "date": "2026-07-17 19:51:49",
+        "type": "Airstrike",
+        "severity": "critical",
+        "title": "Israeli Strike in Gaza Kills Seven People, Health Officials Say",
+        "description": "The Israeli military said the attack targeted members of the second-biggest militant group in Gaza. It also said it was “aware of the claims that several uninvolved individuals” had been harmed.",
+        "fatalities": "0",
+        "link": "https://www.nytimes.com/2026/07/17/world/middleeast/israeli-strike-gaza-kills-eight.html",
+        "critical": true
+    },
+    {
         "country": "Europe",
         "city": "Berlin",
         "lat": 48.919405384132006,
@@ -644,20 +686,6 @@
         "critical": false
     },
     {
-        "country": "Ukraine",
-        "city": "Kyiv",
-        "lat": 50.47359704351528,
-        "lon": 30.484942430678633,
-        "date": "2026-07-17 13:57:24",
-        "type": "Naval",
-        "severity": "normal",
-        "title": "A Russian Political Battle Ends With a Visit From Masked Men",
-        "description": "Boris B. Nadezhdin, an outspoken opponent of the war in Ukraine, says he knows why he was detained: “Among our leadership, there is panic and chaos.”",
-        "fatalities": "0",
-        "link": "https://www.nytimes.com/2026/07/17/world/europe/russia-politics-election-nadezhdin.html",
-        "critical": false
-    },
-    {
         "country": "USA",
         "city": "Washington",
         "lat": 38.862714894904975,
@@ -669,6 +697,20 @@
         "description": "Thousands are killed on Uganda's roads each year but this is one of its deadliest accidents involving children.",
         "fatalities": "0",
         "link": "https://www.bbc.co.uk/news/articles/c151gegwqv1o?at_medium=RSS&at_campaign=rss",
+        "critical": false
+    },
+    {
+        "country": "Ukraine",
+        "city": "Kyiv",
+        "lat": 50.47359704351528,
+        "lon": 30.484942430678633,
+        "date": "2026-07-17 13:57:24",
+        "type": "Naval",
+        "severity": "normal",
+        "title": "A Russian Political Battle Ends With a Visit From Masked Men",
+        "description": "Boris B. Nadezhdin, an outspoken opponent of the war in Ukraine, says he knows why he was detained: “Among our leadership, there is panic and chaos.”",
+        "fatalities": "0",
+        "link": "https://www.nytimes.com/2026/07/17/world/europe/russia-politics-election-nadezhdin.html",
         "critical": false
     },
     {
@@ -3021,48 +3063,6 @@
         "description": "The Iranian aircraft incident has exposed a fragile calm that may not survive a wider regional escalation.",
         "fatalities": "0",
         "link": "https://www.aljazeera.com/opinions/2026/7/16/yemen-is-edging-closer-to-renewed-confrontation?traffic_source=rss",
-        "critical": false
-    },
-    {
-        "country": "Ukraine",
-        "city": "Kyiv",
-        "lat": 50.42515166924442,
-        "lon": 30.541650132767042,
-        "date": "2026-07-16 11:17:12",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Protests in Ukraine's cities against Zelensky's removal of defence minister",
-        "description": "Ukraine's president has not explained Mykhailo Fedorov's dismissal, which is causing great upset among civil society and the military.",
-        "fatalities": "0",
-        "link": "https://www.bbc.co.uk/news/articles/cdx76069n3do?at_medium=RSS&at_campaign=rss",
-        "critical": false
-    },
-    {
-        "country": "Iran",
-        "city": "Tehran",
-        "lat": 35.64018527525736,
-        "lon": 51.32938498340764,
-        "date": "2026-07-16 11:17:12",
-        "type": "Naval",
-        "severity": "normal",
-        "title": "‘Safe passage’: The fatal ambiguity at the heart of the Hormuz MoU",
-        "description": "The vague language of the US-Iran MoU made the present escalation in the Strait of Hormuz all but inevitable.",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/opinions/2026/7/16/safe-passage-the-fatal-ambiguity-at-the-heart-of-the-hormuz-mou?traffic_source=rss",
-        "critical": false
-    },
-    {
-        "country": "Asia",
-        "city": "Pakistan",
-        "lat": 31.578972599871953,
-        "lon": 74.43698008925952,
-        "date": "2026-07-16 11:17:12",
-        "type": "Clashes",
-        "severity": "middle",
-        "title": "Pakistan, a mediator in the war, struggles to make itself heard.",
-        "description": "",
-        "fatalities": "0",
-        "link": "https://www.nytimes.com/live/2026/07/16/world/iran-war-trump-hormuz/pakistan-a-mediator-in-the-war-struggles-to-make-itself-heard",
         "critical": false
     }
 ]
