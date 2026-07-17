@@ -1,5 +1,19 @@
 [
     {
+        "country": "Israel",
+        "city": "Tel Aviv",
+        "lat": 32.07186743110114,
+        "lon": 34.83360169305318,
+        "date": "2026-07-17 23:52:58",
+        "type": "Airstrike",
+        "severity": "critical",
+        "title": "EU urges Israel to halt settlement expansion as settlers attack children",
+        "description": "Pressure is growing within the EU to sanction Israel for its illegal settlements and violence against Palestinians.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/news/2026/7/17/eu-urges-israel-to-halt-settlement-expansion-as-settlers-attack-children?traffic_source=rss",
+        "critical": true
+    },
+    {
         "country": "USA",
         "city": "Alaska",
         "lat": 64.47910391810386,
@@ -3049,20 +3063,6 @@
         "description": "President Macron said there would be no leniency for arsonists, as France - along with much of Europe - deals with a series of unusual heatwaves.",
         "fatalities": "0",
         "link": "https://www.bbc.co.uk/news/articles/ce97zd8yx1xo?at_medium=RSS&at_campaign=rss",
-        "critical": false
-    },
-    {
-        "country": "China",
-        "city": "Beijing",
-        "lat": 39.86730168279431,
-        "lon": 116.32457192089994,
-        "date": "2026-07-16 12:54:00",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "The Quest for ‘Technological Sovereignty’ in Europe (and Why It’s So Hard)",
-        "description": "France and Germany want to quit relying on America and China for key technology like artificial intelligence, but they’re having to choose where to do it.",
-        "fatalities": "0",
-        "link": "https://www.nytimes.com/2026/07/16/world/europe/digital-autonomy-ai.html",
         "critical": false
     }
 ]
