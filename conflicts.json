@@ -1,5 +1,61 @@
 [
     {
+        "country": "Ukraine",
+        "city": "Kyiv",
+        "lat": 50.483844251298464,
+        "lon": 30.53661040395057,
+        "date": "2026-07-18 07:11:42",
+        "type": "Airstrike",
+        "severity": "critical",
+        "title": "Russia says Ukrainian drone attack killed several in Moscow logistics centre",
+        "description": "A local official said that a Ukrainian drone attack killed seven night-shift workers and wounded 24 at a Moscow logistics centre on Saturday, as part of a larger-scale attack including 370 drones, most of which were \"neutralised\" according to the city mayor. Kyiv says its attacks on Russia are fair retribution for Moscow's four-year war in Ukraine.",
+        "fatalities": "0",
+        "link": "https://www.france24.com/en/europe/20260718-russia-says-ukrainian-drone-attack-killed-several-in-moscow-logistics-centre",
+        "critical": true
+    },
+    {
+        "country": "Iran",
+        "city": "Tehran",
+        "lat": 35.6859188166373,
+        "lon": 51.441229604494126,
+        "date": "2026-07-18 07:11:42",
+        "type": "Naval",
+        "severity": "normal",
+        "title": "Sea drones strike Iranian port in combat first for US",
+        "description": "U.S. Central Command utilized three Corsair unmanned surface vessels to strike a submarine and ship maintenance facility in Iran.",
+        "fatalities": "0",
+        "link": "https://www.militarytimes.com/news/your-military/2026/07/13/sea-drones-strike-iranian-port-in-combat-first-for-us-navy/",
+        "critical": false
+    },
+    {
+        "country": "Asia",
+        "city": "Tokyo",
+        "lat": 35.58556408419107,
+        "lon": 139.71304477847164,
+        "date": "2026-07-18 07:11:38",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Kolkata sings for Messi as World Cup fever takes hold",
+        "description": "South Asia’s greatest football city has united behind its footballing saint.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/features/longform/2026/7/18/kolkata-sings-for-messi-as-world-cup-fever-takes-hold-2?traffic_source=rss",
+        "critical": false
+    },
+    {
+        "country": "Israel",
+        "city": "Tel Aviv",
+        "lat": 32.01734080356345,
+        "lon": 34.786130118063234,
+        "date": "2026-07-18 07:11:38",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Israel’s ‘Crimson Thread’ military barrier is strangling the West Bank",
+        "description": "A new military barrier in the West Banks Jordan Valley is cutting off Palestinian communities from their land.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/features/2026/7/18/israels-crimson-thread-military-barrier-is-strangling-the-west-bank?traffic_source=rss",
+        "critical": false
+    },
+    {
         "country": "Israel",
         "city": "Jerusalem",
         "lat": 31.755635740559097,
@@ -1568,20 +1624,6 @@
         "critical": false
     },
     {
-        "country": "Middle East",
-        "city": "Beirut",
-        "lat": 33.93986817409555,
-        "lon": 35.546586490512325,
-        "date": "2026-07-17 10:48:30",
-        "type": "Clashes",
-        "severity": "middle",
-        "title": "Dubai Migrant Worker Layoffs Reveal Costs of Middle East War",
-        "description": "The Persian Gulf city attracted migrant workers with the promise of opportunity. Many now say the war has brought job losses and salary cuts.",
-        "fatalities": "0",
-        "link": "https://www.nytimes.com/2026/07/17/world/middleeast/dubai-iran-war-migrant-workers-layoffs.html",
-        "critical": false
-    },
-    {
         "country": "China",
         "city": "Beijing",
         "lat": 39.88516255913676,
@@ -1593,6 +1635,20 @@
         "description": "China said Trump's claims were fabricated and US Democrats said he was paving the way to undermine November's elections.",
         "fatalities": "0",
         "link": "https://www.bbc.co.uk/news/articles/cx2k9wvv5wyo?at_medium=RSS&at_campaign=rss",
+        "critical": false
+    },
+    {
+        "country": "Middle East",
+        "city": "Beirut",
+        "lat": 33.93986817409555,
+        "lon": 35.546586490512325,
+        "date": "2026-07-17 10:48:30",
+        "type": "Clashes",
+        "severity": "middle",
+        "title": "Dubai Migrant Worker Layoffs Reveal Costs of Middle East War",
+        "description": "The Persian Gulf city attracted migrant workers with the promise of opportunity. Many now say the war has brought job losses and salary cuts.",
+        "fatalities": "0",
+        "link": "https://www.nytimes.com/2026/07/17/world/middleeast/dubai-iran-war-migrant-workers-layoffs.html",
         "critical": false
     },
     {
@@ -3007,62 +3063,6 @@
         "description": "Powerful storm floods hundreds of homes in Russias urals",
         "fatalities": "0",
         "link": "https://www.aljazeera.com/video/newsfeed/2026/7/16/powerful-storm-floods-hundreds-of-homes-in-russias-urals?traffic_source=rss",
-        "critical": false
-    },
-    {
-        "country": "Asia",
-        "city": "Host",
-        "lat": 33.26585961141828,
-        "lon": 69.95534495287356,
-        "date": "2026-07-16 15:02:22",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "US hosts global meet on ‘far-left terror’: Who’s attending, why it matters",
-        "description": "More than 65 countries expected to address renewed threats from far-left political violence and terrorism.",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/news/2026/7/16/us-hosts-global-meet-on-far-left-terror-whos-attending-why-it-matters?traffic_source=rss",
-        "critical": false
-    },
-    {
-        "country": "Africa",
-        "city": "Khartoum",
-        "lat": 15.544623285404382,
-        "lon": 32.55494558469259,
-        "date": "2026-07-16 15:02:20",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Why Netflix’s ‘The Polygamist’ Has Viewers Outside South Africa Talking",
-        "description": "The hit Netflix show follows the life of a wealthy married couple in South Africa as they deal with the pressures of infidelity and appearances.",
-        "fatalities": "0",
-        "link": "https://www.nytimes.com/2026/07/16/world/africa/netflix-the-polygamist-south-africa.html",
-        "critical": false
-    },
-    {
-        "country": "Europe",
-        "city": "Poland",
-        "lat": 52.006395598685316,
-        "lon": 19.069658312309155,
-        "date": "2026-07-16 15:02:20",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Teenager accused of carrying out sabotage actions in Poland for Russia",
-        "description": "Polish security services say the aim was to incite ethnic tensions between Poland and Ukraine.",
-        "fatalities": "0",
-        "link": "https://www.bbc.co.uk/news/articles/cp305dx493do?at_medium=RSS&at_campaign=rss",
-        "critical": false
-    },
-    {
-        "country": "Ukraine",
-        "city": "Kyiv",
-        "lat": 50.413409242869946,
-        "lon": 30.46071777429107,
-        "date": "2026-07-16 15:02:20",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Protests in Ukrainian cities against Zelensky's removal of defence minister",
-        "description": "Ukraine's president has not explained Mykhailo Fedorov's dismissal, which is causing great upset among civil society and the military.",
-        "fatalities": "0",
-        "link": "https://www.bbc.co.uk/news/articles/cdx76069n3do?at_medium=RSS&at_campaign=rss",
         "critical": false
     }
 ]
