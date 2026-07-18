@@ -1,6 +1,34 @@
 [
     {
         "country": "Europe",
+        "city": "Brussels",
+        "lat": 50.84726022724427,
+        "lon": 4.290404826426839,
+        "date": "2026-07-18 12:34:16",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Europe should look to Africa for heatwave solutions",
+        "description": "African communities have spent decades developing practical, tested ways to live with extreme heat.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/opinions/2026/7/18/europe-should-look-to-africa-for-heatwave-solutions?traffic_source=rss",
+        "critical": false
+    },
+    {
+        "country": "Russia",
+        "city": "Moscow",
+        "lat": 55.810680585478266,
+        "lon": 37.660293932435835,
+        "date": "2026-07-18 12:34:12",
+        "type": "Airstrike",
+        "severity": "critical",
+        "title": "Russian online retail warehouses hit by deadly Ukrainian strikes",
+        "description": "Drones targeted Wildberries facilities near Moscow and in Tambov. Ukraine's leader called them \"major logistics facilities\" supplying \"sanctioned components\".",
+        "fatalities": "0",
+        "link": "https://www.bbc.co.uk/news/articles/clyxlm877p2o?at_medium=RSS&at_campaign=rss",
+        "critical": true
+    },
+    {
+        "country": "Europe",
         "city": "Berlin",
         "lat": 48.82544875544953,
         "lon": 2.360622980351799,
@@ -3035,34 +3063,6 @@
         "description": "Lawmakers demanded Monday that the Pentagon release its findings from an investigation into the Feb. 28 strike at a girls’ school in Iran.",
         "fatalities": "0",
         "link": "https://www.defensenews.com/news/pentagon-congress/2026/07/13/lawmakers-demand-pentagon-release-findings-from-probe-of-iran-school-strike/",
-        "critical": false
-    },
-    {
-        "country": "Europe",
-        "city": "Paris",
-        "lat": 48.8835410147477,
-        "lon": 2.3092127982349764,
-        "date": "2026-07-16 16:38:31",
-        "type": "Clashes",
-        "severity": "middle",
-        "title": "'Zero tolerance' for forest arsonists, Macron promises firefighters",
-        "description": "French President Emmenuel Macron visited Fontainebleau on the outskirts of Paris, after devastating wildfires that scorched at least 10% of the 20-thousand-hectare forest. Macron warned it would ‌take several weeks for the fire to be completely ⁠extinguished but pledged to replant the historic domain. Meanwhile, several arrests have been made, including one of a volunteer firefighter placed under formal investigation.",
-        "fatalities": "0",
-        "link": "https://www.france24.com/en/zero-tolerance-for-forest-arsonists-macron-promises-firefighters",
-        "critical": false
-    },
-    {
-        "country": "Ukraine",
-        "city": "Kyiv",
-        "lat": 50.42527736349829,
-        "lon": 30.4847267800158,
-        "date": "2026-07-16 16:38:31",
-        "type": "Drone",
-        "severity": "middle",
-        "title": "Mykhailo Fedorov: Ousted defence chief's reforms riled Ukrainian army bosses",
-        "description": "Ukraine's ousted defence minister Mykhailo Fedorov served just six months before his ambitious drive to reform the military led to irreconcilable clashes with the country's top brass, which he viewed as out of date, inflexible and mired in bureaucracy. Fedorov's early bet on drone warfare was a game-changer as Ukraine faced off against a more formidable opponent.",
-        "fatalities": "0",
-        "link": "https://www.france24.com/en/europe/20260716-ousted-defence-chief-mykhailo-fedorov-whose-reforms-riled-ukraine-s-army-bosses",
         "critical": false
     }
 ]
