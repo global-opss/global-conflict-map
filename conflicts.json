@@ -1,5 +1,19 @@
 [
     {
+        "country": "Asia",
+        "city": "Host",
+        "lat": 33.34080362729847,
+        "lon": 69.92248853906396,
+        "date": "2026-07-18 23:26:12",
+        "type": "Airstrike",
+        "severity": "critical",
+        "title": "Iran War Live Updates: U.S. Launches Strikes After Iranian Attack Kills 2 American Soldiers",
+        "description": "The soldiers, killed in Jordan, were the first U.S. troops to die from hostile fire since an April truce. U.S. forces began retaliatory strikes early Sunday.",
+        "fatalities": "0",
+        "link": "https://www.nytimes.com/live/2026/07/18/world/iran-war-strikes-trump-hormuz",
+        "critical": true
+    },
+    {
         "country": "Israel",
         "city": "Tel Aviv",
         "lat": 32.055975652343726,
@@ -3049,20 +3063,6 @@
         "description": "President Trump threatened again to revoke the broadcast licenses of ABC and NBC on Thursday, after those networks decided not to preempt their regularly scheduled programming to cover his address on election integrity live.Why it matters: The Federal Communications Commission has already launched probes into broadcasters, alleging their practices violate public interest standards. Those efforts could have serious business consequences. \"In a rar",
         "fatalities": "0",
         "link": "https://www.axios.com/2026/07/17/trump-speech-tv-broadcast-licenses",
-        "critical": false
-    },
-    {
-        "country": "Russia",
-        "city": "Moscow",
-        "lat": 55.80157795136593,
-        "lon": 37.669881821554135,
-        "date": "2026-07-17 04:20:58",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "READ: Trump documents allege China interfered in U.S. elections",
-        "description": "President Trump alleged Thursday that U.S. intelligence agencies covered up information about alleged Chinese efforts to influence the 2020 U.S. election.Why it matters: The document release is likely to renew scrutiny of Trump's claims about foreign interference in the U.S. election and the government's past intelligence assessments.The documents release allege that foreign adversaries — including Russia, China and Iran — were viewed as real thr",
-        "fatalities": "0",
-        "link": "https://www.axios.com/2026/07/17/trump-china-us-election-interference-documents",
         "critical": false
     }
 ]
