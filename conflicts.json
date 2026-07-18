@@ -1,5 +1,33 @@
 [
     {
+        "country": "Iran",
+        "city": "Tehran",
+        "lat": 35.711860023199016,
+        "lon": 51.345921888712674,
+        "date": "2026-07-18 09:01:54",
+        "type": "Airstrike",
+        "severity": "critical",
+        "title": "Middle East live: Kuwait says Iran hit second water and electricity plant",
+        "description": "Kuwait said on Saturday that an Iranian attack hit a water and electricity plant one day after a similar strike damaged another plant. Tehran launched attacks on US military sites hosted by several of its Gulf neighbours in response to a seventh night of US strikes on Iran overnight on Friday. Follow our liveblog for the latest updates.",
+        "fatalities": "0",
+        "link": "https://www.france24.com/en/middle-east/20260718-middle-east-live-tehran-threatens-full-scale-offensive-as-us-launches-seventh-night-of-attacks",
+        "critical": true
+    },
+    {
+        "country": "Russia",
+        "city": "Moscow",
+        "lat": 55.76669295559698,
+        "lon": 37.59744108894058,
+        "date": "2026-07-18 09:01:54",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "No fuel, no patience: Russians endure fuel shortages",
+        "description": "Russian couple Yelena and Dmitry passed four petrol stations before finally finding one that actually had fuel as they returned to the city of Vologda, some 300 miles (480 kilometres) north of Moscow, from their country allotment plot.",
+        "fatalities": "0",
+        "link": "https://www.france24.com/en/europe/20260718-no-fuel-no-patience-russians-endure-fuel-shortages",
+        "critical": false
+    },
+    {
         "country": "Ukraine",
         "city": "Kyiv",
         "lat": 50.483844251298464,
@@ -3035,34 +3063,6 @@
         "description": "Both sides face pressure points that could make a protracted war painful.",
         "fatalities": "0",
         "link": "https://www.aljazeera.com/news/2026/7/16/us-or-iran-who-needs-a-new-truce-deal?traffic_source=rss",
-        "critical": false
-    },
-    {
-        "country": "Africa",
-        "city": "Sudan",
-        "lat": 12.82170520263578,
-        "lon": 30.260696146265467,
-        "date": "2026-07-16 15:02:22",
-        "type": "Clashes",
-        "severity": "middle",
-        "title": "Sudanese minister says war has ‘profoundly reshaped’ nation’s demographics",
-        "description": "Sudan faces a population shift as conflict empties areas, burdens cities, and disrupts economic and social stability.",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/news/2026/7/16/sudanese-minister-says-war-has-profoundly-reshaped-nations-demography?traffic_source=rss",
-        "critical": false
-    },
-    {
-        "country": "Russia",
-        "city": "Moscow",
-        "lat": 55.69409549281708,
-        "lon": 37.558306465108025,
-        "date": "2026-07-16 15:02:22",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Powerful storm floods hundreds of homes in Russia’s urals",
-        "description": "Powerful storm floods hundreds of homes in Russias urals",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/video/newsfeed/2026/7/16/powerful-storm-floods-hundreds-of-homes-in-russias-urals?traffic_source=rss",
         "critical": false
     }
 ]
