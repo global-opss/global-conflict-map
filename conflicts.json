@@ -1,5 +1,33 @@
 [
     {
+        "country": "Israel",
+        "city": "Tel Aviv",
+        "lat": 32.055975652343726,
+        "lon": 34.74714110027859,
+        "date": "2026-07-18 21:23:19",
+        "type": "Airstrike",
+        "severity": "critical",
+        "title": "Palestinian teenage footballer dies a week after Israeli settler attack",
+        "description": "A week after he was shot in his West Bank village, Fadi al-Nassans death comes amid a surge in settler violence.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/news/2026/7/18/palestinian-teenage-footballer-dies-a-week-after-israeli-settler-attack?traffic_source=rss",
+        "critical": true
+    },
+    {
+        "country": "Iran",
+        "city": "Tehran",
+        "lat": 35.6951161222194,
+        "lon": 51.438415931966425,
+        "date": "2026-07-18 21:23:16",
+        "type": "Airstrike",
+        "severity": "critical",
+        "title": "Why Jordan Is Becoming a New Focus in the U.S.-Iran War",
+        "description": "Four Iranian attacks in five days have targeted U.S. troops in Jordan, U.S. officials said, including one on Friday that killed two soldiers and left another service member missing.",
+        "fatalities": "0",
+        "link": "https://www.nytimes.com/2026/07/18/world/middleeast/iran-war-jordan-attacks.html",
+        "critical": true
+    },
+    {
         "country": "Iran",
         "city": "Tehran",
         "lat": 35.75260053016442,
@@ -224,18 +252,18 @@
         "critical": true
     },
     {
-        "country": "Iran",
-        "city": "Tehran",
-        "lat": 35.69163098319504,
-        "lon": 51.351705375178504,
+        "country": "Ukraine",
+        "city": "Kyiv",
+        "lat": 50.43661554155615,
+        "lon": 30.483150578005176,
         "date": "2026-07-18 19:35:47",
-        "type": "Airstrike",
-        "severity": "critical",
-        "title": "Deaths of 2 U.S. Troops in Jordan Brings American Toll in the War With Iran to 16",
-        "description": "President Trump has vowed to avenge the deaths of any U.S. military personnel, and retaliatory strikes are almost certain.",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Ukraine’s Top General Becomes a Target of Protesters’ Anger",
+        "description": "Demonstrators supporting Ukraine’s ousted defense minister have begun denouncing the commander he clashed with in office, Gen. Oleksandr Syrskyi.",
         "fatalities": "0",
-        "link": "https://www.nytimes.com/2026/07/18/world/middleeast/us-troops-killed-iran-war-jordan.html",
-        "critical": true
+        "link": "https://www.nytimes.com/2026/07/18/world/europe/ukraine-protests-general-syrskyi-fedorov.html",
+        "critical": false
     },
     {
         "country": "Iran",
@@ -252,18 +280,18 @@
         "critical": true
     },
     {
-        "country": "Ukraine",
-        "city": "Kyiv",
-        "lat": 50.43661554155615,
-        "lon": 30.483150578005176,
+        "country": "Iran",
+        "city": "Tehran",
+        "lat": 35.69163098319504,
+        "lon": 51.351705375178504,
         "date": "2026-07-18 19:35:47",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Ukraine’s Top General Becomes a Target of Protesters’ Anger",
-        "description": "Demonstrators supporting Ukraine’s ousted defense minister have begun denouncing the commander he clashed with in office, Gen. Oleksandr Syrskyi.",
+        "type": "Airstrike",
+        "severity": "critical",
+        "title": "Deaths of 2 U.S. Troops in Jordan Brings American Toll in the War With Iran to 16",
+        "description": "President Trump has vowed to avenge the deaths of any U.S. military personnel, and retaliatory strikes are almost certain.",
         "fatalities": "0",
-        "link": "https://www.nytimes.com/2026/07/18/world/europe/ukraine-protests-general-syrskyi-fedorov.html",
-        "critical": false
+        "link": "https://www.nytimes.com/2026/07/18/world/middleeast/us-troops-killed-iran-war-jordan.html",
+        "critical": true
     },
     {
         "country": "Asia",
@@ -3035,34 +3063,6 @@
         "description": "President Trump alleged Thursday that U.S. intelligence agencies covered up information about alleged Chinese efforts to influence the 2020 U.S. election.Why it matters: The document release is likely to renew scrutiny of Trump's claims about foreign interference in the U.S. election and the government's past intelligence assessments.The documents release allege that foreign adversaries — including Russia, China and Iran — were viewed as real thr",
         "fatalities": "0",
         "link": "https://www.axios.com/2026/07/17/trump-china-us-election-interference-documents",
-        "critical": false
-    },
-    {
-        "country": "China",
-        "city": "Beijing",
-        "lat": 39.90571969247208,
-        "lon": 116.44804662801862,
-        "date": "2026-07-17 04:20:58",
-        "type": "Clashes",
-        "severity": "middle",
-        "title": "Trump alleges vast conspiracy to commit and cover up election fraud",
-        "description": "President Trump alleged during a White House address Thursday that China interfered in the 2020 election and that U.S. intelligence agencies covered it up.Why it matters: Trump is reopening a politically charged debate over China's role in the 2020 election while directly challenging U.S. intelligence assessments that concluded Beijing did not try to influence the election's outcome.Driving the news: During his address, Trump said the White House",
-        "fatalities": "0",
-        "link": "https://www.axios.com/2026/07/17/trump-china-election-interference-us-intelligence-claim",
-        "critical": false
-    },
-    {
-        "country": "USA",
-        "city": "Pentagon",
-        "lat": 38.83558353821209,
-        "lon": -77.09778010388172,
-        "date": "2026-07-17 04:20:58",
-        "type": "Clashes",
-        "severity": "middle",
-        "title": "Mike Johnson's government funding gambit",
-        "description": "House Speaker Mike Johnson (R-La.) wants to hold a conspicuously early vote on a short-term funding bill next week — more than two months before the government runs out of money.Why it matters: Johnson may be setting himself up to win in September by losing in July.A failed vote on a short-term spending stopgap could potentially strengthen the GOP leader's hand in another difficult challenge: securing $67 billion for the Pentagon to replenish its",
-        "fatalities": "0",
-        "link": "https://www.axios.com/2026/07/16/reconciliation-government-funding-republicans-mike-johnson",
         "critical": false
     }
 ]
