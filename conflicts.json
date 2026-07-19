@@ -1,5 +1,33 @@
 [
     {
+        "country": "Europe",
+        "city": "Berlin",
+        "lat": 48.88328681185148,
+        "lon": 2.3343240529512603,
+        "date": "2026-07-19 17:40:56",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "BZ: фон дер Ляйен проигнорировала скандал с увольнением Фёдорова",
+        "description": "Глава Еврокомиссии Урсула фон дер Ляйен во время визита в Киев проигнорировала скандал с отставкой главы Минобороны Украины Михаила Фёдорова. Об этом пишет Berliner Zeiting. Читать далее",
+        "fatalities": "0",
+        "link": "https://russian.rt.com/world/news/1658841-fon-der-lyaien-fyodorov?utm_source=rss&utm_medium=rss&utm_campaign=RSS",
+        "critical": false
+    },
+    {
+        "country": "Europe",
+        "city": "Brussels",
+        "lat": 50.86499445578691,
+        "lon": 4.320337738274119,
+        "date": "2026-07-19 17:40:24",
+        "type": "Clashes",
+        "severity": "middle",
+        "title": "The U.S. Is Sending More Warplanes to the Middle East, Officials Say",
+        "description": "F-16 and F-35 jets were en route to the region from Europe, according to U.S. officials who were not authorized to speak publicly.",
+        "fatalities": "0",
+        "link": "https://www.nytimes.com/2026/07/19/world/middleeast/us-warplanes-mideast-iran.html",
+        "critical": false
+    },
+    {
         "country": "USA",
         "city": "New york",
         "lat": 40.73794864285887,
@@ -3035,34 +3063,6 @@
         "description": "Donald Trump has revived his long-running claims that the US election in 2020 was \"fabricated\". In a primetime address he accused China of what he called the \"largest election data breach in history\" and has released documents that he says reveal foreign interference. But intelligence officials say there is no evidence that foreign actors changed the outcome of the election.",
         "fatalities": "0",
         "link": "https://www.france24.com/en/trump-targets-china-and-russia-with-baseless-claims-of-election-interference",
-        "critical": false
-    },
-    {
-        "country": "China",
-        "city": "Beijing",
-        "lat": 39.97029272554687,
-        "lon": 116.41644399527063,
-        "date": "2026-07-17 15:18:04",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "China’s Xi Jinping launches new AI alliance: What is it?",
-        "description": "Beijing is likely to use the WAICO alliance to influence global AI regulations, analysts say.",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/news/2026/7/17/chinas-xi-jinping-launches-new-ai-alliance-what-is-it?traffic_source=rss",
-        "critical": false
-    },
-    {
-        "country": "China",
-        "city": "Beijing",
-        "lat": 39.94006766571577,
-        "lon": 116.3646833943075,
-        "date": "2026-07-17 15:18:00",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Beijing Rejects Trump’s Claim of Meddling, but Avoids a Fight",
-        "description": "Chinese officials called the election-meddling accusation baseless, while analysts said Beijing was trying to preserve a fragile détente.",
-        "fatalities": "0",
-        "link": "https://www.nytimes.com/2026/07/17/world/asia/china-trump-meddling-election.html",
         "critical": false
     }
 ]
