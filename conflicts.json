@@ -1,5 +1,33 @@
 [
     {
+        "country": "Iran",
+        "city": "Tehran",
+        "lat": 35.692873995679356,
+        "lon": 51.3303698583874,
+        "date": "2026-07-19 11:58:25",
+        "type": "Airstrike",
+        "severity": "critical",
+        "title": "Iranians suffer from power blackouts during war and heatwave",
+        "description": "Collapsing grid, battered by military strikes and chronic underinvestment, leaves Iranians sweltering in the dark.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/news/2026/7/19/iranians-suffer-from-power-blackouts-during-war-and-heatwave?traffic_source=rss",
+        "critical": true
+    },
+    {
+        "country": "Ukraine",
+        "city": "Kyiv",
+        "lat": 50.509968968802255,
+        "lon": 30.530010989935455,
+        "date": "2026-07-19 11:58:23",
+        "type": "Airstrike",
+        "severity": "critical",
+        "title": "Russia launches major ballistic missile attack on Ukrainian cities",
+        "description": "Four people are killed and at least 36 injured as Ukraine's two largest cities are targeted, as Kyiv continues its own assault on Russian infrastructure.",
+        "fatalities": "0",
+        "link": "https://www.bbc.co.uk/news/articles/c2el7xpnzrpo?at_medium=RSS&at_campaign=rss",
+        "critical": true
+    },
+    {
         "country": "USA",
         "city": "New york",
         "lat": 40.681853409795345,
@@ -3035,34 +3063,6 @@
         "description": "Политический кризис на Украине после отставки правительства стал самым серьёзным с 2024 года. Об этом пишет газета The New York Times. Читать далее",
         "fatalities": "0",
         "link": "https://russian.rt.com/ussr/news/1657936-ukraina-politicheskiy-krizis?utm_source=rss&utm_medium=rss&utm_campaign=RSS",
-        "critical": false
-    },
-    {
-        "country": "USA",
-        "city": "Washington",
-        "lat": 38.86004539467347,
-        "lon": -76.98402474923182,
-        "date": "2026-07-17 10:48:43",
-        "type": "Naval",
-        "severity": "normal",
-        "title": "China just erased America's AI lead",
-        "description": "America's commanding lead in advanced AI is gone.A Chinese moonshot — literally and figuratively — has caught up to models that defined the U.S. frontier just weeks ago, at a substantially lower price.Why it matters: Kimi K3, a massive new model by Beijing-based Moonshot AI, threatens the foundations of America's AI boom. Its release Thursday dazzled developers, jolted Silicon Valley and reset the AI race overnight.Driving the news: Kimi immediat",
-        "fatalities": "0",
-        "link": "https://www.axios.com/2026/07/17/china-ai-kimi-k3-open-source-anthropic-opus",
-        "critical": false
-    },
-    {
-        "country": "USA",
-        "city": "New york",
-        "lat": 40.677593637951404,
-        "lon": -73.96910532642747,
-        "date": "2026-07-17 10:48:43",
-        "type": "Clashes",
-        "severity": "middle",
-        "title": "Pro-AI super PAC keeps $31M ready for the midterms",
-        "description": "With millions of dollars sitting in AI super PAC accounts, the industry's influence in the midterms is on track to expand.Why it matters: AI groups have already become major players in congressional races, but the latest Federal Election Commission filings suggest that the biggest spending may lie ahead.Candidates are not definitively winning or losing on the AI issue alone so far. But with millions of dollars still available, AI groups are posit",
-        "fatalities": "0",
-        "link": "https://www.axios.com/2026/07/17/pro-ai-super-pac-ready-midterms",
         "critical": false
     }
 ]
