@@ -1,5 +1,47 @@
 [
     {
+        "country": "Israel",
+        "city": "Tel Aviv",
+        "lat": 32.02440580437859,
+        "lon": 34.8253209014156,
+        "date": "2026-07-19 18:41:15",
+        "type": "Airstrike",
+        "severity": "critical",
+        "title": "Israel says Iran missile towards Jordan's Aqaba intercepted",
+        "description": "Israeli and Jordanian forces on Sunday intercepted an Iranian missile aimed at the Jordanian city of Aqaba,  the Israeli military said. Reporting from Israel, FRANCE 24's Noga Tarnopolsky explains that Israel was hit by sharpnel from the interception. While no one was injured, there was a \"sense in Israel that the war is escalating\".",
+        "fatalities": "0",
+        "link": "https://www.france24.com/en/israel-says-iran-missile-towards-jordan-s-aqaba-intercepted",
+        "critical": true
+    },
+    {
+        "country": "Europe",
+        "city": "Brussels",
+        "lat": 50.95071629709549,
+        "lon": 4.398030305899413,
+        "date": "2026-07-19 18:41:15",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Spain-Argentina live: Defending champions face European powerhouse for the crown",
+        "description": "Spain and Argentina meet in the World Cup final at the MetLife Stadium in New Jersey, with both nations seeking to etch their names in football history. The European champions face the defending world champions in a clash of styles, experience, and ambition as the tournament's ultimate prize hangs in the balance. Follow our liveblog for minute-by-minute commentary.",
+        "fatalities": "0",
+        "link": "https://www.france24.com/en/sport/20260719-spain-argentina-live-defending-champions-face-european-powerhouse-for-the-crown",
+        "critical": false
+    },
+    {
+        "country": "Israel",
+        "city": "Tel Aviv",
+        "lat": 32.11124650581681,
+        "lon": 34.83846030975336,
+        "date": "2026-07-19 18:41:09",
+        "type": "Clashes",
+        "severity": "middle",
+        "title": "Israel watches tensely as the fighting between U.S. and Iran escalates.",
+        "description": "",
+        "fatalities": "0",
+        "link": "https://www.nytimes.com/live/2026/07/19/world/iran-war-strikes-trump-hormuz/israel-watches-tensely-as-the-fighting-between-us-and-iran-escalates",
+        "critical": false
+    },
+    {
         "country": "Europe",
         "city": "Berlin",
         "lat": 48.88328681185148,
@@ -3021,48 +3063,6 @@
         "description": "In this edition: how Belgium is leading the way in treating survivors of sexual violence by offering a one-stop centre which provides them with access to medical, psychological and police support. Also, as South Korea is wrestling with a fertility crisis a group of monks at a local monastery are doing their bit to revive romance among the young. Plus, we meet Yoa, a rising star of French music who has turned personal pain into powerful songs – an",
         "fatalities": "0",
         "link": "https://www.france24.com/en/tv-shows/the-51/20260717-new-approach-for-survivors-of-sexual-violence",
-        "critical": false
-    },
-    {
-        "country": "China",
-        "city": "Beijing",
-        "lat": 39.970007657026564,
-        "lon": 116.3298747924249,
-        "date": "2026-07-17 15:18:11",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Family of detained US scientist breaks silence after quiet diplomacy stalls",
-        "description": "On this edition of Access Asia, we speak to a former FBI official helping Youlin Chen's family. The 54-year-old American scientist has been detained on espionage charges in China since November 2024, when he was visiting relatives in Beijing. His family has chosen to speak out after quiet diplomacy failed to secure his release.",
-        "fatalities": "0",
-        "link": "https://www.france24.com/en/tv-shows/access-asia/20260717-family-of-detained-us-scientist-breaks-silence-after-quiet-diplomacy-stalls",
-        "critical": false
-    },
-    {
-        "country": "Asia",
-        "city": "Multan",
-        "lat": 30.175897029603547,
-        "lon": 71.5352066980426,
-        "date": "2026-07-17 15:18:11",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "A bridge too far? New Venice mayor defends US ambassador superyacht road trip along Italy coastline",
-        "description": "François Picard is pleased to welcome Venice's new mayor, Simone Venturini, just one month into office, He offers a unique governing philosophy rooted in balancing contradictions rather than embracing absolutes. His central argument is that Venice cannot be understood merely as an open-air museum threatened by mass tourism, nor simply as a global cultural icon. Instead, he portrays it as a living, breathing city that must simultaneously preserve ",
-        "fatalities": "0",
-        "link": "https://www.france24.com/en/tv-shows/spotlight/20260717-europe-bought-gas-oil-from-russia-venice-mayor-sees-contradiction-in-biennale-funding-freeze",
-        "critical": false
-    },
-    {
-        "country": "Russia",
-        "city": "Moscow",
-        "lat": 55.788279293744296,
-        "lon": 37.61709155044446,
-        "date": "2026-07-17 15:18:09",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Trump targets China and Russia with baseless claims of election interference",
-        "description": "Donald Trump has revived his long-running claims that the US election in 2020 was \"fabricated\". In a primetime address he accused China of what he called the \"largest election data breach in history\" and has released documents that he says reveal foreign interference. But intelligence officials say there is no evidence that foreign actors changed the outcome of the election.",
-        "fatalities": "0",
-        "link": "https://www.france24.com/en/trump-targets-china-and-russia-with-baseless-claims-of-election-interference",
         "critical": false
     }
 ]
