@@ -1,6 +1,48 @@
 [
     {
         "country": "USA",
+        "city": "Washington",
+        "lat": 38.88735791263379,
+        "lon": -77.02563778675403,
+        "date": "2026-07-21 07:12:03",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Разведка США усомнилась, что нынешние удары по Ирану смогут изменить его позицию",
+        "description": "Американская разведка пришла к выводам, что при нынешней интенсивности бомбардировок Ирана со стороны США в Вашингтоне не стоит рассчитывать на перелом в переговорах с Тегераном, сообщает The Washington Post со ссылкой на источники.\"По словам действующих и бывших чиновников США, ознакомившихся с разведывательной оценкой ситуации, иранское правительство вряд ли ощутит значимый эффект или смягчит позицию на переговорах по итогам американских ударов",
+        "fatalities": "0",
+        "link": "https://www.interfax.ru/world/1104501",
+        "critical": false
+    },
+    {
+        "country": "Israel",
+        "city": "Tel Aviv",
+        "lat": 32.14255104354358,
+        "lon": 34.73072896803545,
+        "date": "2026-07-21 07:11:42",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "‘Critic to Israel’: Document reveals how Israel scrutinised global NGOs",
+        "description": "An internal government file obtained by Al Jazeera shows how Israel collected data on groups it suspected supported BDS.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/news/2026/7/21/critic-to-israel-document-reveals-how-israel-scrutinised-global-ngos?traffic_source=rss",
+        "critical": false
+    },
+    {
+        "country": "Israel",
+        "city": "Gaza",
+        "lat": 31.540687410499597,
+        "lon": 34.40370994598668,
+        "date": "2026-07-21 07:11:42",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "‘We just want to live’: Palestinians in Gaza react to Hamas election",
+        "description": "There are mixed reactions in Gaza after Khalil al-Hayya is elected Hamas leader.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/news/2026/7/21/we-just-want-to-live-palestinians-in-gaza-react-to-hamas-election?traffic_source=rss",
+        "critical": false
+    },
+    {
+        "country": "USA",
         "city": "New york",
         "lat": 40.708982720078424,
         "lon": -73.9803346197901,
@@ -3022,47 +3064,5 @@
         "fatalities": "0",
         "link": "https://www.aljazeera.com/news/2026/7/19/from-settlements-to-blocked-recovery-israeli-strategy-taking-shape-in-gaza?traffic_source=rss",
         "critical": false
-    },
-    {
-        "country": "Ukraine",
-        "city": "Kyiv",
-        "lat": 50.46983923941256,
-        "lon": 30.496806265428233,
-        "date": "2026-07-19 09:20:25",
-        "type": "Airstrike",
-        "severity": "critical",
-        "title": "Russia launches major ballistic missile attack on Kyiv",
-        "description": "One death is reported in what President Zelensky calls \"one of the most massive ballistic attacks\" on Ukraine's capital.",
-        "fatalities": "0",
-        "link": "https://www.bbc.co.uk/news/articles/c2el7xpnzrpo?at_medium=RSS&at_campaign=rss",
-        "critical": true
-    },
-    {
-        "country": "Asia",
-        "city": "Host",
-        "lat": 33.39272766594289,
-        "lon": 69.87594453992816,
-        "date": "2026-07-19 09:20:23",
-        "type": "Airstrike",
-        "severity": "critical",
-        "title": "U.S. Launches Strikes After Iranian Attack Kills 2 American Soldiers",
-        "description": "The soldiers, killed in Jordan, were the first U.S. troops to die from hostile fire since an April truce. U.S. forces began retaliatory strikes early Sunday.",
-        "fatalities": "0",
-        "link": "https://www.nytimes.com/live/2026/07/18/world/iran-war-strikes-trump-hormuz",
-        "critical": true
-    },
-    {
-        "country": "Ukraine",
-        "city": "Kyiv",
-        "lat": 50.490337910716974,
-        "lon": 30.516630619207746,
-        "date": "2026-07-19 07:12:18",
-        "type": "Airstrike",
-        "severity": "critical",
-        "title": "Russia launches deadly strikes on Kyiv after attack on Moscow warehouses",
-        "description": "Russia launched strikes at Kyiv on Sunday that killed one person and wounded several one day after a deadly Ukrainian drone attack hit e-commerce warehouses near Moscow.",
-        "fatalities": "0",
-        "link": "https://www.france24.com/en/europe/20260719-russia-launches-deadly-strikes-on-kyiv-after-attack-on-moscow-warehouses",
-        "critical": true
     }
 ]
