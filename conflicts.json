@@ -1,5 +1,47 @@
 [
     {
+        "country": "USA",
+        "city": "New york",
+        "lat": 40.71340336251501,
+        "lon": -73.9771201028091,
+        "date": "2026-07-21 23:09:42",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "NYP: Трамп хочет, чтобы глава ФИФА Инфантино стал следующим генсеком ООН",
+        "description": "Президент США Дональд Трамп предложил сделать следующим генсеком ООН главу Международной федерации футбола (ФИФА) Джанни Инфантино. Об этом пишет газета New York Post.",
+        "fatalities": "0",
+        "link": "https://rg.ru/2026/07/22/nyp-tramp-hochet-chtoby-glava-fifa-infantino-stal-sleduiushchim-gensekom-oon.html",
+        "critical": false
+    },
+    {
+        "country": "Europe",
+        "city": "Brussels",
+        "lat": 50.845938855672784,
+        "lon": 4.330098272381772,
+        "date": "2026-07-21 23:09:08",
+        "type": "Naval",
+        "severity": "normal",
+        "title": "Moldova chooses new prime minister as it pushes for EU membership",
+        "description": "Political newcomer Vasile Tofan inherits Moldovas push to join the European Union by 2030.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/news/2026/7/21/moldova-chooses-new-prime-minister-as-it-pushes-for-eu-membership?traffic_source=rss",
+        "critical": false
+    },
+    {
+        "country": "Ukraine",
+        "city": "Kyiv",
+        "lat": 50.49151152991483,
+        "lon": 30.561258192504692,
+        "date": "2026-07-21 23:09:08",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Zelenskyy replaces Ukraine military chief after protests",
+        "description": "Replaced military chief Syrskyi clashed with former Defence Minister Fedorov, whose removal last week led to protests.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/news/2026/7/21/zelenskyy-replaces-ukraine-military-chief-after-protests?traffic_source=rss",
+        "critical": false
+    },
+    {
         "country": "Israel",
         "city": "Jerusalem",
         "lat": 31.83773654804023,
@@ -3022,47 +3064,5 @@
         "fatalities": "0",
         "link": "https://www.france24.com/en/war-in-iran-expands-as-third-us-soldier-killed-since-end-of-ceasefire",
         "critical": false
-    },
-    {
-        "country": "Russia",
-        "city": "Moscow",
-        "lat": 55.7040794674294,
-        "lon": 37.59658752888715,
-        "date": "2026-07-20 10:24:56",
-        "type": "Airstrike",
-        "severity": "critical",
-        "title": "Ukraine drone attack on Moscow region wounds 10 people",
-        "description": "A fresh Ukrainian drone attack on the Moscow region Monday night wounded at least 10 people, including a child, Russian authorities said, with Ukrainian President Volodymyr Zelensky saying the strikes had targeted an oil depot and \"logistics facilities\".",
-        "fatalities": "0",
-        "link": "https://www.france24.com/en/europe/20260720-ukraine-drone-attack-on-moscow-region-wounds-10-people",
-        "critical": true
-    },
-    {
-        "country": "Iran",
-        "city": "Tehran",
-        "lat": 35.751466206525016,
-        "lon": 51.404067712153775,
-        "date": "2026-07-20 10:24:56",
-        "type": "Airstrike",
-        "severity": "critical",
-        "title": "🔴Middle East live: Kuwait says intercepting Iran drone attacks as explosions heard in Bahrain",
-        "description": "",
-        "fatalities": "0",
-        "link": "https://www.france24.com/en/middle-east/20260719-middle-east-live-us-launches-strikes-to-punish-iran-after-troops-killed",
-        "critical": true
-    },
-    {
-        "country": "Iran",
-        "city": "Tehran",
-        "lat": 35.70215953879469,
-        "lon": 51.416682562183716,
-        "date": "2026-07-20 10:24:54",
-        "type": "Airstrike",
-        "severity": "critical",
-        "title": "What does Iran’s attack on Kuwait infrastructure mean for Gulf?",
-        "description": "What does Iran’s attack on Kuwait infrastructure mean for Gulf?",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/video/newsfeed/2026/7/20/what-does-irans-attack-on-kuwait-infrastructure-mean-for-gulf?traffic_source=rss",
-        "critical": true
     }
 ]
