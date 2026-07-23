@@ -1,5 +1,47 @@
 [
     {
+        "country": "Iran",
+        "city": "Tehran",
+        "lat": 35.69498534541042,
+        "lon": 51.37857613729238,
+        "date": "2026-07-23 23:15:09",
+        "type": "Clashes",
+        "severity": "middle",
+        "title": "House GOP's parting message for Senate on reconciliation",
+        "description": "House GOP leaders are turning up the heat on Senate Republicans, calling on them to move quickly on the House's $95 billion reconciliation package despite resistance from Majority Leader John Thune (R-S.D.).Why it matters: Before they split town, House leaders left some instructions for their Senate colleagues.\"The Senate needs to move on reconciliation before November, and I think the pressure from the American people is going to be unbearable i",
+        "fatalities": "0",
+        "link": "https://www.axios.com/2026/07/23/house-senate-republicans-reconciliation-save-act",
+        "critical": false
+    },
+    {
+        "country": "Europe",
+        "city": "Bulgaria",
+        "lat": 42.65746106713266,
+        "lon": 23.377068262995785,
+        "date": "2026-07-23 23:15:05",
+        "type": "Clashes",
+        "severity": "middle",
+        "title": "Unfazed by Iran’s threats, Bulgaria moves to aid U.S. military operations",
+        "description": "A Bulgarian parliamentary committee has approved a U.S. request to let American forces use a local air base to support the U.S. war against Iran.",
+        "fatalities": "0",
+        "link": "https://www.defensenews.com/global/europe/2026/07/22/unfazed-by-irans-threats-bulgaria-moves-to-aid-us-military-operations/",
+        "critical": false
+    },
+    {
+        "country": "Israel",
+        "city": "Tel Aviv",
+        "lat": 32.128085024604175,
+        "lon": 34.781582133579384,
+        "date": "2026-07-23 23:14:53",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Arab and Muslim countries condemn Israeli storming of Al-Aqsa Mosque",
+        "description": "Israeli settlers storming of Islams holy site fuels hatred and obstructs lasting peace, joint statement says.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/news/2026/7/23/arab-and-muslim-countries-condemn-israeli-escalation-at-al-aqsa-mosque?traffic_source=rss",
+        "critical": false
+    },
+    {
         "country": "USA",
         "city": "Washington",
         "lat": 38.9011010413152,
@@ -3021,48 +3063,6 @@
         "description": "About 6 million barrels of crude per day that pass through the strait to Asia are now at risk, experts say.",
         "fatalities": "0",
         "link": "https://www.aljazeera.com/news/2026/7/22/can-the-suez-save-asian-oil-consumers-after-houthis-shut-bab-al-mandeb?traffic_source=rss",
-        "critical": false
-    },
-    {
-        "country": "Russia",
-        "city": "Moscow",
-        "lat": 55.70925552575705,
-        "lon": 37.57026840284618,
-        "date": "2026-07-22 14:33:55",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "After Decades of Caution, Germany Is Shaking Up How It Makes Weapons",
-        "description": "As threats from Moscow rise and support from Washington dwindles, the German military is reinventing how it researches, funds and wields 21st-century arms.",
-        "fatalities": "0",
-        "link": "https://www.nytimes.com/2026/07/22/world/europe/germany-rearmament-innovation-reinvention-arms.html",
-        "critical": false
-    },
-    {
-        "country": "Israel",
-        "city": "Tel Aviv",
-        "lat": 32.07237785052408,
-        "lon": 34.82388254615297,
-        "date": "2026-07-22 14:33:55",
-        "type": "Nuclear",
-        "severity": "critical",
-        "title": "US to announce deal allowing Saudi Arabia a nuclear programme, reports say",
-        "description": "The agreement would fulfil a long-held Saudi ambition but could attract concern in Israel and from some US lawmakers.",
-        "fatalities": "0",
-        "link": "https://www.bbc.co.uk/news/articles/cj03r59z73po?at_medium=RSS&at_campaign=rss",
-        "critical": true
-    },
-    {
-        "country": "USA",
-        "city": "Washington",
-        "lat": 38.87411269191638,
-        "lon": -77.04901100619713,
-        "date": "2026-07-22 14:33:53",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "A Mexican Town Was Known for Lettuce. Now It’s Because of Cyclospora.",
-        "description": "In central Mexico, a lettuce-growing region has been potentially linked to an outbreak in the U.S. that has sickened thousands.",
-        "fatalities": "0",
-        "link": "https://www.nytimes.com/2026/07/22/world/americas/cyclospora-lettuce-mexico-guanajuato.html",
         "critical": false
     }
 ]
