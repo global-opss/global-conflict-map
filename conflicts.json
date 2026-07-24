@@ -1,5 +1,61 @@
 [
     {
+        "country": "Middle East",
+        "city": "Red sea",
+        "lat": 27.264346925135502,
+        "lon": 33.8202400820172,
+        "date": "2026-07-24 00:13:49",
+        "type": "Naval",
+        "severity": "normal",
+        "title": "Trump threatens Iran and Houthi rebels with 'major military punishment'",
+        "description": "Iran and the United States threatened to intensify attacks on Thursday after Yemen's Houthi rebels struck Saudi oil tankers in the Red Sea, driving Brent crude above $100 a barrel and fuelling fears of a widening regional conflict and renewed pressure on the global economy.",
+        "fatalities": "0",
+        "link": "https://www.france24.com/en/middle-east/20260723-trump-threatens-iran-and-houthi-rebels-with-major-military-punishment",
+        "critical": false
+    },
+    {
+        "country": "Middle East",
+        "city": "Red sea",
+        "lat": 27.22943406748982,
+        "lon": 33.86050196178451,
+        "date": "2026-07-24 00:13:43",
+        "type": "Naval",
+        "severity": "normal",
+        "title": "How the Houthi Red Sea blockade will impact the world",
+        "description": "The Houthis blockade of Bab al-Mandeb threatens a vital global trade route.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/video/newsfeed/2026/7/23/how-the-houthi-red-sea-blockade-will-impact-the-world?traffic_source=rss",
+        "critical": false
+    },
+    {
+        "country": "Israel",
+        "city": "Gaza",
+        "lat": 31.473972034563538,
+        "lon": 34.46351951813294,
+        "date": "2026-07-24 00:13:41",
+        "type": "Airstrike",
+        "severity": "critical",
+        "title": "Two Palestinians killed as Israel intensifies strikes on Gaza City",
+        "description": "Two Palestinians were killed and several others injured in a new wave of Israeli airstrikes on Gaza City.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/video/newsfeed/2026/7/23/two-palestinians-killed-as-israel-intensifies-strikes-on-gaza-city?traffic_source=rss",
+        "critical": true
+    },
+    {
+        "country": "Iran",
+        "city": "Tehran",
+        "lat": 35.64044720487433,
+        "lon": 51.45130566346853,
+        "date": "2026-07-24 00:13:35",
+        "type": "Airstrike",
+        "severity": "critical",
+        "title": "Iran War Live Updates: Iran Rejected a U.S. Cease-Fire Offer Delivered by Iraq, Officials Say",
+        "description": "The prime minister of Iraq, who recently visited the White House, carried the proposal to Tehran. The U.S. military said it had begun a 13th consecutive night of strikes on Iran in the early hours of Friday local time.",
+        "fatalities": "0",
+        "link": "https://www.nytimes.com/live/2026/07/23/world/iran-war-strikes-oil-trump",
+        "critical": true
+    },
+    {
         "country": "Iran",
         "city": "Tehran",
         "lat": 35.69498534541042,
@@ -770,20 +826,6 @@
         "critical": false
     },
     {
-        "country": "Middle East",
-        "city": "Yemen",
-        "lat": 14.54013314056443,
-        "lon": 49.181093624560155,
-        "date": "2026-07-23 15:27:23",
-        "type": "Naval",
-        "severity": "normal",
-        "title": "Yemen's Houthis attack Saudi tanker as US launches more Iran strikes",
-        "description": "The Iran-backed group, which previously announced a \"maritime embargo\" against Saudi Arabia, also claims to have hit another vessel.",
-        "fatalities": "0",
-        "link": "https://www.bbc.co.uk/news/articles/cpw9xzx9r4ko?at_medium=RSS&at_campaign=rss",
-        "critical": false
-    },
-    {
         "country": "Africa",
         "city": "Khartoum",
         "lat": 15.445354313343662,
@@ -796,6 +838,20 @@
         "fatalities": "0",
         "link": "https://www.bbc.co.uk/news/articles/cp87qejzy8go?at_medium=RSS&at_campaign=rss",
         "critical": true
+    },
+    {
+        "country": "Middle East",
+        "city": "Yemen",
+        "lat": 14.54013314056443,
+        "lon": 49.181093624560155,
+        "date": "2026-07-23 15:27:23",
+        "type": "Naval",
+        "severity": "normal",
+        "title": "Yemen's Houthis attack Saudi tanker as US launches more Iran strikes",
+        "description": "The Iran-backed group, which previously announced a \"maritime embargo\" against Saudi Arabia, also claims to have hit another vessel.",
+        "fatalities": "0",
+        "link": "https://www.bbc.co.uk/news/articles/cpw9xzx9r4ko?at_medium=RSS&at_campaign=rss",
+        "critical": false
     },
     {
         "country": "Middle East",
@@ -3008,61 +3064,5 @@
         "fatalities": "0",
         "link": "https://www.aljazeera.com/news/2026/7/22/uks-miliband-streeting-what-are-their-foreign-policy-defence-records?traffic_source=rss",
         "critical": true
-    },
-    {
-        "country": "Israel",
-        "city": "Gaza",
-        "lat": 31.4572837937163,
-        "lon": 34.419744108565354,
-        "date": "2026-07-22 14:33:58",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Israeli strike leaves two Palestinians burnt beyond recognition",
-        "description": "An Israeli strike hit a civilian vehicle in central Gaza, killing two Palestinians.",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/video/newsfeed/2026/7/22/israeli-strike-leaves-two-palestinians-burnt-beyond-recognition?traffic_source=rss",
-        "critical": false
-    },
-    {
-        "country": "Iran",
-        "city": "Tehran",
-        "lat": 35.63768551477256,
-        "lon": 51.360924585147835,
-        "date": "2026-07-22 14:33:58",
-        "type": "Naval",
-        "severity": "normal",
-        "title": "US 'will target Iran's bridges and power plants' if Hormuz attacks persist",
-        "description": "Donald Trump says the US will respond any time Iranian forces shoot at a ship in the Strait of Hormuz.",
-        "fatalities": "0",
-        "link": "https://www.bbc.co.uk/news/articles/cdrv0p37k8jo?at_medium=RSS&at_campaign=rss",
-        "critical": false
-    },
-    {
-        "country": "Ukraine",
-        "city": "Kyiv",
-        "lat": 50.41018581379833,
-        "lon": 30.462112434824267,
-        "date": "2026-07-22 14:33:58",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Zelenskyy replaces Ukraine’s commander-in-chief after days of protests",
-        "description": "Zelenskyy replaces Ukraine’s commander-in-chief after days of protests",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/video/newsfeed/2026/7/22/zelenskyy-replaces-ukraines-commander-in-chief-after-days-of-protests?traffic_source=rss",
-        "critical": false
-    },
-    {
-        "country": "Asia",
-        "city": "Tokyo",
-        "lat": 35.63519135606489,
-        "lon": 139.74264224783758,
-        "date": "2026-07-22 14:33:58",
-        "type": "Naval",
-        "severity": "normal",
-        "title": "Can the Suez save Asian oil consumers after Houthis shut Bab al-Mandeb?",
-        "description": "About 6 million barrels of crude per day that pass through the strait to Asia are now at risk, experts say.",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/news/2026/7/22/can-the-suez-save-asian-oil-consumers-after-houthis-shut-bab-al-mandeb?traffic_source=rss",
-        "critical": false
     }
 ]
