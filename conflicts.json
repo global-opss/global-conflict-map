@@ -2,6 +2,34 @@
     {
         "country": "USA",
         "city": "New york",
+        "lat": 40.7540901891479,
+        "lon": -74.07313888203889,
+        "date": "2026-07-24 23:40:26",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "NYT: Европа боится зависимости от США после отказа от российского газа",
+        "description": "Оборонные и энергетические компании Европы боятся чрезмерной зависимости от США после полного отказа от российского газа, пишет The New York Times. Читать далее",
+        "fatalities": "0",
+        "link": "https://russian.rt.com/world/news/1661284-evropa-zavisimost-ssha?utm_source=rss&utm_medium=rss&utm_campaign=RSS",
+        "critical": false
+    },
+    {
+        "country": "Russia",
+        "city": "Moscow",
+        "lat": 55.74310256348762,
+        "lon": 37.645608626442524,
+        "date": "2026-07-24 23:40:06",
+        "type": "Evacuation",
+        "severity": "critical",
+        "title": "EU naval mission will now intercept Russian shadow tankers in the Indian Ocean",
+        "description": "The EU has authorized its naval mission in the Indian Ocean to stop and board Russian shadow fleet tankers suspected of operating under false flags.",
+        "fatalities": "0",
+        "link": "https://www.defensenews.com/global/europe/2026/07/23/eu-naval-mission-will-now-intercept-russian-shadow-tankers-in-the-indian-ocean/",
+        "critical": true
+    },
+    {
+        "country": "USA",
+        "city": "New york",
         "lat": 40.7475429419772,
         "lon": -74.00818398326231,
         "date": "2026-07-24 22:32:20",
@@ -3036,33 +3064,5 @@
         "fatalities": "0",
         "link": "https://www.aljazeera.com/sports/2026/7/23/cricket-no-ashes-2027-tests-to-take-place-in-the-north-of-england?traffic_source=rss",
         "critical": false
-    },
-    {
-        "country": "Israel",
-        "city": "Tel Aviv",
-        "lat": 32.0277134652254,
-        "lon": 34.79807551108406,
-        "date": "2026-07-23 13:13:24",
-        "type": "Nuclear",
-        "severity": "critical",
-        "title": "Saudis must recognise Israel for nuclear deal, says Trump",
-        "description": "The US president says the landmark agreement to help Saudis develop nuclear energy is dependent on it joining the Abraham Accords.",
-        "fatalities": "0",
-        "link": "https://www.bbc.co.uk/news/articles/cwye71yq8wwo?at_medium=RSS&at_campaign=rss",
-        "critical": true
-    },
-    {
-        "country": "USA",
-        "city": "Washington",
-        "lat": 38.828236352044236,
-        "lon": -77.08873920311596,
-        "date": "2026-07-23 13:13:24",
-        "type": "Nuclear",
-        "severity": "critical",
-        "title": "U.S.-Saudi Deal Prompts Fears of a Global Nuclear Arms Race",
-        "description": "In Europe, Asia and the Middle East, countries seek nuclear capabilities to hedge against aggressive neighbors and a receding Washington, potentially creating a more freewheeling era.",
-        "fatalities": "0",
-        "link": "https://www.nytimes.com/2026/07/23/world/europe/us-saudi-deal-nuclear-hedging.html",
-        "critical": true
     }
 ]
