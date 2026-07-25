@@ -1,5 +1,47 @@
 [
     {
+        "country": "Middle East",
+        "city": "Beirut",
+        "lat": 33.9401098362639,
+        "lon": 35.4743197511408,
+        "date": "2026-07-25 19:55:23",
+        "type": "Clashes",
+        "severity": "middle",
+        "title": "War in the Middle East: Deadly violence mounts in the West Bank",
+        "description": "Nomi Bar-Yaacov, renowned international negotiator, arbitrator and mediator, is our guest.",
+        "fatalities": "0",
+        "link": "https://www.france24.com/en/war-in-the-middle-east-deadly-violence-mounts-in-west-bank",
+        "critical": false
+    },
+    {
+        "country": "Europe",
+        "city": "Brussels",
+        "lat": 50.842236898678195,
+        "lon": 4.301801157810201,
+        "date": "2026-07-25 19:55:23",
+        "type": "Clashes",
+        "severity": "middle",
+        "title": "Pesticides, cadmium, PFAS: France reckons with the hidden toxins in food (1/2)",
+        "description": "Concern over pesticides, PFAS “forever chemicals”, cadmium and other contaminants has been on the rise since a March report revealed French residents are up to four times more likely to register unsafe levels of cadmium than their European counterparts. For many, reducing exposure to these chemicals has become a priority – but also a source of anxiety. We spoke to two women campaigning to raise awareness of toxins in food.",
+        "fatalities": "0",
+        "link": "https://www.france24.com/en/france/20260725-pesticides-cadmium-pfas-france-reckons-with-the-hidden-toxins-in-food-1-3",
+        "critical": false
+    },
+    {
+        "country": "Israel",
+        "city": "Tel Aviv",
+        "lat": 32.13823479685587,
+        "lon": 34.84506542348453,
+        "date": "2026-07-25 19:55:20",
+        "type": "Clashes",
+        "severity": "middle",
+        "title": "How Netanyahu gov’t media reforms risk deepening Israeli press bias",
+        "description": "Critics decry Israels sweeping media reforms, warning of further risks to press freedom and election integrity.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/news/2026/7/25/how-netanyahu-govt-media-reforms-risk-deepening-israeli-press-bias?traffic_source=rss",
+        "critical": false
+    },
+    {
         "country": "USA",
         "city": "Washington",
         "lat": 38.89158462064809,
@@ -3021,48 +3063,6 @@
         "description": "The 12 Democratic senators on the Armed Services Committee said Defense Secretary Pete Hegseth’s department had not provided “timely and comprehensive” reporting on casualties during the war.",
         "fatalities": "0",
         "link": "https://www.nytimes.com/2026/07/23/world/middleeast/iran-war-us-troops-hegseth-casualties.html",
-        "critical": false
-    },
-    {
-        "country": "USA",
-        "city": "Washington",
-        "lat": 38.84401526600944,
-        "lon": -76.96714649030235,
-        "date": "2026-07-23 19:51:23",
-        "type": "Clashes",
-        "severity": "middle",
-        "title": "Investors want a bigger reward for lending money",
-        "description": "Data: Federal Reserve Bank of St. Louis, U.S. Treasury Department; Chart: Courtenay Brown/AxiosThe relentless run-up in Treasury yields reflects the globe's new economic reality: It takes a much richer reward to persuade investors to lend their money, especially for the longer run.Why it matters: Unlike previous bond sell-offs driven by inflation fears, this one reflects a world in which governments and companies are scrambling for enormous amoun",
-        "fatalities": "0",
-        "link": "https://www.axios.com/2026/07/23/rates-treasury-yields-borrowing",
-        "critical": false
-    },
-    {
-        "country": "Israel",
-        "city": "Gaza",
-        "lat": 31.44983159294014,
-        "lon": 34.50021787172239,
-        "date": "2026-07-23 19:51:11",
-        "type": "Nuclear",
-        "severity": "critical",
-        "title": "Trump stuns Saudis by pinning nuclear deal to Israel ties",
-        "description": "US President Donald Trump said Thursday that a nuclear deal with Saudi Arabia depends on the kingdom recognizing Israel -- throwing the agreement into turmoil just the day after it was signed. Riyadh has long resisted joining the so-called Abraham Accords with Israel, insisting especially after the Gaza conflict on a pathway to a Palestinian state. FRANCE 24's Emerald Maxwell reports.",
-        "fatalities": "0",
-        "link": "https://www.france24.com/en/trump-stuns-saudis-by-pinning-nuclear-deal-to-israel-ties",
-        "critical": true
-    },
-    {
-        "country": "Ukraine",
-        "city": "Kyiv",
-        "lat": 50.40215295116579,
-        "lon": 30.512458429073266,
-        "date": "2026-07-23 19:51:11",
-        "type": "Clashes",
-        "severity": "middle",
-        "title": "Reinstating Fedorov 'only right decision Zelensky can make', MP says",
-        "description": "Ousted Ukrainian defence minister Mykhailo Fedorov said on Thursday he would ​accept no other government position besides his former job, escalating a political crisis that has gripped Ukraine at a pivotal point in the war with Russia. Speaking with FRANCE 24's Mark Owen, Ukranian MP Liudmyla Buimister says that reinstating Fedorov \"is the only right decision that President Zelensky can make\".",
-        "fatalities": "0",
-        "link": "https://www.france24.com/en/reinstating-fedorov-only-right-decision-zelensky-can-make-mp-says",
         "critical": false
     }
 ]
