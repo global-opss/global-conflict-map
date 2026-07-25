@@ -1,5 +1,19 @@
 [
     {
+        "country": "Europe",
+        "city": "Paris",
+        "lat": 48.918730469524185,
+        "lon": 2.3751203833407075,
+        "date": "2026-07-25 15:39:36",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Atletico Madrid sign South Korea World Cup star Lee Kang-In from PSG",
+        "description": "Lee Kang-In makes the switch to Atletico after helping Paris Saint-Germain to consecutive Champions League titles.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/sports/2026/7/25/atletico-madrid-sign-south-korea-world-cup-star-lee-kang-in-from-psg?traffic_source=rss",
+        "critical": false
+    },
+    {
         "country": "USA",
         "city": "Washington",
         "lat": 38.828748380171156,
@@ -3049,20 +3063,6 @@
         "description": "Mykhailo Fedorov refuses President Zelensky's offer to accept an alternative post, as the battle of wills continues.",
         "fatalities": "0",
         "link": "https://www.bbc.co.uk/news/articles/ce97nm53pgxo?at_medium=RSS&at_campaign=rss",
-        "critical": false
-    },
-    {
-        "country": "Middle East",
-        "city": "Red sea",
-        "lat": 27.153557490229428,
-        "lon": 33.82434153823214,
-        "date": "2026-07-23 18:18:19",
-        "type": "Naval",
-        "severity": "normal",
-        "title": "Iran War Live Updates: Red Sea Turmoil Pushes Oil Past $100 a Barrel",
-        "description": "The price of Brent crude soared after Iran’s Houthi allies in Yemen claimed strikes on two Saudi tankers. The House cast a second vote to rein in President Trump’s war powers, with four Republicans joining Democrats to rebuke the president.",
-        "fatalities": "0",
-        "link": "https://www.nytimes.com/live/2026/07/23/world/iran-war-strikes-oil-trump",
         "critical": false
     }
 ]
