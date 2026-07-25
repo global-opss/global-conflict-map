@@ -1,5 +1,47 @@
 [
     {
+        "country": "Iran",
+        "city": "Tehran",
+        "lat": 35.67142894876215,
+        "lon": 51.435713817120394,
+        "date": "2026-07-25 17:38:16",
+        "type": "Naval",
+        "severity": "normal",
+        "title": "Trump ordered military not to conduct strikes in Iran Friday",
+        "description": "President Trump directed the U.S. military not to conduct new strikes in Iran on Friday, breaking a nearly two-week streak of daily attacks, two sources with knowledge of the decision said.Why it matters: The president's directive came after he approved daily strikes over the previous 13 days. It is unclear if Trump's order on Friday was a one-off or whether the lull will continue. Trump's decision reflects both his willingness to provide more sp",
+        "fatalities": "0",
+        "link": "https://www.axios.com/2026/07/25/trump-iran-war-military-directive-strikes",
+        "critical": false
+    },
+    {
+        "country": "Iran",
+        "city": "Tehran",
+        "lat": 35.6338591314144,
+        "lon": 51.34195142696034,
+        "date": "2026-07-25 17:38:08",
+        "type": "Naval",
+        "severity": "normal",
+        "title": "Iran’s government spars with state TV as mediators push talks with US",
+        "description": "Govt accuses IRIB of censorship after parts of presidents speech not aired; station rejects improper attributions.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/news/2026/7/25/irans-government-spars-with-state-tv-as-mediators-push-talks-with-us?traffic_source=rss",
+        "critical": false
+    },
+    {
+        "country": "Europe",
+        "city": "Brussels",
+        "lat": 50.86662075350279,
+        "lon": 4.3446739526587965,
+        "date": "2026-07-25 17:38:06",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Conditions for European Wildfires Created by Summer of Extremes",
+        "description": "The wildfires are scorching parts of France and Spain that had already faced usually hot and dry summers.",
+        "fatalities": "0",
+        "link": "https://www.nytimes.com/2026/07/25/world/europe/wildfires-europe-spain-france.html",
+        "critical": false
+    },
+    {
         "country": "Israel",
         "city": "Tel Aviv",
         "lat": 32.08006969707092,
@@ -3021,48 +3063,6 @@
         "description": "Yemen has proven oil reserves estimated at three billion barrels, but the security environment hinders its export.",
         "fatalities": "0",
         "link": "https://www.aljazeera.com/economy/2026/7/23/resumption-of-oil-exports-will-yemen-recover-its-economic-lifeline?traffic_source=rss",
-        "critical": false
-    },
-    {
-        "country": "Israel",
-        "city": "Tel Aviv",
-        "lat": 32.020048442590245,
-        "lon": 34.81719122679667,
-        "date": "2026-07-23 19:51:10",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Children wounded in Israeli strike on Khan Younis",
-        "description": "Children were rushed to hospital after an Israeli strike hit a tent sheltering displaced people in Khan Younis.",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/video/newsfeed/2026/7/23/children-wounded-in-israeli-strike-on-khan-younis?traffic_source=rss",
-        "critical": false
-    },
-    {
-        "country": "Iran",
-        "city": "Tehran",
-        "lat": 35.757788325477506,
-        "lon": 51.40791813009132,
-        "date": "2026-07-23 19:51:10",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Iraqi PM makes first official visit to Iran in bid to deepen ties",
-        "description": "Ali al-Zaidi will hold talks with senior Iranian officials on cooperation, shared interests and security.",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/news/2026/7/23/iraqi-pm-makes-first-official-visit-to-iran-to-deepen-ties?traffic_source=rss",
-        "critical": false
-    },
-    {
-        "country": "Africa",
-        "city": "Mali",
-        "lat": 12.624573646700807,
-        "lon": -7.990139539078675,
-        "date": "2026-07-23 19:51:06",
-        "type": "Clashes",
-        "severity": "middle",
-        "title": "Trump Throws a Potential Wrench in the Saudi Nuclear Deal He Just Inked",
-        "description": "Saudi Arabia has long said that a condition of normalizing relations with Israel would be a pathway toward Palestinian statehood, a prospect that Israel’s current government has rejected.",
-        "fatalities": "0",
-        "link": "https://www.nytimes.com/2026/07/23/world/middleeast/trump-saudi-arabia-palestinian-state.html",
         "critical": false
     }
 ]
