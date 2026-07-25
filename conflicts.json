@@ -1,5 +1,47 @@
 [
     {
+        "country": "USA",
+        "city": "Pentagon",
+        "lat": 38.872390626791905,
+        "lon": -77.1001002918578,
+        "date": "2026-07-25 11:45:30",
+        "type": "Airstrike",
+        "severity": "critical",
+        "title": "Pentagon identifies third American soldier killed in Iranian attack in Jordan",
+        "description": "Sgt. Angel S. Rampersad, 28, is believed to be the third active-duty soldier killed in action in an Iranian attack in Jordan, the DoD said.",
+        "fatalities": "0",
+        "link": "https://www.militarytimes.com/news/your-military/2026/07/21/pentagon-identifies-third-american-soldier-killed-in-iranian-attack-in-jordan/",
+        "critical": true
+    },
+    {
+        "country": "Russia",
+        "city": "Moscow",
+        "lat": 55.7968324779656,
+        "lon": 37.67791794190217,
+        "date": "2026-07-25 11:45:24",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "How Volker Turk won new UN rights chief term despite US, Israel opposition",
+        "description": "UN General Assembly votes 144-10 to grant Turk a new four-year term, despite objections from the US, Israel and Russia.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/news/2026/7/25/how-volker-turk-won-a-new-term-as-un-rights-chief-despite-israel-opposition?traffic_source=rss",
+        "critical": false
+    },
+    {
+        "country": "USA",
+        "city": "Washington",
+        "lat": 38.87154466570866,
+        "lon": -77.04569516438279,
+        "date": "2026-07-25 11:45:19",
+        "type": "Evacuation",
+        "severity": "critical",
+        "title": "What to Know About the Wildfires Raging in Western Europe",
+        "description": "Huge blazes have forced tens of thousands of residents and vacationers in France and Spain to evacuate.",
+        "fatalities": "0",
+        "link": "https://www.nytimes.com/2026/07/25/world/europe/europe-fires-france-spain-what-to-know.html",
+        "critical": true
+    },
+    {
         "country": "Iran",
         "city": "Tehran",
         "lat": 35.67331264969356,
@@ -11,6 +53,20 @@
         "description": "A video said to show an Iranian missile destroying a US B-52 bomber has garnered more than three million views on X, where it has been picked up and shared by a pro-Iranian account. However, if you look closely, you’ll see the signs that this video was actually artificially generated.",
         "fatalities": "0",
         "link": "https://www.france24.com/en/middle-east/20260725-video-iran-downing-us-b-52-bomber-debunked",
+        "critical": true
+    },
+    {
+        "country": "Israel",
+        "city": "Tel Aviv",
+        "lat": 32.01669837749881,
+        "lon": 34.76090553622454,
+        "date": "2026-07-25 10:27:11",
+        "type": "Airstrike",
+        "severity": "critical",
+        "title": "Israel arrests dozens of Palestinians in West Bank amid settler attacks",
+        "description": "Military crackdown follows a shooting that killed four Palestinians and two Israeli soldiers.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/news/2026/7/25/israel-arrests-dozens-of-palestinians-in-west-bank-amid-settler-attacks?traffic_source=rss",
         "critical": true
     },
     {
@@ -26,20 +82,6 @@
         "fatalities": "0",
         "link": "https://www.aljazeera.com/news/2026/7/25/how-volker-turk-won-a-new-term-as-un-rights-chief-despite-israel-opposition?traffic_source=rss",
         "critical": false
-    },
-    {
-        "country": "Israel",
-        "city": "Tel Aviv",
-        "lat": 32.01669837749881,
-        "lon": 34.76090553622454,
-        "date": "2026-07-25 10:27:11",
-        "type": "Airstrike",
-        "severity": "critical",
-        "title": "Israel arrests dozens of Palestinians in West Bank amid settler attacks",
-        "description": "Military crackdown follows a shooting that killed four Palestinians and two Israeli soldiers.",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/news/2026/7/25/israel-arrests-dozens-of-palestinians-in-west-bank-amid-settler-attacks?traffic_source=rss",
-        "critical": true
     },
     {
         "country": "Middle East",
@@ -3022,47 +3064,5 @@
         "fatalities": "0",
         "link": "https://www.axios.com/2026/07/23/iran-war-powers-vote-house-republicans-trump",
         "critical": false
-    },
-    {
-        "country": "USA",
-        "city": "Pentagon",
-        "lat": 38.88187942177291,
-        "lon": -77.12322386576507,
-        "date": "2026-07-23 15:27:42",
-        "type": "Naval",
-        "severity": "normal",
-        "title": "Google's Gemini delay exposes a deeper problem: employee frustration",
-        "description": "Poor morale among employees is contributing to delayed model releases from Google's DeepMind AI lab, according to conversations with half a dozen current and former Google DeepMind employees.Why it matters: As the company's cash flow just turned negative, investors and competitors are questioning Google's standing in the AI race.State of play: Google's Gemini 3.5 Pro, its most powerful model in the works, is months behind, per Bloomberg, but the ",
-        "fatalities": "0",
-        "link": "https://www.axios.com/2026/07/23/googles-deep-mind-ai-model-race",
-        "critical": false
-    },
-    {
-        "country": "Russia",
-        "city": "Moscow",
-        "lat": 55.75702327482456,
-        "lon": 37.6675483215737,
-        "date": "2026-07-23 15:27:41",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Claims Swirl Around Possible Su-57 Crash near Moscow",
-        "description": "A military aircraft crashed in Moscow’s suburbs, with unconfirmed reports identifying it as an Su-57 “Felon.” A military aircraft crashed near Moscow, in Russia, on Jul. 23, 2026. Russian press and defense commentators identified the aircraft as an Su-57 of the Russian Aerospace Forces (RuAF), although this was not yet officially confirmed at the time []",
-        "fatalities": "0",
-        "link": "https://theaviationist.com/2026/07/23/claims-swirl-around-possible-su-57-crash-near-moscow/",
-        "critical": false
-    },
-    {
-        "country": "Israel",
-        "city": "Tel Aviv",
-        "lat": 32.151040715576194,
-        "lon": 34.85132677266663,
-        "date": "2026-07-23 15:27:39",
-        "type": "Airstrike",
-        "severity": "critical",
-        "title": "Greece to buy $4 billion air defense system from Israel",
-        "description": "Greece has approved the purchase of a multi-layer air defense system worth up to €3.5 billion ($4 billion) from Israel.",
-        "fatalities": "0",
-        "link": "https://www.defensenews.com/global/europe/2026/07/23/greece-to-buy-4-billion-air-defence-system-from-israel/",
-        "critical": true
     }
 ]
