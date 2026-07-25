@@ -1,5 +1,19 @@
 [
     {
+        "country": "USA",
+        "city": "Washington",
+        "lat": 38.89158462064809,
+        "lon": -77.00271194105666,
+        "date": "2026-07-25 18:38:43",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "WP: Бразилия отказала в визах двум представителям администрации Трампа",
+        "description": "Власти Бразилии отказали в выдаче виз двум высокопоставленным чиновникам Госдепартамента США, которые планировали посетить страну перед президентскими выборами. Об этом пишет The Washington Post со ссылкой на бразильских и американских чиновников. Читать далее",
+        "fatalities": "0",
+        "link": "https://russian.rt.com/world/news/1661633-braziliya-ssha-vizy-otkaz?utm_source=rss&utm_medium=rss&utm_campaign=RSS",
+        "critical": false
+    },
+    {
         "country": "Iran",
         "city": "Tehran",
         "lat": 35.67142894876215,
@@ -3049,20 +3063,6 @@
         "description": "Ousted Ukrainian defence minister Mykhailo Fedorov said on Thursday he would ​accept no other government position besides his former job, escalating a political crisis that has gripped Ukraine at a pivotal point in the war with Russia. Speaking with FRANCE 24's Mark Owen, Ukranian MP Liudmyla Buimister says that reinstating Fedorov \"is the only right decision that President Zelensky can make\".",
         "fatalities": "0",
         "link": "https://www.france24.com/en/reinstating-fedorov-only-right-decision-zelensky-can-make-mp-says",
-        "critical": false
-    },
-    {
-        "country": "Middle East",
-        "city": "Yemen",
-        "lat": 14.48144120450626,
-        "lon": 49.15474223910179,
-        "date": "2026-07-23 19:51:10",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Resumption of oil exports: Will Yemen recover its economic lifeline?",
-        "description": "Yemen has proven oil reserves estimated at three billion barrels, but the security environment hinders its export.",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/economy/2026/7/23/resumption-of-oil-exports-will-yemen-recover-its-economic-lifeline?traffic_source=rss",
         "critical": false
     }
 ]
