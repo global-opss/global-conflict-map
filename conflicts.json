@@ -1,5 +1,47 @@
 [
     {
+        "country": "USA",
+        "city": "New york",
+        "lat": 40.698645092270716,
+        "lon": -74.03640070956085,
+        "date": "2026-07-25 20:54:50",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "NYP узнала о планах США задействовать тысячи солдат для изъятия урана из Ирана",
+        "description": "США допускают проведение наземной операции в Иране для изъятия остатков обогащенного урана. Для этого Пентагон намерен задействовать тысячи военных, сообщили источники The New York Post, знакомые с военным планированием.",
+        "fatalities": "0",
+        "link": "https://www.kommersant.ru/doc/8844758",
+        "critical": false
+    },
+    {
+        "country": "Ukraine",
+        "city": "Kyiv",
+        "lat": 50.48742462273149,
+        "lon": 30.563370686114904,
+        "date": "2026-07-25 20:54:31",
+        "type": "Airstrike",
+        "severity": "critical",
+        "title": "Kazakh leader tells Putin war should end, Ukrainian drones target Siberian oil facility",
+        "description": "Kazakhstan's president urged Russian leader Vladimir Putin to end the war during talks in the Siberian city of Omsk while Ukrainian drones struck an oil refinery in Siberia on Saturday in one of Kyiv's deepest attacks inside Russia.",
+        "fatalities": "0",
+        "link": "https://www.france24.com/en/europe/20260725-kazakh-leader-tells-putin-war-should-end-ukraine-launches-fresh-strikes",
+        "critical": true
+    },
+    {
+        "country": "Israel",
+        "city": "Gaza",
+        "lat": 31.46389390772854,
+        "lon": 34.44051188030376,
+        "date": "2026-07-25 20:54:26",
+        "type": "Airstrike",
+        "severity": "critical",
+        "title": "Head of Hamas-led police in northern Gaza killed by Israeli strike",
+        "description": "Four other Palestinians were also killed by Israeli air strikes, and a policeman died from wounds sustained last week.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/news/2026/7/25/head-of-hamas-led-police-in-northern-gaza-killed-by-israeli-strike?traffic_source=rss",
+        "critical": true
+    },
+    {
         "country": "Middle East",
         "city": "Beirut",
         "lat": 33.9401098362639,
@@ -3021,48 +3063,6 @@
         "description": "U.S. Central Command utilized three Corsair unmanned surface vessels to strike a submarine and ship maintenance facility in Iran.",
         "fatalities": "0",
         "link": "https://www.militarytimes.com/news/your-military/2026/07/13/sea-drones-strike-iranian-port-in-combat-first-for-us-navy/",
-        "critical": false
-    },
-    {
-        "country": "USA",
-        "city": "New york",
-        "lat": 40.67055297698154,
-        "lon": -74.01747735938493,
-        "date": "2026-07-23 21:05:06",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "US government cancels subpoena against three New York Times reporters",
-        "description": "Withdrawal is latest instance of governments efforts to crack down on critical media facing setbacks in court.",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/news/2026/7/23/us-government-cancels-subpoena-against-three-new-york-times-reporters?traffic_source=rss",
-        "critical": false
-    },
-    {
-        "country": "Africa",
-        "city": "Sudan",
-        "lat": 12.883573329036992,
-        "lon": 30.255673011391263,
-        "date": "2026-07-23 21:05:06",
-        "type": "Clashes",
-        "severity": "middle",
-        "title": "How Sudan war is putting cancer patients at risk",
-        "description": "How Sudan war is putting cancer patients at risk",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/video/newsfeed/2026/7/23/how-sudan-war-is-putting-cancer-patients-at-risk?traffic_source=rss",
-        "critical": false
-    },
-    {
-        "country": "Iran",
-        "city": "Tehran",
-        "lat": 35.65030244963881,
-        "lon": 51.36458041494927,
-        "date": "2026-07-23 21:04:59",
-        "type": "Clashes",
-        "severity": "middle",
-        "title": "Senators Ask Hegseth to Fully Account for U.S. Troops Killed or Wounded in Iran",
-        "description": "The 12 Democratic senators on the Armed Services Committee said Defense Secretary Pete Hegseth’s department had not provided “timely and comprehensive” reporting on casualties during the war.",
-        "fatalities": "0",
-        "link": "https://www.nytimes.com/2026/07/23/world/middleeast/iran-war-us-troops-hegseth-casualties.html",
         "critical": false
     }
 ]
