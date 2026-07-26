@@ -1,5 +1,19 @@
 [
     {
+        "country": "USA",
+        "city": "New york",
+        "lat": 40.765697196657996,
+        "lon": -73.94257267271627,
+        "date": "2026-07-26 23:11:38",
+        "type": "Airstrike",
+        "severity": "critical",
+        "title": "Trump condemns violence, slams press at White House Correspondents' Dinner",
+        "description": "President Trump used his speech at Friday's rescheduled White House Correspondents' Association Dinner to condemn the political violence that postponed the annual event — and in the next breath attack and insult the gathered press. The big picture: The president opened with jokes to the hundreds of assembled journalists and even made a little fun of himself, in a speech that started light — before descending into a litany of familiar complaints a",
+        "fatalities": "0",
+        "link": "https://www.axios.com/2026/07/25/trump-white-house-correspondents-dinner-whcd",
+        "critical": true
+    },
+    {
         "country": "Iran",
         "city": "Tehran",
         "lat": 35.75151170557274,
@@ -3049,20 +3063,6 @@
         "description": "A record 19th medal took South Africas Chad le Clos past shooters Phil Adams of Australia and Mick Gault of England.",
         "fatalities": "0",
         "link": "https://www.aljazeera.com/sports/2026/7/25/south-africas-le-clos-breaks-commonwealth-games-record-with-19th-medal?traffic_source=rss",
-        "critical": false
-    },
-    {
-        "country": "Iran",
-        "city": "Tehran",
-        "lat": 35.63342753794213,
-        "lon": 51.413324625125696,
-        "date": "2026-07-25 06:39:57",
-        "type": "Naval",
-        "severity": "normal",
-        "title": "Iran-backed Houthis claim missile attack on Saudi Arabia",
-        "description": "US military says it disabled a tanker that was attempting to evade the American blockade on Iranian ports.",
-        "fatalities": "0",
-        "link": "https://www.bbc.co.uk/news/articles/cj9d27v70j1o?at_medium=RSS&at_campaign=rss",
         "critical": false
     }
 ]
