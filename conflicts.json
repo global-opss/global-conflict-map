@@ -1,5 +1,75 @@
 [
     {
+        "country": "Asia",
+        "city": "Pakistan",
+        "lat": 31.55510487672284,
+        "lon": 74.38441732277883,
+        "date": "2026-07-27 07:47:42",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Pakistan’s Kashmir votes: Why the election hinges on 12 disputed seats",
+        "description": "The fight over refugee representation has revived longstanding questions about democracy, autonomy and political power.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/news/2026/7/27/pakistans-kashmir-votes-why-the-election-hinges-on-12-disputed-seats?traffic_source=rss",
+        "critical": false
+    },
+    {
+        "country": "Africa",
+        "city": "Libya",
+        "lat": 26.349876359583643,
+        "lon": 17.270295816508213,
+        "date": "2026-07-27 07:47:42",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Protests erupt in Libya’s Tripoli as anger grows over power cuts",
+        "description": "Protesters shut roads and the foreign ministry in Tripoli as a civil disobedience campaign over power cuts spreads.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/news/2026/7/27/protests-erupt-in-libyas-tripoli-as-anger-grows-over-power-cuts?traffic_source=rss",
+        "critical": false
+    },
+    {
+        "country": "Asia",
+        "city": "Pakistan",
+        "lat": 31.56605303103829,
+        "lon": 74.32219939309786,
+        "date": "2026-07-27 07:47:42",
+        "type": "Clashes",
+        "severity": "middle",
+        "title": "Thousands march in Pakistan-administered Kashmir amid election unrest",
+        "description": "Thousands gathered in Rawalakot before marching towards Muzaffarabad in Pakistan-administered Kashmir.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/video/newsfeed/2026/7/27/aje-onl-nf_26-07-sv-pakistan-kashmir-march-km-270726?traffic_source=rss",
+        "critical": false
+    },
+    {
+        "country": "Africa",
+        "city": "Khartoum",
+        "lat": 15.477409532460864,
+        "lon": 32.590360840021745,
+        "date": "2026-07-27 07:47:42",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Sudan’s army claims control of major highway linking Khartoum and el-Obeid",
+        "description": "Capture of Al Sadarat highway will help the Sudanese army block the RSFs push to seize el-Obeid in North Kordofan.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/news/2026/7/27/sudans-army-claims-control-of-major-highway-linking-khartoum-and-el-obeid?traffic_source=rss",
+        "critical": false
+    },
+    {
+        "country": "Ukraine",
+        "city": "Kyiv",
+        "lat": 50.41118931626879,
+        "lon": 30.542091757005693,
+        "date": "2026-07-27 07:47:40",
+        "type": "Naval",
+        "severity": "normal",
+        "title": "Iran warns Ukraine of retaliation after deadly Caspian Sea strike",
+        "description": "Abbas Araghchi says the Ukrainian attack on the Iranian vessel in the Caspian Sea cannot go unanswered.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/news/2026/7/27/iran-warns-ukraine-of-retaliation-after-deadly-caspian-sea-strike?traffic_source=rss",
+        "critical": false
+    },
+    {
         "country": "Africa",
         "city": "Mali",
         "lat": 12.57225399343382,
@@ -364,20 +434,6 @@
         "critical": false
     },
     {
-        "country": "Iran",
-        "city": "Tehran",
-        "lat": 35.688471529448236,
-        "lon": 51.36466963076129,
-        "date": "2026-07-26 21:05:42",
-        "type": "Airstrike",
-        "severity": "critical",
-        "title": "US and Iran hit pause on strikes for second day",
-        "description": "The relative calm comes amid reports of renewed efforts to restore diplomatic talks.",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/news/2026/7/26/us-and-iran-hit-pause-on-strikes-for-second-day?traffic_source=rss",
-        "critical": true
-    },
-    {
         "country": "Africa",
         "city": "Khartoum",
         "lat": 15.431156278763243,
@@ -390,6 +446,20 @@
         "fatalities": "0",
         "link": "https://www.nytimes.com/2026/07/26/world/south-africa-identity-crisis-wildfires.html",
         "critical": false
+    },
+    {
+        "country": "Iran",
+        "city": "Tehran",
+        "lat": 35.688471529448236,
+        "lon": 51.36466963076129,
+        "date": "2026-07-26 21:05:42",
+        "type": "Airstrike",
+        "severity": "critical",
+        "title": "US and Iran hit pause on strikes for second day",
+        "description": "The relative calm comes amid reports of renewed efforts to restore diplomatic talks.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/news/2026/7/26/us-and-iran-hit-pause-on-strikes-for-second-day?traffic_source=rss",
+        "critical": true
     },
     {
         "country": "USA",
@@ -1694,20 +1764,6 @@
         "critical": false
     },
     {
-        "country": "Europe",
-        "city": "Berlin",
-        "lat": 48.837253944538986,
-        "lon": 2.353861895335454,
-        "date": "2026-07-26 10:48:37",
-        "type": "Airstrike",
-        "severity": "critical",
-        "title": "What we know so far about the Berlin Pride ramming attack",
-        "description": "A police manhunt is underway after a suspect rammed a car into a crowd at a Pride event in the German capital on Saturday night.",
-        "fatalities": "0",
-        "link": "https://www.bbc.co.uk/news/articles/cevmdxz4872o?at_medium=RSS&at_campaign=rss",
-        "critical": true
-    },
-    {
         "country": "Israel",
         "city": "Tel Aviv",
         "lat": 32.04973353441454,
@@ -1719,6 +1775,20 @@
         "description": "The latest attacks come two days after a clash between settlers and Palestinians near the village of Tell, which left four Palestinians and two Israelis dead.",
         "fatalities": "0",
         "link": "https://www.bbc.co.uk/news/articles/cjrv77gl4deo?at_medium=RSS&at_campaign=rss",
+        "critical": true
+    },
+    {
+        "country": "Europe",
+        "city": "Berlin",
+        "lat": 48.837253944538986,
+        "lon": 2.353861895335454,
+        "date": "2026-07-26 10:48:37",
+        "type": "Airstrike",
+        "severity": "critical",
+        "title": "What we know so far about the Berlin Pride ramming attack",
+        "description": "A police manhunt is underway after a suspect rammed a car into a crowd at a Pride event in the German capital on Saturday night.",
+        "fatalities": "0",
+        "link": "https://www.bbc.co.uk/news/articles/cevmdxz4872o?at_medium=RSS&at_campaign=rss",
         "critical": true
     },
     {
@@ -2994,75 +3064,5 @@
         "fatalities": "0",
         "link": "https://www.nytimes.com/live/2026/07/25/world/iran-war-us-strikes-trump-oil",
         "critical": false
-    },
-    {
-        "country": "Iran",
-        "city": "Tehran",
-        "lat": 35.684836461304805,
-        "lon": 51.325763437688096,
-        "date": "2026-07-25 10:27:07",
-        "type": "Clashes",
-        "severity": "middle",
-        "title": "Iran Journey Reveals Society’s Wartime Defiance and Hope",
-        "description": "From the capital, Tehran, to the holy city of Mashhad, the Iran I saw was a nation of many layers: defiant but also weary, despairing but hopeful.",
-        "fatalities": "0",
-        "link": "https://www.nytimes.com/2026/07/25/world/middleeast/what-a-journey-through-wartime-iran-revealed.html",
-        "critical": false
-    },
-    {
-        "country": "USA",
-        "city": "Washington",
-        "lat": 38.84967613658052,
-        "lon": -77.06448760727923,
-        "date": "2026-07-25 10:27:07",
-        "type": "Evacuation",
-        "severity": "critical",
-        "title": "Wildfire Smoke Chokes Skies in Spain and France",
-        "description": "Hundreds of thousands of people, including residents as well as vacationers, were forced to evacuate or told to remain indoors.",
-        "fatalities": "0",
-        "link": "https://www.nytimes.com/2026/07/25/world/europe/wildfires-photos-spain-france.html",
-        "critical": true
-    },
-    {
-        "country": "Europe",
-        "city": "Brussels",
-        "lat": 50.92913763108288,
-        "lon": 4.3951359897445155,
-        "date": "2026-07-25 08:51:28",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "СМИ сообщили о задержании шпионки в верховном главнокомандовании НАТО",
-        "description": "В Бельгии в штабе верховного главнокомандования Объединенными вооруженными силами НАТО в Европе (Supreme Headquarters Allied Powers Europe, SHAPE) 24 июля задержана стажерка по подозрению в шпионаже, передает в субботу RTBF.",
-        "fatalities": "0",
-        "link": "https://www.interfax.ru/world/1105519",
-        "critical": false
-    },
-    {
-        "country": "Middle East",
-        "city": "Red sea",
-        "lat": 27.177585482222117,
-        "lon": 33.87403556460588,
-        "date": "2026-07-25 08:51:07",
-        "type": "Naval",
-        "severity": "normal",
-        "title": "Middle East: Red Sea tensions grow as Saudi-Houthi clashes open new front",
-        "description": "The Houthis have accused US ally Riyadh of a \"dangerous escalation\" after it struck military targets belonging to the group on Friday, following the rebels announcing a maritime blockade of the top oil producer and hitting its ships in the Red Sea.",
-        "fatalities": "0",
-        "link": "https://www.france24.com/en/middle-east-red-sea-tensions-grow-as-saudi-houthi-clashes-open-new-front",
-        "critical": false
-    },
-    {
-        "country": "Europe",
-        "city": "Brussels",
-        "lat": 50.864120483004534,
-        "lon": 4.384403086381986,
-        "date": "2026-07-25 08:51:07",
-        "type": "Evacuation",
-        "severity": "critical",
-        "title": "France : Firefighters face fatigue after days of relentless fighting",
-        "description": "Massive forest fires have forced the evacuation of some 200,000 people in southwestern France and central Spain, with residents fleeing towns near Madrid and Bordeaux on Friday as flames raged out of control. Firefighters and authorities in both European countries were caught off guard by the virulence of the fires, which were fueled by high temperatures and the long-term effects of climate change. Firefighters in Spain admitted the fires were so",
-        "fatalities": "0",
-        "link": "https://www.france24.com/en/france-firefighters-face-fatigue-after-days-of-relentless-fighting",
-        "critical": true
     }
 ]
