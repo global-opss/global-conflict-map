@@ -1,5 +1,75 @@
 [
     {
+        "country": "Ukraine",
+        "city": "Kyiv",
+        "lat": 50.402127738820376,
+        "lon": 30.593006382795775,
+        "date": "2026-07-29 22:10:14",
+        "type": "Airstrike",
+        "severity": "critical",
+        "title": "Zelensky warns of possible major Russian strike overnight",
+        "description": "The warning comes as Kyiv pushes its allies for additional Patriot interceptor missiles, which Ukraine says are crucial to countering a surge in Russian ballistic missile attacks.",
+        "fatalities": "0",
+        "link": "https://www.france24.com/en/europe/20260729-zelensky-warns-of-possible-major-russian-strike-overnight",
+        "critical": true
+    },
+    {
+        "country": "USA",
+        "city": "Washington",
+        "lat": 38.90718595129228,
+        "lon": -76.97747515810434,
+        "date": "2026-07-29 22:10:14",
+        "type": "Naval",
+        "severity": "normal",
+        "title": "Drone hits storage tanker at Egyptian port in major Middle East escalation, security firm says",
+        "description": "A drone hit a U.S.-owned gas storage tanker at Egypt's Mediterranean port of Damietta, British maritime security firm Ambrey said in an initial assessment on Wednesday, and U.S. President Donald Trump vowed to retaliate against Iran for an overnight attack, as the Middle East conflict appeared to expand beyond its main fronts. FRANCE 24's Fraser Jackson reports from Washington.",
+        "fatalities": "0",
+        "link": "https://www.france24.com/en/drone-hits-storage-tanker-at-egyptian-port-in-major-middle-east-escalation-security-firm-says",
+        "critical": false
+    },
+    {
+        "country": "Africa",
+        "city": "Khartoum",
+        "lat": 15.494138725485982,
+        "lon": 32.50799369480119,
+        "date": "2026-07-29 22:10:14",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Survey reveals rising optimism among African youth",
+        "description": "In tonight's edition, the DRC's constitutional court approved a referendum law that critics say could open the way for President Felix Tshisekedi to seek a third term in office. Also, as the El Niño weather pattern looms, millions across Africa could face worsening droughts and floods. And a new survey suggests Africa's youth are becoming more pragmatic in how they view global powers.",
+        "fatalities": "0",
+        "link": "https://www.france24.com/en/survey-reveals-rising-optimism-among-african-youth",
+        "critical": false
+    },
+    {
+        "country": "Iran",
+        "city": "Tehran",
+        "lat": 35.67004603568916,
+        "lon": 51.44522872849075,
+        "date": "2026-07-29 22:10:10",
+        "type": "Airstrike",
+        "severity": "critical",
+        "title": "Trump threatens Iran strikes after attack on US base in Jordan",
+        "description": "”It’s our turn.” President Donald Trump says the US will hit Iran “very hard” following an attack on US forces in Jordan",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/video/newsfeed/2026/7/29/trump-threatens-iran-strikes-after-attack-on-us-base-in-jordan?traffic_source=rss",
+        "critical": true
+    },
+    {
+        "country": "Iran",
+        "city": "Tehran",
+        "lat": 35.70530574091488,
+        "lon": 51.36642516953736,
+        "date": "2026-07-29 22:10:04",
+        "type": "Airstrike",
+        "severity": "critical",
+        "title": "New Strikes Engulf More Countries in the Iran War",
+        "description": "President Trump threatened retribution after Iran fired missiles at U.S. military bases in Jordan. Strikes by U.S. and Saudi warplanes on Iranian-linked militias in Iraq were a further escalation after a lull.",
+        "fatalities": "0",
+        "link": "https://www.nytimes.com/2026/07/29/world/middleeast/iran-war-us-jordan-saudi-iraq.html",
+        "critical": true
+    },
+    {
         "country": "USA",
         "city": "Washington",
         "lat": 38.90678454969223,
@@ -364,20 +434,6 @@
         "critical": false
     },
     {
-        "country": "Iran",
-        "city": "Tehran",
-        "lat": 35.734977006563,
-        "lon": 51.39579148788357,
-        "date": "2026-07-29 17:34:29",
-        "type": "Airstrike",
-        "severity": "critical",
-        "title": "What to Know About Iraq’s Militias",
-        "description": "At least 20 fighters of the Popular Mobilization Forces, an umbrella group of Iraqi militias with ties to Iran, were killed in a wave of U.S. and Saudi airstrikes.",
-        "fatalities": "0",
-        "link": "https://www.nytimes.com/2026/07/29/world/middleeast/heres-what-to-know-about-iraqs-militias.html",
-        "critical": true
-    },
-    {
         "country": "Europe",
         "city": "Brussels",
         "lat": 50.84377398180948,
@@ -389,6 +445,20 @@
         "description": "Gale-force winds have whipped up the flames prompting the evacuation of several villages on the island, as parts of the continent also continue to tackle fires.",
         "fatalities": "0",
         "link": "https://www.bbc.co.uk/news/articles/cwyjgwg8jddo?at_medium=RSS&at_campaign=rss",
+        "critical": true
+    },
+    {
+        "country": "Iran",
+        "city": "Tehran",
+        "lat": 35.734977006563,
+        "lon": 51.39579148788357,
+        "date": "2026-07-29 17:34:29",
+        "type": "Airstrike",
+        "severity": "critical",
+        "title": "What to Know About Iraq’s Militias",
+        "description": "At least 20 fighters of the Popular Mobilization Forces, an umbrella group of Iraqi militias with ties to Iran, were killed in a wave of U.S. and Saudi airstrikes.",
+        "fatalities": "0",
+        "link": "https://www.nytimes.com/2026/07/29/world/middleeast/heres-what-to-know-about-iraqs-militias.html",
         "critical": true
     },
     {
@@ -448,20 +518,6 @@
         "critical": false
     },
     {
-        "country": "Iran",
-        "city": "Tehran",
-        "lat": 35.66885416330609,
-        "lon": 51.4579381304119,
-        "date": "2026-07-29 16:06:26",
-        "type": "Naval",
-        "severity": "normal",
-        "title": "Sea drones strike Iranian port in combat first for US",
-        "description": "U.S. Central Command utilized three Corsair unmanned surface vessels to strike a submarine and ship maintenance facility in Iran.",
-        "fatalities": "0",
-        "link": "https://www.militarytimes.com/news/your-military/2026/07/13/sea-drones-strike-iranian-port-in-combat-first-for-us-navy/",
-        "critical": false
-    },
-    {
         "country": "Israel",
         "city": "Tel Aviv",
         "lat": 32.062431309529764,
@@ -502,6 +558,20 @@
         "fatalities": "0",
         "link": "https://www.france24.com/en/france/20260729-cats-dogs-and-horses-rescuing-the-pets-caught-in-france-s-wildfires",
         "critical": true
+    },
+    {
+        "country": "Iran",
+        "city": "Tehran",
+        "lat": 35.66885416330609,
+        "lon": 51.4579381304119,
+        "date": "2026-07-29 16:06:26",
+        "type": "Naval",
+        "severity": "normal",
+        "title": "Sea drones strike Iranian port in combat first for US",
+        "description": "U.S. Central Command utilized three Corsair unmanned surface vessels to strike a submarine and ship maintenance facility in Iran.",
+        "fatalities": "0",
+        "link": "https://www.militarytimes.com/news/your-military/2026/07/13/sea-drones-strike-iranian-port-in-combat-first-for-us-navy/",
+        "critical": false
     },
     {
         "country": "Africa",
@@ -2993,76 +3063,6 @@
         "description": "Amid a reprieve in the fighting, Iran’s leaders are betting that they can endure more pain than President Trump and have leverage over the Strait of Hormuz, analysts say.",
         "fatalities": "0",
         "link": "https://www.nytimes.com/2026/07/28/world/middleeast/iran-war-us-trump.html",
-        "critical": false
-    },
-    {
-        "country": "USA",
-        "city": "Washington",
-        "lat": 38.84489184343422,
-        "lon": -77.09303919783335,
-        "date": "2026-07-28 09:09:31",
-        "type": "Naval",
-        "severity": "normal",
-        "title": "A diminished Bibi arrives for his moment with Trump",
-        "description": "Benjamin Netanyahu will meet with Donald Trump in the Oval Office Tuesday for the eighth time since the president returned to office. But the Israeli prime minister arrives at the White House weaker and less influential than the previous seven times.Why it matters: On Feb. 28, Trump and Netanyahu went to war together and it looked like there was no daylight between them. But exactly five months later, their interests have diverged more than ever ",
-        "fatalities": "0",
-        "link": "https://www.axios.com/2026/07/28/trump-netanyahu-white-house-iran-war-meeting",
-        "critical": false
-    },
-    {
-        "country": "Middle East",
-        "city": "Red sea",
-        "lat": 27.261869602598246,
-        "lon": 33.767113236161784,
-        "date": "2026-07-28 09:09:28",
-        "type": "Naval",
-        "severity": "normal",
-        "title": "Yemen says ready to escalate against Houthi rebels as they target Saudi Arabia",
-        "description": "Yemen's government on Monday issued a warning to the Houthi rebels after they stepped up recent attacks on Saudi oil infrastructure and imposed a maritime blockade, raising fears that the Iran-backed group's campaign could open a new front in the wider regional conflict and threaten shipping through the Red Sea.",
-        "fatalities": "0",
-        "link": "https://www.france24.com/en/middle-east/20260727-yemen-says-ready-for-houthi-escalation-after-rebels-target-saudi-arabia",
-        "critical": false
-    },
-    {
-        "country": "Israel",
-        "city": "Tel Aviv",
-        "lat": 32.04528491443176,
-        "lon": 34.761133375198234,
-        "date": "2026-07-28 09:09:26",
-        "type": "Airstrike",
-        "severity": "critical",
-        "title": "Netanyahu to meet Trump for first time since Iran war strained ties",
-        "description": "US President Donald Trump will meet Israeli Prime Minister Benjamin Netanyahu at the White House on Tuesday for the first time since US-Israeli strikes on Iran in late February triggered new regional conflict in the Middle East. Both leaders are expected to downplay their frayed ties after public – and occasionally profane – rebukes from Trump during ceasefire negotiations in April.",
-        "fatalities": "0",
-        "link": "https://www.france24.com/en/netanyahu-to-meet-trump-at-white-house-for-first-time-since-iran-war-strained-ties",
-        "critical": true
-    },
-    {
-        "country": "Ukraine",
-        "city": "Kyiv",
-        "lat": 50.42966349249422,
-        "lon": 30.56616589431198,
-        "date": "2026-07-28 09:09:26",
-        "type": "Airstrike",
-        "severity": "critical",
-        "title": "Zelensky expected at White House to push for more support against Russia",
-        "description": "Ukraine's President Volodymyr Zelensky is expected to meet with US President Donald Trump at the White House on Tuesday to try and secure further US support against Russia. The visit comes as Kyiv and Moscow both ramp up long-range strikes and diplomatic efforts launched by Washington have stalled more than four years after Russia's full-scale invasion.",
-        "fatalities": "0",
-        "link": "https://www.france24.com/en/europe/20260728-ukraine-s-zelensky-expected-at-white-house-to-secure-trump-s-support-against-russia",
-        "critical": true
-    },
-    {
-        "country": "Europe",
-        "city": "London",
-        "lat": 51.46045735828637,
-        "lon": -0.16260812037606837,
-        "date": "2026-07-28 09:09:22",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Hong Kong activist allowed to stay in UK after deportation threat",
-        "description": "Wu was detained for hours at London's Heathrow Airport last week and refused entry, he told the BBC.",
-        "fatalities": "0",
-        "link": "https://www.bbc.co.uk/news/articles/cpd74e0yy12o?at_medium=RSS&at_campaign=rss",
         "critical": false
     }
 ]
