@@ -1,5 +1,47 @@
 [
     {
+        "country": "USA",
+        "city": "Washington",
+        "lat": 38.92888945796553,
+        "lon": -77.07214008623399,
+        "date": "2026-07-30 22:29:47",
+        "type": "Explosion",
+        "severity": "middle",
+        "title": "Tim Cook says Apple may charge for AI Siri",
+        "description": "Apple hinted Thursday that heavy users of its revamped Siri may have to pay for access.Why it matters: It's the first time that Apple has confirmed it will charge for the new AI-powered voice assistant.What they're saying: In a conference call to discuss Apple's most recent quarterly earnings, CEO Tim Cook said Apple is still developing its plan to address the higher computing costs that will come with the improved voice assistant.\"We do believe ",
+        "fatalities": "0",
+        "link": "https://www.axios.com/2026/07/30/tim-cook-apple-may-charge-for-ai-siri",
+        "critical": false
+    },
+    {
+        "country": "Europe",
+        "city": "Brussels",
+        "lat": 50.829041325016746,
+        "lon": 4.3475550362284,
+        "date": "2026-07-30 22:29:38",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Was Your Trip to Europe Affected by Heat or Wildfires? Tell Us About It.",
+        "description": "Have you had to cancel, reschedule or replan a trip to France, Spain or elsewhere because of raging fires or stifling heat? If so, we want to hear from you.",
+        "fatalities": "0",
+        "link": "https://www.nytimes.com/2026/07/30/travel/europe-heat-fire-reader-callout.html",
+        "critical": false
+    },
+    {
+        "country": "Asia",
+        "city": "Host",
+        "lat": 33.343456891259386,
+        "lon": 69.93049362081315,
+        "date": "2026-07-30 22:29:38",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Argentina’s Milei seeks to deport foreigners that spread ‘hate’ of country",
+        "description": "Experts have cast doubt on legality of the emergency decree as Milei decries a campaign of hostility after World Cup.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/news/2026/7/30/argentinas-milei-seeks-to-deport-foreigners-that-spread-hate-of-country?traffic_source=rss",
+        "critical": false
+    },
+    {
         "country": "Israel",
         "city": "Jerusalem",
         "lat": 31.792497214260447,
@@ -3022,47 +3064,5 @@
         "fatalities": "0",
         "link": "https://www.france24.com/en/us-says-iran-trying-to-derail-ongoing-ceasefire-talks-as-strikes-resume",
         "critical": true
-    },
-    {
-        "country": "Europe",
-        "city": "Paris",
-        "lat": 48.903926000683484,
-        "lon": 2.367556469649235,
-        "date": "2026-07-29 12:18:08",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "French DJ Kavinsky found dead in Paris home, local media reports",
-        "description": "French DJ Kavinsky, who produced the pounding track \"Nightcall\" that featured in the hit 2011 film Drive and performed alongside Belgian singer Angèle at the closing ceremony of the 2024 Olympics, has been found dead in his Paris home, local media reported Wednesday. He was 50 years old.",
-        "fatalities": "0",
-        "link": "https://www.france24.com/en/france/20260729-french-dj-kavinsky-found-dead-in-paris-home",
-        "critical": false
-    },
-    {
-        "country": "Russia",
-        "city": "Moscow",
-        "lat": 55.81922409563648,
-        "lon": 37.56802319705039,
-        "date": "2026-07-29 12:18:08",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Russia issues international wanted notice against Telegram founder Pavel Durov for aiding terrorism",
-        "description": "Moscow on Wednesday said it had issued an international wanted notice for Russian-born Telegram CEO Pavel Durov for \"complicity in terrorism\". Russian security services accused Durov of failing to remove \"channels, chats and bots\" on the popular messaging platform allegedly used by Ukraine to recruit people for deadly sabotage operations across Russia.",
-        "fatalities": "0",
-        "link": "https://www.france24.com/en/europe/20260729-russia-issues-international-wanted-notice-against-telegram-founder-pavel-durov-for-aiding-terrorism",
-        "critical": false
-    },
-    {
-        "country": "Asia",
-        "city": "Tokyo",
-        "lat": 35.66883833412547,
-        "lon": 139.69596103275626,
-        "date": "2026-07-29 12:18:05",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "American, Asian confederations blindsided by FIFA’s World Cup plan",
-        "description": "Americas governing body deeply concerned by lack of due process in FIFA private investment plan, AFC disappointed.",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/sports/2026/7/29/american-asian-confederations-blindsided-by-fifas-world-cup-plan?traffic_source=rss",
-        "critical": false
     }
 ]
