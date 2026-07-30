@@ -1,5 +1,33 @@
 [
     {
+        "country": "Middle East",
+        "city": "Red sea",
+        "lat": 27.180409747868453,
+        "lon": 33.86073867999453,
+        "date": "2026-07-30 00:14:02",
+        "type": "Naval",
+        "severity": "normal",
+        "title": "Saudi Arabia seeks international coalition against Houthis in Red Sea",
+        "description": "Riyadh seeks partners to safeguard shipping in Red Sea as strikes on energy tankers expand, pushing oil prices higher.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/news/2026/7/29/saudi-arabia-seeks-international-coalition-against-houthis-in-red-sea?traffic_source=rss",
+        "critical": false
+    },
+    {
+        "country": "Israel",
+        "city": "Tel Aviv",
+        "lat": 32.08918755189587,
+        "lon": 34.75867315142691,
+        "date": "2026-07-30 00:14:02",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Israel slams Canada for statement opposing West Bank settlement expansion",
+        "description": "Canada says that illegal settlements in occupied Palestinian territory undermine peace, security and stability.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/news/2026/7/29/israel-slams-canada-for-statement-opposing-west-bank-settlement-expansion?traffic_source=rss",
+        "critical": false
+    },
+    {
         "country": "USA",
         "city": "New york",
         "lat": 40.75040030993394,
@@ -3035,34 +3063,6 @@
         "description": "The Israeli PMs visit to the US comes amid raids in the occupied West Bank, before the October 27 elections.",
         "fatalities": "0",
         "link": "https://www.aljazeera.com/news/2026/7/28/netanyahu-in-the-white-house-whats-on-the-agenda-and-whats-next?traffic_source=rss",
-        "critical": false
-    },
-    {
-        "country": "Ukraine",
-        "city": "Kyiv",
-        "lat": 50.41302145921372,
-        "lon": 30.50283679355065,
-        "date": "2026-07-28 11:27:03",
-        "type": "Airstrike",
-        "severity": "critical",
-        "title": "Zelensky to press Trump on air defences while in Washington",
-        "description": "Ukraine's leader is hoping to firm up US commitments to bolstering Kyiv's anti-ballistic missile defences, as Russia has escalated deadly attacks.",
-        "fatalities": "0",
-        "link": "https://www.bbc.co.uk/news/articles/c9v4g7e047zo?at_medium=RSS&at_campaign=rss",
-        "critical": true
-    },
-    {
-        "country": "Asia",
-        "city": "Pakistan",
-        "lat": 31.509423017382442,
-        "lon": 74.36893772666848,
-        "date": "2026-07-28 11:26:59",
-        "type": "Clashes",
-        "severity": "middle",
-        "title": "Fresh Clashes Erupt in Pakistani Kashmir on First Day of Contested Vote",
-        "description": "Dozens have died in recent weeks ahead of a weekslong regional election, officials said. A banned civil rights group said supporters died in conflicts with the police.",
-        "fatalities": "0",
-        "link": "https://www.nytimes.com/2026/07/28/world/asia/pakistan-kashmir-election-violence.html",
         "critical": false
     }
 ]
