@@ -1,5 +1,47 @@
 [
     {
+        "country": "Israel",
+        "city": "Tel Aviv",
+        "lat": 32.03605931161543,
+        "lon": 34.76693961377691,
+        "date": "2026-07-31 22:15:01",
+        "type": "Airstrike",
+        "severity": "critical",
+        "title": "Trump considering strikes on Iranian energy targets within days",
+        "description": "President Trump is seriously considering launching attacks against energy targets in Iran in the next few days, but hasn't given final orders to do it, a U.S. official told Axios on Friday.Why it matters: A new U.S. bombing campaign in Iran against energy and infrastructure targets would be aimed at trying to get the Iranians to agree to the United States' terms in ongoing ceasefire negotiations.  The strikes could also involve the Israeli milita",
+        "fatalities": "0",
+        "link": "https://www.axios.com/2026/07/31/trump-iran-strikes-energy-infrastructure-war",
+        "critical": true
+    },
+    {
+        "country": "USA",
+        "city": "Washington",
+        "lat": 38.88981425047364,
+        "lon": -77.05155410336238,
+        "date": "2026-07-31 22:15:01",
+        "type": "Explosion",
+        "severity": "middle",
+        "title": "Trump's comments reignite Blanche confirmation fight",
+        "description": "The Trump administration is still pushing lawmakers to confirm acting Attorney General Todd Blanche, even as President Trump defends the \"anti-weaponization\" fund holding Blanche's confirmation hostage.The big picture: The \"anti-weaponization\" fund has been the red line for Sens. John Cornyn (R-Texas) and Thom Tillis (R-N.C.). The lawmakers have refused to vote for Blanche until the DOJ put into writing that aspects of the deal aren't moving forw",
+        "fatalities": "0",
+        "link": "https://www.axios.com/2026/07/31/trump-blanche-doj-anti-weaponization-fund-dead",
+        "critical": false
+    },
+    {
+        "country": "USA",
+        "city": "Washington",
+        "lat": 38.92852475507438,
+        "lon": -77.07123291123452,
+        "date": "2026-07-31 22:14:44",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "After Tens of Thousands of Migrants Enter Spanish Territory, Most Return to Morocco",
+        "description": "About 48,000 of the up to 60,000 people who came into Ceuta from Morocco returned within a day. Still, the sudden influx created a crisis for Spain’s pro-immigration government. Nearly three dozen died.",
+        "fatalities": "0",
+        "link": "https://www.nytimes.com/live/2026/07/31/world/spain-ceuta-migrants-morocco",
+        "critical": false
+    },
+    {
         "country": "USA",
         "city": "Washington",
         "lat": 38.95471246115793,
@@ -3021,48 +3063,6 @@
         "description": "The alliance aims to defend shipping from attacks by Iran-backed Houthis in Yemen.",
         "fatalities": "0",
         "link": "https://www.aljazeera.com/news/2026/7/30/why-is-saudi-arabia-forming-a-coalition-to-protect-the-red-sea?traffic_source=rss",
-        "critical": false
-    },
-    {
-        "country": "Europe",
-        "city": "Poland",
-        "lat": 52.05063976421866,
-        "lon": 19.063434188895915,
-        "date": "2026-07-30 11:19:33",
-        "type": "Airstrike",
-        "severity": "critical",
-        "title": "Poland says Russian missile breaches NATO airspace",
-        "description": "Poland says a Russian missile landed inside Polish territory, breaching NATO airspace during a Russian attack on Ukraine",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/video/newsfeed/2026/7/30/30-07-sv-lublin-air-sirens-pl?traffic_source=rss",
-        "critical": true
-    },
-    {
-        "country": "Iran",
-        "city": "Bushehr",
-        "lat": 28.863719712759526,
-        "lon": 50.779078844604534,
-        "date": "2026-07-30 11:19:33",
-        "type": "Airstrike",
-        "severity": "critical",
-        "title": "US hits multiple targets in Iran as IRGC pledges retaliation: What we know",
-        "description": "Jordan said it intercepted missiles shortly after the US struck Iranian sites including Qeshm and Bushehr.",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/news/2026/7/30/us-hits-multiple-targets-in-iran-as-irgc-pledges-retaliation-what-we-know?traffic_source=rss",
-        "critical": true
-    },
-    {
-        "country": "Middle East",
-        "city": "Damascus",
-        "lat": 33.454511142945144,
-        "lon": 36.25400352290492,
-        "date": "2026-07-30 11:19:33",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "From Toronto to Damascus: Syrians return home aiming to rebuild country",
-        "description": "Families like the Tasabehjis aim to rebuild Syria, fostering community and hope despite economic and social challenges.",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/news/2026/7/30/from-toronto-damascus-syria-return-home?traffic_source=rss",
         "critical": false
     }
 ]
