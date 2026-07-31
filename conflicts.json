@@ -1,5 +1,33 @@
 [
     {
+        "country": "USA",
+        "city": "New york",
+        "lat": 40.709828375143374,
+        "lon": -74.05764795047294,
+        "date": "2026-07-31 23:25:48",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "NYP: FIFA решила не продавать долю прав на ЧМ частным инвесторам",
+        "description": "Международная федерация футбола (FIFA) отказалась от идеи по продаже части прав на чемпионат мира частным инвесторам, пишет The New York Post со ссылкой на источники. По словам собеседника газеты, решение принято из-за резкой критики идеи со стороны футбольных чиновников со всего мира и серьезного раскола в высшем руководстве FIFA.",
+        "fatalities": "0",
+        "link": "https://www.kommersant.ru/doc/8860531",
+        "critical": false
+    },
+    {
+        "country": "Israel",
+        "city": "Tel Aviv",
+        "lat": 32.082287764265644,
+        "lon": 34.82674573438991,
+        "date": "2026-07-31 23:25:28",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Israeli settlers vandalise Palestinian cemetery in West Bank",
+        "description": "Israeli settlers vandalise Palestinian cemetery in West Bank",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/video/newsfeed/2026/7/31/israeli-settlers-vandalise-palestinian-cemetery-in-west-bank?traffic_source=rss",
+        "critical": false
+    },
+    {
         "country": "Israel",
         "city": "Tel Aviv",
         "lat": 32.03605931161543,
@@ -3036,33 +3064,5 @@
         "fatalities": "0",
         "link": "https://www.france24.com/en/middle-east/20260730-middle-east-live-us-air-strikes-on-iran-qeshm-island-kill-three-people",
         "critical": true
-    },
-    {
-        "country": "Europe",
-        "city": "Brussels",
-        "lat": 50.89355181842954,
-        "lon": 4.300571785554053,
-        "date": "2026-07-30 11:19:36",
-        "type": "Clashes",
-        "severity": "middle",
-        "title": "Greek firefighters battle deadly wildfires on Crete for a second day",
-        "description": "Greek firefighters were ⁠battling deadly wildfires on ​the island of Crete for a second day on Thursday, as wildfires continue to ​spread across Europe following days of devastating blazes in Spain and France. On Wednesday, three Greek firefighters died battling blazes during high winds on Crete and on the mainland, ​and two ‌more were lightly injured.",
-        "fatalities": "0",
-        "link": "https://www.france24.com/en/video/20260730-greek-firefighters-battle-deadly-wildfires-on-crete-for-a-second-day",
-        "critical": false
-    },
-    {
-        "country": "Middle East",
-        "city": "Red sea",
-        "lat": 27.237480264565374,
-        "lon": 33.80538183154721,
-        "date": "2026-07-30 11:19:33",
-        "type": "Naval",
-        "severity": "normal",
-        "title": "Why is Saudi Arabia forming a coalition to protect the Red Sea?",
-        "description": "The alliance aims to defend shipping from attacks by Iran-backed Houthis in Yemen.",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/news/2026/7/30/why-is-saudi-arabia-forming-a-coalition-to-protect-the-red-sea?traffic_source=rss",
-        "critical": false
     }
 ]
