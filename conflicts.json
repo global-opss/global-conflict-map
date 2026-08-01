@@ -1,5 +1,19 @@
 [
     {
+        "country": "Israel",
+        "city": "Gaza",
+        "lat": 31.472743519640847,
+        "lon": 34.53330635133446,
+        "date": "2026-08-01 15:46:52",
+        "type": "Airstrike",
+        "severity": "critical",
+        "title": "Israel Bombards Gaza, Days After Trump Announced Deal to Advance Cease-fire",
+        "description": "Palestinian officials said at least two people were killed. The deal announced by President Trump calls in part for Hamas to give up its weapons and Israel to stop its attacks in Gaza.",
+        "fatalities": "0",
+        "link": "https://www.nytimes.com/2026/08/01/world/middleeast/israel-gaza-strikes-trump-hamas.html",
+        "critical": true
+    },
+    {
         "country": "Iran",
         "city": "Tehran",
         "lat": 35.703326387927824,
@@ -3049,20 +3063,6 @@
         "description": "Have you had to cancel, reschedule or replan a trip to France, Spain or elsewhere because of raging fires or stifling heat? If so, we want to hear from you.",
         "fatalities": "0",
         "link": "https://www.nytimes.com/2026/07/30/travel/europe-heat-fire-reader-callout.html",
-        "critical": false
-    },
-    {
-        "country": "Israel",
-        "city": "Jerusalem",
-        "lat": 31.792497214260447,
-        "lon": 35.19570986587906,
-        "date": "2026-07-30 21:12:21",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Журналистка из США узнала в сирийском дипломате своего похитителя",
-        "description": "Американская журналистка Линдси Снелл заявила, что узнала во временном поверенном в делах Сирии при США Мохаммеде Канатри человека, который участвовал в ее похищении. Об этом пишет The Jerusalem Post.",
-        "fatalities": "0",
-        "link": "https://rg.ru/2026/07/30/zhurnalistka-iz-ssha-uznala-v-sirijskom-diplomate-svoego-pohititelia.html",
         "critical": false
     }
 ]
