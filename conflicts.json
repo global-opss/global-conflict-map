@@ -1,6 +1,48 @@
 [
     {
         "country": "USA",
+        "city": "New york",
+        "lat": 40.71179809189191,
+        "lon": -73.9629662402403,
+        "date": "2026-08-01 17:48:14",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "NYT сообщила об ударе США 900-килограммовой бомбой по жилому дому в Иране",
+        "description": "США ударили по жилому дому на иранском острове Кешм 900-килограммовой бомбой, сообщила The New York Times. Газета проанализировала видеозаписи, фотографии и спутниковые снимки, а также обратилась к экспертам по вооружениям.",
+        "fatalities": "0",
+        "link": "https://www.kommersant.ru/doc/8860722",
+        "critical": false
+    },
+    {
+        "country": "Africa",
+        "city": "Khartoum",
+        "lat": 15.483969347124685,
+        "lon": 32.57544866591778,
+        "date": "2026-08-01 17:47:52",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Spain says migrants leaving Ceuta after mass influx in which 67 died",
+        "description": "EU ministers to hold meeting next week to coordinate blocs response to crisis in North African Spanish enclave.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/news/2026/8/1/spain-says-migrants-leaving-ceuta-after-mass-influx-in-which-67-died?traffic_source=rss",
+        "critical": false
+    },
+    {
+        "country": "Iran",
+        "city": "Tehran",
+        "lat": 35.72692407197916,
+        "lon": 51.35384275054444,
+        "date": "2026-08-01 17:47:45",
+        "type": "Evacuation",
+        "severity": "critical",
+        "title": "Iran Plotted Wider War With Help of Its Proxies",
+        "description": "During a fleeting truce, Iranians covertly devised a plan to raise the war’s costs for President Trump if U.S. forces attacked anew.",
+        "fatalities": "0",
+        "link": "https://www.nytimes.com/2026/08/01/world/middleeast/iran-proxies-war-oil.html",
+        "critical": true
+    },
+    {
+        "country": "USA",
         "city": "Washington",
         "lat": 38.91183143829153,
         "lon": -77.04649600127318,
@@ -3022,47 +3064,5 @@
         "fatalities": "0",
         "link": "https://www.france24.com/en/middle-east/20260730-middle-east-live-trump-says-board-of-peace-reaches-hamas-disarmament-deal",
         "critical": true
-    },
-    {
-        "country": "Asia",
-        "city": "Pakistan",
-        "lat": 31.59960913726641,
-        "lon": 74.40548670033209,
-        "date": "2026-07-30 23:34:18",
-        "type": "Naval",
-        "severity": "normal",
-        "title": "Pakistan says US-Iran talks still alive despite fresh wave of US strikes",
-        "description": "The renewed fighting has widened fears of a broader regional conflict, with Egypt hit for the first time and Gulf states scrambling to secure key shipping routes.",
-        "fatalities": "0",
-        "link": "https://www.france24.com/en/middle-east/20260730-pakistan-says-us-iran-talks-still-alive-despite-fresh-wave-of-us-strikes",
-        "critical": false
-    },
-    {
-        "country": "Europe",
-        "city": "Brussels",
-        "lat": 50.91789612650193,
-        "lon": 4.365171339223368,
-        "date": "2026-07-30 23:34:18",
-        "type": "Clashes",
-        "severity": "middle",
-        "title": "Climate change made France, Spain wildfire conditions far more likely, scientists say",
-        "description": "Researchers warn that hotter, drier conditions are making severe wildfire seasons increasingly frequent across Europe.",
-        "fatalities": "0",
-        "link": "https://www.france24.com/en/europe/20260730-climate-change-made-france-spain-wildfire-conditions-far-more-likely-scientists-say",
-        "critical": false
-    },
-    {
-        "country": "Israel",
-        "city": "Gaza",
-        "lat": 31.485793553383356,
-        "lon": 34.46012881266832,
-        "date": "2026-07-30 23:34:13",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Trump says Board of Peace reaches agreement on disarmament of Hamas in Gaza",
-        "description": "US president says Israel will withdraw from Gaza following the disarmament of Hamas.",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/news/2026/7/30/trump-says-board-of-peace-reaches-agreement-on-disarmament-of-hamas-in-gaza?traffic_source=rss",
-        "critical": false
     }
 ]
