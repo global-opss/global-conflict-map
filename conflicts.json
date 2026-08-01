@@ -1,5 +1,61 @@
 [
     {
+        "country": "Israel",
+        "city": "Tel Aviv",
+        "lat": 32.154535463087534,
+        "lon": 34.73878116454987,
+        "date": "2026-08-01 21:04:06",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Israel Says It Killed Several Hezbollah Members on Key Lebanon Hilltop",
+        "description": "The confrontation, over a strategic ridge in southern Lebanon, challenged a fragile cease-fire between Israel and the Iran-backed militant group.",
+        "fatalities": "0",
+        "link": "https://www.nytimes.com/2026/08/01/world/middleeast/israel-hezbollah-lebanon-killing.html",
+        "critical": false
+    },
+    {
+        "country": "Russia",
+        "city": "Moscow",
+        "lat": 55.70213755329221,
+        "lon": 37.55695456480858,
+        "date": "2026-08-01 21:04:06",
+        "type": "Airstrike",
+        "severity": "critical",
+        "title": "Three killed after woman detonates bomb at Moscow restaurant, state media say",
+        "description": "Security officials said the female attacker tried to enter the restaurant but was stopped by a security guard.",
+        "fatalities": "0",
+        "link": "https://www.bbc.co.uk/news/articles/c86n4ljxp63o?at_medium=RSS&at_campaign=rss",
+        "critical": true
+    },
+    {
+        "country": "Asia",
+        "city": "Pakistan",
+        "lat": 31.565337370889164,
+        "lon": 74.32045128497927,
+        "date": "2026-08-01 21:04:06",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Record-breaking climber Nirmal Purja among those killed in avalanche",
+        "description": "14 Peaks star Nirmal Purja has died in an avalanche while leading 10 climbers up Broad Peak mountain in Pakistan.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/video/newsfeed/2026/8/1/record-record-breaking-climber-nirmal-purja-among-those-killed-in-avalanche?traffic_source=rss",
+        "critical": false
+    },
+    {
+        "country": "Israel",
+        "city": "Gaza",
+        "lat": 31.497586486346307,
+        "lon": 34.4712466268946,
+        "date": "2026-08-01 21:04:06",
+        "type": "Airstrike",
+        "severity": "critical",
+        "title": "Israeli strikes kill seven across Gaza, destroy medical supply warehouse",
+        "description": "Attacks kill seven as Gaza Health Ministry condemns heinous strike on medicine stores, days after disarmament deal.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/news/2026/8/1/israeli-strikes-kill-four-across-gaza-destroy-medical-supply-warehouse?traffic_source=rss",
+        "critical": true
+    },
+    {
         "country": "USA",
         "city": "Washington",
         "lat": 38.83930044349047,
@@ -42,20 +98,6 @@
         "critical": false
     },
     {
-        "country": "Russia",
-        "city": "Moscow",
-        "lat": 55.718411481335394,
-        "lon": 37.595585636631306,
-        "date": "2026-08-01 19:59:42",
-        "type": "Explosion",
-        "severity": "middle",
-        "title": "Three killed in Moscow restaurant explosion",
-        "description": "The deadly blast took place in a venue near the centre of the city, but the cause is currently unclear.",
-        "fatalities": "0",
-        "link": "https://www.bbc.co.uk/news/articles/c86n4ljxp63o?at_medium=RSS&at_campaign=rss",
-        "critical": false
-    },
-    {
         "country": "Israel",
         "city": "Tel Aviv",
         "lat": 32.155091193607944,
@@ -81,6 +123,20 @@
         "description": "⁠Fifteen also ​injured ‌in the blast in Kudrinskaya Square, authorities say.",
         "fatalities": "0",
         "link": "https://www.aljazeera.com/news/2026/8/1/russia-says-explosion-near-cafe-in-moscow-kills-three?traffic_source=rss",
+        "critical": false
+    },
+    {
+        "country": "Russia",
+        "city": "Moscow",
+        "lat": 55.718411481335394,
+        "lon": 37.595585636631306,
+        "date": "2026-08-01 19:59:42",
+        "type": "Explosion",
+        "severity": "middle",
+        "title": "Three killed in Moscow restaurant explosion",
+        "description": "The deadly blast took place in a venue near the centre of the city, but the cause is currently unclear.",
+        "fatalities": "0",
+        "link": "https://www.bbc.co.uk/news/articles/c86n4ljxp63o?at_medium=RSS&at_campaign=rss",
         "critical": false
     },
     {
@@ -3008,61 +3064,5 @@
         "fatalities": "0",
         "link": "https://www.militarytimes.com/news/your-military/2026/07/21/pentagon-identifies-third-american-soldier-killed-in-iranian-attack-in-jordan/",
         "critical": true
-    },
-    {
-        "country": "Israel",
-        "city": "Tel Aviv",
-        "lat": 32.089934785751225,
-        "lon": 34.81755552253905,
-        "date": "2026-07-31 01:10:20",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "House-passed defense bill includes controversial US-Israel tech measure",
-        "description": "The House-passed defense bill includes a measure to encourage co-development and co-production between the U.S. and Israeli defense industrial bases.",
-        "fatalities": "0",
-        "link": "https://www.defensenews.com/news/pentagon-congress/2026/07/29/house-passed-defense-bill-includes-controversial-us-israel-tech-measure/",
-        "critical": false
-    },
-    {
-        "country": "Russia",
-        "city": "Moscow",
-        "lat": 55.75049191969123,
-        "lon": 37.67984861320187,
-        "date": "2026-07-31 01:10:20",
-        "type": "Airstrike",
-        "severity": "critical",
-        "title": "Trump, Zelenskyy discuss Patriot deal and reviving talks with Russia",
-        "description": "Zelenskyy later told Fox News’ “Hannity” show that Trump had “accepted that he will give us licenses” to produce the Patriot interceptors.",
-        "fatalities": "0",
-        "link": "https://www.defensenews.com/global/europe/2026/07/29/trump-zelenskyy-discuss-patriot-deal-and-reviving-talks-with-russia/",
-        "critical": true
-    },
-    {
-        "country": "Middle East",
-        "city": "Beirut",
-        "lat": 33.90674753811211,
-        "lon": 35.453602445909425,
-        "date": "2026-07-31 01:10:20",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "🔴 Middle East live: Trump says Board of Peace reaches Hamas disarmament deal",
-        "description": "",
-        "fatalities": "0",
-        "link": "https://www.france24.com/en/middle-east/20260730-middle-east-live-trump-says-board-of-peace-reaches-hamas-disarmament-deal",
-        "critical": false
-    },
-    {
-        "country": "Asia",
-        "city": "Pakistan",
-        "lat": 31.557090434620484,
-        "lon": 74.32130233252094,
-        "date": "2026-07-31 01:10:17",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Nirmal Purja among 10 climbers feared missing after avalanche",
-        "description": "An American, a Chinese national, an Omani and five Nepalis are said to be part of the group feared missing in Pakistan.",
-        "fatalities": "0",
-        "link": "https://www.bbc.co.uk/news/articles/cddjz1r01l8o?at_medium=RSS&at_campaign=rss",
-        "critical": false
     }
 ]
