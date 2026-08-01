@@ -1,5 +1,47 @@
 [
     {
+        "country": "Iran",
+        "city": "Tehran",
+        "lat": 35.67093614696213,
+        "lon": 51.33608040918998,
+        "date": "2026-08-01 01:02:37",
+        "type": "Airstrike",
+        "severity": "critical",
+        "title": "Iran war live: Trump threatens strikes, Iran says it has a plan to respond",
+        "description": "An Iranian official quoted by Tasnim says comprehensive plans are in place to respond to any mad US strikes.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/news/liveblog/2026/7/31/iran-war-live-iran-says-it-has-a-plan-to-respond-to-any-us-attacks?traffic_source=rss",
+        "critical": true
+    },
+    {
+        "country": "USA",
+        "city": "Washington",
+        "lat": 38.91067981914783,
+        "lon": -77.07566500166747,
+        "date": "2026-08-01 01:02:37",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Analyst: the US faces a strategic ‘dead end’ in Iran",
+        "description": "Washington has reached a strategic impasse with Iran, says a former analyst for the US Congress.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/video/newsfeed/2026/7/31/analyst-the-us-faces-a-strategic-dead-end-in-iran?traffic_source=rss",
+        "critical": false
+    },
+    {
+        "country": "Ukraine",
+        "city": "Kyiv",
+        "lat": 50.38734786899404,
+        "lon": 30.50907186499874,
+        "date": "2026-08-01 01:02:35",
+        "type": "Airstrike",
+        "severity": "critical",
+        "title": "Trump Backs Away From Deal to Let Ukraine Build Patriot Missiles",
+        "description": "The president of Ukraine had warned that the country was running out of Patriot interceptors, the most reliable weapon it has to shoot down Russian ballistic missiles.",
+        "fatalities": "0",
+        "link": "https://www.nytimes.com/2026/07/31/us/politics/trump-ukraine-patriot-missiles.html",
+        "critical": true
+    },
+    {
         "country": "USA",
         "city": "New york",
         "lat": 40.709828375143374,
@@ -3021,48 +3063,6 @@
         "description": "Russian strikes killed at least eight people and wounded more than a dozen others across Ukraine, authorities said on Thursday, triggering renewed calls from Kyiv for its allies to send air defence supplies. The overnight attack, which involved 74 missiles and 284 drones according to the air force, also resulted in casualties in the capital Kyiv, and in Poltava.",
         "fatalities": "0",
         "link": "https://www.france24.com/en/video/20260730-russian-strikes-kill-at-least-8-wound-dozens-across-ukraine",
-        "critical": true
-    },
-    {
-        "country": "Europe",
-        "city": "Paris",
-        "lat": 48.845671867068354,
-        "lon": 2.2836603530989867,
-        "date": "2026-07-30 11:19:38",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Paris neighbourhoods: The charming 3rd arrondissement",
-        "description": "In this edition of French Connections, Genie Godula and Florence Villeminot continue their tour of Paris with a stop in the 3rd arrondissement. This is the quieter, more local side of the Marais and one of the oldest neighbourhoods in the French capital. It's a place where medieval history rubs shoulders with contemporary creativity. From the Knights Templar to fashion designers, from royal prisoners to food lovers – not to mention fascinating an",
-        "fatalities": "0",
-        "link": "https://www.france24.com/en/tv-shows/french-connections/20260730-paris-neighbourhoods-the-charming-3rd-arrondissement",
-        "critical": false
-    },
-    {
-        "country": "Europe",
-        "city": "Brussels",
-        "lat": 50.867482830145256,
-        "lon": 4.373649925702125,
-        "date": "2026-07-30 11:19:38",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "🔴 Fires in Europe live: France gives green light for 84,000 evacuees to return home",
-        "description": "",
-        "fatalities": "0",
-        "link": "https://www.france24.com/en/europe/20260730-live-fontainebleau-fire-contained-but-southern-europe-on-high-alert-as-wildfires-rage",
-        "critical": false
-    },
-    {
-        "country": "Iran",
-        "city": "Tehran",
-        "lat": 35.6981316768596,
-        "lon": 51.38784733517668,
-        "date": "2026-07-30 11:19:38",
-        "type": "Airstrike",
-        "severity": "critical",
-        "title": "Middle East live: Tehran threatens to 'punish the aggressor today' after deadly US strikes on Iran",
-        "description": "Iran’s Revolutionary Guards on Thursday promised to “punish the aggressor today”, state media reported, following a heavy wave of overnight US air strikes on the Islamic Republic that killed at least three people, one of whom was a two-year-old child. The US military said it had struck dozens of Revolutionary Guard targets across the country, including military command centres and drone facilities. Follow our liveblog for all the latest updates.",
-        "fatalities": "0",
-        "link": "https://www.france24.com/en/middle-east/20260730-middle-east-live-us-air-strikes-on-iran-qeshm-island-kill-three-people",
         "critical": true
     }
 ]
