@@ -1,5 +1,47 @@
 [
     {
+        "country": "USA",
+        "city": "New york",
+        "lat": 40.75075023979901,
+        "lon": -73.98461825864322,
+        "date": "2026-08-02 23:08:48",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Exclusive: Newsom shows fundraising muscle for state parties",
+        "description": "Gavin Newsom is quietly banking a lot of goodwill among party organizers and elected officials in states — particularly in the South — that will be key in the midterms and the 2028 Democratic presidential primary.Newsom has raised more than $1.7 million for critical state parties and their legislative committees so far this two-year cycle, according to data reviewed by Axios.Why it matters: State party leaders told Axios that the California gover",
+        "fatalities": "0",
+        "link": "https://www.axios.com/2026/08/02/newsom-fundraising-democrats-2028",
+        "critical": false
+    },
+    {
+        "country": "Iran",
+        "city": "Tehran",
+        "lat": 35.65183582006677,
+        "lon": 51.32227880007286,
+        "date": "2026-08-02 23:08:34",
+        "type": "Airstrike",
+        "severity": "critical",
+        "title": "Live: Trump says new talks with Iran to begin Monday after calling off strikes",
+        "description": "US President Donald Trump said that negotiations with Iran will begin Monday after he decided to hold off on new strikes against the Islamic republic to pursue a deal. Read our live blog to see how events unfolded.",
+        "fatalities": "0",
+        "link": "https://www.france24.com/en/middle-east/20260802-live-trump-says-new-talks-with-iran-to-begin-monday-after-calling-off-strikes",
+        "critical": true
+    },
+    {
+        "country": "Africa",
+        "city": "Sudan",
+        "lat": 12.899440047801376,
+        "lon": 30.16156384006934,
+        "date": "2026-08-02 23:08:31",
+        "type": "Airstrike",
+        "severity": "critical",
+        "title": "Sudan army drone attack on Darfur kills 35, rights group says",
+        "description": "Tens of thousands of people have been killed in the ongoing war between army chief al-Burhan and RSF commander Dagalo.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/news/2026/8/2/sudan-army-drone-attack-on-darfur-kills-35-rights-group-says?traffic_source=rss",
+        "critical": true
+    },
+    {
         "country": "Asia",
         "city": "Host",
         "lat": 33.3310545610185,
@@ -3022,47 +3064,5 @@
         "fatalities": "0",
         "link": "https://www.bbc.co.uk/news/articles/ce973yvk7pko?at_medium=RSS&at_campaign=rss",
         "critical": true
-    },
-    {
-        "country": "Asia",
-        "city": "Pakistan",
-        "lat": 31.566533161145486,
-        "lon": 74.3210476614481,
-        "date": "2026-08-01 07:10:53",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Search Continues for 6 Climbers After Pakistan Avalanche",
-        "description": "Four bodies, including that of an American climber, have been recovered since the avalanche struck on Thursday. The fate of renowned mountaineer Nirmal Purja was still unclear.",
-        "fatalities": "0",
-        "link": "https://www.nytimes.com/2026/08/01/world/asia/pakistan-avalanche-climbers-purja.html",
-        "critical": false
-    },
-    {
-        "country": "Middle East",
-        "city": "Red sea",
-        "lat": 27.160747548217955,
-        "lon": 33.832962865666595,
-        "date": "2026-08-01 04:31:37",
-        "type": "Naval",
-        "severity": "normal",
-        "title": "Yemen’s Houthis deny plan to charge ships transiting Red Sea",
-        "description": "Houthis say Red Sea route remains free to use, pushing back on report of new shipping fees.",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/news/2026/8/1/yemens-houthis-deny-plan-to-charge-ships-transiting-red-sea?traffic_source=rss",
-        "critical": false
-    },
-    {
-        "country": "Israel",
-        "city": "Gaza",
-        "lat": 31.538261223947135,
-        "lon": 34.464905723334844,
-        "date": "2026-08-01 04:31:37",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Is Israel really ready to withdraw from Gaza?",
-        "description": "Netanyahu faces political turmoil over Gaza disarmament plan tied to Israels potential withdrawal from the enclave.",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/news/2026/8/1/is-israel-really-ready-to-withdraw-from-gaza?traffic_source=rss",
-        "critical": false
     }
 ]
