@@ -1,6 +1,34 @@
 [
     {
         "country": "USA",
+        "city": "Washington",
+        "lat": 38.91401599264987,
+        "lon": -77.04538314192104,
+        "date": "2026-08-03 00:11:20",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Rep. Max Miller not dropping out after domestic abuse allegations",
+        "description": "Ohio GOP Rep. Max Miller said Sunday he will stay in his reelection race, using a livestream on X to deny allegations he abused his ex-wife and their young daughter.Shortly after his announcement, his ex-father-in-law, Sen. Bernie Moreno (R-Ohio), denounced him as a \"danger\" to his daughter and unfit for office.Why it matters: The extraordinary public split between two Trump-aligned Ohio Republicans comes days before the state's deadline to repla",
+        "fatalities": "0",
+        "link": "https://www.axios.com/2026/08/02/max-miller-moreno-abuse-allegations",
+        "critical": false
+    },
+    {
+        "country": "Iran",
+        "city": "Tehran",
+        "lat": 35.74312102959111,
+        "lon": 51.4548314859117,
+        "date": "2026-08-03 00:11:13",
+        "type": "Airstrike",
+        "severity": "critical",
+        "title": "Trump says new round of Iran talks will begin Monday",
+        "description": "The US president says Gulf allies and Tehran urged him to delay planned strikes.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/news/2026/8/2/trump-says-new-round-of-iran-talks-will-begin-monday?traffic_source=rss",
+        "critical": true
+    },
+    {
+        "country": "USA",
         "city": "New york",
         "lat": 40.75075023979901,
         "lon": -73.98461825864322,
@@ -3036,33 +3064,5 @@
         "fatalities": "0",
         "link": "https://www.aljazeera.com/video/newsfeed/2026/8/1/protesters-detained-at-rally-in-support-of-pakistan-administered-kashmir?traffic_source=rss",
         "critical": false
-    },
-    {
-        "country": "Israel",
-        "city": "Tel Aviv",
-        "lat": 32.02816614974657,
-        "lon": 34.8389608973234,
-        "date": "2026-08-01 07:10:53",
-        "type": "Airstrike",
-        "severity": "critical",
-        "title": "Israeli West Bank settler tells BBC attacks on Palestinians are justified as revenge",
-        "description": "Settler violence against Palestinians is on the rise in the West Bank, as settlements and outposts expand.",
-        "fatalities": "0",
-        "link": "https://www.bbc.co.uk/news/articles/c4g4djgdyk2o?at_medium=RSS&at_campaign=rss",
-        "critical": true
-    },
-    {
-        "country": "Ukraine",
-        "city": "Kyiv",
-        "lat": 50.48192085113973,
-        "lon": 30.491915854658323,
-        "date": "2026-08-01 07:10:53",
-        "type": "Airstrike",
-        "severity": "critical",
-        "title": "Russian strikes on Kyiv kill at least nine, Ukraine officials say",
-        "description": "The attack comes as Moscow escalates deadly ballistic missile attacks on the Ukrainian capital.",
-        "fatalities": "0",
-        "link": "https://www.bbc.co.uk/news/articles/ce973yvk7pko?at_medium=RSS&at_campaign=rss",
-        "critical": true
     }
 ]
