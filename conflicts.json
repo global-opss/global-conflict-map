@@ -1,5 +1,61 @@
 [
     {
+        "country": "Africa",
+        "city": "Niger",
+        "lat": 13.842887520045851,
+        "lon": 5.249733447891746,
+        "date": "2026-08-03 21:02:40",
+        "type": "Evacuation",
+        "severity": "critical",
+        "title": "Hundreds flee Tigray after fighting flares near border",
+        "description": "In tonight's edition, hundreds of people run from the most serious fighting to break out in Tigray since 2022. Also,  Nigeria's still probing links that Mexican drug cartels may have to Africa's top economy. And Cape Verde’s veteran goalkeeper ⁠Vozinha arrived in Chile ​to join first division club Colo-Colo.",
+        "fatalities": "0",
+        "link": "https://www.france24.com/en/hundreds-flee-tigray-after-fighting-flares-near-border",
+        "critical": true
+    },
+    {
+        "country": "Iran",
+        "city": "Tehran",
+        "lat": 35.75017727140071,
+        "lon": 51.4575321339646,
+        "date": "2026-08-03 21:02:36",
+        "type": "Clashes",
+        "severity": "middle",
+        "title": "Clergy members arrested while protesting at Senate office",
+        "description": "Clergy members were arrested while protesting the Iran war and voting rights concerns at the Senate office.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/video/newsfeed/2026/8/3/clergy-members-arrested-while-protesting-at-senate-office?traffic_source=rss",
+        "critical": false
+    },
+    {
+        "country": "Iran",
+        "city": "Tehran",
+        "lat": 35.75159379092174,
+        "lon": 51.35668010772529,
+        "date": "2026-08-03 21:02:36",
+        "type": "Nuclear",
+        "severity": "critical",
+        "title": "Trump says talks with Iran are ‘last chance’ to forge a deal",
+        "description": "US President Donald Trump said Iran has a last chance to reach a nuclear agreement.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/video/newsfeed/2026/8/3/trump-says-talks-with-iran-are-last-chance-to-forge-a-deal?traffic_source=rss",
+        "critical": true
+    },
+    {
+        "country": "Iran",
+        "city": "Tehran",
+        "lat": 35.698360789276016,
+        "lon": 51.41248522584292,
+        "date": "2026-08-03 21:02:36",
+        "type": "Naval",
+        "severity": "normal",
+        "title": "Trump says ongoing talks are Iran’s ‘last chance’",
+        "description": "US president demands Total Surrender amid escalating naval blockade in the crucial Strait of Hormuz.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/news/2026/8/3/trump-blasts-duplicitous-iran-after-tehran-denies-it-is-in-talks-with-the-us?traffic_source=rss",
+        "critical": false
+    },
+    {
         "country": "USA",
         "city": "Washington",
         "lat": 38.891517084441006,
@@ -182,20 +238,6 @@
         "critical": false
     },
     {
-        "country": "Iran",
-        "city": "Tehran",
-        "lat": 35.655615121780464,
-        "lon": 51.352945240423786,
-        "date": "2026-08-03 18:04:07",
-        "type": "Naval",
-        "severity": "normal",
-        "title": "Trump blasts ‘duplicitous’ Iran after Tehran denies it is in talks with the US",
-        "description": "Trump demands Total Surrender amid escalating naval blockade in the crucial Strait of Hormuz.",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/news/2026/8/3/trump-blasts-duplicitous-iran-after-tehran-denies-it-is-in-talks-with-the-us?traffic_source=rss",
-        "critical": false
-    },
-    {
         "country": "Israel",
         "city": "Tel Aviv",
         "lat": 32.153841041642416,
@@ -249,6 +291,20 @@
         "description": "Barzani meets Syrias al-Sharaa in Damascus to discuss SDF integration and Kurdish rights in post-Assad Syria.",
         "fatalities": "0",
         "link": "https://www.aljazeera.com/news/2026/8/3/iraqi-kurdish-regional-leader-meets-syrian-president-in-damascus?traffic_source=rss",
+        "critical": false
+    },
+    {
+        "country": "Iran",
+        "city": "Tehran",
+        "lat": 35.655615121780464,
+        "lon": 51.352945240423786,
+        "date": "2026-08-03 18:04:07",
+        "type": "Naval",
+        "severity": "normal",
+        "title": "Trump blasts ‘duplicitous’ Iran after Tehran denies it is in talks with the US",
+        "description": "Trump demands Total Surrender amid escalating naval blockade in the crucial Strait of Hormuz.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/news/2026/8/3/trump-blasts-duplicitous-iran-after-tehran-denies-it-is-in-talks-with-the-us?traffic_source=rss",
         "critical": false
     },
     {
@@ -462,20 +518,6 @@
         "critical": true
     },
     {
-        "country": "Europe",
-        "city": "Brussels",
-        "lat": 50.83794423033494,
-        "lon": 4.382422657251297,
-        "date": "2026-08-03 16:09:43",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Rhine falls to record low levels as drought strains Europe's rivers",
-        "description": "Low water levels in the Rhine, Danube and Po have curtailed the transport of goods and reduced electricity output.",
-        "fatalities": "0",
-        "link": "https://www.bbc.co.uk/news/articles/c78gn8zvrx4o?at_medium=RSS&at_campaign=rss",
-        "critical": false
-    },
-    {
         "country": "Iran",
         "city": "Tehran",
         "lat": 35.66630148548878,
@@ -501,6 +543,20 @@
         "description": "Fresh attacks on alternative shipping routes have left tankers facing an increasingly complex situation, analysts say.",
         "fatalities": "0",
         "link": "https://www.bbc.co.uk/news/articles/cjrv0dy2e90o?at_medium=RSS&at_campaign=rss",
+        "critical": false
+    },
+    {
+        "country": "Europe",
+        "city": "Brussels",
+        "lat": 50.83794423033494,
+        "lon": 4.382422657251297,
+        "date": "2026-08-03 16:09:43",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Rhine falls to record low levels as drought strains Europe's rivers",
+        "description": "Low water levels in the Rhine, Danube and Po have curtailed the transport of goods and reduced electricity output.",
+        "fatalities": "0",
+        "link": "https://www.bbc.co.uk/news/articles/c78gn8zvrx4o?at_medium=RSS&at_campaign=rss",
         "critical": false
     },
     {
@@ -3007,62 +3063,6 @@
         "description": "The House-passed defense bill includes a measure to encourage co-development and co-production between the U.S. and Israeli defense industrial bases.",
         "fatalities": "0",
         "link": "https://www.defensenews.com/news/pentagon-congress/2026/07/29/house-passed-defense-bill-includes-controversial-us-israel-tech-measure/",
-        "critical": false
-    },
-    {
-        "country": "Russia",
-        "city": "Moscow",
-        "lat": 55.78475579552153,
-        "lon": 37.65809268220225,
-        "date": "2026-08-01 22:08:17",
-        "type": "Airstrike",
-        "severity": "critical",
-        "title": "Trump, Zelenskyy discuss Patriot deal and reviving talks with Russia",
-        "description": "Zelenskyy later told Fox News’ “Hannity” show that Trump had “accepted that he will give us licenses” to produce the Patriot interceptors.",
-        "fatalities": "0",
-        "link": "https://www.defensenews.com/global/europe/2026/07/29/trump-zelenskyy-discuss-patriot-deal-and-reviving-talks-with-russia/",
-        "critical": true
-    },
-    {
-        "country": "Russia",
-        "city": "Moscow",
-        "lat": 55.799232973832225,
-        "lon": 37.68708386338896,
-        "date": "2026-08-01 22:08:12",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Three killed after bomb detonated at Moscow restaurant, state media say",
-        "description": "Security officials said a woman tried to enter the restaurant with explosives but was stopped by a security guard.",
-        "fatalities": "0",
-        "link": "https://www.bbc.co.uk/news/articles/c86n4ljxp63o?at_medium=RSS&at_campaign=rss",
-        "critical": false
-    },
-    {
-        "country": "Israel",
-        "city": "Tel Aviv",
-        "lat": 32.125733829254656,
-        "lon": 34.77676322087666,
-        "date": "2026-08-01 22:08:12",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Why did Ceuta migrant mayhem chill already frosty Israel-Spain relations?",
-        "description": "What caused more than 50,000 migrants to storm a Spanish enclave in Africa, and did Israel have anything to do with it?",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/news/2026/8/1/why-did-ceuta-migrant-mayhem-chill-already-frosty-israel-spain-relations?traffic_source=rss",
-        "critical": false
-    },
-    {
-        "country": "Africa",
-        "city": "Khartoum",
-        "lat": 15.468874603608477,
-        "lon": 32.58417638809105,
-        "date": "2026-08-01 22:08:12",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Al Jazeera reports from Ceuta as migrants leave the enclave",
-        "description": "Spain says “virtually all” of the estimated 60,000 migrants who stormed its North African enclave of Ceuta have left.",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/video/newsfeed/2026/8/1/al-jazeera-reports-from-ceuta-as-migrants-leave-the-enclave?traffic_source=rss",
         "critical": false
     }
 ]
