@@ -1,5 +1,47 @@
 [
     {
+        "country": "Africa",
+        "city": "Mali",
+        "lat": 12.650689990034058,
+        "lon": -7.880042789029732,
+        "date": "2026-08-04 22:41:27",
+        "type": "Airstrike",
+        "severity": "critical",
+        "title": "U.K. government reports OpenAI, Anthropic models attempted to hack companies",
+        "description": "Two third-party testing firms said Tuesday that they've uncovered more instances where Anthropic and OpenAI's most advanced models tried — and sometimes succeeded in — compromising third-party systems last month.  Why it matters: The incidents add to a growing string of disclosures showing frontier AI models taking unsanctioned actions against real people, organizations and online services while trying to complete cybersecurity evaluations.State ",
+        "fatalities": "0",
+        "link": "https://www.axios.com/2026/08/04/anthropic-openai-uk-ai-security-institute",
+        "critical": true
+    },
+    {
+        "country": "USA",
+        "city": "Pentagon",
+        "lat": 38.80649604559474,
+        "lon": -76.98927780453711,
+        "date": "2026-08-04 22:41:19",
+        "type": "Airstrike",
+        "severity": "critical",
+        "title": "Pentagon identifies American soldiers killed in Iranian attack in Jordan",
+        "description": "1st Lt. Tyler James Feehan, 25, and Pvt. Isabella Gonzales, 19, were killed in action in an Iranian ballistic missile and drone attack in Jordan.",
+        "fatalities": "0",
+        "link": "https://www.militarytimes.com/flashpoints/middle-east/2026/07/20/pentagon-identifies-american-soliders-killed-in-iranian-attack-in-jordan/",
+        "critical": true
+    },
+    {
+        "country": "Middle East",
+        "city": "Yemen",
+        "lat": 14.498508419434092,
+        "lon": 49.08758293816077,
+        "date": "2026-08-04 22:41:13",
+        "type": "Naval",
+        "severity": "normal",
+        "title": "Projectile sinks Indian-flagged ship off Yemen coast",
+        "description": "All 14 people on board the Indian-flagged vessel were safely rescued, India's ministry of external affairs says.",
+        "fatalities": "0",
+        "link": "https://www.bbc.co.uk/news/articles/cly84we1y37o?at_medium=RSS&at_campaign=rss",
+        "critical": false
+    },
+    {
         "country": "China",
         "city": "Beijing",
         "lat": 39.859286653136884,
@@ -3021,48 +3063,6 @@
         "description": "Footage shows blast victims hurried into a hospital in northwestern Pakistan, after a suicide bombing.",
         "fatalities": "0",
         "link": "https://www.aljazeera.com/video/newsfeed/2026/8/3/suicide-bombing-kills-at-least-14-people-in-pakistans-swat-valley?traffic_source=rss",
-        "critical": true
-    },
-    {
-        "country": "Iran",
-        "city": "Tehran",
-        "lat": 35.67665809331338,
-        "lon": 51.37967046685951,
-        "date": "2026-08-03 04:00:22",
-        "type": "Clashes",
-        "severity": "middle",
-        "title": "Iran war live: Trump says talks to resume; Tehran urges US to honour MoU",
-        "description": "US President Donald Trump says an agreement with Iran is imminent, with negotiations set to begin on Monday.",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/news/liveblog/2026/8/3/iran-war-live-trump-says-talks-set-to-begin-tehran-urges-us-to-honour-mou?traffic_source=rss",
-        "critical": false
-    },
-    {
-        "country": "USA",
-        "city": "Washington",
-        "lat": 38.91401599264987,
-        "lon": -77.04538314192104,
-        "date": "2026-08-03 00:11:20",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Rep. Max Miller not dropping out after domestic abuse allegations",
-        "description": "Ohio GOP Rep. Max Miller said Sunday he will stay in his reelection race, using a livestream on X to deny allegations he abused his ex-wife and their young daughter.Shortly after his announcement, his ex-father-in-law, Sen. Bernie Moreno (R-Ohio), denounced him as a \"danger\" to his daughter and unfit for office.Why it matters: The extraordinary public split between two Trump-aligned Ohio Republicans comes days before the state's deadline to repla",
-        "fatalities": "0",
-        "link": "https://www.axios.com/2026/08/02/max-miller-moreno-abuse-allegations",
-        "critical": false
-    },
-    {
-        "country": "Iran",
-        "city": "Tehran",
-        "lat": 35.74312102959111,
-        "lon": 51.4548314859117,
-        "date": "2026-08-03 00:11:13",
-        "type": "Airstrike",
-        "severity": "critical",
-        "title": "Trump says new round of Iran talks will begin Monday",
-        "description": "The US president says Gulf allies and Tehran urged him to delay planned strikes.",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/news/2026/8/2/trump-says-new-round-of-iran-talks-will-begin-monday?traffic_source=rss",
         "critical": true
     }
 ]
