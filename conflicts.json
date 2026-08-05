@@ -1,5 +1,61 @@
 [
     {
+        "country": "USA",
+        "city": "Washington",
+        "lat": 38.95895270489637,
+        "lon": -77.07484351221136,
+        "date": "2026-08-05 19:46:43",
+        "type": "Naval",
+        "severity": "normal",
+        "title": "Senate confirms Schwartz for CDC director",
+        "description": "The Senate confirmed Erica Schwartz for Centers for Disease Control director on Wednesday, giving the beleaguered agency its first full-time political leader in almost a year.Why it matters: While the 51-44 vote marked a step toward refilling the depleted ranks of the Trump administration's health care leadership, it didn't fully resolve questions about whether Schwartz could steer clear of political interference.Driving the news: Just one Democr",
+        "fatalities": "0",
+        "link": "https://www.axios.com/2026/08/05/senate-confirms-cdc-director",
+        "critical": false
+    },
+    {
+        "country": "Ukraine",
+        "city": "Kyiv",
+        "lat": 50.50835170955564,
+        "lon": 30.494713935609912,
+        "date": "2026-08-05 19:46:32",
+        "type": "Airstrike",
+        "severity": "critical",
+        "title": "Is the conflict between Russia and Ukraine deepening?",
+        "description": "The war sees a surge in attacks by both sides with little diplomatic movement.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/video/inside-story/2026/8/5/is-the-conflict-between-russia-and-ukraine-deepening?traffic_source=rss",
+        "critical": true
+    },
+    {
+        "country": "Africa",
+        "city": "Niger",
+        "lat": 13.81357469683108,
+        "lon": 5.2005248062485885,
+        "date": "2026-08-05 19:46:31",
+        "type": "Clashes",
+        "severity": "middle",
+        "title": "Nigeria's president orders 80% salary increase for junior soldiers",
+        "description": "The announcement comes as Nigeria's security forces struggle to contain multiple threats.",
+        "fatalities": "0",
+        "link": "https://www.bbc.co.uk/news/articles/cj031jp3g6jo?at_medium=RSS&at_campaign=rss",
+        "critical": false
+    },
+    {
+        "country": "Ukraine",
+        "city": "Kyiv",
+        "lat": 50.39095512280422,
+        "lon": 30.577239870748205,
+        "date": "2026-08-05 19:46:29",
+        "type": "Airstrike",
+        "severity": "critical",
+        "title": "After deadly Kyiv strike, Ukraine warns interceptor shortage is costing lives",
+        "description": "Without Patriot interceptors, Ukraine's skies are wide open and people are fully exposed to Russia's missile barrages.",
+        "fatalities": "0",
+        "link": "https://www.bbc.co.uk/news/articles/cyvlgq2gp2eo?at_medium=RSS&at_campaign=rss",
+        "critical": true
+    },
+    {
         "country": "Asia",
         "city": "Tokyo",
         "lat": 35.64083452294341,
@@ -154,20 +210,6 @@
         "critical": false
     },
     {
-        "country": "Africa",
-        "city": "Somalia",
-        "lat": 5.167170693358667,
-        "lon": 46.16317070177485,
-        "date": "2026-08-05 17:58:04",
-        "type": "Clashes",
-        "severity": "middle",
-        "title": "Puntland forces seize government-held camp in Somalia’s Galkayo",
-        "description": "Puntland says it has taken control of Galkayo camp as rival federal-aligned forces retreat following intense clashes.",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/news/2026/8/5/puntland-forces-seize-government-held-camp-in-somalias-galkayo?traffic_source=rss",
-        "critical": false
-    },
-    {
         "country": "Middle East",
         "city": "Beirut",
         "lat": 33.94974744410391,
@@ -194,6 +236,20 @@
         "fatalities": "0",
         "link": "https://www.aljazeera.com/video/newsfeed/2026/8/5/5-8-sv-russia-attacks-kyiv-ua?traffic_source=rss",
         "critical": true
+    },
+    {
+        "country": "Africa",
+        "city": "Somalia",
+        "lat": 5.167170693358667,
+        "lon": 46.16317070177485,
+        "date": "2026-08-05 17:58:04",
+        "type": "Clashes",
+        "severity": "middle",
+        "title": "Puntland forces seize government-held camp in Somalia’s Galkayo",
+        "description": "Puntland says it has taken control of Galkayo camp as rival federal-aligned forces retreat following intense clashes.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/news/2026/8/5/puntland-forces-seize-government-held-camp-in-somalias-galkayo?traffic_source=rss",
+        "critical": false
     },
     {
         "country": "Iran",
@@ -616,20 +672,6 @@
         "critical": false
     },
     {
-        "country": "Ukraine",
-        "city": "Kyiv",
-        "lat": 50.46742829253808,
-        "lon": 30.493561798367026,
-        "date": "2026-08-05 14:37:36",
-        "type": "Airstrike",
-        "severity": "critical",
-        "title": "Russia strike kills 21 as Ukraine says it needs more missile interceptors",
-        "description": "The Russia defence ministry said it had struck logistics hubs and supply centres in Kyiv and the surrounding region.",
-        "fatalities": "0",
-        "link": "https://www.bbc.co.uk/news/articles/c330pxyvzzyo?at_medium=RSS&at_campaign=rss",
-        "critical": true
-    },
-    {
         "country": "Iran",
         "city": "Tehran",
         "lat": 35.65687670593363,
@@ -642,6 +684,20 @@
         "fatalities": "0",
         "link": "https://www.bbc.co.uk/news/articles/c75gvzxrz49o?at_medium=RSS&at_campaign=rss",
         "critical": false
+    },
+    {
+        "country": "Ukraine",
+        "city": "Kyiv",
+        "lat": 50.46742829253808,
+        "lon": 30.493561798367026,
+        "date": "2026-08-05 14:37:36",
+        "type": "Airstrike",
+        "severity": "critical",
+        "title": "Russia strike kills 21 as Ukraine says it needs more missile interceptors",
+        "description": "The Russia defence ministry said it had struck logistics hubs and supply centres in Kyiv and the surrounding region.",
+        "fatalities": "0",
+        "link": "https://www.bbc.co.uk/news/articles/c330pxyvzzyo?at_medium=RSS&at_campaign=rss",
+        "critical": true
     },
     {
         "country": "China",
@@ -716,20 +772,6 @@
     {
         "country": "Ukraine",
         "city": "Kyiv",
-        "lat": 50.485505426258825,
-        "lon": 30.579627323656823,
-        "date": "2026-08-05 12:11:41",
-        "type": "Airstrike",
-        "severity": "critical",
-        "title": "'Terrifying': deadly Russian attack on Kyiv overwhelms Ukraine's air defence",
-        "description": "At least 17 people died in a brutal Russian attack on #Kyiv and its region, including eight at a railway station. While it managed to intercept most drones, #Ukraine failed to stop a single Russian missile as it struggles with a crucial shortage of #US-made ballistic interceptors.",
-        "fatalities": "0",
-        "link": "https://www.france24.com/en/video/20260805-terrifying-deadly-russian-attack-on-kyiv-overwhelms-ukraine-s-air-defence",
-        "critical": true
-    },
-    {
-        "country": "Ukraine",
-        "city": "Kyiv",
         "lat": 50.51006380215805,
         "lon": 30.459199909847428,
         "date": "2026-08-05 12:11:41",
@@ -782,6 +824,20 @@
         "fatalities": "0",
         "link": "https://www.defensenews.com/global/mideast-africa/2026/08/03/unifils-final-months-uncertainty-persists-in-lebanon-over-what-comes-next/",
         "critical": false
+    },
+    {
+        "country": "Ukraine",
+        "city": "Kyiv",
+        "lat": 50.485505426258825,
+        "lon": 30.579627323656823,
+        "date": "2026-08-05 12:11:41",
+        "type": "Airstrike",
+        "severity": "critical",
+        "title": "'Terrifying': deadly Russian attack on Kyiv overwhelms Ukraine's air defence",
+        "description": "At least 17 people died in a brutal Russian attack on #Kyiv and its region, including eight at a railway station. While it managed to intercept most drones, #Ukraine failed to stop a single Russian missile as it struggles with a crucial shortage of #US-made ballistic interceptors.",
+        "fatalities": "0",
+        "link": "https://www.france24.com/en/video/20260805-terrifying-deadly-russian-attack-on-kyiv-overwhelms-ukraine-s-air-defence",
+        "critical": true
     },
     {
         "country": "China",
@@ -3007,62 +3063,6 @@
         "description": "Four people, including three civilians, were killed by an unidentified Russian soldier in the Black Sea city of Sevastopol in Russian-annexed Crimea, officials said Tuesday. The deadly shooting comes a day after six civilians, including three children, were killed in a Ukrainian drone attack on the beach of a Russian Black Sea resort, according to local authorities.",
         "fatalities": "0",
         "link": "https://www.france24.com/en/europe/20260804-at-least-9-russian-civilians-killed-as-ukraine-war-takes-its-toll-on-black-sea-shores",
-        "critical": false
-    },
-    {
-        "country": "Israel",
-        "city": "Tel Aviv",
-        "lat": 32.020806138342195,
-        "lon": 34.80341381472963,
-        "date": "2026-08-04 10:01:39",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Michigan Democrats pick nominee in high-profile Senate primary amid record pro-Israel spending",
-        "description": "US Democrats vote Tuesday in a high-profile Senate primary in Michigan, choosing between a left-wing populist and an establishment-backed congresswoman who received the largest-ever financial contributions in a Democratic congressional primary, with pro-Israel lobby AIPAC spending some $30 million on the race.",
-        "fatalities": "0",
-        "link": "https://www.france24.com/en/americas/20260804-michigan-democrats-pick-nominee-in-high-profile-senate-primary-amid-record-pro-israel-spending-abdul-stevens",
-        "critical": false
-    },
-    {
-        "country": "Middle East",
-        "city": "Beirut",
-        "lat": 33.858003444633475,
-        "lon": 35.529705394642484,
-        "date": "2026-08-04 10:01:34",
-        "type": "Explosion",
-        "severity": "middle",
-        "title": "We demand accountability for the Beirut blast",
-        "description": "Six years after the explosion, the domestic investigation is complete, but an indictment is yet to be issued.",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/opinions/2026/8/4/we-demand-accountability-for-the-beirut-blast?traffic_source=rss",
-        "critical": false
-    },
-    {
-        "country": "USA",
-        "city": "Washington",
-        "lat": 38.909268139947386,
-        "lon": -77.05188061885995,
-        "date": "2026-08-04 10:01:34",
-        "type": "Evacuation",
-        "severity": "critical",
-        "title": "US arrests suspect over Spokane wildfire as tens of thousands flee blaze",
-        "description": "Authorities say about 65,000 people have been displaced by the fires in Washington state.",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/news/2026/8/4/us-arrests-suspect-over-spokane-wildfire-as-tens-of-thousands-flee-blaze?traffic_source=rss",
-        "critical": true
-    },
-    {
-        "country": "Russia",
-        "city": "Moscow",
-        "lat": 55.7726684949155,
-        "lon": 37.62511165688589,
-        "date": "2026-08-04 10:01:30",
-        "type": "Clashes",
-        "severity": "middle",
-        "title": "Soldier kills four in gun rampage in Russian-occupied Crimea",
-        "description": "The region's Moscow-installed governor says the gunman has been detained after firing at fellow soldiers and civilians.",
-        "fatalities": "0",
-        "link": "https://www.bbc.co.uk/news/articles/c80n33lrnm5o?at_medium=RSS&at_campaign=rss",
         "critical": false
     }
 ]
