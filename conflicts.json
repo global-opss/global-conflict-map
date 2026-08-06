@@ -1,5 +1,61 @@
 [
     {
+        "country": "USA",
+        "city": "Washington",
+        "lat": 38.91923782772742,
+        "lon": -77.01611651104045,
+        "date": "2026-08-06 00:12:55",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Trump Marine One flight under investigation after potential safety mishap",
+        "description": "Federal aviation officials are investigating an air-safety incident involving President Trump's Marine One helicopter in Washington, D.C.Why it matters: The incident comes as regulators work to improve safety in increasingly congested U.S. airspace, particularly around D.C.Zoom in: The Wall Street Journal first reported that the helicopter was carrying Trump on Tuesday when it flew too close to a commercial airliner departing from Ronald Reagan W",
+        "fatalities": "0",
+        "link": "https://www.axios.com/2026/08/05/trump-marine-one-air-safety-investigation",
+        "critical": false
+    },
+    {
+        "country": "Africa",
+        "city": "Niger",
+        "lat": 13.744908086438528,
+        "lon": 5.30054999319152,
+        "date": "2026-08-06 00:12:46",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Nigeria announces rescue of 308 kidnapped citizens",
+        "description": "Kidnapping for ransom by armed groups and bandits has become a major crisis in Nigeria.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/news/2026/8/5/nigeria-announces-rescue-of-308-kidnapped-citizens?traffic_source=rss",
+        "critical": false
+    },
+    {
+        "country": "USA",
+        "city": "New york",
+        "lat": 40.78164125324716,
+        "lon": -73.97280478054537,
+        "date": "2026-08-06 00:12:44",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Mamdani praises El-Sayed’s victory, rejects ‘mini Mamdani’ trope",
+        "description": "New York City’s Mayor Zohran Mamdani congratulated Abdul El-Sayed on winning Michigan’s Democratic Senate primary.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/video/newsfeed/2026/8/6/mamdani-praises-el-sayeds-victory-rejects-mini-mamdani-trope?traffic_source=rss",
+        "critical": false
+    },
+    {
+        "country": "Iran",
+        "city": "Tehran",
+        "lat": 35.70004662287194,
+        "lon": 51.3861388344321,
+        "date": "2026-08-06 00:12:44",
+        "type": "Naval",
+        "severity": "normal",
+        "title": "Iran war live: Tehran, Oman close in on Hormuz deal; Houthis attack tankers",
+        "description": "Iran, Oman agree on shipping routes in the Strait of Hormuz, as Houthis attack Saudi tankers and Israel bombs Lebanon.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/news/liveblog/2026/8/6/iran-war-live-tehran-oman-close-in-on-hormuz-deal-houthis-attack-tankers?traffic_source=rss",
+        "critical": false
+    },
+    {
         "country": "Asia",
         "city": "Pakistan",
         "lat": 31.463055865807522,
@@ -588,20 +644,6 @@
         "critical": false
     },
     {
-        "country": "Russia",
-        "city": "Moscow",
-        "lat": 55.77918866825717,
-        "lon": 37.608990572269356,
-        "date": "2026-08-05 16:19:33",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Theme park or political park: Did France's 'Puy du Fou' break Russian sanctions?",
-        "description": "Is one of France’s favorite theme parks a ‘Disneyland for Dictators,’ as The Guardian claims? The British paper has uncovered documents that indicate the French theme park ‘Puy du Fou’ continued working with a Russian oligarch long after sanctions on him were in place, in addition to ties with Vladimir Putin. Solange Mougin has more on the popular French destination, its expansion plans abroad and how critics say it is re-writing history.",
-        "fatalities": "0",
-        "link": "https://www.france24.com/en/video/20260805-theme-park-or-political-park-did-france-s-puy-du-fou-break-russian-sanctions",
-        "critical": false
-    },
-    {
         "country": "Iran",
         "city": "Tehran",
         "lat": 35.735743856613006,
@@ -628,6 +670,20 @@
         "fatalities": "0",
         "link": "https://www.defensenews.com/news/your-military/2026/07/30/iran-war-depleted-us-patriot-missile-stockpiles-creating-readiness-challenges-experts-say/",
         "critical": true
+    },
+    {
+        "country": "Russia",
+        "city": "Moscow",
+        "lat": 55.77918866825717,
+        "lon": 37.608990572269356,
+        "date": "2026-08-05 16:19:33",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Theme park or political park: Did France's 'Puy du Fou' break Russian sanctions?",
+        "description": "Is one of France’s favorite theme parks a ‘Disneyland for Dictators,’ as The Guardian claims? The British paper has uncovered documents that indicate the French theme park ‘Puy du Fou’ continued working with a Russian oligarch long after sanctions on him were in place, in addition to ties with Vladimir Putin. Solange Mougin has more on the popular French destination, its expansion plans abroad and how critics say it is re-writing history.",
+        "fatalities": "0",
+        "link": "https://www.france24.com/en/video/20260805-theme-park-or-political-park-did-france-s-puy-du-fou-break-russian-sanctions",
+        "critical": false
     },
     {
         "country": "Africa",
@@ -3007,62 +3063,6 @@
         "description": "Faruku Hassan Bunza, a Nigerian judge abducted from his home in Bunza town by unidentified gunmen on July 26, has been freed, police said on August 3. Kidnappings are routinely used by criminal groups in Nigeria to secure lucrative ransom payments from either the government or victims' families. The exact details of Bunza's release were not immediately clear, and the attackers remain at large.",
         "fatalities": "0",
         "link": "https://www.france24.com/en/video/20260804-nigerian-judge-kidnapped-from-his-home-by-unknown-gunmen-has-been-freed",
-        "critical": true
-    },
-    {
-        "country": "Israel",
-        "city": "Gaza",
-        "lat": 31.532047732391582,
-        "lon": 34.40364545114311,
-        "date": "2026-08-04 12:15:45",
-        "type": "Airstrike",
-        "severity": "critical",
-        "title": "Trump's announced breakthrough with Hamas fuels growing discord with Israel",
-        "description": "Just days after US President Donald Trump announced a deal that would see Hamas to completely disarm in Gaza, the plan seems to be unravelling. Israel says it has expressed concern to Washington about the plan as it steps up its bombing campaign over the enclave.  This as far-right ministers put pressure on PM Benjamin Netanyahu not to allow international forces to enter Gaza, as approved by the government. People in Gaza also say Trump's plan is",
-        "fatalities": "0",
-        "link": "https://www.france24.com/en/trump-s-announced-breakthrough-with-hamas-fuels-growing-discord-with-israel",
-        "critical": true
-    },
-    {
-        "country": "Israel",
-        "city": "Gaza",
-        "lat": 31.463232269269316,
-        "lon": 34.40199652933258,
-        "date": "2026-08-04 12:15:45",
-        "type": "Evacuation",
-        "severity": "critical",
-        "title": "Who are the migrants that remain in Spain's Ceuta?",
-        "description": "Local authorities in Spain's North African enclave of Ceuta are struggling to cope with the thousands that stayed behind after a massive border rush last week. They say among those who remain are significant numbers of people from other countries, including Sudanese fleeing their war-torn country, Afghans and Palestinians from Gaza. They recount their journey.",
-        "fatalities": "0",
-        "link": "https://www.france24.com/en/who-are-the-immigrants-that-remain-in-spain-s-ceuta",
-        "critical": true
-    },
-    {
-        "country": "Europe",
-        "city": "Sweden",
-        "lat": 59.80233155383233,
-        "lon": 15.557755513209443,
-        "date": "2026-08-04 12:15:43",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Despite World Cup success, controversy-marred Infantino faces tough election",
-        "description": "Gianni Infantino is in a dogfight to save his FIFA presidency. The national soccer federations of Sweden and Wales have withdrawn their support for his re-election bid, with the English Football Association reportedly set to do likewise. Those follow similar rebukes from Europe's UEFA and North America's CONCACAF. Football fans and clubs have been up in arms over Infantino's now-scrapped plans to sell off shares of World Cup profits to private in",
-        "fatalities": "0",
-        "link": "https://www.france24.com/en/despite-world-cup-success-controversy-marred-infantino-loses-election-support",
-        "critical": false
-    },
-    {
-        "country": "Europe",
-        "city": "Romania",
-        "lat": 46.010219912186066,
-        "lon": 24.963499387893176,
-        "date": "2026-08-04 12:15:41",
-        "type": "Nuclear",
-        "severity": "critical",
-        "title": "Romania, Hungary, France... Europe's nuclear power plants tested by heatwave",
-        "description": "Record low water levels in Europe's major rivers have ​reduced electricity output and shrunk company earnings, stoking fears about the economic impact of searing heat and erratic rainfall.\n \nGovernments across Central and Eastern Europe are taking steps to conserve electricity and avert an energy crisis as record low water levels on the Danube River have forced power plants to the brink of shutting down.",
-        "fatalities": "0",
-        "link": "https://www.france24.com/en/video/20260804-romania-hungary-france-europe-s-nuclear-power-plants-tested-by-heatwave",
         "critical": true
     }
 ]
