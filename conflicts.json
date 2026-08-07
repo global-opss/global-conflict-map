@@ -1,5 +1,47 @@
 [
     {
+        "country": "Iran",
+        "city": "Tehran",
+        "lat": 35.647766235255915,
+        "lon": 51.359818726033936,
+        "date": "2026-08-07 23:40:51",
+        "type": "Clashes",
+        "severity": "middle",
+        "title": "Iran Shows Off Wreckage of U.S. Aircraft Lost During Operation Epic Fury",
+        "description": "Iranian state media has released images of a display of aircraft wreckage from the U.S.-Iran war, including remnants of DUDE 44, an F-15E Strike Eagle which can now be confirmed without doubt as airframe 00-3000. The aircraft remains have been arranged on display in underground chambers, and alongside the F-15E Strike Eagle the exhibition also []",
+        "fatalities": "0",
+        "link": "https://theaviationist.com/2026/08/08/iran-aircraft-wreckage-epic-fury/",
+        "critical": false
+    },
+    {
+        "country": "Asia",
+        "city": "Pakistan",
+        "lat": 31.469829585517804,
+        "lon": 74.31513517765099,
+        "date": "2026-08-07 23:40:42",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Will Pakistan-Saudi-Turkiye alliance actually create a new regional order?",
+        "description": "The Mecca Joint Defence Pact brings together countries that sit between Iran and Israel, but will it be effective?",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/news/2026/8/7/new-regional-order-pakistan-turkiye-saudi-arabia?traffic_source=rss",
+        "critical": false
+    },
+    {
+        "country": "Israel",
+        "city": "Tel Aviv",
+        "lat": 32.08017038903562,
+        "lon": 34.71525742019238,
+        "date": "2026-08-07 23:40:42",
+        "type": "Airstrike",
+        "severity": "critical",
+        "title": "Medics among six Palestinians injured in Israeli attacks across West Bank",
+        "description": "Since January, Palestinians have reported more than 11,000 Israeli attacks in the occupied West Bank, officials say.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/news/2026/8/7/medics-among-six-palestinians-injured-in-israeli-attacks-across-west-bank?traffic_source=rss",
+        "critical": true
+    },
+    {
         "country": "Israel",
         "city": "Jerusalem",
         "lat": 31.78065060734362,
@@ -3022,47 +3064,5 @@
         "fatalities": "0",
         "link": "https://www.axios.com/2026/08/06/openai-hugging-face-black-hat",
         "critical": true
-    },
-    {
-        "country": "Asia",
-        "city": "Host",
-        "lat": 33.26779920399801,
-        "lon": 69.9267238682613,
-        "date": "2026-08-06 03:44:53",
-        "type": "Naval",
-        "severity": "normal",
-        "title": "Tucker Carlson unveils 10-point manifesto amid third-party speculation",
-        "description": "Tucker Carlson used a highly promoted livestream Wednesday to unveil a 10-point vision for America — defining the worldview of a breakaway MAGA faction increasingly at odds with President Trump.Why it matters: After vowing last month to \"help build a third party,\" Carlson fueled further speculation this weekend by hosting MAGA dissidents at his home in Maine, where they urged him to run for president in 2028.The former Fox News host stopped short",
-        "fatalities": "0",
-        "link": "https://www.axios.com/2026/08/06/tucker-carlson-third-party-israel-trump",
-        "critical": false
-    },
-    {
-        "country": "Asia",
-        "city": "Host",
-        "lat": 33.388284586752825,
-        "lon": 69.88697297568964,
-        "date": "2026-08-06 03:44:53",
-        "type": "Airstrike",
-        "severity": "critical",
-        "title": "Chuck Edwards' abrupt exit leaves Republicans scrambling",
-        "description": "For Speaker Mike Johnson, Rep. Chuck Edwards' decision to drop his re-election bid just trades one problem for another.\n\nWhy it matters: Instead of trying to hold a vulnerable seat with a scandal-ridden candidate, Republicans now have to scramble for a replacement who'll be starting at square one three months out from Election Day against a well-funded Democrat.North Carolina's 11th District already was in Democrats' sights long before Edwards be",
-        "fatalities": "0",
-        "link": "https://www.axios.com/2026/08/05/house-republicans-mike-johnson-chuck-edwards-midterms-north-carolina",
-        "critical": true
-    },
-    {
-        "country": "Iran",
-        "city": "Tehran",
-        "lat": 35.63370263062457,
-        "lon": 51.383308621888546,
-        "date": "2026-08-06 03:44:46",
-        "type": "Naval",
-        "severity": "normal",
-        "title": "Iran says Hormuz deal with Oman in final stage as Trump signals breakthrough",
-        "description": "Iran said an agreement with Oman over the Strait of Hormuz is in its final stages, while President Donald Trump suggested a deal could be announced within days, raising hopes of easing a blockade that has disrupted global shipping and fueled months of conflict.",
-        "fatalities": "0",
-        "link": "https://www.france24.com/en/middle-east/20260806-iran-says-hormuz-deal-with-oman-in-final-stage-as-trump-signals-breakthrough",
-        "critical": false
     }
 ]
