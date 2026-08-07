@@ -1,5 +1,47 @@
 [
     {
+        "country": "Middle East",
+        "city": "Yemen",
+        "lat": 14.580701053857881,
+        "lon": 49.15824503474777,
+        "date": "2026-08-07 21:44:41",
+        "type": "Naval",
+        "severity": "normal",
+        "title": "Houthi attacks kill at least 10 in Yemen as rebels target oil-rich Marib",
+        "description": "At least eight members of Yemeni government forces and two civilians were killed Friday in new attacks by Houthi rebels in an oil-rich province.",
+        "fatalities": "0",
+        "link": "https://www.france24.com/en/middle-east/20260807-houthi-attacks-kill-at-least-10-in-yemen-as-iran-backed-rebels-target-marib",
+        "critical": false
+    },
+    {
+        "country": "Asia",
+        "city": "Seoul",
+        "lat": 37.54714619720742,
+        "lon": 127.0998799504765,
+        "date": "2026-08-07 21:44:38",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "South Koreans beat the heat with ‘silent disco’ pool party",
+        "description": "South Koreans in Seoul cooled off with a silent disco pool party during a record-breaking heat wave.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/video/newsfeed/2026/8/7/south-koreans-beat-the-heat-with-silent-disco-pool-party?traffic_source=rss",
+        "critical": false
+    },
+    {
+        "country": "Middle East",
+        "city": "Beirut",
+        "lat": 33.86381515688615,
+        "lon": 35.51051105833731,
+        "date": "2026-08-07 21:44:38",
+        "type": "Airstrike",
+        "severity": "critical",
+        "title": "Lebanon points to ‘positive progress’ on borders, prisoners in Israel talks",
+        "description": "New Israeli attacks reported in southern Lebanon as Beirut offers optimism after the seventh round of discussions.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/news/2026/8/7/lebanon-points-to-positive-progress-on-borders-prisoners-in-israel-talks?traffic_source=rss",
+        "critical": true
+    },
+    {
         "country": "Europe",
         "city": "Brussels",
         "lat": 50.930722640079516,
@@ -14,20 +56,6 @@
         "critical": false
     },
     {
-        "country": "Middle East",
-        "city": "Yemen",
-        "lat": 14.555288439989653,
-        "lon": 49.06320740489844,
-        "date": "2026-08-07 20:57:24",
-        "type": "Naval",
-        "severity": "normal",
-        "title": "Houthi attacks kill at least 10 in Yemen as Iran-backed rebels target Marib",
-        "description": "At least eight members of Yemeni government forces and two civilians were killed Friday in new attacks by Houthi rebels in an oil-rich province.",
-        "fatalities": "0",
-        "link": "https://www.france24.com/en/middle-east/20260807-houthi-attacks-kill-at-least-10-in-yemen-as-iran-backed-rebels-target-marib",
-        "critical": false
-    },
-    {
         "country": "USA",
         "city": "Washington",
         "lat": 38.95491843733436,
@@ -39,6 +67,20 @@
         "description": "Spain announced Friday that it would introduce border controls for travellers arriving from Italy in retaliation for Rome imposing similar measures. The rare spat between the EU nations came after tens of thousands of people crossed from Morocco to Spain's North African territory Ceuta in an unprecedented, deadly rush.",
         "fatalities": "0",
         "link": "https://www.france24.com/en/europe/20260807-spain-imposes-border-checks-on-italy-amid-ceuta-migration-row",
+        "critical": false
+    },
+    {
+        "country": "Middle East",
+        "city": "Yemen",
+        "lat": 14.555288439989653,
+        "lon": 49.06320740489844,
+        "date": "2026-08-07 20:57:24",
+        "type": "Naval",
+        "severity": "normal",
+        "title": "Houthi attacks kill at least 10 in Yemen as Iran-backed rebels target Marib",
+        "description": "At least eight members of Yemeni government forces and two civilians were killed Friday in new attacks by Houthi rebels in an oil-rich province.",
+        "fatalities": "0",
+        "link": "https://www.france24.com/en/middle-east/20260807-houthi-attacks-kill-at-least-10-in-yemen-as-iran-backed-rebels-target-marib",
         "critical": false
     },
     {
@@ -3022,47 +3064,5 @@
         "fatalities": "0",
         "link": "https://www.aljazeera.com/video/newsfeed/2026/8/6/explosive-laden-drone-found-at-german-airport-hosting-ukrainian-fleet?traffic_source=rss",
         "critical": true
-    },
-    {
-        "country": "USA",
-        "city": "Washington",
-        "lat": 38.91923782772742,
-        "lon": -77.01611651104045,
-        "date": "2026-08-06 00:12:55",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Trump Marine One flight under investigation after potential safety mishap",
-        "description": "Federal aviation officials are investigating an air-safety incident involving President Trump's Marine One helicopter in Washington, D.C.Why it matters: The incident comes as regulators work to improve safety in increasingly congested U.S. airspace, particularly around D.C.Zoom in: The Wall Street Journal first reported that the helicopter was carrying Trump on Tuesday when it flew too close to a commercial airliner departing from Ronald Reagan W",
-        "fatalities": "0",
-        "link": "https://www.axios.com/2026/08/05/trump-marine-one-air-safety-investigation",
-        "critical": false
-    },
-    {
-        "country": "Africa",
-        "city": "Niger",
-        "lat": 13.744908086438528,
-        "lon": 5.30054999319152,
-        "date": "2026-08-06 00:12:46",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Nigeria announces rescue of 308 kidnapped citizens",
-        "description": "Kidnapping for ransom by armed groups and bandits has become a major crisis in Nigeria.",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/news/2026/8/5/nigeria-announces-rescue-of-308-kidnapped-citizens?traffic_source=rss",
-        "critical": false
-    },
-    {
-        "country": "USA",
-        "city": "New york",
-        "lat": 40.78164125324716,
-        "lon": -73.97280478054537,
-        "date": "2026-08-06 00:12:44",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Mamdani praises El-Sayed’s victory, rejects ‘mini Mamdani’ trope",
-        "description": "New York City’s Mayor Zohran Mamdani congratulated Abdul El-Sayed on winning Michigan’s Democratic Senate primary.",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/video/newsfeed/2026/8/6/mamdani-praises-el-sayeds-victory-rejects-mini-mamdani-trope?traffic_source=rss",
-        "critical": false
     }
 ]
