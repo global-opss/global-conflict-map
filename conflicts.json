@@ -1,5 +1,33 @@
 [
     {
+        "country": "Asia",
+        "city": "Pakistan",
+        "lat": 31.53173738997012,
+        "lon": 74.42808563696248,
+        "date": "2026-08-07 17:27:10",
+        "type": "Clashes",
+        "severity": "middle",
+        "title": "War on Iran: Saudi Arabia, Turkiye and Pakistan sign defence pact",
+        "description": "Saudi Arabia, Turkiye and Pakistan have signed a trilateral defence pact in Mecca aimed at deterring aggression.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/video/newsfeed/2026/8/7/war-on-iran-saudi-arabia-turkiye-and-pakistan-sign-defence-pact?traffic_source=rss",
+        "critical": false
+    },
+    {
+        "country": "Asia",
+        "city": "Pakistan",
+        "lat": 31.51940999534849,
+        "lon": 74.33549481231663,
+        "date": "2026-08-07 17:27:10",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Saudi Arabia, Pakistan, Turkiye defence pact challenges US role",
+        "description": "Defence analyst Alex Alfirraz Scheers says the Saudi Arabia-Pakistan-Turkiye defence agreement signals a realignment",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/video/newsfeed/2026/8/7/saudi-arabia-pakistan-turkiye-defence-pact-challenges-us-role?traffic_source=rss",
+        "critical": false
+    },
+    {
         "country": "Iran",
         "city": "Tehran",
         "lat": 35.71812763835126,
@@ -3035,34 +3063,6 @@
         "description": "Iranian President Masoud Pezeshkian said on Wednesday that communication with Supreme Leader Mojtaba Khamenei was \"very difficult\" following the leader's reported wounding during the US-Israeli strike that killed his father. Pezeshkian, however, defended Khamenei against rising speculation over his absence from public view.",
         "fatalities": "0",
         "link": "https://www.france24.com/en/middle-east/20260805-iran-president-says-contact-with-supreme-leader-is-very-difficult",
-        "critical": false
-    },
-    {
-        "country": "Israel",
-        "city": "Tel Aviv",
-        "lat": 32.033862986291524,
-        "lon": 34.78633865415785,
-        "date": "2026-08-05 20:48:08",
-        "type": "Evacuation",
-        "severity": "critical",
-        "title": "Israel strikes south Lebanon after first evacuation warning in weeks",
-        "description": "Lebanon's health ministry says one person was killed in the strikes, which the Israeli military says were a response to a Hezbollah ceasefire violation.",
-        "fatalities": "0",
-        "link": "https://www.bbc.co.uk/news/articles/c998711dyjvo?at_medium=RSS&at_campaign=rss",
-        "critical": true
-    },
-    {
-        "country": "Asia",
-        "city": "Pakistan",
-        "lat": 31.566506167678792,
-        "lon": 74.42882699926888,
-        "date": "2026-08-05 20:48:08",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "The avalanche that killed a climbing legend - and a generation of record-setting guides",
-        "description": "Their fellow guides say their deaths in Pakistan dealt a devastating blow to Nepal's mountaineering community.",
-        "fatalities": "0",
-        "link": "https://www.bbc.co.uk/news/articles/cm2ge4dnj80o?at_medium=RSS&at_campaign=rss",
         "critical": false
     }
 ]
