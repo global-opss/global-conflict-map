@@ -1,5 +1,33 @@
 [
     {
+        "country": "Iran",
+        "city": "Tehran",
+        "lat": 35.71812763835126,
+        "lon": 51.39474908036951,
+        "date": "2026-08-07 16:30:19",
+        "type": "Clashes",
+        "severity": "middle",
+        "title": "Iranians Say Trump’s Promises Have Fallen by the Wayside as Iran War Drags On",
+        "description": "As President Trump struggles to extricate the United States from the war in Iran, his promises to protesters in the country have fallen by the wayside.",
+        "fatalities": "0",
+        "link": "https://www.nytimes.com/2026/08/07/us/politics/trump-iran-war-protesters.html",
+        "critical": false
+    },
+    {
+        "country": "Europe",
+        "city": "Brussels",
+        "lat": 50.86755511356069,
+        "lon": 4.35206787858541,
+        "date": "2026-08-07 16:30:19",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Parts of Eastern and Central Europe Broke Heat Records This Week",
+        "description": "The hot weather has exacerbated dry conditions, creating conditions for wildfires and receding rivers.",
+        "fatalities": "0",
+        "link": "https://www.nytimes.com/2026/08/07/world/europe/europe-heat-records.html",
+        "critical": false
+    },
+    {
         "country": "USA",
         "city": "Alaska",
         "lat": 64.42724361121991,
@@ -658,20 +686,6 @@
         "critical": false
     },
     {
-        "country": "Africa",
-        "city": "Niger",
-        "lat": 13.865559809618045,
-        "lon": 5.31672995184358,
-        "date": "2026-08-07 10:14:28",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Nigerian artist transforms ordinary clay into intricate works of art",
-        "description": "In his Lagos studio, Nigerian artist Emmanuel Olatunde is transforming the way portraits are painted, using clay sourced from the earth beneath his feet. The 39-year-old artist has developed a unique technique that turns natural clay into paint, using his background in science and his passion for art.",
-        "fatalities": "0",
-        "link": "https://www.france24.com/en/nigerian-artist-transforms-ordinary-clay-into-intricate-works-of-art",
-        "critical": false
-    },
-    {
         "country": "Ukraine",
         "city": "Kyiv",
         "lat": 50.46759662117183,
@@ -712,6 +726,20 @@
         "fatalities": "0",
         "link": "https://www.militarytimes.com/global/europe/2026/06/25/ukraines-newest-strike-weapon-drifts-into-russia-on-the-wind/",
         "critical": true
+    },
+    {
+        "country": "Africa",
+        "city": "Niger",
+        "lat": 13.865559809618045,
+        "lon": 5.31672995184358,
+        "date": "2026-08-07 10:14:28",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Nigerian artist transforms ordinary clay into intricate works of art",
+        "description": "In his Lagos studio, Nigerian artist Emmanuel Olatunde is transforming the way portraits are painted, using clay sourced from the earth beneath his feet. The 39-year-old artist has developed a unique technique that turns natural clay into paint, using his background in science and his passion for art.",
+        "fatalities": "0",
+        "link": "https://www.france24.com/en/nigerian-artist-transforms-ordinary-clay-into-intricate-works-of-art",
+        "critical": false
     },
     {
         "country": "USA",
@@ -3035,34 +3063,6 @@
         "description": "Their fellow guides say their deaths in Pakistan dealt a devastating blow to Nepal's mountaineering community.",
         "fatalities": "0",
         "link": "https://www.bbc.co.uk/news/articles/cm2ge4dnj80o?at_medium=RSS&at_campaign=rss",
-        "critical": false
-    },
-    {
-        "country": "Middle East",
-        "city": "Red sea",
-        "lat": 27.18504486477436,
-        "lon": 33.83763027576308,
-        "date": "2026-08-05 20:48:02",
-        "type": "Naval",
-        "severity": "normal",
-        "title": "Houthis Threaten to Expand Red Sea Attacks, and Claim Strikes on Saudi Tankers",
-        "description": "Saudi Arabia has not commented on the claims by the Houthis, who are backed by Iran and have vowed to close “all access routes” to Saudi oil shipments.",
-        "fatalities": "0",
-        "link": "https://www.nytimes.com/2026/08/05/world/middleeast/houthis-claim-attack-saudi-arabia-tanker.html",
-        "critical": false
-    },
-    {
-        "country": "USA",
-        "city": "Washington",
-        "lat": 38.95895270489637,
-        "lon": -77.07484351221136,
-        "date": "2026-08-05 19:46:43",
-        "type": "Naval",
-        "severity": "normal",
-        "title": "Senate confirms Schwartz for CDC director",
-        "description": "The Senate confirmed Erica Schwartz for Centers for Disease Control director on Wednesday, giving the beleaguered agency its first full-time political leader in almost a year.Why it matters: While the 51-44 vote marked a step toward refilling the depleted ranks of the Trump administration's health care leadership, it didn't fully resolve questions about whether Schwartz could steer clear of political interference.Driving the news: Just one Democr",
-        "fatalities": "0",
-        "link": "https://www.axios.com/2026/08/05/senate-confirms-cdc-director",
         "critical": false
     }
 ]
