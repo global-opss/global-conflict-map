@@ -1,5 +1,47 @@
 [
     {
+        "country": "Europe",
+        "city": "Brussels",
+        "lat": 50.873253298179606,
+        "lon": 4.353752197261008,
+        "date": "2026-08-07 06:46:47",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Газовые хранилища ЕС заполнены на 16,5 п.п. ниже среднего за 5 лет",
+        "description": "Запасы газа в подземных хранилищах Европы по итогам газовых суток 5 августа выросли до 58,1%, сообщает ассоциация европейских операторов газовой инфраструктуры Gas Infrastructure Europe (GIE).",
+        "fatalities": "0",
+        "link": "https://www.interfax.ru/business/1108004",
+        "critical": false
+    },
+    {
+        "country": "Africa",
+        "city": "Khartoum",
+        "lat": 15.538466199270268,
+        "lon": 32.570073141113824,
+        "date": "2026-08-07 06:46:27",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Yan Diomandé makes history with Real Madrid move",
+        "description": "Real Madrid have officially announced the signing of Yan Diomandé from RB Leipzig on a deal running until 2033. The transfer, worth €125 million plus €15 million in add-ons, becomes the most expensive in the Spanish club’s history. At just 19 years old, the Ivory Coast international also becomes the most expensive African player of all time.",
+        "fatalities": "0",
+        "link": "https://www.france24.com/en/tv-shows/sports/20260807-yan-diomand%C3%A9-makes-history-with-real-madrid-move",
+        "critical": false
+    },
+    {
+        "country": "Iran",
+        "city": "Tehran",
+        "lat": 35.7270628932135,
+        "lon": 51.39271052686792,
+        "date": "2026-08-07 06:46:20",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "‘Still searching for truth’: Daughter of Sikh activist killed 30 years ago",
+        "description": "Jaswant Singh Khalras daughter Navkiran reflects on slain fathers life and legacy, which also inspired a recent film.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/news/2026/8/7/still-searching-for-truth-daughter-of-sikh-activist-killed-30-years-ago?traffic_source=rss",
+        "critical": false
+    },
+    {
         "country": "USA",
         "city": "Washington",
         "lat": 38.89597412666119,
@@ -3021,48 +3063,6 @@
         "description": "Rwandan cinema has never enjoyed such a spotlight. Last May at the Cannes Film Festival, Ben'Imana by Marie-Clémentine Dusabejambo won the 'Caméra d'Or' – the first Rwandan feature film ever to do so. The achievement has lifted an entire local film scene now in full bloom: in Kigali, restored movie theatre, open-air festival and a new generation of filmmakers reflect this momentum.",
         "fatalities": "0",
         "link": "https://www.france24.com/en/video/20260805-rwanda-s-big-screen-moment-historic-cannes-win-sparks-creative-boom",
-        "critical": false
-    },
-    {
-        "country": "USA",
-        "city": "Washington",
-        "lat": 38.90268602496639,
-        "lon": -77.00171144507097,
-        "date": "2026-08-05 12:11:41",
-        "type": "Explosion",
-        "severity": "middle",
-        "title": "New round of talks about Israeli withdrawal from south of Lebanon",
-        "description": "Lebanon and Israel held a new round of direct talks, brokered by the United States, in Rome. It builds on earlier negotiations in Washington where both sides agreed to a framework deal that involves the disarmament of Hezbollah and a gradual withdrawal of Israeli forces from southern Lebanon. Hezbollah chief rejected the talks, which it views as humiliation for Lebanon. Story by Yuka Royer.",
-        "fatalities": "0",
-        "link": "https://www.france24.com/en/new-round-of-talks-about-israeli-withdrawal-from-south-of-lebanon",
-        "critical": false
-    },
-    {
-        "country": "Russia",
-        "city": "Novorossiysk",
-        "lat": 44.748080971217384,
-        "lon": 37.751256903371484,
-        "date": "2026-08-05 12:11:38",
-        "type": "Naval",
-        "severity": "normal",
-        "title": "Turkish cargo ship catches fire after Black Sea drone attack",
-        "description": "A Turkish cargo ship caught fire after a drone attack near Russia’s Black Sea port of Novorossiysk.",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/video/newsfeed/2026/8/5/08-05-2026-drone-attacks-turkish-ship-sv?traffic_source=rss",
-        "critical": false
-    },
-    {
-        "country": "USA",
-        "city": "Washington",
-        "lat": 38.928476580175605,
-        "lon": -76.99963177069377,
-        "date": "2026-08-05 12:11:38",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "How a social media campaign triggered huge migrant surge on Ceuta",
-        "description": "Following a court ruling protecting migrants swimming to Ceuta the previous week, accounts called on thousands to go.",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/features/2026/8/5/how-a-social-media-campaign-triggered-huge-migrant-surge-on-ceuta?traffic_source=rss",
         "critical": false
     }
 ]
