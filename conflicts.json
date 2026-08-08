@@ -1,5 +1,19 @@
 [
     {
+        "country": "Asia",
+        "city": "Pakistan",
+        "lat": 31.544678724194515,
+        "lon": 74.34462093098162,
+        "date": "2026-08-08 17:15:19",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Saudi-Pakistan-Turkiye pact: A new shield or strategic signal?",
+        "description": "The agreement names no adversary, but analysts say Iran and its regional network are central to the thinking behind it.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/news/2026/8/8/saudi-pakistan-turkiye-pact-a-new-shield-or-strategic-signal?traffic_source=rss",
+        "critical": false
+    },
+    {
         "country": "Iran",
         "city": "Tehran",
         "lat": 35.70772365430648,
@@ -3049,20 +3063,6 @@
         "description": "Michigan progressive fended off AIPAC as well as Democratic establishment in US Senate race, supporters say.",
         "fatalities": "0",
         "link": "https://www.aljazeera.com/news/2026/8/6/how-abdul-el-sayeds-extraordinary-win-stunned-pro-israel-establishment?traffic_source=rss",
-        "critical": false
-    },
-    {
-        "country": "Iran",
-        "city": "Tehran",
-        "lat": 35.7253993173958,
-        "lon": 51.39547284062391,
-        "date": "2026-08-07 00:33:33",
-        "type": "Naval",
-        "severity": "normal",
-        "title": "Trump says war can’t ‘go much longer’, Hormuz deal close",
-        "description": "The US, Iran, and Oman are close to a temporary deal to reopen the Strait of Hormuz",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/news/liveblog/2026/8/7/trump-says-war-cant-go-much-longer-hormuz-deal-close?traffic_source=rss",
         "critical": false
     }
 ]
