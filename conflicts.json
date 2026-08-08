@@ -1,5 +1,47 @@
 [
     {
+        "country": "Africa",
+        "city": "Sudan",
+        "lat": 12.81732319265235,
+        "lon": 30.257930694300143,
+        "date": "2026-08-08 00:33:36",
+        "type": "Clashes",
+        "severity": "middle",
+        "title": "Sudan’s war threatens an ‘entire generation’s’ future, UN warns",
+        "description": "War in Sudan has left over 8 million children out of school, and nearly three-quarters of schools have been affected.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/news/2026/8/8/sudans-war-threatens-an-entire-generations-future-un-warns?traffic_source=rss",
+        "critical": false
+    },
+    {
+        "country": "Ukraine",
+        "city": "Kyiv",
+        "lat": 50.43214283782765,
+        "lon": 30.524398578564377,
+        "date": "2026-08-08 00:33:36",
+        "type": "Clashes",
+        "severity": "middle",
+        "title": "US Senate passes sweeping Russian energy sanctions bill amid Ukraine war",
+        "description": "Legislation implements aggressive economic sanctions, including 100 percent tariff on Russian oil and gas importers.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/economy/2026/8/8/us-senate-passes-sweeping-russian-energy-sanctions-bill-amid-ukraine-war?traffic_source=rss",
+        "critical": false
+    },
+    {
+        "country": "Asia",
+        "city": "Pakistan",
+        "lat": 31.561878238709408,
+        "lon": 74.42281807632041,
+        "date": "2026-08-08 00:33:36",
+        "type": "Clashes",
+        "severity": "middle",
+        "title": "Iran war live: Trilateral Mecca defence pact signed, as Hormuz deal looms",
+        "description": "Saudi crown prince, Turkish president and Pakistani prime minister sign a joint defence agreement in Mecca.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/news/liveblog/2026/8/8/iran-war-live-trilateral-mecca-defence-pact-signed-as-hormuz-deal-looms?traffic_source=rss",
+        "critical": false
+    },
+    {
         "country": "Iran",
         "city": "Tehran",
         "lat": 35.647766235255915,
@@ -3022,47 +3064,5 @@
         "fatalities": "0",
         "link": "https://www.nytimes.com/2026/08/06/world/africa/country-music-nairobi-kenya-cowboys.html",
         "critical": false
-    },
-    {
-        "country": "USA",
-        "city": "Washington",
-        "lat": 38.94722198566403,
-        "lon": -77.0310257787768,
-        "date": "2026-08-06 03:45:05",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "WP: Трамп потребовал от Хегсета объяснений по дефициту ракет",
-        "description": "Президент США Дональд Трамп потребовал от главы Пентагона Пита Хегсета объяснений из-за дефицита боеприпасов, пишет The Washington Post  (WP) со ссылкой на источники. По информации издания, на заседании кабинета министров в Кэмп-Дэвиде господин Трамп выразил недовольство и заявил, что считал проблему с арсеналами «уже решенной».",
-        "fatalities": "0",
-        "link": "https://www.kommersant.ru/doc/8863565",
-        "critical": false
-    },
-    {
-        "country": "USA",
-        "city": "Hawaii",
-        "lat": 19.60147918155525,
-        "lon": -155.45536255336032,
-        "date": "2026-08-06 03:44:55",
-        "type": "Naval",
-        "severity": "normal",
-        "title": "2026 is turning into a bloodbath for safe-seat House Democrats",
-        "description": "A half dozen House Democrats in safe districts have lost their primaries so far this election cycle — and many more could soon follow suit.Why it matters: Many of these losses are the result of growing restlessness among the Democratic grassroots that has increasingly morphed into anger towards the party establishment.\"I expected a lot of people to run because they didn't know how to respond to Trump without just being active,\" Rep. Mark Pocan (D",
-        "fatalities": "0",
-        "link": "https://www.axios.com/2026/08/05/house-democrats-primary-shri-thanedar-2026",
-        "critical": false
-    },
-    {
-        "country": "Africa",
-        "city": "Mali",
-        "lat": 12.577191940240047,
-        "lon": -7.9996021892835145,
-        "date": "2026-08-06 03:44:53",
-        "type": "Airstrike",
-        "severity": "critical",
-        "title": "How OpenAI's agents broke out of testing to hack Hugging Face",
-        "description": "Weeks before OpenAI's agents hacked Hugging Face, the agents worked together to find and exploit a vulnerability in the infrastructure supporting the company's cybersecurity testing, OpenAI researchers said Wednesday.Why it matters: The new findings raise questions about how frontier AI labs are monitoring their testing environments — and the challenges safety testers are finding as they try to rein in increasingly powerful AI.Driving the news: O",
-        "fatalities": "0",
-        "link": "https://www.axios.com/2026/08/06/openai-hugging-face-black-hat",
-        "critical": true
     }
 ]
