@@ -1,5 +1,47 @@
 [
     {
+        "country": "Israel",
+        "city": "Tel Aviv",
+        "lat": 32.041127155904064,
+        "lon": 34.845611454915804,
+        "date": "2026-08-08 19:40:55",
+        "type": "Clashes",
+        "severity": "middle",
+        "title": "Lebanese soldiers injured while Israeli troops intrude on southern town",
+        "description": "Soldiers disarm unexploded ordnance in Zawtar al-Gharbiyah, near where Israeli forces reportedly built an earth barrier.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/news/2026/8/8/lebanese-soldiers-injured-while-israeli-troops-intrude-on-southern-town?traffic_source=rss",
+        "critical": false
+    },
+    {
+        "country": "China",
+        "city": "South china sea",
+        "lat": 12.025909037791529,
+        "lon": 112.94671651916106,
+        "date": "2026-08-08 19:40:55",
+        "type": "Naval",
+        "severity": "normal",
+        "title": "US slams Chinese ‘nature reserve’ as effort to claim South China Sea",
+        "description": "US State Department accuses China of attempting to deny Filipino vessels access to fishing grounds in contested area.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/news/2026/8/8/us-slams-chinese-nature-reserve-as-effort-to-claim-south-china-sea?traffic_source=rss",
+        "critical": false
+    },
+    {
+        "country": "Iran",
+        "city": "Tehran",
+        "lat": 35.690667018461504,
+        "lon": 51.327453211083366,
+        "date": "2026-08-08 19:40:51",
+        "type": "Naval",
+        "severity": "normal",
+        "title": "Hormuz talks positive, Oman says, as Iran warns deal would not open strait",
+        "description": "Both sides suggest progress in talks to agree a new shipping route through the strait, but a breakthrough remains unclear.",
+        "fatalities": "0",
+        "link": "https://www.bbc.co.uk/news/articles/c934j5y2lq9o?at_medium=RSS&at_campaign=rss",
+        "critical": false
+    },
+    {
         "country": "USA",
         "city": "New york",
         "lat": 40.65615326989049,
@@ -3022,47 +3064,5 @@
         "fatalities": "0",
         "link": "https://www.france24.com/en/middle-east/20260806-damascus-bus-explosion-kills-two",
         "critical": false
-    },
-    {
-        "country": "Asia",
-        "city": "Pakistan",
-        "lat": 31.578258766780056,
-        "lon": 74.32864044375957,
-        "date": "2026-08-07 00:33:37",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Middle East live: Saudi Arabia, Pakistan and Turkey to sign defence pact on Friday",
-        "description": "A source close to the Saudi army told AFP that Saudi Arabia, Pakistan and Turkey will sign a joint defence agreement on Friday in Jeddah. Saudi Crown Prince Mohammed bin Salman, Turkish President Recep Tayyip Erdogan and Pakistani Prime Minister Shehbaz Sharif will meet in the Saudi city. Follow our liveblog for the latest developments.",
-        "fatalities": "0",
-        "link": "https://www.france24.com/en/middle-east/20260807-middle-east-live-saudi-arabia-pakistan-turkey-to-sign-defence-pact",
-        "critical": false
-    },
-    {
-        "country": "USA",
-        "city": "Washington",
-        "lat": 38.83543253773538,
-        "lon": -77.06339727614149,
-        "date": "2026-08-07 00:33:33",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Thousands of migrants still in Ceuta after border crisis, local leader says",
-        "description": "The Spanish territory's mayor-president also says 100 deaths occurred as a result of 78,000 migrants crossing from neighbouring Morocco.",
-        "fatalities": "0",
-        "link": "https://www.bbc.co.uk/news/articles/c0ejdj22zq9o?at_medium=RSS&at_campaign=rss",
-        "critical": false
-    },
-    {
-        "country": "Asia",
-        "city": "Seoul",
-        "lat": 37.455438306065126,
-        "lon": 127.14287213413542,
-        "date": "2026-08-07 00:33:33",
-        "type": "Airstrike",
-        "severity": "critical",
-        "title": "South Korea space agency shares Moon images after SpaceX rocket debris crash",
-        "description": "Seoul's lunar orbiter captured images of the Moon before and after part of SpaceX's rocket hit its surface on Wednesday.",
-        "fatalities": "0",
-        "link": "https://www.bbc.co.uk/news/articles/cqjxgx5y51lo?at_medium=RSS&at_campaign=rss",
-        "critical": true
     }
 ]
