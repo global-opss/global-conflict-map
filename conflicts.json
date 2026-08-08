@@ -1,5 +1,47 @@
 [
     {
+        "country": "Israel",
+        "city": "Gaza",
+        "lat": 31.490055476341734,
+        "lon": 34.504266911107436,
+        "date": "2026-08-08 17:49:38",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Gaza health chief urges action to ‘save’ Dr Abu Safia before it’s too late",
+        "description": "Fears increase for life of Hussam Abu Safia detained by Israel amid reports of torture and lack of medical care.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/news/2026/8/8/gaza-health-chief-urges-action-to-save-dr-abu-safia-before-its-too-late?traffic_source=rss",
+        "critical": false
+    },
+    {
+        "country": "Ukraine",
+        "city": "Kyiv",
+        "lat": 50.44879589101858,
+        "lon": 30.457923354806823,
+        "date": "2026-08-08 17:49:38",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Serbia and Ukraine pledge closer economic ties, eye free trade deal",
+        "description": "Serbia says it will help rebuild Ukrainian cities and provide aid as the two countries deepen cooperation.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/news/2026/8/8/serbia-and-ukraine-pledge-closer-economic-ties-eye-free-trade-deal?traffic_source=rss",
+        "critical": false
+    },
+    {
+        "country": "USA",
+        "city": "Washington",
+        "lat": 38.90420835759101,
+        "lon": -77.10004959437647,
+        "date": "2026-08-08 17:49:29",
+        "type": "Evacuation",
+        "severity": "critical",
+        "title": "Canada Wildfires: What to Know About Fires in British Columbia and Ontario",
+        "description": "Wildfire activity has increased in British Columbia, with thousands evacuated from the Okanagan Valley, weeks after smoke from blazes in Ontario choked the East Coast.",
+        "fatalities": "0",
+        "link": "https://www.nytimes.com/article/canada-wildfires-2026.html",
+        "critical": true
+    },
+    {
         "country": "Asia",
         "city": "Pakistan",
         "lat": 31.544678724194515,
@@ -3021,48 +3063,6 @@
         "description": "Blockades and bureaucracy turn education into an uphill journey for talented Gaza students seeking a brighter future.",
         "fatalities": "0",
         "link": "https://www.aljazeera.com/features/2026/8/6/travel-restrictions-from-israel-and-europe-trap-students-in-gaza?traffic_source=rss",
-        "critical": false
-    },
-    {
-        "country": "Israel",
-        "city": "Tel Aviv",
-        "lat": 32.04820747012059,
-        "lon": 34.76335809748381,
-        "date": "2026-08-07 00:33:33",
-        "type": "Airstrike",
-        "severity": "critical",
-        "title": "‘No red line’: South Lebanon residents outraged as Israel resumes strikes",
-        "description": "People in South Lebanon question their governments approach as Israel launches more attacks and displacement orders.",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/news/2026/8/6/south-lebanon-people-speak-out-as-israel-launches-attacks-ceasefire?traffic_source=rss",
-        "critical": true
-    },
-    {
-        "country": "Iran",
-        "city": "Tehran",
-        "lat": 35.62704110953654,
-        "lon": 51.3443321233271,
-        "date": "2026-08-07 00:33:33",
-        "type": "Clashes",
-        "severity": "middle",
-        "title": "Iran’s Ghalibaf accuses Trump of conducting show diplomacy ‘on loop’",
-        "description": "US president says he is involved in talks and war will end pretty soon, claiming that Iran cannot go much longer.",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/news/2026/8/6/irans-ghalibaf-accuses-trump-of-conducting-show-diplomacy-on-loop?traffic_source=rss",
-        "critical": false
-    },
-    {
-        "country": "Israel",
-        "city": "Tel Aviv",
-        "lat": 32.1084824611278,
-        "lon": 34.8419339059344,
-        "date": "2026-08-07 00:33:33",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "How Abdul El-Sayed’s ‘extraordinary’ win stunned pro-Israel establishment",
-        "description": "Michigan progressive fended off AIPAC as well as Democratic establishment in US Senate race, supporters say.",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/news/2026/8/6/how-abdul-el-sayeds-extraordinary-win-stunned-pro-israel-establishment?traffic_source=rss",
         "critical": false
     }
 ]
