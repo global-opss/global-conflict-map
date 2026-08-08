@@ -1,5 +1,47 @@
 [
     {
+        "country": "USA",
+        "city": "New york",
+        "lat": 40.66983961691806,
+        "lon": -73.99095445718648,
+        "date": "2026-08-08 07:30:09",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "NYT узнала о поиске США кандидата на роль нового лидера Кубы",
+        "description": "Власти США пытаются найти среди нынешних и бывших официальных лиц Кубы человека, который мог бы возглавить эту страну и быть приемлемым для Вашингтона, сообщает The New York Times (NYT) со ссылкой на источники.\"Действующие и бывшие госслужащие США заявили, что администрация ведет поиски бывшего или занимающего пост кубинского чиновника, который мог бы взять власть в Гаване\", - информирует издание.",
+        "fatalities": "0",
+        "link": "https://www.interfax.ru/world/1108206",
+        "critical": false
+    },
+    {
+        "country": "Ukraine",
+        "city": "Kyiv",
+        "lat": 50.47213867967773,
+        "lon": 30.583667335480285,
+        "date": "2026-08-08 07:29:39",
+        "type": "Airstrike",
+        "severity": "critical",
+        "title": "Russian strikes kill three near Kyiv, Zelensky makes landmark visit to Serbia",
+        "description": "Russian missile strikes killed three people, including a child, ​in ‌the Kyiv region on Saturday, said local authorities, as an air raid alert was declared in and around the Ukrainian capital. The attack came hours after Ukrainian President Volodymyr Zelensky arrived in Belgrade on a landmark visit to Serbia, a country with close ties to Moscow.",
+        "fatalities": "0",
+        "link": "https://www.france24.com/en/europe/20260808-russian-missile-strikes-near-kyiv-kill-three-including-a-child",
+        "critical": true
+    },
+    {
+        "country": "Ukraine",
+        "city": "Kyiv",
+        "lat": 50.49616510142883,
+        "lon": 30.527606501256543,
+        "date": "2026-08-08 07:29:29",
+        "type": "Drone",
+        "severity": "middle",
+        "title": "What to Know About Wildberries, the Company in Ukraine’s Cross Hairs",
+        "description": "Ukrainian drones have increasingly targeted warehouses belonging to Wildberries, which many Russians rely on as the country’s largest e-commerce business.",
+        "fatalities": "0",
+        "link": "https://www.nytimes.com/2026/08/08/world/europe/wildberries-russia-ukraine.html",
+        "critical": false
+    },
+    {
         "country": "Europe",
         "city": "Brussels",
         "lat": 50.95137992232149,
@@ -3022,47 +3064,5 @@
         "fatalities": "0",
         "link": "https://www.france24.com/en/europe/20260806-at-least-six-killed-russian-strikes-ukraine-officials-say",
         "critical": false
-    },
-    {
-        "country": "Israel",
-        "city": "Tel Aviv",
-        "lat": 32.01773707589187,
-        "lon": 34.76835062694729,
-        "date": "2026-08-06 09:14:32",
-        "type": "Airstrike",
-        "severity": "critical",
-        "title": "Israel strikes south Lebanon after two soldiers killed by explosion",
-        "description": "Lebanese authorities says one person was killed in the strikes, which came after the first Israeli military fatalities in Lebanon in more than a month.",
-        "fatalities": "0",
-        "link": "https://www.bbc.co.uk/news/articles/c998711dyjvo?at_medium=RSS&at_campaign=rss",
-        "critical": true
-    },
-    {
-        "country": "Asia",
-        "city": "Pakistan",
-        "lat": 31.507493200842163,
-        "lon": 74.37802123151222,
-        "date": "2026-08-06 09:14:32",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "UK police confirm Uganda boxers unaccounted for after Commonwealth Games",
-        "description": "Athletes from Uganda and Pakistan were reported missing after failing to return home from 2026 Commonwealth Games.",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/sports/2026/8/6/uk-police-confirm-uganda-boxers-unaccounted-for-after-commonwealth-games?traffic_source=rss",
-        "critical": false
-    },
-    {
-        "country": "Russia",
-        "city": "Moscow",
-        "lat": 55.71763027930873,
-        "lon": 37.55531862053003,
-        "date": "2026-08-06 09:14:32",
-        "type": "Nuclear",
-        "severity": "critical",
-        "title": "Why is France developing a new nuclear strategy?",
-        "description": "As the US retreats from Europe and Russia adopts an aggressive posture, France plans to add weapons to its arsenal",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/video/project-force-2/2026/8/6/why-is-france-developing-a-new-nuclear-strategy?traffic_source=rss",
-        "critical": true
     }
 ]
