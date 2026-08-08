@@ -1,5 +1,47 @@
 [
     {
+        "country": "USA",
+        "city": "Washington",
+        "lat": 38.91045166441389,
+        "lon": -77.09206835224438,
+        "date": "2026-08-08 13:45:43",
+        "type": "Naval",
+        "severity": "normal",
+        "title": "Senate passes stopgap to avert pre-election shutdown",
+        "description": "The Senate passed a stopgap spending bill early Saturday that would keep the government funded through Dec. 11, moving Washington closer to avoiding another shutdown before the November midterms.Why it matters: The bipartisan 90-6 vote would push the next government funding deadline past Election Day while offering some checks on the Trump administration.State of play: The measure, which now goes to the House, generally maintains funding levels a",
+        "fatalities": "0",
+        "link": "https://www.axios.com/2026/08/08/senate-government-funding-shutdown-stopgap",
+        "critical": false
+    },
+    {
+        "country": "Ukraine",
+        "city": "Kyiv",
+        "lat": 50.49541342922938,
+        "lon": 30.47413984757444,
+        "date": "2026-08-08 13:45:35",
+        "type": "Airstrike",
+        "severity": "critical",
+        "title": "Russian attacks kill several in Ukraine",
+        "description": "At least four people, including a child, were killed in Russian drone and missile strikes on Kyiv and surrounding regions early Saturday. Moscow has been carrying out near-daily attacks, exploiting Ukraine’s strained air defences. Meanwhile, Ukraine struck another oil refinery in Russia, as Kyiv continues its campaign of long-range attacks on Russian energy facilities in an effort to fuel a growing fuel crisis. France 24 correspondent Emmanuelle ",
+        "fatalities": "0",
+        "link": "https://www.france24.com/en/russian-attacks-kill-several-in-ukraine",
+        "critical": true
+    },
+    {
+        "country": "Asia",
+        "city": "Pakistan",
+        "lat": 31.52851351600342,
+        "lon": 74.35479520653395,
+        "date": "2026-08-08 13:45:35",
+        "type": "Airstrike",
+        "severity": "critical",
+        "title": "Saudi, Turkey, Pakistan pact comes amid US-Iran war fallout",
+        "description": "Saudi Arabia, Pakistan and Turkey signed a mutual defence pact on Friday that would treat any act of aggression on one of the three nations as an attack on all of them, the allies said in a joint statement. However, it did not specify if the agreement would bind them to any particular military action in each other's defence. Adjunct Senior Fellow for Middle East studies at Council on Foreign Relations, Henry Barkey, shares further insights.",
+        "fatalities": "0",
+        "link": "https://www.france24.com/en/saudi-turkey-pakistan-pact-comes-amid-us-iran-war-fallout",
+        "critical": true
+    },
+    {
         "country": "China",
         "city": "Beijing",
         "lat": 39.86728037528568,
@@ -3022,47 +3064,5 @@
         "fatalities": "0",
         "link": "https://www.bbc.co.uk/news/articles/cwymv212xrxo?at_medium=RSS&at_campaign=rss",
         "critical": true
-    },
-    {
-        "country": "USA",
-        "city": "Washington",
-        "lat": 38.956726852180445,
-        "lon": -77.00995336145967,
-        "date": "2026-08-06 13:15:36",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "WP: Трамп выбрал Вэнса своим преемником на президентских выборах 2028 года",
-        "description": "Президент США Дональд Трамп решил, что вице-президент Джей Ди Вэнс должен стать кандидатом на выборах главы государства в 2028 году. Об этом пишет газета The Washington Post  (WP) со ссылкой на источники.",
-        "fatalities": "0",
-        "link": "https://www.kommersant.ru/doc/8864101",
-        "critical": false
-    },
-    {
-        "country": "Iran",
-        "city": "Tehran",
-        "lat": 35.74593418812897,
-        "lon": 51.44611320464712,
-        "date": "2026-08-06 13:15:17",
-        "type": "Airstrike",
-        "severity": "critical",
-        "title": "2 US troops killed, 1 missing after Iranian missile, drone attack in Jordan",
-        "description": "Two U.S. service members were killed in action on Friday in an Iranian ballistic missile and drone attack on U.S. and partner forces in Jordan.",
-        "fatalities": "0",
-        "link": "https://www.militarytimes.com/flashpoints/2026/07/18/2-us-troops-killed-1-missing-after-iranian-missile-drone-attack-in-jordan/",
-        "critical": true
-    },
-    {
-        "country": "Ukraine",
-        "city": "Kyiv",
-        "lat": 50.488036020398575,
-        "lon": 30.571311319515242,
-        "date": "2026-08-06 13:15:17",
-        "type": "Clashes",
-        "severity": "middle",
-        "title": "Russian troops survive just 20-30 minutes on Ukraine’s front lines, CIA director says",
-        "description": "Russian recruits arriving on the battlefield in Ukraine survive an estimated 20 to 30 minutes before they are killed or wounded, the CIA director said.",
-        "fatalities": "0",
-        "link": "https://www.militarytimes.com/global/europe/2026/07/16/russian-troops-survive-just-20-30-minutes-on-ukraines-front-lines-cia-director-says/",
-        "critical": false
     }
 ]
