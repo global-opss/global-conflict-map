@@ -1,5 +1,19 @@
 [
     {
+        "country": "Israel",
+        "city": "Jerusalem",
+        "lat": 31.72491957922651,
+        "lon": 35.275243825108284,
+        "date": "2026-08-08 05:46:25",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Violence is driving Palestinian Christians out of their Holy Land",
+        "description": "Palestinian Christians are facing violence and displacement across Gaza, Jerusalem and the occupied West Bank.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/video/newsfeed/2026/8/8/violence-is-driving-palestinian-christians-out-of-their-holy-land?traffic_source=rss",
+        "critical": false
+    },
+    {
         "country": "Ukraine",
         "city": "Kyiv",
         "lat": 50.398884078021126,
@@ -3050,19 +3064,5 @@
         "fatalities": "0",
         "link": "https://www.aljazeera.com/news/2026/8/6/russian-strikes-kill-six-in-ukraine-as-moscow-intercepts-hundreds-of-drones?traffic_source=rss",
         "critical": true
-    },
-    {
-        "country": "Asia",
-        "city": "Pakistan",
-        "lat": 31.591507843670033,
-        "lon": 74.39797811967495,
-        "date": "2026-08-06 09:14:32",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Pakistan beat West Indies to end 8 away Test losing streak and draw series",
-        "description": "Pakistan win first away Test in three years, beating West Indies by eight wickets in Trinidad to draw two Test series.",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/sports/2026/8/6/pakistan-beat-west-indies-to-end-8-away-test-losing-streak-and-draw-series?traffic_source=rss",
-        "critical": false
     }
 ]
