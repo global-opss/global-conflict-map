@@ -1,5 +1,47 @@
 [
     {
+        "country": "China",
+        "city": "Beijing",
+        "lat": 39.86728037528568,
+        "lon": 116.4506857971067,
+        "date": "2026-08-08 12:55:21",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "На фестивале факелов в Китае загорелись 16 человек",
+        "description": "В китайской провинции Юньнань во время традиционного праздника факелов пострадали от огня 16 человек, сообщает China Daily.",
+        "fatalities": "0",
+        "link": "https://rg.ru/2026/08/08/na-festivale-fakelov-v-kitae-zagorelis-16-chelovek.html",
+        "critical": false
+    },
+    {
+        "country": "Ukraine",
+        "city": "Kyiv",
+        "lat": 50.42194321908476,
+        "lon": 30.575416761528448,
+        "date": "2026-08-08 12:54:45",
+        "type": "Clashes",
+        "severity": "middle",
+        "title": "Woman screams in fear as Ukraine war recruiters pounce on man",
+        "description": "Viral video fuels concerns over Ukraine’s ‘busification’ and alleged abuse by recruitment officers.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/video/newsfeed/2026/8/8/woman-screams-for-her-man-as-ukraine-war-recruiters-pounce?traffic_source=rss",
+        "critical": false
+    },
+    {
+        "country": "Ukraine",
+        "city": "Kyiv",
+        "lat": 50.41848117529444,
+        "lon": 30.510340854157434,
+        "date": "2026-08-08 12:54:43",
+        "type": "Drone",
+        "severity": "middle",
+        "title": "Drones spotted in Bulgaria and Germany raise concerns of Russian escalation",
+        "description": "The drone incidents in Europe have ignited fears that Moscows war on Kyiv is now entangling NATO nations.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/news/2026/8/8/drones-spotted-in-bulgaria-and-germany-raise-concerns-of-russian-escalation?traffic_source=rss",
+        "critical": false
+    },
+    {
         "country": "Asia",
         "city": "Tokyo",
         "lat": 35.642038594069696,
@@ -546,20 +588,6 @@
         "critical": true
     },
     {
-        "country": "Ukraine",
-        "city": "Kyiv",
-        "lat": 50.48331080386174,
-        "lon": 30.51921529381762,
-        "date": "2026-08-08 04:57:29",
-        "type": "Airstrike",
-        "severity": "critical",
-        "title": "'I ran because I knew I would die': Russian drones target medics in Ukraine",
-        "description": "Ukrainian emergency workers warn of growing Russian attacks on hospitals and ambulances.",
-        "fatalities": "0",
-        "link": "https://www.bbc.co.uk/news/articles/c3r073eqvrjo?at_medium=RSS&at_campaign=rss",
-        "critical": true
-    },
-    {
         "country": "Europe",
         "city": "London",
         "lat": 51.43952894589925,
@@ -572,6 +600,20 @@
         "fatalities": "0",
         "link": "https://www.bbc.co.uk/news/articles/c39eprxln0go?at_medium=RSS&at_campaign=rss",
         "critical": false
+    },
+    {
+        "country": "Ukraine",
+        "city": "Kyiv",
+        "lat": 50.48331080386174,
+        "lon": 30.51921529381762,
+        "date": "2026-08-08 04:57:29",
+        "type": "Airstrike",
+        "severity": "critical",
+        "title": "'I ran because I knew I would die': Russian drones target medics in Ukraine",
+        "description": "Ukrainian emergency workers warn of growing Russian attacks on hospitals and ambulances.",
+        "fatalities": "0",
+        "link": "https://www.bbc.co.uk/news/articles/c3r073eqvrjo?at_medium=RSS&at_campaign=rss",
+        "critical": true
     },
     {
         "country": "Russia",
@@ -3021,48 +3063,6 @@
         "description": "Russian recruits arriving on the battlefield in Ukraine survive an estimated 20 to 30 minutes before they are killed or wounded, the CIA director said.",
         "fatalities": "0",
         "link": "https://www.militarytimes.com/global/europe/2026/07/16/russian-troops-survive-just-20-30-minutes-on-ukraines-front-lines-cia-director-says/",
-        "critical": false
-    },
-    {
-        "country": "Israel",
-        "city": "Tel Aviv",
-        "lat": 32.082119905696146,
-        "lon": 34.716303000564444,
-        "date": "2026-08-06 13:15:16",
-        "type": "Airstrike",
-        "severity": "critical",
-        "title": "Lebanese journalist deliberately targeted by Israeli attack, probe reveals",
-        "description": "Three rights groups have released findings of a probe into the Israeli attack which killed Lebanese journalist Amal Khalil in April. The investigation by Human Rights Watch, Amnesty International and The Legal Agenda shows Israel deliberately targeted the 42-year-old and her camerawoman, who was wounded in the attack. According to the UN human rights office, deliberate attacks on civilians is considered a war crime. Details with FRANCE 24 corresp",
-        "fatalities": "0",
-        "link": "https://www.france24.com/en/lebanese-journalist-deliberately-targeted-by-israeli-attack-probe-reveals",
-        "critical": true
-    },
-    {
-        "country": "USA",
-        "city": "Washington",
-        "lat": 38.943525963152865,
-        "lon": -77.01722115504853,
-        "date": "2026-08-06 13:15:16",
-        "type": "Clashes",
-        "severity": "middle",
-        "title": "USA: Progressive Democrat beats establishment candidate in Michigan primary",
-        "description": "In the US state of Michigan, progressive Democratic candidate Abdul El-Sayed defeated his centrist rival Haley Stevens in the party's Senatorial primary election. The results reflect a growing leftward shift among American Democrats – but the narrowness of El-Sayed's victory has many in the party establishment worried for his chances for the fall in the crucial swing state. Details by Bryan Quinn.",
-        "fatalities": "0",
-        "link": "https://www.france24.com/en/usa-progressive-democrat-beats-establishment-candidate-in-michigan-primary",
-        "critical": false
-    },
-    {
-        "country": "USA",
-        "city": "Washington",
-        "lat": 38.82858012349188,
-        "lon": -77.00801402029677,
-        "date": "2026-08-06 13:15:16",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Cuba: What does Trump really want?",
-        "description": "🇨🇺 Cuba is facing its worst economic and social crisis in decades while Washington is piling on sanctions and increasing pressure on the regime like never before.\n \n🇺🇸 Why now? What’s really driving Trump’s interest in the island? And how far would the United States be prepared to go?\n \n➡️ Find out in our latest long-form analysis on the France 24 English YouTube channel.",
-        "fatalities": "0",
-        "link": "https://www.france24.com/en/video/20260806-cuba-what-does-trump-really-want",
         "critical": false
     }
 ]
