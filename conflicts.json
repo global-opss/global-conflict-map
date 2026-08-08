@@ -1,5 +1,19 @@
 [
     {
+        "country": "USA",
+        "city": "Washington",
+        "lat": 38.87813213381389,
+        "lon": -77.03844544838665,
+        "date": "2026-08-08 18:16:26",
+        "type": "Evacuation",
+        "severity": "critical",
+        "title": "Fast-moving Canada wildfire doubles in size forcing thousands to flee homes",
+        "description": "The Bald Range wildfire in British Columbia, still considered \"out of control\", has spread to more than 36 sq miles (95 sq km).",
+        "fatalities": "0",
+        "link": "https://www.bbc.co.uk/news/articles/cx25dkwk3e3o?at_medium=RSS&at_campaign=rss",
+        "critical": true
+    },
+    {
         "country": "Israel",
         "city": "Gaza",
         "lat": 31.490055476341734,
@@ -3050,19 +3064,5 @@
         "fatalities": "0",
         "link": "https://www.bbc.co.uk/news/articles/cx2md67y3nlo?at_medium=RSS&at_campaign=rss",
         "critical": true
-    },
-    {
-        "country": "Israel",
-        "city": "Gaza",
-        "lat": 31.555699461957104,
-        "lon": 34.443680362020004,
-        "date": "2026-08-07 00:33:33",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Travel restrictions – from Israel and Europe – trap students in Gaza",
-        "description": "Blockades and bureaucracy turn education into an uphill journey for talented Gaza students seeking a brighter future.",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/features/2026/8/6/travel-restrictions-from-israel-and-europe-trap-students-in-gaza?traffic_source=rss",
-        "critical": false
     }
 ]
