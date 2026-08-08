@@ -1,5 +1,19 @@
 [
     {
+        "country": "Asia",
+        "city": "Pakistan",
+        "lat": 31.474978598255802,
+        "lon": 74.40800973862068,
+        "date": "2026-08-08 14:54:02",
+        "type": "Clashes",
+        "severity": "middle",
+        "title": "War on Iran: Phase II: Day 28",
+        "description": "Saudi-Pakistan-Turkiye pact draws mixed reactions, as Iran and Oman agree a Hormuz security framework.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/video/newsfeed/2026/8/8/war-on-iran-phase-ii-day-28?traffic_source=rss",
+        "critical": false
+    },
+    {
         "country": "USA",
         "city": "New york",
         "lat": 40.65560838856294,
@@ -3049,20 +3063,6 @@
         "description": "A Russian disinformation campaign has targeted French presidential candidate Gabriel Attal, the latest such report in recent weeks. The alleged interference comes as France prepares for next year's presidential election. Similar disinformation campaigns have also been launched against presidential candidates Raphael Glucksmann, a left-wing member of the European Parliament and vocal Kremlin critic, and centrist ex-prime minister Edouard Philippe.",
         "fatalities": "0",
         "link": "https://www.france24.com/en/russia-ramps-up-disinformation-war-as-french-presidential-elections-draw-nearer",
-        "critical": false
-    },
-    {
-        "country": "Europe",
-        "city": "Brussels",
-        "lat": 50.88613461852366,
-        "lon": 4.2998213888785415,
-        "date": "2026-08-06 15:32:27",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "UEFA says FIFA boycott remains despite Infantino World Cup selloff U-turn",
-        "description": "European footballs governing body says FIFA has not met conditions to end the boycott of their return to global game.",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/sports/2026/8/6/uefa-say-fifa-boycott-remains-after-infantino-world-cup-plan-fallout?traffic_source=rss",
         "critical": false
     }
 ]
