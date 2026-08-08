@@ -1,5 +1,47 @@
 [
     {
+        "country": "Asia",
+        "city": "Tokyo",
+        "lat": 35.642038594069696,
+        "lon": 139.74020097147456,
+        "date": "2026-08-08 11:56:37",
+        "type": "Naval",
+        "severity": "normal",
+        "title": "Families retrieve bodies after deadly shooting rampage outside Bangkok",
+        "description": "Thailand has one of the highest rates of gun ownership in Asia.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/news/2026/8/8/families-retrieve-bodies-after-deadly-shooting-rampage-outside-bangkok?traffic_source=rss",
+        "critical": false
+    },
+    {
+        "country": "Ukraine",
+        "city": "Kyiv",
+        "lat": 50.42587642713819,
+        "lon": 30.49665110666221,
+        "date": "2026-08-08 11:56:37",
+        "type": "Clashes",
+        "severity": "middle",
+        "title": "Woman screams for her man as Ukraine war recruiters pounce",
+        "description": "Viral video fuels concerns over Ukraine’s ‘busification’ and alleged abuse by recruitment officers.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/video/newsfeed/2026/8/8/woman-screams-for-her-man-as-ukraine-war-recruiters-pounce?traffic_source=rss",
+        "critical": false
+    },
+    {
+        "country": "Asia",
+        "city": "Pakistan",
+        "lat": 31.593467088226195,
+        "lon": 74.43242968095333,
+        "date": "2026-08-08 11:56:36",
+        "type": "Clashes",
+        "severity": "middle",
+        "title": "The post-American Middle East is beginning to take shape",
+        "description": "The pact between Saudi Arabia, Pakistan and Turkiye is yet another step towards a new regional security architecture.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/opinions/2026/8/8/the-post-american-middle-east-is-beginning-to-take-shape?traffic_source=rss",
+        "critical": false
+    },
+    {
         "country": "USA",
         "city": "Washington",
         "lat": 38.8718617893122,
@@ -3022,47 +3064,5 @@
         "fatalities": "0",
         "link": "https://www.france24.com/en/video/20260806-cuba-what-does-trump-really-want",
         "critical": false
-    },
-    {
-        "country": "Israel",
-        "city": "Tel Aviv",
-        "lat": 32.016136398283,
-        "lon": 34.824178459465436,
-        "date": "2026-08-06 13:15:16",
-        "type": "Airstrike",
-        "severity": "critical",
-        "title": "Israel charges settler for killing Palestinian activist Awdah Hathaleen in occupied West Bank",
-        "description": "Israel on Thursday charged a settler, Yinon Levi, with the killing of prominent Palestinian activist Awdah Hathaleen in the West Bank in July 2025. This marks the first time since the October 7, 2023 attacks that an Israeli has been indicted for the death of a Palestinian in the occupied territory, according to Israeli rights group B’Tselem.",
-        "fatalities": "0",
-        "link": "https://www.france24.com/en/middle-east/20260806-israel-charges-settler-killing-palestinian-activist-awdah-hathaleen-occupied-west-bank",
-        "critical": true
-    },
-    {
-        "country": "Asia",
-        "city": "Pakistan",
-        "lat": 31.50316258089789,
-        "lon": 74.34230133945093,
-        "date": "2026-08-06 13:15:14",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Why is Pakistan PM Shehbaz Sharif visiting Saudi Arabia amid Gulf tensions?",
-        "description": "Islamabad seeks economic backing while balancing new defence commitments and a volatile regional security landscape.",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/news/2026/8/6/why-is-pakistan-pm-shehbaz-sharif-visiting-saudi-arabia-amid-gulf-tensions?traffic_source=rss",
-        "critical": false
-    },
-    {
-        "country": "USA",
-        "city": "Washington",
-        "lat": 38.94299961326667,
-        "lon": -77.08754673623838,
-        "date": "2026-08-06 13:15:14",
-        "type": "Evacuation",
-        "severity": "critical",
-        "title": "Video: Wildfires in Washington state force thousands to evacuate homes",
-        "description": "Wildfires in Washington state and California have damaged over a thousand structures.",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/video/newsfeed/2026/8/6/video-wildfires-in-washington-state-force-thousands-to-evacuate-homes?traffic_source=rss",
-        "critical": true
     }
 ]
