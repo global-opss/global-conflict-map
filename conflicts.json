@@ -1,5 +1,19 @@
 [
     {
+        "country": "Ukraine",
+        "city": "Kyiv",
+        "lat": 50.4831628991273,
+        "lon": 30.520000748027034,
+        "date": "2026-08-08 20:11:36",
+        "type": "Airstrike",
+        "severity": "critical",
+        "title": "Ukraine braces for winter power crisis after Russian strikes, Zelensky says",
+        "description": "Ukrainian President Volodymyr Zelensky warned Saturday that Ukraine faces a winter with virtually no working thermal power plants after overnight Russian strikes killed four people, including a three-year-old child. Speaking in Belgrade, he said the latest attacks and shelling of frontline communities had killed 13 people in 24 hours.",
+        "fatalities": "0",
+        "link": "https://www.france24.com/en/europe/20260808-ukraine-braces-for-winter-power-crisis-after-russian-strikes-zelensky-says",
+        "critical": true
+    },
+    {
         "country": "Israel",
         "city": "Tel Aviv",
         "lat": 32.041127155904064,
@@ -3049,20 +3063,6 @@
         "description": "Roads blocked and checkpoints closed: After every outbreak of violence, Israel seals off the West Bank. Like after events in Nablus, where two Israeli settlers and four Palestinians died on July 24. Our correspondent Claire Duhamel travelled with a paramedic who regularly transports pregnant women to hospital.",
         "fatalities": "0",
         "link": "https://www.france24.com/en/she-was-haemorrhaging-in-the-west-bank-the-checkpoint-ordeal-for-pregnant-women",
-        "critical": false
-    },
-    {
-        "country": "Middle East",
-        "city": "Damascus",
-        "lat": 33.50219141223241,
-        "lon": 36.25584871861449,
-        "date": "2026-08-07 00:33:37",
-        "type": "Explosion",
-        "severity": "middle",
-        "title": "Bus explosion near Damascus kills at least two, injures 13",
-        "description": "At least two people were killed and 13 wounded when a bomb planted on a minibus exploded on Thursday in the Syrian town of Jaramana, near Damascus, state media reported, citing the health ministry. The blast tore off the vehicle's roof, wrecked its interior and scattered debris across the road.",
-        "fatalities": "0",
-        "link": "https://www.france24.com/en/middle-east/20260806-damascus-bus-explosion-kills-two",
         "critical": false
     }
 ]
