@@ -1,6 +1,34 @@
 [
     {
         "country": "USA",
+        "city": "New york",
+        "lat": 40.65615326989049,
+        "lon": -74.07454276741015,
+        "date": "2026-08-08 19:03:58",
+        "type": "Airstrike",
+        "severity": "critical",
+        "title": "NYT: в арсенале США осталось менее 1700 ракет Patriot",
+        "description": "В арсенале США на фоне конфликта с Ираном осталось менее 1,7 тыс. ракет-перехватчиков Patriot, пишет The New York Times со ссылкой на источники. Читать далее",
+        "fatalities": "0",
+        "link": "https://russian.rt.com/world/news/1667488-arsenal-ssha-rakety?utm_source=rss&utm_medium=rss&utm_campaign=RSS",
+        "critical": true
+    },
+    {
+        "country": "Middle East",
+        "city": "Yemen",
+        "lat": 14.47603034612413,
+        "lon": 49.09239098682481,
+        "date": "2026-08-08 19:03:36",
+        "type": "Naval",
+        "severity": "normal",
+        "title": "Yemen’s government forces attack Houthis amid renewed shelling of Marib",
+        "description": "Fears of a wider conflict grow as Yemen’s army counterattacks and expert warns ‘all the warning signs are there’.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/news/2026/8/8/yemens-government-forces-attack-houthis-amid-renewed-shelling-of-marib?traffic_source=rss",
+        "critical": false
+    },
+    {
+        "country": "USA",
         "city": "Washington",
         "lat": 38.87813213381389,
         "lon": -77.03844544838665,
@@ -3035,34 +3063,6 @@
         "description": "Seoul's lunar orbiter captured images of the Moon before and after part of SpaceX's rocket hit its surface on Wednesday.",
         "fatalities": "0",
         "link": "https://www.bbc.co.uk/news/articles/cqjxgx5y51lo?at_medium=RSS&at_campaign=rss",
-        "critical": true
-    },
-    {
-        "country": "Israel",
-        "city": "Tel Aviv",
-        "lat": 32.02421711903415,
-        "lon": 34.81015885000253,
-        "date": "2026-08-07 00:33:33",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Israel charges settler over killing of Palestinian involved in Oscar-winning West Bank film",
-        "description": "Yinon Levy is charged with reckless manslaughter over the July 2025 shooting of Odeh Hathaleen.",
-        "fatalities": "0",
-        "link": "https://www.bbc.co.uk/news/articles/cn4n1e8159yo?at_medium=RSS&at_campaign=rss",
-        "critical": false
-    },
-    {
-        "country": "Israel",
-        "city": "Tel Aviv",
-        "lat": 32.06314703109393,
-        "lon": 34.73753907153074,
-        "date": "2026-08-07 00:33:33",
-        "type": "Airstrike",
-        "severity": "critical",
-        "title": "Rights groups say Israeli attack that killed Lebanese journalist an apparent war crime",
-        "description": "Amal Khalil was killed and her colleague Zeinab Faraj wounded in an Israeli attack in April; Israel denied targeting the journalists.",
-        "fatalities": "0",
-        "link": "https://www.bbc.co.uk/news/articles/cx2md67y3nlo?at_medium=RSS&at_campaign=rss",
         "critical": true
     }
 ]
