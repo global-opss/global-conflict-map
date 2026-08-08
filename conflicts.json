@@ -406,20 +406,6 @@
         "critical": false
     },
     {
-        "country": "Europe",
-        "city": "Paris",
-        "lat": 48.82802088092321,
-        "lon": 2.315065189381009,
-        "date": "2026-08-08 14:18:48",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Women's Tour de France: Defending champion Pauline Ferrand-Prévot pulls out of race",
-        "description": "French cyclist and defending champion Pauline Ferrand-Prévot pulled out of the Women's Tour de France ahead of Saturday's 8th and penultimate stage due to her feeling unwell.  An Olympic champion in mountain biking at the 2024 Paris Olympics, Ferrand-Prévôt won the Women's Tour de France on her debut last year.",
-        "fatalities": "0",
-        "link": "https://www.france24.com/en/sport/20260808-women-tour-de-france-defending-champion-pauline-ferrand-pr%C3%A9vot-pulls-out-race",
-        "critical": false
-    },
-    {
         "country": "Iran",
         "city": "Tehran",
         "lat": 35.67372317070869,
@@ -445,6 +431,20 @@
         "description": "Russian recruits arriving on the battlefield in Ukraine survive an estimated 20 to 30 minutes before they are killed or wounded, the CIA director said.",
         "fatalities": "0",
         "link": "https://www.militarytimes.com/global/europe/2026/07/16/russian-troops-survive-just-20-30-minutes-on-ukraines-front-lines-cia-director-says/",
+        "critical": false
+    },
+    {
+        "country": "Europe",
+        "city": "Paris",
+        "lat": 48.82802088092321,
+        "lon": 2.315065189381009,
+        "date": "2026-08-08 14:18:48",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Women's Tour de France: Defending champion Pauline Ferrand-Prévot pulls out of race",
+        "description": "French cyclist and defending champion Pauline Ferrand-Prévot pulled out of the Women's Tour de France ahead of Saturday's 8th and penultimate stage due to her feeling unwell.  An Olympic champion in mountain biking at the 2024 Paris Olympics, Ferrand-Prévôt won the Women's Tour de France on her debut last year.",
+        "fatalities": "0",
+        "link": "https://www.france24.com/en/sport/20260808-women-tour-de-france-defending-champion-pauline-ferrand-pr%C3%A9vot-pulls-out-race",
         "critical": false
     },
     {
