@@ -1,5 +1,47 @@
 [
     {
+        "country": "Iran",
+        "city": "Tehran",
+        "lat": 35.73214294772896,
+        "lon": 51.438188456997516,
+        "date": "2026-08-09 10:18:19",
+        "type": "Naval",
+        "severity": "normal",
+        "title": "Middle East live: Iran Guards say Hormuz will not reopen until US accepts all of Tehran's demands",
+        "description": "Iran's Revolutionary Guards Corps (IRGC) on Sunday said they would not reopen the Strait of Hormuz until the US accepts all of Tehran's conditions. The warning came a day after Iran issued a list of demands for the reopening of the vital waterway, including compensation for war damages. Follow our liveblog for the latest developments.",
+        "fatalities": "0",
+        "link": "https://www.france24.com/en/middle-east/20260809-middle-east-live-iran-issues-list-of-demands-for-reopening-strait-of-hormuz",
+        "critical": false
+    },
+    {
+        "country": "China",
+        "city": "Beijing",
+        "lat": 39.914947553603675,
+        "lon": 116.45642735844355,
+        "date": "2026-08-09 10:18:19",
+        "type": "Airstrike",
+        "severity": "critical",
+        "title": "Japan marks Nagasaki bombing anniversary as PM Takaichi rattles pacifists with nuclear debate",
+        "description": "Japan's Nagasaki on Sunday marked the 81st anniversary of the US atomic bombing at the close of World War II with a ceremony at the Peace Park memorial. It came as Prime Minister Sanae Takaichi’s government opens debate on the country's postwar non-nuclear principles amid increasing doubts over the reliability of the US security umbrella as China flexes its military muscles in the region.",
+        "fatalities": "0",
+        "link": "https://www.france24.com/en/asia-pacific/20260809-japan-nuclear-debate-unnerves-proponents-of-pacifism",
+        "critical": true
+    },
+    {
+        "country": "Israel",
+        "city": "Gaza",
+        "lat": 31.514257975969574,
+        "lon": 34.51136038971196,
+        "date": "2026-08-09 10:18:10",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Seized on Their Way to Gaza, Activists Tell of Abuse in Israeli Custody",
+        "description": "In interviews, more than 20 people who tried to break an Israeli blockade described beatings, electric shocks and other abuse after being captured. Israel denied the accusations.",
+        "fatalities": "0",
+        "link": "https://www.nytimes.com/2026/08/07/world/middleeast/gaza-flotilla-israel-abuse.html",
+        "critical": false
+    },
+    {
         "country": "Middle East",
         "city": "Red sea",
         "lat": 27.19700427959207,
@@ -3021,48 +3063,6 @@
         "description": "South Africa's textile industry is facing a workforce crisis after thousands of migrant workers fled the country in the past few months, in the wake of violent xenophobic protests. The campaign led by anti-immigrant group March and March sought to free up jobs for South Africans, one-third of whom are unemployed. But factory owners in Newcastle on say they have yet to fill vacancies left by foreign workers who fled.",
         "fatalities": "0",
         "link": "https://www.france24.com/en/video/20260807-south-africa-s-textile-industry-in-crisis-after-migrant-workers-fled-the-country",
-        "critical": false
-    },
-    {
-        "country": "Africa",
-        "city": "Niger",
-        "lat": 13.757048657400674,
-        "lon": 5.274893978600354,
-        "date": "2026-08-07 10:14:28",
-        "type": "Airstrike",
-        "severity": "critical",
-        "title": "Over 300 abductees freed in Nigeria's 'largest single-day rescue operation'",
-        "description": "At least 308 people abducted in different attacks in the northern part of Nigeria were rescued, the country’s president said August 5. Those rescued include 163 people abducted from Woro community in February 2026, and 145 people kidnapped mostly from Niger state. It was described as the “largest rescue operation ever” undertaken in the country on a single day by security forces.",
-        "fatalities": "0",
-        "link": "https://www.france24.com/en/video/20260807-over-300-abductees-freed-in-nigeria-s-largest-single-day-rescue-operation",
-        "critical": true
-    },
-    {
-        "country": "Asia",
-        "city": "Host",
-        "lat": 33.30936608158011,
-        "lon": 69.93574622179483,
-        "date": "2026-08-07 09:13:27",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Antwerp's 'human zoo': Belgium confronts shame of colonial past",
-        "description": "In 1894, when the Belgian city of Antwerp was hosting a World's Fair, 144 Congolese people were forcibly brought to the city to be exhibited in the Congo Pavilion. In this \"human zoo\", seven Congolese men ultimately died of disease. Today, this shocking episode still haunts Belgium as one of its colonial history's darkest chapters.",
-        "fatalities": "0",
-        "link": "https://www.france24.com/en/tv-shows/focus/20260807-antwerp-human-zoo-belgium-confronts-shame-colonial-past",
-        "critical": false
-    },
-    {
-        "country": "USA",
-        "city": "Washington",
-        "lat": 38.85782380660657,
-        "lon": -76.99361253744715,
-        "date": "2026-08-07 09:13:27",
-        "type": "Naval",
-        "severity": "normal",
-        "title": "Argentina: Thousands protest private property legislation",
-        "description": "Thousands took to the streets outside Argentina’s Senate on Thursday to protest a controversial private property bill, with demonstrations ending in scuffles, tear gas and rubber bullets. Javier Milei’s government has removed the most contentious part of the legislation, which would have raised limits on foreign land ownership, but that has failed to quell the anger. Peter O’Brien has more.",
-        "fatalities": "0",
-        "link": "https://www.france24.com/en/argentina-thousands-protest-private-property-legislation",
         "critical": false
     }
 ]
