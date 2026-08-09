@@ -1,5 +1,33 @@
 [
     {
+        "country": "USA",
+        "city": "New york",
+        "lat": 40.6840095534353,
+        "lon": -73.9667825383312,
+        "date": "2026-08-09 22:46:28",
+        "type": "Clashes",
+        "severity": "middle",
+        "title": "Bernie's revolution gets a test run for 2028 in Michigan and Wisconsin",
+        "description": "LA CROSSE, Wis. — Progressive insurgents Francesca Hong and Abdul El-Sayed want to shake up the next race for the White House — a notion that will likely petrify many top Democrats.Why it matters: They aren't running for president — they're vying for statewide office this year in presidential battlegrounds, and their campaigns are closely watched tests of the Bernie Sanders–style populism they want their party to embrace in 2028.It's a question t",
+        "fatalities": "0",
+        "link": "https://www.axios.com/2026/08/09/democrats-populists-michigan-wisconsin-2028-test",
+        "critical": false
+    },
+    {
+        "country": "Asia",
+        "city": "Pakistan",
+        "lat": 31.488475268153405,
+        "lon": 74.32719254291219,
+        "date": "2026-08-09 22:46:11",
+        "type": "Clashes",
+        "severity": "middle",
+        "title": "What’s driving unrest in Pakistan-administered Kashmir?",
+        "description": "Pakistan-administered Kashmir is facing its biggest political crisis in years. Al Jazeeras Ava Warriner explains.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/video/newsfeed/2026/8/9/aje-onl-nf_dnrexp-260808-warrinera-pakistankashmir-100826?traffic_source=rss",
+        "critical": false
+    },
+    {
         "country": "Israel",
         "city": "Tel Aviv",
         "lat": 32.049331288143605,
@@ -3035,34 +3063,6 @@
         "description": "Palestinian Christians are facing violence and displacement across Gaza, Jerusalem and the occupied West Bank.",
         "fatalities": "0",
         "link": "https://www.aljazeera.com/video/newsfeed/2026/8/8/violence-is-driving-palestinian-christians-out-of-their-holy-land?traffic_source=rss",
-        "critical": false
-    },
-    {
-        "country": "Ukraine",
-        "city": "Kyiv",
-        "lat": 50.398884078021126,
-        "lon": 30.52184738924317,
-        "date": "2026-08-08 04:57:29",
-        "type": "Airstrike",
-        "severity": "critical",
-        "title": "Child among three killed in Russian missile attacks near Kyiv",
-        "description": "Russia continued its overnight attacks after President Volodymyr Zelensky warned of Ukraine's dwindling supplies of missile interceptors.",
-        "fatalities": "0",
-        "link": "https://www.bbc.co.uk/news/articles/cz7dy8gq99eo?at_medium=RSS&at_campaign=rss",
-        "critical": true
-    },
-    {
-        "country": "Europe",
-        "city": "London",
-        "lat": 51.43952894589925,
-        "lon": -0.1631844756348148,
-        "date": "2026-08-08 04:57:29",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Book hidden in fireplace returned to Australian library 150 years overdue",
-        "description": "It is thought an apprentice stonemason who worked on the Houses of Parliament in London borrowed it.",
-        "fatalities": "0",
-        "link": "https://www.bbc.co.uk/news/articles/c39eprxln0go?at_medium=RSS&at_campaign=rss",
         "critical": false
     }
 ]
