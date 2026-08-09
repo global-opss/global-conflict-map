@@ -1,5 +1,47 @@
 [
     {
+        "country": "Ukraine",
+        "city": "Kyiv",
+        "lat": 50.44512237928226,
+        "lon": 30.5712236151922,
+        "date": "2026-08-09 15:50:43",
+        "type": "Airstrike",
+        "severity": "critical",
+        "title": "How North Korean forces are bolstering Russia’s war against Ukraine",
+        "description": "North Korea has deployed troops, weapons and now, according to a Ukrainian intelligence official, a missile unit to support Russia’s war against Ukraine.",
+        "fatalities": "0",
+        "link": "https://www.defensenews.com/global/europe/2026/08/07/how-north-korean-forces-are-bolstering-russias-war-against-ukraine/",
+        "critical": true
+    },
+    {
+        "country": "USA",
+        "city": "Pentagon",
+        "lat": 38.80398139437057,
+        "lon": -76.99056734093554,
+        "date": "2026-08-09 15:50:37",
+        "type": "Clashes",
+        "severity": "middle",
+        "title": "Pentagon urges faster US weapons production amid stockpile concerns",
+        "description": "US defense industry pressed to boost output as munitions shortages raise security concerns amid Middle East tensions.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/news/2026/8/9/pentagon-urges-faster-us-weapons-production-amid-stockpile-concerns?traffic_source=rss",
+        "critical": false
+    },
+    {
+        "country": "Israel",
+        "city": "Tel Aviv",
+        "lat": 32.08870573050078,
+        "lon": 34.74592894581882,
+        "date": "2026-08-09 15:50:37",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Concerns mount over integrity of Israel’s upcoming October elections",
+        "description": "Poll shows 70 percent of Jewish Israelis fear election integrity risks as Netanyahu government faces mounting criticism.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/news/2026/8/9/concerns-mount-over-integrity-of-israels-upcoming-october-elections?traffic_source=rss",
+        "critical": false
+    },
+    {
         "country": "Europe",
         "city": "Brussels",
         "lat": 50.87249271665881,
@@ -434,20 +476,6 @@
         "critical": false
     },
     {
-        "country": "Asia",
-        "city": "Pakistan",
-        "lat": 31.565496656277883,
-        "lon": 74.39151695905046,
-        "date": "2026-08-09 13:57:26",
-        "type": "Airstrike",
-        "severity": "critical",
-        "title": "Saudi Arabia, Turkey and Pakistan sign defence pact",
-        "description": "Pakistan says an attack on any of the three will amount to an attack against all, amid conflict in the Middle East.",
-        "fatalities": "0",
-        "link": "https://www.bbc.co.uk/news/articles/c30418m4mj4o?at_medium=RSS&at_campaign=rss",
-        "critical": true
-    },
-    {
         "country": "Iran",
         "city": "Tehran",
         "lat": 35.741710740829504,
@@ -488,6 +516,20 @@
         "fatalities": "0",
         "link": "https://www.aljazeera.com/video/newsfeed/2026/8/9/netanyahu-rejects-trumps-board-of-peace-plan-for-gaza?traffic_source=rss",
         "critical": false
+    },
+    {
+        "country": "Asia",
+        "city": "Pakistan",
+        "lat": 31.565496656277883,
+        "lon": 74.39151695905046,
+        "date": "2026-08-09 13:57:26",
+        "type": "Airstrike",
+        "severity": "critical",
+        "title": "Saudi Arabia, Turkey and Pakistan sign defence pact",
+        "description": "Pakistan says an attack on any of the three will amount to an attack against all, amid conflict in the Middle East.",
+        "fatalities": "0",
+        "link": "https://www.bbc.co.uk/news/articles/c30418m4mj4o?at_medium=RSS&at_campaign=rss",
+        "critical": true
     },
     {
         "country": "Europe",
@@ -3021,48 +3063,6 @@
         "description": "Feliks the eagle was abducted as he first flew the nest in Serbia and wound up in the Middle East with poachers who demanded a ransom.",
         "fatalities": "0",
         "link": "https://www.bbc.co.uk/news/articles/cdewxgw69exo?at_medium=RSS&at_campaign=rss",
-        "critical": false
-    },
-    {
-        "country": "Middle East",
-        "city": "Yemen",
-        "lat": 14.492953217288264,
-        "lon": 49.18501902134642,
-        "date": "2026-08-07 20:57:20",
-        "type": "Naval",
-        "severity": "normal",
-        "title": "Houthis Claim Attack on Yemeni Military Camp",
-        "description": "Recent escalating tensions between the Iran-backed group and the Yemeni government have prompted fears that a truce in place since 2022 is nearing collapse.",
-        "fatalities": "0",
-        "link": "https://www.nytimes.com/2026/08/07/world/middleeast/yemen-houthis-attack-military-camp.html",
-        "critical": false
-    },
-    {
-        "country": "Iran",
-        "city": "Tehran",
-        "lat": 35.71369361802782,
-        "lon": 51.45254997629297,
-        "date": "2026-08-07 20:09:17",
-        "type": "Naval",
-        "severity": "normal",
-        "title": "Oil falls to 3-1/2-month low after US, Iran sign ceasefire deal",
-        "description": "BEIJING/SINGAPORE: Oil prices ​fell by more than $2 per barrel on Thursday after the US and Iran signed an interim agreement that ‌would end the Iran war, reopen the Strait of Hormuz and waive US sanctions on Tehran’s oil, boosting the oil supply outlook.\n\n\tBrent crude futures were down $2.14, or 2.69 percent, at $77.41 a barrel as of 09:16 a.m. Saudi time, and US West Texas Intermediate fell $2.36, or 3.07 percent, to $74.43 a barrel.",
-        "fatalities": "0",
-        "link": "https://www.arabnews.com/node/2647650/business-economy",
-        "critical": false
-    },
-    {
-        "country": "USA",
-        "city": "Washington",
-        "lat": 38.86673672538918,
-        "lon": -77.09272183378961,
-        "date": "2026-08-07 20:09:17",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Trump, Netanyahu clash over Iran strategy and Lebanon ceasefire",
-        "description": "DUBAI: American President Donald Trump and Israeli Prime Minister Benjamin Netanyahu have found themselves at odds over Iran, Lebanon and the course of ongoing negotiations in the Middle East according to The Washington Post.",
-        "fatalities": "0",
-        "link": "https://www.arabnews.com/node/2647647/middle-east",
         "critical": false
     }
 ]
