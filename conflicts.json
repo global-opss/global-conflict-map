@@ -1,5 +1,47 @@
 [
     {
+        "country": "Europe",
+        "city": "Berlin",
+        "lat": 48.82094343924784,
+        "lon": 2.3875128667477754,
+        "date": "2026-08-09 19:07:03",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "В Берлине сотни учителей находятся на больничном более года",
+        "description": "Почти 400 учителей в Берлине отсутствуют из-за болезни как минимум год. Это результат ответа уполномоченной комиссии городского сената на парламентский запрос депутата Александра Кинга, полученного немецким информационным агентством DPA и обнародованного в газете Berliner Morgenpost.",
+        "fatalities": "0",
+        "link": "https://rg.ru/2026/08/09/v-berline-sotni-uchitelej-nahodiatsia-na-bolnichnom-bolee-goda.html",
+        "critical": false
+    },
+    {
+        "country": "Asia",
+        "city": "Pakistan",
+        "lat": 31.54279151898347,
+        "lon": 74.34633076067956,
+        "date": "2026-08-09 19:06:29",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Where does Iran stand on Saudi-Pakistan-Turkiye pact?",
+        "description": "Iran not immediately threatened by pact, analysts say, with officials focusing on aspect of diminishing US role.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/news/2026/8/9/where-does-iran-stand-on-saudi-pakistan-turkiye-pact?traffic_source=rss",
+        "critical": false
+    },
+    {
+        "country": "Iran",
+        "city": "Tehran",
+        "lat": 35.70918000853097,
+        "lon": 51.43762625753204,
+        "date": "2026-08-09 19:06:20",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Iran Taps Longtime I.R.G.C. Commander Mohsen Rezaei to Top Security Post",
+        "description": "The appointment of Mohsen Rezaei as secretary of the Supreme National Security Council suggests that Iran’s old guard is consolidating power.",
+        "fatalities": "0",
+        "link": "https://www.nytimes.com/2026/08/09/world/middleeast/iran-security-council-guards-commander.html",
+        "critical": false
+    },
+    {
         "country": "Iran",
         "city": "Tehran",
         "lat": 35.747178282538,
@@ -3022,47 +3064,5 @@
         "fatalities": "0",
         "link": "https://www.aljazeera.com/news/liveblog/2026/8/8/iran-war-live-trilateral-mecca-defence-pact-signed-as-hormuz-deal-looms?traffic_source=rss",
         "critical": false
-    },
-    {
-        "country": "Iran",
-        "city": "Tehran",
-        "lat": 35.647766235255915,
-        "lon": 51.359818726033936,
-        "date": "2026-08-07 23:40:51",
-        "type": "Clashes",
-        "severity": "middle",
-        "title": "Iran Shows Off Wreckage of U.S. Aircraft Lost During Operation Epic Fury",
-        "description": "Iranian state media has released images of a display of aircraft wreckage from the U.S.-Iran war, including remnants of DUDE 44, an F-15E Strike Eagle which can now be confirmed without doubt as airframe 00-3000. The aircraft remains have been arranged on display in underground chambers, and alongside the F-15E Strike Eagle the exhibition also []",
-        "fatalities": "0",
-        "link": "https://theaviationist.com/2026/08/08/iran-aircraft-wreckage-epic-fury/",
-        "critical": false
-    },
-    {
-        "country": "Asia",
-        "city": "Pakistan",
-        "lat": 31.469829585517804,
-        "lon": 74.31513517765099,
-        "date": "2026-08-07 23:40:42",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Will Pakistan-Saudi-Turkiye alliance actually create a new regional order?",
-        "description": "The Mecca Joint Defence Pact brings together countries that sit between Iran and Israel, but will it be effective?",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/news/2026/8/7/new-regional-order-pakistan-turkiye-saudi-arabia?traffic_source=rss",
-        "critical": false
-    },
-    {
-        "country": "Israel",
-        "city": "Tel Aviv",
-        "lat": 32.08017038903562,
-        "lon": 34.71525742019238,
-        "date": "2026-08-07 23:40:42",
-        "type": "Airstrike",
-        "severity": "critical",
-        "title": "Medics among six Palestinians injured in Israeli attacks across West Bank",
-        "description": "Since January, Palestinians have reported more than 11,000 Israeli attacks in the occupied West Bank, officials say.",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/news/2026/8/7/medics-among-six-palestinians-injured-in-israeli-attacks-across-west-bank?traffic_source=rss",
-        "critical": true
     }
 ]
