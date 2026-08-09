@@ -1,5 +1,33 @@
 [
     {
+        "country": "Iran",
+        "city": "Tehran",
+        "lat": 35.629090342238975,
+        "lon": 51.419902295900634,
+        "date": "2026-08-09 04:05:11",
+        "type": "Naval",
+        "severity": "normal",
+        "title": "Iran war live: Pezeshkian seeks end to ‘no war, no peace’ amid Hormuz talks",
+        "description": "IRGC sets conditions to reopen Strait of Hormuz as US seeks commitments to end attacks on ships in the waterway.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/news/liveblog/2026/8/9/iran-war-live-tehran-demands-end-to-us-blockade-to-reopen-strait-of-hormuz?traffic_source=rss",
+        "critical": false
+    },
+    {
+        "country": "Ukraine",
+        "city": "Kyiv",
+        "lat": 50.404037038258565,
+        "lon": 30.495222855676214,
+        "date": "2026-08-09 04:05:05",
+        "type": "Drone",
+        "severity": "middle",
+        "title": "How a Drone ‘Hellscape’ Might Stop a Chinese Invasion of Taiwan",
+        "description": "Inspired by Ukraine’s battlefield gains, Taiwan is betting on drones to deter a potential Chinese invasion.",
+        "fatalities": "0",
+        "link": "https://www.nytimes.com/2026/08/09/world/asia/taiwan-drone-china-invasion.html",
+        "critical": false
+    },
+    {
         "country": "USA",
         "city": "New york",
         "lat": 40.77953550989357,
@@ -42,20 +70,6 @@
         "critical": true
     },
     {
-        "country": "Iran",
-        "city": "Tehran",
-        "lat": 35.6286439419489,
-        "lon": 51.36364837991105,
-        "date": "2026-08-09 00:35:36",
-        "type": "Naval",
-        "severity": "normal",
-        "title": "Iran war live: Tehran demands end to US blockade to reopen Strait of Hormuz",
-        "description": "IRGC sets conditions to reopen Strait of Hormuz as US seeks commitments to end attacks on ships in the waterway.",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/news/liveblog/2026/8/9/iran-war-live-tehran-demands-end-to-us-blockade-to-reopen-strait-of-hormuz?traffic_source=rss",
-        "critical": false
-    },
-    {
         "country": "Asia",
         "city": "Pakistan",
         "lat": 31.569571735368974,
@@ -95,6 +109,20 @@
         "description": "More than 8,000 people remain missing amid rubble in Gaza, with recovery efforts hindered by lack of heavy machinery.",
         "fatalities": "0",
         "link": "https://www.aljazeera.com/news/2026/8/8/crews-recover-19-bodies-from-rubble-of-destroyed-gaza-building?traffic_source=rss",
+        "critical": false
+    },
+    {
+        "country": "Iran",
+        "city": "Tehran",
+        "lat": 35.6286439419489,
+        "lon": 51.36364837991105,
+        "date": "2026-08-09 00:35:36",
+        "type": "Naval",
+        "severity": "normal",
+        "title": "Iran war live: Tehran demands end to US blockade to reopen Strait of Hormuz",
+        "description": "IRGC sets conditions to reopen Strait of Hormuz as US seeks commitments to end attacks on ships in the waterway.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/news/liveblog/2026/8/9/iran-war-live-tehran-demands-end-to-us-blockade-to-reopen-strait-of-hormuz?traffic_source=rss",
         "critical": false
     },
     {
@@ -3035,34 +3063,6 @@
         "description": "Senate Republicans are racing toward the August recess with a legislative to-do list worthy of a Joe Rogan podcast: crypto, college sports and hemp.Why it matters: They likely won't get to all of it, but the White House wants the Senate to get caught trying.First, senators want to get way ahead of any government shutdown fight. Just as important — an NIL rights bill, with ESPN's first College GameDay set for Sept. 5.\"I've kind of stacked these th",
         "fatalities": "0",
         "link": "https://www.axios.com/2026/08/06/senate-republicans-save-act-clarity-hemp-august-recess",
-        "critical": false
-    },
-    {
-        "country": "USA",
-        "city": "Washington",
-        "lat": 38.84967758431658,
-        "lon": -76.97540450088314,
-        "date": "2026-08-07 00:33:48",
-        "type": "Airstrike",
-        "severity": "critical",
-        "title": "Cyberattacks expose deeper vulnerabilities in U.S. water systems",
-        "description": "Suspected Iran-linked cyberattacks are exposing long-standing vulnerabilities in fragmented U.S. drinking water systems facing aging infrastructure and intensifying climate threats.Why it matters: Drinking water systems disruptions can threaten public health and essential services, while many utilities—especially smaller ones—lack the staff and resources to strengthen their defenses..Kevin Morley, federal relations manager for the American Water ",
-        "fatalities": "0",
-        "link": "https://www.axios.com/2026/08/06/us-drinking-water-cyberattacks-climate-change-risks",
-        "critical": true
-    },
-    {
-        "country": "Israel",
-        "city": "Gaza",
-        "lat": 31.530140330731136,
-        "lon": 34.4573253980517,
-        "date": "2026-08-07 00:33:48",
-        "type": "Naval",
-        "severity": "normal",
-        "title": "Author of DNC's 2024 \"autopsy\" says he concluded Gaza war hurt Harris",
-        "description": "The author of the Democratic National Committee's 2024 election \"autopsy\" confirmed an Axios report that he concluded the war in Gaza hurt Kamala Harris politically — and that he'd privately shared that assessment with a pro-Palestinian group.He said he drafted that finding late last year but never submitted it to party leadership.Why it matters: Democrats have spent months debating whether the Biden administration's support for Israel during its",
-        "fatalities": "0",
-        "link": "https://www.axios.com/2026/08/06/dnc-2024-autopsy-author-gaza",
         "critical": false
     }
 ]
