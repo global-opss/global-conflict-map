@@ -1,5 +1,19 @@
 [
     {
+        "country": "Asia",
+        "city": "Tokyo",
+        "lat": 35.639137859877785,
+        "lon": 139.77227314386704,
+        "date": "2026-08-09 17:46:14",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Demi Vollering wins second Women’s Tour de France title",
+        "description": "Dutch rider Demi Vollering won her second Tour de France Femmes title on Sunday after winning the final stage in Nice and extending her lead over nearest rival Kasia Niewiadoma, who finished second overall. Vollering previously won the race in 2023.",
+        "fatalities": "0",
+        "link": "https://www.france24.com/en/sport/20260809-demi-vollering-wins-second-women-s-tour-de-france-title",
+        "critical": false
+    },
+    {
         "country": "Israel",
         "city": "Gaza",
         "lat": 31.55266324437981,
@@ -3049,20 +3063,6 @@
         "description": "DUBAI: Gulf and Arab states welcomed on Monday a US-Iran agreement to end the war and reopen the Strait of Hormuz, expressing hope that the deal will pave the way for lasting regional stability and broader diplomatic engagement.\n\n\tSaudi Arabia welcomed the agreement between Washington and Tehran to halt military operations and begin detailed negotiations over a 60-day period aimed at reaching a permanent settlement.",
         "fatalities": "0",
         "link": "https://www.arabnews.com/node/2647225/middle-east",
-        "critical": false
-    },
-    {
-        "country": "Iran",
-        "city": "Tehran",
-        "lat": 35.70046868728762,
-        "lon": 51.323230376247366,
-        "date": "2026-08-07 23:00:23",
-        "type": "Naval",
-        "severity": "normal",
-        "title": "Oil hits 3-month low as US, Iran reach peace deal to reopen Strait of Hormuz",
-        "description": "SINGAPORE: Oil prices ​slipped to a three-month low on Monday after US President Donald Trump and Iran's deputy foreign minister said ‌they had reached an initial deal to end the war and to resume traffic through the Strait of Hormuz.\n\n\tBrent crude futures fell $3.65, or 4.2 percent, to $83.68 a barrel by 09:30 a.m. and US West Texas Intermediate was at $80.75, down $4.13, or 4.9 percent. Both contracts fell to their lowest ​levels since March 10",
-        "fatalities": "0",
-        "link": "https://www.arabnews.com/node/2647221/business-economy",
         "critical": false
     }
 ]
