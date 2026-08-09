@@ -1,5 +1,33 @@
 [
     {
+        "country": "Europe",
+        "city": "Brussels",
+        "lat": 50.830655666715046,
+        "lon": 4.380487679508795,
+        "date": "2026-08-09 08:04:26",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Eclipse chasers: When chasing totality becomes a way of life (1/4)",
+        "description": "Total solar eclipse (1/4). A total solar eclipse will sweep across northern Spain on August 12 in one of Europe's most anticipated astronomical events of the decade. For Singaporean family Janet Tay, Koh Joo Beng and their son Jared, it will be the latest stop in a journey that has taken them around the world in pursuit of the Moon's shadow.",
+        "fatalities": "0",
+        "link": "https://www.france24.com/en/europe/20260809-eclipse-chasers-when-chasing-totality-becomes-a-way-of-life-1-4",
+        "critical": false
+    },
+    {
+        "country": "USA",
+        "city": "Washington",
+        "lat": 38.921029135913294,
+        "lon": -77.01084869200906,
+        "date": "2026-08-09 08:04:26",
+        "type": "Naval",
+        "severity": "normal",
+        "title": "Many of Iran’s demands ‘already agreed to’ by the US in June MoU",
+        "description": "Iran on Saturday issued a list of demands for the reopening of the Strait of Hormuz, which have been characterised as “new” preconditions. Reporting from Washington, FRANCE 24’s Fraser Jackson notes that many of the demands were “already agreed to by the US in the [Islamabad] Memorandum of Understanding that was signed back in June” between Iran and the US. “The difficulty was that the language then was quite broad.”",
+        "fatalities": "0",
+        "link": "https://www.france24.com/en/many-of-iran-s-demands-already-agreed-to-by-us-in-june-mou",
+        "critical": false
+    },
+    {
         "country": "USA",
         "city": "New york",
         "lat": 40.75398473590829,
@@ -700,6 +728,20 @@
         "critical": false
     },
     {
+        "country": "Europe",
+        "city": "Paris",
+        "lat": 48.82802088092321,
+        "lon": 2.315065189381009,
+        "date": "2026-08-08 14:18:48",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Women's Tour de France: Defending champion Pauline Ferrand-Prévot pulls out of race",
+        "description": "French cyclist and defending champion Pauline Ferrand-Prévot pulled out of the Women's Tour de France ahead of Saturday's 8th and penultimate stage due to her feeling unwell.  An Olympic champion in mountain biking at the 2024 Paris Olympics, Ferrand-Prévôt won the Women's Tour de France on her debut last year.",
+        "fatalities": "0",
+        "link": "https://www.france24.com/en/sport/20260808-women-tour-de-france-defending-champion-pauline-ferrand-pr%C3%A9vot-pulls-out-race",
+        "critical": false
+    },
+    {
         "country": "Iran",
         "city": "Tehran",
         "lat": 35.67372317070869,
@@ -725,20 +767,6 @@
         "description": "Russian recruits arriving on the battlefield in Ukraine survive an estimated 20 to 30 minutes before they are killed or wounded, the CIA director said.",
         "fatalities": "0",
         "link": "https://www.militarytimes.com/global/europe/2026/07/16/russian-troops-survive-just-20-30-minutes-on-ukraines-front-lines-cia-director-says/",
-        "critical": false
-    },
-    {
-        "country": "Europe",
-        "city": "Paris",
-        "lat": 48.82802088092321,
-        "lon": 2.315065189381009,
-        "date": "2026-08-08 14:18:48",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Women's Tour de France: Defending champion Pauline Ferrand-Prévot pulls out of race",
-        "description": "French cyclist and defending champion Pauline Ferrand-Prévot pulled out of the Women's Tour de France ahead of Saturday's 8th and penultimate stage due to her feeling unwell.  An Olympic champion in mountain biking at the 2024 Paris Olympics, Ferrand-Prévôt won the Women's Tour de France on her debut last year.",
-        "fatalities": "0",
-        "link": "https://www.france24.com/en/sport/20260808-women-tour-de-france-defending-champion-pauline-ferrand-pr%C3%A9vot-pulls-out-race",
         "critical": false
     },
     {
@@ -3035,34 +3063,6 @@
         "description": "The surviving KC-135R Stratotanker from the incident over Iraq in March which saw another Stratotanker lost with six fatalities has been repaired with a replacement vertical stabilizer taken from another aircraft. Captured at RAF Mildenhall, UK during its transit back towards the United States from forward deployment in Israel, the aircraft was visibly displaying two []",
         "fatalities": "0",
         "link": "https://theaviationist.com/2026/08/02/kc-135-damaged-mid-air-collision-donor-tail/",
-        "critical": false
-    },
-    {
-        "country": "Europe",
-        "city": "Romania",
-        "lat": 45.95544857903472,
-        "lon": 25.01066579464709,
-        "date": "2026-08-07 03:36:09",
-        "type": "Clashes",
-        "severity": "middle",
-        "title": "First UK Built Britten-Norman Islander in Nearly 60 Years Rolls Off Production Line",
-        "description": "After decades of using overseas production lines in Romania, Britten-Norman has resumed manufacturing of the STOL stalwart Islander aircraft at its historic UK home of Bembridge on the Isle of Wight. The first Islander to be built in the UK since 1968, serial number 2317 (registered as G-FRZT), has left the Britten-Norman factory and is []",
-        "fatalities": "0",
-        "link": "https://theaviationist.com/2026/07/31/first-uk-built-islander-nearly-60-years/",
-        "critical": false
-    },
-    {
-        "country": "USA",
-        "city": "Washington",
-        "lat": 38.8927347955305,
-        "lon": -77.09561459536864,
-        "date": "2026-08-07 03:36:07",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Exclusive: The USAF T-1A Jayhawk Poses For Its Final Air-to-Air Photo Shoot",
-        "description": "Ahead of the type’s planned retirement from Vance AFB, T-1A 93-0654 took to the skies over Oklahoma for one last aerial photography mission with The Aviationist contributor Greg “Cactus” Davis. In preparation for the retirement of the T-1A Jayhawk in August 2026, the final aerial photos were shot at Vance AFB, Oklahoma, recently. The photo []",
-        "fatalities": "0",
-        "link": "https://theaviationist.com/2026/08/04/exclusive-the-usaf-t-1a-jayhawk-poses-for-its-final-air-to-air-photo-shoot/",
         "critical": false
     }
 ]
