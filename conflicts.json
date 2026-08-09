@@ -1,5 +1,33 @@
 [
     {
+        "country": "Israel",
+        "city": "Gaza",
+        "lat": 31.55266324437981,
+        "lon": 34.425620522476045,
+        "date": "2026-08-09 17:08:12",
+        "type": "Naval",
+        "severity": "normal",
+        "title": "Trump to Axios: \"We are low keying it\" with Iran",
+        "description": "President Trump signaled on Sunday that he's prepared to allow economic pressure on Iran to mount — as opposed to ordering a new military offensive — even as the country continues to defy the U.S.Why it matters: Only a week ago, Trump was on the verge of ordering a return to major combat operations. But in an interview with Axios, he did not make any new military threats. Trump also didn't express any anger or frustration about the fact that Iran",
+        "fatalities": "0",
+        "link": "https://www.axios.com/2026/08/09/trump-iran-interview",
+        "critical": false
+    },
+    {
+        "country": "USA",
+        "city": "Washington",
+        "lat": 38.95973600199069,
+        "lon": -77.08541532217279,
+        "date": "2026-08-09 17:07:58",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Puerto Rico rations water supplies due to intense drought",
+        "description": "Hot weather and ageing infrastructure have led to the rationing, affecting hundreds of thousands of people.",
+        "fatalities": "0",
+        "link": "https://www.bbc.co.uk/news/articles/cqlxgk7r2vwo?at_medium=RSS&at_campaign=rss",
+        "critical": false
+    },
+    {
         "country": "Russia",
         "city": "Moscow",
         "lat": 55.692170887439836,
@@ -3035,34 +3063,6 @@
         "description": "SINGAPORE: Oil prices ​slipped to a three-month low on Monday after US President Donald Trump and Iran's deputy foreign minister said ‌they had reached an initial deal to end the war and to resume traffic through the Strait of Hormuz.\n\n\tBrent crude futures fell $3.65, or 4.2 percent, to $83.68 a barrel by 09:30 a.m. and US West Texas Intermediate was at $80.75, down $4.13, or 4.9 percent. Both contracts fell to their lowest ​levels since March 10",
         "fatalities": "0",
         "link": "https://www.arabnews.com/node/2647221/business-economy",
-        "critical": false
-    },
-    {
-        "country": "Middle East",
-        "city": "Yemen",
-        "lat": 14.580701053857881,
-        "lon": 49.15824503474777,
-        "date": "2026-08-07 21:44:41",
-        "type": "Naval",
-        "severity": "normal",
-        "title": "Houthi attacks kill at least 10 in Yemen as rebels target oil-rich Marib",
-        "description": "At least eight members of Yemeni government forces and two civilians were killed Friday in new attacks by Houthi rebels in an oil-rich province.",
-        "fatalities": "0",
-        "link": "https://www.france24.com/en/middle-east/20260807-houthi-attacks-kill-at-least-10-in-yemen-as-iran-backed-rebels-target-marib",
-        "critical": false
-    },
-    {
-        "country": "Asia",
-        "city": "Seoul",
-        "lat": 37.54714619720742,
-        "lon": 127.0998799504765,
-        "date": "2026-08-07 21:44:38",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "South Koreans beat the heat with ‘silent disco’ pool party",
-        "description": "South Koreans in Seoul cooled off with a silent disco pool party during a record-breaking heat wave.",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/video/newsfeed/2026/8/7/south-koreans-beat-the-heat-with-silent-disco-pool-party?traffic_source=rss",
         "critical": false
     }
 ]
