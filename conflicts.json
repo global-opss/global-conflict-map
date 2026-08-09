@@ -1,6 +1,62 @@
 [
     {
         "country": "USA",
+        "city": "New york",
+        "lat": 40.75398473590829,
+        "lon": -73.93939148616103,
+        "date": "2026-08-09 07:12:17",
+        "type": "Clashes",
+        "severity": "middle",
+        "title": "GOP may be stuck with Rep. Max Miller in Ohio",
+        "description": "Rep. Max Miller appeared to let a crucial Saturday withdrawal cutoff pass in Ohio's 7th Congressional District, effectively closing Republicans' last practical window to replace the embattled incumbent on the November ballot.Why it matters: A district that favors Republicans has suddenly become a potential Democratic pickup as the GOP fights to preserve its narrow House majority, and Ohio law gave party leaders no room to replace Miller without h",
+        "fatalities": "0",
+        "link": "https://www.axios.com/2026/08/09/ohio-gop-max-miller-7th-district-moreno-2026",
+        "critical": false
+    },
+    {
+        "country": "Israel",
+        "city": "Jerusalem",
+        "lat": 31.772682996691326,
+        "lon": 35.246648691053174,
+        "date": "2026-08-09 07:12:11",
+        "type": "Clashes",
+        "severity": "middle",
+        "title": "Israel announces tender for 627 settler units in occupied West Bank",
+        "description": "New settlement tender in West Bank deepens Israeli efforts to sever Palestinian ties to Jerusalem, officials warn.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/news/2026/8/9/israel-announces-tender-for-627-settler-units-in-occupied-west-bank?traffic_source=rss",
+        "critical": false
+    },
+    {
+        "country": "USA",
+        "city": "Washington",
+        "lat": 38.957731397222084,
+        "lon": -76.97014276224604,
+        "date": "2026-08-09 07:12:11",
+        "type": "Evacuation",
+        "severity": "critical",
+        "title": "Wildfire forces thousands of evacuations in Western Canada",
+        "description": "A fast-moving wildfire has forced more than 20,000 people to evacuate parts of British Columbia’s Okanagan region.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/video/newsfeed/2026/8/9/wildfire-forces-thousands-of-evacuations-in-western-canada?traffic_source=rss",
+        "critical": true
+    },
+    {
+        "country": "Iran",
+        "city": "Tehran",
+        "lat": 35.70038754929433,
+        "lon": 51.45236883291873,
+        "date": "2026-08-09 07:12:11",
+        "type": "Naval",
+        "severity": "normal",
+        "title": "Iran war live: Tehran sets Hormuz terms, Houthis claim attack on Saudi site",
+        "description": "IRGC sets conditions to reopen Strait of Hormuz as US seeks commitments to end attacks on ships in the waterway.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/news/liveblog/2026/8/9/iran-war-live-tehran-demands-end-to-us-blockade-to-reopen-strait-of-hormuz?traffic_source=rss",
+        "critical": false
+    },
+    {
+        "country": "USA",
         "city": "Washington",
         "lat": 38.957056228407254,
         "lon": -77.07359990232683,
@@ -644,20 +700,6 @@
         "critical": false
     },
     {
-        "country": "Europe",
-        "city": "Paris",
-        "lat": 48.82802088092321,
-        "lon": 2.315065189381009,
-        "date": "2026-08-08 14:18:48",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Women's Tour de France: Defending champion Pauline Ferrand-Prévot pulls out of race",
-        "description": "French cyclist and defending champion Pauline Ferrand-Prévot pulled out of the Women's Tour de France ahead of Saturday's 8th and penultimate stage due to her feeling unwell.  An Olympic champion in mountain biking at the 2024 Paris Olympics, Ferrand-Prévôt won the Women's Tour de France on her debut last year.",
-        "fatalities": "0",
-        "link": "https://www.france24.com/en/sport/20260808-women-tour-de-france-defending-champion-pauline-ferrand-pr%C3%A9vot-pulls-out-race",
-        "critical": false
-    },
-    {
         "country": "Iran",
         "city": "Tehran",
         "lat": 35.67372317070869,
@@ -683,6 +725,20 @@
         "description": "Russian recruits arriving on the battlefield in Ukraine survive an estimated 20 to 30 minutes before they are killed or wounded, the CIA director said.",
         "fatalities": "0",
         "link": "https://www.militarytimes.com/global/europe/2026/07/16/russian-troops-survive-just-20-30-minutes-on-ukraines-front-lines-cia-director-says/",
+        "critical": false
+    },
+    {
+        "country": "Europe",
+        "city": "Paris",
+        "lat": 48.82802088092321,
+        "lon": 2.315065189381009,
+        "date": "2026-08-08 14:18:48",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Women's Tour de France: Defending champion Pauline Ferrand-Prévot pulls out of race",
+        "description": "French cyclist and defending champion Pauline Ferrand-Prévot pulled out of the Women's Tour de France ahead of Saturday's 8th and penultimate stage due to her feeling unwell.  An Olympic champion in mountain biking at the 2024 Paris Olympics, Ferrand-Prévôt won the Women's Tour de France on her debut last year.",
+        "fatalities": "0",
+        "link": "https://www.france24.com/en/sport/20260808-women-tour-de-france-defending-champion-pauline-ferrand-pr%C3%A9vot-pulls-out-race",
         "critical": false
     },
     {
@@ -3007,62 +3063,6 @@
         "description": "Ahead of the type’s planned retirement from Vance AFB, T-1A 93-0654 took to the skies over Oklahoma for one last aerial photography mission with The Aviationist contributor Greg “Cactus” Davis. In preparation for the retirement of the T-1A Jayhawk in August 2026, the final aerial photos were shot at Vance AFB, Oklahoma, recently. The photo []",
         "fatalities": "0",
         "link": "https://theaviationist.com/2026/08/04/exclusive-the-usaf-t-1a-jayhawk-poses-for-its-final-air-to-air-photo-shoot/",
-        "critical": false
-    },
-    {
-        "country": "Asia",
-        "city": "Pakistan",
-        "lat": 31.47238572726374,
-        "lon": 74.33456169157321,
-        "date": "2026-08-07 03:36:05",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Middle East live: Saudi Arabia, Pakistan and Turkey set to sign defence pact in Jeddah",
-        "description": "A source close to the Saudi army told AFP that Saudi Arabia, Pakistan and Turkey will sign a joint defence agreement on Friday in Jeddah. Saudi Crown Prince Mohammed bin Salman, Turkish President Recep Tayyip Erdogan and Pakistani Prime Minister Shehbaz Sharif will meet in the Saudi city. Follow our liveblog for the latest developments.",
-        "fatalities": "0",
-        "link": "https://www.france24.com/en/middle-east/20260807-middle-east-live-saudi-arabia-pakistan-turkey-to-sign-defence-pact",
-        "critical": false
-    },
-    {
-        "country": "Israel",
-        "city": "Jerusalem",
-        "lat": 31.81482541128752,
-        "lon": 35.17053819567786,
-        "date": "2026-08-07 03:36:01",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Israeli raid in West Bank’s Qalandiya injures 51 Palestinians",
-        "description": "Israeli forces arrest dozens of Palestinians near Jerusalem amid uptick in military and settler violence in West Bank.",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/news/2026/8/7/israeli-raid-in-west-banks-qalandiya-injures-51-palestinians?traffic_source=rss",
-        "critical": false
-    },
-    {
-        "country": "USA",
-        "city": "Washington",
-        "lat": 38.923337194474044,
-        "lon": -77.07218664710562,
-        "date": "2026-08-07 03:36:01",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Police in Argentina use tear gas to stop protesters",
-        "description": "Al Jazeera’s Teresa Bo reports from Buenos Aires, where police fired tear gas as thousands protested.",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/video/newsfeed/2026/8/7/police-in-argentina-use-tear-gas-to-stop-protesters?traffic_source=rss",
-        "critical": false
-    },
-    {
-        "country": "Iran",
-        "city": "Tehran",
-        "lat": 35.69060472250184,
-        "lon": 51.41277539620091,
-        "date": "2026-08-07 03:36:01",
-        "type": "Naval",
-        "severity": "normal",
-        "title": "Iran war live: Trump says war can’t ‘go much longer’; Hormuz deal close",
-        "description": "The US, Iran, and Oman are close to a temporary deal to reopen the Strait of Hormuz.",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/news/liveblog/2026/8/7/trump-says-war-cant-go-much-longer-hormuz-deal-close?traffic_source=rss",
         "critical": false
     }
 ]
