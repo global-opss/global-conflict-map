@@ -1,6 +1,20 @@
 [
     {
         "country": "Israel",
+        "city": "Tel Aviv",
+        "lat": 32.049331288143605,
+        "lon": 34.790420606467215,
+        "date": "2026-08-09 22:01:38",
+        "type": "Clashes",
+        "severity": "middle",
+        "title": "Pro-science group urges Mark Kelly to run for president in 2028",
+        "description": "A liberal group working to elect scientists to public office has a 2028 message for Arizona Sen. — and former astronaut — Mark Kelly: Run, Kelly, run.Why it matters: 314 Action Fund has raised its profile this cycle, elevating candidates with STEM backgrounds who've pitched themselves as a bulwark against public health cuts and Health and Human Services Secretary Robert F. Kennedy Jr.The organization said it raised more than $100 million over the",
+        "fatalities": "0",
+        "link": "https://www.axios.com/2026/08/09/group-promoting-science-urges-kelly-to-run-for-president",
+        "critical": false
+    },
+    {
+        "country": "Israel",
         "city": "Gaza",
         "lat": 31.493199293073776,
         "lon": 34.42295411552939,
@@ -3050,19 +3064,5 @@
         "fatalities": "0",
         "link": "https://www.bbc.co.uk/news/articles/c39eprxln0go?at_medium=RSS&at_campaign=rss",
         "critical": false
-    },
-    {
-        "country": "Ukraine",
-        "city": "Kyiv",
-        "lat": 50.48331080386174,
-        "lon": 30.51921529381762,
-        "date": "2026-08-08 04:57:29",
-        "type": "Airstrike",
-        "severity": "critical",
-        "title": "'I ran because I knew I would die': Russian drones target medics in Ukraine",
-        "description": "Ukrainian emergency workers warn of growing Russian attacks on hospitals and ambulances.",
-        "fatalities": "0",
-        "link": "https://www.bbc.co.uk/news/articles/c3r073eqvrjo?at_medium=RSS&at_campaign=rss",
-        "critical": true
     }
 ]
