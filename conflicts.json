@@ -1,5 +1,19 @@
 [
     {
+        "country": "Israel",
+        "city": "Gaza",
+        "lat": 31.518434209332938,
+        "lon": 34.434809945232125,
+        "date": "2026-08-09 23:50:48",
+        "type": "Airstrike",
+        "severity": "critical",
+        "title": "Union reports 108 attacks on Palestinian journalists in July",
+        "description": "Palestinian Journalists Syndicate exposes rising threats, with over 270 journalists killed in Gaza since October 2023.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/news/2026/8/9/union-reports-108-attacks-on-palestinian-journalists-in-july?traffic_source=rss",
+        "critical": true
+    },
+    {
         "country": "Ukraine",
         "city": "Kyiv",
         "lat": 50.4514471470272,
@@ -3050,19 +3064,5 @@
         "fatalities": "0",
         "link": "https://rg.ru/2026/08/08/gie-anomalnaia-zhara-vynudila-strany-es-rekordno-potratit-zapasy-gaza.html",
         "critical": false
-    },
-    {
-        "country": "Ukraine",
-        "city": "Kyiv",
-        "lat": 50.38589789292596,
-        "lon": 30.534216059565022,
-        "date": "2026-08-08 06:26:12",
-        "type": "Airstrike",
-        "severity": "critical",
-        "title": "Russian missile strikes near Kyiv kill three, including a child",
-        "description": "Russian missile strikes killed three people, including a child, ​in ‌the Kyiv region on Saturday, said local authorities, as an air raid alert was declared in and around the Ukrainian capital due to the threat of ballistic missiles.",
-        "fatalities": "0",
-        "link": "https://www.france24.com/en/europe/20260808-russian-missile-strikes-near-kyiv-kill-three-including-a-child",
-        "critical": true
     }
 ]
