@@ -1,5 +1,19 @@
 [
     {
+        "country": "Iran",
+        "city": "Tehran",
+        "lat": 35.73601060627951,
+        "lon": 51.38490597839274,
+        "date": "2026-08-09 20:55:12",
+        "type": "Naval",
+        "severity": "normal",
+        "title": "Iran vows to keep Strait of Hormuz closed until US meets demands",
+        "description": "Iran’s Revolutionary Guards said Sunday that the Strait of Hormuz would remain closed until the US meets Tehran’s demands, including an end to sanctions and compensation for war damage. The blockade of the crucial energy route has rattled markets and pushed up prices, while President Donald Trump said he was taking a low-key approach to negotiations with Iran.",
+        "fatalities": "0",
+        "link": "https://www.france24.com/en/middle-east/20260809-iran-vows-to-keep-strait-of-hormuz-closed-until-us-meets-demands",
+        "critical": false
+    },
+    {
         "country": "Israel",
         "city": "Jerusalem",
         "lat": 31.84587918404783,
@@ -3050,19 +3064,5 @@
         "fatalities": "0",
         "link": "https://www.aljazeera.com/news/2026/8/8/russian-strikes-near-ukrainian-capital-kill-three-including-child?traffic_source=rss",
         "critical": true
-    },
-    {
-        "country": "USA",
-        "city": "New york",
-        "lat": 40.76434134549241,
-        "lon": -74.06679327510496,
-        "date": "2026-08-08 04:57:28",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Pellet Guns, Sticks and Tear Gas: How India’s Police Halted a Youth March",
-        "description": "A New York Times analysis details the July 20 crackdown on unarmed protesters in New Delhi that has provoked public outrage and accusations of excessive force.",
-        "fatalities": "0",
-        "link": "https://www.nytimes.com/2026/08/08/world/asia/pellet-guns-sticks-and-tear-gas-how-indias-police-halted-a-youth-march.html",
-        "critical": false
     }
 ]
