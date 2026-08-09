@@ -1,5 +1,47 @@
 [
     {
+        "country": "Iran",
+        "city": "Tehran",
+        "lat": 35.747178282538,
+        "lon": 51.44004299389484,
+        "date": "2026-08-09 18:17:13",
+        "type": "Naval",
+        "severity": "normal",
+        "title": "Oil falls to 3-1/2-month low after US, Iran sign ceasefire deal",
+        "description": "BEIJING/SINGAPORE: Oil prices ​fell by more than $2 per barrel on Thursday after the US and Iran signed an interim agreement that ‌would end the Iran war, reopen the Strait of Hormuz and waive US sanctions on Tehran’s oil, boosting the oil supply outlook.\n\n\tBrent crude futures were down $2.14, or 2.69 percent, at $77.41 a barrel as of 09:16 a.m. Saudi time, and US West Texas Intermediate fell $2.36, or 3.07 percent, to $74.43 a barrel.",
+        "fatalities": "0",
+        "link": "https://www.arabnews.com/node/2647650/business-economy",
+        "critical": false
+    },
+    {
+        "country": "USA",
+        "city": "Washington",
+        "lat": 38.838015168028086,
+        "lon": -77.09195531510134,
+        "date": "2026-08-09 18:17:13",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Trump, Netanyahu clash over Iran strategy and Lebanon ceasefire",
+        "description": "DUBAI: American President Donald Trump and Israeli Prime Minister Benjamin Netanyahu have found themselves at odds over Iran, Lebanon and the course of ongoing negotiations in the Middle East according to The Washington Post.",
+        "fatalities": "0",
+        "link": "https://www.arabnews.com/node/2647647/middle-east",
+        "critical": false
+    },
+    {
+        "country": "Europe",
+        "city": "Brussels",
+        "lat": 50.84654495112852,
+        "lon": 4.387958489919312,
+        "date": "2026-08-09 18:17:13",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "US will be candid in push for ‘hard-line’ NATO alliance, Hegseth says",
+        "description": "BRUSSELS: NATO needs to return to its roots as a “hard-line” military alliance and the United States will be candid in public and ‌private about ‌countries that ‌need to ⁠do more to ⁠meet their commitments, US Defense Secretary Pete Hegseth said on Thursday at ⁠NATO headquarters.\n\t“(There are) ‌some ‌that still need ‌to do more, ‌and we will be candid about that, both in private ‌and in public. I think ⁠that’s important, ⁠friends being honest wit",
+        "fatalities": "0",
+        "link": "https://www.arabnews.com/node/2647643/world",
+        "critical": false
+    },
+    {
         "country": "Asia",
         "city": "Tokyo",
         "lat": 35.639137859877785,
@@ -3022,47 +3064,5 @@
         "fatalities": "0",
         "link": "https://www.aljazeera.com/news/2026/8/7/medics-among-six-palestinians-injured-in-israeli-attacks-across-west-bank?traffic_source=rss",
         "critical": true
-    },
-    {
-        "country": "Israel",
-        "city": "Jerusalem",
-        "lat": 31.78065060734362,
-        "lon": 35.29090190972747,
-        "date": "2026-08-07 23:00:23",
-        "type": "Clashes",
-        "severity": "middle",
-        "title": "Israel says won’t withdraw troops from Lebanon, Syria, Gaza",
-        "description": "JERUSALEM: Israel’s defense minister said Monday that Israeli forces would remain in Lebanon, Syria and Gaza indefinitely, hours after the United States and Iran agreed to end the Middle East war, including in Lebanon.\n\t“Prime Minister Benjamin Netanyahu and I are pursuing a clear policy under which the IDF will remain in the security zones in Lebanon, Syria and Gaza for an unlimited period of time, in order to protect the border and Israeli comm",
-        "fatalities": "0",
-        "link": "https://www.arabnews.com/node/2647229/middle-east",
-        "critical": false
-    },
-    {
-        "country": "Israel",
-        "city": "Jerusalem",
-        "lat": 31.742045706601942,
-        "lon": 35.17513349174701,
-        "date": "2026-08-07 23:00:23",
-        "type": "Clashes",
-        "severity": "middle",
-        "title": "Lebanon warns displaced against rushing home after US-Iran deal",
-        "description": "BEIRUT/JERUSALEM: Authorities in southern Lebanon warned people displaced by three months of war between Israel and Hezbollah against rushing home on Monday despite a US-Iran deal to end the wider conflict, as Israel said it would not withdraw troops from the south.\n\n\tThe warning comes as Lebanon has not been informed of details of the US-Iran agreement, an official source told AFP on Monday.\n\n\t“Lebanon was not informed of the terms of the agreem",
-        "fatalities": "0",
-        "link": "https://www.arabnews.com/node/2647227/middle-east",
-        "critical": false
-    },
-    {
-        "country": "Iran",
-        "city": "Tehran",
-        "lat": 35.75305043476426,
-        "lon": 51.37392373248238,
-        "date": "2026-08-07 23:00:23",
-        "type": "Naval",
-        "severity": "normal",
-        "title": "Gulf, Arab states welcome US-Iran deal to end war, reopen Hormuz",
-        "description": "DUBAI: Gulf and Arab states welcomed on Monday a US-Iran agreement to end the war and reopen the Strait of Hormuz, expressing hope that the deal will pave the way for lasting regional stability and broader diplomatic engagement.\n\n\tSaudi Arabia welcomed the agreement between Washington and Tehran to halt military operations and begin detailed negotiations over a 60-day period aimed at reaching a permanent settlement.",
-        "fatalities": "0",
-        "link": "https://www.arabnews.com/node/2647225/middle-east",
-        "critical": false
     }
 ]
