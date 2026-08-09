@@ -1,5 +1,33 @@
 [
     {
+        "country": "Israel",
+        "city": "Gaza",
+        "lat": 31.493199293073776,
+        "lon": 34.42295411552939,
+        "date": "2026-08-09 21:32:00",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Still Waiting for Peace in Gaza",
+        "description": "A photojournalist with The New York Times details the displacement and danger, in words and images, that have come to define his home.",
+        "fatalities": "0",
+        "link": "https://www.nytimes.com/2026/08/09/world/gaza-israel-iran.html",
+        "critical": false
+    },
+    {
+        "country": "Israel",
+        "city": "Tel Aviv",
+        "lat": 32.08116909919755,
+        "lon": 34.71922721197207,
+        "date": "2026-08-09 21:31:56",
+        "type": "Airstrike",
+        "severity": "critical",
+        "title": "Iran War Timeline: Key Moments and Attacks In U.S. and Israel’s Campaign",
+        "description": "The United States and Israel attacked Iran on Feb. 28, starting a monthslong war that spread to neighboring countries and rocked global markets.",
+        "fatalities": "0",
+        "link": "https://www.nytimes.com/article/iran-war-trump-us-oil-hormuz-key-dates-events.html",
+        "critical": true
+    },
+    {
         "country": "Iran",
         "city": "Tehran",
         "lat": 35.73601060627951,
@@ -3035,34 +3063,6 @@
         "description": "Ukrainian emergency workers warn of growing Russian attacks on hospitals and ambulances.",
         "fatalities": "0",
         "link": "https://www.bbc.co.uk/news/articles/c3r073eqvrjo?at_medium=RSS&at_campaign=rss",
-        "critical": true
-    },
-    {
-        "country": "Russia",
-        "city": "Moscow",
-        "lat": 55.702300164539054,
-        "lon": 37.59828307880417,
-        "date": "2026-08-08 04:57:29",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Armenia puts Church leader on trial for allegedly being a Russian spy",
-        "description": "Armenia’s head of the Apostolic Church and senior clergy could face jail time over allegations of spying for Russia.",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/video/newsfeed/2026/8/8/08-08-2026-armenia-church-trial-sv?traffic_source=rss",
-        "critical": false
-    },
-    {
-        "country": "Ukraine",
-        "city": "Kyiv",
-        "lat": 50.46210204936052,
-        "lon": 30.51610950806294,
-        "date": "2026-08-08 04:57:29",
-        "type": "Airstrike",
-        "severity": "critical",
-        "title": "Russian strikes near Ukrainian capital kill three, including child",
-        "description": "Attack comes as US Senate passes new Russia sanctions and Kyiv appeals for air defence interceptors.",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/news/2026/8/8/russian-strikes-near-ukrainian-capital-kill-three-including-child?traffic_source=rss",
         "critical": true
     }
 ]
