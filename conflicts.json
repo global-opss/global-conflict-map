@@ -1,5 +1,47 @@
 [
     {
+        "country": "USA",
+        "city": "New york",
+        "lat": 40.77953550989357,
+        "lon": -74.01273535155326,
+        "date": "2026-08-09 02:49:23",
+        "type": "Airstrike",
+        "severity": "critical",
+        "title": "NYT: в США боятся потерять доверие Токио и Сеула из-за истощения арсеналов // NYT: у США осталось меньше 1,7 тыс. ракет ",
+        "description": "Военная операция США против Ирана истощила американские запасы вооружений до критического уровня, сообщает The New York Times со ссылкой на источники. В распоряжении Пентагона осталось менее 1,7 тыс. ракет-перехватчиков Patriot, и США может потребоваться более двух лет только на то, чтобы восстановить их арсенал.",
+        "fatalities": "0",
+        "link": "https://www.kommersant.ru/doc/8875642",
+        "critical": true
+    },
+    {
+        "country": "China",
+        "city": "Beijing",
+        "lat": 39.90250052192921,
+        "lon": 116.45885845076805,
+        "date": "2026-08-09 02:49:00",
+        "type": "Airstrike",
+        "severity": "critical",
+        "title": "China Shows H-6 Bomber Carrying Nuclear-Capable JL-1 ALBM",
+        "description": "China released images of the H-6 bomber carrying the JL-1 air-launched ballistic missile as part of promotional features marking the 99th anniversary of the People’s Liberation Army (PLA). China released for the first time official footage showing a PLA Air Force H-6N bomber carrying the massive JL-1 air-launched ballistic missile (ALBM). The bomber was also []",
+        "fatalities": "0",
+        "link": "https://theaviationist.com/2026/08/06/china-h-6-bomber-nuclear-jl-1-albm/",
+        "critical": true
+    },
+    {
+        "country": "Israel",
+        "city": "Tel Aviv",
+        "lat": 32.033729553636725,
+        "lon": 34.7942699604842,
+        "date": "2026-08-09 02:48:55",
+        "type": "Airstrike",
+        "severity": "critical",
+        "title": "Israeli settler attacks rise as West Bank residents lose land",
+        "description": "Palestinians near Bethlehem describe daily settler attacks as violence rises across the West Bank.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/video/newsfeed/2026/8/9/09-08-reported-nour-odeh-bethlehem?traffic_source=rss",
+        "critical": true
+    },
+    {
         "country": "Iran",
         "city": "Tehran",
         "lat": 35.6286439419489,
@@ -476,6 +518,20 @@
         "critical": false
     },
     {
+        "country": "Europe",
+        "city": "Paris",
+        "lat": 48.82802088092321,
+        "lon": 2.315065189381009,
+        "date": "2026-08-08 14:18:48",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Women's Tour de France: Defending champion Pauline Ferrand-Prévot pulls out of race",
+        "description": "French cyclist and defending champion Pauline Ferrand-Prévot pulled out of the Women's Tour de France ahead of Saturday's 8th and penultimate stage due to her feeling unwell.  An Olympic champion in mountain biking at the 2024 Paris Olympics, Ferrand-Prévôt won the Women's Tour de France on her debut last year.",
+        "fatalities": "0",
+        "link": "https://www.france24.com/en/sport/20260808-women-tour-de-france-defending-champion-pauline-ferrand-pr%C3%A9vot-pulls-out-race",
+        "critical": false
+    },
+    {
         "country": "Iran",
         "city": "Tehran",
         "lat": 35.67372317070869,
@@ -501,20 +557,6 @@
         "description": "Russian recruits arriving on the battlefield in Ukraine survive an estimated 20 to 30 minutes before they are killed or wounded, the CIA director said.",
         "fatalities": "0",
         "link": "https://www.militarytimes.com/global/europe/2026/07/16/russian-troops-survive-just-20-30-minutes-on-ukraines-front-lines-cia-director-says/",
-        "critical": false
-    },
-    {
-        "country": "Europe",
-        "city": "Paris",
-        "lat": 48.82802088092321,
-        "lon": 2.315065189381009,
-        "date": "2026-08-08 14:18:48",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Women's Tour de France: Defending champion Pauline Ferrand-Prévot pulls out of race",
-        "description": "French cyclist and defending champion Pauline Ferrand-Prévot pulled out of the Women's Tour de France ahead of Saturday's 8th and penultimate stage due to her feeling unwell.  An Olympic champion in mountain biking at the 2024 Paris Olympics, Ferrand-Prévôt won the Women's Tour de France on her debut last year.",
-        "fatalities": "0",
-        "link": "https://www.france24.com/en/sport/20260808-women-tour-de-france-defending-champion-pauline-ferrand-pr%C3%A9vot-pulls-out-race",
         "critical": false
     },
     {
@@ -3022,47 +3064,5 @@
         "fatalities": "0",
         "link": "https://www.axios.com/2026/08/06/dnc-2024-autopsy-author-gaza",
         "critical": false
-    },
-    {
-        "country": "Asia",
-        "city": "Host",
-        "lat": 33.35553118692331,
-        "lon": 69.93547961165272,
-        "date": "2026-08-07 00:33:48",
-        "type": "Naval",
-        "severity": "normal",
-        "title": "Trump targets birth tourism and citizenship in new executive orders",
-        "description": "President Trump plans to sign two executive orders Thursday seeking to narrow birthright citizenship in several circumstances and intensify the federal crackdown on commercial \"birth tourism,\" Axios has learned.  Trump also is seeking to deny birthright citizenship for children born of some foreign diplomatic staff in the U.S. and, potentially, U.S. territories in the future.Why it matters: It's Trump's second attempt to curb birthright citizensh",
-        "fatalities": "0",
-        "link": "https://www.axios.com/2026/08/06/trump-birth-tourism-birthright-citizenship",
-        "critical": false
-    },
-    {
-        "country": "USA",
-        "city": "Washington",
-        "lat": 38.92892714639615,
-        "lon": -77.09731768524202,
-        "date": "2026-08-07 00:33:48",
-        "type": "Naval",
-        "severity": "normal",
-        "title": "Trump backs Hegseth, calls reports to the contrary \"treasonous\"",
-        "description": "President Trump on Thursday publicly defended Defense Secretary Pete Hegseth, and said reporting suggesting any friction between the two was \"treasonous.\"Why it matters: The Washington Post and others reported this week that Trump had reached his limits with Hegseth over the state of the country's weapons stockpile and the impact on the war with Iran.What they're saying: \"The Fake News, as usual, is spreading false and completely unfounded rumors",
-        "fatalities": "0",
-        "link": "https://www.axios.com/2026/08/06/trump-hegseth-weapons-war-iran",
-        "critical": false
-    },
-    {
-        "country": "Ukraine",
-        "city": "Kyiv",
-        "lat": 50.403015961054344,
-        "lon": 30.519092124808395,
-        "date": "2026-08-07 00:33:48",
-        "type": "Evacuation",
-        "severity": "critical",
-        "title": "Trump may get a big, new tariff authority",
-        "description": "A legal cat-and-mouse game has played out over whether the president can use various obscure, untested provisions to impose tariffs. Now, Congress appears on track to give him a big, new — and explicit — tariff authority.Why it matters: A bill on Russia sanctions, named for the late Sen. Lindsey Graham, has received overwhelming bipartisan support in the Senate and would allow President Trump and future presidents to impose tariffs of up to 100% ",
-        "fatalities": "0",
-        "link": "https://www.axios.com/2026/08/06/tariffs-congress-russia-trump",
-        "critical": true
     }
 ]
