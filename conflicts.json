@@ -1,5 +1,19 @@
 [
     {
+        "country": "Ukraine",
+        "city": "Kyiv",
+        "lat": 50.4514471470272,
+        "lon": 30.53895283039958,
+        "date": "2026-08-09 23:13:53",
+        "type": "Airstrike",
+        "severity": "critical",
+        "title": "Child among three killed in Russian missile attacks near Kyiv",
+        "description": "Russia continued its overnight attacks after President Volodymyr Zelensky warned of Ukraine's dwindling supplies of missile interceptors.",
+        "fatalities": "0",
+        "link": "https://www.bbc.co.uk/news/articles/cz7dy8gq99eo?at_medium=RSS&at_campaign=rss",
+        "critical": true
+    },
+    {
         "country": "USA",
         "city": "New york",
         "lat": 40.6840095534353,
@@ -3050,19 +3064,5 @@
         "fatalities": "0",
         "link": "https://www.france24.com/en/europe/20260808-russian-missile-strikes-near-kyiv-kill-three-including-a-child",
         "critical": true
-    },
-    {
-        "country": "Israel",
-        "city": "Jerusalem",
-        "lat": 31.72491957922651,
-        "lon": 35.275243825108284,
-        "date": "2026-08-08 05:46:25",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Violence is driving Palestinian Christians out of their Holy Land",
-        "description": "Palestinian Christians are facing violence and displacement across Gaza, Jerusalem and the occupied West Bank.",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/video/newsfeed/2026/8/8/violence-is-driving-palestinian-christians-out-of-their-holy-land?traffic_source=rss",
-        "critical": false
     }
 ]
