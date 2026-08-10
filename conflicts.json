@@ -1,5 +1,33 @@
 [
     {
+        "country": "Iran",
+        "city": "Tehran",
+        "lat": 35.75541120587676,
+        "lon": 51.35464084932392,
+        "date": "2026-08-10 17:28:43",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Iran’s president says Khamenei is in ‘perfect health’",
+        "description": "Iran’s President Masoud Pezeshkian says Supreme Leader Ayatollah Mojtaba Khamenei had a message of “unity and cohesion”",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/video/newsfeed/2026/8/10/irans-president-says-khamenei-is-in-perfect?traffic_source=rss",
+        "critical": false
+    },
+    {
+        "country": "Israel",
+        "city": "Gaza",
+        "lat": 31.475762996657995,
+        "lon": 34.47632248951182,
+        "date": "2026-08-10 17:28:43",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "‘We have no one’: Palestinians react to Israel’s rejection of Gaza plan",
+        "description": "Netanyahus declaration has reinforced doubts of lasting calm without Israeli withdrawal, reconstruction and guarantees.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/features/2026/8/10/we-have-no-one-palestinians-react-to-israels-rejection-of-gaza-plan?traffic_source=rss",
+        "critical": false
+    },
+    {
         "country": "Europe",
         "city": "Brussels",
         "lat": 50.83482954198917,
@@ -3035,34 +3063,6 @@
         "description": "Total solar eclipse (1/4). A total solar eclipse will sweep across northern Spain on August 12 in one of Europe's most anticipated astronomical events of the decade. For Singaporean family Janet Tay, Koh Joo Beng and their son Jared, it will be the latest stop in a journey that has taken them around the world in pursuit of the Moon's shadow.",
         "fatalities": "0",
         "link": "https://www.france24.com/en/europe/20260809-eclipse-chasers-when-chasing-totality-becomes-a-way-of-life-1-4",
-        "critical": false
-    },
-    {
-        "country": "USA",
-        "city": "Washington",
-        "lat": 38.921029135913294,
-        "lon": -77.01084869200906,
-        "date": "2026-08-09 08:04:26",
-        "type": "Naval",
-        "severity": "normal",
-        "title": "Many of Iran’s demands ‘already agreed to’ by the US in June MoU",
-        "description": "Iran on Saturday issued a list of demands for the reopening of the Strait of Hormuz, which have been characterised as “new” preconditions. Reporting from Washington, FRANCE 24’s Fraser Jackson notes that many of the demands were “already agreed to by the US in the [Islamabad] Memorandum of Understanding that was signed back in June” between Iran and the US. “The difficulty was that the language then was quite broad.”",
-        "fatalities": "0",
-        "link": "https://www.france24.com/en/many-of-iran-s-demands-already-agreed-to-by-us-in-june-mou",
-        "critical": false
-    },
-    {
-        "country": "USA",
-        "city": "New york",
-        "lat": 40.75398473590829,
-        "lon": -73.93939148616103,
-        "date": "2026-08-09 07:12:17",
-        "type": "Clashes",
-        "severity": "middle",
-        "title": "GOP may be stuck with Rep. Max Miller in Ohio",
-        "description": "Rep. Max Miller appeared to let a crucial Saturday withdrawal cutoff pass in Ohio's 7th Congressional District, effectively closing Republicans' last practical window to replace the embattled incumbent on the November ballot.Why it matters: A district that favors Republicans has suddenly become a potential Democratic pickup as the GOP fights to preserve its narrow House majority, and Ohio law gave party leaders no room to replace Miller without h",
-        "fatalities": "0",
-        "link": "https://www.axios.com/2026/08/09/ohio-gop-max-miller-7th-district-moreno-2026",
         "critical": false
     }
 ]
