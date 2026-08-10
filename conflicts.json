@@ -1,5 +1,47 @@
 [
     {
+        "country": "Ukraine",
+        "city": "Kyiv",
+        "lat": 50.429659038517144,
+        "lon": 30.592161199915605,
+        "date": "2026-08-10 23:17:07",
+        "type": "Naval",
+        "severity": "normal",
+        "title": "Iran says Ukrainian attack on vessel in Caspian Sea killed sailor",
+        "description": "Tehran described the attack on its vessel as an act of aggression while accusing Kyiv of seeking to expand the war in Ukraine.",
+        "fatalities": "0",
+        "link": "https://www.militarytimes.com/global/mideast-africa/2026/07/26/iran-says-ukrainian-attack-on-vessel-in-caspian-sea-killed-sailor/",
+        "critical": false
+    },
+    {
+        "country": "Iran",
+        "city": "Tehran",
+        "lat": 35.6631163671288,
+        "lon": 51.405133801484425,
+        "date": "2026-08-10 23:17:07",
+        "type": "Naval",
+        "severity": "normal",
+        "title": "US launches new strikes on Iran after reinstating oil sanctions over shipping attacks",
+        "description": "The U.S. military unleashed a new wave of strikes against Iran on Tuesday and revoked a license allowing the country to sell oil.",
+        "fatalities": "0",
+        "link": "https://www.militarytimes.com/news/your-military/2026/07/07/us-launches-new-strikes-on-iran-after-reinstating-oil-sanctions-over-shipping-attacks/",
+        "critical": false
+    },
+    {
+        "country": "USA",
+        "city": "Washington",
+        "lat": 38.95613701086155,
+        "lon": -77.03011685439283,
+        "date": "2026-08-10 23:17:03",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Ceuta mayor calls for migrant detention amid mass influx crisis",
+        "description": "Thousands of migrants in Ceuta face dire conditions, sparking political and social tensions in the Spanish territory.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/news/2026/8/10/ceuta-mayor-calls-for-migrant-detention-amid-mass-influx-crisis?traffic_source=rss",
+        "critical": false
+    },
+    {
         "country": "Africa",
         "city": "Mali",
         "lat": 12.660945606670644,
@@ -3022,47 +3064,5 @@
         "fatalities": "0",
         "link": "https://www.axios.com/2026/08/07/marco-rubio-cuba-pressure-campaign",
         "critical": true
-    },
-    {
-        "country": "USA",
-        "city": "New york",
-        "lat": 40.69099041733174,
-        "lon": -74.05094853252513,
-        "date": "2026-08-09 12:00:04",
-        "type": "Naval",
-        "severity": "normal",
-        "title": "Trump won't drop war, tariffs or monuments to save the GOP",
-        "description": "Read the polls, watch economic indicators and talk to President Trump's inner circle in private, and the verdict on his second term seems clear:Even some longtime insiders fear he's trapped by a war he shouldn't have waged, tariffs he shouldn't have levied, monuments he shouldn't be obsessed with.Why it matters: These three topics chew up much of Trump's time and attention. All three are widely unpopular in polls.And it's almost impossible to see",
-        "fatalities": "0",
-        "link": "https://www.axios.com/2026/08/07/trump-iran-war-tariffs-monuments-unpopular",
-        "critical": false
-    },
-    {
-        "country": "Israel",
-        "city": "Gaza",
-        "lat": 31.53546969888882,
-        "lon": 34.48049011299833,
-        "date": "2026-08-09 12:00:04",
-        "type": "Explosion",
-        "severity": "middle",
-        "title": "Exclusive: GOP plans socialism telethon at midterm convention",
-        "description": "Republicans plan to use their first-ever midterm convention in Dallas next month to mount a sweeping, made-for-prime-time case that Democrats have become captive to their activist left, Axios has learned.Why it matters: With President Trump's approval rating in the 30s and his war in Iran weighing on the economy, Republicans don't want the Nov. 3 midterms to be just a referendum on his presidency.They're essentially planning a \"But they're worse\"",
-        "fatalities": "0",
-        "link": "https://www.axios.com/2026/08/07/gop-midterm-convention-gameplan",
-        "critical": false
-    },
-    {
-        "country": "Israel",
-        "city": "Tel Aviv",
-        "lat": 32.07779466332846,
-        "lon": 34.82756519278357,
-        "date": "2026-08-09 11:59:57",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "UNIFIL’s final months: Uncertainty persists in Lebanon over what comes next",
-        "description": "The mission for the United Nations Interim Force in Lebanon is nearing its end. Amid Israeli occupation, a decision on what comes next has yet to be made.",
-        "fatalities": "0",
-        "link": "https://www.defensenews.com/global/mideast-africa/2026/08/03/unifils-final-months-uncertainty-persists-in-lebanon-over-what-comes-next/",
-        "critical": false
     }
 ]
