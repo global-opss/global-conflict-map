@@ -1,5 +1,33 @@
 [
     {
+        "country": "Iran",
+        "city": "Tehran",
+        "lat": 35.696545572770496,
+        "lon": 51.38931621375148,
+        "date": "2026-08-10 03:30:49",
+        "type": "Naval",
+        "severity": "normal",
+        "title": "Oil prices climb as Iranian demands cloud outlook for Strait of Hormuz",
+        "description": "Brent crude prices rise as Tehran says critical waterway will not reopen without major US concessions.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/economy/2026/8/10/oil-prices-climb-as-iranian-demands-cloud-outlook-for-strait-of-hormuz?traffic_source=rss",
+        "critical": false
+    },
+    {
+        "country": "Israel",
+        "city": "Tel Aviv",
+        "lat": 32.144548231841725,
+        "lon": 34.84813275831049,
+        "date": "2026-08-10 03:30:49",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Israel confirms death of Palestinian detainee, nearly two years late",
+        "description": "The family of Ihab Diab disputes Israeli claims of health issues, alleging torture was behind his prison death.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/news/2026/8/10/israel-confirms-death-of-palestinian-detainee-nearly-two-years-late?traffic_source=rss",
+        "critical": false
+    },
+    {
         "country": "Israel",
         "city": "Gaza",
         "lat": 31.532235863458236,
@@ -3035,34 +3063,6 @@
         "description": "Football association apologises over claims relating to qualifiers for World Cup 2014 and the London 2012 Olympic Games.",
         "fatalities": "0",
         "link": "https://www.aljazeera.com/sports/2026/8/8/south-korea-football-association-apologises-over-sexual-services-allegations?traffic_source=rss",
-        "critical": false
-    },
-    {
-        "country": "USA",
-        "city": "New york",
-        "lat": 40.7610706891103,
-        "lon": -74.061025484579,
-        "date": "2026-08-08 08:08:52",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "NYT: США ищут кандидата на пост главы Кубы по примеру Венесуэлы",
-        "description": "Администрация президента США Дональда Трампа ищет действующего или бывшего кубинского чиновника, которого можно было бы убедить возглавить правительство в Гаване, пишет The New York Times со ссылкой на источники. Читать далее",
-        "fatalities": "0",
-        "link": "https://russian.rt.com/world/news/1667262-kuba-ssha-glava-poisk?utm_source=rss&utm_medium=rss&utm_campaign=RSS",
-        "critical": false
-    },
-    {
-        "country": "Europe",
-        "city": "Brussels",
-        "lat": 50.886919495228035,
-        "lon": 4.354799011303308,
-        "date": "2026-08-08 08:08:48",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "GIE: аномальная жара вынудила страны ЕС рекордно потратить запасы газа",
-        "description": "Аномальная жара и засуха в Европе привели к рекордному расходу газа из подземных хранилищ (ПХГ) стран Европейского союза в июле. Как пишет «РИА Новости» со ссылкой на данные ассоциации операторов газовой инфраструктуры Gas Infrastructure Europe (GIE), объем отбора газа составил 964 млн куб. м. Это в 1,5 раза выше показателя июля 2025 года и является максимумом для этого месяца с 2022 года.",
-        "fatalities": "0",
-        "link": "https://www.kommersant.ru/doc/8875476",
         "critical": false
     }
 ]
