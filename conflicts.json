@@ -1,5 +1,33 @@
 [
     {
+        "country": "Middle East",
+        "city": "Yemen",
+        "lat": 14.595892269382338,
+        "lon": 49.15565284917786,
+        "date": "2026-08-10 05:08:31",
+        "type": "Naval",
+        "severity": "normal",
+        "title": "New Houthi missile and drone attacks kill seven in Yemen’s al-Makha",
+        "description": "The latest Houthi attacks come less than 24 hours after an earlier barrage struck al-Makha and its commercial port.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/news/2026/8/10/houthis-renew-missile-and-drone-attacks-on-yemens-port-of-al-makha?traffic_source=rss",
+        "critical": false
+    },
+    {
+        "country": "Iran",
+        "city": "Tehran",
+        "lat": 35.72268809200925,
+        "lon": 51.36898613906803,
+        "date": "2026-08-10 05:08:29",
+        "type": "Airstrike",
+        "severity": "critical",
+        "title": "Trump signals shift to economic pressure on Iran over new military strikes",
+        "description": "US relying on sanctions and naval blockade as oil prices stabilise, easing economic strain on American consumers.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/economy/2026/8/10/trump-signals-shift-to-economic-pressure-on-iran-over-new-military-strikes?traffic_source=rss",
+        "critical": true
+    },
+    {
         "country": "Iran",
         "city": "Tehran",
         "lat": 35.696545572770496,
@@ -56,20 +84,6 @@
         "critical": false
     },
     {
-        "country": "Middle East",
-        "city": "Yemen",
-        "lat": 14.518643249283679,
-        "lon": 49.18606103120071,
-        "date": "2026-08-10 01:49:07",
-        "type": "Naval",
-        "severity": "normal",
-        "title": "Houthis renew missile and drone attacks on Yemen’s port of al-Makha",
-        "description": "The latest Houthi attacks come less than 24 hours after an earlier barrage struck al-Makha (Mocha) and its commercial port.",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/news/2026/8/10/houthis-renew-missile-and-drone-attacks-on-yemens-port-of-al-makha?traffic_source=rss",
-        "critical": false
-    },
-    {
         "country": "Israel",
         "city": "Gaza",
         "lat": 31.467746992178025,
@@ -81,6 +95,20 @@
         "description": "Trump says US will wait for economic pressure to mount on Iran, as Israel formally rejects 15-point Gaza peace plan.",
         "fatalities": "0",
         "link": "https://www.aljazeera.com/news/liveblog/2026/8/10/iran-war-live-us-semi-negotiating-with-tehran-israel-rejects-gaza-plan?traffic_source=rss",
+        "critical": false
+    },
+    {
+        "country": "Middle East",
+        "city": "Yemen",
+        "lat": 14.518643249283679,
+        "lon": 49.18606103120071,
+        "date": "2026-08-10 01:49:07",
+        "type": "Naval",
+        "severity": "normal",
+        "title": "Houthis renew missile and drone attacks on Yemen’s port of al-Makha",
+        "description": "The latest Houthi attacks come less than 24 hours after an earlier barrage struck al-Makha (Mocha) and its commercial port.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/news/2026/8/10/houthis-renew-missile-and-drone-attacks-on-yemens-port-of-al-makha?traffic_source=rss",
         "critical": false
     },
     {
@@ -3036,33 +3064,5 @@
         "fatalities": "0",
         "link": "https://www.france24.com/en/saudi-turkey-pakistan-deal-for-joint-support-amid-regional-war",
         "critical": true
-    },
-    {
-        "country": "Asia",
-        "city": "Afghanistan",
-        "lat": 34.70734737904258,
-        "lon": 69.07795182610224,
-        "date": "2026-08-08 08:58:23",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Afghanistan’s Rashid takes six wickets in ODI thrashing of Ireland",
-        "description": "Rashid Khan forces collapse as Afghanistan beat Ireland by 92 runs in second game of five-match ODI series.",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/sports/2026/8/8/afghanistans-rashid-takes-six-wickets-in-odi-thrashing-of-ireland?traffic_source=rss",
-        "critical": false
-    },
-    {
-        "country": "Europe",
-        "city": "London",
-        "lat": 51.43643358181982,
-        "lon": -0.1895175652501992,
-        "date": "2026-08-08 08:58:23",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "South Korea FA apologises over ‘sexual services’ allegations",
-        "description": "Football association apologises over claims relating to qualifiers for World Cup 2014 and the London 2012 Olympic Games.",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/sports/2026/8/8/south-korea-football-association-apologises-over-sexual-services-allegations?traffic_source=rss",
-        "critical": false
     }
 ]
