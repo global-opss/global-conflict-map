@@ -1,5 +1,47 @@
 [
     {
+        "country": "Africa",
+        "city": "Niger",
+        "lat": 13.741145308510465,
+        "lon": 5.21890188779115,
+        "date": "2026-08-11 23:56:21",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Nigerians returnees try to re-adapt after trauma in South Africa",
+        "description": "In tonight's program, Nigerian returnees are trying to forget the trauma they experienced during months of xenophobic protests in South Africa that have frayed diplomatic ties between the two African powerhouses. Also, Chad says teaming up with General Khalifa Haftar's Libyan National Army has made the country's shared border safer. Finally, Liberia's got a new drug enforcement tsar as the country levels up its crackdown on drugs weeks after two ",
+        "fatalities": "0",
+        "link": "https://www.france24.com/en/nigerians-returnees-try-to-re-adapt-after-trauma-in-south-africa",
+        "critical": false
+    },
+    {
+        "country": "Africa",
+        "city": "Libya",
+        "lat": 26.312377661969347,
+        "lon": 17.274819733606094,
+        "date": "2026-08-11 23:56:19",
+        "type": "Airstrike",
+        "severity": "critical",
+        "title": "Libyan military intelligence chief assassinated in car bombing",
+        "description": "Libya's eastern-based army said Tuesday that a car bomb killed its military intelligence chief, Fawzi al-Mansouri, in Benghazi. The assassination raises fresh questions over security in the stronghold of military commander Khalifa Haftar as efforts continue to reunify the divided country.",
+        "fatalities": "0",
+        "link": "https://www.france24.com/en/africa/20260811-libyan-military-intelligence-chief-assassinated-in-car-bombing",
+        "critical": true
+    },
+    {
+        "country": "Asia",
+        "city": "Host",
+        "lat": 33.357225975538924,
+        "lon": 69.92086609280847,
+        "date": "2026-08-11 23:56:13",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "These seaside apartments were a ghost city - then police say scammers moved in",
+        "description": "Malaysia's Forest City was pitched as \"paradise\" but last month police raided it over alleged scam operations.",
+        "fatalities": "0",
+        "link": "https://www.bbc.co.uk/news/articles/cx2kvlye1k5o?at_medium=RSS&at_campaign=rss",
+        "critical": false
+    },
+    {
         "country": "USA",
         "city": "Alaska",
         "lat": 64.38329732766886,
@@ -3021,48 +3063,6 @@
         "description": "По данным газеты, пилот сообщил диспетчерам о \"нарушении порядка на борту\" и угрозах со стороны пассажиров в адрес бортпроводников",
         "fatalities": "0",
         "link": "https://tass.ru/proisshestviya/27999813",
-        "critical": false
-    },
-    {
-        "country": "China",
-        "city": "Beijing",
-        "lat": 39.90847414805891,
-        "lon": 116.44743113275543,
-        "date": "2026-08-10 16:28:11",
-        "type": "Airstrike",
-        "severity": "critical",
-        "title": "China Shows H-6 Bomber Carrying Nuclear-Capable JL-1 ALBM",
-        "description": "China released images of the H-6 bomber carrying the JL-1 air-launched ballistic missile as part of promotional features marking the 99th anniversary of the People’s Liberation Army (PLA). China released for the first time official footage showing a PLA Air Force H-6N bomber carrying the massive JL-1 air-launched ballistic missile (ALBM). The bomber was also []",
-        "fatalities": "0",
-        "link": "https://theaviationist.com/2026/08/06/china-h-6-bomber-nuclear-jl-1-albm/",
-        "critical": true
-    },
-    {
-        "country": "USA",
-        "city": "Pentagon",
-        "lat": 38.8321420035676,
-        "lon": -77.08530118064604,
-        "date": "2026-08-10 16:28:09",
-        "type": "Naval",
-        "severity": "normal",
-        "title": "US not disengaging from Asia, seeks ‘partners, not protectorates,’ says Pentagon official",
-        "description": "Undersecretary of Defense for Policy Elbridge Colby reaffirmed the U.S. interest in the region as he called for greater burden-sharing and partnership.",
-        "fatalities": "0",
-        "link": "https://www.defensenews.com/pentagon/2026/08/10/us-not-disengaging-from-asia-seeks-partners-not-protectorates-says-pentagon-official/",
-        "critical": false
-    },
-    {
-        "country": "Asia",
-        "city": "Host",
-        "lat": 33.31692221848234,
-        "lon": 69.90649019562352,
-        "date": "2026-08-10 16:28:09",
-        "type": "Clashes",
-        "severity": "middle",
-        "title": "In Malaysia, wave of hate speech threatens Rohingya refugees",
-        "description": "The spread of hostile content on social media in Malaysia has intensified tensions towards the Rohingya refugee community, leading to the eviction of more than 100 people from their village and the temporary closure of schools attended by refugee children.",
-        "fatalities": "0",
-        "link": "https://www.france24.com/en/asia-pacific/20260810-in-malaysia-wave-of-hate-speech-threatens-rohingya-refugees",
         "critical": false
     }
 ]
