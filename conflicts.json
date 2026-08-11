@@ -1,6 +1,20 @@
 [
     {
         "country": "USA",
+        "city": "Alaska",
+        "lat": 64.38329732766886,
+        "lon": -149.7411201469745,
+        "date": "2026-08-11 23:06:42",
+        "type": "Naval",
+        "severity": "normal",
+        "title": "Scoop: Senate GOP super PAC doubles down on Michigan",
+        "description": "Senate Republicans' top super PAC is pouring an extra $6 million into Michigan to attack Democratic Senate nominee Abdul El-Sayed.Why it matters: It's part of $12 million in new spending this month by the Senate Leadership Fund to defend Republican leader John Thune's majority. It's an unusually early spend for Republican super PACs, which typically wait until September.Zoom in: SLF is launching the $6 million TV and digital campaign Wednesday to",
+        "fatalities": "0",
+        "link": "https://www.axios.com/2026/08/11/michigan-senate-abdul-el-sayed-gop-super-pac",
+        "critical": false
+    },
+    {
+        "country": "USA",
         "city": "Washington",
         "lat": 38.88707866352618,
         "lon": -77.08158814556182,
@@ -3049,20 +3063,6 @@
         "description": "The spread of hostile content on social media in Malaysia has intensified tensions towards the Rohingya refugee community, leading to the eviction of more than 100 people from their village and the temporary closure of schools attended by refugee children.",
         "fatalities": "0",
         "link": "https://www.france24.com/en/asia-pacific/20260810-in-malaysia-wave-of-hate-speech-threatens-rohingya-refugees",
-        "critical": false
-    },
-    {
-        "country": "USA",
-        "city": "Washington",
-        "lat": 38.89271316206211,
-        "lon": -77.09306965933824,
-        "date": "2026-08-10 16:28:09",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "India: Students clash with police over exam leaks",
-        "description": "🇮🇳 Thousands of students and unemployed young people have been protesting in Jharkhand since late July, demanding reforms to the state’s recruitment exam system.\n \nThe unrest comes after weeks of demonstrations in Delhi that led to the resignation of India’s education minister last month.",
-        "fatalities": "0",
-        "link": "https://www.france24.com/en/video/20260810-india-students-clash-with-police-over-exam-leaks",
         "critical": false
     }
 ]
