@@ -1,5 +1,33 @@
 [
     {
+        "country": "Europe",
+        "city": "Berlin",
+        "lat": 48.86492684667639,
+        "lon": 2.2889860878045085,
+        "date": "2026-08-13 23:06:35",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Berliner Zeitung допустила, что города на Украине станут непригодными зимой",
+        "description": "",
+        "fatalities": "0",
+        "link": "https://tass.ru/ekonomika/28010947",
+        "critical": false
+    },
+    {
+        "country": "Russia",
+        "city": "Moscow",
+        "lat": 55.79310568851214,
+        "lon": 37.676814468259906,
+        "date": "2026-08-13 23:06:20",
+        "type": "Clashes",
+        "severity": "middle",
+        "title": "\"Rubio Realizing\" memes become a White House birthday gift",
+        "description": "Photo: Marc Caputo/AxiosMarco Rubio has three official Trump administration jobs and a fourth unofficial title: Viral meme star.He's been featured in countless \"Rubio Realizing\" images doctored to capture his grim reaction to being \"assigned\" more jobs, depending on the news of the day or the crisis du jour in the White House.Why it matters: For his 55th birthday on May 28, White House staffers and President Trump gifted Rubio with a gold-framed ",
+        "fatalities": "0",
+        "link": "https://www.axios.com/2026/08/13/marco-rubio-memes-birthday-gift",
+        "critical": false
+    },
+    {
         "country": "Asia",
         "city": "Pakistan",
         "lat": 31.490951607456918,
@@ -3035,34 +3063,6 @@
         "description": "Lebanon's parliament on Wednesday passed a general amnesty law reducing sentences for inmates and people detained for more than 12 years without charges in a bid to reduce prison overcrowding. The legislation was passed a day after Lebanon became the first Middle Eastern country to abolish the death penalty.",
         "fatalities": "0",
         "link": "https://www.france24.com/en/middle-east/20260812-lebanese-parliament-passes-sweeping-amnesty-law-thousands-prisoners-wanted-people",
-        "critical": false
-    },
-    {
-        "country": "Iran",
-        "city": "Tehran",
-        "lat": 35.63228574776917,
-        "lon": 51.35543321321958,
-        "date": "2026-08-12 13:59:42",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Top Iranian commander visited Iraq to discuss disarmament plan: Source",
-        "description": "Esmail Qaani held meetings over Iraqi governments plan to disarm armed groups and bring weapons under state control.",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/news/2026/8/12/top-iranian-commander-visited-iraq-to-discuss-disarmament-plan-source?traffic_source=rss",
-        "critical": false
-    },
-    {
-        "country": "Europe",
-        "city": "Brussels",
-        "lat": 50.89468323048928,
-        "lon": 4.3526884717702625,
-        "date": "2026-08-12 13:59:42",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Rare solar eclipse to sweep across Europe and the Arctic",
-        "description": "Rare solar eclipse to sweep across Europe and the Arctic",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/video/newsfeed/2026/8/12/rare-solar-eclipse-to-sweep-across-europe-and-the-arctic?traffic_source=rss",
         "critical": false
     }
 ]
