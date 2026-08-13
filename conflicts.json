@@ -1,5 +1,47 @@
 [
     {
+        "country": "Europe",
+        "city": "Paris",
+        "lat": 48.819814226659595,
+        "lon": 2.264214356252455,
+        "date": "2026-08-13 04:32:43",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Solar eclipse carves Eiffel Tower’s silhouette in Paris sky",
+        "description": "A partial solar eclipse illuminated Paris’s sky over the city’s iconic Eiffel Tower.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/video/newsfeed/2026/8/13/solar-eclipse-carves-eiffel-towers-silhouette-in-paris-sky?traffic_source=rss",
+        "critical": false
+    },
+    {
+        "country": "Israel",
+        "city": "Tel Aviv",
+        "lat": 32.028713259710145,
+        "lon": 34.74655068251224,
+        "date": "2026-08-13 04:32:41",
+        "type": "Clashes",
+        "severity": "middle",
+        "title": "Israeli settlers besiege three Palestinian families in West Bank’s Qusra",
+        "description": "Dozens of settlers besiege Palestinian families in Qusra, cutting off water, power and essential supplies.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/news/2026/8/13/israeli-settlers-besiege-three-palestinian-families-in-occupied-west-bank?traffic_source=rss",
+        "critical": false
+    },
+    {
+        "country": "Asia",
+        "city": "Afghanistan",
+        "lat": 34.67079772239634,
+        "lon": 69.191000154035,
+        "date": "2026-08-13 04:32:39",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Australian army whistleblower released on parole after more than two years in jail",
+        "description": "David McBride was jailed after pleading guilty to leaking military secrets about Afghanistan.",
+        "fatalities": "0",
+        "link": "https://www.bbc.co.uk/news/articles/c5yw7vdwjxyo?at_medium=RSS&at_campaign=rss",
+        "critical": false
+    },
+    {
         "country": "USA",
         "city": "Washington",
         "lat": 38.919495851730716,
@@ -3021,48 +3063,6 @@
         "description": "Millions will see the sun disappear as the eclipse sweeps from the Arctic to Europe, bringing two minutes of totality.",
         "fatalities": "0",
         "link": "https://www.aljazeera.com/news/2026/8/11/total-solar-eclipse-2026-where-when-and-how-to-watch-on-wednesday?traffic_source=rss",
-        "critical": false
-    },
-    {
-        "country": "USA",
-        "city": "Washington",
-        "lat": 38.852573055559624,
-        "lon": -76.98508749871635,
-        "date": "2026-08-11 15:28:57",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "DC residents debate safety gains a year into Trump’s Guard deployment",
-        "description": "Mixed reactions persist in Washington, DC, a year after Trump deployed the National Guard to address crime concerns.",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/news/2026/8/11/dc-residents-debate-safety-gains-a-year-into-trumps-guard-deployment?traffic_source=rss",
-        "critical": false
-    },
-    {
-        "country": "Iran",
-        "city": "Tehran",
-        "lat": 35.70258079447769,
-        "lon": 51.41340712459247,
-        "date": "2026-08-11 15:28:57",
-        "type": "Naval",
-        "severity": "normal",
-        "title": "Houthis kill three in first deadly attack since start of Iran war - reports",
-        "description": "The attack was reportedly carried out by Iranian proxy on a small cargo ship, as tensions in region over the US-Iran conflict remain high.",
-        "fatalities": "0",
-        "link": "https://www.bbc.co.uk/news/articles/ckg9wpmzmlno?at_medium=RSS&at_campaign=rss",
-        "critical": false
-    },
-    {
-        "country": "Middle East",
-        "city": "Beirut",
-        "lat": 33.86839972876274,
-        "lon": 35.43326768137222,
-        "date": "2026-08-11 15:28:57",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Lebanon’s parliament votes to end death penalty, first in Middle East to so",
-        "description": "Death sentences will be replaced with life imprisonment with aggravated hard labour.",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/news/2026/8/11/lebanons-parliament-votes-to-end-death-penalty-first-in-middle-east-to-so?traffic_source=rss",
         "critical": false
     }
 ]
