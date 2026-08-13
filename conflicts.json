@@ -2,6 +2,34 @@
     {
         "country": "Europe",
         "city": "Berlin",
+        "lat": 48.84359666852047,
+        "lon": 2.2853791496954075,
+        "date": "2026-08-13 23:55:49",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "BZ: Зимой украинские города станут непригодными для жизни из-за энергокризиса",
+        "description": "Из-за энергодефицита предстоящей зимой крупные города Украины станут непригодными для жизни. Об этом пишет немецкая газета Berliner Zeitung.",
+        "fatalities": "0",
+        "link": "https://rg.ru/2026/08/14/bz-zimoj-goroda-na-ukraine-mogut-zamerznut-iz-za-energokrizisa.html",
+        "critical": false
+    },
+    {
+        "country": "Israel",
+        "city": "Gaza",
+        "lat": 31.542175644108077,
+        "lon": 34.435533572923966,
+        "date": "2026-08-13 23:55:00",
+        "type": "Airstrike",
+        "severity": "critical",
+        "title": "Gaza City police chief killed as Israel pushes on with deadly strikes",
+        "description": "Latest Israeli attacks kill police official Jamal Abu Kamil in Gaza City and another person in Khan Younis.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/news/2026/8/13/gaza-city-police-chief-killed-as-israel-pushes-on-with-deadly-strikes?traffic_source=rss",
+        "critical": true
+    },
+    {
+        "country": "Europe",
+        "city": "Berlin",
         "lat": 48.86492684667639,
         "lon": 2.2889860878045085,
         "date": "2026-08-13 23:06:35",
@@ -3035,34 +3063,6 @@
         "description": "We’re just hours away from a rare total solar eclipse, with parts of northern Spain set to briefly turn from day to night as the Moon blocks out the Sun. Millions more will see a partial eclipse across Europe, Canada, the northern US and northwest Africa. But beyond the spectacle, eclipses also offer scientists valuable insights into the Sun and our universe. France 24 correspondent Sarah Morris reports from Segovia, Spain.",
         "fatalities": "0",
         "link": "https://www.france24.com/en/spain-prepares-for-rare-total-solar-eclipse",
-        "critical": false
-    },
-    {
-        "country": "Russia",
-        "city": "Moscow",
-        "lat": 55.81819218355009,
-        "lon": 37.59354630072989,
-        "date": "2026-08-12 13:59:44",
-        "type": "Naval",
-        "severity": "normal",
-        "title": "Putin threatens to seize European ships",
-        "description": "Russian President Vladimir Putin has threatened retaliation over the West’s seizure of commercial vessels. Speaking aboard a Russian warship, Putin described the measures targeting Russia as an act of piracy and robbery. France 24 International Affairs editor Philip Turle shares further insights.",
-        "fatalities": "0",
-        "link": "https://www.france24.com/en/putin-threatens-to-seize-european-ships",
-        "critical": false
-    },
-    {
-        "country": "Middle East",
-        "city": "Beirut",
-        "lat": 33.89726206626824,
-        "lon": 35.555283500734944,
-        "date": "2026-08-12 13:59:44",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Lebanese parliament passes sweeping amnesty law to reduce overcrowding in prisons",
-        "description": "Lebanon's parliament on Wednesday passed a general amnesty law reducing sentences for inmates and people detained for more than 12 years without charges in a bid to reduce prison overcrowding. The legislation was passed a day after Lebanon became the first Middle Eastern country to abolish the death penalty.",
-        "fatalities": "0",
-        "link": "https://www.france24.com/en/middle-east/20260812-lebanese-parliament-passes-sweeping-amnesty-law-thousands-prisoners-wanted-people",
         "critical": false
     }
 ]
