@@ -2,6 +2,34 @@
     {
         "country": "Israel",
         "city": "Gaza",
+        "lat": 31.484190601784825,
+        "lon": 34.445138660757664,
+        "date": "2026-08-13 21:20:55",
+        "type": "Airstrike",
+        "severity": "critical",
+        "title": "Israeli strikes in Gaza kill two, including police chief",
+        "description": "Israeli drone strikes killed at least 2 people and wounded several others in Gaza on Thursday.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/video/newsfeed/2026/8/13/israeli-strikes-in-gaza-kill-two-including-police-chief?traffic_source=rss",
+        "critical": true
+    },
+    {
+        "country": "Africa",
+        "city": "Khartoum",
+        "lat": 15.561600566975672,
+        "lon": 32.57386459170648,
+        "date": "2026-08-13 21:20:55",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "What’s at stake in Zambia’s elections?",
+        "description": "The economy dominates voter concerns in the southern African country.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/video/inside-story/2026/8/13/whats-at-stake-in-zambias-elections?traffic_source=rss",
+        "critical": false
+    },
+    {
+        "country": "Israel",
+        "city": "Gaza",
         "lat": 31.527964501682483,
         "lon": 34.45299353944324,
         "date": "2026-08-13 20:23:57",
@@ -224,34 +252,6 @@
         "critical": false
     },
     {
-        "country": "Europe",
-        "city": "Brussels",
-        "lat": 50.9051976441101,
-        "lon": 4.350055252117522,
-        "date": "2026-08-13 17:41:44",
-        "type": "Clashes",
-        "severity": "middle",
-        "title": "European drought shrivels crops despite farmers’ best efforts to adapt",
-        "description": "The drought roasting much of Europe this summer is taking a heavy toll on crops across the continent, from potatoes in the Netherlands to corn in Bosnia. Triodos, a Dutch bank with a focus on sustainability, has warned that this could reduce gross domestic product across the EU by 1 percent for 2026 – or around €180 billion.",
-        "fatalities": "0",
-        "link": "https://www.france24.com/en/europe/20260813-european-drought-shrivels-crops-despite-farmers-best-efforts-to-adapt",
-        "critical": false
-    },
-    {
-        "country": "Europe",
-        "city": "Warsaw",
-        "lat": 52.25517765243016,
-        "lon": 20.982492841928245,
-        "date": "2026-08-13 17:41:44",
-        "type": "Airstrike",
-        "severity": "critical",
-        "title": "Russian detained over plot to 'execute' Ukrainian-American in Warsaw, Tusk says",
-        "description": "Poland has arrested a Russian national who was allegedly hired to plan an \"execution\" targeting a Ukrainian-American dual citizen in Warsaw, Prime Minister Donald Tusk said Thursday. Tusk said it was the first time that “someone on the order of Russia” had sought to attack an American citizen on NATO territory.",
-        "fatalities": "0",
-        "link": "https://www.france24.com/en/europe/20260813-poland-detains-russian-for-execution-plot-in-warsaw-tusk-says",
-        "critical": true
-    },
-    {
         "country": "Ukraine",
         "city": "Kyiv",
         "lat": 50.49738413390123,
@@ -277,6 +277,34 @@
         "description": "The U.S. conducted a new wave of strikes against Iranian military sites on Wednesday after reimposing a naval blockade of the Islamic Republic's ports.",
         "fatalities": "0",
         "link": "https://www.militarytimes.com/flashpoints/2026/07/15/us-launches-new-round-of-strikes-against-iran/",
+        "critical": true
+    },
+    {
+        "country": "Europe",
+        "city": "Brussels",
+        "lat": 50.9051976441101,
+        "lon": 4.350055252117522,
+        "date": "2026-08-13 17:41:44",
+        "type": "Clashes",
+        "severity": "middle",
+        "title": "European drought shrivels crops despite farmers’ best efforts to adapt",
+        "description": "The drought roasting much of Europe this summer is taking a heavy toll on crops across the continent, from potatoes in the Netherlands to corn in Bosnia. Triodos, a Dutch bank with a focus on sustainability, has warned that this could reduce gross domestic product across the EU by 1 percent for 2026 – or around €180 billion.",
+        "fatalities": "0",
+        "link": "https://www.france24.com/en/europe/20260813-european-drought-shrivels-crops-despite-farmers-best-efforts-to-adapt",
+        "critical": false
+    },
+    {
+        "country": "Europe",
+        "city": "Warsaw",
+        "lat": 52.25517765243016,
+        "lon": 20.982492841928245,
+        "date": "2026-08-13 17:41:44",
+        "type": "Airstrike",
+        "severity": "critical",
+        "title": "Russian detained over plot to 'execute' Ukrainian-American in Warsaw, Tusk says",
+        "description": "Poland has arrested a Russian national who was allegedly hired to plan an \"execution\" targeting a Ukrainian-American dual citizen in Warsaw, Prime Minister Donald Tusk said Thursday. Tusk said it was the first time that “someone on the order of Russia” had sought to attack an American citizen on NATO territory.",
+        "fatalities": "0",
+        "link": "https://www.france24.com/en/europe/20260813-poland-detains-russian-for-execution-plot-in-warsaw-tusk-says",
         "critical": true
     },
     {
@@ -3035,34 +3063,6 @@
         "description": "Администрация президента США Дональда Трампа планирует потратить не менее $900 млн на строительные проекты на территории Белого дома, причём основная часть расходов ляжет на налогоплательщиков. Об этом пишет The Washington Post со ссылкой на изученные документы. Читать далее",
         "fatalities": "0",
         "link": "https://russian.rt.com/world/news/1668905-tramp-belyi-dom-rekonstrukciya?utm_source=rss&utm_medium=rss&utm_campaign=RSS",
-        "critical": false
-    },
-    {
-        "country": "China",
-        "city": "Beijing",
-        "lat": 39.915312314865105,
-        "lon": 116.3953705678881,
-        "date": "2026-08-12 11:35:01",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Китай впервые вывел самолет собственной разработки на международные рейсы",
-        "description": "Авиакомпания Air China вывела самолет C919 китайской разработки на регулярные международные рейсы, сообщает China Daily. Ранее воздушное судно использовали только для внутренних перелетов.",
-        "fatalities": "0",
-        "link": "https://www.kommersant.ru/doc/8878011",
-        "critical": false
-    },
-    {
-        "country": "Europe",
-        "city": "London",
-        "lat": 51.5303203083258,
-        "lon": -0.20632877135756425,
-        "date": "2026-08-12 11:34:56",
-        "type": "Clashes",
-        "severity": "middle",
-        "title": "Can Al-Burhan’s Sudanese national dialogue turn military gains into a political settlement?",
-        "description": "LONDON: More than three years after Sudan descended into civil war, army chief Gen. Abdel Fattah Al-Burhan is pushing for a broad national dialogue aimed at rebuilding the country’s political institutions and laying the foundations for a civilian transition.\n\n\tTalks could begin as early as August, with preparatory consultations already involving political groups, technocrats, Sufi leaders, traditional authorities, academics, professionals, civil ",
-        "fatalities": "0",
-        "link": "https://www.arabnews.com/node/2654150/middle-east",
         "critical": false
     }
 ]
