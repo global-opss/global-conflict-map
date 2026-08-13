@@ -1,5 +1,47 @@
 [
     {
+        "country": "USA",
+        "city": "Washington",
+        "lat": 38.919495851730716,
+        "lon": -76.9953484086188,
+        "date": "2026-08-13 02:44:19",
+        "type": "Naval",
+        "severity": "normal",
+        "title": "Congressional campaign stars",
+        "description": "It's August, which means lawmakers are fanning out across the country to campaign for themselves and their colleagues.Why it matters: A friendly senator or House member can help on the stump. But only a handful can juice fundraising, draw a real crowd or make a mark with an endorsement. And Democrats have more of them.Zoom in: Axios asked strategists in both parties which lawmakers have enough star power to move voters, draw crowds or open wallet",
+        "fatalities": "0",
+        "link": "https://www.axios.com/2026/08/12/congress-august-recesss-campaign-trail-midterms-bernie-sanders",
+        "critical": false
+    },
+    {
+        "country": "USA",
+        "city": "Washington",
+        "lat": 38.850648383728995,
+        "lon": -77.02307835974814,
+        "date": "2026-08-13 02:44:19",
+        "type": "Airstrike",
+        "severity": "critical",
+        "title": "Trump's ballroom costs are rising. What we know about the secret underground bunker",
+        "description": "The development costs of President Trump's White House ballroom keep rising — as does speculation about what the finished project, including its underground complex, will look like.The big picture: Trump's ballroom project is more than a simple remodel of the East Wing. It's a complete overhaul featuring what appears to be a military-grade underground bunker, meant to protect and secure the president.The project remains in legal limbo after a fed",
+        "fatalities": "0",
+        "link": "https://www.axios.com/2026/08/12/trumps-ballroom-costs-are-rising-what-we-know-about-the-secret-underground-bunker",
+        "critical": true
+    },
+    {
+        "country": "USA",
+        "city": "Washington",
+        "lat": 38.85035547901904,
+        "lon": -77.03596604583113,
+        "date": "2026-08-13 02:43:53",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Ebola outbreak on track to be deadliest ever, WHO chief says",
+        "description": "The outbreak, declared on 15 May, has caused more than 2,000 deaths, with thousands more reported cases.",
+        "fatalities": "0",
+        "link": "https://www.bbc.co.uk/news/articles/cgk4pex4mn8o?at_medium=RSS&at_campaign=rss",
+        "critical": false
+    },
+    {
         "country": "China",
         "city": "Beijing",
         "lat": 39.924403452668884,
@@ -3021,48 +3063,6 @@
         "description": "Death sentences will be replaced with life imprisonment with aggravated hard labour.",
         "fatalities": "0",
         "link": "https://www.aljazeera.com/news/2026/8/11/lebanons-parliament-votes-to-end-death-penalty-first-in-middle-east-to-so?traffic_source=rss",
-        "critical": false
-    },
-    {
-        "country": "Europe",
-        "city": "London",
-        "lat": 51.56901797079685,
-        "lon": -0.15443239401636416,
-        "date": "2026-08-11 15:28:54",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Frenzy for Solar Eclipse Glasses Takes Over London",
-        "description": "Ahead of Wednesday’s rare cosmic event, thousands of people in London are searching for protective eyewear, as prices surge and stocks sell out.",
-        "fatalities": "0",
-        "link": "https://www.nytimes.com/2026/08/11/world/europe/solar-eclipse-glasses-uk.html",
-        "critical": false
-    },
-    {
-        "country": "Israel",
-        "city": "Tel Aviv",
-        "lat": 32.053646619934206,
-        "lon": 34.77632645651308,
-        "date": "2026-08-11 15:28:50",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Why Rumors About Morocco Followed Spain’s Ceuta Migrant Surge",
-        "description": "Claims swirled that Morocco, perhaps spurred by Israel and the United States, organized a recent border disaster. That unproven speculation, experts said, was exacerbated by the region’s complicated history.",
-        "fatalities": "0",
-        "link": "https://www.nytimes.com/2026/08/11/world/europe/spain-ceuta-morocco-migrants.html",
-        "critical": false
-    },
-    {
-        "country": "Europe",
-        "city": "Brussels",
-        "lat": 50.85594246821996,
-        "lon": 4.2700395455374425,
-        "date": "2026-08-11 14:25:19",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "European Gymnastics назвал Ангелину Мельникову фаворитом ЧЕ",
-        "description": "Европейский гимнастический союз (European Gymnastics) назвал россиянку Ангелину Мельникову фаворитом предстоящего чемпионата Европы по спортивной гимнастике.\"Лучшие европейские гимнастки готовы бороться за континентальную славу, обещая несколько дней выступлений мирового класса, захватывающих дух программ и незабываемых моментов.",
-        "fatalities": "0",
-        "link": "https://www.sport-interfax.ru/1108722",
         "critical": false
     }
 ]
