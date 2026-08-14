@@ -1,5 +1,47 @@
 [
     {
+        "country": "Russia",
+        "city": "Moscow",
+        "lat": 55.689284564835866,
+        "lon": 37.61851728916269,
+        "date": "2026-08-14 23:50:11",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Japan’s 2026 defense white paper highlights ‘new era of crisis’ in Indo-Pacific",
+        "description": "Japan’s 2026 Defense White Paper called China the world's “greatest strategic challenge,” citing Beijing’s expanded cooperation with Moscow.",
+        "fatalities": "0",
+        "link": "https://www.defensenews.com/global/asia-pacific/2026/08/10/japans-2026-defense-white-paper-highlights-new-era-of-crisis-in-indo-pacific/",
+        "critical": false
+    },
+    {
+        "country": "Middle East",
+        "city": "Yemen",
+        "lat": 14.56933363640381,
+        "lon": 49.137185575770076,
+        "date": "2026-08-14 23:50:08",
+        "type": "Naval",
+        "severity": "normal",
+        "title": "Houthi attack on port kills four eroding truce with Yemen’s government",
+        "description": "Six Houthi ballistic missiles struck Yemens government-held al-Makha port, killing at least four.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/video/newsfeed/2026/8/14/houthi-attack-on-port-kills-four-eroding-truce-with-yemens-government?traffic_source=rss",
+        "critical": false
+    },
+    {
+        "country": "Middle East",
+        "city": "Beirut",
+        "lat": 33.9112337524861,
+        "lon": 35.55262676207043,
+        "date": "2026-08-14 23:50:06",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Lebanon’s PM urges timetable for Israeli withdrawal as Hezbollah slams deal",
+        "description": "Hezbollah criticises Beirut’s approach, accusing officials of exposing the Lebanese army to risks and Israeli pressure.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/news/2026/8/14/lebanons-pm-urges-timetable-for-israeli-withdrawal-as-hezbollah-slams-deal?traffic_source=rss",
+        "critical": false
+    },
+    {
         "country": "Middle East",
         "city": "Yemen",
         "lat": 14.55167389113373,
@@ -3021,48 +3063,6 @@
         "description": "Ukraine has damaged Russia’s grain export terminals in an attack on the Novorossiysk port.",
         "fatalities": "0",
         "link": "https://www.aljazeera.com/video/newsfeed/2026/8/13/13-08-sv-ukraine-russia-grain-attack-ur?traffic_source=rss",
-        "critical": false
-    },
-    {
-        "country": "Israel",
-        "city": "Tel Aviv",
-        "lat": 32.02319114267984,
-        "lon": 34.7734744442737,
-        "date": "2026-08-13 14:46:58",
-        "type": "Clashes",
-        "severity": "middle",
-        "title": "Lebanese Americans sue US over Israel’s rights abuses in Lebanon war",
-        "description": "Michigan-based group leads class action lawsuit against US government and defence contractors over Lebanon war abuses.",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/news/2026/8/13/lebanese-americans-sue-us-over-israels-rights-abuses-in-lebanon-war?traffic_source=rss",
-        "critical": false
-    },
-    {
-        "country": "Middle East",
-        "city": "Yemen",
-        "lat": 14.484808059864672,
-        "lon": 49.1599472653327,
-        "date": "2026-08-13 14:46:52",
-        "type": "Naval",
-        "severity": "normal",
-        "title": "Who Are the Houthis, Iran-Backed Militia Entering Mideast War?",
-        "description": "Amid relentless war in the Middle East, the Iran-backed militants seem poised to renew their conflict with Yemen’s Saudi-backed government.",
-        "fatalities": "0",
-        "link": "https://www.nytimes.com/article/houthi-yemen-militia-iran.html",
-        "critical": false
-    },
-    {
-        "country": "USA",
-        "city": "Washington",
-        "lat": 38.91291876852964,
-        "lon": -77.00620001356418,
-        "date": "2026-08-13 13:41:21",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Damaged USAF C-17 Flies Again After First-of-its-Kind Repair",
-        "description": "A C-17 of the 445th Airlift Wing extensively damaged in March 2025 was repaired by using new technologies of the Rapid Sustainment Office, after no vendors were able to provide the needed parts. The Air Force Rapid Sustainment Office (RSO) helped put a C-17 Globemaster III back in the air with the first use of []",
-        "fatalities": "0",
-        "link": "https://theaviationist.com/2026/08/08/damaged-usaf-c-17-flies-again/",
         "critical": false
     }
 ]
