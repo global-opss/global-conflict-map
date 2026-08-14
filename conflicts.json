@@ -1,5 +1,47 @@
 [
     {
+        "country": "Israel",
+        "city": "Tel Aviv",
+        "lat": 32.13423024877829,
+        "lon": 34.75478807331639,
+        "date": "2026-08-14 21:10:25",
+        "type": "Clashes",
+        "severity": "middle",
+        "title": "‘We never leave’: Palestinians besieged in West Bank fear Israeli settlers will seize their homes",
+        "description": "For nearly a week, Israeli settlers have been surrounding homes in the West bank village of Qusra in a coordinated offensive to force Palestinian residents from their homes in order to seize new land.",
+        "fatalities": "0",
+        "link": "https://www.france24.com/en/middle-east/20260814-israel-s-new-west-bank-settlements-bring-chaos-to-palestinians",
+        "critical": false
+    },
+    {
+        "country": "Iran",
+        "city": "Tehran",
+        "lat": 35.72186368484667,
+        "lon": 51.32326633915532,
+        "date": "2026-08-14 21:10:25",
+        "type": "Airstrike",
+        "severity": "critical",
+        "title": "Iran issues warning to Gulf states: US must desist or you’ll be hit hard",
+        "description": "Iran has made a concerted push with Gulf states, warning them explicitly that Tehran will hit their oil, power and water plants unless U.S. strikes end.",
+        "fatalities": "0",
+        "link": "https://www.defensenews.com/global/mideast-africa/2026/08/06/iran-issues-warning-to-gulf-states-us-must-desist-or-youll-be-hit-hard/",
+        "critical": true
+    },
+    {
+        "country": "Europe",
+        "city": "London",
+        "lat": 51.514317550242666,
+        "lon": -0.16696982702724428,
+        "date": "2026-08-14 21:10:22",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Former Cambridge professor accused of plagiarism found dead",
+        "description": "Jason Ardays body was found in south London just a week after he resigned from the University of Cambridge.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/news/2026/8/14/former-cambridge-professor-accused-of-plagiarism-found-dead?traffic_source=rss",
+        "critical": false
+    },
+    {
         "country": "Iran",
         "city": "Tehran",
         "lat": 35.758510636719436,
@@ -3021,48 +3063,6 @@
         "description": "CAF have given under-fire Gianni Infantino their backing, and now say the FIFA president must stand in Marchs election.",
         "fatalities": "0",
         "link": "https://www.aljazeera.com/sports/2026/8/13/infantinos-fifa-fate-must-go-to-an-election-says-african-football-chief?traffic_source=rss",
-        "critical": false
-    },
-    {
-        "country": "Iran",
-        "city": "Tehran",
-        "lat": 35.67712528854222,
-        "lon": 51.4458510205777,
-        "date": "2026-08-13 13:40:48",
-        "type": "Naval",
-        "severity": "normal",
-        "title": "US-Iran talks in deadlock – what’s the latest?",
-        "description": "The US and Iran continue their standoff in the Strait of Hormuz as mediators try to coax talks.",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/news/2026/8/13/us-iran-talks-in-deadlock-whats-the-latest?traffic_source=rss",
-        "critical": false
-    },
-    {
-        "country": "Europe",
-        "city": "Brussels",
-        "lat": 50.83761930182474,
-        "lon": 4.3793935225166125,
-        "date": "2026-08-13 13:40:48",
-        "type": "Clashes",
-        "severity": "middle",
-        "title": "More than 135 million people in Europe face temperatures over 35C",
-        "description": "Europe is the fastest-warming continent in the world and in some places is ill-equipped to deal with hot weather.",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/news/2026/8/13/more-than-135-million-people-in-europe-set-for-temperatures-over-35c?traffic_source=rss",
-        "critical": false
-    },
-    {
-        "country": "USA",
-        "city": "Washington",
-        "lat": 38.91029543710938,
-        "lon": -76.97700491407737,
-        "date": "2026-08-13 13:40:44",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "French ambassador to CAR accused of misconduct at official residence faces disciplinary action",
-        "description": "The accusations against Bruno Foucher prompted investigations into a potential security breach.",
-        "fatalities": "0",
-        "link": "https://www.bbc.co.uk/news/articles/cqx7pp3yd25o?at_medium=RSS&at_campaign=rss",
         "critical": false
     }
 ]
