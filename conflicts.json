@@ -1,5 +1,47 @@
 [
     {
+        "country": "Iran",
+        "city": "Tehran",
+        "lat": 35.75092948429974,
+        "lon": 51.44476397444314,
+        "date": "2026-08-14 22:36:51",
+        "type": "Naval",
+        "severity": "normal",
+        "title": "Trump says he will declare Strait of Hormuz a US ‘territory’ amid Iran war",
+        "description": "Control over the strait has been a sticking point in the ongoing ceasefire negotiations between the US and Iran.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/news/2026/8/14/trump-says-he-will-declare-strait-of-hormuz-a-us-territory?traffic_source=rss",
+        "critical": false
+    },
+    {
+        "country": "USA",
+        "city": "Washington",
+        "lat": 38.922288510945954,
+        "lon": -76.99473753488414,
+        "date": "2026-08-14 22:36:51",
+        "type": "Evacuation",
+        "severity": "critical",
+        "title": "Wildfires rage across Europe as heatwaves drive record temperatures",
+        "description": "Wildfires fuelled by record heat are ravaging Europe, burning around 500,000 hectares and forcing thousands to flee.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/video/newsfeed/2026/8/14/wildfires-rage-across-europe-as-heatwaves-drive-record-temperatures?traffic_source=rss",
+        "critical": true
+    },
+    {
+        "country": "Israel",
+        "city": "Tel Aviv",
+        "lat": 32.06436981135375,
+        "lon": 34.73693930843808,
+        "date": "2026-08-14 22:36:51",
+        "type": "Clashes",
+        "severity": "middle",
+        "title": "Israeli soldiers accused of supporting ‘terrorist’ settlers in Qusra",
+        "description": "Israeli soldiers accused of supporting ‘terrorist’ settlers in Qusra",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/video/newsfeed/2026/8/14/israeli-soldiers-accused-of-supporting-terrorist-settlers-in-qusra?traffic_source=rss",
+        "critical": false
+    },
+    {
         "country": "USA",
         "city": "New york",
         "lat": 40.77693918794121,
@@ -3021,48 +3063,6 @@
         "description": "Champions League winners Paris Saint-Germain rubber-stamped their status as Europe's top team as they beat Aston Villa 2-1 in the UEFA Super Cup on Wednesday.",
         "fatalities": "0",
         "link": "https://www.france24.com/en/video/20260813-psg-down-aston-villa-to-retain-uefa-super-cup",
-        "critical": false
-    },
-    {
-        "country": "Africa",
-        "city": "Khartoum",
-        "lat": 15.509353710248483,
-        "lon": 32.511776994504906,
-        "date": "2026-08-13 13:41:08",
-        "type": "Naval",
-        "severity": "normal",
-        "title": "Infantino's future at FIFA should be decided by election, African football chief says",
-        "description": "Confederation of African Football head Patrice Motsepe on Thursday said that the future of FIFA's embattled president Gianni Infantino should be decided via election. Multiple world football federations have recently withdrawn their support for his leadership of football's governing body over his aborted plan to sell stakes in the World Cup to private investors.",
-        "fatalities": "0",
-        "link": "https://www.france24.com/en/sport/20260813-infantino-future-should-be-decided-by-election-says-african-football-chief",
-        "critical": false
-    },
-    {
-        "country": "Asia",
-        "city": "Tokyo",
-        "lat": 35.63983022778951,
-        "lon": 139.73567680304544,
-        "date": "2026-08-13 13:40:52",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Putin visits disputed Kuril Islands",
-        "description": "🇷🇺 🇯🇵 Russian President Putin has made his first visit to the disputed Kuril Islands, travelling to Iturup, one of four islands claimed by both Russia and Japan. Tokyo strongly protested the visit, calling it “absolutely unacceptable.”",
-        "fatalities": "0",
-        "link": "https://www.france24.com/en/video/20260813-putin-visits-disputed-kuril-islands",
-        "critical": false
-    },
-    {
-        "country": "Asia",
-        "city": "Pakistan",
-        "lat": 31.552005009245672,
-        "lon": 74.37157200954549,
-        "date": "2026-08-13 13:40:48",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Turkiye lays out ‘mechanisms’ of defence pact with Pakistan, Saudi Arabia",
-        "description": "Three nations to group ministers, hold ⁠joint exercises and deepen defence industry cooperation under the pact.",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/news/2026/8/13/turkiye-lays-out-mechanisms-of-defence-pact-with-pakistan-saudi-arabia?traffic_source=rss",
         "critical": false
     }
 ]
