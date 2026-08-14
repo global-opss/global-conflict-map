@@ -1,5 +1,33 @@
 [
     {
+        "country": "Middle East",
+        "city": "Yemen",
+        "lat": 14.55167389113373,
+        "lon": 49.08858060351537,
+        "date": "2026-08-14 23:27:19",
+        "type": "Naval",
+        "severity": "normal",
+        "title": "Yemen’s government says Houthi attack on al-Makha kills at least four",
+        "description": "Hostilities are rising between Iran-backed Houthis and Yemens internationally recognised government.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/news/2026/8/14/yemens-government-says-houthi-attack-on-al-makha-kills-at-least-four?traffic_source=rss",
+        "critical": false
+    },
+    {
+        "country": "USA",
+        "city": "Washington",
+        "lat": 38.8770269637274,
+        "lon": -77.05498578447809,
+        "date": "2026-08-14 23:27:14",
+        "type": "Naval",
+        "severity": "normal",
+        "title": "US aircraft carrier on way to relieve USS Lincoln after issues reported on board",
+        "description": "Thousands of sailors on the Lincoln have reportedly faced food shortages and broken plumbing, with some considering jumping overboard.",
+        "fatalities": "0",
+        "link": "https://www.bbc.co.uk/news/articles/c171yp5zdrxo?at_medium=RSS&at_campaign=rss",
+        "critical": false
+    },
+    {
         "country": "Iran",
         "city": "Tehran",
         "lat": 35.75092948429974,
@@ -3035,34 +3063,6 @@
         "description": "A C-17 of the 445th Airlift Wing extensively damaged in March 2025 was repaired by using new technologies of the Rapid Sustainment Office, after no vendors were able to provide the needed parts. The Air Force Rapid Sustainment Office (RSO) helped put a C-17 Globemaster III back in the air with the first use of []",
         "fatalities": "0",
         "link": "https://theaviationist.com/2026/08/08/damaged-usaf-c-17-flies-again/",
-        "critical": false
-    },
-    {
-        "country": "Russia",
-        "city": "Moscow",
-        "lat": 55.82408965702059,
-        "lon": 37.571825331798905,
-        "date": "2026-08-13 13:41:18",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Japan’s 2026 defense white paper highlights ‘new era of crisis’ in Indo-Pacific",
-        "description": "Japan’s 2026 Defense White Paper called China the world's “greatest strategic challenge,” citing Beijing’s expanded cooperation with Moscow.",
-        "fatalities": "0",
-        "link": "https://www.defensenews.com/global/asia-pacific/2026/08/10/japans-2026-defense-white-paper-highlights-new-era-of-crisis-in-indo-pacific/",
-        "critical": false
-    },
-    {
-        "country": "Europe",
-        "city": "Paris",
-        "lat": 48.83640240264773,
-        "lon": 2.275657876638361,
-        "date": "2026-08-13 13:41:08",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "PSG down Aston Villa to retain UEFA Super Cup",
-        "description": "Champions League winners Paris Saint-Germain rubber-stamped their status as Europe's top team as they beat Aston Villa 2-1 in the UEFA Super Cup on Wednesday.",
-        "fatalities": "0",
-        "link": "https://www.france24.com/en/video/20260813-psg-down-aston-villa-to-retain-uefa-super-cup",
         "critical": false
     }
 ]
