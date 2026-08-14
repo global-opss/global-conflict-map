@@ -1,5 +1,61 @@
 [
     {
+        "country": "Iran",
+        "city": "Tehran",
+        "lat": 35.758510636719436,
+        "lon": 51.44723966839848,
+        "date": "2026-08-14 20:43:25",
+        "type": "Naval",
+        "severity": "normal",
+        "title": "Trump says record Navy deployment in Iran operations 'not nearly long enough'",
+        "description": "US President Donald Trump on Friday dismissed concerns about the toll on sailors aboard the aircraft carrier USS Abraham Lincoln, who have endured a record deployment of almost nine months, saying that the deployment had been “not nearly long enough”. The Lincoln has been supporting the US war against Iran, and reports have emerged of sailors struggling with mental health issues.",
+        "fatalities": "0",
+        "link": "https://www.france24.com/en/middle-east/20260814-trump-says-record-navy-deployment-in-iran-operations-not-nearly-long-enough",
+        "critical": false
+    },
+    {
+        "country": "Israel",
+        "city": "Tel Aviv",
+        "lat": 32.02685543747716,
+        "lon": 34.73561040182867,
+        "date": "2026-08-14 20:43:25",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "'Surrounded': Israel's new West Bank settlements bring chaos to Palestinians",
+        "description": "Palestinian Amin Rahal and his three brothers haven't gone to work in weeks, instead taking turns guarding what remains of their land atop a West Bank hill from incursions by nearby settlers.",
+        "fatalities": "0",
+        "link": "https://www.france24.com/en/live-news/20260814-surrounded-israel-s-new-west-bank-settlements-bring-chaos-to-palestinians",
+        "critical": false
+    },
+    {
+        "country": "Israel",
+        "city": "Tel Aviv",
+        "lat": 32.14599966301221,
+        "lon": 34.767326164385125,
+        "date": "2026-08-14 20:43:18",
+        "type": "Clashes",
+        "severity": "middle",
+        "title": "As Army Fails to Protect Palestinians, Israeli Leaders Sympathize With Settlers",
+        "description": "Defense Minister Katz called for the military to turn over to the police the responsibility for protecting Palestinians after two West Bank families were besieged by violent settlers.",
+        "fatalities": "0",
+        "link": "https://www.nytimes.com/2026/08/14/world/middleeast/israel-west-bank-settler-violence-military-police.html",
+        "critical": false
+    },
+    {
+        "country": "USA",
+        "city": "Washington",
+        "lat": 38.89550392457281,
+        "lon": -76.99738036971723,
+        "date": "2026-08-14 20:43:18",
+        "type": "Evacuation",
+        "severity": "critical",
+        "title": "Dozens injured and thousands evacuated in Croatia wildfire",
+        "description": "Officials say the blaze, near the port town of Omis, is one of the worst in Croatia's history.",
+        "fatalities": "0",
+        "link": "https://www.bbc.co.uk/news/articles/c9342wn2x27o?at_medium=RSS&at_campaign=rss",
+        "critical": true
+    },
+    {
         "country": "USA",
         "city": "Pentagon",
         "lat": 38.85414939451589,
@@ -1904,6 +1960,20 @@
         "critical": false
     },
     {
+        "country": "Asia",
+        "city": "Pakistan",
+        "lat": 31.490951607456918,
+        "lon": 74.4016723275965,
+        "date": "2026-08-13 22:11:27",
+        "type": "Clashes",
+        "severity": "middle",
+        "title": "Final election phase begins in Pakistan-administered Kashmir despite banned group’s boycott call",
+        "description": "MUZAFFARABAD, Pakistan: Voters went to the polls Monday in the final phase of elections for the legislative assembly in Pakistan-administered Kashmir, following weeks of violent protests and clashes with security forces that overshadowed campaigning in the disputed Himalayan region, officials said.\n\n\tMen and women began lining up early at polling stations in Poonch district in the disputed Himalayan region, where four assembly seats were being co",
+        "fatalities": "0",
+        "link": "https://www.arabnews.com/node/2654152/world",
+        "critical": false
+    },
+    {
         "country": "Africa",
         "city": "Libya",
         "lat": 26.32479451429415,
@@ -1943,20 +2013,6 @@
         "description": "DAMASCUS: President Ahmad Al-Sharaa received UN High Commissioner for Refugees Barham Salih and his accompanying delegation at the People’s Palace in Damascus on Monday, in the presence of Minister of Foreign Affairs and Expatriates Asaad Hassan Al-Shaibani.\n\tThe meeting focused on ways to strengthen cooperation between Syria and UNHCR, as well as supporting efforts related to the voluntary, safe, dignified and sustainable return of refugees and ",
         "fatalities": "0",
         "link": "https://www.arabnews.com/node/2654147/middle-east",
-        "critical": false
-    },
-    {
-        "country": "Asia",
-        "city": "Pakistan",
-        "lat": 31.490951607456918,
-        "lon": 74.4016723275965,
-        "date": "2026-08-13 22:11:27",
-        "type": "Clashes",
-        "severity": "middle",
-        "title": "Final election phase begins in Pakistan-administered Kashmir despite banned group’s boycott call",
-        "description": "MUZAFFARABAD, Pakistan: Voters went to the polls Monday in the final phase of elections for the legislative assembly in Pakistan-administered Kashmir, following weeks of violent protests and clashes with security forces that overshadowed campaigning in the disputed Himalayan region, officials said.\n\n\tMen and women began lining up early at polling stations in Poonch district in the disputed Himalayan region, where four assembly seats were being co",
-        "fatalities": "0",
-        "link": "https://www.arabnews.com/node/2654152/world",
         "critical": false
     },
     {
@@ -3008,61 +3064,5 @@
         "fatalities": "0",
         "link": "https://www.bbc.co.uk/news/articles/cqx7pp3yd25o?at_medium=RSS&at_campaign=rss",
         "critical": false
-    },
-    {
-        "country": "USA",
-        "city": "Washington",
-        "lat": 38.88603488515148,
-        "lon": -77.07940102885046,
-        "date": "2026-08-13 13:40:42",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Hundreds of Flights Canceled in Sicily as Mount Etna Erupts",
-        "description": "Etna erupts often, but it usually doesn’t release this much ash, an expert said. Tens of thousands of travelers’ plans have been disrupted in the past week.",
-        "fatalities": "0",
-        "link": "https://www.nytimes.com/2026/08/13/world/europe/mount-etna-volcano-sicily-eruption.html",
-        "critical": false
-    },
-    {
-        "country": "Asia",
-        "city": "Tokyo",
-        "lat": 35.61328967455337,
-        "lon": 139.74155509007787,
-        "date": "2026-08-13 13:40:39",
-        "type": "Clashes",
-        "severity": "middle",
-        "title": "Putin Visits Islands Seized From Japan in World War II, Angering Tokyo",
-        "description": "Prime Minister Sanae Takaichi of Japan has been a public critic of Mr. Putin, who has denounced her country’s sanctions against Russia over the Ukraine war.",
-        "fatalities": "0",
-        "link": "https://www.nytimes.com/2026/08/13/world/asia/putin-visit-islands-japan-russia.html",
-        "critical": false
-    },
-    {
-        "country": "Russia",
-        "city": "Moscow",
-        "lat": 55.75737546556685,
-        "lon": 37.66083979525467,
-        "date": "2026-08-13 12:03:24",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Дмитриев: дело Russiagate использовалось для продвижения ложных нарративов",
-        "description": "Глава РФПИ отметил, что нераскрытые детали мошенничества вокруг Russiagate демонстрируют попытки подрыва истины",
-        "fatalities": "0",
-        "link": "https://tass.ru/politika/28009757",
-        "critical": false
-    },
-    {
-        "country": "Iran",
-        "city": "Tehran",
-        "lat": 35.64794833366592,
-        "lon": 51.434957855620794,
-        "date": "2026-08-13 12:03:12",
-        "type": "Airstrike",
-        "severity": "critical",
-        "title": "Iran issues warning to Gulf states: US must desist or you’ll be hit hard",
-        "description": "Iran has made a concerted push with Gulf states, warning them explicitly that Tehran will hit their oil, power and water plants unless U.S. strikes end.",
-        "fatalities": "0",
-        "link": "https://www.defensenews.com/global/mideast-africa/2026/08/06/iran-issues-warning-to-gulf-states-us-must-desist-or-youll-be-hit-hard/",
-        "critical": true
     }
 ]
