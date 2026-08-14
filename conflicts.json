@@ -1,5 +1,33 @@
 [
     {
+        "country": "USA",
+        "city": "New york",
+        "lat": 40.77693918794121,
+        "lon": -74.07383976969726,
+        "date": "2026-08-14 22:01:43",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "«ВМС США всё равно»: западные СМИ — о бедственном положении авианосца USS Abraham Lincoln",
+        "description": "Авианосец USS Abraham Lincoln, участвующий в военно-морской блокаде Ирана, оказался в центре внимания западных СМИ. По информации The New York Times, сенаторы-демократы требуют от Пентагона ответов на вопросы о бедственном положении команды корабля. USS Abraham Lincoln уже более 200 дней не заходил в порт, передаёт CNN. По данным MS Now, психическое здоровье военнослужащих страдает от тяжёлых бытовых условий, нехватки продовольствия и предметов г",
+        "fatalities": "0",
+        "link": "https://russian.rt.com/world/article/1669889-avianosec-abraham-lincoln-bedstvie-obzor-smi?utm_source=rss&utm_medium=rss&utm_campaign=RSS",
+        "critical": false
+    },
+    {
+        "country": "Russia",
+        "city": "Moscow",
+        "lat": 55.72514769319773,
+        "lon": 37.58303326243941,
+        "date": "2026-08-14 22:01:31",
+        "type": "Clashes",
+        "severity": "middle",
+        "title": "A convergence of biological risks",
+        "description": "What's the common thread connecting AI advances, biological breakthroughs, a preponderance of high-risk-high-reward research, escalating geopolitical tensions and a hollowed-out U.S. public health sector?They all heighten the risk that one day a lethal human-made pathogen will emerge, either accidentally or intentionally, and we won't be ready for it.Why it matters: The same advances that make this a pivotal moment for medical innovation are inte",
+        "fatalities": "0",
+        "link": "https://www.axios.com/2026/08/14/biological-threats-ai-lab-research",
+        "critical": false
+    },
+    {
         "country": "Israel",
         "city": "Tel Aviv",
         "lat": 32.13423024877829,
@@ -3035,34 +3063,6 @@
         "description": "Three nations to group ministers, hold ⁠joint exercises and deepen defence industry cooperation under the pact.",
         "fatalities": "0",
         "link": "https://www.aljazeera.com/news/2026/8/13/turkiye-lays-out-mechanisms-of-defence-pact-with-pakistan-saudi-arabia?traffic_source=rss",
-        "critical": false
-    },
-    {
-        "country": "Europe",
-        "city": "Romania",
-        "lat": 45.94322656543018,
-        "lon": 25.03991056913861,
-        "date": "2026-08-13 13:40:48",
-        "type": "Nuclear",
-        "severity": "critical",
-        "title": "Falling Danube flow forces shutdown of Romania’s sole nuclear plant",
-        "description": "Romania had tried to avert a total shutdown of the plant, which usually generates a fifth of the countrys electricity.",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/news/2026/8/13/falling-danube-flow-forces-shutdown-of-romanias-sole-nuclear-plant?traffic_source=rss",
-        "critical": true
-    },
-    {
-        "country": "Africa",
-        "city": "Khartoum",
-        "lat": 15.564625251389828,
-        "lon": 32.619400956380936,
-        "date": "2026-08-13 13:40:48",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Infantino’s FIFA fate must go to an election, says Africa football chief",
-        "description": "CAF have given under-fire Gianni Infantino their backing, and now say the FIFA president must stand in Marchs election.",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/sports/2026/8/13/infantinos-fifa-fate-must-go-to-an-election-says-african-football-chief?traffic_source=rss",
         "critical": false
     }
 ]
