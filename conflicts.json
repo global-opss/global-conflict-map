@@ -1,6 +1,34 @@
 [
     {
         "country": "Europe",
+        "city": "Brussels",
+        "lat": 50.85045488541968,
+        "lon": 4.278881563649361,
+        "date": "2026-08-15 19:52:03",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Liechtenstein changes succession rule to allow women to ascend the throne",
+        "description": "The declaration was made on the national day of the central European country, which has a population of just 44,000.",
+        "fatalities": "0",
+        "link": "https://www.bbc.co.uk/news/articles/cn9nnxrxg4qo?at_medium=RSS&at_campaign=rss",
+        "critical": false
+    },
+    {
+        "country": "Iran",
+        "city": "Tehran",
+        "lat": 35.69727688823744,
+        "lon": 51.43933499889673,
+        "date": "2026-08-15 19:51:59",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Iran Says Qatar Captured Its Pilots Months Ago, a Claim Qatar Rejects",
+        "description": "Iran said the airmen have been held since March 2 when their fighter jets were shot down. The Qatari government denies detaining any Iranian pilots.",
+        "fatalities": "0",
+        "link": "https://www.nytimes.com/2026/08/15/world/middleeast/iran-missing-pilots-qatar.html",
+        "critical": false
+    },
+    {
+        "country": "Europe",
         "city": "Paris",
         "lat": 48.86556324624928,
         "lon": 2.3338667962742488,
@@ -3035,34 +3063,6 @@
         "description": "Reports of declining mental health and supply issues have been flagged by US sailors aboard the aircraft carrier USS Lincoln deployed to the Middle East, with some attempting to throw themselves in to the sea. The ship has so far spent a record 260 uninterrupted days at sea as it supports the war in Iran, and is expected to be replaced by the Pacific-based USS George Washington en route to the area. Follow our liveblog for the latest updates.",
         "fatalities": "0",
         "link": "https://www.france24.com/en/middle-east/20260814-middle-east-live-us-threatens-iran-with-economic-isolation-like-never-seen-before",
-        "critical": false
-    },
-    {
-        "country": "USA",
-        "city": "Washington",
-        "lat": 38.90915034691057,
-        "lon": -77.07353107331129,
-        "date": "2026-08-14 05:48:53",
-        "type": "Naval",
-        "severity": "normal",
-        "title": "New US aircraft carrier heads towards Middle East after reports of dire conditions on USS Lincoln",
-        "description": "The Pacific-based aircraft carrier USS George Washington has begun heading toward the Middle East as reports have emerged of mental health and supply issues aboard the long-deployed USS Abraham Lincoln. FRANCE 24's Monte Francis brings us more with this report.",
-        "fatalities": "0",
-        "link": "https://www.france24.com/en/new-us-aircraft-carrier-heads-towards-middle-east-after-reports-of-dire-conditions-on-uss-lincoln",
-        "critical": false
-    },
-    {
-        "country": "USA",
-        "city": "Washington",
-        "lat": 38.856359067396546,
-        "lon": -77.01986046695302,
-        "date": "2026-08-14 05:48:50",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Record rainfall leaves four dead, thousands stranded in Japan",
-        "description": "Record rainfall in Chiba claims lives as more than 22,000 households without power on busy Bon Buddhist holiday week.",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/news/2026/8/14/record-rainfall-leaves-four-dead-thousands-stranded-in-japan?traffic_source=rss",
         "critical": false
     }
 ]
