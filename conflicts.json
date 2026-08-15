@@ -1,5 +1,19 @@
 [
     {
+        "country": "Europe",
+        "city": "Paris",
+        "lat": 48.86556324624928,
+        "lon": 2.3338667962742488,
+        "date": "2026-08-15 19:32:47",
+        "type": "Naval",
+        "severity": "normal",
+        "title": "French swimmer Marchand wins first Euros gold as Germany's Liebmann breaks 1500m free world record",
+        "description": "French swimming star Léon Marchand won the 200m butterfly final at the European swimming championships Saturday in Paris while German swimmer Johannes Liebmann broke the 1,500m freestyle world record by nearly four seconds.",
+        "fatalities": "0",
+        "link": "https://www.france24.com/en/sport/20260815-l%C3%A9on-marchand-wins-200-meter-butterfly-at-european-swimming-championships",
+        "critical": false
+    },
+    {
         "country": "USA",
         "city": "Washington",
         "lat": 38.85741538839049,
@@ -3049,20 +3063,6 @@
         "description": "Record rainfall in Chiba claims lives as more than 22,000 households without power on busy Bon Buddhist holiday week.",
         "fatalities": "0",
         "link": "https://www.aljazeera.com/news/2026/8/14/record-rainfall-leaves-four-dead-thousands-stranded-in-japan?traffic_source=rss",
-        "critical": false
-    },
-    {
-        "country": "USA",
-        "city": "Washington",
-        "lat": 38.957564296146,
-        "lon": -77.09415774139612,
-        "date": "2026-08-14 05:48:50",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "How much power does the US hold in Venezuela?",
-        "description": "After Maduro’s removal, US influence in Venezuela soared, but experts say Washington may still have to ‘own’ Venezuela.",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/video/newsfeed/2026/8/14/aje-onl-nf_venezuela_-how-much-power-does-the-us-really-hold-140826?traffic_source=rss",
         "critical": false
     }
 ]
