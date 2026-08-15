@@ -1,5 +1,61 @@
 [
     {
+        "country": "Europe",
+        "city": "Brussels",
+        "lat": 50.95178553426575,
+        "lon": 4.3398847344611315,
+        "date": "2026-08-15 08:45:05",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "US Army general in Europe suddenly removed from command",
+        "description": "The Army abruptly removed Lt. Gen Charles Costanza from command of V Corps.",
+        "fatalities": "0",
+        "link": "https://www.defensenews.com/news/your-military/2026/08/10/us-army-general-in-europe-suddenly-removed-from-command/",
+        "critical": false
+    },
+    {
+        "country": "Asia",
+        "city": "Host",
+        "lat": 33.360464726341085,
+        "lon": 69.93231695097113,
+        "date": "2026-08-15 08:45:04",
+        "type": "Airstrike",
+        "severity": "critical",
+        "title": "Middle East live: Israel strikes Lebanon in deadliest attack since June",
+        "description": "Seven people were killed and at least three injured in an Israeli air strike in southern Lebanon on Saturday, Lebanon's state news ‌agency said. It is the worst toll since deals in June saw a lull in hostilities between Israel and Hezbollah. Follow our live blog for the latest updates.",
+        "fatalities": "0",
+        "link": "https://www.france24.com/en/middle-east/20260815-middle-east-live-trump-threatens-us-takeover-of-hormuz-as-iran-vows-to-retain-control",
+        "critical": true
+    },
+    {
+        "country": "Europe",
+        "city": "Brussels",
+        "lat": 50.93985116158412,
+        "lon": 4.3448117133997055,
+        "date": "2026-08-15 08:44:57",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Europe's scorched landscapes seen from space after summer heatwaves",
+        "description": "BBC Verify examines the impact of drought and extreme heat on western European rivers, fields and mountains.",
+        "fatalities": "0",
+        "link": "https://www.bbc.co.uk/news/articles/c4gxy0wqqd9o?at_medium=RSS&at_campaign=rss",
+        "critical": false
+    },
+    {
+        "country": "USA",
+        "city": "Washington",
+        "lat": 38.96361819315502,
+        "lon": -77.0538931936508,
+        "date": "2026-08-15 08:44:57",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "The women India’s biggest river project forgot",
+        "description": "As the Ken-Betwa dam displaces thousands, legal protections on compensation are being ignored.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/features/longform/2026/8/15/the-women-indias-biggest-river-project-forgot?traffic_source=rss",
+        "critical": false
+    },
+    {
         "country": "USA",
         "city": "New york",
         "lat": 40.654825838762534,
@@ -2534,6 +2590,20 @@
         "critical": false
     },
     {
+        "country": "Asia",
+        "city": "Pakistan",
+        "lat": 31.490951607456918,
+        "lon": 74.4016723275965,
+        "date": "2026-08-13 22:11:27",
+        "type": "Clashes",
+        "severity": "middle",
+        "title": "Final election phase begins in Pakistan-administered Kashmir despite banned group’s boycott call",
+        "description": "MUZAFFARABAD, Pakistan: Voters went to the polls Monday in the final phase of elections for the legislative assembly in Pakistan-administered Kashmir, following weeks of violent protests and clashes with security forces that overshadowed campaigning in the disputed Himalayan region, officials said.\n\n\tMen and women began lining up early at polling stations in Poonch district in the disputed Himalayan region, where four assembly seats were being co",
+        "fatalities": "0",
+        "link": "https://www.arabnews.com/node/2654152/world",
+        "critical": false
+    },
+    {
         "country": "Africa",
         "city": "Libya",
         "lat": 26.32479451429415,
@@ -2573,20 +2643,6 @@
         "description": "DAMASCUS: President Ahmad Al-Sharaa received UN High Commissioner for Refugees Barham Salih and his accompanying delegation at the People’s Palace in Damascus on Monday, in the presence of Minister of Foreign Affairs and Expatriates Asaad Hassan Al-Shaibani.\n\tThe meeting focused on ways to strengthen cooperation between Syria and UNHCR, as well as supporting efforts related to the voluntary, safe, dignified and sustainable return of refugees and ",
         "fatalities": "0",
         "link": "https://www.arabnews.com/node/2654147/middle-east",
-        "critical": false
-    },
-    {
-        "country": "Asia",
-        "city": "Pakistan",
-        "lat": 31.490951607456918,
-        "lon": 74.4016723275965,
-        "date": "2026-08-13 22:11:27",
-        "type": "Clashes",
-        "severity": "middle",
-        "title": "Final election phase begins in Pakistan-administered Kashmir despite banned group’s boycott call",
-        "description": "MUZAFFARABAD, Pakistan: Voters went to the polls Monday in the final phase of elections for the legislative assembly in Pakistan-administered Kashmir, following weeks of violent protests and clashes with security forces that overshadowed campaigning in the disputed Himalayan region, officials said.\n\n\tMen and women began lining up early at polling stations in Poonch district in the disputed Himalayan region, where four assembly seats were being co",
-        "fatalities": "0",
-        "link": "https://www.arabnews.com/node/2654152/world",
         "critical": false
     },
     {
@@ -3007,62 +3063,6 @@
         "description": "Part of the world turned its eyes to the skies this Wednesday.\n\nThe eclipse was also visible across Africa. In Tabarka, where the phenomenon was most pronounced in Tunisia, 59.06% of the Sun was obscured.\n\nThe partial eclipse was also visible from Dakar and several regions of Senegal, with a maximum of around 37% of the Sun's disk obscured towards the end of the day.\n\nAnd to make sure they didn't miss the celestial event, our correspondents in Tu",
         "fatalities": "0",
         "link": "https://www.france24.com/en/video/20260813-solar-eclipse-2026-africa-witnesses-partial-eclipse",
-        "critical": false
-    },
-    {
-        "country": "Ukraine",
-        "city": "Kyiv",
-        "lat": 50.454134094536016,
-        "lon": 30.58497524137809,
-        "date": "2026-08-13 17:41:42",
-        "type": "Naval",
-        "severity": "normal",
-        "title": "Russia-Ukraine war: Grain hub attacks raise fears over global food prices",
-        "description": "Kyiv and Moscow have been trading attacks on each other's grain warehouses, as concerns mount that global food prices could rise as a result.\n\nRussia struck Ukraine's largest grain shipment port on the Danube overnight, causing damage and setting off a fire. The attack came a day after Ukraine hit Novorossiysk, a major grain hub in Russia's part of the Black Sea.",
-        "fatalities": "0",
-        "link": "https://www.france24.com/en/video/20260813-russia-ukraine-war-grain-hub-attacks-raise-fears-over-global-food-prices",
-        "critical": false
-    },
-    {
-        "country": "China",
-        "city": "Beijing",
-        "lat": 39.91149880613879,
-        "lon": 116.44825385098336,
-        "date": "2026-08-13 17:41:34",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "China and Indonesia’s joint naval drills anger Taiwan",
-        "description": "Chinese state media have released footage of a joint naval drill with Indonesia in waters east of Taiwan.",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/video/newsfeed/2026/8/13/china-and-indonesias-joint-naval-drills-anger-taiwan?traffic_source=rss",
-        "critical": false
-    },
-    {
-        "country": "Iran",
-        "city": "Tehran",
-        "lat": 35.74981804927366,
-        "lon": 51.42304911923319,
-        "date": "2026-08-13 17:41:34",
-        "type": "Naval",
-        "severity": "normal",
-        "title": "Reports of US sailors in Middle East trying to jump ship spark outcry",
-        "description": "US senators call for inquiry as USS Lincoln has record-long period without port stop amid war on Iran.",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/news/2026/8/13/reports-of-us-sailors-in-middle-east-trying-to-jump-ship-spark-outcry?traffic_source=rss",
-        "critical": false
-    },
-    {
-        "country": "USA",
-        "city": "Washington",
-        "lat": 38.83454002322168,
-        "lon": -77.01853227397648,
-        "date": "2026-08-13 16:39:44",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "WP: США потеряли около четверти беспилотников MQ-9 ‌Reaper в конфликте с Ираном",
-        "description": "Американские войска потеряли около четверти беспилотников MQ-9 ‌Reaper в ходе конфликта с Ираном, пишет The Washington Post со ссылкой на американских чиновников. Читать далее",
-        "fatalities": "0",
-        "link": "https://russian.rt.com/world/news/1669450-ssha-bespilotniki-iran?utm_source=rss&utm_medium=rss&utm_campaign=RSS",
         "critical": false
     }
 ]
