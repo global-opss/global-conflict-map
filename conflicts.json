@@ -1,6 +1,34 @@
 [
     {
         "country": "China",
+        "city": "Hainan",
+        "lat": 19.18899803313075,
+        "lon": 109.65658917852302,
+        "date": "2026-08-15 03:39:24",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Летевший из Пекина в Манчестер самолет совершил аварийную посадку в аэропорту Красноярска",
+        "description": "Самолет Airbus A330-300 компании Hainan Airlines, следовавший по маршруту Пекин - Манчестер, совершил посадку в аэропорту Красноярска, сообщает пресс-служба аэровокзала в субботу.\"Посадка произведена в штатном режиме.",
+        "fatalities": "0",
+        "link": "https://www.interfax.ru/russia/1109452",
+        "critical": false
+    },
+    {
+        "country": "China",
+        "city": "Hainan",
+        "lat": 19.145819997076952,
+        "lon": 109.58817337083634,
+        "date": "2026-08-15 03:39:17",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "В аэропорту Красноярска аварийно сел летевший из Пекина в Манчестер самолет",
+        "description": "Самолет Airbus A330-300 авиакомпании Hainan Airlines, который летел по маршруту Пекин — Манчестер, совершил аварийную посадку в аэропорту Красноярска. Об этом сообщили в региональном управлении МЧС и пресс-служба самого аэропорта.",
+        "fatalities": "0",
+        "link": "https://www.kommersant.ru/doc/8890393",
+        "critical": false
+    },
+    {
+        "country": "China",
         "city": "Beijing",
         "lat": 39.92936258575702,
         "lon": 116.43625296639853,
@@ -3035,34 +3063,6 @@
         "description": "From the Loire to the Danube, via the Rhine and the Po, European rivers are facing exceptionally low water levels.\n \nAfter a start to the summer marked by record temperatures, the drought is threatening river transport, energy production, ecosystems and water supplies.",
         "fatalities": "0",
         "link": "https://www.france24.com/en/video/20260813-heatwave-european-rivers-face-historic-drought",
-        "critical": false
-    },
-    {
-        "country": "Israel",
-        "city": "Gaza",
-        "lat": 31.54908250797263,
-        "lon": 34.519891569592815,
-        "date": "2026-08-13 15:43:33",
-        "type": "Clashes",
-        "severity": "middle",
-        "title": "Gaza's beekeepers are rebuilding their livelihoods amid the ruins of war",
-        "description": "Amid the rubble and debris of Gaza's bombed-out landscape, beekeepers are rebuilding their livelihoods, handling swarms and collecting what little honey they can from the colonies that survived the war. Ibrahim al-Dabbeh, head of the Cooperative Association of Beekeepers in the Gaza Strip says \"the war destroyed more than 95% of the bee sector\". Rebuilding these hives means trying to revive an industry pushed to the brink of extinction.",
-        "fatalities": "0",
-        "link": "https://www.france24.com/en/video/20260813-gaza-s-beekeepers-are-rebuilding-their-livelihoods-amid-the-ruins-of-war",
-        "critical": false
-    },
-    {
-        "country": "Iran",
-        "city": "Tehran",
-        "lat": 35.664236691499454,
-        "lon": 51.376785730960755,
-        "date": "2026-08-13 15:43:27",
-        "type": "Naval",
-        "severity": "normal",
-        "title": "Iran says Strait of Hormuz under its control, rejects Trump claims",
-        "description": "Iran asserts full control over the Strait of Hormuz, challenging US claims of dominance in the strategic waterway.",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/news/2026/8/13/iran-says-strait-of-hormuz-under-its-control-rejects-trump-claims?traffic_source=rss",
         "critical": false
     }
 ]
