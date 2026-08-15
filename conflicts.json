@@ -1,5 +1,47 @@
 [
     {
+        "country": "Europe",
+        "city": "Berlin",
+        "lat": 48.94413138778415,
+        "lon": 2.3199794744282634,
+        "date": "2026-08-15 21:05:52",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Berliner Zeitung назвала коррупцию в окружении Зеленского проблемой для Европы",
+        "description": "Новые антикоррупционные расследования подпитывают сомнения Берлина и Брюсселя в желании Киева реализовать необходимые для вступления в ЕС реформы, считает обозреватель газеты",
+        "fatalities": "0",
+        "link": "https://tass.ru/mezhdunarodnaya-panorama/28015923",
+        "critical": false
+    },
+    {
+        "country": "Ukraine",
+        "city": "Kyiv",
+        "lat": 50.485321049328505,
+        "lon": 30.455734564508877,
+        "date": "2026-08-15 21:05:35",
+        "type": "Naval",
+        "severity": "normal",
+        "title": "From steppe to sea, a Ukrainian drone unit hunts Russian ships",
+        "description": "Drone units operating far behind the front line on Ukraine’s sweeping steppe have hit more than 180 vessels and other sea-borne targets in recent weeks.",
+        "fatalities": "0",
+        "link": "https://www.militarytimes.com/global/europe/2026/07/24/from-steppe-to-sea-a-ukrainian-drone-unit-hunts-russian-ships/",
+        "critical": false
+    },
+    {
+        "country": "USA",
+        "city": "Hawaii",
+        "lat": 19.649934051606532,
+        "lon": -155.4701615630248,
+        "date": "2026-08-15 21:05:27",
+        "type": "Clashes",
+        "severity": "middle",
+        "title": "Storm Lala strengthens into a Category 1 hurricane as it nears Hawaii",
+        "description": "Authorities warn residents to take precautions as storm is expected to bring rain and strong winds to the island chain.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/news/2026/8/15/tropical-storm-lala-expected-to-strengthen-as-it-nears-hawaii?traffic_source=rss",
+        "critical": false
+    },
+    {
         "country": "USA",
         "city": "New york",
         "lat": 40.649045695999334,
@@ -3021,48 +3063,6 @@
         "description": "Decrees restricting the rights of women and girls to study, work, travel and act independently now threaten to damage Afghanistan permanently, experts say.",
         "fatalities": "0",
         "link": "https://www.nytimes.com/2026/08/13/world/asia/afghan-women-taliban-rule.html",
-        "critical": false
-    },
-    {
-        "country": "Europe",
-        "city": "Brussels",
-        "lat": 50.824595821639235,
-        "lon": 4.365319861025876,
-        "date": "2026-08-14 08:23:13",
-        "type": "Clashes",
-        "severity": "middle",
-        "title": "Another Day of Extreme Heat Bakes Europe, but Relief Is on the Horizon",
-        "description": "Friday is delivering another day of near record heat to the continent, but toward the end of the weekend temperatures could retreat to seasonal averages.",
-        "fatalities": "0",
-        "link": "https://www.nytimes.com/2026/08/14/weather/europe-extreme-weather-heat-wave.html",
-        "critical": false
-    },
-    {
-        "country": "Iran",
-        "city": "Tehran",
-        "lat": 35.65993288061958,
-        "lon": 51.31955553385132,
-        "date": "2026-08-14 05:48:55",
-        "type": "Clashes",
-        "severity": "middle",
-        "title": "Just one in three Americans backs Iran war, most unsure of Trump’s goals, poll finds",
-        "description": "A Reuters/Ipsos poll found that 69% of Americans think President Donald Trump has not “clearly explained the goals of U.S. military involvement in Iran.”",
-        "fatalities": "0",
-        "link": "https://www.militarytimes.com/news/pentagon-congress/2026/07/31/just-one-in-three-americans-back-iran-war-most-unsure-of-trumps-goals-poll-finds/",
-        "critical": false
-    },
-    {
-        "country": "Iran",
-        "city": "Tehran",
-        "lat": 35.7025424762918,
-        "lon": 51.3882705603041,
-        "date": "2026-08-14 05:48:55",
-        "type": "Naval",
-        "severity": "normal",
-        "title": "Iran to get Chinese shoulder-launched missile systems in weeks, sources say",
-        "description": "Iran is expected to receive within weeks a first shipment out of up to 400 Chinese-made shoulder-fired air defense missile launchers.",
-        "fatalities": "0",
-        "link": "https://www.militarytimes.com/industry/techwatch/2026/07/30/iran-to-get-chinese-shoulder-launched-missile-systems-in-weeks-sources-say/",
         "critical": false
     }
 ]
