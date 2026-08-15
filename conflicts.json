@@ -1,5 +1,19 @@
 [
     {
+        "country": "Asia",
+        "city": "Pakistan",
+        "lat": 31.473806719050234,
+        "lon": 74.38104260759344,
+        "date": "2026-08-15 14:05:00",
+        "type": "Clashes",
+        "severity": "middle",
+        "title": "Final election phase begins in Pakistan-administered Kashmir despite banned group’s boycott call",
+        "description": "MUZAFFARABAD, Pakistan: Voters went to the polls Monday in the final phase of elections for the legislative assembly in Pakistan-administered Kashmir, following weeks of violent protests and clashes with security forces that overshadowed campaigning in the disputed Himalayan region, officials said.\n\n\tMen and women began lining up early at polling stations in Poonch district in the disputed Himalayan region, where four assembly seats were being co",
+        "fatalities": "0",
+        "link": "https://www.arabnews.com/node/2654152/world",
+        "critical": false
+    },
+    {
         "country": "Europe",
         "city": "London",
         "lat": 51.43776873080214,
@@ -3049,20 +3063,6 @@
         "description": "No injuries were reported in the attack, which the UAE called piracy and a threat to global energy security.",
         "fatalities": "0",
         "link": "https://www.aljazeera.com/news/2026/8/14/uae-accuses-iran-of-attacks-on-two-adnoc-vessels-in-strait-of-hormuz?traffic_source=rss",
-        "critical": false
-    },
-    {
-        "country": "Middle East",
-        "city": "Yemen",
-        "lat": 14.578782981600993,
-        "lon": 49.072865757298,
-        "date": "2026-08-14 01:57:52",
-        "type": "Clashes",
-        "severity": "middle",
-        "title": "Yemen faces highest risk of returning to war since 2022 truce, UN warns",
-        "description": "Civilian and military casualties have been reported as fighting has flared across Yemeni front lines in recent days.",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/news/2026/8/14/yemen-faces-highest-risk-of-returning-to-war-since-2022-truce-un-warns?traffic_source=rss",
         "critical": false
     }
 ]
