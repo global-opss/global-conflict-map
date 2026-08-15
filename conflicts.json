@@ -1,5 +1,33 @@
 [
     {
+        "country": "Iran",
+        "city": "Tehran",
+        "lat": 35.740819470455044,
+        "lon": 51.36319322550613,
+        "date": "2026-08-15 10:55:30",
+        "type": "Naval",
+        "severity": "normal",
+        "title": "US launches new strikes on Iran after reinstating oil sanctions over shipping attacks",
+        "description": "The U.S. military unleashed a new wave of strikes against Iran on Tuesday and revoked a license allowing the country to sell oil.",
+        "fatalities": "0",
+        "link": "https://www.militarytimes.com/news/your-military/2026/07/07/us-launches-new-strikes-on-iran-after-reinstating-oil-sanctions-over-shipping-attacks/",
+        "critical": false
+    },
+    {
+        "country": "Israel",
+        "city": "Tel Aviv",
+        "lat": 32.09560201604312,
+        "lon": 34.82619316255011,
+        "date": "2026-08-15 10:55:26",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "At scene of deadly Israeli strike on Lebanon home",
+        "description": "An overnight Israeli strike on a family home in Ansar, southern Lebanon, killed at least seven people.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/video/newsfeed/2026/8/15/at-scene-of-deadly-israeli-strike-on-lebanon-home?traffic_source=rss",
+        "critical": false
+    },
+    {
         "country": "Europe",
         "city": "Paris",
         "lat": 48.91102053375383,
@@ -3035,34 +3063,6 @@
         "description": "Military and government sources say the paramilitary RSF and allies advance into town of Kurmuk in Blue Nile state.",
         "fatalities": "0",
         "link": "https://www.aljazeera.com/news/2026/8/13/sudan-army-says-rsf-advance-on-key-town-bordering-ethiopia?traffic_source=rss",
-        "critical": false
-    },
-    {
-        "country": "Israel",
-        "city": "Tel Aviv",
-        "lat": 32.04820809681611,
-        "lon": 34.712308476092424,
-        "date": "2026-08-13 20:23:36",
-        "type": "Evacuation",
-        "severity": "critical",
-        "title": "Israeli forces order families to evacuate homes in Qusra",
-        "description": "Israeli forces have ordered Palestinian families in the occupied West Bank to evacuate their homes in Qusra",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/video/newsfeed/2026/8/13/israeli-forces-order-families-to-evacuate-homes-in-qusra?traffic_source=rss",
-        "critical": true
-    },
-    {
-        "country": "Ukraine",
-        "city": "Kyiv",
-        "lat": 50.433554046335374,
-        "lon": 30.514023723106256,
-        "date": "2026-08-13 19:44:16",
-        "type": "Naval",
-        "severity": "normal",
-        "title": "Iran says Ukrainian attack on vessel in Caspian Sea killed sailor",
-        "description": "Tehran described the attack on its vessel as an act of aggression while accusing Kyiv of seeking to expand the war in Ukraine.",
-        "fatalities": "0",
-        "link": "https://www.militarytimes.com/global/mideast-africa/2026/07/26/iran-says-ukrainian-attack-on-vessel-in-caspian-sea-killed-sailor/",
         "critical": false
     }
 ]
