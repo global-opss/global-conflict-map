@@ -2,6 +2,34 @@
     {
         "country": "USA",
         "city": "New york",
+        "lat": 40.654825838762534,
+        "lon": -73.94982145263157,
+        "date": "2026-08-15 08:10:24",
+        "type": "Nuclear",
+        "severity": "critical",
+        "title": "FIFA’s Infantino gets Giuliani backing in World Cup selloff fallout",
+        "description": "Andrew Giuliani, son of ex-New York Mayor Rudy Giuliani, tells critics of FIFAs Gianni Infantino its just politics.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/sports/2026/8/15/fifas-infantino-gets-giuliani-backing-in-world-cup-selloff-fallout?traffic_source=rss",
+        "critical": true
+    },
+    {
+        "country": "Middle East",
+        "city": "Damascus",
+        "lat": 33.53705596016877,
+        "lon": 36.23795544563954,
+        "date": "2026-08-15 08:10:24",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "A Syrian intervention in Lebanon would be too costly for Damascus",
+        "description": "Despite pressure from the US to intervene against Hezbollah, the Syrian government is unlikely to do so.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/opinions/2026/8/15/a-syrian-intervention-in-lebanon-would-be-too-costly-for-damascus?traffic_source=rss",
+        "critical": false
+    },
+    {
+        "country": "USA",
+        "city": "New york",
         "lat": 40.71480628659811,
         "lon": -74.04315398030754,
         "date": "2026-08-15 07:48:18",
@@ -2506,20 +2534,6 @@
         "critical": false
     },
     {
-        "country": "Asia",
-        "city": "Pakistan",
-        "lat": 31.490951607456918,
-        "lon": 74.4016723275965,
-        "date": "2026-08-13 22:11:27",
-        "type": "Clashes",
-        "severity": "middle",
-        "title": "Final election phase begins in Pakistan-administered Kashmir despite banned group’s boycott call",
-        "description": "MUZAFFARABAD, Pakistan: Voters went to the polls Monday in the final phase of elections for the legislative assembly in Pakistan-administered Kashmir, following weeks of violent protests and clashes with security forces that overshadowed campaigning in the disputed Himalayan region, officials said.\n\n\tMen and women began lining up early at polling stations in Poonch district in the disputed Himalayan region, where four assembly seats were being co",
-        "fatalities": "0",
-        "link": "https://www.arabnews.com/node/2654152/world",
-        "critical": false
-    },
-    {
         "country": "Africa",
         "city": "Libya",
         "lat": 26.32479451429415,
@@ -2559,6 +2573,20 @@
         "description": "DAMASCUS: President Ahmad Al-Sharaa received UN High Commissioner for Refugees Barham Salih and his accompanying delegation at the People’s Palace in Damascus on Monday, in the presence of Minister of Foreign Affairs and Expatriates Asaad Hassan Al-Shaibani.\n\tThe meeting focused on ways to strengthen cooperation between Syria and UNHCR, as well as supporting efforts related to the voluntary, safe, dignified and sustainable return of refugees and ",
         "fatalities": "0",
         "link": "https://www.arabnews.com/node/2654147/middle-east",
+        "critical": false
+    },
+    {
+        "country": "Asia",
+        "city": "Pakistan",
+        "lat": 31.490951607456918,
+        "lon": 74.4016723275965,
+        "date": "2026-08-13 22:11:27",
+        "type": "Clashes",
+        "severity": "middle",
+        "title": "Final election phase begins in Pakistan-administered Kashmir despite banned group’s boycott call",
+        "description": "MUZAFFARABAD, Pakistan: Voters went to the polls Monday in the final phase of elections for the legislative assembly in Pakistan-administered Kashmir, following weeks of violent protests and clashes with security forces that overshadowed campaigning in the disputed Himalayan region, officials said.\n\n\tMen and women began lining up early at polling stations in Poonch district in the disputed Himalayan region, where four assembly seats were being co",
+        "fatalities": "0",
+        "link": "https://www.arabnews.com/node/2654152/world",
         "critical": false
     },
     {
@@ -3036,33 +3064,5 @@
         "fatalities": "0",
         "link": "https://russian.rt.com/world/news/1669450-ssha-bespilotniki-iran?utm_source=rss&utm_medium=rss&utm_campaign=RSS",
         "critical": false
-    },
-    {
-        "country": "Europe",
-        "city": "Brussels",
-        "lat": 50.94961434039574,
-        "lon": 4.408075146288736,
-        "date": "2026-08-13 16:39:15",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "US Army general in Europe suddenly removed from command",
-        "description": "The Army abruptly removed Lt. Gen Charles Costanza from command of V Corps.",
-        "fatalities": "0",
-        "link": "https://www.defensenews.com/news/your-military/2026/08/10/us-army-general-in-europe-suddenly-removed-from-command/",
-        "critical": false
-    },
-    {
-        "country": "Europe",
-        "city": "Warsaw",
-        "lat": 52.20848609374826,
-        "lon": 21.058594107983883,
-        "date": "2026-08-13 16:39:15",
-        "type": "Airstrike",
-        "severity": "critical",
-        "title": "Russian detained over 'execution' plot against Ukrainian-American in Warsaw, Tusk says",
-        "description": "Poland arrested a Russian national who was allegedly planning to kill a Ukrainian-American dual citizen in Warsaw, Prime Minister Donald Tusk said Thursday. Tusk said it was the first time that “someone on the order of Russia” had sought to attack an American citizen on NATO territory.",
-        "fatalities": "0",
-        "link": "https://www.france24.com/en/europe/20260813-poland-detains-russian-for-execution-plot-in-warsaw-tusk-says",
-        "critical": true
     }
 ]
