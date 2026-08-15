@@ -1,5 +1,61 @@
 [
     {
+        "country": "Israel",
+        "city": "Gaza",
+        "lat": 31.439032447061344,
+        "lon": 34.48601171026861,
+        "date": "2026-08-15 11:56:41",
+        "type": "Naval",
+        "severity": "normal",
+        "title": "Trump insists Netanyahu relationship ‘very good’ despite Gaza rift",
+        "description": "WASHINGTON, United States: President Donald Trump insisted on Monday that his relationship with Prime Minister Benjamin Netanyahu is “very good” despite the Israeli leader’s rejection of a US-led Gaza plan.\n\t“The relationship is very good,” Trump said in response to a shouted question from a journalist at the end of an Oval Office event.\n\tAfter more than a week of gradually escalating criticism, Netanyahu explicitly stated on Sunday that he oppos",
+        "fatalities": "0",
+        "link": "https://www.arabnews.com/node/2654154/world",
+        "critical": false
+    },
+    {
+        "country": "Israel",
+        "city": "Gaza",
+        "lat": 31.55909433082159,
+        "lon": 34.50063953112458,
+        "date": "2026-08-15 11:56:39",
+        "type": "Clashes",
+        "severity": "middle",
+        "title": "Enrollment begins at Saudi-backed school for Gaza children",
+        "description": "GAZA STRIP: Registration has opened for students seeking to enroll at Makkah School in the southern Gaza Strip, a Saudi-backed initiative aimed at helping children resume their education amid the devastation of the war, SPA has reported. \n\n\tThe school, supported by the King Salman Humanitarian Aid and Relief Center (KSrelief), is part of a project to establish and operate safe educational spaces for Palestinian children under Saudi Arabia’s campa",
+        "fatalities": "0",
+        "link": "https://www.arabnews.com/node/2654157/saudi-arabia",
+        "critical": false
+    },
+    {
+        "country": "Ukraine",
+        "city": "Kyiv",
+        "lat": 50.38447212986767,
+        "lon": 30.590419345725135,
+        "date": "2026-08-15 11:56:33",
+        "type": "Airstrike",
+        "severity": "critical",
+        "title": "Ukraine attacks Russian air base and rocket plant in Samara region",
+        "description": "Ukraine ⁠struck industrial infrastructure ​in Russia's ​Samara region on Saturday, local authorities said. Ukrainian President Volodymyr Zelensky confirmed the attack, saying a rocket plant and air base were hit.",
+        "fatalities": "0",
+        "link": "https://www.france24.com/en/europe/20260815-ukraine-attacks-russian-air-base-and-rocket-plant-in-samara-region",
+        "critical": true
+    },
+    {
+        "country": "Ukraine",
+        "city": "Kyiv",
+        "lat": 50.49635812705497,
+        "lon": 30.536764790583575,
+        "date": "2026-08-15 11:56:25",
+        "type": "Naval",
+        "severity": "normal",
+        "title": "Is China seeking to copy Iran’s Strait of Hormuz blockade around Taiwan?",
+        "description": "Taiwan has long prepared for a Chinese military invasion but wars in Iran and Ukraine expose new potential threats.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/video/101-east/2026/8/15/is-china-seeking-to-copy-irans-strait-of-hormuz-blockade-around-taiwan?traffic_source=rss",
+        "critical": false
+    },
+    {
         "country": "Asia",
         "city": "Host",
         "lat": 33.277286951556874,
@@ -2940,6 +2996,20 @@
         "critical": false
     },
     {
+        "country": "Asia",
+        "city": "Pakistan",
+        "lat": 31.490951607456918,
+        "lon": 74.4016723275965,
+        "date": "2026-08-13 22:11:27",
+        "type": "Clashes",
+        "severity": "middle",
+        "title": "Final election phase begins in Pakistan-administered Kashmir despite banned group’s boycott call",
+        "description": "MUZAFFARABAD, Pakistan: Voters went to the polls Monday in the final phase of elections for the legislative assembly in Pakistan-administered Kashmir, following weeks of violent protests and clashes with security forces that overshadowed campaigning in the disputed Himalayan region, officials said.\n\n\tMen and women began lining up early at polling stations in Poonch district in the disputed Himalayan region, where four assembly seats were being co",
+        "fatalities": "0",
+        "link": "https://www.arabnews.com/node/2654152/world",
+        "critical": false
+    },
+    {
         "country": "Africa",
         "city": "Libya",
         "lat": 26.32479451429415,
@@ -2982,20 +3052,6 @@
         "critical": false
     },
     {
-        "country": "Asia",
-        "city": "Pakistan",
-        "lat": 31.490951607456918,
-        "lon": 74.4016723275965,
-        "date": "2026-08-13 22:11:27",
-        "type": "Clashes",
-        "severity": "middle",
-        "title": "Final election phase begins in Pakistan-administered Kashmir despite banned group’s boycott call",
-        "description": "MUZAFFARABAD, Pakistan: Voters went to the polls Monday in the final phase of elections for the legislative assembly in Pakistan-administered Kashmir, following weeks of violent protests and clashes with security forces that overshadowed campaigning in the disputed Himalayan region, officials said.\n\n\tMen and women began lining up early at polling stations in Poonch district in the disputed Himalayan region, where four assembly seats were being co",
-        "fatalities": "0",
-        "link": "https://www.arabnews.com/node/2654152/world",
-        "critical": false
-    },
-    {
         "country": "Israel",
         "city": "Jerusalem",
         "lat": 31.83522109188785,
@@ -3007,62 +3063,6 @@
         "description": "JERUSALEM: Donald Trump’s latest plan to end the Gaza war calls on Hamas to ‌lay down its arms as Israel withdraws from the territory, terms endorsed by the militants but rejected by Israel, which says it will not pull back until the group’s disarmament is complete.",
         "fatalities": "0",
         "link": "https://www.arabnews.com/node/2654156/middle-east",
-        "critical": false
-    },
-    {
-        "country": "Africa",
-        "city": "Libya",
-        "lat": 26.388560013243456,
-        "lon": 17.175367589499206,
-        "date": "2026-08-13 22:11:25",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Libya’s central bank chief resigns",
-        "description": "TRIPOLI: The governor of Libya’s central bank, Naji Issa, has resigned without giving a reason, several reports said on Monday.\n\tPrivate TV channel Al-Ahrar said Issa had confirmed his resignation.\n\tIssa and vice-governor Miree Al-Barasee were appointed by Libya’s parliament, which is based in the east of the divided country, in September 2024.\n\tHis appointment was part of a deal backed by the United Nations that ended a standoff over Libya’s oil",
-        "fatalities": "0",
-        "link": "https://www.arabnews.com/node/2654155/middle-east",
-        "critical": false
-    },
-    {
-        "country": "USA",
-        "city": "Washington",
-        "lat": 38.825335865230116,
-        "lon": -76.9982375026561,
-        "date": "2026-08-13 22:11:17",
-        "type": "Naval",
-        "severity": "normal",
-        "title": "\"It is despicable\": House Democrats rage over Republican stock trading \"set-up\"",
-        "description": "House Democrats went into the vote on the Stop Insider Trading Act last month groaning that it was all a big Republican set-up. Now they're fuming that the trap has been sprung.Why it matters: A well-funded Republican group is blanketing the airwaves lauding GOP lawmakers in key swing districts — including some with reputations for prolific stock trading — as champions on the issue.\"Corrupt congressmen treat the House floor like a trading floor. ",
-        "fatalities": "0",
-        "link": "https://www.axios.com/2026/08/13/republicans-insider-congress-stock-trading-ads",
-        "critical": false
-    },
-    {
-        "country": "Israel",
-        "city": "Gaza",
-        "lat": 31.516236279838385,
-        "lon": 34.51111498431724,
-        "date": "2026-08-13 22:11:17",
-        "type": "Airstrike",
-        "severity": "critical",
-        "title": "Kushner set to visit Israel, Egypt next week for Gaza talks",
-        "description": "Jared Kushner, President Trump's envoy and son-in-law, is planning to visit Israel next week for talks on the situation in Gaza, according to five sources with knowledge of the plan.Why it matters: This would be Kushner's first trip to Israel since January. It comes as the White House and Trump's Board of Peace are trying to push forward with the next phase of the Gaza plan, which focuses on disarming Hamas and a potential Israeli withdrawal. The",
-        "fatalities": "0",
-        "link": "https://www.axios.com/2026/08/13/kushner-israel-gaza-netanyahu",
-        "critical": true
-    },
-    {
-        "country": "Africa",
-        "city": "Khartoum",
-        "lat": 15.566410952296586,
-        "lon": 32.54900518413469,
-        "date": "2026-08-13 22:10:57",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Ceremony to pay tribute to capsized ferry victims",
-        "description": "In tonight's program, mourners gather in memory of the 44 people killed in Tuesday's ferry accident. Also, ballot counting has started in Zambia, President Hichilema's is expected to win a second term. And finally researchers, reckon that the rising cost of living and changing societal expectation is behind a marked drop in the birth rates across North African countries.",
-        "fatalities": "0",
-        "link": "https://www.france24.com/en/ceremony-to-pay-tribute-to-capsized-ferry-victims",
         "critical": false
     }
 ]
