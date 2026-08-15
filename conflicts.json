@@ -1,5 +1,19 @@
 [
     {
+        "country": "USA",
+        "city": "New york",
+        "lat": 40.75018332318676,
+        "lon": -73.99686257123878,
+        "date": "2026-08-15 14:35:54",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "«Талибан» призвал США вернуть дипломатов в Афганистан",
+        "description": "Движение «Талибан» обратилось к Соединенным Штатам с призывом вернуть своих дипломатов в посольство в Кабуле и инвестировать в экономическое развитие Афганистана. Об этом в интервью The New York Times заявил министр иностранных дел Афганистана Амир Хан Муттаки.",
+        "fatalities": "0",
+        "link": "https://www.kommersant.ru/doc/8890531",
+        "critical": false
+    },
+    {
         "country": "Asia",
         "city": "Pakistan",
         "lat": 31.473806719050234,
@@ -3049,20 +3063,6 @@
         "description": "Israel’s Defence Minister Israel Katz praised radical Hilltop Youth settlers for ‘holding onto’ Palestinian land.",
         "fatalities": "0",
         "link": "https://www.aljazeera.com/video/newsfeed/2026/8/14/08-14-2026-katz-ganim-clip-mp4?traffic_source=rss",
-        "critical": false
-    },
-    {
-        "country": "Iran",
-        "city": "Tehran",
-        "lat": 35.62108659570376,
-        "lon": 51.32529001388608,
-        "date": "2026-08-14 01:57:52",
-        "type": "Naval",
-        "severity": "normal",
-        "title": "UAE accuses Iran of attacks on two ADNOC vessels in Strait of Hormuz",
-        "description": "No injuries were reported in the attack, which the UAE called piracy and a threat to global energy security.",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/news/2026/8/14/uae-accuses-iran-of-attacks-on-two-adnoc-vessels-in-strait-of-hormuz?traffic_source=rss",
         "critical": false
     }
 ]
