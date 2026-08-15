@@ -1,5 +1,33 @@
 [
     {
+        "country": "Russia",
+        "city": "Moscow",
+        "lat": 55.701906984667595,
+        "lon": 37.55480565297199,
+        "date": "2026-08-15 16:35:00",
+        "type": "Airstrike",
+        "severity": "critical",
+        "title": "Ukraine hits Russian Starlink-style network, Moscow tracks arms package",
+        "description": "Ukraine used domestically produced Flamingo missiles to hit targets in Russias southwestern Samara region.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/news/2026/8/15/ukraine-hits-russian-starlink-style-network-moscow-tracks-arms-package?traffic_source=rss",
+        "critical": true
+    },
+    {
+        "country": "Israel",
+        "city": "Tel Aviv",
+        "lat": 32.14220846577762,
+        "lon": 34.833328554846084,
+        "date": "2026-08-15 16:35:00",
+        "type": "Clashes",
+        "severity": "middle",
+        "title": "Israeli settlers besiege Palestinian families in occupied West Bank",
+        "description": "Three Palestinian families say they have been trapped inside their homes in the occupied West Bank for nearly a week.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/video/newsfeed/2026/8/15/15-08-reported-nour-west-bank-ps?traffic_source=rss",
+        "critical": false
+    },
+    {
         "country": "Europe",
         "city": "Paris",
         "lat": 48.894534981634095,
@@ -3035,34 +3063,6 @@
         "description": "The result could offer an early signal of shifting alliances and voter sentiment before the presidential race.",
         "fatalities": "0",
         "link": "https://www.aljazeera.com/news/2026/8/14/why-osuns-election-matters-for-nigerias-2027-vote?traffic_source=rss",
-        "critical": false
-    },
-    {
-        "country": "Israel",
-        "city": "Tel Aviv",
-        "lat": 32.02087834298606,
-        "lon": 34.75784696360597,
-        "date": "2026-08-14 04:14:07",
-        "type": "Clashes",
-        "severity": "middle",
-        "title": "UN, Palestinian ministry condemn Israeli settler siege of West Bank homes",
-        "description": "UN rights office and Palestine Foreign Ministry call days-long Israeli settler siege in Qusra criminal and inhumane.",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/news/2026/8/14/un-palestinian-ministry-condemn-israeli-settler-siege-of-west-bank-homes?traffic_source=rss",
-        "critical": false
-    },
-    {
-        "country": "Africa",
-        "city": "Mali",
-        "lat": 12.521653160925258,
-        "lon": -7.922549928438854,
-        "date": "2026-08-14 04:14:05",
-        "type": "Clashes",
-        "severity": "middle",
-        "title": "Mali says 82 soldiers captured by armed groups have been freed",
-        "description": "Malian army says the soldiers were held prisoner by Tuareg and al-Qaeda-linked armed groups in the northern region.",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/news/2026/8/14/mali-says-82-soldiers-captured-by-armed-groups-have-been-freed?traffic_source=rss",
         "critical": false
     }
 ]
