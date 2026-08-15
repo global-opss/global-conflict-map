@@ -1,5 +1,33 @@
 [
     {
+        "country": "USA",
+        "city": "Washington",
+        "lat": 38.94300997837883,
+        "lon": -77.086599797691,
+        "date": "2026-08-15 12:42:07",
+        "type": "Evacuation",
+        "severity": "critical",
+        "title": "Afghan refugees face an uncertain future as Europe shifts to the right",
+        "description": "With the fall of the former government in Kabul, thousands of Afghans were forced to flee the country, many to Europe.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/news/2026/8/15/afghan-refugees-face-uncertain-future-as-europe-shifts-to-the-right?traffic_source=rss",
+        "critical": true
+    },
+    {
+        "country": "Israel",
+        "city": "Tel Aviv",
+        "lat": 32.02069663074228,
+        "lon": 34.839327581957285,
+        "date": "2026-08-15 12:42:04",
+        "type": "Airstrike",
+        "severity": "critical",
+        "title": "Eleven killed in Israeli strikes on southern Lebanon, authorities say",
+        "description": "Israel's military said it had struck \"Hezbollah terror infrastructure\" in response to what it described as an earlier action against its soldiers.",
+        "fatalities": "0",
+        "link": "https://www.bbc.co.uk/news/articles/c4gjygx4gjeo?at_medium=RSS&at_campaign=rss",
+        "critical": true
+    },
+    {
         "country": "Israel",
         "city": "Gaza",
         "lat": 31.439032447061344,
@@ -3035,34 +3063,6 @@
         "description": "LONDON: More than three years after Sudan descended into civil war, army chief Gen. Abdel Fattah Al-Burhan is pushing for a broad national dialogue aimed at rebuilding the country’s political institutions and laying the foundations for a civilian transition.\n\n\tTalks could begin as early as August, with preparatory consultations already involving political groups, technocrats, Sufi leaders, traditional authorities, academics, professionals, civil ",
         "fatalities": "0",
         "link": "https://www.arabnews.com/node/2654150/middle-east",
-        "critical": false
-    },
-    {
-        "country": "Middle East",
-        "city": "Damascus",
-        "lat": 33.454196362040435,
-        "lon": 36.32542870334102,
-        "date": "2026-08-13 22:11:27",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Syrian leader receives UN refugee chief in Damascus",
-        "description": "DAMASCUS: President Ahmad Al-Sharaa received UN High Commissioner for Refugees Barham Salih and his accompanying delegation at the People’s Palace in Damascus on Monday, in the presence of Minister of Foreign Affairs and Expatriates Asaad Hassan Al-Shaibani.\n\tThe meeting focused on ways to strengthen cooperation between Syria and UNHCR, as well as supporting efforts related to the voluntary, safe, dignified and sustainable return of refugees and ",
-        "fatalities": "0",
-        "link": "https://www.arabnews.com/node/2654147/middle-east",
-        "critical": false
-    },
-    {
-        "country": "Israel",
-        "city": "Jerusalem",
-        "lat": 31.83522109188785,
-        "lon": 35.22786592939703,
-        "date": "2026-08-13 22:11:25",
-        "type": "Clashes",
-        "severity": "middle",
-        "title": "Trump’s Gaza plan hinges on Hamas disarmament, Israeli withdrawals",
-        "description": "JERUSALEM: Donald Trump’s latest plan to end the Gaza war calls on Hamas to ‌lay down its arms as Israel withdraws from the territory, terms endorsed by the militants but rejected by Israel, which says it will not pull back until the group’s disarmament is complete.",
-        "fatalities": "0",
-        "link": "https://www.arabnews.com/node/2654156/middle-east",
         "critical": false
     }
 ]
