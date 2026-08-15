@@ -1,5 +1,33 @@
 [
     {
+        "country": "China",
+        "city": "Beijing",
+        "lat": 39.92936258575702,
+        "lon": 116.43625296639853,
+        "date": "2026-08-15 02:54:12",
+        "type": "Airstrike",
+        "severity": "critical",
+        "title": "China Shows H-6 Bomber Carrying Nuclear-Capable JL-1 ALBM",
+        "description": "China released images of the H-6 bomber carrying the JL-1 air-launched ballistic missile as part of promotional features marking the 99th anniversary of the People’s Liberation Army (PLA). China released for the first time official footage showing a PLA Air Force H-6N bomber carrying the massive JL-1 air-launched ballistic missile (ALBM). The bomber was also []",
+        "fatalities": "0",
+        "link": "https://theaviationist.com/2026/08/06/china-h-6-bomber-nuclear-jl-1-albm/",
+        "critical": true
+    },
+    {
+        "country": "USA",
+        "city": "Pentagon",
+        "lat": 38.89531374733865,
+        "lon": -77.04508489979887,
+        "date": "2026-08-15 02:54:09",
+        "type": "Naval",
+        "severity": "normal",
+        "title": "US not disengaging from Asia, seeks ‘partners, not protectorates,’ says Pentagon official",
+        "description": "Undersecretary of Defense for Policy Elbridge Colby reaffirmed the U.S. interest in the region as he called for greater burden-sharing and partnership.",
+        "fatalities": "0",
+        "link": "https://www.defensenews.com/pentagon/2026/08/10/us-not-disengaging-from-asia-seeks-partners-not-protectorates-says-pentagon-official/",
+        "critical": false
+    },
+    {
         "country": "USA",
         "city": "Washington",
         "lat": 38.92824415132002,
@@ -3035,34 +3063,6 @@
         "description": "Iran asserts full control over the Strait of Hormuz, challenging US claims of dominance in the strategic waterway.",
         "fatalities": "0",
         "link": "https://www.aljazeera.com/news/2026/8/13/iran-says-strait-of-hormuz-under-its-control-rejects-trump-claims?traffic_source=rss",
-        "critical": false
-    },
-    {
-        "country": "Israel",
-        "city": "Gaza",
-        "lat": 31.524890050212438,
-        "lon": 34.448252897048285,
-        "date": "2026-08-13 15:43:27",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Pro-Palestine football fans lament West Ham for signing Manor Solomon",
-        "description": "The 27-year-old Israeli player has used his platform to defend Israel amid the genocide in Gaza.",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/news/2026/8/13/pro-palestine-football-fans-lament-west-ham-for-signing-manor-solomon?traffic_source=rss",
-        "critical": false
-    },
-    {
-        "country": "Israel",
-        "city": "Tel Aviv",
-        "lat": 32.150671056666745,
-        "lon": 34.76487701112782,
-        "date": "2026-08-13 15:43:23",
-        "type": "Clashes",
-        "severity": "middle",
-        "title": "Palestinians told to leave homes in village where Israeli settlers besieged houses",
-        "description": "The mayor of Qusra says Israeli troops have been telling families to leave their houses, using some as barracks.",
-        "fatalities": "0",
-        "link": "https://www.bbc.co.uk/news/articles/cj4kppdk2qwo?at_medium=RSS&at_campaign=rss",
         "critical": false
     }
 ]
