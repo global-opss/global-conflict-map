@@ -1,5 +1,19 @@
 [
     {
+        "country": "USA",
+        "city": "Hawaii",
+        "lat": 19.640866572355677,
+        "lon": -155.49140940329966,
+        "date": "2026-08-15 17:59:39",
+        "type": "Clashes",
+        "severity": "middle",
+        "title": "Tropical Storm Lala expected to strengthen as it nears Hawaii",
+        "description": "Authorities warn residents to take precautions as storm expected to bring rain and strong winds to the island chain.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/news/2026/8/15/tropical-storm-lala-expected-to-strengthen-as-it-nears-hawaii?traffic_source=rss",
+        "critical": false
+    },
+    {
         "country": "Europe",
         "city": "Paris",
         "lat": 48.92886771649267,
@@ -3049,20 +3063,6 @@
         "description": "США за время конфликта с Ираном потеряли не менее 45 тяжелых разведывательно-ударных беспилотников MQ-9 Reaper, пишет The Washington Post.\"Американские военные потеряли по меньшей мере 45 БПЛА MQ-9 Reaper в ходе войны с Ираном, это примерно 25% их флота\", - сообщило издание, ссылаясь на трех американских чиновников.",
         "fatalities": "0",
         "link": "https://www.interfax.ru/world/1109219",
-        "critical": false
-    },
-    {
-        "country": "Israel",
-        "city": "Jerusalem",
-        "lat": 31.73939293159663,
-        "lon": 35.15682045467624,
-        "date": "2026-08-14 04:14:42",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Jerusalem Post: израильские военные шокированы скоростью восстановления Ирана",
-        "description": "Израильские военные и спецслужбы шокированы темпами восстановления военного потенциала Ирана. Читать далее",
-        "fatalities": "0",
-        "link": "https://russian.rt.com/world/news/1669573-izrail-shok-vosstanovlenie-irana?utm_source=rss&utm_medium=rss&utm_campaign=RSS",
         "critical": false
     }
 ]
