@@ -1,5 +1,47 @@
 [
     {
+        "country": "Europe",
+        "city": "Paris",
+        "lat": 48.92886771649267,
+        "lon": 2.311732883311292,
+        "date": "2026-08-15 17:23:22",
+        "type": "Naval",
+        "severity": "normal",
+        "title": "French swimmer Léon Marchand wins 200m butterfly for first Euros gold",
+        "description": "French swimming star Léon Marchand won the 200m butterfly final at the European swimming championships Saturday in Paris.",
+        "fatalities": "0",
+        "link": "https://www.france24.com/en/sport/20260815-l%C3%A9on-marchand-wins-200-meter-butterfly-at-european-swimming-championships",
+        "critical": false
+    },
+    {
+        "country": "Europe",
+        "city": "Brussels",
+        "lat": 50.8748282480385,
+        "lon": 4.401805474208816,
+        "date": "2026-08-15 17:23:21",
+        "type": "Naval",
+        "severity": "normal",
+        "title": "France's Léon Marchand wins 200-meter butterfly final at European Swimming Championships",
+        "description": "",
+        "fatalities": "0",
+        "link": "https://www.france24.com/en/sport/20260815-l%C3%A9on-marchand-wins-200-meter-butterfly-at-european-swimming-championships",
+        "critical": false
+    },
+    {
+        "country": "Asia",
+        "city": "Pakistan",
+        "lat": 31.54774015785198,
+        "lon": 74.36096163185738,
+        "date": "2026-08-15 17:23:16",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Erdogan says Egypt could join Turkiye-Saudi-Pakistan defence pact",
+        "description": "Turkish president tells Al Jazeera that the recently signed agreement is open to new members as he pledges continued support.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/news/2026/8/15/erdogan-says-egypt-could-join-turkiye-saudi-pakistan-defence-pact?traffic_source=rss",
+        "critical": false
+    },
+    {
         "country": "Africa",
         "city": "Sudan",
         "lat": 12.916741044742261,
@@ -574,20 +616,6 @@
         "critical": false
     },
     {
-        "country": "USA",
-        "city": "Washington",
-        "lat": 38.86273461876971,
-        "lon": -77.08289403869506,
-        "date": "2026-08-15 09:40:47",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Afghans rebuild their lives in France five years after Taliban takeover",
-        "description": "Five years after the Taliban seized power, thousands of Afghans who fled to France are rebuilding their lives while facing challenges including language, housing and employment. For women like refugee doctor Fardina Samadi, France offers freedoms denied under Taliban rule, but rebuilding a career and integrating into French society remain difficult.",
-        "fatalities": "0",
-        "link": "https://www.france24.com/en/afghans-rebuild-their-lives-in-france-five-years-after-taliban-takeover",
-        "critical": false
-    },
-    {
         "country": "Ukraine",
         "city": "Kyiv",
         "lat": 50.43381539129763,
@@ -614,6 +642,20 @@
         "fatalities": "0",
         "link": "https://www.militarytimes.com/flashpoints/2026/07/15/us-launches-new-round-of-strikes-against-iran/",
         "critical": true
+    },
+    {
+        "country": "USA",
+        "city": "Washington",
+        "lat": 38.86273461876971,
+        "lon": -77.08289403869506,
+        "date": "2026-08-15 09:40:47",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Afghans rebuild their lives in France five years after Taliban takeover",
+        "description": "Five years after the Taliban seized power, thousands of Afghans who fled to France are rebuilding their lives while facing challenges including language, housing and employment. For women like refugee doctor Fardina Samadi, France offers freedoms denied under Taliban rule, but rebuilding a career and integrating into French society remain difficult.",
+        "fatalities": "0",
+        "link": "https://www.france24.com/en/afghans-rebuild-their-lives-in-france-five-years-after-taliban-takeover",
+        "critical": false
     },
     {
         "country": "USA",
@@ -3021,48 +3063,6 @@
         "description": "Израильские военные и спецслужбы шокированы темпами восстановления военного потенциала Ирана. Читать далее",
         "fatalities": "0",
         "link": "https://russian.rt.com/world/news/1669573-izrail-shok-vosstanovlenie-irana?utm_source=rss&utm_medium=rss&utm_campaign=RSS",
-        "critical": false
-    },
-    {
-        "country": "Europe",
-        "city": "Paris",
-        "lat": 48.90036414474703,
-        "lon": 2.346502853190147,
-        "date": "2026-08-14 04:14:26",
-        "type": "Naval",
-        "severity": "normal",
-        "title": "Scoop: Trump team tells GOP to lean in on health care",
-        "description": "President Trump's top political hands had some surprising advice for Senate Republicans last week: Talk more about health care.Why it matters: Trump and the MAGA base are fixated on the voter-ID and proof-of-citizenship SAVE Act. But Republican message testing from Trump's own pollster suggests candidates are better off focusing elsewhere.Driving the news: Top Trumpworld campaign officials, including James Blair, pollster Tony Fabrizio and Senate",
-        "fatalities": "0",
-        "link": "https://www.axios.com/2026/08/13/midterms-senate-health-care-republicans-trump",
-        "critical": false
-    },
-    {
-        "country": "China",
-        "city": "Beijing",
-        "lat": 39.83857711906627,
-        "lon": 116.34897185589082,
-        "date": "2026-08-14 04:14:26",
-        "type": "Naval",
-        "severity": "normal",
-        "title": "Trump wins legal battle to keep cheap imports subject to tariffs",
-        "description": "A federal trade court ruled Thursday that President Trump can block cheap imports — including from Chinese retailers like Temu and Shein — from entering the U.S. tariff-free. Why it matters: It's a win for the Trump administration's trade agenda after  a major legal setback forced officials to find new legal avenues for imposing sweeping tariffs.The Court of International Trade ruling means that Trump's suspension of the so-called de minimis exem",
-        "fatalities": "0",
-        "link": "https://www.axios.com/2026/08/13/trump-de-minimis-tariff-court",
-        "critical": false
-    },
-    {
-        "country": "Iran",
-        "city": "Tehran",
-        "lat": 35.68994589335768,
-        "lon": 51.32886098525656,
-        "date": "2026-08-14 04:14:08",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Middle East live: US threatens Iran with economic isolation like 'never seen before'",
-        "description": "US Treasury Secretary Scott Bessent threatened Thursday to subject Iran to economic isolation \"like the world has never seen before\", adding that new measures are expected next week. Follow our liveblog for the latest updates.",
-        "fatalities": "0",
-        "link": "https://www.france24.com/en/middle-east/20260814-middle-east-live-us-threatens-iran-with-economic-isolation-like-never-seen-before",
         "critical": false
     }
 ]
