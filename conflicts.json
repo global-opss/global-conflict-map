@@ -1,5 +1,47 @@
 [
     {
+        "country": "Iran",
+        "city": "Tehran",
+        "lat": 35.65344656589213,
+        "lon": 51.3836846152712,
+        "date": "2026-08-15 04:50:33",
+        "type": "Naval",
+        "severity": "normal",
+        "title": "Iran says no decision yet on a return to talks with the US",
+        "description": "FM Abbas Araghchi says Iran is working with Oman on routes, but Hormuz shipping depends on US meeting conditions.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/news/2026/8/15/iran-says-no-decision-yet-on-a-return-to-talks-with-the-us?traffic_source=rss",
+        "critical": false
+    },
+    {
+        "country": "Iran",
+        "city": "Tehran",
+        "lat": 35.63323186483168,
+        "lon": 51.41194518330345,
+        "date": "2026-08-15 04:50:33",
+        "type": "Airstrike",
+        "severity": "critical",
+        "title": "Did the US really destroy Iran’s ballistic missile capability?",
+        "description": "The US claims it destroyed Iran’s missile capability, but a former White House adviser calls that a “pipe dream.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/video/newsfeed/2026/8/15/08-11-2026-tia-us-iran-munitions-quotable?traffic_source=rss",
+        "critical": true
+    },
+    {
+        "country": "USA",
+        "city": "Washington",
+        "lat": 38.898907814011515,
+        "lon": -77.01381777848779,
+        "date": "2026-08-15 04:50:31",
+        "type": "Naval",
+        "severity": "normal",
+        "title": "US aircraft carrier on way to relieve USS Lincoln after issues reported aboard",
+        "description": "Thousands of sailors on the Lincoln have reportedly faced food shortages and broken plumbing, with some considering jumping overboard.",
+        "fatalities": "0",
+        "link": "https://www.bbc.co.uk/news/articles/c171yp5zdrxo?at_medium=RSS&at_campaign=rss",
+        "critical": false
+    },
+    {
         "country": "Asia",
         "city": "Afghanistan",
         "lat": 34.62548069578014,
@@ -3021,48 +3063,6 @@
         "description": "Poland has arrested a Russian national who was allegedly planning to kill a Ukrainian-American dual citizen in Warsaw, Prime Minister Donald Tusk said Thursday. Tusk added that this was the first time that “someone on the order of Russia” had sought to attack an American citizen on NATO territory.",
         "fatalities": "0",
         "link": "https://www.france24.com/en/europe/20260813-poland-detains-russian-for-execution-plot-in-warsaw-tusk-says",
-        "critical": true
-    },
-    {
-        "country": "Israel",
-        "city": "Tel Aviv",
-        "lat": 32.12448918092613,
-        "lon": 34.80647764500159,
-        "date": "2026-08-13 15:43:34",
-        "type": "Clashes",
-        "severity": "middle",
-        "title": "West Bank: \"In recent weeks, we've seen a striking escalation in violent acts\"",
-        "description": "Israeli forces on Thursday moved against rogue settlers laying siege to Palestinians amid unusually strong US criticism, even as Israel inaugurated an emblematic settlement elsewhere in the West Bank. Our correspondent Noga Tarnopolsky tells us more.",
-        "fatalities": "0",
-        "link": "https://www.france24.com/en/video/20260813-west-bank-in-recent-weeks-we-ve-seen-a-striking-escalation-in-violent-acts",
-        "critical": false
-    },
-    {
-        "country": "Russia",
-        "city": "Moscow",
-        "lat": 55.7842718325937,
-        "lon": 37.57936303657449,
-        "date": "2026-08-13 15:43:34",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Japan protests Putin's first visit to disputed islands",
-        "description": "President Vladimir Putin visited Russia's far-eastern Kuril islands for the first time on Thursday, prompting protests by Japan which also claims the territory.",
-        "fatalities": "0",
-        "link": "https://www.france24.com/en/video/20260813-japan-protests-putin-s-first-visit-to-disputed-islands",
-        "critical": false
-    },
-    {
-        "country": "Ukraine",
-        "city": "Kyiv",
-        "lat": 50.40340245450179,
-        "lon": 30.583953481854973,
-        "date": "2026-08-13 15:43:34",
-        "type": "Airstrike",
-        "severity": "critical",
-        "title": "Russian strike on Ukraine passenger train kills 2",
-        "description": "A Russian drone attack on a train carrying hundreds of passengers in southern Ukraine killed two people on Thursday. Our correspondent Emmanuelle Chaze tells us more.",
-        "fatalities": "0",
-        "link": "https://www.france24.com/en/video/20260813-russian-strike-on-ukraine-passenger-train-kills-2",
         "critical": true
     }
 ]
