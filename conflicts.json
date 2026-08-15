@@ -1,5 +1,19 @@
 [
     {
+        "country": "Asia",
+        "city": "Afghanistan",
+        "lat": 34.62548069578014,
+        "lon": 69.0743080027141,
+        "date": "2026-08-15 04:13:19",
+        "type": "Clashes",
+        "severity": "middle",
+        "title": "Entrenched, Embattled and Defiant, the Taliban Celebrate 5 Years in Power",
+        "description": "The Taliban have Afghanistan in a chokehold that spares no one. But threats are starting to crack their veneer of stability and control.",
+        "fatalities": "0",
+        "link": "https://www.nytimes.com/2026/08/15/world/asia/entrenched-embattled-and-defiant-the-taliban-celebrate-5-years-in-power.html",
+        "critical": false
+    },
+    {
         "country": "China",
         "city": "Hainan",
         "lat": 19.18899803313075,
@@ -322,20 +336,6 @@
         "critical": false
     },
     {
-        "country": "Israel",
-        "city": "Tel Aviv",
-        "lat": 32.14599966301221,
-        "lon": 34.767326164385125,
-        "date": "2026-08-14 20:43:18",
-        "type": "Clashes",
-        "severity": "middle",
-        "title": "As Army Fails to Protect Palestinians, Israeli Leaders Sympathize With Settlers",
-        "description": "Defense Minister Katz called for the military to turn over to the police the responsibility for protecting Palestinians after two West Bank families were besieged by violent settlers.",
-        "fatalities": "0",
-        "link": "https://www.nytimes.com/2026/08/14/world/middleeast/israel-west-bank-settler-violence-military-police.html",
-        "critical": false
-    },
-    {
         "country": "USA",
         "city": "Washington",
         "lat": 38.89550392457281,
@@ -348,6 +348,20 @@
         "fatalities": "0",
         "link": "https://www.bbc.co.uk/news/articles/c9342wn2x27o?at_medium=RSS&at_campaign=rss",
         "critical": true
+    },
+    {
+        "country": "Israel",
+        "city": "Tel Aviv",
+        "lat": 32.14599966301221,
+        "lon": 34.767326164385125,
+        "date": "2026-08-14 20:43:18",
+        "type": "Clashes",
+        "severity": "middle",
+        "title": "As Army Fails to Protect Palestinians, Israeli Leaders Sympathize With Settlers",
+        "description": "Defense Minister Katz called for the military to turn over to the police the responsibility for protecting Palestinians after two West Bank families were besieged by violent settlers.",
+        "fatalities": "0",
+        "link": "https://www.nytimes.com/2026/08/14/world/middleeast/israel-west-bank-settler-violence-military-police.html",
+        "critical": false
     },
     {
         "country": "USA",
@@ -3050,19 +3064,5 @@
         "fatalities": "0",
         "link": "https://www.france24.com/en/video/20260813-russian-strike-on-ukraine-passenger-train-kills-2",
         "critical": true
-    },
-    {
-        "country": "Europe",
-        "city": "Brussels",
-        "lat": 50.91182095021544,
-        "lon": 4.377763590706341,
-        "date": "2026-08-13 15:43:34",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Heatwave: European rivers face historic drought",
-        "description": "From the Loire to the Danube, via the Rhine and the Po, European rivers are facing exceptionally low water levels.\n \nAfter a start to the summer marked by record temperatures, the drought is threatening river transport, energy production, ecosystems and water supplies.",
-        "fatalities": "0",
-        "link": "https://www.france24.com/en/video/20260813-heatwave-european-rivers-face-historic-drought",
-        "critical": false
     }
 ]
