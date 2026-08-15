@@ -1,6 +1,48 @@
 [
     {
         "country": "USA",
+        "city": "Washington",
+        "lat": 38.85741538839049,
+        "lon": -77.09437597241326,
+        "date": "2026-08-15 18:41:07",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "WP: страны Персидского залива недовольны политикой США в отношении Ирана",
+        "description": "В странах Персидского залива растёт недовольство Вашингтоном: союзники США всё больше обеспокоены тем, что президент Дональд Трамп не способен вести дипломатию, необходимую для достижения мира с Ираном. Об этом пишет The Washington Post со ссылкой на арабских и западных чиновников. Читать далее",
+        "fatalities": "0",
+        "link": "https://russian.rt.com/world/news/1670258-tramp-politika-blizhnii-vostok?utm_source=rss&utm_medium=rss&utm_campaign=RSS",
+        "critical": false
+    },
+    {
+        "country": "Russia",
+        "city": "Moscow",
+        "lat": 55.7080241396925,
+        "lon": 37.619289323336666,
+        "date": "2026-08-15 18:40:35",
+        "type": "Clashes",
+        "severity": "middle",
+        "title": "Cleanup underway as Russian oil spill reaches Oman’s coastline",
+        "description": "Cleanup crews are responding along 12 kilometres of Omani coastline following an oil spill from the grounded tanker.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/video/newsfeed/2026/8/15/15-08-sv-oil-spill-oman-on?traffic_source=rss",
+        "critical": false
+    },
+    {
+        "country": "USA",
+        "city": "Washington",
+        "lat": 38.917184809033536,
+        "lon": -77.02765522927669,
+        "date": "2026-08-15 18:40:35",
+        "type": "Naval",
+        "severity": "normal",
+        "title": "US aircraft carrier expected to relieve USS Lincoln in Middle East",
+        "description": "The USS Washingtons movement comes amid reports of dire conditions on the USS Lincoln amid the ongoing Iran war.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/news/2026/8/15/us-aircraft-carrier-expected-to-relieve-uss-lincoln-in-middle-east?traffic_source=rss",
+        "critical": false
+    },
+    {
+        "country": "USA",
         "city": "Hawaii",
         "lat": 19.640866572355677,
         "lon": -155.49140940329966,
@@ -3021,48 +3063,6 @@
         "description": "After Maduro’s removal, US influence in Venezuela soared, but experts say Washington may still have to ‘own’ Venezuela.",
         "fatalities": "0",
         "link": "https://www.aljazeera.com/video/newsfeed/2026/8/14/aje-onl-nf_venezuela_-how-much-power-does-the-us-really-hold-140826?traffic_source=rss",
-        "critical": false
-    },
-    {
-        "country": "Asia",
-        "city": "Tokyo",
-        "lat": 35.649000523772635,
-        "lon": 139.71426478024685,
-        "date": "2026-08-14 05:48:46",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "'Unprecedented' rains in Japan kill four people",
-        "description": "The storm cut power to more than 20,000 households and left 7,000 people stranded at Tokyo's Narita airport.",
-        "fatalities": "0",
-        "link": "https://www.bbc.co.uk/news/articles/cq561gpen8lo?at_medium=RSS&at_campaign=rss",
-        "critical": false
-    },
-    {
-        "country": "Israel",
-        "city": "Jerusalem",
-        "lat": 31.781089458981498,
-        "lon": 35.1819965184658,
-        "date": "2026-08-14 04:14:48",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "JPost: Израиль шокирован скоростью восстановления военного потенциала Ирана",
-        "description": "Армия и спецслужбы Израиля шокированы тем, как быстро Иран восстанавливает свой военный потенциал. Об этом пишет газета The Jerusalem Post со ссылкой на источники в военных и силовых кругах еврейского государства.",
-        "fatalities": "0",
-        "link": "https://rg.ru/2026/08/14/jpost-izrail-shokirovan-skorostiu-vosstanovleniia-voennogo-potenciala-irana.html",
-        "critical": false
-    },
-    {
-        "country": "USA",
-        "city": "Washington",
-        "lat": 38.957916712585885,
-        "lon": -76.98775657023582,
-        "date": "2026-08-14 04:14:43",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "США лишились четверти арсенала беспилотников MQ-9 Reaper в конфликте с Ираном",
-        "description": "США за время конфликта с Ираном потеряли не менее 45 тяжелых разведывательно-ударных беспилотников MQ-9 Reaper, пишет The Washington Post.\"Американские военные потеряли по меньшей мере 45 БПЛА MQ-9 Reaper в ходе войны с Ираном, это примерно 25% их флота\", - сообщило издание, ссылаясь на трех американских чиновников.",
-        "fatalities": "0",
-        "link": "https://www.interfax.ru/world/1109219",
         "critical": false
     }
 ]
