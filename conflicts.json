@@ -1,5 +1,19 @@
 [
     {
+        "country": "Africa",
+        "city": "Sudan",
+        "lat": 12.850723291560456,
+        "lon": 30.22742653524887,
+        "date": "2026-08-15 05:51:01",
+        "type": "Clashes",
+        "severity": "middle",
+        "title": "How a Sudanese refugee became a head teacher in a Chadian camp",
+        "description": "Displaced by Sudan’s war, Sahra now leads a refugee school where education offers children safety and hope.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/news/2026/8/15/how-a-sudanese-refugee-became-a-head-teacher-in-a-chadian-camp?traffic_source=rss",
+        "critical": false
+    },
+    {
         "country": "Iran",
         "city": "Tehran",
         "lat": 35.62086408314286,
@@ -3049,20 +3063,6 @@
         "description": "Israeli settlers have besieged three homes in the occupied West Bank for several days, including one owned by a Palestinian American, in what the US ambassador called a \"horrific act of terror\" on Thursday. We discuss the situation with our guest, Allegra Pacheco, chief of party of the West Bank Protection Consortium.",
         "fatalities": "0",
         "link": "https://www.france24.com/en/video/20260813-west-bank-what-we-see-is-an-escalation-in-methods",
-        "critical": false
-    },
-    {
-        "country": "Africa",
-        "city": "Mali",
-        "lat": 12.592810427724066,
-        "lon": -7.890131483286912,
-        "date": "2026-08-13 15:43:37",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Mali pardons French official sentenced to 20 years in prison",
-        "description": "Mali President Assimi Goïta on Thursday pardoned a French ​national who had been sentenced to 20 years in prison. Last year, Mali's military-led government accused Yann ​Vézilier, an official from the French embassy, of being involved in a plot ​to destabilise the West ‌African country.",
-        "fatalities": "0",
-        "link": "https://www.france24.com/en/africa/20260813-mali-grants-presidential-pardon-to-french-national-sentenced-to-20-years-in-prison",
         "critical": false
     }
 ]
