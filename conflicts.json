@@ -1,5 +1,19 @@
 [
     {
+        "country": "Israel",
+        "city": "Gaza",
+        "lat": 31.485233342870803,
+        "lon": 34.4514296456709,
+        "date": "2026-08-15 06:37:22",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Small-scale projects offer hope for Gaza farmers rebuilding lives",
+        "description": "Greenhouses and rented plots are lifelines for Gazas farmers, helping them grow crops despite the extensive destruction",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/economy/2026/8/15/small-scale-projects-offer-hope-for-gaza-farmers-rebuilding-lives?traffic_source=rss",
+        "critical": false
+    },
+    {
         "country": "Africa",
         "city": "Sudan",
         "lat": 12.850723291560456,
@@ -3049,20 +3063,6 @@
         "description": "",
         "fatalities": "0",
         "link": "https://www.france24.com/en/africa/20260813-mali-grants-presidential-pardon-to-french-national-sentenced-to-20-years-in-prison",
-        "critical": false
-    },
-    {
-        "country": "Israel",
-        "city": "Tel Aviv",
-        "lat": 32.11581614153016,
-        "lon": 34.75074445858724,
-        "date": "2026-08-13 15:43:37",
-        "type": "Clashes",
-        "severity": "middle",
-        "title": "West Bank: \"What we see is an escalation in methods\"",
-        "description": "Israeli settlers have besieged three homes in the occupied West Bank for several days, including one owned by a Palestinian American, in what the US ambassador called a \"horrific act of terror\" on Thursday. We discuss the situation with our guest, Allegra Pacheco, chief of party of the West Bank Protection Consortium.",
-        "fatalities": "0",
-        "link": "https://www.france24.com/en/video/20260813-west-bank-what-we-see-is-an-escalation-in-methods",
         "critical": false
     }
 ]
