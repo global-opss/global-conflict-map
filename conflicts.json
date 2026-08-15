@@ -1,5 +1,19 @@
 [
     {
+        "country": "Middle East",
+        "city": "Yemen",
+        "lat": 14.55968710757431,
+        "lon": 49.180525829040064,
+        "date": "2026-08-15 23:53:46",
+        "type": "Naval",
+        "severity": "normal",
+        "title": "Yemen’s government says Houthi strikes hit residential areas in Marib",
+        "description": "Yemens Ministry of Information denounces attacks on Marib as escalation that threatens lives and increases suffering.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/news/2026/8/15/yemens-government-says-houthi-strikes-hit-residential-areas-in-marib?traffic_source=rss",
+        "critical": false
+    },
+    {
         "country": "USA",
         "city": "New york",
         "lat": 40.776582121597855,
@@ -3050,19 +3064,5 @@
         "fatalities": "0",
         "link": "https://www.defensenews.com/global/europe/2026/08/07/how-north-korean-forces-are-bolstering-russias-war-against-ukraine/",
         "critical": true
-    },
-    {
-        "country": "Europe",
-        "city": "Paris",
-        "lat": 48.81220148947478,
-        "lon": 2.318484935387605,
-        "date": "2026-08-14 08:23:30",
-        "type": "Clashes",
-        "severity": "middle",
-        "title": "Spain's World Cup final hero Ferran Torres closes in on PSG transfer",
-        "description": "Paris Saint-Germain have reached an agreement with Barcelona to sign Ferran Torres, according to reports in French and Spanish media outlets on Thursday evening. The forward, who scored the match-winner for Spain in the World Cup final, is expected to sign with the European champions for around €50 million.",
-        "fatalities": "0",
-        "link": "https://www.france24.com/en/tv-shows/sports/20260814-spain-s-world-cup-final-hero-ferran-torres-closes-in-on-psg-transfer",
-        "critical": false
     }
 ]
