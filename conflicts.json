@@ -2,6 +2,34 @@
     {
         "country": "Iran",
         "city": "Tehran",
+        "lat": 35.62086408314286,
+        "lon": 51.35741361198107,
+        "date": "2026-08-15 05:24:10",
+        "type": "Naval",
+        "severity": "normal",
+        "title": "Middle East live: Trump threatens US takeover of Hormuz as Iran vows to retain control",
+        "description": "US President Donald Trump threatened to declare the Strait of Hormuz US territory after vowing to “finish defeating” Iran in a New York rally on Friday. Tehran rejected the claim on Saturday, with Deputy Foreign Minister Kazem Gharibabadi saying the strategic waterway “will remain Iranian” and can be opened or closed only at Iran’s command. Follow our live blog for the latest updates.",
+        "fatalities": "0",
+        "link": "https://www.france24.com/en/middle-east/20260815-middle-east-live-trump-threatens-us-takeover-of-hormuz-as-iran-vows-to-retain-control",
+        "critical": false
+    },
+    {
+        "country": "China",
+        "city": "Beijing",
+        "lat": 39.93735421950733,
+        "lon": 116.44357002317216,
+        "date": "2026-08-15 05:24:08",
+        "type": "Naval",
+        "severity": "normal",
+        "title": "Taiwan passes defence budget after record delay, retains drone funding",
+        "description": "Taiwan parliament ends deadlock, ensuring vital drone programme funding amid rising cross-strait tensions with Beijing.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/economy/2026/8/15/taiwan-passes-defence-budget-after-record-delay-retains-drone-funding?traffic_source=rss",
+        "critical": false
+    },
+    {
+        "country": "Iran",
+        "city": "Tehran",
         "lat": 35.65344656589213,
         "lon": 51.3836846152712,
         "date": "2026-08-15 04:50:33",
@@ -3036,33 +3064,5 @@
         "fatalities": "0",
         "link": "https://www.france24.com/en/africa/20260813-mali-grants-presidential-pardon-to-french-national-sentenced-to-20-years-in-prison",
         "critical": false
-    },
-    {
-        "country": "Israel",
-        "city": "Tel Aviv",
-        "lat": 32.047428057652795,
-        "lon": 34.85088833193221,
-        "date": "2026-08-13 15:43:37",
-        "type": "Clashes",
-        "severity": "middle",
-        "title": "Israel sends troops to settler siege as US ambassador slams 'act of terror'",
-        "description": "Israeli forces on Thursday moved against rogue settlers laying siege to Palestinians amid unusually strong US criticism, even as Israel inaugurated an emblematic settlement elsewhere in the West Bank.",
-        "fatalities": "0",
-        "link": "https://www.france24.com/en/video/20260813-israel-sends-troops-to-settler-siege-as-us-ambassador-slams-act-of-terror",
-        "critical": false
-    },
-    {
-        "country": "Europe",
-        "city": "Warsaw",
-        "lat": 52.23339564572084,
-        "lon": 20.966642145615936,
-        "date": "2026-08-13 15:43:37",
-        "type": "Airstrike",
-        "severity": "critical",
-        "title": "Poland detains Russian for 'execution' plot in Warsaw, Tusk says",
-        "description": "Poland has arrested a Russian national who was allegedly planning to kill a Ukrainian-American dual citizen in Warsaw, Prime Minister Donald Tusk said Thursday. Tusk added that this was the first time that “someone on the order of Russia” had sought to attack an American citizen on NATO territory.",
-        "fatalities": "0",
-        "link": "https://www.france24.com/en/europe/20260813-poland-detains-russian-for-execution-plot-in-warsaw-tusk-says",
-        "critical": true
     }
 ]
