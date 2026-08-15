@@ -1,6 +1,48 @@
 [
     {
         "country": "USA",
+        "city": "Washington",
+        "lat": 38.86273461876971,
+        "lon": -77.08289403869506,
+        "date": "2026-08-15 09:40:47",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Afghans rebuild their lives in France five years after Taliban takeover",
+        "description": "Five years after the Taliban seized power, thousands of Afghans who fled to France are rebuilding their lives while facing challenges including language, housing and employment. For women like refugee doctor Fardina Samadi, France offers freedoms denied under Taliban rule, but rebuilding a career and integrating into French society remain difficult.",
+        "fatalities": "0",
+        "link": "https://www.france24.com/en/afghans-rebuild-their-lives-in-france-five-years-after-taliban-takeover",
+        "critical": false
+    },
+    {
+        "country": "Ukraine",
+        "city": "Kyiv",
+        "lat": 50.43381539129763,
+        "lon": 30.46225131036237,
+        "date": "2026-08-15 09:40:47",
+        "type": "Evacuation",
+        "severity": "critical",
+        "title": "Ukraine’s F-16s are being worn out from intercepting Russian drones",
+        "description": "Ukrainian F-16s have destroyed more than 2,500 one-way attack drones, but repeated interceptions are wearing out the country's small fleet.",
+        "fatalities": "0",
+        "link": "https://www.militarytimes.com/flashpoints/ukraine/2026/07/30/ukraines-f-16s-are-being-worn-out-from-intercepting-russian-drones/",
+        "critical": true
+    },
+    {
+        "country": "Iran",
+        "city": "Tehran",
+        "lat": 35.670755249460925,
+        "lon": 51.43001583962396,
+        "date": "2026-08-15 09:40:47",
+        "type": "Airstrike",
+        "severity": "critical",
+        "title": "US launches new round of strikes against Iran",
+        "description": "The U.S. conducted a new wave of strikes against Iranian military sites on Wednesday after reimposing a naval blockade of the Islamic Republic's ports.",
+        "fatalities": "0",
+        "link": "https://www.militarytimes.com/flashpoints/2026/07/15/us-launches-new-round-of-strikes-against-iran/",
+        "critical": true
+    },
+    {
+        "country": "USA",
         "city": "New york",
         "lat": 40.77785544049148,
         "lon": -74.0448881538345,
@@ -924,20 +966,6 @@
         "critical": false
     },
     {
-        "country": "USA",
-        "city": "Washington",
-        "lat": 38.954891117396535,
-        "lon": -77.07381038252198,
-        "date": "2026-08-14 18:30:06",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Race to free trapped quake survivor offers hope in Colombia",
-        "description": "Rescue workers rushed to free a survivor Friday in Colombia amid the rubble left by a powerful earthquake nearly four days earlier that killed at least 285 people and injured 4,000. Some 400 people were still missing and tens of thousands of homes were ​damaged, leaving many Colombians sleeping in shelters or outside.",
-        "fatalities": "0",
-        "link": "https://www.france24.com/en/americas/20260814-race-to-free-trapped-survivor-offers-hope-in-colombia-earthquake-zone",
-        "critical": false
-    },
-    {
         "country": "Ukraine",
         "city": "Kyiv",
         "lat": 50.469502289036846,
@@ -963,6 +991,20 @@
         "description": "A senior Pentagon official pushed back against reports that the U.S. military’s stockpiles and capabilities are strained following Operation Epic Fury.",
         "fatalities": "0",
         "link": "https://www.defensenews.com/global/asia-pacific/2026/08/11/colby-pushes-back-on-dwindling-stockpile-reports-amid-southeast-asia-tour/",
+        "critical": false
+    },
+    {
+        "country": "USA",
+        "city": "Washington",
+        "lat": 38.954891117396535,
+        "lon": -77.07381038252198,
+        "date": "2026-08-14 18:30:06",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Race to free trapped quake survivor offers hope in Colombia",
+        "description": "Rescue workers rushed to free a survivor Friday in Colombia amid the rubble left by a powerful earthquake nearly four days earlier that killed at least 285 people and injured 4,000. Some 400 people were still missing and tens of thousands of homes were ​damaged, leaving many Colombians sleeping in shelters or outside.",
+        "fatalities": "0",
+        "link": "https://www.france24.com/en/americas/20260814-race-to-free-trapped-survivor-offers-hope-in-colombia-earthquake-zone",
         "critical": false
     },
     {
@@ -3022,47 +3064,5 @@
         "fatalities": "0",
         "link": "https://www.militarytimes.com/global/europe/2026/06/25/ukraines-newest-strike-weapon-drifts-into-russia-on-the-wind/",
         "critical": true
-    },
-    {
-        "country": "Russia",
-        "city": "Moscow",
-        "lat": 55.720933604976686,
-        "lon": 37.590406905115096,
-        "date": "2026-08-13 18:40:14",
-        "type": "Clashes",
-        "severity": "middle",
-        "title": "Poland arrests man who allegedly tried to kill Ukrainian American",
-        "description": "The suspect has been identified as a Russian citizen who planned to kill one of Moscows critics in Warsaw.",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/news/2026/8/13/poland-arrests-man-who-allegedly-tried-to-kill-ukrainian-american?traffic_source=rss",
-        "critical": false
-    },
-    {
-        "country": "Israel",
-        "city": "Gaza",
-        "lat": 31.489904369981602,
-        "lon": 34.48256946242104,
-        "date": "2026-08-13 18:40:14",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Gaza mural for Burger King worker fired for shouting ‘Free Palestine’",
-        "description": "Artists in Gaza painted a mural honouring former Burger King employee Arianna Hamilton.",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/video/newsfeed/2026/8/13/gaza-mural-for-burger-king-worker-fired-for-shouting-free?traffic_source=rss",
-        "critical": false
-    },
-    {
-        "country": "USA",
-        "city": "Washington",
-        "lat": 38.8285899084993,
-        "lon": -77.0333244971254,
-        "date": "2026-08-13 18:40:10",
-        "type": "Naval",
-        "severity": "normal",
-        "title": "Conditions on US aircraft carrier at sea for more than 250 days raise alarms",
-        "description": "Thousands of sailors on the USS Abraham Lincoln have reportedly faced food shortages and broken plumbing, with some considering jumping overboard.",
-        "fatalities": "0",
-        "link": "https://www.bbc.co.uk/news/articles/cyvl2d5j52lo?at_medium=RSS&at_campaign=rss",
-        "critical": false
     }
 ]
