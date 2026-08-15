@@ -1,5 +1,19 @@
 [
     {
+        "country": "Africa",
+        "city": "Sudan",
+        "lat": 12.916741044742261,
+        "lon": 30.167646607191177,
+        "date": "2026-08-15 16:56:28",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Sudan’s al-Burhan pledges immunity for dialogue, rules out Hemedti return",
+        "description": "Al-Burhan pledged temporary immunity and legal protections for participants in a Sudanese national dialogue.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/news/2026/8/15/sudans-al-burhan-pledges-immunity-for-dialogue-rules-out-hemedti-return?traffic_source=rss",
+        "critical": false
+    },
+    {
         "country": "Russia",
         "city": "Moscow",
         "lat": 55.701906984667595,
@@ -3049,20 +3063,6 @@
         "description": "US Treasury Secretary Scott Bessent threatened Thursday to subject Iran to economic isolation \"like the world has never seen before\", adding that new measures are expected next week. Follow our liveblog for the latest updates.",
         "fatalities": "0",
         "link": "https://www.france24.com/en/middle-east/20260814-middle-east-live-us-threatens-iran-with-economic-isolation-like-never-seen-before",
-        "critical": false
-    },
-    {
-        "country": "Africa",
-        "city": "Niger",
-        "lat": 13.83525123331518,
-        "lon": 5.213638866529533,
-        "date": "2026-08-14 04:14:07",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Why Osun’s election matters for Nigeria’s 2027 vote",
-        "description": "The result could offer an early signal of shifting alliances and voter sentiment before the presidential race.",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/news/2026/8/14/why-osuns-election-matters-for-nigerias-2027-vote?traffic_source=rss",
         "critical": false
     }
 ]
