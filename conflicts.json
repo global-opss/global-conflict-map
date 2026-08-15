@@ -1,6 +1,34 @@
 [
     {
         "country": "USA",
+        "city": "New york",
+        "lat": 40.70738934334658,
+        "lon": -73.94111649211602,
+        "date": "2026-08-15 13:19:22",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "NYP: Основатель Playboy Хью Хефнер жаловался в ФБР на Эпштейна",
+        "description": "Основатель журнала Playboy Хью Хефнер при жизни не раз обращался в ФБР с информацией о сексуальном насилии в отношении одной из моделей журнала со стороны финансиста Джеффри Эпштейна. Об этом пишет издание New York Post.",
+        "fatalities": "0",
+        "link": "https://rg.ru/2026/08/15/nyp-osnovatel-playboy-hiu-hefner-zhalovalsia-v-fbr-na-epshtejna.html",
+        "critical": false
+    },
+    {
+        "country": "USA",
+        "city": "Washington",
+        "lat": 38.93775351196178,
+        "lon": -77.01259445526115,
+        "date": "2026-08-15 13:18:56",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Chad bans sand extraction along Chari River, sparking controversy",
+        "description": "In Chad, the Chari River has been badly affected by years of intensive sand extraction along its banks, particularly around the capital, N’Djamena. The Ministry of Mines recently banned the practice to protect the environment and wildlife, but the decision has sparked controversy as thousands of people in the capital depend on sand mining for their livelihoods.",
+        "fatalities": "0",
+        "link": "https://www.france24.com/en/chad-bans-sand-extraction-along-chari-river-sparking-controversy",
+        "critical": false
+    },
+    {
+        "country": "USA",
         "city": "Washington",
         "lat": 38.94300997837883,
         "lon": -77.086599797691,
@@ -532,20 +560,6 @@
         "critical": false
     },
     {
-        "country": "Asia",
-        "city": "Afghanistan",
-        "lat": 34.7130025289174,
-        "lon": 69.10984223077709,
-        "date": "2026-08-15 07:47:06",
-        "type": "Naval",
-        "severity": "normal",
-        "title": "'Suffocating restrictions' shadow five years of Taliban rule in Afghanistan",
-        "description": "Five years after seizing Kabul and returning to power, the Taliban is celebrating what it calls a more secure and \"free\" Afghanistan. But its anniversary comes amid mounting criticism over sweeping restrictions on women and girls, economic hardship and continued international isolation.",
-        "fatalities": "0",
-        "link": "https://www.france24.com/en/asia-pacific/20260815-suffocating-restrictions-shadow-five-years-of-taliban-rule-in-afghanistan",
-        "critical": false
-    },
-    {
         "country": "Russia",
         "city": "Moscow",
         "lat": 55.733312024913644,
@@ -557,6 +571,20 @@
         "description": "A recent report from the Center for Advanced Defense Studies found that Russian state-aligned military forces flew at least 75 flights in Central Sahel.",
         "fatalities": "0",
         "link": "https://www.defensenews.com/global/europe/2026/08/13/flight-tracking-data-shows-continued-russian-air-bridge-to-sub-saharan-africa/",
+        "critical": false
+    },
+    {
+        "country": "Asia",
+        "city": "Afghanistan",
+        "lat": 34.7130025289174,
+        "lon": 69.10984223077709,
+        "date": "2026-08-15 07:47:06",
+        "type": "Naval",
+        "severity": "normal",
+        "title": "'Suffocating restrictions' shadow five years of Taliban rule in Afghanistan",
+        "description": "Five years after seizing Kabul and returning to power, the Taliban is celebrating what it calls a more secure and \"free\" Afghanistan. But its anniversary comes amid mounting criticism over sweeping restrictions on women and girls, economic hardship and continued international isolation.",
+        "fatalities": "0",
+        "link": "https://www.france24.com/en/asia-pacific/20260815-suffocating-restrictions-shadow-five-years-of-taliban-rule-in-afghanistan",
         "critical": false
     },
     {
@@ -3035,34 +3063,6 @@
         "description": "MUZAFFARABAD, Pakistan: Voters went to the polls Monday in the final phase of elections for the legislative assembly in Pakistan-administered Kashmir, following weeks of violent protests and clashes with security forces that overshadowed campaigning in the disputed Himalayan region, officials said.\n\n\tMen and women began lining up early at polling stations in Poonch district in the disputed Himalayan region, where four assembly seats were being co",
         "fatalities": "0",
         "link": "https://www.arabnews.com/node/2654152/world",
-        "critical": false
-    },
-    {
-        "country": "Africa",
-        "city": "Libya",
-        "lat": 26.32479451429415,
-        "lon": 17.208396546440376,
-        "date": "2026-08-13 22:11:27",
-        "type": "Drone",
-        "severity": "middle",
-        "title": "Fire breaks out at Libya’s Zawiya refinery",
-        "description": "TRIPOLI: A fire broke out on Monday ​in a diesel tank at Libya’s Zawiya refinery days after the facility was hit by drone.\n\n\tThe circumstances of Monday's fire remained unknown, Brega Petroleum Marketing Company said in a statement.\n\tBrega is owned by state oil firm National Oil Corporation (NOC) and is in charge of ‌fuel supplies.\n\tZawiya refinery is the ‌largest in the ​country ‌while Ras ​Lanuf is out ⁠of operation and is located around 40 kil",
-        "fatalities": "0",
-        "link": "https://www.arabnews.com/node/2654151/middle-east",
-        "critical": false
-    },
-    {
-        "country": "Europe",
-        "city": "London",
-        "lat": 51.50155489482872,
-        "lon": -0.19399479230331795,
-        "date": "2026-08-13 22:11:27",
-        "type": "Clashes",
-        "severity": "middle",
-        "title": "Can Al-Burhan’s Sudanese national dialogue turn military gains into a political settlement?",
-        "description": "LONDON: More than three years after Sudan descended into civil war, army chief Gen. Abdel Fattah Al-Burhan is pushing for a broad national dialogue aimed at rebuilding the country’s political institutions and laying the foundations for a civilian transition.\n\n\tTalks could begin as early as August, with preparatory consultations already involving political groups, technocrats, Sufi leaders, traditional authorities, academics, professionals, civil ",
-        "fatalities": "0",
-        "link": "https://www.arabnews.com/node/2654150/middle-east",
         "critical": false
     }
 ]
