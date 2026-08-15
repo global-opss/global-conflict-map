@@ -1,5 +1,47 @@
 [
     {
+        "country": "Asia",
+        "city": "Host",
+        "lat": 33.277286951556874,
+        "lon": 69.93554837618454,
+        "date": "2026-08-15 11:39:35",
+        "type": "Airstrike",
+        "severity": "critical",
+        "title": "Israeli strikes kill nine in southern Lebanon as attacks intensify",
+        "description": "Deadliest Israeli attack in Lebanon since June agreements significantly reduced hostilities.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/news/2026/8/15/israeli-strike-kills-seven-in-south-lebanon-as-attacks-intensify?traffic_source=rss",
+        "critical": true
+    },
+    {
+        "country": "China",
+        "city": "Beijing",
+        "lat": 39.947276329471336,
+        "lon": 116.42757827667474,
+        "date": "2026-08-15 11:39:32",
+        "type": "Clashes",
+        "severity": "middle",
+        "title": "Japanese minister visits shrine to war dead, angering China, South Korea",
+        "description": "Defence Minister Koizumis visit to Yasukuni Shrine comes on the 81st anniversary of Japans surrender in WWII.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/news/2026/8/15/japanese-minister-visits-shrine-to-war-dead-angering-china-south-korea?traffic_source=rss",
+        "critical": false
+    },
+    {
+        "country": "Israel",
+        "city": "Tel Aviv",
+        "lat": 32.08621569923387,
+        "lon": 34.73111307804964,
+        "date": "2026-08-15 11:39:29",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Seven killed in Israeli strike on southern Lebanon, country's PM says",
+        "description": "Among those killed in the strike on Ansar included three children and two women, state media reports.",
+        "fatalities": "0",
+        "link": "https://www.bbc.co.uk/news/articles/c4gjygx4gjeo?at_medium=RSS&at_campaign=rss",
+        "critical": false
+    },
+    {
         "country": "USA",
         "city": "New york",
         "lat": 40.663832305287684,
@@ -182,6 +224,20 @@
         "critical": false
     },
     {
+        "country": "USA",
+        "city": "Washington",
+        "lat": 38.86273461876971,
+        "lon": -77.08289403869506,
+        "date": "2026-08-15 09:40:47",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Afghans rebuild their lives in France five years after Taliban takeover",
+        "description": "Five years after the Taliban seized power, thousands of Afghans who fled to France are rebuilding their lives while facing challenges including language, housing and employment. For women like refugee doctor Fardina Samadi, France offers freedoms denied under Taliban rule, but rebuilding a career and integrating into French society remain difficult.",
+        "fatalities": "0",
+        "link": "https://www.france24.com/en/afghans-rebuild-their-lives-in-france-five-years-after-taliban-takeover",
+        "critical": false
+    },
+    {
         "country": "Ukraine",
         "city": "Kyiv",
         "lat": 50.43381539129763,
@@ -208,20 +264,6 @@
         "fatalities": "0",
         "link": "https://www.militarytimes.com/flashpoints/2026/07/15/us-launches-new-round-of-strikes-against-iran/",
         "critical": true
-    },
-    {
-        "country": "USA",
-        "city": "Washington",
-        "lat": 38.86273461876971,
-        "lon": -77.08289403869506,
-        "date": "2026-08-15 09:40:47",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Afghans rebuild their lives in France five years after Taliban takeover",
-        "description": "Five years after the Taliban seized power, thousands of Afghans who fled to France are rebuilding their lives while facing challenges including language, housing and employment. For women like refugee doctor Fardina Samadi, France offers freedoms denied under Taliban rule, but rebuilding a career and integrating into French society remain difficult.",
-        "fatalities": "0",
-        "link": "https://www.france24.com/en/afghans-rebuild-their-lives-in-france-five-years-after-taliban-takeover",
-        "critical": false
     },
     {
         "country": "USA",
@@ -406,6 +448,20 @@
         "critical": false
     },
     {
+        "country": "Asia",
+        "city": "Afghanistan",
+        "lat": 34.7130025289174,
+        "lon": 69.10984223077709,
+        "date": "2026-08-15 07:47:06",
+        "type": "Naval",
+        "severity": "normal",
+        "title": "'Suffocating restrictions' shadow five years of Taliban rule in Afghanistan",
+        "description": "Five years after seizing Kabul and returning to power, the Taliban is celebrating what it calls a more secure and \"free\" Afghanistan. But its anniversary comes amid mounting criticism over sweeping restrictions on women and girls, economic hardship and continued international isolation.",
+        "fatalities": "0",
+        "link": "https://www.france24.com/en/asia-pacific/20260815-suffocating-restrictions-shadow-five-years-of-taliban-rule-in-afghanistan",
+        "critical": false
+    },
+    {
         "country": "Russia",
         "city": "Moscow",
         "lat": 55.733312024913644,
@@ -420,17 +476,17 @@
         "critical": false
     },
     {
-        "country": "Asia",
-        "city": "Afghanistan",
-        "lat": 34.7130025289174,
-        "lon": 69.10984223077709,
-        "date": "2026-08-15 07:47:06",
-        "type": "Naval",
+        "country": "Israel",
+        "city": "Tel Aviv",
+        "lat": 32.03808108547566,
+        "lon": 34.810961257612234,
+        "date": "2026-08-15 07:47:02",
+        "type": "Breaking News",
         "severity": "normal",
-        "title": "'Suffocating restrictions' shadow five years of Taliban rule in Afghanistan",
-        "description": "Five years after seizing Kabul and returning to power, the Taliban is celebrating what it calls a more secure and \"free\" Afghanistan. But its anniversary comes amid mounting criticism over sweeping restrictions on women and girls, economic hardship and continued international isolation.",
+        "title": "Moment Israeli forces storm wedding hall in occupied West Bank",
+        "description": "Israeli forces stormed a wedding hall in al-Eizariya town in the occupied West Bank and assaulted Palestinian attendees.",
         "fatalities": "0",
-        "link": "https://www.france24.com/en/asia-pacific/20260815-suffocating-restrictions-shadow-five-years-of-taliban-rule-in-afghanistan",
+        "link": "https://www.aljazeera.com/video/newsfeed/2026/8/15/moment-israeli-forces-storm-wedding-hall-in-occupied-west-bank?traffic_source=rss",
         "critical": false
     },
     {
@@ -446,20 +502,6 @@
         "fatalities": "0",
         "link": "https://www.aljazeera.com/news/2026/8/15/israeli-strike-kills-seven-in-south-lebanon-as-attacks-intensify?traffic_source=rss",
         "critical": true
-    },
-    {
-        "country": "Israel",
-        "city": "Tel Aviv",
-        "lat": 32.03808108547566,
-        "lon": 34.810961257612234,
-        "date": "2026-08-15 07:47:02",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Moment Israeli forces storm wedding hall in occupied West Bank",
-        "description": "Israeli forces stormed a wedding hall in al-Eizariya town in the occupied West Bank and assaulted Palestinian attendees.",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/video/newsfeed/2026/8/15/moment-israeli-forces-storm-wedding-hall-in-occupied-west-bank?traffic_source=rss",
-        "critical": false
     },
     {
         "country": "Europe",
@@ -2898,20 +2940,6 @@
         "critical": false
     },
     {
-        "country": "Asia",
-        "city": "Pakistan",
-        "lat": 31.490951607456918,
-        "lon": 74.4016723275965,
-        "date": "2026-08-13 22:11:27",
-        "type": "Clashes",
-        "severity": "middle",
-        "title": "Final election phase begins in Pakistan-administered Kashmir despite banned group’s boycott call",
-        "description": "MUZAFFARABAD, Pakistan: Voters went to the polls Monday in the final phase of elections for the legislative assembly in Pakistan-administered Kashmir, following weeks of violent protests and clashes with security forces that overshadowed campaigning in the disputed Himalayan region, officials said.\n\n\tMen and women began lining up early at polling stations in Poonch district in the disputed Himalayan region, where four assembly seats were being co",
-        "fatalities": "0",
-        "link": "https://www.arabnews.com/node/2654152/world",
-        "critical": false
-    },
-    {
         "country": "Africa",
         "city": "Libya",
         "lat": 26.32479451429415,
@@ -2951,6 +2979,20 @@
         "description": "DAMASCUS: President Ahmad Al-Sharaa received UN High Commissioner for Refugees Barham Salih and his accompanying delegation at the People’s Palace in Damascus on Monday, in the presence of Minister of Foreign Affairs and Expatriates Asaad Hassan Al-Shaibani.\n\tThe meeting focused on ways to strengthen cooperation between Syria and UNHCR, as well as supporting efforts related to the voluntary, safe, dignified and sustainable return of refugees and ",
         "fatalities": "0",
         "link": "https://www.arabnews.com/node/2654147/middle-east",
+        "critical": false
+    },
+    {
+        "country": "Asia",
+        "city": "Pakistan",
+        "lat": 31.490951607456918,
+        "lon": 74.4016723275965,
+        "date": "2026-08-13 22:11:27",
+        "type": "Clashes",
+        "severity": "middle",
+        "title": "Final election phase begins in Pakistan-administered Kashmir despite banned group’s boycott call",
+        "description": "MUZAFFARABAD, Pakistan: Voters went to the polls Monday in the final phase of elections for the legislative assembly in Pakistan-administered Kashmir, following weeks of violent protests and clashes with security forces that overshadowed campaigning in the disputed Himalayan region, officials said.\n\n\tMen and women began lining up early at polling stations in Poonch district in the disputed Himalayan region, where four assembly seats were being co",
+        "fatalities": "0",
+        "link": "https://www.arabnews.com/node/2654152/world",
         "critical": false
     },
     {
@@ -3021,48 +3063,6 @@
         "description": "In tonight's program, mourners gather in memory of the 44 people killed in Tuesday's ferry accident. Also, ballot counting has started in Zambia, President Hichilema's is expected to win a second term. And finally researchers, reckon that the rising cost of living and changing societal expectation is behind a marked drop in the birth rates across North African countries.",
         "fatalities": "0",
         "link": "https://www.france24.com/en/ceremony-to-pay-tribute-to-capsized-ferry-victims",
-        "critical": false
-    },
-    {
-        "country": "Asia",
-        "city": "Afghanistan",
-        "lat": 34.65913704080695,
-        "lon": 69.13172414020346,
-        "date": "2026-08-13 22:10:47",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Female Afghans Erased From Public Life in Five Years of Taliban Rule",
-        "description": "Decrees restricting women’s rights to study, work, travel and act independently now threaten to damage Afghanistan permanently, experts say.",
-        "fatalities": "0",
-        "link": "https://www.nytimes.com/2026/08/13/world/asia/afghan-women-taliban-rule.html",
-        "critical": false
-    },
-    {
-        "country": "Israel",
-        "city": "Gaza",
-        "lat": 31.484190601784825,
-        "lon": 34.445138660757664,
-        "date": "2026-08-13 21:20:55",
-        "type": "Airstrike",
-        "severity": "critical",
-        "title": "Israeli strikes in Gaza kill two, including police chief",
-        "description": "Israeli drone strikes killed at least 2 people and wounded several others in Gaza on Thursday.",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/video/newsfeed/2026/8/13/israeli-strikes-in-gaza-kill-two-including-police-chief?traffic_source=rss",
-        "critical": true
-    },
-    {
-        "country": "Africa",
-        "city": "Khartoum",
-        "lat": 15.561600566975672,
-        "lon": 32.57386459170648,
-        "date": "2026-08-13 21:20:55",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "What’s at stake in Zambia’s elections?",
-        "description": "The economy dominates voter concerns in the southern African country.",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/video/inside-story/2026/8/13/whats-at-stake-in-zambias-elections?traffic_source=rss",
         "critical": false
     }
 ]
