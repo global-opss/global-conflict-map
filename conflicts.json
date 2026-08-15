@@ -1,5 +1,61 @@
 [
     {
+        "country": "USA",
+        "city": "New york",
+        "lat": 40.663832305287684,
+        "lon": -73.95665447165267,
+        "date": "2026-08-15 11:20:14",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "NYT: Европа подталкивает США к возобновлению контактов с Россией",
+        "description": "Франция, Германия и Великобритания настаивают на том, чтобы США возобновили диалог с Россией. Одновременно они пытаются обеспечить себе место за столом переговоров, сообщает The New York Times со ссылкой на пять неназванных европейских чиновников.",
+        "fatalities": "0",
+        "link": "https://www.kommersant.ru/doc/8890494",
+        "critical": false
+    },
+    {
+        "country": "Ukraine",
+        "city": "Kyiv",
+        "lat": 50.489872521566134,
+        "lon": 30.55473283719087,
+        "date": "2026-08-15 11:20:01",
+        "type": "Naval",
+        "severity": "normal",
+        "title": "Iran says Ukrainian attack on vessel in Caspian Sea killed sailor",
+        "description": "Tehran described the attack on its vessel as an act of aggression while accusing Kyiv of seeking to expand the war in Ukraine.",
+        "fatalities": "0",
+        "link": "https://www.militarytimes.com/global/mideast-africa/2026/07/26/iran-says-ukrainian-attack-on-vessel-in-caspian-sea-killed-sailor/",
+        "critical": false
+    },
+    {
+        "country": "Europe",
+        "city": "Paris",
+        "lat": 48.873156915374764,
+        "lon": 2.3810905632756056,
+        "date": "2026-08-15 11:19:57",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "World Cup winner Ferran Torres joins Paris Saint-Germain from Barcelona",
+        "description": "The 26-year-old striker cost the Ligue 1 champions a reported 50 million euros ($58m) and has signed a five year deal.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/sports/2026/8/15/world-cup-winner-ferran-torres-joins-paris-saint-germain-from-barcelona?traffic_source=rss",
+        "critical": false
+    },
+    {
+        "country": "Israel",
+        "city": "Tel Aviv",
+        "lat": 32.035963221659586,
+        "lon": 34.79341988058677,
+        "date": "2026-08-15 11:19:49",
+        "type": "Airstrike",
+        "severity": "critical",
+        "title": "Israeli Strikes in Lebanon Kill 9, Health Officials Say",
+        "description": "The Lebanese health ministry said several children were killed in a strike overnight, one of the deadliest attacks in months. Israel’s military said it was targeting Hezbollah infrastructure.",
+        "fatalities": "0",
+        "link": "https://www.nytimes.com/2026/08/15/world/middleeast/israel-strikes-lebanon-ansar.html",
+        "critical": true
+    },
+    {
         "country": "Iran",
         "city": "Tehran",
         "lat": 35.740819470455044,
@@ -126,20 +182,6 @@
         "critical": false
     },
     {
-        "country": "USA",
-        "city": "Washington",
-        "lat": 38.86273461876971,
-        "lon": -77.08289403869506,
-        "date": "2026-08-15 09:40:47",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Afghans rebuild their lives in France five years after Taliban takeover",
-        "description": "Five years after the Taliban seized power, thousands of Afghans who fled to France are rebuilding their lives while facing challenges including language, housing and employment. For women like refugee doctor Fardina Samadi, France offers freedoms denied under Taliban rule, but rebuilding a career and integrating into French society remain difficult.",
-        "fatalities": "0",
-        "link": "https://www.france24.com/en/afghans-rebuild-their-lives-in-france-five-years-after-taliban-takeover",
-        "critical": false
-    },
-    {
         "country": "Ukraine",
         "city": "Kyiv",
         "lat": 50.43381539129763,
@@ -166,6 +208,20 @@
         "fatalities": "0",
         "link": "https://www.militarytimes.com/flashpoints/2026/07/15/us-launches-new-round-of-strikes-against-iran/",
         "critical": true
+    },
+    {
+        "country": "USA",
+        "city": "Washington",
+        "lat": 38.86273461876971,
+        "lon": -77.08289403869506,
+        "date": "2026-08-15 09:40:47",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Afghans rebuild their lives in France five years after Taliban takeover",
+        "description": "Five years after the Taliban seized power, thousands of Afghans who fled to France are rebuilding their lives while facing challenges including language, housing and employment. For women like refugee doctor Fardina Samadi, France offers freedoms denied under Taliban rule, but rebuilding a career and integrating into French society remain difficult.",
+        "fatalities": "0",
+        "link": "https://www.france24.com/en/afghans-rebuild-their-lives-in-france-five-years-after-taliban-takeover",
+        "critical": false
     },
     {
         "country": "USA",
@@ -280,20 +336,6 @@
         "critical": true
     },
     {
-        "country": "Europe",
-        "city": "Brussels",
-        "lat": 50.93985116158412,
-        "lon": 4.3448117133997055,
-        "date": "2026-08-15 08:44:57",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Europe's scorched landscapes seen from space after summer heatwaves",
-        "description": "BBC Verify examines the impact of drought and extreme heat on western European rivers, fields and mountains.",
-        "fatalities": "0",
-        "link": "https://www.bbc.co.uk/news/articles/c4gxy0wqqd9o?at_medium=RSS&at_campaign=rss",
-        "critical": false
-    },
-    {
         "country": "USA",
         "city": "Washington",
         "lat": 38.96361819315502,
@@ -305,6 +347,20 @@
         "description": "As the Ken-Betwa dam displaces thousands, legal protections on compensation are being ignored.",
         "fatalities": "0",
         "link": "https://www.aljazeera.com/features/longform/2026/8/15/the-women-indias-biggest-river-project-forgot?traffic_source=rss",
+        "critical": false
+    },
+    {
+        "country": "Europe",
+        "city": "Brussels",
+        "lat": 50.93985116158412,
+        "lon": 4.3448117133997055,
+        "date": "2026-08-15 08:44:57",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Europe's scorched landscapes seen from space after summer heatwaves",
+        "description": "BBC Verify examines the impact of drought and extreme heat on western European rivers, fields and mountains.",
+        "fatalities": "0",
+        "link": "https://www.bbc.co.uk/news/articles/c4gxy0wqqd9o?at_medium=RSS&at_campaign=rss",
         "critical": false
     },
     {
@@ -350,20 +406,6 @@
         "critical": false
     },
     {
-        "country": "Asia",
-        "city": "Afghanistan",
-        "lat": 34.7130025289174,
-        "lon": 69.10984223077709,
-        "date": "2026-08-15 07:47:06",
-        "type": "Naval",
-        "severity": "normal",
-        "title": "'Suffocating restrictions' shadow five years of Taliban rule in Afghanistan",
-        "description": "Five years after seizing Kabul and returning to power, the Taliban is celebrating what it calls a more secure and \"free\" Afghanistan. But its anniversary comes amid mounting criticism over sweeping restrictions on women and girls, economic hardship and continued international isolation.",
-        "fatalities": "0",
-        "link": "https://www.france24.com/en/asia-pacific/20260815-suffocating-restrictions-shadow-five-years-of-taliban-rule-in-afghanistan",
-        "critical": false
-    },
-    {
         "country": "Russia",
         "city": "Moscow",
         "lat": 55.733312024913644,
@@ -375,6 +417,20 @@
         "description": "A recent report from the Center for Advanced Defense Studies found that Russian state-aligned military forces flew at least 75 flights in Central Sahel.",
         "fatalities": "0",
         "link": "https://www.defensenews.com/global/europe/2026/08/13/flight-tracking-data-shows-continued-russian-air-bridge-to-sub-saharan-africa/",
+        "critical": false
+    },
+    {
+        "country": "Asia",
+        "city": "Afghanistan",
+        "lat": 34.7130025289174,
+        "lon": 69.10984223077709,
+        "date": "2026-08-15 07:47:06",
+        "type": "Naval",
+        "severity": "normal",
+        "title": "'Suffocating restrictions' shadow five years of Taliban rule in Afghanistan",
+        "description": "Five years after seizing Kabul and returning to power, the Taliban is celebrating what it calls a more secure and \"free\" Afghanistan. But its anniversary comes amid mounting criticism over sweeping restrictions on women and girls, economic hardship and continued international isolation.",
+        "fatalities": "0",
+        "link": "https://www.france24.com/en/asia-pacific/20260815-suffocating-restrictions-shadow-five-years-of-taliban-rule-in-afghanistan",
         "critical": false
     },
     {
@@ -3007,62 +3063,6 @@
         "description": "The economy dominates voter concerns in the southern African country.",
         "fatalities": "0",
         "link": "https://www.aljazeera.com/video/inside-story/2026/8/13/whats-at-stake-in-zambias-elections?traffic_source=rss",
-        "critical": false
-    },
-    {
-        "country": "Israel",
-        "city": "Gaza",
-        "lat": 31.527964501682483,
-        "lon": 34.45299353944324,
-        "date": "2026-08-13 20:23:57",
-        "type": "Naval",
-        "severity": "normal",
-        "title": "Trump insists Netanyahu relationship ‘very good’ despite Gaza rift",
-        "description": "WASHINGTON, United States: President Donald Trump insisted on Monday that his relationship with Prime Minister Benjamin Netanyahu is “very good” despite the Israeli leader’s rejection of a US-led Gaza plan.\n\t“The relationship is very good,” Trump said in response to a shouted question from a journalist at the end of an Oval Office event.\n\tAfter more than a week of gradually escalating criticism, Netanyahu explicitly stated on Sunday that he oppos",
-        "fatalities": "0",
-        "link": "https://www.arabnews.com/node/2654154/world",
-        "critical": false
-    },
-    {
-        "country": "Israel",
-        "city": "Gaza",
-        "lat": 31.47557550247135,
-        "lon": 34.46824166609575,
-        "date": "2026-08-13 20:23:55",
-        "type": "Clashes",
-        "severity": "middle",
-        "title": "Enrollment begins at Saudi-backed school for Gaza children",
-        "description": "GAZA STRIP: Registration has opened for students seeking to enroll at Makkah School in the southern Gaza Strip, a Saudi-backed initiative aimed at helping children resume their education amid the devastation of the war, SPA has reported. \n\n\tThe school, supported by the King Salman Humanitarian Aid and Relief Center (KSrelief), is part of a project to establish and operate safe educational spaces for Palestinian children under Saudi Arabia’s campa",
-        "fatalities": "0",
-        "link": "https://www.arabnews.com/node/2654157/saudi-arabia",
-        "critical": false
-    },
-    {
-        "country": "Israel",
-        "city": "Gaza",
-        "lat": 31.517583618954617,
-        "lon": 34.39860856132305,
-        "date": "2026-08-13 20:23:49",
-        "type": "Airstrike",
-        "severity": "critical",
-        "title": "Kushner plans to visit Israel next week for Gaza talks",
-        "description": "Jared Kushner, President Trump's envoy and son-in-law, is planning to visit Israel next week for talks on the situation in Gaza, according to five sources with knowledge of the plan.Why it matters: This would be Kushner's first trip to Israel since January. It comes as the White House and Trump's Board of Peace are trying to push forward with the next phase of the Gaza plan, which focuses on disarming Hamas and a potential Israeli withdrawal. The",
-        "fatalities": "0",
-        "link": "https://www.axios.com/2026/08/13/kushner-israel-gaza-netanyahu",
-        "critical": true
-    },
-    {
-        "country": "Africa",
-        "city": "Sudan",
-        "lat": 12.803337264300774,
-        "lon": 30.270782177280516,
-        "date": "2026-08-13 20:23:36",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Sudan army says RSF advance on key town bordering Ethiopia",
-        "description": "Military and government sources say the paramilitary RSF and allies advance into town of Kurmuk in Blue Nile state.",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/news/2026/8/13/sudan-army-says-rsf-advance-on-key-town-bordering-ethiopia?traffic_source=rss",
         "critical": false
     }
 ]
