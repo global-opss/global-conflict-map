@@ -1,5 +1,33 @@
 [
     {
+        "country": "Middle East",
+        "city": "Yemen",
+        "lat": 14.583776619734214,
+        "lon": 49.09390538563624,
+        "date": "2026-08-15 14:56:12",
+        "type": "Drone",
+        "severity": "middle",
+        "title": "The next Yemen war might be different",
+        "description": "Drones are no longer the advantage for only one side.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/features/2026/8/15/the-next-yemen-war-might-be-different?traffic_source=rss",
+        "critical": false
+    },
+    {
+        "country": "Iran",
+        "city": "Tehran",
+        "lat": 35.632000526058995,
+        "lon": 51.44701710329915,
+        "date": "2026-08-15 14:56:08",
+        "type": "Clashes",
+        "severity": "middle",
+        "title": "Iran Says Qatar Captured Three of Its Pilots Early in War With U.S.",
+        "description": "Iran said the airmen have been held since March 2 when their fighter jets were shot down. The Qatari government has not commented.",
+        "fatalities": "0",
+        "link": "https://www.nytimes.com/2026/08/15/world/middleeast/iran-missing-pilots-qatar.html",
+        "critical": false
+    },
+    {
         "country": "USA",
         "city": "New york",
         "lat": 40.75018332318676,
@@ -3035,34 +3063,6 @@
         "description": "Taipei is seeking to dissolve the China Unification Promotion Party over its alleged ties to Beijing.",
         "fatalities": "0",
         "link": "https://www.aljazeera.com/news/2026/8/14/taiwans-white-wolf-leads-lonely-crusade-to-reunify-with-china?traffic_source=rss",
-        "critical": false
-    },
-    {
-        "country": "Iran",
-        "city": "Tehran",
-        "lat": 35.66119103142471,
-        "lon": 51.33365857372731,
-        "date": "2026-08-14 01:57:52",
-        "type": "Clashes",
-        "severity": "middle",
-        "title": "Norway’s FM tells Al Jazeera the US war on Iran was not ‘smart’",
-        "description": "Norway’s FM Espen Barth Eide says the Iran war failed to achieve its initial aims and strengthened hardliners in Tehran.",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/video/newsfeed/2026/8/14/aje-onl-nf_norways-fm-us-war-on-iran-was-not-smart-130826?traffic_source=rss",
-        "critical": false
-    },
-    {
-        "country": "Israel",
-        "city": "Tel Aviv",
-        "lat": 32.03916165029618,
-        "lon": 34.84017899152774,
-        "date": "2026-08-14 01:57:52",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Israel’s Katz hails settlers for ‘holding onto’ Palestinian land",
-        "description": "Israel’s Defence Minister Israel Katz praised radical Hilltop Youth settlers for ‘holding onto’ Palestinian land.",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/video/newsfeed/2026/8/14/08-14-2026-katz-ganim-clip-mp4?traffic_source=rss",
         "critical": false
     }
 ]
