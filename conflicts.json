@@ -1,5 +1,33 @@
 [
     {
+        "country": "Europe",
+        "city": "Romania",
+        "lat": 45.93787639460666,
+        "lon": 25.019082355236026,
+        "date": "2026-08-16 08:12:06",
+        "type": "Drone",
+        "severity": "middle",
+        "title": "Spanish fighter jet downs drone breaching Romania's airspace",
+        "description": "A Spanish fighter jet on Sunday shot down a drone that breached Romania's airspace near the border with Ukraine and Moldova, Romania's defence ministry said, in the latest incident to highlight the challenges facing NATO states bordering Ukraine.",
+        "fatalities": "0",
+        "link": "https://www.france24.com/en/europe/20260816-spanish-fighter-jet-downs-drone-breaching-romania-s-airspace",
+        "critical": false
+    },
+    {
+        "country": "USA",
+        "city": "Hawaii",
+        "lat": 19.54141810841713,
+        "lon": -155.495909078986,
+        "date": "2026-08-16 08:12:01",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Hurricane Lala lashes Hawaii with strong winds and torrential rain",
+        "description": "If the storm makes landfall, it will be Hawaii's first direct hit by a hurricane in 34 years.",
+        "fatalities": "0",
+        "link": "https://www.bbc.co.uk/news/articles/crmrr7kjy9vo?at_medium=RSS&at_campaign=rss",
+        "critical": false
+    },
+    {
         "country": "Ukraine",
         "city": "Kyiv",
         "lat": 50.45233226264696,
@@ -3036,33 +3064,5 @@
         "fatalities": "0",
         "link": "https://www.france24.com/en/ukraine-war-grain-attacks-raise-food-price-fears",
         "critical": true
-    },
-    {
-        "country": "Europe",
-        "city": "Brussels",
-        "lat": 50.89272964768214,
-        "lon": 4.30855518692206,
-        "date": "2026-08-14 11:26:21",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Global sea temperature reach 21 degrees amid heatwaves",
-        "description": "A large part of Europe is in the grip of its fifth heatwave of the summer, with temperatures in parts of France soaring to 40 degrees Celsius. And the extreme weather is also taking a toll on the world’s oceans: last month, average global sea temperatures reached a record high of 21 degrees Celsius. Antonia Kerrigan has the details.",
-        "fatalities": "0",
-        "link": "https://www.france24.com/en/global-sea-temperature-reach-21-degrees-amid-heatwaves",
-        "critical": false
-    },
-    {
-        "country": "USA",
-        "city": "Washington",
-        "lat": 38.903866697345514,
-        "lon": -77.02283741098472,
-        "date": "2026-08-14 11:26:19",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Record-breaking rain in Japan leaves several dead, thousands stranded",
-        "description": "At least four people were killed, and one remains missing after record-breaking rain triggered flooding in Japan.",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/video/newsfeed/2026/8/14/14-08-sv-japan-floods-chiba-jp?traffic_source=rss",
-        "critical": false
     }
 ]
