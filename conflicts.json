@@ -1,5 +1,19 @@
 [
     {
+        "country": "Russia",
+        "city": "Moscow",
+        "lat": 55.74101396984546,
+        "lon": 37.67529351469189,
+        "date": "2026-08-16 22:46:51",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Flight-tracking data shows continued Russian air bridge to sub-Saharan Africa",
+        "description": "A recent report from the Center for Advanced Defense Studies found that Russian state-aligned military forces flew at least 75 flights in Central Sahel.",
+        "fatalities": "0",
+        "link": "https://www.defensenews.com/global/europe/2026/08/13/flight-tracking-data-shows-continued-russian-air-bridge-to-sub-saharan-africa/",
+        "critical": false
+    },
+    {
         "country": "USA",
         "city": "Washington",
         "lat": 38.87732665494872,
@@ -3050,19 +3064,5 @@
         "fatalities": "0",
         "link": "https://www.aljazeera.com/opinions/2026/8/15/a-syrian-intervention-in-lebanon-would-be-too-costly-for-damascus?traffic_source=rss",
         "critical": false
-    },
-    {
-        "country": "USA",
-        "city": "New york",
-        "lat": 40.654825838762534,
-        "lon": -73.94982145263157,
-        "date": "2026-08-15 08:10:24",
-        "type": "Nuclear",
-        "severity": "critical",
-        "title": "FIFA’s Infantino gets Giuliani backing in World Cup selloff fallout",
-        "description": "Andrew Giuliani, son of ex-New York Mayor Rudy Giuliani, tells critics of FIFAs Gianni Infantino its just politics.",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/sports/2026/8/15/fifas-infantino-gets-giuliani-backing-in-world-cup-selloff-fallout?traffic_source=rss",
-        "critical": true
     }
 ]
