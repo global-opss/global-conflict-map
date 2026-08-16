@@ -1,5 +1,33 @@
 [
     {
+        "country": "Iran",
+        "city": "Tehran",
+        "lat": 35.743399487413804,
+        "lon": 51.45455840874572,
+        "date": "2026-08-16 09:13:45",
+        "type": "Clashes",
+        "severity": "middle",
+        "title": "Iran Shows Off Wreckage of U.S. Aircraft Lost During Operation Epic Fury",
+        "description": "Iranian state media has released images of a display of aircraft wreckage from the U.S.-Iran war, including remnants of DUDE 44, an F-15E Strike Eagle which can now be confirmed without doubt as airframe 00-3000. The aircraft remains have been arranged on display in underground chambers, and alongside the F-15E Strike Eagle the exhibition also []",
+        "fatalities": "0",
+        "link": "https://theaviationist.com/2026/08/08/iran-aircraft-wreckage-epic-fury/",
+        "critical": false
+    },
+    {
+        "country": "Russia",
+        "city": "Moscow",
+        "lat": 55.77465555056333,
+        "lon": 37.67458467708319,
+        "date": "2026-08-16 09:13:34",
+        "type": "Airstrike",
+        "severity": "critical",
+        "title": "Five killed as Russia launches fresh aerial attacks across Ukraine",
+        "description": "Ukrainian President Volodymyr Zelensky accuses Russia of targeting civilian infrastructure, while Moscow reports that a warehouse was hit.",
+        "fatalities": "0",
+        "link": "https://www.bbc.co.uk/news/articles/c1411pgje8xo?at_medium=RSS&at_campaign=rss",
+        "critical": true
+    },
+    {
         "country": "USA",
         "city": "Washington",
         "lat": 38.92987052713017,
@@ -28,20 +56,6 @@
         "critical": false
     },
     {
-        "country": "Ukraine",
-        "city": "Kyiv",
-        "lat": 50.44978680241259,
-        "lon": 30.46932795252558,
-        "date": "2026-08-16 08:49:48",
-        "type": "Airstrike",
-        "severity": "critical",
-        "title": "Three killed as Russia launches fresh aerial attacks across Ukraine",
-        "description": "Firefighters are tackling a fire at a market in Kyiv, while Moscow reports that a warehouse was hit.",
-        "fatalities": "0",
-        "link": "https://www.bbc.co.uk/news/articles/c1411pgje8xo?at_medium=RSS&at_campaign=rss",
-        "critical": true
-    },
-    {
         "country": "USA",
         "city": "Washington",
         "lat": 38.95509085467598,
@@ -54,6 +68,20 @@
         "fatalities": "0",
         "link": "https://www.bbc.co.uk/news/articles/c3v00w5ylw9o?at_medium=RSS&at_campaign=rss",
         "critical": false
+    },
+    {
+        "country": "Ukraine",
+        "city": "Kyiv",
+        "lat": 50.44978680241259,
+        "lon": 30.46932795252558,
+        "date": "2026-08-16 08:49:48",
+        "type": "Airstrike",
+        "severity": "critical",
+        "title": "Three killed as Russia launches fresh aerial attacks across Ukraine",
+        "description": "Firefighters are tackling a fire at a market in Kyiv, while Moscow reports that a warehouse was hit.",
+        "fatalities": "0",
+        "link": "https://www.bbc.co.uk/news/articles/c1411pgje8xo?at_medium=RSS&at_campaign=rss",
+        "critical": true
     },
     {
         "country": "Europe",
@@ -3036,33 +3064,5 @@
         "fatalities": "0",
         "link": "https://www.arabnews.com/node/2654132/middle-east",
         "critical": true
-    },
-    {
-        "country": "Ukraine",
-        "city": "Kyiv",
-        "lat": 50.38971764560703,
-        "lon": 30.538764222419086,
-        "date": "2026-08-14 11:26:37",
-        "type": "Airstrike",
-        "severity": "critical",
-        "title": "Ukraine’s Zelensky says up to 50,000 North Korean troops to be deployed in Russia",
-        "description": "SEOUL: Ukrainian President Volodymyr Zelensky has ‌said up to 50,000 North Korean soldiers will be deployed in Russia to fight for Pyongyang’s ally, while calling on South Korea to provide support for ​its air defense.Zelensky said on X on Saturday that “a decision has been made for 30,000 to 50,000 North Koreans to be deployed on the territory of Russia,” a higher figure than his estimate of 30,000 in July. He did not elaborate on how he obtaine",
-        "fatalities": "0",
-        "link": "https://www.arabnews.com/node/2654131/world",
-        "critical": true
-    },
-    {
-        "country": "Iran",
-        "city": "Tehran",
-        "lat": 35.681672284573295,
-        "lon": 51.360994939535374,
-        "date": "2026-08-14 11:26:37",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Iran supreme leader names Guards general Abdollahi military chief",
-        "description": "TEHRAN: Iranian supreme leader Mojtaba Khamenei named Revolutionary Guards general Ali Abdollahi head of the country's armed forces on Monday, while also confirming a new commander of the Guards, putting his imprimatur on the country's military.\n\tAbdollahi had previously led the Khatam Al-Anbiya, Iran's inter-branch central military command tasked with coordinating operations.",
-        "fatalities": "0",
-        "link": "https://www.arabnews.com/node/2654129/middle-east",
-        "critical": false
     }
 ]
