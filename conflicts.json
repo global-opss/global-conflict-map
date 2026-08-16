@@ -1,5 +1,47 @@
 [
     {
+        "country": "Iran",
+        "city": "Tehran",
+        "lat": 35.621343819222695,
+        "lon": 51.323970812145504,
+        "date": "2026-08-16 11:45:12",
+        "type": "Clashes",
+        "severity": "middle",
+        "title": "‘Limited options’ for many Iranians as war with US chokes economy",
+        "description": "Millions of Iranians struggle to make ends meet as war with US devastates the economy and sends prices soaring.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/news/2026/8/16/limited-options-for-many-iranians-as-war-with-us-chokes-economy?traffic_source=rss",
+        "critical": false
+    },
+    {
+        "country": "Iran",
+        "city": "Tehran",
+        "lat": 35.73026409857401,
+        "lon": 51.41141616826786,
+        "date": "2026-08-16 11:45:12",
+        "type": "Naval",
+        "severity": "normal",
+        "title": "Trump threatens to make the Strait of Hormuz a US territory: Can he?",
+        "description": "US president has yet another outlandish threat for Iran, with no end to war in sight.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/news/2026/8/16/trump-threatens-to-make-the-strait-of-hormuz-a-us-territory-can-he?traffic_source=rss",
+        "critical": false
+    },
+    {
+        "country": "Europe",
+        "city": "Poland",
+        "lat": 52.04329884667821,
+        "lon": 18.94946326499906,
+        "date": "2026-08-16 11:45:09",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Europe's tallest Virgin Mary statue unveiled in rural Poland",
+        "description": "The 55.6-metre (182ft) concrete figure is head-and-shoulders above Rio de Jaineiro's Christ the Redeemer.",
+        "fatalities": "0",
+        "link": "https://www.bbc.co.uk/news/articles/cn5nnlq2pwpo?at_medium=RSS&at_campaign=rss",
+        "critical": false
+    },
+    {
         "country": "Russia",
         "city": "Moscow",
         "lat": 55.74601230043707,
@@ -3021,48 +3063,6 @@
         "description": "About 15 Palestinians, including two children, have been trapped in three homes in Qusra for nearly a week.",
         "fatalities": "0",
         "link": "https://www.aljazeera.com/news/2026/8/14/israeli-forces-block-activists-from-reaching-besieged-qusra-families?traffic_source=rss",
-        "critical": false
-    },
-    {
-        "country": "Asia",
-        "city": "Pakistan",
-        "lat": 31.489330995553487,
-        "lon": 74.38187995462435,
-        "date": "2026-08-14 13:41:36",
-        "type": "Clashes",
-        "severity": "middle",
-        "title": "Pakistan PM’s ‘red line’ warning to India over water treaty",
-        "description": "Pakistan Prime Minister Shehbaz Sharif accused India of illegally suspending the Indus Waters Treaty.",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/video/newsfeed/2026/8/14/14-08-clip-pakistan-warns-india-over-indus-pk?traffic_source=rss",
-        "critical": false
-    },
-    {
-        "country": "Russia",
-        "city": "Moscow",
-        "lat": 55.785567676865305,
-        "lon": 37.56700126094332,
-        "date": "2026-08-14 13:41:36",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Russia stance will be defended in court, pledges World Athletics chief Coe",
-        "description": "Russian Athletics has lodged new claim at Court of Arbitration for Sport to challenge sanctions, but WA will fight it.",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/sports/2026/8/14/russia-stance-will-be-defended-in-court-pledges-world-athletics-chief-coe?traffic_source=rss",
-        "critical": false
-    },
-    {
-        "country": "Africa",
-        "city": "Niamey",
-        "lat": 13.560178209639572,
-        "lon": 2.1167552523326747,
-        "date": "2026-08-14 13:41:36",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "US missionary kidnapped in Niger released after nine months in captivity",
-        "description": "Kevin Rideout, a pilot with the evangelical missionary agency SIM International, was abducted in the capital, Niamey.",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/news/2026/8/14/us-missionary-kidnapped-in-niger-released-after-nine-months-in-captivity?traffic_source=rss",
         "critical": false
     }
 ]
