@@ -1,6 +1,62 @@
 [
     {
         "country": "USA",
+        "city": "Washington",
+        "lat": 38.846203776450906,
+        "lon": -77.09631726952085,
+        "date": "2026-08-16 16:01:51",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "WP: страны Персидского залива разочарованы США из-за конфликта с Ираном",
+        "description": "Страны Персидского залива, включая Саудовскую Аравию, ОАЭ, Катар, Кувейт и Бахрейн, недовольны подходом американского президента Дональда Трампа к переговорам с Ираном, сообщает Washington Post со ссылкой на чиновников. Читать далее",
+        "fatalities": "0",
+        "link": "https://russian.rt.com/world/news/1670556-strany-persidskogo-zaliva?utm_source=rss&utm_medium=rss&utm_campaign=RSS",
+        "critical": false
+    },
+    {
+        "country": "USA",
+        "city": "Washington",
+        "lat": 38.83012448229033,
+        "lon": -77.01263511783253,
+        "date": "2026-08-16 16:01:26",
+        "type": "Naval",
+        "severity": "normal",
+        "title": "Dorm rooms are tiny. The dorm decor economy is not.",
+        "description": "Dorm rooms are tiny. The dorm decor economy is not.The big picture: College dorms are becoming customized, social-media-ready micro-apartments, but the market looks wildly different depending on which side of the Mason-Dixon line your campus sits.Zoom out: The multi-thousand-dollar \"designer dorm\" industry has grown alongside viral TikTok dorm tours and hauls, and parents hoping to make their child's transition to college easier.Shelly Gates, fou",
+        "fatalities": "0",
+        "link": "https://www.axios.com/2026/08/14/college-dorm-decor-economy",
+        "critical": false
+    },
+    {
+        "country": "Iran",
+        "city": "Tehran",
+        "lat": 35.647032837561824,
+        "lon": 51.35927786087247,
+        "date": "2026-08-16 16:01:26",
+        "type": "Clashes",
+        "severity": "middle",
+        "title": "Consumer sentiment dips, especially among Republicans",
+        "description": "Data: University of Michigan; Note: August 2026 number is preliminary; Chart: Neil Irwin/AxiosPublic opinion about the economy appears to be souring further this month, per the preliminary release of the University of Michigan's consumer sentiment index.By the numbers: Overall sentiment fell 8% in the early days of August, after two consecutive months of improvement.The index fell to 51, from 55.2 in July. That remains above the recent lows reach",
+        "fatalities": "0",
+        "link": "https://www.axios.com/2026/08/14/consumer-sentiment-republicans",
+        "critical": false
+    },
+    {
+        "country": "Israel",
+        "city": "Gaza",
+        "lat": 31.512959375838534,
+        "lon": 34.481035823174196,
+        "date": "2026-08-16 16:01:22",
+        "type": "Clashes",
+        "severity": "middle",
+        "title": "Kushner meets Hamas leaders to push Gaza demilitarization",
+        "description": "President Trump's envoy Jared Kushner met Hamas leaders in Egypt on Sunday to press them to carry out their commitment to disarm, according to two sources familiar with the meeting. Why it matters: This was Kushner's first meeting with Hamas leaders since the signing of the agreement to end the war in Gaza last October. The unusual meeting came as the White House and Trump's Board of Peace push both Hamas and Israel to move to the next phase of t",
+        "fatalities": "0",
+        "link": "https://www.axios.com/2026/08/16/kushner-hamas-gaza-disarmament-egypt-israel",
+        "critical": false
+    },
+    {
+        "country": "USA",
         "city": "New york",
         "lat": 40.6610221214471,
         "lon": -73.94240672779755,
@@ -98,20 +154,6 @@
         "critical": false
     },
     {
-        "country": "Russia",
-        "city": "Moscow",
-        "lat": 55.75396228387737,
-        "lon": 37.68179176537343,
-        "date": "2026-08-16 15:46:20",
-        "type": "Airstrike",
-        "severity": "critical",
-        "title": "Largest Ukrainian drone attack on Russia, Moscow says 822 drones shot down",
-        "description": "Ukraine launched hundreds of drones across Russia, killing at least six people and striking a Wildberries logistics hub.",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/video/newsfeed/2026/8/16/16-08-sv-ukraine-largest-drone-attack-russia-ua?traffic_source=rss",
-        "critical": true
-    },
-    {
         "country": "USA",
         "city": "Hawaii",
         "lat": 19.576518411399796,
@@ -124,6 +166,20 @@
         "fatalities": "0",
         "link": "https://www.aljazeera.com/news/2026/8/16/hurricane-lala-weakens-to-a-tropical-storm-but-flooding-persists-in-hawaii?traffic_source=rss",
         "critical": false
+    },
+    {
+        "country": "Russia",
+        "city": "Moscow",
+        "lat": 55.75396228387737,
+        "lon": 37.68179176537343,
+        "date": "2026-08-16 15:46:20",
+        "type": "Airstrike",
+        "severity": "critical",
+        "title": "Largest Ukrainian drone attack on Russia, Moscow says 822 drones shot down",
+        "description": "Ukraine launched hundreds of drones across Russia, killing at least six people and striking a Wildberries logistics hub.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/video/newsfeed/2026/8/16/16-08-sv-ukraine-largest-drone-attack-russia-ua?traffic_source=rss",
+        "critical": true
     },
     {
         "country": "Asia",
@@ -3007,62 +3063,6 @@
         "description": "President Trump said Friday that he isn't concerned about the state of the USS Abraham Lincoln, despite calls from lawmakers to investigate reports of mental health issues for those onboard. Why it matters: The San Diego-based aircraft carrier has been deployed for nine months, and numerous reports have indicated that crew members' families were concerned about a lack of food and other basic supplies. What they're saying: Speaking to reporters Fr",
         "fatalities": "0",
         "link": "https://www.axios.com/2026/08/14/trump-uss-abraham-lincoln-deployment-middle-east",
-        "critical": false
-    },
-    {
-        "country": "USA",
-        "city": "New york",
-        "lat": 40.7298390115347,
-        "lon": -73.95968599403294,
-        "date": "2026-08-14 18:30:11",
-        "type": "Airstrike",
-        "severity": "critical",
-        "title": "Luigi Mangione pleads guilty to stalking UnitedHealthcare CEO, admits killing him",
-        "description": "Luigi Mangione pleaded guilty Friday in federal court to stalking charges tied to the 2024 killing of UnitedHealthcare CEO Brian Thompson, per multiple reports.Why it matters: Mangione was facing a potential life sentence if convicted in a federal trial, and the guilty plea could mean his lawyers ask to dismiss separate state charges, including second-degree murder. Mangione's legal team has argued that charging him in both federal and state cour",
-        "fatalities": "0",
-        "link": "https://www.axios.com/2026/08/14/luigi-mangione-plea-trial-brian-thompson-case",
-        "critical": true
-    },
-    {
-        "country": "USA",
-        "city": "Washington",
-        "lat": 38.92024416206154,
-        "lon": -76.98995246410226,
-        "date": "2026-08-14 18:30:11",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Americans' wanderlust hits new heights",
-        "description": "Data: International Trade Administration; Chart: Sara Wise/AxiosEven as U.S. policy has walled off Washington, D.C., from friends across the pond, Americans' travel overseas is reaching new heights.Why it matters: Much like the resilient consumer, the American tourist keeps riding the post-COVID travel wave, even as debt delays life milestones and global perceptions of the U.S. slip.Driving the news: More than 56 million U.S. residents traveled o",
-        "fatalities": "0",
-        "link": "https://www.axios.com/2026/08/14/americans-overseas-european-travel-boom",
-        "critical": false
-    },
-    {
-        "country": "Ukraine",
-        "city": "Kyiv",
-        "lat": 50.469502289036846,
-        "lon": 30.589047690755233,
-        "date": "2026-08-14 18:30:06",
-        "type": "Airstrike",
-        "severity": "critical",
-        "title": "Patriot makers hedge on Ukraine production deal as officials question cause of hold-up",
-        "description": "Though Trump promised Kyiv a license to build Patriot missile interceptors last month, Lockheed Martin and Raytheon have put the brakes on production.",
-        "fatalities": "0",
-        "link": "https://www.defensenews.com/global/europe/2026/08/14/patriot-makers-hedge-on-ukraine-production-deal-as-officials-question-cause-of-hold-up/",
-        "critical": true
-    },
-    {
-        "country": "USA",
-        "city": "Pentagon",
-        "lat": 38.80410435538817,
-        "lon": -77.08615459695602,
-        "date": "2026-08-14 18:30:06",
-        "type": "Clashes",
-        "severity": "middle",
-        "title": "Colby pushes back on dwindling stockpile reports amid Southeast Asia tour",
-        "description": "A senior Pentagon official pushed back against reports that the U.S. military’s stockpiles and capabilities are strained following Operation Epic Fury.",
-        "fatalities": "0",
-        "link": "https://www.defensenews.com/global/asia-pacific/2026/08/11/colby-pushes-back-on-dwindling-stockpile-reports-amid-southeast-asia-tour/",
         "critical": false
     }
 ]
