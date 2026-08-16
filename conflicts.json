@@ -1,5 +1,33 @@
 [
     {
+        "country": "Ukraine",
+        "city": "Kyiv",
+        "lat": 50.39913686583328,
+        "lon": 30.54876880714962,
+        "date": "2026-08-16 10:02:32",
+        "type": "Airstrike",
+        "severity": "critical",
+        "title": "🔴 Live: Ukraine launches 600 drones at Russia, one of its largest aerial attacks of the war",
+        "description": "",
+        "fatalities": "0",
+        "link": "https://www.france24.com/en/europe/20260816-live-moscow-targeted-by-600-drones-overnight-explosions-heard-in-kyiv",
+        "critical": true
+    },
+    {
+        "country": "Israel",
+        "city": "Tel Aviv",
+        "lat": 32.05544610198422,
+        "lon": 34.75567168156267,
+        "date": "2026-08-16 10:02:32",
+        "type": "Airstrike",
+        "severity": "critical",
+        "title": "South Lebanon: Doctor describes escalating humanitarian toll",
+        "description": "Israeli strikes in southern Lebanon have killed at least 11 people, in what local authorities describe as the largest escalation since the June agreement. Speaking to FRANCE 24, Pierre Catoire, an emergency doctor working in the area, described a deteriorating humanitarian situation, saying some doctors lost their homes in Saturday’s strikes and healthcare workers are increasingly worried that hospitals could also be targeted. He said the most co",
+        "fatalities": "0",
+        "link": "https://www.france24.com/en/south-lebanon-doctor-describes-escalating-humanitarian-toll",
+        "critical": true
+    },
+    {
         "country": "Europe",
         "city": "Paris",
         "lat": 48.83320044531231,
@@ -3035,34 +3063,6 @@
         "description": "A large part of Europe is in the grip of its fifth heatwave of the summer, with temperatures in parts of France soaring to 40 degrees Celsius. And the extreme weather is also taking a toll on the world’s oceans: last month, average global sea temperatures reached a record high of 21 degrees Celsius. Chair of the National Heat Risk Commission at Grantham Research Institute, at LSE, Emma Howard Boyd, shares further insights.",
         "fatalities": "0",
         "link": "https://www.france24.com/en/europe-swelters-under-fifth-heatwave-of-summer",
-        "critical": false
-    },
-    {
-        "country": "Israel",
-        "city": "Tel Aviv",
-        "lat": 32.076203353503644,
-        "lon": 34.72462652890108,
-        "date": "2026-08-14 12:09:29",
-        "type": "Airstrike",
-        "severity": "critical",
-        "title": "West Bank: Palestinians families trapped in home",
-        "description": "Israeli settlers are carrying out a campaign of violence and intimidation against the Palestinian village of Qusra in the occupied West Bank, where families have had their electricity and water supplies cut off, in what residents say is an attempt to force them from their homes. France 24 Senior Reporter Catherine Norris Trent recalls reporting from Qusra in 2023, when villagers told her that Israeli settlers were attacking them, preventing them ",
-        "fatalities": "0",
-        "link": "https://www.france24.com/en/west-bank-palestinians-families-trapped-in-home",
-        "critical": true
-    },
-    {
-        "country": "Israel",
-        "city": "Tel Aviv",
-        "lat": 32.0595266020817,
-        "lon": 34.79758882037839,
-        "date": "2026-08-14 12:09:27",
-        "type": "Clashes",
-        "severity": "middle",
-        "title": "Huckabee calls Israeli settlers ‘terrorists’: Can US push end Qusra siege?",
-        "description": "US ambassador to Israel has issued a rare condemnation of a violent siege on families in the West Bank village of Qusra.",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/news/2026/8/14/huckabee-calls-israeli-settlers-terrorists-can-us-push-end-qusra-siege?traffic_source=rss",
         "critical": false
     }
 ]
