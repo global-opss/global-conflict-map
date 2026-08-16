@@ -1,5 +1,47 @@
 [
     {
+        "country": "Israel",
+        "city": "Jerusalem",
+        "lat": 31.757002638391675,
+        "lon": 35.186158163729495,
+        "date": "2026-08-16 17:47:36",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Восемь стран обвинили Израиль в препятствовании мирному плану по сектору Газа",
+        "description": "Ответственность за препятствование усилиям по достижению мира в Газе лежит на Израиле после отказа Тель-Авива от дорожной карты по реализации плана президента США Дональда Трампа. Об этом главы МИД восьми стран заявили в совместном заявлении, пишет The Jerusalem Post.",
+        "fatalities": "0",
+        "link": "https://www.kommersant.ru/doc/8890852",
+        "critical": false
+    },
+    {
+        "country": "Iran",
+        "city": "Tehran",
+        "lat": 35.63426365730454,
+        "lon": 51.35636548613283,
+        "date": "2026-08-16 17:47:11",
+        "type": "Airstrike",
+        "severity": "critical",
+        "title": "Iran issues warning to Gulf states: US must desist or you’ll be hit hard",
+        "description": "Iran has made a concerted push with Gulf states, warning them explicitly that Tehran will hit their oil, power and water plants unless U.S. strikes end.",
+        "fatalities": "0",
+        "link": "https://www.defensenews.com/global/mideast-africa/2026/08/06/iran-issues-warning-to-gulf-states-us-must-desist-or-youll-be-hit-hard/",
+        "critical": true
+    },
+    {
+        "country": "Israel",
+        "city": "Tel Aviv",
+        "lat": 32.13118405886143,
+        "lon": 34.75357058265749,
+        "date": "2026-08-16 17:47:02",
+        "type": "Clashes",
+        "severity": "middle",
+        "title": "‘Water and salt’: Qusra residents trapped in Israeli settler siege",
+        "description": "Israeli settlers and soldiers besiege Qusra families for eight days, blocking water and aid.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/news/2026/8/16/water-and-salt-qusra-residents-trapped-in-israeli-settler-siege?traffic_source=rss",
+        "critical": false
+    },
+    {
         "country": "Europe",
         "city": "Berlin",
         "lat": 48.8789989382049,
@@ -3022,47 +3064,5 @@
         "fatalities": "0",
         "link": "https://www.aljazeera.com/video/newsfeed/2026/8/14/wildfires-rage-across-europe-as-heatwaves-drive-record-temperatures?traffic_source=rss",
         "critical": true
-    },
-    {
-        "country": "Israel",
-        "city": "Tel Aviv",
-        "lat": 32.06436981135375,
-        "lon": 34.73693930843808,
-        "date": "2026-08-14 22:36:51",
-        "type": "Clashes",
-        "severity": "middle",
-        "title": "Israeli soldiers accused of supporting ‘terrorist’ settlers in Qusra",
-        "description": "Israeli soldiers accused of supporting ‘terrorist’ settlers in Qusra",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/video/newsfeed/2026/8/14/israeli-soldiers-accused-of-supporting-terrorist-settlers-in-qusra?traffic_source=rss",
-        "critical": false
-    },
-    {
-        "country": "USA",
-        "city": "New york",
-        "lat": 40.77693918794121,
-        "lon": -74.07383976969726,
-        "date": "2026-08-14 22:01:43",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "«ВМС США всё равно»: западные СМИ — о бедственном положении авианосца USS Abraham Lincoln",
-        "description": "Авианосец USS Abraham Lincoln, участвующий в военно-морской блокаде Ирана, оказался в центре внимания западных СМИ. По информации The New York Times, сенаторы-демократы требуют от Пентагона ответов на вопросы о бедственном положении команды корабля. USS Abraham Lincoln уже более 200 дней не заходил в порт, передаёт CNN. По данным MS Now, психическое здоровье военнослужащих страдает от тяжёлых бытовых условий, нехватки продовольствия и предметов г",
-        "fatalities": "0",
-        "link": "https://russian.rt.com/world/article/1669889-avianosec-abraham-lincoln-bedstvie-obzor-smi?utm_source=rss&utm_medium=rss&utm_campaign=RSS",
-        "critical": false
-    },
-    {
-        "country": "Russia",
-        "city": "Moscow",
-        "lat": 55.72514769319773,
-        "lon": 37.58303326243941,
-        "date": "2026-08-14 22:01:31",
-        "type": "Clashes",
-        "severity": "middle",
-        "title": "A convergence of biological risks",
-        "description": "What's the common thread connecting AI advances, biological breakthroughs, a preponderance of high-risk-high-reward research, escalating geopolitical tensions and a hollowed-out U.S. public health sector?They all heighten the risk that one day a lethal human-made pathogen will emerge, either accidentally or intentionally, and we won't be ready for it.Why it matters: The same advances that make this a pivotal moment for medical innovation are inte",
-        "fatalities": "0",
-        "link": "https://www.axios.com/2026/08/14/biological-threats-ai-lab-research",
-        "critical": false
     }
 ]
