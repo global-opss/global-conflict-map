@@ -1,6 +1,20 @@
 [
     {
         "country": "USA",
+        "city": "Hawaii",
+        "lat": 19.604839229172924,
+        "lon": -155.36608108258523,
+        "date": "2026-08-16 07:18:03",
+        "type": "Clashes",
+        "severity": "middle",
+        "title": "Hawaii battles strong winds and rain as Hurricane Lala threat looms",
+        "description": "If the storm makes landfall, it will be Hawaii's first direct hit by a hurricane in 34 years.",
+        "fatalities": "0",
+        "link": "https://www.bbc.co.uk/news/articles/crmrr7kjy9vo?at_medium=RSS&at_campaign=rss",
+        "critical": false
+    },
+    {
+        "country": "USA",
         "city": "Washington",
         "lat": 38.94591314905958,
         "lon": -77.09830899526398,
@@ -3049,20 +3063,6 @@
         "description": "Water and debris burst into a state-run hydropower tunnel in Uttarakhand following a landslide.",
         "fatalities": "0",
         "link": "https://www.aljazeera.com/news/2026/8/14/seven-killed-in-tunnel-accident-at-indian-hydropower-project?traffic_source=rss",
-        "critical": false
-    },
-    {
-        "country": "Europe",
-        "city": "Brussels",
-        "lat": 50.928335769368296,
-        "lon": 4.399190279091623,
-        "date": "2026-08-14 11:26:09",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "More Wildfires and Extreme Heat Roil Europe, but Relief Is on the Horizon",
-        "description": "Another day of near record heat baked the continent on Friday, but temperatures could retreat to seasonal averages in the coming days.",
-        "fatalities": "0",
-        "link": "https://www.nytimes.com/2026/08/14/weather/europe-extreme-weather-heat-wave.html",
         "critical": false
     }
 ]
