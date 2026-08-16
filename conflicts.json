@@ -1,5 +1,19 @@
 [
     {
+        "country": "Israel",
+        "city": "Gaza",
+        "lat": 31.46343071044373,
+        "lon": 34.48557630894139,
+        "date": "2026-08-16 03:30:32",
+        "type": "Clashes",
+        "severity": "middle",
+        "title": "Al Jazeera journalist opens beach cafe in the Gaza she loves",
+        "description": "Palestinian journalist Hind Khoudary has opened a Gaza beach cafe, hoping to revive a much-loved part of life in the war",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/video/newsfeed/2026/8/16/al-jazeera-journalist-opens-beach-cafe-in-the-gaza-she-loves?traffic_source=rss",
+        "critical": false
+    },
+    {
         "country": "USA",
         "city": "Pentagon",
         "lat": 38.92195156732585,
@@ -3049,20 +3063,6 @@
         "description": "Russian strikes have killed at least one person and wounded 15 in Kramatorsk, eastern Ukraine, according to regional authorities, while a separate attack on Zaporizhzhia in the southeast injured two. The latest strikes come as Moscow steps up its long-range attacks, with the United Nations reporting that civilian deaths in Ukraine last month reached their highest level since shortly after Russia’s full-scale invasion in 2022. Even passenger train",
         "fatalities": "0",
         "link": "https://www.france24.com/en/ukraine-civilian-casualties-hit-highest-level-since-may-2022",
-        "critical": true
-    },
-    {
-        "country": "USA",
-        "city": "Washington",
-        "lat": 38.96048161644571,
-        "lon": -77.00480644730011,
-        "date": "2026-08-14 09:35:58",
-        "type": "Airstrike",
-        "severity": "critical",
-        "title": "Israel sends troops to West Bank homes besieged by settlers",
-        "description": "Israeli settlers are conducting a campaign of violence and intimidation against the Palestinian village of Qusra in the occupied West Bank. Families have had their electricity and water supplies cut off in what residents say is an attempt to force them from their homes. The IDF has nominally intervened and condemned the violence, but has failed to deter the settlers, who Palestinians say have long benefitted from soldiers turning a blind eye to s",
-        "fatalities": "0",
-        "link": "https://www.france24.com/en/israel-sends-troops-to-west-bank-homes-besied-by-settles",
         "critical": true
     }
 ]
