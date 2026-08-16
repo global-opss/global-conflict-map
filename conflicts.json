@@ -2,6 +2,20 @@
     {
         "country": "Iran",
         "city": "Tehran",
+        "lat": 35.64116459612145,
+        "lon": 51.345560315893024,
+        "date": "2026-08-16 21:56:06",
+        "type": "Naval",
+        "severity": "normal",
+        "title": "Trump tells Hegseth to cut back U.S.-South Korea drills",
+        "description": "President Trump said Sunday he instructed Defense Secretary Pete Hegseth to \"substantially reduce\" U.S. military exercises with South Korea.The big picture: Trump wrote on Truth Social that South Korea declined his request to help the U.S. denuclearize Iran and cited his \"very good relationship\" with North Korean leader Kim Jong Un.Editor's note: This is a breaking news story. Please check back for updates.",
+        "fatalities": "0",
+        "link": "https://www.axios.com/2026/08/16/trump-us-south-korea-military-drills-cut",
+        "critical": false
+    },
+    {
+        "country": "Iran",
+        "city": "Tehran",
         "lat": 35.70360842970428,
         "lon": 51.41809890723399,
         "date": "2026-08-16 21:39:40",
@@ -3050,19 +3064,5 @@
         "fatalities": "0",
         "link": "https://www.aljazeera.com/video/newsfeed/2026/8/15/moment-israeli-forces-storm-wedding-hall-in-occupied-west-bank?traffic_source=rss",
         "critical": false
-    },
-    {
-        "country": "Asia",
-        "city": "Host",
-        "lat": 33.30047464231078,
-        "lon": 69.85603311364073,
-        "date": "2026-08-15 07:47:02",
-        "type": "Airstrike",
-        "severity": "critical",
-        "title": "Israeli strike kills seven in south Lebanon as attacks intensify",
-        "description": "Deadliest Israeli attack in Lebanon since June agreements significantly reduced hostilities.",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/news/2026/8/15/israeli-strike-kills-seven-in-south-lebanon-as-attacks-intensify?traffic_source=rss",
-        "critical": true
     }
 ]
