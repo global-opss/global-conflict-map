@@ -1,5 +1,47 @@
 [
     {
+        "country": "Europe",
+        "city": "Paris",
+        "lat": 48.92997112959949,
+        "lon": 2.2838373533034186,
+        "date": "2026-08-16 19:30:21",
+        "type": "Naval",
+        "severity": "normal",
+        "title": "French swimmer Léon Marchand wins gold in Euros 400m freestyle",
+        "description": "French swimming star Léon Marchand won the 400m freestyle final at the European swimming championships Sunday in Saint-Denis, near Paris.",
+        "fatalities": "0",
+        "link": "https://www.france24.com/en/sport/20260816-french-swimmer-l%C3%A9on-marchand-wins-gold-in-euros-400m-freestyle",
+        "critical": false
+    },
+    {
+        "country": "Russia",
+        "city": "Moscow",
+        "lat": 55.69781261401351,
+        "lon": 37.66257831639408,
+        "date": "2026-08-16 19:30:21",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Japan’s 2026 defense white paper highlights ‘new era of crisis’ in Indo-Pacific",
+        "description": "Japan’s 2026 Defense White Paper called China the world's “greatest strategic challenge,” citing Beijing’s expanded cooperation with Moscow.",
+        "fatalities": "0",
+        "link": "https://www.defensenews.com/global/asia-pacific/2026/08/10/japans-2026-defense-white-paper-highlights-new-era-of-crisis-in-indo-pacific/",
+        "critical": false
+    },
+    {
+        "country": "Ukraine",
+        "city": "Kyiv",
+        "lat": 50.43627740415132,
+        "lon": 30.556637882928108,
+        "date": "2026-08-16 19:30:19",
+        "type": "Airstrike",
+        "severity": "critical",
+        "title": "Drone and missile strikes kill 19 in Russia and Ukraine",
+        "description": "At least 19 people were killed Sunday in drone and missile strikes in Russia and Ukraine which destroyed a book market in Kyiv while Moscow faced one of the most massive attacks since the start of the war. Ukraine and Russia have been escalating their long-range strikes for months, resulting in a growing number of civilian casualties, more than four years after the start of the Russian invasion.",
+        "fatalities": "0",
+        "link": "https://www.france24.com/en/europe/20260816-drone-and-missile-strikes-kill-19-in-russia-and-ukraine",
+        "critical": true
+    },
+    {
         "country": "Iran",
         "city": "Tehran",
         "lat": 35.73020149584166,
@@ -3021,48 +3063,6 @@
         "description": "In tonight's edition: The Ebola outbreak in the Democratic Republic of Congo is spreading, with the virus now confirmed in a sixth province, raising fresh concerns about new infections and the challenges facing health teams. Meanwhile, the migration crisis between Morocco and Spain continues, as Moroccan authorities step up security around the border following the recent crossing of tens of thousands of people into Spain's North African enclave o",
         "fatalities": "0",
         "link": "https://www.france24.com/en/tv-shows/eye-on-africa/20260814-dr-congo-ebola-outbreak-spreads-to-sixth-province",
-        "critical": false
-    },
-    {
-        "country": "Asia",
-        "city": "Afghanistan",
-        "lat": 34.68992883946503,
-        "lon": 69.15511158984016,
-        "date": "2026-08-15 01:56:26",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "UN urges support for Afghan women’s aid five years into Taliban rule",
-        "description": "More than half of women’s organisations operating in Afghanistan could cease operations within next year: UN Women.",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/news/2026/8/15/un-urges-support-for-afghan-womens-aid-five-years-into-taliban-rule?traffic_source=rss",
-        "critical": false
-    },
-    {
-        "country": "Iran",
-        "city": "Tehran",
-        "lat": 35.65425977053056,
-        "lon": 51.44529159919212,
-        "date": "2026-08-15 01:56:26",
-        "type": "Naval",
-        "severity": "normal",
-        "title": "Iran war live: Trump vows to make Hormuz US territory ‘pretty soon’",
-        "description": "US President Trump says that pretty soon he will declare the Strait of Hormuz a US territory once Iran is defeated.",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/news/liveblog/2026/8/15/iran-war-live-trump-vows-to-make-hormuz-us-territory-pretty-soon?traffic_source=rss",
-        "critical": false
-    },
-    {
-        "country": "USA",
-        "city": "Washington",
-        "lat": 38.86304793900126,
-        "lon": -77.04072512565074,
-        "date": "2026-08-15 00:25:01",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Damaged USAF C-17 Flies Again After First-of-its-Kind Repair",
-        "description": "A C-17 of the 445th Airlift Wing extensively damaged in March 2025 was repaired by using new technologies of the Rapid Sustainment Office, after no vendors were able to provide the needed parts. The Air Force Rapid Sustainment Office (RSO) helped put a C-17 Globemaster III back in the air with the first use of []",
-        "fatalities": "0",
-        "link": "https://theaviationist.com/2026/08/08/damaged-usaf-c-17-flies-again/",
         "critical": false
     }
 ]
