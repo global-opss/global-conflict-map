@@ -1,6 +1,20 @@
 [
     {
         "country": "USA",
+        "city": "Pentagon",
+        "lat": 38.90839971427518,
+        "lon": -77.03734603332897,
+        "date": "2026-08-16 20:00:50",
+        "type": "Naval",
+        "severity": "normal",
+        "title": "US not disengaging from Asia, seeks ‘partners, not protectorates,’ says Pentagon official",
+        "description": "Undersecretary of Defense for Policy Elbridge Colby reaffirmed the U.S. interest in the region as he called for greater burden-sharing and partnership.",
+        "fatalities": "0",
+        "link": "https://www.defensenews.com/pentagon/2026/08/10/us-not-disengaging-from-asia-seeks-partners-not-protectorates-says-pentagon-official/",
+        "critical": false
+    },
+    {
+        "country": "USA",
         "city": "New york",
         "lat": 40.68380566520596,
         "lon": -73.96765379668939,
@@ -3049,20 +3063,6 @@
         "description": "Thousands of sailors on the Lincoln have reportedly faced food shortages and broken plumbing, with some considering jumping overboard.",
         "fatalities": "0",
         "link": "https://www.bbc.co.uk/news/articles/c171yp5zdrxo?at_medium=RSS&at_campaign=rss",
-        "critical": false
-    },
-    {
-        "country": "Asia",
-        "city": "Afghanistan",
-        "lat": 34.62548069578014,
-        "lon": 69.0743080027141,
-        "date": "2026-08-15 04:13:19",
-        "type": "Clashes",
-        "severity": "middle",
-        "title": "Entrenched, Embattled and Defiant, the Taliban Celebrate 5 Years in Power",
-        "description": "The Taliban have Afghanistan in a chokehold that spares no one. But threats are starting to crack their veneer of stability and control.",
-        "fatalities": "0",
-        "link": "https://www.nytimes.com/2026/08/15/world/asia/entrenched-embattled-and-defiant-the-taliban-celebrate-5-years-in-power.html",
         "critical": false
     }
 ]
