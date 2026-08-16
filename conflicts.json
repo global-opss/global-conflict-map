@@ -1,5 +1,19 @@
 [
     {
+        "country": "Iran",
+        "city": "Tehran",
+        "lat": 35.70115566955172,
+        "lon": 51.32002018575337,
+        "date": "2026-08-16 20:54:47",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "US-Iran MoU is set to expire: What to know",
+        "description": "Both sides accused the other of violating the June agreement shortly after it was signed.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/news/2026/8/16/us-iran-mou-is-set-to-expire-what-to-know?traffic_source=rss",
+        "critical": false
+    },
+    {
         "country": "Europe",
         "city": "Brussels",
         "lat": 50.85872614039804,
@@ -3049,20 +3063,6 @@
         "description": "Displaced by Sudan’s war, Sahra now leads a refugee school where education offers children safety and hope.",
         "fatalities": "0",
         "link": "https://www.aljazeera.com/news/2026/8/15/how-a-sudanese-refugee-became-a-head-teacher-in-a-chadian-camp?traffic_source=rss",
-        "critical": false
-    },
-    {
-        "country": "Iran",
-        "city": "Tehran",
-        "lat": 35.62086408314286,
-        "lon": 51.35741361198107,
-        "date": "2026-08-15 05:24:10",
-        "type": "Naval",
-        "severity": "normal",
-        "title": "Middle East live: Trump threatens US takeover of Hormuz as Iran vows to retain control",
-        "description": "US President Donald Trump threatened to declare the Strait of Hormuz US territory after vowing to “finish defeating” Iran in a New York rally on Friday. Tehran rejected the claim on Saturday, with Deputy Foreign Minister Kazem Gharibabadi saying the strategic waterway “will remain Iranian” and can be opened or closed only at Iran’s command. Follow our live blog for the latest updates.",
-        "fatalities": "0",
-        "link": "https://www.france24.com/en/middle-east/20260815-middle-east-live-trump-threatens-us-takeover-of-hormuz-as-iran-vows-to-retain-control",
         "critical": false
     }
 ]
