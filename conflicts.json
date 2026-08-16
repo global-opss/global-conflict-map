@@ -1,5 +1,19 @@
 [
     {
+        "country": "Ukraine",
+        "city": "Kyiv",
+        "lat": 50.45233226264696,
+        "lon": 30.585571619366675,
+        "date": "2026-08-16 07:49:18",
+        "type": "Airstrike",
+        "severity": "critical",
+        "title": "Ukraine targets Moscow in mass drone attack as Russia bombards Kyiv",
+        "description": "Russian authorities report 201 Ukrainian drones downed overnight in the Moscow region during the escalating conflict.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/news/2026/8/16/russian-strikes-kill-ukrainian-woman-as-nato-jet-downs-drone-over-romania?traffic_source=rss",
+        "critical": true
+    },
+    {
         "country": "USA",
         "city": "Hawaii",
         "lat": 19.604839229172924,
@@ -3049,20 +3063,6 @@
         "description": "At least four people were killed, and one remains missing after record-breaking rain triggered flooding in Japan.",
         "fatalities": "0",
         "link": "https://www.aljazeera.com/video/newsfeed/2026/8/14/14-08-sv-japan-floods-chiba-jp?traffic_source=rss",
-        "critical": false
-    },
-    {
-        "country": "Iran",
-        "city": "Arak",
-        "lat": 34.02662835478087,
-        "lon": 49.654587467158755,
-        "date": "2026-08-14 11:26:19",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Seven killed in tunnel accident at Indian hydropower project",
-        "description": "Water and debris burst into a state-run hydropower tunnel in Uttarakhand following a landslide.",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/news/2026/8/14/seven-killed-in-tunnel-accident-at-indian-hydropower-project?traffic_source=rss",
         "critical": false
     }
 ]
