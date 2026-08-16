@@ -1,5 +1,19 @@
 [
     {
+        "country": "Africa",
+        "city": "Khartoum",
+        "lat": 15.445475090843356,
+        "lon": 32.530572348751775,
+        "date": "2026-08-16 04:18:40",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "With Priests Scarce in Rural Italy, an African Pastor Is Filling the Void",
+        "description": "Immigrants have long eased labor shortages on farms and factories in Italy. But churches also need foreign-born priests, like the Rev. Vincent Souly of the Ivory Coast.",
+        "fatalities": "0",
+        "link": "https://www.nytimes.com/2026/08/16/world/europe/italy-priest-shortage.html",
+        "critical": false
+    },
+    {
         "country": "Israel",
         "city": "Gaza",
         "lat": 31.46343071044373,
@@ -3050,19 +3064,5 @@
         "fatalities": "0",
         "link": "https://www.axios.com/2026/08/14/data-center-backlash-fossil-fuel-protests",
         "critical": false
-    },
-    {
-        "country": "Ukraine",
-        "city": "Zaporizhzhia",
-        "lat": 47.86797513047125,
-        "lon": 35.09721217883389,
-        "date": "2026-08-14 09:35:58",
-        "type": "Airstrike",
-        "severity": "critical",
-        "title": "Ukraine: Civilian casualties hit highest level since May 2022",
-        "description": "Russian strikes have killed at least one person and wounded 15 in Kramatorsk, eastern Ukraine, according to regional authorities, while a separate attack on Zaporizhzhia in the southeast injured two. The latest strikes come as Moscow steps up its long-range attacks, with the United Nations reporting that civilian deaths in Ukraine last month reached their highest level since shortly after Russia’s full-scale invasion in 2022. Even passenger train",
-        "fatalities": "0",
-        "link": "https://www.france24.com/en/ukraine-civilian-casualties-hit-highest-level-since-may-2022",
-        "critical": true
     }
 ]
