@@ -1,5 +1,19 @@
 [
     {
+        "country": "Israel",
+        "city": "Gaza",
+        "lat": 31.4811561910101,
+        "lon": 34.5331271191672,
+        "date": "2026-08-16 14:27:09",
+        "type": "Clashes",
+        "severity": "middle",
+        "title": "Kushner, Hamas delegation in Egypt for talks on Gaza peace plan",
+        "description": "A Hamas delegation began a meeting with Egypt's spy chief on Sunday to discuss ways to advance the implementation of a post-war plan for Gaza while US envoy Jared Kushner met with Egyptian President Abdel Fattah al-Sissi.",
+        "fatalities": "0",
+        "link": "https://www.france24.com/en/middle-east/20260816-hamas-begins-crucial-talks-with-egypt-on-trump-s-gaza-peace-plan",
+        "critical": false
+    },
+    {
         "country": "Middle East",
         "city": "Yemen",
         "lat": 14.534996842832388,
@@ -224,20 +238,6 @@
         "critical": true
     },
     {
-        "country": "Israel",
-        "city": "Gaza",
-        "lat": 31.51849029492195,
-        "lon": 34.407950722285676,
-        "date": "2026-08-16 12:00:07",
-        "type": "Clashes",
-        "severity": "middle",
-        "title": "Hamas begins crucial talks with Egypt on Trump's Gaza peace plan",
-        "description": "A Hamas delegation began a meeting with Egypt's spy chief on Sunday to discuss ways to advance the implementation of a post-war plan for Gaza, an official from the Palestinian group told AFP.",
-        "fatalities": "0",
-        "link": "https://www.france24.com/en/middle-east/20260816-hamas-begins-crucial-talks-with-egypt-on-trump-s-gaza-peace-plan",
-        "critical": false
-    },
-    {
         "country": "USA",
         "city": "Washington",
         "lat": 38.92108769295905,
@@ -249,6 +249,20 @@
         "description": "Brazil's October presidential election is shaping up as another battle between the Lula and Bolsonaro camps, with incumbent Luiz Inácio Lula da Silva seeking a fourth term and Flávio Bolsonaro stepping in for his imprisoned father. The two frontrunners are running close in the polls, as Lula focuses on Brazil's sovereignty amid tensions with Washington, while Flávio leans on his family's far-right support and ties to Donald Trump.",
         "fatalities": "0",
         "link": "https://www.france24.com/en/brazil-election-lula-and-the-new-face-of-bolsonaro-s-right",
+        "critical": false
+    },
+    {
+        "country": "Israel",
+        "city": "Gaza",
+        "lat": 31.51849029492195,
+        "lon": 34.407950722285676,
+        "date": "2026-08-16 12:00:07",
+        "type": "Clashes",
+        "severity": "middle",
+        "title": "Hamas begins crucial talks with Egypt on Trump's Gaza peace plan",
+        "description": "A Hamas delegation began a meeting with Egypt's spy chief on Sunday to discuss ways to advance the implementation of a post-war plan for Gaza, an official from the Palestinian group told AFP.",
+        "fatalities": "0",
+        "link": "https://www.france24.com/en/middle-east/20260816-hamas-begins-crucial-talks-with-egypt-on-trump-s-gaza-peace-plan",
         "critical": false
     },
     {
@@ -3049,20 +3063,6 @@
         "description": "In an interview, Afghanistan’s foreign minister called on the U.S. to reopen its embassy and invest in the country — a near-impossible sell for now, analysts and former diplomats say.",
         "fatalities": "0",
         "link": "https://www.nytimes.com/2026/08/14/world/asia/afghanistan-us-taliban.html",
-        "critical": false
-    },
-    {
-        "country": "China",
-        "city": "Beijing",
-        "lat": 39.95420680741454,
-        "lon": 116.3677744474022,
-        "date": "2026-08-14 15:37:28",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "What We Are Reading Today: ‘Silk Roads, Steppe Roads’ by Jonathan Karam Skaff",
-        "description": "“Silk Roads, Steppe Roads” takes the reader on a journey to three sites in northwestern China and Mongolia to investigate medieval Chinese tombs containing evidence of Eastern Eurasian cultural contacts and exchanges. \n\n\tThe construction, artifacts, and texts on paper and stone found at these tombs of the Sui (581–618) and early Tang (618–907) dynasties reveal glimpses of people, rituals, and objects that were in motion on the Silk and Steppe roa",
-        "fatalities": "0",
-        "link": "https://www.arabnews.com/node/2654146/books",
         "critical": false
     }
 ]
