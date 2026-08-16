@@ -1,5 +1,47 @@
 [
     {
+        "country": "Europe",
+        "city": "Berlin",
+        "lat": 48.91129779538686,
+        "lon": 2.265966893003018,
+        "date": "2026-08-16 10:36:19",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "BZ: коррупция в окружении Зеленского вызывает растущее недовольство в ЕС",
+        "description": "Коррупционные скандалы на Украине усиливают давление на Владимира Зеленского и вызывают растущее недовольство в Евросоюзе. Об этом пишет Berliner Zeitung. Читать далее",
+        "fatalities": "0",
+        "link": "https://russian.rt.com/world/news/1670454-zelenskii-korrupciya-es-ukraina?utm_source=rss&utm_medium=rss&utm_campaign=RSS",
+        "critical": false
+    },
+    {
+        "country": "USA",
+        "city": "Washington",
+        "lat": 38.940496620915226,
+        "lon": -77.01971920514636,
+        "date": "2026-08-16 10:35:56",
+        "type": "Airstrike",
+        "severity": "critical",
+        "title": "How AI could bring Mayo-quality health care to everyone",
+        "description": "My wife, Autumn, has spent nearly a quarter of the past four years in ERs and hospitals, untangling and battling three chronic conditions — and a shamefully broken U.S. medical system.We live in Washington, D.C., with top-rated hospitals in our backyard. Yet her experience has been eye-opening and often horrifying, especially for a nation that spends twice as much on medical care as our rivals.What it's like: ERs so hauntingly jammed she's often ",
+        "fatalities": "0",
+        "link": "https://www.axios.com/2026/08/16/ai-mayo-clinic-health-care-fix-jim-vandehei",
+        "critical": true
+    },
+    {
+        "country": "Africa",
+        "city": "Khartoum",
+        "lat": 15.526063825628752,
+        "lon": 32.564396881966765,
+        "date": "2026-08-16 10:35:50",
+        "type": "Naval",
+        "severity": "normal",
+        "title": "The post-Hormuz era offers Africa a great opportunity",
+        "description": "But to capture its benefits, the continent needs to develop an effective, common maritime policy.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/opinions/2026/8/16/the-post-hormuz-era-offers-africa-a-great-opportunity?traffic_source=rss",
+        "critical": false
+    },
+    {
         "country": "Ukraine",
         "city": "Kyiv",
         "lat": 50.39913686583328,
@@ -3021,48 +3063,6 @@
         "description": "Since 2020, two Mi-24D Hind helicopter gunships have provided invaluable threat replication to the U.S. Marine Corps, Army and Air Force. The participation of a Russian-made Mi-24D Hind attack helicopter in the U.S. Marine Corps Adversary Force Exercise (AFX) 4-26 at the Marine Corps Air Ground Combat Center in Twenty Nine Palms, California, has again []",
         "fatalities": "0",
         "link": "https://theaviationist.com/2026/08/12/mi-24-hind-plays-adversary-usmc-exercise/",
-        "critical": false
-    },
-    {
-        "country": "USA",
-        "city": "Washington",
-        "lat": 38.871842751937244,
-        "lon": -77.05787424018826,
-        "date": "2026-08-14 12:09:33",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Trump Secretly Took C-32A Home from NATO Summit in an Elaborate Decoy Operation",
-        "description": "After President Trump boarded the legacy VC-25A  instead of the VC-25B Bridge  for his flight home from Ankara he was secretly transferred inside a catering truck to a waiting C-32A, according to the Washington Post. While the world believed that the U.S. President had taken 92-9000 home from the NATO Summit in Ankara, []",
-        "fatalities": "0",
-        "link": "https://theaviationist.com/2026/08/11/trump-secretly-took-c-32a-home-decoy/",
-        "critical": false
-    },
-    {
-        "country": "USA",
-        "city": "Washington",
-        "lat": 38.87465812641082,
-        "lon": -77.05005091437106,
-        "date": "2026-08-14 12:09:29",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Japan: Record rains kill eight, strand thousands at Narita airport",
-        "description": "Record rainfall has caused deadly flooding in Japan, leaving thousands stranded at Narita Airport during the Obon holiday period.",
-        "fatalities": "0",
-        "link": "https://www.france24.com/en/video/20260814-japan-record-rains-kill-eight-strand-thousands-at-narita-airport",
-        "critical": false
-    },
-    {
-        "country": "Europe",
-        "city": "Brussels",
-        "lat": 50.9420404128681,
-        "lon": 4.387937107630748,
-        "date": "2026-08-14 12:09:29",
-        "type": "Clashes",
-        "severity": "middle",
-        "title": "Europe swelters under fifth heatwave of summer",
-        "description": "A large part of Europe is in the grip of its fifth heatwave of the summer, with temperatures in parts of France soaring to 40 degrees Celsius. And the extreme weather is also taking a toll on the world’s oceans: last month, average global sea temperatures reached a record high of 21 degrees Celsius. Chair of the National Heat Risk Commission at Grantham Research Institute, at LSE, Emma Howard Boyd, shares further insights.",
-        "fatalities": "0",
-        "link": "https://www.france24.com/en/europe-swelters-under-fifth-heatwave-of-summer",
         "critical": false
     }
 ]
