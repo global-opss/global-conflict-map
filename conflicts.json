@@ -2,6 +2,34 @@
     {
         "country": "Iran",
         "city": "Tehran",
+        "lat": 35.73020149584166,
+        "lon": 51.40350796067086,
+        "date": "2026-08-16 19:02:41",
+        "type": "Naval",
+        "severity": "normal",
+        "title": "Scoop: Inside Trump's secret backchannel to Iran's Revolutionary Guard",
+        "description": "In mid-May, U.S. negotiators trying to reach a deal with Iran to end the war ran into a problem: They couldn't tell if the people across the table actually spoke for the country's powerful Islamic Revolutionary Guard Corps (IRGC).So Trump administration officials did something unconventional — they went around Iran's negotiators and reached out directly to IRGC leadership. The person they tapped for the backchannel was Nechirvan Barzani, the pres",
+        "fatalities": "0",
+        "link": "https://www.axios.com/2026/08/16/iran-backchannel-trump-gabbard-barzani-war",
+        "critical": false
+    },
+    {
+        "country": "USA",
+        "city": "Hawaii",
+        "lat": 19.54166065225168,
+        "lon": -155.43266075136444,
+        "date": "2026-08-16 19:02:30",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "One dead, homes swept away after Hurricane Lala lashes Hawaii",
+        "description": "A search-and-rescue operation is under way after properties were uprooted from their foundations.",
+        "fatalities": "0",
+        "link": "https://www.bbc.co.uk/news/articles/crmrr7kjy9vo?at_medium=RSS&at_campaign=rss",
+        "critical": false
+    },
+    {
+        "country": "Iran",
+        "city": "Tehran",
         "lat": 35.716371541610584,
         "lon": 51.32113459747455,
         "date": "2026-08-16 18:00:24",
@@ -3035,34 +3063,6 @@
         "description": "A C-17 of the 445th Airlift Wing extensively damaged in March 2025 was repaired by using new technologies of the Rapid Sustainment Office, after no vendors were able to provide the needed parts. The Air Force Rapid Sustainment Office (RSO) helped put a C-17 Globemaster III back in the air with the first use of []",
         "fatalities": "0",
         "link": "https://theaviationist.com/2026/08/08/damaged-usaf-c-17-flies-again/",
-        "critical": false
-    },
-    {
-        "country": "Russia",
-        "city": "Moscow",
-        "lat": 55.689284564835866,
-        "lon": 37.61851728916269,
-        "date": "2026-08-14 23:50:11",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Japan’s 2026 defense white paper highlights ‘new era of crisis’ in Indo-Pacific",
-        "description": "Japan’s 2026 Defense White Paper called China the world's “greatest strategic challenge,” citing Beijing’s expanded cooperation with Moscow.",
-        "fatalities": "0",
-        "link": "https://www.defensenews.com/global/asia-pacific/2026/08/10/japans-2026-defense-white-paper-highlights-new-era-of-crisis-in-indo-pacific/",
-        "critical": false
-    },
-    {
-        "country": "Middle East",
-        "city": "Yemen",
-        "lat": 14.56933363640381,
-        "lon": 49.137185575770076,
-        "date": "2026-08-14 23:50:08",
-        "type": "Naval",
-        "severity": "normal",
-        "title": "Houthi attack on port kills four eroding truce with Yemen’s government",
-        "description": "Six Houthi ballistic missiles struck Yemens government-held al-Makha port, killing at least four.",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/video/newsfeed/2026/8/14/houthi-attack-on-port-kills-four-eroding-truce-with-yemens-government?traffic_source=rss",
         "critical": false
     }
 ]
