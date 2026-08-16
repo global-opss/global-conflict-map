@@ -1,5 +1,19 @@
 [
     {
+        "country": "Europe",
+        "city": "Berlin",
+        "lat": 48.8789989382049,
+        "lon": 2.3902882653181137,
+        "date": "2026-08-16 17:27:28",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "«Зеленский не перестанет воровать»: почему в Европе растёт обеспокоенность коррупцией на Украине",
+        "description": "Коррупция в окружении Владимира Зеленского стала проблемой для Европы, пишут в Berliner Zeitung. Новые расследования усиливают сомнения Берлина и Брюсселя в готовности Киева проводить реформы, которых требует ЕС. В газете отметили, что косвенные данные свидетельствуют: Зеленский не мог не знать о происходящем в его окружении. Однако расследовать его действия невозможно из-за узурпации власти, с которой в Европе мирятся, считают в издании. И, как ",
+        "fatalities": "0",
+        "link": "https://russian.rt.com/world/article/1670468-evropa-ukraina-korrupciya?utm_source=rss&utm_medium=rss&utm_campaign=RSS",
+        "critical": false
+    },
+    {
         "country": "USA",
         "city": "Washington",
         "lat": 38.92254244389072,
@@ -3050,19 +3064,5 @@
         "fatalities": "0",
         "link": "https://www.axios.com/2026/08/14/biological-threats-ai-lab-research",
         "critical": false
-    },
-    {
-        "country": "Iran",
-        "city": "Tehran",
-        "lat": 35.72186368484667,
-        "lon": 51.32326633915532,
-        "date": "2026-08-14 21:10:25",
-        "type": "Airstrike",
-        "severity": "critical",
-        "title": "Iran issues warning to Gulf states: US must desist or you’ll be hit hard",
-        "description": "Iran has made a concerted push with Gulf states, warning them explicitly that Tehran will hit their oil, power and water plants unless U.S. strikes end.",
-        "fatalities": "0",
-        "link": "https://www.defensenews.com/global/mideast-africa/2026/08/06/iran-issues-warning-to-gulf-states-us-must-desist-or-youll-be-hit-hard/",
-        "critical": true
     }
 ]
