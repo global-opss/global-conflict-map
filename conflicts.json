@@ -1,5 +1,33 @@
 [
     {
+        "country": "USA",
+        "city": "Washington",
+        "lat": 38.8845912468249,
+        "lon": -77.0263629295882,
+        "date": "2026-08-16 10:56:19",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Trump Secretly Took C-32A Home from NATO Summit in an Elaborate Decoy Operation",
+        "description": "After President Trump boarded the legacy VC-25A  instead of the VC-25B Bridge  for his flight home from Ankara he was secretly transferred inside a catering truck to a waiting C-32A, according to the Washington Post. While the world believed that the U.S. President had taken 92-9000 home from the NATO Summit in Ankara, []",
+        "fatalities": "0",
+        "link": "https://theaviationist.com/2026/08/11/trump-secretly-took-c-32a-home-decoy/",
+        "critical": false
+    },
+    {
+        "country": "Israel",
+        "city": "Gaza",
+        "lat": 31.452870617891726,
+        "lon": 34.448924665319446,
+        "date": "2026-08-16 10:56:14",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Doctor describes amputating girl’s leg in Gaza without anaesthesia",
+        "description": "‘We were praying for her to faint’.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/video/newsfeed/2026/8/16/doctor-describes-amputating-girls-leg-in-gaza-without-anaesthesia?traffic_source=rss",
+        "critical": false
+    },
+    {
         "country": "Europe",
         "city": "Berlin",
         "lat": 48.91129779538686,
@@ -3035,34 +3063,6 @@
         "description": "Extreme temperatures and repeated wildfires are pushing infrastructure to the limit and testing the continent’s resolve.",
         "fatalities": "0",
         "link": "https://www.nytimes.com/2026/08/14/world/europe/europe-heat-wave-photos.html",
-        "critical": false
-    },
-    {
-        "country": "USA",
-        "city": "New york",
-        "lat": 40.76517807498693,
-        "lon": -74.01153073575466,
-        "date": "2026-08-14 12:09:56",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "The Guardian: власти США ведут «массовую кампанию слежки» за левыми активистами",
-        "description": "Американские правоохранительные органы ведут «массовую кампанию слежки» за левыми организациями, профсоюзами и активистами, выступавшими против ужесточения иммиграционных правил и операций Иммиграционной и таможенной службы США (ICE). Об этом написали The Guardian и The New York Times.",
-        "fatalities": "0",
-        "link": "https://www.kommersant.ru/doc/8889803",
-        "critical": false
-    },
-    {
-        "country": "Russia",
-        "city": "Moscow",
-        "lat": 55.80707450593448,
-        "lon": 37.65319792880098,
-        "date": "2026-08-14 12:09:33",
-        "type": "Naval",
-        "severity": "normal",
-        "title": "Mi-24 Hind Plays ‘Adversary’ in U.S. Marine Corps Exercise",
-        "description": "Since 2020, two Mi-24D Hind helicopter gunships have provided invaluable threat replication to the U.S. Marine Corps, Army and Air Force. The participation of a Russian-made Mi-24D Hind attack helicopter in the U.S. Marine Corps Adversary Force Exercise (AFX) 4-26 at the Marine Corps Air Ground Combat Center in Twenty Nine Palms, California, has again []",
-        "fatalities": "0",
-        "link": "https://theaviationist.com/2026/08/12/mi-24-hind-plays-adversary-usmc-exercise/",
         "critical": false
     }
 ]
