@@ -1,5 +1,33 @@
 [
     {
+        "country": "Iran",
+        "city": "Tehran",
+        "lat": 35.70360842970428,
+        "lon": 51.41809890723399,
+        "date": "2026-08-16 21:39:40",
+        "type": "Naval",
+        "severity": "normal",
+        "title": "Trump tells Hegseth to cut U.S.-South Korea drills",
+        "description": "President Trump said Sunday he instructed Defense Secretary Pete Hegseth to \"substantially reduce\" U.S. military exercises with South Korea.The big picture: Trump wrote on Truth Social that South Korea declined his request to help the U.S. denuclearize Iran and cited his \"very good relationship\" with North Korean leader Kim Jong Un.Editor's note: This is a breaking news story. Please check back for updates.",
+        "fatalities": "0",
+        "link": "https://www.axios.com/2026/08/16/trump-us-south-korea-military-drills-cut",
+        "critical": false
+    },
+    {
+        "country": "Iran",
+        "city": "Tehran",
+        "lat": 35.74521784472841,
+        "lon": 51.454472249546825,
+        "date": "2026-08-16 21:39:24",
+        "type": "Naval",
+        "severity": "normal",
+        "title": "Trump says US will scale back military drills with South Korea",
+        "description": "His decision to reduce the partnership came after South Korea recently declined to aid his war effort in Iran.",
+        "fatalities": "0",
+        "link": "https://www.bbc.co.uk/news/articles/cx2lll7zvn0o?at_medium=RSS&at_campaign=rss",
+        "critical": false
+    },
+    {
         "country": "Africa",
         "city": "Niger",
         "lat": 13.844253282471628,
@@ -3036,33 +3064,5 @@
         "fatalities": "0",
         "link": "https://www.aljazeera.com/news/2026/8/15/israeli-strike-kills-seven-in-south-lebanon-as-attacks-intensify?traffic_source=rss",
         "critical": true
-    },
-    {
-        "country": "Europe",
-        "city": "London",
-        "lat": 51.501403173449255,
-        "lon": -0.11036133112264601,
-        "date": "2026-08-15 07:47:00",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Jason Arday, ex-Cambridge professor at centre of plagiarism row, found dead",
-        "description": "His family said it was \"in shock to have lost this amazing father, partner, brother, uncle and son\" after the academic was found dead in London on Friday.",
-        "fatalities": "0",
-        "link": "https://www.bbc.co.uk/news/articles/c1j1ye6n30no?at_medium=RSS&at_campaign=rss",
-        "critical": false
-    },
-    {
-        "country": "Europe",
-        "city": "Brussels",
-        "lat": 50.882255825201575,
-        "lon": 4.38594682086458,
-        "date": "2026-08-15 07:16:39",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Бижамов победил Мирончикова и завоевал пояс IBF European",
-        "description": "Российский боксер Джамбулат Бижамов одержал победу над выступающим за Сербию Владимиром Мирончиковым в главном поединке турнира \"IBA.PRO 20\" в Набережных Челнах.",
-        "fatalities": "0",
-        "link": "https://www.sport-interfax.ru/1109481",
-        "critical": false
     }
 ]
