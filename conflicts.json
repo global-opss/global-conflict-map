@@ -1,5 +1,33 @@
 [
     {
+        "country": "Middle East",
+        "city": "Yemen",
+        "lat": 14.534996842832388,
+        "lon": 49.17894674757811,
+        "date": "2026-08-16 13:57:00",
+        "type": "Naval",
+        "severity": "normal",
+        "title": "Houthis launch new attacks on al-Makha and Marib as Yemen conflict escalates",
+        "description": "Houthi missile and drone strikes target Marib and al-Makha, killing at least four people and injuring eight.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/news/2026/8/16/houthis-launch-new-attacks-on-al-makha-and-marib-as-yemen-conflict-escalates?traffic_source=rss",
+        "critical": false
+    },
+    {
+        "country": "Israel",
+        "city": "Tel Aviv",
+        "lat": 32.10095176141738,
+        "lon": 34.78697752676676,
+        "date": "2026-08-16 13:57:00",
+        "type": "Clashes",
+        "severity": "middle",
+        "title": "Timeline: The one-week siege of Qusra by Israeli settlers in the West Bank",
+        "description": "Israeli settlers encircle Palestinian homes and cut off supplies, leading to a declaration of a military zone.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/gallery/2026/8/16/timeline-the-one-week-siege-of-qusra-by-israeli-settlers-in-the-west-bank?traffic_source=rss",
+        "critical": false
+    },
+    {
         "country": "Europe",
         "city": "Paris",
         "lat": 48.91613039110752,
@@ -3035,34 +3063,6 @@
         "description": "“Silk Roads, Steppe Roads” takes the reader on a journey to three sites in northwestern China and Mongolia to investigate medieval Chinese tombs containing evidence of Eastern Eurasian cultural contacts and exchanges. \n\n\tThe construction, artifacts, and texts on paper and stone found at these tombs of the Sui (581–618) and early Tang (618–907) dynasties reveal glimpses of people, rituals, and objects that were in motion on the Silk and Steppe roa",
         "fatalities": "0",
         "link": "https://www.arabnews.com/node/2654146/books",
-        "critical": false
-    },
-    {
-        "country": "Israel",
-        "city": "Tel Aviv",
-        "lat": 32.07096585331237,
-        "lon": 34.836625849785065,
-        "date": "2026-08-14 15:37:28",
-        "type": "Airstrike",
-        "severity": "critical",
-        "title": "Israeli settler attack on Al-Mughayyir highlights surge in West Bank violence",
-        "description": "RAMALLAH: Israeli settlers, under the protection of Israeli occupation forces, have attacked the village of Al-Mughayyir, northeast of Ramallah.\n\n\tAmin Abu Aliya, the head of the Al-Mughayyir Village Council, said that settlers attacked Palestinian farmers in the eastern plain area and local residents confronted the attackers.\n\n\tAbu Aliya added that Israeli forces entered the village to provide protection for the settlers and detained two young m",
-        "fatalities": "0",
-        "link": "https://www.arabnews.com/node/2654145/middle-east",
-        "critical": true
-    },
-    {
-        "country": "USA",
-        "city": "Washington",
-        "lat": 38.85777108427026,
-        "lon": -77.10099014327272,
-        "date": "2026-08-14 15:37:28",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Historic trails, dramatic peaks position Taif as Saudi Arabia’s emerging hiking capital",
-        "description": "MAKKAH: Cradled among dramatic mountain ridges, lush valleys and cool highland breezes, Taif is rapidly cementing its reputation as one of Saudi Arabia’s premier outdoor destinations — with mountain hiking leading its eco-tourism surge.\n\n\tDriven by growing domestic interest in outdoor recreation under Vision 2030, the city’s historic trails and rehabilitated wadis are drawing thousands of adventure seekers and nature enthusiasts from across the K",
-        "fatalities": "0",
-        "link": "https://www.arabnews.com/node/2654143/saudi-arabia",
         "critical": false
     }
 ]
