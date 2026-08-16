@@ -1,5 +1,47 @@
 [
     {
+        "country": "Ukraine",
+        "city": "Kyiv",
+        "lat": 50.471023537414645,
+        "lon": 30.468130992582616,
+        "date": "2026-08-16 04:54:40",
+        "type": "Airstrike",
+        "severity": "critical",
+        "title": "Live: Moscow targeted by 600 drones overnight, explosions heard in Kyiv",
+        "description": "Six hundred drones targeted the Moscow region in a sustained overnight assault that wounded three people, the Russian capital's mayor said on Sunday, as Ukraine steps up long-range attacks into Russian territory. The assault came as Russian ⁠forces launched a ​missile attack on Kyiv, sparking fires in at least two districts of Ukraine's capital, Mayor ​Vitali ‌Klitschko said. Follow our live blog for all the latest updates.",
+        "fatalities": "0",
+        "link": "https://www.france24.com/en/europe/20260816-live-moscow-targeted-by-600-drones-overnight-explosions-heard-in-kyiv",
+        "critical": true
+    },
+    {
+        "country": "Middle East",
+        "city": "Yemen",
+        "lat": 14.571906769976568,
+        "lon": 49.15427303250269,
+        "date": "2026-08-16 04:54:36",
+        "type": "Naval",
+        "severity": "normal",
+        "title": "Yemeni government forces hit back after new Houthi offensive",
+        "description": "Yemeni government forces, backed by Saudi Arabia, have struck back after a new Houthi offensive in areas it controls.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/video/newsfeed/2026/8/16/08-16-2026-houthis-yemen-sv?traffic_source=rss",
+        "critical": false
+    },
+    {
+        "country": "Israel",
+        "city": "Tel Aviv",
+        "lat": 32.137162560384965,
+        "lon": 34.75183978145846,
+        "date": "2026-08-16 04:54:34",
+        "type": "Evacuation",
+        "severity": "critical",
+        "title": "Israel strikes south Lebanon again as families flee north",
+        "description": "Israeli airstrikes hit the Nabatieh district of southern Lebanon just hours after the deadliest day of Israeli raids.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/video/newsfeed/2026/8/16/israel-strikes-south-lebanon-again-as-families-flee-north?traffic_source=rss",
+        "critical": true
+    },
+    {
         "country": "Africa",
         "city": "Khartoum",
         "lat": 15.445475090843356,
@@ -3021,48 +3063,6 @@
         "description": "White House deputy national security adviser Andy Baker is leaving the administration in the coming weeks.Why it matters: Baker, who also served as national security advisor to Vice President Vance, was among the staffers most central to the administration's foreign policy and national security decision-making over the last 18 months.Baker was also personally involved in negotiations with Iran this year. Cliff Sims, who succeeded Baker as Vance's",
         "fatalities": "0",
         "link": "https://www.axios.com/2026/08/14/andy-baker-national-security-needham-sims",
-        "critical": false
-    },
-    {
-        "country": "Israel",
-        "city": "Gaza",
-        "lat": 31.510704927847854,
-        "lon": 34.516339019943956,
-        "date": "2026-08-14 09:36:06",
-        "type": "Airstrike",
-        "severity": "critical",
-        "title": "Trump stops short of endorsing Bibi as his campaign falters",
-        "description": "When Benjamin Netanyahu and Donald Trump met in the Oval Office two weeks ago, the president asked the Israeli prime minister how he was doing in the polls ahead of an Oct. 27 election.Netanyahu paused. Then one of his advisers piped up: \"Mr. President, he is winning,\" the aide said, according to a U.S. official familiar with the exchange.Why it matters: Netanyahu is not winning. And so far, Trump hasn't given him the endorsement he hopes for, de",
-        "fatalities": "0",
-        "link": "https://www.axios.com/2026/08/14/trump-netanyahu-israel-election-endorsement",
-        "critical": true
-    },
-    {
-        "country": "USA",
-        "city": "Alaska",
-        "lat": 64.48008552645261,
-        "lon": -149.73387067687148,
-        "date": "2026-08-14 09:36:04",
-        "type": "Clashes",
-        "severity": "middle",
-        "title": "America has more majority-minority rural counties than urban and suburban ones",
-        "description": "Data: U.S. Census, USDA; Chart: Erin Davis/Axios VisualsThe U.S. is projected to become majority-minority in 2046, but hundreds of rural pockets crossed that demographic benchmark years ago, an Axios analysis finds.Why it matters: The evolving face of rural America, driven both by immigration and increased mobility, has invigorated communities, increased their diversity — and presented new challenges.Rural governments dealing with rapid change, f",
-        "fatalities": "0",
-        "link": "https://www.axios.com/2026/08/14/majority-minority-rural-america-black-latino",
-        "critical": false
-    },
-    {
-        "country": "Europe",
-        "city": "Paris",
-        "lat": 48.907484900208004,
-        "lon": 2.287214317817046,
-        "date": "2026-08-14 09:36:04",
-        "type": "Clashes",
-        "severity": "middle",
-        "title": "Data center backlash echoes fossil-fuel politics",
-        "description": "Willie Nelson has become an unlikely barometer of America's biggest infrastructure fights. He once protested the Keystone XL pipeline and fracking. Today, he's fighting data centers.Why it matters: The American icon's latest cause underscores how the politics surrounding AI infrastructure are beginning to resemble the last decade's fights over fossil fuels.\"The last thing we need is a loud, water thieving, light polluting, data center anywhere ne",
-        "fatalities": "0",
-        "link": "https://www.axios.com/2026/08/14/data-center-backlash-fossil-fuel-protests",
         "critical": false
     }
 ]
