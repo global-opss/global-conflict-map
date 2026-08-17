@@ -1,5 +1,19 @@
 [
     {
+        "country": "Israel",
+        "city": "Gaza",
+        "lat": 31.47948556401907,
+        "lon": 34.52580765784892,
+        "date": "2026-08-17 23:47:01",
+        "type": "Airstrike",
+        "severity": "critical",
+        "title": "‘We will not allow Gaza to be rebuilt’ until Hamas disarms, Kushner says",
+        "description": "Trumps son-in-law and envoy says US will not restrict Israels right to defend itself as strikes on Gaza continue.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/news/2026/8/17/we-will-not-allow-gaza-to-be-rebuilt-until-hamas-disarms-kushner-says?traffic_source=rss",
+        "critical": true
+    },
+    {
         "country": "Africa",
         "city": "Khartoum",
         "lat": 15.475919475065448,
@@ -3050,19 +3064,5 @@
         "fatalities": "0",
         "link": "https://www.france24.com/en/middle-east/20260816-iran-offers-30-000-bounty-for-killing-or-capturing-us-soldiers",
         "critical": false
-    },
-    {
-        "country": "Ukraine",
-        "city": "Kyiv",
-        "lat": 50.4800492861987,
-        "lon": 30.478829795499138,
-        "date": "2026-08-16 15:46:26",
-        "type": "Airstrike",
-        "severity": "critical",
-        "title": "Ukraine: Russian strike destroys Kyiv book market",
-        "description": "Kyiv was hit by Russian strikes on Sunday, killing at least four people and injuring six, while a popular outdoor book market was destroyed. Vendors rushed to the scene to assess the damage, with some saying they had lost their shops and their livelihoods.",
-        "fatalities": "0",
-        "link": "https://www.france24.com/en/video/20260816-ukraine-russian-strike-destroys-kyiv-book-market",
-        "critical": true
     }
 ]
