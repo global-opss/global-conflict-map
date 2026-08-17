@@ -1,5 +1,33 @@
 [
     {
+        "country": "Israel",
+        "city": "Gaza",
+        "lat": 31.5628278376613,
+        "lon": 34.47854800856951,
+        "date": "2026-08-17 08:21:38",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Kushner to meet Netanyahu to push Trump Gaza plan",
+        "description": "The talks come one day after the US presidents son-in-law held a rare meeting with Hamas leaders in Egypt.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/news/2026/8/17/kushner-to-meet-netanyahu-to-push-trump-gaza-plan?traffic_source=rss",
+        "critical": false
+    },
+    {
+        "country": "Russia",
+        "city": "Belgorod",
+        "lat": 50.648631943110736,
+        "lon": 36.52294625086203,
+        "date": "2026-08-17 08:21:38",
+        "type": "Airstrike",
+        "severity": "critical",
+        "title": "At least six people killed in Ukrainian missile attack on Russia’s Belgorod",
+        "description": "Overnight Russian missile and drone attacks across Ukraine kill two people and injure 19.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/news/2026/8/17/at-least-six-people-killed-in-ukrainian-missile-attack-on-russias-belgorod?traffic_source=rss",
+        "critical": true
+    },
+    {
         "country": "China",
         "city": "Beijing",
         "lat": 39.86210579274815,
@@ -826,20 +854,6 @@
         "critical": false
     },
     {
-        "country": "Europe",
-        "city": "Paris",
-        "lat": 48.92997112959949,
-        "lon": 2.2838373533034186,
-        "date": "2026-08-16 19:30:21",
-        "type": "Naval",
-        "severity": "normal",
-        "title": "French swimmer Léon Marchand wins gold in Euros 400m freestyle",
-        "description": "French swimming star Léon Marchand won the 400m freestyle final at the European swimming championships Sunday in Saint-Denis, near Paris.",
-        "fatalities": "0",
-        "link": "https://www.france24.com/en/sport/20260816-french-swimmer-l%C3%A9on-marchand-wins-gold-in-euros-400m-freestyle",
-        "critical": false
-    },
-    {
         "country": "Russia",
         "city": "Moscow",
         "lat": 55.69781261401351,
@@ -851,6 +865,20 @@
         "description": "Japan’s 2026 Defense White Paper called China the world's “greatest strategic challenge,” citing Beijing’s expanded cooperation with Moscow.",
         "fatalities": "0",
         "link": "https://www.defensenews.com/global/asia-pacific/2026/08/10/japans-2026-defense-white-paper-highlights-new-era-of-crisis-in-indo-pacific/",
+        "critical": false
+    },
+    {
+        "country": "Europe",
+        "city": "Paris",
+        "lat": 48.92997112959949,
+        "lon": 2.2838373533034186,
+        "date": "2026-08-16 19:30:21",
+        "type": "Naval",
+        "severity": "normal",
+        "title": "French swimmer Léon Marchand wins gold in Euros 400m freestyle",
+        "description": "French swimming star Léon Marchand won the 400m freestyle final at the European swimming championships Sunday in Saint-Denis, near Paris.",
+        "fatalities": "0",
+        "link": "https://www.france24.com/en/sport/20260816-french-swimmer-l%C3%A9on-marchand-wins-gold-in-euros-400m-freestyle",
         "critical": false
     },
     {
@@ -3036,33 +3064,5 @@
         "fatalities": "0",
         "link": "https://rg.ru/2026/08/15/nyp-osnovatel-playboy-hiu-hefner-zhalovalsia-v-fbr-na-epshtejna.html",
         "critical": false
-    },
-    {
-        "country": "USA",
-        "city": "Washington",
-        "lat": 38.93775351196178,
-        "lon": -77.01259445526115,
-        "date": "2026-08-15 13:18:56",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Chad bans sand extraction along Chari River, sparking controversy",
-        "description": "In Chad, the Chari River has been badly affected by years of intensive sand extraction along its banks, particularly around the capital, N’Djamena. The Ministry of Mines recently banned the practice to protect the environment and wildlife, but the decision has sparked controversy as thousands of people in the capital depend on sand mining for their livelihoods.",
-        "fatalities": "0",
-        "link": "https://www.france24.com/en/chad-bans-sand-extraction-along-chari-river-sparking-controversy",
-        "critical": false
-    },
-    {
-        "country": "USA",
-        "city": "Washington",
-        "lat": 38.94300997837883,
-        "lon": -77.086599797691,
-        "date": "2026-08-15 12:42:07",
-        "type": "Evacuation",
-        "severity": "critical",
-        "title": "Afghan refugees face an uncertain future as Europe shifts to the right",
-        "description": "With the fall of the former government in Kabul, thousands of Afghans were forced to flee the country, many to Europe.",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/news/2026/8/15/afghan-refugees-face-uncertain-future-as-europe-shifts-to-the-right?traffic_source=rss",
-        "critical": true
     }
 ]
