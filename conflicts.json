@@ -1,5 +1,19 @@
 [
     {
+        "country": "Africa",
+        "city": "Khartoum",
+        "lat": 15.497442892795995,
+        "lon": 32.58080760521416,
+        "date": "2026-08-17 14:05:37",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Стрелки из России забрали половину наград на международных соревнованиях в ЮАР",
+        "description": "Российские стрелки триумфально выступили на престижных международных соревнованиях по экстремально дальней стрельбе King of 1  2 Miles South Africa, прошедших в Южно-Африканской Республике. По итогам турнира отечественная сборная увезла домой половину всех призовых мест.",
+        "fatalities": "0",
+        "link": "https://rg.ru/2026/08/17/strelki-iz-rossii-zabrali-polovinu-nagrad-na-mezhdunarodnyh-sorevnovaniiah-v-iuar.html",
+        "critical": false
+    },
+    {
         "country": "Ukraine",
         "city": "Kyiv",
         "lat": 50.51255331257659,
@@ -3050,19 +3064,5 @@
         "fatalities": "0",
         "link": "https://www.axios.com/2026/08/14/ai-scrambles-political-map",
         "critical": true
-    },
-    {
-        "country": "Asia",
-        "city": "Host",
-        "lat": 33.27165783217966,
-        "lon": 69.91978969272695,
-        "date": "2026-08-16 05:55:43",
-        "type": "Naval",
-        "severity": "normal",
-        "title": "GOP finds its next progressive target in Minnesota",
-        "description": "Republicans have a new name on their growing list of progressive midterm targets: Minnesota Lt. Gov. Peggy Flanagan, fresh off a landslide Senate primary win.Why it matters: With President Trump's approval ratings in the 30s, Republicans are trying to turn the midterms from a referendum on him into a choice between the GOP and a Democratic Party they argue has moved sharply to the left.That means portraying some progressive Democrats who've won s",
-        "fatalities": "0",
-        "link": "https://www.axios.com/2026/08/14/gop-progressive-target-flanagan-minnesota",
-        "critical": false
     }
 ]
