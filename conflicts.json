@@ -1,5 +1,47 @@
 [
     {
+        "country": "China",
+        "city": "Beijing",
+        "lat": 39.96256480112716,
+        "lon": 116.36558526588018,
+        "date": "2026-08-17 15:11:14",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Болтун - находка для шпиона: Топ-менеджера Lynk & Co оштрафовали за разглашение",
+        "description": "Один из руководителей компании Lynk  Co подвергся серьезным санкциям после того, как позволил китайскому онлайн-изданию провести прямую трансляцию с завода в Чэнду. Причиной стало несанкционированное раскрытие информации о новой модификации обновленного кроссовера Lynk  Co 02, сообщает CarNewsChina.",
+        "fatalities": "0",
+        "link": "https://rg.ru/2026/08/17/boltun-nahodka-dlia-shpiona-top-menedzhera-lynk-co-oshtrafovali-za-razglashenie.html",
+        "critical": false
+    },
+    {
+        "country": "Ukraine",
+        "city": "Kyiv",
+        "lat": 50.39223369337444,
+        "lon": 30.53693075269028,
+        "date": "2026-08-17 15:10:27",
+        "type": "Airstrike",
+        "severity": "critical",
+        "title": "Russian strike on Kyiv book market: 'An attempt to annihilate Ukrainian identity'",
+        "description": "A central book market in Kyiv was hit by a Russian strike on Sunday. FRANCE 24’s correspondent in Ukraine, Emmanuelle Chaze, describes the strikes as an attack on \"Ukrainian culture, the Ukrainian language and Ukrainian identity.” She says that “since the beginning of the summer, Russia has already destroyed millions of books” in strikes, while churches and other key cultural sites have also been targeted in what she describes as an attempt to we",
+        "fatalities": "0",
+        "link": "https://www.france24.com/en/video/20260817-russian-strike-on-kyiv-book-market-an-attempt-to-annihilate-ukrainian-identity",
+        "critical": true
+    },
+    {
+        "country": "Iran",
+        "city": "Tehran",
+        "lat": 35.71555054438705,
+        "lon": 51.36855016307047,
+        "date": "2026-08-17 15:10:19",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Trump threatens to bomb Oman if it 'gets in the way' over Iran issue",
+        "description": "The president also told Fox News the US had a direct backchannel with the Islamic Revolutionary Guard Corps - something it denies.",
+        "fatalities": "0",
+        "link": "https://www.bbc.co.uk/news/articles/cy5dzk0ryzdo?at_medium=RSS&at_campaign=rss",
+        "critical": false
+    },
+    {
         "country": "USA",
         "city": "New york",
         "lat": 40.670083787411386,
@@ -3021,48 +3063,6 @@
         "description": "Firefighters are tackling a fire at a market in Kyiv, while Moscow reports that a warehouse was hit.",
         "fatalities": "0",
         "link": "https://www.bbc.co.uk/news/articles/c1411pgje8xo?at_medium=RSS&at_campaign=rss",
-        "critical": true
-    },
-    {
-        "country": "Europe",
-        "city": "Romania",
-        "lat": 45.93787639460666,
-        "lon": 25.019082355236026,
-        "date": "2026-08-16 08:12:06",
-        "type": "Drone",
-        "severity": "middle",
-        "title": "Spanish fighter jet downs drone breaching Romania's airspace",
-        "description": "A Spanish fighter jet on Sunday shot down a drone that breached Romania's airspace near the border with Ukraine and Moldova, Romania's defence ministry said, in the latest incident to highlight the challenges facing NATO states bordering Ukraine.",
-        "fatalities": "0",
-        "link": "https://www.france24.com/en/europe/20260816-spanish-fighter-jet-downs-drone-breaching-romania-s-airspace",
-        "critical": false
-    },
-    {
-        "country": "USA",
-        "city": "Hawaii",
-        "lat": 19.54141810841713,
-        "lon": -155.495909078986,
-        "date": "2026-08-16 08:12:01",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Hurricane Lala lashes Hawaii with strong winds and torrential rain",
-        "description": "If the storm makes landfall, it will be Hawaii's first direct hit by a hurricane in 34 years.",
-        "fatalities": "0",
-        "link": "https://www.bbc.co.uk/news/articles/crmrr7kjy9vo?at_medium=RSS&at_campaign=rss",
-        "critical": false
-    },
-    {
-        "country": "Ukraine",
-        "city": "Kyiv",
-        "lat": 50.45233226264696,
-        "lon": 30.585571619366675,
-        "date": "2026-08-16 07:49:18",
-        "type": "Airstrike",
-        "severity": "critical",
-        "title": "Ukraine targets Moscow in mass drone attack as Russia bombards Kyiv",
-        "description": "Russian authorities report 201 Ukrainian drones downed overnight in the Moscow region during the escalating conflict.",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/news/2026/8/16/russian-strikes-kill-ukrainian-woman-as-nato-jet-downs-drone-over-romania?traffic_source=rss",
         "critical": true
     }
 ]
