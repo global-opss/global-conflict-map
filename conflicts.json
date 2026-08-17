@@ -1,5 +1,47 @@
 [
     {
+        "country": "Israel",
+        "city": "Gaza",
+        "lat": 31.51111138566217,
+        "lon": 34.52963099067991,
+        "date": "2026-08-17 20:54:57",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Trump envoy hails 'very good' meeting with Netanyahu after Hamas talks on peace plan",
+        "description": "US President Trump's son-in-law Jared Kushner is seeking to gain Israeli backing for the US-backed Gaza peace plan.",
+        "fatalities": "0",
+        "link": "https://www.bbc.co.uk/news/articles/c77gg5vn44yo?at_medium=RSS&at_campaign=rss",
+        "critical": false
+    },
+    {
+        "country": "Iran",
+        "city": "Tehran",
+        "lat": 35.7498484472806,
+        "lon": 51.451641985835025,
+        "date": "2026-08-17 20:54:57",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Trump says Iran will not make the deal he believes is necessary",
+        "description": "Trump says Iran will not make the deal he believes is necessary",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/video/newsfeed/2026/8/17/trump-says-iran-will-not-make-the-deal-he-believes-is-necessary?traffic_source=rss",
+        "critical": false
+    },
+    {
+        "country": "Iran",
+        "city": "Tehran",
+        "lat": 35.642951483027545,
+        "lon": 51.44779526158928,
+        "date": "2026-08-17 20:54:57",
+        "type": "Clashes",
+        "severity": "middle",
+        "title": "Trump’s approval rating sinks to new low",
+        "description": "New poll found a majority of US citizens concerned about the US war on Iran.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/economy/2026/8/17/trumps-approval-rating-sinks-to-new-low?traffic_source=rss",
+        "critical": false
+    },
+    {
         "country": "USA",
         "city": "Washington",
         "lat": 38.927837082643194,
@@ -3021,48 +3063,6 @@
         "description": "Houthi missile and drone strikes target Marib and al-Makha, killing at least four people and injuring eight.",
         "fatalities": "0",
         "link": "https://www.aljazeera.com/news/2026/8/16/houthis-launch-new-attacks-on-al-makha-and-marib-as-yemen-conflict-escalates?traffic_source=rss",
-        "critical": false
-    },
-    {
-        "country": "Israel",
-        "city": "Tel Aviv",
-        "lat": 32.10095176141738,
-        "lon": 34.78697752676676,
-        "date": "2026-08-16 13:57:00",
-        "type": "Clashes",
-        "severity": "middle",
-        "title": "Timeline: The one-week siege of Qusra by Israeli settlers in the West Bank",
-        "description": "Israeli settlers encircle Palestinian homes and cut off supplies, leading to a declaration of a military zone.",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/gallery/2026/8/16/timeline-the-one-week-siege-of-qusra-by-israeli-settlers-in-the-west-bank?traffic_source=rss",
-        "critical": false
-    },
-    {
-        "country": "Europe",
-        "city": "Paris",
-        "lat": 48.91613039110752,
-        "lon": 2.387414578298947,
-        "date": "2026-08-16 13:31:23",
-        "type": "Airstrike",
-        "severity": "critical",
-        "title": "South Lebanon: How will Israeli strikes affect negotiations?",
-        "description": "Israel killed 11 people in strikes on southern Lebanon on Saturday, in what has been described as the biggest threat to the peace talks since the June agreement. Ziad Majed, Professor of Middle East Studies at the American University of Paris, spoke to FRANCE 24 about the potential impact of the strikes on the negotiations underway in Rome, the role of the United States, and Israel's policy towards Lebanon and especially Hezbollah.",
-        "fatalities": "0",
-        "link": "https://www.france24.com/en/south-lebanon-how-will-israeli-strikes-affect-negotiations",
-        "critical": true
-    },
-    {
-        "country": "Africa",
-        "city": "Khartoum",
-        "lat": 15.505055901394863,
-        "lon": 32.53720983836903,
-        "date": "2026-08-16 13:31:21",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "WAFCON final: Women's sport seeks greater recognition",
-        "description": "The Women's Africa Cup of Nations final takes place tonight in Rabat, with Malawi facing Cameroon in a historic showdown. Speaking to FRANCE 24, sports journalist Charlotte Richardson discussed the growing popularity of women's sport, but also the persistent gaps in media coverage, funding and infrastructure compared with men's competitions. She also highlighted the WAFCON's last-minute postponement earlier this year, saying such a decision would",
-        "fatalities": "0",
-        "link": "https://www.france24.com/en/wafcon-final-women-s-sport-seeks-greater-recognition",
         "critical": false
     }
 ]
