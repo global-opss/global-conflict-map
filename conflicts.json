@@ -2,15 +2,29 @@
     {
         "country": "Israel",
         "city": "Gaza",
-        "lat": 31.51111138566217,
-        "lon": 34.52963099067991,
-        "date": "2026-08-17 20:54:57",
+        "lat": 31.57315345038217,
+        "lon": 34.519603436706824,
+        "date": "2026-08-17 21:25:48",
         "type": "Breaking News",
         "severity": "normal",
-        "title": "Trump envoy hails 'very good' meeting with Netanyahu after Hamas talks on peace plan",
-        "description": "US President Trump's son-in-law Jared Kushner is seeking to gain Israeli backing for the US-backed Gaza peace plan.",
+        "title": "Kushner hails 'very good' meeting with Netanyahu after Hamas talks on Gaza peace plan",
+        "description": "Donald Trump's Middle East envoy and son-in-law, Jared Kushner, is seeking to gain Israeli backing for the US-backed Gaza peace plan.",
         "fatalities": "0",
         "link": "https://www.bbc.co.uk/news/articles/c77gg5vn44yo?at_medium=RSS&at_campaign=rss",
+        "critical": false
+    },
+    {
+        "country": "Israel",
+        "city": "Tel Aviv",
+        "lat": 32.098440952961425,
+        "lon": 34.732371925383,
+        "date": "2026-08-17 21:25:48",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Civilians paying price as Israeli military raises stakes in Lebanon: UNIFIL",
+        "description": "UN peacekeeping force recorded an average of 137 projectiles fired daily in the region over the last two weeks.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/news/2026/8/17/civilians-pay-price-as-israeli-military-activity-rises-in-lebanon-unifil?traffic_source=rss",
         "critical": false
     },
     {
@@ -39,6 +53,20 @@
         "description": "New poll found a majority of US citizens concerned about the US war on Iran.",
         "fatalities": "0",
         "link": "https://www.aljazeera.com/economy/2026/8/17/trumps-approval-rating-sinks-to-new-low?traffic_source=rss",
+        "critical": false
+    },
+    {
+        "country": "Israel",
+        "city": "Gaza",
+        "lat": 31.51111138566217,
+        "lon": 34.52963099067991,
+        "date": "2026-08-17 20:54:57",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Trump envoy hails 'very good' meeting with Netanyahu after Hamas talks on peace plan",
+        "description": "US President Trump's son-in-law Jared Kushner is seeking to gain Israeli backing for the US-backed Gaza peace plan.",
+        "fatalities": "0",
+        "link": "https://www.bbc.co.uk/news/articles/c77gg5vn44yo?at_medium=RSS&at_campaign=rss",
         "critical": false
     },
     {
@@ -3036,33 +3064,5 @@
         "fatalities": "0",
         "link": "https://www.bbc.co.uk/news/articles/c1411pgje8xo?at_medium=RSS&at_campaign=rss",
         "critical": true
-    },
-    {
-        "country": "Israel",
-        "city": "Gaza",
-        "lat": 31.4811561910101,
-        "lon": 34.5331271191672,
-        "date": "2026-08-16 14:27:09",
-        "type": "Clashes",
-        "severity": "middle",
-        "title": "Kushner, Hamas delegation in Egypt for talks on Gaza peace plan",
-        "description": "A Hamas delegation began a meeting with Egypt's spy chief on Sunday to discuss ways to advance the implementation of a post-war plan for Gaza while US envoy Jared Kushner met with Egyptian President Abdel Fattah al-Sissi.",
-        "fatalities": "0",
-        "link": "https://www.france24.com/en/middle-east/20260816-hamas-begins-crucial-talks-with-egypt-on-trump-s-gaza-peace-plan",
-        "critical": false
-    },
-    {
-        "country": "Middle East",
-        "city": "Yemen",
-        "lat": 14.534996842832388,
-        "lon": 49.17894674757811,
-        "date": "2026-08-16 13:57:00",
-        "type": "Naval",
-        "severity": "normal",
-        "title": "Houthis launch new attacks on al-Makha and Marib as Yemen conflict escalates",
-        "description": "Houthi missile and drone strikes target Marib and al-Makha, killing at least four people and injuring eight.",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/news/2026/8/16/houthis-launch-new-attacks-on-al-makha-and-marib-as-yemen-conflict-escalates?traffic_source=rss",
-        "critical": false
     }
 ]
