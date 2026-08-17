@@ -1,5 +1,47 @@
 [
     {
+        "country": "Israel",
+        "city": "Tel Aviv",
+        "lat": 32.06459213006124,
+        "lon": 34.727563195593376,
+        "date": "2026-08-17 11:57:09",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Кушнер и Нетаньяху встретились после отказа Израиля от мирного плана по сектору Газа",
+        "description": "Представитель президента США Джаред Кушнер проводит встречу с израильским премьер-министром Биньямином Нетаньяху после того, как Израиль отказался от предложенного Советом мира плана по нормализации обстановки в секторе Газа, сообщает The Times of Israel со ссылкой на источники.",
+        "fatalities": "0",
+        "link": "https://www.interfax.ru/world/1109734",
+        "critical": false
+    },
+    {
+        "country": "Iran",
+        "city": "Tehran",
+        "lat": 35.63692576808009,
+        "lon": 51.42091602050137,
+        "date": "2026-08-17 11:56:40",
+        "type": "Clashes",
+        "severity": "middle",
+        "title": "Just one in three Americans backs Iran war, most unsure of Trump’s goals, poll finds",
+        "description": "A Reuters/Ipsos poll found that 69% of Americans think President Donald Trump has not “clearly explained the goals of U.S. military involvement in Iran.”",
+        "fatalities": "0",
+        "link": "https://www.militarytimes.com/news/pentagon-congress/2026/07/31/just-one-in-three-americans-back-iran-war-most-unsure-of-trumps-goals-poll-finds/",
+        "critical": false
+    },
+    {
+        "country": "Iran",
+        "city": "Tehran",
+        "lat": 35.64508750073122,
+        "lon": 51.42500941456611,
+        "date": "2026-08-17 11:56:40",
+        "type": "Naval",
+        "severity": "normal",
+        "title": "Iran to get Chinese shoulder-launched missile systems in weeks, sources say",
+        "description": "Iran is expected to receive within weeks a first shipment out of up to 400 Chinese-made shoulder-fired air defense missile launchers.",
+        "fatalities": "0",
+        "link": "https://www.militarytimes.com/industry/techwatch/2026/07/30/iran-to-get-chinese-shoulder-launched-missile-systems-in-weeks-sources-say/",
+        "critical": false
+    },
+    {
         "country": "Ukraine",
         "city": "Kyiv",
         "lat": 50.38036912694093,
@@ -3021,48 +3063,6 @@
         "description": "Riders say the switch is helping them cut fuel and maintenance costs.",
         "fatalities": "0",
         "link": "https://www.aljazeera.com/news/2026/8/16/as-petrol-prices-soar-electric-bikes-gain-ground-in-nigeria?traffic_source=rss",
-        "critical": false
-    },
-    {
-        "country": "Middle East",
-        "city": "Damascus",
-        "lat": 33.45392335855943,
-        "lon": 36.2568575571665,
-        "date": "2026-08-16 01:18:44",
-        "type": "Clashes",
-        "severity": "middle",
-        "title": "Army drops roses on Syrian crowds in a far cry from war",
-        "description": "Syrian army helicopters dropped roses on crowds at Damascus Citadel’s Summer Syria festival.",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/video/newsfeed/2026/8/16/08-16-26-damascus-summer-festival-sv?traffic_source=rss",
-        "critical": false
-    },
-    {
-        "country": "Israel",
-        "city": "Gaza",
-        "lat": 31.48883747524036,
-        "lon": 34.51340741002556,
-        "date": "2026-08-16 01:18:44",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Hamas leader heads to Cairo for Gaza talks ahead of Kushner visit",
-        "description": "Hamas chief Khalil al-Hayya to meet Egyptian intelligence chief Hassan Rashad in Cairo amid ongoing Gaza tensions.",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/news/2026/8/16/hamas-leader-heads-to-cairo-for-gaza-talks-ahead-of-kushner-visit?traffic_source=rss",
-        "critical": false
-    },
-    {
-        "country": "Israel",
-        "city": "Tel Aviv",
-        "lat": 32.11218885930179,
-        "lon": 34.818395857347475,
-        "date": "2026-08-16 01:18:44",
-        "type": "Naval",
-        "severity": "normal",
-        "title": "Iran war live: Talks on Hormuz Strait continue; Israel kills 11 in Lebanon",
-        "description": "Israel kills 11 in deadliest attacks on Lebanon since June truce as Iran and Oman continue talks on Hormuz.",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/news/liveblog/2026/8/16/iran-war-live-talks-on-hormuz-strait-continue-israel-kills-11-in-lebanon?traffic_source=rss",
         "critical": false
     }
 ]
