@@ -1,6 +1,34 @@
 [
     {
         "country": "USA",
+        "city": "New york",
+        "lat": 40.686900309339435,
+        "lon": -74.02116096778525,
+        "date": "2026-08-17 15:59:59",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "NYP: причиной смерти Хайден Панеттьери могла стать передозировка наркотиков",
+        "description": "Причиной смерти 36-летней актрисы Хайден Панеттьери могла стать остановка сердца, вызванная передозировкой. Об этом пишет New York Post, в распоряжении которой оказались записи разговоров бригад скорой помощи с диспетчерской.",
+        "fatalities": "0",
+        "link": "https://www.kommersant.ru/doc/8891507",
+        "critical": false
+    },
+    {
+        "country": "Iran",
+        "city": "Tehran",
+        "lat": 35.69283359833514,
+        "lon": 51.39467587464277,
+        "date": "2026-08-17 15:59:25",
+        "type": "Naval",
+        "severity": "normal",
+        "title": "Trump threatens to bomb US ally Oman if it 'gets in the way' over Iran issue",
+        "description": "The US and Oman have separately been negotiating to reopen the Strait of Hormuz, a waterway that has been closed during the US war with Iran.",
+        "fatalities": "0",
+        "link": "https://www.bbc.co.uk/news/articles/cy5dzk0ryzdo?at_medium=RSS&at_campaign=rss",
+        "critical": false
+    },
+    {
+        "country": "USA",
         "city": "Hawaii",
         "lat": 19.54040248996522,
         "lon": -155.3873680285863,
@@ -3035,34 +3063,6 @@
         "description": "The United States and Iran are poised to blow past a deadline they had set themselves to broker terms on peace and Iran’s nuclear program.",
         "fatalities": "0",
         "link": "https://www.nytimes.com/2026/08/16/world/middleeast/iran-war-us-trump.html",
-        "critical": false
-    },
-    {
-        "country": "Russia",
-        "city": "Moscow",
-        "lat": 55.78570058075399,
-        "lon": 37.674846591778085,
-        "date": "2026-08-16 09:46:04",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "How a Ukrainian Bank Worker Came to Face Life in a Russian Prison",
-        "description": "Artem Murdid, his mother and his girlfriend are accused of terrorism. They say they did nothing wrong.",
-        "fatalities": "0",
-        "link": "https://www.nytimes.com/2026/08/16/world/europe/russia-detained-ukrainians-war-murdid.html",
-        "critical": false
-    },
-    {
-        "country": "Iran",
-        "city": "Tehran",
-        "lat": 35.743399487413804,
-        "lon": 51.45455840874572,
-        "date": "2026-08-16 09:13:45",
-        "type": "Clashes",
-        "severity": "middle",
-        "title": "Iran Shows Off Wreckage of U.S. Aircraft Lost During Operation Epic Fury",
-        "description": "Iranian state media has released images of a display of aircraft wreckage from the U.S.-Iran war, including remnants of DUDE 44, an F-15E Strike Eagle which can now be confirmed without doubt as airframe 00-3000. The aircraft remains have been arranged on display in underground chambers, and alongside the F-15E Strike Eagle the exhibition also []",
-        "fatalities": "0",
-        "link": "https://theaviationist.com/2026/08/08/iran-aircraft-wreckage-epic-fury/",
         "critical": false
     }
 ]
