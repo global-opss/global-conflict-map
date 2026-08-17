@@ -1,5 +1,47 @@
 [
     {
+        "country": "Iran",
+        "city": "Tehran",
+        "lat": 35.64982065050253,
+        "lon": 51.4174632471336,
+        "date": "2026-08-17 03:30:43",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Rare Pallas’s cat captured on camera in northern Iran mountains",
+        "description": "Footage shows a rare sighting of one of Iran’s most elusive wild felines.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/video/newsfeed/2026/8/17/rare-pallass-cat-captured-on-camera-in-northern-iran-mountains?traffic_source=rss",
+        "critical": false
+    },
+    {
+        "country": "Iran",
+        "city": "Tehran",
+        "lat": 35.71610801698168,
+        "lon": 51.44530800545776,
+        "date": "2026-08-17 03:30:41",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "The Iranian YouTube Show Posing Questions Few Dare Ask",
+        "description": "Azad, a popular online debate program, has tackled topics that push the limits of Iran’s authoritarian system. Some question how it has remained on air.",
+        "fatalities": "0",
+        "link": "https://www.nytimes.com/2026/08/15/world/middleeast/iran-youtube-show.html",
+        "critical": false
+    },
+    {
+        "country": "Iran",
+        "city": "Tehran",
+        "lat": 35.737999210408965,
+        "lon": 51.32585829441153,
+        "date": "2026-08-17 03:30:41",
+        "type": "Naval",
+        "severity": "normal",
+        "title": "Trump says US to scale back South Korea military drills after it stayed out of Iran war",
+        "description": "Trump cites his \"very good relationship\" with North Korea's leader in deciding to downsize the exercises.",
+        "fatalities": "0",
+        "link": "https://www.bbc.co.uk/news/articles/cx2lll7zvn0o?at_medium=RSS&at_campaign=rss",
+        "critical": false
+    },
+    {
         "country": "China",
         "city": "Beijing",
         "lat": 39.86284059676129,
@@ -3022,47 +3064,5 @@
         "fatalities": "0",
         "link": "https://www.militarytimes.com/flashpoints/2026/07/15/us-launches-new-round-of-strikes-against-iran/",
         "critical": true
-    },
-    {
-        "country": "USA",
-        "city": "Washington",
-        "lat": 38.86273461876971,
-        "lon": -77.08289403869506,
-        "date": "2026-08-15 09:40:47",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Afghans rebuild their lives in France five years after Taliban takeover",
-        "description": "Five years after the Taliban seized power, thousands of Afghans who fled to France are rebuilding their lives while facing challenges including language, housing and employment. For women like refugee doctor Fardina Samadi, France offers freedoms denied under Taliban rule, but rebuilding a career and integrating into French society remain difficult.",
-        "fatalities": "0",
-        "link": "https://www.france24.com/en/afghans-rebuild-their-lives-in-france-five-years-after-taliban-takeover",
-        "critical": false
-    },
-    {
-        "country": "USA",
-        "city": "New york",
-        "lat": 40.77785544049148,
-        "lon": -74.0448881538345,
-        "date": "2026-08-15 09:11:12",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "NYT узнала о подготовке Европой альтернативного формата переговоров по Украине",
-        "description": "Великобритания, Франция и Германия и работают над созданием собственного формата переговоров по урегулированию конфликта на Украине. Об этом сообщила газета The New York Times со ссылкой на европейских чиновников.",
-        "fatalities": "0",
-        "link": "https://rg.ru/2026/08/15/nyt-uznala-o-podgotovke-evropoj-alternativnogo-formata-peregovorov-po-ukraine.html",
-        "critical": false
-    },
-    {
-        "country": "Israel",
-        "city": "Tel Aviv",
-        "lat": 32.07827471109253,
-        "lon": 34.781501282370016,
-        "date": "2026-08-15 09:10:23",
-        "type": "Clashes",
-        "severity": "middle",
-        "title": "US urges Netanyahu to condemn settlers besieging Palestinians in West Bank",
-        "description": "The United States is urging Israeli Prime Minister Benjamin Netanyahu to publicly condemn Israeli settlers who have besieged Palestinian homes in Qusra, while France is calling for their arrest and prosecution. As residents remain cut off from food and other supplies, settler violence is putting further political pressure on Netanyahu ahead of Israel’s election.",
-        "fatalities": "0",
-        "link": "https://www.france24.com/en/us-urges-netanyahu-to-condemn-settlers-besieging-palestinians-in-west-bank",
-        "critical": false
     }
 ]
