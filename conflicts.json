@@ -1,5 +1,61 @@
 [
     {
+        "country": "China",
+        "city": "Beijing",
+        "lat": 39.86284059676129,
+        "lon": 116.35800932903365,
+        "date": "2026-08-17 02:35:18",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Ученые из Китая разработали ИИ-модель для прогнозирования депрессии",
+        "description": "Ученые из Шэньчжэньского университета разработали модель искусственного интеллекта (ИИ), способную прогнозировать риск развития депрессии на четыре года вперед. Об этом сообщает South China Morning Post.",
+        "fatalities": "0",
+        "link": "https://www.kommersant.ru/doc/8890896",
+        "critical": false
+    },
+    {
+        "country": "Europe",
+        "city": "Brussels",
+        "lat": 50.87576674406582,
+        "lon": 4.324059545793315,
+        "date": "2026-08-17 02:34:57",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "US Army general in Europe suddenly removed from command",
+        "description": "The Army abruptly removed Lt. Gen Charles Costanza from command of V Corps.",
+        "fatalities": "0",
+        "link": "https://www.defensenews.com/news/your-military/2026/08/10/us-army-general-in-europe-suddenly-removed-from-command/",
+        "critical": false
+    },
+    {
+        "country": "Israel",
+        "city": "Tel Aviv",
+        "lat": 32.14346303282367,
+        "lon": 34.808480391073005,
+        "date": "2026-08-17 02:34:49",
+        "type": "Clashes",
+        "severity": "middle",
+        "title": "Israeli settlers pitch tents for new illegal outpost in occupied West Bank",
+        "description": "UN Special Rapporteur Albanese warns that Israel is using settlers to advance ethnic cleansing in the West Bank.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/news/2026/8/17/israeli-settlers-pitch-tents-for-new-illegal-outpost-in-occupied-west-bank?traffic_source=rss",
+        "critical": false
+    },
+    {
+        "country": "Africa",
+        "city": "Sudan",
+        "lat": 12.853068312640135,
+        "lon": 30.170370423181904,
+        "date": "2026-08-17 02:34:49",
+        "type": "Clashes",
+        "severity": "middle",
+        "title": "Can the AU make its current Sudan mission count?",
+        "description": "The African Union is seeking progress in Sudan, but must overcome deep battlefield and diplomatic divisions.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/news/2026/8/17/can-the-au-make-its-current-sudan-mission-count?traffic_source=rss",
+        "critical": false
+    },
+    {
         "country": "Israel",
         "city": "Gaza",
         "lat": 31.535819168358117,
@@ -406,20 +462,6 @@
         "critical": false
     },
     {
-        "country": "Russia",
-        "city": "Moscow",
-        "lat": 55.69781261401351,
-        "lon": 37.66257831639408,
-        "date": "2026-08-16 19:30:21",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Japan’s 2026 defense white paper highlights ‘new era of crisis’ in Indo-Pacific",
-        "description": "Japan’s 2026 Defense White Paper called China the world's “greatest strategic challenge,” citing Beijing’s expanded cooperation with Moscow.",
-        "fatalities": "0",
-        "link": "https://www.defensenews.com/global/asia-pacific/2026/08/10/japans-2026-defense-white-paper-highlights-new-era-of-crisis-in-indo-pacific/",
-        "critical": false
-    },
-    {
         "country": "Europe",
         "city": "Paris",
         "lat": 48.92997112959949,
@@ -431,6 +473,20 @@
         "description": "French swimming star Léon Marchand won the 400m freestyle final at the European swimming championships Sunday in Saint-Denis, near Paris.",
         "fatalities": "0",
         "link": "https://www.france24.com/en/sport/20260816-french-swimmer-l%C3%A9on-marchand-wins-gold-in-euros-400m-freestyle",
+        "critical": false
+    },
+    {
+        "country": "Russia",
+        "city": "Moscow",
+        "lat": 55.69781261401351,
+        "lon": 37.66257831639408,
+        "date": "2026-08-16 19:30:21",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Japan’s 2026 defense white paper highlights ‘new era of crisis’ in Indo-Pacific",
+        "description": "Japan’s 2026 Defense White Paper called China the world's “greatest strategic challenge,” citing Beijing’s expanded cooperation with Moscow.",
+        "fatalities": "0",
+        "link": "https://www.defensenews.com/global/asia-pacific/2026/08/10/japans-2026-defense-white-paper-highlights-new-era-of-crisis-in-indo-pacific/",
         "critical": false
     },
     {
@@ -3007,62 +3063,6 @@
         "description": "The United States is urging Israeli Prime Minister Benjamin Netanyahu to publicly condemn Israeli settlers who have besieged Palestinian homes in Qusra, while France is calling for their arrest and prosecution. As residents remain cut off from food and other supplies, settler violence is putting further political pressure on Netanyahu ahead of Israel’s election.",
         "fatalities": "0",
         "link": "https://www.france24.com/en/us-urges-netanyahu-to-condemn-settlers-besieging-palestinians-in-west-bank",
-        "critical": false
-    },
-    {
-        "country": "Asia",
-        "city": "Afghanistan",
-        "lat": 34.72477430540715,
-        "lon": 69.12578297219456,
-        "date": "2026-08-15 09:10:23",
-        "type": "Clashes",
-        "severity": "middle",
-        "title": "Five years of Taliban rule: Afghan women face deepening repression",
-        "description": "Five years after the Taliban returned to power, Afghan women face sweeping restrictions on education, work, movement and public life, with the UN describing Afghanistan as the world’s worst country for women’s rights. As international aid funding falls, the UN is urging donors not to abandon programmes supporting Afghan women, warning that many organisations could be forced to close.",
-        "fatalities": "0",
-        "link": "https://www.france24.com/en/five-years-of-taliban-rule-afghan-women-face-deepening-repression",
-        "critical": false
-    },
-    {
-        "country": "Asia",
-        "city": "Afghanistan",
-        "lat": 34.734265349791464,
-        "lon": 69.07964968819815,
-        "date": "2026-08-15 09:10:23",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Afghan women are erased from public life",
-        "description": "Five years into Taliban rule in Afghanistan, women have been particularly affected by the government’s restrictions. They are banned from public places including parks and excluded from most jobs, while girls are barred from education beyond the age of 12. FRANCE 24’s Peter O’Brien spoke to independent researcher Melissa Cornet from Kabul.",
-        "fatalities": "0",
-        "link": "https://www.france24.com/en/afghan-women-are-erased-from-public-life",
-        "critical": false
-    },
-    {
-        "country": "USA",
-        "city": "Washington",
-        "lat": 38.8605562969082,
-        "lon": -77.00953721021766,
-        "date": "2026-08-15 09:10:15",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "How Cyclospora Evaded the U.S. Food Safety System to Sicken Thousands",
-        "description": "The Trump administration delayed a rule last year that could have sped up the effort to pinpoint the source of the contamination. Critics charge that food safety oversight has eroded overall.",
-        "fatalities": "0",
-        "link": "https://www.nytimes.com/2026/08/15/health/cyclospora-invesigation-fda.html",
-        "critical": false
-    },
-    {
-        "country": "Iran",
-        "city": "Tehran",
-        "lat": 35.72857662556815,
-        "lon": 51.34188149838525,
-        "date": "2026-08-15 09:10:11",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "The Iranian YouTube Show Posing Questions Few Dare Ask",
-        "description": "Azad, a popular online debate program, has tackled topics that push the limits of Iran’s authoritarian system. Some wonder how it has remained on air.",
-        "fatalities": "0",
-        "link": "https://www.nytimes.com/2026/08/15/world/middleeast/iran-youtube-show.html",
         "critical": false
     }
 ]
