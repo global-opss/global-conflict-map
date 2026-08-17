@@ -1,5 +1,75 @@
 [
     {
+        "country": "Iran",
+        "city": "Tehran",
+        "lat": 35.65669781451548,
+        "lon": 51.435831255052165,
+        "date": "2026-08-17 09:09:09",
+        "type": "Naval",
+        "severity": "normal",
+        "title": "What happens to what you share with AI",
+        "description": "Imagine a chatbot built to keep you talking a little longer. To change your mind about something. Or persuade you to buy something.Now imagine it could draw on everything it knows about you — including the fears, insecurities and private details you shared in conversation — to do it.Why it matters: Few rules directly govern that scenario today, making AI companies' promises about how they use consumer data especially consequential.The big picture",
+        "fatalities": "0",
+        "link": "https://www.axios.com/2026/08/17/secrets-share-ai-openai-meta-google-anthropic",
+        "critical": false
+    },
+    {
+        "country": "Europe",
+        "city": "Paris",
+        "lat": 48.88527310345797,
+        "lon": 2.3654503908174074,
+        "date": "2026-08-17 09:09:02",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Lens defeat Paris Saint-Germain to claim second title this year",
+        "description": "RC Lens won the Champions' Trophy (French Super Cup) against Paris Saint-Germain (1-0). With Zinédine Zidane watching on, the Lens side held out for an hour despite being a man down.",
+        "fatalities": "0",
+        "link": "https://www.france24.com/en/tv-shows/sports/20260817-lens-defeat-paris-saint-germain-and-claim-second-title-this-year",
+        "critical": false
+    },
+    {
+        "country": "USA",
+        "city": "Washington",
+        "lat": 38.857152698163176,
+        "lon": -76.96676055554045,
+        "date": "2026-08-17 09:08:56",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Aid shortages and fears of starvation as Indonesia reels from deadly earthquake",
+        "description": "Some 53 people were killed and thousands displaced by the earthquake, which struck early on Saturday.",
+        "fatalities": "0",
+        "link": "https://www.bbc.co.uk/news/articles/crl7686r71yo?at_medium=RSS&at_campaign=rss",
+        "critical": false
+    },
+    {
+        "country": "Asia",
+        "city": "Host",
+        "lat": 33.32132228366023,
+        "lon": 69.94389083506124,
+        "date": "2026-08-17 09:08:53",
+        "type": "Clashes",
+        "severity": "middle",
+        "title": "Trump’s Overture to North Korea Strains Alliance With the South",
+        "description": "President Trump wants to curtail military exercises with South Korea, saying they were hostile to North Korea. But under Mr. Kim, the North has become increasingly belligerent toward the South.",
+        "fatalities": "0",
+        "link": "https://www.nytimes.com/2026/08/17/world/asia/trump-korea-military-kim-jong-un.html",
+        "critical": false
+    },
+    {
+        "country": "Iran",
+        "city": "Tehran",
+        "lat": 35.69947783367886,
+        "lon": 51.42856035969535,
+        "date": "2026-08-17 09:08:51",
+        "type": "Clashes",
+        "severity": "middle",
+        "title": "Iran’s Supreme Leader Signals Intention to Keep Country on a War Footing",
+        "description": "Ayatollah Mojtaba Khamenei’s appointment of hard-line loyalists to top jobs suggests he is prepared to keep the country on a war footing and to quash domestic dissent.",
+        "fatalities": "0",
+        "link": "https://www.nytimes.com/2026/08/17/world/middleeast/iran-khamenei-military-leaders-war.html",
+        "critical": false
+    },
+    {
         "country": "Israel",
         "city": "Gaza",
         "lat": 31.5628278376613,
@@ -210,20 +280,6 @@
         "critical": true
     },
     {
-        "country": "Russia",
-        "city": "Belgorod",
-        "lat": 50.63035377006756,
-        "lon": 36.62859345190962,
-        "date": "2026-08-17 05:48:16",
-        "type": "Airstrike",
-        "severity": "critical",
-        "title": "Ukrainian strikes kill six in Russia, acting governor says",
-        "description": "A 14-year-old child was among four others injured, the acting governor of Russia's Belgorod region says.",
-        "fatalities": "0",
-        "link": "https://www.bbc.co.uk/news/articles/cn7n4lm11vro?at_medium=RSS&at_campaign=rss",
-        "critical": true
-    },
-    {
         "country": "Iran",
         "city": "Tehran",
         "lat": 35.68162549210592,
@@ -236,6 +292,20 @@
         "fatalities": "0",
         "link": "https://www.bbc.co.uk/news/articles/cx2lll7zvn0o?at_medium=RSS&at_campaign=rss",
         "critical": false
+    },
+    {
+        "country": "Russia",
+        "city": "Belgorod",
+        "lat": 50.63035377006756,
+        "lon": 36.62859345190962,
+        "date": "2026-08-17 05:48:16",
+        "type": "Airstrike",
+        "severity": "critical",
+        "title": "Ukrainian strikes kill six in Russia, acting governor says",
+        "description": "A 14-year-old child was among four others injured, the acting governor of Russia's Belgorod region says.",
+        "fatalities": "0",
+        "link": "https://www.bbc.co.uk/news/articles/cn7n4lm11vro?at_medium=RSS&at_campaign=rss",
+        "critical": true
     },
     {
         "country": "Ukraine",
@@ -854,20 +924,6 @@
         "critical": false
     },
     {
-        "country": "Russia",
-        "city": "Moscow",
-        "lat": 55.69781261401351,
-        "lon": 37.66257831639408,
-        "date": "2026-08-16 19:30:21",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Japan’s 2026 defense white paper highlights ‘new era of crisis’ in Indo-Pacific",
-        "description": "Japan’s 2026 Defense White Paper called China the world's “greatest strategic challenge,” citing Beijing’s expanded cooperation with Moscow.",
-        "fatalities": "0",
-        "link": "https://www.defensenews.com/global/asia-pacific/2026/08/10/japans-2026-defense-white-paper-highlights-new-era-of-crisis-in-indo-pacific/",
-        "critical": false
-    },
-    {
         "country": "Europe",
         "city": "Paris",
         "lat": 48.92997112959949,
@@ -879,6 +935,20 @@
         "description": "French swimming star Léon Marchand won the 400m freestyle final at the European swimming championships Sunday in Saint-Denis, near Paris.",
         "fatalities": "0",
         "link": "https://www.france24.com/en/sport/20260816-french-swimmer-l%C3%A9on-marchand-wins-gold-in-euros-400m-freestyle",
+        "critical": false
+    },
+    {
+        "country": "Russia",
+        "city": "Moscow",
+        "lat": 55.69781261401351,
+        "lon": 37.66257831639408,
+        "date": "2026-08-16 19:30:21",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Japan’s 2026 defense white paper highlights ‘new era of crisis’ in Indo-Pacific",
+        "description": "Japan’s 2026 Defense White Paper called China the world's “greatest strategic challenge,” citing Beijing’s expanded cooperation with Moscow.",
+        "fatalities": "0",
+        "link": "https://www.defensenews.com/global/asia-pacific/2026/08/10/japans-2026-defense-white-paper-highlights-new-era-of-crisis-in-indo-pacific/",
         "critical": false
     },
     {
@@ -2993,76 +3063,6 @@
         "description": "DAMASCUS: President Ahmad Al-Sharaa received UN High Commissioner for Refugees Barham Salih and his accompanying delegation at the People’s Palace in Damascus on Monday, in the presence of Minister of Foreign Affairs and Expatriates Asaad Hassan Al-Shaibani.\n\tThe meeting focused on ways to strengthen cooperation between Syria and UNHCR, as well as supporting efforts related to the voluntary, safe, dignified and sustainable return of refugees and ",
         "fatalities": "0",
         "link": "https://www.arabnews.com/node/2654147/middle-east",
-        "critical": false
-    },
-    {
-        "country": "Africa",
-        "city": "Libya",
-        "lat": 26.345722440888107,
-        "lon": 17.294227602240642,
-        "date": "2026-08-15 13:47:42",
-        "type": "Drone",
-        "severity": "middle",
-        "title": "Fire breaks out at Libya’s Zawiya refinery",
-        "description": "TRIPOLI: A fire broke out on Monday ​in a diesel tank at Libya’s Zawiya refinery days after the facility was hit by drone.\n\n\tThe circumstances of Monday's fire remained unknown, Brega Petroleum Marketing Company said in a statement.\n\tBrega is owned by state oil firm National Oil Corporation (NOC) and is in charge of ‌fuel supplies.\n\tZawiya refinery is the ‌largest in the ​country ‌while Ras ​Lanuf is out ⁠of operation and is located around 40 kil",
-        "fatalities": "0",
-        "link": "https://www.arabnews.com/node/2654151/middle-east",
-        "critical": false
-    },
-    {
-        "country": "Israel",
-        "city": "Jerusalem",
-        "lat": 31.825426782442694,
-        "lon": 35.25921674625344,
-        "date": "2026-08-15 13:47:40",
-        "type": "Clashes",
-        "severity": "middle",
-        "title": "Trump’s Gaza plan hinges on Hamas disarmament, Israeli withdrawals",
-        "description": "JERUSALEM: Donald Trump’s latest plan to end the Gaza war calls on Hamas to ‌lay down its arms as Israel withdraws from the territory, terms endorsed by the militants but rejected by Israel, which says it will not pull back until the group’s disarmament is complete.",
-        "fatalities": "0",
-        "link": "https://www.arabnews.com/node/2654156/middle-east",
-        "critical": false
-    },
-    {
-        "country": "Africa",
-        "city": "Libya",
-        "lat": 26.300230361283038,
-        "lon": 17.258894890043692,
-        "date": "2026-08-15 13:47:40",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Libya’s central bank chief resigns",
-        "description": "TRIPOLI: The governor of Libya’s central bank, Naji Issa, has resigned without giving a reason, several reports said on Monday.\n\tPrivate TV channel Al-Ahrar said Issa had confirmed his resignation.\n\tIssa and vice-governor Miree Al-Barasee were appointed by Libya’s parliament, which is based in the east of the divided country, in September 2024.\n\tHis appointment was part of a deal backed by the United Nations that ended a standoff over Libya’s oil",
-        "fatalities": "0",
-        "link": "https://www.arabnews.com/node/2654155/middle-east",
-        "critical": false
-    },
-    {
-        "country": "Israel",
-        "city": "Tel Aviv",
-        "lat": 32.02473807832768,
-        "lon": 34.775154605466284,
-        "date": "2026-08-15 13:47:20",
-        "type": "Airstrike",
-        "severity": "critical",
-        "title": "Israeli Strikes in Lebanon Kill 11, Health Officials Say",
-        "description": "The Lebanese health ministry said several children were killed in a strike overnight, one of the deadliest attacks in months. Israel’s military said it was targeting Hezbollah infrastructure.",
-        "fatalities": "0",
-        "link": "https://www.nytimes.com/2026/08/15/world/middleeast/israel-strikes-lebanon-ansar.html",
-        "critical": true
-    },
-    {
-        "country": "USA",
-        "city": "New york",
-        "lat": 40.70738934334658,
-        "lon": -73.94111649211602,
-        "date": "2026-08-15 13:19:22",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "NYP: Основатель Playboy Хью Хефнер жаловался в ФБР на Эпштейна",
-        "description": "Основатель журнала Playboy Хью Хефнер при жизни не раз обращался в ФБР с информацией о сексуальном насилии в отношении одной из моделей журнала со стороны финансиста Джеффри Эпштейна. Об этом пишет издание New York Post.",
-        "fatalities": "0",
-        "link": "https://rg.ru/2026/08/15/nyp-osnovatel-playboy-hiu-hefner-zhalovalsia-v-fbr-na-epshtejna.html",
         "critical": false
     }
 ]
