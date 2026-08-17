@@ -1,6 +1,20 @@
 [
     {
         "country": "Africa",
+        "city": "Somalia",
+        "lat": 5.179473624830514,
+        "lon": 46.191562437269795,
+        "date": "2026-08-17 18:02:50",
+        "type": "Clashes",
+        "severity": "middle",
+        "title": "Clashes between government and opposition fighters in Somalia’s Baidoa",
+        "description": "Heavy clashes broke out in Baidoa, Somalia between federal troops and armed opposition groups.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/video/newsfeed/2026/8/17/clashes-between-government-and-opposition-fighters-in-somalias-baidoa?traffic_source=rss",
+        "critical": false
+    },
+    {
+        "country": "Africa",
         "city": "Mali",
         "lat": 12.579842388668904,
         "lon": -7.924754565878096,
@@ -3049,20 +3063,6 @@
         "description": "US president has yet another outlandish threat for Iran, with no end to war in sight.",
         "fatalities": "0",
         "link": "https://www.aljazeera.com/news/2026/8/16/trump-threatens-to-make-the-strait-of-hormuz-a-us-territory-can-he?traffic_source=rss",
-        "critical": false
-    },
-    {
-        "country": "Europe",
-        "city": "Poland",
-        "lat": 52.04329884667821,
-        "lon": 18.94946326499906,
-        "date": "2026-08-16 11:45:09",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Europe's tallest Virgin Mary statue unveiled in rural Poland",
-        "description": "The 55.6-metre (182ft) concrete figure is head-and-shoulders above Rio de Jaineiro's Christ the Redeemer.",
-        "fatalities": "0",
-        "link": "https://www.bbc.co.uk/news/articles/cn5nnlq2pwpo?at_medium=RSS&at_campaign=rss",
         "critical": false
     }
 ]
