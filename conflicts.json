@@ -1,5 +1,33 @@
 [
     {
+        "country": "Russia",
+        "city": "Moscow",
+        "lat": 55.75970036177944,
+        "lon": 37.58150798868253,
+        "date": "2026-08-17 19:52:55",
+        "type": "Naval",
+        "severity": "normal",
+        "title": "Congressional Democrats plan Oman war powers push after Trump threatens bombing",
+        "description": "Congressional Democrats are planning a new push to constrain President Trump's war powers after he threatened to \"bomb the shit\" out of Oman on Monday.Why it matters: War powers resolutions, though largely symbolic, have become Democrats' go-to tool for trying to rein in what they see as a far too trigger-happy administration.\"At this point we may just need to file war powers resolutions for the 192 other countries,\" Rep. Ro Khanna (D-Calif.) tol",
+        "fatalities": "0",
+        "link": "https://www.axios.com/2026/08/17/trump-oman-democrats-congress-war-powers-iran",
+        "critical": false
+    },
+    {
+        "country": "Israel",
+        "city": "Gaza",
+        "lat": 31.438965153015893,
+        "lon": 34.394813661085,
+        "date": "2026-08-17 19:52:44",
+        "type": "Clashes",
+        "severity": "middle",
+        "title": "Gaza flotilla sets sail from the UK in bid to break Israeli siege",
+        "description": "A boat has left Bristol as part of a wider campaign to break Israel’s blockade and deliver aid to Gaza.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/video/newsfeed/2026/8/17/gaza-flotilla-sets-sail-from-the-uk-in-bid-to-break-israeli-siege?traffic_source=rss",
+        "critical": false
+    },
+    {
         "country": "Ukraine",
         "city": "Kyiv",
         "lat": 50.42964817198521,
@@ -3035,34 +3063,6 @@
         "description": "A crash involving a bus registered in Poland killed 12 people and severely injured at least 10 early Sunday on a Hungary highway, marking the worst accident of its kind in the country in more than 20 years. Poland will send an emergency aircraft to Budapest, Polish Prime Minister Donald Tusk announced.",
         "fatalities": "0",
         "link": "https://www.france24.com/en/europe/20260816-poland-registered-bus-veers-off-hungary-highway-killing-12-people",
-        "critical": false
-    },
-    {
-        "country": "Israel",
-        "city": "Tel Aviv",
-        "lat": 32.13360089838922,
-        "lon": 34.83810445467193,
-        "date": "2026-08-16 12:54:55",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Week in pictures: A solar eclipse, quake in Colombia and Israeli settlers in the occupied West Bank",
-        "description": "A solar eclipse seen across parts of Europe, ongoing search-and-rescue efforts in Colombia after a devastating earthquake killed at least 300 people and left hundreds missing, and escalating violence by Israeli settlers in the occupied West Bank, condemned by the US ambassador to Israel as \"acts of terror\": FRANCE 24 takes a look at the week's most striking images.",
-        "fatalities": "0",
-        "link": "https://www.france24.com/en/europe/20260816-week-in-pictures-a-solar-eclipse-quake-in-colombia-and-israeli-settlers-in-the-occupied-west-bank",
-        "critical": false
-    },
-    {
-        "country": "Israel",
-        "city": "Tel Aviv",
-        "lat": 32.023182378907435,
-        "lon": 34.7666724084264,
-        "date": "2026-08-16 12:54:53",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "‘Spearhead of annexation’: Israel hands West Bank rule to civilian police",
-        "description": "Israels transfer of West Bank policing to civilian forces cements de facto annexation and empowers settler militias.",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/news/2026/8/16/spearhead-of-annexation-israel-hands-west-bank-rule-to-civilian-police?traffic_source=rss",
         "critical": false
     }
 ]
