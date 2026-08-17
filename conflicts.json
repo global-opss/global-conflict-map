@@ -1,5 +1,19 @@
 [
     {
+        "country": "USA",
+        "city": "Washington",
+        "lat": 38.927837082643194,
+        "lon": -77.01300109856935,
+        "date": "2026-08-17 20:26:51",
+        "type": "Evacuation",
+        "severity": "critical",
+        "title": "Middle East demands are testing America's Pacific presence",
+        "description": "The USS George Washington's deployment from Japan to the Middle East to relieve the USS Abraham Lincoln will leave the U.S. without an aircraft carrier in the western Pacific — just as adversaries in the area are flexing their military power.Why it matters: Temporary carrier gaps are not uncommon, but the absence of a striker ship in the Pacific highlights how the Middle East is once again dictating American military policy. It also has raised qu",
+        "fatalities": "0",
+        "link": "https://www.axios.com/2026/08/17/us-allies-pacific-aircraft-carrier-gap",
+        "critical": true
+    },
+    {
         "country": "Russia",
         "city": "Moscow",
         "lat": 55.75970036177944,
@@ -3049,20 +3063,6 @@
         "description": "The Women's Africa Cup of Nations final takes place tonight in Rabat, with Malawi facing Cameroon in a historic showdown. Speaking to FRANCE 24, sports journalist Charlotte Richardson discussed the growing popularity of women's sport, but also the persistent gaps in media coverage, funding and infrastructure compared with men's competitions. She also highlighted the WAFCON's last-minute postponement earlier this year, saying such a decision would",
         "fatalities": "0",
         "link": "https://www.france24.com/en/wafcon-final-women-s-sport-seeks-greater-recognition",
-        "critical": false
-    },
-    {
-        "country": "Europe",
-        "city": "Poland",
-        "lat": 51.97969420595013,
-        "lon": 18.98164583343283,
-        "date": "2026-08-16 12:54:55",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Poland-registered bus veers off Hungary highway, killing 12 people",
-        "description": "A crash involving a bus registered in Poland killed 12 people and severely injured at least 10 early Sunday on a Hungary highway, marking the worst accident of its kind in the country in more than 20 years. Poland will send an emergency aircraft to Budapest, Polish Prime Minister Donald Tusk announced.",
-        "fatalities": "0",
-        "link": "https://www.france24.com/en/europe/20260816-poland-registered-bus-veers-off-hungary-highway-killing-12-people",
         "critical": false
     }
 ]
