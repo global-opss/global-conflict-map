@@ -1,5 +1,19 @@
 [
     {
+        "country": "Africa",
+        "city": "Khartoum",
+        "lat": 15.475919475065448,
+        "lon": 32.62752564409419,
+        "date": "2026-08-17 23:22:48",
+        "type": "Naval",
+        "severity": "normal",
+        "title": "Anti-migrants protesters gather outside SADC Summit",
+        "description": "Protesters in South Africa gather outside of a meeting of regional leaders demanding that they fetch their people. Frustration continues to fester on all sides as Pretoria tries to repair fractured relationships with its neighbours whilst placating the powerful anti-migrant movement.",
+        "fatalities": "0",
+        "link": "https://www.france24.com/en/tv-shows/eye-on-africa/20260817-anti-migrants-protesters-gather-outside-sadc-summit",
+        "critical": false
+    },
+    {
         "country": "Iran",
         "city": "Tehran",
         "lat": 35.7043170283535,
@@ -3050,19 +3064,5 @@
         "fatalities": "0",
         "link": "https://www.france24.com/en/video/20260816-ukraine-russian-strike-destroys-kyiv-book-market",
         "critical": true
-    },
-    {
-        "country": "Israel",
-        "city": "Tel Aviv",
-        "lat": 32.14102154059742,
-        "lon": 34.82366204806552,
-        "date": "2026-08-16 15:46:26",
-        "type": "Clashes",
-        "severity": "middle",
-        "title": "West Bank: Activist recounts life under settler siege in Qusra",
-        "description": "A week after Israeli settlers began besieging Palestinian homes in the West Bank village of Qusra, human rights activist Netanael Hanadaro joined FRANCE 24 to recount what he witnessed there. He said he and other NGO members reached the isolated homes on foot and left food outside for the trapped residents, with the Israeli army saying it would deliver the supplies. Hanadaro described an extraordinary situation in which the homes, located on the ",
-        "fatalities": "0",
-        "link": "https://www.france24.com/en/west-bank-activist-recounts-life-under-settler-siege-in-qusra",
-        "critical": false
     }
 ]
