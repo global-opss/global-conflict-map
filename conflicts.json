@@ -1,5 +1,47 @@
 [
     {
+        "country": "Russia",
+        "city": "Moscow",
+        "lat": 55.743592886060355,
+        "lon": 37.66077803683458,
+        "date": "2026-08-17 04:23:45",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Производитель воды «Ручеек» оспаривает права на «Святой источник ручеек»",
+        "description": "Краснодарский производитель минеральной воды и напитков «Ручеек» обратился в Палату по патентным спорам, пытаясь оспорить использование IDS Borjomi Russia торговой марки «Святой источник ручеек», следует из материалов палаты. Заседание коллегии для рассмотрения спора намечено на 18 августа.",
+        "fatalities": "0",
+        "link": "https://www.kommersant.ru/doc/8890909",
+        "critical": false
+    },
+    {
+        "country": "Israel",
+        "city": "Tel Aviv",
+        "lat": 32.11158711332532,
+        "lon": 34.825272463532116,
+        "date": "2026-08-17 04:23:19",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Palestinian-American travels to West Bank home encircled by Israeli settler",
+        "description": "Palestinian-American Loui Ridi is flying from the US to Qusra, where Israeli settlers have encircled his family’s home.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/video/newsfeed/2026/8/17/08-17-26-pal-american-qusra-sv-mp4?traffic_source=rss",
+        "critical": false
+    },
+    {
+        "country": "Iran",
+        "city": "Tehran",
+        "lat": 35.649101976206296,
+        "lon": 51.38738594972137,
+        "date": "2026-08-17 04:23:17",
+        "type": "Clashes",
+        "severity": "middle",
+        "title": "U.S. and Iran Blow Through Deadline to Agree to a Broad Deal to End War",
+        "description": "President Trump said a cease-fire agreed in June would lead to limits on Iran’s nuclear program and finish the conflict, but the countries appear far apart.",
+        "fatalities": "0",
+        "link": "https://www.nytimes.com/2026/08/17/world/middleeast/iran-mou-deadline.html",
+        "critical": false
+    },
+    {
         "country": "Iran",
         "city": "Tehran",
         "lat": 35.64982065050253,
@@ -3022,47 +3064,5 @@
         "fatalities": "0",
         "link": "https://www.aljazeera.com/sports/2026/8/15/fifas-infantino-gets-giuliani-backing-in-world-cup-selloff-fallout?traffic_source=rss",
         "critical": false
-    },
-    {
-        "country": "Iran",
-        "city": "Tehran",
-        "lat": 35.68783534531258,
-        "lon": 51.34260044831002,
-        "date": "2026-08-15 10:01:21",
-        "type": "Clashes",
-        "severity": "middle",
-        "title": "As China Pushes to Expand in Asia, Trump Focuses on Iran",
-        "description": "Asian allies are beginning to wonder whether the United States would or could defend them in a war.",
-        "fatalities": "0",
-        "link": "https://www.nytimes.com/2026/08/15/us/politics/china-expansion-asia-trump-iran.html",
-        "critical": false
-    },
-    {
-        "country": "Ukraine",
-        "city": "Kyiv",
-        "lat": 50.43381539129763,
-        "lon": 30.46225131036237,
-        "date": "2026-08-15 09:40:47",
-        "type": "Evacuation",
-        "severity": "critical",
-        "title": "Ukraine’s F-16s are being worn out from intercepting Russian drones",
-        "description": "Ukrainian F-16s have destroyed more than 2,500 one-way attack drones, but repeated interceptions are wearing out the country's small fleet.",
-        "fatalities": "0",
-        "link": "https://www.militarytimes.com/flashpoints/ukraine/2026/07/30/ukraines-f-16s-are-being-worn-out-from-intercepting-russian-drones/",
-        "critical": true
-    },
-    {
-        "country": "Iran",
-        "city": "Tehran",
-        "lat": 35.670755249460925,
-        "lon": 51.43001583962396,
-        "date": "2026-08-15 09:40:47",
-        "type": "Airstrike",
-        "severity": "critical",
-        "title": "US launches new round of strikes against Iran",
-        "description": "The U.S. conducted a new wave of strikes against Iranian military sites on Wednesday after reimposing a naval blockade of the Islamic Republic's ports.",
-        "fatalities": "0",
-        "link": "https://www.militarytimes.com/flashpoints/2026/07/15/us-launches-new-round-of-strikes-against-iran/",
-        "critical": true
     }
 ]
