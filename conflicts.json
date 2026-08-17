@@ -1,5 +1,19 @@
 [
     {
+        "country": "Iran",
+        "city": "Tehran",
+        "lat": 35.7043170283535,
+        "lon": 51.381347005096536,
+        "date": "2026-08-17 22:50:24",
+        "type": "Clashes",
+        "severity": "middle",
+        "title": "Trump’s approval rating sinks to new low at 33 percent",
+        "description": "New poll found a majority of US citizens concerned about the US war on Iran.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/economy/2026/8/17/trumps-approval-rating-sinks-to-new-low?traffic_source=rss",
+        "critical": false
+    },
+    {
         "country": "Asia",
         "city": "Pakistan",
         "lat": 31.50198187130662,
@@ -3050,19 +3064,5 @@
         "fatalities": "0",
         "link": "https://www.france24.com/en/west-bank-activist-recounts-life-under-settler-siege-in-qusra",
         "critical": false
-    },
-    {
-        "country": "Russia",
-        "city": "Moscow",
-        "lat": 55.75396228387737,
-        "lon": 37.68179176537343,
-        "date": "2026-08-16 15:46:20",
-        "type": "Airstrike",
-        "severity": "critical",
-        "title": "Largest Ukrainian drone attack on Russia, Moscow says 822 drones shot down",
-        "description": "Ukraine launched hundreds of drones across Russia, killing at least six people and striking a Wildberries logistics hub.",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/video/newsfeed/2026/8/16/16-08-sv-ukraine-largest-drone-attack-russia-ua?traffic_source=rss",
-        "critical": true
     }
 ]
