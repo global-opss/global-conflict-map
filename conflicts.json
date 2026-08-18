@@ -1,5 +1,61 @@
 [
     {
+        "country": "Russia",
+        "city": "Moscow",
+        "lat": 55.71463323479921,
+        "lon": 37.60672023696187,
+        "date": "2026-08-18 11:10:18",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Flight-tracking data shows continued Russian air bridge to sub-Saharan Africa",
+        "description": "A recent report from the Center for Advanced Defense Studies found that Russian state-aligned military forces flew at least 75 flights in Central Sahel.",
+        "fatalities": "0",
+        "link": "https://www.defensenews.com/global/europe/2026/08/13/flight-tracking-data-shows-continued-russian-air-bridge-to-sub-saharan-africa/",
+        "critical": false
+    },
+    {
+        "country": "Israel",
+        "city": "Tel Aviv",
+        "lat": 32.07262607028313,
+        "lon": 34.732323864991,
+        "date": "2026-08-18 11:10:14",
+        "type": "Clashes",
+        "severity": "middle",
+        "title": "West Bank village of Qusra under siege by extremist Israeli settlers",
+        "description": "In the occupied West Bank, the Palestinian village of Qusra remains under siege by extremist Israeli settlers. They are trying to force families off their land through tactics including cutting off access to food and water. A Palestinian-American who owns a house in the village has returned to Qusra from Ohio. Louai Abo Ridi says he fears for safety amid reports of the Israeli army turning a blind eye to settler violence. In this clip from today,",
+        "fatalities": "0",
+        "link": "https://www.france24.com/en/west-bank-village-of-qusra-under-siege-by-extremist-israeli-settlers",
+        "critical": false
+    },
+    {
+        "country": "Asia",
+        "city": "Host",
+        "lat": 33.402650790765094,
+        "lon": 69.9120966489959,
+        "date": "2026-08-18 11:10:14",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "‘Come fetch your people’: 300 anti-migrants protesters call out to SADC leaders",
+        "description": "South Africa hosted a gathering of leaders from the southern African regional bloc amid xenophobic violence and anti-migrant protests. As the continent’s wealthiest country, South Africa has long attracted migrants, but it faces an unemployment rate of over 30 percent and deep-seated inequalities. Pretoria has called for a continent-wide conference on the issue of migration. Details by Eunice Masson, FRANCE 24 correspondent in Cape Town.",
+        "fatalities": "0",
+        "link": "https://www.france24.com/en/come-fetch-your-people-300-anti-migrants-protesters-call-out-to-sadc-leaders",
+        "critical": false
+    },
+    {
+        "country": "USA",
+        "city": "Washington",
+        "lat": 38.89333431810777,
+        "lon": -77.06696821317789,
+        "date": "2026-08-18 11:10:08",
+        "type": "Airstrike",
+        "severity": "critical",
+        "title": "Deaths mount, trauma sets in as Russia ramps up missile attacks on Ukraine",
+        "description": "Ukrainian families mourn their loved ones as experts lament Washingtons elusive promises of military support.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/news/2026/8/18/putins-illusion-of-victory-russia-ramps-up-missile-attacks-on-ukraine?traffic_source=rss",
+        "critical": true
+    },
+    {
         "country": "Israel",
         "city": "Jerusalem",
         "lat": 31.74779222406585,
@@ -602,20 +658,6 @@
         "critical": false
     },
     {
-        "country": "China",
-        "city": "Beijing",
-        "lat": 39.94856787616644,
-        "lon": 116.41309418133798,
-        "date": "2026-08-18 06:56:38",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Clamping down: China tightens exit rules",
-        "description": "The Chinese government announced new border regulations in late July in a move seen as expanding state control over its citizens. The new rules, which come into effect on September 15, tighten checks on travellers and provide new grounds for restricting Chinese citizens from leaving the country, including exit bans of up to three years in some cases.",
-        "fatalities": "0",
-        "link": "https://www.france24.com/en/asia-pacific/20260818-clamping-down-china-tightens-exit-rules",
-        "critical": false
-    },
-    {
         "country": "Ukraine",
         "city": "Kyiv",
         "lat": 50.45510127737832,
@@ -641,6 +683,20 @@
         "description": "A senior Pentagon official pushed back against reports that the U.S. military’s stockpiles and capabilities are strained following Operation Epic Fury.",
         "fatalities": "0",
         "link": "https://www.defensenews.com/global/asia-pacific/2026/08/11/colby-pushes-back-on-dwindling-stockpile-reports-amid-southeast-asia-tour/",
+        "critical": false
+    },
+    {
+        "country": "China",
+        "city": "Beijing",
+        "lat": 39.94856787616644,
+        "lon": 116.41309418133798,
+        "date": "2026-08-18 06:56:38",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Clamping down: China tightens exit rules",
+        "description": "The Chinese government announced new border regulations in late July in a move seen as expanding state control over its citizens. The new rules, which come into effect on September 15, tighten checks on travellers and provide new grounds for restricting Chinese citizens from leaving the country, including exit bans of up to three years in some cases.",
+        "fatalities": "0",
+        "link": "https://www.france24.com/en/asia-pacific/20260818-clamping-down-china-tightens-exit-rules",
         "critical": false
     },
     {
@@ -3007,62 +3063,6 @@
         "description": "The African Union is seeking progress in Sudan, but must overcome deep battlefield and diplomatic divisions.",
         "fatalities": "0",
         "link": "https://www.aljazeera.com/news/2026/8/17/can-the-au-make-its-current-sudan-mission-count?traffic_source=rss",
-        "critical": false
-    },
-    {
-        "country": "Israel",
-        "city": "Gaza",
-        "lat": 31.535819168358117,
-        "lon": 34.51525156583693,
-        "date": "2026-08-17 01:15:55",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Israel releases 35 Palestinian prisoners back into Gaza",
-        "description": "Emotional reunions greeted 35 Palestinians prisoners released by Israel into Gaza.",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/video/newsfeed/2026/8/17/08-17-26-pal-prisoners-release-sv-mp4?traffic_source=rss",
-        "critical": false
-    },
-    {
-        "country": "Israel",
-        "city": "Gaza",
-        "lat": 31.486565952161435,
-        "lon": 34.50965094139021,
-        "date": "2026-08-17 01:15:55",
-        "type": "Clashes",
-        "severity": "middle",
-        "title": "Iran war live: Tehran-US MoU set to expire; Hamas’s al-Khayya meets Kushner",
-        "description": "Hamas calls on Board of Peace to compel Israel to accept the Gaza peace plan after meeting Jared Kushner in Cairo.",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/news/liveblog/2026/8/17/iran-war-live-tehran-us-mou-set-to-expire-hamass-al-khayya-meets-kushner?traffic_source=rss",
-        "critical": false
-    },
-    {
-        "country": "Israel",
-        "city": "Tel Aviv",
-        "lat": 32.10742884273648,
-        "lon": 34.81598100720717,
-        "date": "2026-08-17 01:15:55",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "UN’s Albanese: Israel outsourcing coercion to settlers in West Bank",
-        "description": "UN Special Rapporteur Francesca Albanese says Israel bears responsibility and is outsourcing coercion to settlers.",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/video/newsfeed/2026/8/16/uns-albanese-israel-outsourcing-coercion-to-settlers-in-west-bank?traffic_source=rss",
-        "critical": false
-    },
-    {
-        "country": "Israel",
-        "city": "Gaza",
-        "lat": 31.549821013643214,
-        "lon": 34.516859673001875,
-        "date": "2026-08-17 01:15:55",
-        "type": "Clashes",
-        "severity": "middle",
-        "title": "Israeli minister calls for killing ’30 to 40′ Palestinians in Gaza nightly",
-        "description": "Far-right National Security Minister Ben-Gvir sits on Israels security cabinet, which helps shape war and policy.",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/news/2026/8/16/israeli-minister-calls-for-killing-30-to-40-palestinians-in-gaza-nightly?traffic_source=rss",
         "critical": false
     }
 ]
