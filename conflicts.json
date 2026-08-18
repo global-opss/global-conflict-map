@@ -1,5 +1,61 @@
 [
     {
+        "country": "Iran",
+        "city": "Tehran",
+        "lat": 35.6940593324925,
+        "lon": 51.42240023589919,
+        "date": "2026-08-18 21:51:18",
+        "type": "Clashes",
+        "severity": "middle",
+        "title": "Just one in three Americans backs Iran war, most unsure of Trump’s goals, poll finds",
+        "description": "A Reuters/Ipsos poll found that 69% of Americans think President Donald Trump has not “clearly explained the goals of U.S. military involvement in Iran.”",
+        "fatalities": "0",
+        "link": "https://www.militarytimes.com/news/pentagon-congress/2026/07/31/just-one-in-three-americans-back-iran-war-most-unsure-of-trumps-goals-poll-finds/",
+        "critical": false
+    },
+    {
+        "country": "Iran",
+        "city": "Tehran",
+        "lat": 35.74969057689033,
+        "lon": 51.40133866837249,
+        "date": "2026-08-18 21:51:18",
+        "type": "Naval",
+        "severity": "normal",
+        "title": "Iran to get Chinese shoulder-launched missile systems in weeks, sources say",
+        "description": "Iran is expected to receive within weeks a first shipment out of up to 400 Chinese-made shoulder-fired air defense missile launchers.",
+        "fatalities": "0",
+        "link": "https://www.militarytimes.com/industry/techwatch/2026/07/30/iran-to-get-chinese-shoulder-launched-missile-systems-in-weeks-sources-say/",
+        "critical": false
+    },
+    {
+        "country": "Ukraine",
+        "city": "Kyiv",
+        "lat": 50.38512440128306,
+        "lon": 30.52538712504045,
+        "date": "2026-08-18 21:51:18",
+        "type": "Naval",
+        "severity": "normal",
+        "title": "From steppe to sea, a Ukrainian drone unit hunts Russian ships",
+        "description": "Drone units operating far behind the front line on Ukraine’s sweeping steppe have hit more than 180 vessels and other sea-borne targets in recent weeks.",
+        "fatalities": "0",
+        "link": "https://www.militarytimes.com/global/europe/2026/07/24/from-steppe-to-sea-a-ukrainian-drone-unit-hunts-russian-ships/",
+        "critical": false
+    },
+    {
+        "country": "USA",
+        "city": "Pentagon",
+        "lat": 38.888330222502525,
+        "lon": -77.07146562385981,
+        "date": "2026-08-18 21:51:11",
+        "type": "Airstrike",
+        "severity": "critical",
+        "title": "Why is the US ramping up Tomahawk production?",
+        "description": "Pentagon contracts defence manufacturer to increase output of cruise missiles.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/video/inside-story/2026/8/18/why-is-the-us-ramping-up-tomahawk-production?traffic_source=rss",
+        "critical": true
+    },
+    {
         "country": "Europe",
         "city": "London",
         "lat": 51.554625966649446,
@@ -14,20 +70,6 @@
         "critical": false
     },
     {
-        "country": "Asia",
-        "city": "Pakistan",
-        "lat": 31.52143527684303,
-        "lon": 74.34092306222885,
-        "date": "2026-08-18 21:30:22",
-        "type": "Clashes",
-        "severity": "middle",
-        "title": "Final election phase begins in Pakistan-administered Kashmir despite banned group’s boycott call",
-        "description": "MUZAFFARABAD, Pakistan: Voters went to the polls Monday in the final phase of elections for the legislative assembly in Pakistan-administered Kashmir, following weeks of violent protests and clashes with security forces that overshadowed campaigning in the disputed Himalayan region, officials said.\n\n\tMen and women began lining up early at polling stations in Poonch district in the disputed Himalayan region, where four assembly seats were being co",
-        "fatalities": "0",
-        "link": "https://www.arabnews.com/node/2654152/world",
-        "critical": false
-    },
-    {
         "country": "Africa",
         "city": "Libya",
         "lat": 26.28715878897831,
@@ -39,6 +81,20 @@
         "description": "TRIPOLI: A fire broke out on Monday ​in a diesel tank at Libya’s Zawiya refinery days after the facility was hit by drone.\n\n\tThe circumstances of Monday's fire remained unknown, Brega Petroleum Marketing Company said in a statement.\n\tBrega is owned by state oil firm National Oil Corporation (NOC) and is in charge of ‌fuel supplies.\n\tZawiya refinery is the ‌largest in the ​country ‌while Ras ​Lanuf is out ⁠of operation and is located around 40 kil",
         "fatalities": "0",
         "link": "https://www.arabnews.com/node/2654151/middle-east",
+        "critical": false
+    },
+    {
+        "country": "Asia",
+        "city": "Pakistan",
+        "lat": 31.52143527684303,
+        "lon": 74.34092306222885,
+        "date": "2026-08-18 21:30:22",
+        "type": "Clashes",
+        "severity": "middle",
+        "title": "Final election phase begins in Pakistan-administered Kashmir despite banned group’s boycott call",
+        "description": "MUZAFFARABAD, Pakistan: Voters went to the polls Monday in the final phase of elections for the legislative assembly in Pakistan-administered Kashmir, following weeks of violent protests and clashes with security forces that overshadowed campaigning in the disputed Himalayan region, officials said.\n\n\tMen and women began lining up early at polling stations in Poonch district in the disputed Himalayan region, where four assembly seats were being co",
+        "fatalities": "0",
+        "link": "https://www.arabnews.com/node/2654152/world",
         "critical": false
     },
     {
@@ -3007,62 +3063,6 @@
         "description": "The European Court of Human Rights has dismissed the case, but the plaintiffs arent giving up.",
         "fatalities": "0",
         "link": "https://www.aljazeera.com/news/2026/8/17/no-roads-will-europe-hear-a-landmark-russian-climate-change-case?traffic_source=rss",
-        "critical": false
-    },
-    {
-        "country": "Israel",
-        "city": "Tel Aviv",
-        "lat": 32.03289330079284,
-        "lon": 34.78684182237525,
-        "date": "2026-08-17 12:50:41",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Israel’s religious right is changing the state from within",
-        "description": "Religious fundamentalism is advancing through Israel’s institutions, narrowing freedoms and deepening inequality.",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/opinions/2026/8/17/israels-religious-right-is-changing-the-state-from-within?traffic_source=rss",
-        "critical": false
-    },
-    {
-        "country": "Iran",
-        "city": "Tehran",
-        "lat": 35.66299641047155,
-        "lon": 51.44904150531281,
-        "date": "2026-08-17 12:50:41",
-        "type": "Airstrike",
-        "severity": "critical",
-        "title": "US-Iran Memorandum of Understanding expires: How and why it fell apart",
-        "description": "Trump deemed the MoU over within a month of it being signed, as the two sides traded attacks despite a ceasefire.",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/news/2026/8/17/us-iran-memorandum-of-understanding-expires-how-and-why-it-fell-apart?traffic_source=rss",
-        "critical": true
-    },
-    {
-        "country": "China",
-        "city": "Beijing",
-        "lat": 39.92915315396564,
-        "lon": 116.36744379473498,
-        "date": "2026-08-17 12:50:41",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "How China-India border tensions are rising again over encroachment claims",
-        "description": "India and China are tangled in yet another border dispute, angering locals in the eastern state of Arunachal Pradesh.",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/news/2026/8/17/is-china-encroaching-upon-indian-territory-in-arunachal-pradesh-2?traffic_source=rss",
-        "critical": false
-    },
-    {
-        "country": "Israel",
-        "city": "Gaza",
-        "lat": 31.47482023990017,
-        "lon": 34.45831940048685,
-        "date": "2026-08-17 12:50:35",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Kushner Meets Netanyahu in Israel in Effort to Break Logjam Over Gaza",
-        "description": "Prime Minister Benjamin Netanyahu of Israel has refused to pull back the country’s military until Hamas fully disarms. But the Trump administration is under pressure to show progress.",
-        "fatalities": "0",
-        "link": "https://www.nytimes.com/2026/08/17/world/middleeast/kushner-netanyahu-gaza-peace-deal.html",
         "critical": false
     }
 ]
