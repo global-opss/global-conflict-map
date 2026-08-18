@@ -1,5 +1,47 @@
 [
     {
+        "country": "Israel",
+        "city": "Tel Aviv",
+        "lat": 32.04717191099214,
+        "lon": 34.80609220787162,
+        "date": "2026-08-18 13:59:59",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "More and more Christian families pressured to leave the West Bank by Israeli settlers",
+        "description": "Christian leaders and religious figures in the West Bank say difficult living conditions are pushing an increasing number of Christian families to leave their homes. The reality is threatening the historic presence of Christians in Palestinian territories. France 24's correspondent Majed Saeed reports.",
+        "fatalities": "0",
+        "link": "https://www.france24.com/en/more-and-more-christian-families-pressured-to-leave-the-west-bank-by-israeli-settlers",
+        "critical": false
+    },
+    {
+        "country": "Iran",
+        "city": "Tehran",
+        "lat": 35.6466817405987,
+        "lon": 51.38259193900525,
+        "date": "2026-08-18 13:59:56",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Qatar: Iran’s claim that Doha is holding missing pilots is a ‘media ploy’",
+        "description": "Qatar says Iran’s claim it is holding missing aircrew is untrue and a “media ploy”, with Tehran yet to verify it.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/video/newsfeed/2026/8/18/qatar-irans-claim-that-doha-is-holding-missing-pilots-is-a-media-ploy?traffic_source=rss",
+        "critical": false
+    },
+    {
+        "country": "Israel",
+        "city": "Tel Aviv",
+        "lat": 32.124019196029344,
+        "lon": 34.71216646471669,
+        "date": "2026-08-18 13:59:56",
+        "type": "Clashes",
+        "severity": "middle",
+        "title": "Palestinian-American confronts Israeli settler at his besieged home",
+        "description": "Palestinian-American Loui Abu Ridi confronted an Israeli settler at his home in Qusra, south of Nablus.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/video/newsfeed/2026/8/18/palestinian-american-confronts-israeli-settler-at-his-besieged-home?traffic_source=rss",
+        "critical": false
+    },
+    {
         "country": "Europe",
         "city": "Brussels",
         "lat": 50.848419245533364,
@@ -3021,48 +3063,6 @@
         "description": "President Donald Trump on Sunday ordered the Pentagon to scale back \"inappropriate and hostile\" military drills with South Korea, claiming that the ally had failed to help with the war against Iran and citing his \"good relationship\" with North Korean leader Kim Jong-un.",
         "fatalities": "0",
         "link": "https://www.france24.com/en/americas/20260817-trump-orders-pentagon-to-scale-back-military-drills-with-south-korea-hours-before-start",
-        "critical": false
-    },
-    {
-        "country": "Asia",
-        "city": "Tokyo",
-        "lat": 35.64435270566318,
-        "lon": 139.70660241594356,
-        "date": "2026-08-17 05:08:19",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Record rains drench South Korean city as landslide kills one",
-        "description": "It comes as large swathes of East and South East Asia have been pummelled by dats of heavy rain.",
-        "fatalities": "0",
-        "link": "https://www.bbc.co.uk/news/articles/cvgww971nn2o?at_medium=RSS&at_campaign=rss",
-        "critical": false
-    },
-    {
-        "country": "Israel",
-        "city": "Gaza",
-        "lat": 31.444582612289526,
-        "lon": 34.41606344973662,
-        "date": "2026-08-17 05:08:17",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Trump envoy Kushner arrives in Israel after rare Hamas talks on Gaza peace plan",
-        "description": "US President Trump's son-in-law Jared Kushner is expected to meet Israeli Prime Minister Benjamin Netanyahu later on Monday.",
-        "fatalities": "0",
-        "link": "https://www.bbc.co.uk/news/articles/c77gg5vn44yo?at_medium=RSS&at_campaign=rss",
-        "critical": false
-    },
-    {
-        "country": "Russia",
-        "city": "Moscow",
-        "lat": 55.743592886060355,
-        "lon": 37.66077803683458,
-        "date": "2026-08-17 04:23:45",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Производитель воды «Ручеек» оспаривает права на «Святой источник ручеек»",
-        "description": "Краснодарский производитель минеральной воды и напитков «Ручеек» обратился в Палату по патентным спорам, пытаясь оспорить использование IDS Borjomi Russia торговой марки «Святой источник ручеек», следует из материалов палаты. Заседание коллегии для рассмотрения спора намечено на 18 августа.",
-        "fatalities": "0",
-        "link": "https://www.kommersant.ru/doc/8890909",
         "critical": false
     }
 ]
