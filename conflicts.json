@@ -1,5 +1,19 @@
 [
     {
+        "country": "Europe",
+        "city": "London",
+        "lat": 51.472678332227304,
+        "lon": -0.12906604449771458,
+        "date": "2026-08-18 04:18:41",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Thousands mourn Jason Arday in London, blaming ‘racist’ press for his death",
+        "description": "Mourners blame relentless and racist media scrutiny for former Cambridge University professors death.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/features/2026/8/18/tens-of-thousands-mourn-jason-arday-in-london-blaming-press-for-his-death?traffic_source=rss",
+        "critical": false
+    },
+    {
         "country": "Ukraine",
         "city": "Odesa",
         "lat": 46.46924814902901,
@@ -3049,20 +3063,6 @@
         "description": "Страны Персидского залива, включая Саудовскую Аравию, ОАЭ, Катар, Кувейт и Бахрейн, недовольны подходом американского президента Дональда Трампа к переговорам с Ираном, сообщает Washington Post со ссылкой на чиновников. Читать далее",
         "fatalities": "0",
         "link": "https://russian.rt.com/world/news/1670556-strany-persidskogo-zaliva?utm_source=rss&utm_medium=rss&utm_campaign=RSS",
-        "critical": false
-    },
-    {
-        "country": "USA",
-        "city": "Washington",
-        "lat": 38.83012448229033,
-        "lon": -77.01263511783253,
-        "date": "2026-08-16 16:01:26",
-        "type": "Naval",
-        "severity": "normal",
-        "title": "Dorm rooms are tiny. The dorm decor economy is not.",
-        "description": "Dorm rooms are tiny. The dorm decor economy is not.The big picture: College dorms are becoming customized, social-media-ready micro-apartments, but the market looks wildly different depending on which side of the Mason-Dixon line your campus sits.Zoom out: The multi-thousand-dollar \"designer dorm\" industry has grown alongside viral TikTok dorm tours and hauls, and parents hoping to make their child's transition to college easier.Shelly Gates, fou",
-        "fatalities": "0",
-        "link": "https://www.axios.com/2026/08/14/college-dorm-decor-economy",
         "critical": false
     }
 ]
