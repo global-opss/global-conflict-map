@@ -1,5 +1,33 @@
 [
     {
+        "country": "Middle East",
+        "city": "Damascus",
+        "lat": 33.541404383136566,
+        "lon": 36.34631413999566,
+        "date": "2026-08-18 17:27:18",
+        "type": "Nuclear",
+        "severity": "critical",
+        "title": "UN inspectors visit undeclared Syrian nuclear sites for first time",
+        "description": "UN inspectors this week visited several undeclared Assad-era Syrian nuclear sites for the first time — including some used to store nuclear material. Why it matters: The inspections by International Atomic Energy Agency (IAEA) Director General Rafael Grossi and his team came after diplomatic efforts by the Trump administration, first reported by Axios, that produced understandings with both Syria and Israel.It marked the first time the IAEA was g",
+        "fatalities": "0",
+        "link": "https://www.axios.com/2026/08/18/syria-nuclear-reactors-iaea",
+        "critical": true
+    },
+    {
+        "country": "Israel",
+        "city": "Gaza",
+        "lat": 31.449630082251335,
+        "lon": 34.47807154782815,
+        "date": "2026-08-18 17:27:12",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Disarmament, humanitarian aid at centre of new Gaza ‘working groups’",
+        "description": "What to know about the new Gaza working groups conditioning reconstruction on immediate disarmament.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/news/2026/8/18/what-to-know-about-gaza-working-groups-and-their-mandate?traffic_source=rss",
+        "critical": false
+    },
+    {
         "country": "USA",
         "city": "Washington",
         "lat": 38.955478018536844,
@@ -3035,34 +3063,6 @@
         "description": "Thousands remain displaced after magnitude 7.7 quake struck East Nusa Tenggara province on Saturday.",
         "fatalities": "0",
         "link": "https://www.aljazeera.com/news/2026/8/17/thousands-await-aid-after-deadly-indonesia-quake-as-rescue-work-conducted?traffic_source=rss",
-        "critical": false
-    },
-    {
-        "country": "Israel",
-        "city": "Gaza",
-        "lat": 31.45376403498233,
-        "lon": 34.4911005425025,
-        "date": "2026-08-17 10:34:05",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Kushner Meets Netanyahu in Effort to Break Logjam Over Gaza",
-        "description": "Prime Minister Benjamin Netanyahu of Israel has refused to pull back the country’s military until Hamas fully disarms. But the Trump administration is under pressure to show progress.",
-        "fatalities": "0",
-        "link": "https://www.nytimes.com/2026/08/17/world/middleeast/kushner-netanyahu-gaza-peace-deal.html",
-        "critical": false
-    },
-    {
-        "country": "USA",
-        "city": "New york",
-        "lat": 40.69345405971388,
-        "lon": -74.04592315867042,
-        "date": "2026-08-17 09:56:25",
-        "type": "Clashes",
-        "severity": "middle",
-        "title": "The Democratic establishment's ideas deficit",
-        "description": "The centrist Democratic group Third Way recently declared \"war\" on democratic socialists to head off what they fear could be a far-left hijacking of the party ahead of 2028.But establishment Democrats have made clear what they're against without making much of a case for what they're for.Why it matters: It's hard to beat something with nothing.Democratic socialism, whatever you think of it, is easy to grasp: Tax billionaires and redistribute weal",
-        "fatalities": "0",
-        "link": "https://www.axios.com/2026/08/17/democratic-establishment-socialism-third-way-2028",
         "critical": false
     }
 ]
