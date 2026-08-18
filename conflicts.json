@@ -1,5 +1,33 @@
 [
     {
+        "country": "Ukraine",
+        "city": "Zaporizhzhia",
+        "lat": 47.89651934249265,
+        "lon": 35.18300151684,
+        "date": "2026-08-18 20:57:53",
+        "type": "Drone",
+        "severity": "middle",
+        "title": "Russia reports Ukrainian drone strike near Zaporizhzhia nuclear plant",
+        "description": "Concern over the security of Europes largest nuclear plant has been rife since Russia launched its full-scale war.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/news/2026/8/18/russia-reports-ukrainian-drone-strike-near-zaporizhzhia-nuclear-plant?traffic_source=rss",
+        "critical": false
+    },
+    {
+        "country": "Ukraine",
+        "city": "Kharkiv",
+        "lat": 49.99168155398463,
+        "lon": 36.19463143667046,
+        "date": "2026-08-18 20:57:53",
+        "type": "Airstrike",
+        "severity": "critical",
+        "title": "Russian missile strike kills 10 civilians in Kharkiv",
+        "description": "A Russian missile strike on Pechenihy, in Ukraine’s Kharkiv region, killed at least 10 civilians and wounded 17 others.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/video/newsfeed/2026/8/18/russian-missile-strike-kills-10-civilians-in-kharkiv?traffic_source=rss",
+        "critical": true
+    },
+    {
         "country": "Middle East",
         "city": "Damascus",
         "lat": 33.54895248664961,
@@ -3035,34 +3063,6 @@
         "description": "Yasser Ayad, 16, has become a culinary star on social media as he cooks traiditional Palestinain dishes in Gaza.",
         "fatalities": "0",
         "link": "https://www.aljazeera.com/features/2026/8/17/watch-young-chef-16-cooking-up-gourmet-meals-in-gaza?traffic_source=rss",
-        "critical": false
-    },
-    {
-        "country": "USA",
-        "city": "Washington",
-        "lat": 38.8540352873411,
-        "lon": -77.0753665805708,
-        "date": "2026-08-17 11:35:58",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Thousands await aid after deadly Indonesia quake as rescue work under way",
-        "description": "Thousands remain displaced after a magnitude 7.7 earthquake struck East Nusa Tenggara province on Saturday.",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/news/2026/8/17/thousands-await-aid-after-deadly-indonesia-quake-as-rescue-work-conducted?traffic_source=rss",
-        "critical": false
-    },
-    {
-        "country": "China",
-        "city": "Beijing",
-        "lat": 39.843162214708556,
-        "lon": 116.35686878821537,
-        "date": "2026-08-17 11:35:58",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Is China encroaching upon Indian territory in Arunachal Pradesh?",
-        "description": "India and China are tangled in yet another border dispute, angering locals in the eastern state of Arunachal Pradesh.",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/news/2026/8/17/is-china-encroaching-upon-indian-territory-in-arunachal-pradesh-2?traffic_source=rss",
         "critical": false
     }
 ]
