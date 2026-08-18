@@ -2,6 +2,34 @@
     {
         "country": "Iran",
         "city": "Tehran",
+        "lat": 35.69509676318453,
+        "lon": 51.38375640438486,
+        "date": "2026-08-18 22:23:29",
+        "type": "Naval",
+        "severity": "normal",
+        "title": "Trump says no Iran talks planned, insists Strait of Hormuz remains open",
+        "description": "US President Donald Trump said on Tuesday there were no talks planned with Iran and insisted the Strait of Hormuz remained open, despite limited traffic and a reported attack on a ship. Trump also threatened Oman as it sought to broker a shipping agreement with Tehran, regional officials said.",
+        "fatalities": "0",
+        "link": "https://www.france24.com/en/middle-east/20260818-trump-says-no-iran-talks-planned-insists-strait-of-hormuz-remains-open",
+        "critical": false
+    },
+    {
+        "country": "Israel",
+        "city": "Gaza",
+        "lat": 31.572223274183372,
+        "lon": 34.52242382245958,
+        "date": "2026-08-18 22:23:19",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Kushner Meets Netanyahu in Israel in Effort to Break Logjam Over Gaza",
+        "description": "Prime Minister Benjamin Netanyahu of Israel has refused to pull back the country’s military until Hamas fully disarms. But the Trump administration is under pressure to show progress.",
+        "fatalities": "0",
+        "link": "https://www.nytimes.com/2026/08/17/world/middleeast/kushner-netanyahu-gaza-peace-deal.html",
+        "critical": false
+    },
+    {
+        "country": "Iran",
+        "city": "Tehran",
         "lat": 35.6940593324925,
         "lon": 51.42240023589919,
         "date": "2026-08-18 21:51:18",
@@ -3035,34 +3063,6 @@
         "description": "",
         "fatalities": "0",
         "link": "https://www.france24.com/en/middle-east/20260817-middle-east-live-us-envoy-kushner-to-meet-netanyahu-after-talks-with-hamas",
-        "critical": false
-    },
-    {
-        "country": "Asia",
-        "city": "Seoul",
-        "lat": 37.49154806925801,
-        "lon": 127.06329716165287,
-        "date": "2026-08-17 12:50:41",
-        "type": "Clashes",
-        "severity": "middle",
-        "title": "Trump scales down war games with South Korea: Why it matters",
-        "description": "US president cites Seouls reluctance to back his war on Iran, and his warm ties with North Koreas leader as reasons.",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/news/2026/8/17/trump-scales-down-war-games-with-south-korea-why-it-matters?traffic_source=rss",
-        "critical": false
-    },
-    {
-        "country": "Russia",
-        "city": "Moscow",
-        "lat": 55.7193354414785,
-        "lon": 37.57319550711263,
-        "date": "2026-08-17 12:50:41",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Will Europe hear a landmark Russian climate change case?",
-        "description": "The European Court of Human Rights has dismissed the case, but the plaintiffs arent giving up.",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/news/2026/8/17/no-roads-will-europe-hear-a-landmark-russian-climate-change-case?traffic_source=rss",
         "critical": false
     }
 ]
