@@ -1,5 +1,19 @@
 [
     {
+        "country": "Europe",
+        "city": "Brussels",
+        "lat": 50.85352593068314,
+        "lon": 4.406790805698233,
+        "date": "2026-08-18 23:47:26",
+        "type": "Naval",
+        "severity": "normal",
+        "title": "Europe’s seas reach record heat as climate change threatens marine life",
+        "description": "Human-caused climate change was the main driver of record-breaking sea temperatures around Europe this summer, scientists said on Wednesday, warning of severe risks to marine ecosystems and coastal communities. The Mediterranean averaged a record 27 degrees Celsius in July, while waters near Mallorca reached 33 C in early August.",
+        "fatalities": "0",
+        "link": "https://www.france24.com/en/environment/20260818-europe-seas-record-heat-climate-change-marine-life",
+        "critical": false
+    },
+    {
         "country": "Africa",
         "city": "Khartoum",
         "lat": 15.568236088509396,
@@ -3050,19 +3064,5 @@
         "fatalities": "0",
         "link": "https://www.bbc.co.uk/news/articles/cn7n4lm11vro?at_medium=RSS&at_campaign=rss",
         "critical": true
-    },
-    {
-        "country": "Africa",
-        "city": "Mali",
-        "lat": 12.582290903167848,
-        "lon": -7.9516512574690985,
-        "date": "2026-08-17 12:50:45",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Prominent Mali journalist, influencer jailed for seven years for criticising junta",
-        "description": "A prominent Malian broadcaster and an influencer were on Monday jailed for seven years after criticising the ruling junta. Mohamed Youssouf Bathily was convicted by the Bamaka court of criminal conspiracy and discrediting the state alongside Rokia Doumbia, a noted campaigner.",
-        "fatalities": "0",
-        "link": "https://www.france24.com/en/africa/20260817-prominent-mali-journalist-influencer-jailed-for-seven-years-for-criticising-junta",
-        "critical": false
     }
 ]
