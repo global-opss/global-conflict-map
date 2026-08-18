@@ -1,5 +1,33 @@
 [
     {
+        "country": "China",
+        "city": "Beijing",
+        "lat": 39.954080779373065,
+        "lon": 116.38765487259812,
+        "date": "2026-08-18 17:55:46",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "SCMP: Nokia закроет производства в Китае до конца 2026 года",
+        "description": "Финский производитель телекоммуникационного оборудования Nokia планирует закрыть почти все заводы к концу 2026 года, пишет South China Morning Post (SCMP) со ссылкой на источники, знакомые с ситуацией. Компания также проведет массовые сокращения персонала.",
+        "fatalities": "0",
+        "link": "https://www.kommersant.ru/doc/8892372",
+        "critical": false
+    },
+    {
+        "country": "USA",
+        "city": "Hawaii",
+        "lat": 19.65710709417891,
+        "lon": -155.4314692141324,
+        "date": "2026-08-18 17:55:28",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Tropical Storm Lala leaves Hawaii flooded and without power",
+        "description": "Tropical Storm Lala leaves Hawaii flooded and without power",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/video/newsfeed/2026/8/18/tropical-storm-lala-leaves-hawaii-flooded-and-without-power?traffic_source=rss",
+        "critical": false
+    },
+    {
         "country": "Middle East",
         "city": "Damascus",
         "lat": 33.541404383136566,
@@ -3035,34 +3063,6 @@
         "description": "Beijing Kelin Nike Medical Technology предложит конденсаторы и пробоотборные зонды для мониторинга выбросов",
         "fatalities": "0",
         "link": "https://tass.ru/ekonomika/28018701",
-        "critical": false
-    },
-    {
-        "country": "Africa",
-        "city": "Khartoum",
-        "lat": 15.486669886984341,
-        "lon": 32.532010930968454,
-        "date": "2026-08-17 10:34:10",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Cameroon wins first Women's Africa Cup of Nations title",
-        "description": "Cameroon defeated tournament newcomers Malawi 3-0 in the final to win its first Women's Africa Cup of Nations title. Marie Ngah Manga scored twice and Naomi Eto added another goal. Both finalists, along with Morocco and Algeria, qualified for next year's Women's World Cup in Brazil.",
-        "fatalities": "0",
-        "link": "https://www.france24.com/en/cameroon-wins-first-women-s-africa-cup-of-nations-title",
-        "critical": false
-    },
-    {
-        "country": "USA",
-        "city": "Washington",
-        "lat": 38.87996380837089,
-        "lon": -77.00839780502143,
-        "date": "2026-08-17 10:34:09",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Thousands await aid after deadly Indonesia quake as rescue work conducted",
-        "description": "Thousands remain displaced after magnitude 7.7 quake struck East Nusa Tenggara province on Saturday.",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/news/2026/8/17/thousands-await-aid-after-deadly-indonesia-quake-as-rescue-work-conducted?traffic_source=rss",
         "critical": false
     }
 ]
