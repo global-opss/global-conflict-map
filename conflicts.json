@@ -1,5 +1,19 @@
 [
     {
+        "country": "Africa",
+        "city": "Khartoum",
+        "lat": 15.568236088509396,
+        "lon": 32.51016971470992,
+        "date": "2026-08-18 22:51:24",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Angelique Kidjo becomes first Black African to receive Hollywood Walk of Fame star",
+        "description": "Five-time Grammy winner Angelique Kidjo became the first Black African to receive a star on the Hollywood Walk of Fame on Tuesday, marking a milestone for African music. The Beninese-French singer was honored at a ceremony in Los Angeles attended by film stars and leading figures from the music industry.",
+        "fatalities": "0",
+        "link": "https://www.france24.com/en/culture/20260818-angelique-kidjo-hollywood-walk-of-fame",
+        "critical": false
+    },
+    {
         "country": "Iran",
         "city": "Tehran",
         "lat": 35.69509676318453,
@@ -3049,20 +3063,6 @@
         "description": "A prominent Malian broadcaster and an influencer were on Monday jailed for seven years after criticising the ruling junta. Mohamed Youssouf Bathily was convicted by the Bamaka court of criminal conspiracy and discrediting the state alongside Rokia Doumbia, a noted campaigner.",
         "fatalities": "0",
         "link": "https://www.france24.com/en/africa/20260817-prominent-mali-journalist-influencer-jailed-for-seven-years-for-criticising-junta",
-        "critical": false
-    },
-    {
-        "country": "Middle East",
-        "city": "Beirut",
-        "lat": 33.94645112465747,
-        "lon": 35.55741616360479,
-        "date": "2026-08-17 12:50:45",
-        "type": "Naval",
-        "severity": "normal",
-        "title": "Middle East live: Trump threatens to bomb Oman if they get in way of Hormuz shipping deal",
-        "description": "",
-        "fatalities": "0",
-        "link": "https://www.france24.com/en/middle-east/20260817-middle-east-live-us-envoy-kushner-to-meet-netanyahu-after-talks-with-hamas",
         "critical": false
     }
 ]
