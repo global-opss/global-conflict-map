@@ -1,5 +1,19 @@
 [
     {
+        "country": "Israel",
+        "city": "Gaza",
+        "lat": 31.46243539245385,
+        "lon": 34.419442634996784,
+        "date": "2026-08-18 19:14:58",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Israeli strike on Gaza City cafe kills six, including child",
+        "description": "An Israeli strike hit a cafe in the port area west of Gaza City, killing six Palestinians, including a child.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/video/newsfeed/2026/8/18/israeli-strike-on-gaza-city-cafe-kills-six-including-child?traffic_source=rss",
+        "critical": false
+    },
+    {
         "country": "Asia",
         "city": "Tokyo",
         "lat": 35.65295299850334,
@@ -3049,20 +3063,6 @@
         "description": "GAZA STRIP: Registration has opened for students seeking to enroll at Makkah School in the southern Gaza Strip, a Saudi-backed initiative aimed at helping children resume their education amid the devastation of the war, SPA has reported. \n\n\tThe school, supported by the King Salman Humanitarian Aid and Relief Center (KSrelief), is part of a project to establish and operate safe educational spaces for Palestinian children under Saudi Arabia’s campa",
         "fatalities": "0",
         "link": "https://www.arabnews.com/node/2654157/saudi-arabia",
-        "critical": false
-    },
-    {
-        "country": "Europe",
-        "city": "London",
-        "lat": 51.496281760047054,
-        "lon": -0.21038881090624478,
-        "date": "2026-08-17 11:00:52",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "France enters literary season amid publishing industry crisis",
-        "description": "Back to school in France also means “rentrée littéraire”, the annual period when thousands of new books hit shelves across the country. For FRANCE 24, French bookseller Isabelle Claret Lemarchand, who runs a bookshop in London, discusses the style and trends of this year’s new releases, compares the French and British trends, and reflects on the challenges facing the publishing industry.",
-        "fatalities": "0",
-        "link": "https://www.france24.com/en/france-enters-literary-season-amid-publishing-industry-crisis",
         "critical": false
     }
 ]
