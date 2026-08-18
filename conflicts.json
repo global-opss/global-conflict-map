@@ -1,5 +1,33 @@
 [
     {
+        "country": "Ukraine",
+        "city": "Odesa",
+        "lat": 46.46924814902901,
+        "lon": 30.783605543305256,
+        "date": "2026-08-18 02:44:04",
+        "type": "Airstrike",
+        "severity": "critical",
+        "title": "Ukrainian MiG-29 Crashes After Air to Air Missile Misfire",
+        "description": "A Ukrainian Air Force pilot was forced to eject from a MiG-29 after an air to air missile malfunction caused the aircraft to catch fire in midair. While flying a counter-unmanned aerial systems (C-UAS) sortie over Odesa Oblast in southwest Ukraine an unspecified malfunction occurred while launching an air to air missile that caused the []",
+        "fatalities": "0",
+        "link": "https://theaviationist.com/2026/08/11/ukrainian-mig-29-crashes-missile-misfire/",
+        "critical": true
+    },
+    {
+        "country": "Iran",
+        "city": "Tehran",
+        "lat": 35.64691428373364,
+        "lon": 51.394427351124385,
+        "date": "2026-08-18 02:44:03",
+        "type": "Naval",
+        "severity": "normal",
+        "title": "Sea drones strike Iranian port in combat first for US",
+        "description": "U.S. Central Command utilized three Corsair unmanned surface vessels to strike a submarine and ship maintenance facility in Iran.",
+        "fatalities": "0",
+        "link": "https://www.militarytimes.com/news/your-military/2026/07/13/sea-drones-strike-iranian-port-in-combat-first-for-us-navy/",
+        "critical": false
+    },
+    {
         "country": "Asia",
         "city": "Host",
         "lat": 33.37663409055977,
@@ -3035,34 +3063,6 @@
         "description": "Dorm rooms are tiny. The dorm decor economy is not.The big picture: College dorms are becoming customized, social-media-ready micro-apartments, but the market looks wildly different depending on which side of the Mason-Dixon line your campus sits.Zoom out: The multi-thousand-dollar \"designer dorm\" industry has grown alongside viral TikTok dorm tours and hauls, and parents hoping to make their child's transition to college easier.Shelly Gates, fou",
         "fatalities": "0",
         "link": "https://www.axios.com/2026/08/14/college-dorm-decor-economy",
-        "critical": false
-    },
-    {
-        "country": "Iran",
-        "city": "Tehran",
-        "lat": 35.647032837561824,
-        "lon": 51.35927786087247,
-        "date": "2026-08-16 16:01:26",
-        "type": "Clashes",
-        "severity": "middle",
-        "title": "Consumer sentiment dips, especially among Republicans",
-        "description": "Data: University of Michigan; Note: August 2026 number is preliminary; Chart: Neil Irwin/AxiosPublic opinion about the economy appears to be souring further this month, per the preliminary release of the University of Michigan's consumer sentiment index.By the numbers: Overall sentiment fell 8% in the early days of August, after two consecutive months of improvement.The index fell to 51, from 55.2 in July. That remains above the recent lows reach",
-        "fatalities": "0",
-        "link": "https://www.axios.com/2026/08/14/consumer-sentiment-republicans",
-        "critical": false
-    },
-    {
-        "country": "Israel",
-        "city": "Gaza",
-        "lat": 31.512959375838534,
-        "lon": 34.481035823174196,
-        "date": "2026-08-16 16:01:22",
-        "type": "Clashes",
-        "severity": "middle",
-        "title": "Kushner meets Hamas leaders to push Gaza demilitarization",
-        "description": "President Trump's envoy Jared Kushner met Hamas leaders in Egypt on Sunday to press them to carry out their commitment to disarm, according to two sources familiar with the meeting. Why it matters: This was Kushner's first meeting with Hamas leaders since the signing of the agreement to end the war in Gaza last October. The unusual meeting came as the White House and Trump's Board of Peace push both Hamas and Israel to move to the next phase of t",
-        "fatalities": "0",
-        "link": "https://www.axios.com/2026/08/16/kushner-hamas-gaza-disarmament-egypt-israel",
         "critical": false
     }
 ]
