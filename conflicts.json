@@ -1,5 +1,47 @@
 [
     {
+        "country": "Russia",
+        "city": "Moscow",
+        "lat": 55.734498982342075,
+        "lon": 37.603892227807115,
+        "date": "2026-08-19 19:05:45",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Flight-tracking data shows continued Russian air bridge to sub-Saharan Africa",
+        "description": "A recent report from the Center for Advanced Defense Studies found that Russian state-aligned military forces flew at least 75 flights in Central Sahel.",
+        "fatalities": "0",
+        "link": "https://www.defensenews.com/global/europe/2026/08/13/flight-tracking-data-shows-continued-russian-air-bridge-to-sub-saharan-africa/",
+        "critical": false
+    },
+    {
+        "country": "Europe",
+        "city": "Brussels",
+        "lat": 50.94666590606146,
+        "lon": 4.391104192274145,
+        "date": "2026-08-19 19:05:45",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "US Army general in Europe suddenly removed from command",
+        "description": "The Army abruptly removed Lt. Gen Charles Costanza from command of V Corps.",
+        "fatalities": "0",
+        "link": "https://www.defensenews.com/news/your-military/2026/08/10/us-army-general-in-europe-suddenly-removed-from-command/",
+        "critical": false
+    },
+    {
+        "country": "Iran",
+        "city": "Tehran",
+        "lat": 35.69776981684564,
+        "lon": 51.42372328060276,
+        "date": "2026-08-19 19:05:31",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Iran’s hardline parliament raises concerns with ‘foreign infiltration’ plan",
+        "description": "Citizens and entities would have to seek authorisation to contact universities or talk to foreign media.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/news/2026/8/19/irans-hardline-parliament-raises-concerns-with-foreign-infiltration-plan?traffic_source=rss",
+        "critical": false
+    },
+    {
         "country": "Middle East",
         "city": "Red sea",
         "lat": 27.20004481509338,
@@ -3021,48 +3063,6 @@
         "description": "What to know about the new Gaza working groups conditioning reconstruction on immediate disarmament.",
         "fatalities": "0",
         "link": "https://www.aljazeera.com/news/2026/8/18/what-to-know-about-gaza-working-groups-and-their-mandate?traffic_source=rss",
-        "critical": false
-    },
-    {
-        "country": "Israel",
-        "city": "Tel Aviv",
-        "lat": 32.04717191099214,
-        "lon": 34.80609220787162,
-        "date": "2026-08-18 13:59:59",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "More and more Christian families pressured to leave the West Bank by Israeli settlers",
-        "description": "Christian leaders and religious figures in the West Bank say difficult living conditions are pushing an increasing number of Christian families to leave their homes. The reality is threatening the historic presence of Christians in Palestinian territories. France 24's correspondent Majed Saeed reports.",
-        "fatalities": "0",
-        "link": "https://www.france24.com/en/more-and-more-christian-families-pressured-to-leave-the-west-bank-by-israeli-settlers",
-        "critical": false
-    },
-    {
-        "country": "Iran",
-        "city": "Tehran",
-        "lat": 35.6466817405987,
-        "lon": 51.38259193900525,
-        "date": "2026-08-18 13:59:56",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Qatar: Iran’s claim that Doha is holding missing pilots is a ‘media ploy’",
-        "description": "Qatar says Iran’s claim it is holding missing aircrew is untrue and a “media ploy”, with Tehran yet to verify it.",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/video/newsfeed/2026/8/18/qatar-irans-claim-that-doha-is-holding-missing-pilots-is-a-media-ploy?traffic_source=rss",
-        "critical": false
-    },
-    {
-        "country": "Israel",
-        "city": "Tel Aviv",
-        "lat": 32.124019196029344,
-        "lon": 34.71216646471669,
-        "date": "2026-08-18 13:59:56",
-        "type": "Clashes",
-        "severity": "middle",
-        "title": "Palestinian-American confronts Israeli settler at his besieged home",
-        "description": "Palestinian-American Loui Abu Ridi confronted an Israeli settler at his home in Qusra, south of Nablus.",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/video/newsfeed/2026/8/18/palestinian-american-confronts-israeli-settler-at-his-besieged-home?traffic_source=rss",
         "critical": false
     }
 ]
