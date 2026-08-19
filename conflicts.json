@@ -1,5 +1,19 @@
 [
     {
+        "country": "Israel",
+        "city": "Jerusalem",
+        "lat": 31.762996550890367,
+        "lon": 35.28807226738185,
+        "date": "2026-08-19 16:50:27",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Israel opens up tenders for controversial West Bank settlement project",
+        "description": "Israeli plans to build on the area east of Jerusalem - which would divide the occupied West Bank in two - have long been internationally condemned.",
+        "fatalities": "0",
+        "link": "https://www.bbc.co.uk/news/articles/cly50gn1e54o?at_medium=RSS&at_campaign=rss",
+        "critical": false
+    },
+    {
         "country": "USA",
         "city": "Washington",
         "lat": 38.88028738438932,
@@ -3049,20 +3063,6 @@
         "description": "BEIJING/SINGAPORE: Oil prices ​fell by more than $2 per barrel on Thursday after the US and Iran signed an interim agreement that ‌would end the Iran war, reopen the Strait of Hormuz and waive US sanctions on Tehran’s oil, boosting the oil supply outlook.\n\n\tBrent crude futures were down $2.14, or 2.69 percent, at $77.41 a barrel as of 09:16 a.m. Saudi time, and US West Texas Intermediate fell $2.36, or 3.07 percent, to $74.43 a barrel.",
         "fatalities": "0",
         "link": "https://www.arabnews.com/node/2647650/business-economy",
-        "critical": false
-    },
-    {
-        "country": "USA",
-        "city": "Pentagon",
-        "lat": 38.89718523763255,
-        "lon": -76.99785748000583,
-        "date": "2026-08-18 10:02:37",
-        "type": "Naval",
-        "severity": "normal",
-        "title": "US not disengaging from Asia, seeks ‘partners, not protectorates,’ says Pentagon official",
-        "description": "Undersecretary of Defense for Policy Elbridge Colby reaffirmed the U.S. interest in the region as he called for greater burden-sharing and partnership.",
-        "fatalities": "0",
-        "link": "https://www.defensenews.com/pentagon/2026/08/10/us-not-disengaging-from-asia-seeks-partners-not-protectorates-says-pentagon-official/",
         "critical": false
     }
 ]
