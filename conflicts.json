@@ -1,5 +1,33 @@
 [
     {
+        "country": "Iran",
+        "city": "Tehran",
+        "lat": 35.64747181089647,
+        "lon": 51.37686411813881,
+        "date": "2026-08-19 07:47:14",
+        "type": "Clashes",
+        "severity": "middle",
+        "title": "Middle East live: Iran army chief warns Gulf countries not to help US military",
+        "description": "Iran army chief Ali Abdollahi warned Gulf countries on Wednesday not to provide any assistance to the US military. Doing so would be tantamount to joining American military operations in Iran, Abdollahi said. Follow our live blog for the latest updates.",
+        "fatalities": "0",
+        "link": "https://www.france24.com/en/middle-east/20260819-middle-east-live-turkey-rejects-israeli-claims-after-strike-on-syria-air-base",
+        "critical": false
+    },
+    {
+        "country": "USA",
+        "city": "Washington",
+        "lat": 38.85976936032426,
+        "lon": -76.99881742063965,
+        "date": "2026-08-19 07:47:12",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Trump pauses 50 percent tariffs on Canada in last-minute deal",
+        "description": "Washington and Ottawa announce agreement to delay new tariffs on Canadian exports shortly before midnight deadline.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/economy/2026/8/19/us-canada-reach-trade-deal-to-avert-steep-tariffs-trump-says?traffic_source=rss",
+        "critical": false
+    },
+    {
         "country": "Ukraine",
         "city": "Kyiv",
         "lat": 50.44592027985937,
@@ -3035,34 +3063,6 @@
         "description": "The FBI has warned of malicious actors misusing AI to impersonate senior government officials.",
         "fatalities": "0",
         "link": "https://www.aljazeera.com/news/2026/8/17/british-pm-burnham-duped-by-white-house-impostor?traffic_source=rss",
-        "critical": false
-    },
-    {
-        "country": "Iran",
-        "city": "Tehran",
-        "lat": 35.68491825434374,
-        "lon": 51.36186846229728,
-        "date": "2026-08-17 17:40:19",
-        "type": "Naval",
-        "severity": "normal",
-        "title": "Iran signals readiness for ‘US ground operations’ as strategy shifts gear",
-        "description": "Irans more offensive posture follows Trumps comment that the US would soon make the Strait of Hormuz its territory.",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/news/2026/8/17/iran-signals-readiness-for-us-ground-operations-as-mou-expires?traffic_source=rss",
-        "critical": false
-    },
-    {
-        "country": "Europe",
-        "city": "Brussels",
-        "lat": 50.89740560435201,
-        "lon": 4.3908640691351986,
-        "date": "2026-08-17 17:40:17",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Britain deploys military as wildfires spread across Europe",
-        "description": "Britain deploys military as wildfires spread across Europe",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/video/newsfeed/2026/8/17/britain-deploys-military-as-wildfires-spread-across-europe?traffic_source=rss",
         "critical": false
     }
 ]
