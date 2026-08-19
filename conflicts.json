@@ -1,5 +1,33 @@
 [
     {
+        "country": "Africa",
+        "city": "Khartoum",
+        "lat": 15.532888131833673,
+        "lon": 32.61744879104098,
+        "date": "2026-08-19 19:55:48",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Central African Republic gold mine collapse kills more than 100",
+        "description": "A gold mine collapse in the Central African Republican village of Zamboye near the Cameroon border on Tuesday killed more than 100 people, an official at a local mining association said. A member of the local youth council said the death toll would likely rise as more people were pulled from the rubble.",
+        "fatalities": "0",
+        "link": "https://www.france24.com/en/africa/20260819-more-than-100-killed-central-african-republic-gold-mine-collapse",
+        "critical": false
+    },
+    {
+        "country": "Ukraine",
+        "city": "Kyiv",
+        "lat": 50.4420509313586,
+        "lon": 30.513418619924963,
+        "date": "2026-08-19 19:55:47",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Protests in Kyiv back ex-defence minister Fedorov’s call for elections",
+        "description": "Ukrainians in Kyiv held a protest in support of ousted defence Minister Mykailo Fedorov.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/video/newsfeed/2026/8/19/19-08-reported-audreymacalpine-kyiv-ua?traffic_source=rss",
+        "critical": false
+    },
+    {
         "country": "Ukraine",
         "city": "Kyiv",
         "lat": 50.452980138234025,
@@ -3035,34 +3063,6 @@
         "description": "President ​Volodymyr Zelensky nominated ​Yevheny Khmara for parliamentary approval ​to become Defence minister. Khmara served ​as acting ‌minister following the abrupt dismissal of ‌his predecessor, Mykhailo Fedorov, in June, which ​sparked public outrage and a week-long ​political crisis ​for Zelensky. Details by FRACE 24 correspondent in Kyiv, Emmanuelle Chaze.",
         "fatalities": "0",
         "link": "https://www.france24.com/en/volodymyr-zelensky-names-new-defence-minister-after-weeks-of-political-crisis",
-        "critical": false
-    },
-    {
-        "country": "Russia",
-        "city": "Moscow",
-        "lat": 55.81951975603287,
-        "lon": 37.60737180395031,
-        "date": "2026-08-18 14:43:23",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "ISS: Sophie Adenot and Anil Menon conduct spacewalk to replace space-to-ground antenna",
-        "description": "Nadia Massih is pleased to welcome Daniel Neuenschwander, Director of Human and Robotic Exploration at the European Space Agency (ESA). According to Neuenschwander, this latest ISS mission demonstrates what makes the International Space Station exceptional: interdependence. European, American, Japanese, Canadian and Russian partners depend on one another to keep the station functioning, even when relations on Earth are more complicated. Replacing",
-        "fatalities": "0",
-        "link": "https://www.france24.com/en/iss-sophie-adenot-and-anil-menon-conduct-spacewalk-to-replace-space-to-ground-antenna",
-        "critical": false
-    },
-    {
-        "country": "Middle East",
-        "city": "Yemen",
-        "lat": 14.473709280366611,
-        "lon": 49.18164670965629,
-        "date": "2026-08-18 14:43:21",
-        "type": "Naval",
-        "severity": "normal",
-        "title": "Yemeni government escalates attacks against Houthis: What’s next?",
-        "description": "Fighting intensifies across Yemen as Houthis clash with internationally recognised government forces across many fronts.",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/news/2026/8/18/yemeni-government-escalates-attacks-against-houthis-whats-next?traffic_source=rss",
         "critical": false
     }
 ]
