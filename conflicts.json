@@ -1,5 +1,47 @@
 [
     {
+        "country": "Israel",
+        "city": "Tel Aviv",
+        "lat": 32.03464925045408,
+        "lon": 34.80958127734612,
+        "date": "2026-08-19 20:29:04",
+        "type": "Airstrike",
+        "severity": "critical",
+        "title": "What’s behind Israel’s latest attack on Syria?",
+        "description": "US envoy warns Israels strike could have sparked direct confrontation with Turkish forces.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/video/inside-story/2026/8/19/whats-behind-israels-latest-attack-on-syria?traffic_source=rss",
+        "critical": true
+    },
+    {
+        "country": "Israel",
+        "city": "Tel Aviv",
+        "lat": 32.077623320542166,
+        "lon": 34.71535000107523,
+        "date": "2026-08-19 20:29:04",
+        "type": "Clashes",
+        "severity": "middle",
+        "title": "Canada boosts Lebanon aid to $50m and condemns Israeli ‘unlawful invasion’",
+        "description": "Canada official condemns Israels invasion of Lebanon, calls for sovereignty as aid pledged to the crisis-hit nation.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/news/2026/8/19/canada-pledges-50m-aid-to-lebanon-and-condemns-israeli-unlawful-invasion?traffic_source=rss",
+        "critical": false
+    },
+    {
+        "country": "Africa",
+        "city": "Khartoum",
+        "lat": 15.431647459345077,
+        "lon": 32.580146081464676,
+        "date": "2026-08-19 20:29:01",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "More Than 100 Dead in Central African Republic Gold Mine Collapse",
+        "description": "The country’s small-scale gold mining sector has been booming in recent years, leading to a series of deadly accidents.",
+        "fatalities": "0",
+        "link": "https://www.nytimes.com/2026/08/19/world/africa/central-african-republic-gold-mine-collapse.html",
+        "critical": false
+    },
+    {
         "country": "Africa",
         "city": "Khartoum",
         "lat": 15.532888131833673,
@@ -238,20 +280,6 @@
         "critical": true
     },
     {
-        "country": "Israel",
-        "city": "Tel Aviv",
-        "lat": 32.01543767904005,
-        "lon": 34.84588198679275,
-        "date": "2026-08-19 18:35:04",
-        "type": "Clashes",
-        "severity": "middle",
-        "title": "Canada pledges $50m aid to Lebanon and condemns Israeli ‘unlawful invasion’",
-        "description": "Canada official condemns Israels invasion of Lebanon, calls for sovereignty as aid pledged to the crisis-hit nation.",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/news/2026/8/19/canada-pledges-50m-aid-to-lebanon-and-condemns-israeli-unlawful-invasion?traffic_source=rss",
-        "critical": false
-    },
-    {
         "country": "Iran",
         "city": "Tehran",
         "lat": 35.7128776073011,
@@ -291,6 +319,20 @@
         "description": "US President Donald Trump claimed North Korean leader Kim Jong Un had responded positively to his proposal for talks.",
         "fatalities": "0",
         "link": "https://www.aljazeera.com/news/2026/8/19/north-korea-leaders-sister-denies-talks-with-hostile-us?traffic_source=rss",
+        "critical": false
+    },
+    {
+        "country": "Israel",
+        "city": "Tel Aviv",
+        "lat": 32.01543767904005,
+        "lon": 34.84588198679275,
+        "date": "2026-08-19 18:35:04",
+        "type": "Clashes",
+        "severity": "middle",
+        "title": "Canada pledges $50m aid to Lebanon and condemns Israeli ‘unlawful invasion’",
+        "description": "Canada official condemns Israels invasion of Lebanon, calls for sovereignty as aid pledged to the crisis-hit nation.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/news/2026/8/19/canada-pledges-50m-aid-to-lebanon-and-condemns-israeli-unlawful-invasion?traffic_source=rss",
         "critical": false
     },
     {
@@ -700,20 +742,6 @@
         "critical": false
     },
     {
-        "country": "Iran",
-        "city": "Tehran",
-        "lat": 35.66360127867158,
-        "lon": 51.417525967663714,
-        "date": "2026-08-19 15:14:37",
-        "type": "Clashes",
-        "severity": "middle",
-        "title": "Send Us Your Questions About the Iran War",
-        "description": "Times reporters who cover the war, diplomacy, energy and the broader Middle East are joining our “Ask a Correspondent” feature as the conflict nears the six-month mark. Let us know what’s on your mind.",
-        "fatalities": "0",
-        "link": "https://www.nytimes.com/2026/08/19/world/iran-war-reader-questions.html",
-        "critical": false
-    },
-    {
         "country": "Africa",
         "city": "Khartoum",
         "lat": 15.45901130442119,
@@ -725,6 +753,20 @@
         "description": "Without Africans, no music is possible on this planet, says the 66-year-old musical icon from Benin.",
         "fatalities": "0",
         "link": "https://www.bbc.co.uk/news/articles/c62xyg6527go?at_medium=RSS&at_campaign=rss",
+        "critical": false
+    },
+    {
+        "country": "Iran",
+        "city": "Tehran",
+        "lat": 35.66360127867158,
+        "lon": 51.417525967663714,
+        "date": "2026-08-19 15:14:37",
+        "type": "Clashes",
+        "severity": "middle",
+        "title": "Send Us Your Questions About the Iran War",
+        "description": "Times reporters who cover the war, diplomacy, energy and the broader Middle East are joining our “Ask a Correspondent” feature as the conflict nears the six-month mark. Let us know what’s on your mind.",
+        "fatalities": "0",
+        "link": "https://www.nytimes.com/2026/08/19/world/iran-war-reader-questions.html",
         "critical": false
     },
     {
@@ -3021,48 +3063,6 @@
         "description": "MAKKAH: Cradled among dramatic mountain ridges, lush valleys and cool highland breezes, Taif is rapidly cementing its reputation as one of Saudi Arabia’s premier outdoor destinations — with mountain hiking leading its eco-tourism surge.\n\n\tDriven by growing domestic interest in outdoor recreation under Vision 2030, the city’s historic trails and rehabilitated wadis are drawing thousands of adventure seekers and nature enthusiasts from across the K",
         "fatalities": "0",
         "link": "https://www.arabnews.com/node/2654143/saudi-arabia",
-        "critical": false
-    },
-    {
-        "country": "Middle East",
-        "city": "Damascus",
-        "lat": 33.56779607577609,
-        "lon": 36.2787432264087,
-        "date": "2026-08-18 14:43:34",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Syria opens international forum on education, innovation and employment in Damascus",
-        "description": "DAMASCUS: The International Forum on Education and Innovation opened in Damascus on Monday, bringing together officials and experts to discuss the future of education, innovation and workforce development.\n\n\tThe forum is organized by the Economic Group for Promoting International Investments, in cooperation with the Syrian Computer Society, and is attended by Higher Education and Scientific Research Minister Marwan Al-Halabi and Education Ministe",
-        "fatalities": "0",
-        "link": "https://www.arabnews.com/node/2654141/middle-east",
-        "critical": false
-    },
-    {
-        "country": "Africa",
-        "city": "Khartoum",
-        "lat": 15.433159800682994,
-        "lon": 32.57654173429335,
-        "date": "2026-08-18 14:43:23",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "France's Vieira appointed head coach of Senegal national football team",
-        "description": "Former France midfielder Patrick Vieira has been appointed Senegal coach, succeeding Pape Thiaw following the team's World Cup elimination. Born in Dakar, the 50-year-old takes charge of a national team for the first time after coaching in England, France and Italy. Vieira will begin his tenure next month as Senegal prepares for the 2027 Africa Cup of Nations qualifiers.",
-        "fatalities": "0",
-        "link": "https://www.france24.com/en/sport/20260818-france-vieira-appointed-head-coach-senegal-national-football-team",
-        "critical": false
-    },
-    {
-        "country": "Ukraine",
-        "city": "Kyiv",
-        "lat": 50.45019999330765,
-        "lon": 30.540453928579353,
-        "date": "2026-08-18 14:43:23",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Volodymyr Zelensky names new Defence minister after weeks of political crisis",
-        "description": "President ​Volodymyr Zelensky nominated ​Yevheny Khmara for parliamentary approval ​to become Defence minister. Khmara served ​as acting ‌minister following the abrupt dismissal of ‌his predecessor, Mykhailo Fedorov, in June, which ​sparked public outrage and a week-long ​political crisis ​for Zelensky. Details by FRACE 24 correspondent in Kyiv, Emmanuelle Chaze.",
-        "fatalities": "0",
-        "link": "https://www.france24.com/en/volodymyr-zelensky-names-new-defence-minister-after-weeks-of-political-crisis",
         "critical": false
     }
 ]
