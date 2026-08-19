@@ -1,5 +1,33 @@
 [
     {
+        "country": "Ukraine",
+        "city": "Kyiv",
+        "lat": 50.422475488445876,
+        "lon": 30.57802758136795,
+        "date": "2026-08-19 11:44:05",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Ukraine live: Zelensky fires deputy head of presidential office as corruption probe unfolds",
+        "description": "President Volodymyr Zelensky dismissed presidential office deputy head Iryna Mudra on Wednesday, according to a decree published on the presidential website. The move came after Ukraine’s anti-graft agencies said they had uncovered a money laundering group allegedly involving senior officials from Zelensky's office. Follow our live blog for the latest updates.",
+        "fatalities": "0",
+        "link": "https://www.france24.com/en/europe/20260819-ukraine-live-zelensky-fires-deputy-head-of-presidential-office-as-corruption-probe-unfolds",
+        "critical": false
+    },
+    {
+        "country": "Asia",
+        "city": "Seoul",
+        "lat": 37.57453978051063,
+        "lon": 127.08438849839602,
+        "date": "2026-08-19 11:44:02",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "‘Tit for tat’: Why is Trump cozying up to North Korea’s Kim Jong Un again?",
+        "description": "Analysts say Trumps attempted rapprochement with Kim Jong Un is driven by political signals to Pyongyang and Seoul.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/news/2026/8/19/tit-for-tat-why-is-trump-cozying-up-to-north-koreas-kim-jong-un-again?traffic_source=rss",
+        "critical": false
+    },
+    {
         "country": "Asia",
         "city": "Tokyo",
         "lat": 35.62837678790205,
@@ -3036,33 +3064,5 @@
         "fatalities": "0",
         "link": "https://www.aljazeera.com/economy/2026/8/17/trumps-approval-rating-sinks-to-new-low?traffic_source=rss",
         "critical": false
-    },
-    {
-        "country": "Asia",
-        "city": "Pakistan",
-        "lat": 31.50198187130662,
-        "lon": 74.37925308109028,
-        "date": "2026-08-17 21:51:01",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Zelensky congratulates Saudi Arabia’s crown prince on Makkah defense agreement",
-        "description": "RIYADH: Ukrainian President Volodymyr Zelensky congratulated Saudi Arabia’s Crown Prince Mohammed bin Salman on Monday for the recent signing of a regional defense agreement.\n\n\tZelensky said he hopes the Makkah Joint Defense Agreement signed between Saudi Arabia, Turkiye and Pakistan last week will contribute to achieving security and stability in the region.\n\n\tHe made the comments during a phone call with the crown prince, Saudi Press Agency rep",
-        "fatalities": "0",
-        "link": "https://www.arabnews.com/node/2654135/saudi-arabia",
-        "critical": false
-    },
-    {
-        "country": "Iran",
-        "city": "Tehran",
-        "lat": 35.70253539931244,
-        "lon": 51.32457736639229,
-        "date": "2026-08-17 21:51:01",
-        "type": "Airstrike",
-        "severity": "critical",
-        "title": "Trump demands Iran pay compensation for war dead and wounded",
-        "description": "WASHINGTON: US President Donald Trump said Monday he would seek conflict compensation from Iran as part of any peace negotiations, citing attacks and atrocities stretching back decades allegedly backed or perpetrated by Tehran.\n\tIran is “asking for compensation for the damage done to them during the last five month Military Conflict... I am likewise demanding compensation from Iran, for all of the people that they have killed and gravely wounded ",
-        "fatalities": "0",
-        "link": "https://www.arabnews.com/node/2654132/middle-east",
-        "critical": true
     }
 ]
