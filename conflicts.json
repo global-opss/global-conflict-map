@@ -1,5 +1,47 @@
 [
     {
+        "country": "China",
+        "city": "Beijing",
+        "lat": 39.893915051957826,
+        "lon": 116.3268292186625,
+        "date": "2026-08-19 02:46:22",
+        "type": "Explosion",
+        "severity": "middle",
+        "title": "Trump pauses 50% tariffs on Canadian goods for 3 days",
+        "description": "President Trump said Tuesday night he is pausing for three days 50% tariffs on billions of dollars worth of Canadian goods that were set to take effect early Wednesday. Why it matters: It follows an intense push in recent days — including talks between Trump and Canadian Prime Minister Mark Carney on Tuesday — to avert another escalation in the North American trade war.What they're saying: \"I have paused the 50% Tariffs against Canada, that were ",
+        "fatalities": "0",
+        "link": "https://www.axios.com/2026/08/19/trump-canada-tariffs-50-percent-postponed",
+        "critical": false
+    },
+    {
+        "country": "USA",
+        "city": "Pentagon",
+        "lat": 38.88266859147636,
+        "lon": -77.10129724528315,
+        "date": "2026-08-19 02:46:19",
+        "type": "Airstrike",
+        "severity": "critical",
+        "title": "Pentagon identifies third American soldier killed in Iranian attack in Jordan",
+        "description": "Sgt. Angel S. Rampersad, 28, is believed to be the third active-duty soldier killed in action in an Iranian attack in Jordan, the DoD said.",
+        "fatalities": "0",
+        "link": "https://www.militarytimes.com/news/your-military/2026/07/21/pentagon-identifies-third-american-soldier-killed-in-iranian-attack-in-jordan/",
+        "critical": true
+    },
+    {
+        "country": "Ukraine",
+        "city": "Kyiv",
+        "lat": 50.417727346807546,
+        "lon": 30.50693832187062,
+        "date": "2026-08-19 02:46:10",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Sacked Ukrainian defence minister calls for presidential election",
+        "description": "Martial law has been in place in Ukraine since February 2022, under which elections are suspended.",
+        "fatalities": "0",
+        "link": "https://www.bbc.co.uk/news/articles/cdew8n9erlwo?at_medium=RSS&at_campaign=rss",
+        "critical": false
+    },
+    {
         "country": "Iran",
         "city": "Tehran",
         "lat": 35.732475379898666,
@@ -3022,47 +3064,5 @@
         "fatalities": "0",
         "link": "https://www.aljazeera.com/news/2026/8/17/iran-signals-readiness-for-us-ground-operations-as-mou-expires?traffic_source=rss",
         "critical": false
-    },
-    {
-        "country": "Israel",
-        "city": "Tel Aviv",
-        "lat": 32.15115758274389,
-        "lon": 34.764614933850346,
-        "date": "2026-08-17 14:40:20",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Global condemnation of Israeli settler violence against Palestinians",
-        "description": "Global condemnation of Israeli settler violence against Palestinians",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/video/newsfeed/2026/8/17/global-condemnation-of-israeli-settler-violence-against-palestinians?traffic_source=rss",
-        "critical": false
-    },
-    {
-        "country": "Africa",
-        "city": "Khartoum",
-        "lat": 15.497442892795995,
-        "lon": 32.58080760521416,
-        "date": "2026-08-17 14:05:37",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Стрелки из России забрали половину наград на международных соревнованиях в ЮАР",
-        "description": "Российские стрелки триумфально выступили на престижных международных соревнованиях по экстремально дальней стрельбе King of 1  2 Miles South Africa, прошедших в Южно-Африканской Республике. По итогам турнира отечественная сборная увезла домой половину всех призовых мест.",
-        "fatalities": "0",
-        "link": "https://rg.ru/2026/08/17/strelki-iz-rossii-zabrali-polovinu-nagrad-na-mezhdunarodnyh-sorevnovaniiah-v-iuar.html",
-        "critical": false
-    },
-    {
-        "country": "Ukraine",
-        "city": "Kyiv",
-        "lat": 50.51255331257659,
-        "lon": 30.53855335283014,
-        "date": "2026-08-17 13:39:17",
-        "type": "Airstrike",
-        "severity": "critical",
-        "title": "How North Korean forces are bolstering Russia’s war against Ukraine",
-        "description": "North Korea has deployed troops, weapons and now, according to a Ukrainian intelligence official, a missile unit to support Russia’s war against Ukraine.",
-        "fatalities": "0",
-        "link": "https://www.defensenews.com/global/europe/2026/08/07/how-north-korean-forces-are-bolstering-russias-war-against-ukraine/",
-        "critical": true
     }
 ]
