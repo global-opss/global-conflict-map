@@ -1,5 +1,47 @@
 [
     {
+        "country": "Africa",
+        "city": "Khartoum",
+        "lat": 15.441299685545777,
+        "lon": 32.60149633566819,
+        "date": "2026-08-19 17:51:02",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Africanews: более 300 повстанцев перешли на сторону суданской армии",
+        "description": "Решение покинуть СБР они приняли из-за отсутствия в их рядах институционального управления, отметил телеканал",
+        "fatalities": "0",
+        "link": "https://tass.ru/mezhdunarodnaya-panorama/28026831",
+        "critical": false
+    },
+    {
+        "country": "Iran",
+        "city": "Tehran",
+        "lat": 35.63964619043026,
+        "lon": 51.42957401908773,
+        "date": "2026-08-19 17:51:00",
+        "type": "Naval",
+        "severity": "normal",
+        "title": "Oil falls to 3-1/2-month low after US, Iran sign ceasefire deal",
+        "description": "BEIJING/SINGAPORE: Oil prices ​fell by more than $2 per barrel on Thursday after the US and Iran signed an interim agreement that ‌would end the Iran war, reopen the Strait of Hormuz and waive US sanctions on Tehran’s oil, boosting the oil supply outlook.\n\n\tBrent crude futures were down $2.14, or 2.69 percent, at $77.41 a barrel as of 09:16 a.m. Saudi time, and US West Texas Intermediate fell $2.36, or 3.07 percent, to $74.43 a barrel.",
+        "fatalities": "0",
+        "link": "https://www.arabnews.com/node/2647650/business-economy",
+        "critical": false
+    },
+    {
+        "country": "Asia",
+        "city": "Host",
+        "lat": 33.32077030855184,
+        "lon": 69.95590998564185,
+        "date": "2026-08-19 17:50:45",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "In Italy, a Beach Club Run by Nuns Is in Jeopardy",
+        "description": "The Sisters of Charity of Saint Mary have hosted beachgoers in the town of Spotorno for decades. But change is coming.",
+        "fatalities": "0",
+        "link": "https://www.nytimes.com/2026/08/19/world/europe/italy-nuns-beach-club.html",
+        "critical": false
+    },
+    {
         "country": "China",
         "city": "South china sea",
         "lat": 12.03192731841239,
@@ -3021,48 +3063,6 @@
         "description": "Wassim al-Assad, a cousin of overthrown long-time Syrian ruler Bashar al-Assad, was convicted of multiple murders and murder accompanied by torture and brutality. A Damascus court issued a death sentence on Tuesday.",
         "fatalities": "0",
         "link": "https://www.france24.com/en/middle-east/20260818-syria-sentences-to-death-assad-s-detained-cousin-for-war-crimes",
-        "critical": false
-    },
-    {
-        "country": "Africa",
-        "city": "Mali",
-        "lat": 12.63136830262528,
-        "lon": -7.9692350274115835,
-        "date": "2026-08-18 10:43:02",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Somali army repels troups loyal to ousted leader and Islamist insurgents",
-        "description": "Somali national forces repelled an assault by troops loyal to an ousted regional leader and Islamist insurgents on Monday over control of the key city of Baidoa. The assault involved \"vehicles laden with explosives\" according to the government, which said its troops killed nearly 30 militants in their response. Details by Laurent Berstecher.",
-        "fatalities": "0",
-        "link": "https://www.france24.com/en/somali-army-repels-troups-loyal-to-ousted-leader-and-islamist-insurgents",
-        "critical": false
-    },
-    {
-        "country": "Iran",
-        "city": "Tehran",
-        "lat": 35.690309858586886,
-        "lon": 51.40458679839328,
-        "date": "2026-08-18 10:43:02",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Trump threatens to bomb Oman, as its ally tires to mediate Iran negotiations",
-        "description": "As the 60-day ceasefire deadline passes, US President Donald Trump is lashing out at an American ally trying to mediate negotiations between the US and Iran. Using an expletive, Trump threatened to bomb Oman if it \"gets in the way.\" This isn’t the first time Trump has threatened Oman. Details by Monte Francis.",
-        "fatalities": "0",
-        "link": "https://www.france24.com/en/trump-threatens-to-bomb-oman-as-its-ally-tires-to-mediate-iran-negotiations",
-        "critical": false
-    },
-    {
-        "country": "Asia",
-        "city": "Tokyo",
-        "lat": 35.586112375104555,
-        "lon": 139.77770410879467,
-        "date": "2026-08-18 10:42:57",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Asian Champions League draw: Holders Al-Ahli to face former winners Al Ain",
-        "description": "Al-Ahli and Al Ain, who will also face Cristiano Ronaldos Al-Nassr, are the pick of the match-ups in AFCs Elite draw.",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/sports/2026/8/18/asian-champions-league-draw-holders-al-ahli-to-face-former-winners-al-ain?traffic_source=rss",
         "critical": false
     }
 ]
