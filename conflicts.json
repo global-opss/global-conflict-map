@@ -1,5 +1,19 @@
 [
     {
+        "country": "Asia",
+        "city": "Tokyo",
+        "lat": 35.62837678790205,
+        "lon": 139.71900555565924,
+        "date": "2026-08-19 11:11:22",
+        "type": "Clashes",
+        "severity": "middle",
+        "title": "Top India court allows passive euthanasia, but few aware of ‘living wills’",
+        "description": "Families of terminally ill patients have little or no awareness or preparedness for what comes next.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/news/2026/8/19/top-india-court-allows-passive-euthanasia-but-few-aware-of-living-wills?traffic_source=rss",
+        "critical": false
+    },
+    {
         "country": "Russia",
         "city": "Moscow",
         "lat": 55.82415297437739,
@@ -3050,19 +3064,5 @@
         "fatalities": "0",
         "link": "https://www.arabnews.com/node/2654132/middle-east",
         "critical": true
-    },
-    {
-        "country": "Middle East",
-        "city": "Red sea",
-        "lat": 27.232878329400425,
-        "lon": 33.802942528038756,
-        "date": "2026-08-17 21:51:01",
-        "type": "Naval",
-        "severity": "normal",
-        "title": "Houthis launch new drone wave across Yemen’s government-held areas",
-        "description": "AL-MUKALLA: At least two Yemeni government soldiers were killed in southern Yemen as the Houthis launched a new wave of drone attacks on government-controlled areas in Aden, Mocha and Shabwa.\n\n\tThe escalation came as the Yemeni army vowed on Monday to respond to Houthi drone and missile strikes on the Red Sea port city of Mocha that killed seven people and wounded 30 others.",
-        "fatalities": "0",
-        "link": "https://www.arabnews.com/node/2654127/middle-east",
-        "critical": false
     }
 ]
