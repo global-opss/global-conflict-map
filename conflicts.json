@@ -1,5 +1,75 @@
 [
     {
+        "country": "China",
+        "city": "Beijing",
+        "lat": 39.906266153249064,
+        "lon": 116.34240733826823,
+        "date": "2026-08-19 05:35:08",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Эксперт Целиков: Экспорт легковых автомобилей из Китая в Россию вырос на 63%",
+        "description": "Согласно данным China Passenger Car Association (CPCA), экспорт легковых автомобилей из Китая в июле вырос на 88% - до 923 тысяч единиц. Наибольший прирост (+148%) обеспечили автомобили на новых источниках энергии (NEV) - 550 тыс штук. В первую очередь это подключаемые гибриды и чистые электромобили. Об этом рассказал глава Автостата Сергей Целиков.",
+        "fatalities": "0",
+        "link": "https://rg.ru/2026/08/19/ekspert-celikov-eksport-legkovyh-avtomobilej-iz-kitaia-v-rossiiu-vyros-na-63.html",
+        "critical": false
+    },
+    {
+        "country": "USA",
+        "city": "Pentagon",
+        "lat": 38.906135639827895,
+        "lon": -77.10291193638115,
+        "date": "2026-08-19 05:34:41",
+        "type": "Clashes",
+        "severity": "middle",
+        "title": "Trump orders Pentagon to cut back military exercises with South Korea",
+        "description": "President Trump instructed the Pentagon to “substantially reduce” joint military exercises with long-term Asian ally South Korea.",
+        "fatalities": "0",
+        "link": "https://www.defensenews.com/news/your-military/2026/08/17/trump-orders-pentagon-to-cut-back-military-exercises-with-south-korea/",
+        "critical": false
+    },
+    {
+        "country": "Africa",
+        "city": "Khartoum",
+        "lat": 15.562278692348272,
+        "lon": 32.55633173458536,
+        "date": "2026-08-19 05:34:40",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Hollywood honours Angelique Kidjo as first Black African Walk of Fame star",
+        "description": "Five-time Grammy winner Angelique Kidjo became the first Black African to receive a star on the Hollywood Walk of Fame on Tuesday, marking a milestone for African music. The Beninese-French singer was honored at a ceremony in Los Angeles attended by film stars and leading figures from the music industry.",
+        "fatalities": "0",
+        "link": "https://www.france24.com/en/culture/20260818-angelique-kidjo-hollywood-walk-of-fame",
+        "critical": false
+    },
+    {
+        "country": "USA",
+        "city": "Washington",
+        "lat": 38.95917298864337,
+        "lon": -77.0175543754835,
+        "date": "2026-08-19 05:34:34",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Trump pauses 50-percent tariff on Canada in last-minute deal",
+        "description": "Washington and Ottawa announce agreement to delay new tariffs on Canadian exports shortly before midnight deadline.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/economy/2026/8/19/us-canada-reach-trade-deal-to-avert-steep-tariffs-trump-says?traffic_source=rss",
+        "critical": false
+    },
+    {
+        "country": "Asia",
+        "city": "Seoul",
+        "lat": 37.48904805868924,
+        "lon": 127.11536415055814,
+        "date": "2026-08-19 05:34:32",
+        "type": "Clashes",
+        "severity": "middle",
+        "title": "South Korea, US scale back annual military drills after Trump’s order",
+        "description": "Seoul says the duration of the annual Ulchi Freedom Shield exercise has been reduced from 11 days to five.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/news/2026/8/19/south-korea-us-scale-back-annual-military-drills-after-trumps-order?traffic_source=rss",
+        "critical": false
+    },
+    {
         "country": "Africa",
         "city": "Niger",
         "lat": 13.817582218711543,
@@ -448,20 +518,6 @@
         "critical": false
     },
     {
-        "country": "Asia",
-        "city": "Pakistan",
-        "lat": 31.52143527684303,
-        "lon": 74.34092306222885,
-        "date": "2026-08-18 21:30:22",
-        "type": "Clashes",
-        "severity": "middle",
-        "title": "Final election phase begins in Pakistan-administered Kashmir despite banned group’s boycott call",
-        "description": "MUZAFFARABAD, Pakistan: Voters went to the polls Monday in the final phase of elections for the legislative assembly in Pakistan-administered Kashmir, following weeks of violent protests and clashes with security forces that overshadowed campaigning in the disputed Himalayan region, officials said.\n\n\tMen and women began lining up early at polling stations in Poonch district in the disputed Himalayan region, where four assembly seats were being co",
-        "fatalities": "0",
-        "link": "https://www.arabnews.com/node/2654152/world",
-        "critical": false
-    },
-    {
         "country": "Africa",
         "city": "Libya",
         "lat": 26.28715878897831,
@@ -473,6 +529,20 @@
         "description": "TRIPOLI: A fire broke out on Monday ​in a diesel tank at Libya’s Zawiya refinery days after the facility was hit by drone.\n\n\tThe circumstances of Monday's fire remained unknown, Brega Petroleum Marketing Company said in a statement.\n\tBrega is owned by state oil firm National Oil Corporation (NOC) and is in charge of ‌fuel supplies.\n\tZawiya refinery is the ‌largest in the ​country ‌while Ras ​Lanuf is out ⁠of operation and is located around 40 kil",
         "fatalities": "0",
         "link": "https://www.arabnews.com/node/2654151/middle-east",
+        "critical": false
+    },
+    {
+        "country": "Asia",
+        "city": "Pakistan",
+        "lat": 31.52143527684303,
+        "lon": 74.34092306222885,
+        "date": "2026-08-18 21:30:22",
+        "type": "Clashes",
+        "severity": "middle",
+        "title": "Final election phase begins in Pakistan-administered Kashmir despite banned group’s boycott call",
+        "description": "MUZAFFARABAD, Pakistan: Voters went to the polls Monday in the final phase of elections for the legislative assembly in Pakistan-administered Kashmir, following weeks of violent protests and clashes with security forces that overshadowed campaigning in the disputed Himalayan region, officials said.\n\n\tMen and women began lining up early at polling stations in Poonch district in the disputed Himalayan region, where four assembly seats were being co",
+        "fatalities": "0",
+        "link": "https://www.arabnews.com/node/2654152/world",
         "critical": false
     },
     {
@@ -966,20 +1036,6 @@
         "critical": false
     },
     {
-        "country": "Israel",
-        "city": "Tel Aviv",
-        "lat": 32.04807986044429,
-        "lon": 34.77198542977268,
-        "date": "2026-08-18 16:14:44",
-        "type": "Clashes",
-        "severity": "middle",
-        "title": "Palestinian American challenges Israeli army outside his home in the West Bank",
-        "description": "For more than a week, militant ​Israeli settlers have encircled Palestinian homes in the West Bank village of Qusra, despite the deployment of the Israeli military. The ongoing siege has prompted Palestinian-American Loui Ridi to come back to his hometown, out of fear that he could lose his property there. On Tuesday he confronted settlers on his land. Story by Emerald Maxwell.",
-        "fatalities": "0",
-        "link": "https://www.france24.com/en/palestinian-american-challenges-israeli-army-outside-his-home-in-the-west-bank",
-        "critical": false
-    },
-    {
         "country": "China",
         "city": "Beijing",
         "lat": 39.920812466712505,
@@ -991,6 +1047,20 @@
         "description": "Chinese company Unitree Robotics based the designs for its most successful robot dogs on innovations fueled by the U.S. military.",
         "fatalities": "0",
         "link": "https://www.defensenews.com/industry/techwatch/2026/08/18/how-us-military-funding-propelled-chinas-robot-dogs/",
+        "critical": false
+    },
+    {
+        "country": "Israel",
+        "city": "Tel Aviv",
+        "lat": 32.04807986044429,
+        "lon": 34.77198542977268,
+        "date": "2026-08-18 16:14:44",
+        "type": "Clashes",
+        "severity": "middle",
+        "title": "Palestinian American challenges Israeli army outside his home in the West Bank",
+        "description": "For more than a week, militant ​Israeli settlers have encircled Palestinian homes in the West Bank village of Qusra, despite the deployment of the Israeli military. The ongoing siege has prompted Palestinian-American Loui Ridi to come back to his hometown, out of fear that he could lose his property there. On Tuesday he confronted settlers on his land. Story by Emerald Maxwell.",
+        "fatalities": "0",
+        "link": "https://www.france24.com/en/palestinian-american-challenges-israeli-army-outside-his-home-in-the-west-bank",
         "critical": false
     },
     {
@@ -2993,76 +3063,6 @@
         "description": "The US and Oman have been working separately to reopen the Strait of Hormuz, one of the world's busiest oil shipping routes.",
         "fatalities": "0",
         "link": "https://www.bbc.co.uk/news/articles/cy5dzk0ryzdo?at_medium=RSS&at_campaign=rss",
-        "critical": false
-    },
-    {
-        "country": "Iran",
-        "city": "Tehran",
-        "lat": 35.73348433848984,
-        "lon": 51.33706958641961,
-        "date": "2026-08-17 17:00:59",
-        "type": "Clashes",
-        "severity": "middle",
-        "title": "As Iran War Turns Into Economic Battle, a New U.S. Strategy Recalls Old Ones",
-        "description": "The United States and Iran are poised to blow past a deadline they had set themselves to broker terms on peace and Iran’s nuclear program.",
-        "fatalities": "0",
-        "link": "https://www.nytimes.com/2026/08/16/world/middleeast/iran-war-us-trump.html",
-        "critical": false
-    },
-    {
-        "country": "Russia",
-        "city": "Moscow",
-        "lat": 55.740579427796085,
-        "lon": 37.61778723129246,
-        "date": "2026-08-17 16:37:21",
-        "type": "Clashes",
-        "severity": "middle",
-        "title": "Russia’s Supreme Court upholds ban on anti-war party Yabloko",
-        "description": "Russia’s Supreme Court on Monday upheld the exclusion of liberal opposition party Yabloko from September’s legislative elections, eliminating the country’s only explicitly anti-war party from the ballot, as dozens of the party's supporters were detained outside the court. The decision comes amid a wider crackdown on critics of Moscow’s war in Ukraine.",
-        "fatalities": "0",
-        "link": "https://www.france24.com/en/europe/20260817-russia-supreme-court-upholds-ban-anti-war-party-yabloko",
-        "critical": false
-    },
-    {
-        "country": "Russia",
-        "city": "Moscow",
-        "lat": 55.70679486909113,
-        "lon": 37.650285666628996,
-        "date": "2026-08-17 16:37:16",
-        "type": "Naval",
-        "severity": "normal",
-        "title": "How Russian dissidents are being punished by both Russia and Europe",
-        "description": "While Moscow is stripping citizenship rights, European states are curbing access to legal status for Russian emigres.",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/opinions/2026/8/17/how-russian-dissidents-are-being-punished-by-both-russia-and-europe?traffic_source=rss",
-        "critical": false
-    },
-    {
-        "country": "Russia",
-        "city": "Moscow",
-        "lat": 55.73828433753853,
-        "lon": 37.60095519635452,
-        "date": "2026-08-17 16:37:14",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "How a Ukrainian Bank Worker Came to Face Life in a Russian Prison",
-        "description": "Artem Murdid, his mother and his girlfriend are accused of terrorism. They say they did nothing wrong.",
-        "fatalities": "0",
-        "link": "https://www.nytimes.com/2026/08/16/world/europe/russia-detained-ukrainians-war-murdid.html",
-        "critical": false
-    },
-    {
-        "country": "USA",
-        "city": "New york",
-        "lat": 40.686900309339435,
-        "lon": -74.02116096778525,
-        "date": "2026-08-17 15:59:59",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "NYP: причиной смерти Хайден Панеттьери могла стать передозировка наркотиков",
-        "description": "Причиной смерти 36-летней актрисы Хайден Панеттьери могла стать остановка сердца, вызванная передозировкой. Об этом пишет New York Post, в распоряжении которой оказались записи разговоров бригад скорой помощи с диспетчерской.",
-        "fatalities": "0",
-        "link": "https://www.kommersant.ru/doc/8891507",
         "critical": false
     }
 ]
