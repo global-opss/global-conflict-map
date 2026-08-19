@@ -1,5 +1,19 @@
 [
     {
+        "country": "Ukraine",
+        "city": "Kyiv",
+        "lat": 50.47630265404224,
+        "lon": 30.53460212494548,
+        "date": "2026-08-19 23:22:19",
+        "type": "Naval",
+        "severity": "normal",
+        "title": "Iran says Ukrainian attack on vessel in Caspian Sea killed sailor",
+        "description": "Tehran described the attack on its vessel as an act of aggression while accusing Kyiv of seeking to expand the war in Ukraine.",
+        "fatalities": "0",
+        "link": "https://www.militarytimes.com/global/mideast-africa/2026/07/26/iran-says-ukrainian-attack-on-vessel-in-caspian-sea-killed-sailor/",
+        "critical": false
+    },
+    {
         "country": "Russia",
         "city": "Moscow",
         "lat": 55.81126226263195,
@@ -3050,19 +3064,5 @@
         "fatalities": "0",
         "link": "https://www.nytimes.com/2026/08/18/world/middleeast/israel-airstrikes-syria-air-base.html",
         "critical": true
-    },
-    {
-        "country": "China",
-        "city": "Beijing",
-        "lat": 39.94358888937953,
-        "lon": 116.44035829297349,
-        "date": "2026-08-18 15:50:06",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "SCMP сообщила о планах Nokia закрыть почти все заводы в Китае к концу года",
-        "description": "Финский производитель телекоммуникационного оборудования Nokia планирует закрыть почти все заводы на территории материкового Китая к концу года, пишет South China Morning Post (SCMP) со ссылкой на информированные источники.",
-        "fatalities": "0",
-        "link": "https://www.interfax.ru/business/1109968",
-        "critical": false
     }
 ]
