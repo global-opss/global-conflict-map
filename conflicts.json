@@ -1,5 +1,47 @@
 [
     {
+        "country": "Africa",
+        "city": "Niger",
+        "lat": 13.748461952701698,
+        "lon": 5.308900645348386,
+        "date": "2026-08-19 22:24:11",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Angélique Kidjo makes Hollywood history as first Black African on Walk of Fame",
+        "description": "Beninese music icon Angélique Kidjo celebrates her global legacy with a star on the Hollywood Walk of Fame, the first dedicated to a Black African. In Nigeria, the town of Ogijo has more lead-recycling factories than anywhere else in Africa, supplying the American auto industry at a heavy cost to nearby communities. Meanwhile, in Ivory Coast, the Basilica of Our Lady of Peace is the world’s largest basilica and beneath its immense dome, temperatu",
+        "fatalities": "0",
+        "link": "https://www.france24.com/en/tv-shows/eye-on-africa/20260819-ang%C3%A9lique-kidjo-makes-hollywood-history-as-first-black-african-on-walk-of-fame",
+        "critical": false
+    },
+    {
+        "country": "Iran",
+        "city": "Tehran",
+        "lat": 35.63590466034438,
+        "lon": 51.36804675144813,
+        "date": "2026-08-19 22:24:04",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "What to Know About Iran’s Economic Ties With Gulf Countries",
+        "description": "The United Arab Emirates, Iran’s most important regional trading partner, announced a total embargo on transactions with Tehran on Tuesday.",
+        "fatalities": "0",
+        "link": "https://www.nytimes.com/2026/08/19/world/middleeast/iran-emirates-gulf-economic-ties.html",
+        "critical": false
+    },
+    {
+        "country": "Israel",
+        "city": "Gaza",
+        "lat": 31.45524948732464,
+        "lon": 34.42474759306921,
+        "date": "2026-08-19 22:24:04",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Australia 'outraged' after Israeli decision not to prosecute over killing of aid worker in Gaza",
+        "description": "Foreign minister says she will summon Israeli ambassador over 'insulting' Zomi Frankcom decision.",
+        "fatalities": "0",
+        "link": "https://www.bbc.co.uk/news/articles/cp87g29r718o?at_medium=RSS&at_campaign=rss",
+        "critical": false
+    },
+    {
         "country": "Israel",
         "city": "Gaza",
         "lat": 31.556714643807506,
@@ -3022,47 +3064,5 @@
         "fatalities": "0",
         "link": "https://rg.ru/2026/08/18/jp-izrailskie-soldaty-pisali-nomera-na-telah-zaderzhannyh-palestincev.html",
         "critical": false
-    },
-    {
-        "country": "USA",
-        "city": "Washington",
-        "lat": 38.910846383839775,
-        "lon": -77.04152732165713,
-        "date": "2026-08-18 15:15:46",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "ЦИК Замбии заявил о переизбрании действующего президента на второй срок",
-        "description": "Действующий президент Замбии Хакаинде Хичилема добился переизбрания уже в первом туре президентских выборов, сообщает Lusaka Times со ссылкой на ЦИК страны.",
-        "fatalities": "0",
-        "link": "https://www.interfax.ru/world/1109967",
-        "critical": false
-    },
-    {
-        "country": "Ukraine",
-        "city": "Kyiv",
-        "lat": 50.497341651361694,
-        "lon": 30.497468786734903,
-        "date": "2026-08-18 15:15:22",
-        "type": "Evacuation",
-        "severity": "critical",
-        "title": "Ukraine’s F-16s are being worn out from intercepting Russian drones",
-        "description": "Ukrainian F-16s have destroyed more than 2,500 one-way attack drones, but repeated interceptions are wearing out the country's small fleet.",
-        "fatalities": "0",
-        "link": "https://www.militarytimes.com/flashpoints/ukraine/2026/07/30/ukraines-f-16s-are-being-worn-out-from-intercepting-russian-drones/",
-        "critical": true
-    },
-    {
-        "country": "Iran",
-        "city": "Tehran",
-        "lat": 35.64867316884083,
-        "lon": 51.37933330362019,
-        "date": "2026-08-18 15:15:22",
-        "type": "Airstrike",
-        "severity": "critical",
-        "title": "US launches new round of strikes against Iran",
-        "description": "The U.S. conducted a new wave of strikes against Iranian military sites on Wednesday after reimposing a naval blockade of the Islamic Republic's ports.",
-        "fatalities": "0",
-        "link": "https://www.militarytimes.com/flashpoints/2026/07/15/us-launches-new-round-of-strikes-against-iran/",
-        "critical": true
     }
 ]
