@@ -1,5 +1,19 @@
 [
     {
+        "country": "Asia",
+        "city": "Host",
+        "lat": 33.29807264237407,
+        "lon": 69.87426375945314,
+        "date": "2026-08-19 20:56:16",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Trump vs. the International Criminal Court",
+        "description": "The U.S. approach to the court has always been complicated. Now, it’s openly hostile.",
+        "fatalities": "0",
+        "link": "https://www.nytimes.com/2026/08/19/world/trump-icc-israel-investigation.html",
+        "critical": false
+    },
+    {
         "country": "Israel",
         "city": "Tel Aviv",
         "lat": 32.03464925045408,
@@ -3050,19 +3064,5 @@
         "fatalities": "0",
         "link": "https://www.arabnews.com/node/2654145/middle-east",
         "critical": true
-    },
-    {
-        "country": "USA",
-        "city": "Washington",
-        "lat": 38.846889474899605,
-        "lon": -77.09988108322455,
-        "date": "2026-08-18 14:43:34",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Historic trails, dramatic peaks position Taif as Saudi Arabia’s emerging hiking capital",
-        "description": "MAKKAH: Cradled among dramatic mountain ridges, lush valleys and cool highland breezes, Taif is rapidly cementing its reputation as one of Saudi Arabia’s premier outdoor destinations — with mountain hiking leading its eco-tourism surge.\n\n\tDriven by growing domestic interest in outdoor recreation under Vision 2030, the city’s historic trails and rehabilitated wadis are drawing thousands of adventure seekers and nature enthusiasts from across the K",
-        "fatalities": "0",
-        "link": "https://www.arabnews.com/node/2654143/saudi-arabia",
-        "critical": false
     }
 ]
