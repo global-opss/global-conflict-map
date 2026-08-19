@@ -1,5 +1,61 @@
 [
     {
+        "country": "China",
+        "city": "South china sea",
+        "lat": 12.03192731841239,
+        "lon": 112.95025949540796,
+        "date": "2026-08-19 17:26:30",
+        "type": "Naval",
+        "severity": "normal",
+        "title": "US Navy destroyer spent 4 days without power in South China Sea",
+        "description": "USS Benfold endured an \"engineering casualty\" last month, leaving about 300 sailors without potable water, galley services, toilets or air conditioning.",
+        "fatalities": "0",
+        "link": "https://www.defensenews.com/news/your-military/2026/08/19/us-navy-destroyer-spent-4-days-without-power-in-south-china-sea/",
+        "critical": false
+    },
+    {
+        "country": "Israel",
+        "city": "Gaza",
+        "lat": 31.45461801255861,
+        "lon": 34.44147284371383,
+        "date": "2026-08-19 17:26:20",
+        "type": "Airstrike",
+        "severity": "critical",
+        "title": "Hamas condemns ‘new war crime’ as Israel kills 10 in crowded Gaza hubs",
+        "description": "Israeli air strikes on Gaza kill 10 Palestinians, targeting police headquarters and a refugee camp in separate attacks.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/news/2026/8/19/hamas-condemns-new-war-crime-as-israel-kills-10-in-crowded-gaza-hubs?traffic_source=rss",
+        "critical": true
+    },
+    {
+        "country": "Israel",
+        "city": "Tel Aviv",
+        "lat": 32.1123248682108,
+        "lon": 34.79113315658142,
+        "date": "2026-08-19 17:26:20",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "US pressure on Israel needed for peace in Syria",
+        "description": "With Israeli elections approaching, analysts say Netanyahu needs a new escalation, undermining deconfliction efforts.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/features/2026/8/19/us-pressure-on-israel-needed-for-peace-in-syria?traffic_source=rss",
+        "critical": false
+    },
+    {
+        "country": "Israel",
+        "city": "Jerusalem",
+        "lat": 31.831501478872024,
+        "lon": 35.22484189338774,
+        "date": "2026-08-19 17:26:19",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Israel opens up bids for highly-sensitive West Bank settlement project",
+        "description": "Israeli plans to build on the area east of Jerusalem - which would divide the occupied West Bank in two - have long been internationally condemned.",
+        "fatalities": "0",
+        "link": "https://www.bbc.co.uk/news/articles/cly50gn1e54o?at_medium=RSS&at_campaign=rss",
+        "critical": false
+    },
+    {
         "country": "Israel",
         "city": "Jerusalem",
         "lat": 31.762996550890367,
@@ -294,20 +350,6 @@
         "critical": false
     },
     {
-        "country": "Iran",
-        "city": "Tehran",
-        "lat": 35.66360127867158,
-        "lon": 51.417525967663714,
-        "date": "2026-08-19 15:14:37",
-        "type": "Clashes",
-        "severity": "middle",
-        "title": "Send Us Your Questions About the Iran War",
-        "description": "Times reporters who cover the war, diplomacy, energy and the broader Middle East are joining our “Ask a Correspondent” feature as the conflict nears the six-month mark. Let us know what’s on your mind.",
-        "fatalities": "0",
-        "link": "https://www.nytimes.com/2026/08/19/world/iran-war-reader-questions.html",
-        "critical": false
-    },
-    {
         "country": "Africa",
         "city": "Khartoum",
         "lat": 15.45901130442119,
@@ -333,6 +375,20 @@
         "description": "Palestinian news outlets reported a man with the number ‘44’ written on his forehead following a raid in Qabatiya.",
         "fatalities": "0",
         "link": "https://www.aljazeera.com/news/2026/8/19/israel-numbers-palestinian-detainee-foreheads-what-we-know?traffic_source=rss",
+        "critical": false
+    },
+    {
+        "country": "Iran",
+        "city": "Tehran",
+        "lat": 35.66360127867158,
+        "lon": 51.417525967663714,
+        "date": "2026-08-19 15:14:37",
+        "type": "Clashes",
+        "severity": "middle",
+        "title": "Send Us Your Questions About the Iran War",
+        "description": "Times reporters who cover the war, diplomacy, energy and the broader Middle East are joining our “Ask a Correspondent” feature as the conflict nears the six-month mark. Let us know what’s on your mind.",
+        "fatalities": "0",
+        "link": "https://www.nytimes.com/2026/08/19/world/iran-war-reader-questions.html",
         "critical": false
     },
     {
@@ -3007,62 +3063,6 @@
         "description": "Al-Ahli and Al Ain, who will also face Cristiano Ronaldos Al-Nassr, are the pick of the match-ups in AFCs Elite draw.",
         "fatalities": "0",
         "link": "https://www.aljazeera.com/sports/2026/8/18/asian-champions-league-draw-holders-al-ahli-to-face-former-winners-al-ain?traffic_source=rss",
-        "critical": false
-    },
-    {
-        "country": "Israel",
-        "city": "Tel Aviv",
-        "lat": 32.052284471966615,
-        "lon": 34.80120622751249,
-        "date": "2026-08-18 10:42:57",
-        "type": "Airstrike",
-        "severity": "critical",
-        "title": "Eight air strikes hit airbase in Syria’s Idlib",
-        "description": "Syrian state TV quotes military source as saying Israeli forces carried out attack, causing damage and no casualties.",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/news/2026/8/18/eight-air-strikes-hit-airbase-in-syrias-idlib?traffic_source=rss",
-        "critical": true
-    },
-    {
-        "country": "Europe",
-        "city": "Brussels",
-        "lat": 50.884545145314256,
-        "lon": 4.311003941213646,
-        "date": "2026-08-18 10:42:57",
-        "type": "Clashes",
-        "severity": "middle",
-        "title": "Meta lawsuits: Is social media facing a global legal reckoning?",
-        "description": "Meta battles legal challenges in the US, Europe and beyond over platform design and its impact on younger users.",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/news/2026/8/18/meta-lawsuits-is-social-media-facing-a-global-legal-reckoning?traffic_source=rss",
-        "critical": false
-    },
-    {
-        "country": "China",
-        "city": "Beijing",
-        "lat": 39.908810600389295,
-        "lon": 116.33756678099543,
-        "date": "2026-08-18 10:02:59",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "SCMP: Китай создает авиалайнер \"летающее крыло\" на 800 пассажиров",
-        "description": "Проект пассажирского самолета на 800 пассажиров с конструкцией летающее крыло разрабатывается в Китае. Об этом сообщает South China Morning Post.",
-        "fatalities": "0",
-        "link": "https://rg.ru/2026/08/18/scmp-kitaj-sozdaet-avialajner-letaiushchee-krylo-na-800-passazhirov.html",
-        "critical": false
-    },
-    {
-        "country": "Iran",
-        "city": "Tehran",
-        "lat": 35.682866124510966,
-        "lon": 51.37454600705494,
-        "date": "2026-08-18 10:02:44",
-        "type": "Naval",
-        "severity": "normal",
-        "title": "Oil falls to 3-1/2-month low after US, Iran sign ceasefire deal",
-        "description": "BEIJING/SINGAPORE: Oil prices ​fell by more than $2 per barrel on Thursday after the US and Iran signed an interim agreement that ‌would end the Iran war, reopen the Strait of Hormuz and waive US sanctions on Tehran’s oil, boosting the oil supply outlook.\n\n\tBrent crude futures were down $2.14, or 2.69 percent, at $77.41 a barrel as of 09:16 a.m. Saudi time, and US West Texas Intermediate fell $2.36, or 3.07 percent, to $74.43 a barrel.",
-        "fatalities": "0",
-        "link": "https://www.arabnews.com/node/2647650/business-economy",
         "critical": false
     }
 ]
