@@ -1,5 +1,33 @@
 [
     {
+        "country": "Iran",
+        "city": "Tehran",
+        "lat": 35.64337037433816,
+        "lon": 51.409990146128884,
+        "date": "2026-08-20 22:48:45",
+        "type": "Airstrike",
+        "severity": "critical",
+        "title": "2 US troops killed, 1 missing after Iranian missile, drone attack in Jordan",
+        "description": "Two U.S. service members were killed in action on Friday in an Iranian ballistic missile and drone attack on U.S. and partner forces in Jordan.",
+        "fatalities": "0",
+        "link": "https://www.militarytimes.com/flashpoints/2026/07/18/2-us-troops-killed-1-missing-after-iranian-missile-drone-attack-in-jordan/",
+        "critical": true
+    },
+    {
+        "country": "Israel",
+        "city": "Tel Aviv",
+        "lat": 32.05502235197543,
+        "lon": 34.761463135520806,
+        "date": "2026-08-20 22:48:35",
+        "type": "Airstrike",
+        "severity": "critical",
+        "title": "Israel confirms soldiers fired at car in which Hind Rajab was killed and opens criminal investigation",
+        "description": "The five-year-old Palestinian girl initially survived the attack and pleaded for help but her body was recovered later with those of six of her relatives.",
+        "fatalities": "0",
+        "link": "https://www.bbc.co.uk/news/articles/crl7yjlpx2po?at_medium=RSS&at_campaign=rss",
+        "critical": true
+    },
+    {
         "country": "USA",
         "city": "Washington",
         "lat": 38.88316880862795,
@@ -3035,34 +3063,6 @@
         "description": "BRUSSELS: NATO needs to return to its roots as a “hard-line” military alliance and the United States will be candid in public and ‌private about ‌countries that ‌need to ⁠do more to ⁠meet their commitments, US Defense Secretary Pete Hegseth said on Thursday at ⁠NATO headquarters.\n\t“(There are) ‌some ‌that still need ‌to do more, ‌and we will be candid about that, both in private ‌and in public. I think ⁠that’s important, ⁠friends being honest wit",
         "fatalities": "0",
         "link": "https://www.arabnews.com/node/2647643/world",
-        "critical": false
-    },
-    {
-        "country": "USA",
-        "city": "Pentagon",
-        "lat": 38.84132121437343,
-        "lon": -77.07792333650711,
-        "date": "2026-08-19 15:49:24",
-        "type": "Airstrike",
-        "severity": "critical",
-        "title": "Pentagon identifies American soldiers killed in Iranian attack in Jordan",
-        "description": "1st Lt. Tyler James Feehan, 25, and Pvt. Isabella Gonzales, 19, were killed in action in an Iranian ballistic missile and drone attack in Jordan.",
-        "fatalities": "0",
-        "link": "https://www.militarytimes.com/flashpoints/middle-east/2026/07/20/pentagon-identifies-american-soliders-killed-in-iranian-attack-in-jordan/",
-        "critical": true
-    },
-    {
-        "country": "Europe",
-        "city": "Brussels",
-        "lat": 50.86913865001956,
-        "lon": 4.272049056293772,
-        "date": "2026-08-19 15:49:23",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "France measures more than 7,300 excess deaths – and counting – during historic heatwaves",
-        "description": "More than 7,300 excess deaths have been recorded in France over the historically hot summer as Europe grapples with worsening heatwaves, wildfires and droughts, public health authorities said Wednesday. France has suffered a record-breaking 52 days of heatwaves since mid-June, an AFP analysis found.",
-        "fatalities": "0",
-        "link": "https://www.france24.com/en/france/20260819-france-experienced-more-than-7-300-excess-deaths-during-historic-heatwaves",
         "critical": false
     }
 ]
