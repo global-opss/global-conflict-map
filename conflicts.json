@@ -1,5 +1,47 @@
 [
     {
+        "country": "Europe",
+        "city": "Brussels",
+        "lat": 50.913302508356566,
+        "lon": 4.377533007547733,
+        "date": "2026-08-20 11:35:19",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Подразделение «Золотой короны» в Европе начало процедуру отзыва лицензии",
+        "description": "Европейское подразделение платежной системы «Золотая корона» -- Koronapay Europe Limited -- начало процедуру добровольного отзыва лицензии. Об этом сообщили на сайте компании.",
+        "fatalities": "0",
+        "link": "https://www.kommersant.ru/doc/8893735",
+        "critical": false
+    },
+    {
+        "country": "Europe",
+        "city": "Paris",
+        "lat": 48.938449233793804,
+        "lon": 2.371383139615077,
+        "date": "2026-08-20 11:34:59",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "PSG forced to move opening league match as heatwave in France damages pitch",
+        "description": "Paris Saint-Germain moves its opening league game to Rennes after heatwave causes damage to pitch at Parc des Princes.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/sports/2026/8/20/psg-forced-to-move-opening-league-match-as-heatwave-in-france-damages-pitch?traffic_source=rss",
+        "critical": false
+    },
+    {
+        "country": "Ukraine",
+        "city": "Kyiv",
+        "lat": 50.386106686668136,
+        "lon": 30.520340896187694,
+        "date": "2026-08-20 11:34:55",
+        "type": "Airstrike",
+        "severity": "critical",
+        "title": "At least 15 killed in Kyiv as Ukraine grapples with air defence shortages",
+        "description": "Apartment blocks and warehouses were targeted in the \"massive attack\" on Thursday, officials say.",
+        "fatalities": "0",
+        "link": "https://www.bbc.co.uk/news/articles/c98vzmden5yo?at_medium=RSS&at_campaign=rss",
+        "critical": true
+    },
+    {
         "country": "Israel",
         "city": "Tel Aviv",
         "lat": 32.026283183828475,
@@ -182,20 +224,6 @@
         "critical": false
     },
     {
-        "country": "Ukraine",
-        "city": "Kyiv",
-        "lat": 50.48690537837327,
-        "lon": 30.540236298913356,
-        "date": "2026-08-20 09:55:11",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Sacked Ukrainian defence minister calls for presidential election",
-        "description": "Martial law has been in place in Ukraine since February 2022, under which elections are suspended.",
-        "fatalities": "0",
-        "link": "https://www.bbc.co.uk/news/articles/cdew8n9erlwo?at_medium=RSS&at_campaign=rss",
-        "critical": false
-    },
-    {
         "country": "Iran",
         "city": "Tehran",
         "lat": 35.66520797992403,
@@ -221,6 +249,20 @@
         "description": "HRW calls for sanctions and suspension of military aid as dozens of Palestinian communities are at risk of erasure.",
         "fatalities": "0",
         "link": "https://www.aljazeera.com/news/2026/8/20/state-backed-israeli-settler-violence-forces-west-bank-displacement-hrw?traffic_source=rss",
+        "critical": false
+    },
+    {
+        "country": "Ukraine",
+        "city": "Kyiv",
+        "lat": 50.48690537837327,
+        "lon": 30.540236298913356,
+        "date": "2026-08-20 09:55:11",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Sacked Ukrainian defence minister calls for presidential election",
+        "description": "Martial law has been in place in Ukraine since February 2022, under which elections are suspended.",
+        "fatalities": "0",
+        "link": "https://www.bbc.co.uk/news/articles/cdew8n9erlwo?at_medium=RSS&at_campaign=rss",
         "critical": false
     },
     {
@@ -3021,48 +3063,6 @@
         "description": "Ukraine's popular ex-defence minister Mykhailo Fedorov called for wartime elections on Tuesday evening, stating that the nation was facing a crisis of governance. Fedorov was dismissed last month, sparking days of protests across Ukraine. It is the first time since Russia launched its full-scale invasion in 2022 that a Ukrainian political figure demands presidential elections.",
         "fatalities": "0",
         "link": "https://www.france24.com/en/europe/20260819-ukraine-s-sacked-defence-minister-mykhailo-fedorov-calls-for-wartime-presidential-elections",
-        "critical": false
-    },
-    {
-        "country": "Israel",
-        "city": "Tel Aviv",
-        "lat": 32.08883518493163,
-        "lon": 34.84757836421626,
-        "date": "2026-08-19 06:59:07",
-        "type": "Clashes",
-        "severity": "middle",
-        "title": "Palestinian-American citizen raises US flag over besieged West Bank home",
-        "description": "A Palestinian-American has raised the US flag on his home besieged by Israeli settlers, as the United States renewed criticism of the siege that has generated condemnation around the world.",
-        "fatalities": "0",
-        "link": "https://www.france24.com/en/middle-east/20260819-palestinian-american-raises-u-s-flag-over-besieged-west-bank-home",
-        "critical": false
-    },
-    {
-        "country": "Middle East",
-        "city": "Damascus",
-        "lat": 33.521145365302445,
-        "lon": 36.28857393184956,
-        "date": "2026-08-19 06:59:01",
-        "type": "Airstrike",
-        "severity": "critical",
-        "title": "US condemns 'unnecessary escalation' after Israeli airstrikes on Syrian airbase",
-        "description": "Damascus called the attacks \"an unjustified act of aggression\" that imperilled regional security.",
-        "fatalities": "0",
-        "link": "https://www.bbc.co.uk/news/articles/c62vy3wl31lo?at_medium=RSS&at_campaign=rss",
-        "critical": true
-    },
-    {
-        "country": "Iran",
-        "city": "Tehran",
-        "lat": 35.735507352935485,
-        "lon": 51.45587076651545,
-        "date": "2026-08-19 06:59:01",
-        "type": "Clashes",
-        "severity": "middle",
-        "title": "South Africa to Australia: Why coal profits are surging during Iran war",
-        "description": "Coal companies are reporting a huge rise in profits, but analysts say global clean energy transition is still on track.",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/news/2026/8/19/south-africa-to-australia-why-coal-profits-are-surging-during-iran-war?traffic_source=rss",
         "critical": false
     }
 ]
