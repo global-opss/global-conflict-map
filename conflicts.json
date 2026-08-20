@@ -1,5 +1,19 @@
 [
     {
+        "country": "Middle East",
+        "city": "Yemen",
+        "lat": 14.509891679479928,
+        "lon": 49.17904250462289,
+        "date": "2026-08-20 23:43:30",
+        "type": "Naval",
+        "severity": "normal",
+        "title": "Houthis and government trade attacks as Yemen slides back to full-scale war",
+        "description": "Govt forces carried out 81 attacks in the last 24 hours as Houthis claim to have hit two targets in Saudi Arabia.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/news/2026/8/20/houthis-and-government-trade-attacks-as-yemen-slides-back-to-full-scale-war?traffic_source=rss",
+        "critical": false
+    },
+    {
         "country": "USA",
         "city": "Washington",
         "lat": 38.881940624492884,
@@ -3049,20 +3063,6 @@
         "description": "FRANCE 24 spent an evening with unaccompanied minors who are sleeping rough in Ceuta but refusing to return home. Amid the fear, the cold and the long wait for help, these young Moroccan migrants shared their stories.",
         "fatalities": "0",
         "link": "https://www.france24.com/en/europe/20260819-we-won-t-go-back-young-moroccan-migrants-ceuta-refuse-abandon-european-dream",
-        "critical": false
-    },
-    {
-        "country": "Asia",
-        "city": "Pakistan",
-        "lat": 31.55716085608712,
-        "lon": 74.40166402650486,
-        "date": "2026-08-19 16:14:33",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "India rout Pakistan at Hockey World Cup 2026 to qualify for second round",
-        "description": "India hold off Pakistan 5-3 to finish second with six points as England top Pool D with nine points from three wins.",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/sports/2026/8/19/india-rout-pakistan-at-hockey-world-cup-2026-to-qualify-for-second-round?traffic_source=rss",
         "critical": false
     }
 ]
