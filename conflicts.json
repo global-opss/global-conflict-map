@@ -1,5 +1,33 @@
 [
     {
+        "country": "Ukraine",
+        "city": "Kyiv",
+        "lat": 50.43922424090634,
+        "lon": 30.585886449504997,
+        "date": "2026-08-20 21:14:24",
+        "type": "Airstrike",
+        "severity": "critical",
+        "title": "Patriot makers hedge on Ukraine production deal as officials question cause of hold-up",
+        "description": "Though Trump promised Kyiv a license to build Patriot missile interceptors last month, Lockheed Martin and Raytheon have put the brakes on production.",
+        "fatalities": "0",
+        "link": "https://www.defensenews.com/global/europe/2026/08/14/patriot-makers-hedge-on-ukraine-production-deal-as-officials-question-cause-of-hold-up/",
+        "critical": true
+    },
+    {
+        "country": "China",
+        "city": "Beijing",
+        "lat": 39.893107029206796,
+        "lon": 116.37614504869626,
+        "date": "2026-08-20 21:14:16",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Hundreds of Tibetans protest China’s ethnic unity law by shaving heads",
+        "description": "A protest organised by hundreds of Tibetans in New Delhi led many exiles to shave their heads.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/video/newsfeed/2026/8/20/hundreds-of-tibetans-protest-chinas-ethnic-unity-law-by-shaving-heads?traffic_source=rss",
+        "critical": false
+    },
+    {
         "country": "USA",
         "city": "Washington",
         "lat": 38.831508655768644,
@@ -3035,34 +3063,6 @@
         "description": "Without Africans, no music is possible on this planet, says the 66-year-old musical icon from Benin.",
         "fatalities": "0",
         "link": "https://www.bbc.co.uk/news/articles/c62xyg6527go?at_medium=RSS&at_campaign=rss",
-        "critical": false
-    },
-    {
-        "country": "Iran",
-        "city": "Tehran",
-        "lat": 35.66360127867158,
-        "lon": 51.417525967663714,
-        "date": "2026-08-19 15:14:37",
-        "type": "Clashes",
-        "severity": "middle",
-        "title": "Send Us Your Questions About the Iran War",
-        "description": "Times reporters who cover the war, diplomacy, energy and the broader Middle East are joining our “Ask a Correspondent” feature as the conflict nears the six-month mark. Let us know what’s on your mind.",
-        "fatalities": "0",
-        "link": "https://www.nytimes.com/2026/08/19/world/iran-war-reader-questions.html",
-        "critical": false
-    },
-    {
-        "country": "Israel",
-        "city": "Tel Aviv",
-        "lat": 32.130741206203396,
-        "lon": 34.818801732917414,
-        "date": "2026-08-19 15:14:37",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Israel numbers Palestinian detainee foreheads: What we know",
-        "description": "Palestinian news outlets reported a man with the number ‘44’ written on his forehead following a raid in Qabatiya.",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/news/2026/8/19/israel-numbers-palestinian-detainee-foreheads-what-we-know?traffic_source=rss",
         "critical": false
     }
 ]
