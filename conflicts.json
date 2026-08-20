@@ -1,16 +1,58 @@
 [
     {
-        "country": "Africa",
-        "city": "Niger",
-        "lat": 13.795537623535978,
-        "lon": 5.222698830021232,
-        "date": "2026-08-20 00:23:31",
+        "country": "China",
+        "city": "Beijing",
+        "lat": 39.939127996332346,
+        "lon": 116.34673642098895,
+        "date": "2026-08-20 01:59:24",
         "type": "Breaking News",
         "severity": "normal",
-        "title": "Nigeria’s election campaign begins with Tinubu’s reform test",
+        "title": "How US military funding propelled China’s robot dogs",
+        "description": "Chinese company Unitree Robotics based the designs for its most successful robot dogs on innovations fueled by the U.S. military.",
+        "fatalities": "0",
+        "link": "https://www.defensenews.com/industry/techwatch/2026/08/18/how-us-military-funding-propelled-chinas-robot-dogs/",
+        "critical": false
+    },
+    {
+        "country": "Africa",
+        "city": "Niger",
+        "lat": 13.792040825062225,
+        "lon": 5.2177519456436245,
+        "date": "2026-08-20 01:59:11",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Nigeria’s election campaign begins with Tinubu facing a reform test",
         "description": "Rising costs fuel anger, but President Bola Tinubu’s machinery and opposition divisions may shape the race.",
         "fatalities": "0",
         "link": "https://www.aljazeera.com/news/2026/8/20/nigerias-election-campaign-begins-with-tinubus-reform-test?traffic_source=rss",
+        "critical": false
+    },
+    {
+        "country": "Iran",
+        "city": "Tehran",
+        "lat": 35.61993360513316,
+        "lon": 51.45559503207357,
+        "date": "2026-08-20 01:59:08",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Trump threatens 'tremendous economic consequences' on any country helping Iran",
+        "description": "It comes after a 60-day ceasefire expired on Monday, with no sign of a diplomatic or military off-ramp to the conflict.",
+        "fatalities": "0",
+        "link": "https://www.bbc.co.uk/news/articles/c2k7e83ynj4o?at_medium=RSS&at_campaign=rss",
+        "critical": false
+    },
+    {
+        "country": "Israel",
+        "city": "Tel Aviv",
+        "lat": 32.138953257997535,
+        "lon": 34.72816498832612,
+        "date": "2026-08-20 01:59:08",
+        "type": "Clashes",
+        "severity": "middle",
+        "title": "‘Tsunami’ of emigration reshapes Israel’s future, experts warn",
+        "description": "Nearly 270,000 Israelis have left the country over three years, citing political uncertainty and security concerns.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/news/2026/8/20/tsunami-of-emigration-reshapes-israels-future-experts-warn?traffic_source=rss",
         "critical": false
     },
     {
@@ -39,6 +81,20 @@
         "description": "The grandmother of Hind Rajab, a five-year-old Palestinian girl killed in her family’s car by Israeli forces in Gaza.",
         "fatalities": "0",
         "link": "https://www.aljazeera.com/video/newsfeed/2026/8/19/we-do-not-trust-israeli-judiciary-says-hind-rajabs-grandmother?traffic_source=rss",
+        "critical": false
+    },
+    {
+        "country": "Africa",
+        "city": "Niger",
+        "lat": 13.795537623535978,
+        "lon": 5.222698830021232,
+        "date": "2026-08-20 00:23:31",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Nigeria’s election campaign begins with Tinubu’s reform test",
+        "description": "Rising costs fuel anger, but President Bola Tinubu’s machinery and opposition divisions may shape the race.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/news/2026/8/20/nigerias-election-campaign-begins-with-tinubus-reform-test?traffic_source=rss",
         "critical": false
     },
     {
@@ -196,20 +252,6 @@
         "critical": false
     },
     {
-        "country": "Iran",
-        "city": "Tehran",
-        "lat": 35.63590466034438,
-        "lon": 51.36804675144813,
-        "date": "2026-08-19 22:24:04",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "What to Know About Iran’s Economic Ties With Gulf Countries",
-        "description": "The United Arab Emirates, Iran’s most important regional trading partner, announced a total embargo on transactions with Tehran on Tuesday.",
-        "fatalities": "0",
-        "link": "https://www.nytimes.com/2026/08/19/world/middleeast/iran-emirates-gulf-economic-ties.html",
-        "critical": false
-    },
-    {
         "country": "Israel",
         "city": "Gaza",
         "lat": 31.45524948732464,
@@ -221,6 +263,20 @@
         "description": "Foreign minister says she will summon Israeli ambassador over 'insulting' Zomi Frankcom decision.",
         "fatalities": "0",
         "link": "https://www.bbc.co.uk/news/articles/cp87g29r718o?at_medium=RSS&at_campaign=rss",
+        "critical": false
+    },
+    {
+        "country": "Iran",
+        "city": "Tehran",
+        "lat": 35.63590466034438,
+        "lon": 51.36804675144813,
+        "date": "2026-08-19 22:24:04",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "What to Know About Iran’s Economic Ties With Gulf Countries",
+        "description": "The United Arab Emirates, Iran’s most important regional trading partner, announced a total embargo on transactions with Tehran on Tuesday.",
+        "fatalities": "0",
+        "link": "https://www.nytimes.com/2026/08/19/world/middleeast/iran-emirates-gulf-economic-ties.html",
         "critical": false
     },
     {
@@ -3007,62 +3063,6 @@
         "description": "Palestinian-American Loui Ridi expressed distress over how Israeli settlers have roamed around Qusra unchallenged.",
         "fatalities": "0",
         "link": "https://www.aljazeera.com/video/newsfeed/2026/8/18/i-fear-for-my-familys-lives-says-loui-ridi-as-settlers-besiege-home?traffic_source=rss",
-        "critical": false
-    },
-    {
-        "country": "Africa",
-        "city": "Niger",
-        "lat": 13.867717579733592,
-        "lon": 5.187921253471669,
-        "date": "2026-08-18 16:52:08",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Nigeria influencer arrested after seizure of cocaine worth $28m destined for the UK",
-        "description": "Afolabi Kazeem Micheal has not commented on allegations he is linked to a global drug trafficking network.",
-        "fatalities": "0",
-        "link": "https://www.bbc.co.uk/news/articles/c1e155428qyo?at_medium=RSS&at_campaign=rss",
-        "critical": false
-    },
-    {
-        "country": "Iran",
-        "city": "Tehran",
-        "lat": 35.69442543821457,
-        "lon": 51.42720672772936,
-        "date": "2026-08-18 16:52:04",
-        "type": "Clashes",
-        "severity": "middle",
-        "title": "Iran’s Supreme Leader Signals Intention to Keep Country on a War Footing",
-        "description": "Ayatollah Mojtaba Khamenei’s appointment of hard-line loyalists to top jobs suggests he is prepared to keep the country on a war footing and to quash domestic dissent.",
-        "fatalities": "0",
-        "link": "https://www.nytimes.com/2026/08/17/world/middleeast/iran-khamenei-military-leaders-war.html",
-        "critical": false
-    },
-    {
-        "country": "Asia",
-        "city": "Host",
-        "lat": 33.34330739248224,
-        "lon": 69.8514661794087,
-        "date": "2026-08-18 16:52:04",
-        "type": "Clashes",
-        "severity": "middle",
-        "title": "Trump’s Overture to North Korea Strains Alliance With the South",
-        "description": "President Trump wants to curtail military exercises with South Korea, saying they were hostile to North Korea. But under Mr. Kim, the North has become increasingly belligerent toward the South.",
-        "fatalities": "0",
-        "link": "https://www.nytimes.com/2026/08/17/world/asia/trump-korea-military-kim-jong-un.html",
-        "critical": false
-    },
-    {
-        "country": "Ukraine",
-        "city": "Kyiv",
-        "lat": 50.3991940600888,
-        "lon": 30.472203221043227,
-        "date": "2026-08-18 16:52:04",
-        "type": "Drone",
-        "severity": "middle",
-        "title": "How Ukraine’s Satellites Help Drive Its War Drones",
-        "description": "Ukrainian drone teams have a powerful new tool: near real-time information on troop movements and locations.",
-        "fatalities": "0",
-        "link": "https://www.nytimes.com/2026/08/17/world/europe/from-the-sky-to-the-battlefield.html",
         "critical": false
     }
 ]
