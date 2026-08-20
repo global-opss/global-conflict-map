@@ -1,5 +1,19 @@
 [
     {
+        "country": "Ukraine",
+        "city": "Kyiv",
+        "lat": 50.45596591034998,
+        "lon": 30.588646499846508,
+        "date": "2026-08-20 03:54:54",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Russian strike kills 3 in Ukraine as Zelenskyy faces pressure at home",
+        "description": "At least 14 of the 20 people wounded in the strike on Kyiv have been hospitalised, officials say.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/news/2026/8/20/russian-strike-kills-3-in-ukraine-as-zelenskyy-faces-pressure-at-home?traffic_source=rss",
+        "critical": false
+    },
+    {
         "country": "Asia",
         "city": "Seoul",
         "lat": 37.51847227258738,
@@ -3049,20 +3063,6 @@
         "description": "Spain is building four temporary reception sites with 1,500 places as an estimated 5,000 migrants remain in Ceuta.",
         "fatalities": "0",
         "link": "https://www.aljazeera.com/video/newsfeed/2026/8/18/spain-builds-tent-cities-for-the-thousands-stuck-in-ceuta?traffic_source=rss",
-        "critical": false
-    },
-    {
-        "country": "Israel",
-        "city": "Tel Aviv",
-        "lat": 32.093542442902205,
-        "lon": 34.76021300886196,
-        "date": "2026-08-18 16:52:10",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Palestinian living in caves older than Israel",
-        "description": "Farhan al Rashaydeh lives in a cave in the occupied West Bank with his family.",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/video/newsfeed/2026/8/18/palestinian-living-in-caves-older-than-israel?traffic_source=rss",
         "critical": false
     }
 ]
