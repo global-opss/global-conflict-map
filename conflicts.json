@@ -1,5 +1,19 @@
 [
     {
+        "country": "Asia",
+        "city": "Seoul",
+        "lat": 37.51847227258738,
+        "lon": 127.09101281726392,
+        "date": "2026-08-20 03:04:55",
+        "type": "Clashes",
+        "severity": "middle",
+        "title": "Alarm in South Korea as Iran dispute with Trump shakes a 72-year alliance",
+        "description": "Trumps order to scale back military drills rattles Seoul, reviving doubts over US security guarantees.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/news/2026/8/20/alarm-in-south-korea-as-iran-dispute-with-trump-shakes-a-72-year-alliance?traffic_source=rss",
+        "critical": false
+    },
+    {
         "country": "China",
         "city": "Beijing",
         "lat": 39.939127996332346,
@@ -3049,20 +3063,6 @@
         "description": "Farhan al Rashaydeh lives in a cave in the occupied West Bank with his family.",
         "fatalities": "0",
         "link": "https://www.aljazeera.com/video/newsfeed/2026/8/18/palestinian-living-in-caves-older-than-israel?traffic_source=rss",
-        "critical": false
-    },
-    {
-        "country": "Israel",
-        "city": "Tel Aviv",
-        "lat": 32.07160382254448,
-        "lon": 34.824034097754584,
-        "date": "2026-08-18 16:52:10",
-        "type": "Clashes",
-        "severity": "middle",
-        "title": "“I fear for my family’s lives” says Loui Ridi as settlers besiege home",
-        "description": "Palestinian-American Loui Ridi expressed distress over how Israeli settlers have roamed around Qusra unchallenged.",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/video/newsfeed/2026/8/18/i-fear-for-my-familys-lives-says-loui-ridi-as-settlers-besiege-home?traffic_source=rss",
         "critical": false
     }
 ]
