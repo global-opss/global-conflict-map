@@ -1,5 +1,33 @@
 [
     {
+        "country": "Russia",
+        "city": "Moscow",
+        "lat": 55.68894608086424,
+        "lon": 37.58613662153116,
+        "date": "2026-08-20 11:59:00",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Житель Эстонии вернул через суд изъятые у него шорты с надписью Russia",
+        "description": "",
+        "fatalities": "0",
+        "link": "https://lenta.ru/news/2026/08/20/zhitel-estonii-vernul-cherez-sud-iz-yatye-u-nego-shorty-s-nadpisyu-russia/",
+        "critical": false
+    },
+    {
+        "country": "Iran",
+        "city": "Tehran",
+        "lat": 35.7384458369163,
+        "lon": 51.426297380124254,
+        "date": "2026-08-20 11:58:39",
+        "type": "Naval",
+        "severity": "normal",
+        "title": "Are ships through more willing to defy Iran or the US? What the data shows",
+        "description": "Most ships are trying to mask identities while trying to cross the strait. But more seem scared of Iran than of the US.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/news/2026/8/20/are-hormuz-ships-more-willing-to-defy-iran-or-the-us-what-data-shows?traffic_source=rss",
+        "critical": false
+    },
+    {
         "country": "Europe",
         "city": "Brussels",
         "lat": 50.913302508356566,
@@ -408,20 +436,6 @@
     {
         "country": "Iran",
         "city": "Tehran",
-        "lat": 35.72329423824679,
-        "lon": 51.44874157686703,
-        "date": "2026-08-20 09:19:56",
-        "type": "Naval",
-        "severity": "normal",
-        "title": "Are Hormuz ships more willing to defy Iran or the US? What the data shows",
-        "description": "Most ships are trying to mask identities while trying to cross the strait. But more seem scared of Iran than of the US.",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/news/2026/8/20/are-hormuz-ships-more-willing-to-defy-iran-or-the-us-what-data-shows?traffic_source=rss",
-        "critical": false
-    },
-    {
-        "country": "Iran",
-        "city": "Tehran",
         "lat": 35.73289948086731,
         "lon": 51.41777757375942,
         "date": "2026-08-20 09:19:56",
@@ -431,6 +445,20 @@
         "description": "Heatwaves are squeezing growth and productivity while the Iran war drives up Europes energy costs.",
         "fatalities": "0",
         "link": "https://www.aljazeera.com/video/counting-the-cost/2026/8/20/heatwaves-and-energy-crunch-can-europe-withstand-a-double-shock?traffic_source=rss",
+        "critical": false
+    },
+    {
+        "country": "Iran",
+        "city": "Tehran",
+        "lat": 35.72329423824679,
+        "lon": 51.44874157686703,
+        "date": "2026-08-20 09:19:56",
+        "type": "Naval",
+        "severity": "normal",
+        "title": "Are Hormuz ships more willing to defy Iran or the US? What the data shows",
+        "description": "Most ships are trying to mask identities while trying to cross the strait. But more seem scared of Iran than of the US.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/news/2026/8/20/are-hormuz-ships-more-willing-to-defy-iran-or-the-us-what-data-shows?traffic_source=rss",
         "critical": false
     },
     {
@@ -3035,34 +3063,6 @@
         "description": "Iran army chief Ali Abdollahi warned Gulf countries on Wednesday not to provide any assistance to the US military. Doing so would be tantamount to joining American military operations in Iran, Abdollahi said. Follow our live blog for the latest updates.",
         "fatalities": "0",
         "link": "https://www.france24.com/en/middle-east/20260819-middle-east-live-turkey-rejects-israeli-claims-after-strike-on-syria-air-base",
-        "critical": false
-    },
-    {
-        "country": "USA",
-        "city": "Washington",
-        "lat": 38.85976936032426,
-        "lon": -76.99881742063965,
-        "date": "2026-08-19 07:47:12",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Trump pauses 50 percent tariffs on Canada in last-minute deal",
-        "description": "Washington and Ottawa announce agreement to delay new tariffs on Canadian exports shortly before midnight deadline.",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/economy/2026/8/19/us-canada-reach-trade-deal-to-avert-steep-tariffs-trump-says?traffic_source=rss",
-        "critical": false
-    },
-    {
-        "country": "Ukraine",
-        "city": "Kyiv",
-        "lat": 50.44592027985937,
-        "lon": 30.54970432602045,
-        "date": "2026-08-19 06:59:07",
-        "type": "Clashes",
-        "severity": "middle",
-        "title": "Ukraine's sacked defence minister Fedorov calls for wartime presidential elections",
-        "description": "Ukraine's popular ex-defence minister Mykhailo Fedorov called for wartime elections on Tuesday evening, stating that the nation was facing a crisis of governance. Fedorov was dismissed last month, sparking days of protests across Ukraine. It is the first time since Russia launched its full-scale invasion in 2022 that a Ukrainian political figure demands presidential elections.",
-        "fatalities": "0",
-        "link": "https://www.france24.com/en/europe/20260819-ukraine-s-sacked-defence-minister-mykhailo-fedorov-calls-for-wartime-presidential-elections",
         "critical": false
     }
 ]
