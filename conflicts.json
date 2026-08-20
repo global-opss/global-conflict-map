@@ -1,5 +1,19 @@
 [
     {
+        "country": "Israel",
+        "city": "Tel Aviv",
+        "lat": 32.026283183828475,
+        "lon": 34.80652857331223,
+        "date": "2026-08-20 10:59:48",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Israel opens up bids for highly sensitive West Bank settlement project",
+        "description": "The UK's foreign secretary condemned the move as \"an unacceptable and destructive act\".",
+        "fatalities": "0",
+        "link": "https://www.bbc.co.uk/news/articles/cly50gn1e54o?at_medium=RSS&at_campaign=rss",
+        "critical": false
+    },
+    {
         "country": "Europe",
         "city": "Berlin",
         "lat": 48.920934221425995,
@@ -3049,20 +3063,6 @@
         "description": "Coal companies are reporting a huge rise in profits, but analysts say global clean energy transition is still on track.",
         "fatalities": "0",
         "link": "https://www.aljazeera.com/news/2026/8/19/south-africa-to-australia-why-coal-profits-are-surging-during-iran-war?traffic_source=rss",
-        "critical": false
-    },
-    {
-        "country": "China",
-        "city": "Beijing",
-        "lat": 39.972086268981926,
-        "lon": 116.35864629826793,
-        "date": "2026-08-19 06:59:01",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Scaling back US-South Korea drills may fail to woo Kim away from China",
-        "description": "Trump is scaling back US-South Korea military exercises as he signals interest in renewed talks with Kim Jong Un.",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/video/newsfeed/2026/8/19/scaling-back-us-south-korea-drills-may-fail-to-woo-kim-away-from-china?traffic_source=rss",
         "critical": false
     }
 ]
