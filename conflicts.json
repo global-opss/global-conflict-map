@@ -1,5 +1,75 @@
 [
     {
+        "country": "Russia",
+        "city": "Moscow",
+        "lat": 55.77375565852243,
+        "lon": 37.57146168637902,
+        "date": "2026-08-20 19:41:32",
+        "type": "Clashes",
+        "severity": "middle",
+        "title": "US Air Force flight to Antarctica turns back after Russian hazardous space activity warning",
+        "description": "A U.S. Air Force C-17A Globemaster III taking off from Christchurch, New Zealand, returned after receiving a “potentially hazardous” space activity notice.",
+        "fatalities": "0",
+        "link": "https://www.defensenews.com/news/your-military/2026/08/20/us-air-force-flight-to-antarctica-turns-back-after-russian-hazardous-space-activity-warning/",
+        "critical": false
+    },
+    {
+        "country": "Iran",
+        "city": "Tehran",
+        "lat": 35.75423552770489,
+        "lon": 51.406172391133616,
+        "date": "2026-08-20 19:41:22",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "US says sanctions will 'squash' Iran's economy and 'collapse' its regime",
+        "description": "The US treasury secretary says allies will need to decide whether they \"are with us or against us\".",
+        "fatalities": "0",
+        "link": "https://www.bbc.co.uk/news/articles/c87n90eg0p2o?at_medium=RSS&at_campaign=rss",
+        "critical": false
+    },
+    {
+        "country": "USA",
+        "city": "Washington",
+        "lat": 38.867229973744145,
+        "lon": -77.04955085851032,
+        "date": "2026-08-20 19:41:22",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "University suspends US academic leading Jason Arday plagiarism accusations",
+        "description": "Researcher Nathan Cofnas, an outspoken critic of DEI, was himself sacked from Cambridge in 2024 over his views on race.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/news/2026/8/20/university-suspends-us-academic-leading-jason-arday-plagiarism-accusations?traffic_source=rss",
+        "critical": false
+    },
+    {
+        "country": "Iran",
+        "city": "Tehran",
+        "lat": 35.741612158580786,
+        "lon": 51.39872727965011,
+        "date": "2026-08-20 19:41:22",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "US Treasury secretary says new economic measures will ‘collapse’ Iran",
+        "description": "Scott Bessent has not said if countries such as China could be targeted in an effort to economically isolate Tehran.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/news/2026/8/20/us-treasury-secretary-says-new-economic-measures-will-collapse-iran?traffic_source=rss",
+        "critical": false
+    },
+    {
+        "country": "Israel",
+        "city": "Tel Aviv",
+        "lat": 32.149970350314184,
+        "lon": 34.764721005867294,
+        "date": "2026-08-20 19:41:22",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Jewish-American barred by Israel calls settler violence ‘state terror’",
+        "description": "Jewish-American activist says Israel barred his re-entry over his work with Palestinians in the occupied West Bank.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/video/newsfeed/2026/8/20/08-20-208-20-2026-jewish-american-banned-sv-mp4?traffic_source=rss",
+        "critical": false
+    },
+    {
         "country": "Israel",
         "city": "Jerusalem",
         "lat": 31.710836245398347,
@@ -70,20 +140,6 @@
         "critical": false
     },
     {
-        "country": "Iran",
-        "city": "Tehran",
-        "lat": 35.67846702453315,
-        "lon": 51.444316196824,
-        "date": "2026-08-20 19:04:15",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Bessent urges US partners to back plans to 'squash' Iran economy",
-        "description": "The US Treasury secretary says allies will need to decide whether they \"are with us or against us\".",
-        "fatalities": "0",
-        "link": "https://www.bbc.co.uk/news/articles/c87n90eg0p2o?at_medium=RSS&at_campaign=rss",
-        "critical": false
-    },
-    {
         "country": "Middle East",
         "city": "Damascus",
         "lat": 33.467349963648985,
@@ -95,6 +151,20 @@
         "description": "Who is Ahmad Hassoun, the barrel bomb mufti close to the inner circle of the al-Assad regime?",
         "fatalities": "0",
         "link": "https://www.aljazeera.com/news/2026/8/20/ahmad-badreddine-hassoun-assads-barrel-bomb-mufti-faces-court-verdict?traffic_source=rss",
+        "critical": false
+    },
+    {
+        "country": "Iran",
+        "city": "Tehran",
+        "lat": 35.67846702453315,
+        "lon": 51.444316196824,
+        "date": "2026-08-20 19:04:15",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Bessent urges US partners to back plans to 'squash' Iran economy",
+        "description": "The US Treasury secretary says allies will need to decide whether they \"are with us or against us\".",
+        "fatalities": "0",
+        "link": "https://www.bbc.co.uk/news/articles/c87n90eg0p2o?at_medium=RSS&at_campaign=rss",
         "critical": false
     },
     {
@@ -812,20 +882,6 @@
         "critical": false
     },
     {
-        "country": "Africa",
-        "city": "Libya",
-        "lat": 26.39054469081394,
-        "lon": 17.213929554670536,
-        "date": "2026-08-20 09:55:29",
-        "type": "Drone",
-        "severity": "middle",
-        "title": "Fire breaks out at Libya’s Zawiya refinery",
-        "description": "TRIPOLI: A fire broke out on Monday ​in a diesel tank at Libya’s Zawiya refinery days after the facility was hit by drone.\n\n\tThe circumstances of Monday's fire remained unknown, Brega Petroleum Marketing Company said in a statement.\n\tBrega is owned by state oil firm National Oil Corporation (NOC) and is in charge of ‌fuel supplies.\n\tZawiya refinery is the ‌largest in the ​country ‌while Ras ​Lanuf is out ⁠of operation and is located around 40 kil",
-        "fatalities": "0",
-        "link": "https://www.arabnews.com/node/2654151/middle-east",
-        "critical": false
-    },
-    {
         "country": "Asia",
         "city": "Pakistan",
         "lat": 31.493727074683978,
@@ -837,6 +893,20 @@
         "description": "MUZAFFARABAD, Pakistan: Voters went to the polls Monday in the final phase of elections for the legislative assembly in Pakistan-administered Kashmir, following weeks of violent protests and clashes with security forces that overshadowed campaigning in the disputed Himalayan region, officials said.\n\n\tMen and women began lining up early at polling stations in Poonch district in the disputed Himalayan region, where four assembly seats were being co",
         "fatalities": "0",
         "link": "https://www.arabnews.com/node/2654152/world",
+        "critical": false
+    },
+    {
+        "country": "Africa",
+        "city": "Libya",
+        "lat": 26.39054469081394,
+        "lon": 17.213929554670536,
+        "date": "2026-08-20 09:55:29",
+        "type": "Drone",
+        "severity": "middle",
+        "title": "Fire breaks out at Libya’s Zawiya refinery",
+        "description": "TRIPOLI: A fire broke out on Monday ​in a diesel tank at Libya’s Zawiya refinery days after the facility was hit by drone.\n\n\tThe circumstances of Monday's fire remained unknown, Brega Petroleum Marketing Company said in a statement.\n\tBrega is owned by state oil firm National Oil Corporation (NOC) and is in charge of ‌fuel supplies.\n\tZawiya refinery is the ‌largest in the ​country ‌while Ras ​Lanuf is out ⁠of operation and is located around 40 kil",
+        "fatalities": "0",
+        "link": "https://www.arabnews.com/node/2654151/middle-east",
         "critical": false
     },
     {
@@ -2993,76 +3063,6 @@
         "description": "A Ukrainian Air Force pilot was forced to eject from a MiG-29 after an air to air missile malfunction caused the aircraft to catch fire in midair. While flying a counter-unmanned aerial systems (C-UAS) sortie over Odesa Oblast in southwest Ukraine an unspecified malfunction occurred while launching an air to air missile that caused the []",
         "fatalities": "0",
         "link": "https://theaviationist.com/2026/08/11/ukrainian-mig-29-crashes-missile-misfire/",
-        "critical": true
-    },
-    {
-        "country": "Iran",
-        "city": "Tehran",
-        "lat": 35.752566036828625,
-        "lon": 51.42045355320769,
-        "date": "2026-08-19 14:00:29",
-        "type": "Naval",
-        "severity": "normal",
-        "title": "Sea drones strike Iranian port in combat first for US",
-        "description": "U.S. Central Command utilized three Corsair unmanned surface vessels to strike a submarine and ship maintenance facility in Iran.",
-        "fatalities": "0",
-        "link": "https://www.militarytimes.com/news/your-military/2026/07/13/sea-drones-strike-iranian-port-in-combat-first-for-us-navy/",
-        "critical": false
-    },
-    {
-        "country": "Ukraine",
-        "city": "Kyiv",
-        "lat": 50.421485223220714,
-        "lon": 30.512213697835737,
-        "date": "2026-08-19 14:00:27",
-        "type": "Clashes",
-        "severity": "middle",
-        "title": "Live: Ukraine’s new defence minister takes office as popular predecessor calls for presidential vote",
-        "description": "Ukrainian lawmakers approved former top special forces operative Yevhenii Khmara as the country’s new defence minister Wednesday, just hours after his predecessor Mykhailo Fedorov called for fresh presidential elections. Elections have been banned in Ukraine since President Volodymyr Zelensky declared martial law following the full-scale Russian invasion in February 2022. Follow our liveblog for the latest updates.",
-        "fatalities": "0",
-        "link": "https://www.france24.com/en/europe/20260819-ukraine-live-zelensky-fires-deputy-head-of-presidential-office-as-corruption-probe-unfolds",
-        "critical": false
-    },
-    {
-        "country": "Israel",
-        "city": "Gaza",
-        "lat": 31.49796053173373,
-        "lon": 34.432601641388,
-        "date": "2026-08-19 14:00:12",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Israel Opens Criminal Investigation Into Killings of Hind Rajab and Gaza Medical Workers",
-        "description": "Two high-profile cases that had spurred international condemnation of the country’s conduct in Gaza were transferred to the military police. Such investigations have rarely led to convictions.",
-        "fatalities": "0",
-        "link": "https://www.nytimes.com/2026/08/19/world/middleeast/israel-criminal-investigation-hind-rajab-gaza-workers.html",
-        "critical": false
-    },
-    {
-        "country": "Israel",
-        "city": "Tel Aviv",
-        "lat": 32.13362882764314,
-        "lon": 34.724835499875134,
-        "date": "2026-08-19 14:00:12",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Israeli forces mark Palestinians with numbers amid mass arrests",
-        "description": "Palestinian detainees were marked with numbers during a mass Israeli arrest campaign in Qabatiya.",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/video/newsfeed/2026/8/19/israeli-forces-mark-palestinians-with-numbers-amid-mass-arrests?traffic_source=rss",
-        "critical": false
-    },
-    {
-        "country": "Israel",
-        "city": "Gaza",
-        "lat": 31.500054474130103,
-        "lon": 34.4501015285283,
-        "date": "2026-08-19 14:00:12",
-        "type": "Airstrike",
-        "severity": "critical",
-        "title": "Israel confirms it opened fire on vehicle carrying five-year-old Hind Rajab in Gaza",
-        "description": "She initially survived the attack but her body was recovered days later in Gaza City in 2024.",
-        "fatalities": "0",
-        "link": "https://www.bbc.co.uk/news/articles/crl7yjlpx2po?at_medium=RSS&at_campaign=rss",
         "critical": true
     }
 ]
