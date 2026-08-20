@@ -1,5 +1,47 @@
 [
     {
+        "country": "Asia",
+        "city": "Pakistan",
+        "lat": 31.574116897446736,
+        "lon": 74.32616764942792,
+        "date": "2026-08-20 20:11:11",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Brook makes Pakistan pay for dropped catch as England dominate first Test",
+        "description": "England were 366-8 at stumps on a rain-marred second day, 195 runs ahead of Pakistans meagre first innings of 171.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/sports/2026/8/20/brook-makes-pakistan-pay-for-dropped-catch-as-england-dominate-first-test?traffic_source=rss",
+        "critical": false
+    },
+    {
+        "country": "USA",
+        "city": "Washington",
+        "lat": 38.886149891155256,
+        "lon": -77.01759514352177,
+        "date": "2026-08-20 20:11:11",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Could US sanctions destroy the International Criminal Court?",
+        "description": "Washingtons new measures against the ICC have been widely condemned but welcomed by Israel.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/video/inside-story/2026/8/20/could-us-sanctions-destroy-the-international-criminal-court?traffic_source=rss",
+        "critical": false
+    },
+    {
+        "country": "Israel",
+        "city": "Gaza",
+        "lat": 31.552267820575867,
+        "lon": 34.40988329089558,
+        "date": "2026-08-20 20:11:09",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Israel Opens Criminal Investigation Into Killings of Hind Rajab and Gaza Medical Workers",
+        "description": "Two high-profile cases that had spurred international condemnation of the country’s conduct in Gaza were transferred to the military police. Such investigations have rarely led to convictions.",
+        "fatalities": "0",
+        "link": "https://www.nytimes.com/2026/08/19/world/middleeast/israel-criminal-investigation-hind-rajab-gaza-workers.html",
+        "critical": false
+    },
+    {
         "country": "Russia",
         "city": "Moscow",
         "lat": 55.77375565852243,
@@ -3022,47 +3064,5 @@
         "fatalities": "0",
         "link": "https://www.france24.com/en/video/20260819-israel-blames-turkey-after-strike-on-syria-air-base",
         "critical": false
-    },
-    {
-        "country": "Ukraine",
-        "city": "Kyiv",
-        "lat": 50.399302890998364,
-        "lon": 30.46006932559471,
-        "date": "2026-08-19 14:44:01",
-        "type": "Clashes",
-        "severity": "middle",
-        "title": "Zelensky's office probed for corruption as fired defence minister demands elections",
-        "description": "Ukrainian anti-corruption agencies announced Wednesday that they are investigating senior officials in President Volodymyr Zelenskyy's office, a day after the country’s recently fired defence minister called for national elections despite the ongoing fight against Russia’s invasion. The political drama was an unwelcome distraction for Zelenskyy as Ukraine’s war with its bigger neighbor extends into its fifth year. FRANCE 24's International Affair",
-        "fatalities": "0",
-        "link": "https://www.france24.com/en/video/20260819-zelensky-s-office-probed-for-corruption-as-fired-defence-minister-demands-elections",
-        "critical": false
-    },
-    {
-        "country": "Europe",
-        "city": "Berlin",
-        "lat": 48.85684055771162,
-        "lon": 2.272318508414684,
-        "date": "2026-08-19 14:00:58",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "BZ: Зеленский должен покинуть свой пост, пока его не заставили сделать это",
-        "description": "Владимир Зеленский должен добровольно уйти в отставку, пока его не вынудили сделать это, пишет Berliner Zeitung. Читать далее",
-        "fatalities": "0",
-        "link": "https://russian.rt.com/ussr/news/1671665-zelenskii-ukraina-post?utm_source=rss&utm_medium=rss&utm_campaign=RSS",
-        "critical": false
-    },
-    {
-        "country": "Ukraine",
-        "city": "Odesa",
-        "lat": 46.41459055916765,
-        "lon": 30.748070705831903,
-        "date": "2026-08-19 14:00:33",
-        "type": "Airstrike",
-        "severity": "critical",
-        "title": "Ukrainian MiG-29 Crashes After Air to Air Missile Misfire",
-        "description": "A Ukrainian Air Force pilot was forced to eject from a MiG-29 after an air to air missile malfunction caused the aircraft to catch fire in midair. While flying a counter-unmanned aerial systems (C-UAS) sortie over Odesa Oblast in southwest Ukraine an unspecified malfunction occurred while launching an air to air missile that caused the []",
-        "fatalities": "0",
-        "link": "https://theaviationist.com/2026/08/11/ukrainian-mig-29-crashes-missile-misfire/",
-        "critical": true
     }
 ]
