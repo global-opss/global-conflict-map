@@ -1,5 +1,47 @@
 [
     {
+        "country": "Asia",
+        "city": "Tokyo",
+        "lat": 35.607489124136364,
+        "lon": 139.7186742153233,
+        "date": "2026-08-21 05:53:13",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "В Таджикистане ввели туристический налог",
+        "description": "В Таджикистане (РТ) ввели туристический налог, который станет одним из источников финансирования Фонда развития туризма. Платить его будут как иностранцы, так и граждане РТ. Об этом сообщает Asiaplus.news со ссылкой на правительство республики.",
+        "fatalities": "0",
+        "link": "https://rg.ru/2026/08/21/v-tadzhikistane-vveli-turisticheskij-nalog.html",
+        "critical": false
+    },
+    {
+        "country": "China",
+        "city": "Beijing",
+        "lat": 39.91868138480019,
+        "lon": 116.4388860942747,
+        "date": "2026-08-21 05:52:37",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Hong Kong convicts two Tiananmen vigil activists of inciting subversion",
+        "description": "Two pro-democracy activists who organised annual vigils to mark Beijing's 1989 deadly Tiananmen crackdown were on Friday convicted of inciting subversion by a Hong Kong court. Lee Cheuk-yan and Chow Hang-tung were leaders of the now-defunct Hong Kong Alliance and their case was viewed as a bellwether for freedom of expression in the Chinese city.",
+        "fatalities": "0",
+        "link": "https://www.france24.com/en/asia-pacific/20260821-the-hong-kong-tiananmen-vigil-activists-convicted-in-national-security-trial",
+        "critical": false
+    },
+    {
+        "country": "USA",
+        "city": "New york",
+        "lat": 40.69058863204234,
+        "lon": -73.96740497027666,
+        "date": "2026-08-21 05:52:37",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Woman charged with IS group-inspired plot to bomb New York State Capitol",
+        "description": "US authorities charged Jessica Bowie, a woman who allegedly supported the Islamic State group, with a terrorism offence Thursday after she told an FBI informant she \"wanted to destroy\" the New York State Capitol buildings.",
+        "fatalities": "0",
+        "link": "https://www.france24.com/en/americas/20260820-woman-charged-with-is-inspired-plot-to-bomb-new-york-state-capitol",
+        "critical": false
+    },
+    {
         "country": "Iran",
         "city": "Tehran",
         "lat": 35.68957853519477,
@@ -3021,48 +3063,6 @@
         "description": "RIYADH: Ukrainian President Volodymyr Zelensky congratulated Saudi Arabia’s Crown Prince Mohammed bin Salman on Monday for the recent signing of a regional defense agreement.\n\n\tZelensky said he hopes the Makkah Joint Defense Agreement signed between Saudi Arabia, Turkiye and Pakistan last week will contribute to achieving security and stability in the region.\n\n\tHe made the comments during a phone call with the crown prince, Saudi Press Agency rep",
         "fatalities": "0",
         "link": "https://www.arabnews.com/node/2654135/saudi-arabia",
-        "critical": false
-    },
-    {
-        "country": "Iran",
-        "city": "Tehran",
-        "lat": 35.6872174759823,
-        "lon": 51.42776989649605,
-        "date": "2026-08-19 18:35:21",
-        "type": "Airstrike",
-        "severity": "critical",
-        "title": "Trump demands Iran pay compensation for war dead and wounded",
-        "description": "WASHINGTON: US President Donald Trump said Monday he would seek conflict compensation from Iran as part of any peace negotiations, citing attacks and atrocities stretching back decades allegedly backed or perpetrated by Tehran.\n\tIran is “asking for compensation for the damage done to them during the last five month Military Conflict... I am likewise demanding compensation from Iran, for all of the people that they have killed and gravely wounded ",
-        "fatalities": "0",
-        "link": "https://www.arabnews.com/node/2654132/middle-east",
-        "critical": true
-    },
-    {
-        "country": "Ukraine",
-        "city": "Kyiv",
-        "lat": 50.41283069644983,
-        "lon": 30.553548783181515,
-        "date": "2026-08-19 18:35:21",
-        "type": "Airstrike",
-        "severity": "critical",
-        "title": "Ukraine’s Zelensky says up to 50,000 North Korean troops to be deployed in Russia",
-        "description": "SEOUL: Ukrainian President Volodymyr Zelensky has ‌said up to 50,000 North Korean soldiers will be deployed in Russia to fight for Pyongyang’s ally, while calling on South Korea to provide support for ​its air defense.Zelensky said on X on Saturday that “a decision has been made for 30,000 to 50,000 North Koreans to be deployed on the territory of Russia,” a higher figure than his estimate of 30,000 in July. He did not elaborate on how he obtaine",
-        "fatalities": "0",
-        "link": "https://www.arabnews.com/node/2654131/world",
-        "critical": true
-    },
-    {
-        "country": "Iran",
-        "city": "Tehran",
-        "lat": 35.66322816967731,
-        "lon": 51.369450624628215,
-        "date": "2026-08-19 18:35:21",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Iran supreme leader names Guards general Abdollahi military chief",
-        "description": "TEHRAN: Iranian supreme leader Mojtaba Khamenei named Revolutionary Guards general Ali Abdollahi head of the country's armed forces on Monday, while also confirming a new commander of the Guards, putting his imprimatur on the country's military.\n\tAbdollahi had previously led the Khatam Al-Anbiya, Iran's inter-branch central military command tasked with coordinating operations.",
-        "fatalities": "0",
-        "link": "https://www.arabnews.com/node/2654129/middle-east",
         "critical": false
     }
 ]
