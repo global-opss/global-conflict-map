@@ -1,5 +1,33 @@
 [
     {
+        "country": "Asia",
+        "city": "Pakistan",
+        "lat": 31.54915873253652,
+        "lon": 74.33627245841265,
+        "date": "2026-08-21 04:43:52",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Pakistan’s ex-PM Imran Khan back in jail after brief hospital visit",
+        "description": "Khan, who was voted out of the office in April 2022, has been in prison for more than three years.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/news/2026/8/20/pakistans-ex-pm-imran-khan-transferred-from-jail-to-hospital?traffic_source=rss",
+        "critical": false
+    },
+    {
+        "country": "Asia",
+        "city": "Pakistan",
+        "lat": 31.566642970780446,
+        "lon": 74.32604868082255,
+        "date": "2026-08-21 04:43:47",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Pakistan ex-PM Imran Khan back in jail after hospital examination",
+        "description": "It comes as the court had earlier this week ordered that he had to be taken for a hospital examination.",
+        "fatalities": "0",
+        "link": "https://www.bbc.co.uk/news/articles/ckgdr9vr50po?at_medium=RSS&at_campaign=rss",
+        "critical": false
+    },
+    {
         "country": "USA",
         "city": "New york",
         "lat": 40.6628475884638,
@@ -518,20 +546,6 @@
         "critical": false
     },
     {
-        "country": "Asia",
-        "city": "Pakistan",
-        "lat": 31.47747247330406,
-        "lon": 74.43992123777707,
-        "date": "2026-08-20 20:49:58",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Jailed Pakistan ex-PM Imran Khan taken to hospital for treatment",
-        "description": "Khan was taken from Adiala jail and sent to Shifa International Hospital under heavy security, local media report.",
-        "fatalities": "0",
-        "link": "https://www.bbc.co.uk/news/articles/ckgdr9vr50po?at_medium=RSS&at_campaign=rss",
-        "critical": false
-    },
-    {
         "country": "Africa",
         "city": "Niger",
         "lat": 13.869006998486041,
@@ -543,6 +557,20 @@
         "description": "The incident took place in the country's northwest ​Sokoto state, with many of the victims feared to be children.",
         "fatalities": "0",
         "link": "https://www.bbc.co.uk/news/articles/cj035jg256no?at_medium=RSS&at_campaign=rss",
+        "critical": false
+    },
+    {
+        "country": "Asia",
+        "city": "Pakistan",
+        "lat": 31.47747247330406,
+        "lon": 74.43992123777707,
+        "date": "2026-08-20 20:49:58",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Jailed Pakistan ex-PM Imran Khan taken to hospital for treatment",
+        "description": "Khan was taken from Adiala jail and sent to Shifa International Hospital under heavy security, local media report.",
+        "fatalities": "0",
+        "link": "https://www.bbc.co.uk/news/articles/ckgdr9vr50po?at_medium=RSS&at_campaign=rss",
         "critical": false
     },
     {
@@ -3036,33 +3064,5 @@
         "fatalities": "0",
         "link": "https://www.aljazeera.com/news/2026/8/19/nato-prepared-to-defend-allies-amid-report-of-iranian-strike-plans?traffic_source=rss",
         "critical": true
-    },
-    {
-        "country": "USA",
-        "city": "Washington",
-        "lat": 38.920787518617814,
-        "lon": -76.99118412259357,
-        "date": "2026-08-19 18:35:04",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "US Department of Justice defends prosecution of Comey over seashell post",
-        "description": "The ex-FBI chief faces accusations of transmitting threats and exploiting controversy to market his upcoming novel.",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/news/2026/8/19/us-department-of-justice-defends-prosecution-of-comey-over-seashell-post?traffic_source=rss",
-        "critical": false
-    },
-    {
-        "country": "Asia",
-        "city": "Host",
-        "lat": 33.30292325239609,
-        "lon": 69.93885289991674,
-        "date": "2026-08-19 18:35:04",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "North Korea leader’s sister denies talks with ‘hostile’ US",
-        "description": "US President Donald Trump claimed North Korean leader Kim Jong Un had responded positively to his proposal for talks.",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/news/2026/8/19/north-korea-leaders-sister-denies-talks-with-hostile-us?traffic_source=rss",
-        "critical": false
     }
 ]
