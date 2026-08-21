@@ -1,5 +1,61 @@
 [
     {
+        "country": "Israel",
+        "city": "Tel Aviv",
+        "lat": 32.136410737245654,
+        "lon": 34.800820038461694,
+        "date": "2026-08-21 08:18:05",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Israeli settlers set fire to Palestinian home while family asleep",
+        "description": "Israeli settlers set fire to a Palestinian home while a mother and her children were sleeping inside.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/video/newsfeed/2026/8/21/israeli-settlers-set-fire-to-palestinian-home-while-family-asleep?traffic_source=rss",
+        "critical": false
+    },
+    {
+        "country": "Israel",
+        "city": "Tel Aviv",
+        "lat": 32.03286036793766,
+        "lon": 34.7830748544327,
+        "date": "2026-08-21 08:18:05",
+        "type": "Clashes",
+        "severity": "middle",
+        "title": "Europe, Canada condemn Israeli plans for new West Bank settlement",
+        "description": "The unacceptable E1 plan carries legal and reputational consequences for those participating, European nations warn.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/news/2026/8/21/europe-canada-condemn-israeli-plans-for-new-west-bank-settlement?traffic_source=rss",
+        "critical": false
+    },
+    {
+        "country": "Israel",
+        "city": "Tel Aviv",
+        "lat": 32.10940907265089,
+        "lon": 34.80413577524914,
+        "date": "2026-08-21 08:18:00",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Israel re-establishes closed West Bank settlement, defying growing international protests",
+        "description": "Thirty \"pioneer families\" have arrived on a wave of nationalism driven by Israel's government, but the rapid change has left nearby Palestinian residents fearful.",
+        "fatalities": "0",
+        "link": "https://www.bbc.co.uk/news/articles/cn7n0l4p0kzo?at_medium=RSS&at_campaign=rss",
+        "critical": false
+    },
+    {
+        "country": "Africa",
+        "city": "Mali",
+        "lat": 12.551478558644051,
+        "lon": -7.886038130031726,
+        "date": "2026-08-21 08:17:58",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "2 Hijackings in 4 Days: Somali Piracy Rises",
+        "description": "Experts worry that the conflict in Iran and other regional dynamics are setting the stage for a Somali pirates’ comeback.",
+        "fatalities": "0",
+        "link": "https://www.nytimes.com/2026/08/20/world/africa/2-hijackings-in-4-days-somali-piracy-surges.html",
+        "critical": false
+    },
+    {
         "country": "Asia",
         "city": "Host",
         "lat": 33.33667279677756,
@@ -1708,20 +1764,6 @@
         "critical": false
     },
     {
-        "country": "Asia",
-        "city": "Pakistan",
-        "lat": 31.493727074683978,
-        "lon": 74.38124643399645,
-        "date": "2026-08-20 09:55:29",
-        "type": "Clashes",
-        "severity": "middle",
-        "title": "Final election phase begins in Pakistan-administered Kashmir despite banned group’s boycott call",
-        "description": "MUZAFFARABAD, Pakistan: Voters went to the polls Monday in the final phase of elections for the legislative assembly in Pakistan-administered Kashmir, following weeks of violent protests and clashes with security forces that overshadowed campaigning in the disputed Himalayan region, officials said.\n\n\tMen and women began lining up early at polling stations in Poonch district in the disputed Himalayan region, where four assembly seats were being co",
-        "fatalities": "0",
-        "link": "https://www.arabnews.com/node/2654152/world",
-        "critical": false
-    },
-    {
         "country": "Africa",
         "city": "Libya",
         "lat": 26.39054469081394,
@@ -1733,6 +1775,20 @@
         "description": "TRIPOLI: A fire broke out on Monday ​in a diesel tank at Libya’s Zawiya refinery days after the facility was hit by drone.\n\n\tThe circumstances of Monday's fire remained unknown, Brega Petroleum Marketing Company said in a statement.\n\tBrega is owned by state oil firm National Oil Corporation (NOC) and is in charge of ‌fuel supplies.\n\tZawiya refinery is the ‌largest in the ​country ‌while Ras ​Lanuf is out ⁠of operation and is located around 40 kil",
         "fatalities": "0",
         "link": "https://www.arabnews.com/node/2654151/middle-east",
+        "critical": false
+    },
+    {
+        "country": "Asia",
+        "city": "Pakistan",
+        "lat": 31.493727074683978,
+        "lon": 74.38124643399645,
+        "date": "2026-08-20 09:55:29",
+        "type": "Clashes",
+        "severity": "middle",
+        "title": "Final election phase begins in Pakistan-administered Kashmir despite banned group’s boycott call",
+        "description": "MUZAFFARABAD, Pakistan: Voters went to the polls Monday in the final phase of elections for the legislative assembly in Pakistan-administered Kashmir, following weeks of violent protests and clashes with security forces that overshadowed campaigning in the disputed Himalayan region, officials said.\n\n\tMen and women began lining up early at polling stations in Poonch district in the disputed Himalayan region, where four assembly seats were being co",
+        "fatalities": "0",
+        "link": "https://www.arabnews.com/node/2654152/world",
         "critical": false
     },
     {
@@ -3007,62 +3063,6 @@
         "description": "The country’s small-scale gold mining sector has been booming in recent years, leading to a series of deadly accidents.",
         "fatalities": "0",
         "link": "https://www.nytimes.com/2026/08/19/world/africa/central-african-republic-gold-mine-collapse.html",
-        "critical": false
-    },
-    {
-        "country": "Africa",
-        "city": "Khartoum",
-        "lat": 15.532888131833673,
-        "lon": 32.61744879104098,
-        "date": "2026-08-19 19:55:48",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Central African Republic gold mine collapse kills more than 100",
-        "description": "A gold mine collapse in the Central African Republican village of Zamboye near the Cameroon border on Tuesday killed more than 100 people, an official at a local mining association said. A member of the local youth council said the death toll would likely rise as more people were pulled from the rubble.",
-        "fatalities": "0",
-        "link": "https://www.france24.com/en/africa/20260819-more-than-100-killed-central-african-republic-gold-mine-collapse",
-        "critical": false
-    },
-    {
-        "country": "Ukraine",
-        "city": "Kyiv",
-        "lat": 50.4420509313586,
-        "lon": 30.513418619924963,
-        "date": "2026-08-19 19:55:47",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Protests in Kyiv back ex-defence minister Fedorov’s call for elections",
-        "description": "Ukrainians in Kyiv held a protest in support of ousted defence Minister Mykailo Fedorov.",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/video/newsfeed/2026/8/19/19-08-reported-audreymacalpine-kyiv-ua?traffic_source=rss",
-        "critical": false
-    },
-    {
-        "country": "Ukraine",
-        "city": "Kyiv",
-        "lat": 50.452980138234025,
-        "lon": 30.480149874409012,
-        "date": "2026-08-19 19:35:53",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Kyiv Independent: экс-глава МО Украины Фёдоров изучает возможность поездки в США",
-        "description": "Экс-глава Минобороны Украины Михаил Фёдоров изучает возможность поездки в США, пишет Kyiv Independent со ссылкой на украинские и американские источники. Читать далее",
-        "fatalities": "0",
-        "link": "https://russian.rt.com/ussr/news/1671772-mo-ukrainy-fyodorov?utm_source=rss&utm_medium=rss&utm_campaign=RSS",
-        "critical": false
-    },
-    {
-        "country": "Iran",
-        "city": "Tehran",
-        "lat": 35.66104058485494,
-        "lon": 51.34880820422037,
-        "date": "2026-08-19 19:35:29",
-        "type": "Naval",
-        "severity": "normal",
-        "title": "U.S. conducting stealth operation to transport oil through Hormuz",
-        "description": "The U.S. military has quietly established a shipping corridor in and out of the Strait of Hormuz to transport millions of barrels of oil each day — a notable success even as the broader war remains at a stalemate, two U.S. officials told Axios.Under the operation, which has been underway for the last several weeks, 15 to 20 tankers have entered and exited the strait through a southern channel along the coast of Oman. About 10 million barrels of o",
-        "fatalities": "0",
-        "link": "https://www.axios.com/2026/08/19/hormuz-iran-oil-gulf-trump",
         "critical": false
     }
 ]
