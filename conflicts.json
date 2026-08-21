@@ -1,5 +1,47 @@
 [
     {
+        "country": "China",
+        "city": "Beijing",
+        "lat": 39.88662982709338,
+        "lon": 116.3414951084965,
+        "date": "2026-08-21 11:52:58",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "How US military funding propelled China’s robot dogs",
+        "description": "Chinese company Unitree Robotics based the designs for its most successful robot dogs on innovations fueled by the U.S. military.",
+        "fatalities": "0",
+        "link": "https://www.defensenews.com/industry/techwatch/2026/08/18/how-us-military-funding-propelled-chinas-robot-dogs/",
+        "critical": false
+    },
+    {
+        "country": "Russia",
+        "city": "Moscow",
+        "lat": 55.77117345498923,
+        "lon": 37.664394809292546,
+        "date": "2026-08-21 11:52:39",
+        "type": "Airstrike",
+        "severity": "critical",
+        "title": "Rosenberg: Shortage of petrol but not patriotism as Russians feel growing impact of war",
+        "description": "Drivers are waiting hours in fuel queues, as Moscow prepares to celebrate Russian Flag Day.",
+        "fatalities": "0",
+        "link": "https://www.bbc.co.uk/news/articles/c4gknzgje7go?at_medium=RSS&at_campaign=rss",
+        "critical": true
+    },
+    {
+        "country": "Iran",
+        "city": "Tehran",
+        "lat": 35.64203689582418,
+        "lon": 51.45307877019759,
+        "date": "2026-08-21 11:52:37",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Iran Must Plan to Overcome ‘Unjust’ U.S. Sanctions, Top Tehran Official Says",
+        "description": "Mohammad Bagher Ghalibaf, lead negotiator in talks with Washington, made the comments after President Trump vowed an “economic D-Day” against Iran.",
+        "fatalities": "0",
+        "link": "https://www.nytimes.com/2026/08/21/world/middleeast/iran-sanctions-united-states-ghalibaf.html",
+        "critical": false
+    },
+    {
         "country": "Africa",
         "city": "Niger",
         "lat": 13.834714141774667,
@@ -2170,20 +2212,6 @@
         "critical": false
     },
     {
-        "country": "Africa",
-        "city": "Libya",
-        "lat": 26.39054469081394,
-        "lon": 17.213929554670536,
-        "date": "2026-08-20 09:55:29",
-        "type": "Drone",
-        "severity": "middle",
-        "title": "Fire breaks out at Libya’s Zawiya refinery",
-        "description": "TRIPOLI: A fire broke out on Monday ​in a diesel tank at Libya’s Zawiya refinery days after the facility was hit by drone.\n\n\tThe circumstances of Monday's fire remained unknown, Brega Petroleum Marketing Company said in a statement.\n\tBrega is owned by state oil firm National Oil Corporation (NOC) and is in charge of ‌fuel supplies.\n\tZawiya refinery is the ‌largest in the ​country ‌while Ras ​Lanuf is out ⁠of operation and is located around 40 kil",
-        "fatalities": "0",
-        "link": "https://www.arabnews.com/node/2654151/middle-east",
-        "critical": false
-    },
-    {
         "country": "Asia",
         "city": "Pakistan",
         "lat": 31.493727074683978,
@@ -2195,6 +2223,20 @@
         "description": "MUZAFFARABAD, Pakistan: Voters went to the polls Monday in the final phase of elections for the legislative assembly in Pakistan-administered Kashmir, following weeks of violent protests and clashes with security forces that overshadowed campaigning in the disputed Himalayan region, officials said.\n\n\tMen and women began lining up early at polling stations in Poonch district in the disputed Himalayan region, where four assembly seats were being co",
         "fatalities": "0",
         "link": "https://www.arabnews.com/node/2654152/world",
+        "critical": false
+    },
+    {
+        "country": "Africa",
+        "city": "Libya",
+        "lat": 26.39054469081394,
+        "lon": 17.213929554670536,
+        "date": "2026-08-20 09:55:29",
+        "type": "Drone",
+        "severity": "middle",
+        "title": "Fire breaks out at Libya’s Zawiya refinery",
+        "description": "TRIPOLI: A fire broke out on Monday ​in a diesel tank at Libya’s Zawiya refinery days after the facility was hit by drone.\n\n\tThe circumstances of Monday's fire remained unknown, Brega Petroleum Marketing Company said in a statement.\n\tBrega is owned by state oil firm National Oil Corporation (NOC) and is in charge of ‌fuel supplies.\n\tZawiya refinery is the ‌largest in the ​country ‌while Ras ​Lanuf is out ⁠of operation and is located around 40 kil",
+        "fatalities": "0",
+        "link": "https://www.arabnews.com/node/2654151/middle-east",
         "critical": false
     },
     {
@@ -3021,48 +3063,6 @@
         "description": "US President Donald Trump has threatened ‘economic D-Day’ on any countries that help or do business with Iran.",
         "fatalities": "0",
         "link": "https://www.aljazeera.com/video/newsfeed/2026/8/20/trump-vows-economic-warfare-on-countries-helping-iran?traffic_source=rss",
-        "critical": false
-    },
-    {
-        "country": "Ukraine",
-        "city": "Kyiv",
-        "lat": 50.46804204781231,
-        "lon": 30.48549328122425,
-        "date": "2026-08-20 05:09:08",
-        "type": "Airstrike",
-        "severity": "critical",
-        "title": "Russia launches missile strikes on Kyiv and surrounding region, killing at least eight",
-        "description": "Apartment blocks and warehouses were targeted in the \"massive attack\" on Thursday, according to the State Emergency Service of Ukraine.",
-        "fatalities": "0",
-        "link": "https://www.bbc.co.uk/news/articles/c98vzmden5yo?at_medium=RSS&at_campaign=rss",
-        "critical": true
-    },
-    {
-        "country": "Ukraine",
-        "city": "Kyiv",
-        "lat": 50.394069383685284,
-        "lon": 30.47814113316743,
-        "date": "2026-08-20 05:09:08",
-        "type": "Airstrike",
-        "severity": "critical",
-        "title": "Russian forces kill 6 in Ukraine as Zelenskyy faces pressure over elections",
-        "description": "Russian ballistic missile attacks hit at least three districts in Kyiv, collapsing buildings and causing fires.",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/news/2026/8/20/russian-strike-kills-3-in-ukraine-as-zelenskyy-faces-pressure-at-home?traffic_source=rss",
-        "critical": true
-    },
-    {
-        "country": "Ukraine",
-        "city": "Kyiv",
-        "lat": 50.45596591034998,
-        "lon": 30.588646499846508,
-        "date": "2026-08-20 03:54:54",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Russian strike kills 3 in Ukraine as Zelenskyy faces pressure at home",
-        "description": "At least 14 of the 20 people wounded in the strike on Kyiv have been hospitalised, officials say.",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/news/2026/8/20/russian-strike-kills-3-in-ukraine-as-zelenskyy-faces-pressure-at-home?traffic_source=rss",
         "critical": false
     }
 ]
