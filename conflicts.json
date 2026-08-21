@@ -1,5 +1,47 @@
 [
     {
+        "country": "Iran",
+        "city": "Tehran",
+        "lat": 35.68957853519477,
+        "lon": 51.447671424532345,
+        "date": "2026-08-21 05:18:23",
+        "type": "Naval",
+        "severity": "normal",
+        "title": "Middle East live: Hormuz shipping traffic falls as Iran-US talks stall",
+        "description": "Shipping traffic through the Strait of Hormuz fell sharply on Thursday, with just seven commodity vessels crossing the vital waterway, as heightened security risks and stalled US-Iran peace talks deterred ships from using the key energy route. Follow our liveblog for the latest updates.",
+        "fatalities": "0",
+        "link": "https://www.france24.com/en/middle-east/20260821-middle-east-live-hormuz-shipping-traffic-falls-as-iran-us-talks-stall",
+        "critical": false
+    },
+    {
+        "country": "Iran",
+        "city": "Tehran",
+        "lat": 35.6615242513317,
+        "lon": 51.4259317256993,
+        "date": "2026-08-21 05:18:23",
+        "type": "Clashes",
+        "severity": "middle",
+        "title": "US urges allies and China to join Iran economic pressure campaign",
+        "description": "The United States on Thursday urged allies and China to join its campaign to isolate Iran's economy, as President Donald Trump seeks to intensify pressure on Tehran amid a stalemate in the war and growing domestic criticism.",
+        "fatalities": "0",
+        "link": "https://www.france24.com/en/middle-east/20260821-us-warns-allies-and-china-to-join-iran-economic-pressure-campaign",
+        "critical": false
+    },
+    {
+        "country": "Asia",
+        "city": "Pakistan",
+        "lat": 31.528825857040037,
+        "lon": 74.38430151653556,
+        "date": "2026-08-21 05:18:16",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Pakistan’s Imran Khan back to prison after evaluation at hospital",
+        "description": "Pakistan’s former Prime Minister Imran Khan was sent back to prison after being transferred for a medical evaluation.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/video/newsfeed/2026/8/21/pakistans-imran-khan-moved-to-hospital-after-supreme-court-order?traffic_source=rss",
+        "critical": false
+    },
+    {
         "country": "Asia",
         "city": "Pakistan",
         "lat": 31.54915873253652,
@@ -3022,47 +3064,5 @@
         "fatalities": "0",
         "link": "https://www.arabnews.com/node/2654129/middle-east",
         "critical": false
-    },
-    {
-        "country": "Africa",
-        "city": "Khartoum",
-        "lat": 15.570657587499435,
-        "lon": 32.5146452344124,
-        "date": "2026-08-19 18:35:10",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Angélique Kidjo becomes the first Black African honoured with a star on the Hollywood Walk of Fame",
-        "description": "Five-time Grammy winner Angelique Kidjo on Tuesday became the first Black African to be honoured with a star on the Hollywood Walk of Fame. Born in Benin, Kidjo has built an international career spanning more than 40 years and 18 albums. Her star is the 2,853th on the famous Los Angeles sidewalk.",
-        "fatalities": "0",
-        "link": "https://www.france24.com/en/video/20260819-ang%C3%A9lique-kidjo-becomes-the-first-black-african-honored-with-a-star-on-the-hollywood-walk-of-fame",
-        "critical": false
-    },
-    {
-        "country": "USA",
-        "city": "Washington",
-        "lat": 38.93263613998776,
-        "lon": -76.98384362343782,
-        "date": "2026-08-19 18:35:08",
-        "type": "Airstrike",
-        "severity": "critical",
-        "title": "Tax hack: What we know about the cyberattacks on French government agencies",
-        "description": "French government systems came under attack by hackers who stole information on hundreds of thousands of households and private businesses in June and July, notably from the tax authority. Here's what we know about the latest cyberattacks, and what the government is doing to keep personal information secure.",
-        "fatalities": "0",
-        "link": "https://www.france24.com/en/france/20260819-tax-hack-cyberattacks-on-french-government-agencies",
-        "critical": true
-    },
-    {
-        "country": "Iran",
-        "city": "Tehran",
-        "lat": 35.7128776073011,
-        "lon": 51.330374496332105,
-        "date": "2026-08-19 18:35:04",
-        "type": "Airstrike",
-        "severity": "critical",
-        "title": "NATO ‘prepared’ to defend allies amid report of Iranian strike plans",
-        "description": "NATO says it will do what is necessary amid media report Iran considered strikes against US targets in Europe.",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/news/2026/8/19/nato-prepared-to-defend-allies-amid-report-of-iranian-strike-plans?traffic_source=rss",
-        "critical": true
     }
 ]
