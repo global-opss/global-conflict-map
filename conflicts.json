@@ -1,5 +1,61 @@
 [
     {
+        "country": "Europe",
+        "city": "London",
+        "lat": 51.498223621759365,
+        "lon": -0.11758423746433594,
+        "date": "2026-08-21 19:34:08",
+        "type": "Clashes",
+        "severity": "middle",
+        "title": "Can Al-Burhan’s Sudanese national dialogue turn military gains into a political settlement?",
+        "description": "LONDON: More than three years after Sudan descended into civil war, army chief Gen. Abdel Fattah Al-Burhan is pushing for a broad national dialogue aimed at rebuilding the country’s political institutions and laying the foundations for a civilian transition.\n\n\tTalks could begin as early as August, with preparatory consultations already involving political groups, technocrats, Sufi leaders, traditional authorities, academics, professionals, civil ",
+        "fatalities": "0",
+        "link": "https://www.arabnews.com/node/2654150/middle-east",
+        "critical": false
+    },
+    {
+        "country": "Asia",
+        "city": "Pakistan",
+        "lat": 31.559803110593656,
+        "lon": 74.35599502987846,
+        "date": "2026-08-21 19:34:06",
+        "type": "Clashes",
+        "severity": "middle",
+        "title": "Final election phase begins in Pakistan-administered Kashmir despite banned group’s boycott call",
+        "description": "MUZAFFARABAD, Pakistan: Voters went to the polls Monday in the final phase of elections for the legislative assembly in Pakistan-administered Kashmir, following weeks of violent protests and clashes with security forces that overshadowed campaigning in the disputed Himalayan region, officials said.\n\n\tMen and women began lining up early at polling stations in Poonch district in the disputed Himalayan region, where four assembly seats were being co",
+        "fatalities": "0",
+        "link": "https://www.arabnews.com/node/2654152/world",
+        "critical": false
+    },
+    {
+        "country": "Africa",
+        "city": "Libya",
+        "lat": 26.27345629795102,
+        "lon": 17.210670318218696,
+        "date": "2026-08-21 19:34:06",
+        "type": "Drone",
+        "severity": "middle",
+        "title": "Fire breaks out at Libya’s Zawiya refinery",
+        "description": "TRIPOLI: A fire broke out on Monday ​in a diesel tank at Libya’s Zawiya refinery days after the facility was hit by drone.\n\n\tThe circumstances of Monday's fire remained unknown, Brega Petroleum Marketing Company said in a statement.\n\tBrega is owned by state oil firm National Oil Corporation (NOC) and is in charge of ‌fuel supplies.\n\tZawiya refinery is the ‌largest in the ​country ‌while Ras ​Lanuf is out ⁠of operation and is located around 40 kil",
+        "fatalities": "0",
+        "link": "https://www.arabnews.com/node/2654151/middle-east",
+        "critical": false
+    },
+    {
+        "country": "Ukraine",
+        "city": "Kyiv",
+        "lat": 50.44788658511838,
+        "lon": 30.521446619424932,
+        "date": "2026-08-21 19:33:52",
+        "type": "Drone",
+        "severity": "middle",
+        "title": "Drone strike on Ukraine shopping centre kills 14, over 100 injured",
+        "description": "A Russian drone strike hit a major shopping centre in Kryvyi Rih, Ukraine, killing 14 people and injuring over 100",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/video/newsfeed/2026/8/21/drone-strike-on-ukraine-shopping-centre-kills-six-injures-103?traffic_source=rss",
+        "critical": false
+    },
+    {
         "country": "Ukraine",
         "city": "Kyiv",
         "lat": 50.44951527503182,
@@ -12,20 +68,6 @@
         "fatalities": "0",
         "link": "https://www.defensenews.com/global/europe/2026/08/17/everybody-loves-a-winner-us-ukraine-intel-sharing-surges-as-kyiv-racks-up-wins/",
         "critical": true
-    },
-    {
-        "country": "Ukraine",
-        "city": "Kyiv",
-        "lat": 50.423803290213705,
-        "lon": 30.50936731369687,
-        "date": "2026-08-21 19:01:23",
-        "type": "Drone",
-        "severity": "middle",
-        "title": "Drone strike on Ukraine shopping centre kills six, injures 103",
-        "description": "A Russian drone strike hit a major shopping centre in Kryvyi Rih, Ukraine, killing six people and injuring 103",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/video/newsfeed/2026/8/21/drone-strike-on-ukraine-shopping-centre-kills-six-injures-103?traffic_source=rss",
-        "critical": false
     },
     {
         "country": "Asia",
@@ -54,6 +96,20 @@
         "fatalities": "0",
         "link": "https://www.aljazeera.com/news/2026/8/21/russian-drone-attack-on-busy-shopping-centre-kills-14-in-ukraine?traffic_source=rss",
         "critical": true
+    },
+    {
+        "country": "Ukraine",
+        "city": "Kyiv",
+        "lat": 50.423803290213705,
+        "lon": 30.50936731369687,
+        "date": "2026-08-21 19:01:23",
+        "type": "Drone",
+        "severity": "middle",
+        "title": "Drone strike on Ukraine shopping centre kills six, injures 103",
+        "description": "A Russian drone strike hit a major shopping centre in Kryvyi Rih, Ukraine, killing six people and injuring 103",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/video/newsfeed/2026/8/21/drone-strike-on-ukraine-shopping-centre-kills-six-injures-103?traffic_source=rss",
+        "critical": false
     },
     {
         "country": "Russia",
@@ -3007,62 +3063,6 @@
         "description": "Финская компания Innokas подписала с украинским производителем дронов Airlogix протокол о намерении создать в Финляндии производственные мощности для выпуска беспилотников, сообщают местные СМИ.\"Соглашение заключено в рамках инициативы Build with Ukraine.",
         "fatalities": "0",
         "link": "https://www.interfax.ru/world/1110330",
-        "critical": false
-    },
-    {
-        "country": "China",
-        "city": "Beijing",
-        "lat": 39.87326747948914,
-        "lon": 116.35864915883651,
-        "date": "2026-08-20 13:03:40",
-        "type": "Explosion",
-        "severity": "middle",
-        "title": "Founder of Chinese real estate giant Evergrande Xu Jiayin sentenced to life",
-        "description": "The founder of China Evergrande Group, the world's most-indebted property developer, was sentenced to life in prison by a Chinese court on Thursday, five years after the firm's collapse shook the nation's economy and financial markets.",
-        "fatalities": "0",
-        "link": "https://www.france24.com/en/asia-pacific/20260820-china-reast-estate-giant-xu-jiayin-sentenced-to-life-in-prison",
-        "critical": false
-    },
-    {
-        "country": "Europe",
-        "city": "Berlin",
-        "lat": 48.88349681248108,
-        "lon": 2.2789858260571063,
-        "date": "2026-08-20 13:03:38",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Germany records 14,000 heat-related deaths this summer as heatwaves scorch Europe",
-        "description": "Berlin has recorded roughly 14,000 heat-related deaths this summer, official data showed Thursday. Europe has experienced a spike in heat-related mortality as the worst-hit countries grapple with historically high temperatures exacerbated by human-driven climate change.",
-        "fatalities": "0",
-        "link": "https://www.france24.com/en/europe/20260820-germany-records-14-000-heat-related-deaths-this-summer-as-heatwaves-scorch-europe",
-        "critical": false
-    },
-    {
-        "country": "China",
-        "city": "Beijing",
-        "lat": 39.85790090785663,
-        "lon": 116.39050312937582,
-        "date": "2026-08-20 13:03:38",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "China: Robots box and dance at Beijing's 2026 World Robot Conference",
-        "description": "More than 300 companies are displaying humanoid robots, industrial machines, service robots and other forms of embodied artificial intelligence at the Beijing's 2026 World Robot Conference. The five-day event kicked off on August 19, coinciding with Unitree's stock-market debut. The company, China's best-known humanoid robot maker, saw shares increase nearly six-fold on opening day. The conference comes as robotics emerges as a new front in the U",
-        "fatalities": "0",
-        "link": "https://www.france24.com/en/china-robots-box-and-dance-at-beijing-s-2026-world-robot-conference",
-        "critical": false
-    },
-    {
-        "country": "Israel",
-        "city": "Tel Aviv",
-        "lat": 32.03490719926639,
-        "lon": 34.72315182726398,
-        "date": "2026-08-20 13:03:30",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Who was Hind Rajab and why is Israel investigating her killing?",
-        "description": "After two years of denial, Israel admits firing on the 5-year-olds car. But her family and others dont expect justice.",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/news/2026/8/20/who-was-hind-rajab-and-why-is-israel-investigating-her-killing?traffic_source=rss",
         "critical": false
     }
 ]
