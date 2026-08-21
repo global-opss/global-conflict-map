@@ -1,5 +1,47 @@
 [
     {
+        "country": "Asia",
+        "city": "Pakistan",
+        "lat": 31.530616359310674,
+        "lon": 74.3988207443074,
+        "date": "2026-08-21 00:02:40",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Pakistan’s ex-PM Imran Khan moved to hospital from jail after court order",
+        "description": "Khan, who was voted out of the office in April 2022, has been in prison for more than three years.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/news/2026/8/20/pakistans-ex-pm-imran-khan-transferred-from-jail-to-hospital?traffic_source=rss",
+        "critical": false
+    },
+    {
+        "country": "USA",
+        "city": "New york",
+        "lat": 40.75390227960555,
+        "lon": -74.03008696989053,
+        "date": "2026-08-21 00:02:36",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "FBI arrests woman over alleged plot to bomb New York capitol building",
+        "description": "Prosecutors say the Albany woman had pledged allegiance to the Islamic State group, and wanted to bomb the statehouse to kill lawmakers.",
+        "fatalities": "0",
+        "link": "https://www.bbc.co.uk/news/articles/c5y615l2w46o?at_medium=RSS&at_campaign=rss",
+        "critical": false
+    },
+    {
+        "country": "Iran",
+        "city": "Tehran",
+        "lat": 35.68047096677039,
+        "lon": 51.45077511810663,
+        "date": "2026-08-21 00:02:32",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "How much could Trump's 'economic D-Day' hurt Iran?",
+        "description": "Iran has so far proved adept at finding ways around years of already punishing sanctions on its economy.",
+        "fatalities": "0",
+        "link": "https://www.bbc.co.uk/news/articles/cre4gdvlj9ro?at_medium=RSS&at_campaign=rss",
+        "critical": false
+    },
+    {
         "country": "Middle East",
         "city": "Yemen",
         "lat": 14.509891679479928,
@@ -3021,48 +3063,6 @@
         "description": "A majority of Americans believe President Trump has profited inappropriately from a cryptocurrency empire while in office and disapprove of his family's global business activity, according to recent polls.Why it matters: Democrats are leaning into those concerns in their own midterm messaging — and laying the groundwork to audit Trump's historically lucrative presidency should they emerge victorious.While Trump has argued \"nobody cared\" whether h",
         "fatalities": "0",
         "link": "https://www.axios.com/2026/08/19/trump-profits-polling-dems-anti-corruption-message",
-        "critical": false
-    },
-    {
-        "country": "Israel",
-        "city": "Jerusalem",
-        "lat": 31.76693229980673,
-        "lon": 35.172884111676325,
-        "date": "2026-08-19 16:14:38",
-        "type": "Airstrike",
-        "severity": "critical",
-        "title": "Israeli military probes killings of Hind Rajab and Palestinian paramedics",
-        "description": "Israel’s military on Wednesday announced its first criminal investigations into troop conduct in the war in Gaza, focusing on the killings of 5-year-old Hind Rajab and her family and of 15 Palestinian paramedics. The military said it would not launch criminal investigations into three other attacks that killed aid workers from World Central Kitchen and Doctors Without Borders. FRANCE 24's Noga Tarnopolsky reports from Jerusalem.",
-        "fatalities": "0",
-        "link": "https://www.france24.com/en/video/20260819-israeli-military-probes-killings-of-hind-rajab-and-palestinian-paramedics",
-        "critical": true
-    },
-    {
-        "country": "Africa",
-        "city": "Libya",
-        "lat": 26.402595143054715,
-        "lon": 17.235347242088388,
-        "date": "2026-08-19 16:14:38",
-        "type": "Clashes",
-        "severity": "middle",
-        "title": "Libyan government in Tunisia for crisis talks",
-        "description": "On Tuesday, Libya's national oil corporation said the country needs around 40 billion dollars in investment to make the most of its energy resources. The country's unreliable access to energy is feeding into instability stemming from fighting between rival factions and political rivalries. Members of one of the country's governments, the one internationally recognised and led by PM Abdulhamid Dbeibah met for crisis talks in Tunisia this week, as ",
-        "fatalities": "0",
-        "link": "https://www.france24.com/en/video/20260819-libyan-government-in-tunisia-for-crisis-talks",
-        "critical": false
-    },
-    {
-        "country": "Europe",
-        "city": "Brussels",
-        "lat": 50.88188213671187,
-        "lon": 4.322944974725494,
-        "date": "2026-08-19 16:14:36",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "‘We won’t go back’: Young Moroccan migrants in Ceuta refuse to abandon their European dream",
-        "description": "FRANCE 24 spent an evening with unaccompanied minors who are sleeping rough in Ceuta but refusing to return home. Amid the fear, the cold and the long wait for help, these young Moroccan migrants shared their stories.",
-        "fatalities": "0",
-        "link": "https://www.france24.com/en/europe/20260819-we-won-t-go-back-young-moroccan-migrants-ceuta-refuse-abandon-european-dream",
         "critical": false
     }
 ]
