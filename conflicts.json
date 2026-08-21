@@ -1,6 +1,48 @@
 [
     {
         "country": "USA",
+        "city": "Washington",
+        "lat": 38.939698061227084,
+        "lon": -77.0074930022544,
+        "date": "2026-08-21 03:03:04",
+        "type": "Clashes",
+        "severity": "middle",
+        "title": "Trump's profits irk Americans as Dems test anti-corruption message",
+        "description": "A majority of Americans believe President Trump has profited inappropriately from a cryptocurrency empire while in office and disapprove of his family's global business activity, according to recent polls.Why it matters: Democrats are leaning into those concerns in their own midterm messaging — and laying the groundwork to audit Trump's historically lucrative presidency should they emerge victorious.While Trump has argued \"nobody cared\" whether h",
+        "fatalities": "0",
+        "link": "https://www.axios.com/2026/08/19/trump-profits-polling-dems-anti-corruption-message",
+        "critical": false
+    },
+    {
+        "country": "Iran",
+        "city": "Tehran",
+        "lat": 35.7313713437803,
+        "lon": 51.414082490967424,
+        "date": "2026-08-21 03:02:56",
+        "type": "Clashes",
+        "severity": "middle",
+        "title": "US warns allies and China to join Iran economic pressure campaign",
+        "description": "The United States on Thursday urged allies and China to join its campaign to isolate Iran's economy, as President Donald Trump seeks to intensify pressure on Tehran amid a stalemate in the war and growing domestic criticism.",
+        "fatalities": "0",
+        "link": "https://www.france24.com/en/middle-east/20260821-us-warns-allies-and-china-to-join-iran-economic-pressure-campaign",
+        "critical": false
+    },
+    {
+        "country": "China",
+        "city": "Beijing",
+        "lat": 39.914430057195524,
+        "lon": 116.3647213943284,
+        "date": "2026-08-21 03:02:45",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Hong Kong's Tiananmen activists guilty in national security trial",
+        "description": "Three activists were accused of inciting others to subvert state power under the China-introduced law.",
+        "fatalities": "0",
+        "link": "https://www.bbc.co.uk/news/articles/c1l10mdrld5o?at_medium=RSS&at_campaign=rss",
+        "critical": false
+    },
+    {
+        "country": "USA",
         "city": "New york",
         "lat": 40.70075863719137,
         "lon": -74.00598908541463,
@@ -406,20 +448,6 @@
         "critical": false
     },
     {
-        "country": "Africa",
-        "city": "Niger",
-        "lat": 13.869006998486041,
-        "lon": 5.24303030773669,
-        "date": "2026-08-20 20:49:58",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Dozens dead after boat capsizes in north-western Nigeria",
-        "description": "The incident took place in the country's northwest ​Sokoto state, with many of the victims feared to be children.",
-        "fatalities": "0",
-        "link": "https://www.bbc.co.uk/news/articles/cj035jg256no?at_medium=RSS&at_campaign=rss",
-        "critical": false
-    },
-    {
         "country": "Asia",
         "city": "Pakistan",
         "lat": 31.47747247330406,
@@ -431,6 +459,20 @@
         "description": "Khan was taken from Adiala jail and sent to Shifa International Hospital under heavy security, local media report.",
         "fatalities": "0",
         "link": "https://www.bbc.co.uk/news/articles/ckgdr9vr50po?at_medium=RSS&at_campaign=rss",
+        "critical": false
+    },
+    {
+        "country": "Africa",
+        "city": "Niger",
+        "lat": 13.869006998486041,
+        "lon": 5.24303030773669,
+        "date": "2026-08-20 20:49:58",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Dozens dead after boat capsizes in north-western Nigeria",
+        "description": "The incident took place in the country's northwest ​Sokoto state, with many of the victims feared to be children.",
+        "fatalities": "0",
+        "link": "https://www.bbc.co.uk/news/articles/cj035jg256no?at_medium=RSS&at_campaign=rss",
         "critical": false
     },
     {
@@ -3021,48 +3063,6 @@
         "description": "The Sisters of Charity of Saint Mary have hosted beachgoers in the town of Spotorno for decades. But change is coming.",
         "fatalities": "0",
         "link": "https://www.nytimes.com/2026/08/19/world/europe/italy-nuns-beach-club.html",
-        "critical": false
-    },
-    {
-        "country": "China",
-        "city": "South china sea",
-        "lat": 12.03192731841239,
-        "lon": 112.95025949540796,
-        "date": "2026-08-19 17:26:30",
-        "type": "Naval",
-        "severity": "normal",
-        "title": "US Navy destroyer spent 4 days without power in South China Sea",
-        "description": "USS Benfold endured an \"engineering casualty\" last month, leaving about 300 sailors without potable water, galley services, toilets or air conditioning.",
-        "fatalities": "0",
-        "link": "https://www.defensenews.com/news/your-military/2026/08/19/us-navy-destroyer-spent-4-days-without-power-in-south-china-sea/",
-        "critical": false
-    },
-    {
-        "country": "Israel",
-        "city": "Gaza",
-        "lat": 31.45461801255861,
-        "lon": 34.44147284371383,
-        "date": "2026-08-19 17:26:20",
-        "type": "Airstrike",
-        "severity": "critical",
-        "title": "Hamas condemns ‘new war crime’ as Israel kills 10 in crowded Gaza hubs",
-        "description": "Israeli air strikes on Gaza kill 10 Palestinians, targeting police headquarters and a refugee camp in separate attacks.",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/news/2026/8/19/hamas-condemns-new-war-crime-as-israel-kills-10-in-crowded-gaza-hubs?traffic_source=rss",
-        "critical": true
-    },
-    {
-        "country": "Israel",
-        "city": "Tel Aviv",
-        "lat": 32.1123248682108,
-        "lon": 34.79113315658142,
-        "date": "2026-08-19 17:26:20",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "US pressure on Israel needed for peace in Syria",
-        "description": "With Israeli elections approaching, analysts say Netanyahu needs a new escalation, undermining deconfliction efforts.",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/features/2026/8/19/us-pressure-on-israel-needed-for-peace-in-syria?traffic_source=rss",
         "critical": false
     }
 ]
