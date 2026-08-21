@@ -1,5 +1,33 @@
 [
     {
+        "country": "Asia",
+        "city": "Host",
+        "lat": 33.363891112002776,
+        "lon": 69.9216715745325,
+        "date": "2026-08-21 21:11:02",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "The job application got faster. The job search got worse.",
+        "description": "Job hunting in 2026 can mean chatting with a robot, getting rejected by AI, encountering ghost jobs and competing with a flood of applicants. Why it matters: This isn't just candidates venting on LinkedIn or TikTok. The hiring process is increasingly taking longer and application apathy could be eroding trust in America's job market.What they're saying: \"I think burnout is absolutely happening,\" Gorick Ng, a Harvard career advisor and UC Berkeley",
+        "fatalities": "0",
+        "link": "https://www.axios.com/2026/08/21/job-seekers-ai-hiring-ghost-jobs-trust",
+        "critical": false
+    },
+    {
+        "country": "Africa",
+        "city": "Somalia",
+        "lat": 5.127812315884065,
+        "lon": 46.232385215390586,
+        "date": "2026-08-21 21:10:57",
+        "type": "Clashes",
+        "severity": "middle",
+        "title": "Can a humanitarian disaster be averted in Somalia?",
+        "description": "The UN warns of another hunger crisis, with starvation threatening millions.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/video/inside-story/2026/8/21/can-a-humanitarian-disaster-be-averted-in-somalia-2?traffic_source=rss",
+        "critical": false
+    },
+    {
         "country": "USA",
         "city": "Pentagon",
         "lat": 38.93330541670359,
@@ -3035,34 +3063,6 @@
         "description": "Irans deep trade ties with Beijing and Moscow could prove difficult for the US to disrupt, say analysts.",
         "fatalities": "0",
         "link": "https://www.aljazeera.com/news/2026/8/20/how-china-and-russia-could-hobble-trumps-plans-to-isolate-iran?traffic_source=rss",
-        "critical": false
-    },
-    {
-        "country": "Iran",
-        "city": "Tehran",
-        "lat": 35.62265840618278,
-        "lon": 51.37467864810548,
-        "date": "2026-08-20 15:14:15",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "‘Tremendous costs’: Can Trump stop other countries from trading with Iran?",
-        "description": "Irans foreign minister has dismissed Trump’s latest threats, calling them a “diversion from America’s own crisis.",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/news/2026/8/20/tremendous-costs-can-trump-stop-other-countries-from-trading-with-iran?traffic_source=rss",
-        "critical": false
-    },
-    {
-        "country": "USA",
-        "city": "Washington",
-        "lat": 38.86813326094401,
-        "lon": -76.99714946129008,
-        "date": "2026-08-20 15:14:15",
-        "type": "Naval",
-        "severity": "normal",
-        "title": "USS Washington arrives in Middle East after aircraft carrier outcry",
-        "description": "Vessel expected to replace USS Lincoln after reports of dire conditions on board raised questions over US war planning.",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/news/2026/8/20/uss-washington-arrives-in-middle-east-after-aircraft-carrier-outcry?traffic_source=rss",
         "critical": false
     }
 ]
