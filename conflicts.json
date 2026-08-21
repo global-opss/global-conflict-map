@@ -2,6 +2,34 @@
     {
         "country": "Israel",
         "city": "Gaza",
+        "lat": 31.50283617236696,
+        "lon": 34.484868993007424,
+        "date": "2026-08-21 20:25:29",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Pope Leo urges the world to ‘help begin reconstruction’ of Gaza",
+        "description": "Pope Leo XIV is appealing to authorities around the world to support the people of Gaza who are ‘still suffering.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/video/newsfeed/2026/8/21/pope-leo-urges-the-world-to-help-begin-reconstruction-of-gaza?traffic_source=rss",
+        "critical": false
+    },
+    {
+        "country": "Israel",
+        "city": "Gaza",
+        "lat": 31.491824426357894,
+        "lon": 34.44455689884616,
+        "date": "2026-08-21 20:25:29",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Western allies slam Israel for ending World Central Kitchen strike probe",
+        "description": "UK, Australia and Canada call Israel’s decision not to investigate deadly 2024 strike on a Gaza aid convoy shameful.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/news/2026/8/21/western-allies-slam-israel-for-ending-world-central-kitchen-strike-probe?traffic_source=rss",
+        "critical": false
+    },
+    {
+        "country": "Israel",
+        "city": "Gaza",
         "lat": 31.465431789561052,
         "lon": 34.475505311638386,
         "date": "2026-08-21 19:53:39",
@@ -3035,34 +3063,6 @@
         "description": "A funeral has been held in Gaza for 50 Palestinians whose bodies were recently recovered from the rubble.",
         "fatalities": "0",
         "link": "https://www.aljazeera.com/video/newsfeed/2026/8/20/funeral-for-50-palestinians-recovered-from-gaza-rubble?traffic_source=rss",
-        "critical": false
-    },
-    {
-        "country": "Russia",
-        "city": "Moscow",
-        "lat": 55.77733047476478,
-        "lon": 37.6821812056022,
-        "date": "2026-08-20 13:55:36",
-        "type": "Clashes",
-        "severity": "middle",
-        "title": "Ex-defence chief’s call for wartime election raises pressure on Zelenskyy",
-        "description": "Fedorov, a popular figure, is challenging Zelenskyy but holding a vote under Russias bombs is near impossible.",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/news/2026/8/20/ukraines-ex-defence-chief-calls-for-presidential-vote?traffic_source=rss",
-        "critical": false
-    },
-    {
-        "country": "USA",
-        "city": "Washington",
-        "lat": 38.960563329793025,
-        "lon": -76.98758540822621,
-        "date": "2026-08-20 13:55:36",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Why a Trump envoy’s Kashmir visit has led to US-Pakistan spat",
-        "description": "Pakistan says the comments contradict Washington’s position, but experts see them as a diplomatic misstep.",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/news/2026/8/20/why-a-trump-envoys-kashmir-visit-has-led-to-us-pakistan-spat?traffic_source=rss",
         "critical": false
     }
 ]
