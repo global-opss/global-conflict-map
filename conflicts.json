@@ -1,5 +1,47 @@
 [
     {
+        "country": "Middle East",
+        "city": "Red sea",
+        "lat": 27.236274127243632,
+        "lon": 33.786818178429534,
+        "date": "2026-08-21 15:38:18",
+        "type": "Naval",
+        "severity": "normal",
+        "title": "Houthis launch new drone wave across Yemen’s government-held areas",
+        "description": "AL-MUKALLA: At least two Yemeni government soldiers were killed in southern Yemen as the Houthis launched a new wave of drone attacks on government-controlled areas in Aden, Mocha and Shabwa.\n\n\tThe escalation came as the Yemeni army vowed on Monday to respond to Houthi drone and missile strikes on the Red Sea port city of Mocha that killed seven people and wounded 30 others.",
+        "fatalities": "0",
+        "link": "https://www.arabnews.com/node/2654127/middle-east",
+        "critical": false
+    },
+    {
+        "country": "Asia",
+        "city": "Tokyo",
+        "lat": 35.63930889625952,
+        "lon": 139.74596257818868,
+        "date": "2026-08-21 15:38:05",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Deadly daytime heat turns Japanese farmers nocturnal",
+        "description": "Japan's farmers are opting for more nocturnal schedules as daytime summer heat makes working conditions dangerous. North of Tokyo, Motoaki Iijima harvests flowers in his illuminated greenhouse long after sunset. The farmer was pushed to  make a dramatic change after a worker suffered heatstroke picking sunflowers in the greenhouse three summers prior. A few towns away, poultry farmer Tetsuya Usuba has also adopted a nocturnal schedule, waking his",
+        "fatalities": "0",
+        "link": "https://www.france24.com/en/video/20260821-deadly-daytime-heat-turns-japanese-farmers-nocturnal",
+        "critical": false
+    },
+    {
+        "country": "Ukraine",
+        "city": "Kyiv",
+        "lat": 50.44389243865577,
+        "lon": 30.543216887284654,
+        "date": "2026-08-21 15:37:58",
+        "type": "Clashes",
+        "severity": "middle",
+        "title": "Russian expert warns of impending social crisis as Ukraine death toll rises",
+        "description": "Putins forces continue to bring horror to Ukrainian civilians as Kyiv destroys key sections of Russian infrastructure.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/news/2026/8/21/russian-expert-warns-of-impending-social-crisis-as-ukraine-death-toll-rises?traffic_source=rss",
+        "critical": false
+    },
+    {
         "country": "Israel",
         "city": "Tel Aviv",
         "lat": 32.111420087584435,
@@ -3021,48 +3063,6 @@
         "description": "Israeli Prime Minister Benjamin Netanyahu says Israel will not tolerate a Turkish military presence in Syria.",
         "fatalities": "0",
         "link": "https://www.aljazeera.com/video/newsfeed/2026/8/20/20-08-clip-netanyahu-turkey-sot-il?traffic_source=rss",
-        "critical": false
-    },
-    {
-        "country": "Iran",
-        "city": "Tehran",
-        "lat": 35.65158613673699,
-        "lon": 51.36883042085493,
-        "date": "2026-08-20 08:49:53",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Oil flows nearly tripled before US-Iran MoU expired, analysis shows",
-        "description": "Some 374 million barrels of oil exited the Gulf during 60-day window covered by MoU, Kpler data shows.",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/economy/2026/8/20/oil-flows-nearly-tripled-before-us-iran-mou-expired?traffic_source=rss",
-        "critical": false
-    },
-    {
-        "country": "Ukraine",
-        "city": "Kyiv",
-        "lat": 50.42852247991302,
-        "lon": 30.51725378569757,
-        "date": "2026-08-20 08:49:53",
-        "type": "Airstrike",
-        "severity": "critical",
-        "title": "Russian missile barrage kills at least 12 people in Ukraine’s Kyiv",
-        "description": "Russian ballistic missile attacks hit at least three districts in Kyiv, collapsing buildings and causing fires.",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/news/2026/8/20/russian-strike-kills-3-in-ukraine-as-zelenskyy-faces-pressure-at-home?traffic_source=rss",
-        "critical": true
-    },
-    {
-        "country": "Asia",
-        "city": "Seoul",
-        "lat": 37.50551942274113,
-        "lon": 127.12341658373933,
-        "date": "2026-08-20 08:49:50",
-        "type": "Clashes",
-        "severity": "middle",
-        "title": "Why Your Next Long-Haul Layover May Be in Seoul, Not Dubai",
-        "description": "The Iran war has slashed transit traffic at Middle Eastern airports, creating opportunities for hubs in Asia and beyond — at least for now.",
-        "fatalities": "0",
-        "link": "https://www.nytimes.com/2026/08/20/world/asia/iran-war-asia-airports-dubai.html",
         "critical": false
     }
 ]
