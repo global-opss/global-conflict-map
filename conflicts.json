@@ -1,5 +1,33 @@
 [
     {
+        "country": "China",
+        "city": "South china sea",
+        "lat": 12.058977116518992,
+        "lon": 112.96141078183722,
+        "date": "2026-08-22 15:46:23",
+        "type": "Naval",
+        "severity": "normal",
+        "title": "US Navy destroyer spent 4 days without power in South China Sea",
+        "description": "USS Benfold endured an \"engineering casualty\" last month, leaving about 300 sailors without potable water, galley services, toilets or air conditioning.",
+        "fatalities": "0",
+        "link": "https://www.defensenews.com/news/your-military/2026/08/19/us-navy-destroyer-spent-4-days-without-power-in-south-china-sea/",
+        "critical": false
+    },
+    {
+        "country": "Israel",
+        "city": "Tel Aviv",
+        "lat": 32.10075301390032,
+        "lon": 34.76309990999666,
+        "date": "2026-08-22 15:46:15",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Over 100 ex-diplomats urge France, UK to sanction Israel over Palestine",
+        "description": "An open letter demands a ban on arms transfers and a freeze on EU-Israel and UK-Israel trade agreements.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/news/2026/8/22/over-100-ex-diplomats-urge-france-uk-to-sanction-israel-over-palestine?traffic_source=rss",
+        "critical": false
+    },
+    {
         "country": "Israel",
         "city": "Tel Aviv",
         "lat": 32.06922419482898,
@@ -3035,34 +3063,6 @@
         "description": "На греческом острове Крит вылет пассажирского лайнера задержали из-за стервятника. Об этом сообщает New York Post.",
         "fatalities": "0",
         "link": "https://rg.ru/2026/08/21/nyp-passazhirskij-samolet-ne-smog-vzletet-iz-za-sterviatnika-na-hvoste.html",
-        "critical": false
-    },
-    {
-        "country": "Europe",
-        "city": "Brussels",
-        "lat": 50.96101157849929,
-        "lon": 4.299520252981566,
-        "date": "2026-08-21 03:57:25",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "US will be candid in push for ‘hard-line’ NATO alliance, Hegseth says",
-        "description": "BRUSSELS: NATO needs to return to its roots as a “hard-line” military alliance and the United States will be candid in public and ‌private about ‌countries that ‌need to ⁠do more to ⁠meet their commitments, US Defense Secretary Pete Hegseth said on Thursday at ⁠NATO headquarters.\n\t“(There are) ‌some ‌that still need ‌to do more, ‌and we will be candid about that, both in private ‌and in public. I think ⁠that’s important, ⁠friends being honest wit",
-        "fatalities": "0",
-        "link": "https://www.arabnews.com/node/2647643/world",
-        "critical": false
-    },
-    {
-        "country": "USA",
-        "city": "Washington",
-        "lat": 38.86398982897628,
-        "lon": -76.98279586137714,
-        "date": "2026-08-21 03:57:23",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Trump, Netanyahu clash over Iran strategy and Lebanon ceasefire",
-        "description": "DUBAI: American President Donald Trump and Israeli Prime Minister Benjamin Netanyahu have found themselves at odds over Iran, Lebanon and the course of ongoing negotiations in the Middle East according to The Washington Post.",
-        "fatalities": "0",
-        "link": "https://www.arabnews.com/node/2647647/middle-east",
         "critical": false
     }
 ]
