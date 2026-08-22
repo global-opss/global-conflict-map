@@ -1,6 +1,48 @@
 [
     {
         "country": "Israel",
+        "city": "Jerusalem",
+        "lat": 31.750736595604625,
+        "lon": 35.209888009158554,
+        "date": "2026-08-22 14:35:13",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "102 UK, French ex-ambassadors accuse Israel of ethnic cleansing in open letter",
+        "description": "Former British and French diplomats are urging action over what they say is Israel’s \"erasure\"of Palestine. More than 100 of those diplomats have penned a letter to the French President and the British Prime Minister calling for a ban on trade and arms sales to press Israel to accept a Palestinian state. Among the signatories: Sir Vincent Fean, British former Consul-General Jerusalem and current trustee of the Britain Palestine Project. What does",
+        "fatalities": "0",
+        "link": "https://www.france24.com/en/100-uk-french-ex-ambassadors-accuse-israel-of-ethnic-cleansing-in-open-letter",
+        "critical": false
+    },
+    {
+        "country": "Israel",
+        "city": "Jerusalem",
+        "lat": 31.81661528835707,
+        "lon": 35.23803642473703,
+        "date": "2026-08-22 14:35:13",
+        "type": "Clashes",
+        "severity": "middle",
+        "title": "102 former French and British ambassadors accuse Israel of ethnic cleansing",
+        "description": "Former British and French diplomats are urging action over what they say is Israel’s ‘erasure’ of Palestine. More than 100 of those diplomats have penned a letter to the French President and the British Prime Minister, calling for a ban on trade and arms sales to press Israel to accept a Palestinian state. The unprecedented joint letter directly accuses Israel of ethnic cleansing and warns that the world no longer sees it as a genuine democracy. ",
+        "fatalities": "0",
+        "link": "https://www.france24.com/en/100-former-french-and-british-ambassadors-accuse-israel-of-ethnic-cleansing",
+        "critical": false
+    },
+    {
+        "country": "Iran",
+        "city": "Tehran",
+        "lat": 35.68573831350726,
+        "lon": 51.456469692976874,
+        "date": "2026-08-22 14:35:04",
+        "type": "Clashes",
+        "severity": "middle",
+        "title": "What did war with the US reveal about Iran’s weapons capabilities?",
+        "description": "Iran says production is ongoing, but details will not be revealed during war conditions.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/news/2026/8/22/what-did-war-with-the-us-reveal-about-irans-weapons-capabilities?traffic_source=rss",
+        "critical": false
+    },
+    {
+        "country": "Israel",
         "city": "Gaza",
         "lat": 31.451961823732827,
         "lon": 34.50086251807714,
@@ -3021,48 +3063,6 @@
         "description": "A majority of Americans believe President Trump has profited inappropriately from a cryptocurrency empire while in office and disapprove of his family's global business activity, according to recent polls.Why it matters: Democrats are leaning into those concerns in their own midterm messaging — and laying the groundwork to audit Trump's historically lucrative presidency should they emerge victorious.While Trump has argued \"nobody cared\" whether h",
         "fatalities": "0",
         "link": "https://www.axios.com/2026/08/19/trump-profits-polling-dems-anti-corruption-message",
-        "critical": false
-    },
-    {
-        "country": "Iran",
-        "city": "Tehran",
-        "lat": 35.7313713437803,
-        "lon": 51.414082490967424,
-        "date": "2026-08-21 03:02:56",
-        "type": "Clashes",
-        "severity": "middle",
-        "title": "US warns allies and China to join Iran economic pressure campaign",
-        "description": "The United States on Thursday urged allies and China to join its campaign to isolate Iran's economy, as President Donald Trump seeks to intensify pressure on Tehran amid a stalemate in the war and growing domestic criticism.",
-        "fatalities": "0",
-        "link": "https://www.france24.com/en/middle-east/20260821-us-warns-allies-and-china-to-join-iran-economic-pressure-campaign",
-        "critical": false
-    },
-    {
-        "country": "China",
-        "city": "Beijing",
-        "lat": 39.914430057195524,
-        "lon": 116.3647213943284,
-        "date": "2026-08-21 03:02:45",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Hong Kong's Tiananmen activists guilty in national security trial",
-        "description": "Three activists were accused of inciting others to subvert state power under the China-introduced law.",
-        "fatalities": "0",
-        "link": "https://www.bbc.co.uk/news/articles/c1l10mdrld5o?at_medium=RSS&at_campaign=rss",
-        "critical": false
-    },
-    {
-        "country": "USA",
-        "city": "New york",
-        "lat": 40.70075863719137,
-        "lon": -74.00598908541463,
-        "date": "2026-08-21 01:54:58",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "NYT: Умерла вдова Генри Киссинджера Нэнси, ей было 92 года",
-        "description": "Вдова бывшего госсекретаря США Генри Киссинджера скончалась в возрасте 92 лет. Об этом сообщает The New York Times со ссылкой на семью.",
-        "fatalities": "0",
-        "link": "https://rg.ru/2026/08/21/nyt-umerla-vdova-genri-kissindzhera-nensi-ej-bylo-92-goda.html",
         "critical": false
     }
 ]
