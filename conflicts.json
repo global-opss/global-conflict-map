@@ -1,5 +1,19 @@
 [
     {
+        "country": "USA",
+        "city": "Hawaii",
+        "lat": 19.602787222129475,
+        "lon": -155.41986708437702,
+        "date": "2026-08-22 22:48:10",
+        "type": "Clashes",
+        "severity": "middle",
+        "title": "Tropical Storm Moke advances towards Hawaii with heavy rain, strong winds",
+        "description": "For the second week in a row, Hawaii Island, also known as the Big Island, faces threats from an intensifying storm.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/news/2026/8/22/tropical-storm-moke-advances-towards-hawaii-with-heavy-rain-strong-winds?traffic_source=rss",
+        "critical": false
+    },
+    {
         "country": "Iran",
         "city": "Tehran",
         "lat": 35.7552964483587,
@@ -1680,20 +1694,6 @@
         "critical": false
     },
     {
-        "country": "Africa",
-        "city": "Libya",
-        "lat": 26.27345629795102,
-        "lon": 17.210670318218696,
-        "date": "2026-08-21 19:34:06",
-        "type": "Drone",
-        "severity": "middle",
-        "title": "Fire breaks out at Libya’s Zawiya refinery",
-        "description": "TRIPOLI: A fire broke out on Monday ​in a diesel tank at Libya’s Zawiya refinery days after the facility was hit by drone.\n\n\tThe circumstances of Monday's fire remained unknown, Brega Petroleum Marketing Company said in a statement.\n\tBrega is owned by state oil firm National Oil Corporation (NOC) and is in charge of ‌fuel supplies.\n\tZawiya refinery is the ‌largest in the ​country ‌while Ras ​Lanuf is out ⁠of operation and is located around 40 kil",
-        "fatalities": "0",
-        "link": "https://www.arabnews.com/node/2654151/middle-east",
-        "critical": false
-    },
-    {
         "country": "Asia",
         "city": "Pakistan",
         "lat": 31.559803110593656,
@@ -1705,6 +1705,20 @@
         "description": "MUZAFFARABAD, Pakistan: Voters went to the polls Monday in the final phase of elections for the legislative assembly in Pakistan-administered Kashmir, following weeks of violent protests and clashes with security forces that overshadowed campaigning in the disputed Himalayan region, officials said.\n\n\tMen and women began lining up early at polling stations in Poonch district in the disputed Himalayan region, where four assembly seats were being co",
         "fatalities": "0",
         "link": "https://www.arabnews.com/node/2654152/world",
+        "critical": false
+    },
+    {
+        "country": "Africa",
+        "city": "Libya",
+        "lat": 26.27345629795102,
+        "lon": 17.210670318218696,
+        "date": "2026-08-21 19:34:06",
+        "type": "Drone",
+        "severity": "middle",
+        "title": "Fire breaks out at Libya’s Zawiya refinery",
+        "description": "TRIPOLI: A fire broke out on Monday ​in a diesel tank at Libya’s Zawiya refinery days after the facility was hit by drone.\n\n\tThe circumstances of Monday's fire remained unknown, Brega Petroleum Marketing Company said in a statement.\n\tBrega is owned by state oil firm National Oil Corporation (NOC) and is in charge of ‌fuel supplies.\n\tZawiya refinery is the ‌largest in the ​country ‌while Ras ​Lanuf is out ⁠of operation and is located around 40 kil",
+        "fatalities": "0",
+        "link": "https://www.arabnews.com/node/2654151/middle-east",
         "critical": false
     },
     {
@@ -3049,20 +3063,6 @@
         "description": "Data: RollCall, Financial Modeling Prep; Chart: Erin Davis/Axios VisualsOil price changes in response to President Trump's social media posts about the Iran war have been shrinking over time, an Axios analysis shows.Why it matters: Oil price changes ripple throughout the U.S. and global economies, and the conflict has brought unprecedented supply disruption.Traders weigh whether his comments suggest U.S. moves that would help or hinder oil transi",
         "fatalities": "0",
         "link": "https://www.axios.com/2026/08/21/oil-markets-ignore-trump-truth-social-iran",
-        "critical": false
-    },
-    {
-        "country": "USA",
-        "city": "Washington",
-        "lat": 38.88846143075256,
-        "lon": -77.04632110176972,
-        "date": "2026-08-21 09:49:32",
-        "type": "Clashes",
-        "severity": "middle",
-        "title": "America's capital crunch: Soaring debt collides with AI spending spree",
-        "description": "America is caught in a historic capital squeeze:On one side: Trillions Washington must borrow to pay for the past.On the other: Trillions the economy needs to build the future.Why it matters: The next president will inherit a fiscal reckoning decades in the making. The price it exacts — on taxes, benefits, borrowing and investment — could shape America's prosperity and power for generations.Zoom in: President Trump said in 2016 that he could elim",
-        "fatalities": "0",
-        "link": "https://www.axios.com/2026/08/21/national-debt-deficit-ai-spending",
         "critical": false
     }
 ]
