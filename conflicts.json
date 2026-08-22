@@ -1,5 +1,19 @@
 [
     {
+        "country": "USA",
+        "city": "New york",
+        "lat": 40.73355008667277,
+        "lon": -73.99306123652302,
+        "date": "2026-08-22 20:49:34",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Спецпосланник США Коул рассказал, как пил водку и шутил с Лукашенко",
+        "description": "Спецпосланник президента США Дональда Трампа по Беларуси Джон Коул ругал лидеров ЕС на встрече с белорусским президентом Александром Лукашенко, пил водку и шутил, чтобы добиться его расположения. Об этом чиновник рассказал в интервью The New York Times.",
+        "fatalities": "0",
+        "link": "https://rg.ru/2026/08/22/specposlannik-ssha-koul-rasskazal-kak-pil-vodku-i-shutil-s-lukashenko.html",
+        "critical": false
+    },
+    {
         "country": "Asia",
         "city": "Host",
         "lat": 33.36042144633704,
@@ -3049,20 +3063,6 @@
         "description": "Sudan’s displacement crisis deepens as violence escalates",
         "fatalities": "0",
         "link": "https://www.aljazeera.com/video/newsfeed/2026/8/21/sudans-displacement-crisis-deepens-as-violence-escalates?traffic_source=rss",
-        "critical": false
-    },
-    {
-        "country": "Ukraine",
-        "city": "Kyiv",
-        "lat": 50.4632234904847,
-        "lon": 30.46353825919033,
-        "date": "2026-08-21 09:49:15",
-        "type": "Drone",
-        "severity": "middle",
-        "title": "At 77, She Walked 9 Miles Under Drone-Filled Skies to Escape From ‘Hell’",
-        "description": "Rescue teams no longer enter the city of Lyman, in eastern Ukraine, because it is deemed too dangerous. The only way out is a terrifying journey on foot.",
-        "fatalities": "0",
-        "link": "https://www.nytimes.com/2026/08/21/world/europe/ukraine-lyman-donetsk-donbas-russia.html",
         "critical": false
     }
 ]
