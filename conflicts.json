@@ -1,5 +1,33 @@
 [
     {
+        "country": "Europe",
+        "city": "Paris",
+        "lat": 48.90931389859308,
+        "lon": 2.3683795772578975,
+        "date": "2026-08-22 16:00:52",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Fontainebleau forest near Paris reopens after devastating wildfire",
+        "description": "Fontainebleau forest reopened to the public Saturday, with 80 percent of the popular Paris-area nature reserve accessible again after a wildfire scorched around 2,000 hectares last month. A fifth of the forest remains closed because of safety risks.",
+        "fatalities": "0",
+        "link": "https://www.france24.com/en/france/20260822-fontainebleau-forest-reopens-after-devastating-wildfire",
+        "critical": false
+    },
+    {
+        "country": "Israel",
+        "city": "Tel Aviv",
+        "lat": 32.11690140378384,
+        "lon": 34.73758702690985,
+        "date": "2026-08-22 16:00:46",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Settlers target Palestinian homes in Occupied West Bank’s Area B",
+        "description": "Palestinians in Qaryut say Israeli settlers, backed by the military, are forcing families from their homes.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/video/newsfeed/2026/8/22/22-08-reported-nida-live-westbank-ps?traffic_source=rss",
+        "critical": false
+    },
+    {
         "country": "China",
         "city": "South china sea",
         "lat": 12.058977116518992,
@@ -3035,34 +3063,6 @@
         "description": "Khan, who was voted out of the office in April 2022, has been in prison for more than three years.",
         "fatalities": "0",
         "link": "https://www.aljazeera.com/news/2026/8/20/pakistans-ex-pm-imran-khan-transferred-from-jail-to-hospital?traffic_source=rss",
-        "critical": false
-    },
-    {
-        "country": "Asia",
-        "city": "Pakistan",
-        "lat": 31.566642970780446,
-        "lon": 74.32604868082255,
-        "date": "2026-08-21 04:43:47",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Pakistan ex-PM Imran Khan back in jail after hospital examination",
-        "description": "It comes as the court had earlier this week ordered that he had to be taken for a hospital examination.",
-        "fatalities": "0",
-        "link": "https://www.bbc.co.uk/news/articles/ckgdr9vr50po?at_medium=RSS&at_campaign=rss",
-        "critical": false
-    },
-    {
-        "country": "USA",
-        "city": "New york",
-        "lat": 40.6628475884638,
-        "lon": -74.03293981966851,
-        "date": "2026-08-21 03:57:36",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "NYP: Пассажирский самолет не смог взлететь из-за стервятника на хвосте",
-        "description": "На греческом острове Крит вылет пассажирского лайнера задержали из-за стервятника. Об этом сообщает New York Post.",
-        "fatalities": "0",
-        "link": "https://rg.ru/2026/08/21/nyp-passazhirskij-samolet-ne-smog-vzletet-iz-za-sterviatnika-na-hvoste.html",
         "critical": false
     }
 ]
