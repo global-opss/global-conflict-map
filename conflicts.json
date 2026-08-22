@@ -1,5 +1,33 @@
 [
     {
+        "country": "Ukraine",
+        "city": "Kyiv",
+        "lat": 50.49213677695137,
+        "lon": 30.501458222245603,
+        "date": "2026-08-22 06:13:47",
+        "type": "Airstrike",
+        "severity": "critical",
+        "title": "Russian strikes in Ukraine kill at least two people, injure several others",
+        "description": "At least two people were reported dead early Saturday by local authorities, after Russian strikes on Ukraine. The strikes came after a series of Russian bombings killed at least 20 people in Ukraine on Friday, including 16 in a daytime drone attack on a busy shopping center in President Volodymyr Zelensky's hometown Kryvyi Rih.",
+        "fatalities": "0",
+        "link": "https://www.france24.com/en/europe/20260822-russian-strikes-in-ukraine-kill-at-least-two-people-injure-several-others",
+        "critical": true
+    },
+    {
+        "country": "China",
+        "city": "Beijing",
+        "lat": 39.838668860509195,
+        "lon": 116.35004367998259,
+        "date": "2026-08-22 06:13:44",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "China’s new moon mission could unlock secret of lunar ice: Why that matters",
+        "description": "The Change-7 seeks to find out more about the water trapped within the moons shadowed craters.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/news/2026/8/22/chinas-new-moon-mission-could-unlock-secret-of-lunar-ice-why-that-matters?traffic_source=rss",
+        "critical": false
+    },
+    {
         "country": "China",
         "city": "Beijing",
         "lat": 39.91356690547802,
@@ -3036,33 +3064,5 @@
         "fatalities": "0",
         "link": "https://www.aljazeera.com/video/newsfeed/2026/8/20/humanoid-robots-take-centre-stage-in-china-us-tech-race?traffic_source=rss",
         "critical": false
-    },
-    {
-        "country": "Israel",
-        "city": "Gaza",
-        "lat": 31.469482235872153,
-        "lon": 34.52506253953264,
-        "date": "2026-08-20 17:41:43",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Daily struggle for clean water and food takes a physical toll on Gaza kids",
-        "description": "Families in Gaza face devastating water shortages, leaving children with heavy responsibilities beyond their years.",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/features/2026/8/20/daily-struggle-for-clean-water-and-food-takes-a-physical-toll-on-gaza-kids?traffic_source=rss",
-        "critical": false
-    },
-    {
-        "country": "Asia",
-        "city": "Seoul",
-        "lat": 37.51079847915821,
-        "lon": 127.04720721747933,
-        "date": "2026-08-20 16:34:56",
-        "type": "Airstrike",
-        "severity": "critical",
-        "title": "North Korea launches missiles, Seoul says, after Trump floats Kim meet",
-        "description": "North Korea fired several short-range ballistic missiles on Thursday, the South said, and Pyongyang mocked US \"servant\" Seoul, after President Donald Trump suggested he would meet Kim Jong Un this year. The latest launches from the nuclear-armed North come as South Korea and the United States hold a shorter edition of their annual Ulchi Freedom Shield military exercises, following an order from Trump to scale them back.",
-        "fatalities": "0",
-        "link": "https://www.france24.com/en/video/20260820-north-korea-launches-missiles-seoul-says-after-trump-floats-kim-meet",
-        "critical": true
     }
 ]
