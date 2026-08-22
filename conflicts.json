@@ -1,5 +1,33 @@
 [
     {
+        "country": "Africa",
+        "city": "Niger",
+        "lat": 13.776367184852717,
+        "lon": 5.300279660973499,
+        "date": "2026-08-22 18:46:12",
+        "type": "Naval",
+        "severity": "normal",
+        "title": "Armed men kidnap dozens in attacks on Nigerian villages",
+        "description": "Police say three villages and a mosque were attacked, and worshippers kidnapped in central Niger State.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/news/2026/8/22/armed-men-kidnap-dozens-in-attacks-on-nigerian-villages?traffic_source=rss",
+        "critical": false
+    },
+    {
+        "country": "Israel",
+        "city": "Gaza",
+        "lat": 31.56159713225534,
+        "lon": 34.448118178895506,
+        "date": "2026-08-22 18:46:12",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Israel’s Chief Rabbi says Palestinians are not a people and have no rights",
+        "description": "Israel’s Chief Rabbi denied Palestinians are a people, claimed Gaza for Jews and called for its destruction and return.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/video/newsfeed/2026/8/22/08-22-26-israel-rabbi-palestinians-clip?traffic_source=rss",
+        "critical": false
+    },
+    {
         "country": "Europe",
         "city": "Brussels",
         "lat": 50.929286157803006,
@@ -1358,20 +1386,6 @@
         "critical": false
     },
     {
-        "country": "Africa",
-        "city": "Libya",
-        "lat": 26.27345629795102,
-        "lon": 17.210670318218696,
-        "date": "2026-08-21 19:34:06",
-        "type": "Drone",
-        "severity": "middle",
-        "title": "Fire breaks out at Libya’s Zawiya refinery",
-        "description": "TRIPOLI: A fire broke out on Monday ​in a diesel tank at Libya’s Zawiya refinery days after the facility was hit by drone.\n\n\tThe circumstances of Monday's fire remained unknown, Brega Petroleum Marketing Company said in a statement.\n\tBrega is owned by state oil firm National Oil Corporation (NOC) and is in charge of ‌fuel supplies.\n\tZawiya refinery is the ‌largest in the ​country ‌while Ras ​Lanuf is out ⁠of operation and is located around 40 kil",
-        "fatalities": "0",
-        "link": "https://www.arabnews.com/node/2654151/middle-east",
-        "critical": false
-    },
-    {
         "country": "Asia",
         "city": "Pakistan",
         "lat": 31.559803110593656,
@@ -1383,6 +1397,20 @@
         "description": "MUZAFFARABAD, Pakistan: Voters went to the polls Monday in the final phase of elections for the legislative assembly in Pakistan-administered Kashmir, following weeks of violent protests and clashes with security forces that overshadowed campaigning in the disputed Himalayan region, officials said.\n\n\tMen and women began lining up early at polling stations in Poonch district in the disputed Himalayan region, where four assembly seats were being co",
         "fatalities": "0",
         "link": "https://www.arabnews.com/node/2654152/world",
+        "critical": false
+    },
+    {
+        "country": "Africa",
+        "city": "Libya",
+        "lat": 26.27345629795102,
+        "lon": 17.210670318218696,
+        "date": "2026-08-21 19:34:06",
+        "type": "Drone",
+        "severity": "middle",
+        "title": "Fire breaks out at Libya’s Zawiya refinery",
+        "description": "TRIPOLI: A fire broke out on Monday ​in a diesel tank at Libya’s Zawiya refinery days after the facility was hit by drone.\n\n\tThe circumstances of Monday's fire remained unknown, Brega Petroleum Marketing Company said in a statement.\n\tBrega is owned by state oil firm National Oil Corporation (NOC) and is in charge of ‌fuel supplies.\n\tZawiya refinery is the ‌largest in the ​country ‌while Ras ​Lanuf is out ⁠of operation and is located around 40 kil",
+        "fatalities": "0",
+        "link": "https://www.arabnews.com/node/2654151/middle-east",
         "critical": false
     },
     {
@@ -3036,33 +3064,5 @@
         "fatalities": "0",
         "link": "https://www.arabnews.com/node/2654131/world",
         "critical": true
-    },
-    {
-        "country": "Iran",
-        "city": "Tehran",
-        "lat": 35.699924949015156,
-        "lon": 51.43715439584427,
-        "date": "2026-08-21 06:46:55",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Iran supreme leader names Guards general Abdollahi military chief",
-        "description": "TEHRAN: Iranian supreme leader Mojtaba Khamenei named Revolutionary Guards general Ali Abdollahi head of the country's armed forces on Monday, while also confirming a new commander of the Guards, putting his imprimatur on the country's military.\n\tAbdollahi had previously led the Khatam Al-Anbiya, Iran's inter-branch central military command tasked with coordinating operations.",
-        "fatalities": "0",
-        "link": "https://www.arabnews.com/node/2654129/middle-east",
-        "critical": false
-    },
-    {
-        "country": "Asia",
-        "city": "Tokyo",
-        "lat": 35.607489124136364,
-        "lon": 139.7186742153233,
-        "date": "2026-08-21 05:53:13",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "В Таджикистане ввели туристический налог",
-        "description": "В Таджикистане (РТ) ввели туристический налог, который станет одним из источников финансирования Фонда развития туризма. Платить его будут как иностранцы, так и граждане РТ. Об этом сообщает Asiaplus.news со ссылкой на правительство республики.",
-        "fatalities": "0",
-        "link": "https://rg.ru/2026/08/21/v-tadzhikistane-vveli-turisticheskij-nalog.html",
-        "critical": false
     }
 ]
