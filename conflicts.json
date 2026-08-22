@@ -1,5 +1,61 @@
 [
     {
+        "country": "Africa",
+        "city": "Khartoum",
+        "lat": 15.456262338980022,
+        "lon": 32.60432019619257,
+        "date": "2026-08-22 10:22:37",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Former world champion boxer Zolani Tete shot and killed in South Africa",
+        "description": "Zolani Tete, who held WBF flyweight and WBO bantamweight world titles, killed at his home in Eastern Cape, South Africa.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/sports/2026/8/22/former-world-champion-boxer-zolani-tete-shot-and-killed-in-south-africa?traffic_source=rss",
+        "critical": false
+    },
+    {
+        "country": "Iran",
+        "city": "Tehran",
+        "lat": 35.626882182041705,
+        "lon": 51.43271080120945,
+        "date": "2026-08-22 10:22:37",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Iran says new US sanctions violate sovereignty of other states",
+        "description": "Foreign Ministry spokesman Esmaeil Baghaei slams Trumps latest threat as a return to full-scale classic colonialism.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/news/2026/8/22/iran-says-new-us-sanctions-violate-sovereignty-of-other-states?traffic_source=rss",
+        "critical": false
+    },
+    {
+        "country": "Africa",
+        "city": "Libya",
+        "lat": 26.39659232750659,
+        "lon": 17.226999401999684,
+        "date": "2026-08-22 10:22:37",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Libya’s brain drain, 15 years after Tripoli fell",
+        "description": "Professionals who left a country in turmoil say they are unlikely to return as more in Libya could be planning to leave.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/news/2026/8/22/young-want-to-leave-libyas-brain-drain-15-years-after-tripoli-fell?traffic_source=rss",
+        "critical": false
+    },
+    {
+        "country": "Ukraine",
+        "city": "Kyiv",
+        "lat": 50.47223218510039,
+        "lon": 30.50457463852919,
+        "date": "2026-08-22 10:22:35",
+        "type": "Airstrike",
+        "severity": "critical",
+        "title": "Rescuers dig through Ukraine mall wreckage after 16 killed in double-tap strike",
+        "description": "Nine people are still missing after the attack which left 130 injured, including a number of children.",
+        "fatalities": "0",
+        "link": "https://www.bbc.co.uk/news/articles/c39egw7nmk2o?at_medium=RSS&at_campaign=rss",
+        "critical": true
+    },
+    {
         "country": "Ukraine",
         "city": "Kyiv",
         "lat": 50.502655732762676,
@@ -126,20 +182,6 @@
         "critical": false
     },
     {
-        "country": "Africa",
-        "city": "Libya",
-        "lat": 26.375254732129147,
-        "lon": 17.29315329446517,
-        "date": "2026-08-22 08:10:26",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "‘Young want to leave’: Libya’s brain drain, 15 years after Tripoli fell",
-        "description": "Professionals who left a country in turmoil say they are unlikely to return as more in Libya could be planning to leave.",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/news/2026/8/22/young-want-to-leave-libyas-brain-drain-15-years-after-tripoli-fell?traffic_source=rss",
-        "critical": false
-    },
-    {
         "country": "Israel",
         "city": "Tel Aviv",
         "lat": 32.146061100363795,
@@ -151,6 +193,20 @@
         "description": "Conflict with Israel derails Lebanons economic recovery as inflation and consumer prices rise, the global lender says.",
         "fatalities": "0",
         "link": "https://www.aljazeera.com/news/2026/8/22/world-bank-projects-war-hit-lebanons-economy-to-contract-by-6-4-percent?traffic_source=rss",
+        "critical": false
+    },
+    {
+        "country": "Africa",
+        "city": "Libya",
+        "lat": 26.375254732129147,
+        "lon": 17.29315329446517,
+        "date": "2026-08-22 08:10:26",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "‘Young want to leave’: Libya’s brain drain, 15 years after Tripoli fell",
+        "description": "Professionals who left a country in turmoil say they are unlikely to return as more in Libya could be planning to leave.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/news/2026/8/22/young-want-to-leave-libyas-brain-drain-15-years-after-tripoli-fell?traffic_source=rss",
         "critical": false
     },
     {
@@ -3007,62 +3063,6 @@
         "description": "Washingtons new measures against the ICC have been widely condemned but welcomed by Israel.",
         "fatalities": "0",
         "link": "https://www.aljazeera.com/video/inside-story/2026/8/20/could-us-sanctions-destroy-the-international-criminal-court?traffic_source=rss",
-        "critical": false
-    },
-    {
-        "country": "Israel",
-        "city": "Gaza",
-        "lat": 31.552267820575867,
-        "lon": 34.40988329089558,
-        "date": "2026-08-20 20:11:09",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Israel Opens Criminal Investigation Into Killings of Hind Rajab and Gaza Medical Workers",
-        "description": "Two high-profile cases that had spurred international condemnation of the country’s conduct in Gaza were transferred to the military police. Such investigations have rarely led to convictions.",
-        "fatalities": "0",
-        "link": "https://www.nytimes.com/2026/08/19/world/middleeast/israel-criminal-investigation-hind-rajab-gaza-workers.html",
-        "critical": false
-    },
-    {
-        "country": "Russia",
-        "city": "Moscow",
-        "lat": 55.77375565852243,
-        "lon": 37.57146168637902,
-        "date": "2026-08-20 19:41:32",
-        "type": "Clashes",
-        "severity": "middle",
-        "title": "US Air Force flight to Antarctica turns back after Russian hazardous space activity warning",
-        "description": "A U.S. Air Force C-17A Globemaster III taking off from Christchurch, New Zealand, returned after receiving a “potentially hazardous” space activity notice.",
-        "fatalities": "0",
-        "link": "https://www.defensenews.com/news/your-military/2026/08/20/us-air-force-flight-to-antarctica-turns-back-after-russian-hazardous-space-activity-warning/",
-        "critical": false
-    },
-    {
-        "country": "Iran",
-        "city": "Tehran",
-        "lat": 35.75423552770489,
-        "lon": 51.406172391133616,
-        "date": "2026-08-20 19:41:22",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "US says sanctions will 'squash' Iran's economy and 'collapse' its regime",
-        "description": "The US treasury secretary says allies will need to decide whether they \"are with us or against us\".",
-        "fatalities": "0",
-        "link": "https://www.bbc.co.uk/news/articles/c87n90eg0p2o?at_medium=RSS&at_campaign=rss",
-        "critical": false
-    },
-    {
-        "country": "USA",
-        "city": "Washington",
-        "lat": 38.867229973744145,
-        "lon": -77.04955085851032,
-        "date": "2026-08-20 19:41:22",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "University suspends US academic leading Jason Arday plagiarism accusations",
-        "description": "Researcher Nathan Cofnas, an outspoken critic of DEI, was himself sacked from Cambridge in 2024 over his views on race.",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/news/2026/8/20/university-suspends-us-academic-leading-jason-arday-plagiarism-accusations?traffic_source=rss",
         "critical": false
     }
 ]
