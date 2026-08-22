@@ -1,5 +1,33 @@
 [
     {
+        "country": "Europe",
+        "city": "Brussels",
+        "lat": 50.929286157803006,
+        "lon": 4.358125243180583,
+        "date": "2026-08-22 17:26:05",
+        "type": "Naval",
+        "severity": "normal",
+        "title": "South Korea sending first container ship through Arctic route",
+        "description": "PanStar Acro, bound for Europe via Arctic, is testing whether a route opened by melting sea ice is commercially viable.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/news/2026/8/22/south-korea-sending-first-container-ship-through-arctic-route?traffic_source=rss",
+        "critical": false
+    },
+    {
+        "country": "Israel",
+        "city": "Tel Aviv",
+        "lat": 32.03601020136608,
+        "lon": 34.81851917883286,
+        "date": "2026-08-22 17:26:05",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Sanctioned by EU, Israeli settler steals and kills Palestinian donkey",
+        "description": "A donkey belonging to a Palestinian farmer was reportedly stolen and dragged to death by Israeli settlers.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/video/newsfeed/2026/8/22/22-08-clip-palestinian-donkey-killed-by-setllers-ps?traffic_source=rss",
+        "critical": false
+    },
+    {
         "country": "Africa",
         "city": "Libya",
         "lat": 26.292841184210182,
@@ -3035,34 +3063,6 @@
         "description": "В Таджикистане (РТ) ввели туристический налог, который станет одним из источников финансирования Фонда развития туризма. Платить его будут как иностранцы, так и граждане РТ. Об этом сообщает Asiaplus.news со ссылкой на правительство республики.",
         "fatalities": "0",
         "link": "https://rg.ru/2026/08/21/v-tadzhikistane-vveli-turisticheskij-nalog.html",
-        "critical": false
-    },
-    {
-        "country": "China",
-        "city": "Beijing",
-        "lat": 39.91868138480019,
-        "lon": 116.4388860942747,
-        "date": "2026-08-21 05:52:37",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Hong Kong convicts two Tiananmen vigil activists of inciting subversion",
-        "description": "Two pro-democracy activists who organised annual vigils to mark Beijing's 1989 deadly Tiananmen crackdown were on Friday convicted of inciting subversion by a Hong Kong court. Lee Cheuk-yan and Chow Hang-tung were leaders of the now-defunct Hong Kong Alliance and their case was viewed as a bellwether for freedom of expression in the Chinese city.",
-        "fatalities": "0",
-        "link": "https://www.france24.com/en/asia-pacific/20260821-the-hong-kong-tiananmen-vigil-activists-convicted-in-national-security-trial",
-        "critical": false
-    },
-    {
-        "country": "USA",
-        "city": "New york",
-        "lat": 40.69058863204234,
-        "lon": -73.96740497027666,
-        "date": "2026-08-21 05:52:37",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Woman charged with IS group-inspired plot to bomb New York State Capitol",
-        "description": "US authorities charged Jessica Bowie, a woman who allegedly supported the Islamic State group, with a terrorism offence Thursday after she told an FBI informant she \"wanted to destroy\" the New York State Capitol buildings.",
-        "fatalities": "0",
-        "link": "https://www.france24.com/en/americas/20260820-woman-charged-with-is-inspired-plot-to-bomb-new-york-state-capitol",
         "critical": false
     }
 ]
