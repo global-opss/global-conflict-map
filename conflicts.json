@@ -1,5 +1,19 @@
 [
     {
+        "country": "Africa",
+        "city": "Somalia",
+        "lat": 5.209299144397177,
+        "lon": 46.20996335289369,
+        "date": "2026-08-22 07:41:39",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Somalia child hunger crisis deepens after aid cuts, UNICEF says",
+        "description": "The drought-stricken country has recorded a 32 percent jump in the number of children treated for severe malnutrition.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/news/2026/8/22/somalia-child-hunger-crisis-deepens-after-aid-cuts-unicef-says?traffic_source=rss",
+        "critical": false
+    },
+    {
         "country": "Ukraine",
         "city": "Kyiv",
         "lat": 50.43364281876809,
@@ -448,20 +462,6 @@
         "critical": false
     },
     {
-        "country": "Africa",
-        "city": "Libya",
-        "lat": 26.27345629795102,
-        "lon": 17.210670318218696,
-        "date": "2026-08-21 19:34:06",
-        "type": "Drone",
-        "severity": "middle",
-        "title": "Fire breaks out at Libya’s Zawiya refinery",
-        "description": "TRIPOLI: A fire broke out on Monday ​in a diesel tank at Libya’s Zawiya refinery days after the facility was hit by drone.\n\n\tThe circumstances of Monday's fire remained unknown, Brega Petroleum Marketing Company said in a statement.\n\tBrega is owned by state oil firm National Oil Corporation (NOC) and is in charge of ‌fuel supplies.\n\tZawiya refinery is the ‌largest in the ​country ‌while Ras ​Lanuf is out ⁠of operation and is located around 40 kil",
-        "fatalities": "0",
-        "link": "https://www.arabnews.com/node/2654151/middle-east",
-        "critical": false
-    },
-    {
         "country": "Asia",
         "city": "Pakistan",
         "lat": 31.559803110593656,
@@ -473,6 +473,20 @@
         "description": "MUZAFFARABAD, Pakistan: Voters went to the polls Monday in the final phase of elections for the legislative assembly in Pakistan-administered Kashmir, following weeks of violent protests and clashes with security forces that overshadowed campaigning in the disputed Himalayan region, officials said.\n\n\tMen and women began lining up early at polling stations in Poonch district in the disputed Himalayan region, where four assembly seats were being co",
         "fatalities": "0",
         "link": "https://www.arabnews.com/node/2654152/world",
+        "critical": false
+    },
+    {
+        "country": "Africa",
+        "city": "Libya",
+        "lat": 26.27345629795102,
+        "lon": 17.210670318218696,
+        "date": "2026-08-21 19:34:06",
+        "type": "Drone",
+        "severity": "middle",
+        "title": "Fire breaks out at Libya’s Zawiya refinery",
+        "description": "TRIPOLI: A fire broke out on Monday ​in a diesel tank at Libya’s Zawiya refinery days after the facility was hit by drone.\n\n\tThe circumstances of Monday's fire remained unknown, Brega Petroleum Marketing Company said in a statement.\n\tBrega is owned by state oil firm National Oil Corporation (NOC) and is in charge of ‌fuel supplies.\n\tZawiya refinery is the ‌largest in the ​country ‌while Ras ​Lanuf is out ⁠of operation and is located around 40 kil",
+        "fatalities": "0",
+        "link": "https://www.arabnews.com/node/2654151/middle-east",
         "critical": false
     },
     {
@@ -3050,19 +3064,5 @@
         "fatalities": "0",
         "link": "https://rg.ru/2026/08/20/v-frg-zaderzhali-podozrevaemogo-v-podstrekatelstve-k-ubijstvu-shkolnika-v-rf.html",
         "critical": false
-    },
-    {
-        "country": "Ukraine",
-        "city": "Kyiv",
-        "lat": 50.50098369701956,
-        "lon": 30.547046270146367,
-        "date": "2026-08-20 17:41:43",
-        "type": "Airstrike",
-        "severity": "critical",
-        "title": "Russia 'purposefully' hit critical infrastructure in latest strikes, Kyiv mayor says",
-        "description": "At least 17 people were killed in the \"massive attack\" overnight on Ukraine's capital, as mayor Vitali Klitschko warns hot water supply has been disrupted.",
-        "fatalities": "0",
-        "link": "https://www.bbc.co.uk/news/articles/c98vzmden5yo?at_medium=RSS&at_campaign=rss",
-        "critical": true
     }
 ]
