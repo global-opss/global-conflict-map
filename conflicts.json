@@ -1,5 +1,19 @@
 [
     {
+        "country": "Africa",
+        "city": "Libya",
+        "lat": 26.292841184210182,
+        "lon": 17.19722440292147,
+        "date": "2026-08-22 16:57:59",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "В Ливии сообщили о прибытии в страну освобожденных в Мали россиян",
+        "description": "По данным телеканала Alhadath Libya, освобождение граждан РФ стало результатом посредничества заместителя главнокомандующего Ливийской национальной армией Саддама Хафтара в переговорах с действующей в Мали вооруженной группировкой \"Фронт Азавад\"",
+        "fatalities": "0",
+        "link": "https://tass.ru/obschestvo/28035981",
+        "critical": false
+    },
+    {
         "country": "Europe",
         "city": "Brussels",
         "lat": 50.94514106498396,
@@ -3049,20 +3063,6 @@
         "description": "US authorities charged Jessica Bowie, a woman who allegedly supported the Islamic State group, with a terrorism offence Thursday after she told an FBI informant she \"wanted to destroy\" the New York State Capitol buildings.",
         "fatalities": "0",
         "link": "https://www.france24.com/en/americas/20260820-woman-charged-with-is-inspired-plot-to-bomb-new-york-state-capitol",
-        "critical": false
-    },
-    {
-        "country": "Iran",
-        "city": "Tehran",
-        "lat": 35.68957853519477,
-        "lon": 51.447671424532345,
-        "date": "2026-08-21 05:18:23",
-        "type": "Naval",
-        "severity": "normal",
-        "title": "Middle East live: Hormuz shipping traffic falls as Iran-US talks stall",
-        "description": "Shipping traffic through the Strait of Hormuz fell sharply on Thursday, with just seven commodity vessels crossing the vital waterway, as heightened security risks and stalled US-Iran peace talks deterred ships from using the key energy route. Follow our liveblog for the latest updates.",
-        "fatalities": "0",
-        "link": "https://www.france24.com/en/middle-east/20260821-middle-east-live-hormuz-shipping-traffic-falls-as-iran-us-talks-stall",
         "critical": false
     }
 ]
