@@ -2,6 +2,20 @@
     {
         "country": "China",
         "city": "Beijing",
+        "lat": 39.953849045660796,
+        "lon": 116.35573965434303,
+        "date": "2026-08-22 11:54:26",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Usain Bolt’s 100m record broken at World Humanoid Robot Games",
+        "description": "Chinese robot reaches peak ​speed of 14.5 metres per second to beat Bolts 100m record in Beijing, says state media.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/sports/2026/8/22/usain-bolts-100m-record-broken-at-world-humanoid-robot-games?traffic_source=rss",
+        "critical": false
+    },
+    {
+        "country": "China",
+        "city": "Beijing",
         "lat": 39.97223019826099,
         "lon": 116.44738041497473,
         "date": "2026-08-22 11:33:29",
@@ -3050,19 +3064,5 @@
         "fatalities": "0",
         "link": "https://www.nytimes.com/2026/08/20/world/africa/2-hijackings-in-4-days-somali-piracy-surges.html",
         "critical": false
-    },
-    {
-        "country": "Russia",
-        "city": "Moscow",
-        "lat": 55.76458237202878,
-        "lon": 37.65919929492905,
-        "date": "2026-08-20 21:47:13",
-        "type": "Airstrike",
-        "severity": "critical",
-        "title": "Japan Intercepts Chinese TB-001 ‘Twin-Tailed Scorpion’ Drone Over East China Sea",
-        "description": "The TB-001 was intercepted alongside a Y-9Z electronic warfare aircraft as Chinese and Russian aircraft continue to operate in Japan’s Air Defense Identification Zone. Japan has said China’s Tengden TB-001 “Twin-Tailed Scorpion” surveillance-strike drone has been probing its airspace, triggering scrambles by Japan Air Self-Defense Force (JASDF) fighter jets. The Tengden TB-001 is a large []",
-        "fatalities": "0",
-        "link": "https://theaviationist.com/2026/08/20/japan-intercepts-chinese-tb-001/",
-        "critical": true
     }
 ]
