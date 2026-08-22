@@ -1,5 +1,47 @@
 [
     {
+        "country": "China",
+        "city": "Beijing",
+        "lat": 39.91356690547802,
+        "lon": 116.38058448344964,
+        "date": "2026-08-22 05:12:38",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "U.S.-Canada trade talks collapse, massive tariffs to take effect",
+        "description": "Trade talks between the U.S. and Canada fell apart late Friday night, and both sides said steep new tariffs will go into effect.Why it matters: It's an unprecedented breakdown in relations with the second-largest U.S. trading partner.Catch up quick: Trump last month threatened to invoke Section 338 of the Tariff Act of 1930 to hit a slew of Canadian goods with additional 50% duties, including alcohol, hockey equipment, cement and dairy products.N",
+        "fatalities": "0",
+        "link": "https://www.axios.com/2026/08/22/us-canada-tariffs-trade-trump-carney",
+        "critical": false
+    },
+    {
+        "country": "Africa",
+        "city": "Niger",
+        "lat": 13.851358016973041,
+        "lon": 5.306391956686578,
+        "date": "2026-08-22 05:12:32",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Nigeria and the Sahel: A growing security divide",
+        "description": "A widening diplomatic rift is complicating efforts to confront a shared cross-border security threat.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/news/2026/8/22/nigeria-and-the-sahel-a-growing-security-divide?traffic_source=rss",
+        "critical": false
+    },
+    {
+        "country": "USA",
+        "city": "Washington",
+        "lat": 38.874040394448656,
+        "lon": -77.0735473303472,
+        "date": "2026-08-22 05:12:32",
+        "type": "Naval",
+        "severity": "normal",
+        "title": "At least 13 Tunisians missing as migrant boat headed for Italy capsizes",
+        "description": "Thousands of people have died since 2014 trying to cross the Mediterranean Sea and reach Europe.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/news/2026/8/22/at-least-13-tunisians-missing-as-migrant-boat-headed-for-italy-capsizes?traffic_source=rss",
+        "critical": false
+    },
+    {
         "country": "Asia",
         "city": "Tokyo",
         "lat": 35.628263887762415,
@@ -3022,47 +3064,5 @@
         "fatalities": "0",
         "link": "https://www.france24.com/en/video/20260820-north-korea-launches-missiles-seoul-says-after-trump-floats-kim-meet",
         "critical": true
-    },
-    {
-        "country": "Africa",
-        "city": "Khartoum",
-        "lat": 15.508956560531312,
-        "lon": 32.60600837029132,
-        "date": "2026-08-20 16:34:56",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Spain expands Ceuta migrant shelters to ease crisis",
-        "description": "The Spanish government announced on Thursday the creation of shelters for 1,800 migrants in Ceuta in a bid to relieve the humanitarian crisis there following last month's influx from Morocco. Some 72,000 migrants breached the border in an unprecedented and deadly rush into the north African territory on July 30-31, with 70,000 having since returned to Morocco, according to Spanish government figures. FRANCE 24's Sarah Morris reports from Madrid, ",
-        "fatalities": "0",
-        "link": "https://www.france24.com/en/video/20260820-spain-expands-ceuta-migrant-shelters-to-ease-crisis",
-        "critical": false
-    },
-    {
-        "country": "USA",
-        "city": "Washington",
-        "lat": 38.915197714500465,
-        "lon": -77.05512665645158,
-        "date": "2026-08-20 16:34:56",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Hundreds of migrants relocated to temporary shelters following Ceuta border crisis",
-        "description": "Spanish authorities have cleared the El Trampolín beach area in Ceuta, relocating around 1,500 migrants and asylum seekers according to official government figures. This large-scale operation addresses the humanitarian crisis triggered when thousands of migrants crossed the border from Morocco on 30 and 31 July.",
-        "fatalities": "0",
-        "link": "https://www.france24.com/en/video/20260820-hundreds-of-migrants-relocated-to-temporary-shelters-following-ceuta-border-crisis",
-        "critical": false
-    },
-    {
-        "country": "Middle East",
-        "city": "Red sea",
-        "lat": 27.229105538074062,
-        "lon": 33.87796817456774,
-        "date": "2026-08-20 16:34:51",
-        "type": "Naval",
-        "severity": "normal",
-        "title": "One geography, two states: Saudi Arabia’s security approach to Sudan",
-        "description": "Riyadh sees Sudan’s unity and stability as inseparable from its own security across the Red Sea.",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/opinions/2026/8/20/one-geography-two-states-saudi-arabias-security-approach-to-sudan?traffic_source=rss",
-        "critical": false
     }
 ]
