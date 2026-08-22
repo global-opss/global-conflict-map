@@ -1,5 +1,33 @@
 [
     {
+        "country": "Israel",
+        "city": "Tel Aviv",
+        "lat": 32.06922419482898,
+        "lon": 34.81511170410555,
+        "date": "2026-08-22 15:20:52",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "102 senior diplomats urge West Bank action against Israeli 'ethnic cleansing'",
+        "description": "Dozens of former senior French and UK diplomats on Saturday urged their governments to work together to uphold international law in the Palestinian territories, accusing Israel of seeking to \"destroy\" any prospect of a viable Palestinian state. Analysis by Matthew-Mary Caruchet, FRANCE 24 international affairs editor.",
+        "fatalities": "0",
+        "link": "https://www.france24.com/en/102-senior-diplomats-urge-west-bank-action-against-israeli-ethnic-cleansing",
+        "critical": false
+    },
+    {
+        "country": "Israel",
+        "city": "Tel Aviv",
+        "lat": 32.11138449770753,
+        "lon": 34.82575415295374,
+        "date": "2026-08-22 15:20:46",
+        "type": "Airstrike",
+        "severity": "critical",
+        "title": "Israeli drone strike on ‘civilian vehicle’ injures several in Syria",
+        "description": "Syria condemns attack in southwest as a flagrant violation of sovereignty and a blatant breach of international law.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/news/2026/8/22/israeli-drone-strike-on-civilian-vehicle-causes-injuries-in-syria?traffic_source=rss",
+        "critical": true
+    },
+    {
         "country": "China",
         "city": "Beijing",
         "lat": 39.87920150008267,
@@ -3035,34 +3063,6 @@
         "description": "DUBAI: American President Donald Trump and Israeli Prime Minister Benjamin Netanyahu have found themselves at odds over Iran, Lebanon and the course of ongoing negotiations in the Middle East according to The Washington Post.",
         "fatalities": "0",
         "link": "https://www.arabnews.com/node/2647647/middle-east",
-        "critical": false
-    },
-    {
-        "country": "China",
-        "city": "South china sea",
-        "lat": 12.008367787379418,
-        "lon": 113.06125266699836,
-        "date": "2026-08-21 03:57:20",
-        "type": "Naval",
-        "severity": "normal",
-        "title": "US Navy destroyer spent 4 days without power in South China Sea",
-        "description": "USS Benfold endured an \"engineering casualty\" last month, leaving about 300 sailors without potable water, galley services, toilets or air conditioning.",
-        "fatalities": "0",
-        "link": "https://www.defensenews.com/news/your-military/2026/08/19/us-navy-destroyer-spent-4-days-without-power-in-south-china-sea/",
-        "critical": false
-    },
-    {
-        "country": "Asia",
-        "city": "Pakistan",
-        "lat": 31.507606303572192,
-        "lon": 74.37027574390581,
-        "date": "2026-08-21 03:57:11",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Pakistan’s Imran Khan moved to hospital after Supreme Court order",
-        "description": "Pakistan’s former Prime Minister Imran Khan has been moved to a private hospital for medical treatment.",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/video/newsfeed/2026/8/21/pakistans-imran-khan-moved-to-hospital-after-supreme-court-order?traffic_source=rss",
         "critical": false
     }
 ]
