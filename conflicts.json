@@ -1,5 +1,47 @@
 [
     {
+        "country": "USA",
+        "city": "Pentagon",
+        "lat": 38.81386527667314,
+        "lon": -77.08287149949533,
+        "date": "2026-08-22 13:47:39",
+        "type": "Airstrike",
+        "severity": "critical",
+        "title": "Pentagon identifies American soldiers killed in Iranian attack in Jordan",
+        "description": "1st Lt. Tyler James Feehan, 25, and Pvt. Isabella Gonzales, 19, were killed in action in an Iranian ballistic missile and drone attack in Jordan.",
+        "fatalities": "0",
+        "link": "https://www.militarytimes.com/flashpoints/middle-east/2026/07/20/pentagon-identifies-american-soliders-killed-in-iranian-attack-in-jordan/",
+        "critical": true
+    },
+    {
+        "country": "Iran",
+        "city": "Tehran",
+        "lat": 35.65485362740187,
+        "lon": 51.32905619876378,
+        "date": "2026-08-22 13:47:39",
+        "type": "Airstrike",
+        "severity": "critical",
+        "title": "2 US troops killed, 1 missing after Iranian missile, drone attack in Jordan",
+        "description": "Two U.S. service members were killed in action on Friday in an Iranian ballistic missile and drone attack on U.S. and partner forces in Jordan.",
+        "fatalities": "0",
+        "link": "https://www.militarytimes.com/flashpoints/2026/07/18/2-us-troops-killed-1-missing-after-iranian-missile-drone-attack-in-jordan/",
+        "critical": true
+    },
+    {
+        "country": "Ukraine",
+        "city": "Kyiv",
+        "lat": 50.48393056396503,
+        "lon": 30.512737935258674,
+        "date": "2026-08-22 13:47:37",
+        "type": "Airstrike",
+        "severity": "critical",
+        "title": "France to deliver interceptor missiles to Ukraine after fresh wave of Russian strikes",
+        "description": "This Saturday saw a continued exchange of fire between Kyiv and Moscow. French President Emmanuel Macron announced Paris would deliver new interceptor missiles to Ukraine, whose air defences are running short after the latest round of deadly Russian attacks. Details from the ground by FRANCE 24 correspondent in Ukraine, Emmanuelle Chaze.",
+        "fatalities": "0",
+        "link": "https://www.france24.com/en/france-to-deliver-interceptor-missiles-to-ukraine-after-fresh-wave-of-russian-strikes",
+        "critical": true
+    },
+    {
         "country": "Israel",
         "city": "Gaza",
         "lat": 31.43826855124989,
@@ -3021,48 +3063,6 @@
         "description": "Авианосец USS Abraham Lincoln спустя девять месяцев покидает Ближний Восток, сообщает CBS News. В регионе его сменит дислоцированный из Японии авианосец USS George Washington.",
         "fatalities": "0",
         "link": "https://www.kommersant.ru/doc/8894173",
-        "critical": false
-    },
-    {
-        "country": "Asia",
-        "city": "Afghanistan",
-        "lat": 34.6596798629371,
-        "lon": 69.12471169114346,
-        "date": "2026-08-21 01:54:28",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Taliban release two detained UN staff members in Afghanistan",
-        "description": "The two men, detained in the western city of Herat on August 9, were released on Thursday morning.",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/news/2026/8/21/taliban-release-two-detained-un-staff-members-in-afghanistan?traffic_source=rss",
-        "critical": false
-    },
-    {
-        "country": "Iran",
-        "city": "Tehran",
-        "lat": 35.65435365355566,
-        "lon": 51.33236570487368,
-        "date": "2026-08-21 01:54:28",
-        "type": "Clashes",
-        "severity": "middle",
-        "title": "Iran war live: US vows toughest Iran sanctions, urges China support",
-        "description": "US Treasury Secretary Bessent says new economic measures will collapse Iranian government.",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/news/liveblog/2026/8/21/iran-war-live-us-vows-toughest-iran-sanctions-urges-china-support?traffic_source=rss",
-        "critical": false
-    },
-    {
-        "country": "Asia",
-        "city": "Pakistan",
-        "lat": 31.530616359310674,
-        "lon": 74.3988207443074,
-        "date": "2026-08-21 00:02:40",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Pakistan’s ex-PM Imran Khan moved to hospital from jail after court order",
-        "description": "Khan, who was voted out of the office in April 2022, has been in prison for more than three years.",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/news/2026/8/20/pakistans-ex-pm-imran-khan-transferred-from-jail-to-hospital?traffic_source=rss",
         "critical": false
     }
 ]
