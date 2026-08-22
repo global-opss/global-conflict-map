@@ -1,5 +1,19 @@
 [
     {
+        "country": "Israel",
+        "city": "Gaza",
+        "lat": 31.451961823732827,
+        "lon": 34.50086251807714,
+        "date": "2026-08-22 14:04:23",
+        "type": "Clashes",
+        "severity": "middle",
+        "title": "As families retrieve bodies, Gaza is running out of places to bury the dead",
+        "description": "Israels genocidal war on Gaza has seen thousands of bodies buried in makeshift sites.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/features/2026/8/22/as-families-retrive-bodies-gaza-is-running-out-of-places-to-bury-the-dead?traffic_source=rss",
+        "critical": false
+    },
+    {
         "country": "USA",
         "city": "Pentagon",
         "lat": 38.81386527667314,
@@ -3049,20 +3063,6 @@
         "description": "Вдова бывшего госсекретаря США Генри Киссинджера скончалась в возрасте 92 лет. Об этом сообщает The New York Times со ссылкой на семью.",
         "fatalities": "0",
         "link": "https://rg.ru/2026/08/21/nyt-umerla-vdova-genri-kissindzhera-nensi-ej-bylo-92-goda.html",
-        "critical": false
-    },
-    {
-        "country": "USA",
-        "city": "Washington",
-        "lat": 38.89403762773323,
-        "lon": -77.05177840547715,
-        "date": "2026-08-21 01:54:50",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Авианосец USS Abraham Lincoln выдвинулся к берегам США",
-        "description": "Авианосец USS Abraham Lincoln спустя девять месяцев покидает Ближний Восток, сообщает CBS News. В регионе его сменит дислоцированный из Японии авианосец USS George Washington.",
-        "fatalities": "0",
-        "link": "https://www.kommersant.ru/doc/8894173",
         "critical": false
     }
 ]
