@@ -2,6 +2,20 @@
     {
         "country": "Ukraine",
         "city": "Kyiv",
+        "lat": 50.43364281876809,
+        "lon": 30.58607241663085,
+        "date": "2026-08-22 07:03:29",
+        "type": "Airstrike",
+        "severity": "critical",
+        "title": "Search for survivors after 16 killed by Russian double-tap strike on Ukraine mall",
+        "description": "Nine people are still missing after the attack which left 130 injured, including a number of children.",
+        "fatalities": "0",
+        "link": "https://www.bbc.co.uk/news/articles/c39egw7nmk2o?at_medium=RSS&at_campaign=rss",
+        "critical": true
+    },
+    {
+        "country": "Ukraine",
+        "city": "Kyiv",
         "lat": 50.49213677695137,
         "lon": 30.501458222245603,
         "date": "2026-08-22 06:13:47",
@@ -3050,19 +3064,5 @@
         "fatalities": "0",
         "link": "https://www.bbc.co.uk/news/articles/c98vzmden5yo?at_medium=RSS&at_campaign=rss",
         "critical": true
-    },
-    {
-        "country": "China",
-        "city": "Beijing",
-        "lat": 39.90661888613828,
-        "lon": 116.33632858149606,
-        "date": "2026-08-20 17:41:43",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Humanoid robots take centre stage in China-US tech race",
-        "description": "Humanoid robots are at the forefront of China’s race for technological supremacy at Beijing’s World Robot Conference.",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/video/newsfeed/2026/8/20/humanoid-robots-take-centre-stage-in-china-us-tech-race?traffic_source=rss",
-        "critical": false
     }
 ]
