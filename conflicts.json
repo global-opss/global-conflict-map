@@ -1,6 +1,48 @@
 [
     {
         "country": "Europe",
+        "city": "Brussels",
+        "lat": 50.94514106498396,
+        "lon": 4.393678825091553,
+        "date": "2026-08-22 16:36:42",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "US will be candid in push for ‘hard-line’ NATO alliance, Hegseth says",
+        "description": "BRUSSELS: NATO needs to return to its roots as a “hard-line” military alliance and the United States will be candid in public and ‌private about ‌countries that ‌need to ⁠do more to ⁠meet their commitments, US Defense Secretary Pete Hegseth said on Thursday at ⁠NATO headquarters.\n\t“(There are) ‌some ‌that still need ‌to do more, ‌and we will be candid about that, both in private ‌and in public. I think ⁠that’s important, ⁠friends being honest wit",
+        "fatalities": "0",
+        "link": "https://www.arabnews.com/node/2647643/world",
+        "critical": false
+    },
+    {
+        "country": "USA",
+        "city": "Washington",
+        "lat": 38.903101564476984,
+        "lon": -77.09886294697094,
+        "date": "2026-08-22 16:36:40",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Trump, Netanyahu clash over Iran strategy and Lebanon ceasefire",
+        "description": "DUBAI: American President Donald Trump and Israeli Prime Minister Benjamin Netanyahu have found themselves at odds over Iran, Lebanon and the course of ongoing negotiations in the Middle East according to The Washington Post.",
+        "fatalities": "0",
+        "link": "https://www.arabnews.com/node/2647647/middle-east",
+        "critical": false
+    },
+    {
+        "country": "Israel",
+        "city": "Tel Aviv",
+        "lat": 32.07658781379106,
+        "lon": 34.73581232323511,
+        "date": "2026-08-22 16:36:27",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "How is the pro-Israel lobby influencing US elections?",
+        "description": "As the 2026 US midterms approach, millions of dollars are pouring into races involving candidates who challenge Israel.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/video/newsfeed/2026/8/22/how-is-the-pro-israel-lobby-influencing-us-midterm-elections?traffic_source=rss",
+        "critical": false
+    },
+    {
+        "country": "Europe",
         "city": "Paris",
         "lat": 48.90931389859308,
         "lon": 2.3683795772578975,
@@ -3021,48 +3063,6 @@
         "description": "Shipping traffic through the Strait of Hormuz fell sharply on Thursday, with just seven commodity vessels crossing the vital waterway, as heightened security risks and stalled US-Iran peace talks deterred ships from using the key energy route. Follow our liveblog for the latest updates.",
         "fatalities": "0",
         "link": "https://www.france24.com/en/middle-east/20260821-middle-east-live-hormuz-shipping-traffic-falls-as-iran-us-talks-stall",
-        "critical": false
-    },
-    {
-        "country": "Iran",
-        "city": "Tehran",
-        "lat": 35.6615242513317,
-        "lon": 51.4259317256993,
-        "date": "2026-08-21 05:18:23",
-        "type": "Clashes",
-        "severity": "middle",
-        "title": "US urges allies and China to join Iran economic pressure campaign",
-        "description": "The United States on Thursday urged allies and China to join its campaign to isolate Iran's economy, as President Donald Trump seeks to intensify pressure on Tehran amid a stalemate in the war and growing domestic criticism.",
-        "fatalities": "0",
-        "link": "https://www.france24.com/en/middle-east/20260821-us-warns-allies-and-china-to-join-iran-economic-pressure-campaign",
-        "critical": false
-    },
-    {
-        "country": "Asia",
-        "city": "Pakistan",
-        "lat": 31.528825857040037,
-        "lon": 74.38430151653556,
-        "date": "2026-08-21 05:18:16",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Pakistan’s Imran Khan back to prison after evaluation at hospital",
-        "description": "Pakistan’s former Prime Minister Imran Khan was sent back to prison after being transferred for a medical evaluation.",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/video/newsfeed/2026/8/21/pakistans-imran-khan-moved-to-hospital-after-supreme-court-order?traffic_source=rss",
-        "critical": false
-    },
-    {
-        "country": "Asia",
-        "city": "Pakistan",
-        "lat": 31.54915873253652,
-        "lon": 74.33627245841265,
-        "date": "2026-08-21 04:43:52",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Pakistan’s ex-PM Imran Khan back in jail after brief hospital visit",
-        "description": "Khan, who was voted out of the office in April 2022, has been in prison for more than three years.",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/news/2026/8/20/pakistans-ex-pm-imran-khan-transferred-from-jail-to-hospital?traffic_source=rss",
         "critical": false
     }
 ]
