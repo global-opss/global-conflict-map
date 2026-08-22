@@ -1,5 +1,19 @@
 [
     {
+        "country": "Ukraine",
+        "city": "Kyiv",
+        "lat": 50.516561160855076,
+        "lon": 30.55528821262813,
+        "date": "2026-08-22 21:08:02",
+        "type": "Drone",
+        "severity": "middle",
+        "title": "At 77, She Walked 9 Miles Under Drone-Filled Skies to Escape From ‘Hell’",
+        "description": "Rescue teams no longer enter the city of Lyman, in eastern Ukraine, because it is deemed too dangerous. The only way out is a terrifying journey on foot.",
+        "fatalities": "0",
+        "link": "https://www.nytimes.com/2026/08/21/world/europe/ukraine-lyman-donetsk-donbas-russia.html",
+        "critical": false
+    },
+    {
         "country": "USA",
         "city": "New york",
         "lat": 40.73355008667277,
@@ -3049,20 +3063,6 @@
         "description": "Police allege Australian-Russian citizen joined Ukrainian military seeking to send information to Russian intelligence.",
         "fatalities": "0",
         "link": "https://www.aljazeera.com/news/2026/8/21/australia-charges-man-for-passing-ukrainian-military-intel-to-russia?traffic_source=rss",
-        "critical": false
-    },
-    {
-        "country": "Africa",
-        "city": "Sudan",
-        "lat": 12.881337340842725,
-        "lon": 30.217853025778332,
-        "date": "2026-08-21 09:49:21",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Sudan’s displacement crisis deepens as violence escalates",
-        "description": "Sudan’s displacement crisis deepens as violence escalates",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/video/newsfeed/2026/8/21/sudans-displacement-crisis-deepens-as-violence-escalates?traffic_source=rss",
         "critical": false
     }
 ]
