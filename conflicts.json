@@ -1,5 +1,19 @@
 [
     {
+        "country": "China",
+        "city": "Beijing",
+        "lat": 39.87920150008267,
+        "lon": 116.43899836178946,
+        "date": "2026-08-22 14:55:26",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Hong Kong's Tiananmen activists guilty in national security trial",
+        "description": "Three activists were accused of inciting others to subvert state power under the China-introduced law.",
+        "fatalities": "0",
+        "link": "https://www.bbc.co.uk/news/articles/c1l10mdrld5o?at_medium=RSS&at_campaign=rss",
+        "critical": false
+    },
+    {
         "country": "Israel",
         "city": "Jerusalem",
         "lat": 31.750736595604625,
@@ -3049,20 +3063,6 @@
         "description": "Pakistan’s former Prime Minister Imran Khan has been moved to a private hospital for medical treatment.",
         "fatalities": "0",
         "link": "https://www.aljazeera.com/video/newsfeed/2026/8/21/pakistans-imran-khan-moved-to-hospital-after-supreme-court-order?traffic_source=rss",
-        "critical": false
-    },
-    {
-        "country": "USA",
-        "city": "Washington",
-        "lat": 38.939698061227084,
-        "lon": -77.0074930022544,
-        "date": "2026-08-21 03:03:04",
-        "type": "Clashes",
-        "severity": "middle",
-        "title": "Trump's profits irk Americans as Dems test anti-corruption message",
-        "description": "A majority of Americans believe President Trump has profited inappropriately from a cryptocurrency empire while in office and disapprove of his family's global business activity, according to recent polls.Why it matters: Democrats are leaning into those concerns in their own midterm messaging — and laying the groundwork to audit Trump's historically lucrative presidency should they emerge victorious.While Trump has argued \"nobody cared\" whether h",
-        "fatalities": "0",
-        "link": "https://www.axios.com/2026/08/19/trump-profits-polling-dems-anti-corruption-message",
         "critical": false
     }
 ]
