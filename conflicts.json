@@ -1,5 +1,19 @@
 [
     {
+        "country": "Iran",
+        "city": "Tehran",
+        "lat": 35.7552964483587,
+        "lon": 51.44147295040602,
+        "date": "2026-08-22 21:55:01",
+        "type": "Naval",
+        "severity": "normal",
+        "title": "Oil falls to 3-1/2-month low after US, Iran sign ceasefire deal",
+        "description": "BEIJING/SINGAPORE: Oil prices ​fell by more than $2 per barrel on Thursday after the US and Iran signed an interim agreement that ‌would end the Iran war, reopen the Strait of Hormuz and waive US sanctions on Tehran’s oil, boosting the oil supply outlook.\n\n\tBrent crude futures were down $2.14, or 2.69 percent, at $77.41 a barrel as of 09:16 a.m. Saudi time, and US West Texas Intermediate fell $2.36, or 3.07 percent, to $74.43 a barrel.",
+        "fatalities": "0",
+        "link": "https://www.arabnews.com/node/2647650/business-economy",
+        "critical": false
+    },
+    {
         "country": "Africa",
         "city": "Khartoum",
         "lat": 15.556607466490394,
@@ -3049,20 +3063,6 @@
         "description": "America is caught in a historic capital squeeze:On one side: Trillions Washington must borrow to pay for the past.On the other: Trillions the economy needs to build the future.Why it matters: The next president will inherit a fiscal reckoning decades in the making. The price it exacts — on taxes, benefits, borrowing and investment — could shape America's prosperity and power for generations.Zoom in: President Trump said in 2016 that he could elim",
         "fatalities": "0",
         "link": "https://www.axios.com/2026/08/21/national-debt-deficit-ai-spending",
-        "critical": false
-    },
-    {
-        "country": "Asia",
-        "city": "Pakistan",
-        "lat": 31.56053293402649,
-        "lon": 74.42255862791198,
-        "date": "2026-08-21 09:49:24",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Ex-Pakistan PM Imran Khan returned to jail after hospital checks",
-        "description": "Pakistan's former prime minister Imran Khan was transfered back to prison after being examined at the public PIMS hospital in Islamabad early Friday, not the private clinic ordered by the court. Sentenced to 17 years in prison alongside his wife Bushra Bibi, Khan remains held at Adiala Jail ahead of his next Supreme Court hearing, set for September 16.",
-        "fatalities": "0",
-        "link": "https://www.france24.com/en/asia-pacific/20260821-ex-pakistan-pm-imran-khan-returned-to-jail-after-hospital-transfer",
         "critical": false
     }
 ]
