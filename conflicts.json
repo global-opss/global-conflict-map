@@ -1,5 +1,19 @@
 [
     {
+        "country": "Iran",
+        "city": "Tehran",
+        "lat": 35.75496768170615,
+        "lon": 51.34121011116961,
+        "date": "2026-08-22 23:53:52",
+        "type": "Clashes",
+        "severity": "middle",
+        "title": "Iran warns nearby nations against joining US ‘economic war’ efforts",
+        "description": "The warning comes as US President Donald Trump threatens to isolate Iran economically to weaken its government.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/news/2026/8/22/iran-warns-nearby-nations-against-joining-us-economic-war-efforts?traffic_source=rss",
+        "critical": false
+    },
+    {
         "country": "USA",
         "city": "Hawaii",
         "lat": 19.602787222129475,
@@ -3049,20 +3063,6 @@
         "description": "Immediately after her shocking upset in Florida's Democratic Senate primary, state Rep. Angie Nixon made clear she isn't really a socialist — even though she'd just joined the Democratic Socialists of America.Why it matters: Nixon's win is being cast as a DSA victory, but the organization neither endorsed her nor saw it coming. She ran as a big-tent leftist, linking progressive movements and party institutions in unlikely alliances.\"I don't campa",
         "fatalities": "0",
         "link": "https://www.axios.com/2026/08/21/florida-senate-angie-nixon-socialist",
-        "critical": false
-    },
-    {
-        "country": "Iran",
-        "city": "Tehran",
-        "lat": 35.75310472369762,
-        "lon": 51.32833375995672,
-        "date": "2026-08-21 09:49:32",
-        "type": "Naval",
-        "severity": "normal",
-        "title": "Why oil markets are ignoring Trump's \"truths\"",
-        "description": "Data: RollCall, Financial Modeling Prep; Chart: Erin Davis/Axios VisualsOil price changes in response to President Trump's social media posts about the Iran war have been shrinking over time, an Axios analysis shows.Why it matters: Oil price changes ripple throughout the U.S. and global economies, and the conflict has brought unprecedented supply disruption.Traders weigh whether his comments suggest U.S. moves that would help or hinder oil transi",
-        "fatalities": "0",
-        "link": "https://www.axios.com/2026/08/21/oil-markets-ignore-trump-truth-social-iran",
         "critical": false
     }
 ]
