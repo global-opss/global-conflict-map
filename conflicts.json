@@ -1,5 +1,19 @@
 [
     {
+        "country": "Russia",
+        "city": "Moscow",
+        "lat": 55.73135484141453,
+        "lon": 37.58217570741173,
+        "date": "2026-08-22 02:34:42",
+        "type": "Drone",
+        "severity": "middle",
+        "title": "Russian double-tap drone strike kills 16 in Ukrainian mall, officials say",
+        "description": "At least 130 people, including 23 children, were also injured when the shopping centre was hit, according to the regional head.",
+        "fatalities": "0",
+        "link": "https://www.bbc.co.uk/news/articles/c39egw7nmk2o?at_medium=RSS&at_campaign=rss",
+        "critical": false
+    },
+    {
         "country": "USA",
         "city": "Washington",
         "lat": 38.921093327808066,
@@ -3049,20 +3063,6 @@
         "description": "UK maritime security monitor says Seamull tanker diverted towards Somalia, as wave of piracy sweeps the Gulf of Aden.",
         "fatalities": "0",
         "link": "https://www.aljazeera.com/news/2026/8/20/gunmen-seize-tanker-off-yemen-amid-resurgence-of-somali-piracy?traffic_source=rss",
-        "critical": false
-    },
-    {
-        "country": "Africa",
-        "city": "Libya",
-        "lat": 26.27352099725438,
-        "lon": 17.295616426206372,
-        "date": "2026-08-20 15:51:14",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Can US, Middle Eastern powers unite Libya 15 years after Gaddafi overthrow?",
-        "description": "The US government is intensifying efforts to unify the countrys two rival governments.",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/news/2026/8/20/can-us-middle-eastern-powers-unite-libya-15-years-after-gaddafi-overthrow?traffic_source=rss",
         "critical": false
     }
 ]
