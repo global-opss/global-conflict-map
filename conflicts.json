@@ -1,5 +1,19 @@
 [
     {
+        "country": "Israel",
+        "city": "Tel Aviv",
+        "lat": 32.149356994711155,
+        "lon": 34.81384728295816,
+        "date": "2026-08-22 19:10:17",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Israel, Turkiye and the new regional reordering",
+        "description": "In Syria, Israel is not only at odds with Turkiye but also with the regional and international consensus.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/opinions/2026/8/22/israel-turkiye-and-the-new-regional-reordering?traffic_source=rss",
+        "critical": false
+    },
+    {
         "country": "Africa",
         "city": "Niger",
         "lat": 13.776367184852717,
@@ -3049,20 +3063,6 @@
         "description": "WASHINGTON: US President Donald Trump said Monday he would seek conflict compensation from Iran as part of any peace negotiations, citing attacks and atrocities stretching back decades allegedly backed or perpetrated by Tehran.\n\tIran is “asking for compensation for the damage done to them during the last five month Military Conflict... I am likewise demanding compensation from Iran, for all of the people that they have killed and gravely wounded ",
         "fatalities": "0",
         "link": "https://www.arabnews.com/node/2654132/middle-east",
-        "critical": true
-    },
-    {
-        "country": "Ukraine",
-        "city": "Kyiv",
-        "lat": 50.407104541713814,
-        "lon": 30.494205986297203,
-        "date": "2026-08-21 06:46:55",
-        "type": "Airstrike",
-        "severity": "critical",
-        "title": "Ukraine’s Zelensky says up to 50,000 North Korean troops to be deployed in Russia",
-        "description": "SEOUL: Ukrainian President Volodymyr Zelensky has ‌said up to 50,000 North Korean soldiers will be deployed in Russia to fight for Pyongyang’s ally, while calling on South Korea to provide support for ​its air defense.Zelensky said on X on Saturday that “a decision has been made for 30,000 to 50,000 North Koreans to be deployed on the territory of Russia,” a higher figure than his estimate of 30,000 in July. He did not elaborate on how he obtaine",
-        "fatalities": "0",
-        "link": "https://www.arabnews.com/node/2654131/world",
         "critical": true
     }
 ]
