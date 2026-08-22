@@ -1,5 +1,19 @@
 [
     {
+        "country": "Israel",
+        "city": "Tel Aviv",
+        "lat": 32.03392560273171,
+        "lon": 34.72930110834444,
+        "date": "2026-08-22 09:25:58",
+        "type": "Clashes",
+        "severity": "middle",
+        "title": "Lebanon’s Efforts to Tame Hezbollah Stall Amid Israel War",
+        "description": "President Joseph Aoun took office with a popular mandate to reassert control after the militant group dragged the country back into war with Israel.",
+        "fatalities": "0",
+        "link": "https://www.nytimes.com/2026/08/22/world/middleeast/lebanon-hezbollah-israel-diplomacy.html",
+        "critical": false
+    },
+    {
         "country": "Ukraine",
         "city": "Kyiv",
         "lat": 50.43439707203273,
@@ -784,20 +798,6 @@
         "critical": false
     },
     {
-        "country": "Russia",
-        "city": "Moscow",
-        "lat": 55.802902903959236,
-        "lon": 37.58347477088533,
-        "date": "2026-08-21 17:48:59",
-        "type": "Airstrike",
-        "severity": "critical",
-        "title": "Germany Identifies a Plot After Finding a Weapons Cache, but Names No Culprit",
-        "description": "Officials were careful not to point a finger, after revealing what they said was a plan for a political attack, at a time when a series of destabilizing actions have been blamed on Russia.",
-        "fatalities": "0",
-        "link": "https://www.nytimes.com/2026/08/21/world/europe/germany-foreign-plot-hidden-guns.html",
-        "critical": true
-    },
-    {
         "country": "Israel",
         "city": "Gaza",
         "lat": 31.561431652743405,
@@ -824,6 +824,20 @@
         "fatalities": "0",
         "link": "https://www.bbc.co.uk/news/articles/cp9edjpvplpo?at_medium=RSS&at_campaign=rss",
         "critical": false
+    },
+    {
+        "country": "Russia",
+        "city": "Moscow",
+        "lat": 55.802902903959236,
+        "lon": 37.58347477088533,
+        "date": "2026-08-21 17:48:59",
+        "type": "Airstrike",
+        "severity": "critical",
+        "title": "Germany Identifies a Plot After Finding a Weapons Cache, but Names No Culprit",
+        "description": "Officials were careful not to point a finger, after revealing what they said was a plan for a political attack, at a time when a series of destabilizing actions have been blamed on Russia.",
+        "fatalities": "0",
+        "link": "https://www.nytimes.com/2026/08/21/world/europe/germany-foreign-plot-hidden-guns.html",
+        "critical": true
     },
     {
         "country": "Israel",
@@ -3049,20 +3063,6 @@
         "description": "Human Rights Watch alleges that the killings by Africa Corps troops took place in the presence of Malian soldiers.",
         "fatalities": "0",
         "link": "https://www.aljazeera.com/news/2026/8/20/russian-paramilitaries-in-mali-kill-nine-including-children-hrw?traffic_source=rss",
-        "critical": false
-    },
-    {
-        "country": "Africa",
-        "city": "Niger",
-        "lat": 13.86056670444796,
-        "lon": 5.217504761760087,
-        "date": "2026-08-20 19:04:17",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Dozens dead after boat capsizes in northwestern Nigeria",
-        "description": "Residents say at least 46 bodies already recovered, as rescue operations continue before officials can confirm toll.",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/news/2026/8/20/dozens-dead-after-boat-sinks-in-northwestern-nigeria?traffic_source=rss",
         "critical": false
     }
 ]
