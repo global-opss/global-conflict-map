@@ -1,5 +1,33 @@
 [
     {
+        "country": "Ukraine",
+        "city": "Kyiv",
+        "lat": 50.44805502441343,
+        "lon": 30.580542309783475,
+        "date": "2026-08-23 18:00:08",
+        "type": "Airstrike",
+        "severity": "critical",
+        "title": "‘Everybody loves a winner’: US-Ukraine intel sharing surges as Kyiv racks up wins",
+        "description": "U.S. intelligence sharing with Ukraine has rebounded to full strength as Kyiv’s mid- and deep-range strikes continue to hammer Russia’s oil industry.",
+        "fatalities": "0",
+        "link": "https://www.defensenews.com/global/europe/2026/08/17/everybody-loves-a-winner-us-ukraine-intel-sharing-surges-as-kyiv-racks-up-wins/",
+        "critical": true
+    },
+    {
+        "country": "USA",
+        "city": "Washington",
+        "lat": 38.86062257310011,
+        "lon": -77.05643683541793,
+        "date": "2026-08-23 17:59:56",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Trump waves green flag kicking off high-speed IndyCar race through Washington",
+        "description": "The president took a ceremonial lap of the track before the race, which is the culmination of a summer of events to mark the country's 250th birthday.",
+        "fatalities": "0",
+        "link": "https://www.bbc.co.uk/news/articles/c0qvq24vlj4o?at_medium=RSS&at_campaign=rss",
+        "critical": false
+    },
+    {
         "country": "Africa",
         "city": "Mali",
         "lat": 12.668157323395546,
@@ -3035,34 +3063,6 @@
         "description": "MUZAFFARABAD, Pakistan: Voters went to the polls Monday in the final phase of elections for the legislative assembly in Pakistan-administered Kashmir, following weeks of violent protests and clashes with security forces that overshadowed campaigning in the disputed Himalayan region, officials said.\n\n\tMen and women began lining up early at polling stations in Poonch district in the disputed Himalayan region, where four assembly seats were being co",
         "fatalities": "0",
         "link": "https://www.arabnews.com/node/2654152/world",
-        "critical": false
-    },
-    {
-        "country": "Africa",
-        "city": "Libya",
-        "lat": 26.27345629795102,
-        "lon": 17.210670318218696,
-        "date": "2026-08-21 19:34:06",
-        "type": "Drone",
-        "severity": "middle",
-        "title": "Fire breaks out at Libya’s Zawiya refinery",
-        "description": "TRIPOLI: A fire broke out on Monday ​in a diesel tank at Libya’s Zawiya refinery days after the facility was hit by drone.\n\n\tThe circumstances of Monday's fire remained unknown, Brega Petroleum Marketing Company said in a statement.\n\tBrega is owned by state oil firm National Oil Corporation (NOC) and is in charge of ‌fuel supplies.\n\tZawiya refinery is the ‌largest in the ​country ‌while Ras ​Lanuf is out ⁠of operation and is located around 40 kil",
-        "fatalities": "0",
-        "link": "https://www.arabnews.com/node/2654151/middle-east",
-        "critical": false
-    },
-    {
-        "country": "Ukraine",
-        "city": "Kyiv",
-        "lat": 50.44788658511838,
-        "lon": 30.521446619424932,
-        "date": "2026-08-21 19:33:52",
-        "type": "Drone",
-        "severity": "middle",
-        "title": "Drone strike on Ukraine shopping centre kills 14, over 100 injured",
-        "description": "A Russian drone strike hit a major shopping centre in Kryvyi Rih, Ukraine, killing 14 people and injuring over 100",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/video/newsfeed/2026/8/21/drone-strike-on-ukraine-shopping-centre-kills-six-injures-103?traffic_source=rss",
         "critical": false
     }
 ]
