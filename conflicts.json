@@ -1,5 +1,33 @@
 [
     {
+        "country": "USA",
+        "city": "Washington",
+        "lat": 38.910584572944735,
+        "lon": -77.0125487257599,
+        "date": "2026-08-23 11:33:51",
+        "type": "Clashes",
+        "severity": "middle",
+        "title": "Flock cameras join data centers as a top AI boogeyman in 2026 midterms",
+        "description": "Flock cameras are joining data centers as a top midterm boogeyman, with members of Congress and congressional candidates trying to harness a sudden groundswell of grassroots anger over the AI surveillance tool.Why it matters: This blowup over the country's massive network of license plate readers illustrates how rapidly AI has morphed from a peripheral issue in national politics toward the center of the midterm campaign.Data centers have become a",
+        "fatalities": "0",
+        "link": "https://www.axios.com/2026/08/23/flock-cameras-data-centers-ai-midterms-2026-tech",
+        "critical": false
+    },
+    {
+        "country": "Israel",
+        "city": "Gaza",
+        "lat": 31.540716310158075,
+        "lon": 34.43628563419913,
+        "date": "2026-08-23 11:33:44",
+        "type": "Clashes",
+        "severity": "middle",
+        "title": "Israel’s war on Gaza forces Palestinians to rely on ‘Stone Age’ toilets",
+        "description": "The displaced in Gaza are struggling to find safe, discreet and sanitary toilets amid health crisis.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/features/2026/8/23/israels-war-on-gaza-forces-palestinians-to-rely-on-stone-age-toilets?traffic_source=rss",
+        "critical": false
+    },
+    {
         "country": "Europe",
         "city": "Paris",
         "lat": 48.86617852842223,
@@ -3035,34 +3063,6 @@
         "description": "FIFA and CAF provides more than $1m a year to Djiboutis federation, which faces corruption allegations over misuse.",
         "fatalities": "0",
         "link": "https://www.aljazeera.com/sports/2026/8/21/djibouti-football-federation-accused-misusing-funds-fifa?traffic_source=rss",
-        "critical": false
-    },
-    {
-        "country": "Iran",
-        "city": "Tehran",
-        "lat": 35.65179103677897,
-        "lon": 51.348408970356374,
-        "date": "2026-08-21 14:57:07",
-        "type": "Clashes",
-        "severity": "middle",
-        "title": "War on Iran: The US could focus on economically isolating Iran",
-        "description": "The US Treasury Secretary, has indicated a change in US strategy towards Iran, focusing on economic isolation.",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/video/newsfeed/2026/8/21/war-on-iran-the-us-could-focus-on-economically-isolating-iran?traffic_source=rss",
-        "critical": false
-    },
-    {
-        "country": "Africa",
-        "city": "Khartoum",
-        "lat": 15.541774748033244,
-        "lon": 32.50279068892555,
-        "date": "2026-08-21 14:57:03",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Corruption charges dropped against South Africa's police intelligence boss",
-        "description": "Officials had faced charges over the appointment of a civilian to a top post within crime intelligence.",
-        "fatalities": "0",
-        "link": "https://www.bbc.co.uk/news/articles/c0rd1pkdky8o?at_medium=RSS&at_campaign=rss",
         "critical": false
     }
 ]
