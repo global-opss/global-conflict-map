@@ -1,5 +1,47 @@
 [
     {
+        "country": "USA",
+        "city": "New york",
+        "lat": 40.70173700365368,
+        "lon": -73.94873412916547,
+        "date": "2026-08-23 02:39:14",
+        "type": "Naval",
+        "severity": "normal",
+        "title": "Kathy Hochul's business-friendly data center plan",
+        "description": "New York Gov. Kathy Hochul is positioning herself as a leader of the Democratic search for a data center position that isn't explicitly anti-business.Why it matters: Hochul says her data center platform isn't being designed with politics in mind. But as candidates across the country scramble for a winning position on the issue, New York is emerging as a test bed for one potential approach.What they're saying: In an interview with Axios, Hochul sa",
+        "fatalities": "0",
+        "link": "https://www.axios.com/2026/08/21/kathy-hochul-business-friendly-data-center-plan",
+        "critical": false
+    },
+    {
+        "country": "Israel",
+        "city": "Gaza",
+        "lat": 31.551052765310374,
+        "lon": 34.51247087952323,
+        "date": "2026-08-23 02:39:14",
+        "type": "Clashes",
+        "severity": "middle",
+        "title": "Florida's Angie Nixon isn't the socialist you've heard about",
+        "description": "Immediately after her shocking upset in Florida's Democratic Senate primary, state Rep. Angie Nixon made clear she isn't really a socialist — even though she'd just joined the Democratic Socialists of America.Why it matters: Nixon's win is being cast as a DSA victory, but the organization neither endorsed her nor saw it coming. She ran as a big-tent leftist, linking progressive movements and party institutions in unlikely alliances.\"I don't campa",
+        "fatalities": "0",
+        "link": "https://www.axios.com/2026/08/21/florida-senate-angie-nixon-socialist",
+        "critical": false
+    },
+    {
+        "country": "Africa",
+        "city": "Sudan",
+        "lat": 12.807739564499986,
+        "lon": 30.275848005486232,
+        "date": "2026-08-23 02:38:58",
+        "type": "Evacuation",
+        "severity": "critical",
+        "title": "Thousands flee Sudan’s Kordofan fighting for relative safety of El Obeid",
+        "description": "Thousands flee Sudan’s Kordofan fighting for relative safety of El Obeid.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/video/newsfeed/2026/8/23/thousands-flee-sudans-kordofan-fighting-for-relative-safety-of-el-obeid?traffic_source=rss",
+        "critical": true
+    },
+    {
         "country": "Iran",
         "city": "Tehran",
         "lat": 35.71025850073808,
@@ -1764,20 +1806,6 @@
         "critical": false
     },
     {
-        "country": "Africa",
-        "city": "Libya",
-        "lat": 26.27345629795102,
-        "lon": 17.210670318218696,
-        "date": "2026-08-21 19:34:06",
-        "type": "Drone",
-        "severity": "middle",
-        "title": "Fire breaks out at Libya’s Zawiya refinery",
-        "description": "TRIPOLI: A fire broke out on Monday ​in a diesel tank at Libya’s Zawiya refinery days after the facility was hit by drone.\n\n\tThe circumstances of Monday's fire remained unknown, Brega Petroleum Marketing Company said in a statement.\n\tBrega is owned by state oil firm National Oil Corporation (NOC) and is in charge of ‌fuel supplies.\n\tZawiya refinery is the ‌largest in the ​country ‌while Ras ​Lanuf is out ⁠of operation and is located around 40 kil",
-        "fatalities": "0",
-        "link": "https://www.arabnews.com/node/2654151/middle-east",
-        "critical": false
-    },
-    {
         "country": "Asia",
         "city": "Pakistan",
         "lat": 31.559803110593656,
@@ -1789,6 +1817,20 @@
         "description": "MUZAFFARABAD, Pakistan: Voters went to the polls Monday in the final phase of elections for the legislative assembly in Pakistan-administered Kashmir, following weeks of violent protests and clashes with security forces that overshadowed campaigning in the disputed Himalayan region, officials said.\n\n\tMen and women began lining up early at polling stations in Poonch district in the disputed Himalayan region, where four assembly seats were being co",
         "fatalities": "0",
         "link": "https://www.arabnews.com/node/2654152/world",
+        "critical": false
+    },
+    {
+        "country": "Africa",
+        "city": "Libya",
+        "lat": 26.27345629795102,
+        "lon": 17.210670318218696,
+        "date": "2026-08-21 19:34:06",
+        "type": "Drone",
+        "severity": "middle",
+        "title": "Fire breaks out at Libya’s Zawiya refinery",
+        "description": "TRIPOLI: A fire broke out on Monday ​in a diesel tank at Libya’s Zawiya refinery days after the facility was hit by drone.\n\n\tThe circumstances of Monday's fire remained unknown, Brega Petroleum Marketing Company said in a statement.\n\tBrega is owned by state oil firm National Oil Corporation (NOC) and is in charge of ‌fuel supplies.\n\tZawiya refinery is the ‌largest in the ​country ‌while Ras ​Lanuf is out ⁠of operation and is located around 40 kil",
+        "fatalities": "0",
+        "link": "https://www.arabnews.com/node/2654151/middle-east",
         "critical": false
     },
     {
@@ -3022,47 +3064,5 @@
         "fatalities": "0",
         "link": "https://www.france24.com/en/video/20260821-in-senegal-s-saint-louis-traces-of-slave-trading-past-fade-away",
         "critical": false
-    },
-    {
-        "country": "Iran",
-        "city": "Tehran",
-        "lat": 35.734618230667564,
-        "lon": 51.422572696079634,
-        "date": "2026-08-21 10:51:33",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Iran Must Plan to Overcome ‘Unjust Sanctions,’ Top Tehran Official Says",
-        "description": "Mohammad Bagher Ghalibaf, lead negotiator in talks with the United States, made the comments after President Trump vowed an “economic D-Day” against Iran.",
-        "fatalities": "0",
-        "link": "https://www.nytimes.com/2026/08/21/world/middleeast/iran-sanctions-united-states-ghalibaf.html",
-        "critical": false
-    },
-    {
-        "country": "Ukraine",
-        "city": "Kyiv",
-        "lat": 50.47518790243184,
-        "lon": 30.489609935918597,
-        "date": "2026-08-21 10:15:47",
-        "type": "Evacuation",
-        "severity": "critical",
-        "title": "Ukraine’s F-16s are being worn out from intercepting Russian drones",
-        "description": "Ukrainian F-16s have destroyed more than 2,500 one-way attack drones, but repeated interceptions are wearing out the country's small fleet.",
-        "fatalities": "0",
-        "link": "https://www.militarytimes.com/flashpoints/ukraine/2026/07/30/ukraines-f-16s-are-being-worn-out-from-intercepting-russian-drones/",
-        "critical": true
-    },
-    {
-        "country": "Iran",
-        "city": "Tehran",
-        "lat": 35.73404010759644,
-        "lon": 51.433032085284765,
-        "date": "2026-08-21 10:15:47",
-        "type": "Airstrike",
-        "severity": "critical",
-        "title": "US launches new round of strikes against Iran",
-        "description": "The U.S. conducted a new wave of strikes against Iranian military sites on Wednesday after reimposing a naval blockade of the Islamic Republic's ports.",
-        "fatalities": "0",
-        "link": "https://www.militarytimes.com/flashpoints/2026/07/15/us-launches-new-round-of-strikes-against-iran/",
-        "critical": true
     }
 ]
