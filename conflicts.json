@@ -1,5 +1,19 @@
 [
     {
+        "country": "USA",
+        "city": "New york",
+        "lat": 40.68454681826332,
+        "lon": -74.04758098079516,
+        "date": "2026-08-23 22:48:17",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Trump and former fixer Michael Cohen make amends",
+        "description": "President Trump signaled that he's welcomed his former fixer, Michael Cohen, back into his good graces in a remarkably friendly interview that aired in full on Sunday.The big picture: The president and Cohen discussed a wide range of topics, including Trump's proposed ballroom, how the economy is doing during his second term and how so-called \"weaponization\" is destroying America. The interview is the first time Trump and Cohen have spoken public",
+        "fatalities": "0",
+        "link": "https://www.axios.com/2026/08/23/trump-michael-cohen-radio-interview",
+        "critical": false
+    },
+    {
         "country": "Asia",
         "city": "Host",
         "lat": 33.343423815851075,
@@ -168,20 +182,6 @@
         "critical": false
     },
     {
-        "country": "Africa",
-        "city": "Libya",
-        "lat": 26.290912031594946,
-        "lon": 17.221067489480173,
-        "date": "2026-08-23 19:52:52",
-        "type": "Drone",
-        "severity": "middle",
-        "title": "Fire breaks out at Libya’s Zawiya refinery",
-        "description": "TRIPOLI: A fire broke out on Monday ​in a diesel tank at Libya’s Zawiya refinery days after the facility was hit by drone.\n\n\tThe circumstances of Monday's fire remained unknown, Brega Petroleum Marketing Company said in a statement.\n\tBrega is owned by state oil firm National Oil Corporation (NOC) and is in charge of ‌fuel supplies.\n\tZawiya refinery is the ‌largest in the ​country ‌while Ras ​Lanuf is out ⁠of operation and is located around 40 kil",
-        "fatalities": "0",
-        "link": "https://www.arabnews.com/node/2654151/middle-east",
-        "critical": false
-    },
-    {
         "country": "Asia",
         "city": "Pakistan",
         "lat": 31.467070292992872,
@@ -193,6 +193,20 @@
         "description": "MUZAFFARABAD, Pakistan: Voters went to the polls Monday in the final phase of elections for the legislative assembly in Pakistan-administered Kashmir, following weeks of violent protests and clashes with security forces that overshadowed campaigning in the disputed Himalayan region, officials said.\n\n\tMen and women began lining up early at polling stations in Poonch district in the disputed Himalayan region, where four assembly seats were being co",
         "fatalities": "0",
         "link": "https://www.arabnews.com/node/2654152/world",
+        "critical": false
+    },
+    {
+        "country": "Africa",
+        "city": "Libya",
+        "lat": 26.290912031594946,
+        "lon": 17.221067489480173,
+        "date": "2026-08-23 19:52:52",
+        "type": "Drone",
+        "severity": "middle",
+        "title": "Fire breaks out at Libya’s Zawiya refinery",
+        "description": "TRIPOLI: A fire broke out on Monday ​in a diesel tank at Libya’s Zawiya refinery days after the facility was hit by drone.\n\n\tThe circumstances of Monday's fire remained unknown, Brega Petroleum Marketing Company said in a statement.\n\tBrega is owned by state oil firm National Oil Corporation (NOC) and is in charge of ‌fuel supplies.\n\tZawiya refinery is the ‌largest in the ​country ‌while Ras ​Lanuf is out ⁠of operation and is located around 40 kil",
+        "fatalities": "0",
+        "link": "https://www.arabnews.com/node/2654151/middle-east",
         "critical": false
     },
     {
@@ -3050,19 +3064,5 @@
         "fatalities": "0",
         "link": "https://www.aljazeera.com/news/2026/8/22/california-lawmaker-overcomes-pro-israel-spending-to-win-special-election?traffic_source=rss",
         "critical": false
-    },
-    {
-        "country": "Ukraine",
-        "city": "Kyiv",
-        "lat": 50.482754478535426,
-        "lon": 30.524135089635415,
-        "date": "2026-08-22 01:21:47",
-        "type": "Airstrike",
-        "severity": "critical",
-        "title": "Several killed in Russia’s ‘double-tap’ drone strike on Ukraine mall",
-        "description": "Ukraine’s president accuses Russia of a ‘cowardly and deliberate’ attack on a mall in his hometown of Kryvyi Rih.",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/video/newsfeed/2026/8/22/several-killed-in-russias-double-tap-drone-strike-on-ukraine-mall?traffic_source=rss",
-        "critical": true
     }
 ]
