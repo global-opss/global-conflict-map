@@ -1,5 +1,33 @@
 [
     {
+        "country": "Europe",
+        "city": "Paris",
+        "lat": 48.899840090767235,
+        "lon": 2.300578599881879,
+        "date": "2026-08-23 08:11:23",
+        "type": "Naval",
+        "severity": "normal",
+        "title": "Macron welcomes Saudi Crown Prince MBS for two-day France visit",
+        "description": "Saudi crown prince and de facto ruler Mohammed bin Salman (MBS) was welcomed on Sunday by French President Emmanuel Macron for a two-day visit to the country. Several agreements on health, transport and energy will be signed on the second day of the visit on Monday underlining the strength of the Paris-Riyadh relationship.",
+        "fatalities": "0",
+        "link": "https://www.france24.com/en/europe/20260823-macron-welcomes-saudi-crown-prince-mbs-for-two-day-france-visit",
+        "critical": false
+    },
+    {
+        "country": "Ukraine",
+        "city": "Kyiv",
+        "lat": 50.44579398574109,
+        "lon": 30.51244608777373,
+        "date": "2026-08-23 08:11:19",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Zelensky has 'questions to answer' about corruption in his government, sacked minister says",
+        "description": "The sacked former defence minister has also called for elections to be held in Ukraine.",
+        "fatalities": "0",
+        "link": "https://www.bbc.co.uk/news/articles/cwy4ypzvd7po?at_medium=RSS&at_campaign=rss",
+        "critical": false
+    },
+    {
         "country": "Asia",
         "city": "Tokyo",
         "lat": 35.59467186336045,
@@ -3036,33 +3064,5 @@
         "fatalities": "0",
         "link": "https://www.bbc.co.uk/news/articles/c4gknzgje7go?at_medium=RSS&at_campaign=rss",
         "critical": true
-    },
-    {
-        "country": "Iran",
-        "city": "Tehran",
-        "lat": 35.64203689582418,
-        "lon": 51.45307877019759,
-        "date": "2026-08-21 11:52:37",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Iran Must Plan to Overcome ‘Unjust’ U.S. Sanctions, Top Tehran Official Says",
-        "description": "Mohammad Bagher Ghalibaf, lead negotiator in talks with Washington, made the comments after President Trump vowed an “economic D-Day” against Iran.",
-        "fatalities": "0",
-        "link": "https://www.nytimes.com/2026/08/21/world/middleeast/iran-sanctions-united-states-ghalibaf.html",
-        "critical": false
-    },
-    {
-        "country": "Africa",
-        "city": "Niger",
-        "lat": 13.834714141774667,
-        "lon": 5.31120798216205,
-        "date": "2026-08-21 11:25:46",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "'We are devastated' - Nigerian villagers bury bodies after overloaded boat capsizes",
-        "description": "The overloaded boat was taking people, including many children, to farms to harvest rice.",
-        "fatalities": "0",
-        "link": "https://www.bbc.co.uk/news/articles/cj035jg256no?at_medium=RSS&at_campaign=rss",
-        "critical": false
     }
 ]
