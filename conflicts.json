@@ -1,5 +1,19 @@
 [
     {
+        "country": "Iran",
+        "city": "Tehran",
+        "lat": 35.68140023213597,
+        "lon": 51.39094339757855,
+        "date": "2026-08-23 05:01:38",
+        "type": "Clashes",
+        "severity": "middle",
+        "title": "Iran warns of retaliation against countries joining US ‘economic war’",
+        "description": "Warning comes after Trump said he will impose most crushing sanctions to isolate Iran and weaken its government.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/news/2026/8/22/iran-warns-nearby-nations-against-joining-us-economic-war-efforts?traffic_source=rss",
+        "critical": false
+    },
+    {
         "country": "Europe",
         "city": "Brussels",
         "lat": 50.82851156746974,
@@ -3050,19 +3064,5 @@
         "fatalities": "0",
         "link": "https://www.axios.com/2026/08/19/syria-foreign-minister-israel-bombing-airbase",
         "critical": true
-    },
-    {
-        "country": "Ukraine",
-        "city": "Kyiv",
-        "lat": 50.420715608103706,
-        "lon": 30.4939080791898,
-        "date": "2026-08-21 10:51:54",
-        "type": "Naval",
-        "severity": "normal",
-        "title": "Iran says Ukrainian attack on vessel in Caspian Sea killed sailor",
-        "description": "Tehran described the attack on its vessel as an act of aggression while accusing Kyiv of seeking to expand the war in Ukraine.",
-        "fatalities": "0",
-        "link": "https://www.militarytimes.com/global/mideast-africa/2026/07/26/iran-says-ukrainian-attack-on-vessel-in-caspian-sea-killed-sailor/",
-        "critical": false
     }
 ]
