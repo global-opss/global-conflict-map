@@ -1,5 +1,19 @@
 [
     {
+        "country": "Israel",
+        "city": "Gaza",
+        "lat": 31.556535468820186,
+        "lon": 34.48471012562397,
+        "date": "2026-08-23 10:23:32",
+        "type": "Airstrike",
+        "severity": "critical",
+        "title": "Israeli air strike near Gaza refugee camp kills one person and injures two",
+        "description": "Israeli air attack near Gazas Maghazi camp kills one person and injures two others.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/news/2026/8/23/israeli-air-strike-near-gaza-refugee-camp-kills-one-person-and-injures-two?traffic_source=rss",
+        "critical": true
+    },
+    {
         "country": "Europe",
         "city": "Paris",
         "lat": 48.87373325009928,
@@ -3049,20 +3063,6 @@
         "description": "Palestinian and Israeli authorities offered divergent accounts of the incident, which came as settler violence has surged across the Israeli-occupied territory.",
         "fatalities": "0",
         "link": "https://www.nytimes.com/2026/08/21/world/middleeast/palestinian-teenager-killed-israeli-settlers-west-bank.html",
-        "critical": false
-    },
-    {
-        "country": "USA",
-        "city": "New york",
-        "lat": 40.71138240049394,
-        "lon": -73.98695528033947,
-        "date": "2026-08-21 13:34:49",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "The New York Times впервые за 50 лет проиграла дело о клевете",
-        "description": "Суд присяжных обязал The New York Times выплатить $9,25 млн компенсации морального вреда бывшему игроку баскетбольной команды Университета Алабамы Каю Спирсу. Газета ошибочно упомянула его имя в публикации 2023 года про стрельбу в вузе.",
-        "fatalities": "0",
-        "link": "https://www.kommersant.ru/doc/8905636",
         "critical": false
     }
 ]
