@@ -1,5 +1,61 @@
 [
     {
+        "country": "Israel",
+        "city": "Jerusalem",
+        "lat": 31.832369895206092,
+        "lon": 35.242324678780555,
+        "date": "2026-08-23 14:59:55",
+        "type": "Clashes",
+        "severity": "middle",
+        "title": "Trump’s Gaza plan hinges on Hamas disarmament, Israeli withdrawals",
+        "description": "JERUSALEM: Donald Trump’s latest plan to end the Gaza war calls on Hamas to ‌lay down its arms as Israel withdraws from the territory, terms endorsed by the militants but rejected by Israel, which says it will not pull back until the group’s disarmament is complete.",
+        "fatalities": "0",
+        "link": "https://www.arabnews.com/node/2654156/middle-east",
+        "critical": false
+    },
+    {
+        "country": "Africa",
+        "city": "Libya",
+        "lat": 26.33426772340641,
+        "lon": 17.28229106672007,
+        "date": "2026-08-23 14:59:55",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Libya’s central bank chief resigns",
+        "description": "TRIPOLI: The governor of Libya’s central bank, Naji Issa, has resigned without giving a reason, several reports said on Monday.\n\tPrivate TV channel Al-Ahrar said Issa had confirmed his resignation.\n\tIssa and vice-governor Miree Al-Barasee were appointed by Libya’s parliament, which is based in the east of the divided country, in September 2024.\n\tHis appointment was part of a deal backed by the United Nations that ended a standoff over Libya’s oil",
+        "fatalities": "0",
+        "link": "https://www.arabnews.com/node/2654155/middle-east",
+        "critical": false
+    },
+    {
+        "country": "Israel",
+        "city": "Gaza",
+        "lat": 31.515844576608202,
+        "lon": 34.50404143547318,
+        "date": "2026-08-23 14:59:55",
+        "type": "Naval",
+        "severity": "normal",
+        "title": "Trump insists Netanyahu relationship ‘very good’ despite Gaza rift",
+        "description": "WASHINGTON, United States: President Donald Trump insisted on Monday that his relationship with Prime Minister Benjamin Netanyahu is “very good” despite the Israeli leader’s rejection of a US-led Gaza plan.\n\t“The relationship is very good,” Trump said in response to a shouted question from a journalist at the end of an Oval Office event.\n\tAfter more than a week of gradually escalating criticism, Netanyahu explicitly stated on Sunday that he oppos",
+        "fatalities": "0",
+        "link": "https://www.arabnews.com/node/2654154/world",
+        "critical": false
+    },
+    {
+        "country": "Israel",
+        "city": "Gaza",
+        "lat": 31.51657379909292,
+        "lon": 34.52318224026145,
+        "date": "2026-08-23 14:59:52",
+        "type": "Clashes",
+        "severity": "middle",
+        "title": "Enrollment begins at Saudi-backed school for Gaza children",
+        "description": "GAZA STRIP: Registration has opened for students seeking to enroll at Makkah School in the southern Gaza Strip, a Saudi-backed initiative aimed at helping children resume their education amid the devastation of the war, SPA has reported. \n\n\tThe school, supported by the King Salman Humanitarian Aid and Relief Center (KSrelief), is part of a project to establish and operate safe educational spaces for Palestinian children under Saudi Arabia’s campa",
+        "fatalities": "0",
+        "link": "https://www.arabnews.com/node/2654157/saudi-arabia",
+        "critical": false
+    },
+    {
         "country": "USA",
         "city": "Washington",
         "lat": 38.89807253393309,
@@ -2646,20 +2702,6 @@
         "critical": false
     },
     {
-        "country": "Africa",
-        "city": "Libya",
-        "lat": 26.27345629795102,
-        "lon": 17.210670318218696,
-        "date": "2026-08-21 19:34:06",
-        "type": "Drone",
-        "severity": "middle",
-        "title": "Fire breaks out at Libya’s Zawiya refinery",
-        "description": "TRIPOLI: A fire broke out on Monday ​in a diesel tank at Libya’s Zawiya refinery days after the facility was hit by drone.\n\n\tThe circumstances of Monday's fire remained unknown, Brega Petroleum Marketing Company said in a statement.\n\tBrega is owned by state oil firm National Oil Corporation (NOC) and is in charge of ‌fuel supplies.\n\tZawiya refinery is the ‌largest in the ​country ‌while Ras ​Lanuf is out ⁠of operation and is located around 40 kil",
-        "fatalities": "0",
-        "link": "https://www.arabnews.com/node/2654151/middle-east",
-        "critical": false
-    },
-    {
         "country": "Asia",
         "city": "Pakistan",
         "lat": 31.559803110593656,
@@ -2671,6 +2713,20 @@
         "description": "MUZAFFARABAD, Pakistan: Voters went to the polls Monday in the final phase of elections for the legislative assembly in Pakistan-administered Kashmir, following weeks of violent protests and clashes with security forces that overshadowed campaigning in the disputed Himalayan region, officials said.\n\n\tMen and women began lining up early at polling stations in Poonch district in the disputed Himalayan region, where four assembly seats were being co",
         "fatalities": "0",
         "link": "https://www.arabnews.com/node/2654152/world",
+        "critical": false
+    },
+    {
+        "country": "Africa",
+        "city": "Libya",
+        "lat": 26.27345629795102,
+        "lon": 17.210670318218696,
+        "date": "2026-08-21 19:34:06",
+        "type": "Drone",
+        "severity": "middle",
+        "title": "Fire breaks out at Libya’s Zawiya refinery",
+        "description": "TRIPOLI: A fire broke out on Monday ​in a diesel tank at Libya’s Zawiya refinery days after the facility was hit by drone.\n\n\tThe circumstances of Monday's fire remained unknown, Brega Petroleum Marketing Company said in a statement.\n\tBrega is owned by state oil firm National Oil Corporation (NOC) and is in charge of ‌fuel supplies.\n\tZawiya refinery is the ‌largest in the ​country ‌while Ras ​Lanuf is out ⁠of operation and is located around 40 kil",
+        "fatalities": "0",
+        "link": "https://www.arabnews.com/node/2654151/middle-east",
         "critical": false
     },
     {
@@ -3007,62 +3063,6 @@
         "description": "Shakhtar have not played at home since 2014 when Russia annexed the Donetsk region and now switch to Stamford Bridge.",
         "fatalities": "0",
         "link": "https://www.aljazeera.com/sports/2026/8/21/ukraines-shakhtar-donetsk-to-play-champions-league-home-games-at-chelsea?traffic_source=rss",
-        "critical": false
-    },
-    {
-        "country": "Ukraine",
-        "city": "Kyiv",
-        "lat": 50.46607684246212,
-        "lon": 30.561530220850216,
-        "date": "2026-08-21 17:15:29",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Ukraine sanctions popular Russian cartoon ‘Masha and the Bear’",
-        "description": "Zelenskyy signs decree imposing sanctions on producers, accuses cartoon show of spreading pro-Russian propaganda.",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/news/2026/8/21/ukraine-sanctions-popular-russian-cartoon-masha-and-the?traffic_source=rss",
-        "critical": false
-    },
-    {
-        "country": "China",
-        "city": "Beijing",
-        "lat": 39.95132383573796,
-        "lon": 116.35930578983154,
-        "date": "2026-08-21 17:15:24",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "In China’s Biggest Car Recall, Tesla and 8 Others Will Address Door Safety",
-        "description": "China’s regulator ordered changes after vehicle occupants sometimes had difficulty exiting electric cars, an issue that has led to lawsuits against Tesla in the United States.",
-        "fatalities": "0",
-        "link": "https://www.nytimes.com/2026/08/21/business/china-car-recall-doors.html",
-        "critical": false
-    },
-    {
-        "country": "Europe",
-        "city": "Paris",
-        "lat": 48.86549813736604,
-        "lon": 2.369341961879732,
-        "date": "2026-08-21 17:15:22",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "‘They’re Always Going to Be Polarizing’: Britons Split on Harry and Meghan’s Return",
-        "description": "Recent surveys suggest the broader public views both of them negatively, especially in comparison to Harry’s brother, William, and his wife, Kate.",
-        "fatalities": "0",
-        "link": "https://www.nytimes.com/2026/08/21/world/europe/harry-meghan-royal-return-public-opinion.html",
-        "critical": false
-    },
-    {
-        "country": "USA",
-        "city": "New york",
-        "lat": 40.77517481600749,
-        "lon": -74.06611201089609,
-        "date": "2026-08-21 16:48:49",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Газета The New York Times проиграла дело о клевете впервые за 50 лет",
-        "description": "Газета The New York Times проиграла дело о клевете впервые за 50 лет — суд присяжных обязал издание выплатить $9,25 млн компенсации экс-игроку баскетбольной команды Университета Алабамы Каю Спирсу. Читать далее",
-        "fatalities": "0",
-        "link": "https://russian.rt.com/world/news/1672576-gazeta-the-new-york-times?utm_source=rss&utm_medium=rss&utm_campaign=RSS",
         "critical": false
     }
 ]
