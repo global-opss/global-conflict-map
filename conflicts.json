@@ -1,5 +1,33 @@
 [
     {
+        "country": "Ukraine",
+        "city": "Kyiv",
+        "lat": 50.44768527602628,
+        "lon": 30.552631901210994,
+        "date": "2026-08-23 12:39:14",
+        "type": "Clashes",
+        "severity": "middle",
+        "title": "Wartime elections would 'destroy' Ukraine, says Zelensky",
+        "description": "Ukraine's President Volodymyr Zelensky said in remarks made public Sunday that wartime elections would be a \"tsunami\" that would \"destroy the country\". Kyiv has been engulfed in a political crisis over the summer, triggered when Zelensky fired popular defence minister Mykhailo Fedorov, who days later called to organise a vote.",
+        "fatalities": "0",
+        "link": "https://www.france24.com/en/europe/20260823-wartime-elections-would-destroy-ukraine-says-zelensky",
+        "critical": false
+    },
+    {
+        "country": "Iran",
+        "city": "Tehran",
+        "lat": 35.67478174394723,
+        "lon": 51.36931018326615,
+        "date": "2026-08-23 12:39:12",
+        "type": "Clashes",
+        "severity": "middle",
+        "title": "Can Iran retaliate against countries that join US ‘economic war’?",
+        "description": "Irans security chief has warned of retaliation against countries joining US ‘economic war.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/news/2026/8/23/can-iran-retaliate-against-countries-that-join-us-economic-war?traffic_source=rss",
+        "critical": false
+    },
+    {
         "country": "USA",
         "city": "Washington",
         "lat": 38.90561613513639,
@@ -3036,33 +3064,5 @@
         "fatalities": "0",
         "link": "https://www.aljazeera.com/news/2026/8/21/russian-expert-warns-of-impending-social-crisis-as-ukraine-death-toll-rises?traffic_source=rss",
         "critical": false
-    },
-    {
-        "country": "Israel",
-        "city": "Tel Aviv",
-        "lat": 32.111420087584435,
-        "lon": 34.8343592553171,
-        "date": "2026-08-21 14:57:11",
-        "type": "Clashes",
-        "severity": "middle",
-        "title": "E1 Israeli settlement poses ‘existential threat’ to two-state solution, UN chief warns",
-        "description": "The United Nations on Wednesday said UN Secretary-General Antonio Guterres was alarmed by reports of illegal Israeli settlement outposts in the West Bank, warning that development in the E1 area threatened a two-state solution. UN spokesperson Stephane Dujarric said the E1 settlement would sever the connection between the northern and southern West Bank and have severe consequences for the territory’s integrity.",
-        "fatalities": "0",
-        "link": "https://www.france24.com/en/video/20260821-e1-israeli-settlement-poses-existential-threat-to-two-state-solution-un-chief-warns",
-        "critical": false
-    },
-    {
-        "country": "Europe",
-        "city": "Sweden",
-        "lat": 59.77796989144582,
-        "lon": 15.478360864713565,
-        "date": "2026-08-21 14:57:09",
-        "type": "Airstrike",
-        "severity": "critical",
-        "title": "Several people injured in sword attack at school in Sweden",
-        "description": "One person has been taken into custody after the attack at a high school in Fagersta, local authorities said.",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/news/2026/8/21/several-people-injured-in-sword-attack-at-swedish-school?traffic_source=rss",
-        "critical": true
     }
 ]
