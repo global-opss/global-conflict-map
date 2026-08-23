@@ -1,5 +1,47 @@
 [
     {
+        "country": "Ukraine",
+        "city": "Kyiv",
+        "lat": 50.46821770394958,
+        "lon": 30.52541851175559,
+        "date": "2026-08-23 03:35:12",
+        "type": "Evacuation",
+        "severity": "critical",
+        "title": "Ukraine’s F-16s are being worn out from intercepting Russian drones",
+        "description": "Ukrainian F-16s have destroyed more than 2,500 one-way attack drones, but repeated interceptions are wearing out the country's small fleet.",
+        "fatalities": "0",
+        "link": "https://www.militarytimes.com/flashpoints/ukraine/2026/07/30/ukraines-f-16s-are-being-worn-out-from-intercepting-russian-drones/",
+        "critical": true
+    },
+    {
+        "country": "Iran",
+        "city": "Tehran",
+        "lat": 35.66003491967529,
+        "lon": 51.322409440168215,
+        "date": "2026-08-23 03:35:12",
+        "type": "Airstrike",
+        "severity": "critical",
+        "title": "US launches new round of strikes against Iran",
+        "description": "The U.S. conducted a new wave of strikes against Iranian military sites on Wednesday after reimposing a naval blockade of the Islamic Republic's ports.",
+        "fatalities": "0",
+        "link": "https://www.militarytimes.com/flashpoints/2026/07/15/us-launches-new-round-of-strikes-against-iran/",
+        "critical": true
+    },
+    {
+        "country": "USA",
+        "city": "Washington",
+        "lat": 38.83722167876444,
+        "lon": -77.08561231106226,
+        "date": "2026-08-23 03:35:08",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Chinese robot beats Usain Bolt’s 100m world record at humanoid games",
+        "description": "A Chinese humanoid robot ran 100m in 9.39 seconds, beating Usain Bolt’s 9.58 second world record.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/video/newsfeed/2026/8/23/chinese-robot-beats-usain-bolts-100m-world-record-at-humanoid-games?traffic_source=rss",
+        "critical": false
+    },
+    {
         "country": "USA",
         "city": "New york",
         "lat": 40.70173700365368,
@@ -3021,48 +3063,6 @@
         "description": "France, Germany, ​Britain and Italy condemned on ​Thursday plans by Israel to open up construction tenders for a ​residential ‌property project ⁠called 'E1' in the occupied West Bank. Hundreds of ​thousands of Israelis have settled among millions of Palestinians in land ​captured by Israel in ​a 1967 war. Nearly ​all countries and a range of ​UN bodies consider that such settlements violate international law, although Israel disputes this, citing",
         "fatalities": "0",
         "link": "https://www.france24.com/en/video/20260821-france-germany-uk-and-italy-condemn-israel-s-e1-west-bank-plan",
-        "critical": false
-    },
-    {
-        "country": "China",
-        "city": "Beijing",
-        "lat": 39.93801057464207,
-        "lon": 116.44881062095598,
-        "date": "2026-08-21 10:51:51",
-        "type": "Naval",
-        "severity": "normal",
-        "title": "Hong Kong's Tiananmen vigils organisers convicted in national security case",
-        "description": "Two former organisers of Hong Kong’s annual vigils in remembrance of the 1989 Tiananmen Square crackdown were convicted by government-approved judges Friday for inciting others to overthrow China's communist leadership. Lee Cheuk-yan and Chow Hang-tung, former leaders of the Hong Kong Alliance in Support of Patriotic Democratic Movements of China, were charged with inciting subversion in 2021 under a China-imposed national security law that has e",
-        "fatalities": "0",
-        "link": "https://www.france24.com/en/video/20260821-hong-kong-s-tiananmen-vigils-organisers-convicted-in-national-security-case",
-        "critical": false
-    },
-    {
-        "country": "Europe",
-        "city": "Brussels",
-        "lat": 50.91970702345455,
-        "lon": 4.332787027799146,
-        "date": "2026-08-21 10:51:49",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Cybercriminals perfect 'social engineering': 'Each hack feeds the chances of the next one succeeding",
-        "description": "Peter O'Brien is pleased to welcome Simon McGarr, Lawyer with McGarr Solicitors in Dublin, and Managing Director of Data Compliance Europe. Cybersecurity is no longer simply a question of whether governments possess adequate technical defences, explains McGarr. AI is altering those risks at extraordinary speed, placing capabilities once associated with states or sophisticated criminal organizations within reach of much smaller actors. If threats ",
-        "fatalities": "0",
-        "link": "https://www.france24.com/en/video/20260821-cybercriminals-perfect-social-engineering-each-hack-feeds-the-chances-of-the-next-one-succeeding",
-        "critical": false
-    },
-    {
-        "country": "USA",
-        "city": "Washington",
-        "lat": 38.916620136158684,
-        "lon": -77.06253570815015,
-        "date": "2026-08-21 10:51:49",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "In Senegal's Saint-Louis, traces of slave-trading past fade away",
-        "description": "A dilapidated two-century-old building in Saint-Louis, Senegal bears testament to the island's little-known past as part of the transatlantic slave trade, the traces of which are quickly and quietly disappearing from view. Located in the country's north, between the Atlantic Ocean and the Senegal River, the island is rarely mentioned in the history of the slave trade, even though it was a hub through which tens of thousands of Africans passed.",
-        "fatalities": "0",
-        "link": "https://www.france24.com/en/video/20260821-in-senegal-s-saint-louis-traces-of-slave-trading-past-fade-away",
         "critical": false
     }
 ]
