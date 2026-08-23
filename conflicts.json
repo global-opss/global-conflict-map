@@ -1,5 +1,47 @@
 [
     {
+        "country": "Israel",
+        "city": "Tel Aviv",
+        "lat": 32.05645789496556,
+        "lon": 34.83757451690447,
+        "date": "2026-08-23 20:49:09",
+        "type": "Airstrike",
+        "severity": "critical",
+        "title": "Iran discovers major new gas reserves amid war-hit energy sector",
+        "description": "Iran on Sunday said it had discovered more than 200 billion cubic metres of natural gas in the southern Fars province, with more than 160 billion cubic metres potentially recoverable. The find comes as the country’s energy sector faces disruption after months of US-Israeli strikes on gas facilities, oil depots and transport routes.",
+        "fatalities": "0",
+        "link": "https://www.france24.com/en/middle-east/20260823-iran-discovers-major-new-gas-reserves-amid-war-hit-energy-sector",
+        "critical": true
+    },
+    {
+        "country": "USA",
+        "city": "Washington",
+        "lat": 38.83032915113509,
+        "lon": -77.03283057446458,
+        "date": "2026-08-23 20:49:05",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Trump waves green flag to start IndyCar race through Washington streets",
+        "description": "The president took a ceremonial lap of the track before the race, which is the culmination of a summer of events to mark the country's 250th birthday.",
+        "fatalities": "0",
+        "link": "https://www.bbc.co.uk/news/articles/c0qvq24vlj4o?at_medium=RSS&at_campaign=rss",
+        "critical": false
+    },
+    {
+        "country": "Israel",
+        "city": "Tel Aviv",
+        "lat": 32.098538896375125,
+        "lon": 34.83154690126369,
+        "date": "2026-08-23 20:49:05",
+        "type": "Clashes",
+        "severity": "middle",
+        "title": "Is Israel about to split the occupied West Bank in half?",
+        "description": "Israel is moving forward with its ‘E1’ plan. What is it and why could it threaten the future of a Palestinian state?",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/video/newsfeed/2026/8/23/occupied-west-bank-division-ps?traffic_source=rss",
+        "critical": false
+    },
+    {
         "country": "USA",
         "city": "Washington",
         "lat": 38.90636307097888,
@@ -3022,47 +3064,5 @@
         "fatalities": "0",
         "link": "https://www.aljazeera.com/video/inside-story/2026/8/21/can-a-humanitarian-disaster-be-averted-in-somalia-2?traffic_source=rss",
         "critical": false
-    },
-    {
-        "country": "USA",
-        "city": "Pentagon",
-        "lat": 38.93330541670359,
-        "lon": -77.03805612860485,
-        "date": "2026-08-21 20:50:21",
-        "type": "Naval",
-        "severity": "normal",
-        "title": "Trump's higher ed shakeup starts a new semester",
-        "description": "Students are returning to campus as the Trump administration continues to reshape American academia.The big picture: The administration has leveraged federal education funding and threatened litigation against universities deemed misaligned with policy priorities — moves critics say subject academia to political whims.State of play: The all-of-government squeeze on higher education continues a 19-month battle that has brought scrutiny of internat",
-        "fatalities": "0",
-        "link": "https://www.axios.com/2026/08/21/trump-higher-ed-shakeup-colleges-fall-semester",
-        "critical": false
-    },
-    {
-        "country": "Israel",
-        "city": "Tel Aviv",
-        "lat": 32.0812661405985,
-        "lon": 34.851302021085615,
-        "date": "2026-08-21 20:50:17",
-        "type": "Clashes",
-        "severity": "middle",
-        "title": "Israeli settlers and military kill 2 Palestinians – one a teenager – in separate West Bank shootings",
-        "description": "A teenage boy and a 58-year-old man were shot dead Friday by Israeli settlers and soldiers, respectively, in separate shootings in the occupied West Bank.",
-        "fatalities": "0",
-        "link": "https://www.france24.com/en/middle-east/20260821-israeli-settlers-and-military-kill-2-palestinians-teenager-separate-west-bank-shootings",
-        "critical": false
-    },
-    {
-        "country": "Russia",
-        "city": "Moscow",
-        "lat": 55.76850147888775,
-        "lon": 37.68618403184502,
-        "date": "2026-08-21 20:50:17",
-        "type": "Airstrike",
-        "severity": "critical",
-        "title": "Deadly 'double-tap' Russian drone strikes target Ukraine shopping centre",
-        "description": "A pair of Russian drone strikes that hit a shopping centre in the Ukrainian city of Kryvyi Rih Friday killed at least 15 people and wounded scores more, authorities said. Ukrainian President Volodymyr Zelensky accused Moscow of targeting emergency workers in what's known as a \"double-tap\" strike, with the second drone reportedly striking the mall half an hour after the first.",
-        "fatalities": "0",
-        "link": "https://www.france24.com/en/europe/20260821-back-to-back-russian-drone-strikes-kill-14-people-in-ukraine-shopping-centre",
-        "critical": true
     }
 ]
