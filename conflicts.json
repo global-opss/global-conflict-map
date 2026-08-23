@@ -2,6 +2,34 @@
     {
         "country": "USA",
         "city": "Washington",
+        "lat": 38.90561613513639,
+        "lon": -77.01714533198464,
+        "date": "2026-08-23 11:54:30",
+        "type": "Explosion",
+        "severity": "middle",
+        "title": "Synthetic everything is warping America",
+        "description": "A shadowy polling firm confessed this week to faking survey results in two marquee races — then claimed the entire operation was a \"short-term social experiment\" on misinformation.Why it matters: An AI-enabled flood of synthetic and outright fabricated content is wreaking havoc on reality, poisoning the signals people rely on to understand politics, business and culture.Catch up quick: Median Strategies, a previously unknown polling outfit with l",
+        "fatalities": "0",
+        "link": "https://www.axios.com/2026/08/23/median-strategies-poll-fake-bots",
+        "critical": false
+    },
+    {
+        "country": "Israel",
+        "city": "Tel Aviv",
+        "lat": 32.08220902925015,
+        "lon": 34.84410216171445,
+        "date": "2026-08-23 11:54:21",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Syria’s foreign minister says door open for diplomacy with Israel",
+        "description": "Asaad al-Shaibani urges Israel to seize historic opportunity for diplomacy.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/news/2026/8/23/syria-foreign-minister-says-door-open-for-diplomacy-with-israel?traffic_source=rss",
+        "critical": false
+    },
+    {
+        "country": "USA",
+        "city": "Washington",
         "lat": 38.910584572944735,
         "lon": -77.0125487257599,
         "date": "2026-08-23 11:33:51",
@@ -56,20 +84,6 @@
         "critical": false
     },
     {
-        "country": "Israel",
-        "city": "Tel Aviv",
-        "lat": 32.14551794667012,
-        "lon": 34.760689489925056,
-        "date": "2026-08-23 11:09:09",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Syria foreign minister says door open for diplomacy with Israel",
-        "description": "Asaad al-Shaibani urges Israel to seize historic opportunity for diplomacy.",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/news/2026/8/23/syria-foreign-minister-says-door-open-for-diplomacy-with-israel?traffic_source=rss",
-        "critical": false
-    },
-    {
         "country": "Africa",
         "city": "Khartoum",
         "lat": 15.487618067632775,
@@ -81,6 +95,20 @@
         "description": "South Africas former boxing champion Tete shot dead outside home",
         "fatalities": "0",
         "link": "https://www.aljazeera.com/video/newsfeed/2026/8/23/south-africas-former-boxing-champion-tete-shot-dead-outside-home?traffic_source=rss",
+        "critical": false
+    },
+    {
+        "country": "Israel",
+        "city": "Tel Aviv",
+        "lat": 32.14551794667012,
+        "lon": 34.760689489925056,
+        "date": "2026-08-23 11:09:09",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Syria foreign minister says door open for diplomacy with Israel",
+        "description": "Asaad al-Shaibani urges Israel to seize historic opportunity for diplomacy.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/news/2026/8/23/syria-foreign-minister-says-door-open-for-diplomacy-with-israel?traffic_source=rss",
         "critical": false
     },
     {
@@ -2338,20 +2366,6 @@
         "critical": false
     },
     {
-        "country": "Africa",
-        "city": "Libya",
-        "lat": 26.27345629795102,
-        "lon": 17.210670318218696,
-        "date": "2026-08-21 19:34:06",
-        "type": "Drone",
-        "severity": "middle",
-        "title": "Fire breaks out at Libya’s Zawiya refinery",
-        "description": "TRIPOLI: A fire broke out on Monday ​in a diesel tank at Libya’s Zawiya refinery days after the facility was hit by drone.\n\n\tThe circumstances of Monday's fire remained unknown, Brega Petroleum Marketing Company said in a statement.\n\tBrega is owned by state oil firm National Oil Corporation (NOC) and is in charge of ‌fuel supplies.\n\tZawiya refinery is the ‌largest in the ​country ‌while Ras ​Lanuf is out ⁠of operation and is located around 40 kil",
-        "fatalities": "0",
-        "link": "https://www.arabnews.com/node/2654151/middle-east",
-        "critical": false
-    },
-    {
         "country": "Asia",
         "city": "Pakistan",
         "lat": 31.559803110593656,
@@ -2363,6 +2377,20 @@
         "description": "MUZAFFARABAD, Pakistan: Voters went to the polls Monday in the final phase of elections for the legislative assembly in Pakistan-administered Kashmir, following weeks of violent protests and clashes with security forces that overshadowed campaigning in the disputed Himalayan region, officials said.\n\n\tMen and women began lining up early at polling stations in Poonch district in the disputed Himalayan region, where four assembly seats were being co",
         "fatalities": "0",
         "link": "https://www.arabnews.com/node/2654152/world",
+        "critical": false
+    },
+    {
+        "country": "Africa",
+        "city": "Libya",
+        "lat": 26.27345629795102,
+        "lon": 17.210670318218696,
+        "date": "2026-08-21 19:34:06",
+        "type": "Drone",
+        "severity": "middle",
+        "title": "Fire breaks out at Libya’s Zawiya refinery",
+        "description": "TRIPOLI: A fire broke out on Monday ​in a diesel tank at Libya’s Zawiya refinery days after the facility was hit by drone.\n\n\tThe circumstances of Monday's fire remained unknown, Brega Petroleum Marketing Company said in a statement.\n\tBrega is owned by state oil firm National Oil Corporation (NOC) and is in charge of ‌fuel supplies.\n\tZawiya refinery is the ‌largest in the ​country ‌while Ras ​Lanuf is out ⁠of operation and is located around 40 kil",
+        "fatalities": "0",
+        "link": "https://www.arabnews.com/node/2654151/middle-east",
         "critical": false
     },
     {
@@ -3036,33 +3064,5 @@
         "fatalities": "0",
         "link": "https://www.aljazeera.com/news/2026/8/21/several-people-injured-in-sword-attack-at-swedish-school?traffic_source=rss",
         "critical": true
-    },
-    {
-        "country": "Israel",
-        "city": "Tel Aviv",
-        "lat": 32.14052151931581,
-        "lon": 34.79373298338217,
-        "date": "2026-08-21 14:57:09",
-        "type": "Clashes",
-        "severity": "middle",
-        "title": "Trump’s ‘economic D-Day’ claims first victim: Not Iran, but US markets",
-        "description": "The US and Israels war on Iran has upended global financial and energy markets.",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/news/2026/8/21/trumps-economic-d-day-claims-first-victim-not-iran-but-us-markets?traffic_source=rss",
-        "critical": false
-    },
-    {
-        "country": "Red Sea Region",
-        "city": "Djibouti",
-        "lat": 11.573787924567828,
-        "lon": 43.13551282256908,
-        "date": "2026-08-21 14:57:07",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Djibouti Football Federation accused of misusing funds from FIFA",
-        "description": "FIFA and CAF provides more than $1m a year to Djiboutis federation, which faces corruption allegations over misuse.",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/sports/2026/8/21/djibouti-football-federation-accused-misusing-funds-fifa?traffic_source=rss",
-        "critical": false
     }
 ]
