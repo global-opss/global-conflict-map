@@ -1,5 +1,33 @@
 [
     {
+        "country": "Africa",
+        "city": "Mali",
+        "lat": 12.668157323395546,
+        "lon": -8.021726661356332,
+        "date": "2026-08-23 17:40:50",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Защитит АУГ на дальних подступах: ВМС США представили ракету AIM-424 Malice",
+        "description": "Новое средство будет бороться с приоритетными воздушными целями",
+        "fatalities": "0",
+        "link": "https://topwar.ru/288526-zaschitit-aug-na-dalnih-podstupah-vms-ssha-predstavili-raketu-aim-424-malice.html",
+        "critical": false
+    },
+    {
+        "country": "Ukraine",
+        "city": "Kyiv",
+        "lat": 50.39687829324521,
+        "lon": 30.502169921372996,
+        "date": "2026-08-23 17:40:20",
+        "type": "Clashes",
+        "severity": "middle",
+        "title": "Photos: Ukraine celebrates National Flag Day",
+        "description": "People observe a minute of silence for those killed in war to mark the holiday established in 2004.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/gallery/2026/8/23/photos-ukraine-observes-national-flag-day?traffic_source=rss",
+        "critical": false
+    },
+    {
         "country": "USA",
         "city": "New york",
         "lat": 40.74595613925581,
@@ -3035,34 +3063,6 @@
         "description": "A Russian drone strike hit a major shopping centre in Kryvyi Rih, Ukraine, killing 14 people and injuring over 100",
         "fatalities": "0",
         "link": "https://www.aljazeera.com/video/newsfeed/2026/8/21/drone-strike-on-ukraine-shopping-centre-kills-six-injures-103?traffic_source=rss",
-        "critical": false
-    },
-    {
-        "country": "Ukraine",
-        "city": "Kyiv",
-        "lat": 50.44951527503182,
-        "lon": 30.468604593761107,
-        "date": "2026-08-21 19:01:29",
-        "type": "Airstrike",
-        "severity": "critical",
-        "title": "‘Everybody loves a winner’: US-Ukraine intel sharing surges as Kyiv racks up wins",
-        "description": "U.S. intelligence sharing with Ukraine has rebounded to full strength as Kyiv’s mid- and deep-range strikes continue to hammer Russia’s oil industry.",
-        "fatalities": "0",
-        "link": "https://www.defensenews.com/global/europe/2026/08/17/everybody-loves-a-winner-us-ukraine-intel-sharing-surges-as-kyiv-racks-up-wins/",
-        "critical": true
-    },
-    {
-        "country": "Asia",
-        "city": "Pakistan",
-        "lat": 31.49965209190497,
-        "lon": 74.39129387924011,
-        "date": "2026-08-21 19:01:23",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Former Pakistan PM Imran Khan taken back to prison after hospital check-up",
-        "description": "Relatives of former Pakistani Prime Minister Imran Khan say he’s being tortured in prison.",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/video/newsfeed/2026/8/21/former-pakistan-pm-imran-khan-taken-back-to-prison-after-hospital-check-up?traffic_source=rss",
         "critical": false
     }
 ]
