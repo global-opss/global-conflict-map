@@ -1,5 +1,33 @@
 [
     {
+        "country": "USA",
+        "city": "Washington",
+        "lat": 38.90636307097888,
+        "lon": -76.96833794107629,
+        "date": "2026-08-23 20:22:43",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Photos: IndyCars speed past Washington landmarks as part of Freedom 250",
+        "description": "Race cars take over central Washington, DC, as the Trump-created Freedom 250 Grand Prix debuts.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/gallery/2026/8/23/photos-indycars-speed-past-washington-landmarks-ahead-of-freedom-250?traffic_source=rss",
+        "critical": false
+    },
+    {
+        "country": "Israel",
+        "city": "Gaza",
+        "lat": 31.449483330163826,
+        "lon": 34.486180680692264,
+        "date": "2026-08-23 20:22:43",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Gaza’s hospitals are running out of oxygen as healthcare nears collapse",
+        "description": "Gaza’s hospitals face oxygen shortages, putting the lives of premature babies and critically ill patients at risk.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/video/newsfeed/2026/8/23/gazas-hospitals-are-running-out-of-oxygen-as-healthcare-nears-collapse?traffic_source=rss",
+        "critical": false
+    },
+    {
         "country": "Europe",
         "city": "London",
         "lat": 51.441912677765444,
@@ -3036,33 +3064,5 @@
         "fatalities": "0",
         "link": "https://www.france24.com/en/europe/20260821-back-to-back-russian-drone-strikes-kill-14-people-in-ukraine-shopping-centre",
         "critical": true
-    },
-    {
-        "country": "Israel",
-        "city": "Gaza",
-        "lat": 31.563946554252748,
-        "lon": 34.473024524157225,
-        "date": "2026-08-21 20:50:17",
-        "type": "Clashes",
-        "severity": "middle",
-        "title": "Turkey seeks Interpol arrest warrant for Netanyahu over Gaza flotilla detention",
-        "description": "Turkey said Friday it is seeking an international arrest warrant from Interpol for Israeli Prime Minister Benjamin Netanyahu as part of a domestic criminal case over Israel's interception and detention of dozens of activists attempting to deliver humanitarian aid to the besieged Gaza Strip in May. In response, Netanyahu's office called Turkish President Recep Tayyip Erdogan an \"anti-Semitic dictator\" and vowed to \"act forcefully against Turkey's ",
-        "fatalities": "0",
-        "link": "https://www.france24.com/en/middle-east/20260821-turkey-seeks-international-arrest-warrant-against-israel-s-netanyahu-over-gaza-flotilla-detention",
-        "critical": false
-    },
-    {
-        "country": "Israel",
-        "city": "Tel Aviv",
-        "lat": 32.04519615220613,
-        "lon": 34.71707825785735,
-        "date": "2026-08-21 20:50:15",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "How Israel is expanding settlements in drive to reshape West Bank",
-        "description": "There has been a significant expansion of building and road construction on Palestinian land occupied by Israel in recent years.",
-        "fatalities": "0",
-        "link": "https://www.bbc.co.uk/news/articles/c2lq5g4dedpo?at_medium=RSS&at_campaign=rss",
-        "critical": false
     }
 ]
