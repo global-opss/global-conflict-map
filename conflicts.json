@@ -1,5 +1,33 @@
 [
     {
+        "country": "China",
+        "city": "Beijing",
+        "lat": 39.943088259668464,
+        "lon": 116.43762260506338,
+        "date": "2026-08-23 19:34:04",
+        "type": "Clashes",
+        "severity": "middle",
+        "title": "Zhou Bo: China’s alternative to Western power",
+        "description": "Senior Colonel Zhou Bo and Sreenivasan Jain discuss Chinas vision of a fairer, multipolar world and work towards that.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/video/the-india-report/2026/8/23/zhou-bo-chinas-alternative-to-western-power?traffic_source=rss",
+        "critical": false
+    },
+    {
+        "country": "Israel",
+        "city": "Tel Aviv",
+        "lat": 32.066749283177316,
+        "lon": 34.84553589145635,
+        "date": "2026-08-23 19:34:04",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Palestinian teen killed in Israeli raid buried in Occupied West Bank",
+        "description": "Hundreds attended the funeral of 14-year-old Islam Ahmad Maher Ajouri, who was killed by Israeli gunfire during a raid.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/video/newsfeed/2026/8/23/23-08-sv-nablus-killing-teen-ps-fm?traffic_source=rss",
+        "critical": false
+    },
+    {
         "country": "Africa",
         "city": "Sudan",
         "lat": 12.914329536384798,
@@ -3035,34 +3063,6 @@
         "description": "UK, Australia and Canada call Israel’s decision not to investigate deadly 2024 strike on a Gaza aid convoy shameful.",
         "fatalities": "0",
         "link": "https://www.aljazeera.com/news/2026/8/21/western-allies-slam-israel-for-ending-world-central-kitchen-strike-probe?traffic_source=rss",
-        "critical": false
-    },
-    {
-        "country": "Israel",
-        "city": "Gaza",
-        "lat": 31.465431789561052,
-        "lon": 34.475505311638386,
-        "date": "2026-08-21 19:53:39",
-        "type": "Clashes",
-        "severity": "middle",
-        "title": "Turkey seeks Interpol arrest warrant against Netanyahu over Gaza flotilla detention",
-        "description": "Turkey said Friday it is seeking an Interpol international arrest notice for Israeli Prime Minister Benjamin Netanyahu as part of a domestic criminal case over Israel's interception and detention of dozens of activists attempting to deliver humanitarian aid to the besieged Gaza Strip in May.",
-        "fatalities": "0",
-        "link": "https://www.france24.com/en/middle-east/20260821-turkey-seeks-international-arrest-warrant-against-israel-s-netanyahu-over-gaza-flotilla-detention",
-        "critical": false
-    },
-    {
-        "country": "Africa",
-        "city": "Libya",
-        "lat": 26.281439294781467,
-        "lon": 17.223488708711223,
-        "date": "2026-08-21 19:53:37",
-        "type": "Clashes",
-        "severity": "middle",
-        "title": "Libya rivals test a new path towards unity, 15 years after Gadaffi downfall",
-        "description": "Fifteen years since Tripoli fell, Libyan parties are finally working towards unity.",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/economy/2026/8/21/libya-rivals-test-a-new-path-towards-unity-15-years-after-gadaffi-overthrow?traffic_source=rss",
         "critical": false
     }
 ]
