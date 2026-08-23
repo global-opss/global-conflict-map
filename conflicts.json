@@ -2,6 +2,20 @@
     {
         "country": "USA",
         "city": "New york",
+        "lat": 40.68541400949165,
+        "lon": -73.98508611434684,
+        "date": "2026-08-23 23:04:31",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Стали известны три условия, без которых миру грозит продовольственный кризис",
+        "description": "Мировая продовольственная система зависит от трех условий - бесперебойной торговли, доступной энергии и стабильного климата. Однако сейчас эти три фактора оказались под угрозой, пишет американская газета The New York Times.",
+        "fatalities": "0",
+        "link": "https://rg.ru/2026/08/24/stali-izvestny-tri-usloviia-bez-kotoryh-miru-grozit-prodovolstvennyj-krizis.html",
+        "critical": false
+    },
+    {
+        "country": "USA",
+        "city": "New york",
         "lat": 40.68454681826332,
         "lon": -74.04758098079516,
         "date": "2026-08-23 22:48:17",
@@ -3049,20 +3063,6 @@
         "description": "Omani and Iranian foreign ministers hold a call as Washington prepares economic sanctions.",
         "fatalities": "0",
         "link": "https://www.aljazeera.com/news/2026/8/22/iranian-president-says-time-to-end-war-with-us-from-position-of?traffic_source=rss",
-        "critical": false
-    },
-    {
-        "country": "Israel",
-        "city": "Tel Aviv",
-        "lat": 32.113169599782395,
-        "lon": 34.71775616300556,
-        "date": "2026-08-22 01:21:47",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "California lawmaker overcomes pro-Israel spending to win special election",
-        "description": "Victory for state Senator Aisha Wahab marks the latest example of a progressive overcoming millions in outside spending.",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/news/2026/8/22/california-lawmaker-overcomes-pro-israel-spending-to-win-special-election?traffic_source=rss",
         "critical": false
     }
 ]
