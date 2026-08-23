@@ -1,5 +1,47 @@
 [
     {
+        "country": "Africa",
+        "city": "Mali",
+        "lat": 12.514015088407096,
+        "lon": -8.068918501268309,
+        "date": "2026-08-23 05:41:35",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Крупнее AIM-120: представлена перспективная ракета AIM-424 Malice для ВМС США",
+        "description": "Ракета способна размещаться как на подвеске, так и во внутреннем отсеке истребителя",
+        "fatalities": "0",
+        "link": "https://topwar.ru/288494-krupnee-aim-120-predstavlena-perspektivnaja-raketa-aim-424-malice-dlja-vms-ssha.html",
+        "critical": false
+    },
+    {
+        "country": "Ukraine",
+        "city": "Kyiv",
+        "lat": 50.38725307169285,
+        "lon": 30.554316456095865,
+        "date": "2026-08-23 05:41:21",
+        "type": "Naval",
+        "severity": "normal",
+        "title": "Iran says Ukrainian attack on vessel in Caspian Sea killed sailor",
+        "description": "Tehran described the attack on its vessel as an act of aggression while accusing Kyiv of seeking to expand the war in Ukraine.",
+        "fatalities": "0",
+        "link": "https://www.militarytimes.com/global/mideast-africa/2026/07/26/iran-says-ukrainian-attack-on-vessel-in-caspian-sea-killed-sailor/",
+        "critical": false
+    },
+    {
+        "country": "Israel",
+        "city": "Gaza",
+        "lat": 31.484200714625953,
+        "lon": 34.488146442097836,
+        "date": "2026-08-23 05:41:14",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Ex-Colombian president: Restoring Israeli ties applauds Gaza genocide",
+        "description": "Ex-Colombian President, Gustavo Petro, says restoring ties with Israel amounts to applauding the Gaza genocide.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/video/newsfeed/2026/8/23/ex-colombian-president-restoring-israeli-ties-applauds-gaza-genocide?traffic_source=rss",
+        "critical": false
+    },
+    {
         "country": "Iran",
         "city": "Tehran",
         "lat": 35.68140023213597,
@@ -3021,48 +3063,6 @@
         "description": "Israeli settlers attack six times a day in the occupied West Bank. AJLabs looks at how Palestinian land is taken.",
         "fatalities": "0",
         "link": "https://www.aljazeera.com/video/by-the-numbers-3/2026/8/21/who-does-the-law-serve-in-the-occupied-west-bank?traffic_source=rss",
-        "critical": true
-    },
-    {
-        "country": "USA",
-        "city": "Alaska",
-        "lat": 64.3822305937333,
-        "lon": -149.64213822412609,
-        "date": "2026-08-21 11:25:46",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Charter plane crash near Alaskan military site kills 8",
-        "description": "Rescuers who landed near the crash site confirmed there were no survivors.",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/news/2026/8/21/charter-plane-crash-near-alaskan-military-site-kills-8?traffic_source=rss",
-        "critical": false
-    },
-    {
-        "country": "Russia",
-        "city": "Moscow",
-        "lat": 55.755268261370084,
-        "lon": 37.63334427329284,
-        "date": "2026-08-21 11:25:46",
-        "type": "Clashes",
-        "severity": "middle",
-        "title": "Russia says ready for ‘new ideas’ on Ukraine war that match Putin’s goals",
-        "description": "Deputy Foreign Minister Sergey Ryabkov suggests Moscow is eager for the US to revive its support for Russian agenda.",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/news/2026/8/21/russia-ready-for-new-ideas-on-ukraine-war-that-match-putins-goals?traffic_source=rss",
-        "critical": false
-    },
-    {
-        "country": "Russia",
-        "city": "Moscow",
-        "lat": 55.788265489642626,
-        "lon": 37.671884349053784,
-        "date": "2026-08-21 10:51:57",
-        "type": "Airstrike",
-        "severity": "critical",
-        "title": "Syrian foreign minister to Axios: Israeli bombing of airbase was unjustified",
-        "description": "Syrian Foreign Minister Asaad Al-Shaibani told Axios Wednesday that he made clear to Israel his government wasn't working with Turkey to amass a military presence at a Syrian airbase — but Israel went ahead and attacked the site anyway.Why it matters: The early Tuesday morning strike on the Abu al-Duhur airbase has heightened tensions among three close U.S. partners in the region, just as the Trump administration is trying to prevent further esca",
-        "fatalities": "0",
-        "link": "https://www.axios.com/2026/08/19/syria-foreign-minister-israel-bombing-airbase",
         "critical": true
     }
 ]
