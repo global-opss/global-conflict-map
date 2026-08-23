@@ -56,20 +56,6 @@
         "critical": false
     },
     {
-        "country": "China",
-        "city": "Beijing",
-        "lat": 39.8694874896676,
-        "lon": 116.33869136420552,
-        "date": "2026-08-23 09:53:23",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Robots compete in boxing, football and sprinting at World Humanoid Games",
-        "description": "The second-edition of the five-day competition kicked off in Beijing, China, on Saturday.",
-        "fatalities": "0",
-        "link": "https://www.bbc.co.uk/news/videos/c7vgvj6e1emo?at_medium=RSS&at_campaign=rss",
-        "critical": false
-    },
-    {
         "country": "USA",
         "city": "Washington",
         "lat": 38.90751852522491,
@@ -81,6 +67,20 @@
         "description": "BBC Verify tracks the changes in design, spec, manufacture and release date of the T1 phone from Trump Mobile.",
         "fatalities": "0",
         "link": "https://www.bbc.co.uk/news/videos/c20eq9ywplqo?at_medium=RSS&at_campaign=rss",
+        "critical": false
+    },
+    {
+        "country": "China",
+        "city": "Beijing",
+        "lat": 39.8694874896676,
+        "lon": 116.33869136420552,
+        "date": "2026-08-23 09:53:23",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Robots compete in boxing, football and sprinting at World Humanoid Games",
+        "description": "The second-edition of the five-day competition kicked off in Beijing, China, on Saturday.",
+        "fatalities": "0",
+        "link": "https://www.bbc.co.uk/news/videos/c7vgvj6e1emo?at_medium=RSS&at_campaign=rss",
         "critical": false
     },
     {
@@ -2240,20 +2240,6 @@
         "critical": false
     },
     {
-        "country": "Asia",
-        "city": "Pakistan",
-        "lat": 31.559803110593656,
-        "lon": 74.35599502987846,
-        "date": "2026-08-21 19:34:06",
-        "type": "Clashes",
-        "severity": "middle",
-        "title": "Final election phase begins in Pakistan-administered Kashmir despite banned group’s boycott call",
-        "description": "MUZAFFARABAD, Pakistan: Voters went to the polls Monday in the final phase of elections for the legislative assembly in Pakistan-administered Kashmir, following weeks of violent protests and clashes with security forces that overshadowed campaigning in the disputed Himalayan region, officials said.\n\n\tMen and women began lining up early at polling stations in Poonch district in the disputed Himalayan region, where four assembly seats were being co",
-        "fatalities": "0",
-        "link": "https://www.arabnews.com/node/2654152/world",
-        "critical": false
-    },
-    {
         "country": "Africa",
         "city": "Libya",
         "lat": 26.27345629795102,
@@ -2265,6 +2251,20 @@
         "description": "TRIPOLI: A fire broke out on Monday ​in a diesel tank at Libya’s Zawiya refinery days after the facility was hit by drone.\n\n\tThe circumstances of Monday's fire remained unknown, Brega Petroleum Marketing Company said in a statement.\n\tBrega is owned by state oil firm National Oil Corporation (NOC) and is in charge of ‌fuel supplies.\n\tZawiya refinery is the ‌largest in the ​country ‌while Ras ​Lanuf is out ⁠of operation and is located around 40 kil",
         "fatalities": "0",
         "link": "https://www.arabnews.com/node/2654151/middle-east",
+        "critical": false
+    },
+    {
+        "country": "Asia",
+        "city": "Pakistan",
+        "lat": 31.559803110593656,
+        "lon": 74.35599502987846,
+        "date": "2026-08-21 19:34:06",
+        "type": "Clashes",
+        "severity": "middle",
+        "title": "Final election phase begins in Pakistan-administered Kashmir despite banned group’s boycott call",
+        "description": "MUZAFFARABAD, Pakistan: Voters went to the polls Monday in the final phase of elections for the legislative assembly in Pakistan-administered Kashmir, following weeks of violent protests and clashes with security forces that overshadowed campaigning in the disputed Himalayan region, officials said.\n\n\tMen and women began lining up early at polling stations in Poonch district in the disputed Himalayan region, where four assembly seats were being co",
+        "fatalities": "0",
+        "link": "https://www.arabnews.com/node/2654152/world",
         "critical": false
     },
     {
