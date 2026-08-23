@@ -1,5 +1,19 @@
 [
     {
+        "country": "Europe",
+        "city": "Brussels",
+        "lat": 50.82851156746974,
+        "lon": 4.346645855152121,
+        "date": "2026-08-23 04:20:22",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Four Years Ago, a Crypto Boss Went Missing. Now His Successor Has.",
+        "description": "The mysterious collapse of a European cryptocurrency exchange helps to explain why the industry hasn’t shaken off its reputation as a magnet for criminals.",
+        "fatalities": "0",
+        "link": "https://www.nytimes.com/2026/08/23/world/europe/poland-estonia-cryptocurrency.html",
+        "critical": false
+    },
+    {
         "country": "Ukraine",
         "city": "Kyiv",
         "lat": 50.46821770394958,
@@ -3049,20 +3063,6 @@
         "description": "Tehran described the attack on its vessel as an act of aggression while accusing Kyiv of seeking to expand the war in Ukraine.",
         "fatalities": "0",
         "link": "https://www.militarytimes.com/global/mideast-africa/2026/07/26/iran-says-ukrainian-attack-on-vessel-in-caspian-sea-killed-sailor/",
-        "critical": false
-    },
-    {
-        "country": "Israel",
-        "city": "Jerusalem",
-        "lat": 31.76804686902482,
-        "lon": 35.24778715752966,
-        "date": "2026-08-21 10:51:51",
-        "type": "Clashes",
-        "severity": "middle",
-        "title": "France, Germany, UK and Italy condemn Israel's 'E1' West Bank plan",
-        "description": "France, Germany, ​Britain and Italy condemned on ​Thursday plans by Israel to open up construction tenders for a ​residential ‌property project ⁠called 'E1' in the occupied West Bank. Hundreds of ​thousands of Israelis have settled among millions of Palestinians in land ​captured by Israel in ​a 1967 war. Nearly ​all countries and a range of ​UN bodies consider that such settlements violate international law, although Israel disputes this, citing",
-        "fatalities": "0",
-        "link": "https://www.france24.com/en/video/20260821-france-germany-uk-and-italy-condemn-israel-s-e1-west-bank-plan",
         "critical": false
     }
 ]
