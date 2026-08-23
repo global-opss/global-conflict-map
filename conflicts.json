@@ -2,6 +2,20 @@
     {
         "country": "USA",
         "city": "New york",
+        "lat": 40.737329047717246,
+        "lon": -74.00500289040606,
+        "date": "2026-08-23 23:33:15",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Trump says rejecting data centers is \"a mistake\"",
+        "description": "President Trump defended the expansion of data centers in an interview with his former fixer, Michael Cohen, that aired in full on Sunday.Why it matters: Trump's support comes as data centers face growing backlash in both red and blue states.What he's saying: Trump told Cohen during their interview that the U.S. was leading China in AI \"by a lot\" and that data centers were not taking power from the grid.\"They're making their own power plants. The",
+        "fatalities": "0",
+        "link": "https://www.axios.com/2026/08/23/trump-data-centers-michael-cohen-interview",
+        "critical": false
+    },
+    {
+        "country": "USA",
+        "city": "New york",
         "lat": 40.68541400949165,
         "lon": -73.98508611434684,
         "date": "2026-08-23 23:04:31",
@@ -3049,20 +3063,6 @@
         "description": "At least 130 people, including 23 children, were also injured when the shopping centre was hit, according to the regional head.",
         "fatalities": "0",
         "link": "https://www.bbc.co.uk/news/articles/c39egw7nmk2o?at_medium=RSS&at_campaign=rss",
-        "critical": false
-    },
-    {
-        "country": "USA",
-        "city": "Washington",
-        "lat": 38.921093327808066,
-        "lon": -76.9979162817159,
-        "date": "2026-08-22 01:21:47",
-        "type": "Clashes",
-        "severity": "middle",
-        "title": "Iranian president says time to end war with US from ‘position of strength’",
-        "description": "Omani and Iranian foreign ministers hold a call as Washington prepares economic sanctions.",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/news/2026/8/22/iranian-president-says-time-to-end-war-with-us-from-position-of?traffic_source=rss",
         "critical": false
     }
 ]
