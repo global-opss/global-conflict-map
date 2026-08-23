@@ -1,6 +1,20 @@
 [
     {
         "country": "USA",
+        "city": "New york",
+        "lat": 40.67685695700092,
+        "lon": -74.02536020735758,
+        "date": "2026-08-23 21:34:49",
+        "type": "Explosion",
+        "severity": "middle",
+        "title": "2028 Dems dodge on Bernie's push to pause AI development",
+        "description": "Democratic presidential hopefuls are scrambling to seize on the growing public backlash against AI. But none will go as far as Bernie Sanders and his recent call to halt the technology's development.Axios asked nearly 20 Democrats who are seen as potential White House contenders whether they support Sanders' call for AI CEOs to \"stop building machines that humans cannot control.\" Only one directly answered the question.Why it matters: The politic",
+        "fatalities": "0",
+        "link": "https://www.axios.com/2026/08/23/2028-democrats-ai-bernie-sanders",
+        "critical": false
+    },
+    {
+        "country": "USA",
         "city": "Pentagon",
         "lat": 38.87239014017869,
         "lon": -77.01387611639156,
@@ -3050,19 +3064,5 @@
         "fatalities": "0",
         "link": "https://www.axios.com/2026/08/21/florida-democrats-angie-nixon-nikki-fried-socialism",
         "critical": true
-    },
-    {
-        "country": "Asia",
-        "city": "Host",
-        "lat": 33.363891112002776,
-        "lon": 69.9216715745325,
-        "date": "2026-08-21 21:11:02",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "The job application got faster. The job search got worse.",
-        "description": "Job hunting in 2026 can mean chatting with a robot, getting rejected by AI, encountering ghost jobs and competing with a flood of applicants. Why it matters: This isn't just candidates venting on LinkedIn or TikTok. The hiring process is increasingly taking longer and application apathy could be eroding trust in America's job market.What they're saying: \"I think burnout is absolutely happening,\" Gorick Ng, a Harvard career advisor and UC Berkeley",
-        "fatalities": "0",
-        "link": "https://www.axios.com/2026/08/21/job-seekers-ai-hiring-ghost-jobs-trust",
-        "critical": false
     }
 ]
