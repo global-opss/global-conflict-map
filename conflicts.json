@@ -1,5 +1,19 @@
 [
     {
+        "country": "USA",
+        "city": "Pentagon",
+        "lat": 38.87239014017869,
+        "lon": -77.01387611639156,
+        "date": "2026-08-23 21:08:20",
+        "type": "Naval",
+        "severity": "normal",
+        "title": "Trump's higher ed shakeup starts a new semester",
+        "description": "Students are returning to campus as the Trump administration continues to reshape American academia.The big picture: The administration has leveraged federal education funding and threatened litigation against universities deemed misaligned with policy priorities — moves critics say subject academia to political whims.State of play: The all-of-government squeeze on higher education continues a 19-month battle that has brought scrutiny of internat",
+        "fatalities": "0",
+        "link": "https://www.axios.com/2026/08/21/trump-higher-ed-shakeup-colleges-fall-semester",
+        "critical": false
+    },
+    {
         "country": "Israel",
         "city": "Tel Aviv",
         "lat": 32.05645789496556,
@@ -84,20 +98,6 @@
         "critical": false
     },
     {
-        "country": "Asia",
-        "city": "Pakistan",
-        "lat": 31.467070292992872,
-        "lon": 74.39903497308813,
-        "date": "2026-08-23 19:52:52",
-        "type": "Clashes",
-        "severity": "middle",
-        "title": "Final election phase begins in Pakistan-administered Kashmir despite banned group’s boycott call",
-        "description": "MUZAFFARABAD, Pakistan: Voters went to the polls Monday in the final phase of elections for the legislative assembly in Pakistan-administered Kashmir, following weeks of violent protests and clashes with security forces that overshadowed campaigning in the disputed Himalayan region, officials said.\n\n\tMen and women began lining up early at polling stations in Poonch district in the disputed Himalayan region, where four assembly seats were being co",
-        "fatalities": "0",
-        "link": "https://www.arabnews.com/node/2654152/world",
-        "critical": false
-    },
-    {
         "country": "Africa",
         "city": "Libya",
         "lat": 26.290912031594946,
@@ -109,6 +109,20 @@
         "description": "TRIPOLI: A fire broke out on Monday ​in a diesel tank at Libya’s Zawiya refinery days after the facility was hit by drone.\n\n\tThe circumstances of Monday's fire remained unknown, Brega Petroleum Marketing Company said in a statement.\n\tBrega is owned by state oil firm National Oil Corporation (NOC) and is in charge of ‌fuel supplies.\n\tZawiya refinery is the ‌largest in the ​country ‌while Ras ​Lanuf is out ⁠of operation and is located around 40 kil",
         "fatalities": "0",
         "link": "https://www.arabnews.com/node/2654151/middle-east",
+        "critical": false
+    },
+    {
+        "country": "Asia",
+        "city": "Pakistan",
+        "lat": 31.467070292992872,
+        "lon": 74.39903497308813,
+        "date": "2026-08-23 19:52:52",
+        "type": "Clashes",
+        "severity": "middle",
+        "title": "Final election phase begins in Pakistan-administered Kashmir despite banned group’s boycott call",
+        "description": "MUZAFFARABAD, Pakistan: Voters went to the polls Monday in the final phase of elections for the legislative assembly in Pakistan-administered Kashmir, following weeks of violent protests and clashes with security forces that overshadowed campaigning in the disputed Himalayan region, officials said.\n\n\tMen and women began lining up early at polling stations in Poonch district in the disputed Himalayan region, where four assembly seats were being co",
+        "fatalities": "0",
+        "link": "https://www.arabnews.com/node/2654152/world",
         "critical": false
     },
     {
@@ -3049,20 +3063,6 @@
         "description": "Job hunting in 2026 can mean chatting with a robot, getting rejected by AI, encountering ghost jobs and competing with a flood of applicants. Why it matters: This isn't just candidates venting on LinkedIn or TikTok. The hiring process is increasingly taking longer and application apathy could be eroding trust in America's job market.What they're saying: \"I think burnout is absolutely happening,\" Gorick Ng, a Harvard career advisor and UC Berkeley",
         "fatalities": "0",
         "link": "https://www.axios.com/2026/08/21/job-seekers-ai-hiring-ghost-jobs-trust",
-        "critical": false
-    },
-    {
-        "country": "Africa",
-        "city": "Somalia",
-        "lat": 5.127812315884065,
-        "lon": 46.232385215390586,
-        "date": "2026-08-21 21:10:57",
-        "type": "Clashes",
-        "severity": "middle",
-        "title": "Can a humanitarian disaster be averted in Somalia?",
-        "description": "The UN warns of another hunger crisis, with starvation threatening millions.",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/video/inside-story/2026/8/21/can-a-humanitarian-disaster-be-averted-in-somalia-2?traffic_source=rss",
         "critical": false
     }
 ]
