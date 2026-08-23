@@ -1,5 +1,33 @@
 [
     {
+        "country": "Middle East",
+        "city": "Red sea",
+        "lat": 27.1359786617928,
+        "lon": 33.85041309793316,
+        "date": "2026-08-23 13:49:55",
+        "type": "Naval",
+        "severity": "normal",
+        "title": "Houthis launch new drone wave across Yemen’s government-held areas",
+        "description": "AL-MUKALLA: At least two Yemeni government soldiers were killed in southern Yemen as the Houthis launched a new wave of drone attacks on government-controlled areas in Aden, Mocha and Shabwa.\n\n\tThe escalation came as the Yemeni army vowed on Monday to respond to Houthi drone and missile strikes on the Red Sea port city of Mocha that killed seven people and wounded 30 others.",
+        "fatalities": "0",
+        "link": "https://www.arabnews.com/node/2654127/middle-east",
+        "critical": false
+    },
+    {
+        "country": "Israel",
+        "city": "Gaza",
+        "lat": 31.462887323610374,
+        "lon": 34.41461174706623,
+        "date": "2026-08-23 13:49:36",
+        "type": "Clashes",
+        "severity": "middle",
+        "title": "Heavy Israeli air strike hits warehouse in central Gaza",
+        "description": "Heavy Israeli air strike hits warehouse in central Gaza",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/video/newsfeed/2026/8/23/heavy-israeli-air-strike-hits-warehouse-in-central-gaza?traffic_source=rss",
+        "critical": false
+    },
+    {
         "country": "USA",
         "city": "Alaska",
         "lat": 64.46748681410163,
@@ -3035,34 +3063,6 @@
         "description": "Joe Roots return as England captain results in a thumping win inside three days against Pakistan in first Test.",
         "fatalities": "0",
         "link": "https://www.aljazeera.com/sports/2026/8/21/england-thrash-pakistan-by-an-innings-and-103-runs-in-first-test?traffic_source=rss",
-        "critical": false
-    },
-    {
-        "country": "Israel",
-        "city": "Tel Aviv",
-        "lat": 32.01713662239739,
-        "lon": 34.74912328654638,
-        "date": "2026-08-21 16:48:18",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Israeli settlers set fire to heavy machinery at West Bank quarry",
-        "description": "Israeli settlers entered a stone quarry in Wadi Al-Rakheem near Hebron overnight and set fire to heavy machinery",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/video/newsfeed/2026/8/21/israeli-settlers-set-fire-to-heavy-machinery-at-west-bank-quarry?traffic_source=rss",
-        "critical": false
-    },
-    {
-        "country": "USA",
-        "city": "Washington",
-        "lat": 38.86294999912129,
-        "lon": -76.9762064304344,
-        "date": "2026-08-21 16:48:14",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Canada-U.S. Tariff Talks Continue as Trump’s Midnight Deadline Looms",
-        "description": "Canadian negotiators were in Washington to finalize a deal that would stave off new tariffs and improve the terms of existing ones, but Mark Carney faces a tough sell back home.",
-        "fatalities": "0",
-        "link": "https://www.nytimes.com/2026/08/21/world/canada/trump-carney-tariffs-trade-deal.html",
         "critical": false
     }
 ]
