@@ -1,5 +1,19 @@
 [
     {
+        "country": "Asia",
+        "city": "Tokyo",
+        "lat": 35.59467186336045,
+        "lon": 139.71444700649005,
+        "date": "2026-08-23 06:15:36",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Kazakhstan parliamentary elections begin: What’s at stake?",
+        "description": "The Central Asian country heads to the polls on August 23.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/news/2026/8/23/kazakhstan-parliamentary-elections-begin-whats-at-stake?traffic_source=rss",
+        "critical": false
+    },
+    {
         "country": "Africa",
         "city": "Mali",
         "lat": 12.514015088407096,
@@ -3050,19 +3064,5 @@
         "fatalities": "0",
         "link": "https://www.bbc.co.uk/news/articles/cj035jg256no?at_medium=RSS&at_campaign=rss",
         "critical": false
-    },
-    {
-        "country": "Israel",
-        "city": "Tel Aviv",
-        "lat": 32.10448567806927,
-        "lon": 34.720182038554206,
-        "date": "2026-08-21 11:25:46",
-        "type": "Airstrike",
-        "severity": "critical",
-        "title": "Who does the law serve in the occupied West Bank?",
-        "description": "Israeli settlers attack six times a day in the occupied West Bank. AJLabs looks at how Palestinian land is taken.",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/video/by-the-numbers-3/2026/8/21/who-does-the-law-serve-in-the-occupied-west-bank?traffic_source=rss",
-        "critical": true
     }
 ]
