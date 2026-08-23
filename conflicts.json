@@ -1,5 +1,33 @@
 [
     {
+        "country": "USA",
+        "city": "Washington",
+        "lat": 38.89807253393309,
+        "lon": -77.08786675127726,
+        "date": "2026-08-23 14:39:33",
+        "type": "Clashes",
+        "severity": "middle",
+        "title": "U.S. trade chief calls trying to change China's economy \"crazy\"",
+        "description": "As Europe grapples with its own China shock, the U.S. has largely given up on trying to persuade Beijing to change the export-heavy economic model that's helping fuel it.It's a sharp break from years of U.S. economic diplomacy — including most recently during the Biden administration. What they're saying: \"We did that for 25 years with our best people, and everything got worse,\" U.S. Trade Representative Jamieson Greer told Axios in an interview ",
+        "fatalities": "0",
+        "link": "https://www.axios.com/2026/08/21/greer-china-trade-economy",
+        "critical": false
+    },
+    {
+        "country": "China",
+        "city": "Beijing",
+        "lat": 39.969510141792604,
+        "lon": 116.45418864933103,
+        "date": "2026-08-23 14:39:15",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "China abruptly delays ambitious Chang’e-7 mission to find water ice on moon",
+        "description": "China has postponed its Chang’e-7 lunar mission, which was due to launch in the coming days and search for water ice near the Moon’s south pole, a government agency said Saturday. Officials said the mission did not meet launch conditions, without providing further details.",
+        "fatalities": "0",
+        "link": "https://www.france24.com/en/asia-pacific/20260823-china-abruptly-delays-ambitious-chang-e-7-mission-to-find-water-ice-on-moon",
+        "critical": false
+    },
+    {
         "country": "Middle East",
         "city": "Damascus",
         "lat": 33.455331800609315,
@@ -3035,34 +3063,6 @@
         "description": "Газета The New York Times проиграла дело о клевете впервые за 50 лет — суд присяжных обязал издание выплатить $9,25 млн компенсации экс-игроку баскетбольной команды Университета Алабамы Каю Спирсу. Читать далее",
         "fatalities": "0",
         "link": "https://russian.rt.com/world/news/1672576-gazeta-the-new-york-times?utm_source=rss&utm_medium=rss&utm_campaign=RSS",
-        "critical": false
-    },
-    {
-        "country": "Israel",
-        "city": "Jerusalem",
-        "lat": 31.79779895252947,
-        "lon": 35.29217231179158,
-        "date": "2026-08-21 16:48:34",
-        "type": "Clashes",
-        "severity": "middle",
-        "title": "Trump’s Gaza plan hinges on Hamas disarmament, Israeli withdrawals",
-        "description": "JERUSALEM: Donald Trump’s latest plan to end the Gaza war calls on Hamas to ‌lay down its arms as Israel withdraws from the territory, terms endorsed by the militants but rejected by Israel, which says it will not pull back until the group’s disarmament is complete.",
-        "fatalities": "0",
-        "link": "https://www.arabnews.com/node/2654156/middle-east",
-        "critical": false
-    },
-    {
-        "country": "Africa",
-        "city": "Libya",
-        "lat": 26.377723423709877,
-        "lon": 17.17989394448326,
-        "date": "2026-08-21 16:48:34",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Libya’s central bank chief resigns",
-        "description": "TRIPOLI: The governor of Libya’s central bank, Naji Issa, has resigned without giving a reason, several reports said on Monday.\n\tPrivate TV channel Al-Ahrar said Issa had confirmed his resignation.\n\tIssa and vice-governor Miree Al-Barasee were appointed by Libya’s parliament, which is based in the east of the divided country, in September 2024.\n\tHis appointment was part of a deal backed by the United Nations that ended a standoff over Libya’s oil",
-        "fatalities": "0",
-        "link": "https://www.arabnews.com/node/2654155/middle-east",
         "critical": false
     }
 ]
