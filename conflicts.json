@@ -1,5 +1,33 @@
 [
     {
+        "country": "Middle East",
+        "city": "Red sea",
+        "lat": 27.213474364692733,
+        "lon": 33.83610227122133,
+        "date": "2026-08-24 22:10:49",
+        "type": "Naval",
+        "severity": "normal",
+        "title": "Houthis launch new drone wave across Yemen’s government-held areas",
+        "description": "AL-MUKALLA: At least two Yemeni government soldiers were killed in southern Yemen as the Houthis launched a new wave of drone attacks on government-controlled areas in Aden, Mocha and Shabwa.\n\n\tThe escalation came as the Yemeni army vowed on Monday to respond to Houthi drone and missile strikes on the Red Sea port city of Mocha that killed seven people and wounded 30 others.",
+        "fatalities": "0",
+        "link": "https://www.arabnews.com/node/2654127/middle-east",
+        "critical": false
+    },
+    {
+        "country": "USA",
+        "city": "Alaska",
+        "lat": 64.50888508839343,
+        "lon": -149.72754575716746,
+        "date": "2026-08-24 22:10:47",
+        "type": "Airstrike",
+        "severity": "critical",
+        "title": "Dems turning more GOP Senate strongholds into midterm battlegrounds",
+        "description": "Ten weeks from Election Day, the Senate battlefield is sprawling, scattered — and stretching deep into Trump country.Why it matters: In a normal year, Republicans wouldn't think twice about Alaska, Kansas, Iowa, Mississippi, Nebraska or Texas. This isn't a normal year.Republicans expect all six states to revert to their MAGA mean. But they're not betting on it.The fact that they're still in play has turned the midterms into a game of chess, givin",
+        "fatalities": "0",
+        "link": "https://www.axios.com/2026/08/23/senate-ohio-alaska-iowa-texas-kansas-mississippi-nebraska",
+        "critical": true
+    },
+    {
         "country": "Iran",
         "city": "Tehran",
         "lat": 35.645678314148014,
@@ -3036,33 +3064,5 @@
         "fatalities": "0",
         "link": "https://www.arabnews.com/node/2654145/middle-east",
         "critical": true
-    },
-    {
-        "country": "USA",
-        "city": "Washington",
-        "lat": 38.94108590258023,
-        "lon": -77.07429535170297,
-        "date": "2026-08-23 14:10:32",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Historic trails, dramatic peaks position Taif as Saudi Arabia’s emerging hiking capital",
-        "description": "MAKKAH: Cradled among dramatic mountain ridges, lush valleys and cool highland breezes, Taif is rapidly cementing its reputation as one of Saudi Arabia’s premier outdoor destinations — with mountain hiking leading its eco-tourism surge.\n\n\tDriven by growing domestic interest in outdoor recreation under Vision 2030, the city’s historic trails and rehabilitated wadis are drawing thousands of adventure seekers and nature enthusiasts from across the K",
-        "fatalities": "0",
-        "link": "https://www.arabnews.com/node/2654143/saudi-arabia",
-        "critical": false
-    },
-    {
-        "country": "Middle East",
-        "city": "Damascus",
-        "lat": 33.581483851135694,
-        "lon": 36.22309555018684,
-        "date": "2026-08-23 14:10:32",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Syria opens international forum on education, innovation and employment in Damascus",
-        "description": "DAMASCUS: The International Forum on Education and Innovation opened in Damascus on Monday, bringing together officials and experts to discuss the future of education, innovation and workforce development.\n\n\tThe forum is organized by the Economic Group for Promoting International Investments, in cooperation with the Syrian Computer Society, and is attended by Higher Education and Scientific Research Minister Marwan Al-Halabi and Education Ministe",
-        "fatalities": "0",
-        "link": "https://www.arabnews.com/node/2654141/middle-east",
-        "critical": false
     }
 ]
