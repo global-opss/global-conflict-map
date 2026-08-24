@@ -1,5 +1,47 @@
 [
     {
+        "country": "Iran",
+        "city": "Tehran",
+        "lat": 35.64820658691664,
+        "lon": 51.33591981294834,
+        "date": "2026-08-24 20:02:29",
+        "type": "Naval",
+        "severity": "normal",
+        "title": "US unveils expanded sanctions to 'sever every economic lifeline' sustaining Iran",
+        "description": "The US on Monday announced an expansion of secondary sanctions it hopes will \"sever every economic lifeline\" ​that sustains ‌Iran, Treasury Secretary Scott Bessent said at a press conference. The expanded sanctions target Iran's digital assets, technology, gold, aviation and shipping sectors.",
+        "fatalities": "0",
+        "link": "https://www.france24.com/en/middle-east/20260824-us-unveils-fresh-sanctions-to-sever-every-economic-lifeline-sustaining-iran",
+        "critical": false
+    },
+    {
+        "country": "Iran",
+        "city": "Tehran",
+        "lat": 35.62502711677796,
+        "lon": 51.43608746089663,
+        "date": "2026-08-24 20:02:29",
+        "type": "Clashes",
+        "severity": "middle",
+        "title": "Mideast live: Iran predicts ‘another defeat’ for US after Washington slaps new sanctions",
+        "description": "Iranian Economy Minister Ali Madanizadeh on Monday warned of \"another defeat\" for the US after Treasury Secretary Scott Bessent announced expanded sanctions against Tehran. Madanizadeh said Iran had a \"two-year plan\" to counter the new sanctions and dismissed Bessent's stated efforts to sever \"every economic lifeline\" sustaining Iran. Follow our liveblog for the latest updates.",
+        "fatalities": "0",
+        "link": "https://www.france24.com/en/middle-east/20260824-middle-east-live-iran-warns-of-a-harsh-response-to-anticipated-us-sanctions",
+        "critical": false
+    },
+    {
+        "country": "Middle East",
+        "city": "Yemen",
+        "lat": 14.559253807473963,
+        "lon": 49.14759588860188,
+        "date": "2026-08-24 20:02:22",
+        "type": "Naval",
+        "severity": "normal",
+        "title": "Yemen’s Houthis report attack on Saudi ship",
+        "description": "Saudi shipping company Bahri confirmed its vessel was struck, all crew members safe.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/news/2026/8/24/yemens-houthis-report-attack-on-saudi-ship?traffic_source=rss",
+        "critical": false
+    },
+    {
         "country": "USA",
         "city": "Washington",
         "lat": 38.94750474331435,
@@ -322,20 +364,6 @@
         "critical": false
     },
     {
-        "country": "Iran",
-        "city": "Tehran",
-        "lat": 35.713294945620866,
-        "lon": 51.35566126375094,
-        "date": "2026-08-24 17:13:59",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Mideast live: US unveils fresh sanctions to 'sever every economic lifeline' sustaining Iran",
-        "description": "The US on Monday expanded Iran-related secondary sanctions to five new sectors aimed at severing \"every economic lifeline\" sustaining Tehran, said US Treasury Secretary Scott Bessent. The expanded sanctions came as President Donald Trump on Monday said Iran is \"completely collapsing\" in a message posted on social media. Follow our liveblog for the latest updates.",
-        "fatalities": "0",
-        "link": "https://www.france24.com/en/middle-east/20260824-middle-east-live-iran-warns-of-a-harsh-response-to-anticipated-us-sanctions",
-        "critical": false
-    },
-    {
         "country": "Ukraine",
         "city": "Kyiv",
         "lat": 50.38622190869364,
@@ -362,6 +390,20 @@
         "fatalities": "0",
         "link": "https://www.militarytimes.com/flashpoints/2026/07/15/us-launches-new-round-of-strikes-against-iran/",
         "critical": true
+    },
+    {
+        "country": "Iran",
+        "city": "Tehran",
+        "lat": 35.713294945620866,
+        "lon": 51.35566126375094,
+        "date": "2026-08-24 17:13:59",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Mideast live: US unveils fresh sanctions to 'sever every economic lifeline' sustaining Iran",
+        "description": "The US on Monday expanded Iran-related secondary sanctions to five new sectors aimed at severing \"every economic lifeline\" sustaining Tehran, said US Treasury Secretary Scott Bessent. The expanded sanctions came as President Donald Trump on Monday said Iran is \"completely collapsing\" in a message posted on social media. Follow our liveblog for the latest updates.",
+        "fatalities": "0",
+        "link": "https://www.france24.com/en/middle-east/20260824-middle-east-live-iran-warns-of-a-harsh-response-to-anticipated-us-sanctions",
+        "critical": false
     },
     {
         "country": "USA",
@@ -3021,48 +3063,6 @@
         "description": "The displaced in Gaza are struggling to find safe, discreet and sanitary toilets amid health crisis.",
         "fatalities": "0",
         "link": "https://www.aljazeera.com/features/2026/8/23/israels-war-on-gaza-forces-palestinians-to-rely-on-stone-age-toilets?traffic_source=rss",
-        "critical": false
-    },
-    {
-        "country": "Europe",
-        "city": "Paris",
-        "lat": 48.86617852842223,
-        "lon": 2.2723247419326773,
-        "date": "2026-08-23 11:09:12",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Saudi Arabia asserts its dominance over Esports as MBS arrives in Paris for 'World Cup'",
-        "description": "Saudi crown prince Mohammed bin Salman arrives in France for a two-day visit this Sunday. President Emmanuel Macron is hosting the crown prince for the closing ceremony of the so-called Esports World Cup in Paris… which is organised and financed by the Saudis. Analysis by Andy Miah, chair of Sciences Communication & Future Media at the University of Salford.",
-        "fatalities": "0",
-        "link": "https://www.france24.com/en/saudi-arabia-asserts-its-dominance-over-esports-as-mbs-arrives-in-paris-for-world-cup",
-        "critical": false
-    },
-    {
-        "country": "China",
-        "city": "Beijing",
-        "lat": 39.91177348417662,
-        "lon": 116.36916819068472,
-        "date": "2026-08-23 11:09:10",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "China shows off record-breaking robots at strategic games",
-        "description": "The five-day World Humanoid Robot Games are underway in Beijing, featuring 51 events, 30 sport competitions and more than 2,000 humanoid robots. They have already revealed the technology can out-run and out-jump humans and that they are capable of sports such as table tennis and soccer. And the machines will also take on human tasks, such as connecting cables or handling packages. For China, the Games are another chance to showcase its competitiv",
-        "fatalities": "0",
-        "link": "https://www.france24.com/en/video/20260823-china-shows-off-record-breaking-robots-at-strategic-games-1",
-        "critical": false
-    },
-    {
-        "country": "Africa",
-        "city": "Khartoum",
-        "lat": 15.487618067632775,
-        "lon": 32.49186137986302,
-        "date": "2026-08-23 11:09:09",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "South Africa’s former boxing champion Tete shot dead outside home",
-        "description": "South Africas former boxing champion Tete shot dead outside home",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/video/newsfeed/2026/8/23/south-africas-former-boxing-champion-tete-shot-dead-outside-home?traffic_source=rss",
         "critical": false
     }
 ]
