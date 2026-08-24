@@ -1,5 +1,47 @@
 [
     {
+        "country": "China",
+        "city": "Beijing",
+        "lat": 39.95045783804035,
+        "lon": 116.38327532387927,
+        "date": "2026-08-24 04:27:29",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "U.S.-Canada trade talks collapse, massive tariffs to take effect",
+        "description": "Trade talks between the U.S. and Canada fell apart late Friday night, and both sides said steep new tariffs will go into effect.Why it matters: It's an unprecedented breakdown in relations with the second-largest U.S. trading partner.Catch up quick: Trump last month threatened to invoke Section 338 of the Tariff Act of 1930 to hit a slew of Canadian goods with additional 50% duties, including alcohol, hockey equipment, cement and dairy products.N",
+        "fatalities": "0",
+        "link": "https://www.axios.com/2026/08/22/us-canada-tariffs-trade-trump-carney",
+        "critical": false
+    },
+    {
+        "country": "Iran",
+        "city": "Tehran",
+        "lat": 35.639716281695165,
+        "lon": 51.39152363652251,
+        "date": "2026-08-24 04:27:12",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "‘We know this movie’: Iran mocks latest US sanctions",
+        "description": "Abbas Araghchi said new US sanctions, likely to be unveiled Monday, are like watching the same movie on repeat.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/video/newsfeed/2026/8/24/we-know-this-movie-iran-mocks-latest-us-sanctions?traffic_source=rss",
+        "critical": false
+    },
+    {
+        "country": "Israel",
+        "city": "Tel Aviv",
+        "lat": 32.10836596308249,
+        "lon": 34.767608078667024,
+        "date": "2026-08-24 04:27:12",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Syria, Israel hold US-mediated talks in Jordan to de-escalate tensions",
+        "description": "Syrias foreign minister meets Israeli officials to de-escalate tensions after Israeli strike near Turkish border.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/news/2026/8/24/syria-israel-hold-us-mediated-talks-in-jordan-to-de-escalate-tensions?traffic_source=rss",
+        "critical": false
+    },
+    {
         "country": "USA",
         "city": "New york",
         "lat": 40.66470334435819,
@@ -3022,47 +3064,5 @@
         "fatalities": "0",
         "link": "https://www.aljazeera.com/news/2026/8/22/young-want-to-leave-libyas-brain-drain-15-years-after-tripoli-fell?traffic_source=rss",
         "critical": false
-    },
-    {
-        "country": "Africa",
-        "city": "Somalia",
-        "lat": 5.209299144397177,
-        "lon": 46.20996335289369,
-        "date": "2026-08-22 07:41:39",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Somalia child hunger crisis deepens after aid cuts, UNICEF says",
-        "description": "The drought-stricken country has recorded a 32 percent jump in the number of children treated for severe malnutrition.",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/news/2026/8/22/somalia-child-hunger-crisis-deepens-after-aid-cuts-unicef-says?traffic_source=rss",
-        "critical": false
-    },
-    {
-        "country": "Ukraine",
-        "city": "Kyiv",
-        "lat": 50.43364281876809,
-        "lon": 30.58607241663085,
-        "date": "2026-08-22 07:03:29",
-        "type": "Airstrike",
-        "severity": "critical",
-        "title": "Search for survivors after 16 killed by Russian double-tap strike on Ukraine mall",
-        "description": "Nine people are still missing after the attack which left 130 injured, including a number of children.",
-        "fatalities": "0",
-        "link": "https://www.bbc.co.uk/news/articles/c39egw7nmk2o?at_medium=RSS&at_campaign=rss",
-        "critical": true
-    },
-    {
-        "country": "Ukraine",
-        "city": "Kyiv",
-        "lat": 50.49213677695137,
-        "lon": 30.501458222245603,
-        "date": "2026-08-22 06:13:47",
-        "type": "Airstrike",
-        "severity": "critical",
-        "title": "Russian strikes in Ukraine kill at least two people, injure several others",
-        "description": "At least two people were reported dead early Saturday by local authorities, after Russian strikes on Ukraine. The strikes came after a series of Russian bombings killed at least 20 people in Ukraine on Friday, including 16 in a daytime drone attack on a busy shopping center in President Volodymyr Zelensky's hometown Kryvyi Rih.",
-        "fatalities": "0",
-        "link": "https://www.france24.com/en/europe/20260822-russian-strikes-in-ukraine-kill-at-least-two-people-injure-several-others",
-        "critical": true
     }
 ]
