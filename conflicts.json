@@ -1,5 +1,47 @@
 [
     {
+        "country": "Europe",
+        "city": "Paris",
+        "lat": 48.893394224720275,
+        "lon": 2.342871144143518,
+        "date": "2026-08-24 05:58:21",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Ligue 1: Ferran Torres saves Paris Saint-Germain against Rennes",
+        "description": "Paris Saint-Germain snatched a draw away at Rennes (2-2) on the opening day of Ligue 1. Ferran Torres, Paris’s new signing, came on after the break and saved the day for PSG.",
+        "fatalities": "0",
+        "link": "https://www.france24.com/en/tv-shows/sports/20260824-ligue-1-ferran-torres-saves-paris-saint-germain-against-rennes",
+        "critical": false
+    },
+    {
+        "country": "Europe",
+        "city": "Brussels",
+        "lat": 50.85589527590642,
+        "lon": 4.294594121542966,
+        "date": "2026-08-24 05:58:21",
+        "type": "Naval",
+        "severity": "normal",
+        "title": "UEFA chief Ceferin calls for Infantino to quit, but 'not interested' in replacing him",
+        "description": "Aleksander Ceferin, president of the European soccer confederation (UEFA) has announced that he will not run against Gianni Infantino but warned the under-fire FIFA president that he must either quit or face a leadership challenge in March. Infantino has been mired in a crisis since the failure of his controversial – and ultimately abandoned – plan to open FIFA to private investors.",
+        "fatalities": "0",
+        "link": "https://www.france24.com/en/sport/20260824-uefa-chief-ceferin-calls-for-infantino-to-quit-but-not-interested-in-replacing-him",
+        "critical": false
+    },
+    {
+        "country": "Ukraine",
+        "city": "Kyiv",
+        "lat": 50.426503957971214,
+        "lon": 30.529979306409597,
+        "date": "2026-08-24 05:58:21",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "French MEP Glucksmann seeks to unite the left in bid for French presidency",
+        "description": "Centre-left politician Raphaël Glucksmann on Sunday launched his bid for the French presidency, aiming to unite moderate left-wing voters and challenge far-left leader Jean-Luc Mélenchon ahead of France’s 2027 election. With Marine Le Pen leading first-round polls, Glucksmann is seeking to position himself as a pro-European, pro-Ukraine alternative to both the far right and hard left.",
+        "fatalities": "0",
+        "link": "https://www.france24.com/en/france/20260823-glucksmann-launches-french-presidential-bid-as-left-seeks-to-challenge-far-right",
+        "critical": false
+    },
+    {
         "country": "Russia",
         "city": "Moscow",
         "lat": 55.728099583830875,
@@ -3022,47 +3064,5 @@
         "fatalities": "0",
         "link": "https://www.france24.com/en/israeli-settlers-kill-palestinian-teen-in-the-occupied-west-bank",
         "critical": false
-    },
-    {
-        "country": "Ukraine",
-        "city": "Kyiv",
-        "lat": 50.41290078685751,
-        "lon": 30.580264193025712,
-        "date": "2026-08-22 09:51:17",
-        "type": "Airstrike",
-        "severity": "critical",
-        "title": "Russian strikes Zelensky's hometown in Ukraine, killing 15 people, wounding 130",
-        "description": "Russian drones struck a shopping centre in the city of Kryvyi Rih in central Ukraine this Friday. 14 people were killed. Authorities reported that children were among the scores of people injured in the strikes, which targeted President Volodymyr Zelensky’s hometown. Details by Nick Rushworth.",
-        "fatalities": "0",
-        "link": "https://www.france24.com/en/russian-strikes-zelensky-s-hometown-in-ukraine-killing-15-people-wounding-130",
-        "critical": true
-    },
-    {
-        "country": "Israel",
-        "city": "Tel Aviv",
-        "lat": 32.03392560273171,
-        "lon": 34.72930110834444,
-        "date": "2026-08-22 09:25:58",
-        "type": "Clashes",
-        "severity": "middle",
-        "title": "Lebanon’s Efforts to Tame Hezbollah Stall Amid Israel War",
-        "description": "President Joseph Aoun took office with a popular mandate to reassert control after the militant group dragged the country back into war with Israel.",
-        "fatalities": "0",
-        "link": "https://www.nytimes.com/2026/08/22/world/middleeast/lebanon-hezbollah-israel-diplomacy.html",
-        "critical": false
-    },
-    {
-        "country": "Ukraine",
-        "city": "Kyiv",
-        "lat": 50.43439707203273,
-        "lon": 30.569350843540143,
-        "date": "2026-08-22 08:51:12",
-        "type": "Airstrike",
-        "severity": "critical",
-        "title": "Russian strikes in Ukraine kill at least two a day after deadly drone attack on shopping centre",
-        "description": "At least two people were reported dead early Saturday by local authorities, after Russian strikes on Ukraine. The strikes came after a series of Russian bombings killed at least 20 people in Ukraine on Friday, including 16 in a daytime drone attack on a busy shopping centre in President Volodymyr Zelensky's hometown of Kryvyi Rih.",
-        "fatalities": "0",
-        "link": "https://www.france24.com/en/europe/20260822-russian-strikes-in-ukraine-kill-at-least-two-people-injure-several-others",
-        "critical": true
     }
 ]
