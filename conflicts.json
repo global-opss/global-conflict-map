@@ -1,5 +1,33 @@
 [
     {
+        "country": "Europe",
+        "city": "Finland",
+        "lat": 60.40709161117922,
+        "lon": 22.27852173095543,
+        "date": "2026-08-24 15:03:48",
+        "type": "Drone",
+        "severity": "middle",
+        "title": "Patria to join with Ukraine’s General Cherry to make drones in Finland",
+        "description": "Finnish defense company Patria is teaming up with Ukrainian drone maker General Cherry to jointly develop drones and start production in Finland.",
+        "fatalities": "0",
+        "link": "https://www.defensenews.com/global/europe/2026/08/24/patria-to-join-with-ukraines-general-cherry-to-make-drones-in-finland/",
+        "critical": false
+    },
+    {
+        "country": "Israel",
+        "city": "Gaza",
+        "lat": 31.538561928498854,
+        "lon": 34.48482838665695,
+        "date": "2026-08-24 15:03:38",
+        "type": "Clashes",
+        "severity": "middle",
+        "title": "Israel warns of 'forceful' response to kites flown from Gaza",
+        "description": "Hamas says the kites found in Israeli border communities in recent days were launched by children in Gaza.",
+        "fatalities": "0",
+        "link": "https://www.bbc.co.uk/news/articles/c5y58g2dp3xo?at_medium=RSS&at_campaign=rss",
+        "critical": false
+    },
+    {
         "country": "USA",
         "city": "Washington",
         "lat": 38.92855733030002,
@@ -3036,33 +3064,5 @@
         "fatalities": "0",
         "link": "https://www.arabnews.com/node/2647650/business-economy",
         "critical": false
-    },
-    {
-        "country": "Africa",
-        "city": "Khartoum",
-        "lat": 15.556607466490394,
-        "lon": 32.5641316459126,
-        "date": "2026-08-22 21:34:08",
-        "type": "Clashes",
-        "severity": "middle",
-        "title": "Open-air cinema brings movie nights back to Khartoum",
-        "description": "Families are returning to the movies at an open-air cinema in Khartoum, offering residents a brief escape from war.",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/video/newsfeed/2026/8/22/08-22-26-sudan-movie-night-sv?traffic_source=rss",
-        "critical": false
-    },
-    {
-        "country": "Israel",
-        "city": "Tel Aviv",
-        "lat": 32.14126339944965,
-        "lon": 34.72796230510417,
-        "date": "2026-08-22 21:34:08",
-        "type": "Airstrike",
-        "severity": "critical",
-        "title": "Israeli army and settlers injure several Palestinians across West Bank",
-        "description": "Palestinians face attacks and forced displacement as settlers expand control, backed by military raids and inaction.",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/news/2026/8/22/israeli-army-and-settlers-injure-several-palestinians-across-west-bank?traffic_source=rss",
-        "critical": true
     }
 ]
