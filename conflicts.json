@@ -1,5 +1,47 @@
 [
     {
+        "country": "Africa",
+        "city": "Sudan",
+        "lat": 12.929692812714624,
+        "lon": 30.164394264930525,
+        "date": "2026-08-25 21:11:46",
+        "type": "Airstrike",
+        "severity": "critical",
+        "title": "Mawlid cancelled in Tigray",
+        "description": "In tonight's programme, the United States on Monday called for beefed-up U.N. sanctions against the warring parties in Sudan. Also, Muslims celebrate Mawlid across Africa but festivities were cancelled in Tigray because of recent drone attacks. And finally in the Kenyan village of Cheporor, a recent discovery of gold sent thousands of amateur prospectors rushing to the area.",
+        "fatalities": "0",
+        "link": "https://www.france24.com/en/mawlid-cancelled-in-tigray",
+        "critical": true
+    },
+    {
+        "country": "Africa",
+        "city": "Niger",
+        "lat": 13.84226638850307,
+        "lon": 5.193975487236601,
+        "date": "2026-08-25 21:11:42",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Nigeria launches operation to rescue 600 kidnapped victims",
+        "description": "Nigerian President Bola Ahmed Tinubu announced a rescue operation on Tuesday for victims of 600-person mass abduction.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/video/newsfeed/2026/8/25/nigeria-launches-operation-to-rescue-600-kidnapped-victims?traffic_source=rss",
+        "critical": false
+    },
+    {
+        "country": "Iran",
+        "city": "Tehran",
+        "lat": 35.74780091032695,
+        "lon": 51.36727117902437,
+        "date": "2026-08-25 21:11:42",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "New US sanctions signal Trump desperation on Iran, experts say",
+        "description": "Economic escalation is unlikely to force the Iranian government to capitulate to US demands, according to experts.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/news/2026/8/25/new-us-sanctions-signal-trump-desperation-on-iran-experts-say?traffic_source=rss",
+        "critical": false
+    },
+    {
         "country": "Europe",
         "city": "Finland",
         "lat": 60.49227166190704,
@@ -3021,48 +3063,6 @@
         "description": "WASHINGTON: US President Donald Trump said Monday he would seek conflict compensation from Iran as part of any peace negotiations, citing attacks and atrocities stretching back decades allegedly backed or perpetrated by Tehran.\n\tIran is “asking for compensation for the damage done to them during the last five month Military Conflict... I am likewise demanding compensation from Iran, for all of the people that they have killed and gravely wounded ",
         "fatalities": "0",
         "link": "https://www.arabnews.com/node/2654132/middle-east",
-        "critical": true
-    },
-    {
-        "country": "Ukraine",
-        "city": "Kyiv",
-        "lat": 50.450746721560684,
-        "lon": 30.574482576346984,
-        "date": "2026-08-24 15:51:59",
-        "type": "Airstrike",
-        "severity": "critical",
-        "title": "Ukraine’s Zelensky says up to 50,000 North Korean troops to be deployed in Russia",
-        "description": "SEOUL: Ukrainian President Volodymyr Zelensky has ‌said up to 50,000 North Korean soldiers will be deployed in Russia to fight for Pyongyang’s ally, while calling on South Korea to provide support for ​its air defense.Zelensky said on X on Saturday that “a decision has been made for 30,000 to 50,000 North Koreans to be deployed on the territory of Russia,” a higher figure than his estimate of 30,000 in July. He did not elaborate on how he obtaine",
-        "fatalities": "0",
-        "link": "https://www.arabnews.com/node/2654131/world",
-        "critical": true
-    },
-    {
-        "country": "Iran",
-        "city": "Tehran",
-        "lat": 35.73399691984681,
-        "lon": 51.367829032445506,
-        "date": "2026-08-24 15:51:59",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Iran supreme leader names Guards general Abdollahi military chief",
-        "description": "TEHRAN: Iranian supreme leader Mojtaba Khamenei named Revolutionary Guards general Ali Abdollahi head of the country's armed forces on Monday, while also confirming a new commander of the Guards, putting his imprimatur on the country's military.\n\tAbdollahi had previously led the Khatam Al-Anbiya, Iran's inter-branch central military command tasked with coordinating operations.",
-        "fatalities": "0",
-        "link": "https://www.arabnews.com/node/2654129/middle-east",
-        "critical": false
-    },
-    {
-        "country": "Ukraine",
-        "city": "Kyiv",
-        "lat": 50.46412918806311,
-        "lon": 30.54993875179629,
-        "date": "2026-08-24 15:51:39",
-        "type": "Airstrike",
-        "severity": "critical",
-        "title": "UK to help Ukraine build Storm Shadow long-range missiles: Why it matters",
-        "description": "The UKs willingness to share classified missile-production knowledge sets a potentially important precedent.",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/news/2026/8/24/uk-to-help-ukraine-build-storm-shadow-long-range-missiles-why-it-matters?traffic_source=rss",
         "critical": true
     }
 ]
