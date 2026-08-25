@@ -1,5 +1,47 @@
 [
     {
+        "country": "Ukraine",
+        "city": "Kyiv",
+        "lat": 50.38679146800307,
+        "lon": 30.465588547299912,
+        "date": "2026-08-25 12:17:22",
+        "type": "Clashes",
+        "severity": "middle",
+        "title": "Russia mobilisation fears grow amid reports of intimidating tactics",
+        "description": "Military recruitment efforts are reportedly more aggressive as Russia prepares for a winter offensive in Ukraine.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/news/2026/8/25/russia-mobilisation-fears-grow-amid-reports-of-intimidating-tactics?traffic_source=rss",
+        "critical": false
+    },
+    {
+        "country": "Israel",
+        "city": "Gaza",
+        "lat": 31.470207179431277,
+        "lon": 34.52198411796217,
+        "date": "2026-08-25 12:17:22",
+        "type": "Airstrike",
+        "severity": "critical",
+        "title": "Palestine weekly: After Kushner departs, Israel escalates Gaza attacks",
+        "description": "Israel deepens Gaza attacks and West Bank expansion as countries condemn abuses but impose few consequences.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/news/2026/8/25/palestine-weekly-after-kushner-departs-israel-escalates-gaza-attacks?traffic_source=rss",
+        "critical": true
+    },
+    {
+        "country": "Iran",
+        "city": "Tehran",
+        "lat": 35.728630197249835,
+        "lon": 51.41040321750658,
+        "date": "2026-08-25 12:17:22",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "How the US sanctions on Iran impact China",
+        "description": "US sanctions Chinese firms over Iran links but spare big banks as Trump and Xi eye key talks.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/video/newsfeed/2026/8/25/how-the-us-sanctions-on-iran-impact-china?traffic_source=rss",
+        "critical": false
+    },
+    {
         "country": "Asia",
         "city": "Multan",
         "lat": 30.139364691049057,
@@ -3021,48 +3063,6 @@
         "description": "Using the carcinogen to preserve food is prohibited in China, the world's largest producer of cabbages.",
         "fatalities": "0",
         "link": "https://www.bbc.co.uk/news/articles/cy9ze48l2yeo?at_medium=RSS&at_campaign=rss",
-        "critical": false
-    },
-    {
-        "country": "Europe",
-        "city": "Paris",
-        "lat": 48.893394224720275,
-        "lon": 2.342871144143518,
-        "date": "2026-08-24 05:58:21",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Ligue 1: Ferran Torres saves Paris Saint-Germain against Rennes",
-        "description": "Paris Saint-Germain snatched a draw away at Rennes (2-2) on the opening day of Ligue 1. Ferran Torres, Paris’s new signing, came on after the break and saved the day for PSG.",
-        "fatalities": "0",
-        "link": "https://www.france24.com/en/tv-shows/sports/20260824-ligue-1-ferran-torres-saves-paris-saint-germain-against-rennes",
-        "critical": false
-    },
-    {
-        "country": "Ukraine",
-        "city": "Kyiv",
-        "lat": 50.426503957971214,
-        "lon": 30.529979306409597,
-        "date": "2026-08-24 05:58:21",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "French MEP Glucksmann seeks to unite the left in bid for French presidency",
-        "description": "Centre-left politician Raphaël Glucksmann on Sunday launched his bid for the French presidency, aiming to unite moderate left-wing voters and challenge far-left leader Jean-Luc Mélenchon ahead of France’s 2027 election. With Marine Le Pen leading first-round polls, Glucksmann is seeking to position himself as a pro-European, pro-Ukraine alternative to both the far right and hard left.",
-        "fatalities": "0",
-        "link": "https://www.france24.com/en/france/20260823-glucksmann-launches-french-presidential-bid-as-left-seeks-to-challenge-far-right",
-        "critical": false
-    },
-    {
-        "country": "Europe",
-        "city": "Brussels",
-        "lat": 50.85589527590642,
-        "lon": 4.294594121542966,
-        "date": "2026-08-24 05:58:21",
-        "type": "Naval",
-        "severity": "normal",
-        "title": "UEFA chief Ceferin calls for Infantino to quit, but 'not interested' in replacing him",
-        "description": "Aleksander Ceferin, president of the European soccer confederation (UEFA) has announced that he will not run against Gianni Infantino but warned the under-fire FIFA president that he must either quit or face a leadership challenge in March. Infantino has been mired in a crisis since the failure of his controversial – and ultimately abandoned – plan to open FIFA to private investors.",
-        "fatalities": "0",
-        "link": "https://www.france24.com/en/sport/20260824-uefa-chief-ceferin-calls-for-infantino-to-quit-but-not-interested-in-replacing-him",
         "critical": false
     }
 ]
