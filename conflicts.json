@@ -1,5 +1,75 @@
 [
     {
+        "country": "Asia",
+        "city": "Afghanistan",
+        "lat": 34.755131731432265,
+        "lon": 69.14918370329083,
+        "date": "2026-08-25 13:16:27",
+        "type": "Clashes",
+        "severity": "middle",
+        "title": "UNICEF warns 1 million Afghan children at risk of death from malnutrition",
+        "description": "One million children subject to severe acute malnutrition in Afghanistan are at risk of dying if they do not receive immediate treatment, the UNICEF warned on Tuesday. Nearly 40 percent of those admitted to hospitals comprise babies under six months old.",
+        "fatalities": "0",
+        "link": "https://www.france24.com/en/asia-pacific/20260825-unicef-warns-1-million-afghan-children-at-risk-of-death-from-malnutrition",
+        "critical": false
+    },
+    {
+        "country": "Israel",
+        "city": "Jerusalem",
+        "lat": 31.80107619919687,
+        "lon": 35.27292878075372,
+        "date": "2026-08-25 13:16:23",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Israeli forces raid UNRWA training centre in occupied East Jerusalem",
+        "description": "The forces raided and seized the Qalandiya Training Centre, a key facility operated by the UNRWA.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/news/2026/8/25/israeli-forces-raid-unrwa-training-centre-in-occupied-east-jerusalem?traffic_source=rss",
+        "critical": false
+    },
+    {
+        "country": "Ukraine",
+        "city": "Kyiv",
+        "lat": 50.401914664027856,
+        "lon": 30.53660239428322,
+        "date": "2026-08-25 13:16:23",
+        "type": "Airstrike",
+        "severity": "critical",
+        "title": "UK to back Ukraine with missile blueprints amid Russia-Ukraine strikes",
+        "description": "UK PM Andy Burnham visited Kyiv on his first foreign trip, pledging to give cruise missile designs to Ukraine.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/video/newsfeed/2026/8/25/uk-to-back-ukraine-with-missile-blueprints-amid-russia-ukraine-strikes?traffic_source=rss",
+        "critical": true
+    },
+    {
+        "country": "Israel",
+        "city": "Tel Aviv",
+        "lat": 32.14530996970928,
+        "lon": 34.71296986540572,
+        "date": "2026-08-25 13:16:23",
+        "type": "Clashes",
+        "severity": "middle",
+        "title": "How water becomes a weapon of war",
+        "description": "A Palestinian spring now fills a swimming pool that belongs to Israeli settlers. AJLabs on how water became a weapon.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/video/by-the-numbers-3/2026/8/25/how-water-becomes-a-weapon-of-war?traffic_source=rss",
+        "critical": false
+    },
+    {
+        "country": "Iran",
+        "city": "Tehran",
+        "lat": 35.74996286437039,
+        "lon": 51.39508797801968,
+        "date": "2026-08-25 13:16:21",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "China hits out at 'illegal' new US sanctions on Iran and trading partners",
+        "description": "The US has threatened to isolate nations that continue to do business with Tehran, which sells much of its oil to Beijing.",
+        "fatalities": "0",
+        "link": "https://www.bbc.co.uk/news/articles/clyl8965j5go?at_medium=RSS&at_campaign=rss",
+        "critical": false
+    },
+    {
         "country": "Ukraine",
         "city": "Kyiv",
         "lat": 50.38679146800307,
@@ -56,20 +126,6 @@
         "critical": false
     },
     {
-        "country": "Iran",
-        "city": "Tehran",
-        "lat": 35.64006223321282,
-        "lon": 51.376761862726745,
-        "date": "2026-08-25 11:12:19",
-        "type": "Clashes",
-        "severity": "middle",
-        "title": "China warns it will safeguard its interests after US widens sanctions against Iran",
-        "description": "The US has threatened to isolate nations that continue to do business with Tehran, which sells much of its oil to Beijing.",
-        "fatalities": "0",
-        "link": "https://www.bbc.co.uk/news/articles/clyl8965j5go?at_medium=RSS&at_campaign=rss",
-        "critical": false
-    },
-    {
         "country": "Israel",
         "city": "Tel Aviv",
         "lat": 32.05181809141021,
@@ -81,6 +137,20 @@
         "description": "The powerful pro-Israeli lobby group is increasingly becoming liability for both the progressive as well as right-wing.",
         "fatalities": "0",
         "link": "https://www.aljazeera.com/news/2026/8/25/is-aipacs-political-standing-declining-in-the-us?traffic_source=rss",
+        "critical": false
+    },
+    {
+        "country": "Iran",
+        "city": "Tehran",
+        "lat": 35.64006223321282,
+        "lon": 51.376761862726745,
+        "date": "2026-08-25 11:12:19",
+        "type": "Clashes",
+        "severity": "middle",
+        "title": "China warns it will safeguard its interests after US widens sanctions against Iran",
+        "description": "The US has threatened to isolate nations that continue to do business with Tehran, which sells much of its oil to Beijing.",
+        "fatalities": "0",
+        "link": "https://www.bbc.co.uk/news/articles/clyl8965j5go?at_medium=RSS&at_campaign=rss",
         "critical": false
     },
     {
@@ -378,20 +448,6 @@
         "critical": false
     },
     {
-        "country": "Africa",
-        "city": "Libya",
-        "lat": 26.29518422222814,
-        "lon": 17.285363371765595,
-        "date": "2026-08-25 08:42:05",
-        "type": "Drone",
-        "severity": "middle",
-        "title": "Fire breaks out at Libya’s Zawiya refinery",
-        "description": "TRIPOLI: A fire broke out on Monday ​in a diesel tank at Libya’s Zawiya refinery days after the facility was hit by drone.\n\n\tThe circumstances of Monday's fire remained unknown, Brega Petroleum Marketing Company said in a statement.\n\tBrega is owned by state oil firm National Oil Corporation (NOC) and is in charge of ‌fuel supplies.\n\tZawiya refinery is the ‌largest in the ​country ‌while Ras ​Lanuf is out ⁠of operation and is located around 40 kil",
-        "fatalities": "0",
-        "link": "https://www.arabnews.com/node/2654151/middle-east",
-        "critical": false
-    },
-    {
         "country": "Asia",
         "city": "Pakistan",
         "lat": 31.54558493406932,
@@ -403,6 +459,20 @@
         "description": "MUZAFFARABAD, Pakistan: Voters went to the polls Monday in the final phase of elections for the legislative assembly in Pakistan-administered Kashmir, following weeks of violent protests and clashes with security forces that overshadowed campaigning in the disputed Himalayan region, officials said.\n\n\tMen and women began lining up early at polling stations in Poonch district in the disputed Himalayan region, where four assembly seats were being co",
         "fatalities": "0",
         "link": "https://www.arabnews.com/node/2654152/world",
+        "critical": false
+    },
+    {
+        "country": "Africa",
+        "city": "Libya",
+        "lat": 26.29518422222814,
+        "lon": 17.285363371765595,
+        "date": "2026-08-25 08:42:05",
+        "type": "Drone",
+        "severity": "middle",
+        "title": "Fire breaks out at Libya’s Zawiya refinery",
+        "description": "TRIPOLI: A fire broke out on Monday ​in a diesel tank at Libya’s Zawiya refinery days after the facility was hit by drone.\n\n\tThe circumstances of Monday's fire remained unknown, Brega Petroleum Marketing Company said in a statement.\n\tBrega is owned by state oil firm National Oil Corporation (NOC) and is in charge of ‌fuel supplies.\n\tZawiya refinery is the ‌largest in the ​country ‌while Ras ​Lanuf is out ⁠of operation and is located around 40 kil",
+        "fatalities": "0",
+        "link": "https://www.arabnews.com/node/2654151/middle-east",
         "critical": false
     },
     {
@@ -2993,76 +3063,6 @@
         "description": "Pakistan says it can offer a channel between Tehran and Washington, but analysts differ over how much influence it has.",
         "fatalities": "0",
         "link": "https://www.aljazeera.com/news/2026/8/24/pakistans-army-chief-munir-returns-to-iran-can-he-break-us-war-deadlock?traffic_source=rss",
-        "critical": false
-    },
-    {
-        "country": "Israel",
-        "city": "Tel Aviv",
-        "lat": 32.04508510957252,
-        "lon": 34.811262731342126,
-        "date": "2026-08-24 08:06:48",
-        "type": "Airstrike",
-        "severity": "critical",
-        "title": "How much more are you spending on petrol since the war in Iran began?",
-        "description": "At least 145 countries have reported increases in petrol prices since the attacks on Iran by the US and Israel began.",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/news/2026/8/24/how-much-more-are-you-spending-on-petrol-since-the-war-in-iran-began?traffic_source=rss",
-        "critical": true
-    },
-    {
-        "country": "Europe",
-        "city": "Brussels",
-        "lat": 50.84761518724531,
-        "lon": 4.370722670798231,
-        "date": "2026-08-24 07:13:24",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Запасы газа в подземных хранилищах Европы заполнены на 61,68%",
-        "description": "Запасы газа в подземных хранилищах Европы по итогам газовых суток 22 августа снизились до 61,68%, сообщает ассоциация европейских операторов газовой инфраструктуры Gas Infrastructure Europe (GIE).",
-        "fatalities": "0",
-        "link": "https://www.interfax.ru/world/1110884",
-        "critical": false
-    },
-    {
-        "country": "Europe",
-        "city": "Brussels",
-        "lat": 50.92617836653175,
-        "lon": 4.318353073515655,
-        "date": "2026-08-24 07:12:45",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Ceferin won’t challenge Infantino for FIFA presidency but tells him to quit",
-        "description": "European football chief doesnt want to lose credibility over FIFA job but says Infantino will face a challenger.",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/sports/2026/8/24/ceferin-wont-challenge-infantino-for-fifa-presidency-but-tells-him-to-quit?traffic_source=rss",
-        "critical": false
-    },
-    {
-        "country": "Iran",
-        "city": "Tehran",
-        "lat": 35.7194539765243,
-        "lon": 51.377848269692215,
-        "date": "2026-08-24 07:12:45",
-        "type": "Clashes",
-        "severity": "middle",
-        "title": "Pakistan’s army chief Munir returns to Iran: Can he break US war deadlock?",
-        "description": "Pakistan says it can offer a channel between Tehran and Washington, but analysts differ over how much influence it has.",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/news/2026/8/24/pakistans-army-chief-munir-returns-to-iran-can-he-break-us-war-deadlock?traffic_source=rss",
-        "critical": false
-    },
-    {
-        "country": "China",
-        "city": "Beijing",
-        "lat": 39.84528030581566,
-        "lon": 116.38974757486349,
-        "date": "2026-08-24 07:12:43",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "China probes use of formaldehyde to keep cabbages fresh",
-        "description": "Using the carcinogen to preserve food is prohibited in China, the world's largest producer of cabbages.",
-        "fatalities": "0",
-        "link": "https://www.bbc.co.uk/news/articles/cy9ze48l2yeo?at_medium=RSS&at_campaign=rss",
         "critical": false
     }
 ]
