@@ -1,5 +1,47 @@
 [
     {
+        "country": "USA",
+        "city": "Washington",
+        "lat": 38.856537535957294,
+        "lon": -76.97765773063381,
+        "date": "2026-08-25 19:04:19",
+        "type": "Evacuation",
+        "severity": "critical",
+        "title": "Kennedy Center's survival depends on Trump, DOJ says in new filing",
+        "description": "The Trump administration argued in a Monday court filing that the John F. Kennedy Center for the Performing Arts must undergo proposed renovations and a cash infusion to survive. Why it matters: It's the latest in the legal battle over the venue's future, which the administration has proposed to overhaul, including potentially adding President Trump's name to the building. Driving the news: \"An order blocking the Board from appropriately recogniz",
+        "fatalities": "0",
+        "link": "https://www.axios.com/2026/08/25/trump-kennedy-center-taken-down",
+        "critical": true
+    },
+    {
+        "country": "Russia",
+        "city": "Moscow",
+        "lat": 55.743707912600144,
+        "lon": 37.65967999425154,
+        "date": "2026-08-25 19:04:03",
+        "type": "Airstrike",
+        "severity": "critical",
+        "title": "Kremlin denies planned talks with US envoys amid reports CIA head in Russia",
+        "description": "Washington reportedly alerted Ukraine to refrain from strikes until delegation leaves Moscow, US media reports.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/news/2026/8/25/kremlin-denies-planned-talks-with-us-envoys-amid-reports-cia-head-in-russia?traffic_source=rss",
+        "critical": true
+    },
+    {
+        "country": "Iran",
+        "city": "Tehran",
+        "lat": 35.70998101670589,
+        "lon": 51.451955800699444,
+        "date": "2026-08-25 19:04:03",
+        "type": "Airstrike",
+        "severity": "critical",
+        "title": "Sanctions or missiles? How Gulf will view Trump’s new Iran approach",
+        "description": "As Washington pressures Tehran, Gulf states weigh sanctions against the risk of escalation.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/news/2026/8/25/sanctions-or-missiles-why-gulf-may-not-relish-trumps-new-iran-approach?traffic_source=rss",
+        "critical": true
+    },
+    {
         "country": "China",
         "city": "South china sea",
         "lat": 12.05086260969615,
@@ -210,20 +252,6 @@
         "critical": true
     },
     {
-        "country": "Iran",
-        "city": "Tehran",
-        "lat": 35.6363351541564,
-        "lon": 51.40716333058312,
-        "date": "2026-08-25 17:14:47",
-        "type": "Airstrike",
-        "severity": "critical",
-        "title": "Sanctions or missiles? Why Gulf may not relish Trump’s new Iran approach",
-        "description": "As Washington pressures Tehran, Gulf states weigh sanctions against the risk of escalation.",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/news/2026/8/25/sanctions-or-missiles-why-gulf-may-not-relish-trumps-new-iran-approach?traffic_source=rss",
-        "critical": true
-    },
-    {
         "country": "USA",
         "city": "Washington",
         "lat": 38.933700591035866,
@@ -236,6 +264,20 @@
         "fatalities": "0",
         "link": "https://www.aljazeera.com/gallery/2026/8/25/photos-rohingya-refugees-rally-nine-years-after-myanmar-exodus?traffic_source=rss",
         "critical": false
+    },
+    {
+        "country": "Iran",
+        "city": "Tehran",
+        "lat": 35.6363351541564,
+        "lon": 51.40716333058312,
+        "date": "2026-08-25 17:14:47",
+        "type": "Airstrike",
+        "severity": "critical",
+        "title": "Sanctions or missiles? Why Gulf may not relish Trump’s new Iran approach",
+        "description": "As Washington pressures Tehran, Gulf states weigh sanctions against the risk of escalation.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/news/2026/8/25/sanctions-or-missiles-why-gulf-may-not-relish-trumps-new-iran-approach?traffic_source=rss",
+        "critical": true
     },
     {
         "country": "USA",
@@ -3021,48 +3063,6 @@
         "description": "Апелляционный суд США 7 августа запретил Дональду Трампу возводить бальный зал в Белом доме без согласия Конгресса, приостановив работы на две недели. Президент оспорил решение в Верховном суде, но его позиции может навредить наличие под резиденцией секретного убежища, построенного еще при Бараке Обаме, сообщает Washington Post.",
         "fatalities": "0",
         "link": "https://www.kommersant.ru/doc/8907179",
-        "critical": false
-    },
-    {
-        "country": "Africa",
-        "city": "Khartoum",
-        "lat": 15.488582004225778,
-        "lon": 32.572717838461266,
-        "date": "2026-08-24 13:24:18",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Guinea searches for survivors after landfill landslides kill 30",
-        "description": "In Guinea, a landslide at a garbage dump outside the capital Conakry has claimed the lives of at least 30 people. The government of the West African country says it has mobilised significant resources to try and find survivors that may still be trapped under massive piles of waste. Less than a week ago, that same government had announced plans to close the Dar-es-Salam landfill due to dangerous conditions there.",
-        "fatalities": "0",
-        "link": "https://www.france24.com/en/guinea-searches-for-survivors-after-landfill-landslides-kill-30",
-        "critical": false
-    },
-    {
-        "country": "Iran",
-        "city": "Tehran",
-        "lat": 35.69711762382283,
-        "lon": 51.429612443200085,
-        "date": "2026-08-24 13:24:18",
-        "type": "Naval",
-        "severity": "normal",
-        "title": "US sanctions 'unlikely to get Tehran to bow down' despite effect on population",
-        "description": "Iran has warned that Tehran would respond harshly to expanded U.S. sanctions, including measures against countries it sees as cooperating with Washington. The expanded sanctions come after weeks of impasse. The United States has not dislodged Iran’s grip on the Strait of Hormuz, through which a fifth of the world’s traded oil passed before the war started nearly six months ago. Now, Washington is hoping the extra sanctions will bring change. FRAN",
-        "fatalities": "0",
-        "link": "https://www.france24.com/en/us-sanctions-unlikely-to-get-tehran-to-bow-down-despite-effect-on-population",
-        "critical": false
-    },
-    {
-        "country": "Iran",
-        "city": "Tehran",
-        "lat": 35.63008947527875,
-        "lon": 51.45883748061766,
-        "date": "2026-08-24 13:24:18",
-        "type": "Naval",
-        "severity": "normal",
-        "title": "Middle East live: Iran warns of a harsh response to anticipated US sanctions",
-        "description": "Iran’s foreign ministry spokesperson on Monday warned that Tehran would respond harshly to expanded US sanctions, including measures against countries it sees as cooperating with Washington. The prospect of expanded sanctions comes after weeks of impasse, with the United States having not yet dislodged Iran’s grip on shipping through the Strait of Hormuz. Follow our liveblog for the latest updates.",
-        "fatalities": "0",
-        "link": "https://www.france24.com/en/middle-east/20260824-middle-east-live-iran-warns-of-a-harsh-response-to-anticipated-us-sanctions",
         "critical": false
     }
 ]
