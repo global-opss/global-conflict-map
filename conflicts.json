@@ -1,5 +1,33 @@
 [
     {
+        "country": "USA",
+        "city": "Washington",
+        "lat": 38.920952798306566,
+        "lon": -77.10168507647,
+        "date": "2026-08-25 03:28:49",
+        "type": "Evacuation",
+        "severity": "critical",
+        "title": "Nevada wildfire forces tens of thousands to evacuate as blaze threatens city of Reno",
+        "description": "Tens of thousands of people faced another night away from home on Monday as a wind-driven wildfire threatened Reno, Nevada, blanketing the city in smoke and closing schools. About 24,000 people remained under evacuation orders, down from more than 40,000 at the peak, while tens of thousands more were on alert.",
+        "fatalities": "0",
+        "link": "https://www.france24.com/en/americas/20260825-nevada-wildfire-reno-evacuations",
+        "critical": true
+    },
+    {
+        "country": "Iran",
+        "city": "Tehran",
+        "lat": 35.62915639824915,
+        "lon": 51.33137361409543,
+        "date": "2026-08-25 03:28:47",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Israel’s Netanyahu claims Iran tried to kill one of his sons",
+        "description": "Netanyahus claim comes after US and Israel killed Irans supreme leader and four members of his family in Tehran.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/news/2026/8/25/israels-netanyahu-claims-iran-tried-to-kill-one-of-his-sons?traffic_source=rss",
+        "critical": false
+    },
+    {
         "country": "Iran",
         "city": "Tehran",
         "lat": 35.736933115538896,
@@ -1092,20 +1120,6 @@
         "critical": false
     },
     {
-        "country": "Iran",
-        "city": "Tehran",
-        "lat": 35.73287373796308,
-        "lon": 51.35106786876887,
-        "date": "2026-08-24 14:10:32",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "What could new US sanctions on Iran entail?",
-        "description": "The US says it is preparing to announce new sanctions on Iran. It's been billed an economic D-day and is expected to add further pressure on the country's economy that's already been battered from previous sanctions and a US naval blockade. The renewed economic pressure would not be the first time the US has used economic tools at its disposal to corner Iran. But what could the new measures likely entail?",
-        "fatalities": "0",
-        "link": "https://www.france24.com/en/what-could-new-us-sanctions-on-iran-entail",
-        "critical": false
-    },
-    {
         "country": "Ukraine",
         "city": "Kyiv",
         "lat": 50.44875194593271,
@@ -1118,6 +1132,20 @@
         "fatalities": "0",
         "link": "https://www.defensenews.com/global/europe/2026/08/24/uks-burnham-to-visit-ukraine-with-plan-to-support-long-range-missile-production/",
         "critical": true
+    },
+    {
+        "country": "Iran",
+        "city": "Tehran",
+        "lat": 35.73287373796308,
+        "lon": 51.35106786876887,
+        "date": "2026-08-24 14:10:32",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "What could new US sanctions on Iran entail?",
+        "description": "The US says it is preparing to announce new sanctions on Iran. It's been billed an economic D-day and is expected to add further pressure on the country's economy that's already been battered from previous sanctions and a US naval blockade. The renewed economic pressure would not be the first time the US has used economic tools at its disposal to corner Iran. But what could the new measures likely entail?",
+        "fatalities": "0",
+        "link": "https://www.france24.com/en/what-could-new-us-sanctions-on-iran-entail",
+        "critical": false
     },
     {
         "country": "Ukraine",
@@ -3035,34 +3063,6 @@
         "description": "Ukrainian president Volodymyr Zelensky has rejected the prospect of wartime elections, saying it would be highly dangerous. The remarks come in response to a call from the former defence minister Mykhailo Fedorov to organise a vote, after he was fired by Zelensky last month. Analysis by FRANCE 24 international affairs editor Matthew-Mary Caruchet.",
         "fatalities": "0",
         "link": "https://www.france24.com/en/zelensky-rejects-rival-s-call-for-elections-says-would-be-huge-risk-for-ukraine",
-        "critical": false
-    },
-    {
-        "country": "Europe",
-        "city": "Sweden",
-        "lat": 59.75901981848404,
-        "lon": 15.49723956229281,
-        "date": "2026-08-23 15:30:54",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Thousands rally in Sweden to protest climate policies ahead of general election",
-        "description": "Some 10,000 people rallied in Stockholm on Sunday to demand stronger action on climate change, weeks before Sweden’s general election. Climate campaigner Greta Thunberg joined the rally, as organisers accused the government of weakening emissions policies and urged politicians to act faster to meet Sweden’s climate targets.",
-        "fatalities": "0",
-        "link": "https://www.france24.com/en/europe/20260823-thousands-rally-in-sweden-to-protest-climate-policies-ahead-of-general-election",
-        "critical": false
-    },
-    {
-        "country": "Israel",
-        "city": "Jerusalem",
-        "lat": 31.832369895206092,
-        "lon": 35.242324678780555,
-        "date": "2026-08-23 14:59:55",
-        "type": "Clashes",
-        "severity": "middle",
-        "title": "Trump’s Gaza plan hinges on Hamas disarmament, Israeli withdrawals",
-        "description": "JERUSALEM: Donald Trump’s latest plan to end the Gaza war calls on Hamas to ‌lay down its arms as Israel withdraws from the territory, terms endorsed by the militants but rejected by Israel, which says it will not pull back until the group’s disarmament is complete.",
-        "fatalities": "0",
-        "link": "https://www.arabnews.com/node/2654156/middle-east",
         "critical": false
     }
 ]
