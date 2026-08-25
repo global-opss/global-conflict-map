@@ -1,5 +1,19 @@
 [
     {
+        "country": "Asia",
+        "city": "Multan",
+        "lat": 30.139364691049057,
+        "lon": 71.52094784841991,
+        "date": "2026-08-25 11:47:39",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "'Thermal safety: Not just climate in action; it's biology & physiological capacity to cope & recover",
+        "description": "Eve Irvine is pleased to welcome Ronita Bardhan, Professor of Sustainable Built Environment and Health at the University of Cambridge. Extreme heat is no longer simply a question of climate exposure. It is a question of thermal safety, public health, energy security, urban design and inequality, explains Professor Bardhan. Her starting point is that, in an emergency, protecting human life must come first: people need immediate access to cooling, ",
+        "fatalities": "0",
+        "link": "https://www.france24.com/en/thermal-safety-not-just-climate-in-action-it-s-biology-physiological-capacity-to-cope-recover",
+        "critical": false
+    },
+    {
         "country": "Iran",
         "city": "Tehran",
         "lat": 35.64006223321282,
@@ -3050,19 +3064,5 @@
         "fatalities": "0",
         "link": "https://www.france24.com/en/sport/20260824-uefa-chief-ceferin-calls-for-infantino-to-quit-but-not-interested-in-replacing-him",
         "critical": false
-    },
-    {
-        "country": "Russia",
-        "city": "Moscow",
-        "lat": 55.728099583830875,
-        "lon": 37.66821813267699,
-        "date": "2026-08-24 05:19:35",
-        "type": "Airstrike",
-        "severity": "critical",
-        "title": "Live: Ukraine backers gather as Russian attacks escalate, air defence runs low",
-        "description": "Ukraine on Monday hosts a meeting of its key European backers to press for air-defence supplies and more pressure on Moscow, with Russian attacks killing more civilians than at any time since the first months of the invasion. The meeting of the Coalition of the Willing will be jointly chaired by the leaders of Britain, France and Germany. Follow our liveblog for the latest updates.",
-        "fatalities": "0",
-        "link": "https://www.france24.com/en/europe/20260824-live-ukraine-backers-gather-as-russian-attacks-escalate-air-defence-runs-low",
-        "critical": true
     }
 ]
