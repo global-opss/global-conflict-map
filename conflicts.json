@@ -1,5 +1,19 @@
 [
     {
+        "country": "Europe",
+        "city": "Finland",
+        "lat": 60.49227166190704,
+        "lon": 22.31729142383799,
+        "date": "2026-08-25 20:45:25",
+        "type": "Drone",
+        "severity": "middle",
+        "title": "Patria to join with Ukraine’s General Cherry to make drones in Finland",
+        "description": "Finnish defense company Patria is teaming up with Ukrainian drone maker General Cherry to jointly develop drones and start production in Finland.",
+        "fatalities": "0",
+        "link": "https://www.defensenews.com/global/europe/2026/08/24/patria-to-join-with-ukraines-general-cherry-to-make-drones-in-finland/",
+        "critical": false
+    },
+    {
         "country": "Israel",
         "city": "Tel Aviv",
         "lat": 32.09097433058538,
@@ -3049,20 +3063,6 @@
         "description": "The UKs willingness to share classified missile-production knowledge sets a potentially important precedent.",
         "fatalities": "0",
         "link": "https://www.aljazeera.com/news/2026/8/24/uk-to-help-ukraine-build-storm-shadow-long-range-missiles-why-it-matters?traffic_source=rss",
-        "critical": true
-    },
-    {
-        "country": "Israel",
-        "city": "Tel Aviv",
-        "lat": 32.042352122868145,
-        "lon": 34.75693718539018,
-        "date": "2026-08-24 15:51:39",
-        "type": "Airstrike",
-        "severity": "critical",
-        "title": "Why Israeli settler attacks on Palestinians in West Bank are pogroms",
-        "description": "Waves of settler attacks, aided by Israels military, increasingly fit the definition of a pogrom.",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/features/2026/8/24/why-israeli-settler-attacks-on-palestinians-in-west-bank-are-pogroms?traffic_source=rss",
         "critical": true
     }
 ]
