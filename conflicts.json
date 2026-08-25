@@ -2,6 +2,34 @@
     {
         "country": "USA",
         "city": "New york",
+        "lat": 40.7607635768452,
+        "lon": -74.00573736483692,
+        "date": "2026-08-25 10:46:28",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Trump says rejecting data centers is \"a mistake\"",
+        "description": "President Trump defended the expansion of data centers in an interview with his former fixer, Michael Cohen, that aired in full on Sunday.Why it matters: Trump's support comes as data centers face growing backlash in both red and blue states.What he's saying: Trump told Cohen during their interview that the U.S. was leading China in AI \"by a lot\" and that data centers were not taking power from the grid.\"They're making their own power plants. The",
+        "fatalities": "0",
+        "link": "https://www.axios.com/2026/08/23/trump-data-centers-michael-cohen-interview",
+        "critical": false
+    },
+    {
+        "country": "Iran",
+        "city": "Tehran",
+        "lat": 35.6979917371663,
+        "lon": 51.32567243022552,
+        "date": "2026-08-25 10:46:06",
+        "type": "Clashes",
+        "severity": "middle",
+        "title": "Can Pakistan’s Asim Munir convince Iran military chiefs to return to talks?",
+        "description": "Pakistan says progress was made in Tehran, but Iran’s security establishment remains wary of Washington.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/news/2026/8/25/can-pakistans-asim-munir-convince-iran-military-chiefs-to-return-to-talks?traffic_source=rss",
+        "critical": false
+    },
+    {
+        "country": "USA",
+        "city": "New york",
         "lat": 40.75924966350551,
         "lon": -74.0337626456857,
         "date": "2026-08-25 10:00:56",
@@ -252,20 +280,6 @@
         "critical": false
     },
     {
-        "country": "Asia",
-        "city": "Pakistan",
-        "lat": 31.54558493406932,
-        "lon": 74.44102096887343,
-        "date": "2026-08-25 08:42:05",
-        "type": "Clashes",
-        "severity": "middle",
-        "title": "Final election phase begins in Pakistan-administered Kashmir despite banned group’s boycott call",
-        "description": "MUZAFFARABAD, Pakistan: Voters went to the polls Monday in the final phase of elections for the legislative assembly in Pakistan-administered Kashmir, following weeks of violent protests and clashes with security forces that overshadowed campaigning in the disputed Himalayan region, officials said.\n\n\tMen and women began lining up early at polling stations in Poonch district in the disputed Himalayan region, where four assembly seats were being co",
-        "fatalities": "0",
-        "link": "https://www.arabnews.com/node/2654152/world",
-        "critical": false
-    },
-    {
         "country": "Africa",
         "city": "Libya",
         "lat": 26.29518422222814,
@@ -277,6 +291,20 @@
         "description": "TRIPOLI: A fire broke out on Monday ​in a diesel tank at Libya’s Zawiya refinery days after the facility was hit by drone.\n\n\tThe circumstances of Monday's fire remained unknown, Brega Petroleum Marketing Company said in a statement.\n\tBrega is owned by state oil firm National Oil Corporation (NOC) and is in charge of ‌fuel supplies.\n\tZawiya refinery is the ‌largest in the ​country ‌while Ras ​Lanuf is out ⁠of operation and is located around 40 kil",
         "fatalities": "0",
         "link": "https://www.arabnews.com/node/2654151/middle-east",
+        "critical": false
+    },
+    {
+        "country": "Asia",
+        "city": "Pakistan",
+        "lat": 31.54558493406932,
+        "lon": 74.44102096887343,
+        "date": "2026-08-25 08:42:05",
+        "type": "Clashes",
+        "severity": "middle",
+        "title": "Final election phase begins in Pakistan-administered Kashmir despite banned group’s boycott call",
+        "description": "MUZAFFARABAD, Pakistan: Voters went to the polls Monday in the final phase of elections for the legislative assembly in Pakistan-administered Kashmir, following weeks of violent protests and clashes with security forces that overshadowed campaigning in the disputed Himalayan region, officials said.\n\n\tMen and women began lining up early at polling stations in Poonch district in the disputed Himalayan region, where four assembly seats were being co",
+        "fatalities": "0",
+        "link": "https://www.arabnews.com/node/2654152/world",
         "critical": false
     },
     {
@@ -3035,34 +3063,6 @@
         "description": "Five years after the Taliban’s return, the BBC follows senior figures as the group reshapes the country.",
         "fatalities": "0",
         "link": "https://www.bbc.co.uk/news/articles/ckgvk9p2n7ko?at_medium=RSS&at_campaign=rss",
-        "critical": false
-    },
-    {
-        "country": "Ukraine",
-        "city": "Kyiv",
-        "lat": 50.45698222507218,
-        "lon": 30.49008078029677,
-        "date": "2026-08-24 05:19:27",
-        "type": "Airstrike",
-        "severity": "critical",
-        "title": "Burnham to hand long-range missile blueprints to Zelensky as he visits Kyiv",
-        "description": "It comes after Moscow warned of \"consequences\" over the reported use of British drones by Ukraine.",
-        "fatalities": "0",
-        "link": "https://www.bbc.co.uk/news/articles/clyqypkrzq5o?at_medium=RSS&at_campaign=rss",
-        "critical": true
-    },
-    {
-        "country": "China",
-        "city": "Beijing",
-        "lat": 39.95045783804035,
-        "lon": 116.38327532387927,
-        "date": "2026-08-24 04:27:29",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "U.S.-Canada trade talks collapse, massive tariffs to take effect",
-        "description": "Trade talks between the U.S. and Canada fell apart late Friday night, and both sides said steep new tariffs will go into effect.Why it matters: It's an unprecedented breakdown in relations with the second-largest U.S. trading partner.Catch up quick: Trump last month threatened to invoke Section 338 of the Tariff Act of 1930 to hit a slew of Canadian goods with additional 50% duties, including alcohol, hockey equipment, cement and dairy products.N",
-        "fatalities": "0",
-        "link": "https://www.axios.com/2026/08/22/us-canada-tariffs-trade-trump-carney",
         "critical": false
     }
 ]
