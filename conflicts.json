@@ -1,5 +1,47 @@
 [
     {
+        "country": "USA",
+        "city": "Washington",
+        "lat": 38.87031066904827,
+        "lon": -77.02641867038058,
+        "date": "2026-08-25 23:10:58",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Trump, Netanyahu clash over Iran strategy and Lebanon ceasefire",
+        "description": "DUBAI: American President Donald Trump and Israeli Prime Minister Benjamin Netanyahu have found themselves at odds over Iran, Lebanon and the course of ongoing negotiations in the Middle East according to The Washington Post.",
+        "fatalities": "0",
+        "link": "https://www.arabnews.com/node/2647647/middle-east",
+        "critical": false
+    },
+    {
+        "country": "Europe",
+        "city": "Brussels",
+        "lat": 50.83675303741668,
+        "lon": 4.384201868895884,
+        "date": "2026-08-25 23:10:58",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "US will be candid in push for ‘hard-line’ NATO alliance, Hegseth says",
+        "description": "BRUSSELS: NATO needs to return to its roots as a “hard-line” military alliance and the United States will be candid in public and ‌private about ‌countries that ‌need to ⁠do more to ⁠meet their commitments, US Defense Secretary Pete Hegseth said on Thursday at ⁠NATO headquarters.\n\t“(There are) ‌some ‌that still need ‌to do more, ‌and we will be candid about that, both in private ‌and in public. I think ⁠that’s important, ⁠friends being honest wit",
+        "fatalities": "0",
+        "link": "https://www.arabnews.com/node/2647643/world",
+        "critical": false
+    },
+    {
+        "country": "Iran",
+        "city": "Tehran",
+        "lat": 35.75143351989495,
+        "lon": 51.375653741661736,
+        "date": "2026-08-25 23:10:38",
+        "type": "Naval",
+        "severity": "normal",
+        "title": "U.S. ‘Economic D-Day’ Targets More Than Just Iranian Oil",
+        "description": "The United States threatened sanctions for any country or entity that engages with Iran’s gold, digital assets, aviation, shipping and tech industries. Here’s why that matters.",
+        "fatalities": "0",
+        "link": "https://www.nytimes.com/2026/08/25/world/middleeast/iran-us-sanctions-oil-gold.html",
+        "critical": false
+    },
+    {
         "country": "Ukraine",
         "city": "Kyiv",
         "lat": 50.42137747407525,
@@ -546,20 +588,6 @@
         "critical": true
     },
     {
-        "country": "Africa",
-        "city": "Niger",
-        "lat": 13.830268578766027,
-        "lon": 5.241981965751533,
-        "date": "2026-08-25 17:14:51",
-        "type": "Naval",
-        "severity": "normal",
-        "title": "Nigeria’s president orders rescue operation after mass kidnapping at mosque",
-        "description": "Nigerian President Bola Tinubu on Tuesday ordered security agencies to conduct a rescue operation after the mass kidnapping of worshippers during an attack on a mosque in the north-central Niger State last week. Local authorities were still trying to verify the number of missing people, but local residents said roughly 600 women, children and elderly people had been abducted.",
-        "fatalities": "0",
-        "link": "https://www.france24.com/en/africa/20260825-nigeria-president-orders-rescue-after-mass-kidnapping-during-mosque-attack",
-        "critical": false
-    },
-    {
         "country": "Ukraine",
         "city": "Kyiv",
         "lat": 50.516954900131516,
@@ -572,6 +600,20 @@
         "fatalities": "0",
         "link": "https://www.militarytimes.com/global/europe/2026/08/14/patriot-makers-hedge-on-ukraine-production-deal-as-officials-question-cause-of-hold-up/",
         "critical": true
+    },
+    {
+        "country": "Africa",
+        "city": "Niger",
+        "lat": 13.830268578766027,
+        "lon": 5.241981965751533,
+        "date": "2026-08-25 17:14:51",
+        "type": "Naval",
+        "severity": "normal",
+        "title": "Nigeria’s president orders rescue operation after mass kidnapping at mosque",
+        "description": "Nigerian President Bola Tinubu on Tuesday ordered security agencies to conduct a rescue operation after the mass kidnapping of worshippers during an attack on a mosque in the north-central Niger State last week. Local authorities were still trying to verify the number of missing people, but local residents said roughly 600 women, children and elderly people had been abducted.",
+        "fatalities": "0",
+        "link": "https://www.france24.com/en/africa/20260825-nigeria-president-orders-rescue-after-mass-kidnapping-during-mosque-attack",
+        "critical": false
     },
     {
         "country": "USA",
@@ -784,20 +826,6 @@
         "critical": false
     },
     {
-        "country": "Russia",
-        "city": "Moscow",
-        "lat": 55.689881383114304,
-        "lon": 37.629305566882685,
-        "date": "2026-08-25 15:55:48",
-        "type": "Clashes",
-        "severity": "middle",
-        "title": "CIA director Ratcliffe visits Moscow, US media reports",
-        "description": "CIA Director John Ratcliffe ​visited Russia to attend meetings in Moscow on Tuesday, according to two US media outlets, in what is believed to be Ratcliffe's first known trip to Russia since taking over as US spy chief. The reported visit comes as US-brokered talks aimed at ending the Ukraine war have stalled.",
-        "fatalities": "0",
-        "link": "https://www.france24.com/en/europe/20260825-cia-director-ratcliffe-visits-moscow-us-media-reports",
-        "critical": false
-    },
-    {
         "country": "Europe",
         "city": "Poland",
         "lat": 51.975616125433994,
@@ -810,6 +838,20 @@
         "fatalities": "0",
         "link": "https://www.defensenews.com/global/europe/2026/08/25/european-allies-team-up-to-buy-polish-portable-anti-aircraft-systems/",
         "critical": true
+    },
+    {
+        "country": "Russia",
+        "city": "Moscow",
+        "lat": 55.689881383114304,
+        "lon": 37.629305566882685,
+        "date": "2026-08-25 15:55:48",
+        "type": "Clashes",
+        "severity": "middle",
+        "title": "CIA director Ratcliffe visits Moscow, US media reports",
+        "description": "CIA Director John Ratcliffe ​visited Russia to attend meetings in Moscow on Tuesday, according to two US media outlets, in what is believed to be Ratcliffe's first known trip to Russia since taking over as US spy chief. The reported visit comes as US-brokered talks aimed at ending the Ukraine war have stalled.",
+        "fatalities": "0",
+        "link": "https://www.france24.com/en/europe/20260825-cia-director-ratcliffe-visits-moscow-us-media-reports",
+        "critical": false
     },
     {
         "country": "USA",
@@ -3021,48 +3063,6 @@
         "description": "The mysterious collapse of a European cryptocurrency exchange helps to explain why the industry hasn’t shaken off its reputation as a magnet for criminals.",
         "fatalities": "0",
         "link": "https://www.nytimes.com/2026/08/23/world/europe/poland-estonia-cryptocurrency.html",
-        "critical": false
-    },
-    {
-        "country": "Ukraine",
-        "city": "Kyiv",
-        "lat": 50.492151815846086,
-        "lon": 30.501712756756053,
-        "date": "2026-08-24 16:37:04",
-        "type": "Clashes",
-        "severity": "middle",
-        "title": "Ukraine celebrates Independence Day amid war's latest escalation",
-        "description": "Ukraine wants ​peace but will not just give in to Russia at any price, President Volodymyr Zelensky said in a defiant speech on Monday as foreign leaders gathered in Kyiv to mark its Independence Day celebrations.",
-        "fatalities": "0",
-        "link": "https://www.france24.com/en/video/20260824-ukraine-celebrates-independence-day-amid-war-s-latest-escalation",
-        "critical": false
-    },
-    {
-        "country": "Asia",
-        "city": "Pakistan",
-        "lat": 31.462762183927897,
-        "lon": 74.43531008133624,
-        "date": "2026-08-24 16:37:02",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "England drop fast bowler Bryden Carse amid investigation into club incident",
-        "description": "The 31-year-old Durham bowler will not play against Pakistan in the upcoming second Test match.",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/sports/2026/8/24/england-drop-fast-bowler-bryden-carse-amid-investigation-into-club-incident?traffic_source=rss",
-        "critical": false
-    },
-    {
-        "country": "Iran",
-        "city": "Tehran",
-        "lat": 35.63784714602466,
-        "lon": 51.341685475228935,
-        "date": "2026-08-24 16:37:02",
-        "type": "Clashes",
-        "severity": "middle",
-        "title": "What to expect as Iran braces for new US economic measures amid war",
-        "description": "Tehran may count on links with China and others to weather the storm, but average Iranian people will bear the brunt.",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/economy/2026/8/24/what-to-expect-as-iran-braces-for-new-us-economic-measures-amid-war?traffic_source=rss",
         "critical": false
     }
 ]
