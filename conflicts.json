@@ -1,5 +1,47 @@
 [
     {
+        "country": "Iran",
+        "city": "Tehran",
+        "lat": 35.68406118861983,
+        "lon": 51.38881531613017,
+        "date": "2026-08-25 21:47:23",
+        "type": "Naval",
+        "severity": "normal",
+        "title": "Rubio tells allies U.S. shifting from strikes to sanctions on Iran",
+        "description": "Secretary of State Marco Rubio has told several of his foreign counterparts in recent days that \"for the time being\" the U.S. is not expected to initiate new strikes against Iran, according to a U.S. official and a second source with knowledge of the matter.Instead, he's said the focus is on other means of pressure, including the sanctions initiative announced this week.Why it matters: Rubio's message to foreign ministers from several allied coun",
+        "fatalities": "0",
+        "link": "https://www.axios.com/2026/08/25/rubio-iran-war-hormuz-oil",
+        "critical": false
+    },
+    {
+        "country": "Israel",
+        "city": "Tel Aviv",
+        "lat": 32.11334976141036,
+        "lon": 34.801810234335335,
+        "date": "2026-08-25 21:47:10",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "US lawmakers urge Trump team to free of American student held by Israel",
+        "description": "Congress members call on Marco Rubio to use every tool at his disposal to secure release of 20-year-old Sama Safi.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/news/2026/8/25/us-lawmakers-urge-trump-team-to-free-of-american-student-held-by-israel?traffic_source=rss",
+        "critical": false
+    },
+    {
+        "country": "Middle East",
+        "city": "Damascus",
+        "lat": 33.56047853899466,
+        "lon": 36.23970838121339,
+        "date": "2026-08-25 21:47:10",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Syrian Democratic Forces announce their dissolution",
+        "description": "The Kurdish-led Syrian Democratic Forces will dissolve as an independent military force under an agreement with Damascus",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/video/newsfeed/2026/8/25/syrian-democratic-forces-announce-their-dissolution?traffic_source=rss",
+        "critical": false
+    },
+    {
         "country": "Africa",
         "city": "Sudan",
         "lat": 12.929692812714624,
@@ -3021,48 +3063,6 @@
         "description": "Ukraine attacked the petroleum hub of Nizhnekamsk in central Russia’s Tatarstan region on Monday, killing 13 people and injuring 75 others, local authorities said, in one of the deadliest attacks in the country in the 4-year-old war.\n\tThe Ukrainian military said it hit an oil refinery in Nizhnekamsk, which is about 1,200 kilometers (750 miles) east of the Ukrainian border and has a population of about 240,000.",
         "fatalities": "0",
         "link": "https://www.arabnews.com/node/2654125/world",
-        "critical": true
-    },
-    {
-        "country": "Israel",
-        "city": "Gaza",
-        "lat": 31.50064958972344,
-        "lon": 34.4366585257608,
-        "date": "2026-08-24 15:51:59",
-        "type": "Airstrike",
-        "severity": "critical",
-        "title": "Gaza Board of Peace official says plan is still operative",
-        "description": "WASHINGTON: US President Donald Trump’s Gaza plan is still operative ​and discussions with Israel are continuing, a Board of Peace official said on Monday after Prime Minister Benjamin Netanyahu rejected an Israeli withdrawal until the Palestinian militant group Hamas is “genuinely disarmed.”\n\tNetanyahu on Sunday restated his rejection of the Gaza ‌plan in televised ‌remarks to his ​right-wing ‌government. ⁠The move ​came even as ⁠Israel’s milita",
-        "fatalities": "0",
-        "link": "https://www.arabnews.com/node/2654137/middle-east",
-        "critical": true
-    },
-    {
-        "country": "Asia",
-        "city": "Pakistan",
-        "lat": 31.529254218951184,
-        "lon": 74.35968914309971,
-        "date": "2026-08-24 15:51:59",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Zelensky congratulates Saudi Arabia’s crown prince on Makkah defense agreement",
-        "description": "RIYADH: Ukrainian President Volodymyr Zelensky congratulated Saudi Arabia’s Crown Prince Mohammed bin Salman on Monday for the recent signing of a regional defense agreement.\n\n\tZelensky said he hopes the Makkah Joint Defense Agreement signed between Saudi Arabia, Turkiye and Pakistan last week will contribute to achieving security and stability in the region.\n\n\tHe made the comments during a phone call with the crown prince, Saudi Press Agency rep",
-        "fatalities": "0",
-        "link": "https://www.arabnews.com/node/2654135/saudi-arabia",
-        "critical": false
-    },
-    {
-        "country": "Iran",
-        "city": "Tehran",
-        "lat": 35.75575503737206,
-        "lon": 51.331808014379874,
-        "date": "2026-08-24 15:51:59",
-        "type": "Airstrike",
-        "severity": "critical",
-        "title": "Trump demands Iran pay compensation for war dead and wounded",
-        "description": "WASHINGTON: US President Donald Trump said Monday he would seek conflict compensation from Iran as part of any peace negotiations, citing attacks and atrocities stretching back decades allegedly backed or perpetrated by Tehran.\n\tIran is “asking for compensation for the damage done to them during the last five month Military Conflict... I am likewise demanding compensation from Iran, for all of the people that they have killed and gravely wounded ",
-        "fatalities": "0",
-        "link": "https://www.arabnews.com/node/2654132/middle-east",
         "critical": true
     }
 ]
