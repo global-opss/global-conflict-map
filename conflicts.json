@@ -1,5 +1,19 @@
 [
     {
+        "country": "China",
+        "city": "South china sea",
+        "lat": 12.05086260969615,
+        "lon": 112.99218142950463,
+        "date": "2026-08-25 18:18:00",
+        "type": "Naval",
+        "severity": "normal",
+        "title": "US Navy destroyer spent 4 days without power in South China Sea",
+        "description": "USS Benfold endured an \"engineering casualty\" last month, leaving about 300 sailors without potable water, galley services, toilets or air conditioning.",
+        "fatalities": "0",
+        "link": "https://www.defensenews.com/news/your-military/2026/08/19/us-navy-destroyer-spent-4-days-without-power-in-south-china-sea/",
+        "critical": false
+    },
+    {
         "country": "Europe",
         "city": "Brussels",
         "lat": 50.876518053985166,
@@ -1246,20 +1260,6 @@
         "critical": false
     },
     {
-        "country": "Africa",
-        "city": "Libya",
-        "lat": 26.29518422222814,
-        "lon": 17.285363371765595,
-        "date": "2026-08-25 08:42:05",
-        "type": "Drone",
-        "severity": "middle",
-        "title": "Fire breaks out at Libya’s Zawiya refinery",
-        "description": "TRIPOLI: A fire broke out on Monday ​in a diesel tank at Libya’s Zawiya refinery days after the facility was hit by drone.\n\n\tThe circumstances of Monday's fire remained unknown, Brega Petroleum Marketing Company said in a statement.\n\tBrega is owned by state oil firm National Oil Corporation (NOC) and is in charge of ‌fuel supplies.\n\tZawiya refinery is the ‌largest in the ​country ‌while Ras ​Lanuf is out ⁠of operation and is located around 40 kil",
-        "fatalities": "0",
-        "link": "https://www.arabnews.com/node/2654151/middle-east",
-        "critical": false
-    },
-    {
         "country": "Asia",
         "city": "Pakistan",
         "lat": 31.54558493406932,
@@ -1271,6 +1271,20 @@
         "description": "MUZAFFARABAD, Pakistan: Voters went to the polls Monday in the final phase of elections for the legislative assembly in Pakistan-administered Kashmir, following weeks of violent protests and clashes with security forces that overshadowed campaigning in the disputed Himalayan region, officials said.\n\n\tMen and women began lining up early at polling stations in Poonch district in the disputed Himalayan region, where four assembly seats were being co",
         "fatalities": "0",
         "link": "https://www.arabnews.com/node/2654152/world",
+        "critical": false
+    },
+    {
+        "country": "Africa",
+        "city": "Libya",
+        "lat": 26.29518422222814,
+        "lon": 17.285363371765595,
+        "date": "2026-08-25 08:42:05",
+        "type": "Drone",
+        "severity": "middle",
+        "title": "Fire breaks out at Libya’s Zawiya refinery",
+        "description": "TRIPOLI: A fire broke out on Monday ​in a diesel tank at Libya’s Zawiya refinery days after the facility was hit by drone.\n\n\tThe circumstances of Monday's fire remained unknown, Brega Petroleum Marketing Company said in a statement.\n\tBrega is owned by state oil firm National Oil Corporation (NOC) and is in charge of ‌fuel supplies.\n\tZawiya refinery is the ‌largest in the ​country ‌while Ras ​Lanuf is out ⁠of operation and is located around 40 kil",
+        "fatalities": "0",
+        "link": "https://www.arabnews.com/node/2654151/middle-east",
         "critical": false
     },
     {
@@ -3049,20 +3063,6 @@
         "description": "Iran’s foreign ministry spokesperson on Monday warned that Tehran would respond harshly to expanded US sanctions, including measures against countries it sees as cooperating with Washington. The prospect of expanded sanctions comes after weeks of impasse, with the United States having not yet dislodged Iran’s grip on shipping through the Strait of Hormuz. Follow our liveblog for the latest updates.",
         "fatalities": "0",
         "link": "https://www.france24.com/en/middle-east/20260824-middle-east-live-iran-warns-of-a-harsh-response-to-anticipated-us-sanctions",
-        "critical": false
-    },
-    {
-        "country": "Africa",
-        "city": "Khartoum",
-        "lat": 15.569091423709866,
-        "lon": 32.59850176502765,
-        "date": "2026-08-24 13:24:16",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Four arrested over fatal shooting of South African boxer Zolani Tete",
-        "description": "Tete, who won world WBF flyweight and WBO bantamweight titles, was killed outside his home in Eastern Cape last week.",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/sports/2026/8/24/four-arrested-over-fatal-shooting-of-south-african-boxer-zolani-tete?traffic_source=rss",
         "critical": false
     }
 ]
