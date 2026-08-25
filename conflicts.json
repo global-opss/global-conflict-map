@@ -1,5 +1,47 @@
 [
     {
+        "country": "Iran",
+        "city": "Tehran",
+        "lat": 35.64006223321282,
+        "lon": 51.376761862726745,
+        "date": "2026-08-25 11:12:19",
+        "type": "Clashes",
+        "severity": "middle",
+        "title": "China warns it will safeguard its interests after US widens sanctions against Iran",
+        "description": "The US has threatened to isolate nations that continue to do business with Tehran, which sells much of its oil to Beijing.",
+        "fatalities": "0",
+        "link": "https://www.bbc.co.uk/news/articles/clyl8965j5go?at_medium=RSS&at_campaign=rss",
+        "critical": false
+    },
+    {
+        "country": "Israel",
+        "city": "Tel Aviv",
+        "lat": 32.05181809141021,
+        "lon": 34.73298858255613,
+        "date": "2026-08-25 11:12:19",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Is AIPAC’s political standing declining in the US?",
+        "description": "The powerful pro-Israeli lobby group is increasingly becoming liability for both the progressive as well as right-wing.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/news/2026/8/25/is-aipacs-political-standing-declining-in-the-us?traffic_source=rss",
+        "critical": false
+    },
+    {
+        "country": "Iran",
+        "city": "Tehran",
+        "lat": 35.651321709807675,
+        "lon": 51.4167362220437,
+        "date": "2026-08-25 11:12:16",
+        "type": "Clashes",
+        "severity": "middle",
+        "title": "Iran May Have Little to Lose as U.S. Tries to Squeeze Its Economy",
+        "description": "Experts warn that a campaign aimed at avoiding military escalation could instead provoke it, as Iranian leaders vow retaliation across the oil-rich Gulf.",
+        "fatalities": "0",
+        "link": "https://www.nytimes.com/2026/08/25/world/middleeast/iran-us-economy-sanctions.html",
+        "critical": false
+    },
+    {
         "country": "USA",
         "city": "New york",
         "lat": 40.7607635768452,
@@ -126,20 +168,6 @@
         "critical": false
     },
     {
-        "country": "Iran",
-        "city": "Tehran",
-        "lat": 35.65414957121035,
-        "lon": 51.43778918187965,
-        "date": "2026-08-25 10:00:20",
-        "type": "Clashes",
-        "severity": "middle",
-        "title": "U.S. Campaign on Iran’s Economy May Still Risk Regional Military Escalation",
-        "description": "Experts warn that a campaign aimed at avoiding military escalation could instead provoke it, as Iranian leaders vow retaliation across the oil-rich Gulf.",
-        "fatalities": "0",
-        "link": "https://www.nytimes.com/2026/08/25/world/middleeast/iran-us-economy-sanctions.html",
-        "critical": false
-    },
-    {
         "country": "USA",
         "city": "Washington",
         "lat": 38.87154521279091,
@@ -165,6 +193,20 @@
         "description": "Ukraine pleaded for the expensive weapons, and ultimately got them, but drones have rendered them almost unusable.",
         "fatalities": "0",
         "link": "https://www.nytimes.com/2026/08/25/world/europe/ukraine-russia-tanks.html",
+        "critical": false
+    },
+    {
+        "country": "Iran",
+        "city": "Tehran",
+        "lat": 35.65414957121035,
+        "lon": 51.43778918187965,
+        "date": "2026-08-25 10:00:20",
+        "type": "Clashes",
+        "severity": "middle",
+        "title": "U.S. Campaign on Iran’s Economy May Still Risk Regional Military Escalation",
+        "description": "Experts warn that a campaign aimed at avoiding military escalation could instead provoke it, as Iranian leaders vow retaliation across the oil-rich Gulf.",
+        "fatalities": "0",
+        "link": "https://www.nytimes.com/2026/08/25/world/middleeast/iran-us-economy-sanctions.html",
         "critical": false
     },
     {
@@ -3022,47 +3064,5 @@
         "fatalities": "0",
         "link": "https://www.france24.com/en/europe/20260824-live-ukraine-backers-gather-as-russian-attacks-escalate-air-defence-runs-low",
         "critical": true
-    },
-    {
-        "country": "China",
-        "city": "Beijing",
-        "lat": 39.88668467170728,
-        "lon": 116.4479030272703,
-        "date": "2026-08-24 05:19:33",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Nearly three million Teslas recalled in China over hidden door handles",
-        "description": "Other brands affected by the recall include Chinese carmakers XPeng, Xiaomi and Geely.",
-        "fatalities": "0",
-        "link": "https://www.bbc.co.uk/news/articles/c4g6ggdg030o?at_medium=RSS&at_campaign=rss",
-        "critical": false
-    },
-    {
-        "country": "Asia",
-        "city": "Pakistan",
-        "lat": 31.425781680466002,
-        "lon": 74.47112389275215,
-        "date": "2026-08-24 05:19:31",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Ex-cricket captains urge 'proper medical care' for Imran Khan",
-        "description": "The former skippers say it is \"basic decency\" for Pakistan to comply with a court-ordered medical assessment.",
-        "fatalities": "0",
-        "link": "https://www.bbc.co.uk/news/articles/cx2z889l0dxo?at_medium=RSS&at_campaign=rss",
-        "critical": false
-    },
-    {
-        "country": "Asia",
-        "city": "Afghanistan",
-        "lat": 34.73257949725145,
-        "lon": 69.11392018142979,
-        "date": "2026-08-24 05:19:29",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Divorce, smartphones and control - BBC sees how Taliban run Afghanistan",
-        "description": "Five years after the Taliban’s return, the BBC follows senior figures as the group reshapes the country.",
-        "fatalities": "0",
-        "link": "https://www.bbc.co.uk/news/articles/ckgvk9p2n7ko?at_medium=RSS&at_campaign=rss",
-        "critical": false
     }
 ]
