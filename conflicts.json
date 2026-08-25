@@ -1,5 +1,19 @@
 [
     {
+        "country": "Ukraine",
+        "city": "Kyiv",
+        "lat": 50.42137747407525,
+        "lon": 30.522435753956877,
+        "date": "2026-08-25 22:44:09",
+        "type": "Clashes",
+        "severity": "middle",
+        "title": "Ukraine needs changes to avoid losing war, ousted defense minister says",
+        "description": "Fedorov, a young reformer whose dismissal last month sparked weeks of protests, said Ukraine lacked any overall vision for how to win the conflict.",
+        "fatalities": "0",
+        "link": "https://www.defensenews.com/global/europe/2026/08/25/ukraine-needs-changes-to-avoid-losing-war-ousted-defense-minister-says/",
+        "critical": false
+    },
+    {
         "country": "Iran",
         "city": "Tehran",
         "lat": 35.66578453583487,
@@ -1610,20 +1624,6 @@
         "critical": false
     },
     {
-        "country": "Africa",
-        "city": "Libya",
-        "lat": 26.29518422222814,
-        "lon": 17.285363371765595,
-        "date": "2026-08-25 08:42:05",
-        "type": "Drone",
-        "severity": "middle",
-        "title": "Fire breaks out at Libya’s Zawiya refinery",
-        "description": "TRIPOLI: A fire broke out on Monday ​in a diesel tank at Libya’s Zawiya refinery days after the facility was hit by drone.\n\n\tThe circumstances of Monday's fire remained unknown, Brega Petroleum Marketing Company said in a statement.\n\tBrega is owned by state oil firm National Oil Corporation (NOC) and is in charge of ‌fuel supplies.\n\tZawiya refinery is the ‌largest in the ​country ‌while Ras ​Lanuf is out ⁠of operation and is located around 40 kil",
-        "fatalities": "0",
-        "link": "https://www.arabnews.com/node/2654151/middle-east",
-        "critical": false
-    },
-    {
         "country": "Asia",
         "city": "Pakistan",
         "lat": 31.54558493406932,
@@ -1635,6 +1635,20 @@
         "description": "MUZAFFARABAD, Pakistan: Voters went to the polls Monday in the final phase of elections for the legislative assembly in Pakistan-administered Kashmir, following weeks of violent protests and clashes with security forces that overshadowed campaigning in the disputed Himalayan region, officials said.\n\n\tMen and women began lining up early at polling stations in Poonch district in the disputed Himalayan region, where four assembly seats were being co",
         "fatalities": "0",
         "link": "https://www.arabnews.com/node/2654152/world",
+        "critical": false
+    },
+    {
+        "country": "Africa",
+        "city": "Libya",
+        "lat": 26.29518422222814,
+        "lon": 17.285363371765595,
+        "date": "2026-08-25 08:42:05",
+        "type": "Drone",
+        "severity": "middle",
+        "title": "Fire breaks out at Libya’s Zawiya refinery",
+        "description": "TRIPOLI: A fire broke out on Monday ​in a diesel tank at Libya’s Zawiya refinery days after the facility was hit by drone.\n\n\tThe circumstances of Monday's fire remained unknown, Brega Petroleum Marketing Company said in a statement.\n\tBrega is owned by state oil firm National Oil Corporation (NOC) and is in charge of ‌fuel supplies.\n\tZawiya refinery is the ‌largest in the ​country ‌while Ras ​Lanuf is out ⁠of operation and is located around 40 kil",
+        "fatalities": "0",
+        "link": "https://www.arabnews.com/node/2654151/middle-east",
         "critical": false
     },
     {
@@ -3050,19 +3064,5 @@
         "fatalities": "0",
         "link": "https://www.aljazeera.com/economy/2026/8/24/what-to-expect-as-iran-braces-for-new-us-economic-measures-amid-war?traffic_source=rss",
         "critical": false
-    },
-    {
-        "country": "Russia",
-        "city": "Moscow",
-        "lat": 55.69203435120778,
-        "lon": 37.630203196055284,
-        "date": "2026-08-24 16:37:02",
-        "type": "Airstrike",
-        "severity": "critical",
-        "title": "Video: Russia launches rocket into space with military satellite",
-        "description": "Russia says it has launched a military satellite into space on the back of a Soyuz-2.1 rocket from Arkhangelsk.",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/video/newsfeed/2026/8/24/video-russia-launches-rocket-into-space-with-military-satellite?traffic_source=rss",
-        "critical": true
     }
 ]
