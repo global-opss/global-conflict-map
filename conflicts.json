@@ -1,5 +1,47 @@
 [
     {
+        "country": "Middle East",
+        "city": "Damascus",
+        "lat": 33.5822480272568,
+        "lon": 36.31713195694329,
+        "date": "2026-08-25 01:16:13",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Syrian leader receives UN refugee chief in Damascus",
+        "description": "DAMASCUS: President Ahmad Al-Sharaa received UN High Commissioner for Refugees Barham Salih and his accompanying delegation at the People’s Palace in Damascus on Monday, in the presence of Minister of Foreign Affairs and Expatriates Asaad Hassan Al-Shaibani.\n\tThe meeting focused on ways to strengthen cooperation between Syria and UNHCR, as well as supporting efforts related to the voluntary, safe, dignified and sustainable return of refugees and ",
+        "fatalities": "0",
+        "link": "https://www.arabnews.com/node/2654147/middle-east",
+        "critical": false
+    },
+    {
+        "country": "Iran",
+        "city": "Tehran",
+        "lat": 35.69457144720231,
+        "lon": 51.44319008445545,
+        "date": "2026-08-25 01:15:39",
+        "type": "Clashes",
+        "severity": "middle",
+        "title": "Iran war live: US slaps new sanctions on Iran, warns Tehran trade partners",
+        "description": "US tells countries to choose between Washington and Tehran, warns Irans trade partners they will face consequences.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/news/liveblog/2026/8/25/iran-war-live-drat?traffic_source=rss",
+        "critical": false
+    },
+    {
+        "country": "USA",
+        "city": "Washington",
+        "lat": 38.94315232531006,
+        "lon": -77.02519505701095,
+        "date": "2026-08-25 01:15:37",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "U.S. Tariffs Could Price Canadian Firms Out of U.S. and Threaten Thousands of Jobs",
+        "description": "The 50 percent tariffs President Trump imposed on Canadian exports to the United States will make it impossible for many Canadian companies to continue to sell to the U.S. market, economists say.",
+        "fatalities": "0",
+        "link": "https://www.nytimes.com/2026/08/24/world/canada/us-tariffs-trade-economy.html",
+        "critical": false
+    },
+    {
         "country": "USA",
         "city": "Washington",
         "lat": 38.849184336378904,
@@ -3021,48 +3063,6 @@
         "description": "WASHINGTON, United States: President Donald Trump insisted on Monday that his relationship with Prime Minister Benjamin Netanyahu is “very good” despite the Israeli leader’s rejection of a US-led Gaza plan.\n\t“The relationship is very good,” Trump said in response to a shouted question from a journalist at the end of an Oval Office event.\n\tAfter more than a week of gradually escalating criticism, Netanyahu explicitly stated on Sunday that he oppos",
         "fatalities": "0",
         "link": "https://www.arabnews.com/node/2654154/world",
-        "critical": false
-    },
-    {
-        "country": "Israel",
-        "city": "Gaza",
-        "lat": 31.51657379909292,
-        "lon": 34.52318224026145,
-        "date": "2026-08-23 14:59:52",
-        "type": "Clashes",
-        "severity": "middle",
-        "title": "Enrollment begins at Saudi-backed school for Gaza children",
-        "description": "GAZA STRIP: Registration has opened for students seeking to enroll at Makkah School in the southern Gaza Strip, a Saudi-backed initiative aimed at helping children resume their education amid the devastation of the war, SPA has reported. \n\n\tThe school, supported by the King Salman Humanitarian Aid and Relief Center (KSrelief), is part of a project to establish and operate safe educational spaces for Palestinian children under Saudi Arabia’s campa",
-        "fatalities": "0",
-        "link": "https://www.arabnews.com/node/2654157/saudi-arabia",
-        "critical": false
-    },
-    {
-        "country": "USA",
-        "city": "Washington",
-        "lat": 38.89807253393309,
-        "lon": -77.08786675127726,
-        "date": "2026-08-23 14:39:33",
-        "type": "Clashes",
-        "severity": "middle",
-        "title": "U.S. trade chief calls trying to change China's economy \"crazy\"",
-        "description": "As Europe grapples with its own China shock, the U.S. has largely given up on trying to persuade Beijing to change the export-heavy economic model that's helping fuel it.It's a sharp break from years of U.S. economic diplomacy — including most recently during the Biden administration. What they're saying: \"We did that for 25 years with our best people, and everything got worse,\" U.S. Trade Representative Jamieson Greer told Axios in an interview ",
-        "fatalities": "0",
-        "link": "https://www.axios.com/2026/08/21/greer-china-trade-economy",
-        "critical": false
-    },
-    {
-        "country": "China",
-        "city": "Beijing",
-        "lat": 39.969510141792604,
-        "lon": 116.45418864933103,
-        "date": "2026-08-23 14:39:15",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "China abruptly delays ambitious Chang’e-7 mission to find water ice on moon",
-        "description": "China has postponed its Chang’e-7 lunar mission, which was due to launch in the coming days and search for water ice near the Moon’s south pole, a government agency said Saturday. Officials said the mission did not meet launch conditions, without providing further details.",
-        "fatalities": "0",
-        "link": "https://www.france24.com/en/asia-pacific/20260823-china-abruptly-delays-ambitious-chang-e-7-mission-to-find-water-ice-on-moon",
         "critical": false
     }
 ]
