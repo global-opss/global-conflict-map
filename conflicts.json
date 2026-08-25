@@ -2,6 +2,48 @@
     {
         "country": "Iran",
         "city": "Tehran",
+        "lat": 35.66578453583487,
+        "lon": 51.336578660581516,
+        "date": "2026-08-25 22:09:23",
+        "type": "Airstrike",
+        "severity": "critical",
+        "title": "Oil prices fall for second day as US shifts from Iran strikes to sanctions",
+        "description": "Oil prices fell for a second straight day on Tuesday as traders saw a reduced risk of renewed US military strikes on Iran after Washington instead threatened broader economic sanctions. Treasury Secretary Scott Bessent declared an “economic D-Day” against Tehran but gave no timeline or details on countries that could face penalties.",
+        "fatalities": "0",
+        "link": "https://www.france24.com/en/economy/20260825-oil-prices-fall-us-iran-strikes-sanctions",
+        "critical": true
+    },
+    {
+        "country": "Israel",
+        "city": "Gaza",
+        "lat": 31.478909692798258,
+        "lon": 34.51468677897,
+        "date": "2026-08-25 22:09:23",
+        "type": "Airstrike",
+        "severity": "critical",
+        "title": "US-led Gaza peace board warns Hamas over kites after Israeli threat",
+        "description": "The US-led board overseeing the Gaza peace plan warned Hamas on Tuesday to halt militant activity, including flying kites, after Israel threatened retaliatory strikes. A Board of Peace official said Israel must also respect the ceasefire, limiting military action to responses to “genuine and imminent threats.”",
+        "fatalities": "0",
+        "link": "https://www.france24.com/en/middle-east/20260825-us-gaza-peace-board-hamas-kites-israeli-threat",
+        "critical": true
+    },
+    {
+        "country": "Israel",
+        "city": "Gaza",
+        "lat": 31.553371327479386,
+        "lon": 34.53020359026405,
+        "date": "2026-08-25 22:09:21",
+        "type": "Airstrike",
+        "severity": "critical",
+        "title": "Seven killed in Gaza as Israeli strike ‘destroys’ aid supply warehouse",
+        "description": "Health Ministry warns of complete collapse of the basic necessities of life in Gaza as Israels attacks continue.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/news/2026/8/25/seven-killed-in-gaza-as-israeli-strike-destroys-aid-supply-warehouse?traffic_source=rss",
+        "critical": true
+    },
+    {
+        "country": "Iran",
+        "city": "Tehran",
         "lat": 35.68406118861983,
         "lon": 51.38881531613017,
         "date": "2026-08-25 21:47:23",
@@ -1568,20 +1610,6 @@
         "critical": false
     },
     {
-        "country": "Asia",
-        "city": "Pakistan",
-        "lat": 31.54558493406932,
-        "lon": 74.44102096887343,
-        "date": "2026-08-25 08:42:05",
-        "type": "Clashes",
-        "severity": "middle",
-        "title": "Final election phase begins in Pakistan-administered Kashmir despite banned group’s boycott call",
-        "description": "MUZAFFARABAD, Pakistan: Voters went to the polls Monday in the final phase of elections for the legislative assembly in Pakistan-administered Kashmir, following weeks of violent protests and clashes with security forces that overshadowed campaigning in the disputed Himalayan region, officials said.\n\n\tMen and women began lining up early at polling stations in Poonch district in the disputed Himalayan region, where four assembly seats were being co",
-        "fatalities": "0",
-        "link": "https://www.arabnews.com/node/2654152/world",
-        "critical": false
-    },
-    {
         "country": "Africa",
         "city": "Libya",
         "lat": 26.29518422222814,
@@ -1593,6 +1621,20 @@
         "description": "TRIPOLI: A fire broke out on Monday ​in a diesel tank at Libya’s Zawiya refinery days after the facility was hit by drone.\n\n\tThe circumstances of Monday's fire remained unknown, Brega Petroleum Marketing Company said in a statement.\n\tBrega is owned by state oil firm National Oil Corporation (NOC) and is in charge of ‌fuel supplies.\n\tZawiya refinery is the ‌largest in the ​country ‌while Ras ​Lanuf is out ⁠of operation and is located around 40 kil",
         "fatalities": "0",
         "link": "https://www.arabnews.com/node/2654151/middle-east",
+        "critical": false
+    },
+    {
+        "country": "Asia",
+        "city": "Pakistan",
+        "lat": 31.54558493406932,
+        "lon": 74.44102096887343,
+        "date": "2026-08-25 08:42:05",
+        "type": "Clashes",
+        "severity": "middle",
+        "title": "Final election phase begins in Pakistan-administered Kashmir despite banned group’s boycott call",
+        "description": "MUZAFFARABAD, Pakistan: Voters went to the polls Monday in the final phase of elections for the legislative assembly in Pakistan-administered Kashmir, following weeks of violent protests and clashes with security forces that overshadowed campaigning in the disputed Himalayan region, officials said.\n\n\tMen and women began lining up early at polling stations in Poonch district in the disputed Himalayan region, where four assembly seats were being co",
+        "fatalities": "0",
+        "link": "https://www.arabnews.com/node/2654152/world",
         "critical": false
     },
     {
@@ -3021,48 +3063,6 @@
         "description": "Russia says it has launched a military satellite into space on the back of a Soyuz-2.1 rocket from Arkhangelsk.",
         "fatalities": "0",
         "link": "https://www.aljazeera.com/video/newsfeed/2026/8/24/video-russia-launches-rocket-into-space-with-military-satellite?traffic_source=rss",
-        "critical": true
-    },
-    {
-        "country": "Russia",
-        "city": "Moscow",
-        "lat": 55.768508620488106,
-        "lon": 37.63942177067557,
-        "date": "2026-08-24 16:36:58",
-        "type": "Drone",
-        "severity": "middle",
-        "title": "UK PM Burnham vows support for Ukraine despite 'outrageous threats' from Russia",
-        "description": "It comes after Moscow warned of \"consequences\" over the reported use of British drones by Ukraine.",
-        "fatalities": "0",
-        "link": "https://www.bbc.co.uk/news/articles/clyqypkrzq5o?at_medium=RSS&at_campaign=rss",
-        "critical": false
-    },
-    {
-        "country": "Asia",
-        "city": "Host",
-        "lat": 33.27614655120022,
-        "lon": 69.91127361785146,
-        "date": "2026-08-24 15:52:00",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "UNESCO AI Ethics Forum highlights Saudi Arabia’s global standing, says culture minister",
-        "description": "RIYADH: Saudi Arabia’s hosting of the fourth UNESCO Global Forum on the Ethics of Artificial Intelligence reflects its prominent international role in guiding emerging technology dialogue, Minister of Culture Prince Badr bin Abdullah bin Farhan said.\n\n\tPrince Badr, who also serves as chairman of the Saudi National Commission for Education, Culture and Science, emphasized that the Riyadh forum underscores the Kingdom’s firm commitment to promoting",
-        "fatalities": "0",
-        "link": "https://www.arabnews.com/node/2654126/saudi-arabia",
-        "critical": false
-    },
-    {
-        "country": "Ukraine",
-        "city": "Kyiv",
-        "lat": 50.463722495539045,
-        "lon": 30.557378345182197,
-        "date": "2026-08-24 15:52:00",
-        "type": "Airstrike",
-        "severity": "critical",
-        "title": "Ukrainian drone attack on Russian oil hub kills 13",
-        "description": "Ukraine attacked the petroleum hub of Nizhnekamsk in central Russia’s Tatarstan region on Monday, killing 13 people and injuring 75 others, local authorities said, in one of the deadliest attacks in the country in the 4-year-old war.\n\tThe Ukrainian military said it hit an oil refinery in Nizhnekamsk, which is about 1,200 kilometers (750 miles) east of the Ukrainian border and has a population of about 240,000.",
-        "fatalities": "0",
-        "link": "https://www.arabnews.com/node/2654125/world",
         "critical": true
     }
 ]
