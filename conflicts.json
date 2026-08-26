@@ -1,5 +1,33 @@
 [
     {
+        "country": "Africa",
+        "city": "Mali",
+        "lat": 12.671540097540934,
+        "lon": -7.963661875499075,
+        "date": "2026-08-26 04:49:58",
+        "type": "Naval",
+        "severity": "normal",
+        "title": "U.S. Navy Reveals AIM-424 “Malice” Long-Range Air-to-Air Missile",
+        "description": "The U.S. Navy has publicly revealed a previously little-known next-generation air-to-air missile: the AIM-424 LRAAM (Long-Range Air-to-Air Missile), officially named “Malice.” The new missile was announced at the Tailhook Symposium held in Reno, Nevada on Aug. 22, 2026, and was first reported by The Aviation Week. The weapon then appeared on the Navy’s official Fact []",
+        "fatalities": "0",
+        "link": "https://theaviationist.com/2026/08/23/us-navy-reveals-aim-424-malice-lraam/",
+        "critical": false
+    },
+    {
+        "country": "Africa",
+        "city": "Sudan",
+        "lat": 12.811229544188855,
+        "lon": 30.256652241262127,
+        "date": "2026-08-26 04:49:43",
+        "type": "Airstrike",
+        "severity": "critical",
+        "title": "Dozens killed in rebel attacks on Sudan’s Kordofan, medical group says",
+        "description": "Sudan Doctors Network says SPLM-N rebels killed 27 people in South Kordofan, including four children.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/news/2026/8/26/dozens-killed-in-rebel-attacks-on-sudans-kordofan-medical-group-says?traffic_source=rss",
+        "critical": true
+    },
+    {
         "country": "USA",
         "city": "Washington",
         "lat": 38.84098025919569,
@@ -1946,20 +1974,6 @@
         "critical": false
     },
     {
-        "country": "Asia",
-        "city": "Pakistan",
-        "lat": 31.54558493406932,
-        "lon": 74.44102096887343,
-        "date": "2026-08-25 08:42:05",
-        "type": "Clashes",
-        "severity": "middle",
-        "title": "Final election phase begins in Pakistan-administered Kashmir despite banned group’s boycott call",
-        "description": "MUZAFFARABAD, Pakistan: Voters went to the polls Monday in the final phase of elections for the legislative assembly in Pakistan-administered Kashmir, following weeks of violent protests and clashes with security forces that overshadowed campaigning in the disputed Himalayan region, officials said.\n\n\tMen and women began lining up early at polling stations in Poonch district in the disputed Himalayan region, where four assembly seats were being co",
-        "fatalities": "0",
-        "link": "https://www.arabnews.com/node/2654152/world",
-        "critical": false
-    },
-    {
         "country": "Africa",
         "city": "Libya",
         "lat": 26.29518422222814,
@@ -1971,6 +1985,20 @@
         "description": "TRIPOLI: A fire broke out on Monday ​in a diesel tank at Libya’s Zawiya refinery days after the facility was hit by drone.\n\n\tThe circumstances of Monday's fire remained unknown, Brega Petroleum Marketing Company said in a statement.\n\tBrega is owned by state oil firm National Oil Corporation (NOC) and is in charge of ‌fuel supplies.\n\tZawiya refinery is the ‌largest in the ​country ‌while Ras ​Lanuf is out ⁠of operation and is located around 40 kil",
         "fatalities": "0",
         "link": "https://www.arabnews.com/node/2654151/middle-east",
+        "critical": false
+    },
+    {
+        "country": "Asia",
+        "city": "Pakistan",
+        "lat": 31.54558493406932,
+        "lon": 74.44102096887343,
+        "date": "2026-08-25 08:42:05",
+        "type": "Clashes",
+        "severity": "middle",
+        "title": "Final election phase begins in Pakistan-administered Kashmir despite banned group’s boycott call",
+        "description": "MUZAFFARABAD, Pakistan: Voters went to the polls Monday in the final phase of elections for the legislative assembly in Pakistan-administered Kashmir, following weeks of violent protests and clashes with security forces that overshadowed campaigning in the disputed Himalayan region, officials said.\n\n\tMen and women began lining up early at polling stations in Poonch district in the disputed Himalayan region, where four assembly seats were being co",
+        "fatalities": "0",
+        "link": "https://www.arabnews.com/node/2654152/world",
         "critical": false
     },
     {
@@ -3035,34 +3063,6 @@
         "description": "America's path to lower inflation depends in part on trade wars and actual wars becoming less economically disruptive. In recent days, both have taken turns that threaten the opposite.Why it matters: A period of relative calm on those fronts is now giving way to renewed tensions, with Canada, China and Iran all posing fresh economic risks.What's going on: The U.S.-Canada trade fight is shaping up to become an all-out trade war, threatening econom",
         "fatalities": "0",
         "link": "https://www.axios.com/2026/08/24/canada-trade-inflation",
-        "critical": false
-    },
-    {
-        "country": "China",
-        "city": "Beijing",
-        "lat": 39.8450722113355,
-        "lon": 116.36519785981672,
-        "date": "2026-08-24 19:06:04",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "How US military funding propelled China’s robot dogs",
-        "description": "Chinese company Unitree Robotics based the designs for its most successful robot dogs on innovations fueled by the U.S. military.",
-        "fatalities": "0",
-        "link": "https://www.defensenews.com/industry/techwatch/2026/08/18/how-us-military-funding-propelled-chinas-robot-dogs/",
-        "critical": false
-    },
-    {
-        "country": "Africa",
-        "city": "Mali",
-        "lat": 12.68092076700577,
-        "lon": -7.918700510674785,
-        "date": "2026-08-24 19:05:52",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Trump administration seeks to formalise H-1B fee of more than $100,000",
-        "description": "New proposal would charge $103,265 for the USs H-1B visas, and make permanent a temporary rule challenged by courts.",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/economy/2026/8/24/trump-administration-seeks-to-formalise-h-1b-fee-of-more-than-100000?traffic_source=rss",
         "critical": false
     }
 ]
