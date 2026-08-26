@@ -1,5 +1,61 @@
 [
     {
+        "country": "China",
+        "city": "Beijing",
+        "lat": 39.83954805860306,
+        "lon": 116.40311741377378,
+        "date": "2026-08-26 01:55:17",
+        "type": "Clashes",
+        "severity": "middle",
+        "title": "Malaysia’s Anwar puts non-aligned stance in focus with remarks on Taiwan",
+        "description": "Malaysian leaders comments on the island have prompted discussion about whether the country is leaning towards China.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/news/2026/8/26/malaysias-anwar-puts-non-aligned-stance-in-focus-with-remarks-on-taiwan?traffic_source=rss",
+        "critical": false
+    },
+    {
+        "country": "Africa",
+        "city": "Sudan",
+        "lat": 12.856161591935365,
+        "lon": 30.19211677790738,
+        "date": "2026-08-26 01:55:17",
+        "type": "Clashes",
+        "severity": "middle",
+        "title": "Is Sudan’s battlefield shaping the terms of its next political phase?",
+        "description": "Army gains, RSF defections and al-Burhan’s political push point to a possible shift in Sudan’s war.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/news/2026/8/26/is-sudans-battlefield-shaping-the-terms-of-its-next-political-phase?traffic_source=rss",
+        "critical": false
+    },
+    {
+        "country": "Iran",
+        "city": "Tehran",
+        "lat": 35.751096461673434,
+        "lon": 51.43049899641403,
+        "date": "2026-08-26 01:55:17",
+        "type": "Naval",
+        "severity": "normal",
+        "title": "Iran war live: Iran says Hormuz remains closed despite Oman route deal",
+        "description": "Tehran says the agreement with Oman on routes through Hormuz does not indicate that the strait is open.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/news/liveblog/2026/8/26/iran-war-live-iran-says-hormuz-remains-closed-despite-oman-rout-deal?traffic_source=rss",
+        "critical": false
+    },
+    {
+        "country": "Israel",
+        "city": "Tel Aviv",
+        "lat": 32.06966406417705,
+        "lon": 34.794824661054356,
+        "date": "2026-08-26 01:55:17",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "US lawmakers urge Trump team to free American student held by Israel",
+        "description": "Congress members call on Marco Rubio to use every tool at his disposal to secure release of 20-year-old Sama Safi.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/news/2026/8/25/us-lawmakers-urge-trump-team-to-free-of-american-student-held-by-israel?traffic_source=rss",
+        "critical": false
+    },
+    {
         "country": "Ukraine",
         "city": "Kyiv",
         "lat": 50.44064878245129,
@@ -238,20 +294,6 @@
         "critical": false
     },
     {
-        "country": "Israel",
-        "city": "Tel Aviv",
-        "lat": 32.11334976141036,
-        "lon": 34.801810234335335,
-        "date": "2026-08-25 21:47:10",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "US lawmakers urge Trump team to free of American student held by Israel",
-        "description": "Congress members call on Marco Rubio to use every tool at his disposal to secure release of 20-year-old Sama Safi.",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/news/2026/8/25/us-lawmakers-urge-trump-team-to-free-of-american-student-held-by-israel?traffic_source=rss",
-        "critical": false
-    },
-    {
         "country": "Middle East",
         "city": "Damascus",
         "lat": 33.56047853899466,
@@ -263,6 +305,20 @@
         "description": "The Kurdish-led Syrian Democratic Forces will dissolve as an independent military force under an agreement with Damascus",
         "fatalities": "0",
         "link": "https://www.aljazeera.com/video/newsfeed/2026/8/25/syrian-democratic-forces-announce-their-dissolution?traffic_source=rss",
+        "critical": false
+    },
+    {
+        "country": "Israel",
+        "city": "Tel Aviv",
+        "lat": 32.11334976141036,
+        "lon": 34.801810234335335,
+        "date": "2026-08-25 21:47:10",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "US lawmakers urge Trump team to free of American student held by Israel",
+        "description": "Congress members call on Marco Rubio to use every tool at his disposal to secure release of 20-year-old Sama Safi.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/news/2026/8/25/us-lawmakers-urge-trump-team-to-free-of-american-student-held-by-israel?traffic_source=rss",
         "critical": false
     },
     {
@@ -3007,62 +3063,6 @@
         "description": "The US says it is targeting all of Iran’s sources of revenue, including oil.",
         "fatalities": "0",
         "link": "https://www.aljazeera.com/video/newsfeed/2026/8/24/trump-administration-announces-global-economic-war-on-iran-2?traffic_source=rss",
-        "critical": false
-    },
-    {
-        "country": "Ukraine",
-        "city": "Kyiv",
-        "lat": 50.45800546767134,
-        "lon": 30.482806897772353,
-        "date": "2026-08-24 17:50:01",
-        "type": "Naval",
-        "severity": "normal",
-        "title": "Iran says Ukrainian attack on vessel in Caspian Sea killed sailor",
-        "description": "Tehran described the attack on its vessel as an act of aggression while accusing Kyiv of seeking to expand the war in Ukraine.",
-        "fatalities": "0",
-        "link": "https://www.militarytimes.com/global/mideast-africa/2026/07/26/iran-says-ukrainian-attack-on-vessel-in-caspian-sea-killed-sailor/",
-        "critical": false
-    },
-    {
-        "country": "Ukraine",
-        "city": "Kyiv",
-        "lat": 50.43880911307948,
-        "lon": 30.536297537106993,
-        "date": "2026-08-24 17:49:59",
-        "type": "Naval",
-        "severity": "normal",
-        "title": "What the renewed Black Sea blockade means for Ukraine’s farmers",
-        "description": "As Ukraine and Russia hammer each other’s Black Sea ports, the amount of grain being shipped through the crucial waterway has slowed to a crawl. For Ukraine’s farmers, the Black Sea blockade could hardly have come at a worse time.",
-        "fatalities": "0",
-        "link": "https://www.france24.com/en/europe/20260824-what-renewed-black-sea-blockade-means-ukraine-farmers",
-        "critical": false
-    },
-    {
-        "country": "Iran",
-        "city": "Tehran",
-        "lat": 35.714727528235095,
-        "lon": 51.439155438244576,
-        "date": "2026-08-24 17:49:59",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "🔴 Mideast live: US unveils fresh sanctions to 'sever every economic lifeline' sustaining Iran",
-        "description": "",
-        "fatalities": "0",
-        "link": "https://www.france24.com/en/middle-east/20260824-middle-east-live-iran-warns-of-a-harsh-response-to-anticipated-us-sanctions",
-        "critical": false
-    },
-    {
-        "country": "China",
-        "city": "Beijing",
-        "lat": 39.95006298436557,
-        "lon": 116.38654544575458,
-        "date": "2026-08-24 17:49:55",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Japanese delegation seeks to soothe strained ties with China",
-        "description": "A cross-party delegation lands in Beijing as Tokyo tries to defrost its worst China rift in decades.",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/news/2026/8/24/japanese-delegation-seeks-to-soothe-strained-ties-with-china?traffic_source=rss",
         "critical": false
     }
 ]
