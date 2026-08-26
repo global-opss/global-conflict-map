@@ -1,5 +1,19 @@
 [
     {
+        "country": "Iran",
+        "city": "Tehran",
+        "lat": 35.66396186173547,
+        "lon": 51.34254757362048,
+        "date": "2026-08-26 05:54:40",
+        "type": "Nuclear",
+        "severity": "critical",
+        "title": "Iran bets economic pain will pressure Trump in game of ‘chicken’",
+        "description": "Iran is betting global economic fallout and Republicans worried about the midterms will force Trumps retreat.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/video/newsfeed/2026/8/26/iran-bets-economic-pain-will-pressure-trump-in-game-of?traffic_source=rss",
+        "critical": true
+    },
+    {
         "country": "Asia",
         "city": "Pakistan",
         "lat": 31.468738393768955,
@@ -3050,19 +3064,5 @@
         "fatalities": "0",
         "link": "https://www.aljazeera.com/video/newsfeed/2026/8/24/israeli-restrictions-cause-fuel-shortage-in-occupied-west-bank?traffic_source=rss",
         "critical": false
-    },
-    {
-        "country": "Israel",
-        "city": "Tel Aviv",
-        "lat": 32.02685950886571,
-        "lon": 34.83394086553165,
-        "date": "2026-08-24 19:40:13",
-        "type": "Airstrike",
-        "severity": "critical",
-        "title": "Why ‘pogrom’ best describes what’s happening in the occupied West Bank",
-        "description": "Israeli settler attacks in the occupied West Bank aren’t just ‘clashes’, they fit the definition of pogroms.",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/video/newsfeed/2026/8/24/why-pogrom-best-describes-whats-happening-in-the-occupied-west-bank?traffic_source=rss",
-        "critical": true
     }
 ]
