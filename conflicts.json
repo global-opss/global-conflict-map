@@ -1,5 +1,61 @@
 [
     {
+        "country": "Ukraine",
+        "city": "Kyiv",
+        "lat": 50.40427938192262,
+        "lon": 30.584484745245046,
+        "date": "2026-08-26 03:04:46",
+        "type": "Naval",
+        "severity": "normal",
+        "title": "Iran says Ukrainian attack on vessel in Caspian Sea killed sailor",
+        "description": "Tehran described the attack on its vessel as an act of aggression while accusing Kyiv of seeking to expand the war in Ukraine.",
+        "fatalities": "0",
+        "link": "https://www.militarytimes.com/global/mideast-africa/2026/07/26/iran-says-ukrainian-attack-on-vessel-in-caspian-sea-killed-sailor/",
+        "critical": false
+    },
+    {
+        "country": "USA",
+        "city": "Washington",
+        "lat": 38.905410600818605,
+        "lon": -77.10455464210992,
+        "date": "2026-08-26 03:04:45",
+        "type": "Naval",
+        "severity": "normal",
+        "title": "SpaceX to build $100 billion rocket launch facility in southern Louisiana",
+        "description": "SpaceX unveiled plans on Tuesday for a $100 billion rocket launch complex in southern Louisiana, its largest yet, aimed at supporting Starship and AI satellite missions. The 125,000-acre Starbase Louisiana site on Pecan Island could eventually handle thousands of Starship launches annually, the company said.",
+        "fatalities": "0",
+        "link": "https://www.france24.com/en/americas/20260826-spacex-to-build-100-billion-rocket-launch-complex-in-southern-louisiana",
+        "critical": false
+    },
+    {
+        "country": "USA",
+        "city": "New york",
+        "lat": 40.70472021592443,
+        "lon": -73.96547262669147,
+        "date": "2026-08-26 03:04:44",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Mamdani opposes Hindu nationalist event in New York",
+        "description": "Zohran Mamdani says he opposes a right-wing Hindu nationalist event scheduled for next week at Madison Square Garden.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/video/newsfeed/2026/8/26/mamdani-opposes-hindu-nationalist-event-in-new-york?traffic_source=rss",
+        "critical": false
+    },
+    {
+        "country": "Africa",
+        "city": "Sudan",
+        "lat": 12.893392186529608,
+        "lon": 30.214819856716957,
+        "date": "2026-08-26 03:04:44",
+        "type": "Clashes",
+        "severity": "middle",
+        "title": "Water crisis makes life in Sudan’s El Obeid refugee camps even worse",
+        "description": "Families displaced by war in Sudan’s El Obeid refugee camps face crippling water shortages.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/video/newsfeed/2026/8/26/water-crisis-makes-life-in-sudans-el-obeid-refugee-camps-even-worse?traffic_source=rss",
+        "critical": false
+    },
+    {
         "country": "China",
         "city": "Beijing",
         "lat": 39.83954805860306,
@@ -1008,20 +1064,6 @@
         "critical": false
     },
     {
-        "country": "Russia",
-        "city": "Moscow",
-        "lat": 55.689881383114304,
-        "lon": 37.629305566882685,
-        "date": "2026-08-25 15:55:48",
-        "type": "Clashes",
-        "severity": "middle",
-        "title": "CIA director Ratcliffe visits Moscow, US media reports",
-        "description": "CIA Director John Ratcliffe ​visited Russia to attend meetings in Moscow on Tuesday, according to two US media outlets, in what is believed to be Ratcliffe's first known trip to Russia since taking over as US spy chief. The reported visit comes as US-brokered talks aimed at ending the Ukraine war have stalled.",
-        "fatalities": "0",
-        "link": "https://www.france24.com/en/europe/20260825-cia-director-ratcliffe-visits-moscow-us-media-reports",
-        "critical": false
-    },
-    {
         "country": "Europe",
         "city": "Poland",
         "lat": 51.975616125433994,
@@ -1034,6 +1076,20 @@
         "fatalities": "0",
         "link": "https://www.defensenews.com/global/europe/2026/08/25/european-allies-team-up-to-buy-polish-portable-anti-aircraft-systems/",
         "critical": true
+    },
+    {
+        "country": "Russia",
+        "city": "Moscow",
+        "lat": 55.689881383114304,
+        "lon": 37.629305566882685,
+        "date": "2026-08-25 15:55:48",
+        "type": "Clashes",
+        "severity": "middle",
+        "title": "CIA director Ratcliffe visits Moscow, US media reports",
+        "description": "CIA Director John Ratcliffe ​visited Russia to attend meetings in Moscow on Tuesday, according to two US media outlets, in what is believed to be Ratcliffe's first known trip to Russia since taking over as US spy chief. The reported visit comes as US-brokered talks aimed at ending the Ukraine war have stalled.",
+        "fatalities": "0",
+        "link": "https://www.france24.com/en/europe/20260825-cia-director-ratcliffe-visits-moscow-us-media-reports",
+        "critical": false
     },
     {
         "country": "USA",
@@ -3007,62 +3063,6 @@
         "description": "The U.S. Navy has publicly revealed a previously little-known next-generation air-to-air missile: the AIM-424 LRAAM (Long-Range Air-to-Air Missile), officially named “Malice.” The new missile was announced at the Tailhook Symposium held in Reno, Nevada on Aug. 22, 2026, and was first reported by The Aviation Week. The weapon then appeared on the Navy’s official Fact []",
         "fatalities": "0",
         "link": "https://theaviationist.com/2026/08/23/us-navy-reveals-aim-424-malice-lraam/",
-        "critical": false
-    },
-    {
-        "country": "Europe",
-        "city": "Paris",
-        "lat": 48.81814941492748,
-        "lon": 2.301077746026108,
-        "date": "2026-08-24 18:18:30",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Saudi Arabia to invest €6 billion in theme parks near Paris, Macron says",
-        "description": "France and Saudi Arabia on Monday signed an agreement for the oil-rich Gulf kingdom to invest €6 billion to create three amusement parks near Paris, including one likely to be a manga-themed park, the French presidential office said. The announcement came during Saudi Crown Prince Mohammed bin Salman's visit focused on bilateral deals and the current crisis in the Middle East.",
-        "fatalities": "0",
-        "link": "https://www.france24.com/en/europe/20260824-saudi-arabia-to-invest-%E2%82%AC6-billion-theme-parks-near-paris-macron-says",
-        "critical": false
-    },
-    {
-        "country": "Ukraine",
-        "city": "Kyiv",
-        "lat": 50.48123170787854,
-        "lon": 30.472242661392176,
-        "date": "2026-08-24 18:18:28",
-        "type": "Airstrike",
-        "severity": "critical",
-        "title": "UK, France ‘re-announce’ anti-missile technology for Ukraine: ‘None will be online for years’",
-        "description": "Annette Young is pleased to welcome Dr. Frank Ledwidge, former military intelligence officer and Senior Lecturer in Strategy at Portsmouth University. According to Dr. Ledwidge, the latest European commitments to Ukraine are merely politically symbolic. He warns that the coalition is failing to address Kyiv's most urgent problem: air defence. Ukraine needs interceptors capable of defeating Russian ballistic and hypersonic missiles, The war-torn c",
-        "fatalities": "0",
-        "link": "https://www.france24.com/en/video/20260824-uk-france-re-announce-anti-missile-technology-for-ukraine-none-will-be-online-for-years",
-        "critical": true
-    },
-    {
-        "country": "Africa",
-        "city": "Niger",
-        "lat": 13.735296344310463,
-        "lon": 5.26693590122425,
-        "date": "2026-08-24 18:18:25",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Kidnappers release video showing hundreds abducted from Nigerian mosque",
-        "description": "Mass kidnappings highlight Nigerias security crisis in the north as elections approach.",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/news/2026/8/24/kidnappers-release-video-showing-hundreds-abducted-from-nigerian-mosque?traffic_source=rss",
-        "critical": false
-    },
-    {
-        "country": "Iran",
-        "city": "Tehran",
-        "lat": 35.63591284826385,
-        "lon": 51.34174125302735,
-        "date": "2026-08-24 18:18:25",
-        "type": "Clashes",
-        "severity": "middle",
-        "title": "Trump administration announces global economic war on Iran",
-        "description": "The US says it is targeting all of Iran’s sources of revenue, including oil.",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/video/newsfeed/2026/8/24/trump-administration-announces-global-economic-war-on-iran-2?traffic_source=rss",
         "critical": false
     }
 ]
