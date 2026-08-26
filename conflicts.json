@@ -1,5 +1,33 @@
 [
     {
+        "country": "Ukraine",
+        "city": "Kyiv",
+        "lat": 50.44064878245129,
+        "lon": 30.47627855214196,
+        "date": "2026-08-26 00:02:19",
+        "type": "Evacuation",
+        "severity": "critical",
+        "title": "Ukraine’s F-16s are being worn out from intercepting Russian drones",
+        "description": "Ukrainian F-16s have destroyed more than 2,500 one-way attack drones, but repeated interceptions are wearing out the country's small fleet.",
+        "fatalities": "0",
+        "link": "https://www.militarytimes.com/flashpoints/ukraine/2026/07/30/ukraines-f-16s-are-being-worn-out-from-intercepting-russian-drones/",
+        "critical": true
+    },
+    {
+        "country": "Iran",
+        "city": "Tehran",
+        "lat": 35.647488787406665,
+        "lon": 51.34047072301612,
+        "date": "2026-08-26 00:02:19",
+        "type": "Airstrike",
+        "severity": "critical",
+        "title": "US launches new round of strikes against Iran",
+        "description": "The U.S. conducted a new wave of strikes against Iranian military sites on Wednesday after reimposing a naval blockade of the Islamic Republic's ports.",
+        "fatalities": "0",
+        "link": "https://www.militarytimes.com/flashpoints/2026/07/15/us-launches-new-round-of-strikes-against-iran/",
+        "critical": true
+    },
+    {
         "country": "Asia",
         "city": "Host",
         "lat": 33.277604023047175,
@@ -3035,34 +3063,6 @@
         "description": "A cross-party delegation lands in Beijing as Tokyo tries to defrost its worst China rift in decades.",
         "fatalities": "0",
         "link": "https://www.aljazeera.com/news/2026/8/24/japanese-delegation-seeks-to-soothe-strained-ties-with-china?traffic_source=rss",
-        "critical": false
-    },
-    {
-        "country": "Iran",
-        "city": "Tehran",
-        "lat": 35.72993953218257,
-        "lon": 51.43253069530159,
-        "date": "2026-08-24 17:49:55",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Trump administration announces ‘economic D-day’ sanctions on Iran",
-        "description": "Treasury Secretary Scott Bessent says US sanctions will intensify to choke off Irans revenues and isolate the country.",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/news/2026/8/24/trump-administration-announces-global-economic-war-on-iran?traffic_source=rss",
-        "critical": false
-    },
-    {
-        "country": "Ukraine",
-        "city": "Kyiv",
-        "lat": 50.50837805511647,
-        "lon": 30.541248530564555,
-        "date": "2026-08-24 17:49:55",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Russia to seize poorly protected infrastructure as Ukraine barrage persists",
-        "description": "Owners could lose control of facilities if regulators find them too slow to repair damage.",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/news/2026/8/24/russia-to-seize-poorly-protected-infrastructure-as-ukraine-barrage-persists?traffic_source=rss",
         "critical": false
     }
 ]
