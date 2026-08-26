@@ -1,5 +1,47 @@
 [
     {
+        "country": "USA",
+        "city": "Washington",
+        "lat": 38.84098025919569,
+        "lon": -77.09478277138571,
+        "date": "2026-08-26 04:00:27",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Песков прокомментировал визит главы ЦРУ в Москву",
+        "description": "Визит главы ЦРУ Джона Рэтклиффа в Москву связан с «контактами между спецслужбами», сообщил пресс-секретарь президента России Дмитрий Песков в разговоре с The Washington Post. В подробности он вдаваться не стал.",
+        "fatalities": "0",
+        "link": "https://www.kommersant.ru/doc/8908327",
+        "critical": false
+    },
+    {
+        "country": "Africa",
+        "city": "Mali",
+        "lat": 12.608458557850629,
+        "lon": -8.028211134111107,
+        "date": "2026-08-26 04:00:11",
+        "type": "Nuclear",
+        "severity": "critical",
+        "title": "Trump sends Saudi civil nuclear agreement to Congress for review",
+        "description": "US President Donald Trump has submitted a civilian nuclear cooperation agreement with Saudi Arabia to Congress for review, an administration official said. The classified pact, sent to Capitol Hill on Monday, is aimed at bolstering Riyadh’s nuclear programme but remains contingent on Saudi Arabia normalising relations with Israel.",
+        "fatalities": "0",
+        "link": "https://www.france24.com/en/americas/20260826-trump-saudi-civil-nuclear-agreement-congress",
+        "critical": true
+    },
+    {
+        "country": "Israel",
+        "city": "Tel Aviv",
+        "lat": 32.14735345564954,
+        "lon": 34.80893944177795,
+        "date": "2026-08-26 04:00:06",
+        "type": "Clashes",
+        "severity": "middle",
+        "title": "Israeli soldiers block Knesset member from besieged Palestinian home",
+        "description": "Israeli soldiers blocked Knesset member Ofer Cassif from reaching a Palestinian family home in the occupied West Bank.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/video/newsfeed/2026/8/26/israeli-soldiers-block-knesset-member-from-besieged-palestinian-home?traffic_source=rss",
+        "critical": false
+    },
+    {
         "country": "Ukraine",
         "city": "Kyiv",
         "lat": 50.40427938192262,
@@ -3021,48 +3063,6 @@
         "description": "New proposal would charge $103,265 for the USs H-1B visas, and make permanent a temporary rule challenged by courts.",
         "fatalities": "0",
         "link": "https://www.aljazeera.com/economy/2026/8/24/trump-administration-seeks-to-formalise-h-1b-fee-of-more-than-100000?traffic_source=rss",
-        "critical": false
-    },
-    {
-        "country": "USA",
-        "city": "New york",
-        "lat": 40.725501099871934,
-        "lon": -73.95232891059413,
-        "date": "2026-08-24 18:18:54",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Минфин США объявил о новых санкциях против Ирана",
-        "description": "Глава министерства финансов США Скотт Бессент в понедельник заявил, что его ведомство введет дополнительные санкции против более чем 60 физических и юридических лиц, а также гражданских судов, связанных с Ираном. Об этом сообщила газета The New York Times.",
-        "fatalities": "0",
-        "link": "https://rg.ru/2026/08/24/minfin-ssha-obiavil-o-novyh-sankciiah-protiv-irana.html",
-        "critical": false
-    },
-    {
-        "country": "Iran",
-        "city": "Tehran",
-        "lat": 35.68381436010883,
-        "lon": 51.44506520757623,
-        "date": "2026-08-24 18:18:45",
-        "type": "Naval",
-        "severity": "normal",
-        "title": "Oil falls to 3-1/2-month low after US, Iran sign ceasefire deal",
-        "description": "BEIJING/SINGAPORE: Oil prices ​fell by more than $2 per barrel on Thursday after the US and Iran signed an interim agreement that ‌would end the Iran war, reopen the Strait of Hormuz and waive US sanctions on Tehran’s oil, boosting the oil supply outlook.\n\n\tBrent crude futures were down $2.14, or 2.69 percent, at $77.41 a barrel as of 09:16 a.m. Saudi time, and US West Texas Intermediate fell $2.36, or 3.07 percent, to $74.43 a barrel.",
-        "fatalities": "0",
-        "link": "https://www.arabnews.com/node/2647650/business-economy",
-        "critical": false
-    },
-    {
-        "country": "Africa",
-        "city": "Mali",
-        "lat": 12.646439512951353,
-        "lon": -8.019718248405102,
-        "date": "2026-08-24 18:18:40",
-        "type": "Naval",
-        "severity": "normal",
-        "title": "U.S. Navy Reveals AIM-424 “Malice” Long-Range Air-to-Air Missile",
-        "description": "The U.S. Navy has publicly revealed a previously little-known next-generation air-to-air missile: the AIM-424 LRAAM (Long-Range Air-to-Air Missile), officially named “Malice.” The new missile was announced at the Tailhook Symposium held in Reno, Nevada on Aug. 22, 2026, and was first reported by The Aviation Week. The weapon then appeared on the Navy’s official Fact []",
-        "fatalities": "0",
-        "link": "https://theaviationist.com/2026/08/23/us-navy-reveals-aim-424-malice-lraam/",
         "critical": false
     }
 ]
