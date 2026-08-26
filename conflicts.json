@@ -1,5 +1,33 @@
 [
     {
+        "country": "Asia",
+        "city": "Pakistan",
+        "lat": 31.468738393768955,
+        "lon": 74.46338821420346,
+        "date": "2026-08-26 05:19:52",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "At least 15 newborns killed in Pakistan hospital fire",
+        "description": "Only one child rescued after fire breaks out in the nursery at Pakistan Institute of Medical Sciences, Geo News reports.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/news/2026/8/26/at-least-15-newborns-killed-in-pakistan-hospital-fire?traffic_source=rss",
+        "critical": false
+    },
+    {
+        "country": "Ukraine",
+        "city": "Kyiv",
+        "lat": 50.445931231300996,
+        "lon": 30.577692615244125,
+        "date": "2026-08-26 05:19:50",
+        "type": "Airstrike",
+        "severity": "critical",
+        "title": "Russia’s ‘Amazon’ Wildberries comes under Ukraine attack again",
+        "description": "Russia’s biggest online retailer, Wildberries, has once again been attacked in a drone strike by Ukraine.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/video/newsfeed/2026/8/26/russias-amazon-wildberries-comes-under-ukraine-attack-again?traffic_source=rss",
+        "critical": true
+    },
+    {
         "country": "Africa",
         "city": "Mali",
         "lat": 12.671540097540934,
@@ -3036,33 +3064,5 @@
         "fatalities": "0",
         "link": "https://www.aljazeera.com/video/newsfeed/2026/8/24/why-pogrom-best-describes-whats-happening-in-the-occupied-west-bank?traffic_source=rss",
         "critical": true
-    },
-    {
-        "country": "Israel",
-        "city": "Gaza",
-        "lat": 31.495231672724746,
-        "lon": 34.47012116981114,
-        "date": "2026-08-24 19:40:13",
-        "type": "Airstrike",
-        "severity": "critical",
-        "title": "Israel threatens attacks in Gaza over children’s kites",
-        "description": "Israel has threatened intensified attacks and forced displacement in Gaza over children’s kites",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/video/2026/8/24/israel-threatens-attacks-in-gaza-over-childrens-kites?traffic_source=rss",
-        "critical": true
-    },
-    {
-        "country": "USA",
-        "city": "Washington",
-        "lat": 38.832946188668686,
-        "lon": -77.03500203712386,
-        "date": "2026-08-24 19:06:09",
-        "type": "Naval",
-        "severity": "normal",
-        "title": "Escalated U.S.-Canada trade talks threaten fallout",
-        "description": "America's path to lower inflation depends in part on trade wars and actual wars becoming less economically disruptive. In recent days, both have taken turns that threaten the opposite.Why it matters: A period of relative calm on those fronts is now giving way to renewed tensions, with Canada, China and Iran all posing fresh economic risks.What's going on: The U.S.-Canada trade fight is shaping up to become an all-out trade war, threatening econom",
-        "fatalities": "0",
-        "link": "https://www.axios.com/2026/08/24/canada-trade-inflation",
-        "critical": false
     }
 ]
