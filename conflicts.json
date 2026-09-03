@@ -1,5 +1,47 @@
 [
     {
+        "country": "Iran",
+        "city": "Tehran",
+        "lat": 35.66270127099021,
+        "lon": 51.42321104724005,
+        "date": "2026-09-03 01:18:22",
+        "type": "Airstrike",
+        "severity": "critical",
+        "title": "Iran war live: Trump says renewed US-Iran clashes will not last ‘too long’",
+        "description": "Irans health ministry spokesman says the death toll from US attacks has risen to 18, including a child.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/news/liveblog/2026/9/3/iran-war-live-trump-says-renewed-us-iran-clashes-will-not-last-too?traffic_source=rss",
+        "critical": true
+    },
+    {
+        "country": "USA",
+        "city": "Washington",
+        "lat": 38.9334454793151,
+        "lon": -77.00794410793445,
+        "date": "2026-09-03 01:18:22",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Thousands protest in Spain as Ceuta’s migration crisis festers a month on",
+        "description": "Spain faces unrest as residents protest, while migrants and asylum seekers search for shelter and resources in Ceuta.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/news/2026/9/2/thousands-protest-in-spain-as-ceutas-migrant-crisis-festers-a-month-on?traffic_source=rss",
+        "critical": false
+    },
+    {
+        "country": "Iran",
+        "city": "Tehran",
+        "lat": 35.66496649540691,
+        "lon": 51.433376532043035,
+        "date": "2026-09-03 01:18:15",
+        "type": "Airstrike",
+        "severity": "critical",
+        "title": "In Small Iranian Town, a U.S. Attack Turns a Wedding Into a Tragedy",
+        "description": "The bomb that hit the residential area was American, according to a weapons expert and a visual analysis by The Times. It killed five people and wounded 67 others, the Iranian authorities said.",
+        "fatalities": "0",
+        "link": "https://www.nytimes.com/2026/09/02/video/iran-us-attack-wedding.html",
+        "critical": true
+    },
+    {
         "country": "Europe",
         "city": "Berlin",
         "lat": 48.92894530008737,
@@ -3022,47 +3064,5 @@
         "fatalities": "0",
         "link": "https://www.militarytimes.com/news/pentagon-congress/2026/07/31/just-one-in-three-americans-back-iran-war-most-unsure-of-trumps-goals-poll-finds/",
         "critical": false
-    },
-    {
-        "country": "USA",
-        "city": "Pentagon",
-        "lat": 38.92870848732063,
-        "lon": -77.00883758530564,
-        "date": "2026-09-01 11:47:49",
-        "type": "Airstrike",
-        "severity": "critical",
-        "title": "Pentagon identifies third American soldier killed in Iranian attack in Jordan",
-        "description": "Sgt. Angel S. Rampersad, 28, is believed to be the third active-duty soldier killed in action in an Iranian attack in Jordan, the DoD said.",
-        "fatalities": "0",
-        "link": "https://www.militarytimes.com/news/your-military/2026/07/21/pentagon-identifies-third-american-soldier-killed-in-iranian-attack-in-jordan/",
-        "critical": true
-    },
-    {
-        "country": "Africa",
-        "city": "Niamey",
-        "lat": 13.5102482652041,
-        "lon": 2.149593999700847,
-        "date": "2026-09-01 11:47:49",
-        "type": "Clashes",
-        "severity": "middle",
-        "title": "As capital goes back to normal, Niger downplays soldiers' mutiny",
-        "description": "Niger's capital is back to normal after an intense week-end. A soldier mutiny took over Niamey on August 29, which was stopped by the army alongside the Russian paramilitary Africa Corps. The next day, Algeria sent four fighters aircrafts and two other military planes as cooperation with Nigeria is recently back on : an unexpected decision. Since it got independence, Algeria's non intervention doctrine is part of its DNA. FRANCE 24's Harold Girar",
-        "fatalities": "0",
-        "link": "https://www.france24.com/en/video/20260901-as-capital-goes-back-to-normal-niger-downplays-soldiers-mutiny",
-        "critical": false
-    },
-    {
-        "country": "Ukraine",
-        "city": "Kyiv",
-        "lat": 50.47863555353005,
-        "lon": 30.495342465295977,
-        "date": "2026-09-01 11:47:49",
-        "type": "Airstrike",
-        "severity": "critical",
-        "title": "'Massive' Russian missile, drone attacks on Kyiv",
-        "description": "Russian air attacks killed 12 people and injured several more in Kyiv early on Tuesday, authorities said, in the sixth consecutive day of strikes on the Ukrainian capital. Russia, which began its full-scale invasion of its smaller neighbour in 2022, has escalated its air attacks in recent months, as gains made on the ground have slowed.",
-        "fatalities": "0",
-        "link": "https://www.france24.com/en/video/20260901-massive-russian-missile-drone-attacks-on-kyiv",
-        "critical": true
     }
 ]
