@@ -1,5 +1,47 @@
 [
     {
+        "country": "USA",
+        "city": "New york",
+        "lat": 40.70187608721595,
+        "lon": -74.01383877449925,
+        "date": "2026-09-05 22:58:35",
+        "type": "Naval",
+        "severity": "normal",
+        "title": "Scoop: Republican midterms convention speakers revealed",
+        "description": "President Trump and his top allies will share the stage with Republican candidates in some of the nation's most competitive races at next week's GOP midterm convention in Dallas, according to a preliminary list of speakers obtained by Axios.Why it matters: The lineup underscores a central purpose of the convention: firing up Trump voters and getting them to turn out in November, even though the president isn't on the ballot.Driving the news: Trum",
+        "fatalities": "0",
+        "link": "https://www.axios.com/2026/09/05/republican-convention-dallas-trump-midterms",
+        "critical": false
+    },
+    {
+        "country": "Iran",
+        "city": "Tehran",
+        "lat": 35.6411157063251,
+        "lon": 51.40190905133049,
+        "date": "2026-09-05 22:58:13",
+        "type": "Naval",
+        "severity": "normal",
+        "title": "US and Iran trade retaliatory attacks on ships as conflict flares",
+        "description": "The US says it hit three Iranian oil tankers, while Iran says it targeted three US-linked ships.",
+        "fatalities": "0",
+        "link": "https://www.bbc.co.uk/news/articles/cj64rrne643o?at_medium=RSS&at_campaign=rss",
+        "critical": false
+    },
+    {
+        "country": "Ukraine",
+        "city": "Kyiv",
+        "lat": 50.48390495104747,
+        "lon": 30.510067558265096,
+        "date": "2026-09-05 22:58:13",
+        "type": "Clashes",
+        "severity": "middle",
+        "title": "US envoys Witkoff, Kushner meet Putin for talks on Ukraine war",
+        "description": "US envoys Steve Witkoff and Jared Kushner met Russian President Vladimir Putin at the Kremlin on Saturday.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/video/newsfeed/2026/9/5/us-envoys-witkoff-kushner-meet-putin-for-talks-on-ukraine-war?traffic_source=rss",
+        "critical": false
+    },
+    {
         "country": "Ukraine",
         "city": "Kyiv",
         "lat": 50.424481795691584,
@@ -728,20 +770,6 @@
         "critical": true
     },
     {
-        "country": "Iran",
-        "city": "Tehran",
-        "lat": 35.74276904765191,
-        "lon": 51.450490499296905,
-        "date": "2026-09-05 15:03:29",
-        "type": "Naval",
-        "severity": "normal",
-        "title": "US hits three Iranian oil tankers after saying its warships were targeted",
-        "description": "US Central Command says the attacks came after Iran launched ballistic missiles at two of its Navy warships.",
-        "fatalities": "0",
-        "link": "https://www.bbc.co.uk/news/articles/cj64rrne643o?at_medium=RSS&at_campaign=rss",
-        "critical": false
-    },
-    {
         "country": "Africa",
         "city": "Khartoum",
         "lat": 15.551227409573873,
@@ -753,6 +781,20 @@
         "description": "As the UN adopts a new world map to reflect Africa's true size, let's take a closer look at what different maps get right and wrong.",
         "fatalities": "0",
         "link": "https://www.bbc.co.uk/news/articles/cly5r60v4mro?at_medium=RSS&at_campaign=rss",
+        "critical": false
+    },
+    {
+        "country": "Iran",
+        "city": "Tehran",
+        "lat": 35.74276904765191,
+        "lon": 51.450490499296905,
+        "date": "2026-09-05 15:03:29",
+        "type": "Naval",
+        "severity": "normal",
+        "title": "US hits three Iranian oil tankers after saying its warships were targeted",
+        "description": "US Central Command says the attacks came after Iran launched ballistic missiles at two of its Navy warships.",
+        "fatalities": "0",
+        "link": "https://www.bbc.co.uk/news/articles/cj64rrne643o?at_medium=RSS&at_campaign=rss",
         "critical": false
     },
     {
@@ -3022,47 +3064,5 @@
         "fatalities": "0",
         "link": "https://theaviationist.com/2026/09/01/russia-behind-drone-attack-at-leipzig/",
         "critical": true
-    },
-    {
-        "country": "Asia",
-        "city": "Host",
-        "lat": 33.30145459251587,
-        "lon": 69.93536078815055,
-        "date": "2026-09-03 23:13:42",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Maria Bartiromo fired by Fox",
-        "description": "Fox News Media said longtime Fox Business host Maria Bartiromo is leaving the network in a surprise announcement Thursday.Why it matters: Bartiromo is considered one of the network's most high profile hosts.The unexpected departure prompted questions about whether she would join the Trump administration.Bartiromo has developed a strong rapport with the president over the last decade.The White House didn't immediately respond to requests for comme",
-        "fatalities": "0",
-        "link": "https://www.axios.com/2026/09/03/maria-bartiromo-departs-fox",
-        "critical": false
-    },
-    {
-        "country": "Europe",
-        "city": "Sweden",
-        "lat": 59.7576914953719,
-        "lon": 15.443237948480176,
-        "date": "2026-09-03 23:13:42",
-        "type": "Evacuation",
-        "severity": "critical",
-        "title": "Sweden to Begin Phasing Out NH90 TTH Helicopters by 2027 – Reports",
-        "description": "The reported phase out follows years of availability and maintainability problems with Sweden’s NH90 fleet and a decision to expand its UH-60M Black Hawk fleet. Less than a decade after taking delivery of its full fleet of 18 NH90 helicopters, Sweden will begin phasing out nine of its NH90 TTHs (Tactical Transport Helicopters) from 2027, []",
-        "fatalities": "0",
-        "link": "https://theaviationist.com/2026/08/27/sweden-phasing-out-nh90-tth-by-2027/",
-        "critical": true
-    },
-    {
-        "country": "Ukraine",
-        "city": "Kyiv",
-        "lat": 50.46964282501995,
-        "lon": 30.57181988495861,
-        "date": "2026-09-03 23:13:37",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Ousted Ukrainian defense chief lands Palantir CEO as first investor in new venture",
-        "description": "Ukraine’s recently ousted defense minister Mykhailo Fedorov is teaming up with Palantir CEO Alex Karp to launch a new defense company.",
-        "fatalities": "0",
-        "link": "https://www.defensenews.com/global/europe/2026/09/01/ousted-ukrainian-defense-chief-lands-palantir-ceo-as-first-investor-in-new-venture/",
-        "critical": false
     }
 ]
