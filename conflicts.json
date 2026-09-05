@@ -1,5 +1,47 @@
 [
     {
+        "country": "USA",
+        "city": "Washington",
+        "lat": 38.93548057225152,
+        "lon": -77.05273601145723,
+        "date": "2026-09-05 00:06:44",
+        "type": "Airstrike",
+        "severity": "critical",
+        "title": "Трамп репостнул статью с призывом разрешить Украине производить ракеты Patriot // Дональд Трамп репостнул призыв передат",
+        "description": "Президент США Дональд Трамп репостнул на свою страницу в соцсети Truth Social колонку The Washington Post (WP), автор которой призвал передать Украине лицензию на производство ракет-перехватчиков для систем ПВО Patriot. Публикацию господин Трамп никак не прокомментировал.",
+        "fatalities": "0",
+        "link": "https://www.kommersant.ru/doc/8936903",
+        "critical": true
+    },
+    {
+        "country": "Europe",
+        "city": "Brussels",
+        "lat": 50.89380507015796,
+        "lon": 4.2998783764211606,
+        "date": "2026-09-05 00:06:33",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Historic Bristol Freighter Restoration Achieves Major Milestone",
+        "description": "Now back on its own wheels ready for the next phase of restoration, the Bristol Type 170 Freighter, built in Britain but now the only surviving example in the whole of Europe, is due to eventually take pride of place in Aerospace Bristols new outdoor exhibit area. Aerospace Bristol, a rapidly growing aviation museum founded []",
+        "fatalities": "0",
+        "link": "https://theaviationist.com/2026/09/05/historic-bristol-freighter-restoration-achieves-major-milestone/",
+        "critical": false
+    },
+    {
+        "country": "Israel",
+        "city": "Jerusalem",
+        "lat": 31.78635326518296,
+        "lon": 35.28669849396708,
+        "date": "2026-09-05 00:06:21",
+        "type": "Clashes",
+        "severity": "middle",
+        "title": "Israeli police kill Palestinian in Jerusalem as army blocks aid for Qusra",
+        "description": "Israeli forces bar Israeli and Palestinian activists from delivering food and medicine to homes besieged by settlers.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/news/2026/9/4/israeli-police-kill-palestinian-in-jerusalem-as-army-blocks-aid-for-qusra?traffic_source=rss",
+        "critical": false
+    },
+    {
         "country": "Africa",
         "city": "Sudan",
         "lat": 12.8810642488664,
@@ -3021,48 +3063,6 @@
         "description": "At least 69 people were shot dead in 1960 but no-one has been prosecuted and victims want restitution.",
         "fatalities": "0",
         "link": "https://www.bbc.co.uk/news/articles/c1mvll11ll5o?at_medium=RSS&at_campaign=rss",
-        "critical": false
-    },
-    {
-        "country": "China",
-        "city": "Beijing",
-        "lat": 39.87070446700549,
-        "lon": 116.34025089531774,
-        "date": "2026-09-03 05:55:26",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Floodwaters sweep cars away in eastern China",
-        "description": "Torrential rain triggered severe flooding across parts of eastern China, rushing down streets and sweeping away vehicles",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/video/newsfeed/2026/9/3/floodwaters-sweep-cars-away-in-eastern-china?traffic_source=rss",
-        "critical": false
-    },
-    {
-        "country": "USA",
-        "city": "Washington",
-        "lat": 38.89583739151808,
-        "lon": -77.05433363996548,
-        "date": "2026-09-03 05:55:26",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Powerful storm hits Canada’s Toronto, cutting power to tens of thousands",
-        "description": "Thunderstorm also causes severe flooding and forces flight cancellations at Pearson airport.",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/news/2026/9/3/powerful-storm-hits-canadas-toronto-cutting-power-to-tens-of-thousands?traffic_source=rss",
-        "critical": false
-    },
-    {
-        "country": "USA",
-        "city": "Washington",
-        "lat": 38.85169076422447,
-        "lon": -77.01366608998374,
-        "date": "2026-09-03 05:55:24",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Syrians Want Justice for Assad-Era Killings and Torture",
-        "description": "Hundreds of thousands were killed and tortured. But prosecuting everyone involved in atrocities could be impractical and risk renewed civil strife.",
-        "fatalities": "0",
-        "link": "https://www.nytimes.com/2026/09/03/world/middleeast/syria-justice-abuse-assad.html",
         "critical": false
     }
 ]
