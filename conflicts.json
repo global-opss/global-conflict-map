@@ -1,5 +1,61 @@
 [
     {
+        "country": "Russia",
+        "city": "Moscow",
+        "lat": 55.80681940207101,
+        "lon": 37.57603652254968,
+        "date": "2026-09-06 20:40:55",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Программа заботы о здоровье \"Московский чекап\" расширяет зону своего влияния",
+        "description": "На прошедшей международной ярмарке современного искусства Cosmoscow в Тимирязев центре большой популярностью пользовался необычный стенд, на котором любой посетитель мог за несколько минут проверить свое здоровье. Причем без записи, просто по пути на выставку или во время прогулки. Стартовавший летом Московский чекап расширяет зону своего влияния, увлекая все больше москвичей философией здорового долголетия.",
+        "fatalities": "0",
+        "link": "https://rg.ru/2026/09/06/reg-cfo/kogda-raspuskaiutsia-cvety.html",
+        "critical": false
+    },
+    {
+        "country": "Israel",
+        "city": "Gaza",
+        "lat": 31.455598621707516,
+        "lon": 34.4064528501658,
+        "date": "2026-09-06 20:39:57",
+        "type": "Airstrike",
+        "severity": "critical",
+        "title": "Adidas faces boycott calls over campaign featuring former Israeli soldier",
+        "description": "Activists slam campaign showing soldier while over 5,000 Palestinians faced amputations due to Israeli attacks in Gaza.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/sports/2026/9/6/adidas-faces-boycott-calls-over-campaign-featuring-former-israeli-soldier?traffic_source=rss",
+        "critical": true
+    },
+    {
+        "country": "Ukraine",
+        "city": "Kyiv",
+        "lat": 50.43596254244887,
+        "lon": 30.491408996063686,
+        "date": "2026-09-06 20:39:57",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Witkoff says peace talks have been ‘very meaningful’ in Ukraine",
+        "description": "Witkoff says peace talks have been ‘very meaningful’ in Ukraine",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/video/newsfeed/2026/9/6/witkoff-says-peace-talks-have-been-very-meaningful-in-ukraine?traffic_source=rss",
+        "critical": false
+    },
+    {
+        "country": "Ukraine",
+        "city": "Kyiv",
+        "lat": 50.46818046773184,
+        "lon": 30.581702417475334,
+        "date": "2026-09-06 20:39:56",
+        "type": "Clashes",
+        "severity": "middle",
+        "title": "Zelensky says he expects war to continue into winter after talks with US envoys",
+        "description": "There was no announcement of a major breakthrough, after Steve Witkoff and Jared Kushner travelled to Kyiv.",
+        "fatalities": "0",
+        "link": "https://www.bbc.co.uk/news/articles/c6248nvqy8po?at_medium=RSS&at_campaign=rss",
+        "critical": false
+    },
+    {
         "country": "Europe",
         "city": "Paris",
         "lat": 48.93702743757696,
@@ -336,20 +392,6 @@
         "critical": false
     },
     {
-        "country": "Ukraine",
-        "city": "Kyiv",
-        "lat": 50.50426612188745,
-        "lon": 30.585503156959547,
-        "date": "2026-09-06 16:12:20",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "US envoys hold talks with Zelensky in Kyiv after meeting Putin",
-        "description": "Steve Witkoff tells reporters the US team feels \"encouraged\" by a \"substantive\" and important discussion.",
-        "fatalities": "0",
-        "link": "https://www.bbc.co.uk/news/articles/c6248nvqy8po?at_medium=RSS&at_campaign=rss",
-        "critical": false
-    },
-    {
         "country": "Asia",
         "city": "Host",
         "lat": 33.29573163030458,
@@ -376,6 +418,20 @@
         "fatalities": "0",
         "link": "https://www.bbc.co.uk/news/articles/c5y4g6meekro?at_medium=RSS&at_campaign=rss",
         "critical": true
+    },
+    {
+        "country": "Ukraine",
+        "city": "Kyiv",
+        "lat": 50.50426612188745,
+        "lon": 30.585503156959547,
+        "date": "2026-09-06 16:12:20",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "US envoys hold talks with Zelensky in Kyiv after meeting Putin",
+        "description": "Steve Witkoff tells reporters the US team feels \"encouraged\" by a \"substantive\" and important discussion.",
+        "fatalities": "0",
+        "link": "https://www.bbc.co.uk/news/articles/c6248nvqy8po?at_medium=RSS&at_campaign=rss",
+        "critical": false
     },
     {
         "country": "Ukraine",
@@ -3008,61 +3064,5 @@
         "fatalities": "0",
         "link": "https://www.militarytimes.com/flashpoints/ukraine/2026/07/30/ukraines-f-16s-are-being-worn-out-from-intercepting-russian-drones/",
         "critical": true
-    },
-    {
-        "country": "Asia",
-        "city": "Tokyo",
-        "lat": 35.64074036735991,
-        "lon": 139.73770553817266,
-        "date": "2026-09-04 17:39:10",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Himalayan hydropower buildout: Expert says risk management is key",
-        "description": "Following devastating floods in Nepal and Tibet, Access Asia takes a closer look at the fragile state of the Himalayan mountains. Dr Arun Bhakta Shrestha, an expert on the environment and risk management in the Himalayas, explains why it's so difficult to detect glacier movements in advance and says that the tragedy could serve as an opportunity to improve the way nations develop infrastructure in the resource-rich region.",
-        "fatalities": "0",
-        "link": "https://www.france24.com/en/tv-shows/access-asia/20260904-rebuilding-after-nepal-flash-floods-expert-says-risk-management-is-key-in-himalayas",
-        "critical": false
-    },
-    {
-        "country": "Ukraine",
-        "city": "Kyiv",
-        "lat": 50.51468280245373,
-        "lon": 30.567624766510114,
-        "date": "2026-09-04 17:39:10",
-        "type": "Airstrike",
-        "severity": "critical",
-        "title": "Russian drone strikes Ukraine security service HQ",
-        "description": "A Russian drone struck the headquarters of Ukraine's SBU security services in Kyiv on Friday afternoon, said Ukrainian President Volodymyr Zelensky, injuring five people. The attack followed a series of deadly overnight strikes across Ukraine, including the southern Odesa region.",
-        "fatalities": "0",
-        "link": "https://www.france24.com/en/europe/20260904-russian-drone-aimed-directly-at-ukraine-security-service-hq-zelensky-says",
-        "critical": true
-    },
-    {
-        "country": "Europe",
-        "city": "Brussels",
-        "lat": 50.897349444322884,
-        "lon": 4.331792568413413,
-        "date": "2026-09-04 17:39:08",
-        "type": "Naval",
-        "severity": "normal",
-        "title": "Strengthening Africa is an investment in Europe's future: EU Commissioner Jozef Sikela",
-        "description": "Are great-power politics back, at the expense of smaller countries? In an age of strongmen, is multilateralism in retreat? Not according to Jozef Sikela. The EU Commissioner in charge of International Partnerships insists that traditional multilateralism is alive and well, especially in the EU's approach to Africa and to the Arctic. We sat down with him for an interview at the European Commission in Brussels.",
-        "fatalities": "0",
-        "link": "https://www.france24.com/en/tv-shows/talking-europe/20260904-strengthening-africa-is-an-investment-in-europe-s-future-eu-commissioner-jozef-sikela",
-        "critical": false
-    },
-    {
-        "country": "Israel",
-        "city": "Tel Aviv",
-        "lat": 32.12391738852172,
-        "lon": 34.80850956164601,
-        "date": "2026-09-04 17:39:07",
-        "type": "Clashes",
-        "severity": "middle",
-        "title": "Israel's West Bank camp displacements could be crime against humanity, UN says",
-        "description": "The Israeli government's forced displacement of the entire populations of three West Bank refugee camps in January 2025 could amount to crimes against humanity, a UN report warned Friday. More than 33,000 Palestinians forced out of the Jenin, Nur Shams and Tulkarm camps have not been permitted to return home. Israel slammed the report for \"spreading misinformation\".",
-        "fatalities": "0",
-        "link": "https://www.france24.com/en/middle-east/20260904-israel-s-west-bank-camp-displacements-could-be-crime-against-humanity-un-says",
-        "critical": false
     }
 ]
