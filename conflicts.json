@@ -1,5 +1,61 @@
 [
     {
+        "country": "Israel",
+        "city": "Gaza",
+        "lat": 31.53722598304203,
+        "lon": 34.45382037958775,
+        "date": "2026-09-20 01:38:34",
+        "type": "Breaking News",
+        "severity": "normal",
+        "title": "Ed Sheeran says situation in Gaza is ‘catastrophic and unjustifiable’ as he opens solo concert",
+        "description": "PHILADELPHIA: Ed Sheeran opened a solo concert in Philadelphia on Saturday with comments about Gaza, saying what’s happening is “catastrophic and unjustifiable.” “My heart has been broken by the scale of devastation and loss of civilians’ lives, of children’s lives,” Sheeran said in the night at Lincoln Financial Field. Sheeran also said he wants his music and shows to be about unity and humanity, not politics. He then addressed the controversy t",
+        "fatalities": "0",
+        "link": "https://www.arabnews.com/offbeat/ed-sheeran-says-situation-in-gaza-is-catastrophic-and-unjustifiable-as-he-opens-solo-concert-3002389",
+        "critical": false
+    },
+    {
+        "country": "Middle East",
+        "city": "Yemen",
+        "lat": 14.506797067228321,
+        "lon": 49.191925608164695,
+        "date": "2026-09-20 01:38:15",
+        "type": "Naval",
+        "severity": "normal",
+        "title": "Turkiye backs Saudi Arabia’s security amid escalating Houthi attacks: FM",
+        "description": "Turkish FM highlights Turkiyes readiness to assist Saudi Arabia militarily, as Houthi attacks intensify in Yemen.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/news/2026/9/19/turkiye-backs-saudi-arabias-security-amid-escalating-houthi-attacks-fm?traffic_source=rss",
+        "critical": false
+    },
+    {
+        "country": "Asia",
+        "city": "Pakistan",
+        "lat": 31.559621019454354,
+        "lon": 74.3107867318545,
+        "date": "2026-09-20 01:38:13",
+        "type": "Airstrike",
+        "severity": "critical",
+        "title": "At least 21 killed after vehicle loaded with explosives rams Pakistan mosque",
+        "description": "A four-year-old child is among those killed in the attack, during which gunmen also opened fire on a police facility.",
+        "fatalities": "0",
+        "link": "https://www.bbc.co.uk/news/articles/ckn9wenz8wjwo?at_medium=RSS&at_campaign=rss",
+        "critical": true
+    },
+    {
+        "country": "Iran",
+        "city": "Tehran",
+        "lat": 35.62860290639868,
+        "lon": 51.40832870989733,
+        "date": "2026-09-20 01:38:13",
+        "type": "Airstrike",
+        "severity": "critical",
+        "title": "Iran war live: Tehran sets terms for peace; Saudi forces foil Riyadh attack",
+        "description": "Iran security chief says Tehrans demands include an end to war on all fronts and the lifting of USs naval blockade.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/news/liveblog/2026/9/20/iran-war-live-tehran-calls-for-end-to-war-lifting-of-us-naval-blockade?traffic_source=rss",
+        "critical": true
+    },
+    {
         "country": "Asia",
         "city": "Afghanistan",
         "lat": 34.71523865851486,
@@ -294,20 +350,6 @@
         "critical": false
     },
     {
-        "country": "Russia",
-        "city": "Moscow",
-        "lat": 55.773603096336245,
-        "lon": 37.61621356875406,
-        "date": "2026-09-19 21:41:09",
-        "type": "Airstrike",
-        "severity": "critical",
-        "title": "Russian hybrid attacks against Europe intensifying, says Macron",
-        "description": "The French president says he has tasked the government with protecting critical infrastructure and defence industry sites.",
-        "fatalities": "0",
-        "link": "https://www.bbc.co.uk/news/articles/cm2dw1w9d3yjo?at_medium=RSS&at_campaign=rss",
-        "critical": true
-    },
-    {
         "country": "Israel",
         "city": "Tel Aviv",
         "lat": 32.14501297813214,
@@ -348,6 +390,20 @@
         "fatalities": "0",
         "link": "https://www.aljazeera.com/video/newsfeed/2026/9/19/hegseth-kicks-off-send-me-tour-amid-iran-war-backlash?traffic_source=rss",
         "critical": false
+    },
+    {
+        "country": "Russia",
+        "city": "Moscow",
+        "lat": 55.773603096336245,
+        "lon": 37.61621356875406,
+        "date": "2026-09-19 21:41:09",
+        "type": "Airstrike",
+        "severity": "critical",
+        "title": "Russian hybrid attacks against Europe intensifying, says Macron",
+        "description": "The French president says he has tasked the government with protecting critical infrastructure and defence industry sites.",
+        "fatalities": "0",
+        "link": "https://www.bbc.co.uk/news/articles/cm2dw1w9d3yjo?at_medium=RSS&at_campaign=rss",
+        "critical": true
     },
     {
         "country": "Middle East",
@@ -3007,62 +3063,6 @@
         "description": "A spate of warnings in recent days about the dangers of AI have sparked mixed reactions: from Donald Trump dismissing the fears as a hoax, to Beijing criticising calls for the US to block its advancement as fearmongering. As President Xi Jinping heads to Washington for talks, FRANCE 24's technology correspondent Peter O'Brien explains why the two superpowers are unlikely to forge binding agreements on AI regulation.",
         "fatalities": "0",
         "link": "https://www.france24.com/en/tv-shows/access-asia/20260918-ai-safety-no-china-will-not-hit-the-brakes",
-        "critical": false
-    },
-    {
-        "country": "Europe",
-        "city": "Paris",
-        "lat": 48.81686106497757,
-        "lon": 2.3451070561486094,
-        "date": "2026-09-18 18:33:01",
-        "type": "Naval",
-        "severity": "normal",
-        "title": "Air France bets on caviar and champagne to lure luxury flyers",
-        "description": "Air France is betting big on luxury to keep wealthy travellers spending with lavish servings of caviar and champagne in first-class cabins as soaring fuel costs and disrupted travel patterns squeeze airlines worldwide. The campaign seems to have paid off, with the Paris-based carrier saying that premium bookings and revenue have grown this year despite industry-wide higher fares.",
-        "fatalities": "0",
-        "link": "https://www.france24.com/en/france/20260918-air-france-bets-on-caviar-and-champagne-lure-luxury-flyers",
-        "critical": false
-    },
-    {
-        "country": "Europe",
-        "city": "Brussels",
-        "lat": 50.864524392100634,
-        "lon": 4.289674778707544,
-        "date": "2026-09-18 18:33:01",
-        "type": "Clashes",
-        "severity": "middle",
-        "title": "We’re ideally placed to chair EU budget negotiations, says Irish Minister of State",
-        "description": "Ireland is managing a jam-packed agenda as the current holder of the rotating presidency of the EU. We caught up with the country’s Minister of State for European Affairs, Thomas Byrne, who was in Strasbourg for the 2026 State of the Union speech and debate with EU Commission President Ursula von der Leyen. We discussed key points from that address, such as a proposed ban on social media access for children, which Ireland is keen to push forward ",
-        "fatalities": "0",
-        "link": "https://www.france24.com/en/tv-shows/talking-europe/20260918-we-re-ideally-placed-to-chair-eu-budget-negotiations-says-irish-minister-of-state",
-        "critical": false
-    },
-    {
-        "country": "Europe",
-        "city": "Brussels",
-        "lat": 50.95355519846223,
-        "lon": 4.361660440744211,
-        "date": "2026-09-18 18:33:01",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Ursula von der Leyen’s sixth State of the Union speech: A grand sweep, but thin on details?",
-        "description": "In this episode, we debrief one of the key annual events in the EU calendar: the State of the Union speech. It was Ursula von der Leyen’s sixth such address as President of the European Commission, and the second State of the Union speech of her second mandate.",
-        "fatalities": "0",
-        "link": "https://www.france24.com/en/tv-shows/talking-europe/20260918-ursula-von-der-leyen-s-sixth-state-of-the-union-speech-a-grand-sweep-but-thin-on-details",
-        "critical": false
-    },
-    {
-        "country": "Africa",
-        "city": "Niger",
-        "lat": 13.789132748830323,
-        "lon": 5.260717562543464,
-        "date": "2026-09-18 18:32:59",
-        "type": "Breaking News",
-        "severity": "normal",
-        "title": "Nigerian forces fire at protesters rallying over deaths of detained miners",
-        "description": "Government has promised to fully investigate after 37 miners died while being held in police custody in Niger State.",
-        "fatalities": "0",
-        "link": "https://www.aljazeera.com/news/2026/9/18/nigerian-forces-fire-at-protesters-rallying-over-deaths-of-detained-miners?traffic_source=rss",
         "critical": false
     }
 ]
