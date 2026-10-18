@@ -1,5 +1,33 @@
 [
     {
+        "country": "Israel",
+        "city": "Tel Aviv",
+        "lat": 32.135980966283554,
+        "lon": 34.79369332382133,
+        "date": "2026-10-18 00:58:09",
+        "type": "Airstrike",
+        "severity": "critical",
+        "title": "Iran war live: Tankers hit in Hormuz; Israeli settlers attack EU diplomats",
+        "description": "Fires reported on three tankers as masked settlers attack European politicians in the occupied West Bank.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/news/liveblog/2026/10/18/iran-war-live-tankers-hit-in-hormuz-israeli-settlers-attack-eu-diplomats?traffic_source=rss",
+        "critical": true
+    },
+    {
+        "country": "Israel",
+        "city": "Tel Aviv",
+        "lat": 32.02705891279883,
+        "lon": 34.81218916432789,
+        "date": "2026-10-18 00:58:09",
+        "type": "Airstrike",
+        "severity": "critical",
+        "title": "US ambassador urges Israel to prosecute attackers of American journalist",
+        "description": "Trump-appointed Ambassador Mike Huckabee calls attack in occupied West Bank a despicable act of terror.",
+        "fatalities": "0",
+        "link": "https://www.aljazeera.com/news/2026/10/17/us-ambassador-calls-on-israel-to-prosecute-settlers-over-journalist-attack?traffic_source=rss",
+        "critical": true
+    },
+    {
         "country": "USA",
         "city": "New york",
         "lat": 40.657007130939874,
@@ -3035,34 +3063,6 @@
         "description": "Qatar’s prime minister and minister of foreign affairs has reaffirmed his country’s support for Lebanon.",
         "fatalities": "0",
         "link": "https://www.aljazeera.com/video/newsfeed/2026/10/16/qatar-fm-calls-for-israeli-withdrawal-from-lebanon?traffic_source=rss",
-        "critical": false
-    },
-    {
-        "country": "Israel",
-        "city": "Tel Aviv",
-        "lat": 32.029743812187355,
-        "lon": 34.758230197138005,
-        "date": "2026-10-16 17:38:06",
-        "type": "Airstrike",
-        "severity": "critical",
-        "title": "Palestinians and US journalist injured by Israeli settlers in West Bank harvest attack",
-        "description": "The BBC sees masked settlers attack Palestinians trying to harvest olives, amid a surge in similar incidents.",
-        "fatalities": "0",
-        "link": "https://www.bbc.co.uk/news/articles/c65ynk7212vqo?at_medium=RSS&at_campaign=rss",
-        "critical": true
-    },
-    {
-        "country": "Ukraine",
-        "city": "Kyiv",
-        "lat": 50.49533720032059,
-        "lon": 30.56348276101141,
-        "date": "2026-10-16 17:38:06",
-        "type": "Clashes",
-        "severity": "middle",
-        "title": "Inside Ukrainian offensive pushing Russia back - with Starlink playing a key role",
-        "description": "The BBC joins Ukraine's Operation Vivaldi as it regains crucial territory in the Donbas, but optimism has been dampened by souring relations with President Trump.",
-        "fatalities": "0",
-        "link": "https://www.bbc.co.uk/news/articles/cvx284w16z1po?at_medium=RSS&at_campaign=rss",
         "critical": false
     }
 ]
